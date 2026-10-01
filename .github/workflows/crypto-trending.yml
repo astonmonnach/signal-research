@@ -1,7 +1,7 @@
 name: crypto-trending
 
-# Every 30 min. GitHub's free private-repo allowance is 2,000 min/month, and this uses ~1,440.
-# GitHub can delay scheduled runs by a few minutes, which the collector's time windows allow for.
+# C1 (trending tokens) every 30 min; C2 (smart-wallet convergence) every 2 hours.
+# Free private-repo allowance is 2,000 min/month: C1 ~1,440 + C2 ~360-720.
 on:
   schedule:
     - cron: "*/30 * * * *"
@@ -17,20 +17,32 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
+    env:
+      GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run collector
+      - name: C1 trending collector
         run: python collectors/crypto_trending.py
+      - name: C2 convergence collector (even hours, needs GMGN_API_KEY secret)
+        if: env.GMGN_API_KEY != ''
+        continue-on-error: true
+        run: |
+          H=$(date -u +%H); M=$(date -u +%M)
+          if [ $((10#$H % 2)) -ne 0 ] || [ $((10#$M)) -ge 30 ]; then
+            [ "${{ github.event_name }}" != "workflow_dispatch" ] && { echo "not a C2 slot"; exit 0; }
+          fi
+          npm install -g gmgn-cli@1.5.6 --silent
+          timeout 600 python collectors/c2_convergence.py
       - name: Commit data
         run: |
           git config user.name "signal-lab-bot"
           git config user.email "signal-lab-bot@users.noreply.github.com"
           git add data/crypto/
           git diff --cached --quiet && exit 0
-          git commit -m "crypto-trending $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "crypto collectors $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
           exit 1
