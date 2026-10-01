@@ -1,5 +1,5 @@
 # MTUS: Metallus Inc.
-Strategy: `S1_CONTRACT_MCAP` v1 · Signal: `S1-2026-09-25-MTUS-SP8000-26-D-0032` · Status: PLANNED (trade #1) · Written 2026-10-01, before entry
+Strategy: `S1_CONTRACT_MCAP` v1 · Signal: `S1-2026-09-25-MTUS-SP8000-26-D-0032` · Status: OPEN (trade #1): bought 3 @ $19.368 on 1 Oct 2026, 20:18 UK; fees $2.58 incl. FX · Written 2026-10-01, before entry
 
 ## The trigger
 On 25 Sep 2026 (after the close), the DLA awarded Metallus a **sole-source, firm-fixed-price contract worth up to $995M** for High Fragmentation 1 steel (artillery shells). It runs 5 years to 24 Sep 2031 with no option periods.
