@@ -24,7 +24,7 @@ HORIZONS = {"1h": timedelta(hours=1), "6h": timedelta(hours=6), "24h": timedelta
 SIG_COLS = ["signal_id", "detected_at_utc", "pool", "token", "name", "dex", "first_list", "first_rank", "boosted",
             "boost_amount", "price_usd", "liquidity_usd", "mcap_usd", "fdv_usd", "pool_age_h", "chg_5m", "chg_1h",
             "chg_6h", "chg_24h", "vol_1h", "buys_1h", "sells_1h", "buyers_1h", "est_cost_pct"]
-OUT_COLS = ["signal_id", "horizon", "checked_at_utc", "price_usd", "liquidity_usd", "ret_pct", "ret_net_pct", "rugged"]
+OUT_COLS = ["signal_id", "horizon", "checked_at_utc", "elapsed_h", "late", "price_usd", "liquidity_usd", "ret_pct", "ret_net_pct", "rugged"]
 
 
 def get(url):
@@ -112,10 +112,11 @@ def main():
     for s in signals:
         t0 = datetime.fromisoformat(s["detected_at_utc"].replace("Z", "+00:00"))
         for h, dt in HORIZONS.items():
-            # record within a grace window so "1h" means ~1h, not whenever the next run happened to be
-            if (s["signal_id"], h) not in done and t0 + dt <= now <= t0 + dt * 1.5 + timedelta(minutes=30):
-                due.append((s, h))
-    pools = list({s["pool"] for s, _ in due})
+            # record at the first run after the horizon passes; GitHub's schedule can run late,
+            # so the actual elapsed time is stored and late checks are flagged instead of skipped
+            if (s["signal_id"], h) not in done and t0 + dt <= now:
+                due.append((s, h, (now - t0).total_seconds() / 3600, now > t0 + dt * 1.5 + timedelta(minutes=30)))
+    pools = list({s["pool"] for s, *_ in due})
     info = {}
     for i in range(0, len(pools), 30):                 # multi endpoint takes up to 30 pools
         data = get(f"{GT}/networks/solana/pools/multi/{','.join(pools[i:i + 30])}")
@@ -123,18 +124,20 @@ def main():
         for p in (data or {}).get("data", []):
             info[p["attributes"]["address"]] = p["attributes"]
     out_rows = []
-    for s, h in due:
+    for s, h, elapsed, late in due:
         a = info.get(s["pool"])
         p0, l0 = f(s["price_usd"]), f(s["liquidity_usd"])
         if a is None:                                  # pool gone from the API: treat as dead
             out_rows.append({"signal_id": s["signal_id"], "horizon": h, "checked_at_utc": stamp,
+                             "elapsed_h": round(elapsed, 2), "late": late,
                              "ret_pct": -100, "ret_net_pct": -100, "rugged": "missing"})
             continue
         p1, l1 = f(a.get("base_token_price_usd")), f(a.get("reserve_in_usd"))
         ret = (p1 / p0 - 1) * 100 if p0 and p1 else None
         cost = f(s["est_cost_pct"]) or 0
         rug = bool(l0 and l1 is not None and l1 < 0.1 * l0)
-        out_rows.append({"signal_id": s["signal_id"], "horizon": h, "checked_at_utc": stamp, "price_usd": p1,
+        out_rows.append({"signal_id": s["signal_id"], "horizon": h, "checked_at_utc": stamp,
+                         "elapsed_h": round(elapsed, 2), "late": late, "price_usd": p1,
                          "liquidity_usd": l1, "ret_pct": None if ret is None else round(ret, 2),
                          "ret_net_pct": None if ret is None else round(max(ret - cost, -100), 2), "rugged": rug})
     append(OUTCOMES, OUT_COLS, out_rows)
