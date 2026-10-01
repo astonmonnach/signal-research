@@ -1,0 +1,36 @@
+name: crypto-trending
+
+# Every 30 min. GitHub's free private-repo allowance is 2,000 min/month, and this uses ~1,440.
+# GitHub can delay scheduled runs by a few minutes, which the collector's time windows allow for.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-trending
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run collector
+        run: python collectors/crypto_trending.py
+      - name: Commit data
+        run: |
+          git config user.name "signal-lab-bot"
+          git config user.email "signal-lab-bot@users.noreply.github.com"
+          git add data/crypto/
+          git diff --cached --quiet && exit 0
+          git commit -m "crypto-trending $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1
