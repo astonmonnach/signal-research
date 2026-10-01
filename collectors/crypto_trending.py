@@ -139,7 +139,9 @@ def main():
         out_rows.append({"signal_id": s["signal_id"], "horizon": h, "checked_at_utc": stamp,
                          "elapsed_h": round(elapsed, 2), "late": late, "price_usd": p1,
                          "liquidity_usd": l1, "ret_pct": None if ret is None else round(ret, 2),
-                         "ret_net_pct": None if ret is None else round(max(ret - cost, -100), 2), "rugged": rug})
+                         # liquidity pulled: the price may still show a gain, but there's nothing left to sell into
+                         "ret_net_pct": -100 if rug else (None if ret is None else round(max(ret - cost, -100), 2)),
+                         "rugged": rug})
     append(OUTCOMES, OUT_COLS, out_rows)
     print(f"{stamp}: {len(new_rows)} new trending pools logged ({len(signals)} total), {len(out_rows)} outcomes recorded")
 
