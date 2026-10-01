@@ -1,1 +1,2 @@
 id,strategy,signal_id,idea_file,asset_class,symbol,account,setup,direction,currency,quantity,entry_date,entry_time,entry,stop,target,confidence_pre,state_pre,exit_date,exit_time,exit,exit_reason,fees_total,followed_plan,mistakes,catalyst,fx_to_gbp,screenshot,notes
+1,S1_CONTRACT_MCAP,S1-2026-09-25-MTUS-SP8000-26-D-0032,ideas/MTUS.md,STOCK,MTUS,LIVE,SWING,LONG,USD,,,,,17.00,,,,,,,,,,,CONTRACT,,,"PLANNED 2026-10-01: fill entry_date/time, entry, quantity, fees, confidence_pre, state_pre once filled. Exit plan in idea file."
