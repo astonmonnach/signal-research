@@ -34,6 +34,12 @@ Unknown. Watch for:
 - The legacy PFAS liabilities stay with New Corteva.
 - **Not yet known:** market value. Fill this in after the first week of trading: EV/EBITDA against seed peers.
 
+## Day 1 (1 Oct 2026, ~20:10 UK, intraday)
+- VYLR opened **$66.00**, high **$74.95**, low **$65.00**, last **$68.13**; 6.86M shares traded.
+- CTVA (ex-seed) **$12.31**, against $79.45 before the spin.
+- Combined **$80.44 vs $79.45**, so the split added about **+1.2%**.
+- **The market puts ~85% of the combined value in Vylor**, though Vylor has 66% of the EBITDA. That's a steep discount on New Corteva, which keeps the crop-protection business and the PFAS liabilities.
+
 ## Plan (revised 2026-09-30 after the spin-off backtest)
 - Rule v1 is retired. Across 22 recent spins, the low typically came around **day 28**, not day 10, at a median of about −14% from the day-1 close.
 - **VYLR is now an observation case, not a trade.** Record the day-1 close, the post-spin low and the day it comes, then the prices at +60 and +120 trading days. This adds one data point to the spin-off v2 test.
