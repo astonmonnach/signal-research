@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vylor Spin-Off</title>
+<style>
+:root{
+  --text:#0b0b0b;--text2:#52514e;--muted:#898781;--surface:#fcfcfb;--page:#f9f9f7;
+  --grid:#e1e0d9;--base:#c3c2b7;--pos:#2a78d6;--neg:#e34948;--zero:#f0efec;--s2:#eb6834;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --text:#ffffff;--text2:#c3c2b7;--muted:#898781;--surface:#1a1a19;--page:#0d0d0d;
+    --grid:#2c2c2a;--base:#383835;--pos:#3987e5;--neg:#e66767;--zero:#383835;--s2:#d95926;
+  }
+}
+:root[data-theme="dark"]{
+  --text:#ffffff;--text2:#c3c2b7;--muted:#898781;--surface:#1a1a19;--page:#0d0d0d;
+  --grid:#2c2c2a;--base:#383835;--pos:#3987e5;--neg:#e66767;--zero:#383835;--s2:#d95926;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+header .kicker{color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+h1{font-size:30px;line-height:1.15;margin:6px 0 10px}
+.thesis{font-size:18px;color:var(--text2);margin:0}
+.verdict{display:inline-block;margin-top:14px;padding:4px 10px;border:1px solid var(--base);border-radius:999px;font-size:13px;color:var(--text2)}
+section{background:var(--surface);border:1px solid var(--grid);border-radius:12px;padding:20px;margin-top:20px}
+h2{font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+h3{font-size:20px;margin:0 0 12px}
+p{margin:0 0 12px}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.stat{border:1px solid var(--grid);border-radius:10px;padding:10px 12px}
+.stat b{display:block;font-size:22px}
+.stat span{font-size:13px;color:var(--text2)}
+.note{font-size:13px;color:var(--muted)}
+.chart{margin:16px 0 4px}
+.chart-title{font-weight:600;font-size:15px;margin-bottom:10px}
+/* grouped magnitude bars */
+.mrow{display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:center;margin:6px 0}
+.mlabel{font-size:14px;color:var(--text2)}
+.mtrack{position:relative;height:22px}
+.mbar{height:100%;border-radius:3px;display:flex;align-items:center}
+.mbar em{font-style:normal;font-size:13px;margin-left:calc(100% + 6px);white-space:nowrap;color:var(--text)}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--text2);margin:8px 0}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+/* diverging impact bars */
+.irow{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:10px;align-items:center;margin:8px 0}
+.ilabel{font-size:14px}
+.itrack{position:relative;height:24px;background:linear-gradient(var(--zero),var(--zero)) center/2px 100% no-repeat}
+.ibar{position:absolute;top:3px;height:18px;border-radius:3px}
+.ival{position:absolute;top:2px;font-size:13px;font-weight:600}
+.why{grid-column:2;font-size:13px;color:var(--text2);margin-top:-4px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.absent{border-left:3px solid var(--s2);padding-left:12px}
+.caption{white-space:pre-wrap;font-size:15px;border:1px dashed var(--base);border-radius:10px;padding:14px}
+footer{margin-top:24px;font-size:13px;color:var(--text2)}
+footer a{color:var(--pos);word-break:break-all}
+@media (max-width:520px){.mrow{grid-template-columns:90px 1fr}.irow{grid-template-columns:1fr}.why{grid-column:1}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="kicker">nth-order · spin-off · 29 Sep 2026</div>
+  <h1>Corteva splits in two on 1 Oct. Vylor gets the growth, Corteva keeps the PFAS.</h1>
+  <p class="thesis">The seed business leaves with 66% of the profit, about $5.7B of debt and none of the legacy DuPont PFAS liabilities. The first weeks of trading are a price-discovery fight, not a buy signal.</p>
+  <span class="verdict">Decision: WATCH, not a day-one trade</span>
+</header>
+
+<section>
+  <h2>Rung 1</h2>
+  <h3>What is it?</h3>
+  <p>Corteva (CTVA) is spinning off its seed business as <b>Vylor Inc. (NYSE: VYLR)</b>. Holders of record at the close on <b>24 Sep 2026</b> get <b>1 VYLR share per CTVA share</b>, distributed before the open on <b>1 Oct 2026</b>, when regular-way trading begins. There is <b>no when-issued trading</b>, so the market sees VYLR's price for the first time on day one. After the spin, Corteva keeps <b>no stake</b> in Vylor.</p>
+  <div class="stats">
+    <div class="stat"><b>$9.90B</b><span>Seed net sales, 2025</span></div>
+    <div class="stat"><b>$2.64B</b><span>Seed operating EBITDA, 2025 (+19% y/y)</span></div>
+    <div class="stat"><b>~$5.7B</b><span>Vylor debt expected at spin</span></div>
+    <div class="stat"><b>667M</b><span>CTVA shares, so ~667M VYLR shares</span></div>
+  </div>
+  <p class="note">Sales, EBITDA and debt come from the Vylor information statement (8-K Ex. 99.1, 24 Sep 2026). Share count is from the CTVA 10-Q cover (24 Jul 2026). VYLR shares ≈ CTVA shares because of the 1:1 ratio, minus cash paid in lieu of fractions.</p>
+</section>
+
+<section>
+  <h2>Rung 2</h2>
+  <h3>What does it actually mean?</h3>
+  <p>Corteva is separating a faster-growing, higher-margin business from a slower one. Seed is 57% of sales but <b>66% of segment EBITDA</b>, and seed EBITDA grew 19% in 2025 against 6% for crop protection.</p>
+
+  <div class="chart" role="img" aria-label="2025 net sales and segment operating EBITDA: Seed 9,898 and 2,636; Crop Protection 7,503 and 1,350, in millions of dollars">
+    <div class="chart-title">2025, $M: Seed (Vylor) vs Crop Protection (New Corteva)</div>
+    <div class="legend"><span><i class="sw" style="background:var(--pos)"></i>Seed → Vylor</span><span><i class="sw" style="background:var(--s2)"></i>Crop Protection → New Corteva</span></div>
+    <div class="mrow"><div class="mlabel">Net sales</div><div class="mtrack"><div class="mbar" style="width:78%;background:var(--pos)"><em>9,898</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:59.1%;background:var(--s2)"><em>7,503</em></div></div></div>
+    <div class="mrow"><div class="mlabel">Op. EBITDA</div><div class="mtrack"><div class="mbar" style="width:20.8%;background:var(--pos)"><em>2,636</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:10.6%;background:var(--s2)"><em>1,350</em></div></div></div>
+    <p class="note">Source: Vylor information statement, Corteva segment MD&A, year ended 31 Dec 2025. Same scale for all bars.</p>
+  </div>
+
+  <p><b>The liabilities are what separate the two companies.</b> The separation agreement says New Corteva "will retain" obligations for "historical PFAS and other environmental liabilities associated with legacy EIDP businesses", except any that are primarily seed-related. That puts the 2021 Chemours/DuPont PFAS MOU and settlements like the North Carolina deal on 9 Sep 2026 on the Corteva side. On that deal, Corteva's share is ~$66M and it guarantees 29% of Chemours' share. Vylor takes a fixed <b>62%</b> (the "Applicable Percentage") of only the narrower buckets: disclosure liabilities from the spin, shared spin costs, and orphan liabilities not on the schedules.</p>
+
+  <p><b>The balance sheet Vylor starts with:</b></p>
+  <ul>
+    <li>Pro forma at 30 Jun 2026: <b>$5,659M</b> of borrowings against <b>$1,100M</b> of cash, which is roughly 2.1× 2025 seed EBITDA (our arithmetic, not a company figure).</li>
+    <li><b>$3,078M</b> is on floating-rate revolving credit at an assumed 4.67%, and a commercial paper programme of up to $3.5B is planned.</li>
+    <li>Seed is a seasonal cash business, and the filing warns that spin-date balances "will differ" from the June pro forma.</li>
+  </ul>
+  <p>Vylor also expects about <b>$166M</b> of separation costs.</p>
+</section>
+
+<section>
+  <h2>Rung 3</h2>
+  <h3>Who's positively and negatively affected?</h3>
+  <div class="chart" role="img" aria-label="Impact scores from minus 5 to plus 5">
+    <div class="chart-title">Impact score, −5 to +5 (our judgement, reasoning below each bar)</div>
+
+    <div class="irow"><div class="ilabel">Vylor (VYLR) holders</div>
+      <div class="itrack"><div class="ibar" style="left:50%;width:30%;background:var(--pos)"></div><div class="ival" style="left:calc(80% + 6px)">+3</div></div>
+      <div class="why">Pure seed and trait growth story with 66% of the EBITDA and none of the legacy PFAS.</div></div>
+
+    <div class="irow"><div class="ilabel">Advisers &amp; banks</div>
+      <div class="itrack"><div class="ibar" style="left:50%;width:10%;background:var(--pos)"></div><div class="ival" style="left:calc(60% + 6px)">+1</div></div>
+      <div class="why">~$166M of separation costs, plus a new revolver and CP programme to arrange.</div></div>
+
+    <div class="irow"><div class="ilabel">CTVA index &amp; income holders</div>
+      <div class="itrack"><div class="ibar" style="left:40%;width:10%;background:var(--neg)"></div><div class="ival" style="right:calc(60% + 6px)">−1</div></div>
+      <div class="why">The filing warns index funds "may be required to sell" VYLR if it isn't in their index at the spin.</div></div>
+
+    <div class="irow"><div class="ilabel">DuPont / Chemours</div>
+      <div class="itrack"><div class="ibar" style="left:40%;width:10%;background:var(--neg)"></div><div class="ival" style="right:calc(60% + 6px)">−1</div></div>
+      <div class="why">Their PFAS cost-sharing partner becomes a smaller company with 34% of the old EBITDA.</div></div>
+
+    <div class="irow"><div class="ilabel">New Corteva (CTVA)</div>
+      <div class="itrack"><div class="ibar" style="left:30%;width:20%;background:var(--neg)"></div><div class="ival" style="right:calc(70% + 6px)">−2</div></div>
+      <div class="why">Keeps the slower segment and the legacy PFAS and environmental liabilities.</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Rung 4</h2>
+  <h3>What could this mean in the near future?</h3>
+  <table>
+    <tr><th>Scenario</th><th>What happens</th><th>Anchored to</th></tr>
+    <tr><td><b>Bear</b> (for a day-one buyer)</td><td>Holders who never chose seed exposure sell VYLR over the first weeks, and a floating-rate debt load at the seasonal peak weighs on it.</td><td>The filing's own index-fund risk factor, plus no when-issued market to set a price before 1 Oct.</td></tr>
+    <tr><td><b>Base</b></td><td>A choppy 2–6 week price-discovery period until the first standalone results and a first dividend declaration give it a valuation anchor.</td><td>First standalone quarterly report (Corteva reported Q2 on 30 Jul, so Q3 lands around early Nov) and "we expect that we will pay a quarterly dividend".</td></tr>
+    <tr><td><b>Bull</b></td><td>The market re-rates seed as a growth business apart from crop protection, and the sum of the parts beats the old CTVA.</td><td>2025 seed EBITDA +19% with margin up ~340bp (filing). The filing itself warns the combined value may be less than pre-spin Corteva.</td></tr>
+  </table>
+  <p style="margin-top:14px"><b>Signals to watch:</b></p>
+  <ul>
+    <li><b>1 Oct:</b> VYLR's first print, and the combined VYLR + CTVA value against CTVA's 30 Sep close.</li>
+    <li>Any S&amp;P Dow Jones Indices notice on how VYLR is treated. Before the spin that decides whether index funds are forced sellers.</li>
+    <li>Final results of the EIDP-for-Vylor note exchange, and the actual spin-date debt against the $5.7B guide.</li>
+    <li>First dividend declaration and the first standalone quarterly report.</li>
+  </ul>
+</section>
+
+<section class="absent">
+  <h2>What the filings don't say</h2>
+  <ul>
+    <li><b>No index decision found.</b> We searched S&amp;P DJI for a VYLR announcement and found nothing. Whether index funds are forced to sell is still open.</li>
+    <li><b>No dividend amount.</b> The filing only says Vylor "expect[s]" to pay a quarterly dividend.</li>
+    <li><b>No explanation for CTVA's September slide.</b> CTVA fell from $89.97 (2 Sep) to $77.87 (29 Sep), −13%. None of Corteva's 8-Ks from 10–25 Sep explains it: they cover the NC PFAS settlement, the Form 10 amendment and the record-date notice. We don't attribute a cause.</li>
+    <li><b>No standalone VYLR valuation.</b> Nothing traded before the spin, so any price target now is a guess.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Already run?</h2>
+  <p>VYLR can't have run because it hasn't traded yet. CTVA, the parent, is <b>+15% over a year</b> ($67.63 → $77.87) but <b>−13% since 2 Sep</b>. The edge, if any, comes <i>after</i> day one. The plan is to let the forced and indifferent selling show itself, then look for a base after the index decision and the first results.</p>
+  <p class="note">Sizing note for this account: at ~£45 a position, VYLR needs fractional shares. Stock commissions are small next to the likely swings. No position is taken on day one.</p>
+</section>
+
+<section>
+  <h2>Draft X post</h2>
+  <div class="caption">Corteva splits on Oct 1.
+
+Read the separation agreement, not the headline:
+• Vylor (seed) leaves with 66% of the EBITDA
+• ~$5.7B of debt goes with it
+• the legacy DuPont PFAS liabilities stay with Corteva
+
+No when-issued trading, so day one is price discovery.
+
+I'm watching $VYLR, not buying the open. Deep dive below 👇
+Not financial advice.</div>
+</section>
+
+<footer>
+  <b>Sources</b> (all primary, opened for this page)
+  <ul>
+    <li>Vylor information statement, 8-K Ex. 99.1, 24 Sep 2026: <a href="https://www.sec.gov/Archives/edgar/data/2128626/000119312526402928/ck0002128626-ex99_1.htm">sec.gov/…/ck0002128626-ex99_1.htm</a></li>
+    <li>Vylor 8-K (Form 10 effective, distribution 1 Oct): <a href="https://www.sec.gov/Archives/edgar/data/2128626/000119312526402928/ck0002128626-20260924.htm">sec.gov/…/ck0002128626-20260924.htm</a></li>
+    <li>Corteva press release, Form 10 effective, no when-issued trading: <a href="https://www.sec.gov/Archives/edgar/data/2128626/000119312526401621/d118532dex991.htm">sec.gov/…/d118532dex991.htm</a></li>
+    <li>Corteva 8-K, North Carolina PFAS settlement, 9 Sep 2026: <a href="https://www.sec.gov/Archives/edgar/data/1755672/000119312526387254/d121501d8k.htm">sec.gov/…/d121501d8k.htm</a></li>
+    <li>Corteva 8-K, Form 10 Amendment No. 3, 21 Sep 2026: <a href="https://www.sec.gov/Archives/edgar/data/1755672/000119312526396123/d144225d8k.htm">sec.gov/…/d144225d8k.htm</a></li>
+    <li>CTVA shares outstanding (10-Q cover, XBRL): <a href="https://data.sec.gov/api/xbrl/companyconcept/CIK0001755672/dei/EntityCommonStockSharesOutstanding.json">data.sec.gov/…/EntityCommonStockSharesOutstanding.json</a></li>
+    <li>CTVA prices: <a href="https://query1.finance.yahoo.com/v8/finance/chart/CTVA?range=1y&amp;interval=1d">query1.finance.yahoo.com/v8/finance/chart/CTVA</a></li>
+  </ul>
+  <p class="note">Research, not a recommendation. Impact scores are judgements; every charted number traces to the sources above.</p>
+</footer>
+</main>
+</body>
+</html>

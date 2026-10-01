@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//catalyst-research//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:catalyst-20261001T143000-0@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261001T143000
+DTEND;TZID=Europe/London:20261001T150000
+SUMMARY:📈 VYLR first day of trading (+ THRM/Modine deal closes)
+DESCRIPTION:Observation only\, no trade. Record the day-1 open\, close and volume in ideas/VYLR.md. Compare VYLR + CTVA with CTVA's 30 Sep close ($77.87).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261002T170000-1@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261002T170000
+DTEND;TZID=Europe/London:20261002T173000
+SUMMARY:💷 Fund accounts: £110 IBKR (…67), £200 ISA (…66), £200 Noxarquant
+DESCRIPTION:ISA: global index fund only. In IBKR\, think about converting to USD once.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261005T143000-2@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261005T143000
+DTEND;TZID=Europe/London:20261005T150000
+SUMMARY:📈 TWST insider lock-up ends (watch only)
+DESCRIPTION:60-day follow-on lock-up ends. The stock is +94% vs the $96 offer\, and Form 144s were filed 17–24 Sep.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261015T211500-3@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261015T211500
+DTEND;TZID=Europe/London:20261015T213000
+SUMMARY:📈 VYLR day-10 check (observation)
+DESCRIPTION:Log: price\, lowest close so far and the day it came\, volume vs day 1. No entry: spin-off rule v1 is retired.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261029T180000-4@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261029T180000
+DTEND;TZID=Europe/London:20261029T183000
+SUMMARY:📈 Re-check the 29 Sep catalyst scan (1 month)
+DESCRIPTION:Compare VYLR\, CTVA\, THRM\, HMH with research/scans/2026-09-29-dated-catalysts.md.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261110T211500-5@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261110T211500
+DTEND;TZID=Europe/London:20261110T213000
+SUMMARY:📈 VYLR ~day 28 check (typical spin-off low)
+DESCRIPTION:In the backtest the median low came around day 28\, about −14% from the day-1 close. Log where VYLR is against that.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261130T180000-6@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261130T180000
+DTEND;TZID=Europe/London:20261130T183000
+SUMMARY:📈 Re-check the 29 Sep catalyst scan (2 months)
+DESCRIPTION:VYLR\, CTVA\, THRM\, HMH vs the prices logged on 29 Sep.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-20261228T180000-7@catalyst-research
+DTSTAMP:20260930T145229Z
+DTSTART;TZID=Europe/London:20261228T180000
+DTEND;TZID=Europe/London:20261228T183000
+SUMMARY:📈 Re-check the first scan: WHF, CHDN, RYAM
+DESCRIPTION:3-month forward test of the 28 Sep strategic-alternatives scan.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

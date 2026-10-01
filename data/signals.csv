@@ -1,0 +1,1 @@
+signal_id,detected_at_utc,strategy,version,market,source,source_url,entity_raw,ticker,match_confidence,event_summary,award_type,value_usd,obligated_usd,mcap_usd,materiality,price_at_detect,first_tradeable_price,pre_move_5d_pct,est_cost_pct,regime_tags,decision,decision_reason,x_post_url,notes
