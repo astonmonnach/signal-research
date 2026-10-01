@@ -1,1 +1,59 @@
 name_as_seen,source,parent_name,ticker,market,confidence,verified_how,date_added
+Lockheed Martin,dod,Lockheed Martin Corp,LMT,US,high,parent name,2026-10-01
+Sikorsky,dod,Lockheed Martin Corp,LMT,US,high,LMT subsidiary,2026-10-01
+Raytheon,dod,RTX Corp,RTX,US,high,RTX segment,2026-10-01
+RTX,dod,RTX Corp,RTX,US,high,parent name,2026-10-01
+Pratt & Whitney,dod,RTX Corp,RTX,US,high,RTX segment,2026-10-01
+Collins Aerospace,dod,RTX Corp,RTX,US,high,RTX segment,2026-10-01
+The Boeing Co,dod,Boeing Co,BA,US,high,parent name,2026-10-01
+Boeing,dod,Boeing Co,BA,US,high,parent name,2026-10-01
+General Dynamics,dod,General Dynamics Corp,GD,US,high,parent name,2026-10-01
+Electric Boat,dod,General Dynamics Corp,GD,US,high,GD subsidiary,2026-10-01
+Bath Iron Works,dod,General Dynamics Corp,GD,US,high,GD subsidiary,2026-10-01
+National Steel and Shipbuilding,dod,General Dynamics Corp,GD,US,high,GD subsidiary (NASSCO),2026-10-01
+Gulfstream Aerospace,dod,General Dynamics Corp,GD,US,high,GD subsidiary,2026-10-01
+Northrop Grumman,dod,Northrop Grumman Corp,NOC,US,high,parent name,2026-10-01
+L3Harris,dod,L3Harris Technologies,LHX,US,high,parent name,2026-10-01
+Aerojet Rocketdyne,dod,L3Harris Technologies,LHX,US,high,LHX subsidiary,2026-10-01
+Huntington Ingalls,dod,Huntington Ingalls Industries,HII,US,high,parent name,2026-10-01
+Newport News Shipbuilding,dod,Huntington Ingalls Industries,HII,US,high,HII division,2026-10-01
+Ingalls Shipbuilding,dod,Huntington Ingalls Industries,HII,US,high,HII division,2026-10-01
+BAE Systems,dod,BAE Systems plc,BA.L,UK,high,UK-listed parent (LSE),2026-10-01
+Leidos,dod,Leidos Holdings,LDOS,US,high,parent name,2026-10-01
+Booz Allen Hamilton,dod,Booz Allen Hamilton Holding,BAH,US,high,parent name,2026-10-01
+CACI,dod,CACI International,CACI,US,high,parent name,2026-10-01
+Science Applications International,dod,SAIC,SAIC,US,high,parent name,2026-10-01
+Parsons,dod,Parsons Corp,PSN,US,medium,parent name (check: many private Parsons entities),2026-10-01
+KBR,dod,KBR Inc,KBR,US,high,parent name,2026-10-01
+Textron,dod,Textron Inc,TXT,US,high,parent name,2026-10-01
+Bell Textron,dod,Textron Inc,TXT,US,high,TXT subsidiary,2026-10-01
+Honeywell,dod,Honeywell International,HON,US,high,parent name,2026-10-01
+GE Aerospace,dod,GE Aerospace,GE,US,high,parent name,2026-10-01
+General Electric,dod,GE Aerospace,GE,US,high,parent name,2026-10-01
+Oshkosh,dod,Oshkosh Corp,OSK,US,high,parent name,2026-10-01
+Leonardo DRS,dod,Leonardo DRS,DRS,US,high,parent name,2026-10-01
+Oceaneering International,dod,Oceaneering International,OII,US,high,parent name,2026-10-01
+AAR,dod,AAR Corp,AIR,US,high,AAR subsidiaries (AAR Aircraft Component Services etc),2026-10-01
+Amentum,dod,Amentum Holdings,AMTM,US,high,parent name,2026-10-01
+Accenture Federal Services,dod,Accenture plc,ACN,US,high,ACN US federal subsidiary,2026-10-01
+CAE USA,dod,CAE Inc,CAE,US,high,CAE US subsidiary,2026-10-01
+Curtiss-Wright,dod,Curtiss-Wright Corp,CW,US,high,parent name,2026-10-01
+Eaton,dod,Eaton Corp plc,ETN,US,high,Eaton division,2026-10-01
+Elbit Systems,dod,Elbit Systems Ltd,ESLT,US,high,Elbit subsidiaries,2026-10-01
+Jacobs Government Services,dod,Jacobs Solutions,J,US,high,Jacobs subsidiary,2026-10-01
+Kongsberg Defence,dod,Kongsberg Gruppen ASA,KOG.OL,NO,high,Oslo-listed parent,2026-10-01
+Leonardo Electronics US,dod,Leonardo SpA,LDO.MI,IT,medium,Leonardo SpA US subsidiary (not DRS) - verify,2026-10-01
+Moog,dod,Moog Inc,MOG-A,US,high,parent name,2026-10-01
+Olin Winchester,dod,Olin Corp,OLN,US,high,Winchester is Olin's ammunition division,2026-10-01
+Quanta Government Solutions,dod,Quanta Services,PWR,US,high,Quanta subsidiary,2026-10-01
+Rockwell Collins,dod,RTX Corp,RTX,US,high,legacy name of Collins Aerospace,2026-10-01
+Shimmick Construction,dod,Shimmick Corp,SHIM,US,high,operating subsidiary of SHIM,2026-10-01
+Stantec,dod,Stantec Inc,STN,US,high,Stantec subsidiary,2026-10-01
+V2X,dod,V2X Inc,VVX,US,high,parent name,2026-10-01
+Woodward,dod,Woodward Inc,WWD,US,high,Woodward subsidiary (HRT),2026-10-01
+Hydro-Aire,dod,Crane Co,CR,US,medium,Hydro-Aire is part of Crane Aerospace & Electronics - verify Exhibit 21,2026-10-01
+Everforth ECS Federal,dod,Everforth Inc,EFOR,US,medium,ECS Federal subsidiary - verify parent rename,2026-10-01
+Elmet Technologies,dod,Elmet Group Co,ELMT,US,medium,verify Elmet Technologies LLC is the ELMT operating sub,2026-10-01
+Rio Tinto Services,dod,Rio Tinto,RIO,US,high,Rio Tinto subsidiary,2026-10-01
+BP Products North America,dod,BP plc,BP,US,high,BP subsidiary,2026-10-01
+Dominion Privatization,dod,Dominion Energy,D,US,medium,Dominion Energy utility-privatization sub - verify,2026-10-01
