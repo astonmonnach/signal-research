@@ -106,4 +106,17 @@ DESCRIPTION:Reminder
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:catalyst-mtus-q3-2026@catalyst-research
+DTSTAMP:20261001T192700Z
+DTSTART:20261106T140000Z
+DTEND:20261106T150000Z
+SUMMARY:📈 MTUS Q3 earnings call: thesis check for trade #1
+DESCRIPTION:Look for HF-1 / defence volumes\, backlog\, and guidance tied to the $995M DLA award. Exit if no defence order growth. Source: quartr.com via Bigdata.com
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
 END:VCALENDAR

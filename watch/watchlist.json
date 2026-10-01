@@ -1,4 +1,12 @@
 {
   "_note": "Tickers to watch for new SEC filings. Add or remove freely; CIKs are looked up automatically.",
-  "tickers": ["VYLR", "CTVA", "THRM", "MOD", "HMH", "TWST"]
+  "tickers": [
+    "VYLR",
+    "CTVA",
+    "THRM",
+    "MOD",
+    "HMH",
+    "TWST",
+    "MTUS"
+  ]
 }

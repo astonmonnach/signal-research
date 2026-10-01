@@ -22,7 +22,7 @@ On 25 Sep 2026 (after the close), the DLA awarded Metallus a **sole-source, firm
 ## Plan
 - **Entry:** limit order near the ask while the US market is open (2:30–9pm UK). Bid/ask at 1 Oct ~19:30 UK was $19.26 / $19.29. Fractional shares, about $65 after FX.
 - **Invalidation (exit):** a **daily close below $17.00** (−12%), or **Q3 results (early Nov)** showing no defence/order growth and no mention of the contract.
-- **Thesis check:** Q3 earnings call and 10-Q. Look for HF-1 / defence volumes, backlog, and any guidance tied to the award.
+- **Thesis check:** Q3 earnings call **6 Nov 2026, 14:00 UK** (Bigdata.com / Quartr) and the 10-Q. Look for HF-1 / defence volumes, backlog, and any guidance tied to the award.
 - **Time:** hold at least through Q3 results, and review at +60 trading days.
 - **Target:** none fixed. It's re-rated by the evidence at Q3, not by a chart level.
 - **Size:** the whole £50 test account (~$65). The maximum loss is the £50, and it's capital treated as real.
