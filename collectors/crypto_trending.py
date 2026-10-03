@@ -117,14 +117,19 @@ def main():
             if (s["signal_id"], h) not in done and t0 + dt <= now:
                 due.append((s, h, (now - t0).total_seconds() / 3600, now > t0 + dt * 1.5 + timedelta(minutes=30)))
     pools = list({s["pool"] for s, *_ in due})
-    info = {}
+    info, checked = {}, set()
     for i in range(0, len(pools), 30):                 # multi endpoint takes up to 30 pools
         data = get(f"{GT}/networks/solana/pools/multi/{','.join(pools[i:i + 30])}")
         time.sleep(2.5)
-        for p in (data or {}).get("data", []):
+        if data is None:          # request failed (rate limit): retry these pools next run, don't score them
+            continue
+        checked.update(pools[i:i + 30])
+        for p in data.get("data", []):
             info[p["attributes"]["address"]] = p["attributes"]
     out_rows = []
     for s, h, elapsed, late in due:
+        if s["pool"] not in checked:
+            continue
         a = info.get(s["pool"])
         p0, l0 = f(s["price_usd"]), f(s["liquidity_usd"])
         if a is None:                                  # pool gone from the API: treat as dead

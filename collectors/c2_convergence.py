@@ -134,14 +134,19 @@ def main():
             if (s["signal_id"], h) not in done and t0 + dt <= now:
                 due.append((s, h, (now - t0).total_seconds() / 3600, now > t0 + dt * 1.5 + timedelta(minutes=30)))
     pools = list({s["pool"] for s, *_ in due})
-    info = {}
+    info, checked = {}, set()
     for i in range(0, len(pools), 30):
         d = get(f"{GT}/networks/solana/pools/multi/{','.join(pools[i:i + 30])}")
         time.sleep(2.5)
-        for p in (d or {}).get("data", []):
+        if d is None:             # request failed: retry next run instead of scoring as missing
+            continue
+        checked.update(pools[i:i + 30])
+        for p in d.get("data", []):
             info[p["attributes"]["address"]] = p["attributes"]
     out_rows = []
     for s, h, elapsed, late in due:
+        if s["pool"] not in checked:
+            continue
         a = info.get(s["pool"])
         p0, l0 = f(s["price_usd"]), f(s["liquidity_usd"])
         base = {"signal_id": s["signal_id"], "horizon": h, "checked_at_utc": stamp,
