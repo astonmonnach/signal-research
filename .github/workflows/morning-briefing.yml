@@ -1,0 +1,55 @@
+name: morning-briefing
+
+# Weekdays 05:30 UTC (06:30 UK in summer, 05:30 in winter). The evening Claude job
+# (21:30 UK) writes the SEC/DoD triage; this job adds positions, press releases,
+# commodities/peers and the ledger, then sends one briefing to Discord/Telegram.
+on:
+  schedule:
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-briefing
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Positions and NQ regime
+        continue-on-error: true
+        run: |
+          python collectors/positions.py
+          python collectors/nq_regime.py
+      - name: Press releases (trusted wires)
+        continue-on-error: true
+        run: python collectors/press_wires.py
+      - name: Commodities and peer moves
+        continue-on-error: true
+        run: python collectors/market_context.py
+      - name: Ledger
+        continue-on-error: true
+        run: python ledger/build_ledger.py
+      - name: Briefing (write + send)
+        run: python briefing/morning.py
+      - name: Commit outputs
+        run: |
+          git config user.name "signal-lab-bot"
+          git config user.email "signal-lab-bot@users.noreply.github.com"
+          git add -A watch/ ledger/ briefings/ data/press/ data/context/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "morning briefing $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

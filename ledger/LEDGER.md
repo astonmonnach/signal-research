@@ -17,7 +17,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | activist_13d | +1 | 6 | -3.4% | -1.8% | 1/6 |
 | delisting | 0 (track) | 3 | raw -1.8% | raw -1.1% | n/a |
 | idea_catalyst | +1 | 3 | -4.5% | -0.4% | 0/3 |
-| idea_merger | 0 (track) | 2 | raw -2.9% | raw -2.9% | n/a |
+| idea_merger | 0 (track) | 2 | raw +0.2% | raw +0.2% | n/a |
 | idea_overhang | +0 | 1 | -2.6% | -2.6% | 0/1 |
 | idea_spinoff | 0 (track) | 2 | raw -0.2% | raw -0.2% | n/a |
 | ipo_priced | 0 (track) | 2 | raw -18.4% | raw -18.4% | n/a |
@@ -122,7 +122,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-09-29 | SSTI | 8k_reverse_split | -1 | 8.21 | 8.21 | 8.33 | +1.5% | +1.5% | +0.5% | -1.0% | 2 |
 | 2026-09-29 | SURG | 8k_reverse_split | -1 | 0.15 | 0.15 | 0.15 | -2.6% | +0.7% | +0.5% | -0.2% | 2 |
 | 2026-09-29 | TDG | 8k_tender_offer | +0 | 1099.79 | 1099.36 | 1090.38 | -0.9% | -0.8% | +0.5% |  | 2 |
-| 2026-09-29 | THRM | idea_merger | +0 | 33.92 | 34.08 | 31.30 | -7.7% | -8.2% | +0.5% |  | 2 |
+| 2026-09-29 | THRM | idea_merger | +0 | 33.92 | 34.08 | 31.30 | -1.6% | -2.1% | +0.5% |  | 2 |
 | 2026-09-29 | TRUG | 8k_reverse_split | -1 | 2.96 | 2.75 | 2.64 | -10.8% | -4.0% | +0.5% | +4.5% | 2 |
 | 2026-09-29 | UTMD | tender_issuer_buyback | +1 | 74.95 | 74.95 | 74.13 | -1.1% | -1.1% | +0.5% | -1.6% | 2 |
 | 2026-09-29 | VRME | 8k_reverse_split | -1 |  | 8.13 | 8.98 |  | +10.5% | +0.5% | -10.0% | 0 |

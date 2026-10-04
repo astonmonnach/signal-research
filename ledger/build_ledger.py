@@ -107,7 +107,9 @@ def holder_value_now(ticker, entry_date, now_price):
     extra, notes = 0.0, []
     for a in corporate_actions():
         ex = dt.date.fromisoformat(a["ex_date"])
-        if a["ticker"] == ticker and entry_date < ex:
+        if a["ticker"] == ticker and entry_date <= ex and a["receive_ticker"] == "CASH":
+            extra += float(a["ratio"]); notes.append(f"+${a['ratio']} cash ({a['kind']})")
+        elif a["ticker"] == ticker and entry_date < ex:
             rb = yahoo(a["receive_ticker"])
             if rb:
                 extra += float(a["ratio"]) * rb[-1][2]
