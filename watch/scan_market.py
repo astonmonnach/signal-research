@@ -97,10 +97,17 @@ def main():
             acc, fname = h["_id"].split(":")
             url = f"https://www.sec.gov/Archives/edgar/data/{ciks[0]}/{acc.replace('-', '')}/{fname}"
             tk = "/".join(t for c in ciks for t in tickers.get(c, []))
-            entry = by_filing.setdefault(acc, [tk, url, []])
-            if p not in entry[2]:
-                entry[2].append(p)
-    phrase_hits = [f"- {v[0]}" if k.startswith("err-") else f"- **{v[0]}** {', '.join(v[2])} [8-K]({v[1]})"
+            items = s.get("items", []) or []
+            entry = by_filing.setdefault(acc, [tk, url, [], items])
+            # A director/officer 8-K (Item 5.02) without a business item (8.01/1.01/2.01) that
+            # mentions "strategic alternatives" is almost always a bio line (e.g. LWLG 29 Sep 2026).
+            label = p
+            if p.startswith("strategic") and "5.02" in items and not {"8.01", "1.01", "2.01"} & set(items):
+                label = f"bio-mention ({p})"
+            if label not in entry[2]:
+                entry[2].append(label)
+    phrase_hits = [f"- {v[0]}" if k.startswith("err-") else
+                   f"- **{v[0]}** {', '.join(v[2])} [8-K]({v[1]}) items {','.join(v[3]) or '?'}"
                    for k, v in by_filing.items()]
 
     n = sum(len(v) for v in hits.values()) + len(phrase_hits)

@@ -76,6 +76,7 @@ def rows_market_scans():
             tk, rest = m.group(1), m.group(2).lower()
             c = cat
             if cat == "8k":
+                rest = re.sub(r"bio-mention \([^)]*\),?", "", rest)  # rule 2026-10-04: director-bio mentions aren't strategic reviews
                 c = next((cc for p, cc in PHRASE_CATEGORY if p in rest), None)
                 if not c: continue
             out.append({"found": day, "source": f"market scan {f.stem}", "ticker": tk, "category": c,

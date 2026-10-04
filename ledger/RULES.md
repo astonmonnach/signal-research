@@ -20,3 +20,6 @@
 
 - Changing a direction after seeing results is a **new, dated rule**. The old rows keep their old rule.
 - Small samples prove nothing. Judge only after 30+ live items per category with 20+ trading days.
+
+## Rule changes (dated)
+- **2026-10-04: false positives.** From the 5 Oct scans on, an 8-K whose "strategic alternatives/review" hit is only in a director or officer filing (Item 5.02, with no 8.01/1.01/2.01) is tagged `bio-mention` and isn't counted as a strategic review. The trigger was LWLG on 29 Sep: a new director's bio. That row stays in the ledger as it was recorded.
