@@ -1,6 +1,6 @@
 # Ledger: 2026-10-04
 
-145 logged items · 100 live · 40 pending · 5 no price data
+155 logged items · 100 live · 50 pending · 5 no price data
 
 Entry = next session's open after the item was found. Control = IWM over the same window. Excess = direction × (return − IWM). **Days held are tiny: this is a log, not a result.**
 
@@ -147,9 +147,9 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-09-30 | TWST | idea_overhang | +0 | +13.1% | +3.8% | $350.5M | 193.24 | 193.10 | 188.67 | -2.4% | -2.3% | +1.5% |  | 1 |
 | 2026-10-01 | VYLR | idea_spinoff | +0 |  |  | $1025.0M | 68.26 | 68.71 | 67.26 | -1.5% | -2.1% | -0.3% |  | 0 |
 
-## Pending (40): enter at the next session open
+## Pending (50): enter at the next session open
 
-ADRX, AIXC, ATER, BNBX, BNS, BSEM, CNTM, COLA, CYCU, DARE, FDCT, FLEX, GBTG, GETY, GOW, HCAC, HCTI, HCWB, HZO, INM, JOB, KAVL, LGMK, MAXNQ, MKZR, NEOV, NNE, OPNW, PLRZ, SBFM, SILO, SSTI, TPST, UTZ, VACI, VCTR, VDTA, VTAK, XELB, ZDGE
+ADRX, AIXC, ATER, BNBX, BNS, BSEM, CNTM, COLA, CYAB, CYCU, DARE, DYAI, FDCT, FLD, FLEX, GBTG, GETY, GOVX, GOW, GWH, GXAI, HCAC, HCTI, HCWB, HZO, INM, JOB, KAVL, LGMK, MAXNQ, MKZR, NEOV, NNE, OPNW, PLRZ, POLA, SBFM, SILO, SNTI, SSTI, TPST, UTZ, VACI, VCTR, VDTA, VHUB, VTAK, XELB, ZDGE
 
 ## No price data (5): delisted, units/warrants or bad symbol
 
