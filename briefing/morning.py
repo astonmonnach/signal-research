@@ -78,13 +78,24 @@ def latest_triage():
     return f.name[:10], bullets
 
 
-def press(limit=12):
-    p = ROOT / "watch/press/latest.json"
-    if not p.exists(): return None
-    items = json.loads(p.read_text(encoding="utf-8"))
-    items = sorted(items, key=lambda x: (not str(x.get("matched_on", "")).startswith(("watchlist", "signal", "position")), x.get("published_utc", "")))
-    return [f"**{i.get('ticker') or '?'}** {i.get('title','')[:120]} ({i.get('wire','')}) <{i.get('link','')}> [{i.get('matched_on','')}]"
-            for i in items[:limit]], len(items)
+def press(limit=15):
+    """All wire hits found since the last briefing (24h; 72h on Mondays), from the daily CSVs."""
+    files = sorted((ROOT / "data/press").glob("*.csv"))
+    if not files: return None
+    window = dt.timedelta(hours=72 if TODAY.weekday() == 0 else 24)
+    items, seen = [], set()
+    for f in files[-4:]:
+        for r in csv.DictReader(open(f, encoding="utf-8", newline="")):
+            try:
+                t = dt.datetime.fromisoformat(r["published_utc"].replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if NOW - t <= window and r["link"] not in seen:
+                seen.add(r["link"]); items.append(r)
+    strong = ("position", "watchlist", "signal", "manual_call")
+    items.sort(key=lambda r: (not r["matched_on"].startswith(strong), r["published_utc"]))
+    return [f"**{r['ticker'] or '?'}** {r['title'][:120]} ({r['wire']}) <{r['link']}> [{r['matched_on'].split(';')[0]}]"
+            for r in items[:limit]], len(items)
 
 
 def context():
@@ -93,7 +104,17 @@ def context():
     d = json.loads(p.read_text(encoding="utf-8"))
     com = [c for c in d.get("commodities", []) if c.get("unusual")]
     lines = [f"{c['name']} ({c['symbol']}) {c['chg_1d']:+.1f}% 1d, {c['chg_5d']:+.1f}% 5d (z {c['z_1d']:+.1f})" for c in com]
+    ca = {}
+    cap = ROOT / "ledger/corporate_actions.csv"
+    if cap.exists():
+        for a in csv.DictReader(open(cap, encoding="utf-8")):
+            ex = dt.date.fromisoformat(a["ex_date"])
+            if TODAY - dt.timedelta(days=10) <= ex <= TODAY:
+                ca[a["ticker"]] = f"{a['kind'].replace('_', ' ')} on {ex:%d %b}"
     for t, v in d.get("tickers", {}).items():
+        if t in ca:
+            lines.append(f"**{t}**: move distorted by {ca[t]}, ignore the raw %")
+            continue
         if v.get("sympathy_flag"):
             lines.append(f"**{t}**: {v['sympathy_flag']} (self 5d {v.get('self_5d', 0):+.1f}% vs peer median {v.get('peer_median_5d', 0):+.1f}%)")
     return lines
@@ -148,7 +169,7 @@ def build():
     pr = press()
     if pr is not None:
         items, total = pr
-        L += [f"## Press releases (trusted wires, {total} new)"] + ([f"- {x}" for x in items] or ["- none"]) + [""]
+        L += [f"## Press releases (trusted wires, {total} since last briefing)"] + ([f"- {x}" for x in items] or ["- none"]) + [""]
     ctx = context()
     if ctx is not None: L += ["## Commodities & sympathy moves"] + ([f"- {c}" for c in ctx] or ["- nothing unusual"]) + [""]
     led = ledger()
