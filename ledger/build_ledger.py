@@ -39,6 +39,7 @@ PHRASE_CATEGORY = [  # first match wins, strongest signal first
     ("special dividend", "8k_special_dividend"), ("tender offer", "8k_tender_offer"), ("lock-up", "8k_lock_up"),
 ]
 
+MIN_ADV_USD = 250_000   # average daily $ volume over the 20 days before found; below this = untradeable
 _cache = {}
 def yahoo(t):
     if t in _cache: return _cache[t]
@@ -47,7 +48,7 @@ def yahoo(t):
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         r = json.load(urllib.request.urlopen(req, timeout=20))["chart"]["result"][0]
         q = r["indicators"]["quote"][0]
-        bars = [(dt.datetime.fromtimestamp(ts, dt.UTC).date(), o, c) for ts, o, c in zip(r["timestamp"], q["open"], q["close"]) if o and c]
+        bars = [(dt.datetime.fromtimestamp(ts, dt.UTC).date(), o, c, v or 0) for ts, o, c, v in zip(r["timestamp"], q["open"], q["close"], q["volume"]) if o and c]
     except Exception:
         bars = None
     _cache[t] = bars
@@ -59,7 +60,10 @@ def prices(t, found):
     if not bars: return None
     f = [b for b in bars if b[0] <= found]
     nxt = [b for b in bars if b[0] > found]
-    return {"found_close": f[-1][2] if f else None,
+    pre = pct(f[-1][2], f[-6][2]) if len(f) >= 6 else None
+    adv = mean(b[2] * b[3] for b in f[-20:]) if f else None
+    return {"pre_move_5d": pre, "adv_usd": adv,
+            "found_close": f[-1][2] if f else None,
             "entry_date": nxt[0][0] if nxt else None, "entry_open": nxt[0][1] if nxt else None,
             "now_date": bars[-1][0], "now": bars[-1][2]}
 
@@ -130,7 +134,10 @@ def main():
         row = dict(it, found=it["found"].isoformat())
         if not p:
             row.update(status="no price data"); out.append(row); continue
-        row.update(found_close=p["found_close"], entry_date=p["entry_date"] and p["entry_date"].isoformat(),
+        row.update(pre_move_5d=None if p["pre_move_5d"] is None else round(p["pre_move_5d"], 1),
+                   adv_usd=None if p["adv_usd"] is None else round(p["adv_usd"]),
+                   liquid="yes" if (p["adv_usd"] or 0) >= MIN_ADV_USD else "no",
+                   found_close=p["found_close"], entry_date=p["entry_date"] and p["entry_date"].isoformat(),
                    entry_open=p["entry_open"], now_date=p["now_date"].isoformat(), now=p["now"])
         if not p["entry_open"]:
             row.update(status="pending (enters next session open)"); out.append(row); continue
@@ -145,7 +152,7 @@ def main():
                    days=(p["now_date"] - p["entry_date"]).days, status="live")
         out.append(row)
 
-    cols = ["found", "source", "ticker", "category", "direction", "found_close", "entry_date", "entry_open",
+    cols = ["found", "source", "ticker", "category", "direction", "pre_move_5d", "adv_usd", "liquid", "found_close", "entry_date", "entry_open",
             "now_date", "now", "since_found_pct", "ret_pct", "iwm_pct", "excess_pct", "days", "status", "note"]
     OUT_CSV.parent.mkdir(exist_ok=True)
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
@@ -169,13 +176,22 @@ def main():
         else:
             rs = [r["ret_pct"] for r in live if r["category"] == c]
             lines.append(f"| {c} | 0 (track) | {len(rs)} | raw {mean(rs):+.1f}% | raw {median(rs):+.1f}% | n/a |")
+    tr = [r for r in live if r.get("liquid") == "yes" and r.get("excess_pct") is not None]
+    lines += ["", f"## Tradeable only (avg daily volume ≥ ${MIN_ADV_USD:,.0f}), split by the move in the 5 days before found", "",
+              "| category | dir | n | mean excess | right | of which fell >20% before found: n · mean excess |", "|---|---|---|---|---|---|"]
+    for c in sorted({r["category"] for r in tr}):
+        xs = [r for r in tr if r["category"] == c]; ex = [r["excess_pct"] for r in xs]
+        cr = [r["excess_pct"] for r in xs if (r.get("pre_move_5d") or 0) <= -20]
+        lines.append(f"| {c} | {xs[0]['direction']:+d} | {len(ex)} | {mean(ex):+.1f}% | {sum(x > 0 for x in ex)}/{len(ex)} | "
+                     + (f"{len(cr)} · {mean(cr):+.1f}%" if cr else "0") + " |")
     lines += ["", "## Every live item", "",
-              "| found | ticker | category | dir | found @ | entry @ | now | since found | since entry | IWM | excess | days |",
-              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+              "| found | ticker | category | dir | 5d before | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days |",
+              "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in sorted(live, key=lambda r: (r["found"], r["ticker"])):
         f = lambda v: "" if v is None else f"{v:+.1f}%"
         fc = "" if r.get("found_close") is None else f"{r['found_close']:.2f}"
-        lines.append(f"| {r['found']} | {r['ticker']} | {r['category']} | {r['direction']:+d} | {fc} | {r['entry_open']:.2f} | "
+        adv = "" if r.get("adv_usd") is None else (f"${r['adv_usd']/1e6:.1f}M" if r["adv_usd"] >= 1e6 else f"${r['adv_usd']/1e3:.0f}k")
+        lines.append(f"| {r['found']} | {r['ticker']} | {r['category']} | {r['direction']:+d} | {f(r.get('pre_move_5d'))} | {adv}{'' if r.get('liquid') == 'yes' else ' ⚠'} | {fc} | {r['entry_open']:.2f} | "
                      f"{r['now']:.2f} | {f(r.get('since_found_pct'))} | {f(r['ret_pct'])} | {f(r.get('iwm_pct'))} | {f(r.get('excess_pct'))} | {r['days']} |")
     pend = [r for r in out if r.get("status", "").startswith("pending")]
     if pend:
