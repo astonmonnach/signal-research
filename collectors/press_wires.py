@@ -51,7 +51,7 @@ CATALYST_KEYWORDS = [
     "contract award", "awarded a contract",
     # corporate events
     "definitive agreement", "merger agreement", "to be acquired", "tender offer", "strategic alternatives",
-    "special dividend", "spin-off", "uplisting", "uplist", "share repurchase", "stock repurchase",
+    "special dividend", "spin-off", "carve-out", "listing standards", "noncompliance", "uplisting", "uplist", "share repurchase", "stock repurchase",
     # drug development
     "Phase 3", "Phase III", "FDA approval", "FDA approves", "PDUFA",
 ]
