@@ -138,10 +138,12 @@ def crypto():
     if not s.exists(): return ""
     sig = list(csv.DictReader(open(s, encoding="utf-8")))
     outs = list(csv.DictReader(open(o, encoding="utf-8"))) if o.exists() else []
-    recent = [r for r in outs if r.get("horizon") == "24h" and r.get("ret_net_pct")]
-    m24 = mean(float(r["ret_net_pct"]) for r in recent) if recent else None
-    return (f"C1 trending: {len(sig)} signals logged · 24h net return so far "
-            f"{'n/a' if m24 is None else f'{m24:+.1f}% avg over {len(recent)}'} (forward test, no trades)")
+    r24 = [r for r in outs if r.get("horizon") == "24h" and r.get("ret_net_pct") and r.get("late") == "False"]
+    if not r24: return f"C1 trending: {len(sig)} signals logged"
+    xs = sorted(float(r["ret_net_pct"]) for r in r24); med = xs[len(xs) // 2]
+    rug = sum(r.get("rugged") == "True" for r in r24)
+    return (f"C1 trending Solana pools: {len(sig)} logged · after 24h: median {med:+.0f}%, "
+            f"{sum(x > 0 for x in xs)}/{len(xs)} up, {rug} rugged ({rug/len(xs)*100:.0f}%) · forward test, no trades")
 
 
 def calendar(days=14):
@@ -156,40 +158,65 @@ def calendar(days=14):
     return [f"{d:%a %d %b}: {t}" for d, t in sorted(out)]
 
 
+def setups():
+    """Watch-only setups (e.g. KNRX-like: registered supply + listing deficiency). Flags big moves."""
+    p = ROOT / "ledger/ledger.csv"
+    if not p.exists(): return []
+    rows = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["category"].startswith("setup_")]
+    out = []
+    for r in sorted(rows, key=lambda r: -abs(float(r["since_found_pct"] or 0))):
+        move = float(r["since_found_pct"]) if r["since_found_pct"] else None
+        flag = " 🚨 SPIKE" if move is not None and move >= 50 else (" ⚠️ big move" if move is not None and abs(move) >= 20 else "")
+        now = f"${float(r['now']):.2f}" if r["now"] else "?"
+        out.append(f"**{r['ticker']}** {now} ({'n/a' if move is None else f'{move:+.0f}%'} since logged {r['found']}){flag}: {r['note'][:80]}")
+    return out
+
+
 def build():
-    L = [f"# ☀️ Morning briefing · {TODAY:%a %d %b %Y}", ""]
+    """Returns (full briefing text, {channel: section text})."""
+    S = {}
+    head = [f"# ☀️ Morning briefing · {TODAY:%a %d %b %Y}", ""]
+    w = []
     pos = positions()
-    if pos: L += ["## Positions"] + [f"- {p}" for p in pos] + [""]
+    if pos: w += ["## Positions"] + [f"- {p}" for p in pos] + [""]
     n = nq()
-    if n: L += [n, ""]
+    if n: w += [n, ""]
+    ctx = context()
+    if ctx is not None: w += ["## Commodities & sympathy moves"] + ([f"- {c}" for c in ctx] or ["- nothing unusual"]) + [""]
+    S["watchlist"] = w
     sig = new_signals()
-    L += ["## New contract signals (S1, last 3 days)"] + ([f"- {s}" for s in sig] or ["- none"]) + [""]
+    f = ["## New contract signals (S1, last 3 days)"] + ([f"- {x}" for x in sig] or ["- none"]) + [""]
     day, tri = latest_triage()
-    if day: L += [f"## Filings worth reading (triage {day})"] + ([f"- {b[2:700]}" for b in tri] or ["- none"]) + [""]
+    if day: f += [f"## Filings worth reading (triage {day})"] + ([f"- {b[2:700]}" for b in tri] or ["- none"]) + [""]
+    S["filings"] = f
     pr = press()
     if pr is not None:
         items, total = pr
-        L += [f"## Press releases (trusted wires, {total} since last briefing)"] + ([f"- {x}" for x in items] or ["- none"]) + [""]
-    ctx = context()
-    if ctx is not None: L += ["## Commodities & sympathy moves"] + ([f"- {c}" for c in ctx] or ["- nothing unusual"]) + [""]
+        S["press"] = [f"## Press releases (trusted wires, {total} since last briefing)"] + ([f"- {x}" for x in items] or ["- none"]) + [""]
+    st_ = setups()
+    if st_: S["setups"] = ["## Setups (watch only, not buys)"] + [f"- {x}" for x in st_] + [""]
     led = ledger()
-    if led: L += ["## Ledger (every call vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
+    if led: S["ledger"] = ["## Ledger (every call vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
     c = crypto()
-    if c: L += ["## Crypto", f"- {c}", ""]
+    if c: S["crypto"] = ["## Crypto", f"- {c}", ""]
     cal = calendar()
-    L += ["## Next 14 days"] + ([f"- {x}" for x in cal] or ["- nothing scheduled"]) + [""]
-    L += [f"Full briefing: <{REPO_URL}/briefings/{TODAY.isoformat()}.md>"]
-    return "\n".join(L)
+    S["calendar"] = ["## Next 14 days"] + ([f"- {x}" for x in cal] or ["- nothing scheduled"]) + [""]
+    order = ["watchlist", "filings", "press", "setups", "ledger", "crypto", "calendar"]
+    full = head + [l for k in order for l in S.get(k, [])] + [f"Full briefing: <{REPO_URL}/briefings/{TODAY.isoformat()}.md>"]
+    return "\n".join(full), {k: "\n".join([f"**{TODAY:%a %d %b}**"] + v) for k, v in S.items()}
 
 
 def main():
-    text = build()
+    text, sections = build()
     out = ROOT / "briefings" / f"{TODAY.isoformat()}.md"
     out.parent.mkdir(exist_ok=True)
     out.write_text(text + "\n", encoding="utf-8")
     if "--dry-run" in sys.argv:
         print(text); return
-    sent = notify.send(text)
+    sent = notify.send(text, "briefing")                       # the whole thing, once
+    for ch, body in sections.items():                         # plus each section to its own channel
+        if notify.has_own_channel(ch):
+            sent += notify.send(body, ch)
     print(f"briefing written to {out.relative_to(ROOT)}; sent via: {', '.join(sent) or 'nothing (no secrets set)'}")
 
 
