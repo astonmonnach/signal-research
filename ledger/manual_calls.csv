@@ -19,3 +19,11 @@ found,source,ticker,category,direction,note
 2026-10-04,KNRX-like screen,POLA,setup_supply_deficiency,0,EFFECT 28 Sep + deficiency Jul; $1.16
 2026-10-04,KNRX-like screen,CYAB,setup_supply_deficiency,0,EFFECT 21 Sep + deficiency Jun; $0.20
 2026-10-05,press release (Business Wire),PUSA,idea_contract_press,1,"$82M funded order under existing USG IDIQ (2nd order) = ~17% of est. ~$485M mcap; stock -17% since 1 Oct reverse merger; under-reaction test like MTUS"
+2026-10-05,long-term nth research (research/longterm-2026-10-05),MTUS,longterm_research,0,watch 7/10 (EV/sales at top of own range; Q3 6 Nov)
+2026-10-05,long-term nth research (research/longterm-2026-10-05),AAON,longterm_research,0,"kill under LT2 (cash ~$0 + $165M undrawn vs -$119M TTM FCF; OCF positive, growth capex); BASX 55% of sales"
+2026-10-05,long-term nth research (research/longterm-2026-10-05),MOD,longterm_research,0,"already run (+221 pts vs SPY in 3y, spin-adjusted)"
+2026-10-05,long-term nth research (research/longterm-2026-10-05),VRT,longterm_research,0,already run (+453 pts vs SPY in 3y; 8.5x sales vs 3.45x median)
+2026-10-05,long-term nth research (research/longterm-2026-10-05),MP,longterm_research,0,already run (EV/sales 25.6x vs 10.9x median; ~33% potential dilution)
+2026-10-05,long-term nth research (research/longterm-2026-10-05),ELMT,longterm_research,0,already run (DoW equity priced in one session; lock-up ~19-22 Oct)
+2026-10-05,long-term nth research (research/longterm-2026-10-05),UAMY,longterm_research,0,kill (LT2 + LT3: -$71M TTM FCF vs $62M liquidity; +41% diluted shares; antimony -62%)
+2026-10-05,long-term nth research (research/longterm-2026-10-05),CLF,longterm_research,0,"kill (G1: $100M GOES order = 0.5% of revenue; $7.7B debt, negative FCF)"

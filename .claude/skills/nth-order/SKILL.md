@@ -76,8 +76,11 @@ These rules exist because each one caught a mistake that a clean-looking analysi
 6. **Follow the money behind the contract.** A ceiling is not an order (IDIQ, no minimum).
    Find the funded order, and check whether the pot is oversubscribed: the NDS fund got $2B
    (Public Law 119-21 §20004(a)(40), available to Sep 2029), but September's stockpile ceilings
-   alone totalled about $4.0B (ELMT $2B + $36M, MTUS $995M, Rio Tinto $995M aluminium).
-   Read the whole DoD page, not just your ticker's line. Appropriations decide what gets ordered.
+   alone totalled about $4.0B (ELMT $2B + $36M, MTUS $995M, Rio Tinto $995M aluminium), and that was
+   still too small: USAspending shows 21 more stockpile IDIQs from Aug 2025 to Jul 2026 ($6.29B of
+   ceilings; ≈$9.3B in all) and ≈$1.1B already ordered in FY2026. Read the whole DoD page, AND search
+   USAspending for every award from the same office (here `SP8000`) across the whole funding period,
+   not just this month's batch. Appropriations decide what gets ordered.
 7. **Corporate actions fake moves.** Spin-offs, reverse-Morris-trusts and special dividends
    make broker "% change" numbers wrong (MOD showed "+14.9%" when the real move was +2%,
    CTVA showed −85%). Add back what holders received before judging any move.
