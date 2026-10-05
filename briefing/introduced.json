@@ -5,14 +5,17 @@
  "crypto",
  "dailyrecap",
  "filings",
+ "govfilings",
  "largecaps",
  "ledger",
  "longterm",
  "microcaps",
  "midcaps",
+ "overhang",
  "positions",
  "press",
  "setups",
  "smallcaps",
+ "spinoff",
  "weeklyrecap"
 ]
