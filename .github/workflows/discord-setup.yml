@@ -1,0 +1,42 @@
+name: discord-setup
+
+# Run by hand once the DISCORD_WEBHOOKS secret is in (Actions -> discord-setup -> Run workflow).
+# Posts the welcome guide to #start-here and a one-line intro to every other channel, lists any
+# channel without a webhook in the run log (never prints a webhook URL), then announces the open
+# calls and long-term research that haven't been posted yet.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  intro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      DISCORD_WEBHOOK_CALLS: ${{ secrets.DISCORD_WEBHOOK_CALLS }}
+      DISCORD_WEBHOOK_LONGTERM: ${{ secrets.DISCORD_WEBHOOK_LONGTERM }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post channel intros
+        run: python briefing/discord_setup.py --intro
+      - name: Announce calls and long-term research
+        continue-on-error: true
+        run: |
+          python calls/build_calls.py --announce
+          python longterm/build_longterm.py --post-weekly
+      - name: Commit outputs
+        run: |
+          git config user.name "signal-lab-bot"
+          git config user.email "signal-lab-bot@users.noreply.github.com"
+          git add -A calls/ longterm/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "discord setup $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done
+          exit 1

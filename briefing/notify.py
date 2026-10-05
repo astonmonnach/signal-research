@@ -1,26 +1,28 @@
 """Send markdown messages to Discord channels and/or Telegram. Standard library only.
 
-Discord: one webhook per channel (channel settings -> Integrations -> Webhooks -> New -> Copy URL).
-Add each as a GitHub Actions secret. A channel without its own webhook isn't posted on its own,
-but its section is still in the full #briefing post (DISCORD_WEBHOOK_URL), so a single webhook works.
+Discord: one webhook per channel (channel settings -> Integrations -> Webhooks -> New Webhook ->
+Copy Webhook URL). The quick way is ONE GitHub Actions secret, DISCORD_WEBHOOKS, holding one line
+per channel:
 
-  DISCORD_WEBHOOK_URL        default / #briefing
-  DISCORD_WEBHOOK_CALENDAR   #calendar   (dated events, next 14 days)
-  DISCORD_WEBHOOK_LEDGER     #ledger     (every call vs IWM)
-  DISCORD_WEBHOOK_PRESS      #press      (company press releases from trusted wires)
-  DISCORD_WEBHOOK_FILINGS    #filings    (SEC/DoD triage)
-  DISCORD_WEBHOOK_WATCHLIST  #watchlist  (positions, watchlist, peers & commodities)
-  DISCORD_WEBHOOK_SETUPS     #setups     (watch-only setups, e.g. supply + listing deficiency)
-  DISCORD_WEBHOOK_CRYPTO     #crypto
-  DISCORD_WEBHOOK_REPORTS    #reports    (weekly report summary, Mondays; reports/build_periodic.py)
-  DISCORD_WEBHOOK_ALERTS     #alerts     (live watcher, when it exists)
+  briefing=https://discord.com/api/webhooks/...
+  calls=https://discord.com/api/webhooks/...
+  longterm=https://discord.com/api/webhooks/...
+
+Channel names (briefing/discord_setup.py says what each one gets):
+  start, briefing, calls, longterm, watchlist, calendar, filings, press, setups, ledger, reports, crypto, alerts
+A separate DISCORD_WEBHOOK_<CHANNEL> secret still works and wins over the list. DISCORD_WEBHOOK_URL is
+the old single-webhook fallback for #briefing. A channel with no webhook isn't posted on its own, but
+its section is still in the full #briefing post.
 
 Telegram (optional): TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID get the full briefing only.
 WhatsApp isn't supported: it needs a paid Meta Business / Twilio account.
+Never print a webhook URL: anyone holding one can post to that channel.
 """
 import json, os, time, urllib.request
 
-CHANNELS = ["briefing", "calendar", "ledger", "press", "filings", "watchlist", "setups", "crypto", "reports", "alerts"]
+CHANNELS = ["start", "briefing", "calls", "longterm", "watchlist", "calendar", "filings", "press", "setups", "ledger",
+            "reports", "crypto", "alerts"]
+_ALIASES = {"long-term": "longterm", "long_term": "longterm", "start-here": "start", "starthere": "start"}
 
 
 def chunks(text, limit):
@@ -42,8 +44,31 @@ def post(url, payload):
         return r.status
 
 
+def _name(raw):
+    n = raw.strip().lower().lstrip("#-*• ").strip()
+    n = n.split()[-1] if n.split() else n          # tolerate "📈 calls"-style emoji prefixes
+    n = _ALIASES.get(n, n).lstrip("#")
+    return n.replace("-", "")
+
+
+def webhook_map():
+    """DISCORD_WEBHOOKS: 'name=url' lines (also 'name: url', or a JSON object). Other lines are skipped."""
+    raw = os.getenv("DISCORD_WEBHOOKS", "").strip()
+    if not raw: return {}
+    if raw.startswith("{"):
+        try: return {_name(k): str(v).strip() for k, v in json.loads(raw).items()}
+        except Exception: return {}
+    out = {}
+    for line in raw.splitlines():
+        i = line.find("https://")
+        if i <= 0: continue
+        name, url = line[:i].strip().rstrip("=:").strip(), line[i:].strip().strip("\"',")
+        if name and "/api/webhooks/" in url: out[_name(name)] = url
+    return out
+
+
 def webhook(channel):
-    return os.getenv(f"DISCORD_WEBHOOK_{channel.upper()}") or None
+    return os.getenv(f"DISCORD_WEBHOOK_{channel.upper()}") or webhook_map().get(channel) or None
 
 
 def has_own_channel(channel):

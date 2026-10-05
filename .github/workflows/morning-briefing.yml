@@ -27,6 +27,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
+      # One secret with a 'name=url' line per channel (briefing/notify.py). The single-channel
+      # secrets below still work and win over it.
+      DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       DISCORD_WEBHOOK_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_CALENDAR }}
       DISCORD_WEBHOOK_LEDGER: ${{ secrets.DISCORD_WEBHOOK_LEDGER }}
@@ -56,7 +59,10 @@ jobs:
         run: python ledger/build_ledger.py
       - name: Public calls (calls/README.md, marked from the next open vs IWM and a control)
         continue-on-error: true
-        run: python calls/build_calls.py
+        run: python calls/build_calls.py --announce
+      - name: Long-term (longterm/README.md; new candidates and the Monday summary to #long-term, once each)
+        continue-on-error: true
+        run: python longterm/build_longterm.py --post-weekly
       # Read-only over the files above (plus Yahoo closes for the periodic reports); idempotent, so
       # the later slots only commit when an input changed.
       - name: Daily scans (scans/YYYY-MM-DD.md, today and the 6 days before)
@@ -74,7 +80,7 @@ jobs:
         run: |
           git config user.name "signal-lab-bot"
           git config user.email "signal-lab-bot@users.noreply.github.com"
-          git add -A watch/ ledger/ calls/ briefings/ data/press/ data/context/ scans/ stocks/ reports/ 2>/dev/null || true
+          git add -A watch/ ledger/ calls/ longterm/ briefings/ data/press/ data/context/ scans/ stocks/ reports/ 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "morning briefing $(date -u +%Y-%m-%d)"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done

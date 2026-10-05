@@ -375,14 +375,14 @@ def calls_section(S, P, frm):
          "against IWM and a named control, closed only by its own pre-stated rule.", ""]
     if not rows:
         return L + ["_No public calls were open in this period._", ""], []
-    L += ["| # | call | entry | latest / exit | return | vs IWM | vs control | status |", "|---|---|---|---|---|---|---|---|"]
+    L += ["| # | call | entry | latest / exit | return | vs market | vs control | status |", "|---|---|---|---|---|---|---|---|"]
     for r in rows:
         side = "LONG" if int(r["direction"]) > 0 else "SHORT"
         if not r["ret_pct"]:
             L.append(f"| {r['id']} | {side} {r['ticker']} | | | | | | {r['status']} |"); continue
         f = lambda k: f"{float(r[k]):+.1f}%" if r[k] else ""
         L.append(f"| {r['id']} | {side} {link(r['ticker'], 'stocks/' + r['ticker'] + '.md', frm)} | ${float(r['entry']):.2f} ({r['entry_date']}) | "
-                 f"${float(r['end_price']):.2f} ({r['end_date']}) | {f('ret_pct')} | {f('excess_iwm')} | {f('excess_control')} ({r['control']}) | {r['status']} |")
+                 f"${float(r['end_price']):.2f} ({r['end_date']}) | {f('ret_pct')} | {f('excess_bench')} ({r['bench']}) | {f('excess_control')} ({r['control']}) | {r['status']} |")
     return L + [""], rows
 
 
@@ -409,7 +409,7 @@ def render(S, P):
     marked = [r for r in cl_rows if r["ret_pct"]]
     if cl_rows:
         glance.append(f"Public calls: {len(cl_rows)}" + (" · " + ", ".join(f"#{r['id']} {r['ticker']} {float(r['ret_pct']):+.1f}%"
-                      + (f" ({float(r['excess_iwm']):+.1f} vs IWM)" if r['excess_iwm'] else "") for r in marked) if marked else " (entering at the next open)"))
+                      + (f" ({float(r['excess_bench']):+.1f} vs {r['bench']})" if r['excess_bench'] else "") for r in marked) if marked else " (entering at the next open)"))
     if pos_rows:
         glance.append("Positions: " + ", ".join(f"{t['symbol']} {pct(m)} (${p:+.2f} after fees{', closed' if c else ''})" for t, m, p, c in pos_rows))
     moved = [r for r in wl_rows if r[2] is not None]

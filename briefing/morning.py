@@ -142,7 +142,8 @@ def calls():
         side = "LONG" if int(r["direction"]) > 0 else "SHORT"
         if not r["ret_pct"]:
             out.append(f"#{r['id']} {side} {r['ticker']}: {r['status']}"); continue
-        vs = f", {float(r['excess_iwm']):+.1f}% vs IWM" if r["excess_iwm"] else ""
+        vs = f", {float(r['excess_bench']):+.1f}% vs {r['bench']}" if r["excess_bench"] else ""
+        side += " (long-term)" if r.get("horizon") == "long" else ""
         out.append(f"#{r['id']} {side} {r['ticker']} {float(r['ret_pct']):+.1f}%{vs} since ${float(r['entry']):.2f} ({r['entry_date']}), {r['status']}")
     return out
 
@@ -210,13 +211,13 @@ def build():
     st_ = setups()
     if st_: S["setups"] = ["## Setups (watch only, not buys)"] + [f"- {x}" for x in st_] + [""]
     led, cl = ledger(), calls()
-    if cl: S["ledger"] = ["## Public calls (the track record)"] + [f"- {x}" for x in cl] + [f"- Record: <{REPO_URL}/calls/README.md>", ""]
-    if led: S["ledger"] = S.get("ledger", []) + ["## Ledger (every scan item vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
+    if cl: S["calls"] = ["## Public calls (the track record)"] + [f"- {x}" for x in cl] + [f"- Record: <{REPO_URL}/calls/README.md>", ""]
+    if led: S["ledger"] = ["## Ledger (every scan item vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
     c = crypto()
     if c: S["crypto"] = ["## Crypto", f"- {c}", ""]
     cal = calendar()
     S["calendar"] = ["## Next 14 days"] + ([f"- {x}" for x in cal] or ["- nothing scheduled"]) + [""]
-    order = ["watchlist", "filings", "press", "setups", "ledger", "crypto", "calendar"]
+    order = ["calls", "watchlist", "filings", "press", "setups", "ledger", "crypto", "calendar"]
     full = head + [l for k in order for l in S.get(k, [])] + [f"Full briefing: <{REPO_URL}/briefings/{TODAY.isoformat()}.md>"]
     return "\n".join(full), {k: "\n".join([f"**{TODAY:%a %d %b}**"] + v) for k, v in S.items()}
 

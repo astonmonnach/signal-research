@@ -1,2 +1,2 @@
-id,posted_utc,ticker,direction,thesis,dossier,invalidation_close,review_date,control,conviction,source,exit_date,exit_price,exit_reason
-1,2026-10-05T16:15Z,MTUS,1,$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales,stocks/MTUS.md,17.00,2026-12-29,IIIN,2,repo,,,
+id,posted_utc,ticker,direction,thesis,dossier,invalidation_close,review_date,control,conviction,source,exit_date,exit_price,exit_reason,horizon,benchmark
+1,2026-10-05T16:15Z,MTUS,1,$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales,stocks/MTUS.md,17.00,2026-12-29,IIIN,2,repo,,,,swing,IWM

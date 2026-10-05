@@ -20,7 +20,7 @@ UID:catalyst-20261002T170000-1@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261002T170000
 DTEND;TZID=Europe/London:20261002T173000
-SUMMARY:💷 Fund accounts: £110 IBKR (…67), £200 ISA (…66), £200 Noxarquant
+SUMMARY:💷 Fund accounts: £110 IBKR, £200 ISA
 DESCRIPTION:ISA: global index fund only. In IBKR\, think about converting to USD once.
 BEGIN:VALARM
 ACTION:DISPLAY

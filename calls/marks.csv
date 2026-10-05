@@ -1,2 +1,2 @@
-id,posted_utc,ticker,direction,entry_date,entry,end_date,end_price,ret_pct,pnl_usd,iwm_pct,excess_iwm,control,control_pct,excess_control,days,status
-1,2026-10-05T16:15Z,MTUS,1,,,,,,,,,IIIN,,,,pending (enters next open)
+id,posted_utc,ticker,direction,horizon,entry_date,entry,end_date,end_price,ret_pct,pnl_usd,bench,bench_pct,excess_bench,control,control_pct,excess_control,days,status
+1,2026-10-05T16:15Z,MTUS,1,swing,,,,,,,,,,IIIN,,,,pending (enters next open)
