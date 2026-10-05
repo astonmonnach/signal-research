@@ -62,8 +62,11 @@ These rules exist because each one caught a mistake that a clean-looking analysi
    close-to-close is not open-to-close. Verify pasted or second-hand numbers before using them.
 3. **Same buyer, same day: find the siblings.** When an award, order or rule change hits one
    company, search for every other company hit by the same source. The same DLA stockpile
-   office gave ELMT a $2B tungsten IDIQ (+33% day) while MTUS got $995M (+2%). The market
-   priced the *story*, not the dollars. Siblings tell you what is already priced.
+   office gave ELMT a $2B tungsten IDIQ (+33% day) while MTUS got $995M (+2%). First read was
+   "story, not dollars". That was WRONG: ELMT's 14 Sep 8-K also closed a $200M Department of War
+   preferred-equity purchase (up to $450M, warrants for 24.84% of the common), and the IDIQ has a
+   $150M guaranteed minimum. Siblings tell you what is priced, but only after you've read
+   *their* filings too, not just their headline.
 4. **Contagion runs through peers and credit.** When a stock falls with no news, check its
    closest peers first. RYAM's −23% was Mercer (MERC) skipping a $25.8M interest payment
    (Fitch CCC−) in the same weak pulp market. Leverage turns a peer's default into your risk.
@@ -71,8 +74,10 @@ These rules exist because each one caught a mistake that a clean-looking analysi
    silver → GC/SI. Chips → SOXX plus the metals they consume. Say so when no free price exists
    (tungsten, antimony, HF-1), and never invent a proxy price.
 6. **Follow the money behind the contract.** A ceiling is not an order (IDIQ, no minimum).
-   Find the funded order, and check whether the pot is oversubscribed: the NDS fund got $2B,
-   but September's ceilings alone totalled about $3B. Appropriations decide what gets ordered.
+   Find the funded order, and check whether the pot is oversubscribed: the NDS fund got $2B
+   (Public Law 119-21 §20004(a)(40), available to Sep 2029), but September's stockpile ceilings
+   alone totalled about $4.0B (ELMT $2B + $36M, MTUS $995M, Rio Tinto $995M aluminium).
+   Read the whole DoD page, not just your ticker's line. Appropriations decide what gets ordered.
 7. **Corporate actions fake moves.** Spin-offs, reverse-Morris-trusts and special dividends
    make broker "% change" numbers wrong (MOD showed "+14.9%" when the real move was +2%,
    CTVA showed −85%). Add back what holders received before judging any move.
@@ -83,7 +88,10 @@ These rules exist because each one caught a mistake that a clean-looking analysi
    deficiency (8-K Item 3.01) plus a sub-$1 price is the KNRX pattern. It is a *don't-buy*
    flag (dilution or promo-spike-then-collapse), not a long setup.
 10. **Keyword hits are not events.** A "strategic alternatives" phrase in a director's bio
-    (Item 5.02) is not a strategic review (LWLG). Read the item codes before trusting a scan.
+    (Item 5.02) is not a strategic review (LWLG), nor is it in a refinancing's forward-looking
+    boilerplate (CHDN, 28 Sep). A post-effective amendment (POS AM) "EFFECT" adds no new
+    shares (HCTI). Check exchange status before logging a setup: GOVX and HCTI already had
+    delisting determinations. Read the item codes and the actual text before trusting a scan.
 11. **Score and log it.** Apply the METHOD gates G1–G5 and the 0–10 card
     (Desktop/nth-order-pipeline/METHOD.md). Log the call with a control ticker in
     `ledger/` so it gets marked against the market from the next session's open.

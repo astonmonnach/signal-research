@@ -1,8 +1,8 @@
 """Send markdown messages to Discord channels and/or Telegram. Standard library only.
 
 Discord: one webhook per channel (channel settings -> Integrations -> Webhooks -> New -> Copy URL).
-Add each as a GitHub Actions secret. Any channel without its own webhook falls back to
-DISCORD_WEBHOOK_URL, so a single webhook still works.
+Add each as a GitHub Actions secret. A channel without its own webhook isn't posted on its own,
+but its section is still in the full #briefing post (DISCORD_WEBHOOK_URL), so a single webhook works.
 
   DISCORD_WEBHOOK_URL        default / #briefing
   DISCORD_WEBHOOK_CALENDAR   #calendar   (dated events, next 14 days)
@@ -12,6 +12,7 @@ DISCORD_WEBHOOK_URL, so a single webhook still works.
   DISCORD_WEBHOOK_WATCHLIST  #watchlist  (positions, watchlist, peers & commodities)
   DISCORD_WEBHOOK_SETUPS     #setups     (watch-only setups, e.g. supply + listing deficiency)
   DISCORD_WEBHOOK_CRYPTO     #crypto
+  DISCORD_WEBHOOK_REPORTS    #reports    (weekly report summary, Mondays; reports/build_periodic.py)
   DISCORD_WEBHOOK_ALERTS     #alerts     (live watcher, when it exists)
 
 Telegram (optional): TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID get the full briefing only.
@@ -19,7 +20,7 @@ WhatsApp isn't supported: it needs a paid Meta Business / Twilio account.
 """
 import json, os, time, urllib.request
 
-CHANNELS = ["briefing", "calendar", "ledger", "press", "filings", "watchlist", "setups", "crypto", "alerts"]
+CHANNELS = ["briefing", "calendar", "ledger", "press", "filings", "watchlist", "setups", "crypto", "reports", "alerts"]
 
 
 def chunks(text, limit):

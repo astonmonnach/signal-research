@@ -1,8 +1,9 @@
 name: morning-briefing
 
 # Weekdays 05:30 UTC (06:30 UK in summer, 05:30 in winter). The evening Claude job
-# (21:30 UK) writes the SEC/DoD triage; this job adds positions, press releases,
-# commodities/peers and the ledger, then sends one briefing to Discord/Telegram.
+# (21:30 UK) writes the SEC/DoD triage; this job adds positions, commodities/peers and the
+# ledger, rebuilds the daily scans, stock dossiers and weekly/monthly/quarterly reports
+# (reports/), then sends one briefing to Discord/Telegram.
 on:
   schedule:
     # GitHub often starts scheduled runs late (5 Oct: 7 hours). Several slots; the
@@ -34,6 +35,7 @@ jobs:
       DISCORD_WEBHOOK_WATCHLIST: ${{ secrets.DISCORD_WEBHOOK_WATCHLIST }}
       DISCORD_WEBHOOK_SETUPS: ${{ secrets.DISCORD_WEBHOOK_SETUPS }}
       DISCORD_WEBHOOK_CRYPTO: ${{ secrets.DISCORD_WEBHOOK_CRYPTO }}
+      DISCORD_WEBHOOK_REPORTS: ${{ secrets.DISCORD_WEBHOOK_REPORTS }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
@@ -52,13 +54,24 @@ jobs:
       - name: Ledger
         continue-on-error: true
         run: python ledger/build_ledger.py
+      # Read-only over the files above (plus Yahoo closes for the periodic reports); idempotent, so
+      # the later slots only commit when an input changed.
+      - name: Daily scans (scans/YYYY-MM-DD.md, today and the 6 days before)
+        continue-on-error: true
+        run: python reports/build_scans.py
+      - name: Stock dossiers (stocks/TICKER.md, only the part below the AUTO marker)
+        continue-on-error: true
+        run: python reports/build_stocks.py
+      - name: Weekly, monthly and quarterly reports (current periods; last week's summary to Discord on Mondays)
+        continue-on-error: true
+        run: python reports/build_periodic.py --current --post-weekly
       - name: Briefing (write + send)
         run: python briefing/morning.py
       - name: Commit outputs
         run: |
           git config user.name "signal-lab-bot"
           git config user.email "signal-lab-bot@users.noreply.github.com"
-          git add -A watch/ ledger/ briefings/ data/press/ data/context/ 2>/dev/null || true
+          git add -A watch/ ledger/ briefings/ data/press/ data/context/ scans/ stocks/ reports/ 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "morning briefing $(date -u +%Y-%m-%d)"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done
