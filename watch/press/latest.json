@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "published_utc": "2026-10-05T20:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "CLF",
+  "title": "Cleveland-Cliffs to Host U.S. Secretary of Energy Chris Wright and Other Government Officials at Butler Works to Showcase GOES Expansion Project",
+  "link": "http://www.businesswire.com/news/home/20261004168131/en/Cleveland-Cliffs-to-Host-U.S.-Secretary-of-Energy-Chris-Wright-and-Other-Government-Officials-at-Butler-Works-to-Showcase-GOES-Expansion-Project/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-05T20:05:00Z",
+  "wire": "PR Newswire",
+  "ticker": "OLN",
+  "title": "Olin Corporation Third Quarter 2026 Earnings Conference Call Announcement",
+  "link": "https://www.prnewswire.com/news-releases/olin-corporation-third-quarter-2026-earnings-conference-call-announcement-302898657.html",
+  "matched_on": "signal"
+ },
+ {
+  "published_utc": "2026-10-05T20:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "SKY",
+  "title": "Champion Homes Announces Definitive Agreement to Acquire Timberline Homes",
+  "link": "http://www.businesswire.com/news/home/20261005059761/en/Champion-Homes-Announces-Definitive-Agreement-to-Acquire-Timberline-Homes/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-05T20:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "HTB",
+  "title": "HomeTrust Bancshares, Inc. Announces Completion of Previous Stock Repurchase Program and Authorization of New Stock Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261005237628/en/HomeTrust-Bancshares-Inc.-Announces-Completion-of-Previous-Stock-Repurchase-Program-and-Authorization-of-New-Stock-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-05T20:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LAB",
+  "title": "Standard BioTools Announces Agreement to Sell Microfluidics Business to ARCHIMED",
+  "link": "https://www.globenewswire.com/news-release/2026/10/05/3374997/0/en/standard-biotools-announces-agreement-to-sell-microfluidics-business-to-archimed.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-05T18:50:00Z",
+  "wire": "Business Wire",
+  "ticker": "GMAB;ABBV",
+  "title": "Genmab and AbbVie Announce Epcoritamab in Combination with R-CHOP Demonstrates Statistically Significant Improvement in Progression-Free Survival in Patients with Newly Diagnosed Diffuse Large B-Cell Lymphoma",
+  "link": "http://www.businesswire.com/news/home/20261005374420/en/Genmab-and-AbbVie-Announce-Epcoritamab-in-Combination-with-R-CHOP-Demonstrates-Statistically-Significant-Improvement-in-Progression-Free-Survival-in-Patients-with-Newly-Diagnosed-Diffuse-Large-B-Cell-Lymphoma/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ }
+]
