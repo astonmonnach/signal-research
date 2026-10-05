@@ -15,7 +15,7 @@ Reads only files other jobs wrote (it never fetches anything except via notify.p
 """
 import csv, json, re, sys, datetime as dt
 from pathlib import Path
-from statistics import mean
+from statistics import mean, median
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).parent))
@@ -120,17 +120,28 @@ def context():
     return lines
 
 
-def ledger(top=5):
+def ledger(top=4):
+    """Honest scoreboard: only what we could actually have taken (long, liquid, $1+, net of 1% costs);
+    short bets are paper-only, shown as a don't-buy list. Rule 2026-10-05, ledger/RULES.md."""
     p = ROOT / "ledger/ledger.csv"
     if not p.exists(): return []
     live = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["status"] == "live" and r["excess_pct"]]
     if not live: return []
-    live.sort(key=lambda r: float(r["excess_pct"]), reverse=True)
-    fmt = lambda r: f"{r['ticker']} {float(r['excess_pct']):+.1f}% ({r['category']}, {r['days']}d)"
-    best, worst = [fmt(r) for r in live[:top]], [fmt(r) for r in live[-top:][::-1]]
-    xs = [float(r["excess_pct"]) for r in live]
-    return [f"{len(live)} directional scan items live · mean excess vs IWM {mean(xs):+.1f}% · hit rate {sum(x > 0 for x in xs)}/{len(xs)} (early, tiny samples)",
-            "Best: " + ", ".join(best), "Worst: " + ", ".join(worst)]
+    tk = [r for r in live if r.get("takeable") == "yes" and r.get("net_excess_pct")]
+    judged = [r for r in tk if int(r.get("tdays") or 0) >= 20]
+    xs = [float(r["net_excess_pct"]) for r in tk]
+    sh = [float(r["excess_pct"]) for r in live if int(r["direction"]) < 0]
+    out = []
+    if xs:
+        out.append(f"Takeable (long, liquid, $1+, after 1% costs): {len(tk)} live, {len(judged)} held the 20 trading days needed to judge · "
+                   f"beat IWM {sum(x > 0 for x in xs)}/{len(xs)} · median {median(xs):+.1f}% · mean {mean(xs):+.1f}%. Early read, not a result.")
+        tk = [r for r in tk if int(r.get("tdays") or 0) >= 1]        # a 0-day "result" is just the first open
+        tk.sort(key=lambda r: float(r["net_excess_pct"]), reverse=True)
+        f = lambda r: f"{r['ticker']} {float(r['net_excess_pct']):+.1f}% ({r['category']}, {r.get('tdays') or r['days']} trading days)"
+        out += ["Best takeable: " + ", ".join(f(r) for r in tk[:top]), "Worst takeable: " + ", ".join(f(r) for r in tk[-top:][::-1])]
+    if sh:
+        out.append(f"Paper only, short bets we can't take: {sum(x > 0 for x in sh)}/{len(sh)} lagged IWM. Useful as a don't-buy list, never counted as wins.")
+    return out
 
 
 def calls():

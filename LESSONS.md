@@ -18,6 +18,7 @@ or in a dated [ledger rule](ledger/RULES.md) (the scoring). Old ledger rows keep
 | 2026-10-05 | The National Defense Stockpile pot was counted as **~$4.0bn of ceilings from one month of awards**. USAspending showed 21 more IDIQs: **~$9.3bn of ceilings against $2bn**, and **69% of the money already ordered** | For a capped fund, total EVERY award from the same office since the money started, not this month's batch | Code: `collectors/funding_pot.py` (daily, `watch/pots/`; shown next to MTUS and ELMT in Discord and in the briefing). Skill rule 6 | done |
 | 2026-10-05 | A personal note (account funding) sat in the public calendar | The calendar is stock events only, no emojis | The evening task's calendar instructions; `calendar/catalyst-dates.ics` cleaned | done |
 | 2026-10-05 | Long-term research ran before the long-term gates existed (AAON passed as "watch" but fails LT2) | Long-term ideas go through LT1–LT6; a failure of LT2 or LT3 is a kill | Skill v3, `longterm/METHOD.md` | done |
+| 2026-10-05 | The ledger headline said "61/94 beat IWM, +5.0%", but 68 of the 94 were **short bets we can't take** (KNRX and WHLR "won" by collapsing). The takeable part was flat: 6/16 after costs, none held long enough to judge | The headline counts only what we could have taken: long, liquid, $1+, net of 1% costs, judged after 20 trading days. Shorts are a paper-only don't-buy list | Code: `ledger/build_ledger.py` (`takeable`, `net_excess_pct`, `tdays`), the briefing's #ledger post and the weekly reports. Ledger rule 2026-10-05 | done |
 
 ## Still to automate
 

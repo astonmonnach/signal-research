@@ -40,6 +40,30 @@ PHRASE_CATEGORY = [  # first match wins, strongest signal first
 ]
 
 MIN_ADV_USD = 250_000   # average daily $ volume over the 20 days before found; below this = untradeable
+# Honest scoreboard (rule 2026-10-05): the headline only counts what we could actually have taken.
+MIN_PRICE = 1.0         # entry under $1: spreads and promotions make it a different game; paper only
+ROUND_TRIP_COST = 1.0   # % taken off every takeable result: commissions plus the bid/ask spread, entering and exiting
+JUDGE_TDAYS = 20        # a result counts only after 20 trading days held (ledger/RULES.md)
+
+
+# Logged events that reading the filing shows were not events. The method says read the filing before any trade, so
+# these were never trades: they stay in the ledger but don't count either way (rule 2026-10-05; see LESSONS.md).
+FALSE_POSITIVES = {
+    ("LWLG", "8k_strategic_review"): "false positive: a director's bio, not a review",
+    ("CHDN", "idea_catalyst"): "false positive: refinancing boilerplate, not a sale review",
+    ("CHDN", "8k_strategic_review"): "false positive: refinancing boilerplate, not a sale review",
+}
+
+
+def takeable(row):
+    """(yes/no, reason). We buy stocks; we can't short them, and we don't trade illiquid or sub-$1 names."""
+    fp = FALSE_POSITIVES.get((row.get("ticker"), row.get("category")))
+    if fp: return "no", fp
+    if row.get("direction", 0) < 0: return "no", "short bet (we can't short)"
+    if row.get("direction", 0) == 0: return "no", "tracked only (no direction)"
+    if row.get("liquid") != "yes": return "no", "too illiquid"
+    if (row.get("entry_open") or 0) < MIN_PRICE: return "no", "under $1"
+    return "yes", ""
 _cache = {}
 def yahoo(t):
     if t in _cache: return _cache[t]
@@ -127,6 +151,40 @@ def holder_value_now(ticker, entry_date, now_price):
                 notes.append(f"+{a['ratio']} {a['receive_ticker']} (spin)")
     return now_price + extra, "; ".join(notes)
 
+def stats(xs):
+    if not xs: return "n 0"
+    top = sorted(xs, reverse=True)[2:] if len(xs) > 4 else None
+    return (f"n {len(xs)} · beat IWM {sum(x > 0 for x in xs)}/{len(xs)} · median {median(xs):+.1f}% · mean {mean(xs):+.1f}%"
+            + (f" · mean without the best 2 {mean(top):+.1f}%" if top else ""))
+
+
+def honest(live):
+    tk = [r for r in live if r.get("takeable") == "yes" and r.get("net_excess_pct") is not None]
+    judged = [r["net_excess_pct"] for r in tk if r["tdays"] >= JUDGE_TDAYS]
+    early = [r["net_excess_pct"] for r in tk if r["tdays"] < JUDGE_TDAYS]
+    shorts = [r for r in live if r["direction"] < 0 and r.get("excess_pct") is not None]
+    other = [r for r in live if r["direction"] > 0 and r.get("takeable") == "no"]
+    L = ["## Honest scoreboard: what we could actually have taken", "",
+         f"**Takeable** = a long bet (we buy, we can't short), average daily $ volume of at least ${MIN_ADV_USD:,.0f}, and an entry price of "
+         f"${MIN_PRICE:.0f} or more. Every result has **{ROUND_TRIP_COST:.0f}% taken off for costs**. A result is **judged** only after "
+         f"{JUDGE_TDAYS} trading days. Before that it's an early read and proves nothing.", "",
+         f"- **Judged (held {JUDGE_TDAYS}+ trading days):** {stats(judged)}",
+         f"- **Early read (under {JUDGE_TDAYS} trading days):** {stats(early)}", "",
+         "| category (takeable only) | judged | early read |", "|---|---|---|"]
+    for c in sorted({r["category"] for r in tk}):
+        j = [r["net_excess_pct"] for r in tk if r["category"] == c and r["tdays"] >= JUDGE_TDAYS]
+        e = [r["net_excess_pct"] for r in tk if r["category"] == c and r["tdays"] < JUDGE_TDAYS]
+        L.append(f"| {c} | {stats(j)} | {stats(e)} |")
+    fell = [r["excess_pct"] for r in shorts]
+    L += ["", "### Paper only: not trades we could take", "",
+          f"- **Short bets ({len(shorts)}):** fresh share supply, reverse splits and similar. {sum(x > 0 for x in fell)}/{len(fell)} lagged IWM "
+          f"(median {median(fell):+.1f}% in our favour)." if fell else f"- **Short bets:** none live.",
+          "  We can't short, and borrowing these is usually impossible or very expensive, so they never count as wins. What they're good for is a "
+          "**don't-buy list**: the stocks these signals flag mostly go down.",
+          f"- **Long bets we couldn't take ({len(other)}):** too illiquid, under $1, or a false positive that reading the filing rules out.", ""]
+    return L
+
+
 def main():
     items = rows_s1() + rows_manual() + rows_market_scans()
     seen, uniq = set(), []
@@ -156,11 +214,16 @@ def main():
         row.update(ret_pct=round(r, 2), iwm_pct=round(ir, 2) if ir is not None else None,
                    since_found_pct=round(pct(now_val, p["found_close"]), 2) if p["found_close"] else None,
                    excess_pct=round(it["direction"] * (r - ir), 2) if (ir is not None and it["direction"]) else None,
-                   days=(p["now_date"] - p["entry_date"]).days, status="live")
+                   days=(p["now_date"] - p["entry_date"]).days, status="live",
+                   tdays=sum(1 for b in iwm if p["entry_date"] < b[0] <= p["now_date"]))
+        tk, why = takeable(row)
+        row.update(takeable=tk, why_not=why,
+                   net_excess_pct=round(row["excess_pct"] - ROUND_TRIP_COST, 2) if tk == "yes" and row["excess_pct"] is not None else None)
         out.append(row)
 
     cols = ["found", "source", "ticker", "category", "direction", "pre_move_5d", "found_day_move", "adv_usd", "liquid", "found_close", "entry_date", "entry_open",
-            "now_date", "now", "since_found_pct", "ret_pct", "iwm_pct", "excess_pct", "days", "status", "note"]
+            "now_date", "now", "since_found_pct", "ret_pct", "iwm_pct", "excess_pct", "days", "tdays", "takeable", "why_not",
+            "net_excess_pct", "status", "note"]
     OUT_CSV.parent.mkdir(exist_ok=True)
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore"); w.writeheader(); w.writerows(out)
@@ -171,8 +234,8 @@ def main():
              f"{sum(1 for r in out if r.get('status','').startswith('pending'))} pending · "
              f"{sum(1 for r in out if r.get('status') == 'no price data')} no price data", "",
              "Entry = next session's open after the item was found. Control = IWM over the same window. "
-             "Excess = direction × (return − IWM). **Days held are tiny: this is a log, not a result.**", "",
-             "## By category (directional categories only)", "",
+             "Excess = direction × (return − IWM).", ""] + honest(live) + [
+             "## All directional items by category (includes the paper-only short bets)", "",
              "| category | dir | n live | mean excess | median excess | hit rate (excess > 0) |", "|---|---|---|---|---|---|"]
     cats = sorted({r["category"] for r in live})
     for c in cats:

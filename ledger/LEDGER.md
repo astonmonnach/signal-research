@@ -2,9 +2,30 @@
 
 164 logged items · 141 live · 18 pending · 5 no price data
 
-Entry = next session's open after the item was found. Control = IWM over the same window. Excess = direction × (return − IWM). **Days held are tiny: this is a log, not a result.**
+Entry = next session's open after the item was found. Control = IWM over the same window. Excess = direction × (return − IWM).
 
-## By category (directional categories only)
+## Honest scoreboard: what we could actually have taken
+
+**Takeable** = a long bet (we buy, we can't short), average daily $ volume of at least $250,000, and an entry price of $1 or more. Every result has **1% taken off for costs**. A result is **judged** only after 20 trading days. Before that it's an early read and proves nothing.
+
+- **Judged (held 20+ trading days):** n 0
+- **Early read (under 20 trading days):** n 13 · beat IWM 5/13 · median -1.6% · mean -1.9% · mean without the best 2 -3.8%
+
+| category (takeable only) | judged | early read |
+|---|---|---|
+| 8k_strategic_review | n 0 | n 1 · beat IWM 0/1 · median -13.7% · mean -13.7% |
+| activist_13d | n 0 | n 6 · beat IWM 3/6 · median -0.7% · mean +0.4% · mean without the best 2 -2.3% |
+| idea_catalyst | n 0 | n 2 · beat IWM 0/2 · median -8.7% · mean -8.7% |
+| s1_dod_contract | n 0 | n 3 · beat IWM 2/3 · median +5.8% · mean +2.7% |
+| tender_issuer_buyback | n 0 | n 1 · beat IWM 0/1 · median -4.3% · mean -4.3% |
+
+### Paper only: not trades we could take
+
+- **Short bets (68):** fresh share supply, reverse splits and similar. 50/68 lagged IWM (median +3.0% in our favour).
+  We can't short, and borrowing these is usually impossible or very expensive, so they never count as wins. What they're good for is a **don't-buy list**: the stocks these signals flag mostly go down.
+- **Long bets we couldn't take (13):** too illiquid, under $1, or a false positive that reading the filing rules out.
+
+## All directional items by category (includes the paper-only short bets)
 
 | category | dir | n live | mean excess | median excess | hit rate (excess > 0) |
 |---|---|---|---|---|---|

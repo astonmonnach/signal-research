@@ -219,12 +219,19 @@ def movers_section(S, P, frm):
 
 def ledger_section(S, P, frm):
     tr = [r for r in S.ledger if P.start <= r["found"] <= P.end and r["status"] == "live"
-          and r["liquid"] == "yes" and r["excess_pct"] is not None]
-    L = ["## Ledger by category: items found this period, tradeable only", "",
-         f"Same rules as {link('LEDGER.md', 'ledger/LEDGER.md', frm)}: directional categories only, average daily $ volume ≥ "
-         f"${BL.MIN_ADV_USD:,.0f}, split by the move into the found day (5 days before plus the found day). Tiny samples: a log, not a result.", ""]
+          and r.get("takeable") == "yes" and r["excess_pct"] is not None]
+    for r in tr:
+        r["excess_pct"] = r["excess_pct"] - BL.ROUND_TRIP_COST          # same net-of-costs basis as LEDGER.md
+    shorts = [r for r in S.ledger if P.start <= r["found"] <= P.end and r["status"] == "live" and r["direction"] < 0 and r["excess_pct"] is not None]
+    L = ["## Ledger by category: items found this period, takeable only", "",
+         f"Same rules as {link('LEDGER.md', 'ledger/LEDGER.md', frm)}'s honest scoreboard: long bets only (we can't short), average daily "
+         f"$ volume ≥ ${BL.MIN_ADV_USD:,.0f}, entry ≥ ${BL.MIN_PRICE:.0f}, {BL.ROUND_TRIP_COST:.0f}% taken off for costs. Results under "
+         f"{BL.JUDGE_TDAYS} trading days are an early read, not a result.", ""]
+    if shorts:
+        L += [f"Paper only: {len(shorts)} short bets found this period ({sum(r['excess_pct'] > 0 for r in shorts)} lagged IWM). They work as a "
+              "don't-buy list and are never counted as wins.", ""]
     if not tr:
-        return L + ["_No tradeable directional item found in this period is live yet._", ""]
+        return L + ["_No takeable item found in this period is live yet._", ""]
     L += ["| category | dir | n | mean excess | median excess | right | crashed >20% by found: n · excess | spiked >50% by found: n · excess |",
           "|---|---|---|---|---|---|---|---|"]
     for c in sorted({r["category"] for r in tr}):

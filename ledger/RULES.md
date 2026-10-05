@@ -31,3 +31,11 @@
   - A "strategic alternatives/review" hit in a debt financing 8-K (Item 2.03 with no 8.01/2.01) is forward-looking
     boilerplate. It is tagged `financing-mention` and isn't counted as a strategic review. The trigger was CHDN on 28 Sep.
   - Both apply to scans from 6 Oct on. Older rows stay as they were recorded.
+- **2026-10-05: the honest scoreboard is the headline.**
+  - The old headline ("61/94 beat IWM, +5.0%") was mostly **short bets**: 68 of the 94, including KNRX and WHLR, which "won" by collapsing. We can't take those, because the account can't short and borrow for these names is usually unavailable.
+  - From now on the headline counts only **takeable** items: long bets, average daily $ volume ≥ $250k, entry ≥ $1, with **1% taken off for round-trip costs**.
+  - A takeable result is **judged** only after **20 trading days** held. `days` was calendar days; `tdays` is now trading days.
+  - Short bets stay in the ledger as paper-only, a don't-buy list, and are never counted as wins.
+  - Known false positives (LWLG's director bio, CHDN's refinancing boilerplate) aren't takeable: the method says read the filing before any trade, so they were never trades. They don't count as wins or losses.
+  - Nothing was deleted or re-scored: every row keeps its direction. Only the headline and the cost basis changed.
+
