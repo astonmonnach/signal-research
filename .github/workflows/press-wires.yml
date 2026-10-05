@@ -32,5 +32,5 @@ jobs:
           git add data/press/ watch/press/
           git diff --cached --quiet && exit 0
           git commit -m "press wires $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done
           exit 1

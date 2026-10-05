@@ -213,10 +213,16 @@ def main():
     out.write_text(text + "\n", encoding="utf-8")
     if "--dry-run" in sys.argv:
         print(text); return
+    marker = ROOT / "briefings" / f".sent-{TODAY.isoformat()}"
+    if marker.exists() and "--force" not in sys.argv:
+        print(f"already sent today ({marker.name}); briefing file refreshed, nothing sent")
+        return
     sent = notify.send(text, "briefing")                       # the whole thing, once
     for ch, body in sections.items():                         # plus each section to its own channel
         if notify.has_own_channel(ch):
             sent += notify.send(body, ch)
+    if sent:
+        marker.write_text(", ".join(sent) + "\n", encoding="utf-8")
     print(f"briefing written to {out.relative_to(ROOT)}; sent via: {', '.join(sent) or 'nothing (no secrets set)'}")
 
 
