@@ -129,8 +129,22 @@ def ledger(top=5):
     fmt = lambda r: f"{r['ticker']} {float(r['excess_pct']):+.1f}% ({r['category']}, {r['days']}d)"
     best, worst = [fmt(r) for r in live[:top]], [fmt(r) for r in live[-top:][::-1]]
     xs = [float(r["excess_pct"]) for r in live]
-    return [f"{len(live)} directional calls live · mean excess vs IWM {mean(xs):+.1f}% · hit rate {sum(x > 0 for x in xs)}/{len(xs)} (early, tiny samples)",
+    return [f"{len(live)} directional scan items live · mean excess vs IWM {mean(xs):+.1f}% · hit rate {sum(x > 0 for x in xs)}/{len(xs)} (early, tiny samples)",
             "Best: " + ", ".join(best), "Worst: " + ", ".join(worst)]
+
+
+def calls():
+    """Public calls (calls/marks.csv, built by calls/build_calls.py): one line per call."""
+    p = ROOT / "calls/marks.csv"
+    if not p.exists(): return []
+    out = []
+    for r in csv.DictReader(open(p, encoding="utf-8")):
+        side = "LONG" if int(r["direction"]) > 0 else "SHORT"
+        if not r["ret_pct"]:
+            out.append(f"#{r['id']} {side} {r['ticker']}: {r['status']}"); continue
+        vs = f", {float(r['excess_iwm']):+.1f}% vs IWM" if r["excess_iwm"] else ""
+        out.append(f"#{r['id']} {side} {r['ticker']} {float(r['ret_pct']):+.1f}%{vs} since ${float(r['entry']):.2f} ({r['entry_date']}), {r['status']}")
+    return out
 
 
 def crypto():
@@ -195,8 +209,9 @@ def build():
         S["press"] = [f"## Press releases (trusted wires, {total} since last briefing)"] + ([f"- {x}" for x in items] or ["- none"]) + [""]
     st_ = setups()
     if st_: S["setups"] = ["## Setups (watch only, not buys)"] + [f"- {x}" for x in st_] + [""]
-    led = ledger()
-    if led: S["ledger"] = ["## Ledger (every call vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
+    led, cl = ledger(), calls()
+    if cl: S["ledger"] = ["## Public calls (the track record)"] + [f"- {x}" for x in cl] + [f"- Record: <{REPO_URL}/calls/README.md>", ""]
+    if led: S["ledger"] = S.get("ledger", []) + ["## Ledger (every scan item vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
     c = crypto()
     if c: S["crypto"] = ["## Crypto", f"- {c}", ""]
     cal = calendar()

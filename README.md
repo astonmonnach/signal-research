@@ -9,7 +9,8 @@ A research log for event-driven trades in US small caps. Collectors read SEC fil
 | **Today's scan**: everything found on a date | `scans/YYYY-MM-DD.md` (newest first in [scans/README.md](scans/README.md)) |
 | **A stock's dossier**: deep dive, status, timeline, performance | `stocks/TICKER.md`, for example [stocks/MTUS.md](stocks/MTUS.md) (all of them: [stocks/README.md](stocks/README.md)) |
 | **Weekly / monthly / quarterly update** | `reports/weekly/YYYY-Www.md`, `reports/monthly/YYYY-MM.md`, `reports/quarterly/YYYY-Qn.md` ([reports/README.md](reports/README.md)) |
-| **The ledger**: every call against IWM | [ledger/LEDGER.md](ledger/LEDGER.md). Rules: [ledger/RULES.md](ledger/RULES.md). Raw rows: `ledger/ledger.csv`. Ideas and watch-only setups: `ledger/manual_calls.csv` |
+| **Public calls**: the conviction track record, append-only, each marked from the next open vs IWM and a control | [calls/README.md](calls/README.md). Add a call as a new row in `calls/CALLS.csv` (never edit or delete one) |
+| **The ledger**: every scan item against IWM | [ledger/LEDGER.md](ledger/LEDGER.md). Rules: [ledger/RULES.md](ledger/RULES.md). Raw rows: `ledger/ledger.csv`. Ideas and watch-only setups: `ledger/manual_calls.csv` |
 | **The morning briefing** | `briefings/YYYY-MM-DD.md`, also sent to Discord (one channel per section) and Telegram |
 | **Open positions and trades** | [watch/positions.md](watch/positions.md), [journal/trades.csv](journal/trades.csv) |
 | **Trade theses**, written before entry | `ideas/TICKER.md` ([MTUS](ideas/MTUS.md), [VYLR](ideas/VYLR.md)) |
@@ -28,10 +29,10 @@ What each generated file holds:
 | When | What runs | Writes |
 |---|---|---|
 | **Evening job**, ~21:30 UK (a Claude scheduled task on the trader's machine, not GitHub) | `watch/check_filings.py`, `watch/scan_market.py`, `collectors/s1_dod.py`, `collectors/outcomes.py`, then Claude reads the hits and writes the triage | `watch/digests/`, `watch/market/`, `watch/dod/`, `data/signals.csv`, `data/outcomes.csv`, `watch/digests/YYYY-MM-DD-triage.md` |
-| **GitHub Actions `morning-briefing`**, weekdays. Several slots from 04:07 to 06:07 UTC, because GitHub often starts late; the briefing and the weekly Discord post go out once a day | `collectors/positions.py`, `collectors/nq_regime.py`, `collectors/market_context.py`, `ledger/build_ledger.py`, **`reports/build_scans.py`** (today and the 6 days before), **`reports/build_stocks.py`**, **`reports/build_periodic.py --current --post-weekly`**, then `briefing/morning.py`. Commits the outputs | `watch/positions.md`, `watch/nq_regime.md`, `watch/context/`, `ledger/`, `scans/`, `stocks/`, `reports/`, `briefings/` |
+| **GitHub Actions `morning-briefing`**, weekdays. Several slots from 04:07 to 06:07 UTC, because GitHub often starts late; the briefing and the weekly Discord post go out once a day | `collectors/positions.py`, `collectors/nq_regime.py`, `collectors/market_context.py`, `ledger/build_ledger.py`, `calls/build_calls.py`, **`reports/build_scans.py`** (today and the 6 days before), **`reports/build_stocks.py`**, **`reports/build_periodic.py --current --post-weekly`**, then `briefing/morning.py`. Commits the outputs | `watch/positions.md`, `watch/nq_regime.md`, `watch/context/`, `ledger/`, `calls/`, `scans/`, `stocks/`, `reports/`, `briefings/` |
 | **GitHub Actions `press-wires`**, every 20 minutes | `collectors/press_wires.py` | `data/press/YYYY-MM-DD.csv`, `watch/press/` |
 | **GitHub Actions `crypto-trending`**, every 30 minutes | `collectors/crypto_trending.py` (C1); `collectors/c2_convergence.py` (C2, even hours) | `data/crypto/` |
-| **By hand** | ideas, research, strategies, deep dives in `stocks/`, `ledger/manual_calls.csv`, `journal/trades.csv`, the calendar | |
+| **By hand** | ideas, research, strategies, deep dives in `stocks/`, `calls/CALLS.csv`, `ledger/manual_calls.csv`, `journal/trades.csv`, the calendar | |
 
 The three report generators only read files the jobs above wrote (`reports/sources.py` holds the shared readers). The exception is `build_periodic.py`, which fetches Yahoo daily closes to measure moves over a period. They are idempotent: re-running with the same inputs changes nothing. **Don't edit generated files** (`scans/`, the AUTO part of `stocks/`, `reports/weekly|monthly|quarterly/`, `ledger/LEDGER.md`, `briefings/`): fix the input and re-run.
 
@@ -48,5 +49,6 @@ python reports/build_stocks.py                   # every dossier (or: python rep
 python reports/build_periodic.py --period week --date 2026-10-02   # also month / quarter
 python reports/build_periodic.py --current       # this week, month and quarter to date; --all rebuilds every period
 python ledger/build_ledger.py                    # ledger/ledger.csv + LEDGER.md
+python calls/build_calls.py                      # calls/README.md + marks.csv (--post N prints call N's facts for an X post)
 python briefing/morning.py --dry-run             # print the briefing, send nothing
 ```

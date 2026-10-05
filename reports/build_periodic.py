@@ -365,6 +365,27 @@ def links_section(S, P, frm):
     return L + [""]
 
 
+def calls_section(S, P, frm):
+    """Public calls (calls/marks.csv): every call open during the period, with its mark as of the latest close."""
+    p = ROOT / "calls/marks.csv"
+    rows = [r for r in csv.DictReader(open(p, encoding="utf-8"))] if p.exists() else []
+    rows = [r for r in rows if r["posted_utc"][:10] <= P.end.isoformat() and (not r["end_date"] or r["status"] == "open"
+            or r["end_date"] >= P.start.isoformat())]
+    L = ["## Public calls", "", f"Every committed call ({link('the record', 'calls/README.md', frm)}), marked from the next open "
+         "against IWM and a named control, closed only by its own pre-stated rule.", ""]
+    if not rows:
+        return L + ["_No public calls were open in this period._", ""], []
+    L += ["| # | call | entry | latest / exit | return | vs IWM | vs control | status |", "|---|---|---|---|---|---|---|---|"]
+    for r in rows:
+        side = "LONG" if int(r["direction"]) > 0 else "SHORT"
+        if not r["ret_pct"]:
+            L.append(f"| {r['id']} | {side} {r['ticker']} | | | | | | {r['status']} |"); continue
+        f = lambda k: f"{float(r[k]):+.1f}%" if r[k] else ""
+        L.append(f"| {r['id']} | {side} {link(r['ticker'], 'stocks/' + r['ticker'] + '.md', frm)} | ${float(r['entry']):.2f} ({r['entry_date']}) | "
+                 f"${float(r['end_price']):.2f} ({r['end_date']}) | {f('ret_pct')} | {f('excess_iwm')} | {f('excess_control')} ({r['control']}) | {r['status']} |")
+    return L + [""], rows
+
+
 def render(S, P):
     frm = P.path
     prev, nxt = P.prev(), P.next()
@@ -376,6 +397,7 @@ def render(S, P):
     wl, wl_rows = watchlist_section(S, P, frm)
     st, flagged = setups_section(S, P, frm)
     ev, evs = events_section(S, P, frm)
+    cl, cl_rows = calls_section(S, P, frm)
     glance = []
     if summ:
         glance.append(f"Found: {summ['days']} scan days · {summ['signals']} S1 signals · {summ['filings']} watchlist filings · "
@@ -384,6 +406,10 @@ def render(S, P):
     if best or worst:
         f = lambda r: f"{r['ticker']} {pts(r['_vs'])}"
         glance.append("Since found, vs IWM: best " + (", ".join(f(r) for r in best[:3]) or "none") + "; worst " + (", ".join(f(r) for r in worst[:3]) or "none"))
+    marked = [r for r in cl_rows if r["ret_pct"]]
+    if cl_rows:
+        glance.append(f"Public calls: {len(cl_rows)}" + (" · " + ", ".join(f"#{r['id']} {r['ticker']} {float(r['ret_pct']):+.1f}%"
+                      + (f" ({float(r['excess_iwm']):+.1f} vs IWM)" if r['excess_iwm'] else "") for r in marked) if marked else " (entering at the next open)"))
     if pos_rows:
         glance.append("Positions: " + ", ".join(f"{t['symbol']} {pct(m)} (${p:+.2f} after fees{', closed' if c else ''})" for t, m, p, c in pos_rows))
     moved = [r for r in wl_rows if r[2] is not None]
@@ -397,7 +423,7 @@ def render(S, P):
          f"Period {state}. Built by `reports/build_periodic.py` from the daily scans, the ledger, the journal, the calendar and Yahoo "
          "daily closes. Rebuilt every weekday morning while the period is open.", "",
          "## At a glance", ""] + [f"- {g}" for g in glance] + [""]
-    L += found + movers + ledger_section(S, P, frm) + pos + wl + st + ev + links_section(S, P, frm)
+    L += found + cl + movers + ledger_section(S, P, frm) + pos + wl + st + ev + links_section(S, P, frm)
     while L and not L[-1]:
         L.pop()
     return "\n".join(L) + "\n", glance
