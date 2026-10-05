@@ -33,12 +33,13 @@ BUCKETS = {  # key: (heading, range, channel, benchmark)
 MARKET = [("SPY", "S&P 500"), ("IWM", "Russell 2000"), ("QQQ", "Nasdaq 100"), ("MDY", "S&P MidCap 400")]
 INPUTS = [("SLX", "Steel"), ("CPER", "Copper"), ("GLD", "Gold"), ("SLV", "Silver"), ("USO", "Oil")]
 _cache, _meta = {}, {}
+AS_OF = None   # set to a past date by briefing/backfill.py: prices stop at that close, live snapshots are left out
 
 
 # ---------- data ----------
 def bars(t):
     """[(date, close)] for ~3 months of Yahoo daily bars (today's bar is live until the close)."""
-    if t in _cache: return _cache[t]
+    if t in _cache: return [x for x in _cache[t] if AS_OF is None or x[0] <= AS_OF]
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{t}?range=3mo&interval=1d"
         r = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20))["chart"]["result"][0]
@@ -47,7 +48,7 @@ def bars(t):
     except Exception:
         out = []
     _cache[t] = out; time.sleep(0.15)
-    return out
+    return [x for x in out if AS_OF is None or x[0] <= AS_OF]
 
 
 def corporate_actions():
@@ -330,11 +331,13 @@ def daily_post(label, session, groups, caps, fnd, events):
     L = [f"**DAILY RECAP** · {label}", ""]
     L.append("**Market:** " + " · ".join(f"{name} {p(day(t))}" for t, name in MARKET))
     L.append("**Inputs:** " + " · ".join(f"{name} ({t}) {p(day(t))}" for t, name in INPUTS))
-    cl = calls_lines()
-    L.append("**Calls:** " + ("; ".join(cl) if cl else "none open"))
-    L.append("**Positions:** " + positions_line())
+    if AS_OF is None:                                   # today's snapshot only; past-day recaps leave these out
+        cl = calls_lines()
+        L.append("**Calls:** " + ("; ".join(cl) if cl else "none open"))
+        L.append("**Positions:** " + positions_line())
     allrows = []
     for key, tickers in groups.items():
+        tickers = [t for t in tickers if AS_OF is None or t not in fnd or fnd[t][0] <= AS_OF]
         for r in stock_rows(tickers, BUCKETS[key][3], fnd):
             allrows.append(dict(r, bucket=key))
     moved = [r for r in allrows if r["vs"] is not None]
@@ -362,11 +365,13 @@ def weekly_post(session, groups, fnd, events):
     L = [f"**WEEKLY RECAP** · week {iw} ({monday:%d %b} to {session:%d %b %Y})", ""]
     L.append("**Market (week):** " + " · ".join(f"{name} {p(holder_pct(t, base))}" for t, name in MARKET))
     L.append("**Inputs (week):** " + " · ".join(f"{name} {p(holder_pct(t, base))}" for t, name in INPUTS))
-    cl = calls_lines()
-    L.append("**Calls:** " + ("; ".join(cl) if cl else "none open"))
-    L.append("**Positions:** " + positions_line())
+    if AS_OF is None:                                   # today's snapshot only; past-day recaps leave these out
+        cl = calls_lines()
+        L.append("**Calls:** " + ("; ".join(cl) if cl else "none open"))
+        L.append("**Positions:** " + positions_line())
     rows = []
     for key, tickers in groups.items():
+        tickers = [t for t in tickers if AS_OF is None or t not in fnd or fnd[t][0] <= AS_OF]
         for r in stock_rows(tickers, BUCKETS[key][3], fnd, base_week=base):
             rows.append(dict(r, bucket=key))
     rows.sort(key=lambda r: -(r["week_vs"] if r["week_vs"] is not None else -999))

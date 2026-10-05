@@ -1,0 +1,59 @@
+name: backfill
+
+# Run by hand (Actions -> backfill -> Run workflow) to fill Discord with the last few days, oldest first:
+# past daily recaps (rebuilt from each day's closes), last week's recap, filings, press and briefings,
+# the current calendar/ledger/crypto, then today's full recap. Each post goes out once
+# (briefing/backfilled.json; recaps/.sent-DATE), so running it again only sends what's new.
+on:
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "First day (YYYY-MM-DD)"
+        default: "2026-09-28"
+      to:
+        description: "Last day (YYYY-MM-DD, blank = today)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-briefing
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+      DISCORD_WEBHOOKS_2: ${{ secrets.DISCORD_WEBHOOKS_2 }}
+      DISCORD_WEBHOOKS_3: ${{ secrets.DISCORD_WEBHOOKS_3 }}
+      DISCORD_WEBHOOKS_4: ${{ secrets.DISCORD_WEBHOOKS_4 }}
+      DISCORD_WEBHOOKS_5: ${{ secrets.DISCORD_WEBHOOKS_5 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh positions, market caps, calls and funding pots
+        continue-on-error: true
+        run: |
+          python collectors/positions.py
+          python collectors/caps.py
+          python calls/build_calls.py --announce
+          python collectors/funding_pot.py
+      - name: Backlog (oldest first)
+        run: python briefing/backfill.py --from "${{ inputs.from }}" ${{ inputs.to && format('--to {0}', inputs.to) || '' }}
+      - name: Today's recap (size, strategies, trades open, calls, setups, daily recap)
+        continue-on-error: true
+        run: python briefing/recap.py
+      - name: Commit outputs
+        run: |
+          git config user.name "signal-lab-bot"
+          git config user.email "signal-lab-bot@users.noreply.github.com"
+          git add -A briefing/backfilled.json recaps/ calls/ watch/positions.md watch/caps.json watch/pots/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "backfill $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done
+          exit 1
