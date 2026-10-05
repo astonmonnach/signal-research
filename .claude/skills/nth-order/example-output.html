@@ -1,0 +1,237 @@
+<title>The $500B GPU Bet</title>
+<style>
+  :root{
+    color-scheme: light;
+    --page:#f9f9f7; --surface:#fcfcfb;
+    --text:#0b0b0b; --text2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,.10);
+    --pos:#2a78d6; --neg:#e34948; --zero:#f0efec;
+    --s1:#2a78d6; --s2:#eb6834;
+    --shadow:0 1px 2px rgba(11,11,11,.06),0 8px 24px rgba(11,11,11,.06);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:#0d0d0d; --surface:#1a1a19;
+      --text:#fff; --text2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,.10);
+      --pos:#3987e5; --neg:#e66767; --zero:#383835;
+      --s1:#3987e5; --s2:#d95926;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19;
+    --text:#fff; --text2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,.10);
+    --pos:#3987e5; --neg:#e66767; --zero:#383835;
+    --s1:#3987e5; --s2:#d95926;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--page); color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:40px 22px 72px}
+  .kicker{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  h1{font-size:clamp(28px,6vw,44px); line-height:1.08; margin:.28em 0 .12em; letter-spacing:-.02em}
+  .thesis{font-size:clamp(17px,2.6vw,20px); color:var(--text2); margin:0 0 18px; max-width:60ch}
+  .meta{font-size:13px; color:var(--muted); border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:11px 0; margin:20px 0 6px; display:flex; gap:16px; flex-wrap:wrap}
+  .meta b{color:var(--text2); font-weight:600}
+  section{margin:38px 0 0}
+  .rung{display:flex; align-items:baseline; gap:12px; margin:0 0 10px}
+  .rung .n{font-size:12px; font-weight:700; color:var(--surface); background:var(--text); border-radius:999px; width:22px; height:22px; display:grid; place-items:center; flex:0 0 auto; letter-spacing:0}
+  .rung h2{font-size:clamp(19px,3.4vw,23px); margin:0; letter-spacing:-.01em; line-height:1.2}
+  p{margin:.5em 0}
+  .lead{font-size:16.5px}
+  .big{font-weight:700; color:var(--text)}
+  figure{margin:22px 0 6px; background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px 16px 14px; box-shadow:var(--shadow)}
+  figcaption{font-size:12.5px; color:var(--muted); margin-top:12px; padding-top:10px; border-top:1px solid var(--border)}
+  .ctitle{font-size:15px; font-weight:650; margin:0 0 2px}
+  .csub{font-size:12.5px; color:var(--text2); margin:0 0 14px}
+  .legend{display:flex; gap:16px; font-size:12.5px; color:var(--text2); margin:0 0 14px; flex-wrap:wrap}
+  .legend span{display:inline-flex; align-items:center; gap:6px}
+  .swatch{width:11px; height:11px; border-radius:3px; display:inline-block}
+  /* diverging chart */
+  .drow{display:grid; grid-template-columns:1fr; gap:2px; padding:7px 0}
+  .dlabel{font-size:13px; color:var(--text2); line-height:1.3}
+  .dplot{position:relative; height:22px; border-left:2px solid var(--baseline); margin-left:50%; }
+  .dbar{position:absolute; top:3px; height:16px; border-radius:4px}
+  .dbar.pos{left:0; background:var(--pos)}
+  .dbar.neg{right:0; background:var(--neg)}
+  .dval{position:absolute; top:2px; font-size:12px; font-weight:600; color:var(--text2); font-variant-numeric:tabular-nums}
+  /* magnitude chart */
+  .mrow{display:grid; grid-template-columns:1fr; gap:3px; padding:6px 0}
+  .mlabel{font-size:13px; color:var(--text2); display:flex; justify-content:space-between; gap:10px}
+  .mval{color:var(--text); font-weight:650; font-variant-numeric:tabular-nums}
+  .mtrack{height:15px; background:linear-gradient(var(--grid),var(--grid)) no-repeat; background-size:100% 1px; background-position:0 100%; position:relative}
+  .mbar{height:15px; border-radius:4px}
+  .scen{display:grid; grid-template-columns:1fr; gap:12px; margin:16px 0 0}
+  @media(min-width:620px){ .scen{grid-template-columns:1fr 1fr 1fr} }
+  .card{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:14px 15px}
+  .card h3{margin:0 0 6px; font-size:14px; letter-spacing:.02em; text-transform:uppercase}
+  .card.bull h3{color:var(--pos)} .card.bear h3{color:var(--neg)} .card.base h3{color:var(--muted)}
+  .card p{font-size:14px; color:var(--text2); margin:0}
+  .watch{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin:16px 0 0}
+  .watch b{font-size:13px}
+  .watch ul{margin:8px 0 0; padding-left:18px} .watch li{font-size:14px; color:var(--text2); margin:3px 0}
+  .caption{background:var(--surface); border:1px dashed var(--border); border-radius:12px; padding:16px 18px; margin:22px 0 0; font-size:14.5px; color:var(--text2)}
+  .caption b{color:var(--text)}
+  .sources{font-size:12.5px; color:var(--muted); margin-top:30px; border-top:1px solid var(--border); padding-top:14px}
+  .sources a{color:var(--text2)}
+  .foot{font-size:12px; color:var(--muted); margin-top:26px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
+  .tip{position:fixed; z-index:20; pointer-events:none; opacity:0; transition:opacity .1s; background:var(--text); color:var(--surface); font-size:12.5px; line-height:1.4; padding:8px 10px; border-radius:8px; max-width:260px; box-shadow:var(--shadow)}
+  .disc{font-size:12px; color:var(--muted); font-style:italic; margin-top:8px}
+</style>
+
+<div class="wrap">
+  <div class="kicker">nth-order analysis</div>
+  <h1>The $500B GPU Bet</h1>
+  <p class="thesis">Nvidia just turned its chips into something you can borrow against. That single move changes who's really exposed to the AI build-out — and it isn't only Nvidia.</p>
+  <div class="meta">
+    <span><b>Event</b> Nvidia + 6 finance giants, $500B AI-infrastructure financing</span>
+    <span><b>Dated</b> 10–11 Aug 2026</span>
+  </div>
+
+  <section>
+    <div class="rung"><span class="n">1</span><h2>What is it</h2></div>
+    <p class="lead">Nvidia signed MOUs with <span class="big">six financial institutions — Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR</span> — to launch "compute-financing platforms" aimed at mobilising <span class="big">over $500 billion</span> of third-party capital for AI infrastructure: data centres, power, chips and equipment. The structure is the point: <span class="big">the compute itself is the collateral</span>, financed through special-purpose entities issuing private offerings and bonds. Nvidia holds the option to <span class="big">backstop up to $125B (25%)</span>, and CEO Jensen Huang framed the chips as an "investable asset class." Goldman is the only bank in the group, positioned to lead public debt.</p>
+  </section>
+
+  <section>
+    <div class="rung"><span class="n">2</span><h2>What does it actually mean</h2></div>
+    <p>It means AI capex has outgrown even the people paying for it. The four biggest hyperscalers are already spending a combined <span class="big">~$725B in 2026</span> — up 77% in a year — and it still isn't enough to fund the build-out from cash flow. So Nvidia is moving the cost <span class="big">off its customers' balance sheets and onto institutional credit</span>: insurers, pension funds and private-credit managers underwrite the GPUs, customers get compute without raising equity, and Nvidia de-risks demand for its own hardware.</p>
+    <p>In plain terms: this is <span class="big">vendor financing, securitised</span> — GPUs treated like aircraft or real estate, with debt secured against the asset. It reframes the whole AI story from an equity bet into a <span class="big">credit</span> one. And notice what the money is actually chasing —</p>
+
+    <figure>
+      <p class="ctitle">How big is $500B?</p>
+      <p class="csub">The financing push, in scale against what the hyperscalers already plan to spend in 2026 ($bn).</p>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--s1)"></i>Nvidia financing push (new)</span>
+        <span><i class="swatch" style="background:var(--s2)"></i>Hyperscaler 2026 capex (for scale)</span>
+      </div>
+      <div id="mag"></div>
+      <figcaption>The financing platform alone is ~69% of what Amazon, Google, Meta and Microsoft <em>combined</em> plan to spend this year — and Nvidia will backstop as much as Meta's or Microsoft's entire annual capex. Sources: hyperscaler capex guidance; Nvidia financing announcement (below).</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="rung"><span class="n">3</span><h2>Who's positively and negatively affected</h2></div>
+    <p>The obvious winner is Nvidia. The <em>non-obvious</em> ones are where the read is: &gt;60% of AI capex goes to <span class="big">power, cooling and construction — not chips</span>, which makes the grid the quiet beneficiary. And the risk doesn't sit with Nvidia at all — it's been distributed to whoever ends up holding GPU-backed paper.</p>
+    <figure>
+      <p class="ctitle">Impact map — winners and losers</p>
+      <p class="csub">Relative exposure to the deal, −5 (hit) to +5 (boost). Hover a bar for the why.</p>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--pos)"></i>Positively affected</span>
+        <span><i class="swatch" style="background:var(--neg)"></i>Negatively affected</span>
+      </div>
+      <div id="div"></div>
+      <figcaption>Scores are a judgement of relative exposure, not a forecast — the entities and the direction are grounded in the sourced reporting; the magnitudes are the analyst's call.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="rung"><span class="n">4</span><h2>What could this mean in the near future</h2></div>
+    <p>The tell everyone will read first is <span class="big">Nvidia's Q4 print on 26 Aug</span> — is a $500B financing scaffold a signal of demand, or a signal of <em>worry</em> about demand? History has both endings, and which one this is depends on one thing: <span class="big">how fast a GPU depreciates versus how slowly the debt amortises.</span></p>
+    <div class="scen">
+      <div class="card bull"><h3>Bull</h3><p>GPU-backed credit matures into a durable asset class — the way aircraft and auto loans did. It unlocks a trillion-plus of AI infrastructure, entrenches Nvidia, and hands power &amp; utilities a multi-year supercycle.</p></div>
+      <div class="card base"><h3>Base</h3><p>A large, real market forms — but cyclical. It funds the next leg of build-out, then a first blow-up reprices GPU-collateral risk and separates the disciplined lenders from the reach-for-yield ones.</p></div>
+      <div class="card bear"><h3>Bear</h3><p>Unlike planes or buildings, GPUs obsolesce in ~3 years. If AI demand softens, collateral value craters faster than the debt — a "GPU subprime" echo of the Lucent/Nortel vendor-financing loans that helped fuel the 2000–01 telecom bust.</p></div>
+    </div>
+    <div class="watch">
+      <b>Signals to watch</b>
+      <ul>
+        <li>Nvidia's 26 Aug earnings — demand tone and any comment on the backstop.</li>
+        <li>Spreads and demand on the first SPE bond deals — the market pricing GPU-collateral risk in real time.</li>
+        <li>GPU resale / depreciation curves — the single variable the bear case turns on.</li>
+        <li>Power and grid-interconnect bottlenecks — the real ceiling on the build-out.</li>
+        <li>Any regulator or rating-agency commentary on GPU-backed credit as systemic.</li>
+      </ul>
+    </div>
+    <p class="disc">Scenarios are forks anchored to precedent, not predictions. The Lucent/Nortel comparison is a historical analogue, not a claim that it repeats.</p>
+  </section>
+
+  <div class="caption">
+    <b>Post caption draft —</b> Everyone's headline is "Nvidia raises $500B." The actual story: Nvidia just made its GPUs <b>collateral</b>. That quietly moves the risk of the AI build-out off the hyperscalers and onto whoever buys the debt — insurers, pensions, private credit. The last time a vendor financed its own customers at this scale was Lucent and Nortel in 1999. Worth watching how fast a GPU depreciates vs how slowly the bonds amortise. 🧵
+  </div>
+
+  <div class="sources">
+    <b>Sources</b> —
+    <a href="https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html">CNBC: Nvidia lines up $500B financing</a> ·
+    <a href="https://www.rte.ie/news/business/2026/0811/1587364-nvidia-finance-funding/">RTÉ: Nvidia, finance firms to raise $500bn</a> ·
+    <a href="https://www.thenationalnews.com/business/markets/2026/08/11/nvidia-turns-to-wall-street-giants-to-raise-500bn-for-ai-infrastructure/">The National: six-firm MOU detail</a> ·
+    <a href="https://www.coindesk.com/tech/2026/08/11/nvidia-wants-to-turn-its-ai-chips-into-an-investable-asset-class">CoinDesk: crypto-compute left behind</a> ·
+    <a href="https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html">Hyperscaler 2026 capex (~$725B; &gt;60% power)</a>
+  </div>
+  <div class="foot"><span>nth-order analysis · Aston Monnach</span><span>what is it → what it means → who's affected → what's next</span></div>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script>
+  const tip = document.getElementById('tip');
+  function wire(el, html){
+    el.addEventListener('mousemove', e=>{
+      tip.innerHTML = html; tip.style.opacity=1;
+      let x=e.clientX+14, y=e.clientY+14;
+      if(x+270>innerWidth) x=e.clientX-270;
+      tip.style.left=x+'px'; tip.style.top=y+'px';
+    });
+    el.addEventListener('mouseleave', ()=>{ tip.style.opacity=0; });
+  }
+
+  // ---- Diverging: impact map (rung 3) ----
+  const impact = [
+    {n:'Nvidia', s:5, why:'Demand for its own chips underwritten; GPUs become collateral; ecosystem moat deepens.'},
+    {n:'Power &amp; utilities / the grid', s:4, why:'>60% of AI capex is power, cooling &amp; construction — the real bottleneck, and the real beneficiary.'},
+    {n:'Private-credit managers (Apollo, BlackRock, Blackstone, Brookfield, KKR)', s:4, why:'A new multi-hundred-billion GPU-backed private-credit fee stream.'},
+    {n:'Goldman Sachs', s:4, why:'Only bank in the group — leads public debt deals and distributes returns via asset management.'},
+    {n:'Memory &amp; networking suppliers', s:3, why:'HBM, optics and switching ride the same build-out.'},
+    {n:'Data-centre builders &amp; REITs', s:3, why:'Financing flows straight into new physical capacity.'},
+    {n:'Insurers &amp; pension funds', s:2, why:'A new yield asset class — but they also hold the downside if collateral sours.'},
+    {n:'Rival chipmakers (AMD, Intel)', s:-3, why:'Nvidia locks in demand and wraps a financing moat around its ecosystem.'},
+    {n:'Crypto / GPU compute', s:-3, why:'Capital and GPUs get routed to AI first — crypto compute falls further behind.'},
+    {n:'Credit-market stability', s:-4, why:'GPU-collateralised debt at scale, on assets that depreciate fast — systemic risk if demand softens.'},
+  ];
+  const dwrap = document.getElementById('div'); const maxAbs=5;
+  impact.forEach(d=>{
+    const row=document.createElement('div'); row.className='drow';
+    const lab=document.createElement('div'); lab.className='dlabel'; lab.innerHTML=d.n;
+    const plot=document.createElement('div'); plot.className='dplot';
+    const bar=document.createElement('div'); bar.className='dbar '+(d.s>=0?'pos':'neg');
+    bar.style.width=(Math.abs(d.s)/maxAbs*50)+'%';
+    const val=document.createElement('div'); val.className='dval'; val.textContent=(d.s>0?'+':'')+d.s;
+    if(d.s>=0){ val.style.left='calc('+(d.s/maxAbs*50)+'% + 6px)'; }
+    else { val.style.right='calc('+(Math.abs(d.s)/maxAbs*50)+'% + 6px)'; }
+    plot.appendChild(bar); plot.appendChild(val); row.appendChild(lab); row.appendChild(plot);
+    wire(row, '<b>'+d.n+'</b><br>'+d.why);
+    dwrap.appendChild(row);
+  });
+
+  // ---- Magnitude: scale context (rung 1/2) ----
+  const mag = [
+    {n:'Big-4 hyperscaler 2026 capex (combined)', v:725, c:'cap', why:'Amazon + Google + Meta + Microsoft planned 2026 capex, up ~77% YoY.'},
+    {n:'Nvidia-led financing platform (target)', v:500, c:'fin', why:'Third-party capital target across the six-firm platforms.'},
+    {n:'Amazon 2026 capex', v:200, c:'cap', why:'Largest single hyperscaler capex plan for 2026.'},
+    {n:'Google 2026 capex', v:185, c:'cap', why:'Alphabet 2026 capex guidance (~$175–185B).'},
+    {n:'Nvidia backstop (up to)', v:125, c:'fin', why:'Nvidia may backstop up to 25% of the deals.'},
+    {n:'Meta 2026 capex', v:125, c:'cap', why:'Meta 2026 capex guidance (~$115–135B).'},
+    {n:'Microsoft 2026 capex', v:120, c:'cap', why:'Microsoft 2026 capex guidance (~$110–120B).'},
+  ];
+  const mwrap=document.getElementById('mag'); const mmax=725;
+  mag.forEach(d=>{
+    const row=document.createElement('div'); row.className='mrow';
+    const lab=document.createElement('div'); lab.className='mlabel';
+    lab.innerHTML='<span>'+d.n+'</span><span class="mval">$'+d.v+'B</span>';
+    const track=document.createElement('div'); track.className='mtrack';
+    const bar=document.createElement('div'); bar.className='mbar';
+    bar.style.width=(d.v/mmax*100)+'%';
+    bar.style.background=(d.c==='fin'?'var(--s1)':'var(--s2)');
+    track.appendChild(bar); row.appendChild(lab); row.appendChild(track);
+    wire(row,'<b>'+d.n+' — $'+d.v+'B</b><br>'+d.why);
+    mwrap.appendChild(row);
+  });
+</script>
