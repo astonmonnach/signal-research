@@ -82,12 +82,12 @@ def mark(call):
                 days=(end_d - ed).days, status="closed: " + reason if exit_d else "open")
 
 
-def post_text(c):
+def post_text(c, link=True):
     side = ("LONG" if int(c["direction"]) > 0 else "SHORT") + (" (long-term)" if c.get("horizon") == "long" else "")
     inv = f"Exit if it closes {'below' if int(c['direction']) > 0 else 'above'} ${c['invalidation_close']} · " if c.get("invalidation_close") else ""
     return (f"CALL #{c['id']} · {side} ${c['ticker']}\nThesis: {c['thesis']}\n{inv}review {c['review_date']}\n"
-            f"Measured from the next open vs ${c.get('benchmark') or 'IWM'} and ${c['control']}. "
-            "Every call stays on the public record: github.com/astonmonnach/signal-research/tree/main/calls")
+            f"Measured from the next open vs ${c.get('benchmark') or 'IWM'} and ${c['control']}."
+            + (" Every call stays on the public record: github.com/astonmonnach/signal-research/tree/main/calls" if link else ""))
 
 
 def announce(rows, marked):
@@ -99,7 +99,7 @@ def announce(rows, marked):
     path = ROOT / "calls/announced.json"
     done = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"opened": [], "closed": []}
     for c in rows:
-        if c["id"] not in done["opened"] and notify.send("**NEW CALL**\n" + post_text(c), "calls"):
+        if c["id"] not in done["opened"] and notify.send("**NEW CALL**\n" + post_text(c, link=False), "calls"):
             done["opened"].append(c["id"])
     for m in marked:
         if m.get("status", "").startswith("closed") and m["id"] not in done["closed"]:

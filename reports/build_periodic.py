@@ -449,7 +449,7 @@ def index():
 
 def discord_text(P, glance):
     return "\n".join([f"**{TITLE[P.kind]} report {P.key}** ({P.span()})"] + [f"- {g}" for g in glance]
-                     + [f"Full report: <{REPO_URL}/{P.path}>"])
+                     )
 
 
 def main():

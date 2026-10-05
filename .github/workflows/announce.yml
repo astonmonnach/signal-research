@@ -25,6 +25,10 @@ jobs:
     timeout-minutes: 10
     env:
       DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+      DISCORD_WEBHOOKS_2: ${{ secrets.DISCORD_WEBHOOKS_2 }}
+      DISCORD_WEBHOOKS_3: ${{ secrets.DISCORD_WEBHOOKS_3 }}
+      DISCORD_WEBHOOKS_4: ${{ secrets.DISCORD_WEBHOOKS_4 }}
+      DISCORD_WEBHOOKS_5: ${{ secrets.DISCORD_WEBHOOKS_5 }}
       DISCORD_WEBHOOK_CALLS: ${{ secrets.DISCORD_WEBHOOK_CALLS }}
       DISCORD_WEBHOOK_LONGTERM: ${{ secrets.DISCORD_WEBHOOK_LONGTERM }}
     steps:

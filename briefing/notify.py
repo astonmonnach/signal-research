@@ -12,6 +12,7 @@ Channel names (briefing/discord_setup.py has the server layout and what each one
   start, calls, positions, govfilings, overhang, spinoff, setups, longterm, microcaps, smallcaps, midcaps, largecaps,
   briefing, dailyrecap, weeklyrecap, calendar, filings, press, ledger, crypto, alerts
 Hyphens are ignored, so "micro-caps" or "daily-recap" work too.
+To add channels later, put just the new lines in DISCORD_WEBHOOKS_2 (then _3, _4, _5): no re-pasting.
 A separate DISCORD_WEBHOOK_<CHANNEL> secret still works and wins over the list. DISCORD_WEBHOOK_URL is
 the old single-webhook fallback for #briefing. A channel with no webhook isn't posted on its own, but
 its section is still in the full #briefing post.
@@ -60,9 +61,16 @@ def label_for(url):
     return host or re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
 
 
+_OWN = ("github.com/astonmonnach", "raw.githubusercontent.com/astonmonnach")
+
+
 def shorten_links(text):
-    """Bare or <angle-bracket> URLs become masked links ([label](url)); existing [text](url) links are kept."""
+    """Bare or <angle-bracket> URLs become masked links ([label](url)); existing [text](url) links are kept.
+    Links to our own repo are removed entirely (his rule, 6 Oct 2026: no repo links in Discord); primary sources
+    such as SEC filings and press releases stay, with short labels."""
     def rep(m):
+        url = m.group(1) or m.group(2) or m.group(3)
+        if any(o in url for o in _OWN): return ""
         if m.group(1): return m.group(1)
         url, trail = m.group(2) or m.group(3), ""
         while m.group(3) and url[-1] in ".,;:!?'\"":         # sentence punctuation after a bare link
@@ -71,7 +79,13 @@ def shorten_links(text):
     out, in_code = [], False
     for line in text.split("\n"):                      # never touch tables inside ``` blocks
         if line.strip().startswith("```"): in_code = not in_code
-        out.append(line if in_code else _LINK.sub(rep, line))
+        if in_code:
+            out.append(line); continue
+        new = _LINK.sub(rep, line)
+        if new != line:                                # tidy what a removed link leaves behind
+            new = re.sub(r"(\s*·\s*)+$", "", re.sub(r"^(\s*[-*]?\s*)(·\s*)+", r"\1", re.sub(r"(·\s*){2,}", "· ", new))).rstrip()
+            if re.fullmatch(r"\s*[-*]?\s*([\w ]+:)?\s*", new): continue
+        out.append(new)
     return "\n".join(out)
 
 
@@ -110,9 +124,8 @@ def _name(raw):
     return n.replace("-", "")
 
 
-def webhook_map():
-    """DISCORD_WEBHOOKS: 'name=url' lines (also 'name: url', or a JSON object). Other lines are skipped."""
-    raw = os.getenv("DISCORD_WEBHOOKS", "").strip()
+def _parse(raw):
+    raw = (raw or "").strip()
     if not raw: return {}
     if raw.startswith("{"):
         try: return {_name(k): str(v).strip() for k, v in json.loads(raw).items()}
@@ -123,6 +136,16 @@ def webhook_map():
         if i <= 0: continue
         name, url = line[:i].strip().rstrip("=:").strip(), line[i:].strip().strip("\"',")
         if name and "/api/webhooks/" in url: out[_name(name)] = url
+    return out
+
+
+def webhook_map():
+    """DISCORD_WEBHOOKS, then DISCORD_WEBHOOKS_2 ... _5: 'name=url' lines (also 'name: url', or a JSON object).
+    Extra secrets mean new channels can be added without re-pasting the old ones (GitHub never shows a secret
+    again). A later secret wins if the same name appears twice."""
+    out = {}
+    for key in ["DISCORD_WEBHOOKS"] + [f"DISCORD_WEBHOOKS_{i}" for i in range(2, 6)]:
+        out.update(_parse(os.getenv(key)))
     return out
 
 

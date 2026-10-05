@@ -30,6 +30,10 @@ jobs:
       # One secret with a 'name=url' line per channel (briefing/notify.py). The single-channel
       # secrets below still work and win over it.
       DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+      DISCORD_WEBHOOKS_2: ${{ secrets.DISCORD_WEBHOOKS_2 }}
+      DISCORD_WEBHOOKS_3: ${{ secrets.DISCORD_WEBHOOKS_3 }}
+      DISCORD_WEBHOOKS_4: ${{ secrets.DISCORD_WEBHOOKS_4 }}
+      DISCORD_WEBHOOKS_5: ${{ secrets.DISCORD_WEBHOOKS_5 }}
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       DISCORD_WEBHOOK_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_CALENDAR }}
       DISCORD_WEBHOOK_LEDGER: ${{ secrets.DISCORD_WEBHOOK_LEDGER }}

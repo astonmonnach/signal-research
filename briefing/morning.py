@@ -202,7 +202,7 @@ def build():
     if pots.exists():
         w += ["## Funding pots (capped funds behind our contracts)"] + [
             f"- {s['name']}: ${s['ordered_usd'] / 1e9:.2f}bn ordered = {s['committed_pct']:.0f}% of ${s['money_usd'] / 1e9:.1f}bn; "
-            f"ceilings {s['ceiling_multiple']:.1f}x the money ({', '.join(s['tickers'])}) <{REPO_URL}/watch/pots/{o}.md>"
+            f"ceilings {s['ceiling_multiple']:.1f}x the money ({', '.join(s['tickers'])})"
             for o, s in json.load(open(pots, encoding="utf-8")).items()] + [""]
     S["watchlist"] = w
     sig = new_signals()
@@ -217,14 +217,14 @@ def build():
     st_ = setups()
     if st_: S["setups"] = ["## Setups (watch only, not buys)"] + [f"- {x}" for x in st_] + [""]
     led, cl = ledger(), calls()
-    if cl: S["calls"] = ["## Public calls (the track record)"] + [f"- {x}" for x in cl] + [f"- Record: <{REPO_URL}/calls/README.md>", ""]
-    if led: S["ledger"] = ["## Ledger (every scan item vs IWM)"] + [f"- {x}" for x in led] + [f"- Full table: <{REPO_URL}/ledger/LEDGER.md>", ""]
+    if cl: S["calls"] = ["## Public calls (the track record)"] + [f"- {x}" for x in cl] + [""]
+    if led: S["ledger"] = ["## Ledger (every scan item vs IWM)"] + [f"- {x}" for x in led] + [""]
     c = crypto()
     if c: S["crypto"] = ["## Crypto", f"- {c}", ""]
     cal = calendar()
     S["calendar"] = ["## Next 14 days"] + ([f"- {x}" for x in cal] or ["- nothing scheduled"]) + [""]
     order = ["calls", "watchlist", "filings", "press", "setups", "ledger", "crypto", "calendar"]
-    full = head + [l for k in order for l in S.get(k, [])] + [f"Full briefing: <{REPO_URL}/briefings/{TODAY.isoformat()}.md>"]
+    full = head + [l for k in order for l in S.get(k, [])]
     return "\n".join(full), {k: "\n".join([f"**{TODAY:%a %d %b}**"] + v) for k, v in S.items()}
 
 

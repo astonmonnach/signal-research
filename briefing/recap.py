@@ -219,7 +219,7 @@ def pot_line(t):
     for office, s in json.load(open(p_, encoding="utf-8")).items():
         if t in s.get("tickers", []):
             return (f"Funding pot: {s['name']}: {s['committed_pct']:.0f}% of ${s['money_usd'] / 1e9:.1f}bn already ordered, "
-                    f"ceilings {s['ceiling_multiple']:.1f}x the money · [pot]({REPO}/watch/pots/{office}.md)")
+                    f"ceilings {s['ceiling_multiple']:.1f}x the money")
     return ""
 
 
@@ -248,10 +248,9 @@ def group_post(title, about, tickers, caps, info, fnd, events, label, session, e
         verdict = i.get("verdict", "") + (f" ({i['score']})" if i.get("score") else "")
         cap = money(c.get("mcap")) + (" est." if any(w in c.get("shares_source", "") for w in ("ESTIMATE", "implied")) else "")
         nxt = next_event(r["t"], session + dt.timedelta(days=1), events)
-        dossier = f"[dossier]({REPO}/stocks/{r['t']}.md)" if (ROOT / f"stocks/{r['t']}.md").exists() else ""
         sec = filings(r["t"], week_of=session)
         pot = pot_line(r["t"])
-        head_ = f"- **{r['t']}** · {verdict + ' · ' if verdict else ''}{cap}" + (f" · {dossier}" if dossier else "")
+        head_ = f"- **{r['t']}** · {verdict + ' · ' if verdict else ''}{cap}"
         L.append(head_ + (f"\n  {clip(i['thesis'], 170)}" if i.get("thesis") else "") + (f"\n  Next: {nxt}" if nxt else "")
                  + (f"\n  {pot}" if pot else "") + (f"\n  {sec}" if sec else ""))
     return "\n".join(L)
@@ -304,7 +303,7 @@ def calls_post(label):
     lines = calls_lines()
     if not lines: return ""
     return "\n".join([f"**PUBLIC CALLS** · {label}", "Marked from the first open after each call was posted. Losers stay on the record."]
-                     + [f"- {x}" for x in lines] + [f"[Calls record]({REPO}/calls/README.md)"])
+                     + [f"- {x}" for x in lines])
 
 
 def setups_post(label, fnd, info):
@@ -324,7 +323,6 @@ def setups_post(label, fnd, info):
     for t in sorted(sf):
         sec = filings(t, n=2)
         L.append(f"- **{t}** {clip(info[t]['thesis'], 120) if t in info else ''}" + (f"\n  {sec}" if sec else ""))
-    L.append(f"[Setup notes]({REPO}/stocks/README.md)")
     return "\n".join(L)
 
 
@@ -354,7 +352,6 @@ def daily_post(label, session, groups, caps, fnd, events):
     nxt_day = session + dt.timedelta(days=3 if session.weekday() == 4 else 1)
     evs = [e for e in events if session < e["date"] <= nxt_day]
     L += ["", f"**Next session ({nxt_day:%a %d %b}):** " + ("; ".join(e["summary"] for e in evs) if evs else "nothing dated")]
-    L.append(f"[Full recap]({REPO}/recaps/daily/{session.isoformat()}.md) · [Ledger]({REPO}/ledger/LEDGER.md) · [Dossiers]({REPO}/stocks/README.md)")
     return "\n".join(L)
 
 
@@ -378,7 +375,6 @@ def weekly_post(session, groups, fnd, events):
     nxt0, nxt1 = monday + dt.timedelta(days=7), monday + dt.timedelta(days=11)
     evs = [e for e in events if nxt0 <= e["date"] <= nxt1]
     L += ["**Next week:**"] + ([f"- {e['date']:%a %d %b}: {e['summary']}" for e in evs] or ["- nothing dated"])
-    L.append(f"[Weekly report {iy}-W{iw:02d}]({REPO}/reports/weekly/{iy}-W{iw:02d}.md) · [Calls record]({REPO}/calls/README.md)")
     return "\n".join(L), f"{iy}-W{iw:02d}"
 
 

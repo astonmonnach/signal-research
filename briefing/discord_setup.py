@@ -34,7 +34,7 @@ def size(name, rng, bench):
 INTRO = {
     "calls": f"**#calls**\nThe public calls. Each call states its exit price and review date before it starts, is measured from the "
              f"first open after it was posted against the market and one similar stock, and stays on the record win or lose. "
-             f"New and closed calls are posted as they happen; marks after every close.\nRecord: <{BLOB}/calls/README.md>",
+             f"New and closed calls are posted as they happen; marks after every close.",
     "positions": "**#trades-open**\nOpen trades after each US close (the IBKR \"TRADES open\" list): price against entry, P&L after all "
                  "fees, move against IWM, distance to the exit line, and the next thesis check.",
     "govfilings": "**#gov-filings**\nThe IBKR \"Gov Filings pipeline findings\" list: stocks the SEC and DoD filing pipeline found. After each "
@@ -49,8 +49,7 @@ INTRO = {
     "largecaps": size("large-caps", "over $10B", "SPY"),
     "longterm": f"**#long-term**\nMedium and long-term research (6 to 36 months). The same nth-order method plus six long-term gates: "
                 f"the theme is in reported numbers, the balance sheet survives two bad years, dilution, not already run, liquidity, "
-                f"and it is measured against SPY. New research is posted when it is added; a summary every Monday.\n"
-                f"Method: <{BLOB}/longterm/METHOD.md>",
+                f"and it is measured against SPY. New research is posted when it is added; a summary every Monday.",
     "setups": "**#setups**\nThe IBKR \"SETUP supply+deficiency\" list. Watch only, not buys. Warning patterns: fresh share supply plus "
               "an exchange deficiency, usually under $1. Most of them collapse. Updated after each close, with spikes or collapses flagged.",
     "briefing": "**#briefing**\nThe morning briefing before the US open: new SEC filings, press releases, positions, watchlist, setups, "
@@ -58,19 +57,18 @@ INTRO = {
     "dailyrecap": "**#daily-recap**\nAfter each US close: the market and key inputs (steel, copper, gold, silver, oil), the calls, "
                   "positions, the best and worst watchlist stocks against the market, each size bucket, and what is dated for the next session.",
     "weeklyrecap": "**#weekly-recap**\nEvery Friday after the close: the week for every watchlist stock against its benchmark, the calls, "
-                   f"positions, and next week's dated events. Full weekly reports: <{REPO}/tree/main/reports/weekly>",
-    "calendar": "**#calendar**\nStock events for the next 14 days, every morning: earnings, votes, lock-ups, index changes, deadlines. "
-                "Subscribe in any calendar app: <https://raw.githubusercontent.com/astonmonnach/signal-research/main/calendar/catalyst-dates.ics>",
+                   f"positions, and next week's dated events.",
+    "calendar": "**#calendar**\nStock events for the next 14 days, every morning: earnings, votes, lock-ups, index changes, deadlines.",
     "filings": "**#filings**\nNew SEC filings and DoD contract awards worth reading, with notes. Every morning.",
     "press": "**#press**\nCompany press releases from trusted wires only (GlobeNewswire, PR Newswire, Business Wire, company IR). Every morning.",
     "ledger": f"**#ledger**\nEvery scan item measured against IWM. This is how we find out which patterns work before trusting any of them. "
-              f"Every morning.\nFull table: <{BLOB}/ledger/LEDGER.md>",
+              f"Every morning.",
     "crypto": "**#crypto**\nTrending-token research. So far the median trending token is down about 85% within 24 hours, so read it as a warning feed.",
     "alerts": "**#alerts**\nLive alerts during market hours (not built yet).",
 }
 
 START_HERE = f"""# Start here
-Everything in this server is posted automatically by a research pipeline. The code and every past post are public: <{REPO}>
+Everything in this server is posted automatically by a research pipeline.
 It is a research log, **not financial advice**. Nothing here tells anyone to buy or sell.
 
 **STRATEGIES** (the same lists as the broker watchlists)
