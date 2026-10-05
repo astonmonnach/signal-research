@@ -6,6 +6,7 @@ A research log for event-driven trades in US small caps. Collectors read SEC fil
 
 | I want… | Open |
 |---|---|
+| **Everything in one place**: searchable website with every stock, strategy, call, dossier, report and lesson, rebuilt automatically | https://astonmonnach.github.io/signal-research/ (built by [site/build_site.py](site/build_site.py), workflow `site`) |
 | **Today's scan**: everything found on a date | `scans/YYYY-MM-DD.md` (newest first in [scans/README.md](scans/README.md)) |
 | **A stock's dossier**: deep dive, status, timeline, performance | `stocks/TICKER.md`, for example [stocks/MTUS.md](stocks/MTUS.md) (all of them: [stocks/README.md](stocks/README.md)) |
 | **Weekly / monthly / quarterly update** | `reports/weekly/YYYY-Www.md`, `reports/monthly/YYYY-MM.md`, `reports/quarterly/YYYY-Qn.md` ([reports/README.md](reports/README.md)) |

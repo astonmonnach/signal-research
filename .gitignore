@@ -2,3 +2,4 @@ watch/state.json
 __pycache__/
 *.pyc
 research/runners/work/
+_site/

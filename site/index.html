@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal Research</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+<style>
+:root {
+  --bg: #f7f7f5; --surface: #ffffff; --surface-2: #f0efec; --text: #111110; --text-2: #52514e; --muted: #8a8984;
+  --border: rgba(17,17,16,.10); --accent: #2a63d6; --pos: #13855c; --neg: #d1453b; --warn: #b7791f;
+  --chip: #eceae5; --chip-on: #111110; --chip-on-text: #ffffff; --shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e0e0d; --surface: #171716; --surface-2: #1f1f1d; --text: #f2f1ec; --text-2: #c3c2b9; --muted: #8a8984;
+  --border: rgba(255,255,255,.09); --accent: #6d9bff; --pos: #3ccf8e; --neg: #ff6b61; --warn: #e3a64a;
+  --chip: #252523; --chip-on: #f2f1ec; --chip-on-text: #111110; --shadow: none; } }
+:root[data-theme="dark"] {
+  --bg: #0e0e0d; --surface: #171716; --surface-2: #1f1f1d; --text: #f2f1ec; --text-2: #c3c2b9; --muted: #8a8984;
+  --border: rgba(255,255,255,.09); --accent: #6d9bff; --pos: #3ccf8e; --neg: #ff6b61; --warn: #e3a64a;
+  --chip: #252523; --chip-on: #f2f1ec; --chip-on-text: #111110; --shadow: none; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body { font: 15px/1.55 Inter, system-ui, -apple-system, Segoe UI, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+.mono, td.num, .num { font-family: "JetBrains Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border); }
+.bar { max-width: 1180px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.brand { font-weight: 700; letter-spacing: -.01em; white-space: nowrap; color: var(--text); }
+.brand span { color: var(--muted); font-weight: 500; }
+nav { display: flex; gap: 2px; flex-wrap: wrap; }
+nav a { color: var(--text-2); padding: 6px 10px; border-radius: 8px; font-weight: 500; font-size: 14px; }
+nav a.on { background: var(--surface-2); color: var(--text); text-decoration: none; }
+.search { margin-left: auto; flex: 1 1 220px; max-width: 340px; }
+.search input, .filter input { width: 100%; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface);
+  color: var(--text); font: inherit; outline: none; } .search input:focus, .filter input:focus { border-color: var(--accent); }
+.theme { background: none; border: 1px solid var(--border); color: var(--text-2); border-radius: 8px; padding: 6px 9px; cursor: pointer; font: inherit; font-size: 13px; }
+main { max-width: 1180px; margin: 0 auto; padding: 20px 16px 64px; }
+h1 { font-size: 26px; letter-spacing: -.02em; margin: 4px 0 6px; } h2 { font-size: 18px; margin: 28px 0 10px; letter-spacing: -.01em; }
+.sub { color: var(--muted); font-size: 13px; margin-bottom: 18px; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px; box-shadow: var(--shadow); min-width: 0; }
+.card h3 { margin: 0 0 4px; font-size: 15px; } .card .about { color: var(--text-2); font-size: 13px; margin-bottom: 10px; }
+.tbl { width: 100%; overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th { text-align: left; color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: .04em;
+  padding: 8px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; cursor: default; }
+th.sort { cursor: pointer; } th.sort:hover { color: var(--text); }
+td { padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tr.click { cursor: pointer; } tr.click:hover td { background: var(--surface-2); }
+.pos { color: var(--pos); } .neg { color: var(--neg); }
+.t { font-weight: 700; font-family: "JetBrains Mono", ui-monospace, monospace; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 14px; }
+.chip { background: var(--chip); color: var(--text-2); border: 0; border-radius: 999px; padding: 5px 11px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip.on { background: var(--chip-on); color: var(--chip-on-text); }
+.tag { display: inline-block; background: var(--chip); color: var(--text-2); border-radius: 6px; padding: 1px 7px; font-size: 12px; margin: 1px 4px 1px 0; white-space: nowrap; }
+.verdict { font-weight: 600; font-size: 13px; } .v-own { color: var(--pos); } .v-avoid, .v-kill { color: var(--neg); } .v-watch { color: var(--warn); }
+.kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 14px 0; }
+.kv div { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; }
+.kv b { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-weight: 500; margin-bottom: 2px; }
+.kv span { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 16px; }
+.list { margin: 0; padding-left: 18px; } .list li { margin: 3px 0; }
+.md { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 8px 22px 18px; overflow-wrap: anywhere; }
+.md table { display: block; overflow-x: auto; font-size: 13px; } .md th { text-transform: none; letter-spacing: 0; font-size: 13px; }
+.md code { font-family: "JetBrains Mono", monospace; font-size: 12.5px; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }
+.md pre { background: var(--surface-2); padding: 12px; border-radius: 10px; overflow-x: auto; } .md pre code { background: none; padding: 0; }
+.md h1 { font-size: 22px; } .md h2 { font-size: 17px; } .md h3 { font-size: 15px; } .md blockquote { color: var(--text-2); border-left: 3px solid var(--border); margin: 0; padding-left: 12px; }
+.docs a.doc { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+.docs a.doc span { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.hit { padding: 10px 0; border-bottom: 1px solid var(--border); } .hit .snip { color: var(--text-2); font-size: 13px; } mark { background: color-mix(in srgb, var(--warn) 35%, transparent); color: inherit; border-radius: 3px; }
+.empty { color: var(--muted); padding: 10px 0; }
+.back { display: inline-block; margin-bottom: 8px; font-size: 14px; }
+@media (max-width: 720px) { .hide-sm { display: none; } table { font-size: 13px; } td, th { padding: 7px 5px; } .t { font-size: 13px; } h1 { font-size: 22px; } .md { padding: 4px 14px 14px; } .search { max-width: none; order: 3; flex-basis: 100%; } }
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <a class="brand" href="#/">Signal Research <span>· research log</span></a>
+  <nav id="nav">
+    <a href="#/">Today</a><a href="#/stocks">Stocks</a><a href="#/strategies">Strategies</a><a href="#/calls">Calls</a><a href="#/library">Library</a>
+  </nav>
+  <div class="search"><input id="q" type="search" placeholder="Search stocks, dossiers, reports..." autocomplete="off"></div>
+  <button class="theme" id="theme" title="Switch light or dark">Theme</button>
+</div></header>
+<main id="app"><div class="empty">Loading...</div></main>
+<script>
+const REPO = "https://github.com/astonmonnach/signal-research/blob/main/";
+let D = null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = v => v === null || v === undefined || Number.isNaN(v) ? '<span class="empty">n/a</span>' : `<span class="${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : ""}${v.toFixed(1)}%</span>`;
+const pts = v => v === null || v === undefined ? '<span class="empty">n/a</span>' : `<span class="${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : ""}${v.toFixed(1)}</span>`;
+const money = v => !v ? "n/a" : v >= 1e9 ? `$${(v / 1e9).toFixed(2)}B` : `$${(v / 1e6).toFixed(0)}M`;
+const price = v => v === null || v === undefined ? "n/a" : v < 1 ? v.toFixed(3) : v.toFixed(2);
+const day = s => { const d = new Date(s + "T12:00:00Z"); return d.toLocaleDateString("en-GB", { weekday: "short", day: "2-digit", month: "short" }); };
+const vclass = v => { const x = (v || "").toLowerCase(); return x.startsWith("own") ? "v-own" : x.startsWith("avoid") || x.startsWith("kill") ? "v-avoid" : x ? "v-watch" : ""; };
+const SIZE = { micro: "Micro cap", small: "Small cap", mid: "Mid cap", large: "Large cap" };
+
+// ---------- theme ----------
+(() => { try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {} })();
+$("#theme").onclick = () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  document.documentElement.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("theme", document.documentElement.dataset.theme); } catch (e) {}
+};
+
+// ---------- markdown ----------
+function resolve(base, rel) {
+  const parts = base.split("/").slice(0, -1);
+  for (const p of rel.split("/")) { if (p === "..") parts.pop(); else if (p && p !== ".") parts.push(p); }
+  return parts.join("/");
+}
+function renderMd(md, path) {
+  const html = DOMPurify.sanitize(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { gfm: true }));
+  const box = document.createElement("div"); box.className = "md"; box.innerHTML = html;
+  box.querySelectorAll("a[href]").forEach(a => {
+    const h = a.getAttribute("href");
+    if (/^https?:/.test(h)) { a.target = "_blank"; a.rel = "noopener"; return; }
+    if (h.startsWith("#")) return;
+    const [file, anchor] = h.split("#");
+    const target = resolve(path, file);
+    if (D.docs[target]) a.href = "#/doc/" + target;
+    else { a.href = REPO + target + (anchor ? "#" + anchor : ""); a.target = "_blank"; a.rel = "noopener"; }
+  });
+  return box;
+}
+
+// ---------- views ----------
+function stockRow(s) {
+  return `<tr class="click" data-t="${esc(s.t)}">
+    <td><span class="t">${esc(s.t)}</span></td>
+    <td class="hide-sm">${s.lists.filter(l => l !== "All").map(l => `<span class="tag">${esc(l)}</span>`).join("")}</td>
+    <td><span class="verdict ${vclass(s.verdict)}">${esc(s.verdict || "")}</span> <span class="empty">${esc(s.score || "")}</span></td>
+    <td class="num">${price(s.close)}</td><td class="num">${pct(s.day)}</td>
+    <td class="num hide-sm">${pct(s.since)}</td><td class="num">${pts(s.since_vs)}</td>
+    <td class="hide-sm">${s.bucket ? SIZE[s.bucket] : ""}</td></tr>`;
+}
+function stockTable(list, sortable = false) {
+  if (!list.length) return '<div class="empty">Nothing here yet.</div>';
+  return `<div class="tbl"><table><thead><tr>
+    <th>Ticker</th><th class="hide-sm">Lists</th><th>Verdict</th><th class="num">Close</th><th class="num">Day</th>
+    <th class="num hide-sm">Since found</th><th class="num" title="Since found, against its size benchmark (IWM, MDY or SPY)">vs bench</th><th class="hide-sm">Size</th>
+  </tr></thead><tbody>${list.map(stockRow).join("")}</tbody></table></div>`;
+}
+function wireRows(el) { el.querySelectorAll("tr.click").forEach(tr => tr.onclick = () => location.hash = "#/stock/" + tr.dataset.t); }
+
+function viewToday() {
+  const c = D.calls.map(r => `<tr><td class="t">#${esc(r.id)}</td><td>${r.direction > 0 ? "Long" : "Short"} <b>${esc(r.ticker)}</b></td>
+     <td class="num">${r.ret_pct ? pct(+r.ret_pct) : '<span class="empty">enters next open</span>'}</td>
+     <td class="num">${r.excess_bench ? pts(+r.excess_bench) + ` <span class="empty">vs ${esc(r.bench)}</span>` : ""}</td><td>${esc(r.status)}</td></tr>`).join("");
+  const ev = D.events.slice(0, 14).map(e => `<li><span class="mono">${day(e.date)}</span> · ${esc(e.summary)}</li>`).join("");
+  const movers = D.stocks.filter(s => s.lists.includes("All") && s.day !== null).sort((a, b) => b.day - a.day);
+  const pots = D.pots.map(p => `<div class="card"><h3>${esc(p.name)}</h3><div class="about">${esc(p.tickers.join(", "))}</div>
+     <div class="kv" style="margin:0"><div><b>Money</b><span>$${(p.money_usd / 1e9).toFixed(1)}B</span></div>
+     <div><b>Ordered</b><span>${p.committed_pct.toFixed(0)}%</span></div><div><b>Ceilings</b><span>${p.ceiling_multiple.toFixed(1)}x</span></div></div></div>`).join("");
+  $("#app").innerHTML = `<h1>Today</h1><div class="sub">Built ${esc(D.built)} from the repo, closing prices and SEC filings. Research log, not advice.</div>
+    <div class="grid">
+      <div class="card"><h3>Public calls</h3><div class="tbl"><table><tbody>${c || '<tr><td class="empty">No calls yet.</td></tr>'}</tbody></table></div></div>
+      <div class="card"><h3>Trades open</h3><div id="pos"></div></div>
+      <div class="card"><h3>Next 14 days</h3><ul class="list">${ev || '<li class="empty">Nothing dated.</li>'}</ul></div>
+      ${pots}
+    </div>
+    <h2>Watchlist, best to worst today</h2><div id="mv"></div>
+    ${D.latest_recap ? `<h2>Latest daily recap</h2><a href="#/doc/${esc(D.latest_recap)}">Open the full recap</a>` : ""}`;
+  $("#pos").appendChild(renderMd(D.positions.split("\n").slice(1).join("\n") || "No open trades.", "watch/positions.md"));
+  $("#pos .md").style.cssText = "border:0;padding:0;background:none";
+  $("#mv").innerHTML = stockTable(movers); wireRows($("#mv"));
+}
+
+let stockFilter = "All";
+function viewStocks() {
+  const lists = ["All", ...D.strategies.map(s => s.name), "Called", "Trades open", "Long-term", "Setups"];
+  const sizes = ["micro", "small", "mid", "large"];
+  const pick = s => stockFilter === "All" ? s.lists.includes("All") : sizes.includes(stockFilter) ? s.bucket === stockFilter && s.lists.includes("All") : s.lists.includes(stockFilter);
+  const rows = D.stocks.filter(pick).sort((a, b) => (b.day ?? -999) - (a.day ?? -999));
+  $("#app").innerHTML = `<h1>Stocks</h1><div class="sub">Every stock we follow. Click one for its verdict, events, SEC filings and full dossier.</div>
+    <div class="chips">${lists.map(l => `<button class="chip ${l === stockFilter ? "on" : ""}" data-f="${esc(l)}">${esc(l)}</button>`).join("")}</div>
+    <div class="chips">${sizes.map(l => `<button class="chip ${l === stockFilter ? "on" : ""}" data-f="${l}">${SIZE[l]}s</button>`).join("")}</div>
+    <div id="tb">${stockTable(rows)}</div>`;
+  document.querySelectorAll(".chip").forEach(b => b.onclick = () => { stockFilter = b.dataset.f; viewStocks(); });
+  wireRows($("#tb"));
+}
+
+function viewStock(t) {
+  const s = D.stocks.find(x => x.t === t);
+  if (!s) { $("#app").innerHTML = `<div class="empty">No stock ${esc(t)}.</div>`; return; }
+  $("#app").innerHTML = `<a class="back" href="#/stocks">All stocks</a>
+    <h1><span class="t">${esc(s.t)}</span> <span class="verdict ${vclass(s.verdict)}" style="font-size:16px">${esc(s.verdict)} ${esc(s.score)}</span></h1>
+    <div>${s.lists.map(l => `<span class="tag">${esc(l)}</span>`).join("")}${s.bucket ? `<span class="tag">${SIZE[s.bucket]}</span>` : ""}</div>
+    <div class="kv">
+      <div><b>Close ${s.asof ? day(s.asof) : ""}</b><span>${price(s.close)}</span></div><div><b>Day</b><span>${pct(s.day)}</span></div>
+      <div><b>5 days</b><span>${pct(s.five)}</span></div><div><b>Since found ${s.found ? day(s.found) : ""}</b><span>${pct(s.since)}</span></div>
+      <div><b>vs ${esc(s.bench)} since found</b><span>${pts(s.since_vs)}</span></div><div><b>Market cap</b><span>${money(s.mcap)}</span></div>
+    </div>
+    ${s.thesis ? `<p>${esc(s.thesis)}</p>` : ""}
+    ${s.pot ? `<p class="sub" style="margin:0 0 12px">${esc(s.pot)}</p>` : ""}
+    <div class="grid">
+      <div class="card"><h3>Next dated events</h3><ul class="list">${s.events.map(e => `<li><span class="mono">${day(e.date)}</span> · ${esc(e.summary)}</li>`).join("") || '<li class="empty">None dated.</li>'}</ul></div>
+      <div class="card"><h3>Latest SEC filings</h3><ul class="list">${s.sec.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.label)}</a></li>`).join("") || '<li class="empty">None found.</li>'}</ul></div>
+    </div>
+    <h2>Dossier</h2><div id="doc"></div>${s.idea ? `<p><a href="#/doc/${esc(s.idea)}">Original trade note (${esc(s.idea)})</a></p>` : ""}`;
+  if (s.doc && D.docs[s.doc]) $("#doc").appendChild(renderMd(D.docs[s.doc].md, s.doc)); else $("#doc").innerHTML = '<div class="empty">No dossier yet.</div>';
+}
+
+function viewStrategies() {
+  $("#app").innerHTML = `<h1>Strategies</h1><div class="sub">The same lists as the broker watchlists, plus calls, trades, setups and long-term.</div><div class="grid" id="g"></div>`;
+  const groups = [...D.strategies.map(s => ({ title: s.name, about: s.about, list: D.stocks.filter(x => s.tickers.includes(x.t)) })),
+    { title: "Called", about: "Public calls: exit price and review date stated up front.", list: D.stocks.filter(x => x.lists.includes("Called")) },
+    { title: "Trades open", about: "Open positions.", list: D.stocks.filter(x => x.lists.includes("Trades open")) },
+    { title: "Long-term", about: "6 to 36 months; gates LT1 to LT6, measured against SPY.", list: D.stocks.filter(x => x.lists.includes("Long-term")) },
+    { title: "Setups", about: "Watch only, not buys: fresh supply plus an exchange deficiency.", list: D.stocks.filter(x => x.lists.includes("Setups")) }];
+  $("#g").innerHTML = groups.map((g, i) => `<div class="card"><h3>${esc(g.title)}</h3><div class="about">${esc(g.about)}</div><div id="s${i}"></div></div>`).join("");
+  groups.forEach((g, i) => {
+    $("#s" + i).innerHTML = `<div class="tbl"><table><tbody>${g.list.map(s => `<tr class="click" data-t="${esc(s.t)}"><td><span class="t">${esc(s.t)}</span></td>
+      <td><span class="verdict ${vclass(s.verdict)}">${esc(s.verdict)}</span></td><td class="num">${pct(s.day)}</td><td class="num">${pts(s.since_vs)}</td></tr>`).join("")
+      || '<tr><td class="empty">Empty.</td></tr>'}</tbody></table></div>`;
+    wireRows($("#s" + i));
+  });
+}
+
+function viewDoc(path) {
+  const d = D.docs[path];
+  if (!d) { $("#app").innerHTML = `<div class="empty">Not found: ${esc(path)}</div>`; return; }
+  $("#app").innerHTML = `<a class="back" href="#/library">Library</a><div class="sub">${esc(d.group)} · ${esc(path)}</div><div id="doc"></div>`;
+  $("#doc").appendChild(renderMd(d.md, path));
+  window.scrollTo(0, 0);
+}
+
+let libFilter = "";
+function viewLibrary() {
+  const groups = {};
+  Object.entries(D.docs).forEach(([p, d]) => (groups[d.group] = groups[d.group] || []).push([p, d]));
+  $("#app").innerHTML = `<h1>Library</h1><div class="sub">Every write-up in the repo: dossiers, research, recaps, reports, scans, triage, ledger and method.</div>
+    <div class="filter" style="margin-bottom:14px"><input id="lf" type="search" placeholder="Filter titles..." value="${esc(libFilter)}"></div><div class="grid docs" id="lib"></div>`;
+  const draw = () => {
+    const f = libFilter.toLowerCase();
+    $("#lib").innerHTML = Object.entries(groups).map(([g, items]) => {
+      const rows = items.filter(([p, d]) => !f || (d.title + " " + p).toLowerCase().includes(f));
+      if (!rows.length) return "";
+      return `<div class="card"><h3>${esc(g)} <span class="empty">${rows.length}</span></h3>${rows.slice(0, 40).map(([p, d]) =>
+        `<a class="doc" href="#/doc/${esc(p)}">${esc(d.title)} <span>${esc(p.split("/").pop())}</span></a>`).join("")}
+        ${rows.length > 40 ? `<div class="empty">+${rows.length - 40} more: use the filter</div>` : ""}</div>`;
+    }).join("") || '<div class="empty">No matches.</div>';
+  };
+  draw();
+  $("#lf").oninput = e => { libFilter = e.target.value; draw(); };
+}
+
+function viewCalls() { viewDocInline("calls/README.md", "Calls"); }
+function viewDocInline(path, title) {
+  $("#app").innerHTML = `<div id="doc"></div>`;
+  if (D.docs[path]) $("#doc").appendChild(renderMd(D.docs[path].md, path)); else $("#doc").innerHTML = `<div class="empty">No ${esc(title)} yet.</div>`;
+}
+
+function viewSearch(q) {
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) { location.hash = "#/"; return; }
+  const stocks = D.stocks.filter(s => words.every(w => (s.t + " " + s.thesis + " " + s.verdict + " " + s.lists.join(" ")).toLowerCase().includes(w)));
+  const hits = [];
+  for (const [p, d] of Object.entries(D.docs)) {
+    const hay = d.md.toLowerCase(), tl = (d.title + " " + p).toLowerCase();
+    if (!words.every(w => hay.includes(w) || tl.includes(w))) continue;
+    const i = hay.indexOf(words[0]);
+    let snip = d.md.slice(Math.max(0, i - 90), i + 160).replace(/[#*`|>\[\]]/g, " ").replace(/\(https?:[^)]*\)/g, "");
+    snip = esc(snip).replace(new RegExp("(" + words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "gi"), "<mark>$1</mark>");
+    hits.push({ p, d, score: (tl.includes(words[0]) ? 5 : 0) + (hay.split(words[0]).length - 1), snip });
+  }
+  hits.sort((a, b) => b.score - a.score);
+  $("#app").innerHTML = `<h1>Search: ${esc(q)}</h1><div class="sub">${stocks.length} stocks · ${hits.length} documents</div>
+    ${stocks.length ? `<h2>Stocks</h2><div id="ss">${stockTable(stocks)}</div>` : ""}
+    <h2>Documents</h2>${hits.slice(0, 60).map(h => `<div class="hit"><a href="#/doc/${esc(h.p)}"><b>${esc(h.d.title)}</b></a>
+      <span class="tag">${esc(h.d.group)}</span><div class="snip">...${h.snip}...</div></div>`).join("") || '<div class="empty">No documents match.</div>'}`;
+  if (stocks.length) wireRows($("#ss"));
+}
+
+// ---------- router ----------
+function route() {
+  if (!D) return;
+  const h = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  const [view, ...rest] = h.split("/");
+  const arg = rest.join("/");
+  document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#/" + view || (view === "" && a.getAttribute("href") === "#/")
+    || (view === "stock" && a.getAttribute("href") === "#/stocks") || (view === "doc" && a.getAttribute("href") === "#/library")));
+  if (view === "stocks") viewStocks();
+  else if (view === "stock") viewStock(arg.toUpperCase());
+  else if (view === "strategies") viewStrategies();
+  else if (view === "calls") viewCalls();
+  else if (view === "library") viewLibrary();
+  else if (view === "doc") viewDoc(arg);
+  else if (view === "search") viewSearch(arg);
+  else viewToday();
+  if (view !== "doc") window.scrollTo(0, 0);
+}
+let qt;
+$("#q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { location.hash = "#/search/" + encodeURIComponent(e.target.value); }, 250); });
+window.addEventListener("hashchange", route);
+fetch("data.json", { cache: "no-cache" }).then(r => r.json()).then(d => { D = d; route(); })
+  .catch(e => { $("#app").innerHTML = `<div class="empty">Couldn't load the data (${esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>
