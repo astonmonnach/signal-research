@@ -15,7 +15,7 @@ Server layout (category: channel = webhook name in DISCORD_WEBHOOKS):
   RESEARCH FEED  #filings = filings, #press = press, #ledger = ledger
   CRYPTO         #crypto = crypto
 """
-import sys
+import json, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -117,11 +117,18 @@ def main():
     print("configured:", ", ".join(have) or "none")
     print("missing:   ", ", ".join(missing) or "none", "(alerts is optional until the live watcher exists)")
     if "--intro" in sys.argv:
+        # Each channel is introduced once (briefing/introduced.json), so re-running after adding channels only
+        # posts to the new ones. --all re-posts everywhere.
+        done_p = Path(__file__).resolve().parent / "introduced.json"
+        done = set(json.loads(done_p.read_text(encoding="utf-8"))) if done_p.exists() and "--all" not in sys.argv else set()
         for ch in have:
             text = START_HERE if ch == "start" else INTRO.get(ch)
-            if text:
-                sent = notify.send(text, ch)
-                print(f"#{ch}: {'posted' if sent else 'FAILED (check that webhook)'}")
+            if not text or ch in done:
+                continue
+            sent = notify.send(text, ch)
+            print(f"#{ch}: {'posted' if sent else 'FAILED (check that webhook)'}")
+            if sent: done.add(ch)
+        done_p.write_text(json.dumps(sorted(done), indent=1), encoding="utf-8")
     if not have:
         sys.exit("No webhooks found. Add the DISCORD_WEBHOOKS secret (one 'name=url' line per channel).")
 
