@@ -171,31 +171,111 @@ def stock_rows(tickers, bench, fnd, base_week=None):
     return rows
 
 
-def bucket_post(key, tickers, caps, info, fnd, events, label, session):
-    head, rng, _, bench = BUCKETS[key]
-    L = [f"**{head}** ({rng}) · {label}", f"Benchmark: {bench}. Day and 5-day moves include cash and spun-off shares received."]
+SEC_UA = {"User-Agent": "PersonalResearch research@example.com"}
+INSIDER = {"3", "4", "5", "144", "3/A", "4/A", "5/A", "144/A"}
+CIK_MANUAL = {"VYLR": 2128626, "HMH": 2021880}           # too new for SEC's ticker file
+_ciks = None
+
+
+def cik_of(t):
+    global _ciks
+    if _ciks is None:
+        try:
+            req = urllib.request.Request("https://www.sec.gov/files/company_tickers.json", headers=SEC_UA)
+            _ciks = {v["ticker"]: v["cik_str"] for v in json.load(urllib.request.urlopen(req, timeout=30)).values()}
+        except Exception:
+            _ciks = {}
+    return CIK_MANUAL.get(t) or _ciks.get(t)
+
+
+def filings(t, n=3, week_of=None):
+    """Latest n non-insider SEC filings as short Discord links ("[8-K 01 Oct](url)"), plus a count of insider forms
+    filed in the last 7 days."""
+    cik = cik_of(t)
+    if not cik: return ""
+    try:
+        req = urllib.request.Request(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json", headers=SEC_UA)
+        rec = json.load(urllib.request.urlopen(req, timeout=30))["filings"]["recent"]; time.sleep(0.12)
+    except Exception:
+        return ""
+    links, insider = [], 0
+    since = (week_of or dt.date.today()) - dt.timedelta(days=7)
+    for form, d, acc, doc in zip(rec["form"], rec["filingDate"], rec["accessionNumber"], rec["primaryDocument"]):
+        fd = dt.date.fromisoformat(d)
+        if form in INSIDER:
+            insider += fd >= since; continue
+        if len(links) < n:
+            url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"
+            links.append(f"[{form.replace('SCHEDULE ', '').replace('SC ', '')} {fd:%d %b}]({url})")
+        if len(links) >= n and fd < since: break
+    extra = f" · {insider} insider form{'s' if insider != 1 else ''} this week" if insider else ""
+    return "SEC: " + " · ".join(links) + extra if links else ""
+
+
+def pot_line(t):
+    """Funding-pot context for stocks paid from a capped fund (watch/pots/latest.json, collectors/funding_pot.py)."""
+    p_ = ROOT / "watch/pots/latest.json"
+    if not p_.exists(): return ""
+    for office, s in json.load(open(p_, encoding="utf-8")).items():
+        if t in s.get("tickers", []):
+            return (f"Funding pot: {s['name']}: {s['committed_pct']:.0f}% of ${s['money_usd'] / 1e9:.1f}bn already ordered, "
+                    f"ceilings {s['ceiling_multiple']:.1f}x the money · [pot]({REPO}/watch/pots/{office}.md)")
+    return ""
+
+
+def bench_of(t, caps):
+    return BUCKETS.get(caps.get(t, {}).get("bucket", "small"), BUCKETS["small"])[3]
+
+
+def group_post(title, about, tickers, caps, info, fnd, events, label, session, empty="No stocks on this list right now."):
+    """One Discord post for a list of stocks: a table, then one entry each (verdict, cap, thesis, next event, SEC links).
+    Each stock is measured against its own size benchmark (IWM micro/small, MDY mid, SPY large)."""
+    L = [f"**{title}** · {label}", about]
     if not tickers:
-        return "\n".join(L + ["No watchlist stocks in this size range right now."])
-    rows = stock_rows(tickers, bench, fnd)
+        return "\n".join(L + [empty])
+    rows = []
+    for t in tickers:
+        r = stock_rows([t], bench_of(t, caps), fnd)[0]
+        rows.append(dict(r, bench=bench_of(t, caps)))
     rows.sort(key=lambda r: -(r["day"] if r["day"] is not None else -999))
-    L += table(["Ticker", "Close", "Day", f"vs {bench}", "5d", "Since found"],
+    one_bench = len({r["bench"] for r in rows}) == 1
+    L += table(["Ticker", "Close", "Day", f"vs {rows[0]['bench']}" if one_bench else "vs bench", "5d", "Since found"],
                [[r["t"], "n/a" if r["close"] is None else f"{r['close']:.2f}", p(r["day"]), pt(r["vs"]), p(r["five"]), p(r["since"])] for r in rows])
+    if not one_bench:
+        L.append("Bench: " + ", ".join(f"{r['t']} {r['bench']}" for r in rows))
     for r in rows:
         i, c = info.get(r["t"], {}), caps.get(r["t"], {})
         verdict = i.get("verdict", "") + (f" ({i['score']})" if i.get("score") else "")
-        cap = money(c.get("mcap")) + (" est." if "ESTIMATE" in c.get("shares_source", "") else "")
+        cap = money(c.get("mcap")) + (" est." if any(w in c.get("shares_source", "") for w in ("ESTIMATE", "implied")) else "")
         nxt = next_event(r["t"], session + dt.timedelta(days=1), events)
-        head_ = f"- **{r['t']}** · {verdict + ' · ' if verdict else ''}{cap}"
-        L.append(head_ + (f"\n  {clip(i['thesis'], 170)}" if i.get("thesis") else "") + (f"\n  Next: {nxt}" if nxt else ""))
-    L.append(f"Dossiers: <{REPO}/stocks/README.md>")
+        dossier = f"[dossier]({REPO}/stocks/{r['t']}.md)" if (ROOT / f"stocks/{r['t']}.md").exists() else ""
+        sec = filings(r["t"], week_of=session)
+        pot = pot_line(r["t"])
+        head_ = f"- **{r['t']}** · {verdict + ' · ' if verdict else ''}{cap}" + (f" · {dossier}" if dossier else "")
+        L.append(head_ + (f"\n  {clip(i['thesis'], 170)}" if i.get("thesis") else "") + (f"\n  Next: {nxt}" if nxt else "")
+                 + (f"\n  {pot}" if pot else "") + (f"\n  {sec}" if sec else ""))
     return "\n".join(L)
+
+
+def bucket_post(key, tickers, caps, info, fnd, events, label, session):
+    head, rng, _, bench = BUCKETS[key]
+    return group_post(f"{head} ({rng})", f"Benchmark: {bench}. Moves include cash and spun-off shares received.",
+                      tickers, caps, info, fnd, events, label, session, "No watchlist stocks in this size range right now.")
+
+
+def strategy_posts(caps, info, fnd, events, label, session):
+    p_ = ROOT / "watch/strategies.json"
+    out = {}
+    for s in (json.load(open(p_, encoding="utf-8"))["strategies"] if p_.exists() else []):
+        out[s["channel"]] = group_post(s["title"], s["about"], s["tickers"], caps, info, fnd, events, label, session)
+    return out
 
 
 def positions_post(label):
     p_ = ROOT / "watch/positions.md"
     if not p_.exists(): return ""
     body = p_.read_text(encoding="utf-8").splitlines()[1:]
-    return "\n".join([f"**OPEN POSITIONS** · {label}"] + [l.replace("## ", "### ") for l in body if l.strip() or True]).strip()
+    return "\n".join([f"**TRADES OPEN** · {label}"] + [l.replace("## ", "### ") for l in body if l.strip() or True]).strip()
 
 
 def positions_line():
@@ -224,7 +304,7 @@ def calls_post(label):
     lines = calls_lines()
     if not lines: return ""
     return "\n".join([f"**PUBLIC CALLS** · {label}", "Marked from the first open after each call was posted. Losers stay on the record."]
-                     + [f"- {x}" for x in lines] + [f"Record: <{REPO}/calls/README.md>"])
+                     + [f"- {x}" for x in lines] + [f"[Calls record]({REPO}/calls/README.md)"])
 
 
 def setups_post(label, fnd, info):
@@ -241,8 +321,10 @@ def setups_post(label, fnd, info):
     L += table(["Ticker", "Close", "Day", "Since logged", "Flag"], rows)
     flagged = [r[0] for r in rows if r[4]]
     L.append("Flagged: " + (", ".join(flagged) if flagged else "none"))
-    L += [f"- **{t}** {clip(info[t]['thesis'], 120)}" for t in sorted(sf) if t in info]
-    L.append(f"Notes: <{REPO}/stocks/README.md>")
+    for t in sorted(sf):
+        sec = filings(t, n=2)
+        L.append(f"- **{t}** {clip(info[t]['thesis'], 120) if t in info else ''}" + (f"\n  {sec}" if sec else ""))
+    L.append(f"[Setup notes]({REPO}/stocks/README.md)")
     return "\n".join(L)
 
 
@@ -272,7 +354,7 @@ def daily_post(label, session, groups, caps, fnd, events):
     nxt_day = session + dt.timedelta(days=3 if session.weekday() == 4 else 1)
     evs = [e for e in events if session < e["date"] <= nxt_day]
     L += ["", f"**Next session ({nxt_day:%a %d %b}):** " + ("; ".join(e["summary"] for e in evs) if evs else "nothing dated")]
-    L.append(f"Full recap: <{REPO}/recaps/daily/{session.isoformat()}.md>")
+    L.append(f"[Full recap]({REPO}/recaps/daily/{session.isoformat()}.md) · [Ledger]({REPO}/ledger/LEDGER.md) · [Dossiers]({REPO}/stocks/README.md)")
     return "\n".join(L)
 
 
@@ -296,7 +378,7 @@ def weekly_post(session, groups, fnd, events):
     nxt0, nxt1 = monday + dt.timedelta(days=7), monday + dt.timedelta(days=11)
     evs = [e for e in events if nxt0 <= e["date"] <= nxt1]
     L += ["**Next week:**"] + ([f"- {e['date']:%a %d %b}: {e['summary']}" for e in evs] or ["- nothing dated"])
-    L.append(f"Weekly report: <{REPO}/reports/weekly/{iy}-W{iw:02d}.md>")
+    L.append(f"[Weekly report {iy}-W{iw:02d}]({REPO}/reports/weekly/{iy}-W{iw:02d}.md) · [Calls record]({REPO}/calls/README.md)")
     return "\n".join(L), f"{iy}-W{iw:02d}"
 
 
@@ -320,6 +402,7 @@ def main():
     posts = {"dailyrecap": daily_post(label, session, groups, caps, fnd, events)}
     for k, (_, _, ch, _) in BUCKETS.items():
         posts[ch] = bucket_post(k, groups[k], caps, info, fnd, events, label, session)
+    posts.update(strategy_posts(caps, info, fnd, events, label, session))
     for ch, text in [("positions", positions_post(label)), ("calls", calls_post(label)), ("setups", setups_post(label, fnd, info))]:
         if text: posts[ch] = text
     weekly, wk = None, None

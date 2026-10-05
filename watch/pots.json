@@ -1,0 +1,17 @@
+{
+  "_note": "Capped funding pots behind contracts we follow (lesson of 5 Oct 2026: the stockpile pot was undercounted because only one month's awards were added up). collectors/funding_pot.py totals EVERY award from the office on USAspending since 'since', adds the recent awards USAspending doesn't show yet (DoD data lags ~90 days), and compares the total with the money. Add an office here whenever a watchlist stock gets an award from a capped fund.",
+  "pots": {
+    "SP8000": {
+      "name": "National Defense Stockpile (DLA Strategic Materials)",
+      "money_usd": 2000000000,
+      "money_source": "P.L. 119-21 §20004(a)(40): $2bn to the NDS Transaction Fund, available to 30 Sep 2029 (the fund also has other inflows, not counted)",
+      "since": "2025-08-01",
+      "tickers": ["MTUS", "ELMT"],
+      "not_yet_in_usaspending": [
+        {"recipient": "Elmet Technologies (ELMT)", "ceiling_usd": 2000000000, "ordered_usd": 150000000, "date": "2026-09-25", "note": "tungsten IDIQ; $150M is the guaranteed minimum, no delivery order disclosed yet", "source": "https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/"},
+        {"recipient": "Elmet Technologies (ELMT)", "ceiling_usd": 35600000, "ordered_usd": 0, "date": "2026-09-25", "note": "wire contract", "source": "https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/"},
+        {"recipient": "Metallus (MTUS)", "ceiling_usd": 995000000, "ordered_usd": 125000000, "date": "2026-09-25", "note": "HF-1 steel IDIQ SP8000-26-D-0032; $125M initial delivery order (press release 29 Sep)", "source": "https://investors.metallus.com/news/news-details/2026/Metallus-Awarded-995-million-Contract-for-Critical-Defense-Applications-from-U-S--Defense-Logistics-Agency-Receives-Initial-125-Million-Delivery-Order/default.aspx"}
+      ]
+    }
+  }
+}

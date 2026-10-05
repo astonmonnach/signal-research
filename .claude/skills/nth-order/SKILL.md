@@ -80,7 +80,8 @@ These rules exist because each one caught a mistake that a clean-looking analysi
    still too small: USAspending shows 21 more stockpile IDIQs from Aug 2025 to Jul 2026 ($6.29B of
    ceilings; ≈$9.3B in all) and ≈$1.1B already ordered in FY2026. Read the whole DoD page, AND search
    USAspending for every award from the same office (here `SP8000`) across the whole funding period,
-   not just this month's batch. Appropriations decide what gets ordered.
+   not just this month's batch. Appropriations decide what gets ordered. Automated for capped funds by
+   `collectors/funding_pot.py` (add the office to `watch/pots.json`); every miss and its rule go in `LESSONS.md`.
 7. **Corporate actions fake moves.** Spin-offs, reverse-Morris-trusts and special dividends
    make broker "% change" numbers wrong (MOD showed "+14.9%" when the real move was +2%,
    CTVA showed −85%). Add back what holders received before judging any move.
@@ -95,6 +96,8 @@ These rules exist because each one caught a mistake that a clean-looking analysi
     boilerplate (CHDN, 28 Sep). A post-effective amendment (POS AM) "EFFECT" adds no new
     shares (HCTI). Check exchange status before logging a setup: GOVX and HCTI already had
     delisting determinations. Read the item codes and the actual text before trusting a scan.
+    The scanner now tags `bio-mention`, `financing-mention` and EFFECTs that are `(not supply: ...)`
+    (POS AM, F-6, N-2, S-4/F-4), and the ledger skips them (ledger/RULES.md, 2026-10-05).
 11. **Score and log it.** Apply the METHOD gates G1–G5 and the 0–10 card
     (Desktop/nth-order-pipeline/METHOD.md). Log the call with a control ticker in
     `ledger/` so it gets marked against the market from the next session's open.

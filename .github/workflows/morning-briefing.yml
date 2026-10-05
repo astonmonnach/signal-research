@@ -54,6 +54,9 @@ jobs:
       - name: Commodities and peer moves
         continue-on-error: true
         run: python collectors/market_context.py
+      - name: Funding pots (every award from each capped fund's office, watch/pots/)
+        continue-on-error: true
+        run: python collectors/funding_pot.py
       - name: Ledger
         continue-on-error: true
         run: python ledger/build_ledger.py

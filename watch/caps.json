@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05 21:22 UTC",
+ "updated": "2026-10-05 21:58 UTC",
  "buckets": {
   "micro": [
    0,
@@ -120,11 +120,11 @@
   },
   "PUSA": {
    "ticker": "PUSA",
-   "shares": 158000000.0,
-   "shares_source": "ESTIMATE: Aureus Greenway holders' 26.94M = ~17% after the 1 Oct 2026 reverse merger; verify in the next 10-Q or 8-K",
+   "shares": 162000000.0,
+   "shares_source": "8-K 1 Oct 2026: ~134.6M new shares issued to Legacy Powerus holders = ~83% of the total, so ~162M implied; confirm in the next 10-Q",
    "shares_date": "2026-10-01",
    "price": 2.8949999809265137,
-   "mcap": 457409996.98638916,
+   "mcap": 468989996.9100952,
    "bucket": "small"
   }
  }

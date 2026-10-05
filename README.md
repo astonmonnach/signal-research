@@ -11,6 +11,10 @@ A research log for event-driven trades in US small caps. Collectors read SEC fil
 | **Weekly / monthly / quarterly update** | `reports/weekly/YYYY-Www.md`, `reports/monthly/YYYY-MM.md`, `reports/quarterly/YYYY-Qn.md` ([reports/README.md](reports/README.md)) |
 | **Public calls**: the conviction track record, append-only, each marked from the next open vs IWM and a control | [calls/README.md](calls/README.md). Add a call as a new row in `calls/CALLS.csv` (never edit or delete one) |
 | **Long-term research** (6–36 months): nth-order plus balance-sheet, dilution and "already run" checks, tracked against SPY | [longterm/README.md](longterm/README.md), method: [longterm/METHOD.md](longterm/METHOD.md). Candidates: `longterm/candidates.csv` |
+| **Lessons**: every miss, the rule it created, and where the rule is enforced | [LESSONS.md](LESSONS.md) |
+| **Funding pots**: how much of a capped fund (e.g. the $2bn stockpile) is already promised and ordered | `watch/pots/OFFICE.md` ([collectors/funding_pot.py](collectors/funding_pot.py); offices in `watch/pots.json`) |
+| **Strategy lists** (mirror the IBKR watchlists; one Discord channel each) | [watch/strategies.json](watch/strategies.json) |
+| **Live ALL** in Discord (one message edited every 5 minutes in US hours, on Google Apps Script) | [live/README.md](live/README.md) |
 | **Discord**: server layout, what each channel gets, and the setup | [briefing/discord_setup.py](briefing/discord_setup.py) (layout, channel intros, welcome guide), [briefing/notify.py](briefing/notify.py) (the `DISCORD_WEBHOOKS` secret format; strips emojis) |
 | **After-the-close recaps**: daily, weekly (Fridays), one post per size bucket, positions, calls, setups | `recaps/daily/YYYY-MM-DD.md`, `recaps/weekly/YYYY-Www.md` ([briefing/recap.py](briefing/recap.py)). Size buckets come from `watch/caps.json` ([collectors/caps.py](collectors/caps.py); overrides with sources in `watch/caps_manual.csv`) |
 | **The ledger**: every scan item against IWM | [ledger/LEDGER.md](ledger/LEDGER.md). Rules: [ledger/RULES.md](ledger/RULES.md). Raw rows: `ledger/ledger.csv`. Ideas and watch-only setups: `ledger/manual_calls.csv` |

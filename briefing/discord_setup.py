@@ -7,9 +7,10 @@ Run it from GitHub: Actions -> "discord-setup" -> Run workflow (it reads the DIS
 
 Server layout (category: channel = webhook name in DISCORD_WEBHOOKS):
   INFO           #start-here = start, #chat (no webhook)
-  CALLS          #calls = calls, #positions = positions
-  WATCHLISTS     #micro-caps = microcaps, #small-caps = smallcaps, #mid-caps = midcaps, #large-caps = largecaps,
-                 #long-term = longterm, #setups = setups
+  STRATEGIES     #all (live, Google Apps Script: live/all_live.gs), #calls = calls, #trades-open = positions,
+  (the IBKR      #gov-filings = govfilings, #overhang = overhang, #spinoff = spinoff, #setups = setups,
+   watchlists)   #long-term = longterm
+  BY SIZE        #micro-caps = microcaps, #small-caps = smallcaps, #mid-caps = midcaps, #large-caps = largecaps
   RECAPS         #briefing = briefing, #daily-recap = dailyrecap, #weekly-recap = weeklyrecap, #calendar = calendar
   RESEARCH FEED  #filings = filings, #press = press, #ledger = ledger
   CRYPTO         #crypto = crypto
@@ -34,8 +35,14 @@ INTRO = {
     "calls": f"**#calls**\nThe public calls. Each call states its exit price and review date before it starts, is measured from the "
              f"first open after it was posted against the market and one similar stock, and stays on the record win or lose. "
              f"New and closed calls are posted as they happen; marks after every close.\nRecord: <{BLOB}/calls/README.md>",
-    "positions": "**#positions**\nOpen positions after each US close: price against entry, P&L after all fees, move against IWM, "
-                 "distance to the exit line, and the next thesis check.",
+    "positions": "**#trades-open**\nOpen trades after each US close (the IBKR \"TRADES open\" list): price against entry, P&L after all "
+                 "fees, move against IWM, distance to the exit line, and the next thesis check.",
+    "govfilings": "**#gov-filings**\nThe IBKR \"Gov Filings pipeline findings\" list: stocks the SEC and DoD filing pipeline found. After each "
+                  "close: a table, then each stock's verdict, thesis, next dated event, funding-pot status and its latest SEC filings as links.",
+    "overhang": "**#overhang**\nThe IBKR \"STRAT overhang\" list: registered share supply (resale S-1s, lock-up expiries) waiting to hit "
+                "the market. The test is to buy only after the supply has been absorbed. Updated after each close, with SEC links.",
+    "spinoff": "**#spinoff**\nThe IBKR \"STRAT spinoff\" list: spin-offs and their parents. Forced index and holder selling in the first "
+               "weeks, then the re-rating test. Updated after each close, with SEC links.",
     "microcaps": size("micro-caps", "under $300M", "IWM"),
     "smallcaps": size("small-caps", "of $300M to $2B", "IWM"),
     "midcaps": size("mid-caps", "of $2B to $10B", "MDY (S&P MidCap 400)"),
@@ -44,8 +51,8 @@ INTRO = {
                 f"the theme is in reported numbers, the balance sheet survives two bad years, dilution, not already run, liquidity, "
                 f"and it is measured against SPY. New research is posted when it is added; a summary every Monday.\n"
                 f"Method: <{BLOB}/longterm/METHOD.md>",
-    "setups": "**#setups**\nWatch only, not buys. Warning patterns: fresh share supply plus an exchange deficiency, usually under $1. "
-              "Most of them collapse. Updated after each close, with any spike or collapse flagged.",
+    "setups": "**#setups**\nThe IBKR \"SETUP supply+deficiency\" list. Watch only, not buys. Warning patterns: fresh share supply plus "
+              "an exchange deficiency, usually under $1. Most of them collapse. Updated after each close, with spikes or collapses flagged.",
     "briefing": "**#briefing**\nThe morning briefing before the US open: new SEC filings, press releases, positions, watchlist, setups, "
                 "ledger, crypto and the next 14 days, all in one post.",
     "dailyrecap": "**#daily-recap**\nAfter each US close: the market and key inputs (steel, copper, gold, silver, oil), the calls, "
@@ -66,17 +73,18 @@ START_HERE = f"""# Start here
 Everything in this server is posted automatically by a research pipeline. The code and every past post are public: <{REPO}>
 It is a research log, **not financial advice**. Nothing here tells anyone to buy or sell.
 
-**CALLS**
-- **#calls**: public calls with the exit price and review date stated up front, measured against the market. Losers stay on the record.
-- **#positions**: open positions and P&L after fees.
-
-**WATCHLISTS** (same headings as the broker watchlists)
-- **#micro-caps**: under $300M
-- **#small-caps**: $300M to $2B
-- **#mid-caps**: $2B to $10B
-- **#large-caps**: over $10B
-- **#long-term**: 6 to 36 month research
+**STRATEGIES** (the same lists as the broker watchlists)
+- **#all**: every watchlist stock in one live table, updated every 5 minutes while the US market is open
+- **#calls**: public calls with the exit price and review date stated up front, measured against the market. Losers stay on the record
+- **#trades-open**: open trades and P&L after fees
+- **#gov-filings**: what the SEC and DoD filing pipeline found
+- **#overhang**: share supply waiting to hit the market
+- **#spinoff**: spin-offs and their parents
 - **#setups**: watch only. Warning patterns, not buys
+- **#long-term**: 6 to 36 month research
+
+**BY SIZE**
+- **#micro-caps** under $300M · **#small-caps** $300M to $2B · **#mid-caps** $2B to $10B · **#large-caps** over $10B
 
 **RECAPS**
 - **#briefing**: before the US open

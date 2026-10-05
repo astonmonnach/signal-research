@@ -23,3 +23,11 @@
 
 ## Rule changes (dated)
 - **2026-10-04: false positives.** From the 5 Oct scans on, an 8-K whose "strategic alternatives/review" hit is only in a director or officer filing (Item 5.02, with no 8.01/1.01/2.01) is tagged `bio-mention` and isn't counted as a strategic review. The trigger was LWLG on 29 Sep: a new director's bio. That row stays in the ledger as it was recorded.
+- **2026-10-05: two more false positives, now caught by the scanner (`watch/scan_market.py`).**
+  - An `EFFECT` notice names the form it makes effective. If that form puts no new shares on the market, the row is
+    tagged `(not supply: ...)` and isn't counted as `registration_effective`. Those forms are a post-effective amendment
+    (POS AM, the HCTI trigger), an F-6 ADR facility, an N-2 closed-end fund, and S-4/F-4 merger shares (all seen in the
+    23 Sep scan).
+  - A "strategic alternatives/review" hit in a debt financing 8-K (Item 2.03 with no 8.01/2.01) is forward-looking
+    boilerplate. It is tagged `financing-mention` and isn't counted as a strategic review. The trigger was CHDN on 28 Sep.
+  - Both apply to scans from 6 Oct on. Older rows stay as they were recorded.

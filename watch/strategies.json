@@ -1,0 +1,26 @@
+{
+  "_note": "Strategy watchlists, mirroring the IBKR watchlists of the same names. Each one gets its own Discord channel after the US close (briefing/recap.py); 'channel' is the webhook name in DISCORD_WEBHOOKS. Change a list here and in IBKR together.",
+  "strategies": [
+    {
+      "channel": "govfilings",
+      "title": "GOV FILINGS PIPELINE FINDINGS",
+      "ibkr": "Gov Filings pipeline findings",
+      "about": "Stocks the SEC and DoD filing pipeline found: contract awards, sale reviews, spin-offs and lock-ups, each with a verdict.",
+      "tickers": ["MTUS", "WHF", "CHDN", "RYAM", "CTVA", "VYLR", "TWST"]
+    },
+    {
+      "channel": "overhang",
+      "title": "STRAT: OVERHANG",
+      "ibkr": "STRAT overhang",
+      "about": "Registered share supply (resale S-1s, lock-up expiries) waiting to hit the market. The test: buy only after the supply has been absorbed.",
+      "tickers": ["HMH"]
+    },
+    {
+      "channel": "spinoff",
+      "title": "STRAT: SPIN-OFF",
+      "ibkr": "STRAT spinoff",
+      "about": "Spin-offs and their parents: forced index and holder selling in the first weeks, then the re-rating test.",
+      "tickers": ["VYLR", "CTVA", "THRM"]
+    }
+  ]
+}

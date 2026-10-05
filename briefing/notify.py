@@ -8,8 +8,8 @@ per channel:
   calls=https://discord.com/api/webhooks/...
   longterm=https://discord.com/api/webhooks/...
 
-Channel names (briefing/discord_setup.py has the server layout and what each one gets):
-  start, calls, positions, microcaps, smallcaps, midcaps, largecaps, longterm, setups,
+Channel names (briefing/discord_setup.py has the server layout and what each one gets; #trades-open = positions):
+  start, calls, positions, govfilings, overhang, spinoff, setups, longterm, microcaps, smallcaps, midcaps, largecaps,
   briefing, dailyrecap, weeklyrecap, calendar, filings, press, ledger, crypto, alerts
 Hyphens are ignored, so "micro-caps" or "daily-recap" work too.
 A separate DISCORD_WEBHOOK_<CHANNEL> secret still works and wins over the list. DISCORD_WEBHOOK_URL is
@@ -22,17 +22,63 @@ Never print a webhook URL: anyone holding one can post to that channel.
 """
 import json, os, re, time, urllib.request
 
-CHANNELS = ["start", "calls", "positions", "microcaps", "smallcaps", "midcaps", "largecaps", "longterm", "setups",
-            "briefing", "dailyrecap", "weeklyrecap", "calendar", "filings", "press", "ledger", "crypto", "alerts"]
+CHANNELS = ["start", "calls", "positions", "govfilings", "overhang", "spinoff", "setups", "longterm",
+            "microcaps", "smallcaps", "midcaps", "largecaps", "briefing", "dailyrecap", "weeklyrecap", "calendar",
+            "filings", "press", "ledger", "crypto", "alerts"]
+# #all is not here: its one live message is edited by Google Apps Script (live/all_live.gs), not GitHub.
 _ALIASES = {"starthere": "start", "micro": "microcaps", "small": "smallcaps", "mid": "midcaps", "large": "largecaps",
-            "daily": "dailyrecap", "weekly": "weeklyrecap", "position": "positions", "openpositions": "positions"}
+            "daily": "dailyrecap", "weekly": "weeklyrecap", "position": "positions", "openpositions": "positions",
+            "tradesopen": "positions", "trades": "positions", "called": "calls", "govfilingspipelinefindings": "govfilings",
+            "gov": "govfilings", "stratoverhang": "overhang", "stratspinoff": "spinoff", "spinoffs": "spinoff"}
 # No emojis or pictographs in anything posted (his rule): stripped here as a last line of defence.
 _EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿⌀-⏿️‍]+ ?")
 
 
+REPO_BLOB = "github.com/astonmonnach/signal-research/blob/main/"
+_LINK = re.compile(r"(\[[^\]\n]*\]\(<?https?://[^)\s]+>?\))|<(https?://[^>\s]+)>|(?<![(\[<])(https?://[^\s)>\]]+)")
+_HOSTS = [("sec.gov/Archives", "SEC filing"), ("sec.gov", "SEC EDGAR"), ("usaspending.gov", "USAspending"),
+          ("prnewswire.com", "PR Newswire"), ("globenewswire.com", "GlobeNewswire"), ("businesswire.com", "Business Wire"),
+          ("war.gov", "DoD contracts"), ("defense.gov", "DoD contracts"), ("govinfo.gov", "govinfo"),
+          ("raw.githubusercontent.com", "Calendar subscription"), ("x.com", "X post"), ("twitter.com", "X post")]
+_REPO_NAMES = {"calls/README.md": "Calls record", "ledger/LEDGER.md": "Ledger", "stocks/README.md": "Dossiers",
+               "longterm/README.md": "Long-term table", "longterm/METHOD.md": "Long-term method"}
+
+
+def label_for(url):
+    """A short name for a link, so Discord shows "SEC filing" or "Ledger" instead of a long URL."""
+    if REPO_BLOB in url or "github.com/astonmonnach/signal-research/tree/main/" in url:
+        path = url.split("/main/", 1)[1]
+        if path in _REPO_NAMES: return _REPO_NAMES[path]
+        m = re.match(r"stocks/(\w+)\.md", path)
+        if m: return f"{m.group(1)} dossier"
+        m = re.match(r"(recaps/daily|briefings)/(\d{4}-\d\d-\d\d)\.md", path)
+        if m: return ("Recap " if "recap" in m.group(1) else "Briefing ") + m.group(2)
+        m = re.match(r"reports/(weekly|monthly|quarterly)/([\w-]+)\.md", path)
+        if m: return f"{m.group(1).title()} report {m.group(2)}"
+        return path.rstrip("/").split("/")[-1].replace(".md", "") or "Repo"
+    host = next((name for h, name in _HOSTS if h in url), None)
+    return host or re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
+
+
+def shorten_links(text):
+    """Bare or <angle-bracket> URLs become masked links ([label](url)); existing [text](url) links are kept."""
+    def rep(m):
+        if m.group(1): return m.group(1)
+        url, trail = m.group(2) or m.group(3), ""
+        while m.group(3) and url[-1] in ".,;:!?'\"":         # sentence punctuation after a bare link
+            url, trail = url[:-1], url[-1] + trail
+        return f"[{label_for(url)}]({url}){trail}"
+    out, in_code = [], False
+    for line in text.split("\n"):                      # never touch tables inside ``` blocks
+        if line.strip().startswith("```"): in_code = not in_code
+        out.append(line if in_code else _LINK.sub(rep, line))
+    return "\n".join(out)
+
+
 def plain(text):
-    """Remove emojis (and the space after one), so '**X Calls**' style headings stay valid markdown."""
-    return _EMOJI.sub("", text)
+    """Remove emojis (and the space after one), so '**X Calls**' style headings stay valid markdown,
+    and give every bare link a short label."""
+    return shorten_links(_EMOJI.sub("", text))
 
 
 def chunks(text, limit):

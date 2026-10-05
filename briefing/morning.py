@@ -198,6 +198,12 @@ def build():
     if n: w += [n, ""]
     ctx = context()
     if ctx is not None: w += ["## Commodities & sympathy moves"] + ([f"- {c}" for c in ctx] or ["- nothing unusual"]) + [""]
+    pots = ROOT / "watch/pots/latest.json"
+    if pots.exists():
+        w += ["## Funding pots (capped funds behind our contracts)"] + [
+            f"- {s['name']}: ${s['ordered_usd'] / 1e9:.2f}bn ordered = {s['committed_pct']:.0f}% of ${s['money_usd'] / 1e9:.1f}bn; "
+            f"ceilings {s['ceiling_multiple']:.1f}x the money ({', '.join(s['tickers'])}) <{REPO_URL}/watch/pots/{o}.md>"
+            for o, s in json.load(open(pots, encoding="utf-8")).items()] + [""]
     S["watchlist"] = w
     sig = new_signals()
     f = ["## New contract signals (S1, last 3 days)"] + ([f"- {x}" for x in sig] or ["- none"]) + [""]

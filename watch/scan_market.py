@@ -8,6 +8,7 @@ watch/market/YYYY-MM-DD.md. Nothing is judged here; the digest is a
 shortlist to read.
 """
 import json
+import re
 import sys
 import time
 import urllib.parse
@@ -33,6 +34,11 @@ FORMS = {
     "424B4": "IPO / offering priced (lock-up clock starts)",
     "25-NSE": "Delistings",
 }
+
+# Registration forms whose EFFECT notice does NOT put new shares on the market (rule 2026-10-05; HCTI's POS AM,
+# then F-6 ADR facilities, N-2 funds and S-4 merger shares seen in the 23 Sep scan).
+NOT_SUPPLY = [("POS", "no new shares"), ("S-8 POS", "no new shares"), ("F-6", "ADR facility"), ("N-2", "closed-end fund"),
+              ("N-14", "fund merger"), ("S-4", "merger shares"), ("F-4", "merger shares")]
 
 # 8-K phrases searched market-wide for the day.
 PHRASES = ["strategic alternatives", "strategic review", "go-shop", "spin-off",
@@ -74,8 +80,22 @@ def main():
         if form is None or cik not in tickers:
             continue
         name = " ".join(parts[len(form.split()):-3])
+        note = ""
+        if form == "EFFECT":
+            # Rule 2026-10-05 (HCTI): an EFFECT for a post-effective amendment registers no new shares, so it isn't supply.
+            # The notice names the form it makes effective.
+            try:
+                time.sleep(0.12)
+                xml = fetch("https://www.sec.gov/Archives/" + path.replace("-", "").replace(".txt", "/primary_doc.xml")).decode("utf-8", "ignore")
+                reg = re.search(r"<form>([^<]+)</form>", xml)
+                if reg:
+                    reg = reg.group(1).strip()
+                    why = next((w for f, w in NOT_SUPPLY if reg.upper().startswith(f)), "")
+                    note = f" registers {reg}" + (f" (not supply: {why})" if why else "")
+            except Exception:
+                note = " registers ?"
         hits[FORMS[form]].append(
-            f"- **{'/'.join(tickers[cik])}** {name} `{form}` "
+            f"- **{'/'.join(tickers[cik])}** {name} `{form}`{note} "
             f"[filing index](https://www.sec.gov/Archives/{path.replace('.txt', '-index.htm')})")
 
     by_filing = {}
@@ -104,6 +124,10 @@ def main():
             label = p
             if p.startswith("strategic") and "5.02" in items and not {"8.01", "1.01", "2.01"} & set(items):
                 label = f"bio-mention ({p})"
+            # Rule 2026-10-05 (CHDN, 28 Sep): in a debt financing 8-K (Item 2.03, no 8.01/2.01) the phrase is
+            # forward-looking boilerplate, not a sale review.
+            elif p.startswith("strategic") and "2.03" in items and not {"8.01", "2.01"} & set(items):
+                label = f"financing-mention ({p})"
             if label not in entry[2]:
                 entry[2].append(label)
     phrase_hits = [f"- {v[0]}" if k.startswith("err-") else

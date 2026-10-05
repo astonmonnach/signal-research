@@ -82,8 +82,11 @@ def rows_market_scans():
             if not m or not cat: continue
             tk, rest = m.group(1), m.group(2).lower()
             c = cat
+            if cat == "registration_effective" and "not supply" in rest:
+                continue  # rule 2026-10-05: POS AM / F-6 / N-2 / S-4 EFFECTs put no new shares on the market
             if cat == "8k":
                 rest = re.sub(r"bio-mention \([^)]*\),?", "", rest)  # rule 2026-10-04: director-bio mentions aren't strategic reviews
+                rest = re.sub(r"financing-mention \([^)]*\),?", "", rest)  # rule 2026-10-05: debt-financing boilerplate isn't a sale review
                 c = next((cc for p, cc in PHRASE_CATEGORY if p in rest), None)
                 if not c: continue
             out.append({"found": day, "source": f"market scan {f.stem}", "ticker": tk, "category": c,
