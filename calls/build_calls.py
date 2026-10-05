@@ -99,11 +99,11 @@ def announce(rows, marked):
     path = ROOT / "calls/announced.json"
     done = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"opened": [], "closed": []}
     for c in rows:
-        if c["id"] not in done["opened"] and notify.send("📈 **New call**\n" + post_text(c), "calls"):
+        if c["id"] not in done["opened"] and notify.send("**NEW CALL**\n" + post_text(c), "calls"):
             done["opened"].append(c["id"])
     for m in marked:
         if m.get("status", "").startswith("closed") and m["id"] not in done["closed"]:
-            msg = (f"🏁 **Call #{m['id']} closed** · {m['ticker']} {fmt(m['ret_pct'])} (${m['pnl_usd']:+,.2f} on ${NOTIONAL:,.0f}), "
+            msg = (f"**CALL #{m['id']} CLOSED** · {m['ticker']} {fmt(m['ret_pct'])} (${m['pnl_usd']:+,.2f} on ${NOTIONAL:,.0f}), "
                    f"{fmt(m['excess_bench'])} vs {m['bench']}, {fmt(m['excess_control'])} vs {m['control']} · {m['status'][8:]}")
             if notify.send(msg, "calls"):
                 done["closed"].append(m["id"])

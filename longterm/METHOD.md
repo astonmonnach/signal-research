@@ -1,40 +1,35 @@
 # Long-term research: how it works
 
 Medium/long-term ideas (6–36 months) use the same nth-order method as everything else in this repo
-([the skill](../.claude/skills/nth-order/SKILL.md): primary sources only, absence is a finding, check
-whether it has already run, go deeper on every branch, gates G1–G5 and the 0–10 score). A long holding
-period adds risks a two-week trade doesn't face, so there are six extra checks.
+([the skill](../.claude/skills/nth-order/SKILL.md), v3): primary sources only, absence is a finding,
+check whether it has already run, go deeper on every branch, gates G1–G5 and the 0–10 score. A long
+hold is exposed to things a two-week trade isn't, so long-term mode adds six gates.
 
-## The six extra checks
+## The six long-term gates
 
-1. **The theme is in the reported numbers.** It shows up in segment revenue, backlog/RPO or a funded
-   order in the latest 10-K, 10-Q or 8-K (or the company's own press release). An article or a CEO
-   quote doesn't count.
-2. **The balance sheet survives two bad years.** Cash, total debt, the nearest big maturity and free
-   cash flow, all from the latest 10-Q.
-3. **Dilution.** The diluted share count over 3 years. A company that funds itself by issuing shares
-   shrinks your slice even when the theme is right.
-4. **Already run?** The 1-year and 3-year move against SPY, and the valuation (EV/sales or P/E) against
-   its own 5-year range and two peers. A real theme that's fully priced is "already run", not a
-   candidate.
-5. **Liquidity.** Large and mid caps, with average daily $ volume of $5M or more. Anything smaller is
-   flagged.
-6. **Benchmark.** SPY plus the sector ETF. A long-term idea that only matches the index added nothing.
+| Gate | Passes when | Source |
+|---|---|---|
+| **LT1 In the numbers** | The theme shows up in **reported** segment revenue, backlog/RPO or a funded order. An article, a CEO quote or a contract ceiling isn't enough. | Latest 10-K / 10-Q / 8-K, or the company's own release |
+| **LT2 Survives two bad years** | Cash plus undrawn credit covers the next big maturity and two years of negative free cash flow (or FCF is positive). | Latest 10-Q: balance sheet, debt note, cash-flow statement |
+| **LT3 Dilution** | The diluted share count grew under ~3% a year over 3 years, with no live equity line or at-the-market programme funding the company. | SEC companyfacts XBRL, S-3 / 424B filings |
+| **LT4 Not already run** | The 1-year and 3-year moves against SPY plus the valuation (EV/sales or P/E) against its own 5-year range and two peers leave room. A real but fully priced theme is "already run". | Yahoo closes; filings for EV |
+| **LT5 Liquidity** | Average daily $ volume of $5M or more. Large and mid caps preferred; anything smaller is flagged. | Yahoo volume × price |
+| **LT6 Benchmark** | Measured against **SPY** and its sector ETF from the day it's added, and the thesis says what would make it beat both. | [README.md](README.md), built by `build_longterm.py` |
 
 ## Verdicts
 
-| Score | Verdict | Meaning |
+| Verdict | When | Meaning |
 |---|---|---|
-| ≥ 8 | **long-term candidate** | Passes every gate and check. Can become a public call (horizon `long`) only when Aston says yes. |
-| 5–7 | **watch** | Real, but something is missing (often the numbers don't show it yet, or the valuation is stretched). Each has a dated review trigger. |
-| — | **already run** | The theme is real and already in the price. |
-| ≤ 4 | **kill** | Logged with the reason. Kills are part of the record. |
+| **long-term candidate** | Score ≥ 8 and every gate passes | Can become a public call (horizon `long`), but only when Aston says yes. |
+| **watch** | Score 5–7, or LT1 / LT4 not met yet | Real, but something is missing. Each one has a dated review trigger. |
+| **already run** | Fails LT4 | The theme is real and already in the price. |
+| **kill** | A failed G-gate, or a failure of LT2 or LT3 | Logged with the reason. Kills are part of the record. |
 
 ## How a long-term call works
 
 It uses the same [calls record](../calls/README.md) as swing calls, with `horizon = long`:
 - it's measured against **SPY**, not IWM;
-- the review date is about 12 months out, with a review at each quarterly report;
+- the review date is about 12 months out, with a check at every quarterly report;
 - the invalidation is a **thesis break** stated up front (for example the theme's segment revenue
   falling two quarters running), and optionally a price floor.
 

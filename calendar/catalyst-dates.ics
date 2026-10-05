@@ -7,21 +7,8 @@ UID:catalyst-20261001T143000-0@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261001T143000
 DTEND;TZID=Europe/London:20261001T150000
-SUMMARY:📈 VYLR first day of trading (+ THRM/Modine deal closes)
+SUMMARY:VYLR first day of trading (+ THRM/Modine deal closes)
 DESCRIPTION:Observation only\, no trade. Record the day-1 open\, close and volume in ideas/VYLR.md. Compare VYLR + CTVA with CTVA's 30 Sep close ($77.87).
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:catalyst-20261002T170000-1@catalyst-research
-DTSTAMP:20260930T145229Z
-DTSTART;TZID=Europe/London:20261002T170000
-DTEND;TZID=Europe/London:20261002T173000
-SUMMARY:💷 Fund accounts: £110 IBKR, £200 ISA
-DESCRIPTION:ISA: global index fund only. In IBKR\, think about converting to USD once.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
@@ -33,7 +20,7 @@ UID:catalyst-20261005T143000-2@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261005T143000
 DTEND;TZID=Europe/London:20261005T150000
-SUMMARY:📈 TWST insider lock-up ends (watch only)
+SUMMARY:TWST insider lock-up ends (watch only)
 DESCRIPTION:60-day follow-on lock-up ends. The stock is +94% vs the $96 offer\, and Form 144s were filed 17–24 Sep.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -46,7 +33,7 @@ UID:catalyst-20261015T211500-3@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261015T211500
 DTEND;TZID=Europe/London:20261015T213000
-SUMMARY:📈 VYLR day-10 check (observation)
+SUMMARY:VYLR day-10 check (observation)
 DESCRIPTION:Log: price\, lowest close so far and the day it came\, volume vs day 1. No entry: spin-off rule v1 is retired.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -59,7 +46,7 @@ UID:catalyst-20261029T180000-4@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261029T180000
 DTEND;TZID=Europe/London:20261029T183000
-SUMMARY:📈 Re-check the 29 Sep catalyst scan (1 month)
+SUMMARY:Re-check the 29 Sep catalyst scan (1 month)
 DESCRIPTION:Compare VYLR\, CTVA\, THRM\, HMH with research/scans/2026-09-29-dated-catalysts.md.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -72,7 +59,7 @@ UID:catalyst-20261110T211500-5@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261110T211500
 DTEND;TZID=Europe/London:20261110T213000
-SUMMARY:📈 VYLR ~day 28 check (typical spin-off low)
+SUMMARY:VYLR ~day 28 check (typical spin-off low)
 DESCRIPTION:In the backtest the median low came around day 28\, about −14% from the day-1 close. Log where VYLR is against that.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -85,7 +72,7 @@ UID:catalyst-20261130T180000-6@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261130T180000
 DTEND;TZID=Europe/London:20261130T183000
-SUMMARY:📈 Re-check the 29 Sep catalyst scan (2 months)
+SUMMARY:Re-check the 29 Sep catalyst scan (2 months)
 DESCRIPTION:VYLR\, CTVA\, THRM\, HMH vs the prices logged on 29 Sep.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -98,7 +85,7 @@ UID:catalyst-20261228T180000-7@catalyst-research
 DTSTAMP:20260930T145229Z
 DTSTART;TZID=Europe/London:20261228T180000
 DTEND;TZID=Europe/London:20261228T183000
-SUMMARY:📈 Re-check the first scan: WHF, CHDN, RYAM
+SUMMARY:Re-check the first scan: WHF, CHDN, RYAM
 DESCRIPTION:3-month forward test of the 28 Sep strategic-alternatives scan.
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -111,7 +98,7 @@ UID:catalyst-mtus-q3-2026@catalyst-research
 DTSTAMP:20261001T192700Z
 DTSTART:20261106T140000Z
 DTEND:20261106T150000Z
-SUMMARY:📈 MTUS Q3 earnings call: thesis check for trade #1
+SUMMARY:MTUS Q3 earnings call: thesis check for trade #1
 DESCRIPTION:Look for HF-1 / defence volumes\, backlog\, and guidance tied to the $995M DLA award. Exit if no defence order growth. Source: quartr.com via Bigdata.com
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -129,7 +116,7 @@ DTSTART;VALUE=DATE:20261005
 
 DTEND;VALUE=DATE:20261006
 
-SUMMARY:📈 LGMK merger vote (OTC, 15.9% spread, untradeable size; watch result)
+SUMMARY:LGMK merger vote (OTC, 15.9% spread, untradeable size; watch result)
 
 END:VEVENT
 
@@ -143,7 +130,7 @@ DTSTART;VALUE=DATE:20261005
 
 DTEND;VALUE=DATE:20261006
 
-SUMMARY:📈 Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys)
+SUMMARY:Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys)
 
 END:VEVENT
 
@@ -157,7 +144,7 @@ DTSTART;VALUE=DATE:20261005
 
 DTEND;VALUE=DATE:20261006
 
-SUMMARY:📈 TWST first free trading day after insider lock-up (small: <1 day volume)
+SUMMARY:TWST first free trading day after insider lock-up (small: <1 day volume)
 
 END:VEVENT
 
@@ -171,7 +158,7 @@ DTSTART;VALUE=DATE:20261007
 
 DTEND;VALUE=DATE:20261008
 
-SUMMARY:📈 THRM pays $2.07 special dividend; MOD pro forma 8-K/A due
+SUMMARY:THRM pays $2.07 special dividend; MOD pro forma 8-K/A due
 
 END:VEVENT
 
@@ -185,7 +172,7 @@ DTSTART;VALUE=DATE:20261013
 
 DTEND;VALUE=DATE:20261014
 
-SUMMARY:📈 GETY delisting effective (OTC ~$0.04)
+SUMMARY:GETY delisting effective (OTC ~$0.04)
 
 END:VEVENT
 
@@ -199,7 +186,7 @@ DTSTART;VALUE=DATE:20261020
 
 DTEND;VALUE=DATE:20261021
 
-SUMMARY:📈 SSTI tender must start by about now ($8 cash + CVR)
+SUMMARY:SSTI tender must start by about now ($8 cash + CVR)
 
 END:VEVENT
 
@@ -213,7 +200,7 @@ DTSTART;VALUE=DATE:20261030
 
 DTEND;VALUE=DATE:20261031
 
-SUMMARY:📈 HZO antitrust (HSR) waiting period ends
+SUMMARY:HZO antitrust (HSR) waiting period ends
 
 END:VEVENT
 
@@ -227,7 +214,7 @@ DTSTART;VALUE=DATE:20261104
 
 DTEND;VALUE=DATE:20261105
 
-SUMMARY:📈 INM merger vote (current holders 0.97% of combined co)
+SUMMARY:INM merger vote (current holders 0.97% of combined co)
 
 END:VEVENT
 
@@ -241,7 +228,7 @@ DTSTART;VALUE=DATE:20261111
 
 DTEND;VALUE=DATE:20261112
 
-SUMMARY:📈 HZO merger vote ($53 cash)
+SUMMARY:HZO merger vote ($53 cash)
 
 END:VEVENT
 
@@ -255,7 +242,7 @@ DTSTART;VALUE=DATE:20261113
 
 DTEND;VALUE=DATE:20261114
 
-SUMMARY:📈 UTZ merger vote (trades above $14.25 deal price)
+SUMMARY:UTZ merger vote (trades above $14.25 deal price)
 
 END:VEVENT
 
@@ -269,7 +256,7 @@ DTSTART;VALUE=DATE:20261116
 
 DTEND;VALUE=DATE:20261117
 
-SUMMARY:📈 Q3 13F deadline (who bought MTUS/VYLR/ELMT)
+SUMMARY:Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 
 END:VEVENT
 
@@ -283,7 +270,7 @@ DTSTART;VALUE=DATE:20261130
 
 DTEND;VALUE=DATE:20261201
 
-SUMMARY:📈 SBFM best-efforts offering deadline
+SUMMARY:SBFM best-efforts offering deadline
 
 END:VEVENT
 
@@ -297,7 +284,7 @@ DTSTART;VALUE=DATE:20261207
 
 DTEND;VALUE=DATE:20261208
 
-SUMMARY:📈 HZO earliest close
+SUMMARY:HZO earliest close
 
 END:VEVENT
 
@@ -306,76 +293,76 @@ UID:16df21b6bd48a64930cde47b5def6d46@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-SUMMARY:📈 HCTI hearing request due (else suspended 12 Oct)
+SUMMARY:HCTI hearing request due (else suspended 12 Oct)
 END:VEVENT
 BEGIN:VEVENT
 UID:8694be02599d635b0efe9bb595ae2b3b@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-SUMMARY:📈 SNTI reverse-split vote
+SUMMARY:SNTI reverse-split vote
 END:VEVENT
 BEGIN:VEVENT
 UID:bcd6e9907c3e1c60e1147c3d76743da1@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:📈 HCTI suspended if no hearing request
+SUMMARY:HCTI suspended if no hearing request
 END:VEVENT
 BEGIN:VEVENT
 UID:bb2e84d9bc10cc9edb4f5de7ab4c40c6@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
-SUMMARY:📈 POLA reverse-split vote
+SUMMARY:POLA reverse-split vote
 END:VEVENT
 BEGIN:VEVENT
 UID:1668a4d69809942823604967d93ab459@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
-SUMMARY:📈 GWH reverse-split vote
+SUMMARY:GWH reverse-split vote
 END:VEVENT
 BEGIN:VEVENT
 UID:f7fbd7ff931cd09e74a564e80a7b4233@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
-SUMMARY:📈 ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock
+SUMMARY:ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock
 END:VEVENT
 BEGIN:VEVENT
 UID:fe78b40916a8c1d215e1f4223c699734@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-SUMMARY:📈 FLD reverse-split vote
+SUMMARY:FLD reverse-split vote
 END:VEVENT
 BEGIN:VEVENT
 UID:684850e997531a41385a944cd39d7809@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
-SUMMARY:📈 GOVX reverse-split vote
+SUMMARY:GOVX reverse-split vote
 END:VEVENT
 BEGIN:VEVENT
 UID:444d86373608e1aaa1b4f54902e7f4a1@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:📈 MOD Investor Day (continuing business outlook)
+SUMMARY:MOD Investor Day (continuing business outlook)
 END:VEVENT
 BEGIN:VEVENT
 UID:ea7c782f9e9d11b51d9abaeeb0026d6c@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:📈 WHF: $85M notes mature in December, check refinancing
+SUMMARY:WHF: $85M notes mature in December, check refinancing
 END:VEVENT
 BEGIN:VEVENT
 UID:5a14ad14fe0c001500a146000f579c2d@signal-lab
 DTSTAMP:20261005T170000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:📈 RYAM: company promised a clear path forward in Q4 2026
+SUMMARY:RYAM: company promised a clear path forward in Q4 2026
 END:VEVENT
 END:VCALENDAR

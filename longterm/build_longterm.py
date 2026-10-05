@@ -111,12 +111,12 @@ def main():
             for r in R:
                 t = r["ticker"].strip().upper()
                 if t not in state["announced"]:
-                    msg = (f"🌳 **New long-term research: {t}** · {r.get('verdict', '')} ({r.get('score', '')}/10) · {r.get('theme', '')}\n"
+                    msg = (f"**NEW LONG-TERM RESEARCH: {t}** · {r.get('verdict', '')} ({r.get('score', '')}/10) · {r.get('theme', '')}\n"
                            f"{r.get('thesis', '')}\nReview trigger: {r.get('review_trigger', '')} · <{REPO_URL}/longterm/README.md>")
                     if notify.send(msg, "longterm"): state["announced"].append(t)
             wk = f"{TODAY.isocalendar()[0]}-W{TODAY.isocalendar()[1]:02d}"
             if out and (TODAY.weekday() == 0 or "--force" in sys.argv) and (wk not in state["weekly_posted"] or "--force" in sys.argv):
-                lines = [f"🌳 **Long-term weekly · {TODAY:%d %b %Y}** (since added, vs SPY)"]
+                lines = [f"**LONG-TERM WEEKLY** · {TODAY:%d %b %Y} (since added, against SPY)"]
                 lines += [f"- {r['ticker']} {f(r['since'])} ({f(r['vs'])} vs SPY) · {r.get('verdict', '')} · next: {r.get('review_trigger', '')}" for r in out]
                 lines.append(f"Full table: <{REPO_URL}/longterm/README.md>")
                 if notify.send("\n".join(lines), "longterm"): state["weekly_posted"].append(wk)

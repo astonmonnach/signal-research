@@ -1,6 +1,6 @@
 ---
 name: nth-order
-description: (v2, 2026-10-05) Turn a headline, event, filing, claim, or URL into a grounded four-rung nth-order analysis — what is it → what it actually means → who's affected (winners/losers) → what it could mean next — output as a postable, theme-aware HTML artifact with real charts. Use when the user hands over something to analyse "properly / deeper" or wants a share-ready take. Every rung must cite fetched evidence, not recall.
+description: (v3, 2026-10-05; long-term gates LT1–LT6) Turn a headline, event, filing, claim, or URL into a grounded four-rung nth-order analysis — what is it → what it actually means → who's affected (winners/losers) → what it could mean next — output as a postable, theme-aware HTML artifact with real charts. Use when the user hands over something to analyse "properly / deeper" or wants a share-ready take. Every rung must cite fetched evidence, not recall.
 ---
 
 # nth-order analysis
@@ -106,6 +106,32 @@ These rules exist because each one caught a mistake that a clean-looking analysi
 - Corporate actions added back?
 - Pre-move, found-day move and liquidity checked?
 - Gates and score recorded, and logged in the ledger with a control?
+- Long-term idea? LT1–LT6 checked and recorded, and the verdict is one of candidate / watch / already run / kill?
+
+## Long-term mode: gates LT1–LT6 (v3, added 2026-10-05)
+
+Use this mode when the horizon is 6–36 months (the `longterm/` section and the #long-term channel).
+It keeps everything above, including gates G1–G5 and the 0–10 card, and adds six gates. A long hold
+is exposed to things a two-week trade isn't: dilution, refinancing, a theme that never reaches the
+income statement, or paying a price that already assumes success.
+
+| Gate | Passes when | Source |
+|---|---|---|
+| **LT1 In the numbers** | The theme shows up in **reported** segment revenue, backlog/RPO or a funded order. An article, a CEO quote or a ceiling isn't enough. | Latest 10-K / 10-Q / 8-K, or the company's own release |
+| **LT2 Survives two bad years** | Cash plus undrawn credit covers the next big maturity and two years of negative free cash flow (or FCF is positive). | Latest 10-Q balance sheet, debt note, cash-flow statement |
+| **LT3 Dilution** | The diluted share count grew under ~3% a year over 3 years, with no live equity line or at-the-market programme doing the funding. | SEC companyfacts XBRL, S-3/424B filings |
+| **LT4 Not already run** | The 1-year and 3-year moves against SPY plus the valuation (EV/sales or P/E) against its own 5-year range and two peers leave room. A real but fully priced theme gets **"already run"**, not a pass. | Yahoo closes, filings for EV |
+| **LT5 Liquidity** | Average daily $ volume of $5M or more (large and mid caps preferred). Anything smaller is flagged. | Yahoo volume × price |
+| **LT6 Benchmark** | It is measured against **SPY** and its sector ETF from the day it's added, and the thesis states what would make it beat both. | `longterm/build_longterm.py` |
+
+**Verdicts in this mode:**
+- **long-term candidate:** score ≥8 and every gate passes.
+- **watch:** 5–7, or one of LT1/LT4 not yet met, each with a dated review trigger.
+- **already run:** fails LT4.
+- **kill:** any failed G-gate, or a failure of LT2 or LT3.
+
+A candidate becomes a public call (`horizon = long`, benchmark SPY, review about 12 months out, a
+stated thesis-break exit) only when the user says yes. Log candidates in `longterm/candidates.csv`.
 
 ## The ladder
 
@@ -178,6 +204,8 @@ the repo/working dir so it's kept.
 5. Assemble the artifact, list sources, draft the caption, publish, send, save.
 
 ## Changelog
+- 2026-10-05, v3: long-term mode with gates LT1–LT6 (in the numbers, survives two bad years, dilution,
+  not already run, liquidity, benchmark SPY) and its verdicts; checklist item added.
 - 2026-10-05, v2: added "Go deeper on every branch" (press releases, controls/spread, siblings,
   contagion, input prices, funded orders, corporate actions, pre-move/liquidity, supply+deficiency
   pattern, keyword false positives, scoring and ledger logging) and the expanded checklist.

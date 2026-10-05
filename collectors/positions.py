@@ -54,9 +54,9 @@ def main():
                   f"- P&L if sold now, after all fees: **${pnl:+.2f}**  (fees paid so far ${fees:.2f})",
                   f"- vs {BENCH} since entry: {(last / entry - 1) * 100 - (blast / b0 - 1) * 100:+.1f} pts",
                   (f"- Exit line: daily close below **${stop:.2f}**, which is {(last_close / stop - 1) * 100:.1f}% away "
-                   f"(last close ${last_close:.2f}). {'⚠️ CLOSED BELOW. Exit rule triggered.' if last_close < stop else 'OK.'}")
+                   f"(last close ${last_close:.2f}). {'WARNING: closed below the exit line. Exit rule triggered.' if last_close < stop else 'OK.'}")
                   if stop else "- No exit line set.",
-                  f"- Thesis check:{check.group(1).strip()}" if check else "", ""]
+                  f"- Thesis check: {check.group(1).strip().lstrip('*').strip()}" if check else "", ""]
     out = ROOT / "watch" / "positions.md"
     out.write_text("\n".join(l for l in lines if l is not None) + "\n", encoding="utf-8")
     print("\n".join(lines))

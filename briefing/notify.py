@@ -8,8 +8,10 @@ per channel:
   calls=https://discord.com/api/webhooks/...
   longterm=https://discord.com/api/webhooks/...
 
-Channel names (briefing/discord_setup.py says what each one gets):
-  start, briefing, calls, longterm, watchlist, calendar, filings, press, setups, ledger, reports, crypto, alerts
+Channel names (briefing/discord_setup.py has the server layout and what each one gets):
+  start, calls, positions, microcaps, smallcaps, midcaps, largecaps, longterm, setups,
+  briefing, dailyrecap, weeklyrecap, calendar, filings, press, ledger, crypto, alerts
+Hyphens are ignored, so "micro-caps" or "daily-recap" work too.
 A separate DISCORD_WEBHOOK_<CHANNEL> secret still works and wins over the list. DISCORD_WEBHOOK_URL is
 the old single-webhook fallback for #briefing. A channel with no webhook isn't posted on its own, but
 its section is still in the full #briefing post.
@@ -18,23 +20,34 @@ Telegram (optional): TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID get the full briefing
 WhatsApp isn't supported: it needs a paid Meta Business / Twilio account.
 Never print a webhook URL: anyone holding one can post to that channel.
 """
-import json, os, time, urllib.request
+import json, os, re, time, urllib.request
 
-CHANNELS = ["start", "briefing", "calls", "longterm", "watchlist", "calendar", "filings", "press", "setups", "ledger",
-            "reports", "crypto", "alerts"]
-_ALIASES = {"long-term": "longterm", "long_term": "longterm", "start-here": "start", "starthere": "start"}
+CHANNELS = ["start", "calls", "positions", "microcaps", "smallcaps", "midcaps", "largecaps", "longterm", "setups",
+            "briefing", "dailyrecap", "weeklyrecap", "calendar", "filings", "press", "ledger", "crypto", "alerts"]
+_ALIASES = {"starthere": "start", "micro": "microcaps", "small": "smallcaps", "mid": "midcaps", "large": "largecaps",
+            "daily": "dailyrecap", "weekly": "weeklyrecap", "position": "positions", "openpositions": "positions"}
+# No emojis or pictographs in anything posted (his rule): stripped here as a last line of defence.
+_EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿⌀-⏿️‍]+ ?")
+
+
+def plain(text):
+    """Remove emojis (and the space after one), so '**X Calls**' style headings stay valid markdown."""
+    return _EMOJI.sub("", text)
 
 
 def chunks(text, limit):
-    out, cur = [], ""
+    """Split on line boundaries under Discord's limit. A split inside a ``` table closes it and reopens it
+    in the next message, so a table never turns into raw text."""
+    out, cur, in_code = [], "", False
     for line in text.splitlines(keepends=True):
         while len(line) > limit:
             out.append(cur); cur = ""; out.append(line[:limit]); line = line[limit:]
-        if len(cur) + len(line) > limit:
-            out.append(cur); cur = ""
+        if len(cur) + len(line) + 4 > limit:
+            out.append(cur + ("```" if in_code else "")); cur = "```\n" if in_code else ""
         cur += line
+        if line.strip().startswith("```"): in_code = not in_code
     if cur.strip(): out.append(cur)
-    return [c for c in out if c.strip()]
+    return [c for c in out if c.strip() and c.strip() != "```"]
 
 
 def post(url, payload):
@@ -89,8 +102,8 @@ def send_telegram(text, token, chat_id):
 
 
 def send(text, channel="briefing"):
-    """Send to a channel's own webhook, else (briefing only) the default webhook + Telegram."""
-    sent = []
+    """Send to a channel's own webhook, else (briefing only) the default webhook + Telegram. Emojis are removed."""
+    sent, text = [], plain(text)
     url = webhook(channel) or (os.getenv("DISCORD_WEBHOOK_URL") if channel == "briefing" else None)
     if url:
         try: send_discord(text, url); sent.append(f"discord#{channel}")

@@ -71,9 +71,9 @@ jobs:
       - name: Stock dossiers (stocks/TICKER.md, only the part below the AUTO marker)
         continue-on-error: true
         run: python reports/build_stocks.py
-      - name: Weekly, monthly and quarterly reports (current periods; last week's summary to Discord on Mondays)
+      - name: Weekly, monthly and quarterly reports (current periods; the Discord weekly recap is sent Fridays by evening-recap)
         continue-on-error: true
-        run: python reports/build_periodic.py --current --post-weekly
+        run: python reports/build_periodic.py --current
       - name: Briefing (write + send)
         run: python briefing/morning.py
       - name: Commit outputs

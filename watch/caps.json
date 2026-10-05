@@ -1,0 +1,131 @@
+{
+ "updated": "2026-10-05 21:22 UTC",
+ "buckets": {
+  "micro": [
+   0,
+   300000000.0
+  ],
+  "small": [
+   300000000.0,
+   2000000000.0
+  ],
+  "mid": [
+   2000000000.0,
+   10000000000.0
+  ],
+  "large": [
+   10000000000.0,
+   null
+  ]
+ },
+ "stocks": {
+  "VYLR": {
+   "ticker": "VYLR",
+   "shares": 667200000.0,
+   "shares_source": "Spun off 1:1 from CTVA on 1 Oct 2026 (CTVA cover page 667.2M); no VYLR 10-Q yet",
+   "shares_date": "2026-10-01",
+   "price": 73.33000183105469,
+   "mcap": 48925777221.67969,
+   "bucket": "large"
+  },
+  "CTVA": {
+   "ticker": "CTVA",
+   "shares": 667196000,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-24",
+   "price": 12.390000343322754,
+   "mcap": 8266558669.063568,
+   "bucket": "mid"
+  },
+  "THRM": {
+   "ticker": "THRM",
+   "shares": 54400000.0,
+   "shares_source": "30.7M before + 23.7M issued to MOD holders in the RMT (Gentherm/Modine 8-K, 1-2 Oct 2026)",
+   "shares_date": "2026-10-02",
+   "price": 32.22999954223633,
+   "mcap": 1753311975.0976562,
+   "bucket": "small"
+  },
+  "MOD": {
+   "ticker": "MOD",
+   "shares": 53112708,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-24",
+   "price": 182.91000366210938,
+   "mcap": 9714845614.784546,
+   "bucket": "mid"
+  },
+  "HMH": {
+   "ticker": "HMH",
+   "shares": 44093153.0,
+   "shares_source": "Up-C: 12,201,501 Class A + 31,891,652 Class B (resale S-1, 28 Sep 2026); fully-exchanged count",
+   "shares_date": "2026-09-28",
+   "price": 19.18000030517578,
+   "mcap": 845706687.9961624,
+   "bucket": "small"
+  },
+  "TWST": {
+   "ticker": "TWST",
+   "shares": 62707424,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-29",
+   "price": 205.0,
+   "mcap": 12855021920.0,
+   "bucket": "large"
+  },
+  "MTUS": {
+   "ticker": "MTUS",
+   "shares": 41449284,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-31",
+   "price": 21.040000915527344,
+   "mcap": 872092973.3079529,
+   "bucket": "small"
+  },
+  "ELMT": {
+   "ticker": "ELMT",
+   "shares": 30459498,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-08-10",
+   "price": 21.290000915527344,
+   "mcap": 648482740.3065033,
+   "bucket": "small"
+  },
+  "WHF": {
+   "ticker": "WHF",
+   "shares": 21476471,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-08-10",
+   "price": 7.070000171661377,
+   "mcap": 151838653.65668058,
+   "bucket": "micro"
+  },
+  "CHDN": {
+   "ticker": "CHDN",
+   "shares": 69700243,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-22",
+   "price": 77.56999969482422,
+   "mcap": 5406647828.239174,
+   "bucket": "mid"
+  },
+  "RYAM": {
+   "ticker": "RYAM",
+   "shares": 67644208,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-08-03",
+   "price": 6.940000057220459,
+   "mcap": 469450807.3906326,
+   "bucket": "small"
+  },
+  "PUSA": {
+   "ticker": "PUSA",
+   "shares": 158000000.0,
+   "shares_source": "ESTIMATE: Aureus Greenway holders' 26.94M = ~17% after the 1 Oct 2026 reverse merger; verify in the next 10-Q or 8-K",
+   "shares_date": "2026-10-01",
+   "price": 2.8949999809265137,
+   "mcap": 457409996.98638916,
+   "bucket": "small"
+  }
+ }
+}

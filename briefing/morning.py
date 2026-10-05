@@ -169,7 +169,7 @@ def calendar(days=14):
         if s and d:
             day = dt.datetime.strptime(d.group(1), "%Y%m%d").date()
             if TODAY <= day <= TODAY + dt.timedelta(days=days):
-                out.append((day, s.group(1).strip()))
+                out.append((day, re.sub(r"^[^\w$£(]+", "", s.group(1).strip())))
     return [f"{d:%a %d %b}: {t}" for d, t in sorted(out)]
 
 
@@ -181,7 +181,7 @@ def setups():
     out = []
     for r in sorted(rows, key=lambda r: -abs(float(r["since_found_pct"] or 0))):
         move = float(r["since_found_pct"]) if r["since_found_pct"] else None
-        flag = " 🚨 SPIKE" if move is not None and move >= 50 else (" ⚠️ big move" if move is not None and abs(move) >= 20 else "")
+        flag = " SPIKE" if move is not None and move >= 50 else (" (big move)" if move is not None and abs(move) >= 20 else "")
         now = f"${float(r['now']):.2f}" if r["now"] else "?"
         out.append(f"**{r['ticker']}** {now} ({'n/a' if move is None else f'{move:+.0f}%'} since logged {r['found']}){flag}: {r['note'][:80]}")
     return out
@@ -190,7 +190,7 @@ def setups():
 def build():
     """Returns (full briefing text, {channel: section text})."""
     S = {}
-    head = [f"# ☀️ Morning briefing · {TODAY:%a %d %b %Y}", ""]
+    head = [f"# Morning briefing · {TODAY:%a %d %b %Y}", ""]
     w = []
     pos = positions()
     if pos: w += ["## Positions"] + [f"- {p}" for p in pos] + [""]
@@ -222,6 +222,12 @@ def build():
     return "\n".join(full), {k: "\n".join([f"**{TODAY:%a %d %b}**"] + v) for k, v in S.items()}
 
 
+# Sections that go to their own channel in the morning. Watchlist (by size), positions, calls and setups
+# go out after the close instead (briefing/recap.py), when the day's prices are final; they stay in the
+# full #briefing post.
+MORNING_CHANNELS = {"filings", "press", "calendar", "ledger", "crypto"}
+
+
 def main():
     text, sections = build()
     out = ROOT / "briefings" / f"{TODAY.isoformat()}.md"
@@ -234,8 +240,8 @@ def main():
         print(f"already sent today ({marker.name}); briefing file refreshed, nothing sent")
         return
     sent = notify.send(text, "briefing")                       # the whole thing, once
-    for ch, body in sections.items():                         # plus each section to its own channel
-        if notify.has_own_channel(ch):
+    for ch, body in sections.items():                         # plus each morning section to its own channel
+        if ch in MORNING_CHANNELS and notify.has_own_channel(ch):
             sent += notify.send(body, ch)
     if sent:
         marker.write_text(", ".join(sent) + "\n", encoding="utf-8")
