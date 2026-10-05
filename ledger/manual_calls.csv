@@ -18,3 +18,4 @@ found,source,ticker,category,direction,note
 2026-10-04,KNRX-like screen,HCTI,setup_supply_deficiency,0,EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73
 2026-10-04,KNRX-like screen,POLA,setup_supply_deficiency,0,EFFECT 28 Sep + deficiency Jul; $1.16
 2026-10-04,KNRX-like screen,CYAB,setup_supply_deficiency,0,EFFECT 21 Sep + deficiency Jun; $0.20
+2026-10-05,press release (Business Wire),PUSA,idea_contract_press,1,"$82M funded order under existing USG IDIQ (2nd order) = ~17% of est. ~$485M mcap; stock -17% since 1 Oct reverse merger; under-reaction test like MTUS"

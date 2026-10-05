@@ -101,8 +101,8 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $70.54 (2026-10-05, ledger)
-- **Since first found:** **+3.3%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +2.7% vs IWM -0.1% = **+2.7 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $69.69 (2026-10-05, ledger)
+- **Since first found:** **+2.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +1.4% vs IWM +0.0% = **+1.4 pts** vs IWM; direction 0, tracked only (3 days)
 - **Peers / sympathy:** no flag (self 5d n/a vs peer median -6.3%). Peer groups: seeds / ag (4), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-02)
   - warning: only 2 daily bars (new listing?)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -130,4 +130,4 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $70.54 | +3.3% | +2.7% | -0.1% |  | 3 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $69.69 | +2.1% | +1.4% | +0.0% |  | 3 | live |

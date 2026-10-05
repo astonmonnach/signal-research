@@ -103,8 +103,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $32.60 (2026-10-05, ledger) · 1d -6.9%, 5d -11.1%, 20d -21.8% (market context, 2026-10-02)
-- **Since first found:** **+2.2%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: +1.7% vs IWM +0.7% = **+1.0 pts** vs IWM; direction 0, tracked only (5 days). Includes +$2.07 cash (special_dividend)
+- **Latest price:** $32.04 (2026-10-05, ledger) · 1d -6.9%, 5d -11.1%, 20d -21.8% (market context, 2026-10-02)
+- **Since first found:** **+0.6%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: +0.1% vs IWM +0.8% = **-0.7 pts** vs IWM; direction 0, tracked only (5 days). Includes +$2.07 cash (special_dividend)
 - **Peers / sympathy:** solo_move: THRM -11.1% 5d vs peer median -1.7%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 7 Oct 2026: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due
@@ -127,6 +127,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $32.60 | +2.2% | +1.7% | +0.7% |  | 5 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $32.04 | +0.6% | +0.1% | +0.8% |  | 5 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

@@ -89,8 +89,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $12.09 (2026-10-05, ledger) · 1d -5.2%, 5d -84.8%, 20d -86.5% (market context, 2026-10-02)
-- **Since first found:** **+6.1%** (found 2026-09-29 via `idea_spinoff` at $77.87). From the next open $77.91: +6.0% vs IWM +0.7% = **+5.3 pts** vs IWM; direction 0, tracked only (5 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $12.24 (2026-10-05, ledger) · 1d -5.2%, 5d -84.8%, 20d -86.5% (market context, 2026-10-02)
+- **Since first found:** **+5.2%** (found 2026-09-29 via `idea_spinoff` at $77.87). From the next open $77.91: +5.2% vs IWM +0.8% = **+4.4 pts** vs IWM; direction 0, tracked only (5 days). Includes +1.0 VYLR (spin)
 - **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CTVA -84.8% 5d vs peer median -8.4%; peers didn't move with it. Peer groups: crop inputs (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-02)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -115,6 +115,6 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $77.87 | $77.91 | $12.09 | +6.1% | +6.0% | +0.7% |  | 5 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $77.87 | $77.91 | $12.24 | +5.2% | +5.2% | +0.8% |  | 5 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

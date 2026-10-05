@@ -89,8 +89,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $19.21 (2026-10-05, ledger) · 1d +5.5%, 5d -4.4%, 20d -8.5% (market context, 2026-10-02)
-- **Since first found:** **-0.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: +1.8% vs IWM +0.7% = **+1.1 pts** vs IWM; direction -1 → excess -1.1% (6 days)
+- **Latest price:** $19.28 (2026-10-05, ledger) · 1d +5.5%, 5d -4.4%, 20d -8.5% (market context, 2026-10-02)
+- **Since first found:** **+0.0%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: +2.2% vs IWM +0.8% = **+1.4 pts** vs IWM; direction -1 → excess -1.4% (6 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (self 5d -4.4% vs peer median -4.2%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -112,5 +112,5 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $19.21 | -0.4% | +1.8% | +0.7% | -1.1% | 6 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $19.21 | +8.1% | +8.1% | +0.7% | -7.4% | 5 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $19.28 | +0.0% | +2.2% | +0.8% | -1.4% | 6 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $19.28 | +8.5% | +8.5% | +0.8% | -7.7% | 5 | live |

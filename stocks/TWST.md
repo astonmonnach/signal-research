@@ -86,8 +86,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $202.44 (2026-10-05, ledger) · 1d +0.3%, 5d +3.2%, 20d +46.6% (market context, 2026-10-02)
-- **Since first found:** **+4.8%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: +4.8% vs IWM +1.7% = **+3.1 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $200.99 (2026-10-05, ledger) · 1d +0.3%, 5d +3.2%, 20d +46.6% (market context, 2026-10-02)
+- **Since first found:** **+4.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: +4.1% vs IWM +1.8% = **+2.3 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** missed_peer_move: peer median +12.5% 5d vs TWST +3.2%; peers moved, it didn't. Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 5 Oct 2026: TWST first free trading day after insider lock-up (small: <1 day volume)
@@ -109,4 +109,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $202.44 | +4.8% | +4.8% | +1.7% |  | 4 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $200.99 | +4.0% | +4.1% | +1.8% |  | 4 | live |

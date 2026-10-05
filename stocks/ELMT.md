@@ -98,8 +98,8 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $21.08 (2026-10-05, ledger) · 1d +8.8%, 5d +12.7%, 20d +35.2% (market context, 2026-10-02)
-- **Since first found:** **+7.4%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +9.7% vs IWM +0.7% = **+9.0 pts** vs IWM; direction +1 → excess +9.0% (7 days)
+- **Latest price:** $21.22 (2026-10-05, ledger) · 1d +8.8%, 5d +12.7%, 20d +35.2% (market context, 2026-10-02)
+- **Since first found:** **+8.0%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +10.3% vs IWM +0.7% = **+9.6 pts** vs IWM; direction +1 → excess +9.6% (7 days)
 - **Peers / sympathy:** solo_move: ELMT +12.7% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 19 Oct 2026: ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock
@@ -110,6 +110,7 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-05](../scans/2026-10-05.md#watchlist-filings)**: Filings: `8-K` 2 Oct, `8-K` 30 Sep; +34 older (Apr – Sep 2026) first picked up
 - **[2026-09-25](../scans/2026-09-25.md#s1-contract-signals)**: S1 signal: DoD `IDIQ_ceiling` $35.6M, 6% of market cap (upper bound), decision PENDING ([war.gov](https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/))
 
 ## Performance since found
@@ -118,4 +119,4 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $21.08 | +7.4% | +9.7% | +0.7% | +9.0% | 7 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $21.22 | +8.0% | +10.3% | +0.7% | +9.6% | 7 | live |

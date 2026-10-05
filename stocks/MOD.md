@@ -93,8 +93,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep)
-- **Latest price:** $184.71 (2026-10-05, ledger) · 1d -5.8%, 5d -10.0%, 20d -4.5% (market context, 2026-10-02)
-- **Since first found:** **+6.4%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: +6.2% vs IWM +1.7% = **+4.4 pts** vs IWM; direction 0, tracked only (4 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $185.40 (2026-10-05, ledger) · 1d -5.8%, 5d -10.0%, 20d -4.5% (market context, 2026-10-02)
+- **Since first found:** **+6.7%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: +6.4% vs IWM +1.8% = **+4.6 pts** vs IWM; direction 0, tracked only (4 days). Includes +0.44619 THRM (spin)
 - **Peers / sympathy:** solo_move: MOD -10.0% 5d vs peer median +0.2%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 7 Oct 2026: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due
@@ -105,6 +105,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-05](../scans/2026-10-05.md#watchlist-filings)**: Filings: `4` 5 Oct
 - **[2026-10-04](../scans/2026-10-04.md#press-releases)**: Press: Modine Completes Spin-off and Combination of its Performance Technologies Business with Gentherm (PR Newswire, published Thu 1 Oct) ([release](https://www.prnewswire.com/news-releases/modine-completes-spin-off-and-combination-of-its-performance-technologies-business-with-gentherm-302896597.html)) · Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (2. THRM (Gentherm) / MOD (Modine): Reverse Morris Trust closed 1 Oct 2026) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage: **THRM / MOD** (watchlist): The Reverse Morris Trust **closed 1 Oct**. Gentherm issued 23,735,961 shares to Modine record-date holders, who now own… ([triage](../watch/digests/2026-10-03-triage.md)) · Filings: `8-K` 1 Oct
 - **[2026-09-30](../scans/2026-09-30.md#new-setups)**: Logged as `idea_merger` (direction 0): RemainCo after RMT (track); source: X post 30 Sep ([manual_calls.csv](../ledger/manual_calls.csv)) · Triage, dismissed: **MOD** Form 4 (Patten): code **F**, shares withheld for tax on accelerated RSU vesting tied to the Gentherm / Platinum SpinCo record date. ([triage](../watch/digests/2026-09-30-triage.md))
@@ -116,6 +117,6 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $184.71 | +6.4% | +6.2% | +1.7% |  | 4 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $185.40 | +6.7% | +6.4% | +1.8% |  | 4 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._
