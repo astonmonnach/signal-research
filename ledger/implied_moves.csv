@@ -1,0 +1,7 @@
+logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost,leg_spread_pct,open_interest,nth_view,status,expiry_close,actual_move_pct,straddle_result_pct,outcome
+2026-10-06,MOD,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,191.01,9.6,190.0,18.2,18.5,4,,open,,,,
+2026-10-06,THRM,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,32.3,8.9,32.93,2.6,47.5,1845,,open,,,,
+2026-10-06,HZO,2026-10-30,HZO antitrust (HSR) waiting period ends,2026-11-20,52.35,10.0,50.0,5.22,175.8,3,,open,,,,
+2026-10-06,MTUS,2026-11-06,MTUS Q3 earnings call: thesis check for trade #1,2026-11-20,21.04,12.7,20.0,2.65,13.7,1484,,open,,,,
+2026-10-06,HZO,2026-11-11,HZO merger vote ($53 cash),2026-11-20,52.35,10.0,50.0,5.22,175.8,3,,open,,,,
+2026-10-06,MOD,2026-11-18,MOD Investor Day (continuing business outlook),2026-11-20,191.01,22.4,190.0,42.5,11.8,7,,open,,,,

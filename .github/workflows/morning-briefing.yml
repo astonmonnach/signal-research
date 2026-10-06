@@ -61,6 +61,12 @@ jobs:
       - name: Funding pots (every award from each capped fund's office, watch/pots/)
         continue-on-error: true
         run: python collectors/funding_pot.py
+      - name: Options record (expected move before each dated event; actual move after expiry)
+        continue-on-error: true
+        run: python collectors/implied_moves.py
+      - name: Verdict scoreboard (are our OWN / WATCH / AVOID verdicts right?)
+        continue-on-error: true
+        run: python ledger/build_verdicts.py
       - name: Ledger
         continue-on-error: true
         run: python ledger/build_ledger.py
