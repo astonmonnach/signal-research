@@ -1,106 +1,26 @@
 [
  {
-  "published_utc": "2026-10-06T13:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "PUSA",
-  "title": "Powerus (Nasdaq: PUSA) Receives $82 Million Order for Counter-Unmanned Aerial Systems",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375609/0/en/powerus-nasdaq-pusa-receives-82-million-order-for-counter-unmanned-aerial-systems.html",
-  "matched_on": "watchlist"
+  "published_utc": "2026-10-06T20:10:00Z",
+  "wire": "Business Wire",
+  "ticker": "BY",
+  "title": "Byline Bancorp, Inc. and Illinois State Bancorp, Inc. Announce Definitive Merger Agreement",
+  "link": "http://www.businesswire.com/news/home/20261006544427/en/Byline-Bancorp-Inc.-and-Illinois-State-Bancorp-Inc.-Announce-Definitive-Merger-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
  },
  {
-  "published_utc": "2026-10-06T11:51:00Z",
+  "published_utc": "2026-10-06T20:05:00Z",
   "wire": "PR Newswire",
-  "ticker": "POLA;STI",
-  "title": "Solidion Technology (NASDAQ: STI) ziet geen basis om zijn aanbod aan Polar Power, Inc. (NASDAQ: POLA) te verhogen in reactie op de afwijzing door de raad van bestuur van het voorstel voor de aankoop van activa in contanten",
-  "link": "https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-ziet-geen-basis-om-zijn-aanbod-aan-polar-power-inc-nasdaq-pola-te-verhogen-in-reactie-op-de-afwijzing-door-de-raad-van-bestuur-van-het-voorstel-voor-de-aankoop-van-activa-in-contanten-302899721.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-06T13:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "GRML",
-  "title": "Greenland Mines Authorizes $20 Million Share Repurchase Program and Announces Capital Allocation Priorities",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375625/0/en/greenland-mines-authorizes-20-million-share-repurchase-program-and-announces-capital-allocation-priorities.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-06T13:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "ASND",
-  "title": "Ascendis to Share Latest Advances in Hypoparathyroidism and Achondroplasia Programs at ASBMR 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375624/0/en/ascendis-to-share-latest-advances-in-hypoparathyroidism-and-achondroplasia-programs-at-asbmr-2026.html",
+  "ticker": "ELVN",
+  "title": "Enliven Therapeutics Announces FDA Alignment on ENABLE-2 Phase 3 Trial Design for Relcobatinib (ELVN-001) in Previously Treated Chronic Myeloid Leukemia",
+  "link": "https://www.prnewswire.com/news-releases/enliven-therapeutics-announces-fda-alignment-on-enable-2-phase-3-trial-design-for-relcobatinib-elvn-001-in-previously-treated-chronic-myeloid-leukemia-302900300.html",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-10-06T13:09:00Z",
+  "published_utc": "2026-10-06T20:01:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "RZLV",
-  "title": "Rezolve Ai Receives Court Approval for Capital Reduction, Advancing Share Repurchase Program of Up to $300 Million",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375619/0/en/rezolve-ai-receives-court-approval-for-capital-reduction-advancing-share-repurchase-program-of-up-to-300-million.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-06T12:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "MCK;OPCH",
-  "title": "CD&R and McKesson Corporation Sign Agreement to Acquire Option Care Health",
-  "link": "http://www.businesswire.com/news/home/20261005837505/en/CDR-and-McKesson-Corporation-Sign-Agreement-to-Acquire-Option-Care-Health/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-10-06T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "MDGL",
-  "title": "Madrigal Announces Publication in the Journal of Hepatology Demonstrating Consistent Rezdiffra Efficacy Across Common MASH Genetic Risk Variants",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375437/0/en/madrigal-announces-publication-in-the-journal-of-hepatology-demonstrating-consistent-rezdiffra-efficacy-across-common-mash-genetic-risk-variants.html",
+  "ticker": "BBIO",
+  "title": "BridgeBio to Present Additional Evidence from the Phase 3 CALIBRATE Trial of Encaleret in ADH1 at the ASBMR 2026 Annual Meeting",
+  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375977/0/en/bridgebio-to-present-additional-evidence-from-the-phase-3-calibrate-trial-of-encaleret-in-adh1-at-the-asbmr-2026-annual-meeting.html",
   "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "AVBP",
-  "title": "ArriVent Announces Program Update from the Phase 3 FURVENT Trial of Firmonertinib in First-Line EGFR Exon 20 Insertion Mutant NSCLC",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375447/0/en/arrivent-announces-program-update-from-the-phase-3-furvent-trial-of-firmonertinib-in-first-line-egfr-exon-20-insertion-mutant-nsclc.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VTVT",
-  "title": "vTv Therapeutics to Host Virtual KOL Event on Hypoglycemia in Type 1 Diabetes and the Cadisegliatin Phase 3 Program on October 20, 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375427/0/en/vtv-therapeutics-to-host-virtual-kol-event-on-hypoglycemia-in-type-1-diabetes-and-the-cadisegliatin-phase-3-program-on-october-20-2026.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "LBRX",
-  "title": "LB Pharmaceuticals to Host In-Person and Virtual R&D Day on October 27, 2026: Advancing LB‑102 with a Focus on Schizophrenia Treatment",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375433/0/en/lb-pharmaceuticals-to-host-in-person-and-virtual-r-d-day-on-october-27-2026-advancing-lb-102-with-a-focus-on-schizophrenia-treatment.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T11:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "OKYO",
-  "title": "OKYO Pharma Announces First Patients Enrolled in Phase 3 Pivotal Trial of Urcosimod for Neuropathic Corneal Pain",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375318/0/en/okyo-pharma-announces-first-patients-enrolled-in-phase-3-pivotal-trial-of-urcosimod-for-neuropathic-corneal-pain.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T11:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "REGN",
-  "title": "Regeneron Showcases Advances in Care Across Several Cancers and Cancer-associated Complications at ESMO 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3375301/0/en/regeneron-showcases-advances-in-care-across-several-cancers-and-cancer-associated-complications-at-esmo-2026.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-06T10:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "SRFM;PLTR",
-  "title": "Surf Air Mobility Signs OperatorOS Contract with Clipper Aviation",
-  "link": "http://www.businesswire.com/news/home/20261006989258/en/Surf-Air-Mobility-Signs-OperatorOS-Contract-with-Clipper-Aviation/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:definitive agreement"
  }
 ]
