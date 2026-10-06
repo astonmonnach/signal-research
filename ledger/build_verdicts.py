@@ -32,9 +32,10 @@ def main():
     for r in rows: latest[r["ticker"]] = r
     caps = json.load(open(ROOT / "watch/caps.json", encoding="utf-8"))["stocks"] if (ROOT / "watch/caps.json").exists() else {}
     today = dt.date.today().isoformat()
+    first_run = not rows                                    # the first snapshot uses the day the verdicts were written
     for t, i in recap.dossiers().items():
         if t in latest and latest[t]["verdict"] == i["verdict"]: continue
-        d = FIRST_BASE if not rows else today
+        d = FIRST_BASE if first_run else today
         b = [x for x in recap.bars(t) if x[0].isoformat() <= d]
         if not b: continue
         rows.append(dict(date=d, ticker=t, verdict=i["verdict"], score=i.get("score", ""), close=round(b[-1][1], 4)))
