@@ -21,6 +21,7 @@ from statistics import mean
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "briefing")); sys.path.insert(0, str(ROOT / "reports"))
 import notify  # noqa: E402
+from claim import claim  # noqa: E402
 from sources import calendar_events  # noqa: E402
 
 REPO = "https://github.com/astonmonnach/signal-research/blob/main"
@@ -421,16 +422,12 @@ def main():
     if intraday and "--force" not in sys.argv:
         print(f"market still open ({label}): recap written to {out.relative_to(ROOT)}, nothing sent"); return
     sent = []
-    marker = ROOT / f"recaps/.sent-{session.isoformat()}"
-    if not marker.exists() or "--force" in sys.argv:
+    # Claim first, send second (rule 2026-10-06): each marker is pushed BEFORE posting, so a failure can't repost.
+    if any(notify.has_own_channel(ch) for ch in posts) and ("--force" in sys.argv or claim(f"recaps/.sent-{session.isoformat()}")):
         for ch, text in posts.items():
             if notify.has_own_channel(ch): sent += notify.send(text, ch)
-        if sent: marker.write_text(", ".join(sent) + "\n", encoding="utf-8")
-    if weekly:
-        wm = ROOT / f"recaps/.sent-{wk}"
-        if (not wm.exists() or "--force" in sys.argv) and notify.has_own_channel("weeklyrecap"):
-            s = notify.send(weekly, "weeklyrecap"); sent += s
-            if s: wm.write_text(", ".join(s) + "\n", encoding="utf-8")
+    if weekly and notify.has_own_channel("weeklyrecap") and ("--force" in sys.argv or claim(f"recaps/.sent-{wk}")):
+        sent += notify.send(weekly, "weeklyrecap")
     print(f"recap {session} written to {out.relative_to(ROOT)}; sent via: {', '.join(sent) or 'nothing (already sent, or no webhooks)'}")
 
 

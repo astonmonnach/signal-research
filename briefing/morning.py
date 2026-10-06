@@ -13,13 +13,14 @@ Reads only files other jobs wrote (it never fetches anything except via notify.p
   data/crypto/trending_*.csv                     C1 (GitHub Actions)
   calendar/catalyst-dates.ics                    dated events
 """
-import csv, json, re, sys, datetime as dt
+import csv, json, os, re, sys, datetime as dt
 from pathlib import Path
 from statistics import mean, median
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).parent))
 import notify  # noqa: E402
+from claim import claim  # noqa: E402
 
 REPO_URL = "https://github.com/astonmonnach/signal-research/blob/main"
 NOW = dt.datetime.now(dt.UTC)
@@ -252,16 +253,17 @@ def main():
     out.write_text(text + "\n", encoding="utf-8")
     if "--dry-run" in sys.argv:
         print(text); return
-    marker = ROOT / "briefings" / f".sent-{TODAY.isoformat()}"
-    if marker.exists() and "--force" not in sys.argv:
-        print(f"already sent today ({marker.name}); briefing file refreshed, nothing sent")
+    marker = f"briefings/.sent-{TODAY.isoformat()}"
+    if not notify.webhook("briefing") and not os.getenv("DISCORD_WEBHOOK_URL"):
+        print("no #briefing webhook: briefing written, nothing sent"); return
+    # Claim first, send second (rule 2026-10-06): the marker is pushed BEFORE posting, so a later failure can't repost.
+    if "--force" not in sys.argv and not claim(marker, f"claimed {dt.datetime.now(dt.UTC):%H:%M} UTC"):
+        print(f"already sent today ({marker}); briefing file refreshed, nothing sent")
         return
     sent = notify.send(text, "briefing")                       # the whole thing, once
     for ch, body in sections.items():                         # plus each morning section to its own channel
         if ch in MORNING_CHANNELS and notify.has_own_channel(ch):
             sent += notify.send(body, ch)
-    if sent:
-        marker.write_text(", ".join(sent) + "\n", encoding="utf-8")
     print(f"briefing written to {out.relative_to(ROOT)}; sent via: {', '.join(sent) or 'nothing (no secrets set)'}")
 
 
