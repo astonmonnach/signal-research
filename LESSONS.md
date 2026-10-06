@@ -19,6 +19,7 @@ or in a dated [ledger rule](ledger/RULES.md) (the scoring). Old ledger rows keep
 | 2026-10-05 | A personal note (account funding) sat in the public calendar | The calendar is stock events only, no emojis | The evening task's calendar instructions; `calendar/catalyst-dates.ics` cleaned | done |
 | 2026-10-05 | Long-term research ran before the long-term gates existed (AAON passed as "watch" but fails LT2) | Long-term ideas go through LT1–LT6; a failure of LT2 or LT3 is a kill | Skill v3, `longterm/METHOD.md` | done |
 | 2026-10-05 | The ledger headline said "61/94 beat IWM, +5.0%", but 68 of the 94 were **short bets we can't take** (KNRX and WHLR "won" by collapsing). The takeable part was flat: 6/16 after costs, none held long enough to judge | The headline counts only what we could have taken: long, liquid, $1+, net of 1% costs, judged after 20 trading days. Shorts are a paper-only don't-buy list | Code: `ledger/build_ledger.py` (`takeable`, `net_excess_pct`, `tdays`), the briefing's #ledger post and the weekly reports. Ledger rule 2026-10-05 | done |
+| 2026-10-06 | The morning briefing posted **6 times**: each run sent, then failed to save its "sent today" marker (an uncommitted file blocked `git pull --rebase`) | Claim first, send second: the marker is pushed before posting. Every save loop uses `--autostash` | Code: `briefing/claim.py` (morning briefing and recaps), all workflows | done |
 
 ## Still to automate
 
