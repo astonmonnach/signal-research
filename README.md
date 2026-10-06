@@ -13,6 +13,8 @@ A research log for event-driven trades in US small caps. Collectors read SEC fil
 | **Public calls**: the conviction track record, append-only, each marked from the next open vs IWM and a control | [calls/README.md](calls/README.md). Add a call as a new row in `calls/CALLS.csv` (never edit or delete one) |
 | **Long-term research** (6–36 months): nth-order plus balance-sheet, dilution and "already run" checks, tracked against SPY | [longterm/README.md](longterm/README.md), method: [longterm/METHOD.md](longterm/METHOD.md). Candidates: `longterm/candidates.csv` |
 | **Lessons**: every miss, the rule it created, and where the rule is enforced | [LESSONS.md](LESSONS.md) |
+| **Daily research**: the deep dive of the day, written at 06:30 UK and posted first in the morning briefing | `research/daily/YYYY-MM-DD.md` |
+| **Alerts**: new filings, press releases and DoD awards on every stock we follow, every 30 minutes, to Discord #alerts | [briefing/alerts.py](briefing/alerts.py), workflow `alerts` (seen list: `alerts/seen.json`) |
 | **Funding pots**: how much of a capped fund (e.g. the $2bn stockpile) is already promised and ordered | `watch/pots/OFFICE.md` ([collectors/funding_pot.py](collectors/funding_pot.py); offices in `watch/pots.json`) |
 | **Strategy lists** (mirror the IBKR watchlists; one Discord channel each) | [watch/strategies.json](watch/strategies.json) |
 | **Live ALL** in Discord (one message edited every 5 minutes in US hours, on Google Apps Script) | [live/README.md](live/README.md) |

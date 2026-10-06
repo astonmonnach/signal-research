@@ -70,21 +70,29 @@ def new_signals(days=3):
     return out
 
 
+POSTED_NOTES = ROOT / "research/daily/posted.json"
+_included_notes = []
+
+
 def research_of_the_day():
-    """The latest daily research note (research/daily/DATE.md, written by the evening job): its headline and every verdict."""
-    files = sorted((ROOT / "research/daily").glob("*.md"))
-    if not files: return []
-    f = files[-1]
-    if (TODAY - dt.date.fromisoformat(f.stem)).days > 4: return []
-    md = f.read_text(encoding="utf-8")
-    head = re.search(r"^\*\*Headline:\*\*(.+?)(?:\n\n|\Z)", md, re.S | re.M)
-    titles = re.findall(r"^## \d+\. (.+)$", md, re.M)
-    verdicts = re.findall(r"^- \*\*Verdict:\*\*\s*(.+)$", md, re.M)
-    out = [f"## Research of the day ({dt.date.fromisoformat(f.stem):%a %d %b})"]
-    if head:
-        h = " ".join(head.group(1).split()); out.append(h[:1].upper() + h[1:])
-    out += [f"- **{t}**: {re.sub(r'^-\s*', '', v)}" for t, v in zip(titles, verdicts)]
-    return out + [""]
+    """Every daily research note (research/daily/DATE.md) from the last 3 days that hasn't been posted yet, oldest
+    first: its headline and every verdict. main() records them in posted.json after sending, so each posts once."""
+    posted = set(json.loads(POSTED_NOTES.read_text(encoding="utf-8"))) if POSTED_NOTES.exists() else set()
+    out = []
+    for f in sorted((ROOT / "research/daily").glob("20*.md")):
+        d = dt.date.fromisoformat(f.stem)
+        if f.stem in posted or (TODAY - d).days > 3: continue
+        md = f.read_text(encoding="utf-8")
+        head = re.search(r"^\*\*Headline:\*\*(.+?)(?:\n\n|\Z)", md, re.S | re.M)
+        titles = re.findall(r"^## \d+\. (.+)$", md, re.M)
+        verdicts = re.findall(r"^- \*\*Verdict:\*\*\s*(.+)$", md, re.M)
+        out.append(f"## Research of the day ({d:%a %d %b})")
+        if head:
+            h = " ".join(head.group(1).split()); out.append(h[:1].upper() + h[1:])
+        out += [f"- **{tt}**: {re.sub(r'^-\s*', '', v)}" for tt, v in zip(titles, verdicts)]
+        out.append("")
+        _included_notes.append(f.stem)
+    return out
 
 
 def latest_triage():
@@ -283,6 +291,9 @@ def main():
     for ch, body in sections.items():                         # plus each morning section to its own channel
         if ch in MORNING_CHANNELS and notify.has_own_channel(ch):
             sent += notify.send(body, ch)
+    if sent and _included_notes:                                # each research note posts once
+        done = set(json.loads(POSTED_NOTES.read_text(encoding="utf-8"))) if POSTED_NOTES.exists() else set()
+        POSTED_NOTES.write_text(json.dumps(sorted(done | set(_included_notes)), indent=1), encoding="utf-8")
     print(f"briefing written to {out.relative_to(ROOT)}; sent via: {', '.join(sent) or 'nothing (no secrets set)'}")
 
 

@@ -25,7 +25,8 @@ To stop it, run **teardown**. If the repo goes private, also add a `TICKERS` pro
 GitHub's own schedules are "best effort" and can start hours late (on 6 Oct the 22:15 recap started at 02:52 and the
 morning briefing hadn't started by 08:40). `kicks.gs` runs every 10 minutes on Google Apps Script and starts each
 job at the right London time:
-- the morning briefing from 06:00 on weekdays;
+- the morning briefing from 07:45 on weekdays (after the 06:30 research run);
+- alerts every 30 minutes from 07:00 to midnight;
 - the evening recap from 21:20 on weekdays;
 - the press feed every 30 minutes from 07:00 to 23:00.
 

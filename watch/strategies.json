@@ -6,21 +6,55 @@
       "title": "GOV FILINGS PIPELINE FINDINGS",
       "ibkr": "Gov Filings pipeline findings",
       "about": "Stocks the SEC and DoD filing pipeline found: contract awards, sale reviews, spin-offs and lock-ups, each with a verdict.",
-      "tickers": ["MTUS", "WHF", "CHDN", "RYAM", "CTVA", "VYLR", "TWST"]
+      "tickers": [
+        "MTUS",
+        "WHF",
+        "CHDN",
+        "RYAM",
+        "CTVA",
+        "VYLR",
+        "TWST",
+        "ESRT"
+      ]
     },
     {
       "channel": "overhang",
       "title": "STRAT: OVERHANG",
       "ibkr": "STRAT overhang",
       "about": "Registered share supply (resale S-1s, lock-up expiries) waiting to hit the market. The test: buy only after the supply has been absorbed.",
-      "tickers": ["HMH"]
+      "tickers": [
+        "HMH"
+      ]
     },
     {
       "channel": "spinoff",
       "title": "STRAT: SPIN-OFF",
       "ibkr": "STRAT spinoff",
       "about": "Spin-offs and their parents: forced index and holder selling in the first weeks, then the re-rating test.",
-      "tickers": ["VYLR", "CTVA", "THRM"]
+      "tickers": [
+        "VYLR",
+        "CTVA",
+        "THRM"
+      ]
+    },
+    {
+      "channel": "activist",
+      "title": "STRAT: ACTIVIST",
+      "ibkr": "STRAT activist",
+      "about": "A new 5%+ holder (13D) pushing for change: a sale, a strategic review, buybacks or board seats. The test: does the stock keep outperforming its peers after the filing?",
+      "tickers": [
+        "ESRT"
+      ]
+    },
+    {
+      "channel": "mergerarb",
+      "title": "STRAT: MERGER ARB (TRACKED)",
+      "ibkr": "STRAT merger arb (tracked)",
+      "about": "Signed takeovers. The gap between the price and the offer, and what it says about the odds the deal fails. Tracked, not calls.",
+      "tickers": [
+        "PTC",
+        "RXO"
+      ]
     }
   ]
 }

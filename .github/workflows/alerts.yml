@@ -1,0 +1,37 @@
+name: alerts
+
+# Every 30 minutes, 07:00-midnight UK: new SEC filings, press releases and DoD awards on the stocks we follow ->
+# Discord #alerts (briefing/alerts.py). Started on time by Google Apps Script (live/kicks.gs); the cron is a backup.
+# Each item is alerted once: alerts/seen.json is pushed before posting.
+on:
+  schedule:
+    - cron: "5,35 6-23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alerts
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+      DISCORD_WEBHOOKS_2: ${{ secrets.DISCORD_WEBHOOKS_2 }}
+      DISCORD_WEBHOOKS_3: ${{ secrets.DISCORD_WEBHOOKS_3 }}
+      DISCORD_WEBHOOKS_4: ${{ secrets.DISCORD_WEBHOOKS_4 }}
+      DISCORD_WEBHOOKS_5: ${{ secrets.DISCORD_WEBHOOKS_5 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: DoD contracts (published ~22:00 UK; only read here, the morning research run commits them)
+        continue-on-error: true
+        run: python collectors/s1_dod.py
+      - name: Alerts
+        run: python briefing/alerts.py

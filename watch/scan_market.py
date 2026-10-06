@@ -54,6 +54,8 @@ def fetch(url):
 
 def main():
     day = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today() - timedelta(days=1)
+    while len(sys.argv) == 1 and day.weekday() >= 5:     # the research run is early morning: Monday scans Friday
+        day -= timedelta(days=1)
     qtr = (day.month - 1) // 3 + 1
     try:
         idx = fetch(f"https://www.sec.gov/Archives/edgar/daily-index/{day.year}/QTR{qtr}/"

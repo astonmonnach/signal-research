@@ -3,7 +3,8 @@
  * (6 Oct 2026: the 21:15 UTC recap started at 01:52, the morning briefing hadn't started by 08:40 UK). This runs on
  * Google Apps Script every 10 minutes and asks GitHub to start each job at the right London time:
  *
- *   morning-briefing   weekdays from 06:00 London, once a day
+ *   morning-briefing   weekdays from 07:45 London (after the 06:30 research run), once a day
+ *   alerts             every 30 minutes, 07:00-midnight London
  *   evening-recap      weekdays from 21:20 London (after the US close in every clock-change combination), once a day
  *   press-wires        every 30 minutes, 07:00-23:00 London
  *
@@ -19,7 +20,8 @@
  */
 var GH_REPO = 'astonmonnach/signal-research';
 var KICKS = [
-  { workflow: 'morning-briefing.yml', days: [1, 2, 3, 4, 5], from: 6 * 60, to: 12 * 60, every: 'day' },
+  { workflow: 'morning-briefing.yml', days: [1, 2, 3, 4, 5], from: 7 * 60 + 45, to: 12 * 60, every: 'day' },
+  { workflow: 'alerts.yml', days: [1, 2, 3, 4, 5, 6, 7], from: 7 * 60, to: 23 * 60 + 59, every: 30 },
   { workflow: 'evening-recap.yml', days: [1, 2, 3, 4, 5], from: 21 * 60 + 20, to: 23 * 60 + 59, every: 'day' },
   { workflow: 'press-wires.yml', days: [1, 2, 3, 4, 5, 6, 7], from: 7 * 60, to: 23 * 60, every: 30 }
 ];

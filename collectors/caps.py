@@ -46,6 +46,9 @@ def last_close(t):
 
 def main():
     tickers = json.load(open(ROOT / "watch/watchlist.json", encoding="utf-8"))["tickers"]
+    sp = ROOT / "watch/strategies.json"                    # strategy lists can hold names that aren't on ALL (e.g. merger arb)
+    for s in (json.load(open(sp, encoding="utf-8"))["strategies"] if sp.exists() else []):
+        tickers += [t for t in s["tickers"] if t not in tickers]
     manual = {r["ticker"]: r for r in csv.DictReader(open(ROOT / "watch/caps_manual.csv", encoding="utf-8"))} \
         if (ROOT / "watch/caps_manual.csv").exists() else {}
     ciks = {v["ticker"]: v["cik_str"] for v in get("https://www.sec.gov/files/company_tickers.json", SEC_UA).values()}

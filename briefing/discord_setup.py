@@ -64,12 +64,20 @@ INTRO = {
     "ledger": f"**#ledger**\nEvery scan item measured against IWM. This is how we find out which patterns work before trusting any of them. "
               f"Every morning.",
     "crypto": "**#crypto**\nTrending-token research. So far the median trending token is down about 85% within 24 hours, so read it as a warning feed.",
-    "alerts": "**#alerts**\nLive alerts during market hours (not built yet).",
+    "alerts": "**#alerts**\nNew filings and news on the stocks we follow, checked every 30 minutes from 07:00 to midnight UK: 8-Ks, 13Ds, "
+              "registrations and other SEC filings, press releases from trusted wires, and new DoD contract signals. Each one once, with a link.",
+    "activist": "**#activist**\nThe IBKR \"STRAT activist\" list: a new 5%+ holder (13D) pushing for change, such as a sale, a strategic review, "
+                "buybacks or board seats. After each close: the table, verdicts, next events and SEC links.",
+    "mergerarb": "**#merger-arb**\nThe IBKR \"STRAT merger arb (tracked)\" list: signed takeovers, the gap between price and offer, and the "
+                 "odds of failure it implies. Tracked, not calls. After each close.",
 }
 
 START_HERE = f"""# Start here
 Everything in this server is posted automatically by a research pipeline.
 It is a research log, **not financial advice**. Nothing here tells anyone to buy or sell.
+
+**ALERTS**
+- **#alerts**: new filings and news on the stocks we follow, every 30 minutes
 
 **STRATEGIES** (the same lists as the broker watchlists)
 - **#all**: every watchlist stock in one live table, updated every 5 minutes while the US market is open
@@ -78,6 +86,8 @@ It is a research log, **not financial advice**. Nothing here tells anyone to buy
 - **#gov-filings**: what the SEC and DoD filing pipeline found
 - **#overhang**: share supply waiting to hit the market
 - **#spinoff**: spin-offs and their parents
+- **#activist**: new 5%+ holders pushing for change
+- **#merger-arb**: signed takeovers and their deal gaps (tracked, not calls)
 - **#setups**: watch only. Warning patterns, not buys
 - **#long-term**: 6 to 36 month research
 

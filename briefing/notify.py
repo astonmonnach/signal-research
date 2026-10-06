@@ -9,8 +9,8 @@ per channel:
   longterm=https://discord.com/api/webhooks/...
 
 Channel names (briefing/discord_setup.py has the server layout and what each one gets; #trades-open = positions):
-  start, calls, positions, govfilings, overhang, spinoff, setups, longterm, microcaps, smallcaps, midcaps, largecaps,
-  briefing, dailyrecap, weeklyrecap, calendar, filings, press, ledger, crypto, alerts
+  start, alerts, calls, positions, govfilings, overhang, spinoff, activist, mergerarb, setups, longterm, microcaps,
+  smallcaps, midcaps, largecaps, briefing, dailyrecap, weeklyrecap, calendar, filings, press, ledger, crypto
 Hyphens are ignored, so "micro-caps" or "daily-recap" work too.
 To add channels later, put just the new lines in DISCORD_WEBHOOKS_2 (then _3, _4, _5): no re-pasting.
 A separate DISCORD_WEBHOOK_<CHANNEL> secret still works and wins over the list. DISCORD_WEBHOOK_URL is
@@ -23,14 +23,16 @@ Never print a webhook URL: anyone holding one can post to that channel.
 """
 import json, os, re, time, urllib.request
 
-CHANNELS = ["start", "calls", "positions", "govfilings", "overhang", "spinoff", "setups", "longterm",
+CHANNELS = ["start", "alerts", "calls", "positions", "govfilings", "overhang", "spinoff", "activist", "mergerarb", "setups", "longterm",
             "microcaps", "smallcaps", "midcaps", "largecaps", "briefing", "dailyrecap", "weeklyrecap", "calendar",
-            "filings", "press", "ledger", "crypto", "alerts"]
+            "filings", "press", "ledger", "crypto"]
 # #all is not here: its one live message is edited by Google Apps Script (live/all_live.gs), not GitHub.
 _ALIASES = {"starthere": "start", "micro": "microcaps", "small": "smallcaps", "mid": "midcaps", "large": "largecaps",
             "daily": "dailyrecap", "weekly": "weeklyrecap", "position": "positions", "openpositions": "positions",
             "tradesopen": "positions", "trades": "positions", "called": "calls", "govfilingspipelinefindings": "govfilings",
-            "gov": "govfilings", "stratoverhang": "overhang", "stratspinoff": "spinoff", "spinoffs": "spinoff"}
+            "gov": "govfilings", "stratoverhang": "overhang", "stratspinoff": "spinoff", "spinoffs": "spinoff",
+            "stratactivist": "activist", "activists": "activist", "merger": "mergerarb", "mergers": "mergerarb", "arb": "mergerarb",
+            "stratmergerarb": "mergerarb", "alert": "alerts"}
 # No emojis or pictographs in anything posted (his rule): stripped here as a last line of defence.
 _EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿⌀-⏿️‍]+ ?")
 

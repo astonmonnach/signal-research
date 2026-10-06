@@ -20,6 +20,26 @@ def git(*args):
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
+def push_state(rel, write):
+    """Commit and push a state file BEFORE acting on it (alerts' seen-list). `write(path)` writes the new content onto
+    the latest main. Returns True once pushed; False means don't send (try again next run)."""
+    path = ROOT / rel
+    if git("remote").stdout.strip() == "":
+        write(path); return True
+    for attempt in range(5):
+        git("pull", "--rebase", "--autostash", "-X", "theirs", "-q")
+        write(path)
+        git("add", "-f", rel)
+        if git("diff", "--cached", "--quiet", "--", rel).returncode == 0:
+            return True                                     # nothing new to record
+        git(*BOT, "commit", "-q", "-m", f"state {rel}", "--", rel)
+        if git("push", "-q").returncode == 0:
+            return True
+        git("reset", "-q", "--hard", "HEAD~1")
+        time.sleep(3 * (attempt + 1))
+    return False
+
+
 def claim(rel, note="claimed"):
     path = ROOT / rel
     if git("remote").stdout.strip() == "":                 # no remote: local-only behaviour
