@@ -19,3 +19,22 @@ up here. Prices come from Yahoo Finance and can be up to 15 minutes delayed.
 
 To stop it, run **teardown**. If the repo goes private, also add a `TICKERS` property (for example
 `MTUS,PUSA,ELMT`), because the script can't read a private repo.
+
+# On-time starts for the GitHub jobs (kicks.gs)
+
+GitHub's own schedules are "best effort" and can start hours late (on 6 Oct the 22:15 recap started at 02:52 and the
+morning briefing hadn't started by 08:40). `kicks.gs` runs every 10 minutes on Google Apps Script and starts each
+job at the right London time:
+- the morning briefing from 06:00 on weekdays;
+- the evening recap from 21:20 on weekdays;
+- the press feed every 30 minutes from 07:00 to 23:00.
+
+The GitHub schedules stay on as a backup, and both jobs post at most once a day.
+
+Setup, in the same Apps Script project as the live ALL:
+1. On GitHub: your avatar → **Settings → Developer settings → Personal access tokens → Fine-grained tokens →
+   Generate new token**. Set **Repository access** to *Only select repositories* → signal-research, and under
+   **Permissions → Repository permissions** set **Actions: Read and write**. Generate it and copy it.
+2. In Apps Script, click **+** next to Files → **Script**, name it `kicks`, and paste `kicks.gs`.
+3. Open **Project Settings → Script properties → Add**: `GITHUB_TOKEN` = the token.
+4. Pick **setupKicks** in the function dropdown, press **Run**, and allow it.
