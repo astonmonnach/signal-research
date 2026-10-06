@@ -70,6 +70,23 @@ def new_signals(days=3):
     return out
 
 
+def research_of_the_day():
+    """The latest daily research note (research/daily/DATE.md, written by the evening job): its headline and every verdict."""
+    files = sorted((ROOT / "research/daily").glob("*.md"))
+    if not files: return []
+    f = files[-1]
+    if (TODAY - dt.date.fromisoformat(f.stem)).days > 4: return []
+    md = f.read_text(encoding="utf-8")
+    head = re.search(r"^\*\*Headline:\*\*(.+?)(?:\n\n|\Z)", md, re.S | re.M)
+    titles = re.findall(r"^## \d+\. (.+)$", md, re.M)
+    verdicts = re.findall(r"^- \*\*Verdict:\*\*\s*(.+)$", md, re.M)
+    out = [f"## Research of the day ({dt.date.fromisoformat(f.stem):%a %d %b})"]
+    if head:
+        h = " ".join(head.group(1).split()); out.append(h[:1].upper() + h[1:])
+    out += [f"- **{t}**: {re.sub(r'^-\s*', '', v)}" for t, v in zip(titles, verdicts)]
+    return out + [""]
+
+
 def latest_triage():
     files = sorted((ROOT / "watch/digests").glob("*-triage.md"))
     if not files: return None, []
@@ -217,10 +234,12 @@ def build():
             f"ceilings {s['ceiling_multiple']:.1f}x the money ({', '.join(s['tickers'])})"
             for o, s in json.load(open(pots, encoding="utf-8")).items()] + [""]
     S["watchlist"] = w
+    rn = research_of_the_day()
     sig = new_signals()
     f = ["## New contract signals (S1, last 3 days)"] + ([f"- {x}" for x in sig] or ["- none"]) + [""]
     day, tri = latest_triage()
     if day: f += [f"## Filings worth reading (triage {day})"] + ([f"- {b[2:700]}" for b in tri] or ["- none"]) + [""]
+    if rn: f = rn + f
     S["filings"] = f
     pr = press()
     if pr is not None:

@@ -38,4 +38,6 @@
   - Short bets stay in the ledger as paper-only, a don't-buy list, and are never counted as wins.
   - Known false positives (LWLG's director bio, CHDN's refinancing boilerplate) aren't takeable: the method says read the filing before any trade, so they were never trades. They don't count as wins or losses.
   - Nothing was deleted or re-scored: every row keeps its direction. Only the headline and the cost basis changed.
+- **2026-10-06: signed mergers get their own category.** The scanner now searches 8-Ks for "agreement and plan of merger". A hit is logged as `8k_merger_agreement`, tracked with direction 0 (a signed deal's upside is the arbitrage spread, not a re-rating). The trigger was C.H. Robinson's deal for RXO, which was only caught by the word "spin-off". Applies to scans from 6 Oct on.
+- **2026-10-06: a 13D next to a signed merger isn't activism.** If the same company has a merger-agreement 8-K within 3 days, an `activist_13d` row is not takeable. It's usually a big holder's voting agreement (MFN Partners for RXO), not a push for change.
 

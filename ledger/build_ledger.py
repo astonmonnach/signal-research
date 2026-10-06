@@ -23,7 +23,7 @@ CATEGORY_DIRECTION = {
     "merger_vote": 0, "tender_third_party": 0, "tender_issuer_buyback": 1,
     "activist_13d": 1, "share_registration": -1, "registration_effective": -1,
     "ipo_priced": 0, "delisting": 0,
-    "8k_strategic_review": 1, "8k_spin_off": 0, "8k_reverse_split": -1,
+    "8k_strategic_review": 1, "8k_merger_agreement": 0, "8k_spin_off": 0, "8k_reverse_split": -1,
     "8k_lock_up": 0, "8k_tender_offer": 0, "8k_special_dividend": 0,
     "s1_dod_contract": 1,
 }
@@ -34,6 +34,7 @@ SECTION_CATEGORY = [
     ("ipo / offering priced", "ipo_priced"), ("delistings", "delisting"),
 ]
 PHRASE_CATEGORY = [  # first match wins, strongest signal first
+    ("agreement and plan of merger", "8k_merger_agreement"),   # rule 2026-10-06: a signed deal, tracked (direction 0)
     ("strategic alternatives", "8k_strategic_review"), ("strategic review", "8k_strategic_review"),
     ("reverse stock split", "8k_reverse_split"), ("spin-off", "8k_spin_off"),
     ("special dividend", "8k_special_dividend"), ("tender offer", "8k_tender_offer"), ("lock-up", "8k_lock_up"),
@@ -192,6 +193,8 @@ def main():
         k = (it["ticker"], it["category"], it["found"])
         if k not in seen: seen.add(k); uniq.append(it)
     iwm = yahoo("IWM")
+    # Rule 2026-10-06: a 13D filed around a signed merger (a holder's voting/support agreement, e.g. MFN for RXO) is not activism.
+    merger_days = {(it["ticker"], it["found"]) for it in uniq if it["category"] == "8k_merger_agreement"}
     out = []
     for it in uniq:
         p = prices(it["ticker"], it["found"])
@@ -217,6 +220,8 @@ def main():
                    days=(p["now_date"] - p["entry_date"]).days, status="live",
                    tdays=sum(1 for b in iwm if p["entry_date"] < b[0] <= p["now_date"]))
         tk, why = takeable(row)
+        if it["category"] == "activist_13d" and any((it["ticker"], it["found"] + dt.timedelta(days=k)) in merger_days for k in range(-3, 4)):
+            tk, why = "no", "13D tied to a signed merger (voting agreement), not activism"
         row.update(takeable=tk, why_not=why,
                    net_excess_pct=round(row["excess_pct"] - ROUND_TRIP_COST, 2) if tk == "yes" and row["excess_pct"] is not None else None)
         out.append(row)

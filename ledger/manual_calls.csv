@@ -27,3 +27,13 @@ found,source,ticker,category,direction,note
 2026-10-05,long-term nth research (research/longterm-2026-10-05),ELMT,longterm_research,0,already run (DoW equity priced in one session; lock-up ~19-22 Oct)
 2026-10-05,long-term nth research (research/longterm-2026-10-05),UAMY,longterm_research,0,kill (LT2 + LT3: -$71M TTM FCF vs $62M liquidity; +41% diluted shares; antimony -62%)
 2026-10-05,long-term nth research (research/longterm-2026-10-05),CLF,longterm_research,0,"kill (G1: $100M GOES order = 0.5% of revenue; $7.7B debt, negative FCF)"
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),PTC,merger_arb,0,Schneider Electric pays $205 cash (signed 4 Oct); $193.03 = 6.2% gross spread; ~10% implied break odds; HSR + foreign-investment review; $700M termination fee
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),SBGSY,deal_acquirer,0,Schneider Electric ADR -14.9% since Fri on the PTC deal (acquirer sell-off)
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),CHRW,deal_acquirer,0,C.H. Robinson -13.1% since Fri on the RXO deal; pauses buybacks
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),RXO,merger_arb,0,"$17.25 cash + 0.0856 CHRW = $28.98 now vs $28.62: 1.25% gross spread, ~1.7%/yr to mid-2027"
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),BSY,deal_peer,0,PTC takeout read-across: +10.2% since Fri vs IGV +2.3%
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),ADSK,deal_peer,0,PTC takeout read-across: +8.1% since Fri vs IGV +2.3%
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),PCOR,deal_peer,0,PTC takeout read-across: +5.8% since Fri vs IGV +2.3%
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),HUBG,deal_peer,0,RXO deal: rival broker -5.6% since Fri vs SPY +1.3% (bigger CHRW = tougher competitor; inferred)
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),JBHT,deal_peer,0,RXO deal: -3.3% since Fri vs SPY +1.3%
+2026-10-06,daily research 6 Oct (research/daily/2026-10-06.md),LSTR,deal_peer,0,RXO deal: -2.1% since Fri vs SPY +1.3%

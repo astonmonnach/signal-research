@@ -41,7 +41,8 @@ NOT_SUPPLY = [("POS", "no new shares"), ("S-8 POS", "no new shares"), ("F-6", "A
               ("N-14", "fund merger"), ("S-4", "merger shares"), ("F-4", "merger shares")]
 
 # 8-K phrases searched market-wide for the day.
-PHRASES = ["strategic alternatives", "strategic review", "go-shop", "spin-off",
+# "agreement and plan of merger" added 2026-10-06: CHRW's deal for RXO was only caught by the word "spin-off" (LESSONS.md).
+PHRASES = ["agreement and plan of merger", "strategic alternatives", "strategic review", "go-shop", "spin-off",
            "reverse stock split", "special dividend", "lock-up", "tender offer"]
 
 
