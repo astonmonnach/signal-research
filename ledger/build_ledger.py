@@ -68,7 +68,7 @@ def takeable(row):
 _cache = {}
 def yahoo(t):
     if t in _cache: return _cache[t]
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{t}?range=6mo&interval=1d"
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{t}?range=1y&interval=1d"   # 1y: the 52-week high needs it
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         r = json.load(urllib.request.urlopen(req, timeout=20))["chart"]["result"][0]
@@ -90,7 +90,16 @@ def prices(t, found):
     pre = pct(f[-2][2], f[-7][2]) if len(f) >= 7 else None
     day_of = pct(f[-1][2], f[-2][2]) if len(f) >= 2 else None
     adv = mean(b[2] * b[3] for b in f[-20:]) if f else None
-    return {"pre_move_5d": pre, "found_day_move": day_of, "adv_usd": adv,
+    # State at the found day (rule 2026-10-06: recorded for every item so it can be tested later, never used to pick
+    # items after the fact). Relative volume = found-day volume / average of the 20 sessions before it.
+    vols = [b[3] for b in f[-21:-1] if b[3]]
+    rel_vol = round(f[-1][3] / mean(vols), 2) if f and vols and f[-1][3] else None
+    hi52 = max(b[2] for b in f[-252:]) if f else None
+    sma50 = mean(b[2] for b in f[-50:]) if len(f) >= 50 else None
+    state = {"rel_volume": rel_vol,
+             "from_52w_high_pct": round(pct(f[-1][2], hi52), 1) if f and hi52 else None,
+             "above_50d": None if sma50 is None else ("yes" if f[-1][2] > sma50 else "no")}
+    return {"pre_move_5d": pre, "found_day_move": day_of, "adv_usd": adv, **state,
             "found_close": f[-1][2] if f else None,
             "entry_date": nxt[0][0] if nxt else None, "entry_open": nxt[0][1] if nxt else None,
             "now_date": bars[-1][0], "now": bars[-1][2]}
@@ -201,7 +210,8 @@ def main():
         row = dict(it, found=it["found"].isoformat())
         if not p:
             row.update(status="no price data"); out.append(row); continue
-        row.update(pre_move_5d=None if p["pre_move_5d"] is None else round(p["pre_move_5d"], 1),
+        row.update(rel_volume=p["rel_volume"], from_52w_high_pct=p["from_52w_high_pct"], above_50d=p["above_50d"],
+                   pre_move_5d=None if p["pre_move_5d"] is None else round(p["pre_move_5d"], 1),
                    found_day_move=None if p["found_day_move"] is None else round(p["found_day_move"], 1),
                    adv_usd=None if p["adv_usd"] is None else round(p["adv_usd"]),
                    liquid="yes" if (p["adv_usd"] or 0) >= MIN_ADV_USD else "no",
@@ -226,7 +236,8 @@ def main():
                    net_excess_pct=round(row["excess_pct"] - ROUND_TRIP_COST, 2) if tk == "yes" and row["excess_pct"] is not None else None)
         out.append(row)
 
-    cols = ["found", "source", "ticker", "category", "direction", "pre_move_5d", "found_day_move", "adv_usd", "liquid", "found_close", "entry_date", "entry_open",
+    cols = ["found", "source", "ticker", "category", "direction", "pre_move_5d", "found_day_move", "rel_volume", "from_52w_high_pct",
+            "above_50d", "adv_usd", "liquid", "found_close", "entry_date", "entry_open",
             "now_date", "now", "since_found_pct", "ret_pct", "iwm_pct", "excess_pct", "days", "tdays", "takeable", "why_not",
             "net_excess_pct", "status", "note"]
     OUT_CSV.parent.mkdir(exist_ok=True)
