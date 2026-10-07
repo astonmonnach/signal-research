@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $134.87 (2026-10-07, ledger)
-- **Since first found:** **-4.1%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -4.2% vs IWM -2.4% = **-1.9 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $133.85 (2026-10-07, ledger)
+- **Since first found:** **-4.8%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -5.0% vs IWM -2.5% = **-2.5 pts** vs IWM; direction 0, tracked only (1 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for CHRW ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $134.87 | -4.1% | -4.2% | -2.4% |  | 1 | live |
-| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $134.87 | -0.1% | -0.3% | -0.2% |  | 0 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $133.85 | -4.8% | -5.0% | -2.5% |  | 1 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $133.85 | -0.9% | -1.0% | -0.3% |  | 0 | live |

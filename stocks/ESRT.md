@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $4.38 (2026-10-07, ledger) · 1d -1.1%, 5d +8.7%, 20d +3.3% (market context, 2026-10-07)
-- **Since first found:** **+3.5%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +1.9% vs IWM -2.4% = **+4.2 pts** vs IWM; direction +1 → excess +4.2% (1 days)
-- **Peers / sympathy:** solo_move: ESRT +8.7% 5d vs peer median +1.0%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-07)
+- **Latest price:** $4.39 (2026-10-07, ledger) · 1d -1.2%, 5d +8.6%, 20d +3.2% (market context, 2026-10-07)
+- **Since first found:** **+3.7%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +2.0% vs IWM -2.5% = **+4.5 pts** vs IWM; direction +1 → excess +4.5% (1 days)
+- **Peers / sympathy:** solo_move: ESRT +8.6% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-07)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for ESRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $4.38 | +3.5% | +1.9% | -2.4% | +4.2% | 1 | live |
+| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $4.39 | +3.7% | +2.0% | -2.5% | +4.5% | 1 | live |

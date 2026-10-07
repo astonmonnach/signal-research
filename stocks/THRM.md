@@ -103,9 +103,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $30.75 (2026-10-07, ledger) · 1d -0.9%, 5d -7.8%, 20d -20.1% (market context, 2026-10-07)
-- **Since first found:** **-3.2%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -3.7% vs IWM -0.9% = **-2.8 pts** vs IWM; direction 0, tracked only (7 days). Includes +$2.07 cash (special_dividend)
-- **Peers / sympathy:** solo_move: THRM -7.8% 5d vs peer median +1.3%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-07)
+- **Latest price:** $30.24 (2026-10-07, ledger) · 1d -2.7%, 5d -9.4%, 20d -21.5% (market context, 2026-10-07)
+- **Since first found:** **-4.8%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -5.2% vs IWM -1.0% = **-4.2 pts** vs IWM; direction 0, tracked only (7 days). Includes +$2.07 cash (special_dividend)
+- **Peers / sympathy:** solo_move: THRM -9.4% 5d vs peer median +1.3%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-07)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 7 Oct 2026: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
@@ -128,6 +128,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $30.75 | -3.2% | -3.7% | -0.9% |  | 7 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $30.24 | -4.8% | -5.2% | -1.0% |  | 7 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._
