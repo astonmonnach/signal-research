@@ -1,18 +1,42 @@
 [
  {
-  "published_utc": "2026-10-07T06:00:00Z",
+  "published_utc": "2026-10-07T09:56:00Z",
+  "wire": "PR Newswire",
+  "ticker": "POLA;STI",
+  "title": "Solidion Technology (NASDAQ : STI) estime qu'il n'y a aucune raison de revoir à la hausse son offre sur Polar Power, Inc. (NASDAQ : POLA) en réaction au rejet par le conseil d'administration de la proposition d'acquisition d'actifs entièrement en numéraire",
+  "link": "https://www.prnewswire.com/news-releases/solidion-technology-nasdaq--sti-estime-quil-ny-a-aucune-raison-de-revoir-a-la-hausse-son-offre-sur-polar-power-inc-nasdaq--pola-en-reaction-au-rejet-par-le-conseil-dadministration-de-la-proposition-dacquisition-dactif-302901025.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-07T07:02:00Z",
+  "wire": "PR Newswire",
+  "ticker": "POLA;STI",
+  "title": "Solidion Technology (NASDAQ: STI) sieht keinen Grund, sein Angebot an Polar Power, Inc. (NASDAQ: POLA) als Reaktion auf die Ablehnung des Vorschlags zur Übernahme der Vermögenswerte gegen Barzahlung durch den Vorstand zu erhöhen",
+  "link": "https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-sieht-keinen-grund-sein-angebot-an-polar-power-inc-nasdaq-pola-als-reaktion-auf-die-ablehnung-des-vorschlags-zur-ubernahme-der-vermogenswerte-gegen-barzahlung-durch-den-vorstand-zu-erhohen-302900895.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-07T12:15:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "EGY;LSE",
-  "title": "VAALCO Energy, Inc. Announces Positive Operational Updates",
-  "link": "https://www.globenewswire.com/news-release/2026/10/07/3376193/0/en/vaalco-energy-inc-announces-positive-operational-updates.html",
+  "ticker": "MAIA",
+  "title": "MAIA Biotechnology Achieves Patient Enrollment Milestones in Ongoing Phase 2 and Pivotal Phase 3 Clinical Trials in Non-Small Cell Lung Cancer",
+  "link": "https://www.globenewswire.com/news-release/2026/10/07/3376441/0/en/maia-biotechnology-achieves-patient-enrollment-milestones-in-ongoing-phase-2-and-pivotal-phase-3-clinical-trials-in-non-small-cell-lung-cancer.html",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-10-07T02:08:00Z",
-  "wire": "PR Newswire",
-  "ticker": "SKYD",
-  "title": "Skydance Corporation Announces Expiration, Pricing Terms, and Settlement of Exchange Offers and Tender Offers",
-  "link": "https://www.prnewswire.com/news-releases/skydance-corporation-announces-expiration-pricing-terms-and-settlement-of-exchange-offers-and-tender-offers-302900538.html",
-  "matched_on": "keyword:tender offer"
+  "published_utc": "2026-10-07T11:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BEEM",
+  "title": "Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI, Creating a Vertically Integrated U.S. Drone Platform for Industrial and Defense Markets",
+  "link": "https://www.globenewswire.com/news-release/2026/10/07/3376396/0/en/beam-global-signs-definitive-agreement-to-acquire-drone-technology-company-scoutdi-creating-a-vertically-integrated-u-s-drone-platform-for-industrial-and-defense-markets.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-07T10:09:00Z",
+  "wire": "Business Wire",
+  "ticker": "LZM",
+  "title": "Lifezone Metals Announces US$8 Million Reduction in Cap on Consideration Payable to BHP Following Continued IFC Performance Standard 5 Alignment",
+  "link": "http://www.businesswire.com/news/home/20261007971195/en/Lifezone-Metals-Announces-US8-Million-Reduction-in-Cap-on-Consideration-Payable-to-BHP-Following-Continued-IFC-Performance-Standard-5-Alignment/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
  }
 ]
