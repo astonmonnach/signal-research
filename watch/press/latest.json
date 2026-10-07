@@ -1,10 +1,18 @@
 [
  {
-  "published_utc": "2026-10-06T21:00:00Z",
+  "published_utc": "2026-10-07T06:00:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "KOYNU;KOYN",
-  "title": "First Digital Signs Definitive Agreement to Become a Publicly Listed Company to Build the Infrastructure for the Agentic Economy",
-  "link": "https://www.globenewswire.com/news-release/2026/10/06/3376077/0/en/first-digital-signs-definitive-agreement-to-become-a-publicly-listed-company-to-build-the-infrastructure-for-the-agentic-economy.html",
-  "matched_on": "keyword:definitive agreement"
+  "ticker": "EGY;LSE",
+  "title": "VAALCO Energy, Inc. Announces Positive Operational Updates",
+  "link": "https://www.globenewswire.com/news-release/2026/10/07/3376193/0/en/vaalco-energy-inc-announces-positive-operational-updates.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-07T02:08:00Z",
+  "wire": "PR Newswire",
+  "ticker": "SKYD",
+  "title": "Skydance Corporation Announces Expiration, Pricing Terms, and Settlement of Exchange Offers and Tender Offers",
+  "link": "https://www.prnewswire.com/news-releases/skydance-corporation-announces-expiration-pricing-terms-and-settlement-of-exchange-offers-and-tender-offers-302900538.html",
+  "matched_on": "keyword:tender offer"
  }
 ]
