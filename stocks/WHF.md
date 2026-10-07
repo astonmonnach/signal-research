@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.05 (2026-10-05, ledger) · 1d +1.8%, 5d -0.8%, 20d -1.6% (market context, 2026-10-02)
-- **Since first found:** **+1.1%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +1.4% vs IWM +0.8% = **+0.6 pts** vs IWM; direction +1 → excess +0.6% (6 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-02)
+- **Latest price:** $6.85 (2026-10-07, ledger) · 1d -2.1%, 5d -2.0%, 20d -2.7% (market context, 2026-10-07)
+- **Since first found:** **-1.7%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: -1.4% vs IWM -0.9% = **-0.5 pts** vs IWM; direction +1 → excess -0.5% (8 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-07)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -100,7 +100,6 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-05](../scans/2026-10-05.md#watchlist-filings)**: Filings: +34 older (Nov – Sep 2026) first picked up
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): passed scan gates; long thesis; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -109,4 +108,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.05 | +1.1% | +1.4% | +0.8% | +0.6% | 6 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $6.85 | -1.7% | -1.4% | -0.9% | -0.5% | 8 | live |

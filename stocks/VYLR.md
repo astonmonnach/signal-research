@@ -101,12 +101,12 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $69.69 (2026-10-05, ledger)
-- **Since first found:** **+2.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +1.4% vs IWM +0.0% = **+1.4 pts** vs IWM; direction 0, tracked only (3 days)
-- **Peers / sympathy:** no flag (self 5d n/a vs peer median -6.3%). Peer groups: seeds / ag (4), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-02)
-  - warning: only 2 daily bars (new listing?)
+- **Latest price:** $74.30 (2026-10-07, ledger)
+- **Since first found:** **+8.8%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +8.1% vs IWM -1.7% = **+9.8 pts** vs IWM; direction 0, tracked only (5 days)
+  - 1 more ledger row: see Performance since found
+- **Peers / sympathy:** no flag (self 5d n/a vs peer median -0.1%). Peer groups: seeds / ag (4), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-07)
+  - warning: only 5 daily bars (new listing?)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 5 Oct 2026: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys)
   - Thu 15 Oct 2026: VYLR day-10 check (observation)
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Tue 10 Nov 2026: VYLR ~day 28 check (typical spin-off low)
@@ -118,6 +118,7 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526414335/d92652d8k.htm)) · Calendar: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md)**: Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (1. VYLR (Vylor) / CTVA (New Corteva): spin-off completed 1 Oct 2026) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage: **VYLR / CTVA** (spinoff watch): 8-Ks confirm the distribution completed 1 Oct. **New fact for ideas/VYLR.md:** California sued to delay the spin. ([triage](../watch/digests/2026-10-03-triage.md)) · Filings: `8-K` ×3 1 Oct
 - **[2026-10-01](../scans/2026-10-01.md#new-setups)**: Logged as `idea_spinoff` (direction 0): spin-off watch (track); source: first trading day ([manual_calls.csv](../ledger/manual_calls.csv)) · Calendar: VYLR first day of trading (+ THRM/Modine deal closes) ([calendar](../calendar/catalyst-dates.ics))
@@ -130,4 +131,5 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $69.69 | +2.1% | +1.4% | +0.0% |  | 3 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $74.30 | +8.8% | +8.1% | -1.7% |  | 5 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $74.30 | +1.3% | +3.3% | -2.4% |  | 1 | live |

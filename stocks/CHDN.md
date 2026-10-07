@@ -79,10 +79,10 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $78.24 (2026-10-05, ledger) · 1d +1.6%, 5d -4.7%, 20d -15.8% (market context, 2026-10-02)
-- **Since first found:** **+3.3%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +3.0% vs IWM +0.8% = **+2.2 pts** vs IWM; direction +1 → excess +2.2% (6 days)
+- **Latest price:** $75.41 (2026-10-07, ledger) · 1d -3.6%, 5d -0.4%, 20d -10.4% (market context, 2026-10-07)
+- **Since first found:** **-0.4%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: -0.8% vs IWM -0.9% = **+0.2 pts** vs IWM; direction +1 → excess +0.1% (8 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: CHDN -4.7% 5d vs peer median -0.2%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-10-02)
+- **Peers / sympathy:** no flag (self 5d -0.4% vs peer median +0.1%). Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-10-07)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -91,7 +91,6 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-05](../scans/2026-10-05.md#watchlist-filings)**: Filings: `4` 2 Oct, `8-K` 28 Sep; +36 older (Jan – Jul 2026) first picked up
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): strategic alternatives 8-K; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -2.6%, found day -5.1%) ([filing](https://www.sec.gov/Archives/edgar/data/20212/000119312526403885/d166307dex991.htm))
 
 ## Performance since found
@@ -100,5 +99,5 @@ Every [ledger](../ledger/LEDGER.md) row for CHDN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $78.24 | +3.3% | +3.0% | +0.8% | +2.2% | 6 | live |
-| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $78.24 | +3.3% | +3.0% | +0.8% | +2.2% | 6 | live |
+| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $75.41 | -0.4% | -0.8% | -0.9% | +0.1% | 8 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $75.41 | -0.4% | -0.8% | -0.9% | +0.1% | 8 | live |

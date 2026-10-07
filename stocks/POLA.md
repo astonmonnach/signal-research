@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $1.17 (2026-10-05, ledger)
-- **Since first found:** **-7.1%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -8.6% vs IWM +0.8% = **-9.3 pts** vs IWM; direction -1 → excess +9.4% (6 days)
+- **Latest price:** $1.14 (2026-10-07, ledger)
+- **Since first found:** **-9.5%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -10.9% vs IWM -0.9% = **-10.0 pts** vs IWM; direction -1 → excess +10.0% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -33,6 +33,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-07](../scans/2026-10-07.md#press-releases)**: Press: Solidion Technology (NASDAQ : STI) estime qu'il n'y a aucune raison de revoir à la hausse son offre sur Polar… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/solidion-technology-nasdaq--sti-estime-quil-ny-a-aucune-raison-de-revoir-a-la-hausse-son-offre-sur-polar-power-inc-nasdaq--pola-en-reaction-au-rejet-par-le-conseil-dadministration-de-la-proposition-dacquisition-dactif-302901025.html)) · Press: Solidion Technology (NASDAQ: STI) sieht keinen Grund, sein Angebot an Polar Power, Inc. (NASDAQ: POLA) als… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-sieht-keinen-grund-sein-angebot-an-polar-power-inc-nasdaq-pola-als-reaktion-auf-die-ablehnung-des-vorschlags-zur-ubernahme-der-vermogenswerte-gegen-barzahlung-durch-den-vorstand-zu-erhohen-302900895.html))
+- **[2026-10-06](../scans/2026-10-06.md#press-releases)**: Press: Solidion Technology (NASDAQ: STI) ziet geen basis om zijn aanbod aan Polar Power, Inc. (NASDAQ: POLA) te… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-ziet-geen-basis-om-zijn-aanbod-aan-polar-power-inc-nasdaq-pola-te-verhogen-in-reactie-op-de-afwijzing-door-de-raad-van-bestuur-van-het-voorstel-voor-de-aankoop-van-activa-in-contanten-302899721.html))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 28 Sep + deficiency Jul; $1.16; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-09-28](../scans/2026-09-28.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before +4.8%, found day -3.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/9999999995-26-003065-index.htm))
 
@@ -42,5 +44,5 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $1.17 | -7.1% | -8.6% | +0.8% | +9.4% | 6 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $1.17 | +0.9% | +0.0% | +0.1% |  | 0 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $1.14 | -9.5% | -10.9% | -0.9% | +10.0% | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $1.14 | -1.7% | -2.6% | -1.5% |  | 2 | live |

@@ -1,373 +1,379 @@
 {
- "generated_utc": "2026-10-04T15:47:40Z",
- "runtime_s": 34.8,
+ "generated_utc": "2026-10-07T14:30:36Z",
+ "runtime_s": 51.7,
  "commodities": [
   {
    "symbol": "HRC=F",
    "name": "US Midwest hot-rolled coil steel futures",
    "theme": "steel",
-   "last": 1306.0,
-   "chg_1d": 2.43,
-   "chg_5d": 5.58,
-   "chg_20d": 6.79,
-   "z_1d": 3.94,
+   "last": 1301.0,
+   "chg_1d": 1.96,
+   "chg_5d": 2.04,
+   "chg_20d": 5.43,
+   "z_1d": 3.19,
    "unusual": true,
    "thin": true,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": "general steel price; also the nearest proxy for HF-1 artillery steel (no HF-1 price exists)"
   },
   {
    "symbol": "SLX",
    "name": "VanEck Steel ETF",
    "theme": "steel",
-   "last": 103.53,
-   "chg_1d": 1.69,
-   "chg_5d": -1.21,
-   "chg_20d": -6.6,
-   "z_1d": 1.39,
-   "unusual": false,
+   "last": 102.48,
+   "chg_1d": -2.44,
+   "chg_5d": 0.22,
+   "chg_20d": -7.76,
+   "z_1d": -2.0,
+   "unusual": true,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "GC=F",
    "name": "Gold futures",
    "theme": "metals",
-   "last": 4162.3,
-   "chg_1d": -0.95,
-   "chg_5d": -3.68,
-   "chg_20d": -8.32,
-   "z_1d": -0.68,
+   "last": 4124.1,
+   "chg_1d": -1.5,
+   "chg_5d": -1.5,
+   "chg_20d": -7.55,
+   "z_1d": -1.11,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "SI=F",
    "name": "Silver futures",
    "theme": "metals",
-   "last": 60.415,
-   "chg_1d": -0.51,
-   "chg_5d": -5.96,
-   "chg_20d": -9.79,
-   "z_1d": -0.23,
+   "last": 59.84,
+   "chg_1d": -2.17,
+   "chg_5d": -0.43,
+   "chg_20d": -11.92,
+   "z_1d": -1.0,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "HG=F",
    "name": "Copper futures",
    "theme": "metals",
-   "last": 6.549,
-   "chg_1d": 1.03,
-   "chg_5d": -2.19,
-   "chg_20d": -0.43,
-   "z_1d": 0.74,
+   "last": 6.637,
+   "chg_1d": 0.64,
+   "chg_5d": 1.19,
+   "chg_20d": -2.45,
+   "z_1d": 0.47,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "PL=F",
    "name": "Platinum futures",
    "theme": "metals",
-   "last": 1700.0,
-   "chg_1d": -0.32,
-   "chg_5d": -4.21,
-   "chg_20d": -7.02,
-   "z_1d": -0.14,
+   "last": 1632.4,
+   "chg_1d": -3.56,
+   "chg_5d": -4.11,
+   "chg_20d": -14.73,
+   "z_1d": -1.61,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "PA=F",
    "name": "Palladium futures",
    "theme": "metals",
-   "last": 1172.2,
-   "chg_1d": 0.29,
-   "chg_5d": -7.24,
-   "chg_20d": -17.79,
-   "z_1d": 0.11,
+   "last": 1120.5,
+   "chg_1d": -3.7,
+   "chg_5d": -6.73,
+   "chg_20d": -18.05,
+   "z_1d": -1.38,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "ALI=F",
    "name": "Aluminium futures (COMEX)",
    "theme": "metals",
-   "last": 3214.75,
-   "chg_1d": 0.52,
-   "chg_5d": -6.41,
-   "chg_20d": -7.17,
-   "z_1d": 0.37,
+   "last": 3217.25,
+   "chg_1d": -0.64,
+   "chg_5d": -2.06,
+   "chg_20d": -8.37,
+   "z_1d": -0.46,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "XME",
    "name": "SPDR S&P Metals & Mining ETF",
    "theme": "metals",
-   "last": 105.74,
-   "chg_1d": 1.39,
-   "chg_5d": -2.39,
-   "chg_20d": -10.68,
-   "z_1d": 0.61,
+   "last": 104.95,
+   "chg_1d": -3.04,
+   "chg_5d": 1.34,
+   "chg_20d": -11.95,
+   "z_1d": -1.32,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": "PROXY for metals with no free price (tungsten, molybdenum, antimony, nickel, titanium)"
   },
   {
    "symbol": "CL=F",
    "name": "WTI crude oil futures",
    "theme": "energy",
-   "last": 91.11,
-   "chg_1d": -1.9,
-   "chg_5d": -1.41,
-   "chg_20d": -0.21,
-   "z_1d": -0.59,
+   "last": 89.88,
+   "chg_1d": 0.49,
+   "chg_5d": -0.6,
+   "chg_20d": -6.42,
+   "z_1d": 0.16,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "NG=F",
    "name": "Henry Hub natural gas futures",
    "theme": "energy",
-   "last": 3.035,
-   "chg_1d": 2.29,
-   "chg_5d": -5.04,
-   "chg_20d": 4.19,
-   "z_1d": 0.89,
+   "last": 3.181,
+   "chg_1d": 2.15,
+   "chg_5d": 5.12,
+   "chg_20d": 12.72,
+   "z_1d": 0.88,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "XLE",
    "name": "Energy Select Sector SPDR",
    "theme": "energy",
-   "last": 62.82,
-   "chg_1d": 0.19,
-   "chg_5d": 1.26,
-   "chg_20d": -2.79,
-   "z_1d": 0.14,
+   "last": 63.56,
+   "chg_1d": -0.3,
+   "chg_5d": 3.35,
+   "chg_20d": -2.68,
+   "z_1d": -0.23,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "OIH",
    "name": "VanEck Oil Services ETF",
    "theme": "energy",
-   "last": 382.7,
-   "chg_1d": 0.41,
-   "chg_5d": -2.79,
-   "chg_20d": -10.96,
-   "z_1d": 0.24,
+   "last": 384.39,
+   "chg_1d": -1.81,
+   "chg_5d": 1.59,
+   "chg_20d": -10.47,
+   "z_1d": -1.01,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "URA",
    "name": "Global X Uranium ETF",
    "theme": "uranium",
-   "last": 39.79,
-   "chg_1d": 0.51,
-   "chg_5d": -2.74,
-   "chg_20d": -12.93,
-   "z_1d": 0.18,
+   "last": 40.18,
+   "chg_1d": -3.88,
+   "chg_5d": 0.83,
+   "chg_20d": -14.26,
+   "z_1d": -1.41,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "LIT",
    "name": "Global X Lithium & Battery Tech ETF",
    "theme": "lithium/batteries",
-   "last": 69.28,
-   "chg_1d": 1.55,
-   "chg_5d": 0.38,
-   "chg_20d": -6.96,
-   "z_1d": 0.98,
+   "last": 69.43,
+   "chg_1d": -2.31,
+   "chg_5d": 1.48,
+   "chg_20d": -5.88,
+   "z_1d": -1.48,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "REMX",
    "name": "VanEck Rare Earth & Strategic Metals ETF",
    "theme": "rare earths",
-   "last": 63.21,
-   "chg_1d": 0.41,
-   "chg_5d": -5.18,
-   "chg_20d": -16.86,
-   "z_1d": 0.17,
+   "last": 62.03,
+   "chg_1d": -2.76,
+   "chg_5d": -3.47,
+   "chg_20d": -18.75,
+   "z_1d": -1.13,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": "PROXY: rare-earth/strategic-metal miners; only an indirect read on tungsten/antimony"
   },
   {
    "symbol": "ITA",
    "name": "iShares US Aerospace & Defense ETF",
    "theme": "defence",
-   "last": 207.79,
-   "chg_1d": -0.12,
-   "chg_5d": -2.82,
-   "chg_20d": -8.05,
-   "z_1d": -0.09,
+   "last": 204.07,
+   "chg_1d": -2.01,
+   "chg_5d": -1.5,
+   "chg_20d": -7.01,
+   "z_1d": -1.6,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "XAR",
    "name": "SPDR S&P Aerospace & Defense ETF",
    "theme": "defence",
-   "last": 233.09,
-   "chg_1d": 0.64,
-   "chg_5d": -2.66,
-   "chg_20d": -8.21,
-   "z_1d": 0.41,
+   "last": 226.66,
+   "chg_1d": -2.98,
+   "chg_5d": -1.98,
+   "chg_20d": -8.12,
+   "z_1d": -1.9,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "SOXX",
    "name": "iShares Semiconductor ETF",
    "theme": "semis",
-   "last": 588.9,
-   "chg_1d": 2.18,
-   "chg_5d": 2.83,
-   "chg_20d": 17.26,
-   "z_1d": 0.75,
+   "last": 580.75,
+   "chg_1d": -1.48,
+   "chg_5d": 2.13,
+   "chg_20d": 9.16,
+   "z_1d": -0.53,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "ZC=F",
    "name": "Corn futures",
    "theme": "agriculture",
-   "last": 497.75,
-   "chg_1d": -0.9,
-   "chg_5d": -5.77,
-   "chg_20d": -3.4,
-   "z_1d": -0.55,
+   "last": 504.25,
+   "chg_1d": -0.74,
+   "chg_5d": 0.7,
+   "chg_20d": -0.69,
+   "z_1d": -0.45,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "ZS=F",
    "name": "Soybean futures",
    "theme": "agriculture",
-   "last": 1278.25,
-   "chg_1d": -0.45,
-   "chg_5d": -3.09,
-   "chg_20d": -2.14,
-   "z_1d": -0.37,
+   "last": 1303.5,
+   "chg_1d": 0.04,
+   "chg_5d": 0.81,
+   "chg_20d": 0.64,
+   "z_1d": 0.03,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "ZW=F",
    "name": "Chicago wheat futures",
    "theme": "agriculture",
-   "last": 683.0,
-   "chg_1d": 0.04,
-   "chg_5d": -2.88,
-   "chg_20d": -7.2,
-   "z_1d": 0.02,
+   "last": 692.5,
+   "chg_1d": -1.67,
+   "chg_5d": 2.48,
+   "chg_20d": -2.64,
+   "z_1d": -0.77,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "IWM",
    "name": "iShares Russell 2000 (small caps)",
    "theme": "small caps",
-   "last": 281.52,
-   "chg_1d": 0.9,
-   "chg_5d": -0.16,
-   "chg_20d": -4.63,
-   "z_1d": 1.07,
+   "last": 277.7,
+   "chg_1d": -1.29,
+   "chg_5d": -0.07,
+   "chg_20d": -4.45,
+   "z_1d": -1.56,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "SPY",
    "name": "SPDR S&P 500 (broad market)",
    "theme": "broad market",
-   "last": 769.64,
-   "chg_1d": 0.74,
-   "chg_5d": -0.22,
-   "chg_20d": -0.46,
-   "z_1d": 1.05,
+   "last": 774.29,
+   "chg_1d": -0.62,
+   "chg_5d": 1.53,
+   "chg_20d": 1.56,
+   "z_1d": -0.88,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "DX-Y.NYB",
    "name": "US Dollar Index",
    "theme": "dollar",
-   "last": 101.924,
-   "chg_1d": -0.17,
-   "chg_5d": 0.94,
-   "chg_20d": 2.95,
-   "z_1d": -0.57,
+   "last": 102.368,
+   "chg_1d": 0.53,
+   "chg_5d": 0.9,
+   "chg_20d": 3.64,
+   "z_1d": 1.73,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   },
   {
    "symbol": "^TNX",
    "name": "US 10-year Treasury yield (%)",
    "theme": "rates",
-   "last": 5.277,
-   "chg_1d": 0.76,
-   "chg_5d": 1.79,
-   "chg_20d": 10.81,
-   "z_1d": 0.85,
+   "last": 5.32,
+   "chg_1d": 0.97,
+   "chg_5d": 0.51,
+   "chg_20d": 9.99,
+   "z_1d": 1.07,
    "unusual": false,
    "thin": false,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "proxy_note": null
   }
  ],
- "failed_symbols": [],
+ "failed_symbols": [
+  {
+   "symbol": "POLA;STI",
+   "reason": "HTTP 404",
+   "role": "ticker"
+  }
+ ],
  "no_direct_price": [
   {
    "item": "tungsten",
@@ -412,12 +418,12 @@
     "signal",
     "watchlist"
    ],
-   "last": 19.89,
-   "self_1d": 2.42,
-   "self_5d": 5.57,
-   "self_20d": 3.81,
-   "self_z_1d": 1.07,
-   "as_of": "2026-10-02",
+   "last": 20.4,
+   "self_1d": -2.49,
+   "self_5d": 7.42,
+   "self_20d": 3.82,
+   "self_z_1d": -1.05,
+   "as_of": "2026-10-07",
    "themes": [
     "steel",
     "defence",
@@ -677,9 +683,9 @@
      "name": "Nucor Corporation",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 1.87,
-     "chg_5d": -2.77,
-     "chg_20d": -8.41,
+     "chg_1d": -0.86,
+     "chg_5d": 6.49,
+     "chg_20d": -3.49,
      "excluded": null
     },
     {
@@ -687,9 +693,9 @@
      "name": "Steel Dynamics, Inc.",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 2.57,
-     "chg_5d": -0.71,
-     "chg_20d": -5.71,
+     "chg_1d": -1.09,
+     "chg_5d": 6.3,
+     "chg_20d": -2.12,
      "excluded": null
     },
     {
@@ -697,9 +703,9 @@
      "name": "Cleveland-Cliffs Inc.",
      "group": "steel",
      "source": "curated",
-     "chg_1d": -1.31,
-     "chg_5d": -7.06,
-     "chg_20d": -7.82,
+     "chg_1d": -2.0,
+     "chg_5d": 9.04,
+     "chg_20d": -0.7,
      "excluded": null
     },
     {
@@ -707,9 +713,9 @@
      "name": "Commercial Metals Company",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 1.37,
-     "chg_5d": -3.27,
-     "chg_20d": -7.52,
+     "chg_1d": -2.36,
+     "chg_5d": 2.06,
+     "chg_20d": -8.12,
      "excluded": null
     },
     {
@@ -717,9 +723,9 @@
      "name": "Insteel Industries Inc.",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 1.79,
-     "chg_5d": 0.27,
-     "chg_20d": -4.8,
+     "chg_1d": -2.64,
+     "chg_5d": 0.84,
+     "chg_20d": -4.38,
      "excluded": null
     },
     {
@@ -727,9 +733,9 @@
      "name": "Worthington Steel, Inc.",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 1.76,
-     "chg_5d": 1.96,
-     "chg_20d": 2.72,
+     "chg_1d": -11.7,
+     "chg_5d": -4.29,
+     "chg_20d": -2.29,
      "excluded": null
     },
     {
@@ -737,9 +743,9 @@
      "name": "Algoma Steel Group Inc.",
      "group": "steel",
      "source": "curated",
-     "chg_1d": 5.6,
-     "chg_5d": 1.88,
-     "chg_20d": -2.47,
+     "chg_1d": -1.15,
+     "chg_5d": 3.12,
+     "chg_20d": -1.15,
      "excluded": null
     },
     {
@@ -747,9 +753,9 @@
      "name": "The Elmet Group Co.",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 8.75,
-     "chg_5d": 12.68,
-     "chg_20d": 35.19,
+     "chg_1d": -6.27,
+     "chg_5d": 8.76,
+     "chg_20d": 31.88,
      "excluded": null
     },
     {
@@ -757,9 +763,9 @@
      "name": "ATI Inc.",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 0.67,
-     "chg_5d": 3.74,
-     "chg_20d": -5.93,
+     "chg_1d": -4.74,
+     "chg_5d": -2.08,
+     "chg_20d": -10.21,
      "excluded": null
     },
     {
@@ -767,9 +773,9 @@
      "name": "Carpenter Technology Corporation",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 1.25,
-     "chg_5d": -2.11,
-     "chg_20d": -16.9,
+     "chg_1d": -3.63,
+     "chg_5d": -1.93,
+     "chg_20d": -16.82,
      "excluded": null
     },
     {
@@ -777,9 +783,9 @@
      "name": "ArcelorMittal",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": -0.08,
-     "chg_5d": -8.76,
-     "chg_20d": -15.2,
+     "chg_1d": -4.13,
+     "chg_5d": -6.35,
+     "chg_20d": -18.88,
      "excluded": null
     },
     {
@@ -787,9 +793,9 @@
      "name": "TENARIS SA",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": 0.61,
-     "chg_5d": 0.94,
-     "chg_20d": -0.57,
+     "chg_1d": -1.13,
+     "chg_5d": 1.9,
+     "chg_20d": -2.36,
      "excluded": null
     },
     {
@@ -797,9 +803,9 @@
      "name": "POSCO HOLDINGS INC.",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": 2.6,
-     "chg_5d": 1.12,
-     "chg_20d": -8.78,
+     "chg_1d": -4.26,
+     "chg_5d": -0.31,
+     "chg_20d": -9.98,
      "excluded": null
     },
     {
@@ -808,8 +814,8 @@
      "group": "SIC 3312",
      "source": "sic",
      "chg_1d": 0.0,
-     "chg_5d": -2.95,
-     "chg_20d": -2.78,
+     "chg_5d": -0.52,
+     "chg_20d": 7.89,
      "excluded": null
     },
     {
@@ -817,9 +823,9 @@
      "name": "SunCoke Energy, Inc.",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": 1.64,
-     "chg_5d": 3.45,
-     "chg_20d": -2.85,
+     "chg_1d": -2.69,
+     "chg_5d": 3.61,
+     "chg_20d": -4.12,
      "excluded": null
     },
     {
@@ -827,9 +833,9 @@
      "name": "TITAN INTERNATIONAL INC",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": 2.79,
-     "chg_5d": -1.13,
-     "chg_20d": -8.51,
+     "chg_1d": -3.84,
+     "chg_5d": -0.29,
+     "chg_20d": -11.29,
      "excluded": null
     },
     {
@@ -837,38 +843,38 @@
      "name": "Ternium S.A.",
      "group": "SIC 3312",
      "source": "sic",
-     "chg_1d": 2.37,
-     "chg_5d": 2.26,
-     "chg_20d": -2.36,
+     "chg_1d": -2.03,
+     "chg_5d": 2.79,
+     "chg_20d": -3.95,
      "excluded": null
     }
    ],
-   "peer_median_1d": 1.77,
-   "peer_median_5d": -0.22,
-   "peer_median_20d": -5.82,
+   "peer_median_1d": -2.5,
+   "peer_median_5d": 2.59,
+   "peer_median_20d": -2.89,
    "peer_median_basis": "curated",
    "peer_groups": {
     "steel": {
      "n": 7,
-     "median_1d": 1.79,
-     "median_5d": -0.71,
-     "median_20d": -5.71
+     "median_1d": -2.0,
+     "median_5d": 3.12,
+     "median_20d": -2.29
     },
     "defence metals": {
      "n": 3,
-     "median_1d": 1.25,
-     "median_5d": 3.74,
-     "median_20d": -5.93
+     "median_1d": -4.74,
+     "median_5d": -1.93,
+     "median_20d": -10.21
     },
     "SIC 3312": {
      "n": 7,
-     "median_1d": 1.64,
-     "median_5d": 0.94,
-     "median_20d": -2.85
+     "median_1d": -2.69,
+     "median_5d": -0.29,
+     "median_20d": -4.12
     }
    },
-   "sic_peer_median_5d": 0.94,
-   "sympathy_flag": "solo_move: MTUS +5.6% 5d vs peer median -0.2% (steel -0.7%, defence metals +3.7%); peers didn't move with it",
+   "sic_peer_median_5d": -0.29,
+   "sympathy_flag": "solo_move: MTUS +7.4% 5d vs peer median +2.6% (steel +3.1%, defence metals -1.9%); peers didn't move with it",
    "warnings": []
   },
   "OLN": {
@@ -879,12 +885,12 @@
    "universe_sources": [
     "signal"
    ],
-   "last": 15.9,
-   "self_1d": -0.38,
-   "self_5d": -3.05,
-   "self_20d": -6.31,
-   "self_z_1d": -0.12,
-   "as_of": "2026-10-02",
+   "last": 16.01,
+   "self_1d": -1.23,
+   "self_5d": 3.29,
+   "self_20d": -8.3,
+   "self_z_1d": -0.41,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -894,9 +900,9 @@
      "name": "Westlake Corporation",
      "group": "chlor-alkali",
      "source": "curated",
-     "chg_1d": 1.65,
-     "chg_5d": -6.22,
-     "chg_20d": -14.88,
+     "chg_1d": -3.98,
+     "chg_5d": -2.31,
+     "chg_20d": -15.2,
      "excluded": null
     },
     {
@@ -904,9 +910,9 @@
      "name": "Dow Inc.",
      "group": "chlor-alkali",
      "source": "curated",
-     "chg_1d": 1.38,
-     "chg_5d": -0.18,
-     "chg_20d": -7.87,
+     "chg_1d": 0.05,
+     "chg_5d": 2.31,
+     "chg_20d": -4.17,
      "excluded": null
     },
     {
@@ -914,9 +920,9 @@
      "name": "LyondellBasell Industries N.V.",
      "group": "chlor-alkali",
      "source": "curated",
-     "chg_1d": 1.38,
-     "chg_5d": 0.76,
-     "chg_20d": -9.54,
+     "chg_1d": -0.37,
+     "chg_5d": 2.16,
+     "chg_20d": -8.99,
      "excluded": null
     },
     {
@@ -924,9 +930,9 @@
      "name": "General Dynamics Corporation",
      "group": "munitions",
      "source": "curated",
-     "chg_1d": -0.79,
-     "chg_5d": -1.97,
-     "chg_20d": -9.78,
+     "chg_1d": -1.3,
+     "chg_5d": -1.45,
+     "chg_20d": -7.27,
      "excluded": null
     },
     {
@@ -934,9 +940,9 @@
      "name": "Northrop Grumman Corporation",
      "group": "munitions",
      "source": "curated",
-     "chg_1d": -0.83,
-     "chg_5d": -6.37,
-     "chg_20d": -9.51,
+     "chg_1d": -1.3,
+     "chg_5d": -1.37,
+     "chg_20d": -7.51,
      "excluded": null
     },
     {
@@ -944,9 +950,9 @@
      "name": "Solstice Advanced Materials Inc.",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 1.26,
-     "chg_5d": 1.85,
-     "chg_20d": -5.98,
+     "chg_1d": -2.5,
+     "chg_5d": 6.07,
+     "chg_20d": -5.56,
      "excluded": null
     },
     {
@@ -954,9 +960,9 @@
      "name": "BALCHEM CORP",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 1.75,
-     "chg_5d": -0.79,
-     "chg_20d": -3.02,
+     "chg_1d": 0.35,
+     "chg_5d": 0.55,
+     "chg_20d": -1.47,
      "excluded": null
     },
     {
@@ -964,9 +970,9 @@
      "name": "Perimeter Solutions, Inc.",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 0.92,
-     "chg_5d": -5.7,
-     "chg_20d": -14.35,
+     "chg_1d": -0.52,
+     "chg_5d": 8.17,
+     "chg_20d": -8.84,
      "excluded": null
     },
     {
@@ -974,9 +980,9 @@
      "name": "Ingevity Corp",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 1.86,
-     "chg_5d": -0.81,
-     "chg_20d": 3.69,
+     "chg_1d": -1.52,
+     "chg_5d": 1.33,
+     "chg_20d": 5.27,
      "excluded": null
     },
     {
@@ -984,9 +990,9 @@
      "name": "INNOSPEC INC.",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 2.35,
-     "chg_5d": -1.33,
-     "chg_20d": 4.61,
+     "chg_1d": -0.36,
+     "chg_5d": 3.02,
+     "chg_20d": 4.95,
      "excluded": null
     },
     {
@@ -994,9 +1000,9 @@
      "name": "Chemours Co",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": 1.71,
-     "chg_5d": -5.19,
-     "chg_20d": -11.43,
+     "chg_1d": -2.27,
+     "chg_5d": 1.4,
+     "chg_20d": -8.51,
      "excluded": null
     },
     {
@@ -1004,9 +1010,9 @@
      "name": "Huntsman CORP",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": -1.61,
-     "chg_5d": -4.16,
-     "chg_20d": -9.26,
+     "chg_1d": -1.08,
+     "chg_5d": 3.27,
+     "chg_20d": -9.45,
      "excluded": null
     },
     {
@@ -1014,38 +1020,38 @@
      "name": "FMC CORP",
      "group": "SIC 2800",
      "source": "sic",
-     "chg_1d": -1.4,
-     "chg_5d": -11.9,
-     "chg_20d": -34.98,
+     "chg_1d": -1.5,
+     "chg_5d": -0.28,
+     "chg_20d": -27.62,
      "excluded": null
     }
    ],
-   "peer_median_1d": 1.38,
-   "peer_median_5d": -1.97,
-   "peer_median_20d": -9.54,
+   "peer_median_1d": -1.3,
+   "peer_median_5d": -1.37,
+   "peer_median_20d": -7.51,
    "peer_median_basis": "curated",
    "peer_groups": {
     "chlor-alkali": {
      "n": 3,
-     "median_1d": 1.38,
-     "median_5d": -0.18,
-     "median_20d": -9.54
+     "median_1d": -0.37,
+     "median_5d": 2.16,
+     "median_20d": -8.99
     },
     "munitions": {
      "n": 2,
-     "median_1d": -0.81,
-     "median_5d": -4.17,
-     "median_20d": -9.64
+     "median_1d": -1.3,
+     "median_5d": -1.41,
+     "median_20d": -7.39
     },
     "SIC 2800": {
      "n": 8,
-     "median_1d": 1.48,
-     "median_5d": -2.75,
-     "median_20d": -7.62
+     "median_1d": -1.29,
+     "median_5d": 2.21,
+     "median_20d": -7.04
     }
    },
-   "sic_peer_median_5d": -2.75,
-   "sympathy_flag": "solo_move: OLN -3.0% 5d vs chlor-alkali median -0.2%",
+   "sic_peer_median_5d": 2.21,
+   "sympathy_flag": "solo_move: OLN +3.3% 5d vs peer median -1.4% (chlor-alkali +2.2%, munitions -1.4%); peers didn't move with it",
    "warnings": []
   },
   "ELMT": {
@@ -1057,12 +1063,12 @@
     "signal",
     "watchlist"
    ],
-   "last": 22.13,
-   "self_1d": 8.75,
-   "self_5d": 12.68,
-   "self_20d": 35.19,
-   "self_z_1d": 1.29,
-   "as_of": "2026-10-02",
+   "last": 21.708,
+   "self_1d": -6.27,
+   "self_5d": 8.76,
+   "self_20d": 31.88,
+   "self_z_1d": -0.91,
+   "as_of": "2026-10-07",
    "themes": [
     "metals",
     "strategic metals"
@@ -1096,9 +1102,9 @@
      "name": "ATI Inc.",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 0.67,
-     "chg_5d": 3.74,
-     "chg_20d": -5.93,
+     "chg_1d": -4.74,
+     "chg_5d": -2.08,
+     "chg_20d": -10.21,
      "excluded": null
     },
     {
@@ -1106,9 +1112,9 @@
      "name": "Carpenter Technology Corporation",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 1.25,
-     "chg_5d": -2.11,
-     "chg_20d": -16.9,
+     "chg_1d": -3.63,
+     "chg_5d": -1.93,
+     "chg_20d": -16.82,
      "excluded": null
     },
     {
@@ -1116,9 +1122,9 @@
      "name": "Howmet Aerospace Inc.",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 1.27,
-     "chg_5d": -0.52,
-     "chg_20d": -11.22,
+     "chg_1d": -2.88,
+     "chg_5d": -0.56,
+     "chg_20d": -3.31,
      "excluded": null
     },
     {
@@ -1126,9 +1132,9 @@
      "name": "Metallus Inc.",
      "group": "defence metals",
      "source": "curated",
-     "chg_1d": 2.42,
-     "chg_5d": 5.57,
-     "chg_20d": 3.81,
+     "chg_1d": -2.49,
+     "chg_5d": 7.42,
+     "chg_20d": 3.82,
      "excluded": null
     },
     {
@@ -1136,9 +1142,9 @@
      "name": "Parker-Hannifin Corp",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 0.69,
-     "chg_5d": -0.59,
-     "chg_20d": 0.83,
+     "chg_1d": -2.52,
+     "chg_5d": 0.49,
+     "chg_20d": 1.12,
      "excluded": null
     },
     {
@@ -1146,9 +1152,9 @@
      "name": "WATTS WATER TECHNOLOGIES INC",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 1.0,
-     "chg_5d": 1.48,
-     "chg_20d": 2.12,
+     "chg_1d": -2.36,
+     "chg_5d": -0.08,
+     "chg_20d": -0.68,
      "excluded": null
     },
     {
@@ -1156,9 +1162,9 @@
      "name": "Crane Co",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 0.91,
-     "chg_5d": 0.66,
-     "chg_20d": 2.6,
+     "chg_1d": -2.91,
+     "chg_5d": -0.57,
+     "chg_20d": 0.66,
      "excluded": null
     },
     {
@@ -1166,9 +1172,9 @@
      "name": "Mueller Water Products, Inc.",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 0.74,
-     "chg_5d": 0.14,
-     "chg_20d": -9.37,
+     "chg_1d": -2.0,
+     "chg_5d": 1.32,
+     "chg_20d": -10.3,
      "excluded": null
     },
     {
@@ -1176,9 +1182,9 @@
      "name": "Crane NXT, Co.",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 1.5,
-     "chg_5d": 2.22,
-     "chg_20d": -2.42,
+     "chg_1d": -3.04,
+     "chg_5d": 2.45,
+     "chg_20d": -4.77,
      "excluded": null
     },
     {
@@ -1186,9 +1192,9 @@
      "name": "HELIOS TECHNOLOGIES, INC.",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": 4.09,
-     "chg_5d": 4.47,
-     "chg_20d": -0.55,
+     "chg_1d": -2.73,
+     "chg_5d": 2.22,
+     "chg_20d": -1.84,
      "excluded": null
     },
     {
@@ -1196,9 +1202,9 @@
      "name": "ZK International Group Co., Ltd.",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": -1.96,
-     "chg_5d": -23.36,
-     "chg_20d": 57.98,
+     "chg_1d": -0.28,
+     "chg_5d": -11.81,
+     "chg_20d": 47.48,
      "excluded": null
     },
     {
@@ -1206,32 +1212,32 @@
      "name": "AIOS Tech Inc.",
      "group": "SIC 3490",
      "source": "sic",
-     "chg_1d": -5.59,
-     "chg_5d": -9.44,
-     "chg_20d": -14.76,
+     "chg_1d": -2.22,
+     "chg_5d": -11.34,
+     "chg_20d": -6.09,
      "excluded": null
     }
    ],
-   "peer_median_1d": 1.26,
-   "peer_median_5d": 1.61,
-   "peer_median_20d": -8.57,
+   "peer_median_1d": -3.25,
+   "peer_median_5d": -1.25,
+   "peer_median_20d": -6.76,
    "peer_median_basis": "curated",
    "peer_groups": {
     "defence metals": {
      "n": 4,
-     "median_1d": 1.26,
-     "median_5d": 1.61,
-     "median_20d": -8.57
+     "median_1d": -3.25,
+     "median_5d": -1.25,
+     "median_20d": -6.76
     },
     "SIC 3490": {
      "n": 8,
-     "median_1d": 0.82,
-     "median_5d": 0.4,
-     "median_20d": 0.14
+     "median_1d": -2.44,
+     "median_5d": 0.2,
+     "median_20d": -1.26
     }
    },
-   "sic_peer_median_5d": 0.4,
-   "sympathy_flag": "solo_move: ELMT +12.7% 5d vs peer median +1.6%; peers didn't move with it",
+   "sic_peer_median_5d": 0.2,
+   "sympathy_flag": "solo_move: ELMT +8.8% 5d vs peer median -1.2%; peers didn't move with it",
    "warnings": []
   },
   "VYLR": {
@@ -1242,12 +1248,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 67.26,
-   "self_1d": -1.46,
+   "last": 74.6,
+   "self_1d": 2.29,
    "self_5d": null,
    "self_20d": null,
    "self_z_1d": null,
-   "as_of": "2026-10-02",
+   "as_of": "2026-10-07",
    "themes": [
     "agriculture"
    ],
@@ -1279,12 +1285,12 @@
    "peers": [
     {
      "ticker": "CTVA",
-     "name": "Vylor, Inc.",
+     "name": "Corteva, Inc.",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": -5.17,
-     "chg_5d": -84.82,
-     "chg_20d": -86.55,
+     "chg_1d": 1.62,
+     "chg_5d": -81.8,
+     "chg_20d": -83.32,
      "excluded": "possible corporate action"
     },
     {
@@ -1292,9 +1298,9 @@
      "name": "Bayer Aktiengesellschaft",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": -0.71,
-     "chg_5d": -11.73,
-     "chg_20d": -11.92,
+     "chg_1d": -1.13,
+     "chg_5d": -9.04,
+     "chg_20d": -14.19,
      "excluded": null
     },
     {
@@ -1302,9 +1308,9 @@
      "name": "FMC Corporation",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": -1.4,
-     "chg_5d": -11.9,
-     "chg_20d": -34.98,
+     "chg_1d": -1.5,
+     "chg_5d": -0.28,
+     "chg_20d": -27.62,
      "excluded": null
     },
     {
@@ -1312,9 +1318,9 @@
      "name": "Archer-Daniels-Midland Company",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": 1.17,
-     "chg_5d": -0.83,
-     "chg_20d": -4.66,
+     "chg_1d": -0.57,
+     "chg_5d": 2.97,
+     "chg_20d": -5.56,
      "excluded": null
     },
     {
@@ -1322,9 +1328,9 @@
      "name": "Deere & Company",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": 2.96,
-     "chg_5d": -0.5,
-     "chg_20d": -1.07,
+     "chg_1d": -1.64,
+     "chg_5d": 0.01,
+     "chg_20d": -0.83,
      "excluded": null
     },
     {
@@ -1332,9 +1338,9 @@
      "name": "Adecoagro S.A.",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 1.71,
-     "chg_5d": -3.16,
-     "chg_20d": -12.93,
+     "chg_1d": -1.29,
+     "chg_5d": 5.33,
+     "chg_20d": -14.29,
      "excluded": null
     },
     {
@@ -1342,9 +1348,9 @@
      "name": "DEL MONTE CORP",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.37,
-     "chg_5d": -3.39,
-     "chg_20d": -5.99,
+     "chg_1d": -0.03,
+     "chg_5d": -0.9,
+     "chg_20d": -9.67,
      "excluded": null
     },
     {
@@ -1352,9 +1358,9 @@
      "name": "Dole plc",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.87,
-     "chg_5d": -1.77,
-     "chg_20d": -8.27,
+     "chg_1d": 0.83,
+     "chg_5d": 0.9,
+     "chg_20d": -7.0,
      "excluded": null
     },
     {
@@ -1362,9 +1368,9 @@
      "name": "Village Farms International, Inc.",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": -0.35,
-     "chg_5d": -10.41,
-     "chg_20d": -1.9,
+     "chg_1d": -1.97,
+     "chg_5d": -6.01,
+     "chg_20d": -7.91,
      "excluded": null
     },
     {
@@ -1372,9 +1378,9 @@
      "name": "Limoneira CO",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.59,
-     "chg_5d": 1.78,
-     "chg_20d": -20.07,
+     "chg_1d": -1.4,
+     "chg_5d": 0.92,
+     "chg_20d": -19.61,
      "excluded": null
     },
     {
@@ -1382,9 +1388,9 @@
      "name": "Local Bounti Corporation/DE",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 3.3,
-     "chg_5d": 0.46,
-     "chg_20d": -0.45,
+     "chg_1d": -0.0,
+     "chg_5d": -0.92,
+     "chg_20d": -4.42,
      "excluded": null
     },
     {
@@ -1393,8 +1399,8 @@
      "group": "SIC 0100",
      "source": "sic",
      "chg_1d": 0.0,
-     "chg_5d": -10.0,
-     "chg_20d": -22.64,
+     "chg_5d": -6.55,
+     "chg_20d": -21.45,
      "excluded": null
     },
     {
@@ -1402,34 +1408,34 @@
      "name": "Origin Agritech LTD",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 8.82,
-     "chg_5d": -18.68,
-     "chg_20d": -26.73,
+     "chg_1d": -2.91,
+     "chg_5d": -1.68,
+     "chg_20d": -23.1,
      "excluded": null
     }
    ],
-   "peer_median_1d": 0.23,
-   "peer_median_5d": -6.28,
-   "peer_median_20d": -8.29,
+   "peer_median_1d": -1.31,
+   "peer_median_5d": -0.14,
+   "peer_median_20d": -9.88,
    "peer_median_basis": "curated",
    "peer_groups": {
     "seeds / ag": {
      "n": 4,
-     "median_1d": 0.23,
-     "median_5d": -6.28,
-     "median_20d": -8.29
+     "median_1d": -1.31,
+     "median_5d": -0.14,
+     "median_20d": -9.88
     },
     "SIC 0100": {
      "n": 8,
-     "median_1d": 0.73,
-     "median_5d": -3.28,
-     "median_20d": -10.6
+     "median_1d": -0.66,
+     "median_5d": -0.91,
+     "median_20d": -11.98
     }
    },
-   "sic_peer_median_5d": -3.28,
+   "sic_peer_median_5d": -0.91,
    "sympathy_flag": null,
    "warnings": [
-    "only 2 daily bars (new listing?)"
+    "only 5 daily bars (new listing?)"
    ]
   },
   "CTVA": {
@@ -1440,12 +1446,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 11.92,
-   "self_1d": -5.17,
-   "self_5d": -84.82,
-   "self_20d": -86.55,
-   "self_z_1d": -0.47,
-   "as_of": "2026-10-02",
+   "last": 14.135,
+   "self_1d": 1.62,
+   "self_5d": -81.8,
+   "self_20d": -83.32,
+   "self_z_1d": 0.14,
+   "as_of": "2026-10-07",
    "themes": [
     "agriculture"
    ],
@@ -1479,9 +1485,9 @@
      "name": "FMC Corporation",
      "group": "crop inputs",
      "source": "curated",
-     "chg_1d": -1.4,
-     "chg_5d": -11.9,
-     "chg_20d": -34.98,
+     "chg_1d": -1.5,
+     "chg_5d": -0.28,
+     "chg_20d": -27.62,
      "excluded": null
     },
     {
@@ -1489,9 +1495,9 @@
      "name": "Bayer Aktiengesellschaft",
      "group": "crop inputs",
      "source": "curated",
-     "chg_1d": -0.71,
-     "chg_5d": -11.73,
-     "chg_20d": -11.92,
+     "chg_1d": -1.13,
+     "chg_5d": -9.04,
+     "chg_20d": -14.19,
      "excluded": null
     },
     {
@@ -1499,9 +1505,9 @@
      "name": "Nutrien Ltd.",
      "group": "crop inputs",
      "source": "curated",
-     "chg_1d": 0.47,
-     "chg_5d": -3.0,
-     "chg_20d": -13.22,
+     "chg_1d": -0.59,
+     "chg_5d": 0.75,
+     "chg_20d": -12.31,
      "excluded": null
     },
     {
@@ -1509,9 +1515,9 @@
      "name": "The Mosaic Company",
      "group": "crop inputs",
      "source": "curated",
-     "chg_1d": -2.23,
-     "chg_5d": -8.43,
-     "chg_20d": -17.34,
+     "chg_1d": -2.18,
+     "chg_5d": -5.39,
+     "chg_20d": -21.85,
      "excluded": null
     },
     {
@@ -1519,17 +1525,17 @@
      "name": "CF Industries Holdings, Inc.",
      "group": "crop inputs",
      "source": "curated",
-     "chg_1d": 0.41,
-     "chg_5d": 0.3,
-     "chg_20d": -16.54,
+     "chg_1d": -0.44,
+     "chg_5d": 0.26,
+     "chg_20d": -16.37,
      "excluded": null
     },
     {
      "ticker": "VYLR",
-     "name": "Vylor, Inc.",
+     "name": "Vylor Inc.",
      "group": "seeds / ag",
      "source": "curated",
-     "chg_1d": -1.46,
+     "chg_1d": 2.29,
      "chg_5d": null,
      "chg_20d": null,
      "excluded": "under 6 bars"
@@ -1539,9 +1545,9 @@
      "name": "Adecoagro S.A.",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 1.71,
-     "chg_5d": -3.16,
-     "chg_20d": -12.93,
+     "chg_1d": -1.29,
+     "chg_5d": 5.33,
+     "chg_20d": -14.29,
      "excluded": null
     },
     {
@@ -1549,9 +1555,9 @@
      "name": "DEL MONTE CORP",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.37,
-     "chg_5d": -3.39,
-     "chg_20d": -5.99,
+     "chg_1d": -0.03,
+     "chg_5d": -0.9,
+     "chg_20d": -9.67,
      "excluded": null
     },
     {
@@ -1559,9 +1565,9 @@
      "name": "Dole plc",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.87,
-     "chg_5d": -1.77,
-     "chg_20d": -8.27,
+     "chg_1d": 0.83,
+     "chg_5d": 0.9,
+     "chg_20d": -7.0,
      "excluded": null
     },
     {
@@ -1569,9 +1575,9 @@
      "name": "Village Farms International, Inc.",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": -0.35,
-     "chg_5d": -10.41,
-     "chg_20d": -1.9,
+     "chg_1d": -1.97,
+     "chg_5d": -6.01,
+     "chg_20d": -7.91,
      "excluded": null
     },
     {
@@ -1579,9 +1585,9 @@
      "name": "Limoneira CO",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 0.59,
-     "chg_5d": 1.78,
-     "chg_20d": -20.07,
+     "chg_1d": -1.4,
+     "chg_5d": 0.92,
+     "chg_20d": -19.61,
      "excluded": null
     },
     {
@@ -1589,9 +1595,9 @@
      "name": "Local Bounti Corporation/DE",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 3.3,
-     "chg_5d": 0.46,
-     "chg_20d": -0.45,
+     "chg_1d": -0.0,
+     "chg_5d": -0.92,
+     "chg_20d": -4.42,
      "excluded": null
     },
     {
@@ -1600,8 +1606,8 @@
      "group": "SIC 0100",
      "source": "sic",
      "chg_1d": 0.0,
-     "chg_5d": -10.0,
-     "chg_20d": -22.64,
+     "chg_5d": -6.55,
+     "chg_20d": -21.45,
      "excluded": null
     },
     {
@@ -1609,32 +1615,32 @@
      "name": "Origin Agritech LTD",
      "group": "SIC 0100",
      "source": "sic",
-     "chg_1d": 8.82,
-     "chg_5d": -18.68,
-     "chg_20d": -26.73,
+     "chg_1d": -2.91,
+     "chg_5d": -1.68,
+     "chg_20d": -23.1,
      "excluded": null
     }
    ],
-   "peer_median_1d": -0.71,
-   "peer_median_5d": -8.43,
-   "peer_median_20d": -16.54,
+   "peer_median_1d": -1.13,
+   "peer_median_5d": -0.28,
+   "peer_median_20d": -16.37,
    "peer_median_basis": "curated",
    "peer_groups": {
     "crop inputs": {
      "n": 5,
-     "median_1d": -0.71,
-     "median_5d": -8.43,
-     "median_20d": -16.54
+     "median_1d": -1.13,
+     "median_5d": -0.28,
+     "median_20d": -16.37
     },
     "SIC 0100": {
      "n": 8,
-     "median_1d": 0.73,
-     "median_5d": -3.28,
-     "median_20d": -10.6
+     "median_1d": -0.66,
+     "median_5d": -0.91,
+     "median_20d": -11.98
     }
    },
-   "sic_peer_median_5d": -3.28,
-   "sympathy_flag": "UNRELIABLE (possible corporate action in window): solo_move: CTVA -84.8% 5d vs peer median -8.4%; peers didn't move with it",
+   "sic_peer_median_5d": -0.91,
+   "sympathy_flag": "UNRELIABLE (possible corporate action in window): solo_move: CTVA -81.8% 5d vs peer median -0.3%; peers didn't move with it",
    "warnings": [
     "a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted"
    ]
@@ -1647,12 +1653,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 31.3,
-   "self_1d": -6.93,
-   "self_5d": -11.1,
-   "self_20d": -21.79,
-   "self_z_1d": -1.66,
-   "as_of": "2026-10-02",
+   "last": 30.83,
+   "self_1d": -0.55,
+   "self_5d": -7.42,
+   "self_20d": -19.76,
+   "self_z_1d": -0.13,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -1662,9 +1668,9 @@
      "name": "BorgWarner Inc.",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": 0.23,
-     "chg_5d": -1.3,
-     "chg_20d": -7.93,
+     "chg_1d": -2.86,
+     "chg_5d": 2.39,
+     "chg_20d": -5.69,
      "excluded": null
     },
     {
@@ -1672,9 +1678,9 @@
      "name": "Lear Corporation",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": -0.43,
-     "chg_5d": -1.52,
-     "chg_20d": -7.78,
+     "chg_1d": -1.62,
+     "chg_5d": 1.69,
+     "chg_20d": -5.44,
      "excluded": null
     },
     {
@@ -1682,9 +1688,9 @@
      "name": "Adient plc",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": -1.48,
-     "chg_5d": -1.82,
-     "chg_20d": -11.55,
+     "chg_1d": -1.14,
+     "chg_5d": 2.79,
+     "chg_20d": -5.51,
      "excluded": null
     },
     {
@@ -1692,9 +1698,9 @@
      "name": "Visteon Corporation",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": 0.46,
-     "chg_5d": -1.87,
-     "chg_20d": -13.2,
+     "chg_1d": -2.16,
+     "chg_5d": 0.81,
+     "chg_20d": -12.29,
      "excluded": null
     },
     {
@@ -1702,9 +1708,9 @@
      "name": "Dana Incorporated",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": 0.9,
-     "chg_5d": 2.73,
-     "chg_20d": -11.55,
+     "chg_1d": -2.71,
+     "chg_5d": 1.28,
+     "chg_20d": -9.16,
      "excluded": null
     },
     {
@@ -1712,9 +1718,9 @@
      "name": "Aptiv PLC",
      "group": "auto parts",
      "source": "curated",
-     "chg_1d": -0.98,
-     "chg_5d": -2.79,
-     "chg_20d": -6.43,
+     "chg_1d": -2.19,
+     "chg_5d": 1.67,
+     "chg_20d": -1.73,
      "excluded": null
     },
     {
@@ -1722,19 +1728,9 @@
      "name": "MAGNA INTERNATIONAL INC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.17,
-     "chg_5d": -0.66,
-     "chg_20d": -3.76,
-     "excluded": null
-    },
-    {
-     "ticker": "MOD",
-     "name": "MODINE MANUFACTURING CO",
-     "group": "SIC 3714",
-     "source": "sic",
-     "chg_1d": -5.82,
-     "chg_5d": -10.03,
-     "chg_20d": -4.52,
+     "chg_1d": -0.82,
+     "chg_5d": 2.28,
+     "chg_20d": -0.53,
      "excluded": null
     },
     {
@@ -1742,9 +1738,19 @@
      "name": "Allison Transmission Holdings Inc",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 1.45,
-     "chg_5d": 3.61,
-     "chg_20d": -8.15,
+     "chg_1d": -2.89,
+     "chg_5d": -1.62,
+     "chg_20d": -13.04,
+     "excluded": null
+    },
+    {
+     "ticker": "MOD",
+     "name": "MODINE MANUFACTURING CO",
+     "group": "SIC 3714",
+     "source": "sic",
+     "chg_1d": -3.68,
+     "chg_5d": -2.29,
+     "chg_20d": -1.64,
      "excluded": null
     },
     {
@@ -1752,9 +1758,9 @@
      "name": "AUTOLIV INC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": -1.08,
-     "chg_5d": -4.82,
-     "chg_20d": -10.56,
+     "chg_1d": -1.34,
+     "chg_5d": -0.31,
+     "chg_20d": -6.42,
      "excluded": null
     },
     {
@@ -1762,9 +1768,9 @@
      "name": "Garrett Motion Inc.",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 3.12,
-     "chg_5d": 5.25,
-     "chg_20d": -0.95,
+     "chg_1d": -2.45,
+     "chg_5d": -2.23,
+     "chg_20d": -7.42,
      "excluded": null
     },
     {
@@ -1772,9 +1778,9 @@
      "name": "GENTEX CORP",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.59,
-     "chg_5d": -2.21,
-     "chg_20d": -3.33,
+     "chg_1d": -1.09,
+     "chg_5d": -1.95,
+     "chg_20d": -5.94,
      "excluded": null
     },
     {
@@ -1782,9 +1788,9 @@
      "name": "Atmus Filtration Technologies Inc.",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 2.49,
-     "chg_5d": 2.21,
-     "chg_20d": -4.49,
+     "chg_1d": -3.35,
+     "chg_5d": 2.3,
+     "chg_20d": -4.31,
      "excluded": null
     },
     {
@@ -1792,32 +1798,32 @@
      "name": "Dorman Products, Inc.",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.14,
-     "chg_5d": -0.77,
-     "chg_20d": -5.09,
+     "chg_1d": -0.94,
+     "chg_5d": 2.28,
+     "chg_20d": -0.96,
      "excluded": null
     }
    ],
-   "peer_median_1d": -0.1,
-   "peer_median_5d": -1.67,
-   "peer_median_20d": -9.74,
+   "peer_median_1d": -2.17,
+   "peer_median_5d": 1.68,
+   "peer_median_20d": -5.6,
    "peer_median_basis": "curated",
    "peer_groups": {
     "auto parts": {
      "n": 6,
-     "median_1d": -0.1,
-     "median_5d": -1.67,
-     "median_20d": -9.74
+     "median_1d": -2.17,
+     "median_5d": 1.68,
+     "median_20d": -5.6
     },
     "SIC 3714": {
      "n": 8,
-     "median_1d": 0.38,
-     "median_5d": -0.72,
-     "median_20d": -4.5
+     "median_1d": -1.9,
+     "median_5d": -0.97,
+     "median_20d": -5.12
     }
    },
-   "sic_peer_median_5d": -0.72,
-   "sympathy_flag": "solo_move: THRM -11.1% 5d vs peer median -1.7%; peers didn't move with it",
+   "sic_peer_median_5d": -0.97,
+   "sympathy_flag": "solo_move: THRM -7.4% 5d vs peer median +1.7%; peers didn't move with it",
    "warnings": []
   },
   "MOD": {
@@ -1828,12 +1834,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 178.2,
-   "self_1d": -5.82,
-   "self_5d": -10.03,
-   "self_20d": -4.52,
-   "self_z_1d": -1.37,
-   "as_of": "2026-10-02",
+   "last": 182.92,
+   "self_1d": -3.68,
+   "self_5d": -2.29,
+   "self_20d": -1.64,
+   "self_z_1d": -0.86,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -1843,9 +1849,9 @@
      "name": "Vertiv Holdings Co",
      "group": "thermal / data-center cooling",
      "source": "curated",
-     "chg_1d": 2.46,
-     "chg_5d": -0.43,
-     "chg_20d": -6.19,
+     "chg_1d": -4.77,
+     "chg_5d": -0.1,
+     "chg_20d": -8.3,
      "excluded": null
     },
     {
@@ -1853,9 +1859,9 @@
      "name": "Trane Technologies plc",
      "group": "thermal / data-center cooling",
      "source": "curated",
-     "chg_1d": 1.08,
-     "chg_5d": 2.08,
-     "chg_20d": 4.2,
+     "chg_1d": -2.56,
+     "chg_5d": 2.71,
+     "chg_20d": 4.51,
      "excluded": null
     },
     {
@@ -1863,9 +1869,9 @@
      "name": "Johnson Controls International plc",
      "group": "thermal / data-center cooling",
      "source": "curated",
-     "chg_1d": 2.95,
-     "chg_5d": 4.02,
-     "chg_20d": 9.85,
+     "chg_1d": -2.35,
+     "chg_5d": 4.29,
+     "chg_20d": 6.98,
      "excluded": null
     },
     {
@@ -1873,9 +1879,9 @@
      "name": "AAON, Inc.",
      "group": "thermal / data-center cooling",
      "source": "curated",
-     "chg_1d": 1.2,
-     "chg_5d": -6.54,
-     "chg_20d": 6.78,
+     "chg_1d": -4.34,
+     "chg_5d": 1.8,
+     "chg_20d": 9.39,
      "excluded": null
     },
     {
@@ -1883,9 +1889,9 @@
      "name": "SPX Technologies, Inc.",
      "group": "thermal / data-center cooling",
      "source": "curated",
-     "chg_1d": 1.99,
-     "chg_5d": 0.17,
-     "chg_20d": -10.74,
+     "chg_1d": -2.94,
+     "chg_5d": 0.65,
+     "chg_20d": -11.45,
      "excluded": null
     },
     {
@@ -1893,9 +1899,9 @@
      "name": "MAGNA INTERNATIONAL INC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.17,
-     "chg_5d": -0.66,
-     "chg_20d": -3.76,
+     "chg_1d": -0.82,
+     "chg_5d": 2.28,
+     "chg_20d": -0.53,
      "excluded": null
     },
     {
@@ -1903,9 +1909,9 @@
      "name": "BORGWARNER INC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.23,
-     "chg_5d": -1.3,
-     "chg_20d": -7.93,
+     "chg_1d": -2.86,
+     "chg_5d": 2.39,
+     "chg_20d": -5.69,
      "excluded": null
     },
     {
@@ -1913,9 +1919,9 @@
      "name": "Allison Transmission Holdings Inc",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 1.45,
-     "chg_5d": 3.61,
-     "chg_20d": -8.15,
+     "chg_1d": -2.89,
+     "chg_5d": -1.62,
+     "chg_20d": -13.04,
      "excluded": null
     },
     {
@@ -1923,9 +1929,9 @@
      "name": "Aptiv PLC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": -0.98,
-     "chg_5d": -2.79,
-     "chg_20d": -6.43,
+     "chg_1d": -2.19,
+     "chg_5d": 1.67,
+     "chg_20d": -1.73,
      "excluded": null
     },
     {
@@ -1933,9 +1939,9 @@
      "name": "AUTOLIV INC",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": -1.08,
-     "chg_5d": -4.82,
-     "chg_20d": -10.56,
+     "chg_1d": -1.34,
+     "chg_5d": -0.31,
+     "chg_20d": -6.42,
      "excluded": null
     },
     {
@@ -1943,9 +1949,9 @@
      "name": "LEAR CORP",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": -0.43,
-     "chg_5d": -1.52,
-     "chg_20d": -7.78,
+     "chg_1d": -1.62,
+     "chg_5d": 1.69,
+     "chg_20d": -5.44,
      "excluded": null
     },
     {
@@ -1953,9 +1959,9 @@
      "name": "Garrett Motion Inc.",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 3.12,
-     "chg_5d": 5.25,
-     "chg_20d": -0.95,
+     "chg_1d": -2.45,
+     "chg_5d": -2.23,
+     "chg_20d": -7.42,
      "excluded": null
     },
     {
@@ -1963,32 +1969,32 @@
      "name": "GENTEX CORP",
      "group": "SIC 3714",
      "source": "sic",
-     "chg_1d": 0.59,
-     "chg_5d": -2.21,
-     "chg_20d": -3.33,
+     "chg_1d": -1.09,
+     "chg_5d": -1.95,
+     "chg_20d": -5.94,
      "excluded": null
     }
    ],
-   "peer_median_1d": 1.99,
-   "peer_median_5d": 0.17,
-   "peer_median_20d": 4.2,
+   "peer_median_1d": -2.94,
+   "peer_median_5d": 1.8,
+   "peer_median_20d": 4.51,
    "peer_median_basis": "curated",
    "peer_groups": {
     "thermal / data-center cooling": {
      "n": 5,
-     "median_1d": 1.99,
-     "median_5d": 0.17,
-     "median_20d": 4.2
+     "median_1d": -2.94,
+     "median_5d": 1.8,
+     "median_20d": 4.51
     },
     "SIC 3714": {
      "n": 8,
-     "median_1d": 0.2,
-     "median_5d": -1.41,
-     "median_20d": -7.11
+     "median_1d": -1.91,
+     "median_5d": 0.68,
+     "median_20d": -5.82
     }
    },
-   "sic_peer_median_5d": -1.41,
-   "sympathy_flag": "solo_move: MOD -10.0% 5d vs peer median +0.2%; peers didn't move with it",
+   "sic_peer_median_5d": 0.68,
+   "sympathy_flag": null,
    "warnings": []
   },
   "HMH": {
@@ -1999,12 +2005,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 18.31,
-   "self_1d": 5.47,
-   "self_5d": -4.44,
-   "self_20d": -8.54,
-   "self_z_1d": 1.79,
-   "as_of": "2026-10-02",
+   "last": 18.718,
+   "self_1d": -0.96,
+   "self_5d": 6.84,
+   "self_20d": -10.27,
+   "self_z_1d": -0.3,
+   "as_of": "2026-10-07",
    "themes": [
     "energy"
    ],
@@ -2038,9 +2044,9 @@
      "name": "NOV Inc.",
      "group": "oilfield equipment",
      "source": "curated",
-     "chg_1d": -0.58,
-     "chg_5d": -5.34,
-     "chg_20d": -12.52,
+     "chg_1d": -1.92,
+     "chg_5d": -0.51,
+     "chg_20d": -13.41,
      "excluded": null
     },
     {
@@ -2048,9 +2054,9 @@
      "name": "TechnipFMC plc",
      "group": "oilfield equipment",
      "source": "curated",
-     "chg_1d": -0.04,
-     "chg_5d": -3.06,
-     "chg_20d": -14.06,
+     "chg_1d": -1.07,
+     "chg_5d": 1.8,
+     "chg_20d": -11.14,
      "excluded": null
     },
     {
@@ -2058,9 +2064,9 @@
      "name": "Cactus, Inc.",
      "group": "oilfield equipment",
      "source": "curated",
-     "chg_1d": 2.01,
-     "chg_5d": -1.34,
-     "chg_20d": -11.45,
+     "chg_1d": -1.61,
+     "chg_5d": 1.47,
+     "chg_20d": -9.57,
      "excluded": null
     },
     {
@@ -2068,9 +2074,9 @@
      "name": "Oceaneering International, Inc.",
      "group": "oilfield equipment",
      "source": "curated",
-     "chg_1d": -0.09,
-     "chg_5d": -4.19,
-     "chg_20d": -14.41,
+     "chg_1d": -1.38,
+     "chg_5d": 1.65,
+     "chg_20d": -8.54,
      "excluded": null
     },
     {
@@ -2078,9 +2084,9 @@
      "name": "Weatherford International plc",
      "group": "oilfield equipment",
      "source": "curated",
-     "chg_1d": 1.63,
-     "chg_5d": -6.3,
-     "chg_20d": -17.33,
+     "chg_1d": -3.03,
+     "chg_5d": -1.47,
+     "chg_20d": -16.7,
      "excluded": null
     },
     {
@@ -2088,9 +2094,9 @@
      "name": "Baker Hughes Co",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 0.68,
-     "chg_5d": -3.16,
-     "chg_20d": -12.01,
+     "chg_1d": -2.43,
+     "chg_5d": 1.53,
+     "chg_20d": -12.41,
      "excluded": null
     },
     {
@@ -2098,9 +2104,9 @@
      "name": "Solaris Energy Infrastructure, Inc.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 4.97,
-     "chg_5d": 5.58,
-     "chg_20d": 40.93,
+     "chg_1d": -4.07,
+     "chg_5d": 7.42,
+     "chg_20d": 12.99,
      "excluded": null
     },
     {
@@ -2108,9 +2114,9 @@
      "name": "DNOW Inc.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 3.14,
-     "chg_5d": -1.07,
-     "chg_20d": -0.25,
+     "chg_1d": -2.71,
+     "chg_5d": -0.32,
+     "chg_20d": -4.28,
      "excluded": null
     },
     {
@@ -2118,9 +2124,9 @@
      "name": "Flowco Holdings Inc.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 0.98,
-     "chg_5d": -3.55,
-     "chg_20d": -13.9,
+     "chg_1d": -0.57,
+     "chg_5d": 1.96,
+     "chg_20d": -12.45,
      "excluded": null
     },
     {
@@ -2128,9 +2134,9 @@
      "name": "Innovex International, Inc.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": -0.76,
-     "chg_5d": -4.18,
-     "chg_20d": -11.33,
+     "chg_1d": -0.67,
+     "chg_5d": 1.54,
+     "chg_20d": -8.06,
      "excluded": null
     },
     {
@@ -2138,9 +2144,9 @@
      "name": "FORUM ENERGY TECHNOLOGIES, INC.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 1.02,
-     "chg_5d": 0.37,
-     "chg_20d": 1.55,
+     "chg_1d": 0.94,
+     "chg_5d": 5.28,
+     "chg_20d": 6.24,
      "excluded": null
     },
     {
@@ -2148,9 +2154,9 @@
      "name": "OIL STATES INTERNATIONAL, INC",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": 0.49,
-     "chg_5d": -0.6,
-     "chg_20d": -7.11,
+     "chg_1d": -1.09,
+     "chg_5d": 3.02,
+     "chg_20d": -6.51,
      "excluded": null
     },
     {
@@ -2158,32 +2164,32 @@
      "name": "OMS Energy Technologies Inc.",
      "group": "SIC 3533",
      "source": "sic",
-     "chg_1d": -0.9,
-     "chg_5d": 0.69,
-     "chg_20d": -9.48,
+     "chg_1d": -0.44,
+     "chg_5d": -2.4,
+     "chg_20d": -5.08,
      "excluded": null
     }
    ],
-   "peer_median_1d": -0.04,
-   "peer_median_5d": -4.19,
-   "peer_median_20d": -14.06,
+   "peer_median_1d": -1.61,
+   "peer_median_5d": 1.47,
+   "peer_median_20d": -11.14,
    "peer_median_basis": "curated",
    "peer_groups": {
     "oilfield equipment": {
      "n": 5,
-     "median_1d": -0.04,
-     "median_5d": -4.19,
-     "median_20d": -14.06
+     "median_1d": -1.61,
+     "median_5d": 1.47,
+     "median_20d": -11.14
     },
     "SIC 3533": {
      "n": 8,
-     "median_1d": 0.83,
-     "median_5d": -0.83,
-     "median_20d": -8.29
+     "median_1d": -0.88,
+     "median_5d": 1.75,
+     "median_20d": -5.79
     }
    },
-   "sic_peer_median_5d": -0.83,
-   "sympathy_flag": null,
+   "sic_peer_median_5d": 1.75,
+   "sympathy_flag": "solo_move: HMH +6.8% 5d vs peer median +1.5%; peers didn't move with it",
    "warnings": []
   },
   "TWST": {
@@ -2194,12 +2200,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 188.67,
-   "self_1d": 0.33,
-   "self_5d": 3.19,
-   "self_20d": 46.59,
-   "self_z_1d": 0.06,
-   "as_of": "2026-10-02",
+   "last": 157.48,
+   "self_1d": -5.68,
+   "self_5d": -18.51,
+   "self_20d": 25.46,
+   "self_z_1d": -0.89,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -2209,9 +2215,9 @@
      "name": "Illumina, Inc.",
      "group": "genomics tools",
      "source": "curated",
-     "chg_1d": 2.75,
-     "chg_5d": 1.13,
-     "chg_20d": 23.18,
+     "chg_1d": -2.27,
+     "chg_5d": -2.32,
+     "chg_20d": 30.4,
      "excluded": null
     },
     {
@@ -2219,9 +2225,9 @@
      "name": "10x Genomics, Inc.",
      "group": "genomics tools",
      "source": "curated",
-     "chg_1d": 5.34,
-     "chg_5d": 9.09,
-     "chg_20d": 47.9,
+     "chg_1d": -5.54,
+     "chg_5d": -15.68,
+     "chg_20d": 13.23,
      "excluded": null
     },
     {
@@ -2229,9 +2235,9 @@
      "name": "Pacific Biosciences of California, Inc.",
      "group": "genomics tools",
      "source": "curated",
-     "chg_1d": 1.2,
-     "chg_5d": 56.79,
-     "chg_20d": 95.38,
+     "chg_1d": -3.52,
+     "chg_5d": 9.92,
+     "chg_20d": 101.94,
      "excluded": null
     },
     {
@@ -2239,9 +2245,9 @@
      "name": "Ginkgo Bioworks Holdings, Inc.",
      "group": "genomics tools",
      "source": "curated",
-     "chg_1d": -1.2,
-     "chg_5d": 15.85,
-     "chg_20d": 77.7,
+     "chg_1d": -9.27,
+     "chg_5d": -12.24,
+     "chg_20d": 65.83,
      "excluded": null
     },
     {
@@ -2249,9 +2255,9 @@
      "name": "AMGEN INC",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": -1.04,
-     "chg_5d": -2.79,
-     "chg_20d": -9.25,
+     "chg_1d": 2.92,
+     "chg_5d": -1.7,
+     "chg_20d": 5.9,
      "excluded": null
     },
     {
@@ -2259,9 +2265,9 @@
      "name": "GILEAD SCIENCES, INC.",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": -1.87,
-     "chg_5d": -4.1,
-     "chg_20d": -4.29,
+     "chg_1d": 2.39,
+     "chg_5d": -0.93,
+     "chg_20d": 1.39,
      "excluded": null
     },
     {
@@ -2269,9 +2275,9 @@
      "name": "Moderna, Inc.",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": 0.57,
-     "chg_5d": -4.46,
-     "chg_20d": 27.63,
+     "chg_1d": 1.11,
+     "chg_5d": -1.57,
+     "chg_20d": 39.77,
      "excluded": null
     },
     {
@@ -2279,9 +2285,9 @@
      "name": "ARGENX SE",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": -1.79,
-     "chg_5d": -4.2,
-     "chg_20d": -12.74,
+     "chg_1d": 0.51,
+     "chg_5d": -2.47,
+     "chg_20d": -6.69,
      "excluded": null
     },
     {
@@ -2289,9 +2295,9 @@
      "name": "Revolution Medicines, Inc.",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": 0.36,
-     "chg_5d": 0.81,
-     "chg_20d": -2.01,
+     "chg_1d": -0.03,
+     "chg_5d": -2.65,
+     "chg_20d": -3.78,
      "excluded": null
     },
     {
@@ -2299,9 +2305,9 @@
      "name": "BIOGEN INC.",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": -1.32,
-     "chg_5d": -3.39,
-     "chg_20d": -2.06,
+     "chg_1d": 1.68,
+     "chg_5d": 0.33,
+     "chg_20d": 7.55,
      "excluded": null
     },
     {
@@ -2309,42 +2315,42 @@
      "name": "BioNTech SE",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": 0.05,
-     "chg_5d": -1.64,
-     "chg_20d": -5.81,
+     "chg_1d": 0.71,
+     "chg_5d": -1.92,
+     "chg_20d": -1.75,
      "excluded": null
     },
     {
-     "ticker": "EXEL",
-     "name": "EXELIXIS, INC.",
+     "ticker": "NBIX",
+     "name": "NEUROCRINE BIOSCIENCES INC",
      "group": "SIC 2836",
      "source": "sic",
-     "chg_1d": 0.78,
-     "chg_5d": 0.4,
-     "chg_20d": -1.25,
+     "chg_1d": -0.66,
+     "chg_5d": 1.91,
+     "chg_20d": -6.82,
      "excluded": null
     }
    ],
-   "peer_median_1d": 1.98,
-   "peer_median_5d": 12.47,
-   "peer_median_20d": 62.8,
+   "peer_median_1d": -4.53,
+   "peer_median_5d": -7.28,
+   "peer_median_20d": 48.11,
    "peer_median_basis": "curated",
    "peer_groups": {
     "genomics tools": {
      "n": 4,
-     "median_1d": 1.98,
-     "median_5d": 12.47,
-     "median_20d": 62.8
+     "median_1d": -4.53,
+     "median_5d": -7.28,
+     "median_20d": 48.11
     },
     "SIC 2836": {
      "n": 8,
-     "median_1d": -0.49,
-     "median_5d": -3.09,
-     "median_20d": -3.17
+     "median_1d": 0.91,
+     "median_5d": -1.64,
+     "median_20d": -0.18
     }
    },
-   "sic_peer_median_5d": -3.09,
-   "sympathy_flag": "missed_peer_move: peer median +12.5% 5d vs TWST +3.2%; peers moved, it didn't",
+   "sic_peer_median_5d": -1.64,
+   "sympathy_flag": "solo_move: TWST -18.5% 5d vs peer median -7.3%; peers didn't move with it",
    "warnings": []
   },
   "WHF": {
@@ -2355,12 +2361,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 6.98,
-   "self_1d": 1.75,
-   "self_5d": -0.85,
-   "self_20d": -1.55,
-   "self_z_1d": 1.02,
-   "as_of": "2026-10-02",
+   "last": 6.85,
+   "self_1d": -2.14,
+   "self_5d": -2.0,
+   "self_20d": -2.7,
+   "self_z_1d": -1.24,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -2382,12 +2388,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 76.05,
-   "self_1d": 1.64,
-   "self_5d": -4.66,
-   "self_20d": -15.76,
-   "self_z_1d": 0.78,
-   "as_of": "2026-10-02",
+   "last": 75.41,
+   "self_1d": -3.58,
+   "self_5d": -0.36,
+   "self_20d": -10.36,
+   "self_z_1d": -1.69,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -2398,25 +2404,25 @@
      "group": "SIC 7948",
      "source": "sic",
      "chg_1d": 0.96,
-     "chg_5d": -0.19,
-     "chg_20d": -0.69,
+     "chg_5d": 0.06,
+     "chg_20d": -0.63,
      "excluded": null
     }
    ],
    "peer_median_1d": 0.96,
-   "peer_median_5d": -0.19,
-   "peer_median_20d": -0.69,
+   "peer_median_5d": 0.06,
+   "peer_median_20d": -0.63,
    "peer_median_basis": "sic",
    "peer_groups": {
     "SIC 7948": {
      "n": 1,
      "median_1d": 0.96,
-     "median_5d": -0.19,
-     "median_20d": -0.69
+     "median_5d": 0.06,
+     "median_20d": -0.63
     }
    },
-   "sic_peer_median_5d": -0.19,
-   "sympathy_flag": "solo_move: CHDN -4.7% 5d vs peer median -0.2%; peers didn't move with it",
+   "sic_peer_median_5d": 0.06,
+   "sympathy_flag": null,
    "warnings": []
   },
   "RYAM": {
@@ -2427,12 +2433,12 @@
    "universe_sources": [
     "watchlist"
    ],
-   "last": 7.12,
-   "self_1d": -3.0,
-   "self_5d": -16.92,
-   "self_20d": -16.82,
-   "self_z_1d": -0.84,
-   "as_of": "2026-10-02",
+   "last": 6.57,
+   "self_1d": -3.24,
+   "self_5d": -17.57,
+   "self_20d": -22.61,
+   "self_z_1d": -0.92,
+   "as_of": "2026-10-07",
    "themes": [],
    "theme_symbols": [],
    "theme_matches": [],
@@ -2442,25 +2448,599 @@
      "name": "MERCER INTERNATIONAL INC.",
      "group": "SIC 2611",
      "source": "sic",
-     "chg_1d": -19.72,
-     "chg_5d": -19.72,
-     "chg_20d": -28.64,
+     "chg_1d": 5.83,
+     "chg_5d": -18.06,
+     "chg_20d": -33.16,
      "excluded": null
     }
    ],
-   "peer_median_1d": -19.72,
-   "peer_median_5d": -19.72,
-   "peer_median_20d": -28.64,
+   "peer_median_1d": 5.83,
+   "peer_median_5d": -18.06,
+   "peer_median_20d": -33.16,
    "peer_median_basis": "sic",
    "peer_groups": {
     "SIC 2611": {
      "n": 1,
-     "median_1d": -19.72,
-     "median_5d": -19.72,
-     "median_20d": -28.64
+     "median_1d": 5.83,
+     "median_5d": -18.06,
+     "median_20d": -33.16
     }
    },
-   "sic_peer_median_5d": -19.72,
+   "sic_peer_median_5d": -18.06,
+   "sympathy_flag": null,
+   "warnings": []
+  },
+  "PUSA": {
+   "name": "Powerus Corp",
+   "cik": 2009312,
+   "sic": "7997",
+   "sic_description": "Services-Membership Sports & Recreation Clubs",
+   "universe_sources": [
+    "watchlist"
+   ],
+   "last": 2.62,
+   "self_1d": -8.23,
+   "self_5d": -32.47,
+   "self_20d": -28.8,
+   "self_z_1d": -1.59,
+   "as_of": "2026-10-07",
+   "themes": [],
+   "theme_symbols": [],
+   "theme_matches": [],
+   "peers": [
+    {
+     "ticker": "LTH",
+     "name": "Life Time Group Holdings, Inc.",
+     "group": "SIC 7997",
+     "source": "sic",
+     "chg_1d": 0.52,
+     "chg_5d": 1.78,
+     "chg_20d": -2.78,
+     "excluded": null
+    },
+    {
+     "ticker": "PLNT",
+     "name": "Planet Fitness, Inc.",
+     "group": "SIC 7997",
+     "source": "sic",
+     "chg_1d": 1.76,
+     "chg_5d": 1.84,
+     "chg_20d": -13.8,
+     "excluded": null
+    },
+    {
+     "ticker": "OSW",
+     "name": "ONESPAWORLD HOLDINGS Ltd",
+     "group": "SIC 7997",
+     "source": "sic",
+     "chg_1d": -0.95,
+     "chg_5d": 2.53,
+     "chg_20d": 2.99,
+     "excluded": null
+    }
+   ],
+   "peer_median_1d": 0.52,
+   "peer_median_5d": 1.84,
+   "peer_median_20d": -2.78,
+   "peer_median_basis": "sic",
+   "peer_groups": {
+    "SIC 7997": {
+     "n": 3,
+     "median_1d": 0.52,
+     "median_5d": 1.84,
+     "median_20d": -2.78
+    }
+   },
+   "sic_peer_median_5d": 1.84,
+   "sympathy_flag": "solo_move: PUSA -32.5% 5d vs peer median +1.8%; peers didn't move with it",
+   "warnings": []
+  },
+  "ESRT": {
+   "name": "Empire State Realty Trust, Inc.",
+   "cik": 1541401,
+   "sic": "6798",
+   "sic_description": "Real Estate Investment Trusts",
+   "universe_sources": [
+    "watchlist"
+   ],
+   "last": 4.355,
+   "self_1d": -1.69,
+   "self_5d": 8.06,
+   "self_20d": 2.71,
+   "self_z_1d": -0.62,
+   "as_of": "2026-10-07",
+   "themes": [],
+   "theme_symbols": [],
+   "theme_matches": [],
+   "peers": [
+    {
+     "ticker": "PLD",
+     "name": "Prologis, Inc.",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -0.98,
+     "chg_5d": -1.86,
+     "chg_20d": -6.07,
+     "excluded": null
+    },
+    {
+     "ticker": "EQIX",
+     "name": "EQUINIX INC",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -1.34,
+     "chg_5d": 2.15,
+     "chg_20d": -0.94,
+     "excluded": null
+    },
+    {
+     "ticker": "AMT",
+     "name": "AMERICAN TOWER CORP /MA/",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": 0.23,
+     "chg_5d": 0.9,
+     "chg_20d": -5.85,
+     "excluded": null
+    },
+    {
+     "ticker": "DLR",
+     "name": "DIGITAL REALTY TRUST, INC.",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -1.35,
+     "chg_5d": 3.77,
+     "chg_20d": -3.67,
+     "excluded": null
+    },
+    {
+     "ticker": "PSA",
+     "name": "Public Storage",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -0.54,
+     "chg_5d": 0.52,
+     "chg_20d": -3.49,
+     "excluded": null
+    },
+    {
+     "ticker": "O",
+     "name": "REALTY INCOME CORP",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -0.5,
+     "chg_5d": -0.59,
+     "chg_20d": -10.2,
+     "excluded": null
+    },
+    {
+     "ticker": "IRM",
+     "name": "IRON MOUNTAIN INC",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -0.9,
+     "chg_5d": 4.06,
+     "chg_20d": 0.2,
+     "excluded": null
+    },
+    {
+     "ticker": "EXR",
+     "name": "Extra Space Storage Inc.",
+     "group": "SIC 6798",
+     "source": "sic",
+     "chg_1d": -0.66,
+     "chg_5d": 1.13,
+     "chg_20d": -1.94,
+     "excluded": null
+    }
+   ],
+   "peer_median_1d": -0.78,
+   "peer_median_5d": 1.01,
+   "peer_median_20d": -3.58,
+   "peer_median_basis": "sic",
+   "peer_groups": {
+    "SIC 6798": {
+     "n": 8,
+     "median_1d": -0.78,
+     "median_5d": 1.01,
+     "median_20d": -3.58
+    }
+   },
+   "sic_peer_median_5d": 1.01,
+   "sympathy_flag": "solo_move: ESRT +8.1% 5d vs peer median +1.0%; peers didn't move with it",
+   "warnings": []
+  },
+  "POLA;STI": {
+   "name": null,
+   "cik": null,
+   "sic": null,
+   "sic_description": null,
+   "universe_sources": [
+    "press"
+   ],
+   "last": null,
+   "self_1d": null,
+   "self_5d": null,
+   "self_20d": null,
+   "self_z_1d": null,
+   "as_of": null,
+   "themes": [],
+   "theme_symbols": [],
+   "theme_matches": [],
+   "peers": [],
+   "peer_median_1d": null,
+   "peer_median_5d": null,
+   "peer_median_20d": null,
+   "peer_median_basis": null,
+   "peer_groups": {},
+   "sic_peer_median_5d": null,
+   "sympathy_flag": null,
+   "warnings": []
+  },
+  "MAIA": {
+   "name": "MAIA Biotechnology, Inc.",
+   "cik": 1878313,
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations",
+   "universe_sources": [
+    "press"
+   ],
+   "last": 1.205,
+   "self_1d": 1.26,
+   "self_5d": 2.12,
+   "self_20d": -9.4,
+   "self_z_1d": 0.4,
+   "as_of": "2026-10-07",
+   "themes": [],
+   "theme_symbols": [],
+   "theme_matches": [],
+   "peers": [
+    {
+     "ticker": "LLY",
+     "name": "ELI LILLY & Co",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 2.52,
+     "chg_5d": 2.56,
+     "chg_20d": 5.56,
+     "excluded": null
+    },
+    {
+     "ticker": "JNJ",
+     "name": "JOHNSON & JOHNSON",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 1.86,
+     "chg_5d": -1.98,
+     "chg_20d": -2.83,
+     "excluded": null
+    },
+    {
+     "ticker": "ABBV",
+     "name": "AbbVie Inc.",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 2.24,
+     "chg_5d": 4.24,
+     "chg_20d": 8.67,
+     "excluded": null
+    },
+    {
+     "ticker": "AZN",
+     "name": "ASTRAZENECA PLC",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 1.01,
+     "chg_5d": -0.78,
+     "chg_20d": 2.08,
+     "excluded": null
+    },
+    {
+     "ticker": "ABT",
+     "name": "ABBOTT LABORATORIES",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": -0.4,
+     "chg_5d": -1.07,
+     "chg_20d": -7.09,
+     "excluded": null
+    },
+    {
+     "ticker": "BMY",
+     "name": "BRISTOL MYERS SQUIBB CO",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 0.43,
+     "chg_5d": -4.09,
+     "chg_20d": -7.08,
+     "excluded": null
+    },
+    {
+     "ticker": "GSK",
+     "name": "GSK plc",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 1.03,
+     "chg_5d": -2.26,
+     "chg_20d": -3.19,
+     "excluded": null
+    },
+    {
+     "ticker": "ONC",
+     "name": "BeOne Medicines Ltd.",
+     "group": "SIC 2834",
+     "source": "sic",
+     "chg_1d": 0.24,
+     "chg_5d": -0.63,
+     "chg_20d": 3.6,
+     "excluded": null
+    }
+   ],
+   "peer_median_1d": 1.02,
+   "peer_median_5d": -0.93,
+   "peer_median_20d": -0.38,
+   "peer_median_basis": "sic",
+   "peer_groups": {
+    "SIC 2834": {
+     "n": 8,
+     "median_1d": 1.02,
+     "median_5d": -0.93,
+     "median_20d": -0.38
+    }
+   },
+   "sic_peer_median_5d": -0.93,
+   "sympathy_flag": null,
+   "warnings": []
+  },
+  "BEEM": {
+   "name": "Beam Global",
+   "cik": 1398805,
+   "sic": "3690",
+   "sic_description": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+   "universe_sources": [
+    "press"
+   ],
+   "last": 1.095,
+   "self_1d": -1.35,
+   "self_5d": -3.1,
+   "self_20d": -21.22,
+   "self_z_1d": -0.25,
+   "as_of": "2026-10-07",
+   "themes": [
+    "defence"
+   ],
+   "theme_symbols": [
+    "ITA",
+    "XAR"
+   ],
+   "theme_matches": [
+    {
+     "keyword": "defence",
+     "hits": 1,
+     "themes": [
+      "defence"
+     ],
+     "symbols": [
+      "ITA",
+      "XAR"
+     ],
+     "no_direct_price": null,
+     "note": null,
+     "sources": {
+      "press": 1
+     }
+    }
+   ],
+   "peers": [
+    {
+     "ticker": "CAE",
+     "name": "CAE INC",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -1.94,
+     "chg_5d": -3.08,
+     "chg_20d": -3.28,
+     "excluded": null
+    },
+    {
+     "ticker": "ENS",
+     "name": "EnerSys",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -5.02,
+     "chg_5d": -0.38,
+     "chg_20d": 2.08,
+     "excluded": null
+    },
+    {
+     "ticker": "NOVT",
+     "name": "NOVANTA INC",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -2.68,
+     "chg_5d": 2.05,
+     "chg_20d": -0.45,
+     "excluded": null
+    },
+    {
+     "ticker": "ATKR",
+     "name": "Atkore Inc.",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": 0.13,
+     "chg_5d": 0.09,
+     "chg_20d": 0.67,
+     "excluded": null
+    },
+    {
+     "ticker": "QS",
+     "name": "QuantumScape Corp",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -3.01,
+     "chg_5d": -2.91,
+     "chg_20d": -13.6,
+     "excluded": null
+    },
+    {
+     "ticker": "SPB",
+     "name": "Spectrum Brands Holdings, Inc.",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -0.42,
+     "chg_5d": -3.92,
+     "chg_20d": -10.81,
+     "excluded": null
+    },
+    {
+     "ticker": "ENR",
+     "name": "ENERGIZER HOLDINGS, INC.",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -0.14,
+     "chg_5d": 0.79,
+     "chg_20d": 6.73,
+     "excluded": null
+    },
+    {
+     "ticker": "FLNC",
+     "name": "Fluence Energy, Inc.",
+     "group": "SIC 3690",
+     "source": "sic",
+     "chg_1d": -6.6,
+     "chg_5d": -2.34,
+     "chg_20d": -25.89,
+     "excluded": null
+    }
+   ],
+   "peer_median_1d": -2.31,
+   "peer_median_5d": -1.36,
+   "peer_median_20d": -1.86,
+   "peer_median_basis": "sic",
+   "peer_groups": {
+    "SIC 3690": {
+     "n": 8,
+     "median_1d": -2.31,
+     "median_5d": -1.36,
+     "median_20d": -1.86
+    }
+   },
+   "sic_peer_median_5d": -1.36,
+   "sympathy_flag": "solo_move: BEEM -3.1% 5d vs peer median -1.4%; peers didn't move with it",
+   "warnings": []
+  },
+  "LZM": {
+   "name": "Lifezone Metals Ltd",
+   "cik": 1958217,
+   "sic": "1000",
+   "sic_description": "Metal Mining",
+   "universe_sources": [
+    "press"
+   ],
+   "last": 3.722,
+   "self_1d": -3.07,
+   "self_5d": -1.01,
+   "self_20d": -7.87,
+   "self_z_1d": -0.8,
+   "as_of": "2026-10-07",
+   "themes": [],
+   "theme_symbols": [],
+   "theme_matches": [],
+   "peers": [
+    {
+     "ticker": "BHP",
+     "name": "BHP Group Ltd",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -2.3,
+     "chg_5d": 0.19,
+     "chg_20d": -7.86,
+     "excluded": null
+    },
+    {
+     "ticker": "SCCO",
+     "name": "SOUTHERN COPPER CORP/",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -2.1,
+     "chg_5d": -1.31,
+     "chg_20d": -4.43,
+     "excluded": null
+    },
+    {
+     "ticker": "RIO",
+     "name": "RIO TINTO PLC",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -2.96,
+     "chg_5d": -1.19,
+     "chg_20d": -10.3,
+     "excluded": null
+    },
+    {
+     "ticker": "FCX",
+     "name": "FREEPORT-MCMORAN INC",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -1.38,
+     "chg_5d": 2.23,
+     "chg_20d": -6.13,
+     "excluded": null
+    },
+    {
+     "ticker": "VALE",
+     "name": "Vale S.A.",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -2.59,
+     "chg_5d": 2.27,
+     "chg_20d": -11.17,
+     "excluded": null
+    },
+    {
+     "ticker": "HBM",
+     "name": "Hudbay Minerals Inc.",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -3.8,
+     "chg_5d": -2.83,
+     "chg_20d": -10.05,
+     "excluded": null
+    },
+    {
+     "ticker": "MP",
+     "name": "MP Materials Corp. / DE",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -4.73,
+     "chg_5d": -2.23,
+     "chg_20d": -14.85,
+     "excluded": null
+    },
+    {
+     "ticker": "BVN",
+     "name": "BUENAVENTURA MINING CO INC",
+     "group": "SIC 1000",
+     "source": "sic",
+     "chg_1d": -1.88,
+     "chg_5d": -0.76,
+     "chg_20d": -11.44,
+     "excluded": null
+    }
+   ],
+   "peer_median_1d": -2.44,
+   "peer_median_5d": -0.97,
+   "peer_median_20d": -10.18,
+   "peer_median_basis": "sic",
+   "peer_groups": {
+    "SIC 1000": {
+     "n": 8,
+     "median_1d": -2.44,
+     "median_5d": -0.97,
+     "median_20d": -10.18
+    }
+   },
+   "sic_peer_median_5d": -0.97,
    "sympathy_flag": null,
    "warnings": []
   }
@@ -2468,7 +3048,6 @@
  "notes": [
   "No free tungsten, antimony, molybdenum or HF-1 price exists in this feed. Themes that need them point at labelled proxies (XME/REMX mining ETFs; HRC=F/SLX general steel), not prices.",
   "Futures (=F) are Yahoo's front-month continuous series; a contract roll can show as an artificial 1-day jump. ^TNX is the 10y yield in % points (chg is % change of the yield).",
-  "watch/press/latest.json not found yet; press titles skipped",
   "Peer median uses curated peers when there are any, else same-SIC peers. SIC peers come from EDGAR's company browse by SIC (largest listed first, max 8); they're a best-effort industry read, not hand-picked comparables.",
   "sympathy_flag: solo_move = ticker 5d move >2x its peer median and >=3%; missed_peer_move = peer median beyond +-5% over 5d while the ticker did under half of it or went the other way."
  ]

@@ -89,12 +89,12 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $12.24 (2026-10-05, ledger) · 1d -5.2%, 5d -84.8%, 20d -86.5% (market context, 2026-10-02)
-- **Since first found:** **+5.2%** (found 2026-09-29 via `idea_spinoff` at $77.87). From the next open $77.91: +5.2% vs IWM +0.8% = **+4.4 pts** vs IWM; direction 0, tracked only (5 days). Includes +1.0 VYLR (spin)
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CTVA -84.8% 5d vs peer median -8.4%; peers didn't move with it. Peer groups: crop inputs (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-02)
+- **Latest price:** $14.13 (2026-10-07, ledger) · 1d +1.6%, 5d -81.8%, 20d -83.3% (market context, 2026-10-07)
+- **Since first found:** **+13.6%** (found 2026-09-29 via `idea_spinoff` at $77.87). From the next open $77.91: +13.5% vs IWM -0.9% = **+14.4 pts** vs IWM; direction 0, tracked only (7 days). Includes +1.0 VYLR (spin)
+  - 1 more ledger row: see Performance since found
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CTVA -81.8% 5d vs peer median -0.3%; peers didn't move with it. Peer groups: crop inputs (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-07)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 5 Oct 2026: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys)
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -103,6 +103,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before -84.8%, found day +3.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1755672/000119312526414490/ck0001755672-20260929.htm)) · Calendar: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#press-releases)**: Press: Corteva Announces Expiration and Final Results of Private Exchange Offers and Consent Solicitations for… (PR Newswire, published Thu 1 Oct) ([release](https://www.prnewswire.com/news-releases/corteva-announces-expiration-and-final-results-of-private-exchange-offers-and-consent-solicitations-for-eidps-2-300-senior-notes-due-2030--5-125-senior-notes-due-2032-and-4-800-senior-notes-due-2033--302895861.html)) · Press: Corteva Announces Extension of Expiration Date in Private Exchange Offers and Consent Solicitations for… (PR Newswire, published Wed 30 Sep) ([release](https://www.prnewswire.com/news-releases/corteva-announces-extension-of-expiration-date-in-private-exchange-offers-and-consent-solicitations-for-eidps-2-300-senior-notes-due-2030--5-125-senior-notes-due-2032-and-4-800-senior-notes-due-2033--302894350.html)) · Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (1. VYLR (Vylor) / CTVA (New Corteva): spin-off completed 1 Oct 2026) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage: **VYLR / CTVA** (spinoff watch): 8-Ks confirm the distribution completed 1 Oct. **New fact for ideas/VYLR.md:** California sued to delay the spin. ([triage](../watch/digests/2026-10-03-triage.md)) · Filings: `8-K` ×4 1 Oct
 - **[2026-10-01](../scans/2026-10-01.md)**: Calendar: VYLR first day of trading (+ THRM/Modine deal closes) ([calendar](../calendar/catalyst-dates.ics))
@@ -115,6 +116,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $77.87 | $77.91 | $12.24 | +5.2% | +5.2% | +0.8% |  | 5 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $77.87 | $77.91 | $14.13 | +13.6% | +13.5% | -0.9% |  | 7 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | -84.8% | +3.9% | $528.3M | $12.39 | $13.08 | $14.13 | +14.0% | +8.0% | -2.4% |  | 1 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

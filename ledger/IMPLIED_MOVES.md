@@ -12,3 +12,4 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-06 | MTUS | MTUS Q3 earnings call: thesis check for trade #1 | 2026-11-06 | 2026-11-20 | $21.04 | ±12.7% | $2.65 @ 20.0 | 13.7% | - | open |  |
 | 2026-10-06 | HZO | HZO merger vote ($53 cash) | 2026-11-11 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | - | open |  |
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | - | open |  |
+| 2026-10-07 | WHF | WHF: $85M notes mature in December, check refinancing | 2026-12-01 | 2027-01-15 | $7.00 | ±18.2% | $1.27 @ 7.5 | 146.0% | - | open |  |
