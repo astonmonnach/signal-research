@@ -26,7 +26,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.171 (2026-10-06, ledger)
-- **Since first found:** **+8.9%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: +31.5% vs IWM -1.7% = **+33.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Since first found:** **+8.9%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: +31.5% vs IWM -1.6% = **+33.2 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 16 Oct 2026: GWH reverse-split vote
@@ -44,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for GWH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.171 | +8.9% | +31.5% | -1.7% |  | 1 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.171 | +8.9% | +31.5% | -1.6% |  | 1 | live |
