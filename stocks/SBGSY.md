@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $56.74 (2026-10-07, ledger)
-- **Since first found:** **-2.5%** (found 2026-10-06 via `deal_acquirer` at $58.20). From the next open $56.73: +0.0% vs IWM -0.2% = **+0.2 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $56.72 (2026-10-07, ledger)
+- **Since first found:** **-2.5%** (found 2026-10-06 via `deal_acquirer` at $58.20). From the next open $56.73: -0.0% vs IWM -0.2% = **+0.2 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -24,4 +24,4 @@ Every [ledger](../ledger/LEDGER.md) row for SBGSY ([rules](../ledger/RULES.md)):
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_acquirer` | 0 | -7.5% | -5.2% | $19.8M | $58.20 | $56.73 | $56.74 | -2.5% | +0.0% | -0.2% |  | 0 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -7.5% | -5.2% | $19.8M | $58.20 | $56.73 | $56.72 | -2.5% | -0.0% | -0.2% |  | 0 | live |
