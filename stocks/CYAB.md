@@ -26,9 +26,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.185 (2026-10-07, ledger)
-- **Since first found:** **-7.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -7.3% vs IWM -1.6% = **-5.7 pts** vs IWM; direction 0, tracked only (2 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $0.189 (2026-10-08, ledger) · 1d -0.4%, 5d -9.9%, 20d -42.6% (market context, 2026-10-08)
+- **Since first found:** **-5.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -5.3% vs IWM -2.0% = **-3.3 pts** vs IWM; direction 0, tracked only (3 days)
+- **Peers / sympathy:** solo_move: CYAB -9.9% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-08)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -36,6 +36,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: Cyabra Secures Enterprise Agreement with Fortune 500 Media and Entertainment Company (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/08/3377373/0/en/cyabra-secures-enterprise-agreement-with-fortune-500-media-and-entertainment-company.html))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 21 Sep + deficiency Jun; $0.20; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -44,4 +45,4 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.185 | -7.3% | -7.3% | -1.6% |  | 2 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.189 | -5.3% | -5.3% | -2.0% |  | 3 | live |

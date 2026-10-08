@@ -1,6 +1,6 @@
-# NQ regime: 2026-10-07 15:45 UTC
+# NQ regime: 2026-10-08 14:34 UTC
 
-Last session **2026-10-06**: range **0.98%** of prior close, 9th percentile of the past year. Big day: **no**.
+Last session **2026-10-07**: range **1.20%** of prior close, 23th percentile of the past year. Big day: **no**.
 
 **Next session: NORMAL.** P(big day) = **7%** vs a 9% base rate (0.8x).
 

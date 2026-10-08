@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $35.02 (2026-10-07, ledger)
-- **Since first found:** **-2.6%** (found 2026-10-06 via `deal_peer` at $35.97). From the next open $35.98: -2.7% vs IWM -0.3% = **-2.3 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $34.50 (2026-10-08, ledger)
+- **Since first found:** **-4.1%** (found 2026-10-06 via `deal_peer` at $35.97). From the next open $35.98: -4.1% vs IWM -0.7% = **-3.4 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: Bentley Systems annonce les lauréats des Year in Infrastructure Awards 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261007429378/fr/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Press: Bentley Systems anuncia los ganadores de los premios Year in Infrastructure Awards 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261007374436/es/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Press: Bentley Systems gibt die Gewinner der Year in Infrastructure Awards 2026 bekannt (Business Wire) ([release](http://www.businesswire.com/news/home/20261007983086/de/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Press: Bentley Systems to Announce Third Quarter 2026 Results on November 5, 2026 (Business Wire, published Wed 7 Oct) ([release](http://www.businesswire.com/news/home/20261007335672/en/Bentley-Systems-to-Announce-Third-Quarter-2026-Results-on-November-5-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Press: Bentley Systems、2026 Year in Infrastructure Awardsの受賞プロジェクトを発表 (Business Wire) ([release](http://www.businesswire.com/news/home/20261007031862/ja/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Press: Year in Infrastructure Awards 2026: Bentley Systems annuncia i vincitori (Business Wire) ([release](http://www.businesswire.com/news/home/20261007648389/it/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_peer` (direction 0): PTC takeout read-across: +10.2% since Fri vs IGV +2.3%; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- Bentley (BSY) +10.2%, Autodesk (ADSK) +8.1%, Procore (PCOR) +5.8%, Dassault (DASTY) +4.4%.) ([note](../research/daily/2026-10-06.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for BSY ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | +11.1% | +3.5% | $94.0M | $35.97 | $35.98 | $35.02 | -2.6% | -2.7% | -0.3% |  | 0 | live |
+| 2026-10-06 | `deal_peer` | 0 | +11.1% | +3.5% | $94.0M | $35.97 | $35.98 | $34.50 | -4.1% | -4.1% | -0.7% |  | 1 | live |

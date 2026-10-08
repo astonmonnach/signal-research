@@ -4,7 +4,7 @@
   "name": "National Defense Stockpile (DLA Strategic Materials)",
   "money_usd": 2000000000,
   "ceilings_usd": 9324512481.08,
-  "ordered_usd": 1375275746.12,
+  "ordered_usd": 1375275787.84,
   "committed_pct": 68.8,
   "ceiling_multiple": 4.66,
   "idiqs": 24,
@@ -12,6 +12,6 @@
    "MTUS",
    "ELMT"
   ],
-  "updated": "2026-10-07 15:46 UTC"
+  "updated": "2026-10-08 14:35 UTC"
  }
 }
