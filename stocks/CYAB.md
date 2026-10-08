@@ -26,9 +26,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.189 (2026-10-08, ledger) · 1d -0.4%, 5d -9.9%, 20d -42.6% (market context, 2026-10-08)
-- **Since first found:** **-5.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -5.3% vs IWM -2.0% = **-3.3 pts** vs IWM; direction 0, tracked only (3 days)
-- **Peers / sympathy:** solo_move: CYAB -9.9% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Latest price:** $0.183 (2026-10-08, ledger) · 1d -3.4%, 5d -12.6%, 20d -44.4% (market context, 2026-10-08)
+- **Since first found:** **-8.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -8.4% vs IWM -2.3% = **-6.1 pts** vs IWM; direction 0, tracked only (3 days)
+- **Peers / sympathy:** solo_move: CYAB -12.6% 5d vs peer median +0.8%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-08)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -45,4 +45,4 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.189 | -5.3% | -5.3% | -2.0% |  | 3 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.183 | -8.4% | -8.4% | -2.3% |  | 3 | live |

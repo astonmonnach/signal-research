@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** open position (trade #1); [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $20.07 (2026-10-08, ledger) · 1d +0.8%, 5d +3.7%, 20d +5.0% (market context, 2026-10-08)
-- **Since first found:** **+6.5%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +2.9% vs IWM -1.5% = **+4.4 pts** vs IWM; direction +1 → excess +4.4% (10 days)
+- **Latest price:** $20.02 (2026-10-08, ledger) · 1d +0.3%, 5d +3.1%, 20d +4.3% (market context, 2026-10-08)
+- **Since first found:** **+6.3%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +2.7% vs IWM -1.8% = **+4.5 pts** vs IWM; direction +1 → excess +4.5% (10 days)
   - 1 more ledger row: see Performance since found
-- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.07 (2026-10-08) +3.6%, P&L if sold, after all fees **$-1.05** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
-- **Peers / sympathy:** solo_move: MTUS +3.7% 5d vs peer median +1.7% (steel +1.8%, defence metals +1.2%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.02 (2026-10-08) +3.4%, P&L if sold, after all fees **$-1.19** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- **Peers / sympathy:** solo_move: MTUS +3.1% 5d vs peer median +1.3% (steel +1.3%, defence metals +0.9%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-08)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 6 Nov 2026: MTUS Q3 earnings call: thesis check for trade #1
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
@@ -136,6 +136,8 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: MTUS: no new filing. ([triage](../watch/digests/2026-10-08-triage.md))
+- **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `4` ×2 5 Oct, `144` 5 Oct
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): watch 7/10 (EV/sales at top of own range; Q3 6 Nov); source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (- **SEC XBRL, MTUS:** cash $108.6M and H1 2026 revenue of $649.3M.) ([note](../research/longterm-2026-10-05/REPORT.md))
 - **[2026-10-04](../scans/2026-10-04.md#press-releases)**: Press: Metallus Awarded $995 million Contract for Critical Defense Applications from U.S. Defense Logistics Agency… (Company IR, published Tue 29 Sep) ([release](https://investors.metallus.com/news/news-details/2026/Metallus-Awarded-995-million-Contract-for-Critical-Defense-Applications-from-U-S--Defense-Logistics-Agency-Receives-Initial-125-Million-Delivery-Order/default.aspx)) · Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (4. MTUS (Metallus): confirmation) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage: **MTUS** (position): Form 4: CEO Michael S. Williams **sold 12,570 sh @ $20.0066** on 2 Oct (code S, **10b5-1 plan adopted 18 May 2026**), leaving… ([triage](../watch/digests/2026-10-03-triage.md)) · Triage: **MTUS**: Form 4 for director Ken Garcia: 1,448 **phantom shares** (deferred director fees) at $18.99. A routine grant, not a buy. ([triage](../watch/digests/2026-10-03-triage.md)) · Filings: `4` 2 Oct, `144` 2 Oct, `4` 1 Oct; +35 older (Feb – Aug 2026) first picked up
@@ -148,9 +150,9 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $20.07 | +6.5% | +2.9% | -1.5% | +4.4% | 10 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $20.07 | -4.6% | -5.0% | -2.9% |  | 2 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $20.02 | +6.3% | +2.7% | -1.8% | +4.5% | 10 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $20.02 | -4.8% | -5.2% | -3.2% |  | 2 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 
-- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.07 (2026-10-08) +3.6%, P&L if sold, after all fees **$-1.05** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.02 (2026-10-08) +3.4%, P&L if sold, after all fees **$-1.19** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00

@@ -103,9 +103,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $29.87 (2026-10-08, ledger) · 1d -1.5%, 5d -11.0%, 20d -21.9% (market context, 2026-10-08)
-- **Since first found:** **-5.8%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -6.3% vs IWM -1.4% = **-4.9 pts** vs IWM; direction 0, tracked only (8 days). Includes +$2.07 cash (special_dividend)
-- **Peers / sympathy:** solo_move: THRM -11.0% 5d vs peer median -1.1%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Latest price:** $29.61 (2026-10-08, ledger) · 1d -2.5%, 5d -11.9%, 20d -22.8% (market context, 2026-10-08)
+- **Since first found:** **-6.6%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.0% vs IWM -1.7% = **-5.3 pts** vs IWM; direction 0, tracked only (8 days). Includes +$2.07 cash (special_dividend)
+- **Peers / sympathy:** solo_move: THRM -11.9% 5d vs peer median -0.8%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-08)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -115,7 +115,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-07](../scans/2026-10-07.md)**: Calendar: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **MOD / THRM** (watchlist, spin-off): the 8-K pro formas confirm the RMT completed 1 Oct; Performance Technologies is discontinued operations from… ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **MOD / THRM:** the 8-K with pro formas confirms the Reverse Morris Trust **completed on 1 Oct**.…) ([note](../research/daily/2026-10-08.md))
+- **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `4` 6 Oct · Calendar: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-05](../scans/2026-10-05.md)**: Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (- **MOD spin.** Yahoo does not adjust MOD for the 1 Oct 2026 spin. Each MOD share received 0.44619 THRM…) ([note](../research/longterm-2026-10-05/REPORT.md))
 - **[2026-10-04](../scans/2026-10-04.md)**: Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (2. THRM (Gentherm) / MOD (Modine): Reverse Morris Trust closed 1 Oct 2026) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage: **THRM / MOD** (watchlist): The Reverse Morris Trust **closed 1 Oct**. Gentherm issued 23,735,961 shares to Modine record-date holders, who now own… ([triage](../watch/digests/2026-10-03-triage.md)) · Filings: `8-K` 1 Oct
@@ -128,6 +129,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.87 | -5.8% | -6.3% | -1.4% |  | 8 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.61 | -6.6% | -7.0% | -1.7% |  | 8 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

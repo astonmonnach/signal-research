@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire))
-- **Latest price:** $2.64 (2026-10-08, ledger) · 1d +4.1%, 5d -17.5%, 20d -28.1% (market context, 2026-10-08)
-- **Since first found:** **-8.8%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -12.3% vs IWM -2.9% = **-9.4 pts** vs IWM; direction +1 → excess -9.4% (2 days)
-- **Peers / sympathy:** solo_move: PUSA -17.5% 5d vs peer median +2.4%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Latest price:** $2.59 (2026-10-08, ledger) · 1d +2.8%, 5d -18.6%, 20d -29.0% (market context, 2026-10-08)
+- **Since first found:** **-10.5%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -13.9% vs IWM -3.2% = **-10.8 pts** vs IWM; direction +1 → excess -10.8% (2 days)
+- **Peers / sympathy:** solo_move: PUSA -18.6% 5d vs peer median +1.7%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-08)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage, dismissed: **PUSA**: passive 13G. Not activism. ([triage](../watch/digests/2026-10-08-triage.md))
+- **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `8-K` 6 Oct
 - **[2026-10-06](../scans/2026-10-06.md#press-releases)**: Press: Powerus (Nasdaq: PUSA) Receives $82 Million Order for Counter-Unmanned Aerial Systems (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/06/3375609/0/en/powerus-nasdaq-pusa-receives-82-million-order-for-counter-unmanned-aerial-systems.html))
 - **[2026-10-05](../scans/2026-10-05.md#triage-notes)**: Triage: **PUSA** (watchlist, idea_contract_press logged today): The 8-K of 1 Oct confirms the **reverse merger closed 1 Oct**. ([triage](../watch/digests/2026-10-05-triage.md)) · Press: Powerus (Nasdaq: PUSA) Awarded $82 Million Order for Counter-Unmanned Aerial Systems (Business Wire) ([release](http://www.businesswire.com/news/home/20261005607207/en/Powerus-Nasdaq-PUSA-Awarded-82-Million-Order-for-Counter-Unmanned-Aerial-Systems/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Logged as `idea_contract_press` (direction +1): $82M funded order under existing USG IDIQ (2nd order) = ~17% of est. ~$485M mcap; stock -17% since 1 Oct reverse merger; under-reaction test like MTUS; source: press release (Business Wire) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` 1 Oct; +22 older (Sep – Sep 2026) first picked up
 
@@ -25,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for PUSA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.64 | -8.8% | -12.3% | -2.9% | -9.4% | 2 | live |
+| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.59 | -10.5% | -13.9% | -3.2% | -10.8% | 2 | live |
