@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $94.85 (2026-10-08, ledger)
-- **Since first found:** **+0.0%** (found 2026-10-07 via `8k_merger_agreement` at $94.85). From the next open $94.85: +0.0% vs IWM -0.3% = **+0.3 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $94.87 (2026-10-08, ledger)
+- **Since first found:** **+0.0%** (found 2026-10-07 via `8k_merger_agreement` at $94.85). From the next open $94.85: +0.0% vs IWM -0.6% = **+0.6 pts** vs IWM; direction 0, tracked only (0 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for ATKR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `8k_merger_agreement` | 0 | -0.0% | +0.1% | $75.2M | $94.85 | $94.85 | $94.85 | +0.0% | +0.0% | -0.3% |  | 0 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.1% | +0.0% | $72.4M | $94.85 |  | $94.85 |  |  |  |  |  | pending |
+| 2026-10-07 | `8k_merger_agreement` | 0 | -0.0% | +0.1% | $75.2M | $94.85 | $94.85 | $94.87 | +0.0% | +0.0% | -0.6% |  | 0 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.1% | +0.0% | $72.6M | $94.87 |  | $94.87 |  |  |  |  |  | pending |
