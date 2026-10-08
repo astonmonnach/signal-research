@@ -1,26 +1,26 @@
 [
  {
-  "published_utc": "2026-10-07T19:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "SRXH",
-  "title": "SRX Global and CERO 1236, a Wholly-Owned SPV, Enter into Definitive Agreement to Acquire CERo Therapeutics, an Innovative Cellular Immunotherapy Company Developing CER 1236 for Hematologic Malignancies",
-  "link": "https://www.globenewswire.com/news-release/2026/10/07/3376797/0/en/srx-global-and-cero-1236-a-wholly-owned-spv-enter-into-definitive-agreement-to-acquire-cero-therapeutics-an-innovative-cellular-immunotherapy-company-developing-cer-1236-for-hemato.html",
-  "matched_on": "keyword:definitive agreement"
+  "published_utc": "2026-10-07T20:01:00Z",
+  "wire": "Business Wire",
+  "ticker": "BSY",
+  "title": "Bentley Systems to Announce Third Quarter 2026 Results on November 5, 2026",
+  "link": "http://www.businesswire.com/news/home/20261007335672/en/Bentley-Systems-to-Announce-Third-Quarter-2026-Results-on-November-5-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-10-07T16:57:00Z",
+  "published_utc": "2026-10-07T20:05:00Z",
   "wire": "Business Wire",
-  "ticker": "PFE",
-  "title": "Pfizer’s TUKYSA Regimen Receives FDA Approval as Front-Line Maintenance Treatment for HER2+ Metastatic Breast Cancer",
-  "link": "http://www.businesswire.com/news/home/20261007040182/en/Pfizer%E2%80%99s-TUKYSA-Regimen-Receives-FDA-Approval-as-Front-Line-Maintenance-Treatment-for-HER2-Metastatic-Breast-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:FDA approval"
+  "ticker": "WOLF",
+  "title": "Wolfspeed Announces Conditional 30-Year, $1.5 Billion Loan Commitment from U.S. Department of War to Advance Domestic Wide Bandgap Supply Chain",
+  "link": "http://www.businesswire.com/news/home/20261007217564/en/Wolfspeed-Announces-Conditional-30-Year-1.5-Billion-Loan-Commitment-from-U.S.-Department-of-War-to-Advance-Domestic-Wide-Bandgap-Supply-Chain/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:Department of War;keyword:Office of Strategic Capital"
  },
  {
-  "published_utc": "2026-10-07T14:30:00Z",
+  "published_utc": "2026-10-07T20:05:00Z",
   "wire": "Business Wire",
-  "ticker": "SNX",
-  "title": "TD SYNNEX Announces Entering Into a Definitive Agreement to Acquire BlueStar",
-  "link": "http://www.businesswire.com/news/home/20261007469845/en/TD-SYNNEX-Announces-Entering-Into-a-Definitive-Agreement-to-Acquire-BlueStar/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
+  "ticker": "GKOS",
+  "title": "Glaukos Announces Positive Three-Year Epioxa® Results Demonstrating Durable Clinical Outcomes in Keratoconus",
+  "link": "http://www.businesswire.com/news/home/20261007149511/en/Glaukos-Announces-Positive-Three-Year-Epioxa%C2%AE-Results-Demonstrating-Durable-Clinical-Outcomes-in-Keratoconus/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
  }
 ]
