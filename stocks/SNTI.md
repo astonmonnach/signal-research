@@ -25,17 +25,17 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.322 (2026-10-08, ledger)
-- **Since first found:** **+0.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: +3.9% vs IWM -2.4% = **+6.3 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $0.319 (2026-10-09, ledger)
+- **Since first found:** **-0.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: +3.1% vs IWM -1.2% = **+4.2 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 8 Oct 2026: SNTI reverse-split vote
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md)**: Calendar: SNTI reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 25 Sep + deficiency 2 Sep; $0.32; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -44,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.322 | +0.1% | +3.9% | -2.4% |  | 3 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.319 | -0.8% | +3.1% | -1.2% |  | 4 | live |

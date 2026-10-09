@@ -103,9 +103,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $29.54 (2026-10-08, ledger) · 1d -2.8%, 5d -12.2%, 20d -23.0% (market context, 2026-10-08)
-- **Since first found:** **-6.8%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.2% vs IWM -1.8% = **-5.5 pts** vs IWM; direction 0, tracked only (8 days). Includes +$2.07 cash (special_dividend)
-- **Peers / sympathy:** solo_move: THRM -12.2% 5d vs peer median -1.1%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Latest price:** $29.58 (2026-10-09, ledger) · 1d -1.3%, 5d -5.6%, 20d -23.9% (market context, 2026-10-09)
+- **Since first found:** **-6.7%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.1% vs IWM -0.5% = **-6.6 pts** vs IWM; direction 0, tracked only (9 days). Includes +$2.07 cash (special_dividend)
+- **Peers / sympathy:** solo_move: THRM -5.6% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -129,6 +129,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.54 | -6.8% | -7.2% | -1.8% |  | 8 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.58 | -6.7% | -7.1% | -0.5% |  | 9 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

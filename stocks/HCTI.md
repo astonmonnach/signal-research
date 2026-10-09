@@ -24,12 +24,11 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.521 (2026-10-08, ledger)
-- **Since first found:** **-28.2%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -13.2% vs IWM -2.4% = **-10.9 pts** vs IWM; direction -1 → excess +10.9% (3 days)
+- **Latest price:** $0.491 (2026-10-09, ledger)
+- **Since first found:** **-32.2%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -18.1% vs IWM -1.2% = **-16.9 pts** vs IWM; direction -1 → excess +16.9% (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 8 Oct 2026: HCTI hearing request due (else suspended 12 Oct)
   - Mon 12 Oct 2026: HCTI suspended if no hearing request
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -37,6 +36,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md)**: Calendar: HCTI hearing request due (else suspended 12 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage, dismissed: Reverse splits (VTAK, JOB, HCTI, OPNW, CYCU, XELB, DARE), delistings, and EFFECT notices on micro-caps: not read. ([triage](../watch/digests/2026-10-03-triage.md))
 - **[2026-10-02](../scans/2026-10-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -3.8%, found day +3.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1839285/000121390026106533/ea0307459-8k_healthcare.htm))
@@ -47,5 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.521 | -28.2% | -13.2% | -2.4% | +10.9% | 3 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.521 | -28.2% | -13.2% | -2.4% |  | 3 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.491 | -32.2% | -18.1% | -1.2% | +16.9% | 4 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.491 | -32.2% | -18.1% | -1.2% |  | 4 | live |

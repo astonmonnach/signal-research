@@ -59,53 +59,53 @@ One file per stock: every ticker on the watchlist (`watch/watchlist.json`), in `
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [MTUS](MTUS.md) | Metallus Inc. | $19.87 (08 Oct) | +5.5% since 25 Sep | +3.7 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [MTUS](MTUS.md) | Metallus Inc. | $19.96 (09 Oct) | +5.9% since 25 Sep | +2.9 pts | [2026-10-08](../scans/2026-10-08.md) |
 
 ## Watchlist
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [CHDN](CHDN.md) | Churchill Downs Inc | $73.82 (08 Oct) | -2.5% since 28 Sep | -1.1 pts | [2026-09-28](../scans/2026-09-28.md) |
-| [CTVA](CTVA.md) | Corteva, Inc. | $14.38 (08 Oct) | +655.2% since 29 Sep | +656.5 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [ELMT](ELMT.md) | Elmet Group Co. | $20.71 (08 Oct) | +5.5% since 25 Sep | +9.5 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [ESRT](ESRT.md) | Empire State Realty Trust, Inc. | $4.41 (08 Oct) | +4.4% since 05 Oct | +5.9 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [HMH](HMH.md) | HMH Holding Inc | $18.26 (08 Oct) | -5.3% since 28 Sep | -1.4 pts | [2026-09-30](../scans/2026-09-30.md) |
-| [MOD](MOD.md) | Modine Manufacturing Co | $182.41 (08 Oct) | +4.5% since 30 Sep | +5.0 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [PUSA](PUSA.md) | Aureus Greenway Holdings Inc | $2.46 (08 Oct) | -14.8% since 05 Oct | -14.9 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [RYAM](RYAM.md) | Rayonier Advanced Materials Inc. | $6.80 (08 Oct) | -16.6% since 28 Sep | -14.8 pts | [2026-09-28](../scans/2026-09-28.md) |
-| [THRM](THRM.md) | Gentherm Inc | $29.54 (08 Oct) | -6.8% since 29 Sep | -5.5 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [TWST](TWST.md) | Twist Bioscience Corp | $151.79 (08 Oct) | -21.4% since 30 Sep | -20.6 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [VYLR](VYLR.md) | Vylor Inc. | $73.85 (08 Oct) | +8.2% since 01 Oct | +10.0 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [WHF](WHF.md) | WhiteHorse Finance, Inc. | $6.89 (08 Oct) | -1.1% since 28 Sep | +0.9 pts | [2026-09-28](../scans/2026-09-28.md) |
+| [CHDN](CHDN.md) | Churchill Downs Inc | $79.42 (09 Oct) | +4.9% since 28 Sep | +5.1 pts | [2026-09-28](../scans/2026-09-28.md) |
+| [CTVA](CTVA.md) | Corteva, Inc. | $13.42 (09 Oct) | +640.9% since 29 Sep | +641.0 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [ELMT](ELMT.md) | Elmet Group Co. | $20.62 (09 Oct) | +5.0% since 25 Sep | +7.8 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [ESRT](ESRT.md) | Empire State Realty Trust, Inc. | $4.47 (09 Oct) | +5.8% since 05 Oct | +6.1 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [HMH](HMH.md) | HMH Holding Inc | $18.62 (09 Oct) | -3.4% since 28 Sep | -0.8 pts | [2026-09-30](../scans/2026-09-30.md) |
+| [MOD](MOD.md) | Modine Manufacturing Co | $181.97 (09 Oct) | +4.3% since 30 Sep | +3.5 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [PUSA](PUSA.md) | Aureus Greenway Holdings Inc | $2.57 (09 Oct) | -11.2% since 05 Oct | -12.6 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [RYAM](RYAM.md) | Rayonier Advanced Materials Inc. | $6.84 (09 Oct) | -16.1% since 28 Sep | -15.6 pts | [2026-09-28](../scans/2026-09-28.md) |
+| [THRM](THRM.md) | Gentherm Inc | $29.58 (09 Oct) | -6.7% since 29 Sep | -6.6 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [TWST](TWST.md) | Twist Bioscience Corp | $166.58 (09 Oct) | -13.8% since 30 Sep | -14.2 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [VYLR](VYLR.md) | Vylor Inc. | $73.14 (09 Oct) | +7.2% since 01 Oct | +7.7 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [WHF](WHF.md) | WhiteHorse Finance, Inc. | $7.08 (09 Oct) | +1.6% since 28 Sep | +2.4 pts | [2026-09-28](../scans/2026-09-28.md) |
 
 ## Setups (watch only)
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [AAON](AAON.md) | Aaon, Inc. | $87.43 (08 Oct) | +3.6% since 05 Oct | +5.7 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [ADSK](ADSK.md) | Autodesk, Inc. | $231.16 (08 Oct) | -0.1% since 06 Oct | +1.0 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [ATKR](ATKR.md) | Atkore Inc. | $94.88 (08 Oct) | +0.0% since 07 Oct | +0.4 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [BSY](BSY.md) | Bentley Systems Inc | $34.43 (08 Oct) | -4.3% since 06 Oct | -3.2 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [CHRW](CHRW.md) | C. H. Robinson Worldwide, Inc. | $138.37 (08 Oct) | -1.6% since 05 Oct | +1.5 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [CLF](CLF.md) | Cleveland-cliffs Inc. | $12.03 (08 Oct) | -1.4% since 05 Oct | -3.4 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [CSR](CSR.md) | Centerspace | $54.53 (08 Oct) | +0.2% since 07 Oct | +0.7 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [CYAB](CYAB.md) | Cyabra, Inc. | $0.182 (08 Oct) | -9.1% since 04 Oct | -6.7 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [DYAI](DYAI.md) | Dyadic International Inc | $0.440 (08 Oct) | -4.3% since 04 Oct | -2.0 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [FLD](FLD.md) | Fold Holdings, Inc. | $0.552 (08 Oct) | +2.3% since 29 Sep | +5.0 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [GOVX](GOVX.md) | GeoVax Labs, Inc. | $0.303 (08 Oct) | -5.4% since 04 Oct | -5.9 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [GWH](GWH.md) | ESS Tech, Inc. | $0.130 (07 Oct) | -17.2% since 04 Oct | +2.4 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [GXAI](GXAI.md) | Gaxos.ai Inc. | $0.421 (08 Oct) | -18.4% since 04 Oct | -11.8 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [HCTI](HCTI.md) | Healthcare Triangle, Inc. | $0.521 (08 Oct) | -28.2% since 02 Oct | -10.9 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [HUBG](HUBG.md) | Hub Group, Inc. | $26.32 (08 Oct) | -6.5% since 06 Oct | -4.1 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [JBHT](JBHT.md) | Hunt J B Transport Services Inc | $224.23 (08 Oct) | -0.8% since 06 Oct | +1.4 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [LSTR](LSTR.md) | Landstar System Inc | $167.57 (08 Oct) | -0.9% since 06 Oct | +1.6 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [MP](MP.md) | MP Materials Corp. / DE | $45.85 (08 Oct) | -2.1% since 05 Oct | -0.0 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [PCOR](PCOR.md) | Procore Technologies, Inc. | $54.16 (08 Oct) | -0.4% since 06 Oct | +1.3 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [POLA](POLA.md) | Polar Power, Inc. | $1.13 (08 Oct) | -10.3% since 28 Sep | -9.9 pts | [2026-10-07](../scans/2026-10-07.md) |
-| [PTC](PTC.md) | Ptc Inc. | $193.66 (08 Oct) | +0.7% since 05 Oct | +3.6 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [RXO](RXO.md) | RXO, Inc. | $28.68 (08 Oct) | +0.1% since 05 Oct | +3.1 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [SBGSY](SBGSY.md) | SBGSY | $58.32 (08 Oct) | +0.2% since 06 Oct | +3.9 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $0.322 (08 Oct) | +0.1% since 04 Oct | +6.3 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [UAMY](UAMY.md) | United States Antimony Corp | $3.71 (08 Oct) | -6.1% since 05 Oct | -4.5 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [VHUB](VHUB.md) | VenHub Global, Inc. | $0.414 (08 Oct) | -13.7% since 04 Oct | -3.4 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [VRT](VRT.md) | Vertiv Holdings Co | $249.71 (08 Oct) | -1.5% since 05 Oct | +1.9 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [AAON](AAON.md) | Aaon, Inc. | $86.18 (09 Oct) | +2.2% since 05 Oct | +3.0 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [ADSK](ADSK.md) | Autodesk, Inc. | $237.43 (09 Oct) | +2.7% since 06 Oct | +2.5 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [ATKR](ATKR.md) | Atkore Inc. | $94.86 (09 Oct) | +0.0% since 07 Oct | -0.8 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [BSY](BSY.md) | Bentley Systems Inc | $34.97 (09 Oct) | -2.8% since 06 Oct | -3.0 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [CHRW](CHRW.md) | C. H. Robinson Worldwide, Inc. | $142.88 (09 Oct) | +1.6% since 05 Oct | +3.5 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [CLF](CLF.md) | Cleveland-cliffs Inc. | $12.62 (09 Oct) | +3.4% since 05 Oct | -0.0 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [CSR](CSR.md) | Centerspace | $55.59 (09 Oct) | +2.1% since 07 Oct | +1.4 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [CYAB](CYAB.md) | Cyabra, Inc. | $0.178 (09 Oct) | -11.2% since 04 Oct | -10.0 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [DYAI](DYAI.md) | Dyadic International Inc | $0.455 (09 Oct) | -1.1% since 04 Oct | +0.1 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [FLD](FLD.md) | Fold Holdings, Inc. | $0.585 (09 Oct) | +8.3% since 29 Sep | +9.9 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [GOVX](GOVX.md) | GeoVax Labs, Inc. | $0.287 (09 Oct) | -10.4% since 04 Oct | -12.0 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [GWH](GWH.md) | ESS Tech, Inc. | $0.100 (08 Oct) | -36.3% since 04 Oct | -21.9 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [GXAI](GXAI.md) | Gaxos.ai Inc. | $0.426 (09 Oct) | -17.4% since 04 Oct | -12.0 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [HCTI](HCTI.md) | Healthcare Triangle, Inc. | $0.491 (09 Oct) | -32.2% since 02 Oct | -16.9 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [HUBG](HUBG.md) | Hub Group, Inc. | $26.49 (09 Oct) | -5.9% since 06 Oct | -4.7 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [JBHT](JBHT.md) | Hunt J B Transport Services Inc | $228.31 (09 Oct) | +1.1% since 06 Oct | +2.0 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [LSTR](LSTR.md) | Landstar System Inc | $169.15 (09 Oct) | +0.1% since 06 Oct | +1.3 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [MP](MP.md) | MP Materials Corp. / DE | $45.99 (09 Oct) | -1.8% since 05 Oct | -1.0 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [PCOR](PCOR.md) | Procore Technologies, Inc. | $54.81 (09 Oct) | +0.8% since 06 Oct | +1.3 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [POLA](POLA.md) | Polar Power, Inc. | $1.11 (09 Oct) | -12.2% since 28 Sep | -13.0 pts | [2026-10-07](../scans/2026-10-07.md) |
+| [PTC](PTC.md) | Ptc Inc. | $194.26 (09 Oct) | +1.0% since 05 Oct | +2.7 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [RXO](RXO.md) | RXO, Inc. | $29.07 (09 Oct) | +1.4% since 05 Oct | +3.2 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [SBGSY](SBGSY.md) | SBGSY | $59.15 (09 Oct) | +1.6% since 06 Oct | +4.1 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $0.319 (09 Oct) | -0.8% since 04 Oct | +4.2 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [UAMY](UAMY.md) | United States Antimony Corp | $3.71 (09 Oct) | -6.0% since 05 Oct | -5.7 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [VHUB](VHUB.md) | VenHub Global, Inc. | $0.400 (09 Oct) | -16.7% since 04 Oct | -7.9 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [VRT](VRT.md) | Vertiv Holdings Co | $244.66 (09 Oct) | -3.5% since 05 Oct | -1.4 pts | [2026-10-05](../scans/2026-10-05.md) |

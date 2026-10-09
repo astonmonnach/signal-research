@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $45.85 (2026-10-08, ledger)
-- **Since first found:** **-2.1%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -3.3% vs IWM -3.2% = **-0.0 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $45.99 (2026-10-09, ledger)
+- **Since first found:** **-1.8%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -3.0% vs IWM -2.0% = **-1.0 pts** vs IWM; direction 0, tracked only (3 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: MP Materials Announces Date for Third Quarter 2026 Financial Results and Webcast (Business Wire) ([release](http://www.businesswire.com/news/home/20261008452637/en/MP-Materials-Announces-Date-for-Third-Quarter-2026-Financial-Results-and-Webcast/?feedref=JjAwJuNHiystnCoBq_hl-WM0HSwaiJOV4ew37VhmA-V_AFChGO3y0nEP3RiLje9i7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LP6oD-t3eB0qV-nJQ-WeFyC2oJ72yfyvUvvaxllIYV0HQ==))
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): already run (EV/sales 25.6x vs 10.9x median; ~33% potential dilution); source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (MP A Rare earths, with a DoW price floor, equity and offtake 8 already run The theme shows up as DoW "price…) ([note](../research/longterm-2026-10-05/REPORT.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for MP ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $45.85 | -2.1% | -3.3% | -3.2% |  | 2 | live |
+| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $45.99 | -1.8% | -3.0% | -2.0% |  | 3 | live |

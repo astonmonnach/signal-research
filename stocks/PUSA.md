@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire))
-- **Latest price:** $2.46 (2026-10-08, ledger) · 1d -2.8%, 5d -23.0%, 20d -32.8% (market context, 2026-10-08)
-- **Since first found:** **-14.8%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -18.1% vs IWM -3.2% = **-14.9 pts** vs IWM; direction +1 → excess -14.9% (2 days)
-- **Peers / sympathy:** solo_move: PUSA -23.0% 5d vs peer median +2.5%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-08)
+- **Latest price:** $2.57 (2026-10-09, ledger) · 1d +1.5%, 5d -18.1%, 20d -29.3% (market context, 2026-10-09)
+- **Since first found:** **-11.2%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -14.6% vs IWM -2.0% = **-12.6 pts** vs IWM; direction +1 → excess -12.6% (3 days)
+- **Peers / sympathy:** solo_move: PUSA -18.1% 5d vs peer median +0.2%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for PUSA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.46 | -14.8% | -18.1% | -3.2% | -14.9% | 2 | live |
+| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.57 | -11.2% | -14.6% | -2.0% | -12.6% | 3 | live |
