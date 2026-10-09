@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "published_utc": "2026-10-09T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LOAN",
+  "title": "Manhattan Bridge Capital, Inc. Announces Increase and Extension of its Existing Buy-Back of up to 250,000 of its Common Shares",
+  "link": "https://www.globenewswire.com/news-release/2026/10/09/3377988/8691/en/manhattan-bridge-capital-inc-announces-increase-and-extension-of-its-existing-buy-back-of-up-to-250-000-of-its-common-shares.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-10-09T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SGMT",
+  "title": "Sagimet To Present Positive Full 52-Week Results from License Partner Ascletis' Phase 3 Open-Label Extension Clinical Trial of Denifanstat in Acne and Mechanistic Data at the 2026 Fall Clinical Dermatology Conference",
+  "link": "https://www.globenewswire.com/news-release/2026/10/09/3377993/0/en/sagimet-to-present-positive-full-52-week-results-from-license-partner-ascletis-phase-3-open-label-extension-clinical-trial-of-denifanstat-in-acne-and-mechanistic-data-at-the-2026-f.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-09T10:04:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RIG",
+  "title": "Transocean Ltd. Announces Contract Backlog of Approximately $1.1 Billion, Including Fully Approved Equinor Agreement",
+  "link": "https://www.globenewswire.com/news-release/2026/10/09/3377956/0/en/transocean-ltd-announces-contract-backlog-of-approximately-1-1-billion-including-fully-approved-equinor-agreement.html",
+  "matched_on": "keyword:contract award"
+ },
+ {
+  "published_utc": "2026-10-09T08:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ALMS",
+  "title": "Alumis Announces New Phase 3 Data Demonstrating Envudeucitinib Rapidly and Durably Improved Psoriasis Burden Across Scalp, Itch, and Quality of Life Measures",
+  "link": "https://www.globenewswire.com/news-release/2026/10/09/3377840/0/en/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib-rapidly-and-durably-improved-psoriasis-burden-across-scalp-itch-and-quality-of-life-measures.html",
+  "matched_on": "keyword:Phase 3"
+ }
+]
