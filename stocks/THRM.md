@@ -103,9 +103,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $29.37 (2026-10-09, ledger) · 1d -1.7%, 5d -6.0%, 20d -24.3% (market context, 2026-10-09)
-- **Since first found:** **-7.3%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.8% vs IWM -0.5% = **-7.3 pts** vs IWM; direction 0, tracked only (9 days). Includes +$2.07 cash (special_dividend)
-- **Peers / sympathy:** solo_move: THRM -6.0% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-09)
+- **Latest price:** $29.35 (2026-10-09, ledger) · 1d -1.9%, 5d -6.2%, 20d -24.4% (market context, 2026-10-09)
+- **Since first found:** **-7.4%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.8% vs IWM -0.5% = **-7.3 pts** vs IWM; direction 0, tracked only (9 days). Includes +$2.07 cash (special_dividend)
+- **Peers / sympathy:** solo_move: THRM -6.2% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -129,6 +129,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.37 | -7.3% | -7.8% | -0.5% |  | 9 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.35 | -7.4% | -7.8% | -0.5% |  | 9 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

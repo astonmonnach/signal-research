@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** open position (trade #1); [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $20.24 (2026-10-09, ledger) · 1d +3.0%, 5d +1.7%, 20d +5.2% (market context, 2026-10-09)
+- **Latest price:** $20.24 (2026-10-09, ledger) · 1d +3.0%, 5d +1.7%, 20d +5.1% (market context, 2026-10-09)
 - **Since first found:** **+7.4%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +3.8% vs IWM -0.6% = **+4.3 pts** vs IWM; direction +1 → excess +4.3% (11 days)
   - 1 more ledger row: see Performance since found
 - **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.24 (2026-10-09) +4.5%, P&L if sold, after all fees **$-0.56** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
-- **Peers / sympathy:** no flag (self 5d +1.7% vs peer median +0.5%). Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-09)
+- **Peers / sympathy:** no flag (self 5d +1.7% vs peer median +0.4%). Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 6 Nov 2026: MTUS Q3 earnings call: thesis check for trade #1
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
