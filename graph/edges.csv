@@ -1,0 +1,28 @@
+date,a,b,type,detail,source
+2026-10-08,VTRS,PCRX,merger,Viatris buying Pacira: $36.50 cash tender,https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm
+2026-10-08,ON,SYNA,merger,onsemi buying Synaptics: $123.00 cash,https://www.sec.gov/Archives/edgar/data/817720/000114036126039142/0001140361-26-039142-index.html
+2026-10-08,CPRT,ACVA,merger,"Copart buying ACV Auctions: $10.50 cash tender, expires 15 Oct",https://www.sec.gov/Archives/edgar/data/1637873/000119312526417451/d181465dsctota.htm
+2026-10-05,co:Schneider Electric (SBGSY),PTC,merger,Schneider buying PTC: $205 cash,https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm
+2026-10-05,CHRW,RXO,merger,C.H. Robinson buying RXO: $17.25 cash + 0.0856 CHRW shares,https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm
+2026-10-07,co:Prysmian (PRY.MI),ATKR,merger,Prysmian buying Atkore: $95 cash; vote passed 7 Oct,https://www.sec.gov/Archives/edgar/data/1666138/000166613826000037/atkr-20261007.htm
+2026-10-08,IRT,CSR,merger,IRT buying Centerspace: 3.800 IRT shares each; votes 10 Nov,https://www.sec.gov/Archives/edgar/data/798359/0001140361-26-038922-index.htm
+2026-10-09,BSVN,co:Century (private bank),merger,Bank7 buying Century; closing about 1 Nov,https://www.sec.gov/Archives/edgar/data/1746129/000114036126039264/ef20083587_8k.htm
+2026-10-08,CRGY,DVN,asset_deal,Crescent Energy buying Devon's Eagle Ford assets,"scans/2026-10-08.md (Business Wire release, 8 Oct 2026)"
+2026-10-09,MSGS,MSGR,spin_off,"Rangers spin-off: 1 MSGR per 2 MSGS, effective 26 Oct; MSGS becomes MSGK",https://www.sec.gov/Archives/edgar/data/2132873/000119312526419170/d122415dex991.htm
+2026-10-07,MDT,MMED,spin_off,"MiniMed split-off by exchange offer; expired 9 Oct, ratio 4.5939",https://www.sec.gov/Archives/edgar/data/1613103/000162828026065402/a425-finalexchangeratio108.htm
+2026-10-01,CTVA,VYLR,spin_off,"1 VYLR per CTVA share, 1 Oct 2026",ledger/corporate_actions.csv
+2026-10-02,MOD,THRM,spin_off,"Modine RMT: 0.44619 THRM per MOD share, 2 Oct 2026",ledger/corporate_actions.csv
+2026-10-09,MSGR,MSGE,counterparty,the Rangers play at The Garden under an arena licence from MSG Entertainment,https://www.sec.gov/Archives/edgar/data/2132873/000119312526419170/d122415dex991.htm
+2026-10-09,MSGR,co:MSG Networks,counterparty,local TV rights: fee cut 18% from Jan 2025; deal ends after 2028-29,https://www.sec.gov/Archives/edgar/data/2132873/000119312526419170/d122415dex991.htm
+2026-10-02,fund:Erez Asset Management,ESRT,holder_13d,"13D group holds 10.0M shares (5.8%), asks for a strategic review",https://www.sec.gov/Archives/edgar/data/1541401/0000902664-26-004065-index.htm
+2026-10-09,fund:Blantyre Capital,NCMI,holder_13d,28.9% holder from the restructuring; board designation rights,https://www.sec.gov/Archives/edgar/data/1377630/000119312526419074/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-09-25,office:SP8000 (DLA stockpile),MTUS,awarded_by,"$995M HF-1 steel IDIQ, 25 Sep 2026",https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/
+2026-09-25,office:SP8000 (DLA stockpile),ELMT,awarded_by,"$35.6M contract, same office, same day",https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/
+2026-09-11,office:W519TC (Army),OLN,awarded_by,"$788M ammunition IDIQ, 11 Sep 2026",https://www.war.gov/News/Contracts/Contract/Article/4599224/contracts-for-sept-11-2026/
+2026-10-05,RXO,HUBG,peer_named,rival freight broker; fell 5.6% on the RXO deal,research/daily/2026-10-06.md
+2026-10-05,RXO,JBHT,peer_named,rival freight broker; fell 3.3% on the RXO deal,research/daily/2026-10-06.md
+2026-10-05,RXO,LSTR,peer_named,rival freight broker; fell 2.1% on the RXO deal,research/daily/2026-10-06.md
+2026-10-05,RXO,XPO,peer_named,rival freight broker; fell 1.1% on the RXO deal,research/daily/2026-10-06.md
+2026-10-08,ESRT,SLG,peer_named,New York office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
+2026-10-08,ESRT,VNO,peer_named,New York office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
+2026-10-08,ESRT,BXP,peer_named,office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
