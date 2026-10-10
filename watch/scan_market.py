@@ -47,6 +47,12 @@ NOT_SUPPLY = [("POS", "no new shares"), ("S-8 POS", "no new shares"), ("F-6", "A
 PHRASES = ["agreement and plan of merger", "strategic alternatives", "strategic review", "go-shop", "spin-off",
            "reverse stock split", "special dividend", "lock-up", "tender offer"]
 
+# Foreign companies listed in the US (most small Chinese and Hong Kong names) file 6-Ks, not 8-Ks, and no Form 4s.
+# Added 2026-10-10: in the runners study a 6-K on the run day or the evening before was 4.4x more common in runners.
+# These are a watch-and-avoid list by default: the D2 test found China/HK followers lost about 3.5% in 5 days.
+PHRASES_6K = ["private placement", "registered direct offering", "securities purchase agreement", "share consolidation",
+              "strategic cooperation", "merger agreement", "going private", "tender offer"]
+
 
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
@@ -121,15 +127,16 @@ def scan(day):
             f"- **{'/'.join(tickers[cik])}** {name} `{form}`{note} "
             f"[filing index](https://www.sec.gov/Archives/{path.replace('.txt', '-index.htm')})")
 
-    by_filing = {}
-    for p in PHRASES:
+    by_filing, by_6k = {}, {}
+    for form_type, p in [("8-K", x) for x in PHRASES] + [("6-K", x) for x in PHRASES_6K]:
         time.sleep(0.3)
+        store = by_filing if form_type == "8-K" else by_6k
         q = urllib.parse.urlencode({"q": f'"{p}"', "dateRange": "custom", "category": "custom",
-                                    "startdt": f"{day}", "enddt": f"{day}", "forms": "8-K"})
+                                    "startdt": f"{day}", "enddt": f"{day}", "forms": form_type})
         try:
             res = json.loads(fetch(f"https://efts.sec.gov/LATEST/search-index?{q}"))["hits"]["hits"]
         except Exception as e:
-            by_filing[f"err-{p}"] = [f"_search for \"{p}\" failed: {e}_"]
+            store[f"err-{p}"] = [f"_search for \"{p}\" failed: {e}_"]
             continue
         for h in res:
             s = h["_source"]
@@ -141,7 +148,7 @@ def scan(day):
             url = f"https://www.sec.gov/Archives/edgar/data/{ciks[0]}/{acc.replace('-', '')}/{fname}"
             tk = "/".join(t for c in ciks for t in tickers.get(c, []))
             items = s.get("items", []) or []
-            entry = by_filing.setdefault(acc, [tk, url, [], items])
+            entry = store.setdefault(acc, [tk, url, [], items])
             # A director/officer 8-K (Item 5.02) without a business item (8.01/1.01/2.01) that
             # mentions "strategic alternatives" is almost always a bio line (e.g. LWLG 29 Sep 2026).
             label = p
@@ -157,7 +164,10 @@ def scan(day):
                    f"- **{v[0]}** {', '.join(v[2])} [8-K]({v[1]}) items {','.join(v[3]) or '?'}"
                    for k, v in by_filing.items()]
 
-    n = sum(len(v) for v in hits.values()) + len(phrase_hits)
+    hits_6k = [f"- {v[0]}" if k.startswith("err-") else f"- **{v[0]}** {', '.join(v[2])} [6-K]({v[1]})"
+               for k, v in by_6k.items()]
+
+    n = sum(len(v) for v in hits.values()) + len(phrase_hits) + len(hits_6k)
     lines = [f"# Market-wide filings scan {day}", "",
              f"{total:,} filings filed. {n} from listed companies match our event types.", ""]
     for section in dict.fromkeys(FORMS.values()):
@@ -165,6 +175,8 @@ def scan(day):
             lines += [f"## {section}", *hits[section], ""]
     if phrase_hits:
         lines += ["## 8-Ks with trigger phrases", *phrase_hits, ""]
+    if hits_6k:
+        lines += ["## 6-Ks with trigger phrases (foreign companies: watch and avoid by default)", *hits_6k, ""]
     OUT.mkdir(exist_ok=True)
     (OUT / f"{day}.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
