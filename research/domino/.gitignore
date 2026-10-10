@@ -3,3 +3,4 @@ lows.npz
 d3_trades.csv
 d3_trades_cap.csv
 facts_cache/
+live_check.csv

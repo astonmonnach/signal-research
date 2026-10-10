@@ -26,3 +26,12 @@ date,a,b,type,detail,source
 2026-10-08,ESRT,SLG,peer_named,New York office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
 2026-10-08,ESRT,VNO,peer_named,New York office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
 2026-10-08,ESRT,BXP,peer_named,office landlord; peer in the 13D comparison,research/daily/2026-10-08.md
+2026-10-10,ALGM,TXN,peer_named,"competes in Hall-effect and current sensors, motor drivers","IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,NXPI,peer_named,competes in automotive magnetic sensors and motor control,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,ON,peer_named,competes in automotive and industrial power management,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,DIOD,peer_named,"competes in Hall-effect sensors, motor drivers, power ICs","IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,ADI,peer_named,competes in power management and sensing,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,MPWR,peer_named,competes in power ICs for automotive and data centres,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,theme:Data Center Power,same_theme,IBKR theme membership,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ALGM,theme:Automotive Sensors,same_theme,IBKR theme membership,"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"
+2026-10-10,ON,theme:Automotive Sensors,same_theme,IBKR theme membership (intelligent sensing group),"IBKR company connections (pulled 2026-10-10; a data provider's summary, not a filing)"

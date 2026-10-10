@@ -201,7 +201,7 @@ def main():
     a = sys.argv[1:]
     def opt(k): return a[a.index(k) + 1] if k in a else None
     days = [d for d in ALL_DAYS if opt("--from") <= d <= (opt("--to") or ALL_DAYS[-1])] if opt("--from") else [opt("--asof") or ALL_DAYS[-1]]
-    log = os.path.join(HERE, "live_signals.csv")
+    log = os.path.join(HERE, "live_check.csv" if "--check" in a else "live_signals.csv")   # --check: validation runs, kept out of the real log
     old = pd.read_csv(log, dtype=str) if os.path.exists(log) else pd.DataFrame()
     allrows = []
     for d in days:

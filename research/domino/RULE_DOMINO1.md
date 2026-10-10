@@ -37,4 +37,4 @@ The week of 5 to 9 Oct 2026 is after the test data ended but before this rule wa
 
 ## How to run it
 
-Say **"run domino"**. That means: pull any missing days of all-market daily prices and recent splits with the market-data connector, convert them (`research/runners/work/ingest.py`, `splits_recent.csv`), run `python research/domino/live.py`, read the filings behind each signal (the link graph and the scorecard numbers are the starting point), and commit `live_signals.csv`.
+Say **"run domino"**. (Added 10 Oct, after the freeze: this section is the procedure, not the rule. For every signal, also pull the stock's competitors and themes from IBKR (`get_company_themes`, small limits) and add them to the link graph with IBKR named as the source.) That means: pull any missing days of all-market daily prices and recent splits with the market-data connector, convert them (`research/runners/work/ingest.py`, `splits_recent.csv`), run `python research/domino/live.py`, read the filings behind each signal (the link graph and the scorecard numbers are the starting point), and commit `live_signals.csv`.
