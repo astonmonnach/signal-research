@@ -1,6 +1,8 @@
 """Scan ALL of the day's SEC filings for catalyst-type events.
 
-Usage:  python watch/scan_market.py [YYYY-MM-DD]   (default: yesterday)
+Usage:  python watch/scan_market.py [YYYY-MM-DD]
+With no date it scans the previous business day AND any business day missed since the last scan
+(up to 5), so a skipped research run never leaves a hole (rule 2026-10-10, LESSONS.md).
 About 5,000 filings land each business day. This keeps only the ones from
 listed companies (those with a ticker) that match the event types we trade,
 plus any 8-K using our trigger phrases, and writes
@@ -53,9 +55,23 @@ def fetch(url):
 
 
 def main():
-    day = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today() - timedelta(days=1)
-    while len(sys.argv) == 1 and day.weekday() >= 5:     # the research run is early morning: Monday scans Friday
-        day -= timedelta(days=1)
+    if len(sys.argv) > 1:
+        return scan(date.fromisoformat(sys.argv[1]))
+    target = date.today() - timedelta(days=1)
+    while target.weekday() >= 5:                         # the research run is early morning: Monday scans Friday
+        target -= timedelta(days=1)
+    # Catch up: every business day after the last scan file, up to the target (rule 2026-10-10).
+    done = sorted(date.fromisoformat(f.stem) for f in OUT.glob("20??-??-??.md")) if OUT.exists() else []
+    days, d = [], (done[-1] if done else target - timedelta(days=1)) + timedelta(days=1)
+    while d <= target:
+        if d.weekday() < 5:
+            days.append(d)
+        d += timedelta(days=1)
+    for day in (days or [target])[-5:]:
+        scan(day)
+
+
+def scan(day):
     qtr = (day.month - 1) // 3 + 1
     try:
         idx = fetch(f"https://www.sec.gov/Archives/edgar/daily-index/{day.year}/QTR{qtr}/"
@@ -97,6 +113,10 @@ def main():
                     note = f" registers {reg}" + (f" (not supply: {why})" if why else "")
             except Exception:
                 note = " registers ?"
+        elif form == "SC TO-I":
+            # Rule 2026-10-10 (MDT/MiniMed): a new issuer tender or exchange offer has a hard expiry and often an
+            # odd-lot rule that favours small holders. Read it the day it is filed.
+            note = " **READ TODAY: new issuer tender / exchange offer. Log the expiry, the price or ratio, and any odd-lot terms**"
         hits[FORMS[form]].append(
             f"- **{'/'.join(tickers[cik])}** {name} `{form}`{note} "
             f"[filing index](https://www.sec.gov/Archives/{path.replace('.txt', '-index.htm')})")
