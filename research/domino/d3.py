@@ -55,6 +55,12 @@ for d in range(T - 11):
     M["peak"][d] = pk
     for k in M: M[k][d][~okE] = np.nan
 
+# Optional cap (D4): returns above CAP count as CAP, for followers and controls alike. Set D3_CAP=3 for +300%.
+CAP = float(os.environ.get("D3_CAP", "inf"))
+if np.isfinite(CAP):
+    for k in M:
+        if k != "peak": M[k] = np.minimum(M[k], CAP)
+
 # ---- follower trades with their attributes and controls
 rows = []
 for d in range(26, T - 11):
@@ -105,8 +111,8 @@ stages = [("0 every follower", base), ("1 kept industries", s1), ("2 + takeable"
           ("-- cut by stage 3: China/HK or recent reverse split", s2[s2.china | s2.rs90])]
 stages += [(f"-- stage 3, {g}", s3[s3.group == g]) for g in KEEP]
 out = [describe(x, n) for n, x in stages]
-json.dump(out, open(os.path.join(HERE, "d3_results.json"), "w"), indent=1)
-t.to_csv(os.path.join(HERE, "d3_trades.csv"), index=False)
+json.dump(out, open(os.path.join(HERE, "d3_results_cap.json" if np.isfinite(CAP) else "d3_results.json"), "w"), indent=1)
+t.to_csv(os.path.join(HERE, "d3_trades_cap.csv" if np.isfinite(CAP) else "d3_trades.csv"), index=False)
 
 pct = lambda v: f"{v:+.1%}"
 print(f"{'stage':58s} {'trades':>6s} {'stocks':>6s} {'/yr':>5s} | day1 high   low   close | close d2   d3    d5    d10 | best in 5d (med) worst in 5d | reach +20% / +50% / +100% within 5d | controls: close d5, best 5d, +50% 5d")
