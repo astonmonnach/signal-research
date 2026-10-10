@@ -19,7 +19,7 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **CSR** (market-wide, merger arb): DEFM14A for IRT's all-stock deal (**3.800 IRT shares**). Gross spread 0.6%; both votes on **10 Nov**. ([triage](../watch/digests/2026-10-08-triage.md)) · Logged as `merger_arb` (direction 0): IRT 3.80x stock; 0.6% gross spread at $54.27 vs IRT $14.37; votes 10 Nov; tracked; source: daily research 8 Oct (research/daily/2026-10-08.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 8 Oct 2026 (3. CSR: Centerspace-IRT merger proxy, votes 10 Nov) ([note](../research/daily/2026-10-08.md))
-- **[2026-10-07](../scans/2026-10-07.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +0.6%, found day -1.9%) ([filing](https://www.sec.gov/Archives/edgar/data/798359/0001140361-26-038922-index.htm))
+- **[2026-10-07](../scans/2026-10-07.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +0.6%, found day -1.9%) ([filing](https://www.sec.gov/Archives/edgar/data/798359/000114036126038922/0001140361-26-038922-index.htm))
 
 ## Performance since found
 

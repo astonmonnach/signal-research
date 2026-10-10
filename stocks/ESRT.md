@@ -20,7 +20,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **ESRT** (watchlist, activist): this was the deep dive. The 13D group holds **10.0M shares (5.8%)**, not 7.5M (4.4%); the 6 Oct note used the fund's… ([triage](../watch/digests/2026-10-08-triage.md)) · Logged as `activist_deep_dive` (direction 0): Erez group 10.0M sh (5.8%) at ~$4.30 avg; observatory NOI negative in Q2; 1y -41% vs VNQ +2%; WATCH; source: daily research 8 Oct (research/daily/2026-10-08.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 8 Oct 2026 (1. ESRT: the go-deeper checks on the Erez 13D) ([note](../research/daily/2026-10-08.md))
 - **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 5 Oct; +32 older (Mar – Aug 2026) first picked up
 - **[2026-10-06](../scans/2026-10-06.md)**: Research: Research: Tue 6 Oct 2026 (3. ESRT: a new holder pushing for a strategic review, the takeable lead) ([note](../research/daily/2026-10-06.md))
-- **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +1.5%, found day +1.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1541401/0000902664-26-004065-index.htm))
+- **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +1.5%, found day +1.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1541401/000090266426004065/0000902664-26-004065-index.htm))
 
 ## Performance since found
 

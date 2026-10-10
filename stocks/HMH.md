@@ -104,7 +104,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 
 - **[2026-09-30](../scans/2026-09-30.md#triage-notes)**: Triage: **HMH**: resale S-1 (filed 28 Sep). The Selling Stockholders (Principal Stockholders: Baker Hughes and Akastor affiliates) register up to… ([triage](../watch/digests/2026-09-30-triage.md))
 - **[2026-09-29](../scans/2026-09-29.md#new-setups)**: Logged as `idea_overhang` (direction -1): resale S-1 31.9M shares (supply); source: watchlist thread (X 29 Sep) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Dated-catalyst scan: 2026-09-29 (window 30 Sep – 7 Oct 2026) (HMH 180-day IPO lockup ended 27 Sep; resale S-1 for 31.9M shares (~3× float) filed 28 Sep S-1 effective date…) ([note](../research/scans/2026-09-29-dated-catalysts.md))
-- **[2026-09-28](../scans/2026-09-28.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before +1.6%, found day +0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/0001193125-26-405527-index.htm))
+- **[2026-09-28](../scans/2026-09-28.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before +1.6%, found day +0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000119312526405527/0001193125-26-405527-index.htm))
 
 ## Performance since found
 

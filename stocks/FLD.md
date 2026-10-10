@@ -35,7 +35,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 29 Sep + deficiency Jul; $0.54; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-09-30](../scans/2026-09-30.md#triage-notes)**: Triage, dismissed: **EFFECT** notices (KRKR, CLNK, XRP, FEMY, FFBC, FLD, GWAV, MBAI, MLSS, NIVF, RZAI): I didn't open the underlying registrations; they're crypto ETFs… ([triage](../watch/digests/2026-09-30-triage.md))
-- **[2026-09-29](../scans/2026-09-29.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -13.6%, found day +5.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/9999999995-26-003083-index.htm))
+- **[2026-09-29](../scans/2026-09-29.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -13.6%, found day +5.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/999999999526003083/9999999995-26-003083-index.htm))
 
 ## Performance since found
 
