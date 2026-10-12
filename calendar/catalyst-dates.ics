@@ -413,4 +413,28 @@ DTEND;VALUE=DATE:20261031
 SUMMARY:PCRX: Viatris $36.50 tender offer due to have started (15 business days from 8 Oct)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:a0283539ee7896d4b141c0cd61331d3e@signal-lab
+DTSTAMP:20261012T163000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today
+DESCRIPTION:https://www.globenewswire.com/news-release/2026/10/12/3378548/0/en/skyai-announces-intention-to-commence-cash-tender-offer-to-purchase-common-stock-and-pre-funded-warrants-at-3-00-per-share-pre-funded-warrant.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5443d38776b13bbfc3c81ea854abf09b@signal-lab
+DTSTAMP:20261012T163000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2009312/000149315226041764/0001493152-26-041764-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:a82503d7d40f005d810f8596188154e7@signal-lab
+DTSTAMP:20261012T163000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2009312/000149315226041764/0001493152-26-041764-index.htm
+END:VEVENT
 END:VCALENDAR
