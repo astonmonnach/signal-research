@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `issuer_tender_intent` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.62 (2026-10-12, ledger) · 1d +44.2%, 5d +40.4%, 20d +84.9% (market context, 2026-10-12)
+- **Latest price:** $2.62 (2026-10-12, ledger) · 1d +42.9%, 5d +39.0%, 20d +83.1% (market context, 2026-10-12)
 - **Since first found:** found 2026-10-12 via `issuer_tender_intent` at $2.62; the ledger enters it at the next session's open (pending)
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +40.4% 5d vs peer median -2.0%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-12)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +39.0% 5d vs peer median -2.1%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-12)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 15 Oct 2026: SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for SKYA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +44.0% | $5.8M | $2.62 |  | $2.62 |  |  |  |  |  | pending |
+| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +44.2% | $5.8M | $2.62 |  | $2.62 |  |  |  |  |  | pending |
