@@ -101,9 +101,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $6.89 (2026-10-09, ledger) · 1d -0.7%, 5d -3.3%, 20d -19.0% (market context, 2026-10-09)
-- **Since first found:** **-15.5%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -15.5% vs IWM -0.5% = **-15.0 pts** vs IWM; direction +1 → excess -15.0% (10 days)
-- **Peers / sympathy:** missed_peer_move: peer median -7.7% 5d vs RYAM -3.3%; peers moved, it didn't. Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-09)
+- **Latest price:** $7.28 (2026-10-12, ledger) · 1d +3.7%, 5d +4.9%, 20d -12.5% (market context, 2026-10-12)
+- **Since first found:** **-10.7%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -10.7% vs IWM -0.6% = **-10.0 pts** vs IWM; direction +1 → excess -10.0% (13 days)
+- **Peers / sympathy:** missed_peer_move: peer median -15.6% 5d vs RYAM +4.9%; peers moved, it didn't. Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -121,4 +121,4 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.89 | -15.5% | -15.5% | -0.5% | -15.0% | 10 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $7.28 | -10.7% | -10.7% | -0.6% | -10.0% | 13 | live |

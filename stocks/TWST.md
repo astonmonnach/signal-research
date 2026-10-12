@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $160.47 (2026-10-09, ledger) · 1d +5.5%, 5d -15.0%, 20d +26.1% (market context, 2026-10-09)
-- **Since first found:** **-17.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -16.9% vs IWM +0.5% = **-17.4 pts** vs IWM; direction 0, tracked only (8 days)
-- **Peers / sympathy:** solo_move: TWST -15.0% 5d vs peer median -7.0%; peers didn't move with it. Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-09)
+- **Latest price:** $149.01 (2026-10-12, ledger) · 1d -6.5%, 5d -27.1%, 20d +10.8% (market context, 2026-10-12)
+- **Since first found:** **-22.9%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -22.8% vs IWM +0.4% = **-23.2 pts** vs IWM; direction 0, tracked only (11 days)
+- **Peers / sympathy:** no flag (self 5d -27.1% vs peer median -24.9%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-12)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `144` 9 Oct · Triage, dismissed: **TWST** Form 144: a routine notice of intended sale. ([triage](../watch/digests/2026-10-10-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage, dismissed: **TWST**: CEO Emily Leproust Form 4, all code **S** (sales). Not a buy. ([triage](../watch/digests/2026-10-08-triage.md))
 - **[2026-10-05](../scans/2026-10-05.md#watchlist-filings)**: Filings: `144` 5 Oct, `4` ×6 5 Oct · Calendar: TWST first free trading day after insider lock-up (small: <1 day volume) ([calendar](../calendar/catalyst-dates.ics)) · Calendar: TWST insider lock-up ends (watch only) ([calendar](../calendar/catalyst-dates.ics)) · Triage, dismissed: **TWST**: 6 Form 4s dated 5 Oct (Leproust, Finn, Laponis, Green, Cho, Werner). ([triage](../watch/digests/2026-10-05-triage.md))
 - **[2026-10-04](../scans/2026-10-04.md)**: Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (3. TWST (Twist Bioscience): seven Form 144s, filed 1–2 Oct) ([note](../research/filings-2026-10-04/watchlist-deep.md))
@@ -109,4 +110,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $160.47 | -17.0% | -16.9% | +0.5% |  | 8 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $149.01 | -22.9% | -22.8% | +0.4% |  | 11 | live |

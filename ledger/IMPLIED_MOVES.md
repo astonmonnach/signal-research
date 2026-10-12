@@ -8,6 +8,9 @@ Paper only. Before each dated event we record the move the options market expect
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-06 | MOD | THRM pays $2.07 special dividend; MOD pro forma 8-K/A due | 2026-10-07 | 2026-10-16 | $191.01 | ±9.6% | $18.20 @ 190.0 | 18.5% | - | open |  |
 | 2026-10-06 | THRM | THRM pays $2.07 special dividend; MOD pro forma 8-K/A due | 2026-10-07 | 2026-10-16 | $32.30 | ±8.9% | $2.60 @ 32.93 | 47.5% | - | open |  |
+| 2026-10-12 | SKYA | SKYA: $3.00 issuer tender due to start; offer papers (SC TO- | 2026-10-15 | 2026-10-16 | $2.58 | ±15.5% | $0.40 @ 2.5 | 25.4% | - | open |  |
+| 2026-10-12 | MSGS | MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSG | 2026-10-20 | 2026-11-20 | $402.30 | ±7.3% | $29.45 @ 400.0 | 16.7% | - | open |  |
+| 2026-10-12 | MSGS | MSGS: Rangers spin-off effective; MSGS becomes MSGK | 2026-10-26 | 2026-11-20 | $402.30 | ±7.3% | $29.45 @ 400.0 | 16.7% | - | open |  |
 | 2026-10-06 | HZO | HZO antitrust (HSR) waiting period ends | 2026-10-30 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
 | 2026-10-06 | MTUS | MTUS Q3 earnings call: thesis check for trade #1 | 2026-11-06 | 2026-11-20 | $21.04 | ±12.7% | $2.65 @ 20.0 | 13.7% | none | open |  |
 | 2026-10-06 | HZO | HZO merger vote ($53 cash) | 2026-11-11 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |

@@ -103,9 +103,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $29.35 (2026-10-09, ledger) · 1d -1.9%, 5d -6.2%, 20d -24.4% (market context, 2026-10-09)
-- **Since first found:** **-7.4%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -7.8% vs IWM -0.5% = **-7.3 pts** vs IWM; direction 0, tracked only (9 days). Includes +$2.07 cash (special_dividend)
-- **Peers / sympathy:** solo_move: THRM -6.2% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-09)
+- **Latest price:** $30.99 (2026-10-12, ledger) · 1d +4.4%, 5d -3.9%, 20d -18.9% (market context, 2026-10-12)
+- **Since first found:** **-2.5%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -3.0% vs IWM -0.6% = **-2.4 pts** vs IWM; direction 0, tracked only (12 days). Includes +$2.07 cash (special_dividend)
+  - 1 more ledger row: see Performance since found
+- **Peers / sympathy:** solo_move: THRM -3.9% 5d vs peer median +0.4%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -115,6 +116,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `8-K/A` 9 Oct · Triage, dismissed: **THRM** 8-K/A: amended Reg FD filing on the completed transaction. Not opened in full. ([triage](../watch/digests/2026-10-10-triage.md))
+- **[2026-10-09](../scans/2026-10-09.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, spin-off" (8k merger agreement) (5d before -11.0%, found day -0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/903129/000119312526419232/d186467d8ka.htm))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **MOD / THRM** (watchlist, spin-off): the 8-K pro formas confirm the RMT completed 1 Oct; Performance Technologies is discontinued operations from… ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **MOD / THRM:** the 8-K with pro formas confirms the Reverse Morris Trust **completed on 1 Oct**.…) ([note](../research/daily/2026-10-08.md))
 - **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `4` 6 Oct · Calendar: THRM pays $2.07 special dividend; MOD pro forma 8-K/A due ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-05](../scans/2026-10-05.md)**: Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (- **MOD spin.** Yahoo does not adjust MOD for the 1 Oct 2026 spin. Each MOD share received 0.44619 THRM…) ([note](../research/longterm-2026-10-05/REPORT.md))
@@ -129,6 +132,7 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $29.35 | -7.4% | -7.8% | -0.5% |  | 9 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $30.99 | -2.5% | -3.0% | -0.6% |  | 12 | live |
+| 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.58 | $30.99 | +4.4% | +4.8% | +0.0% |  | 0 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._
