@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for ATKR ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-07 | `8k_merger_agreement` | 0 | -0.0% | +0.1% | $75.2M | $94.85 | $94.85 | $94.89 | +0.0% | +0.0% | +0.7% |  | 4 | live |
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.89 | +0.1% | -0.0% | -0.0% |  | 3 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.89 | +0.1% | -0.0% | -0.0% |  | 3 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.89 | +0.1% | +0.0% | -0.0% |  | 3 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.89 | +0.1% | +0.0% | -0.0% |  | 3 | live |
