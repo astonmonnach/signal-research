@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `issuer_tender_intent` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.57 (2026-10-12, ledger) · 1d +41.3%, 5d +37.5%, 20d +81.1% (market context, 2026-10-12)
-- **Since first found:** found 2026-10-12 via `issuer_tender_intent` at $2.57; the ledger enters it at the next session's open (pending)
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +37.5% 5d vs peer median -1.6%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-12)
+- **Latest price:** $2.58 (2026-10-12, ledger) · 1d +41.5%, 5d +37.7%, 20d +81.3% (market context, 2026-10-12)
+- **Since first found:** found 2026-10-12 via `issuer_tender_intent` at $2.58; the ledger enters it at the next session's open (pending)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +37.7% 5d vs peer median -1.9%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-12)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 15 Oct 2026: SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for SKYA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +41.2% | $5.4M | $2.57 |  | $2.57 |  |  |  |  |  | pending |
+| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +41.8% | $5.4M | $2.58 |  | $2.58 |  |  |  |  |  | pending |
