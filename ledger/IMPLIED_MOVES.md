@@ -16,3 +16,4 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-06 | HZO | HZO merger vote ($53 cash) | 2026-11-11 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | smaller | open |  |
 | 2026-10-07 | WHF | WHF: $85M notes mature in December, check refinancing | 2026-12-01 | 2027-01-15 | $7.00 | ±18.2% | $1.27 @ 7.5 | 146.0% | none | open |  |
+| 2026-10-13 | HZO | HZO earliest close | 2026-12-07 | 2027-01-15 | $52.33 | ±6.1% | $3.18 @ 50.0 | 82.9% | - | open |  |

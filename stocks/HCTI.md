@@ -24,18 +24,18 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.440 (2026-10-12, ledger)
-- **Since first found:** **-39.3%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -26.6% vs IWM -1.3% = **-25.3 pts** vs IWM; direction -1 → excess +25.3% (7 days)
+- **Latest price:** $0.416 (2026-10-13, ledger)
+- **Since first found:** **-42.7%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -30.7% vs IWM -2.0% = **-28.7 pts** vs IWM; direction -1 → excess +28.7% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 12 Oct 2026: HCTI suspended if no hearing request
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-12](../scans/2026-10-12.md)**: Calendar: HCTI suspended if no hearing request ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-08](../scans/2026-10-08.md)**: Calendar: HCTI hearing request due (else suspended 12 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage, dismissed: Reverse splits (VTAK, JOB, HCTI, OPNW, CYCU, XELB, DARE), delistings, and EFFECT notices on micro-caps: not read. ([triage](../watch/digests/2026-10-03-triage.md))
@@ -47,5 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.440 | -39.3% | -26.6% | -1.3% | +25.3% | 7 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.440 | -39.3% | -26.6% | -1.3% |  | 7 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.416 | -42.7% | -30.7% | -2.0% | +28.7% | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.416 | -42.7% | -30.7% | -2.0% |  | 8 | live |

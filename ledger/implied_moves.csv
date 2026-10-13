@@ -9,3 +9,4 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-10-12,SKYA,2026-10-15,SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today,2026-10-16,2.58,15.5,2.5,0.4,25.4,2,,open,,,,
 2026-10-12,MSGS,2026-10-20,MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS),2026-11-20,402.3,7.3,400.0,29.45,16.7,304,,open,,,,
 2026-10-12,MSGS,2026-10-26,MSGS: Rangers spin-off effective; MSGS becomes MSGK,2026-11-20,402.3,7.3,400.0,29.45,16.7,304,,open,,,,
+2026-10-13,HZO,2026-12-07,HZO earliest close,2027-01-15,52.33,6.1,50.0,3.18,82.9,57,,open,,,,
