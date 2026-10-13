@@ -5,14 +5,14 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 ## Scoreboard
 
 - Calls: **1** · marked: 1 · open: 1 · closed: 0
-- Total P&L on $1,000 per call: **$-41.65**
-- Average vs the market: **-2.0%** · beat it: 0/1
+- Total P&L on $1,000 per call: **$-34.07**
+- Average vs the market: **-1.1%** · beat it: 0/1
 
 ## Every call
 
 | # | posted | call | thesis | entry | now / exit | return | vs market | vs control | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $20.25 | -4.2% | -2.0% (IWM) | -4.2% (IIIN) | 6 | open |
+| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $20.41 | -3.4% | -1.1% (IWM) | -3.3% (IIIN) | 6 | open |
 
 ## Rules
 
