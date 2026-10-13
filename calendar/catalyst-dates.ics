@@ -96,10 +96,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalyst-mtus-q3-2026@catalyst-research
 DTSTAMP:20261001T192700Z
-DTSTART:20261106T140000Z
-DTEND:20261106T150000Z
-SUMMARY:MTUS Q3 earnings call: thesis check for trade #1
-DESCRIPTION:Look for HF-1 / defence volumes\, backlog\, and guidance tied to the $995M DLA award. Exit if no defence order growth. Source: quartr.com via Bigdata.com
+DTSTART:20261103T140000Z
+DTEND:20261103T150000Z
+SUMMARY:MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close)
+DESCRIPTION:Look for HF-1 / defence volumes\, backlog\, and guidance tied to the $995M DLA award. Exit if no defence order growth. Date confirmed by the company on 13 Oct: https://www.prnewswire.com/news-releases/metallus-announces-third-quarter-2026-earnings-webcast-details-302907111.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
