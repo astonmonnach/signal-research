@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $1.41 (2026-10-13, ledger)
-- **Since first found:** **+12.8%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: +11.9% vs IWM -0.7% = **+12.6 pts** vs IWM; direction +1 → excess +12.6% (4 days)
+- **Latest price:** $1.42 (2026-10-13, ledger)
+- **Since first found:** **+13.6%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: +12.7% vs IWM -0.6% = **+13.3 pts** vs IWM; direction +1 → excess +13.3% (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.41 | +12.8% | +11.9% | -0.7% | +12.6% | 4 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.41 | +4.4% | +3.7% | -0.8% |  | 1 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.42 | +13.6% | +12.7% | -0.6% | +13.3% | 4 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.42 | +5.2% | +4.4% | -0.7% |  | 1 | live |

@@ -26,7 +26,7 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.305 (2026-10-13, ledger)
-- **Since first found:** **-5.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -1.5% vs IWM -2.0% = **+0.5 pts** vs IWM; direction 0, tracked only (8 days)
+- **Since first found:** **-5.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -1.5% vs IWM -2.0% = **+0.4 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

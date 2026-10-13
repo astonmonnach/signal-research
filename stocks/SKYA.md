@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `issuer_tender_intent` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.55 (2026-10-13, ledger) · 1d -2.1%, 5d +35.4%, 20d +95.8% (market context, 2026-10-13)
-- **Since first found:** **-2.1%** (found 2026-10-12 via `issuer_tender_intent` at $2.60). From the next open $2.55: -0.2% vs IWM -0.6% = **+0.4 pts** vs IWM; direction 0, tracked only (0 days)
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +35.4% 5d vs peer median -1.4%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Latest price:** $2.56 (2026-10-13, ledger) · 1d -1.4%, 5d +36.4%, 20d +97.3% (market context, 2026-10-13)
+- **Since first found:** **-1.7%** (found 2026-10-12 via `issuer_tender_intent` at $2.60). From the next open $2.55: +0.2% vs IWM -0.6% = **+0.8 pts** vs IWM; direction 0, tracked only (0 days)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +36.4% 5d vs peer median -1.1%; peers didn't move with it. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-10-13)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 15 Oct 2026: SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for SKYA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +42.9% | $6.2M | $2.60 | $2.55 | $2.55 | -2.1% | -0.2% | -0.6% |  | 0 | live |
+| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +42.9% | $6.2M | $2.60 | $2.55 | $2.56 | -1.7% | +0.2% | -0.6% |  | 0 | live |

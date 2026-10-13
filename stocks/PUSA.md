@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire)); `holder_13g_supply` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.29 (2026-10-13, ledger) · 1d -0.7%, 5d -20.0%, 20d -35.5% (market context, 2026-10-13)
-- **Since first found:** **-21.1%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -24.1% vs IWM -2.9% = **-21.2 pts** vs IWM; direction +1 → excess -21.2% (7 days)
+- **Latest price:** $2.22 (2026-10-13, ledger) · 1d -3.4%, 5d -22.2%, 20d -37.2% (market context, 2026-10-13)
+- **Since first found:** **-23.1%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -26.1% vs IWM -2.8% = **-23.3 pts** vs IWM; direction +1 → excess -23.3% (7 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: PUSA -20.0% 5d vs peer median +2.7%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Peers / sympathy:** solo_move: PUSA -22.2% 5d vs peer median +2.8%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 30 Dec 2026: PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic)
   - Tue 30 Mar 2027: PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Powerus (Nasdaq: PUSA) Unveils Fully Autonomous Drone Interceptors at AUSA 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261012089605/en/Powerus-Nasdaq-PUSA-Unveils-Fully-Autonomous-Drone-Interceptors-at-AUSA-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-12](../scans/2026-10-12.md#triage-notes)**: Triage: **PUSA** (watchlist, 13G): AUT Holdings, owned by KCGI's funds, holds 27,487,342 shares, 16.77%, from the 1 Oct merger. ([triage](../watch/digests/2026-10-12-triage.md)) · Logged as `holder_13g_supply` (direction 0): KCGI funds hold 27.49M sh (16.77%) from the 1 Oct merger, passive 13G; locked-up shares free in thirds (close, 30 Dec, 30 Mar); -21.1% from the 6 Oct entry open; AVOID until supply clears; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (3. PUSA: the 13G is the biggest merger holder, not a buyer) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 8 Oct · Research: Research: Sat 10 Oct 2026 (- **PUSA:** the new CEO's 24.1M shares (14.2%) from the merger, plus options on 6.69M shares at $0.75 against…) ([note](../research/daily/2026-10-10.md)) · Triage, dismissed: **PUSA** 13D: the new CEO's merger shares (14.2%) and $0.75 options. Not activism. ([triage](../watch/digests/2026-10-10-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -34.7%, found day +0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2009312/000110465926114800/0001104659-26-114800-index.htm)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/2009312/000110465926114548/0001104659-26-114548-index.htm)) · Triage, dismissed: **PUSA**: passive 13G. Not activism. ([triage](../watch/digests/2026-10-08-triage.md))
@@ -32,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for PUSA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.29 | -21.1% | -24.1% | -2.9% | -21.2% | 7 | live |
-| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $2.29 | -10.4% | -11.4% | -0.7% | -10.7% | 4 | live |
-| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $2.29 | -0.7% | -0.7% | -0.6% |  | 0 | live |
+| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.22 | -23.1% | -26.1% | -2.8% | -23.3% | 7 | live |
+| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $2.22 | -12.8% | -13.8% | -0.6% | -13.1% | 4 | live |
+| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $2.22 | -3.3% | -3.3% | -0.6% |  | 0 | live |
