@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $92.17 (2026-10-13, ledger)
-- **Since first found:** **+5.0%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +4.2% vs IWM -0.7% = **+4.9 pts** vs IWM; direction +1 → excess +4.9% (4 days)
+- **Latest price:** $92.00 (2026-10-13, ledger)
+- **Since first found:** **+4.8%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +4.0% vs IWM -0.7% = **+4.7 pts** vs IWM; direction +1 → excess +4.7% (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $92.17 | +5.0% | +4.2% | -0.7% | +4.9% | 4 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $92.17 | +4.2% | +1.6% | -0.8% |  | 1 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $92.00 | +4.8% | +4.0% | -0.7% | +4.7% | 4 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $92.00 | +4.0% | +1.4% | -0.8% |  | 1 | live |

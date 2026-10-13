@@ -25,8 +25,8 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.301 (2026-10-13, ledger)
-- **Since first found:** **-6.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -2.9% vs IWM -2.0% = **-0.9 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $0.305 (2026-10-13, ledger)
+- **Since first found:** **-5.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -1.6% vs IWM -2.0% = **+0.5 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -44,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.301 | -6.5% | -2.9% | -2.0% |  | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.305 | -5.2% | -1.6% | -2.0% |  | 8 | live |

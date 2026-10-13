@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACVA ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.45 | +0.1% | +0.1% | -1.4% |  | 13 | live |
-| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.45 | +0.1% | +0.1% | -0.7% |  | 4 | live |
+| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.45 | +0.1% | +0.0% | -0.7% |  | 4 | live |
 | 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.45 | +0.1% | -0.1% | -0.8% |  | 1 | live |
