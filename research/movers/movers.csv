@@ -1,0 +1,11 @@
+date,rank,ticker,name,pct,close,volume,mcap_musd,reason_type,reason,source
+2026-10-13,1,JBDI,JBDI Holdings,243.0,3.43,92938701,32.6,filing_6k,"6-K filed 13 Oct with an acquisition agreement, a note purchase agreement and a proposed dual-class share structure; not read in full",https://app.bigdata.com/documents/5ED280507C2F080B70508020C4D4D762
+2026-10-13,2,TCRT,Alaunos Therapeutics,188.6,3.03,252857140,7.7,acquisition_financing,Completed purchase of private Velaris Therapeutics with a $350M preferred-stock placement led by Fairmount; 8-K filed,https://app.bigdata.com/documents/636BE32920042BF40EADA252E7D94C2A
+2026-10-13,3,PFAI,Pinnacle Food Group,80.1,4.7,38312951,55.2,product_pr,Press release: first 5-litre lab fermentation of its human lactoferrin yeast strain,https://app.bigdata.com/documents/72EB141E033DE5774470830103EEEEC1
+2026-10-13,4,FLYE,Fly-E Group,73.2,3.55,32815258,5.8,no_news,"No company news found; halted twice on the way up, +204% at one point",https://app.bigdata.com/documents/1432A87AE278779BF04FF2C79DC8C3D3
+2026-10-13,5,BKYI,BIO-key International,71.5,2.83,81342804,4.1,contract_pr,Press release: a Middle East government security agency chose its sign-on platform; no contract value given,https://app.bigdata.com/documents/E603C35B2728F3B68BE1C8894162EE9A
+2026-10-13,6,JYD,Jayud Global Logistics,57.0,1.46,35081771,12.1,no_news,No company news found,https://app.bigdata.com/documents/72DBD937C732DF64639909E40AC0B425
+2026-10-13,7,BMBL,Bumble,56.6,5.95,118178224,911.6,deal_signed,Signed $6.05 cash take-private by Ithaca Holdings; WSJ had reported the talks on 12 Oct,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+2026-10-13,8,ELOG,Eastern International,46.5,1.48,3755483,19.0,no_news,No company news found,https://stockanalysis.com/markets/gainers/
+2026-10-13,9,IZM,ICZOOM Group,44.4,1.26,21431856,3.0,no_news,No company news found,https://stockanalysis.com/markets/gainers/
+2026-10-13,10,ILAG,Intelligent Living Application Group,39.1,3.38,4019545,7.0,no_news,No company news found,https://stockanalysis.com/markets/gainers/
