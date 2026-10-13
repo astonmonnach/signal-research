@@ -1,0 +1,213 @@
+<title>Bumble Take-Private</title>
+<style>
+/* Layout: one reading column, four rung cards, charts as CSS bars on a shared scale. */
+:root{
+  --text:#0b0b0b;--text2:#52514e;--muted:#898781;--surface:#fcfcfb;--page:#f9f9f7;
+  --grid:#e1e0d9;--base:#c3c2b7;--pos:#2a78d6;--neg:#e34948;--zero:#f0efec;--s2:#eb6834;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --text:#ffffff;--text2:#c3c2b7;--muted:#898781;--surface:#1a1a19;--page:#0d0d0d;
+    --grid:#2c2c2a;--base:#383835;--pos:#3987e5;--neg:#e66767;--zero:#383835;--s2:#d95926;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --text:#ffffff;--text2:#c3c2b7;--muted:#898781;--surface:#1a1a19;--page:#0d0d0d;
+  --grid:#2c2c2a;--base:#383835;--pos:#3987e5;--neg:#e66767;--zero:#383835;--s2:#d95926;color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:16px/1.55 var(--sans)}
+main{max-width:760px;margin:0 auto;padding-block:32px 64px;padding-inline:16px}
+.kicker{color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+h1{font-size:30px;line-height:1.15;margin:6px 0 10px;text-wrap:balance}
+.thesis{font-size:18px;color:var(--text2);margin:0}
+.verdict{display:inline-block;margin-top:14px;padding:4px 10px;border:1px solid var(--base);border-radius:999px;font-size:13px;color:var(--text2)}
+section{background:var(--surface);border:1px solid var(--grid);border-radius:12px;padding:20px;margin-top:20px}
+h2{font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+h3{font-size:20px;margin:0 0 12px;text-wrap:balance}
+p{margin:0 0 12px}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.stat{border:1px solid var(--grid);border-radius:10px;padding:10px 12px}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--text2)}
+.note{font-size:13px;color:var(--muted)}
+.chart{margin:16px 0 4px}
+.chart-title{font-weight:600;font-size:15px;margin-bottom:10px}
+.mrow{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center;margin:4px 0}
+.mrow.gap{margin-top:12px}
+.mlabel{font-size:14px;color:var(--text2)}
+.mtrack{position:relative;height:20px;border-left:2px solid var(--base)}
+.mbar{height:100%;border-radius:0 4px 4px 0;display:flex;align-items:center}
+.mbar em{font-style:normal;font-size:13px;margin-left:calc(100% + 6px);white-space:nowrap;color:var(--text);font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--text2);margin:8px 0}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.irow{display:grid;grid-template-columns:minmax(120px,200px) 1fr;gap:4px 10px;align-items:center;margin:10px 0}
+.ilabel{font-size:14px}
+.itrack{position:relative;height:24px;min-width:0}
+.itrack::before{content:"";position:absolute;left:calc(50% - 1px);top:0;bottom:0;width:2px;background:var(--base)}
+.ibar{position:absolute;top:3px;height:18px}
+.ibar.p{left:50%;background:var(--pos);border-radius:0 4px 4px 0}
+.ibar.n{background:var(--neg);border-radius:4px 0 0 4px}
+.ival{position:absolute;top:2px;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.why{grid-column:2;font-size:13px;color:var(--text2)}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+td,th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.absent{border-left:3px solid var(--s2);padding-left:12px}
+.caption{white-space:pre-wrap;font-size:15px;border:1px dashed var(--base);border-radius:10px;padding:14px}
+footer{margin-top:24px;font-size:13px;color:var(--text2)}
+footer a{color:var(--pos);word-break:break-all}
+@media (max-width:520px){.mrow{grid-template-columns:104px 1fr}.irow{grid-template-columns:1fr}.why{grid-column:1}h1{font-size:25px}}
+</style>
+<main>
+<header>
+  <div class="kicker">nth-order · takeover · 13 Oct 2026</div>
+  <h1>Bumble sells for $6.05 a share. The premium is 138%, and the price is 86% below the IPO.</h1>
+  <p class="thesis">Ithaca Holdings pays about five times the cash Bumble produced in the last 12 months, for an app whose paying users fell 16% in a year. The vote is already done, so there is very little left for a new buyer.</p>
+  <span class="verdict">Decision: tracked, already run. Not a trade.</span>
+</header>
+
+<section>
+  <h2>Rung 1</h2>
+  <h3>What is it?</h3>
+  <p>On 12 Oct 2026 Bumble Inc. (BMBL) signed a merger agreement with <b>Ithaca Holdco, Inc.</b> Each Class A share is converted into <b>$6.05 in cash</b>. The release, issued at 08:24 New York time on 13 Oct, calls that a 138% premium to the 9 Oct close and values the company at $1.3 billion.</p>
+  <div class="stats">
+    <div class="stat"><b>$6.05</b><span>Cash per Class A share</span></div>
+    <div class="stat"><b>+138%</b><span>Against the $2.54 close on 9 Oct</span></div>
+    <div class="stat"><b>$1.02B</b><span>Equity at $6.05 (our arithmetic)</span></div>
+    <div class="stat"><b>12 Jul 2027</b><span>Last date to close</span></div>
+  </div>
+  <ul>
+    <li><b>The vote is finished.</b> Blackstone and the founder, Whitney Wolfe Herd, approved it by written consent right after signing. The 8-K says no further action by shareholders is required.</li>
+    <li><b>No financing condition.</b> Greenoaks Prime Radiant LP signed an equity commitment letter. Ithaca must put a <b>$102M</b> termination fee into escrow by 19 Oct 2026.</li>
+    <li><b>What is still needed:</b> US antitrust clearance, "certain other approvals" from governments, and an information statement that must be mailed 20 days before closing.</li>
+    <li><b>Who runs it:</b> Ithaca's co-chief executives, Ravi Gupta and John Hegeman, become Bumble's co-chief executives at closing. Wolfe Herd stays involved and swaps her shares for shares in the private company.</li>
+  </ul>
+  <div class="chart" role="img" aria-label="Bumble price per share: IPO in February 2021 43.00 dollars; one year ago 5.34; close on 9 October 2026 2.54; deal price 6.05">
+    <div class="chart-title">$ per share: the deal price in scale</div>
+    <div class="legend"><span><i class="sw" style="background:var(--pos)"></i>Earlier prices</span><span><i class="sw" style="background:var(--s2)"></i>Deal price</span></div>
+    <div class="mrow"><div class="mlabel">IPO, Feb 2021</div><div class="mtrack"><div class="mbar" style="width:80%;background:var(--pos)" title="IPO price, 424B4 prospectus: $43.00"><em>43.00</em></div></div></div>
+    <div class="mrow"><div class="mlabel">One year ago</div><div class="mtrack"><div class="mbar" style="width:9.93%;background:var(--pos)" title="Close on 14 Oct 2025: $5.34"><em>5.34</em></div></div></div>
+    <div class="mrow"><div class="mlabel">9 Oct 2026</div><div class="mtrack"><div class="mbar" style="width:4.73%;background:var(--pos)" title="Close on 9 Oct 2026, the last price before the deal: $2.54"><em>2.54</em></div></div></div>
+    <div class="mrow"><div class="mlabel">Deal price</div><div class="mtrack"><div class="mbar" style="width:11.26%;background:var(--s2)" title="Cash per Class A share in the merger agreement: $6.05"><em>6.05</em></div></div></div>
+    <p class="note">Sources: IPO price from the 424B4 prospectus (50,000,000 shares at $43.00). Closes from Yahoo. Deal price from the 8-K. One scale for all bars.</p>
+  </div>
+  <p class="note">Equity value is our arithmetic from the merger agreement's share count at 6 Oct 2026: 133,627,088 Class A shares, 21,248,446 partnership units and 13,013,108 share units, times $6.05. Adding net debt of $321M at 30 June (a $475.0M term loan less $154.0M cash) gives about $1.34B, which matches the release's $1.3 billion.</p>
+</section>
+
+<section>
+  <h2>Rung 2</h2>
+  <h3>What does it actually mean?</h3>
+  <p><b>The premium is large because the starting price was very low.</b> At $2.54 the market valued the whole business, debt included, at about $747M. That was 2.8 times the cash it produced from operations in the last 12 months. The deal lifts that to about 5 times.</p>
+  <div class="chart" role="img" aria-label="Bumble revenue and cash from operations in millions of dollars. Revenue: 2021 761, 2022 904, 2023 1052, 2024 1072, 2025 966, twelve months to June 2026 893. Cash from operations: 105, 133, 182, 123, 250, 267.">
+    <div class="chart-title">$M a year: revenue is shrinking, cash from operations is not</div>
+    <div class="legend"><span><i class="sw" style="background:var(--pos)"></i>Revenue</span><span><i class="sw" style="background:var(--s2)"></i>Cash from operations</span></div>
+    <div class="mrow"><div class="mlabel">2021</div><div class="mtrack"><div class="mbar" style="width:58.22%;background:var(--pos)" title="2021 revenue: $760.9M"><em>761</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:8.02%;background:var(--s2)" title="2021 cash from operations: $104.8M"><em>105</em></div></div></div>
+    <div class="mrow gap"><div class="mlabel">2022</div><div class="mtrack"><div class="mbar" style="width:69.14%;background:var(--pos)" title="2022 revenue: $903.5M"><em>904</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:10.17%;background:var(--s2)" title="2022 cash from operations: $132.9M"><em>133</em></div></div></div>
+    <div class="mrow gap"><div class="mlabel">2023</div><div class="mtrack"><div class="mbar" style="width:80.48%;background:var(--pos)" title="2023 revenue: $1,051.8M"><em>1,052</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:13.93%;background:var(--s2)" title="2023 cash from operations: $182.1M"><em>182</em></div></div></div>
+    <div class="mrow gap"><div class="mlabel">2024</div><div class="mtrack"><div class="mbar" style="width:82%;background:var(--pos)" title="2024 revenue: $1,071.6M"><em>1,072</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:9.44%;background:var(--s2)" title="2024 cash from operations: $123.4M"><em>123</em></div></div></div>
+    <div class="mrow gap"><div class="mlabel">2025</div><div class="mtrack"><div class="mbar" style="width:73.9%;background:var(--pos)" title="2025 revenue: $965.7M"><em>966</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:19.16%;background:var(--s2)" title="2025 cash from operations: $250.4M"><em>250</em></div></div></div>
+    <div class="mrow gap"><div class="mlabel">12 months to Jun 2026</div><div class="mtrack"><div class="mbar" style="width:68.36%;background:var(--pos)" title="Revenue, 12 months to 30 Jun 2026: $893.3M (our arithmetic)"><em>893</em></div></div></div>
+    <div class="mrow"><div class="mlabel"></div><div class="mtrack"><div class="mbar" style="width:20.42%;background:var(--s2)" title="Cash from operations, 12 months to 30 Jun 2026: $266.8M (our arithmetic)"><em>267</em></div></div></div>
+    <p class="note">Source: Bumble's reported figures in SEC XBRL data (10-K and 10-Q). The last pair is our arithmetic: 2025, less the first half of 2025, plus the first half of 2026. One scale for all bars.</p>
+  </div>
+  <ul>
+    <li><b>The user base is falling.</b> Paying users were 3.16M in the second quarter against 3.78M a year earlier, down 16.4%. Revenue for the quarter fell 15%, to $210.5M.</li>
+    <li><b>The buyer's price in plain terms:</b> about $1.34B for $893M of trailing revenue and $267M of trailing operating cash, which is 1.5 times revenue and 5 times cash (our arithmetic).</li>
+    <li><b>For anyone who held from the start,</b> $6.05 is 86% below the $43.00 IPO price, and only 13% above the $5.34 close of a year ago.</li>
+  </ul>
+  <div class="absent">
+    <p><b>What the filings do not say</b></p>
+    <ul>
+      <li>No expected closing date. The only date is the 12 Jul 2027 deadline.</li>
+      <li>The "other approvals" by governments are not named in the 8-K.</li>
+      <li>The size of the Greenoaks commitment, and of any borrowing, is not disclosed.</li>
+      <li>How many shares the founder is rolling over is not in the 8-K.</li>
+      <li>There is no tax-receivable payment in the merger agreement. The June 10-Q says that agreement was ended in November 2025 by one-off settlement payments. We did not read the amount.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Rung 3</h2>
+  <h3>Who's positively and negatively affected?</h3>
+  <div class="chart" role="img" aria-label="Impact scores from minus 5 to plus 5: holders at the 9 October price plus 5; founder plus 3; Blackstone plus 2; staff with unvested share units plus 2; Match Group plus 1; Grindr plus 1; buyers at 5.95 dollars plus 1; option holders minus 3; holders since the IPO minus 4">
+    <div class="chart-title">Impact score, −5 to +5 (our judgement, reasoning beside each bar)</div>
+    <div class="irow"><div class="ilabel">Holders at the 9 Oct price</div><div class="itrack"><div class="ibar p" style="width:40%" title="Holders at the 9 Oct price: +5"></div><span class="ival" style="left:calc(90% + 6px)">+5</span></div><div class="why">$2.54 becomes $6.05 in cash, and approval is already given.</div></div>
+    <div class="irow"><div class="ilabel">Whitney Wolfe Herd, founder</div><div class="itrack"><div class="ibar p" style="width:24%" title="Founder: +3"></div><span class="ival" style="left:calc(74% + 6px)">+3</span></div><div class="why">Keeps a stake in the private company and her share units are paid at $6.05. She gives up the chief executive seat.</div></div>
+    <div class="irow"><div class="ilabel">Blackstone</div><div class="itrack"><div class="ibar p" style="width:16%" title="Blackstone: +2"></div><span class="ival" style="left:calc(66% + 6px)">+2</span></div><div class="why">Its consent delivered the vote and it is paid in cash. We did not read the size of its stake.</div></div>
+    <div class="irow"><div class="ilabel">Staff with unvested share units</div><div class="itrack"><div class="ibar p" style="width:16%" title="Staff with unvested share units: +2"></div><span class="ival" style="left:calc(66% + 6px)">+2</span></div><div class="why">Units become cash awards at $6.05 on the same vesting dates.</div></div>
+    <div class="irow"><div class="ilabel">Match Group (MTCH)</div><div class="itrack"><div class="ibar p" style="width:8%" title="Match Group: +1"></div><span class="ival" style="left:calc(58% + 6px)">+1</span></div><div class="why">+3.1% over the two sessions, against +1.7% for the sector fund.</div></div>
+    <div class="irow"><div class="ilabel">Grindr (GRND)</div><div class="itrack"><div class="ibar p" style="width:8%" title="Grindr: +1"></div><span class="ival" style="left:calc(58% + 6px)">+1</span></div><div class="why">+2.9% over the same two sessions.</div></div>
+    <div class="irow"><div class="ilabel">Buyers at $5.95 today</div><div class="itrack"><div class="ibar p" style="width:8%" title="Buyers at $5.95: +1"></div><span class="ival" style="left:calc(58% + 6px)">+1</span></div><div class="why">10 cents, or 1.7%, to the deal price, with up to nine months to wait.</div></div>
+    <div class="irow"><div class="ilabel">Option holders</div><div class="itrack"><div class="ibar n" style="left:26%;width:24%" title="Option holders: -3"></div><span class="ival" style="right:calc(74% + 6px)">−3</span></div><div class="why">1.35M options with an average strike of $16.48 are cancelled for nothing. 8.0M incentive units are forfeited.</div></div>
+    <div class="irow"><div class="ilabel">Holders since the IPO</div><div class="itrack"><div class="ibar n" style="left:18%;width:32%" title="Holders since the IPO: -4"></div><span class="ival" style="right:calc(82% + 6px)">−4</span></div><div class="why">The deal fixes an 86% loss from $43.00. Only the founder is offered shares in the private company.</div></div>
+  </div>
+  <p><b>The reaction, measured against controls</b> (close on 9 Oct to close on 13 Oct):</p>
+  <div class="tablewrap"><table>
+    <tr><th>What</th><th>9 Oct</th><th>13 Oct</th><th>Move</th></tr>
+    <tr><td>Bumble (BMBL)</td><td>$2.54</td><td>$5.95</td><td>+134.3%</td></tr>
+    <tr><td>Match Group (MTCH)</td><td>$41.09</td><td>$42.36</td><td>+3.1%</td></tr>
+    <tr><td>Grindr (GRND)</td><td>$15.03</td><td>$15.47</td><td>+2.9%</td></tr>
+    <tr><td>Communication services fund (XLC)</td><td>$110.38</td><td>$112.28</td><td>+1.7%</td></tr>
+    <tr><td>Small caps (IWM)</td><td>$278.94</td><td>$276.70</td><td>−0.8%</td></tr>
+  </table></div>
+  <p class="note">Bumble rose 49.6% on 12 Oct, the day before the announcement, on 42.3M shares against a 20-day average of 2.1M. News wires say the Wall Street Journal reported the talks first. We did not read that report.</p>
+</section>
+
+<section>
+  <h2>Rung 4</h2>
+  <h3>What could this mean in the near future?</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Fork</th><th>What happens</th><th>Anchor</th></tr>
+    <tr><td><b>It closes</b></td><td>Holders get $6.05. From $5.95 that is 1.7% before costs.</td><td>Vote done, no financing condition, $102M fee due in escrow by 19 Oct 2026.</td></tr>
+    <tr><td><b>A higher price</b></td><td>Unlikely by contract. The no-shop is in force and the consent has been given. What is left is a court appraisal claim.</td><td>Appraisal rights are in section 2.05 of the agreement. The going-private filing (Schedule 13E-3) will show how the price was set.</td></tr>
+    <tr><td><b>It breaks</b></td><td>The last price without a deal was $2.54, which is 57% below $5.95.</td><td>An unnamed government approval, or a material adverse change. Third-quarter numbers arrive in the 10-Q by 9 Nov 2026, with no call.</td></tr>
+  </table></div>
+  <p>The price says the market puts the chance of a break at roughly 3% (1.7% up against 57% down, our arithmetic, and crude).</p>
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>19 Oct 2026: the $102M fee is due in escrow.</li>
+    <li>The Schedule 13E-3 and the information statement. Closing can come 20 days after mailing.</li>
+    <li>By 9 Nov 2026: the 10-Q, for paying users in the third quarter.</li>
+    <li>12 Jul 2027: the deadline.</li>
+  </ul>
+  <p><b>Gates and score:</b> verifiable and tradeable, but it fails the "already run" gate for a new buyer. On the event card: payoff 0, certainty 2, coverage 0, date visibility 1, behaviour 2, so 5 out of 10. Logged as tracked, with IWM as the control.</p>
+</section>
+
+<section>
+  <h2>Post caption (draft)</h2>
+  <div class="caption">Bumble sold today for $6.05 a share, a 138% premium.
+
+The same price is 86% below its 2021 IPO and 13% above where it traded a year ago.
+
+The buyer is paying about 5 times the cash the business produced in the last 12 months. Paying users fell 16% in a year, but cash from operations went up.
+
+There is no shareholder vote to wait for. Blackstone and the founder signed it through by written consent the day it was agreed.
+
+Options with a $16.48 average strike are cancelled for nothing.</div>
+</section>
+
+<footer>
+  <p><b>Sources</b> (all read on 13 Oct 2026)</p>
+  <ul>
+    <li>Bumble 8-K, 13 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm">sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm</a></li>
+    <li>Joint press release (Exhibit 99.1): <a href="https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_ex9901.htm">dp254907_ex9901.htm</a></li>
+    <li>Merger agreement (Exhibit 2.1), share count in section 4.05: <a href="https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_ex0201.htm">dp254907_ex0201.htm</a></li>
+    <li>10-Q for the quarter to 30 Jun 2026: <a href="https://www.sec.gov/Archives/edgar/data/1830043/000183004326000104/bmbl-20260630.htm">bmbl-20260630.htm</a></li>
+    <li>Reported revenue and cash flow (SEC XBRL): <a href="https://data.sec.gov/api/xbrl/companyfacts/CIK0001830043.json">data.sec.gov/api/xbrl/companyfacts/CIK0001830043.json</a></li>
+    <li>IPO prospectus (424B4, Feb 2021): <a href="https://www.sec.gov/Archives/edgar/data/1830043/000119312521041904/d20761d424b4.htm">d20761d424b4.htm</a></li>
+    <li>Prices: Yahoo daily closes for <a href="https://finance.yahoo.com/quote/BMBL/history/">BMBL</a>, <a href="https://finance.yahoo.com/quote/MTCH/history/">MTCH</a>, <a href="https://finance.yahoo.com/quote/GRND/history/">GRND</a>, <a href="https://finance.yahoo.com/quote/XLC/history/">XLC</a> and <a href="https://finance.yahoo.com/quote/IWM/history/">IWM</a>.</li>
+  </ul>
+  <p>Impact scores, valuation multiples and the break probability are our own arithmetic or judgement and are marked as such. This is research, not advice.</p>
+</footer>
+</main>

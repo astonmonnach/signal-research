@@ -59,3 +59,6 @@ found,source,ticker,category,direction,note
 2026-10-12,daily research 12 Oct (research/daily/2026-10-12.md),UMAC,linked_peer,0,PUSA counterparty: subscribed $30.0M for Legacy Powerus pre-funded warrants in June 2026
 2026-10-12,daily research 12 Oct (research/daily/2026-10-12.md),CVX,linked_peer,0,"HESM counterparty: seller of the DJ Basin assets, hands back its 38% HESM stake"
 2026-10-12,daily research 12 Oct (research/daily/2026-10-12.md),FWDI,linked_peer,0,SKYA counterparty: unsolicited 0.306-share proposal rejected by SkyAI on 11 Oct
+2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),BMBL,merger_arb,0,"Ithaca Holdings $6.05 cash; vote done by written consent; spread 1.7% at $5.95; last date 12 Jul 2027; tracked, already run"
+2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),MTCH,deal_peer,0,Bumble takeout read-across: +3.1% since 9 Oct vs XLC +1.7%
+2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),GRND,deal_peer,0,Bumble takeout read-across: +2.9% since 9 Oct vs XLC +1.7%

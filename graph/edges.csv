@@ -48,3 +48,6 @@ date,a,b,type,detail,source
 2026-10-12,BORR,NE,peer_named,offshore drilling contractor; peer in the 12 Oct insider-buying comparison,research/daily/2026-10-12.md
 2026-10-12,BORR,RIG,peer_named,offshore drilling contractor; peer in the 12 Oct insider-buying comparison,research/daily/2026-10-12.md
 2026-10-12,BORR,SDRL,peer_named,offshore drilling contractor; peer in the 12 Oct insider-buying comparison,research/daily/2026-10-12.md
+2026-10-13,BMBL,co:Ithaca Holdings,merger,Ithaca Holdco buys Bumble for $6.05 cash a share; agreement signed 12 Oct 2026; approved by written consent,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+2026-10-13,co:Ithaca Holdings,fund:Greenoaks,counterparty,Greenoaks Prime Radiant LP signed the equity commitment letter for the Bumble deal,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+2026-10-13,BMBL,BX,counterparty,Blackstone is a principal stockholder; with the founder it approved the Ithaca merger by written consent,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm

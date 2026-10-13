@@ -437,4 +437,28 @@ DTEND;VALUE=DATE:20270331
 SUMMARY:PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2009312/000149315226041764/0001493152-26-041764-index.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:4a05a9169447b4d5702706c90f8acb72@signal-lab
+DTSTAMP:20261013T220000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:BMBL: Ithaca's $102M termination fee due in escrow (Bumble take-private at $6.05)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:b6695d251dafc0c5b5f324a85595e393@signal-lab
+DTSTAMP:20261013T220000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:BMBL: Q3 10-Q due by today (paying users; no earnings call because of the deal)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:b10b0bace5ff3ac4f7bd87ef329c4378@signal-lab
+DTSTAMP:20261013T220000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:BMBL: last date for the $6.05 Ithaca deal to close
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+END:VEVENT
 END:VCALENDAR
