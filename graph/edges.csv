@@ -51,3 +51,16 @@ date,a,b,type,detail,source
 2026-10-13,BMBL,co:Ithaca Holdings,merger,Ithaca Holdco buys Bumble for $6.05 cash a share; agreement signed 12 Oct 2026; approved by written consent,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
 2026-10-13,co:Ithaca Holdings,fund:Greenoaks,counterparty,Greenoaks Prime Radiant LP signed the equity commitment letter for the Bumble deal,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
 2026-10-13,BMBL,BX,counterparty,Blackstone is a principal stockholder; with the founder it approved the Ithaca merger by written consent,https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm
+2026-10-14,PED,fund:Juniper Capital (Edward Geiser),merger,"Juniper funds hold 6,861,564 PED shares (51.6%) from the Oct 2025 merger; registered for resale, effective 8 Sep 2026; Geiser is a PED director",https://www.sec.gov/Archives/edgar/data/1141197/000165495426008226/0001654954-26-008226-index.htm
+2026-10-14,PED,fund:SGK 2018 Revocable Trust (Simon Kukes),holder_13d,"34.2% with Kukes; bought 147,070 shares at $13.00 in a market transaction on 8 Oct 2026",https://www.sec.gov/Archives/edgar/data/1141197/000165495426008906/0001654954-26-008906-index.htm
+2026-10-14,PED,AMPY,peer_named,small oil producer; peer in the 14 Oct insider-buy comparison,research/daily/2026-10-14.md
+2026-10-14,PED,GRNT,peer_named,small oil producer; peer in the 14 Oct insider-buy comparison,research/daily/2026-10-14.md
+2026-10-14,TALO,fund:Control Empresarial (Slim family),holder_13d,17.8% after selling 8.94M shares on 8 to 13 Oct 2026 at $17.03 to $17.51 a share,https://www.sec.gov/Archives/edgar/data/1724965/000114036126039476/0001140361-26-039476-index.htm
+2026-10-14,TALO,WTI,peer_named,Gulf of Mexico oil producer; peer in the 14 Oct holder-selling comparison,research/daily/2026-10-14.md
+2026-10-14,TALO,KOS,peer_named,offshore oil producer; peer in the 14 Oct holder-selling comparison,research/daily/2026-10-14.md
+2026-10-14,LCII,PATK,merger,"all-stock merger, 1.2440 PATK shares per LCII share (signed 30 Jun 2026); DOJ second request received 9 Oct 2026",https://www.sec.gov/Archives/edgar/data/763744/000076374426000089/0000763744-26-000089-index.htm
+2026-10-14,LCII,THO,peer_named,RV maker; peer in the 14 Oct merger comparison,research/daily/2026-10-14.md
+2026-10-14,LCII,WGO,peer_named,RV maker; peer in the 14 Oct merger comparison,research/daily/2026-10-14.md
+2026-10-14,ITGR,KKR,merger,KKR affiliates buying Integer for $127 cash (agreement 2 Aug 2026); KKR holds 14.0% after equity swaps settled 5 Oct,https://www.sec.gov/Archives/edgar/data/1114483/000114036126039472/0001140361-26-039472-index.htm
+2026-10-14,UUUU,co:VAC (Ara VAC IE Aggregator),merger,Energy Fuels buying VAC; merger agreement amended 13 Oct 2026 for e-VAC's offtake dispute (customer gave termination notice 1 Jul 2026),https://www.sec.gov/Archives/edgar/data/1385849/000106299326005306/0001062993-26-005306-index.htm
+2026-10-14,BORR,fund:Drew Holdings (Tor Olav Troim),holder_13d,12.2%; bought 10.1M shares in the open market from 13 Aug to 9 Oct 2026; Troim is a director,https://www.sec.gov/Archives/edgar/data/1715497/000119312526420407/0001193125-26-420407-index.htm

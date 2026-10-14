@@ -62,3 +62,15 @@ found,source,ticker,category,direction,note
 2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),BMBL,merger_arb,0,"Ithaca Holdings $6.05 cash; vote done by written consent; spread 1.7% at $5.95; last date 12 Jul 2027; tracked, already run"
 2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),MTCH,deal_peer,0,Bumble takeout read-across: +3.1% since 9 Oct vs XLC +1.7%
 2026-10-13,nth run 13 Oct (research/BMBL-2026-10-13.html),GRND,deal_peer,0,Bumble takeout read-across: +2.9% since 9 Oct vs XLC +1.7%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),PED,insider_buy,0,"34.2% holder (Kukes trust) bought 147,070 sh at $13.00 on 8 Oct, 92% of the day's volume; public 08:11 on 13 Oct; PED +0.1% that day vs XOP +2.8%; Juniper (51.6%) and Kukes shares on a live resale shelf; ~68% of Q3 oil hedged; WATCH"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),TALO,holder_selling,0,"Slim's Control Empresarial sold 8.94M sh on 8-13 Oct at $17.03-$17.51 (~$154M), 10.8M since 15 Sep; still 17.8%; 13D/A after the 13 Oct close; AVOID while the selling lasts"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),LCII,merger_arb,0,"DOJ second request (9 Oct) on the all-stock PATK merger, 1.2440 PATK per LCII; gap 0.88% at the 13 Oct close; 8-Ks after the close; tracked, no call"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),FEAM,insider_cluster,0,"CEO 7,176 sh at $3.48 and director 60,000 sh at $3.59, both 8 Oct: a cluster the scanner missed again; stock +160% since 15 Sep; tracked, already run"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),UUUU,deal_dispute,0,"VAC deal amended 13 Oct: e-VAC's offtake customer gave termination notice 1 Jul, in arbitration; VAC going-concern note; new $500M ATM; no setup"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),AMPY,linked_peer,0,PED peer (small oil producer): +0.7% from 8 to 13 Oct vs PED +2.9%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),GRNT,linked_peer,0,PED peer (small oil producer): +6.0% from 8 to 13 Oct vs PED +2.9%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),WTI,linked_peer,0,TALO peer (Gulf of Mexico producer): +7.3% from 7 to 13 Oct vs TALO +5.4%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),KOS,linked_peer,0,TALO peer (offshore producer): +7.3% from 7 to 13 Oct vs TALO +5.4%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),PATK,linked_peer,0,"LCII counterparty (the buyer, all stock); -28.3% since 30 Jun"
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),THO,linked_peer,0,LCII peer (RV maker): -13.2% from 30 Jun to 13 Oct vs LCII -25.1%
+2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),WGO,linked_peer,0,LCII peer (RV maker): -25.8% from 30 Jun to 13 Oct vs LCII -25.1%
