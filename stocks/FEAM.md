@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d_not_activism` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `insider_cluster` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $3.26 (2026-10-14, ledger)
-- **Since first found:** **-1.7%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -0.1% vs IWM -1.5% = **+1.4 pts** vs IWM; direction +1 → excess +1.4% (5 days)
+- **Latest price:** $3.14 (2026-10-14, ledger)
+- **Since first found:** **-5.0%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -3.5% vs IWM -1.7% = **-1.8 pts** vs IWM; direction +1 → excess -1.8% (5 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for FEAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $3.26 | -1.7% | -0.1% | -1.5% | +1.4% | 5 | live |
-| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $3.26 | -2.5% | -2.0% | -1.4% |  | 1 | live |
-| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -0.8% | $3.7M | $3.26 |  | $3.26 |  |  |  |  |  | pending |
+| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $3.14 | -5.0% | -3.5% | -1.7% | -1.8% | 5 | live |
+| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $3.14 | -5.8% | -5.3% | -1.6% |  | 1 | live |
+| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -4.1% | $3.7M | $3.14 |  | $3.14 |  |  |  |  |  | pending |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $92.69 (2026-10-14, ledger)
-- **Since first found:** **+5.6%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +4.8% vs IWM -1.5% = **+6.3 pts** vs IWM; direction +1 → excess +6.3% (5 days)
+- **Latest price:** $92.65 (2026-10-14, ledger)
+- **Since first found:** **+5.6%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +4.7% vs IWM -1.7% = **+6.5 pts** vs IWM; direction +1 → excess +6.4% (5 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $92.69 | +5.6% | +4.8% | -1.5% | +6.3% | 5 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $92.69 | +4.8% | +2.1% | -1.6% |  | 2 | live |
-| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $92.69 | -0.3% | -0.3% | +0.2% | -0.6% | 0 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $92.65 | +5.6% | +4.7% | -1.7% | +6.4% | 5 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $92.65 | +4.7% | +2.1% | -1.8% |  | 2 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $92.65 | -0.4% | -0.4% | +0.0% | -0.4% | 0 | live |
