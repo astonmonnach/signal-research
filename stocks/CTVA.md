@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $13.44 (2026-10-13, ledger) · 1d +1.1%, 5d -3.4%, 20d +7.4% (market context, 2026-10-13)
-- **Since first found:** **+658.4%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +658.0% vs IWM -1.4% = **+659.5 pts** vs IWM; direction 0, tracked only (13 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $13.36 (2026-10-13, ledger) · 1d +0.5%, 5d -4.0%, 20d +6.8% (market context, 2026-10-13)
+- **Since first found:** **+672.9%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +672.5% vs IWM -1.2% = **+673.7 pts** vs IWM; direction 0, tracked only (13 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -3.4% vs peer median -2.3%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Peers / sympathy:** solo_move: CTVA -4.0% 5d vs peer median -1.4% (crop inputs -2.1%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, 8-Ks): 15 states and one sovereign sued on 1 Oct to challenge the separation. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `8-K` 13 Oct · Research: Research: Wed 14 Oct 2026 (- **VYLR / CTVA (watchlist):** 15 states and one sovereign sued on 1 Oct to challenge the Corteva / Vylor…) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, spin-off): the 8-Ks confirm the spin completed 1 Oct. ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **VYLR / CTVA:** the 8-Ks confirm the spin was completed on 1 Oct. Vylor borrowed **$3.08bn** on 1 Oct…) ([note](../research/daily/2026-10-08.md))
 - **[2026-10-07](../scans/2026-10-07.md#watchlist-filings)**: Filings: `4` ×2 5 Oct, `8-K` 5 Oct
 - **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before +1.2%, found day +3.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1755672/000119312526414490/ck0001755672-20260929.htm)) · Calendar: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys) ([calendar](../calendar/catalyst-dates.ics))
@@ -117,7 +118,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $13.44 | +658.4% | +658.0% | -1.4% |  | 13 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $13.44 | +8.5% | +2.8% | -2.9% |  | 7 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $13.36 | +672.9% | +672.5% | -1.2% |  | 13 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $13.36 | +7.8% | +2.1% | -2.7% |  | 7 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

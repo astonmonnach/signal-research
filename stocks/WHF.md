@@ -88,10 +88,12 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.48 (2026-10-13, ledger) · 1d +2.2%, 5d +7.1%, 20d +2.2% (market context, 2026-10-13)
-- **Since first found:** **+7.3%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +7.6% vs IWM -1.4% = **+9.1 pts** vs IWM; direction +1 → excess +9.1% (14 days)
+- **Latest price:** $7.37 (2026-10-13, ledger) · 1d +0.6%, 5d +5.3%, 20d +0.6% (market context, 2026-10-13)
+- **Since first found:** **+5.7%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +6.0% vs IWM -1.3% = **+7.3 pts** vs IWM; direction +1 → excess +7.3% (14 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
+  - Mon 9 Nov 2026: WHF: Q3 results and call, 1:30 pm New York (company-confirmed date)
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -100,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **WHF** (watchlist, 8-K today): a $0.17 special distribution, record date 30 Oct, paid 10 Dec. Q3 results on Mon 9 Nov, call at 1:30 pm New York. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `8-K` 14 Oct · Research: Research: Wed 14 Oct 2026 (- **WHF (watchlist):** a special distribution of $0.17 a share, record date 30 Oct, paid 10 Dec. Q3 results…) ([note](../research/daily/2026-10-14.md))
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): passed scan gates; long thesis; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -108,4 +111,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.48 | +7.3% | +7.6% | -1.4% | +9.1% | 14 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.37 | +5.7% | +6.0% | -1.3% | +7.3% | 14 | live |

@@ -101,10 +101,10 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $75.17 (2026-10-13, ledger) · 1d -0.9%, 5d +3.1%, 20d  (market context, 2026-10-13)
-- **Since first found:** **+10.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +9.4% vs IWM -2.2% = **+11.6 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $76.94 (2026-10-13, ledger) · 1d +1.4%, 5d +5.5%, 20d  (market context, 2026-10-13)
+- **Since first found:** **+12.7%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +12.0% vs IWM -2.0% = **+14.0 pts** vs IWM; direction 0, tracked only (11 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median -3.4%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Peers / sympathy:** no flag (self 5d +5.5% vs peer median -4.0%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-13)
   - warning: only 9 daily bars (new listing?)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 15 Oct 2026: VYLR day-10 check (observation)
@@ -118,6 +118,7 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, 8-Ks): 15 states and one sovereign sued on 1 Oct to challenge the separation. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `8-K` 13 Oct · Research: Research: Wed 14 Oct 2026 (- **VYLR / CTVA (watchlist):** 15 states and one sovereign sued on 1 Oct to challenge the Corteva / Vylor…) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, spin-off): the 8-Ks confirm the spin completed 1 Oct. ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **VYLR / CTVA:** the 8-Ks confirm the spin was completed on 1 Oct. Vylor borrowed **$3.08bn** on 1 Oct…) ([note](../research/daily/2026-10-08.md))
 - **[2026-10-07](../scans/2026-10-07.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm)) · Filings: `4` ×2 6 Oct, `4` ×9 5 Oct, `8-K` 5 Oct
 - **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526414335/d92652d8k.htm)) · Calendar: Index trades at close: CTVA to MidCap 400 (replaces OLN); VYLR Materials→Staples (XLB sells, XLP buys) ([calendar](../calendar/catalyst-dates.ics))
@@ -133,6 +134,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $75.17 | +10.1% | +9.4% | -2.2% |  | 11 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $75.17 | +2.5% | +4.5% | -2.9% |  | 7 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $75.17 | +3.0% | +1.8% | -0.0% |  | 5 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $76.94 | +12.7% | +12.0% | -2.0% |  | 11 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $76.94 | +4.9% | +7.0% | -2.7% |  | 7 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $76.94 | +5.4% | +4.2% | +0.1% |  | 5 | live |

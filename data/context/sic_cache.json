@@ -8917,8 +8917,10 @@
    "sic": "1311"
   },
   "1141197": {
-   "fetched": "2026-10-08",
-   "sic": "1311"
+   "fetched": "2026-10-14",
+   "name": "PEDEVCO CORP",
+   "sic": "1311",
+   "sic_description": "Crude Petroleum & Natural Gas"
   },
   "1141205": {
    "fetched": "2026-10-08",
@@ -21641,6 +21643,12 @@
   "1724578": {
    "fetched": "2026-10-04",
    "sic": "3714"
+  },
+  "1724965": {
+   "fetched": "2026-10-14",
+   "name": "TALOS ENERGY INC.",
+   "sic": "1311",
+   "sic_description": "Crude Petroleum & Natural Gas"
   },
   "1725033": {
    "fetched": "2026-10-12",

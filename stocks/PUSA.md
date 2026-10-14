@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire)); `holder_13g_supply` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.23 (2026-10-13, ledger) · 1d -2.6%, 5d -21.5%, 20d -36.7% (market context, 2026-10-13)
-- **Since first found:** **-23.0%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -25.9% vs IWM -2.9% = **-23.0 pts** vs IWM; direction +1 → excess -23.0% (7 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: PUSA -21.5% 5d vs peer median +2.2%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Latest price:** $2.27 (2026-10-13, ledger) · 1d -1.3%, 5d -20.5%, 20d -35.9% (market context, 2026-10-13)
+- **Since first found:** **-21.6%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -24.6% vs IWM -2.7% = **-21.9 pts** vs IWM; direction +1 → excess -21.9% (7 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: PUSA -20.5% 5d vs peer median +3.6%; peers didn't move with it. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 30 Dec 2026: PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic)
   - Tue 30 Mar 2027: PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)
@@ -19,7 +19,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Powerus (Nasdaq: PUSA) Unveils Fully Autonomous Drone Interceptors at AUSA 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261012089605/en/Powerus-Nasdaq-PUSA-Unveils-Fully-Autonomous-Drone-Interceptors-at-AUSA-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
+- **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **PUSA** (watchlist, two 13Ds): Michael Sinensky's Aeromaris (11.6%) and Roman Vintfeld's Droneclad (8.9%) hold shares from the 1 Oct merger. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `SCHEDULE 13D` ×2 13 Oct · Research: Research: Wed 14 Oct 2026 (- **PUSA (AVOID stands):** two more 13Ds, Michael Sinensky's Aeromaris (11.6%) and Roman Vintfeld's Droneclad…) ([note](../research/daily/2026-10-14.md)) · Triage, dismissed: ITGR, BBCI, PUSA (two), GETY, UNH, ABCP, SODI, CLYD: not activism, not a review, or untradeable (table above). ([triage](../watch/digests/2026-10-14-triage.md))
+- **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Powerus (Nasdaq: PUSA) Unveils Fully Autonomous Drone Interceptors at AUSA 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261012089605/en/Powerus-Nasdaq-PUSA-Unveils-Fully-Autonomous-Drone-Interceptors-at-AUSA-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -20.6%, found day -1.3%) ([filing](https://www.sec.gov/Archives/edgar/data/2009312/000110465926115597/0001104659-26-115597-index.htm))
 - **[2026-10-12](../scans/2026-10-12.md#triage-notes)**: Triage: **PUSA** (watchlist, 13G): AUT Holdings, owned by KCGI's funds, holds 27,487,342 shares, 16.77%, from the 1 Oct merger. ([triage](../watch/digests/2026-10-12-triage.md)) · Logged as `holder_13g_supply` (direction 0): KCGI funds hold 27.49M sh (16.77%) from the 1 Oct merger, passive 13G; locked-up shares free in thirds (close, 30 Dec, 30 Mar); -21.1% from the 6 Oct entry open; AVOID until supply clears; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (3. PUSA: the 13G is the biggest merger holder, not a buyer) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 8 Oct · Research: Research: Sat 10 Oct 2026 (- **PUSA:** the new CEO's 24.1M shares (14.2%) from the merger, plus options on 6.69M shares at $0.75 against…) ([note](../research/daily/2026-10-10.md)) · Triage, dismissed: **PUSA** 13D: the new CEO's merger shares (14.2%) and $0.75 options. Not activism. ([triage](../watch/digests/2026-10-10-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -34.7%, found day +0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2009312/000110465926114800/0001104659-26-114800-index.htm)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/2009312/000110465926114548/0001104659-26-114548-index.htm)) · Triage, dismissed: **PUSA**: passive 13G. Not activism. ([triage](../watch/digests/2026-10-08-triage.md))
@@ -33,6 +34,7 @@ Every [ledger](../ledger/LEDGER.md) row for PUSA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.23 | -23.0% | -25.9% | -2.9% | -23.0% | 7 | live |
-| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $2.23 | -12.6% | -13.6% | -0.7% | -12.8% | 4 | live |
-| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $2.23 | -3.0% | -3.0% | -0.6% |  | 0 | live |
+| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $2.27 | -21.6% | -24.6% | -2.7% | -21.9% | 7 | live |
+| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $2.27 | -11.0% | -12.0% | -0.5% | -11.5% | 4 | live |
+| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $2.27 | -1.3% | -1.3% | -0.5% |  | 0 | live |
+| 2026-10-13 | `activist_13d` | +1 | -20.6% | -1.3% | $3.7M | $2.27 |  | $2.27 |  |  |  |  |  | pending |

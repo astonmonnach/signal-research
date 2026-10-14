@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.33 (2026-10-13, ledger)
-- **Since first found:** **-0.1%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.0% vs IWM -0.7% = **+0.7 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $36.31 (2026-10-13, ledger)
+- **Since first found:** **-0.2%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: -0.1% vs IWM -0.5% = **+0.5 pts** vs IWM; direction 0, tracked only (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
+- **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000110465926115589/0001104659-26-115589-index.htm))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage: **PCRX / VTRS** (market-wide, merger arb): signed deal, **$36.50 cash** tender. Spread 0.52% at $36.31. Tracked. ([triage](../watch/digests/2026-10-10-triage.md)) · Logged as `merger_arb` (direction 0): Viatris $36.50 cash tender; spread 0.52% at $36.31; tracked; source: daily research 10 Oct (research/daily/2026-10-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 10 Oct 2026 (2. PCRX: Viatris buys Pacira for $36.50 cash) ([note](../research/daily/2026-10-10.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, strategic review, spin-off, reverse stock split, tender offer" (8k merger agreement) (5d before +0.6%, found day +44.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm))
 
@@ -27,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.33 | -0.1% | +0.0% | -0.7% |  | 4 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.33 | +0.1% | -0.0% | -0.8% |  | 1 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.31 | -0.2% | -0.1% | -0.5% |  | 4 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.31 | +0.0% | -0.1% | -0.6% |  | 1 | live |
