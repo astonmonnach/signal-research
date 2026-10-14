@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "published_utc": "2026-10-14T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "ACVA;CPRT",
+  "title": "Copart Announces Expiration of Hart-Scott-Rodino Act Waiting Period to Acquire ACV",
+  "link": "http://www.businesswire.com/news/home/20261014377018/en/Copart-Announces-Expiration-of-Hart-Scott-Rodino-Act-Waiting-Period-to-Acquire-ACV/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-14T12:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDT;MMED",
+  "title": "Medtronic Announces Final Results of MiniMed Group, Inc. Exchange Offer",
+  "link": "https://www.prnewswire.com/news-releases/medtronic-announces-final-results-of-minimed-group-inc-exchange-offer-302908450.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-13T20:45:00Z",
+  "wire": "PR Newswire",
+  "ticker": "THO",
+  "title": "THOR INDUSTRIES ANNOUNCES INCREASED REGULAR QUARTERLY DIVIDEND",
+  "link": "https://www.prnewswire.com/news-releases/thor-industries-announces-increased-regular-quarterly-dividend-302907480.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-14T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "DRS",
+  "title": "Leonardo DRS Awarded JIATF-401 IDIQ Contract to Accelerate Delivery of Tactical Expeditionary Sensing Capabilities for Critical Counter UAS Mission",
+  "link": "https://www.globenewswire.com/news-release/2026/10/14/3380679/0/en/leonardo-drs-awarded-jiatf-401-idiq-contract-to-accelerate-delivery-of-tactical-expeditionary-sensing-capabilities-for-critical-counter-uas-mission.html",
+  "matched_on": "keyword:IDIQ"
+ },
+ {
+  "published_utc": "2026-10-14T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "KTOS",
+  "title": "Kratos Breaks Ground on New AN/SPY-1 Radar and Helios Hypersonics Testing Facilities in Indiana",
+  "link": "https://www.globenewswire.com/news-release/2026/10/14/3380690/224/en/kratos-breaks-ground-on-new-an-spy-1-radar-and-helios-hypersonics-testing-facilities-in-indiana.html",
+  "matched_on": "keyword:Department of War"
+ },
+ {
+  "published_utc": "2026-10-14T11:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "FFAI;FFR",
+  "title": "Faraday Future Announces That It Has Signed a Definitive Agreement with FFR to Combine FFAI’s Full Robotics Business at Approx. $200 Million Valuation and $2.246 Per Share, Representing Approximately 50 Percent Premium",
+  "link": "http://www.businesswire.com/news/home/20261014897538/en/Faraday-Future-Announces-That-It-Has-Signed-a-Definitive-Agreement-with-FFR-to-Combine-FFAI%E2%80%99s-Full-Robotics-Business-at-Approx.-200-Million-Valuation-and-2.246-Per-Share-Representing-Approximately-50-Percent-Premium/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-14T10:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "KBR",
+  "title": "KBR Dividend Declaration",
+  "link": "https://www.globenewswire.com/news-release/2026/10/14/3380520/0/en/kbr-dividend-declaration.html",
+  "matched_on": "keyword:spin-off"
+ }
+]
