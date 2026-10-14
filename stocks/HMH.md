@@ -92,7 +92,7 @@
 - **Latest price:** $18.98 (2026-10-13, ledger) · 1d +0.8%, 5d +0.4%, 20d -5.3% (market context, 2026-10-13)
 - **Since first found:** **-1.6%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: +0.6% vs IWM -1.3% = **+1.9 pts** vs IWM; direction -1 → excess -1.9% (14 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -0.2%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -0.2%). Peer groups: oilfield equipment (5), SIC 3533 (7) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)

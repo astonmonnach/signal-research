@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $4.80 (2026-10-13, ledger) · 1d -2.6%, 5d +14.0%, 20d +10.1% (market context, 2026-10-13)
 - **Since first found:** **-2.6%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -3.6% vs IWM -0.5% = **-3.1 pts** vs IWM; direction 0, tracked only (0 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: BORR +14.0% 5d vs peer median +4.7%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-10-13)
+- **Peers / sympathy:** solo_move: BORR +14.0% 5d vs peer median +4.5%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-10-13)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
