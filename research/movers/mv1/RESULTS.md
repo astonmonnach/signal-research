@@ -209,3 +209,17 @@ For every set of returns: share of wins times average win, minus share of losses
 - `run.py`: rebuilds everything here with one command. It reads the runners panel and caches and writes only inside this folder.
 - `listA.csv`, `listB.csv`: one row per mover with every feature and outcome. `listB_fullpanel.csv`: the impact check for Deviation 1.
 - `cache/`: SEC and Yahoo downloads, and `numbers.json` with every number above.
+
+## Description added 14 Oct: turnover and the next day (not a test)
+Asked after the results: is there a turnover level where a gainer keeps going? Turnover = shares traded on the gain day / shares outstanding (not float, so true float turnover is higher). List B (takeable), the 3,792 movers with a share count. Bought at the gain day's close; next day after 1%; overnight is close to next open, gross.
+
+| Turnover | n | Gain day median | Next day median | Next day green | Next day +20% | Next day -20% | Overnight median | Opened up |
+|---|---|---|---|---|---|---|---|---|
+| under 0.1x | 1481 | +24% | -1.9% | 39% | 3.6% | 2.5% | 0.0% | 48% |
+| 0.1-0.3x | 879 | +29% | -1.7% | 39% | 3.9% | 3.0% | 0.0% | 49% |
+| 0.3-1x | 622 | +34% | -1.8% | 36% | 7.2% | 6.4% | 0.0% | 47% |
+| 1-3x | 271 | +39% | -4.3% | 34% | 11.1% | 11.8% | -0.4% | 45% |
+| 3-10x | 189 | +44% | -7.8% | 29% | 11.6% | 24.3% | -3.3% | 36% |
+| 10x or more | 350 | +48% | -10.0% | 26% | 11.4% | 24.6% | -5.5% | 32% |
+
+Higher turnover goes with a bigger gain day and a worse next day. Above about 1x the odds of another +20% day roughly triple, but the odds of a -20% day rise faster. No level was found where the run keeps going. The moment turnover crosses a level during the day can't be seen in daily data; that needs minute bars.
