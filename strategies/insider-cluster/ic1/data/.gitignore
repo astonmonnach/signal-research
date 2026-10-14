@@ -1,0 +1,3 @@
+# raw downloads: SEC Insider Transactions Data Sets zips and the Yahoo IWM cache (run.py re-downloads them)
+*.zip
+iwm_daily.json
