@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $119.44 (2026-10-13, ledger)
-- **Since first found:** **+0.3%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -0.4% vs IWM -0.5% = **+0.1 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $118.12 (2026-10-14, ledger)
+- **Since first found:** **-0.8%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -1.5% vs IWM -1.5% = **+0.0 pts** vs IWM; direction 0, tracked only (5 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for SYNA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $119.44 | +0.3% | -0.4% | -0.5% |  | 4 | live |
-| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $119.44 | -0.3% | -0.3% | -0.6% |  | 1 | live |
+| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $118.12 | -0.8% | -1.5% | -1.5% |  | 5 | live |
+| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $118.12 | -1.4% | -1.4% | -1.6% |  | 2 | live |

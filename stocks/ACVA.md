@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $10.47 (2026-10-13, ledger)
-- **Since first found:** **+0.3%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.3% vs IWM -1.2% = **+1.5 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $10.49 (2026-10-14, ledger)
+- **Since first found:** **+0.5%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.5% vs IWM -2.2% = **+2.8 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for ACVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.47 | +0.3% | +0.3% | -1.2% |  | 13 | live |
-| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.47 | +0.3% | +0.2% | -0.5% |  | 4 | live |
-| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.47 | +0.3% | +0.1% | -0.6% |  | 1 | live |
+| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.49 | +0.5% | +0.5% | -2.2% |  | 14 | live |
+| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.49 | +0.5% | +0.4% | -1.5% |  | 5 | live |
+| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.49 | +0.5% | +0.3% | -1.6% |  | 2 | live |
