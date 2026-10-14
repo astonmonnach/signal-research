@@ -1,0 +1,49 @@
+name: fp2-paper
+
+# FP2 forward paper log (research/movers/PREREG_FP2.md). Paper only, no orders.
+# signal: 19:40 UTC on weekdays, 20 minutes before the US close while New York is on daylight time.
+# fill: 14:45 UTC on weekdays, after the US open. Both are short jobs.
+on:
+  schedule:
+    - cron: "40 19 * * 1-5"
+    - cron: "45 14 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "signal, fill or status"
+        default: "status"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fp2-paper
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q numpy
+      - name: FP2 step
+        run: |
+          STEP="${{ github.event.inputs.step }}"
+          if [ -z "$STEP" ]; then
+            if [ "$(date -u +%H)" = "19" ]; then STEP=signal; else STEP=fill; fi
+          fi
+          python research/movers/fp2/live.py "$STEP"
+          python research/movers/fp2/live.py status
+      - name: Commit log
+        run: |
+          git config user.name "signal-lab-bot"
+          git config user.email "signal-lab-bot@users.noreply.github.com"
+          git add research/movers/fp2/live_signals.csv 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "fp2 paper log $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep $((i*5)); done
+          exit 1
