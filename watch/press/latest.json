@@ -1,1 +1,74 @@
-[]
+[
+ {
+  "published_utc": "2026-10-15T14:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PCOR",
+  "title": "Procore Names COMPASS Its Preferred Subcontractor Prequalification Solution",
+  "link": "https://www.prnewswire.com/news-releases/procore-names-compass-its-preferred-subcontractor-prequalification-solution-302909126.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T14:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDT;MMED",
+  "title": "MiniMed Completes Separation from Medtronic",
+  "link": "https://www.prnewswire.com/news-releases/minimed-completes-separation-from-medtronic-302910187.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T14:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDT;MMED",
+  "title": "Medtronic Completes Separation of MiniMed Group, Inc.",
+  "link": "https://www.prnewswire.com/news-releases/medtronic-completes-separation-of-minimed-group-inc-302910198.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T12:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PTC",
+  "title": "PTC Announces Servigistics Renewal with U.S. Air Force",
+  "link": "https://www.prnewswire.com/news-releases/ptc-announces-servigistics-renewal-with-us-air-force-302908699.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T12:15:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDA",
+  "title": "49NORTH AWARDS CONTRACT TO TERRASENSE ANALYTICS-LED AIRBORNE SENSING LAB IN SUPPORT OF CANADA'S CQ-9B GUARDIAN REMOTELY PILOTED AIRCRAFT SYSTEM PROJECT",
+  "link": "https://www.prnewswire.com/news-releases/49north-awards-contract-to-terrasense-analytics-led-airborne-sensing-lab-in-support-of-canadas-cq-9b-guardian-remotely-piloted-aircraft-system-project-302908937.html",
+  "matched_on": "keyword:awarded a contract"
+ },
+ {
+  "published_utc": "2026-10-15T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CCC",
+  "title": "CCC Intelligent Solutions Signs Definitive Agreement to Be Acquired by GTCR and Elliott",
+  "link": "https://www.globenewswire.com/news-release/2026/10/15/3381595/0/en/ccc-intelligent-solutions-signs-definitive-agreement-to-be-acquired-by-gtcr-and-elliott.html",
+  "matched_on": "keyword:definitive agreement;keyword:to be acquired"
+ },
+ {
+  "published_utc": "2026-10-15T11:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ATCH",
+  "title": "AtlasClear Holdings Signs Definitive Agreement to Acquire Ark Financial Services, including its Dawson James Securities Subsidiary, and Completes Initial 24.9% Investment",
+  "link": "https://www.globenewswire.com/news-release/2026/10/15/3381532/0/en/atlasclear-holdings-signs-definitive-agreement-to-acquire-ark-financial-services-including-its-dawson-james-securities-subsidiary-and-completes-initial-24-9-investment.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-15T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "AQST",
+  "title": "Aquestive Therapeutics Announces FDA Acceptance of Anaphylm™ NDA Resubmission and PDUFA Goal Date of March 16, 2027",
+  "link": "https://www.globenewswire.com/news-release/2026/10/15/3381477/0/en/aquestive-therapeutics-announces-fda-acceptance-of-anaphylm-nda-resubmission-and-pdufa-goal-date-of-march-16-2027.html",
+  "matched_on": "keyword:PDUFA"
+ },
+ {
+  "published_utc": "2026-10-15T10:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "SRFM;PLTR",
+  "title": "Surf Air Mobility Signs OperatorOS Contract with Flying Zebra",
+  "link": "http://www.businesswire.com/news/home/20261015272450/en/Surf-Air-Mobility-Signs-OperatorOS-Contract-with-Flying-Zebra/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:definitive agreement"
+ }
+]
