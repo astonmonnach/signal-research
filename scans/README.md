@@ -4,7 +4,8 @@ One file per date with everything the pipeline found that day: S1 contract signa
 
 | date | S1 signals (DoD awards) | watchlist filings | market-wide items | press (watch / keyword) | new setups | triage (worth / dismissed) |
 |---|---|---|---|---|---|---|
-| [Wed 14 Oct 2026](2026-10-14.md) | – | 13 (+56 older) | – | 0 / 1 | 12 | 11 / 5 |
+| [Thu 15 Oct 2026](2026-10-15.md) | – | – | – | 1 / 1 | – | – |
+| [Wed 14 Oct 2026](2026-10-14.md) | – | 13 (+56 older) | – | 4 / 8 | 12 | 11 / 5 |
 | [Tue 13 Oct 2026](2026-10-13.md) | 0 (9) | – | 113 | 4 / 10 | 3 | – |
 | [Mon 12 Oct 2026](2026-10-12.md) | – | 2 (+36 older) | – | 1 / 11 | 13 | 8 / 7 |
 | [Sun 11 Oct 2026](2026-10-11.md) | – | – | – | 0 / 1 | – | – |

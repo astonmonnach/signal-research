@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $10.49 (2026-10-14, ledger)
-- **Since first found:** **+0.5%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.5% vs IWM -2.4% = **+3.0 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $10.50 (2026-10-14, ledger)
+- **Since first found:** **+0.6%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.6% vs IWM -3.1% = **+3.7 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-14](../scans/2026-10-14.md)**: Research: Research: Wed 14 Oct 2026 (- **ACVA:** the antitrust waiting period ended at 23:59 on 13 Oct. The $10.50 tender still expires at 5 pm…) ([note](../research/daily/2026-10-14.md))
+- **[2026-10-14](../scans/2026-10-14.md#press-releases)**: Press: Copart Announces Expiration of Hart-Scott-Rodino Act Waiting Period to Acquire ACV (Business Wire) ([release](http://www.businesswire.com/news/home/20261014377018/en/Copart-Announces-Expiration-of-Hart-Scott-Rodino-Act-Waiting-Period-to-Acquire-ACV/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Research: Research: Wed 14 Oct 2026 (- **ACVA:** the antitrust waiting period ended at 23:59 on 13 Oct. The $10.50 tender still expires at 5 pm…) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-12](../scans/2026-10-12.md)**: Research: Research: Mon 12 Oct 2026 (- **Dated items, nothing changed:** ACVA's tender still expires 15 Oct, with no filing since 8 Oct, and the…) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage: **ACVA / CPRT** (market-wide, merger arb): tender extended to **15 Oct**, 52.84% tendered, price $10.50. Spread 0.57%. Tracked. ([triage](../watch/digests/2026-10-10-triage.md)) · Logged as `merger_arb` (direction 0): Copart $10.50 cash tender to 15 Oct; 52.84% tendered; spread 0.57%; tracked; source: daily research 10 Oct (research/daily/2026-10-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 10 Oct 2026 (- **ACVA:** Copart's **$10.50 cash** tender now expires **15 Oct**. 52.84% of the shares were tendered by 7…) ([note](../research/daily/2026-10-10.md))
 - **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: Copart Announces Extension of Tender Offer to Acquire ACV (Business Wire) ([release](http://www.businesswire.com/news/home/20261008309482/en/Copart-Announces-Extension-of-Tender-Offer-to-Acquire-ACV/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: tender offer (third party) (`SC TO-T/A`) (5d before +0.1%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1637873/000119312526417451/0001193125-26-417451-index.htm))
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for ACVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.49 | +0.5% | +0.5% | -2.4% |  | 14 | live |
-| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.49 | +0.5% | +0.4% | -1.7% |  | 5 | live |
-| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.49 | +0.5% | +0.3% | -1.8% |  | 2 | live |
+| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.50 | +0.6% | +0.6% | -3.1% |  | 14 | live |
+| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.50 | +0.6% | +0.5% | -2.5% |  | 5 | live |
+| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.50 | +0.6% | +0.4% | -2.5% |  | 2 | live |
