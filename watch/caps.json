@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15 00:30 UTC",
+ "updated": "2026-10-15 00:56 UTC",
  "buckets": {
   "micro": [
    0,
@@ -42,8 +42,8 @@
    "shares": 54400000.0,
    "shares_source": "30.7M before + 23.7M issued to MOD holders in the RMT (Gentherm/Modine 8-K, 1-2 Oct 2026)",
    "shares_date": "2026-10-02",
-   "price": 31.049999237060547,
-   "mcap": 1689119958.4960938,
+   "price": 30.610000610351562,
+   "mcap": 1665184033.203125,
    "bucket": "small"
   },
   "MOD": {
@@ -51,8 +51,8 @@
    "shares": 53112708,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-24",
-   "price": 172.57000732421875,
-   "mcap": 9165660408.569092,
+   "price": 157.75,
+   "mcap": 8378529687.0,
    "bucket": "mid"
   },
   "HMH": {
@@ -105,8 +105,8 @@
    "shares": 69700243,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-22",
-   "price": 81.05999755859375,
-   "mcap": 5649901527.413391,
+   "price": 80.0199966430664,
+   "mcap": 5577413210.880913,
    "bucket": "mid"
   },
   "RYAM": {
@@ -163,8 +163,8 @@
    "shares": 13290902,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-11",
-   "price": 13.25,
-   "mcap": 176104451.5,
+   "price": 12.8100004196167,
+   "mcap": 170256460.19708443,
    "bucket": "micro"
   },
   "TALO": {
@@ -181,8 +181,8 @@
    "shares": 108506261,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-29",
-   "price": 193.9600067138672,
-   "mcap": 21045875112.056625,
+   "price": 193.63999938964844,
+   "mcap": 21011152313.813034,
    "bucket": "large"
   },
   "RXO": {
