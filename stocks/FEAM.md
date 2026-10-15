@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d_not_activism` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `insider_cluster` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $3.06 (2026-10-14, ledger)
-- **Since first found:** **-7.5%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -6.1% vs IWM -2.5% = **-3.7 pts** vs IWM; direction +1 → excess -3.7% (5 days)
+- **Latest price:** $3.03 (2026-10-15, ledger)
+- **Since first found:** **-8.5%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -7.1% vs IWM -2.2% = **-4.8 pts** vs IWM; direction +1 → excess -4.8% (6 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for FEAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $3.06 | -7.5% | -6.1% | -2.5% | -3.7% | 5 | live |
-| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $3.06 | -8.4% | -7.8% | -2.4% |  | 1 | live |
-| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 |  | $3.06 |  |  |  |  |  | pending |
+| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $3.03 | -8.5% | -7.1% | -2.2% | -4.8% | 6 | live |
+| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $3.03 | -9.3% | -8.7% | -2.1% |  | 2 | live |
+| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $3.03 | -1.0% | +1.0% | -0.5% |  | 0 | live |

@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $18.43 (2026-10-14, ledger) · 1d -2.9%, 5d +2.0%, 20d -6.5% (market context, 2026-10-14)
-- **Since first found:** **-4.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -2.3% vs IWM -3.2% = **+0.8 pts** vs IWM; direction -1 → excess -0.8% (15 days)
+- **Latest price:** $18.23 (2026-10-15, ledger) · 1d -1.1%, 5d -2.7%, 20d -4.6% (market context, 2026-10-15)
+- **Since first found:** **-5.5%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -3.4% vs IWM -2.9% = **-0.5 pts** vs IWM; direction -1 → excess +0.5% (16 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +2.0% vs peer median -0.4%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-14)
+- **Peers / sympathy:** no flag (self 5d -2.7% vs peer median -2.4%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-15)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -112,5 +112,5 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.43 | -4.4% | -2.3% | -3.2% | -0.8% | 15 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.43 | +3.7% | +3.7% | -3.1% | -6.9% | 14 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.23 | -5.5% | -3.4% | -2.9% | +0.5% | 16 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.23 | +2.6% | +2.6% | -2.9% | -5.5% | 15 | live |
