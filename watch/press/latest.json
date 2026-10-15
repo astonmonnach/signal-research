@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "published_utc": "2026-10-15T21:28:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RIG",
+  "title": "Transocean Ltd. Announces Amended and Restated Credit Agreement and Redemption of Deepwater Aquila Notes",
+  "link": "https://www.globenewswire.com/news-release/2026/10/15/3382182/0/en/transocean-ltd-announces-amended-and-restated-credit-agreement-and-redemption-of-deepwater-aquila-notes.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T20:30:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PATK",
+  "title": "Patrick Industries, Inc. Announces Third Quarter 2026 Earnings Release and Conference Call Webcast on October 29, 2026",
+  "link": "https://www.prnewswire.com/news-releases/patrick-industries-inc-announces-third-quarter-2026-earnings-release-and-conference-call-webcast-on-october-29-2026-302910525.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T20:30:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDT",
+  "title": "Medtronic Named to TIME Best Inventions of 2026 List for Stealth AXiS™ surgical system and Corsano™* multi-parameter wearable",
+  "link": "https://www.prnewswire.com/news-releases/medtronic-named-to-time-best-inventions-of-2026-list-for-stealth-axis-surgical-system-and-corsano-multi-parameter-wearable-302910528.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-15T20:05:00Z",
+  "wire": "Business Wire",
+  "ticker": "FBIN",
+  "title": "Fortune Brands Innovations Announces Agreement to Sell Fiberon",
+  "link": "http://www.businesswire.com/news/home/20261015806314/en/Fortune-Brands-Innovations-Announces-Agreement-to-Sell-Fiberon/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:definitive agreement"
+ }
+]
