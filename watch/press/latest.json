@@ -1,34 +1,10 @@
 [
  {
-  "published_utc": "2026-10-14T20:30:00Z",
-  "wire": "PR Newswire",
-  "ticker": "WHF",
-  "title": "WhiteHorse Finance, Inc. Announces Special Distribution And To Report Third Quarter 2026 Financial Results",
-  "link": "https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-special-distribution-and-to-report-third-quarter-2026-financial-results-302909059.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-14T21:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "VNDA",
-  "title": "Vanda Pharmaceuticals Provides Update on VQW-765 Clinical Development Program",
-  "link": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-provides-update-on-vqw-765-clinical-development-program-302909083.html",
-  "matched_on": "keyword:Phase III"
- },
- {
-  "published_utc": "2026-10-14T20:05:00Z",
+  "published_utc": "2026-10-14T23:49:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "RZLT",
-  "title": "Rezolute Announces Completion of Enrollment in Phase 3 upLIFT Study of Ersodetug in Tumor Hyperinsulinism",
-  "link": "https://www.globenewswire.com/news-release/2026/10/14/3381134/0/en/rezolute-announces-completion-of-enrollment-in-phase-3-uplift-study-of-ersodetug-in-tumor-hyperinsulinism.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-14T19:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "WFF",
-  "title": "WF Holding Limited Announces $18 Million Registered Direct Offering",
-  "link": "https://www.globenewswire.com/news-release/2026/10/14/3381100/0/en/wf-holding-limited-announces-18-million-registered-direct-offering.html",
-  "matched_on": "keyword:definitive agreement"
+  "ticker": "SKYA;SKYAW",
+  "title": "SkyAI to Commence $3.00 Per Share/Warrant Tender Offer and File Offer Materials with the SEC After Market Close on October 15, 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/14/3381233/0/en/skyai-to-commence-3-00-per-share-warrant-tender-offer-and-file-offer-materials-with-the-sec-after-market-close-on-october-15-2026.html",
+  "matched_on": "watchlist;keyword:tender offer"
  }
 ]
