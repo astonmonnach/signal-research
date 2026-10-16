@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
 - **Latest price:** $55.88 (2026-10-15, ledger)
-- **Since first found:** **+2.7%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +2.8% vs IWM -0.5% = **+3.2 pts** vs IWM; direction 0, tracked only (7 days)
+- **Since first found:** **+2.7%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +2.8% vs IWM -0.4% = **+3.2 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for CSR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $55.88 | +2.7% | +2.8% | -0.5% |  | 7 | live |
+| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $55.88 | +2.7% | +2.8% | -0.4% |  | 7 | live |
 | 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $55.88 | +1.8% | +0.7% | -1.1% |  | 6 | live |

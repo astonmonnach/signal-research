@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $17.34 (2026-10-15, ledger) · 1d -5.9%, 5d -7.5%, 20d -9.3% (market context, 2026-10-15)
+- **Latest price:** $17.46 (2026-10-16, market context) · 1d +0.7%, 5d -8.4%, 20d -7.4% (market context, 2026-10-16)
 - **Since first found:** **-10.1%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -8.1% vs IWM -1.8% = **-6.3 pts** vs IWM; direction -1 → excess +6.3% (16 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: HMH -7.5% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-15)
+- **Peers / sympathy:** solo_move: HMH -8.4% 5d vs peer median -3.0%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)

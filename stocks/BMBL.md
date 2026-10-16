@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.93 (2026-10-15, ledger)
-- **Since first found:** **-0.3%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: -0.3% vs IWM +0.6% = **-1.0 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $5.95 (2026-10-16, ledger)
+- **Since first found:** **+0.0%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.0% vs IWM +0.6% = **-0.6 pts** vs IWM; direction 0, tracked only (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.93 | -0.3% | -0.3% | +0.6% |  | 1 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.93 | -0.3% | -0.3% | +0.6% |  | 1 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | +0.6% |  | 2 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | +0.6% |  | 2 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $95.45 (2026-10-15, ledger)
-- **Since first found:** **+8.8%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +7.9% vs IWM -1.1% = **+9.0 pts** vs IWM; direction +1 → excess +9.0% (6 days)
+- **Latest price:** $96.00 (2026-10-16, ledger)
+- **Since first found:** **+9.4%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +8.5% vs IWM -1.1% = **+9.6 pts** vs IWM; direction +1 → excess +9.6% (7 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $95.45 | +8.8% | +7.9% | -1.1% | +9.0% | 6 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $95.45 | +7.9% | +5.2% | -1.2% |  | 3 | live |
-| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $95.45 | +2.6% | +2.6% | +0.6% | +2.0% | 1 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $96.00 | +9.4% | +8.5% | -1.1% | +9.6% | 7 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $96.00 | +8.5% | +5.8% | -1.2% |  | 4 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $96.00 | +3.2% | +3.2% | +0.6% | +2.6% | 2 | live |

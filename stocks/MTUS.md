@@ -126,7 +126,7 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 - **Since first found:** **+8.4%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +4.7% vs IWM -1.9% = **+6.6 pts** vs IWM; direction +1 → excess +6.6% (17 days)
   - 1 more ledger row: see Performance since found
 - **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.42 (2026-10-15) +5.4%, P&L if sold, after all fees **$-0.00** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
-- **Peers / sympathy:** solo_move: MTUS +4.0% 5d vs peer median +0.6% (steel +2.8%, defence metals -1.7%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-15)
+- **Peers / sympathy:** solo_move: MTUS +4.0% 5d vs peer median +0.6% (steel +2.8%, defence metals -2.1%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-15)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 3 Nov 2026: MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close)
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)

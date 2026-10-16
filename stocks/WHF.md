@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.66 (2026-10-15, ledger) · 1d +3.5%, 5d +9.0%, 20d +2.8% (market context, 2026-10-15)
+- **Latest price:** $7.65 (2026-10-16, market context) · 1d -0.1%, 5d +9.0%, 20d +3.8% (market context, 2026-10-16)
 - **Since first found:** **+9.9%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +10.2% vs IWM -1.8% = **+12.1 pts** vs IWM; direction +1 → excess +12.1% (16 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-15)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
   - Mon 9 Nov 2026: WHF: Q3 results and call, 1:30 pm New York (company-confirmed date)

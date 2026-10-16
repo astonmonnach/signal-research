@@ -79,10 +79,10 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $82.15 (2026-10-15, ledger) · 1d +2.7%, 5d +7.9%, 20d -0.1% (market context, 2026-10-15)
+- **Latest price:** $82.62 (2026-10-16, market context) · 1d +0.6%, 5d +3.3%, 20d +0.9% (market context, 2026-10-16)
 - **Since first found:** **+8.5%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +8.1% vs IWM -1.8% = **+9.9 pts** vs IWM; direction +1 → excess +9.9% (16 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: CHDN +7.9% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-10-15)
+- **Peers / sympathy:** solo_move: CHDN +3.3% 5d vs peer median +0.5%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-10-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
