@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "published_utc": "2026-10-16T13:26:00Z",
+  "wire": "Business Wire",
+  "ticker": "ACVA;CPRT",
+  "title": "Copart Completes Acquisition of ACV",
+  "link": "http://www.businesswire.com/news/home/20261015338070/en/Copart-Completes-Acquisition-of-ACV/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-16T13:11:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "GPRK",
+  "title": "GeoPark Announces Commencement of Cash Tender Offer for Any and All of Its Outstanding 8.750% Senior Notes Due 2030",
+  "link": "https://www.globenewswire.com/news-release/2026/10/16/3382617/0/en/geopark-announces-commencement-of-cash-tender-offer-for-any-and-all-of-its-outstanding-8-750-senior-notes-due-2030.html",
+  "matched_on": "keyword:tender offer"
+ }
+]
