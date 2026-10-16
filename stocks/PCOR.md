@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $56.80 (2026-10-15, ledger)
-- **Since first found:** **+4.4%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +5.1% vs IWM -2.2% = **+7.4 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $58.60 (2026-10-15, ledger)
+- **Since first found:** **+7.7%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +8.4% vs IWM -1.1% = **+9.6 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Procore Names COMPASS Its Preferred Subcontractor Prequalification Solution (PR Newswire) ([release](https://www.prnewswire.com/news-releases/procore-names-compass-its-preferred-subcontractor-prequalification-solution-302909126.html))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_peer` (direction 0): PTC takeout read-across: +5.8% since Fri vs IGV +2.3%; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- Bentley (BSY) +10.2%, Autodesk (ADSK) +8.1%, Procore (PCOR) +5.8%, Dassault (DASTY) +4.4%.) ([note](../research/daily/2026-10-06.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for PCOR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $56.80 | +4.4% | +5.1% | -2.2% |  | 8 | live |
+| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $58.60 | +7.7% | +8.4% | -1.1% |  | 8 | live |

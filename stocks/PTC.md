@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $193.37 (2026-10-15, ledger)
-- **Since first found:** **+0.6%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.2% vs IWM -4.4% = **+4.6 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $193.15 (2026-10-15, ledger)
+- **Since first found:** **+0.5%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.1% vs IWM -3.3% = **+3.4 pts** vs IWM; direction 0, tracked only (9 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: PTC Announces Servigistics Renewal with U.S. Air Force (PR Newswire) ([release](https://www.prnewswire.com/news-releases/ptc-announces-servigistics-renewal-with-us-air-force-302908699.html))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `merger_arb` (direction 0): Schneider Electric pays $205 cash (signed 4 Oct); $193.03 = 6.2% gross spread; ~10% implied break odds; HSR + foreign-investment review; $700M termination fee; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (1. Schneider Electric buys PTC: $205 cash) ([note](../research/daily/2026-10-06.md))
 - **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split, tender offer" (8k merger agreement) (5d before +4.3%, found day +33.5%) ([filing](https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm))
 
@@ -26,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for PTC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $193.37 | +0.6% | +0.2% | -4.4% |  | 9 | live |
-| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $193.37 | +0.2% | +0.1% | -2.2% |  | 8 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $193.15 | +0.5% | +0.1% | -3.3% |  | 9 | live |
+| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $193.15 | +0.1% | -0.0% | -1.1% |  | 8 | live |

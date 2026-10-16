@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $94.62 (2026-10-15, ledger)
-- **Since first found:** **+7.8%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +6.9% vs IWM -2.2% = **+9.2 pts** vs IWM; direction +1 → excess +9.2% (6 days)
+- **Latest price:** $95.45 (2026-10-15, ledger)
+- **Since first found:** **+8.8%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +7.9% vs IWM -1.1% = **+9.0 pts** vs IWM; direction +1 → excess +9.0% (6 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Medtronic Completes Separation of MiniMed Group, Inc. (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-completes-separation-of-minimed-group-inc-302910198.html)) · Press: Medtronic Named to TIME Best Inventions of 2026 List for Stealth AXiS™ surgical system and Corsano™*… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-named-to-time-best-inventions-of-2026-list-for-stealth-axis-surgical-system-and-corsano-multi-parameter-wearable-302910528.html)) · Press: MiniMed Completes Separation from Medtronic (PR Newswire) ([release](https://www.prnewswire.com/news-releases/minimed-completes-separation-from-medtronic-302910187.html))
 - **[2026-10-14](../scans/2026-10-14.md#press-releases)**: Press: Medtronic Announces Final Results of MiniMed Group, Inc. Exchange Offer (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-announces-final-results-of-minimed-group-inc-exchange-offer-302908450.html))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before +4.5%, found day +1.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1613103/000162828026065599/0001628280-26-065599-index.htm))
 - **[2026-10-12](../scans/2026-10-12.md#triage-notes)**: Triage: **MDT / MMED** (follow-up to Saturday's miss): preliminary results show only about 18.3% of each ordinary tender is exchanged; holders of under 100… ([triage](../watch/digests/2026-10-12-triage.md)) · Press: Medtronic Announces Preliminary Results of MiniMed Group, Inc. Exchange Offer (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-announces-preliminary-results-of-minimed-group-inc-exchange-offer-302905650.html)) · Research: Research: Mon 12 Oct 2026 (- **MDT / MMED (follow-up to Saturday's miss):** Medtronic's preliminary count shows 298,024,452 shares…) ([note](../research/daily/2026-10-12.md))
@@ -30,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $94.62 | +7.8% | +6.9% | -2.2% | +9.2% | 6 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $94.62 | +7.0% | +4.3% | -2.3% |  | 3 | live |
-| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $94.62 | +1.7% | +1.7% | -0.5% | +2.2% | 1 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $95.45 | +8.8% | +7.9% | -1.1% | +9.0% | 6 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $95.45 | +7.9% | +5.2% | -1.2% |  | 3 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $95.45 | +2.6% | +2.6% | +0.6% | +2.0% | 1 | live |

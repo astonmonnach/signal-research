@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $5.53 (2026-10-15, ledger)
-- **Since first found:** **-1.2%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: -1.9% vs IWM -2.1% = **+0.2 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $5.51 (2026-10-15, ledger)
+- **Since first found:** **-1.6%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: -2.3% vs IWM -1.0% = **-1.3 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Transocean Ltd. Announces Amended and Restated Credit Agreement and Redemption of Deepwater Aquila Notes (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/15/3382182/0/en/transocean-ltd-announces-amended-and-restated-credit-agreement-and-redemption-of-deepwater-aquila-notes.html))
 - **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Transocean Ltd. Announces Third Quarter 2026 Earnings Release Date (GlobeNewswire, published Mon 12 Oct) ([release](https://www.globenewswire.com/news-release/2026/10/12/3379249/0/en/transocean-ltd-announces-third-quarter-2026-earnings-release-date.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): BORR peer (offshore driller): +2.2% from 7 Oct to 9 Oct close vs BORR +11.2%; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Over the same two sessions (7 Oct close to 9 Oct close): +2.2%, +3.4%, +2.2%, +3.3%, the oil services fund…) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage, dismissed: **LOAN** buyback extension, **RIG** backlog release: no setup. ([triage](../watch/digests/2026-10-10-triage.md))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for RIG ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $5.53 | -1.2% | -1.9% | -2.1% |  | 2 | live |
+| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $5.51 | -1.6% | -2.3% | -1.0% |  | 2 | live |

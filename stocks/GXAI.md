@@ -22,8 +22,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.450 (2026-10-15, ledger)
-- **Since first found:** **-12.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.516). From the next open $0.491: -8.3% vs IWM -3.5% = **-4.8 pts** vs IWM; direction 0, tracked only (10 days)
+- **Latest price:** $0.427 (2026-10-15, ledger)
+- **Since first found:** **-17.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.516). From the next open $0.491: -13.0% vs IWM -2.4% = **-10.6 pts** vs IWM; direction 0, tracked only (10 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -40,4 +40,4 @@ Every [ledger](../ledger/LEDGER.md) row for GXAI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -11.1% | -2.8% | $143k ⚠ | $0.516 | $0.491 | $0.450 | -12.8% | -8.3% | -3.5% |  | 10 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -11.1% | -2.8% | $143k ⚠ | $0.516 | $0.491 | $0.427 | -17.2% | -13.0% | -2.4% |  | 10 | live |

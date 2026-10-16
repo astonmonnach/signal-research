@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $8.01 (2026-10-15, ledger)
-- **Since first found:** **-13.6%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -10.9% vs IWM -0.5% = **-10.4 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $8.57 (2026-10-15, ledger)
+- **Since first found:** **-7.5%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -4.7% vs IWM +0.6% = **-5.3 pts** vs IWM; direction 0, tracked only (1 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $8.01 | -13.6% | -10.9% | -0.5% |  | 1 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.99 | $8.01 | -4.0% | -10.9% | -0.5% |  | 0 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $8.57 | -7.5% | -4.7% | +0.6% |  | 1 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $8.57 | +2.8% | +5.8% | +1.4% |  | 0 | live |
