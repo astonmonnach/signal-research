@@ -1,18 +1,10 @@
 [
  {
-  "published_utc": "2026-10-16T20:04:00Z",
+  "published_utc": "2026-10-16T21:14:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "HMH",
-  "title": "HMH Holding Inc. Announces Third Quarter 2026 Earnings Conference Call",
-  "link": "https://www.globenewswire.com/news-release/2026/10/16/3382784/0/en/hmh-holding-inc-announces-third-quarter-2026-earnings-conference-call.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-16T20:05:00Z",
-  "wire": "PR Newswire",
-  "ticker": "VTRS",
-  "title": "Viatris Receives U.S. FDA Approval for RYZUMVI® for the Treatment of Presbyopia",
-  "link": "https://www.prnewswire.com/news-releases/viatris-receives-us-fda-approval-for-ryzumvi-for-the-treatment-of-presbyopia-302911593.html",
-  "matched_on": "keyword:FDA approval"
+  "ticker": "NVGS",
+  "title": "Navigator Gas Announces Shareholder Meeting to Approve Change of Domicile to England and Wales",
+  "link": "https://www.globenewswire.com/news-release/2026/10/16/3382816/0/en/navigator-gas-announces-shareholder-meeting-to-approve-change-of-domicile-to-england-and-wales.html",
+  "matched_on": "keyword:merger agreement"
  }
 ]
