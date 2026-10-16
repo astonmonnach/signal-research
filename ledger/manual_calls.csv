@@ -74,3 +74,16 @@ found,source,ticker,category,direction,note
 2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),PATK,linked_peer,0,"LCII counterparty (the buyer, all stock); -28.3% since 30 Jun"
 2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),THO,linked_peer,0,LCII peer (RV maker): -13.2% from 30 Jun to 13 Oct vs LCII -25.1%
 2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),WGO,linked_peer,0,LCII peer (RV maker): -25.8% from 30 Jun to 13 Oct vs LCII -25.1%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),IMSR,insider_cluster,0,"three insiders bought 9-14 Oct (director 12,000 at $3.28; CEO 16,900 at $3.01; director 7,500 at $2.95), about $112k; the scanner missed it until the 16 Oct fix; IMSR -10.0% from 8 Oct vs nuclear peers -15% to -20%; WATCH"
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),MDA,holder_13d,0,"Czechoslovak Group 9.5% (forward settled 13 Oct at CAD 42.69); Item 4 names potential acquirers and a sale; MDA -1.2% from 13 Oct vs space peers -10% to -20%"
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),TCPC,activist_13d,0,"Saba 5.11% at about $4.00; Item 4: NAV discount, liquidation, manager change; about 0.71x pro forma NAV; already +4.8% vs IWM -1.7%"
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),NNE,linked_peer,0,IMSR peer (nuclear developer): -15.2% from 8 to 16 Oct vs IMSR -10.0%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),OKLO,linked_peer,0,IMSR peer (nuclear developer): -18.3% from 8 to 16 Oct vs IMSR -10.0%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),SMR,linked_peer,0,IMSR peer (nuclear developer): -20.0% from 8 to 16 Oct vs IMSR -10.0%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),LEU,linked_peer,0,IMSR peer (nuclear fuel): -17.7% from 8 to 16 Oct vs IMSR -10.0%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),RKLB,linked_peer,0,MDA peer (space): -19.5% from 13 to 16 Oct vs MDA -1.2%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),PL,linked_peer,0,MDA peer (space): -10.2% from 13 to 16 Oct vs MDA -1.2%
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),ASTS,linked_peer,0,MDA peer (space): -10.9% from 13 to 16 Oct vs MDA -1.2%
+2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SRTA,activist_13d,0,"Third Point 5.8% (cost about $4.77) moved from 13G to 13D and asks for a sale process; filed after the 15 Oct close; SRTA +6.5% from 14 Oct vs IWM -0.1%; WATCH"
+2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),MG,merger_arb,0,"H.I.G. $20.35 cash; go-shop to 27 Oct (121 parties contacted, 38 NDAs); trades 5.9% above the deal price; tracked, no call"
+2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SKYA,tender_issuer,0,"$3.00 tender promised to start 15 Oct; no SC TO-I on EDGAR by 12:40 New York 16 Oct; gap 15.6%; SOL near the $100 condition"

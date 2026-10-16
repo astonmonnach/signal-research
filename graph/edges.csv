@@ -64,3 +64,43 @@ date,a,b,type,detail,source
 2026-10-14,ITGR,KKR,merger,KKR affiliates buying Integer for $127 cash (agreement 2 Aug 2026); KKR holds 14.0% after equity swaps settled 5 Oct,https://www.sec.gov/Archives/edgar/data/1114483/000114036126039472/0001140361-26-039472-index.htm
 2026-10-14,UUUU,co:VAC (Ara VAC IE Aggregator),merger,Energy Fuels buying VAC; merger agreement amended 13 Oct 2026 for e-VAC's offtake dispute (customer gave termination notice 1 Jul 2026),https://www.sec.gov/Archives/edgar/data/1385849/000106299326005306/0001062993-26-005306-index.htm
 2026-10-14,BORR,fund:Drew Holdings (Tor Olav Troim),holder_13d,12.2%; bought 10.1M shares in the open market from 13 Aug to 9 Oct 2026; Troim is a director,https://www.sec.gov/Archives/edgar/data/1715497/000119312526420407/0001193125-26-420407-index.htm
+2026-10-14,AQST,ETON,counterparty,"US licence for Libervant: $10M upfront, up to $47.5M milestones, mid-teens royalty, 20-year exclusive supply",https://www.sec.gov/Archives/edgar/data/1398733/000139873326000056/aqst-20261013.htm
+2026-10-14,FCPT,DRI,counterparty,landlord of 66 Olive Garden and LongHorn sites; Oct 2027 leases extended about 5 years at +1.5% a year,https://www.sec.gov/Archives/edgar/data/1650132/000119312526421810/fcpt-ex99_1.htm
+2026-10-14,RIG,VAL,merger,15.235 RIG shares per VAL share; votes 24 Nov 2026; DOJ closed its review 30 Sep,https://www.sec.gov/Archives/edgar/data/314808/000114036126039488/0001140361-26-039488-index.htm
+2026-10-14,fund:Saba Capital,TCPC,holder_13d,"4,283,957 shares (5.11%); Item 4 names the NAV discount, liquidation and a manager change",https://www.sec.gov/Archives/edgar/data/1370755/000106299326005324/0001062993-26-005324-index.htm
+2026-10-14,co:Czechoslovak Group,MDA,holder_13d,"15,356,219 shares (9.5%), forward settled 13 Oct at CAD 42.69; Item 4 names potential acquirers and a sale",https://www.sec.gov/Archives/edgar/data/1857047/000121390026109200/0001213900-26-109200-index.htm
+2026-10-14,fund:Powell Anderson Capital,FSP,holder_13d,"7,067,763 shares (6.8%) bought at $0.31 to $0.48",https://www.sec.gov/Archives/edgar/data/1031316/000121465926012926/0001214659-26-012926-index.htm
+2026-10-14,co:American Family Mutual,BOW,merger,$34 cash going-private; majority-of-minority vote 13 Nov 2026,https://www.sec.gov/Archives/edgar/data/2002473/000114036126039513/0001140361-26-039513-index.htm
+2026-10-14,co:Curium,LNTH,merger,$102.50 cash plus a CVR of up to $12; holders approved 14 Oct; HSR period ends 21 Oct,https://www.sec.gov/Archives/edgar/data/1521036/000119312526421732/d183496d8k.htm
+2026-10-15,FOXA,ROKU,merger,"$96 cash plus 0.9693 FOXA per ROKU; Fox Class B approved 14 Oct, Roku holders 15 Oct",https://www.sec.gov/Archives/edgar/data/1428439/000114036126039632/ef20083760_8k.htm
+2026-10-14,NFG,co:NFG Integrated Upstream and Gathering,spin_off,"at least 80.1% to be distributed tax-free, expected 2H 2027",https://www.sec.gov/Archives/edgar/data/70145/000119312526420980/0001193125-26-420980-index.htm
+2026-10-14,FLEX,co:EPC Power,asset_deal,"$4.4B cash, closed 14 Oct; becomes part of Axiom",https://www.sec.gov/Archives/edgar/data/866374/000119312526421058/d147467d8k.htm
+2026-10-14,DSGR,"co:GradeEight (Winzer, FastServ)",asset_deal,about $145M for about $110M of sales; Q4 2026 close,https://www.sec.gov/Archives/edgar/data/703604/000119312526421808/0001193125-26-421808-index.htm
+2026-10-14,CMTL,GILT,asset_deal,Gilat buying most of Comtech's satellite business for $157.5M; pending,https://www.sec.gov/Archives/edgar/data/23197/000002319726000111/fy26q4ex991earningsrelease.htm
+2026-10-14,SKYX,co:Deako,merger,"closed 13 Oct: 25M shares in escrow, $4M cash, $8.5M secured note",https://www.sec.gov/Archives/edgar/data/1598981/000149315226046938/0001493152-26-046938-index.htm
+2026-10-15,co:GTCR,CCC,merger,$7.75 cash with Elliott; close expected Q1 2027,https://www.sec.gov/Archives/edgar/data/1818201/000119312526422320/d140608d8k.htm
+2026-10-15,fund:Elliott Investment Management,CCC,merger,co-buyer with GTCR at $7.75 cash,https://www.sec.gov/Archives/edgar/data/1818201/000119312526422320/d140608d8k.htm
+2026-10-15,co:Proofpoint (Thoma Bravo),VRNS,merger,$49.75 cash; close expected 1H 2027,https://www.sec.gov/Archives/edgar/data/1361113/000121390026109901/ea0308610-8k_varonis.htm
+2026-10-15,co:Penske Corporation,PAG,merger,$212 cash take-private with Mitsui; majority-of-disinterested vote,https://www.sec.gov/Archives/edgar/data/1019849/000114036126039664/ef20083688_ex99-1.htm
+2026-10-15,co:Mitsui & Co.,PAG,merger,co-buyer with Penske Corporation at $212 cash,https://www.sec.gov/Archives/edgar/data/1019849/000114036126039664/ef20083688_ex99-1.htm
+2026-10-15,fund:DFO Private Investments (Michael Dell),BWIN,merger,$32.50 cash with Sequence AI Holdings; Baldwin family rolls over,https://www.sec.gov/Archives/edgar/data/1781755/000114036126039669/0001140361-26-039669-index.htm
+2026-10-15,fund:H.I.G. Capital,MG,merger,"$20.35 cash; go-shop to 27 Oct: 121 parties contacted, 38 confidentiality agreements",https://www.sec.gov/Archives/edgar/data/1436126/000114036126039782/0001140361-26-039782-index.htm
+2026-10-15,fund:Third Point,SRTA,holder_13d,"5,126,511 shares (5.8%), cost about $4.77; asks for strategic alternatives including a sale",https://www.sec.gov/Archives/edgar/data/1779128/000089914026001108/0000899140-26-001108-index.htm
+2026-10-15,fund:Fairmount Funds,TCRT,holder_13d,19.99% (blocker) after the $100.2M Velaris reverse merger and financing,https://www.sec.gov/Archives/edgar/data/1107421/000168316826007898/0001683168-26-007898-index.htm
+2026-10-15,VG,GEV,counterparty,Power Frame Agreement: up to 16 power islands of 720 MW; about $17.2B if fully ordered,https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm
+2026-10-15,VG,BKR,counterparty,Baker Hughes is party to the Power Frame Agreement,https://www.sec.gov/Archives/edgar/data/2007855/000200785526000081/vg-20261009.htm
+2026-10-15,FBIN,co:Inteplast Group,asset_deal,Fiberon decking sold for $160M cash after about $400M of write-downs,https://www.sec.gov/Archives/edgar/data/1519751/000119312526422895/fbin-20261015.htm
+2026-10-15,RXRX,SNY,counterparty,"Sanofi optioned a candidate, $10M milestone",https://www.sec.gov/Archives/edgar/data/1601830/000160183026000128/0001601830-26-000128-index.htm
+2026-10-15,IAM,RXRX,peer_named,Iambic's IPO prospectus lists Recursion as a peer; its CFO was Recursion's CFO,https://www.sec.gov/Archives/edgar/data/1997038/000119312526422865/0001193125-26-422865-index.htm
+2026-10-15,DFH,BZH,merger,$33.50 cash; Beazer holders approved 15 Oct,https://www.sec.gov/Archives/edgar/data/915840/000110465926116005/tm2622398d18_8k.htm
+2026-10-14,fund:Winklevoss Capital Fund,GEMI,counterparty,"7,142,857 Class A shares registered for resale",https://www.sec.gov/Archives/edgar/data/2055592/000110465926115766/tm2626033-6_424b7.htm
+2026-10-14,BMBL,fund:Beehive Holdings III (Whitney Wolfe Herd),holder_13d,14.7%; at least 10.9M shares roll into Oak Topco at closing,https://www.sec.gov/Archives/edgar/data/1830043/000110465926115924/0001104659-26-115924-index.htm
+2026-10-09,SKYA,fund:Bastion Trading (Wei Zhu),holder_13d,"13D filed 3 Sep; bought 44,000 at $1.7787 on 7 Oct",https://www.sec.gov/Archives/edgar/data/1737995/000092189526002475/0000921895-26-002475-index.htm
+2026-04-23,ELMT,co:Cantor Fitzgerald,counterparty,IPO lead underwriter; can release locked-up shares early,https://www.sec.gov/Archives/edgar/data/2101698/000121390026047144/0001213900-26-047144-index.htm
+2026-10-15,IMSR,NNE,peer_named,nuclear developer or fuel supplier; peer in the 15 Oct insider-cluster comparison,research/daily/2026-10-15.md
+2026-10-15,IMSR,OKLO,peer_named,nuclear developer or fuel supplier; peer in the 15 Oct insider-cluster comparison,research/daily/2026-10-15.md
+2026-10-15,IMSR,SMR,peer_named,nuclear developer or fuel supplier; peer in the 15 Oct insider-cluster comparison,research/daily/2026-10-15.md
+2026-10-15,IMSR,LEU,peer_named,nuclear developer or fuel supplier; peer in the 15 Oct insider-cluster comparison,research/daily/2026-10-15.md
+2026-10-15,MDA,RKLB,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md
+2026-10-15,MDA,PL,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md
+2026-10-15,MDA,ASTS,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md

@@ -10,5 +10,5 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-10-12,MSGS,2026-10-20,MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS),2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
 2026-10-12,MSGS,2026-10-26,MSGS: Rangers spin-off effective; MSGS becomes MSGK,2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
 2026-10-13,HZO,2026-12-07,HZO earliest close,2027-01-15,52.33,6.1,50.0,3.18,82.9,57,smaller,open,,,,
-2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,,open,,,,
-2026-10-16,RYAM,2026-12-15,RYAM: company promised a clear path forward in Q4 2026,2026-12-18,7.11,20.3,7.0,1.38,100.0,90,,open,,,,
+2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,none,open,,,,
+2026-10-16,RYAM,2026-12-15,RYAM: company promised a clear path forward in Q4 2026,2026-12-18,7.11,20.3,7.0,1.38,100.0,90,none,open,,,,
