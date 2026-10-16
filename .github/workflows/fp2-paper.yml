@@ -33,8 +33,10 @@ jobs:
       - name: FP2 step
         run: |
           STEP="${{ github.event.inputs.step }}"
+          # Pick the step from the cron that fired, not the clock: GitHub delayed these runs by 3 to 4 hours on 14 and
+          # 15 Oct, so the 19:40 run started at 22:35 UTC and was treated as a fill. live.py flags a signal run after 20:00 UTC as late.
           if [ -z "$STEP" ]; then
-            if [ "$(date -u +%H)" = "19" ]; then STEP=signal; else STEP=fill; fi
+            if [ "${{ github.event.schedule }}" = "40 19 * * 1-5" ]; then STEP=signal; else STEP=fill; fi
           fi
           python research/movers/fp2/live.py "$STEP"
           python research/movers/fp2/live.py status
