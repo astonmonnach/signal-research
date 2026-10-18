@@ -104,3 +104,21 @@ date,a,b,type,detail,source
 2026-10-15,MDA,RKLB,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md
 2026-10-15,MDA,PL,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md
 2026-10-15,MDA,ASTS,peer_named,space company; peer in the 15 Oct 13D comparison,research/daily/2026-10-15.md
+2026-10-16,SMTI,MDXG,merger,$33 cash plus 0.4735 MDXG per Sanara share; FTC Second Request received 15 Oct,https://www.sec.gov/Archives/edgar/data/714256/000121390026110053/0001213900-26-110053-index.htm
+2026-10-16,GPRO,co:Action Acquisitions LLC,merger,$1.14 cash (can be cut for working capital) plus 0.1 surviving share; outside date 31 Dec 2026,https://www.sec.gov/Archives/edgar/data/1500435/000150043526000064/0001500435-26-000064-index.htm
+2026-09-02,GPRO,co:Midtown Equities LLC,counterparty,equity commitment funding the buyer at closing,https://www.sec.gov/Archives/edgar/data/1500435/000162828026060181/gpro-20260901.htm
+2026-10-16,INSW,co:Bruton Limited,merger,about $370M for 4 VLCCs; 0.0519 INSW per Bruton share,https://www.sec.gov/Archives/edgar/data/1679049/000110465926116371/0001104659-26-116371-index.htm
+2026-10-16,co:Beretta Holding S.A.,RGR,holder_13d,partial tender at $44.80 completed; 9.93% rising to about 24.95%; proration about 38.45%,https://www.sec.gov/Archives/edgar/data/95029/000119380526001376/0001193805-26-001376-index.htm
+2026-10-16,LLY,TRXB,holder_13d,"Lilly holds 19.9% of TRex Bio (5,480,872 shares) with a board seat; TRB-051 partner",https://www.sec.gov/Archives/edgar/data/2139097/000005947826000095/0000059478-26-000095-index.htm
+2026-10-09,TRXB,JNJ,counterparty,drug-discovery partnership with Janssen (IPO prospectus),https://www.sec.gov/Archives/edgar/data/2139097/000119312526419203/project_dino_-_424b4.htm
+2026-10-16,NB,co:Traxys North America LLC,customer,15-year take-or-pay offtake of 50% of Elk Creek ferroniobium plus exclusive marketing of other products,https://www.sec.gov/Archives/edgar/data/1512228/000153949726002703/0001539497-26-002703-index.htm
+2026-10-16,TFC,CG,asset_deal,"Truist sells $7.7B of LightStream loans to Carlyle, signed 14 Oct",https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/0000092230-26-000108-index.htm
+2026-10-16,VCTR,co:First Eagle,merger,Victory buys First Eagle from Genstar for about $2B in stock; vote 17 Nov,https://www.sec.gov/Archives/edgar/data/1570827/000110465926116412/0001104659-26-116412-index.htm
+2026-10-16,EFSI,JMSB,merger,2.00 JMSB shares per EFSI share; votes 19 Nov,https://www.sec.gov/Archives/edgar/data/880641/000110465926116463/0001104659-26-116463-index.htm
+2026-10-16,co:Holcim,CPAC,holder_13d,50.01% through Inversiones Aspi; tender for all shares pending,https://www.sec.gov/Archives/edgar/data/1221029/000121390026110161/0001213900-26-110161-index.htm
+2026-10-05,ALEC,co:Genentech,counterparty,"AL050 licence: $100M upfront, up to $1.17B in milestones",https://www.sec.gov/Archives/edgar/data/1653087/000119312526413090/alec-20260930.htm
+2026-09-08,fund:Northeast Industrial Partners (Bryan Ganz),BYRN,holder_13d,"founder, 9.6%; bought at $3.39 to $3.43 in July",https://www.sec.gov/Archives/edgar/data/1354866/000121465926011482/
+2026-10-16,SKYA,fund:FalconX/Solios (MNNC Capital),holder_13d,"9.9% (10,665,460 shares) per the Offer to Purchase ownership table",https://www.sec.gov/Archives/edgar/data/1737995/000093041326003076/c117899_ex-a1a.htm
+2026-10-16,PUSA,co:Autonomous Power Corporation,merger,reverse merger closed 1 Oct: 79.7M shares plus 55M earn-out shares made non-contingent,https://www.sec.gov/Archives/edgar/data/2009312/000149315226047462/ex99-2.htm
+2026-10-16,BLNK,DAIC,asset_deal,"Blink's $12.5M Envoy note converts into 2,166,667 CID HoldCo shares for BLNK holders",https://www.sec.gov/Archives/edgar/data/1429764/000149315226047342/0001493152-26-047342-index.htm
+2026-10-16,AIOK,TORO,spin_off,1 AIOK per 8 TORO on 8 Oct; Toro holds convertible preferred,https://www.sec.gov/Archives/edgar/data/2095591/000095015726001107/0000950157-26-001107-index.htm

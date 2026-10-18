@@ -490,8 +490,8 @@ UID:25c74338d1cef6c39dc3c3793a1a796a@signal-lab
 DTSTAMP:20261016T170000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-SUMMARY:SKYA: $3.00 tender offer expires as announced (11:59 pm New York + 1 minute); provisional, the offer papers were not filed as of 16 Oct
-DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1737995/000149315226047079/ex99-1.htm
+SUMMARY:SKYA: $3.00 tender expires one minute after 11:59 pm New York (filed 16 Oct; may be extended to about 12-13 Nov; non-US holders get 30% withheld unless they file a treaty form)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1737995/000093041326003076/c117899_ex-a1a.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:e10bfd8195985348c752d36cb8913dd8@signal-lab
@@ -580,5 +580,69 @@ DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:IAM/AMRO: 180-day IPO lock-ups end (my arithmetic from the 14 Oct prospectuses)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1997038/000119312526422865/0001193125-26-422865-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:8b93ebd316382f2720c1d65327f415fa@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:INSW: Q3 results (early figures given 16 Oct; Q4 spot VLCC earnings about $180,000 a day so far)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1679049/000110465926116371/0001104659-26-116371-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8c629e75711f46ae977f173cd1ab17@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:VCTR: shareholder vote on issuing shares for First Eagle (8:00 am New York)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1570827/000110465926116412/0001104659-26-116412-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:480053988eafcf60c02e551d2aa51b3b@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:BMEZ: fund buyback tender at 98% of NAV for up to 5% of shares expires (5 pm New York)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1785971/000119312526424214/0001193125-26-424214-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:46932f366cd4c1be7fb74b9985c9dc4c@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:EFSI/JMSB: merger votes (2.00 JMSB per EFSI)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/880641/000110465926116463/0001104659-26-116463-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:d70f8aaf2f13b09855c5c7f5132e325a@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1500435/000150043526000064/0001500435-26-000064-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:4fb1c9883bb49e88bded3aec6890ae23@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:TRXB: 180-day IPO lock-up ends (my arithmetic from the 8 Oct prospectus)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2139097/000005947826000095/0000059478-26-000095-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:9affe69eed4de626ba1e105295815bb5@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:CTY: 180-day IPO lock-up ends (my arithmetic from the 15 Oct prospectus)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2143850/000110465926116636/0001104659-26-116636-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:4efe1361c96782dd894f5e99e1688d41@signal-lab
+DTSTAMP:20261018T140000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/714256/000121390026110053/0001213900-26-110053-index.htm
 END:VEVENT
 END:VCALENDAR
