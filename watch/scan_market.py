@@ -270,7 +270,20 @@ def scan(day):
         elif form == "SC TO-I":
             # Rule 2026-10-10 (MDT/MiniMed): a new issuer tender or exchange offer has a hard expiry and often an
             # odd-lot rule that favours small holders. Read it the day it is filed.
-            note = " **READ TODAY: new issuer tender / exchange offer. Log the expiry, the price or ratio, and any odd-lot terms**"
+            # Rule 2026-10-18 (SKYA): conditions come from the final Offer to Purchase, never an earlier release, and a UK
+            # holder can lose 15% to 30% of the gross payment to US withholding when the company treats it as a dividend.
+            note = (" **READ TODAY: new issuer tender / exchange offer. Log the expiry, the price or ratio, any odd-lot terms, "
+                    "the conditions as written in the Offer to Purchase, and the withholding for non-US holders**")
+        elif form in ("SC 13D", "SCHEDULE 13D"):
+            # Rule 2026-10-12, enforced 2026-10-18 (ASP Isotopes, WISeQey, then Eli Lilly on TRex Bio): the index lists a
+            # 13D under the holder as well as the company held. Keep only the company held, read from the filing header.
+            try:
+                head = get("https://www.sec.gov/Archives/" + path, 40000).decode("latin-1").split("</SEC-HEADER>")[0]
+                held = int(re.search(r"SUBJECT COMPANY:.*?CENTRAL INDEX KEY:\s*(\d+)", head, re.S).group(1))
+                if held != cik:
+                    continue
+            except Exception:
+                note = " (header not read: may be the holder, not the company held)"
         hits[FORMS[form]].append(
             f"- **{'/'.join(tickers[cik])}** {name} `{form}`{note} "
             f"[filing index]({index_url(path)})")
