@@ -1,5 +1,5 @@
 signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_volume,vol_multiple,median20_dollar_vol,split_date,split_ratio,entry_close,exit_open,exit_date,ret_gross,ret_net2,status
-2026-10-16,22:11,True,AVD,American Vanguard Corporation Common Stock ($0.10 Par Value),S2,1.25,3023031,517550,5.84,613891,,,,,,,,open
-2026-10-16,22:11,True,OPK,OPKO Health Inc. Common Stock,S2,1.61,55454583,4788775,11.58,3021259,,,,,,,,open
-2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S2,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,,,,,,open
-2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S1,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,,,,,,open
+2026-10-16,22:11,True,AVD,American Vanguard Corporation Common Stock ($0.10 Par Value),S2,1.25,3023031,517550,5.84,613891,,,1.06,1.07,2026-10-19,0.009434,-0.010566,filled
+2026-10-16,22:11,True,OPK,OPKO Health Inc. Common Stock,S2,1.61,55454583,4788775,11.58,3021259,,,1.53,1.55,2026-10-19,0.013072,-0.006928,filled
+2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S2,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,1.05,1.03,2026-10-19,-0.019048,-0.039048,filled
+2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S1,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,1.05,1.03,2026-10-19,-0.019048,-0.039048,filled
