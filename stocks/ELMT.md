@@ -30,7 +30,7 @@
 - **Other dilution:** a Blue Moon warrant for 1,166,970 shares at $21.423 ([8-K 22 Sep](https://www.sec.gov/Archives/edgar/data/2101698/000121390026101918/ea0306130-8k_elmet.htm)), and Cantor's IPO warrants (~148k shares at $17.50).
 
 ## 4. What has already re-rated: all of it, on day one
-| window | ELMT | IWM | XAR | REMX | AII (Almonty) |
+| window | ELMT | IWM | XAR | REMX | AII (wrong ticker: AII is American Integrity Insurance, not Almonty; ignore this column) |
 |---|---|---|---|---|---|
 | IPO $14.00 → 5 Oct | **+51%** (first close 17.91) | | | | |
 | 11 → 14 Sep | **+32.8%** (16.19 → 21.50; high 25.03) | −0.3% | −1.3% | −2.3% | +2.2% |
@@ -50,9 +50,9 @@
   - Fox's 328k restricted shares vest 20 Oct. Cantor's warrants become exercisable ~23 Oct. The DoW resale shelf is due ~13 Nov.
 - **Same pot of money:** MTUS ($995M ceiling, $125M ordered) and **Rio Tinto ($995M high-purity aluminium)**. September stockpile ceilings total ≈$4.0bn, against the $2bn from [P.L. 119-21 §20004(a)(40)](https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm). Ex. 10.5 doesn't say which appropriation funds the $2B. See `stocks/MTUS.md`.
 - **Suppliers:** Masan High-Tech Materials (Vietnam), EQ Resources, Tungsten West, Freeport (Climax), Molymet. None is material for a US-listed name in G1 terms **[INFERENCE]**.
-- **Competitors:** Plansee (private, named in the 424B4), Almonty (AII, +3.5% in the week to 2 Oct), Kennametal (KMT).
+- **Competitors:** Plansee (private, named in the 424B4), Almonty (ALM; the +3.5% once shown here was for AII, a different company), Kennametal (KMT).
 - **Commodity:** no free daily tungsten or molybdenum price. XME and REMX are mining-ETF proxies only. China's export controls are flagged as a price risk.
-- **Other tickers affected:** MTUS, RIO, AII, KMT, FCX, XAR.
+- **Other tickers affected:** MTUS, RIO, ALM, KMT, FCX, XAR. (Corrected 19 Oct: Almonty trades as ALM; AII is American Integrity Insurance.)
 
 ## 6. METHOD gates and score (supply-chain gates)
 - **G1: pass.** A&D&G is 39% of revenue.
