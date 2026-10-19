@@ -11,11 +11,12 @@ A line looks like this: **TICKER**, what it is, the form type in `code`, and a l
 **The wider scan** (from "New contracts" down, added 10 Oct 2026) is noisier, so most of it lists only **relevant** companies and ends with one line saying how many other listed companies were left out. Nothing in the wider scan is scored by the ledger yet.
 
 **Relevant** means any of:
+- **any listed company worth under $2B** (added 19 Oct 2026, the trader's call: read every filing, not just names on our lists, and leave out the big, heavily covered companies). Market values come from the free Nasdaq screener, cached daily in `watch/marketcap.json` (not committed). This took the count from about 1,000 to about 3,800 companies; the Form 4 limit went from 400 to 1,500, and a buy needs $10k or more to count toward an insider cluster;
 - on the watchlist (`watch/watchlist.json`);
 - a ticker in the link graph (`graph/edges.csv`);
 - in an industry the domino funnel keeps: chips and computing hardware, power and electrical equipment, energy, mining and metals, defence and aerospace, compute hosting, freight. The codes are in `research/domino/PREREG_D3.md`; each stock's code comes from `research/domino/sic_map.csv`.
 
-That is about 980 listed companies. `sic_map.csv` only covers stocks in the runners price panel, so a company that listed after the panel was built is not relevant until the file is rebuilt (`research/domino/build_sic.py`).
+Before 19 Oct that was about 980 listed companies. `sic_map.csv` only covers stocks in the runners price panel, so a company that listed after the panel was built is not relevant until the file is rebuilt (`research/domino/build_sic.py`).
 
 A section with no hits is left out of the file.
 

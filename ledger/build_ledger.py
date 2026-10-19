@@ -40,7 +40,16 @@ PHRASE_CATEGORY = [  # first match wins, strongest signal first
     ("special dividend", "8k_special_dividend"), ("tender offer", "8k_tender_offer"), ("lock-up", "8k_lock_up"),
 ]
 
-MIN_ADV_USD = 250_000   # average daily $ volume over the 20 days before found; below this = untradeable
+MIN_ADV_USD = 250_000   # average daily $ volume over the 20 days before found; below this = untradeable (items found to 19 Oct)
+# Rule 2026-10-19 (the trader's call, after PED was kept out at about $211k a day and then rose 9%): items found from
+# 20 Oct 2026 need $150k a day. Positions are a few hundred pounds, so $150k a day is enough to get in and out.
+# Older rows keep the $250k rule they were recorded under (ledger/RULES.md).
+MIN_ADV_USD_NEW, NEW_BAR_FROM = 150_000, "2026-10-20"
+
+
+def min_adv(found):
+    """The liquidity bar that applies to an item found on `found` (a date or YYYY-MM-DD string)."""
+    return MIN_ADV_USD_NEW if str(found)[:10] >= NEW_BAR_FROM else MIN_ADV_USD
 # Honest scoreboard (rule 2026-10-05): the headline only counts what we could actually have taken.
 MIN_PRICE = 1.0         # entry under $1: spreads and promotions make it a different game; paper only
 ROUND_TRIP_COST = 1.0   # % taken off every takeable result: commissions plus the bid/ask spread, entering and exiting
@@ -175,7 +184,7 @@ def honest(live):
     shorts = [r for r in live if r["direction"] < 0 and r.get("excess_pct") is not None]
     other = [r for r in live if r["direction"] > 0 and r.get("takeable") == "no"]
     L = ["## Honest scoreboard: what we could actually have taken", "",
-         f"**Takeable** = a long bet (we buy, we can't short), average daily $ volume of at least ${MIN_ADV_USD:,.0f}, and an entry price of "
+         f"**Takeable** = a long bet (we buy, we can't short), average daily $ volume of at least ${MIN_ADV_USD:,.0f} (${MIN_ADV_USD_NEW:,.0f} for items found from {NEW_BAR_FROM}), and an entry price of "
          f"${MIN_PRICE:.0f} or more. Every result has **{ROUND_TRIP_COST:.0f}% taken off for costs**. A result is **judged** only after "
          f"{JUDGE_TDAYS} trading days. Before that it's an early read and proves nothing.", "",
          f"- **Judged (held {JUDGE_TDAYS}+ trading days):** {stats(judged)}",
@@ -214,7 +223,7 @@ def main():
                    pre_move_5d=None if p["pre_move_5d"] is None else round(p["pre_move_5d"], 1),
                    found_day_move=None if p["found_day_move"] is None else round(p["found_day_move"], 1),
                    adv_usd=None if p["adv_usd"] is None else round(p["adv_usd"]),
-                   liquid="yes" if (p["adv_usd"] or 0) >= MIN_ADV_USD else "no",
+                   liquid="yes" if (p["adv_usd"] or 0) >= min_adv(it["found"]) else "no",
                    found_close=p["found_close"], entry_date=p["entry_date"] and p["entry_date"].isoformat(),
                    entry_open=p["entry_open"], now_date=p["now_date"].isoformat(), now=p["now"])
         if not p["entry_open"]:
@@ -263,7 +272,7 @@ def main():
             rs = [r["ret_pct"] for r in live if r["category"] == c]
             lines.append(f"| {c} | 0 (track) | {len(rs)} | raw {mean(rs):+.1f}% | raw {median(rs):+.1f}% | n/a |")
     tr = [r for r in live if r.get("liquid") == "yes" and r.get("excess_pct") is not None]
-    lines += ["", f"## Tradeable only (avg daily volume ≥ ${MIN_ADV_USD:,.0f}), split by the move in the 5 days before found", "",
+    lines += ["", f"## Tradeable only (avg daily volume ≥ ${MIN_ADV_USD:,.0f}; ${MIN_ADV_USD_NEW:,.0f} from {NEW_BAR_FROM}), split by the move in the 5 days before found", "",
               "| category | dir | n | mean excess | right | crashed >20% by found: n · excess | spiked >50% by found: n · excess |", "|---|---|---|---|---|---|---|"]
     for c in sorted({r["category"] for r in tr}):
         xs = [r for r in tr if r["category"] == c]; ex = [r["excess_pct"] for r in xs]

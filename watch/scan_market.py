@@ -115,7 +115,8 @@ CHECK_CAP = 60       # most 8-Ks opened in a day to check contract phrases
 # filing must match one of the first two; "sales agreement" then tells an ATM programme from a one-off priced sale.
 ATM_PHRASES = ["at-the-market", "equity distribution agreement", "sales agreement"]
 
-FORM4_CAP = 400      # most Form 4s opened in a day
+CLUSTER_MIN_USD = 10_000   # a buy counts toward a cluster only at $10k or more (GABC: three directors buying 2 shares each)
+FORM4_CAP = 1500     # most Form 4s opened in a day (raised from 400 on 2026-10-19 when the section widened to every company under $2B)
 LATE_LIMIT = 40      # above this many late filings, list relevant companies only
 HOLDER_LIMIT = 20    # above this many 13D/A or 13G filings on relevant companies, group them by holder instead of listing
 GOING_CONCERN_CAP = 60   # most 10-K / 10-Q / 8-K documents opened in a day to read the going-concern sentence
@@ -349,8 +350,8 @@ def scan(day):
     if any(wider.values()):
         first = next(h for h, body in wider.items() if body)
         lines += [f"Wider scan: {sum(len(v) for v in wider.values())} more lines in the sections from \"{first}\" down. "
-                  f"\"Relevant\" there means one of {len(relevant):,} listed companies on the watchlist, in the link graph or "
-                  f"in a kept industry" + (f" (could not read {', '.join(unread)})" if unread else "")
+                  f"\"Relevant\" there means one of {len(relevant):,} listed companies: every one worth under $2B, plus the watchlist, "
+                  f"the link graph and the kept industries at any size" + (f" (could not read {', '.join(unread)})" if unread else "")
                   + ". Guide to every section: watch/SCANNER.md.", ""]
     for section in dict.fromkeys(FORMS.values()):
         if hits.get(section):
@@ -373,11 +374,46 @@ def scan(day):
 # so reports/sources.py reads them like the older sections. An empty list means the section is left out.
 # ---------------------------------------------------------------------------------------------------------------------
 
+SMALL_LIMIT = 2e9    # rule 2026-10-19: the noisy sections read every listed company worth under $2B, not just our lists
+
+
+def small_caps(tickers, unread):
+    """CIKs of exchange-listed companies with a market value under SMALL_LIMIT, from the free Nasdaq screener (one call,
+    cached per day in watch/marketcap.json). The trader asked to read every filing, not only names already on our lists,
+    and to leave out the big, heavily covered companies (19 Oct 2026)."""
+    cache = HERE / "marketcap.json"
+    today = date.today().isoformat()
+    caps = {}
+    try:
+        saved = json.loads(cache.read_text(encoding="utf-8"))
+        if saved.get("date") == today:
+            caps = saved["caps"]
+    except Exception:
+        pass
+    if not caps:
+        try:
+            h = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+                 "Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+            req = urllib.request.Request("https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&download=true", headers=h)
+            rows = json.loads(urllib.request.urlopen(req, timeout=60).read())["data"]["rows"]
+            for r in rows:
+                try:
+                    caps[r["symbol"].strip().upper().replace("/", "-")] = float(r.get("marketCap") or 0)
+                except (TypeError, ValueError):
+                    pass
+            cache.write_text(json.dumps({"date": today, "caps": caps}), encoding="utf-8")
+        except Exception:
+            unread.append("Nasdaq screener (market values)")
+            return set()
+    return {c for c, ts in tickers.items() if any(0 < caps.get(t.upper().replace(".", "-"), 0) < SMALL_LIMIT for t in ts)}
+
+
 def load_relevant(tickers):
-    """CIKs of the listed companies the noisy sections are limited to (watchlist + link graph + kept industries),
-    and the names of any input file that could not be read."""
+    """CIKs of the listed companies the noisy sections cover: every listed company under $2B (rule 2026-10-19) plus the
+    watchlist, the link graph and the kept industries at any size; and the names of any input that could not be read."""
     by_ticker = {t.upper(): c for c, ts in tickers.items() for t in ts}
     names, ciks, unread = set(), set(), []
+    ciks |= small_caps(tickers, unread)
     try:
         names |= {t.strip().upper() for t in json.loads((HERE / "watchlist.json").read_text(encoding="utf-8"))["tickers"]}
     except Exception:
@@ -422,7 +458,7 @@ def doc_url(ciks, acc, fname):
 
 def left_out(ciks):
     n = len(ciks)
-    return [f"- _{n} other listed compan{'y' if n == 1 else 'ies'} left out (not on the watchlist, in the graph or in a kept industry)._"] if n else []
+    return [f"- _{n} other listed compan{'y' if n == 1 else 'ies'} left out (worth $2B or more and not on the watchlist, in the graph or in a kept industry)._"] if n else []
 
 
 def pick(filings, tickers, relevant, everyone=False):
@@ -615,7 +651,8 @@ def insider_buys(form4, tickers, relevant, day):
                 if yes(r.findtext("isOther")):
                     roles.append((r.findtext("otherText") or "").strip() or "other")
             who.append(quote(o.findtext("reportingOwnerId/rptOwnerName") or "?", 60) + (f" ({quote(', '.join(roles), 80)})" if roles else ""))
-        people[symbols([issuer], tickers)].add((quote(doc.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or acc, 60).upper(), last or str(day)))
+        if value >= CLUSTER_MIN_USD or not priced:   # tiny plan-style buys ($100 of stock) don't make a cluster (rule 2026-10-19)
+            people[symbols([issuer], tickers)].add((quote(doc.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or acc, 60).upper(), last or str(day)))
         avg = value / priced if priced else None
         cost = "with no price in the form (usually a private deal, not a market buy: read the footnotes)"   # NFE, 15 Sep 2026
         if avg:
@@ -630,8 +667,11 @@ def insider_buys(form4, tickers, relevant, day):
                     continue
             except ValueError:
                 continue
-            for m in re.finditer(r"^- \*\*(.+?)\*\* (.+?) bought [\d,]+ shares.*? on (\d{4}-\d{2}-\d{2})", f.read_text(encoding="utf-8"), re.M):
-                sym, owner, when = m.group(1), re.split(r" \(| \+ ", m.group(2))[0].strip().upper(), m.group(3)
+            for m in re.finditer(r"^- \*\*(.+?)\*\* (.+?) bought [\d,]+ shares(.*?) on (\d{4}-\d{2}-\d{2})", f.read_text(encoding="utf-8"), re.M):
+                sym, owner, when = m.group(1), re.split(r" \(| \+ ", m.group(2))[0].strip().upper(), m.group(4)
+                usd = re.search(r"= \$([\d,]+)", m.group(3))
+                if usd and float(usd.group(1).replace(",", "")) < CLUSTER_MIN_USD:
+                    continue
                 if sym in people and date.fromisoformat(when) >= day - timedelta(days=30):
                     people[sym].add((owner, when))
         clusters = []
