@@ -1,10 +1,18 @@
 [
  {
-  "published_utc": "2026-10-18T22:00:00Z",
+  "published_utc": "2026-10-19T00:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "OPNW",
+  "title": "OpenWorld (NASDAQ: OPNW) Signs Definitive Merger Agreement to Acquire Blocksight",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3382955/0/en/openworld-nasdaq-opnw-signs-definitive-merger-agreement-to-acquire-blocksight.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-10-19T00:00:00Z",
   "wire": "Business Wire",
-  "ticker": "MANE",
-  "title": "Veradermics to Hold Conference Call to Discuss Topline Results from Phase 3 ‘304’ Clinical Trial of VDPHL01 in Males with Mild-to-Moderate Pattern Hair Loss",
-  "link": "http://www.businesswire.com/news/home/20261018527252/en/Veradermics-to-Hold-Conference-Call-to-Discuss-Topline-Results-from-Phase-3-%E2%80%98304%E2%80%99-Clinical-Trial-of-VDPHL01-in-Males-with-Mild-to-Moderate-Pattern-Hair-Loss/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
+  "ticker": "OPNW",
+  "title": "OpenWorld (NASDAQ: OPNW) Signs Definitive Merger Agreement to Acquire Blocksight as the Agentic Foundation for Its Up to $1 Billion Tokenized Solar and AI Computing Program with Meridian and Up to $130 Million IP-Backed Transaction with BeyondAI",
+  "link": "http://www.businesswire.com/news/home/20261018852596/en/OpenWorld-NASDAQ-OPNW-Signs-Definitive-Merger-Agreement-to-Acquire-Blocksight-as-the-Agentic-Foundation-for-Its-Up-to-1-Billion-Tokenized-Solar-and-AI-Computing-Program-with-Meridian-and-Up-to-130-Million-IP-Backed-Transaction-with-BeyondAI/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
  }
 ]
