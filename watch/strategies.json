@@ -20,7 +20,22 @@
     "SKYA",
     "PED",
     "IMSR",
-    "SRTA"
+    "SRTA",
+    "TALO",
+    "GPRO",
+    "SMTI",
+    "MG",
+    "TCPC",
+    "MDA",
+    "BYRN",
+    "FEAM",
+    "IMMR",
+    "UUUU",
+    "ALEC",
+    "BMEZ",
+    "LCII",
+    "CRMT",
+    "NKLR"
    ]
   },
   {
@@ -51,7 +66,8 @@
    "about": "A new 5%+ holder (13D) pushing for change: a sale, a strategic review, buybacks or board seats. The test: does the stock keep outperforming its peers after the filing?",
    "tickers": [
     "ESRT",
-    "SRTA"
+    "SRTA",
+    "TCPC"
    ]
   },
   {
@@ -61,7 +77,17 @@
    "about": "Signed takeovers. The gap between the price and the offer, and what it says about the odds the deal fails. Tracked, not calls.",
    "tickers": [
     "PTC",
-    "RXO"
+    "RXO",
+    "SKYA",
+    "GPRO",
+    "SMTI",
+    "MG",
+    "BMBL",
+    "LCII",
+    "SYNA",
+    "PCRX",
+    "CSR",
+    "ATKR"
    ]
   }
  ]
