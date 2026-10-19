@@ -3,3 +3,7 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-16,22:11,True,OPK,OPKO Health Inc. Common Stock,S2,1.61,55454583,4788775,11.58,3021259,,,1.53,1.55,2026-10-19,0.013072,-0.006928,filled
 2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S2,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,1.05,1.03,2026-10-19,-0.019048,-0.039048,filled
 2026-10-16,22:11,True,WETO,Wetour Robotics Limited Ordinary Shares,S1,1.22,111283054,11081915,10.04,1787076,2026-08-03,0.01,1.05,1.03,2026-10-19,-0.019048,-0.039048,filled
+2026-10-19,23:04,True,FLWS,1-800-FLOWERS.COM Inc. Common Stock,S2,2.75,2952071,519580,5.68,1034740,,,,,,,,open
+2026-10-19,23:04,True,GUTS,Fractyl Health Inc. Common Stock,S2,1.55,15098579,936532,16.12,873247,2026-10-05,0.083333,,,,,,open
+2026-10-19,23:04,True,GUTS,Fractyl Health Inc. Common Stock,S1,1.55,15098579,936532,16.12,873247,2026-10-05,0.083333,,,,,,open
+2026-10-19,23:04,True,SMX,SMX (Security Matters) Public Limited Company Ordinary Share,S2,1.89,10834106,768140,14.1,667972,,,,,,,,open
