@@ -98,10 +98,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $19.40 (2026-10-16, ledger) · 1d +0.0%, 5d -7.7%, 20d -15.2% (market context, 2026-10-16)
-- **Since first found:** **-1.2%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +0.9% vs IWM -1.9% = **+2.7 pts** vs IWM; direction +1 → excess +2.7% (18 days)
+- **Latest price:** $18.69 (2026-10-19, ledger) · 1d -1.3%, 5d -8.9%, 20d -14.4% (market context, 2026-10-19)
+- **Since first found:** **-4.8%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -2.8% vs IWM -3.3% = **+0.5 pts** vs IWM; direction +1 → excess +0.5% (21 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -7.7% 5d vs peer median -0.7%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Peers / sympathy:** solo_move: ELMT -8.9% 5d vs peer median -0.2%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 19 Oct 2026: ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
@@ -111,6 +111,9 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **ELMT:** -2.9% to $18.93. The lock-up ends **19 Oct**; 20.6M shares are free **22 Oct**. No long before 22 Oct. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- ELMT lock-up ends 19 Oct, with shares free on 22 Oct.) ([note](../research/daily/2026-10-18.md))
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **ELMT:** no filing. The underwriters' lock-up ends **19 Oct**, and 20.6M shares become free to sell on **22 Oct** (the agent's arithmetic from the… ([triage](../watch/digests/2026-10-16-triage.md)) · Research: Research: Fri 16 Oct 2026 (- **ELMT:** 20.6M shares (68% of the shares outstanding) can be sold from **22 Oct**.) ([note](../research/daily/2026-10-16.md))
+- **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **ELMT**: no filing; -9.5% on 14 Oct (IWM -1.9%) with no filing to explain it. Lock-up dates 19 and 22 Oct. ([triage](../watch/digests/2026-10-15-triage.md)) · Research: Research: Thu 15 Oct 2026 (- **ELMT:**) ([note](../research/daily/2026-10-15.md))
 - **[2026-10-12](../scans/2026-10-12.md)**: Research: Research: Mon 12 Oct 2026 (- **Dated items, nothing changed:** ACVA's tender still expires 15 Oct, with no filing since 8 Oct, and the…) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): already run (DoW equity priced in one session; lock-up ~19-22 Oct); source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (ELMT A Tungsten and molybdenum, with DoW preferred equity 8 already run The DoW money was priced in one…) ([note](../research/longterm-2026-10-05/REPORT.md))
 - **[2026-09-25](../scans/2026-09-25.md#s1-contract-signals)**: S1 signal: DoD `IDIQ_ceiling` $35.6M, 6% of market cap (upper bound), decision PENDING ([war.gov](https://www.war.gov/News/Contracts/Contract/Article/4612013/contracts-for-sept-25-2026/))
@@ -121,5 +124,5 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.40 | -1.2% | +0.9% | -1.9% | +2.7% | 18 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.40 | -8.9% | -10.3% | -3.3% |  | 10 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.69 | -4.8% | -2.8% | -3.3% | +0.5% | 21 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.69 | -12.2% | -13.6% | -4.7% |  | 13 | live |

@@ -101,9 +101,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.13 (2026-10-16, ledger) · 1d +0.8%, 5d +2.6%, 20d -15.2% (market context, 2026-10-15)
-- **Since first found:** **-12.5%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -12.5% vs IWM -1.8% = **-10.7 pts** vs IWM; direction +1 → excess -10.7% (17 days)
-- **Peers / sympathy:** missed_peer_move: peer median -16.8% 5d vs RYAM +2.6%; peers moved, it didn't. Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-15)
+- **Latest price:** $7.03 (2026-10-19, ledger) · 1d +0.6%, 5d -1.8%, 20d -17.1% (market context, 2026-10-19)
+- **Since first found:** **-13.7%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -13.7% vs IWM -3.3% = **-10.5 pts** vs IWM; direction +1 → excess -10.5% (20 days)
+- **Peers / sympathy:** no flag (self 5d -1.8% vs peer median -3.0%). Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -113,6 +113,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md)**: Research: Research: Fri 16 Oct 2026 (- RYAM (row logged 16 Oct, event dated 15 Dec) set to **none**. The "event" is an undated promise of "a clear…) ([note](../research/daily/2026-10-16.md))
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): potential sale; expected +$1-3; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -121,4 +122,4 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $7.13 | -12.5% | -12.5% | -1.8% | -10.7% | 17 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $7.03 | -13.7% | -13.7% | -3.3% | -10.5% | 20 | live |

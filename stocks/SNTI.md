@@ -25,8 +25,9 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.246 (2026-10-16, ledger)
-- **Since first found:** **-23.6%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -20.6% vs IWM -2.4% = **-18.2 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $0.222 (2026-10-19, ledger)
+- **Since first found:** **-31.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -28.4% vs IWM -3.9% = **-24.6 pts** vs IWM; direction 0, tracked only (14 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,6 +36,8 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage, dismissed: SNTI: merger and reverse split approved; $0.23. ([triage](../watch/digests/2026-10-16-triage.md))
+- **[2026-10-15](../scans/2026-10-15.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split" (8k merger agreement) (5d before -27.0%, found day +8.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000162828026065992/snti-20261015.htm))
 - **[2026-10-08](../scans/2026-10-08.md)**: Calendar: SNTI reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 25 Sep + deficiency 2 Sep; $0.32; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
@@ -44,4 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.246 | -23.6% | -20.6% | -2.4% |  | 11 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.222 | -31.1% | -28.4% | -3.9% |  | 14 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 | -27.0% | +8.7% | $542k | $0.262 | $0.248 | $0.222 | -15.3% | -10.5% | -1.6% |  | 3 | live |

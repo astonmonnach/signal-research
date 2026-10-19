@@ -4,6 +4,7 @@ Weekly (ISO weeks, Monday to Sunday), monthly and quarterly reports: what the sc
 
 ## Weekly
 
+- [2026-W43](weekly/2026-W43.md)
 - [2026-W42](weekly/2026-W42.md)
 - [2026-W41](weekly/2026-W41.md)
 - [2026-W40](weekly/2026-W40.md)

@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $17.46 (2026-10-16, market context) · 1d +0.7%, 5d -8.4%, 20d -7.4% (market context, 2026-10-16)
-- **Since first found:** **-10.1%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -8.1% vs IWM -1.8% = **-6.3 pts** vs IWM; direction -1 → excess +6.3% (16 days)
+- **Latest price:** $17.39 (2026-10-19, ledger) · 1d +0.7%, 5d -7.7%, 20d -6.6% (market context, 2026-10-19)
+- **Since first found:** **-9.8%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -7.8% vs IWM -3.3% = **-4.6 pts** vs IWM; direction -1 → excess +4.6% (20 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: HMH -8.4% 5d vs peer median -3.0%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Peers / sympathy:** solo_move: HMH -7.7% 5d vs peer median -1.4%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -102,6 +102,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **HMH:** a 16 Oct release announced the Q3 call date. The page returned 403, so the date is not recorded. ([triage](../watch/digests/2026-10-18-triage.md))
+- **[2026-10-16](../scans/2026-10-16.md#press-releases)**: Press: HMH Holding Inc. Announces Third Quarter 2026 Earnings Conference Call (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/16/3382784/0/en/hmh-holding-inc-announces-third-quarter-2026-earnings-conference-call.html))
 - **[2026-09-30](../scans/2026-09-30.md#triage-notes)**: Triage: **HMH**: resale S-1 (filed 28 Sep). The Selling Stockholders (Principal Stockholders: Baker Hughes and Akastor affiliates) register up to… ([triage](../watch/digests/2026-09-30-triage.md))
 - **[2026-09-29](../scans/2026-09-29.md#new-setups)**: Logged as `idea_overhang` (direction -1): resale S-1 31.9M shares (supply); source: watchlist thread (X 29 Sep) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Dated-catalyst scan: 2026-09-29 (window 30 Sep – 7 Oct 2026) (HMH 180-day IPO lockup ended 27 Sep; resale S-1 for 31.9M shares (~3× float) filed 28 Sep S-1 effective date…) ([note](../research/scans/2026-09-29-dated-catalysts.md))
 - **[2026-09-28](../scans/2026-09-28.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before +1.6%, found day +0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000119312526405527/0001193125-26-405527-index.htm))
@@ -112,5 +114,5 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $17.34 | -10.1% | -8.1% | -1.8% | +6.3% | 16 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $17.34 | -2.4% | -2.4% | -1.8% | +0.6% | 15 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $17.39 | -9.8% | -7.8% | -3.3% | +4.6% | 20 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $17.39 | -2.1% | -2.1% | -3.3% | -1.1% | 19 | live |

@@ -1,14 +1,15 @@
 logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost,leg_spread_pct,open_interest,nth_view,status,expiry_close,actual_move_pct,straddle_result_pct,outcome
-2026-10-06,MOD,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,191.01,9.6,190.0,18.2,18.5,4,,open,,,,
-2026-10-06,THRM,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,32.3,8.9,32.93,2.6,47.5,1845,,open,,,,
+2026-10-06,MOD,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,191.01,9.6,190.0,18.2,18.5,4,,settled,148.86,22.1,126.0,bigger
+2026-10-06,THRM,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,32.3,8.9,32.93,2.6,47.5,1845,,settled,29.04,10.1,49.6,bigger
 2026-10-06,HZO,2026-10-30,HZO antitrust (HSR) waiting period ends,2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,open,,,,
 2026-10-06,MTUS,2026-11-03,MTUS Q3 earnings call: thesis check for trade #1,2026-11-20,21.04,12.7,20.0,2.65,13.7,1484,none,open,,,,
 2026-10-06,HZO,2026-11-11,HZO merger vote ($53 cash),2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,open,,,,
 2026-10-06,MOD,2026-11-18,MOD Investor Day (continuing business outlook),2026-11-20,191.01,22.4,190.0,42.5,11.8,7,smaller,open,,,,
 2026-10-07,WHF,2026-12-01,"WHF: $85M notes mature in December, check refinancing",2027-01-15,7.0,18.2,7.5,1.27,146.0,351,none,open,,,,
-2026-10-12,SKYA,2026-10-15,SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today,2026-10-16,2.58,15.5,2.5,0.4,25.4,2,smaller,open,,,,
+2026-10-12,SKYA,2026-10-15,SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today,2026-10-16,2.58,15.5,2.5,0.4,25.4,2,smaller,settled,2.65,2.7,-62.5,smaller
 2026-10-12,MSGS,2026-10-20,MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS),2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
 2026-10-12,MSGS,2026-10-26,MSGS: Rangers spin-off effective; MSGS becomes MSGK,2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
 2026-10-13,HZO,2026-12-07,HZO earliest close,2027-01-15,52.33,6.1,50.0,3.18,82.9,57,smaller,open,,,,
 2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,none,open,,,,
 2026-10-16,RYAM,2026-12-15,RYAM: company promised a clear path forward in Q4 2026,2026-12-18,7.11,20.3,7.0,1.38,100.0,90,none,open,,,,
+2026-10-19,SKYA,2026-10-29,SKYA: $3.00 tender expires one minute after 11:59 pm New York (filed 16 Oct; may be extended to about 12-13 Nov; non-US ,2026-11-20,2.57,42.5,2.5,1.02,50.2,1267,,open,,,,

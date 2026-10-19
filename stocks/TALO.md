@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_selling` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $17.11 (2026-10-16, ledger) · 1d +0.8%, 5d +1.9%, 20d +0.6% (market context, 2026-10-16)
-- **Since first found:** **+0.5%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: -0.2% vs IWM +1.4% = **-1.6 pts** vs IWM; direction 0, tracked only (1 days)
-- **Peers / sympathy:** no flag (self 5d +1.9% vs peer median +2.8%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Latest price:** $17.83 (2026-10-19, ledger) · 1d +0.3%, 5d +2.8%, 20d +8.6% (market context, 2026-10-19)
+- **Since first found:** **+4.7%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: +4.0% vs IWM -0.1% = **+4.1 pts** vs IWM; direction 0, tracked only (4 days)
+- **Peers / sympathy:** no flag (self 5d +2.8% vs peer median +3.8%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **TALO:** no new sale filed. +4.7% to $17.77 (XOP +2.8%). Any 15 or 16 Oct sales are due by 19 or 20 Oct. AVOID stands; review 29 Oct. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- BORR and TALO quiet.) ([note](../research/daily/2026-10-18.md))
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **TALO:** one more sale by Control Empresarial: 265,446 shares at $17.30 on 14 Oct. It now holds **17.6%**. ([triage](../watch/digests/2026-10-16-triage.md)) · Filings: `4` ×2 15 Oct, `4` 13 Oct, `SCHEDULE 13D/A` 13 Oct; +29 older (May – Oct 2026) first picked up · Research: Research: Fri 16 Oct 2026 (- **TALO:** the Slim group sold 265,446 more shares on 14 Oct, much slower than the week before. AVOID stands…) ([note](../research/daily/2026-10-16.md))
+- **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **TALO**: no new 13D/A. One more sale shows in the 15 Oct Form 4 (16 Oct triage). ([triage](../watch/digests/2026-10-15-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **TALO** (market-wide, 13D/A, holder selling): Carlos Slim's Control Empresarial sold 8.94M shares on 8 to 13 Oct at $17.03 to $17.51, about $154M… ([triage](../watch/digests/2026-10-14-triage.md)) · Logged as `holder_selling` (direction 0): Slim's Control Empresarial sold 8.94M sh on 8-13 Oct at $17.03-$17.51 (~$154M), 10.8M since 15 Sep; still 17.8%; 13D/A after the 13 Oct close; AVOID while the selling lasts; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (2. TALO: Carlos Slim's company sells $154M of Talos in four sessions) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1724965/000114036126039476/0001140361-26-039476-index.htm))
 
@@ -25,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for TALO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $17.11 | +0.5% | -0.2% | +1.4% |  | 1 | live |
+| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $17.83 | +4.7% | +4.0% | -0.1% |  | 4 | live |

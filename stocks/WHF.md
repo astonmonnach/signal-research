@@ -88,12 +88,12 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.65 (2026-10-16, market context) · 1d -0.1%, 5d +9.0%, 20d +3.8% (market context, 2026-10-16)
-- **Since first found:** **+9.9%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +10.2% vs IWM -1.8% = **+12.1 pts** vs IWM; direction +1 → excess +12.1% (16 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Latest price:** $7.48 (2026-10-19, ledger) · 1d -1.1%, 5d +2.0%, 20d +5.7% (market context, 2026-10-19)
+- **Since first found:** **+7.3%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +7.6% vs IWM -3.3% = **+10.9 pts** vs IWM; direction +1 → excess +10.9% (20 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
-  - Mon 9 Nov 2026: WHF: Q3 results and call, 1:30 pm New York (company-confirmed date)
+  - Mon 9 Nov 2026: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -102,6 +102,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **WHF:** call time corrected to 1:00 pm New York on 9 Nov (15 Oct triage). ([triage](../watch/digests/2026-10-16-triage.md)) · Filings: `8-K/A` 14 Oct
+- **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **WHF**: the 8-K/A only corrects the Q3 call time to **1:00 pm New York** (18:00 UK) on 9 Nov; the 14 Oct note and calendar said 1:30 pm. ([triage](../watch/digests/2026-10-15-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **WHF** (watchlist, 8-K today): a $0.17 special distribution, record date 30 Oct, paid 10 Dec. Q3 results on Mon 9 Nov, call at 1:30 pm New York. ([triage](../watch/digests/2026-10-14-triage.md)) · Press: WhiteHorse Finance, Inc. Announces Special Distribution And To Report Third Quarter 2026 Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-special-distribution-and-to-report-third-quarter-2026-financial-results-302909059.html)) · Filings: `8-K` 14 Oct · Research: Research: Wed 14 Oct 2026 (- **WHF (watchlist):** a special distribution of $0.17 a share, record date 30 Oct, paid 10 Dec. Q3 results…) ([note](../research/daily/2026-10-14.md))
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): passed scan gates; long thesis; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
@@ -111,4 +113,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.66 | +9.9% | +10.2% | -1.8% | +12.1% | 16 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.48 | +7.3% | +7.6% | -3.3% | +10.9% | 20 | live |

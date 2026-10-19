@@ -4,7 +4,7 @@ Candidates from nth-order research ([how it works](METHOD.md)). Moves are measur
 
 | ticker | theme | verdict | score | added | since added | vs SPY | vs sector | 1y vs SPY | review trigger |
 |---|---|---|---|---|---|---|---|---|---|
-| [MTUS](../stocks/MTUS.md) | Critical minerals / NDS stockpile | watch | 7 | 2026-10-05 | -1.7% | -1.4% | +0.8% (SLX) | +7.8% | Q3 results + 10-Q, 2026-11-06 |
+| [MTUS](../stocks/MTUS.md) | Critical minerals / NDS stockpile | watch | 7 | 2026-10-05 | -2.5% | -1.6% | -0.6% (SLX) | +8.6% | Q3 results + 10-Q, 2026-11-06 |
 
 **Theses** (one line each; evidence links go to the primary source):
 

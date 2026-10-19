@@ -6,17 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $5.57 (2026-10-16, ledger)
-- **Since first found:** **-0.5%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: -1.1% vs IWM -1.0% = **-0.1 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $5.82 (2026-10-19, ledger)
+- **Since first found:** **+3.9%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: +3.2% vs IWM -2.5% = **+5.7 pts** vs IWM; direction 0, tracked only (6 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Tue 24 Nov 2026: RIG/VAL: shareholder meetings on the all-stock merger (15.235 RIG per VAL)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Transocean Ltd. Announces Amended and Restated Credit Agreement and Redemption of Deepwater Aquila Notes (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/15/3382182/0/en/transocean-ltd-announces-amended-and-restated-credit-agreement-and-redemption-of-deepwater-aquila-notes.html))
+- **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **RIG / VAL**, merger proxies: 15.235 RIG per VAL, meetings **24 Nov**, DOJ review closed 30 Sep. Gap 0.2% to 0.6%; needs a RIG short. ([triage](../watch/digests/2026-10-15-triage.md)) · Press: Transocean Ltd. Announces Amended and Restated Credit Agreement and Redemption of Deepwater Aquila Notes (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/15/3382182/0/en/transocean-ltd-announces-amended-and-restated-credit-agreement-and-redemption-of-deepwater-aquila-notes.html))
+- **[2026-10-14](../scans/2026-10-14.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +4.6%, found day -1.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1451505/000110465926115680/0001104659-26-115680-index.htm))
 - **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Transocean Ltd. Announces Third Quarter 2026 Earnings Release Date (GlobeNewswire, published Mon 12 Oct) ([release](https://www.globenewswire.com/news-release/2026/10/12/3379249/0/en/transocean-ltd-announces-third-quarter-2026-earnings-release-date.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): BORR peer (offshore driller): +2.2% from 7 Oct to 9 Oct close vs BORR +11.2%; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Over the same two sessions (7 Oct close to 9 Oct close): +2.2%, +3.4%, +2.2%, +3.3%, the oil services fund…) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage, dismissed: **LOAN** buyback extension, **RIG** backlog release: no setup. ([triage](../watch/digests/2026-10-10-triage.md))
@@ -28,4 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for RIG ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $5.57 | -0.5% | -1.1% | -1.0% |  | 3 | live |
+| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $5.82 | +3.9% | +3.2% | -2.5% |  | 6 | live |
+| 2026-10-14 | `merger_vote` | 0 | +4.6% | -1.2% | $211.8M | $5.58 | $5.61 | $5.82 | +4.3% | +3.7% | -0.1% |  | 4 | live |

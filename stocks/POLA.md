@@ -21,9 +21,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.970 (2026-10-16, ledger)
-- **Since first found:** **-23.0%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -24.2% vs IWM -1.8% = **-22.4 pts** vs IWM; direction -1 → excess +22.4% (17 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $0.890 (2026-10-19, ledger)
+- **Since first found:** **-29.4%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -30.5% vs IWM -3.3% = **-27.2 pts** vs IWM; direction -1 → excess +27.2% (20 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -32,6 +32,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -11.1%, found day -12.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226047408/form8-k.htm))
 - **[2026-10-14](../scans/2026-10-14.md)**: Calendar: POLA reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: 8-K trigger phrase "bio-mention (strategic alternatives)" (other phrase (go-shop, bio-mention)) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226046869/ex99-1.htm))
 - **[2026-10-07](../scans/2026-10-07.md#press-releases)**: Press: Solidion Technology (NASDAQ : STI) estime qu'il n'y a aucune raison de revoir à la hausse son offre sur Polar… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/solidion-technology-nasdaq--sti-estime-quil-ny-a-aucune-raison-de-revoir-a-la-hausse-son-offre-sur-polar-power-inc-nasdaq--pola-en-reaction-au-rejet-par-le-conseil-dadministration-de-la-proposition-dacquisition-dactif-302901025.html)) · Press: Solidion Technology (NASDAQ: STI) sieht keinen Grund, sein Angebot an Polar Power, Inc. (NASDAQ: POLA) als… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-sieht-keinen-grund-sein-angebot-an-polar-power-inc-nasdaq-pola-als-reaktion-auf-die-ablehnung-des-vorschlags-zur-ubernahme-der-vermogenswerte-gegen-barzahlung-durch-den-vorstand-zu-erhohen-302900895.html))
@@ -45,5 +46,6 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.970 | -23.0% | -24.2% | -1.8% | +22.4% | 17 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.970 | -16.4% | -17.1% | -2.4% |  | 11 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.890 | -29.4% | -30.5% | -3.3% | +27.2% | 20 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.890 | -23.3% | -23.9% | -3.9% |  | 14 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.906 | $0.890 | +6.0% | -1.8% | -0.3% | +1.5% | 0 | live |

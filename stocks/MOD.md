@@ -93,10 +93,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $150.12 (2026-10-16, ledger) · 1d -1.8%, 5d -16.7%, 20d -19.8% (market context, 2026-10-16)
-- **Since first found:** **-12.7%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -12.9% vs IWM -0.8% = **-12.1 pts** vs IWM; direction 0, tracked only (15 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $150.88 (2026-10-19, ledger) · 1d +1.2%, 5d -12.7%, 20d -23.8% (market context, 2026-10-19)
+- **Since first found:** **-12.4%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -12.7% vs IWM -2.3% = **-10.4 pts** vs IWM; direction 0, tracked only (18 days). Includes +0.44619 THRM (spin)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MOD -16.7% 5d vs peer median -6.7%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Peers / sympathy:** solo_move: MOD -12.7% 5d vs peer median -5.3%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: MOD Investor Day (continuing business outlook)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -105,6 +105,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `DEF 14A` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `4` 8 Oct · Triage, dismissed: **MOD** Form 4: a 915-share grant (code A). ([triage](../watch/digests/2026-10-10-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **MOD / THRM** (watchlist, spin-off): the 8-K pro formas confirm the RMT completed 1 Oct; Performance Technologies is discontinued operations from… ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **MOD / THRM:** the 8-K with pro formas confirms the Reverse Morris Trust **completed on 1 Oct**.…) ([note](../research/daily/2026-10-08.md))
@@ -121,8 +122,8 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $150.12 | -12.7% | -12.9% | -0.8% |  | 15 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $150.12 | -17.9% | -20.1% | -3.3% |  | 10 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $150.12 | -20.8% | -19.1% | -0.4% |  | 8 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $150.88 | -12.4% | -12.7% | -2.3% |  | 18 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $150.88 | -17.5% | -19.7% | -4.7% |  | 13 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $150.88 | -20.4% | -18.7% | -1.9% |  | 11 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._

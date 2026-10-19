@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.95 (2026-10-16, ledger)
-- **Since first found:** **+0.0%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.0% vs IWM +0.6% = **-0.6 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $5.95 (2026-10-19, ledger)
+- **Since first found:** **+0.0%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.0% vs IWM -0.8% = **+0.8 pts** vs IWM; direction 0, tracked only (5 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -20,6 +20,10 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **BMBL:** spread 1.85%. Fee escrow due **19 Oct**. ([triage](../watch/digests/2026-10-18-triage.md))
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **BMBL:** the $102M fee escrow is due 19 Oct. Spread 1.9%. No change. ([triage](../watch/digests/2026-10-16-triage.md))
+- **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **BMBL**: two 13D/As (Blackstone 12.0%, all pledged; Whitney Wolfe Herd 14.7%, at least 10.9M shares roll over at closing) are deal paperwork (, ). ([triage](../watch/digests/2026-10-15-triage.md))
+- **[2026-10-14](../scans/2026-10-14.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1830043/000119312526421973/0001193125-26-421973-index.htm))
 - **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Bumble Inc. to Be Acquired by Ithaca Holdings, the Long-Term Holding Company for Enduring Technology… (Business Wire) ([release](http://www.businesswire.com/news/home/20261013006131/en/Bumble-Inc.-to-Be-Acquired-by-Ithaca-Holdings-the-Long-Term-Holding-Company-for-Enduring-Technology-Businesses/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Logged as `merger_arb` (direction 0): Ithaca Holdings $6.05 cash; vote done by written consent; spread 1.7% at $5.95; last date 12 Jul 2027; tracked, already run; source: nth run 13 Oct (research/BMBL-2026-10-13.html) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "agreement and plan of merger, strategic alternatives, tender offer" (8k merger agreement) (5d before +49.0%, found day +56.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_8k.htm)) · Research: Bumble Take-Private (On 12 Oct 2026 Bumble Inc. (BMBL) signed a merger agreement with Ithaca Holdco, Inc. Each Class A share is…) ([note](../research/BMBL-2026-10-13.html))
 
 ## Performance since found
@@ -28,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | +0.6% |  | 2 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | +0.6% |  | 2 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | -0.8% |  | 5 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.95 | +0.0% | +0.0% | -0.8% |  | 5 | live |

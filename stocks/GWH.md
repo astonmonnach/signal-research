@@ -25,17 +25,17 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.082 (2026-10-15, ledger)
-- **Since first found:** **-47.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -36.9% vs IWM -2.4% = **-34.5 pts** vs IWM; direction 0, tracked only (10 days)
+- **Latest price:** $0.085 (2026-10-16, ledger)
+- **Since first found:** **-45.9%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -34.6% vs IWM -3.9% = **-30.7 pts** vs IWM; direction 0, tracked only (11 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Fri 16 Oct 2026: GWH reverse-split vote
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md)**: Calendar: GWH reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 17 Sep + deficiency 30 Sep; $0.16; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -44,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for GWH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.082 | -47.8% | -36.9% | -2.4% |  | 10 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.085 | -45.9% | -34.6% | -3.9% |  | 11 | live |

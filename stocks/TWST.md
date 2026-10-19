@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $144.07 (2026-10-16, ledger) · 1d -0.7%, 5d -10.2%, 20d -14.1% (market context, 2026-10-16)
-- **Since first found:** **-25.4%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -25.4% vs IWM -0.8% = **-24.6 pts** vs IWM; direction 0, tracked only (15 days)
-- **Peers / sympathy:** no flag (self 5d -10.2% vs peer median -10.7%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-16)
+- **Latest price:** $138.29 (2026-10-19, ledger) · 1d +3.7%, 5d -9.3%, 20d -17.0% (market context, 2026-10-19)
+- **Since first found:** **-28.4%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -28.4% vs IWM -2.3% = **-26.1 pts** vs IWM; direction 0, tracked only (18 days)
+- **Peers / sympathy:** no flag (self 5d -9.3% vs peer median -10.8%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `4` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `144` 9 Oct · Triage, dismissed: **TWST** Form 144: a routine notice of intended sale. ([triage](../watch/digests/2026-10-10-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage, dismissed: **TWST**: CEO Emily Leproust Form 4, all code **S** (sales). Not a buy. ([triage](../watch/digests/2026-10-08-triage.md))
@@ -111,4 +112,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $144.07 | -25.4% | -25.4% | -0.8% |  | 15 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $138.29 | -28.4% | -28.4% | -2.3% |  | 18 | live |

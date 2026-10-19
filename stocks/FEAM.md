@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d_not_activism` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `insider_cluster` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $3.16 (2026-10-16, ledger)
-- **Since first found:** **-4.4%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -2.9% vs IWM -1.1% = **-1.8 pts** vs IWM; direction +1 → excess -1.8% (7 days)
+- **Latest price:** $2.83 (2026-10-19, ledger)
+- **Since first found:** **-14.5%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -13.2% vs IWM -2.6% = **-10.6 pts** vs IWM; direction +1 → excess -10.6% (10 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-15](../scans/2026-10-15.md)**: Research: Research: Thu 15 Oct 2026 (- **Insider clusters over 30 days** (LESSONS, 16 Oct): the scanner's Clusters line now counts different…) ([note](../research/daily/2026-10-15.md))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **FEAM** (market-wide, insider buy): director Graham vant Hoff (as the form spells it) bought 60,000 at $3.59 on 8 Oct, the same day as the chief… ([triage](../watch/digests/2026-10-14-triage.md)) · Logged as `insider_cluster` (direction 0): CEO 7,176 sh at $3.48 and director 60,000 sh at $3.59, both 8 Oct: a cluster the scanner missed again; stock +160% since 15 Sep; tracked, already run; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **FEAM (cluster, already run):** a director, Graham vant Hoff (as the form spells it), bought 60,000 shares…) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1888654/000182934026000011/0001829340-26-000011-index.htm))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `holder_13d_not_activism` (direction 0): lender paid 6.14M sh (12.4%) in the Searles Valley asset purchase; resale registration due within 105 days; CEO buy only $24,972; no setup; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- **FEAM:** the 13D is a lender being paid in shares, not an activist. Karnavati Holdings (Nirma group) got…) ([note](../research/daily/2026-10-12.md)) · Triage, dismissed: **FEAM** 13D and Form 4, **ASPI** and **SAIQ** 13Ds, **NFJ** tender results: see the table and list above. No setups. ([triage](../watch/digests/2026-10-12-triage.md))
@@ -29,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for FEAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $3.16 | -4.4% | -2.9% | -1.1% | -1.8% | 7 | live |
-| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $3.16 | -5.2% | -4.7% | -1.0% |  | 3 | live |
-| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $3.16 | +3.4% | +5.5% | +1.4% |  | 1 | live |
+| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $2.83 | -14.5% | -13.2% | -2.6% | -10.6% | 10 | live |
+| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $2.83 | -15.3% | -14.8% | -2.5% |  | 6 | live |
+| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $2.83 | -7.5% | -5.7% | -0.1% |  | 4 | live |

@@ -6,17 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $1.36 (2026-10-16, ledger)
-- **Since first found:** **+8.8%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: +7.9% vs IWM -1.1% = **+9.1 pts** vs IWM; direction +1 → excess +9.1% (7 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $1.10 (2026-10-19, ledger)
+- **Since first found:** **-12.0%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -12.7% vs IWM -2.6% = **-10.1 pts** vs IWM; direction +1 → excess -10.1% (10 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Thu 22 Oct 2026: CRMT: lenders' waiver and liquidity relief expire (company warns of a possible bankruptcy filing)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: CRMT, strategic review: read, **AVOID**. The lenders' waiver ends 22 Oct, with bankruptcy risk. -16.9%. ([triage](../watch/digests/2026-10-16-triage.md)) · Research: Research: Fri 16 Oct 2026 (- CRMT (the lenders' waiver ends 22 Oct; bankruptcy risk named)) ([note](../research/daily/2026-10-16.md))
+- **[2026-10-15](../scans/2026-10-15.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives, strategic review" (strategic review / alternatives) (5d before +21.4%, found day -0.7%) ([filing](https://www.sec.gov/Archives/edgar/data/799850/000117184326006667/f8k_101526.htm))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage: **CRMT** (market-wide, S2 phrase): lender waivers only to 15 Oct; the filing warns of a possible total loss. AVOID. ([triage](../watch/digests/2026-10-10-triage.md)) · Logged as `distress_avoid` (direction 0): lender waivers to 15 Oct, default risk, filing warns of total loss; AVOID; source: daily research 10 Oct (research/daily/2026-10-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 10 Oct 2026 (- **CRMT:** America's Car-Mart is in default territory. Its lenders extended waivers only to 15 Oct, and the…) ([note](../research/daily/2026-10-10.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives, strategic review" (strategic review / alternatives) (5d before +9.8%, found day +11.6%) ([filing](https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm))
 
@@ -26,5 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.36 | +8.8% | +7.9% | -1.1% | +9.1% | 7 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.36 | +0.7% | +0.0% | -1.2% |  | 4 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.10 | -12.0% | -12.7% | -2.6% | -10.1% | 10 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.10 | -18.5% | -19.1% | -2.7% |  | 7 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $1.10 | -18.5% | -19.1% | -1.6% | -17.5% | 3 | live |
