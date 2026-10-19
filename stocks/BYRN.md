@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $5.06 (2026-10-19, ledger)
-- **Since first found:** **+4.5%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.07: -0.2% vs IWM +0.3% = **-0.4 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $5.11 (2026-10-19, ledger)
+- **Since first found:** **+5.5%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.07: +0.7% vs IWM +0.2% = **+0.5 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for BYRN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.07 | $5.06 | +4.5% | -0.2% | +0.3% |  | 0 | live |
+| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.07 | $5.11 | +5.5% | +0.7% | +0.2% |  | 0 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $1.91 (2026-10-19, ledger)
-- **Since first found:** **+4.1%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +3.5% vs IWM +0.3% = **+3.2 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $1.94 (2026-10-19, ledger)
+- **Since first found:** **+5.4%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +4.9% vs IWM +0.2% = **+4.6 pts** vs IWM; direction 0, tracked only (0 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.91 | +4.1% | +3.5% | +0.3% |  | 0 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.91 | +4.1% | +3.5% | +0.3% |  | 0 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.94 | +5.4% | +4.9% | +0.2% |  | 0 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.94 | +5.4% | +4.9% | +0.2% |  | 0 | live |

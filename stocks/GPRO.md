@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $1.09 (2026-10-19, ledger)
-- **Since first found:** **+3.3%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.13: -4.0% vs IWM +0.3% = **-4.2 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $1.09 (2026-10-19, ledger) · 1d +3.3%, 5d -8.8%, 20d -16.5% (market context, 2026-10-19)
+- **Since first found:** **+3.3%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.13: -4.0% vs IWM +0.2% = **-4.2 pts** vs IWM; direction 0, tracked only (0 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** solo_move: GPRO -8.8% 5d vs peer median -1.0%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 31 Dec 2026: GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md#press-releases)**: Press: GoPro Files Preliminary Proxy Statement; Proposed Merger with Starman Optical on Track (PR Newswire) ([release](https://www.prnewswire.com/news-releases/gopro-files-preliminary-proxy-statement-proposed-merger-with-starman-optical-on-track-302912646.html))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **GPRO** (GoPro), red flag during a pending takeover, takeable ($1.05; median $12.1M a day). The 8-K was accepted 17:30, after the close. ([triage](../watch/digests/2026-10-18-triage.md)) · Logged as `merger_arb` (direction 0): 8-K 17:30 on 16 Oct: four quarters to be restated (non-cash warrant and derivative errors), defaults under all four debt facilities, waivers partly obtained; $1.14 cash plus 0.1 share takeover, outside date 31 Dec; $1.05 close; first reaction 19 Oct; tracked, no call; source: daily research 18 Oct (research/daily/2026-10-18.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sun 18 Oct 2026 (1. GPRO: a restatement turns into loan defaults while a takeover is pending) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -2.5%, found day -8.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1500435/000150043526000064/gpro-20261009.htm))
 
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for GPRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.13 | $1.09 | +3.3% | -4.0% | +0.3% |  | 0 | live |
-| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.13 | $1.09 | +3.3% | -4.0% | +0.3% |  | 0 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.13 | $1.09 | +3.3% | -4.0% | +0.2% |  | 0 | live |
+| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.13 | $1.09 | +3.3% | -4.0% | +0.2% |  | 0 | live |

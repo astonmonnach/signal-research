@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
 - **Latest price:** $5.95 (2026-10-19, ledger)
-- **Since first found:** **-0.1%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: -0.1% vs IWM -0.3% = **+0.2 pts** vs IWM; direction 0, tracked only (5 days)
+- **Since first found:** **-0.1%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: -0.1% vs IWM -0.3% = **+0.3 pts** vs IWM; direction 0, tracked only (5 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):

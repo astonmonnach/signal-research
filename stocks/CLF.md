@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $14.05 (2026-10-19, ledger)
-- **Since first found:** **+15.1%** (found 2026-10-05 via `longterm_research` at $12.20). From the next open $12.88: +9.1% vs IWM -4.2% = **+13.2 pts** vs IWM; direction 0, tracked only (13 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $14.14 (2026-10-19, ledger) · 1d +16.5%, 5d +9.5%, 20d +16.9% (market context, 2026-10-19)
+- **Since first found:** **+15.9%** (found 2026-10-05 via `longterm_research` at $12.20). From the next open $12.88: +9.8% vs IWM -4.2% = **+14.0 pts** vs IWM; direction 0, tracked only (13 days)
+- **Peers / sympathy:** solo_move: CLF +9.5% 5d vs peer median +2.5%; peers didn't move with it. Peer groups: steel (2), SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md#press-releases)**: Press: Cleveland-Cliffs Reports Third-Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261019259231/en/Cleveland-Cliffs-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-05](../scans/2026-10-05.md#press-releases)**: Press: Cleveland-Cliffs to Host U.S. Secretary of Energy Chris Wright and Other Government Officials at Butler Works… (Business Wire) ([release](http://www.businesswire.com/news/home/20261004168131/en/Cleveland-Cliffs-to-Host-U.S.-Secretary-of-Energy-Chris-Wright-and-Other-Government-Officials-at-Butler-Works-to-Showcase-GOES-Expansion-Project/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Logged as `longterm_research` (direction 0): kill (G1: $100M GOES order = 0.5% of revenue; $7.7B debt, negative FCF); source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (CLF A→B Transformer steel (DR-GOES) for the stockpile 5 kill Fails G1: the $100M stockpile order is 0.5% of…) ([note](../research/longterm-2026-10-05/REPORT.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for CLF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -7.1% | +7.8% | $180.9M | $12.20 | $12.88 | $14.05 | +15.1% | +9.1% | -4.2% |  | 13 | live |
+| 2026-10-05 | `longterm_research` | 0 | -7.1% | +7.8% | $180.9M | $12.20 | $12.88 | $14.14 | +15.9% | +9.8% | -4.2% |  | 13 | live |

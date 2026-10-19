@@ -7,8 +7,8 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
 - **Latest price:** $13.92 (2026-10-19, ledger) · 1d +1.7%, 5d +5.1%, 20d +4.0% (market context, 2026-10-19)
-- **Since first found:** **+8.7%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: +6.8% vs IWM +0.4% = **+6.3 pts** vs IWM; direction 0, tracked only (4 days)
-- **Peers / sympathy:** no flag (self 5d +5.1% vs peer median +3.6%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Since first found:** **+8.7%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: +6.8% vs IWM +0.4% = **+6.4 pts** vs IWM; direction 0, tracked only (4 days)
+- **Peers / sympathy:** no flag (self 5d +5.1% vs peer median +3.5%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
