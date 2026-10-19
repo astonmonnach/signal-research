@@ -1,0 +1,354 @@
+<title>Strata Activist Stake</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column with full-width chart panels; a filing-style ledger feel (13D terms, cash bridge, holder table, dated scenarios). */
+:root {
+  --text: #0b0b0b; --text-2: #52514e; --muted: #898781;
+  --surface: #fcfcfb; --page: #f9f9f7; --grid: #e1e0d9; --baseline: #c3c2b7;
+  --pos: #2a78d6; --neg: #e34948; --zero: #f0efec; --s2: #eb6834;
+  --border: rgba(11,11,11,.10);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+    --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+    --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+    --border: rgba(255,255,255,.10); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+  --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+  --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+  --border: rgba(255,255,255,.10); color-scheme: dark;
+}
+body { background: var(--page); color: var(--text); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 32px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 36px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.12; margin: 0; text-wrap: balance; }
+.thesis { font-size: 17px; color: var(--text-2); margin: 0; max-width: 64ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--grid); border: 1px solid var(--grid); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.fact b { font-family: var(--f-mono); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.fact span { font-size: 12.5px; color: var(--text-2); }
+section { display: grid; gap: 14px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 23px; margin: 0; text-wrap: balance; }
+h2 small { display: block; font-family: var(--f-mono); font-size: 11.5px; font-weight: 400; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+h3.sub { font-size: 16px; font-weight: 600; margin: 6px 0 0; }
+p { margin: 0; max-width: 66ch; }
+ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 66ch; }
+.note { font-size: 13px; color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--text-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+/* magnitude chart */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; align-items: center; }
+.bar-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.track { position: relative; height: 22px; }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; }
+.track .val { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12.5px; color: var(--text); padding-left: 6px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.axis { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--baseline); }
+.axis .ticks span { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+.ref { position: absolute; top: -4px; bottom: -4px; border-left: 1px dashed var(--muted); }
+/* diverging chart */
+.div-row { display: grid; grid-template-columns: minmax(130px, 220px) 1fr; gap: 10px; align-items: center; }
+.div-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.dtrack { position: relative; height: 22px; background: linear-gradient(to right, transparent calc(50% - 1px), var(--baseline) calc(50% - 1px), var(--baseline) calc(50% + 1px), transparent calc(50% + 1px)); }
+.dtrack .seg { position: absolute; top: 2px; bottom: 2px; }
+.dtrack .seg.pos { left: 50%; background: var(--pos); border-radius: 0 4px 4px 0; }
+.dtrack .seg.neg { right: 50%; background: var(--neg); border-radius: 4px 0 0 4px; }
+.dtrack .v { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12px; color: var(--text); font-variant-numeric: tabular-nums; }
+.why { grid-column: 2; font-size: 12.5px; color: var(--muted); margin-top: -4px; }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12.5px; max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.hit { cursor: default; }
+.hit:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 520px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12.5px; }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.scen { display: grid; gap: 12px; }
+.scen .s { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.scen .s b { font-size: 14px; }
+.verdict { border-left: 3px solid var(--s2); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+details summary { cursor: pointer; color: var(--text-2); font-size: 13px; }
+footer { display: grid; gap: 10px; font-size: 12.5px; color: var(--text-2); border-top: 1px solid var(--grid); padding-top: 18px; }
+footer ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; word-break: break-word; }
+footer a { color: var(--text-2); }
+.caption { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-size: 14px; }
+@media (max-width: 520px) {
+  .bar-row, .axis, .div-row { grid-template-columns: 1fr; gap: 4px; }
+  .axis .ticks { grid-column: 1; }
+  .axis > div:first-child { display: none; }
+  .why { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { .fill, .seg { transition: width .4s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Signal Lab deep dive · SRTA · Mon 19 Oct 2026</div>
+  <h1>Third Point wants Strata sold. The filings back the overhead complaint, not a bargain price</h1>
+  <p class="thesis">Daniel Loeb's fund turned activist on 15 Oct with 5.8% of Strata Critical Medical (the former Blade) and asked for a sale. The company's own numbers support its complaint: in 2025 overhead was bigger than gross profit, and in Q2 the company paid more cash to cover tax on shares vesting to its staff than the business made in free cash flow. But at the multiple Strata itself paid for Keystone, the business is worth roughly today's price. Any takeover premium depends on a buyer cutting that overhead.</p>
+  <div class="facts" aria-label="Key figures">
+    <div class="fact"><b>5.8%</b><span>Third Point: 5,126,511 shares, average cost about $4.77 (my arithmetic)</span></div>
+    <div class="fact"><b>$4.54</b><span>Close Mon 19 Oct; +4.6% since the 13D, IWM -1.4%</span></div>
+    <div class="fact"><b>$22.8M</b><span>Cash and Treasuries at 30 Jun; no debt; $30M credit line undrawn</span></div>
+    <div class="fact"><b>$4.2M / $2.9M</b><span>Q2 cash paid for tax on staff share vesting / Q2 free cash flow</span></div>
+  </div>
+</header>
+
+<section>
+  <h2><small>Rung 1</small>What is it?</h2>
+  <p>Third Point LLC and Daniel Loeb filed a Schedule 13D, accepted at 16:09 New York time on Thu 15 Oct, after the close (event date 13 Oct). They hold 5,126,511 shares, 5.8% of 88,466,806, bought for $24,452,374. They had held 5,000,000 shares as a passive 13G holder since 4 Aug 2025, days after the Joby deal was announced on 1 Aug. The only open-market buys in the last 60 days were 126,511 shares at $4.53-4.55 on 12 and 13 Oct; the August and September rows in the trading exhibit are matched sales and purchases at the same price between two Third Point funds.</p>
+  <ul>
+    <li><b>The ask (Item 4):</b> the stock is undervalued; the business is strong but "not of a scale to support its current overhead"; management's incentive options are not aligned with shareholder value; the board should explore strategic alternatives, "including the consideration of a potential sale", run by a reputable investment bank.</li>
+    <li><b>What it does not say:</b> no letter, no board nominees, no price, no named buyer, and no threat of a proxy contest. It does not say which "options" it means.</li>
+    <li><b>Company response:</b> none. No 8-K or other company filing on EDGAR since the 13D, and the newest release on the investor site is dated 8 Sep (both checked 19 Oct evening).</li>
+  </ul>
+
+  <h3 class="sub">What the business is now</h3>
+  <ul>
+    <li><b>The sale:</b> on 29 Aug 2025 Blade sold its passenger business to Joby Aviation for 5,325,585 Joby shares, valued at about $75.4M, which it sold for $70.2M net. Joby may also pay up to $35M of earn-outs (a 12-month financial target and an 18-month staff-retention target), in cash or Joby shares at Joby's choice, plus up to $10M of indemnity holdbacks. The company carried these at $40.8M at 30 Jun, all due within a year.</li>
+    <li><b>What is left:</b> organ transplant logistics and clinical services. Two segments: <b>Logistics</b> (air and ground transport of donor organs and medical teams, plus organ placement; Q2 revenue $48.2M, +6.9%) and <b>Clinical</b> (surgical organ recovery, normothermic regional perfusion, and perfusion staffing for heart surgery; Q2 revenue $24.3M). Clinical came from buying Keystone Perfusion on 16 Sep 2025 for $124M, which the company called about 9 times Keystone's 2025 adjusted EBITDA.</li>
+    <li><b>Customers:</b> transplant centres, organ procurement organisations (OPOs) and hospitals, who pay Strata directly. No customer was 10% or more of revenue in Q2 2026. The air network is mostly third-party aircraft: about 35 aircraft at end-Q1, 10 of them owned. 601 employees at end-2025, 19 of them at headquarters.</li>
+    <li><b>Numbers:</b> Q2 revenue $72.5M (+60.7%), adjusted EBITDA $7.9M, net loss from continuing operations $10.5M. 2026 guidance was raised on 4 Aug to revenue of $285-295M and adjusted EBITDA of $33-35M ($36-38M pro forma for this year's acquisitions).</li>
+  </ul>
+
+  <h3 class="sub">Why cash fell from $58.7M to $16.3M in Q2</h3>
+  <p>Acquisitions, not losses or debt. The Q2 cash-flow statement shows:</p>
+  <ul>
+    <li><b>-$34.8M</b> for three bolt-on deals (net of cash acquired): Ohio Valley Perfusion (30 Apr), Louisville Perfusion Services (2 Jun) and Heart and Lung Transplant National Recovery Program (22 Jun). Total price $42.4M: $35.2M cash, 742,060 new shares and up to $4.08M of earn-out. The company says it paid "mid-single-digit" multiples.</li>
+    <li><b>-$6.3M</b> moved into US Treasuries, which still count as liquidity ($22.8M of cash and Treasuries at 30 Jun, against $58.8M at 31 Mar).</li>
+    <li><b>-$4.2M</b> paid to cover tax on staff and executive shares that vested (net share settlement).</li>
+    <li><b>-$2.8M</b> of capital spending, offset by <b>+$5.7M</b> of operating cash flow.</li>
+    <li><b>No borrowing.</b> A $30M asset-based credit line with JPMorgan (signed 30 Jan 2026, to 2029, expandable to $50M) was undrawn at 30 Jun; the company says it is there to fund more acquisitions. Total liabilities were $53.4M against equity of $279.3M. The 14.2M SPAC warrants ($11.50 strike) expired worthless on 7 May 2026, so that overhang is gone.</li>
+  </ul>
+
+  <h3 class="sub">The pay and "options" Third Point objects to (2026 proxy, 10-Q)</h3>
+  <ul>
+    <li><b>Two chief executives</b> since Aug 2025: Will Heyburn (also CFO) and Melissa Tomkiel (also General Counsel), each on a $550,000 salary. 2025 total pay: $5.33M and $5.61M. The five named executives together: $19.3M in 2025 (my sum of the Summary Compensation Table, mostly stock valued at grant), more than the company's whole 2025 adjusted EBITDA of $14.1M.</li>
+    <li><b>The chairman works for the buyer.</b> Founder Rob Wiesenthal became non-executive chairman and now runs Blade inside Joby. He gets a $3.75M transaction bonus ($3.0M paid monthly over 36 months), and 2,950,219 of his old Strata share awards were converted to vest on the passenger business's results and his staying at Joby. Strata carries them as a $16.9M liability. His 2,428,702 options have an $0.18 strike.</li>
+    <li><b>Options and share awards outstanding at 30 Jun:</b> 2,584,248 fully vested options at a $0.19 average strike (no new options granted under the current plan) and 12,258,111 unvested share units and performance units, 13.9% of the share count (my arithmetic). Stock-based pay was $8.7M in H1 2026 and $17.8M in 2025.</li>
+    <li><b>Shareholders already pushed back:</b> say-on-pay got 62.5% support in 2025. After changes (2026 performance units now measured over three years on adjusted EBITDA, with a relative-return modifier of up to 20%), it got 82.7% at the 28 May 2026 meeting (my arithmetic from the 8-K vote counts). Note that adjusted EBITDA adds back stock pay, so the target excludes the cost of the reward (my observation).</li>
+    <li><b>In a sale:</b> cash severance is double-trigger, but unvested performance units vest at target if a buyer does not assume them (2026 proxy).</li>
+  </ul>
+
+  <h3 class="sub">Who else holds it</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Holder</th><th>Shares</th><th>%</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Steele ExpCo (KSL Capital, the SPAC sponsor)</td><td class="num">7,923,000</td><td class="num">9.0%</td><td>13G/A, at 30 Jun 2026</td></tr>
+      <tr><td>Rob Wiesenthal, chairman</td><td class="num">5,235,055 + 2,428,702 options</td><td class="num">8.7%</td><td>2026 proxy, at 31 Mar 2026</td></tr>
+      <tr><td>Third Point (Daniel Loeb)</td><td class="num">5,126,511</td><td class="num">5.8%</td><td>13D, 15 Oct 2026</td></tr>
+      <tr><td>Northern Right Capital (Matthew Drapkin)</td><td class="num">4,398,235</td><td class="num">5.1%</td><td>13G, event 11 Jun 2026</td></tr>
+      <tr><td>BlackRock</td><td class="num">4,384,945</td><td class="num">5.1%</td><td>13G, at 31 Dec 2025</td></tr>
+      <tr><td>ARK Investment</td><td class="num">2,730,855</td><td class="num">3.2%</td><td>13G/A, at 30 Jun 2026 (8.6% at 31 Mar: it sold most of its stake in Q2)</td></tr>
+      <tr><td>Co-CEOs Tomkiel / Heyburn</td><td class="num">2,153,678 / 1,757,850</td><td class="num">2.4% / 2.0%</td><td>Form 4s, 24 Sep 2026 (my % arithmetic)</td></tr>
+      <tr><td>All directors and officers</td><td class="num">13,828,835</td><td class="num">15.5%</td><td>2026 proxy, at 31 Mar 2026</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">The five largest named holders own about 31% between them (my arithmetic; the filings are of different dates). No insider has bought shares in the open market in 2026. Insider share movements are performance-unit vestings, shares withheld for tax, a director's sale of 5,091 shares at $5.75 on 10 Aug, and a planned 100,000-share sale filed on 2 Oct by the trust of Eric Affeldt, who left the board in May.</p>
+</section>
+
+<section>
+  <h2><small>Rung 2</small>What does it actually mean?</h2>
+  <p><b>The overhead complaint is in the numbers.</b> In 2025, SG&amp;A (overhead) was $60.9M against gross profit of $41.1M. In H1 2026 it was $29.6M against $29.3M. The adjusted EBITDA the company guides to is positive only because stock-based pay and one-off costs are added back.</p>
+  <div class="panel">
+    <h3>Q2 2026: what the business produced against what overhead and stock pay took ($M)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>What the business produced</span><span><i style="background:var(--s2)"></i>Overhead and stock pay</span></div>
+    <div class="bars" id="magBars"></div>
+    <div class="axis"><div></div><div class="ticks" id="magTicks"></div></div>
+    <p class="note">All figures are the company's own (Q2 2026 release and 10-Q). Free cash flow is the company's definition: $5.7M operating cash flow less $2.5M capital spending and $0.3M software. Stock-based pay is a non-cash expense inside SG&amp;A; the tax on vesting shares is real cash.</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="magTable"><thead><tr><th>Line</th><th>USD millions</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+  <p><b>The sleeper point:</b> in Q2 Strata paid $4.2M in cash to cover tax on shares vesting to its people, more than the $2.9M of free cash flow the whole business made. The Form 4s show who: about $3.8M of shares were withheld from four officers in Q2, and another 726,132 shares (about $3.7M at the withholding prices) from five officers in Q3 (my arithmetic from the Form 4s). The co-CEOs alone received 1,083,714 (Heyburn) and 1,224,004 (Tomkiel) shares from performance units in 2026, before shares withheld for tax (my sums). This is the cash cost of the pay structure Third Point is attacking, and it will show up again in the Q3 cash-flow statement (inference).</p>
+  <p><b>A clue the Joby money is coming.</b> On 24 Sep the board certified the co-CEOs' "Earnout PSUs", which the proxy ties to the sold passenger business's results in its first 12 months, at 177,858 shares each: exactly 1.5 times the 118,572 target (my arithmetic). That suggests the passenger business beat the target that also drives the Joby earn-out (inference). The company has not announced any Joby payment. If the $40.8M carried at 30 Jun arrives, it is more than the $22.8M of cash and Treasuries the company holds now, with no borrowing (some of it may come as Joby shares).</p>
+
+  <div class="panel">
+    <h3>Not cheap on Strata's own yardstick</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>What</th><th>Value</th><th>Multiple</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>SRTA at $4.54</td><td class="num">EV $379M</td><td class="num">11.1x / 10.2x</td><td>2026 guided adjusted EBITDA midpoint ($34M) / pro forma midpoint ($37M); market value $401.6M less $22.8M cash and Treasuries, no debt</td></tr>
+        <tr><td>SRTA, sales</td><td class="num">EV $379M</td><td class="num">1.31x</td><td>2026 guided revenue midpoint ($290M)</td></tr>
+        <tr><td>Keystone, bought Sep 2025</td><td class="num">$124M</td><td class="num">about 9x</td><td>Company's own figure, 2025 estimated adjusted EBITDA of about $13M</td></tr>
+        <tr><td>2026 bolt-ons</td><td class="num">$42.4M</td><td class="num">"mid-single-digit"</td><td>Company's words; individual multiples not disclosed</td></tr>
+        <tr><td>TransMedics (TMDX), the closest listed rival</td><td class="num">EV $2.52B</td><td class="num">3.8x sales / 21.4x</td><td>Trailing revenue $668M; trailing operating income plus depreciation $118M (unadjusted, so not like-for-like with SRTA's adjusted figure)</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">All multiples are my arithmetic from the filings and 19 Oct closes. There is no listed pure peer: TransMedics makes organ-preservation devices and flies organs as part of a bundled service, which Strata's 10-K names as a competitive threat. At the ~9x Strata paid for Keystone, the pro forma guidance plus net cash is worth about $4.02 a share, or about $4.48 if the $40.8M Joby receivables are counted as cash (my arithmetic). Either way that is close to or below $4.54. A buyer can only pay a real premium by removing the overhead.</p>
+  </div>
+
+  <div class="panel">
+    <h3>The reaction, against controls (closes)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Ticker</th><th>15 to 16 Oct</th><th>15 to 19 Oct</th><th>22 Sep to 14 Oct (before)</th></tr></thead>
+      <tbody>
+        <tr><td>SRTA</td><td class="num">+4.6%</td><td class="num">+4.6%</td><td class="num">-21.9%</td></tr>
+        <tr><td>IWM (small caps)</td><td class="num">-1.7%</td><td class="num">-1.4%</td><td class="num">-5.5%</td></tr>
+        <tr><td>IHF (US health care providers ETF)</td><td class="num">-1.5%</td><td class="num">-1.1%</td><td class="num">+5.2%</td></tr>
+        <tr><td>TMDX (organ logistics rival)</td><td class="num">-7.5%</td><td class="num">-6.4%</td><td class="num">-14.3%</td></tr>
+        <tr><td>DCGO (medical transport, in Strata's pay peer group)</td><td class="num">-3.6%</td><td class="num">-9.6%</td><td class="num">-24.0%</td></tr>
+        <tr><td>JOBY (pays the earn-out, maybe in its shares)</td><td class="num">-3.1%</td><td class="num">-4.2%</td><td class="num">-28.4%</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">16 Oct was the first session after the filing. SRTA gapped to a $4.55 open (+4.8%) and closed at $4.54, so the whole move was in the gap; open-to-close was flat. Volume was 1.58M shares, about 2.1 times the 20-day median. It closed unchanged on 19 Oct. Spread against IWM: about +6 points. Before the filing the stock had fallen 22% in three weeks with no company filing or release to explain it.</p>
+  </div>
+  <p><b>Already run?</b> No. The stock is 4.8% below Third Point's average cost, 27% below its 3-month high close of $6.24 (21 Aug), and down 12.9% over a year while SPY rose 14.2%. Liquidity is fine for this account: the 20-day median dollar volume is $3.82M.</p>
+  <p><b>How much power Third Point has.</b> 5.8% cannot force a sale. The board is staggered, so only one class is up each year; the 2026 proxy lists the 2027 class as co-CEO Tomkiel and chairman Wiesenthal. Nominations for the 2027 meeting must arrive between 28 Jan and 27 Feb 2027 under the bylaws. Third Point's leverage is persuasion, other holders (about 31% sits with five names), and the threat of that window.</p>
+</section>
+
+<section>
+  <h2><small>Rung 3</small>Who wins and who loses?</h2>
+  <div class="panel">
+    <h3>Impact of the 13D, scored -5 to +5 (judgement, reasons below each bar)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Gains</span><span><i style="background:var(--neg)"></i>Loses</span></div>
+    <div class="bars" id="divBars"></div>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="divTable"><thead><tr><th>Who</th><th>Score</th><th>Why</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+  <p class="note">No siblings: this is one fund's filing on one company. Joby is linked only through the earn-out it owes, which the 13D does not change.</p>
+</section>
+
+<section>
+  <h2><small>Rung 4</small>What could happen next?</h2>
+  <div class="scen">
+    <div class="s"><b>Base: talks, no process yet</b><span>The board engages privately and uses the Q3 results to defend the roll-up. The stock holds near Third Point's cost. Anchor: Campbell Soup (2018). Third Point's 13D said the only acceptable outcome was a sale, then it nominated a full slate; on 26 Nov 2018 it settled for two board seats, and no sale followed. Strata's equivalent pressure point is the 28 Jan to 27 Feb 2027 nomination window.</span></div>
+    <div class="s"><b>Bull: the board hires a bank</b><span>A formal review leads to a sale. Anchors: Sunterra (13D demanding a sale, Jul 2006; $16.00 cash agreed Mar 2007, a 35% premium), Pogo Producing (Third Point got two board seats in Mar 2007; agreed sale to Plains Exploration in Jul 2007) and Soho House (13D Jan 2025; $9.00 cash agreed Aug 2025, 83% over the unaffected price; completed 29 Jan 2026). Caveat from Rung 2: at Keystone's multiple the value is about today's price, so a premium needs a buyer that removes the overhead.</span></div>
+    <div class="s"><b>Bear: the board says no and keeps buying</b><span>The roll-up continues on the credit line or new shares, and Third Point either sells (visible in a 13D/A) or waits for the window, when only one class of seats is up. The reference price is the $4.28 close before the filing. Anchor: Cano Health (13D Mar 2022 asking for a review focused on a sale; no merger agreement was filed; Chapter 11 in Feb 2024). Cano was heavily indebted and Strata has no debt, so the lesson is that a board can ignore the call, not that Strata faces the same end.</span></div>
+  </div>
+
+  <div class="panel">
+    <h3>Third Point 13Ds that asked for a sale, and what happened</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Company</th><th>Third Point filing</th><th>Outcome (company filing)</th><th>Sale signed?</th></tr></thead>
+      <tbody>
+        <tr><td>Sunterra</td><td>13D, 17 Jul 2006: demands a sale</td><td>12 Mar 2007: Diamond Resorts tender at $16.00 cash, 35% premium</td><td>Yes, about 8 months</td></tr>
+        <tr><td>Pogo Producing</td><td>13D/A, 16 Feb 2007: no faith in the board's review; 13 Mar: two board seats</td><td>17 Jul 2007: Plains Exploration deal at about $60 a share, cash and stock</td><td>Yes, about 5 months</td></tr>
+        <tr><td>Campbell Soup</td><td>13D, 9 Aug 2018: sell to a strategic buyer</td><td>26 Nov 2018: settlement, two directors, 12-month standstill</td><td>No</td></tr>
+        <tr><td>Cano Health</td><td>13D, 9 Mar 2022: review focused on a sale</td><td>4 Feb 2024: Chapter 11; no merger agreement filed in between</td><td>No</td></tr>
+        <tr><td>Soho House</td><td>13D, 29 Jan 2025: backs going private, criticises the process</td><td>15 Aug 2025: $9.00 cash, 83% premium; completed 29 Jan 2026</td><td>Yes, about 6.5 months</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Found with an EDGAR full-text search of Third Point's 13D filings for sale language (2001 onward), then each outcome checked in the target's own filing. Not a complete record of Third Point's campaigns. Three of five ended in a signed sale, all within about 8 months, and two of those three already had a sale process under way. Small sample, different eras.</p>
+  </div>
+
+  <p><b>Dated catalysts:</b></p>
+  <ul>
+    <li><b>Q3 results:</b> date not announced yet. Last year's Q3 came on 10 Nov 2025, and this year's Q1 and Q2 calls were scheduled about two weeks ahead, so expect a scheduling release in late Oct or early Nov (inference).</li>
+    <li><b>15 Dec 2026:</b> deadline for shareholder proposals for the 2027 proxy (Rule 14a-8).</li>
+    <li><b>28 Jan to 27 Feb 2027:</b> nomination window for the 2027 annual meeting, assuming it is held near 28 May 2027. Universal-proxy notices are due by 29 Mar 2027.</li>
+    <li><b>About 28 Feb 2027:</b> end of the 18-month Joby retention earn-out. Under his transition agreement, the board may ask Wiesenthal to step down as chairman whenever his stake is below 5%, and from the board if that happens before this date.</li>
+  </ul>
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>A Strata 8-K or release replying to Third Point, or announcing a review or a bank.</li>
+    <li>A Third Point 13D/A: more shares, a letter, nominees, or selling.</li>
+    <li>Northern Right switching from a 13G to a 13D.</li>
+    <li>The Q3 10-Q: Joby earn-out received or not, in cash or Joby shares; cash spent on vesting tax; any draw on the credit line.</li>
+    <li>Any open-market insider buying. There has been none in 2026.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Verdict</small>WATCH</h2>
+  <div class="verdict">
+    <p><b>Why not more:</b> no process exists, the board has not replied, and on the company's own acquisition multiple the stock is not cheap. The case for a premium rests on a buyer stripping out overhead, which only happens if the board agrees to sell.</p>
+    <p><b>Why not less:</b> the complaint is real and specific, the stock has not run (-12.9% in a year, +4.6% on the news), there is no debt, and up to $40.8M from Joby may be on its way.</p>
+    <p><b>What would change it:</b> towards OWN, a board statement opening a review or hiring a bank, Third Point adding shares, or a second holder going active. Towards AVOID, the board rejecting the call and doing more deals, any share issue, or Third Point selling.</p>
+    <p class="note">Method checks: primary filings read (13D and trading exhibit; Q2 10-Q notes on acquisitions, the Joby sale, other assets and liabilities, stock pay, the credit line and subsequent events; 2026 proxy pay, ownership and deadlines; Form 4s; 13G/As); the company's investor site checked; reaction measured against IWM, IHF and three matched names; gates G3 (not already run), G4 (verifiable) and G5 (tradeable, $3.82M a day) pass. Long-term gate LT5 ($5M a day) fails, so this is not a long-term candidate. The supply-chain card does not apply. Already in the ledger as WATCH from 16 Oct.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Draft post</small>Caption</h2>
+  <div class="caption">Third Point says Strata Critical Medical (SRTA) is too small for its overhead. The filings agree. In Q2 the company paid $4.2M in cash to cover tax on shares vesting to its staff, most of it for four officers. Free cash flow that quarter was $2.9M. The catch: at the roughly 9x EBITDA Strata itself paid for Keystone, the business is worth about today's $4.54. A takeover premium only exists if a buyer cuts the overhead. No reply from the board yet. Watching.</div>
+</section>
+
+<footer>
+  <div><b>Sources</b></div>
+  <ol>
+    <li>Third Point Schedule 13D, accepted 16:09 on 15 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000089914026001108/0000899140-26-001108-index.htm">index</a>, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000089914026001108/ex99-3.htm">trading data (ex 99.3)</a>; earlier 13G, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000089914025000908/0000899140-25-000908-index.htm">11 Aug 2025</a>, and 13G/A, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000089914025001315/0000899140-25-001315-index.htm">14 Nov 2025</a></li>
+    <li>Strata Q2 2026: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026052152/srta-earningreleasexq22026.htm">release, 4 Aug 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026052256/srta-20260630.htm">10-Q</a> (Notes 1, 3, 5-10, 13, 18, 19; liquidity section)</li>
+    <li>Strata <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026030898/srta-earningreleasexq12026.htm">Q1 2026 release</a>, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026013553/srta-earningreleasexq42025.htm">Q4 2025 release</a>, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026013628/blde-20251231.htm">10-K for 2025</a> (business, competition, employees, Notes 5, 9, 10)</li>
+    <li>Strata 2026 proxy: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000114036126014530/ny20060135x1_def14a.htm">DEF 14A, 14 Apr 2026</a>; meeting results, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026040342/blde-20260528.htm">8-K, 3 Jun 2026</a></li>
+    <li>Joby sale: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000110465925073338/tm2522427d1_8k.htm">8-K, 4 Aug 2025</a>. Keystone: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000177912825000114/srta-20250916.htm">8-K</a> and <a href="https://www.sec.gov/Archives/edgar/data/1779128/000177912825000114/keystonepressrelease.htm">release, 16 Sep 2025</a>. Credit line: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000110465926010689/tm265039d1_8k.htm">8-K, 5 Feb 2026</a>. Warrant delisting: <a href="https://www.sec.gov/Archives/edgar/data/1779128/000135445726000412/0001354457-26-000412-index.htm">Form 25, 6 May 2026</a></li>
+    <li>Holders: Steele ExpCo <a href="https://www.sec.gov/Archives/edgar/data/1779128/000119312526359634/0001193125-26-359634-index.htm">13G/A</a>; ARK <a href="https://www.sec.gov/Archives/edgar/data/1779128/000110465926052493/0001104659-26-052493-index.htm">13G/A (Mar)</a> and <a href="https://www.sec.gov/Archives/edgar/data/1779128/000110465926081889/0001104659-26-081889-index.htm">13G/A (Jun)</a>; Northern Right <a href="https://www.sec.gov/Archives/edgar/data/1779128/000101359426000667/0001013594-26-000667-index.htm">13G</a>; BlackRock <a href="https://www.sec.gov/Archives/edgar/data/1779128/000201238326000741/0002012383-26-000741-index.htm">13G</a></li>
+    <li>Insider filings: Form 4s of 24 Apr, 8 Jun, 30-31 Jul, 8 Sep and 24 Sep 2026, e.g. <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026063576/0001628280-26-063576-index.htm">Heyburn 24 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026063577/0001628280-26-063577-index.htm">Tomkiel 24 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1779128/000162828026027654/0001628280-26-027654-index.htm">24 Apr</a>; Affeldt trust <a href="https://www.sec.gov/Archives/edgar/data/1779128/000196922326001051/0001969223-26-001051-index.htm">Form 144, 2 Oct 2026</a></li>
+    <li>Strata investor site, press release list checked 19 Oct 2026: <a href="https://ir.stratacritical.com/news-events/press-releases">ir.stratacritical.com</a></li>
+    <li>SEC XBRL company facts: <a href="https://data.sec.gov/api/xbrl/companyfacts/CIK0001779128.json">SRTA</a>, <a href="https://data.sec.gov/api/xbrl/companyfacts/CIK0001756262.json">TMDX</a> (Q2 2026 10-Q and 2025 10-K values)</li>
+    <li>Prices: Yahoo Finance daily bars for SRTA, IWM, IHF, SPY, TMDX, DCGO and JOBY, to the 19 Oct 2026 close</li>
+    <li>Precedents: Sunterra <a href="https://www.sec.gov/Archives/edgar/data/1016577/000089914006001050/0000899140-06-001050-index.htm">13D</a>, <a href="https://www.sec.gov/Archives/edgar/data/1016577/000119312507052337/dex991.htm">12 Mar 2007 release</a>; Pogo <a href="https://www.sec.gov/Archives/edgar/data/230463/000089914007000384/0000899140-07-000384-index.htm">13D/A Feb 2007</a>, <a href="https://www.sec.gov/Archives/edgar/data/230463/000089914007000614/0000899140-07-000614-index.htm">13D/A Mar 2007</a>, <a href="https://www.sec.gov/Archives/edgar/data/230463/000110465907054444/a07-19688_1ex99d1.htm">17 Jul 2007 release</a>; Campbell <a href="https://www.sec.gov/Archives/edgar/data/16732/000119312518244115/0001193125-18-244115-index.htm">13D</a>, <a href="https://www.sec.gov/Archives/edgar/data/16732/000095015918000521/ex99-1.htm">26 Nov 2018 release</a>; Cano Health <a href="https://www.sec.gov/Archives/edgar/data/1800682/000119312522070054/0001193125-22-070054-index.htm">13D</a>, <a href="https://www.sec.gov/Archives/edgar/data/1800682/000119312524023512/d733561d8k.htm">8-K, 5 Feb 2024</a>; Soho House <a href="https://www.sec.gov/Archives/edgar/data/1846510/000095017025010206/0000950170-25-010206-index.htm">13D</a>, <a href="https://www.sec.gov/Archives/edgar/data/1846510/000119312525182169/d921953dex991.htm">18 Aug 2025 release</a>, <a href="https://www.sec.gov/Archives/edgar/data/1846510/000114036126002807/ef20064097_8k.htm">completion 8-K, 29 Jan 2026</a></li>
+  </ol>
+  <div class="note">Not investment advice. Figures marked as arithmetic are mine from the cited inputs. Impact scores are judgement. Not disclosed anywhere I looked: the Joby earn-out outcome or payment, the Q3 results date, Northern Right's cost, and which options Third Point means.</div>
+</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const mag = [
+  {lbl: "Gross profit", v: 15.215, k: "biz", src: "Q2 2026 release: $15,215k"},
+  {lbl: "SG&A, as reported (overhead)", v: 13.996, k: "oh", src: "Q2 2026 release: $13,996k"},
+  {lbl: "Adjusted EBITDA (company measure; adds back stock pay)", v: 7.887, k: "biz", src: "Q2 2026 release: $7,887k"},
+  {lbl: "Cash paid for tax on vesting staff shares", v: 4.206, k: "oh", src: "Q2 2026 cash-flow statement: $4,206k"},
+  {lbl: "Stock-based pay expense", v: 3.706, k: "oh", src: "Q2 2026 release: $3,706k"},
+  {lbl: "Free cash flow (company definition)", v: 2.883, k: "biz", src: "Q2 2026 release: $5,687k less $2,490k and $314k"}
+];
+const impact = [
+  {lbl: "Third Point (5.8%, cost about $4.77)", s: 3, why: "Any sale above about $4.77 turns a paper loss into a gain; the 13D gives it a public voice"},
+  {lbl: "Steele ExpCo / KSL Capital (9.0%)", s: 2, why: "Largest holder since the SPAC; 7.9M shares is about 9 days of median trading (my arithmetic), so a sale is its cleanest exit"},
+  {lbl: "Rob Wiesenthal, chairman (8.7% with options)", s: 2, why: "Gains on any premium; his $0.18 options pay out either way"},
+  {lbl: "Northern Right Capital (5.1%)", s: 1, why: "Crossed 5% on 11 Jun 2026; its cost is not disclosed"},
+  {lbl: "Staff holding unvested awards (12.3M units)", s: 1, why: "Performance units vest at target in a sale if the buyer does not assume them (2026 proxy)"},
+  {lbl: "Buyers at today's $4.54", s: 1, why: "Below Third Point's cost and 27% under the August high, but no process exists and the price is not cheap on Strata's own deal multiple"},
+  {lbl: "Small perfusion and recovery firms Strata buys", s: -1, why: "A review would likely pause the roll-up that the $30M credit line was set up to fund (inference)"},
+  {lbl: "Hospital and OPO customers", s: -1, why: "An owner change risks disruption at a 'first call' provider; none is 10% of revenue"},
+  {lbl: "Co-CEOs Heyburn and Tomkiel", s: -2, why: "The 13D targets the overhead and pay they run; a sale likely ends the co-CEO set-up, though their units vest at target"}
+];
+const max = 16;
+const fmt = v => "$" + v.toFixed(1) + "M";
+const tip = document.getElementById("tip");
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = e.target.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 300)) + "px"; tip.style.top = (r.bottom + 8) + "px"; }
+function hideTip() { tip.hidden = true; }
+const mb = document.getElementById("magBars"), mt = document.querySelector("#magTable tbody");
+mag.forEach(d => {
+  const row = document.createElement("div"); row.className = "bar-row";
+  const pct = d.v / max * 100;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><div class="fill hit" tabindex="0" style="width:${pct}%;background:${d.k === "oh" ? "var(--s2)" : "var(--pos)"}"></div><span class="val" style="left:${pct}%">${fmt(d.v)}</span></div>`;
+  const f = row.querySelector(".fill");
+  const html = `<b>${d.lbl}</b><br>${fmt(d.v)} in Q2 2026<br><span style="color:var(--muted)">${d.src}</span>`;
+  f.addEventListener("mouseenter", e => showTip(e, html)); f.addEventListener("focus", e => showTip(e, html));
+  f.addEventListener("mouseleave", hideTip); f.addEventListener("blur", hideTip);
+  mb.appendChild(row);
+  mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${fmt(d.v)}</td><td>${d.src}</td></tr>`);
+});
+const ticks = document.getElementById("magTicks");
+[0, 4, 8, 12, 16].forEach(t => ticks.insertAdjacentHTML("beforeend", `<span style="left:${t / max * 100}%">$${t}M</span>`));
+const db = document.getElementById("divBars"), dt = document.querySelector("#divTable tbody");
+impact.forEach(d => {
+  const row = document.createElement("div"); row.className = "div-row";
+  const w = Math.abs(d.s) / 5 * 50;
+  const cls = d.s >= 0 ? "pos" : "neg";
+  const vpos = d.s >= 0 ? `left:calc(50% + ${w}% + 6px)` : `right:calc(50% + ${w}% + 6px)`;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="dtrack"><div class="seg ${cls} hit" tabindex="0" style="width:${w}%"></div><span class="v" style="${vpos}">${d.s > 0 ? "+" : ""}${d.s}</span></div><div class="why">${d.why}</div>`;
+  const s = row.querySelector(".seg");
+  const html = `<b>${d.lbl}</b><br>Score ${d.s > 0 ? "+" : ""}${d.s}<br>${d.why}`;
+  s.addEventListener("mouseenter", e => showTip(e, html)); s.addEventListener("focus", e => showTip(e, html));
+  s.addEventListener("mouseleave", hideTip); s.addEventListener("blur", hideTip);
+  db.appendChild(row);
+  dt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${d.s > 0 ? "+" : ""}${d.s}</td><td>${d.why}</td></tr>`);
+});
+</script>
