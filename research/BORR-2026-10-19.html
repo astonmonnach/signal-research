@@ -1,0 +1,375 @@
+<title>Borr Founder Buying</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column with full-width chart panels; a filing-style ledger feel (buy log, control table, valuation table, dated catalysts). */
+:root {
+  --text: #0b0b0b; --text-2: #52514e; --muted: #898781;
+  --surface: #fcfcfb; --page: #f9f9f7; --grid: #e1e0d9; --baseline: #c3c2b7;
+  --pos: #2a78d6; --neg: #e34948; --zero: #f0efec; --s2: #eb6834;
+  --border: rgba(11,11,11,.10);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+    --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+    --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+    --border: rgba(255,255,255,.10); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+  --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+  --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+  --border: rgba(255,255,255,.10); color-scheme: dark;
+}
+body { background: var(--page); color: var(--text); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 32px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 36px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.12; margin: 0; text-wrap: balance; }
+.thesis { font-size: 17px; color: var(--text-2); margin: 0; max-width: 64ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--grid); border: 1px solid var(--grid); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.fact b { font-family: var(--f-mono); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.fact span { font-size: 12.5px; color: var(--text-2); }
+section { display: grid; gap: 14px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 23px; margin: 0; text-wrap: balance; }
+h2 small { display: block; font-family: var(--f-mono); font-size: 11.5px; font-weight: 400; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+h3.sub { font-size: 16px; font-weight: 600; margin: 6px 0 0; }
+p { margin: 0; max-width: 66ch; }
+ul, ol.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 66ch; }
+.note { font-size: 13px; color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--text-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.legend i.dash { width: 0; height: 12px; border-left: 1px dashed var(--muted); border-radius: 0; }
+/* magnitude chart */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; align-items: center; }
+.bar-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.track { position: relative; height: 22px; }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; }
+.track .val { position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12.5px; color: var(--text); padding: 0 4px 0 6px; background: var(--surface); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.track .nd { position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 12.5px; color: var(--muted); font-style: italic; white-space: nowrap; border-left: 2px solid var(--baseline); padding-left: 8px; }
+.axis { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--baseline); }
+.axis .ticks span { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+.ref { position: absolute; top: -4px; bottom: -4px; border-left: 1px dashed var(--muted); }
+/* diverging chart */
+.div-row { display: grid; grid-template-columns: minmax(130px, 220px) 1fr; gap: 10px; align-items: center; }
+.div-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.dtrack { position: relative; height: 22px; background: linear-gradient(to right, transparent calc(50% - 1px), var(--baseline) calc(50% - 1px), var(--baseline) calc(50% + 1px), transparent calc(50% + 1px)); }
+.dtrack .seg { position: absolute; top: 2px; bottom: 2px; }
+.dtrack .seg.pos { left: 50%; background: var(--pos); border-radius: 0 4px 4px 0; }
+.dtrack .seg.neg { right: 50%; background: var(--neg); border-radius: 4px 0 0 4px; }
+.dtrack .seg.zero { left: calc(50% - 4px); width: 8px !important; background: var(--zero); border: 1px solid var(--baseline); border-radius: 4px; }
+.dtrack .v { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12px; color: var(--text); font-variant-numeric: tabular-nums; }
+.why { grid-column: 2; font-size: 12.5px; color: var(--muted); margin-top: -4px; }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12.5px; max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.hit { cursor: default; }
+.hit:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 520px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12.5px; }
+td.num, th.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+tr.hl td { font-weight: 600; }
+tfoot td { font-weight: 600; border-top: 1px solid var(--baseline); }
+.scen { display: grid; gap: 12px; }
+.scen .s { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.scen .s b { font-size: 14px; }
+.verdict { border-left: 3px solid var(--s2); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+details summary { cursor: pointer; color: var(--text-2); font-size: 13px; }
+footer { display: grid; gap: 10px; font-size: 12.5px; color: var(--text-2); border-top: 1px solid var(--grid); padding-top: 18px; }
+footer ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; word-break: break-word; }
+footer a { color: var(--text-2); }
+.caption { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-size: 14px; }
+@media (max-width: 520px) {
+  .bar-row, .axis, .div-row { grid-template-columns: 1fr; gap: 4px; }
+  .axis .ticks { grid-column: 1; }
+  .axis > div:first-child { display: none; }
+  .why { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { .fill, .seg { transition: width .4s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Signal Lab deep dive · BORR · Mon 19 Oct 2026</div>
+  <h1>Borr Drilling: the founder keeps buying, but the interest bill is what the shares are watching</h1>
+  <p class="thesis">Tor Olav Troim has bought 12.85M Borr shares since 13 August for $57.1M, and Monday's $4.44 close sits right on his average price. The fall since 13 October mostly hands back the jump his own buying caused. The bigger problem is the company's earnings: second-quarter Adjusted EBITDA of $43.8M was below the roughly $51M a quarter its new debt costs in interest.</p>
+  <div class="facts" aria-label="Key figures">
+    <div class="fact"><b>$57.1M</b><span>Troim's buying, 13 Aug to 15 Oct (12 Form 4s)</span></div>
+    <div class="fact"><b>$4.44</b><span>Close Mon 19 Oct; his average is $4.4435</span></div>
+    <div class="fact"><b>13.1%</b><span>His stake: 40,117,808 shares (13D/A, 15 Oct)</span></div>
+    <div class="fact"><b>$43.8M</b><span>Q2 Adjusted EBITDA, against about $51M of interest a quarter (my arithmetic)</span></div>
+  </div>
+</header>
+
+<section>
+  <h2><small>Rung 1</small>What is it?</h2>
+  <p>Borr Drilling (NYSE: BORR) owns 29 jack-ups, the drilling rigs that stand on the seabed in shallow water, plus five more through a 50/50 joint venture in Mexico. Its founder and director, Tor Olav Troim, has bought shares on twelve days since 13 August through Drew Holdings, a company owned by a trust of which he is the beneficiary. Every Form 4 is code P, none ticks the pre-arranged plan (10b5-1) box, and the 13D calls the purchases from August to 9 October "open market".</p>
+  <div class="panel">
+    <h3>Troim's purchases since 13 August, from the Form 4s</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Date</th><th class="num">Shares</th><th class="num">Average price</th><th class="num">Share of day's volume</th></tr></thead>
+      <tbody>
+        <tr><td>13 Aug</td><td class="num">1,500,000</td><td class="num">$4.0245</td><td class="num">16.8%</td></tr>
+        <tr><td>14 Aug</td><td class="num">500,000</td><td class="num">$4.3868</td><td class="num">4.3%</td></tr>
+        <tr><td>25 Aug (24 Aug in the 13D)</td><td class="num">200,000</td><td class="num">$4.3731</td><td class="num">4.2%</td></tr>
+        <tr><td>16 Sep</td><td class="num">1,000,000</td><td class="num">$4.2995</td><td class="num">10.5%</td></tr>
+        <tr><td>17 Sep</td><td class="num">150,000</td><td class="num">$4.3795</td><td class="num">1.9%</td></tr>
+        <tr><td>5 Oct</td><td class="num">1,500,000</td><td class="num">$4.1314</td><td class="num">19.5%</td></tr>
+        <tr><td>6 Oct</td><td class="num">1,500,000</td><td class="num">$4.2428</td><td class="num">16.5%</td></tr>
+        <tr><td>7 Oct</td><td class="num">1,250,000</td><td class="num">$4.3122</td><td class="num">17.2%</td></tr>
+        <tr><td>9 Oct</td><td class="num">2,500,000</td><td class="num">$4.7374</td><td class="num">16.5%</td></tr>
+        <tr><td>13 Oct</td><td class="num">1,500,000</td><td class="num">$4.9344</td><td class="num">9.8%</td></tr>
+        <tr><td>14 Oct</td><td class="num">750,000</td><td class="num">$4.7234</td><td class="num">6.9%</td></tr>
+        <tr><td>15 Oct</td><td class="num">500,000</td><td class="num">$4.5983</td><td class="num">5.3%</td></tr>
+      </tbody>
+      <tfoot><tr><td>Total</td><td class="num">12,850,000</td><td class="num">$4.4435</td><td class="num">10.9%</td></tr></tfoot>
+    </table></div>
+    <p class="note">Cost $57,099,545, average and volume shares are my arithmetic from the Form 4 prices and Yahoo daily volume. The 13D dates the 200,000-share buy 24 Aug; its $4.3731 price is below 25 Aug's low ($4.38) but inside 24 Aug's range, so the 13D date is probably right. The 13D/A gives $4.27 for 14 Oct; the Form 4 says $4.7234, which sits inside that day's $4.655 to $5.005 range, so I use the Form 4.</p>
+  </div>
+  <ul>
+    <li><b>Stake:</b> 40,117,808 shares, 13.1% of 307,391,018 (13D/A, 15 Oct). It was 27,185,941 (8.8%) at 30 June on his last Schedule 13G/A. On 9 Oct he moved the 81,867 shares he held directly into Drew.</li>
+    <li><b>Why a 13D now:</b> the filing says it was made under 15 U.S.C. 78m(d)(6)(B) because Drew bought more than 2% of the company in twelve months. That rule takes away the passive-holder short form (13G). It is a paperwork trigger, not a declaration of activism.</li>
+    <li><b>Item 4 (intent):</b> shares bought "for investment or other purposes". The holders "have no plans or proposals" for any Item 4 action, such as a merger, a board change or a sale. The only extra lines are standard: he may buy or sell more, hedge, or "distribute the Common Shares ... to other entities", and as a director he "may participate in discussions" on governance and operations. <b>No board talks, no merger, no take-private.</b> That absence is a finding.</li>
+    <li><b>Who else bought:</b> the chief executive, Bruno Morand, bought 45,500 at $4.40 on 18 Sep (about $200k), and director Jeffrey Currie bought 125,000 at $4.0131 on 13 Aug.</li>
+    <li><b>Not a buy:</b> the chief operating officer's 16 Oct Form 4 shows 300,000 shares bought and sold on 14 Oct at $4.91. The footnote says it "was effected in connection with a cashless exercise of vested stock options" granted in 2021 at $1.66. The officers' 2 and 3 Sep sales were tax withholding on vesting shares, as their footnotes say.</li>
+    <li><b>Selling on the other side:</b> on 9 June, Granular Capital, the fund of director Thiago Mordehachvili, sold 8,000,000 shares at $4.70. Troim bought 1,063,000 the same day at the same $4.70. Granular still held 38,199,677 shares afterwards, about 12.4% (my arithmetic).</li>
+    <li><b>Who he is (from filings, not memory):</b> Borr's 20-F says he founded Borr, chaired it from Aug 2017 to Sep 2019 and from Feb 2022 to Sep 2025, founded and solely owns Magni Partners, and was chief executive of Seadrill, Frontline, Golar LNG and SFL while at Seatankers (1995 to 2014). It lists him as chairman of Golar LNG and a director of Stolt-Nielsen. His Golar Form 3 (18 Mar 2026) shows 3.05M Golar shares through Drew. <b>Flex LNG is not in the 20-F biography and I found no SEC filing by him or Drew on Flex LNG.</b></li>
+    <li><b>Why the Form 4 record starts in March:</b> Borr's directors first filed Forms 3 on 17 and 18 Mar 2026. Before that there are no Form 4s for Borr insiders on EDGAR, only Drew's annual 13G holdings.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Rung 2</small>What does it actually mean?</h2>
+  <p>Insider buying this large usually reads as "the founder thinks it is cheap". The filings support a narrower reading. He is buying a company whose earnings fell for four quarters in a row, whose new work is priced below last year's, and whose debt costs more than it earned in the second quarter. The share price is being set by those numbers, not by his buying.</p>
+
+  <h3 class="sub">Why is it falling while he buys? Seven things, from the filings</h3>
+  <ol class="plain">
+    <li><b>It is handing back its own spike.</b> From 2 to 9 October, when he bought 6.75M shares and was 16% to 20% of each day's volume, BORR rose 22.3% while the other drillers rose 4% to 7%. Since 9 October it has fallen 7.1% while they rose 4% to 7%. Net, from 2 October to Monday, BORR is +13.6% against RIG +13.9%, SDRL +10.0% and NE +8.2%. His daily size shrank from 2.5M shares (9 Oct) to 0.5M (15 Oct), and no Form 4 has been filed for any later day yet. My inference: the marginal buyer stepped back and the extra gain went with him.</li>
+    <li><b>Earnings are at a low, and the debt costs more than the second quarter earned.</b> Adjusted EBITDA went $135.6M, $105.2M, $88.5M, $43.8M over the four quarters to June. The company blamed the Odin's delayed start in the US ($22.5M of costs in Q2), six rigs between contracts, Middle East insurance and fuel costs, and $10.8M of bad debts from a former West African customer. It expects Q3 to "improve significantly", with about 23 rigs working against 21.2, but gave no number. See the chart below.</li>
+    <li><b>Dayrates for new work are lower.</b> Contracted 2025 work averaged $145k a day. New 2026 commitments averaged $125k (5 by February), $120k (13 by May) and $123k (21 by August, $541M of backlog). That is about 15% below 2025 (my arithmetic). 2026 coverage slipped from $137k to $134k a day.</li>
+    <li><b>The war that lifted oil is hurting jack-up work.</b> Borr has four rigs in the Arabian Gulf. In March three were stood down and the Arabia III was shut in after an incident on a customer's platform; all had restarted or were restarting by mid-April. In Q2 fuel cost $5.1M more (partly rigs moving between jobs) and insurance $2.2M more because of the conflict. The chief executive said on 11 Aug that the conflict "has reduced near-term visibility, delaying tenders, contract start dates". Valaris took a $30M hit to Q2 EBITDA, mainly war-risk insurance for its Gulf jack-ups. Brent rose 50% from $72.92 (30 Jun) to $109.39 (19 Oct); BORR rose 7.5% in the same period.</li>
+    <li><b>Its peers rose on deepwater news.</b> Transocean has 27 floaters and no jack-ups. It announced a $1.1B backlog update (9 Oct), Brazil's competition authority cleared its takeover of Valaris (13 Oct), a bigger credit line (15 Oct) and $550M of US Gulf drillship awards (19 Oct). Valaris trades at 15.235 Transocean shares, so the two move together. "RIG was flat" held from 13 to 16 Oct (-0.5%), but RIG then rose 4.8% on Monday's awards. The peer gap is partly deepwater against shallow water.</li>
+    <li><b>Share supply is large.</b> Borr sold 71M new shares in 2025: 30M and 20M at $2.05 (July and August) and 21M at $4.00 (December). Shares outstanding rose 26% from the end of 2024 to 30 June 2026 (my arithmetic). Granular sold 8M in June and still holds about 38.2M. Borr's 20-F names Granular, Azvalor and Drew as large holders whose sales "may adversely affect" the price. No new shares were sold in 2026: there is no prospectus supplement on EDGAR since Dec 2025.</li>
+    <li><b>It is not a refinancing scare.</b> The June refinancing pushed almost everything out. Nothing is due in 2026, $50.9M in 2027 and $146.0M in 2028. At 30 June there was $473.6M of liquidity ($223.6M cash plus an undrawn $250M credit line). The risk is the ratio of earnings to interest, not a maturity.</li>
+  </ol>
+
+  <div class="panel">
+    <h3>Borr's quarterly earnings against what its debt costs each quarter ($M)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Adjusted EBITDA, reported</span><span><i style="background:var(--s2)"></i>Debt bill per quarter (my arithmetic)</span><span><i class="dash"></i>Today's quarterly interest, $51.1M</span></div>
+    <div class="bars" id="magBars"></div>
+    <div class="axis"><div></div><div class="ticks" id="magTicks"></div></div>
+    <p class="note">Interest is coupon times principal at 30 June: 2032 notes $1,100M at 8.75%, 2034 notes $935M at 9.00%, 2033 converts $300M at 3.50%, 2028 converts $44.2M at 5.00%, seller's credit $150M at 7.5%. That is $204.4M a year. The seller's credit can pay interest in kind for its first 18 months, and its rate steps up to 15% by Feb 2031. Amortisation is 5% a year of the $2,035M notes, paid at 102.5%, from July 2027. Borr actually paid $205.1M of interest in 2025 (20-F). Q3 2026 has not been reported, so it gets no bar.</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="magTable"><thead><tr><th>Line</th><th class="num">$M per quarter</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+  <p><b>The sleeper point:</b> in the second quarter Borr's Adjusted EBITDA covered only about 86% of a quarter's coupon on its new debt (my arithmetic). From July 2027 the notes also start paying down at about $26M a quarter, so the bar to clear goes to about $77M. Q1's $88.5M cleared it and 2025's average ($117.5M) cleared it easily. Q2 did not. Troim's $57M is about 3.4 months of that interest bill. The Q3 number decides this, not his buying.</p>
+
+  <h3 class="sub">How big is the buying?</h3>
+  <ul>
+    <li><b>Against volume:</b> 3.8% of the 336.2M shares traded from 13 Aug to 19 Oct (47 sessions), 10.9% on the twelve days he bought, and 19.5% at the peak (5 Oct). The whole 12.85M is 1.5 days of the current 20-day average (8.74M shares, $39.0M a day). All my arithmetic from Yahoo volume.</li>
+    <li><b>Against the float:</b> Drew (40.1M) and Granular (38.2M) hold 25.5% between them. His 12.85M is 5.6% of the other 229.1M shares. Two passive funds also file as 5% holders: Cobas (31.3M at 13 Aug) and Azvalor (28.6M at Nov 2025). Excluding all four, 169.1M shares are left, and he bought 7.6% of that. The four together hold 45.0%. All my arithmetic; the Cobas and Azvalor counts are as old as their last filings.</li>
+    <li><b>His cost against today's price:</b> $4.4435 average since 13 Aug against the $4.44 close, 0.1% below. Including his March, April and June 2026 buys (14.91M shares), the average is $4.525 and today's price is 1.9% below it. The March ($5.1958), April ($5.5818) and June ($4.70) lots are 14.5%, 20.5% and 5.5% under water. His 13 Aug lot ($4.0245) is 10.3% up.</li>
+  </ul>
+
+  <h3 class="sub">Valuation against the other drillers</h3>
+  <div class="panel">
+    <div class="tablewrap"><table>
+      <thead><tr><th>Company</th><th>Fleet, in its own words</th><th class="num">EV, $bn</th><th class="num">EV / H1 EBITDA x2</th><th class="num">Net debt / same</th><th>Cross-check</th></tr></thead>
+      <tbody>
+        <tr class="hl"><td>BORR</td><td>Jack-ups only: 29 owned, 5 in a 50/50 JV</td><td class="num">3.67</td><td class="num">13.9x</td><td class="num">8.7x</td><td>7.8x on FY2025 EBITDA ($470.1M); 9.8x on the last four quarters</td></tr>
+        <tr><td>RIG (Transocean)</td><td>27 floaters, no jack-ups</td><td class="num">10.89</td><td class="num">7.2x</td><td class="num">2.9x</td><td>7.1x on its own trailing four quarters ($1,534M)</td></tr>
+        <tr><td>NE (Noble)</td><td>"largely ultra-deepwater and high specification jackup"</td><td class="num">8.47</td><td class="num">8.7x</td><td class="num">1.5x</td><td>9.5x on its cut 2026 guidance ($850M to $925M)</td></tr>
+        <tr><td>SDRL (Seadrill)</td><td>"deepwater"</td><td class="num">3.41</td><td class="num">7.1x</td><td class="num">0.8x</td><td>7.8x on its raised 2026 guidance ($420M to $450M)</td></tr>
+        <tr><td>VAL (Valaris)</td><td>Drillships, semisubmersibles and jack-ups; being bought by RIG</td><td class="num">6.75</td><td class="num">20.7x</td><td class="num">1.7x</td><td>Priced off RIG: 15.235 x $5.89 = $89.73 against $89.39</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">All my arithmetic. EV = latest cover-page share count x 19 Oct close + debt principal at 30 June - cash. RIG and SDRL use their own net-debt figures, which net off restricted cash; VAL uses carrying debt. BORR leaves out the joint venture's $237M seller's credit, which does not have recourse to Borr. "H1 EBITDA x2" doubles each company's reported Q1 plus Q2 2026 Adjusted EBITDA. These are company-defined, non-GAAP numbers.</p>
+  </div>
+  <p>On its weak first half, Borr is the most expensive name here apart from Valaris, which is priced through the takeover, and it is by far the most indebted. If its EBITDA gets back to 2025's level, its 7.8x would be in line with the others (7.1x to 9.5x). <b>So today's price already assumes a recovery. It is not cheap on current numbers.</b> On assets, the market values Borr at about $127M of EV per owned rig. Its balance sheet carries the rigs at about $105M each. In the past ten months Borr paid $72M a rig for Noble's five (built 2008 to 2014) and its joint venture paid $57M a rig for Fontis's five. All my arithmetic; the rigs are not identical.</p>
+
+  <div class="panel">
+    <h3>The reaction against controls (close-to-close, %)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th></th><th class="num">2 to 9 Oct</th><th class="num">13 to 19 Oct</th><th class="num">2 to 19 Oct</th><th class="num">Year to date</th><th class="num">18 May to 19 Oct</th></tr></thead>
+      <tbody>
+        <tr class="hl"><td>BORR</td><td class="num">+22.3</td><td class="num">-7.5</td><td class="num">+13.6</td><td class="num">+10.2</td><td class="num">-32.8</td></tr>
+        <tr><td>RIG</td><td class="num">+6.6</td><td class="num">+4.2</td><td class="num">+13.9</td><td class="num">+42.6</td><td class="num">-22.3</td></tr>
+        <tr><td>VAL</td><td class="num">+6.7</td><td class="num">+4.5</td><td class="num">+14.0</td><td class="num">+77.4</td><td class="num">-21.2</td></tr>
+        <tr><td>NE</td><td class="num">+4.1</td><td class="num">+1.4</td><td class="num">+8.2</td><td class="num">+56.0</td><td class="num">-19.0</td></tr>
+        <tr><td>SDRL</td><td class="num">+5.2</td><td class="num">-1.6</td><td class="num">+10.0</td><td class="num">+39.4</td><td class="num">-12.0</td></tr>
+        <tr><td>OIH (oil services fund)</td><td class="num">+1.6</td><td class="num">-1.4</td><td class="num">+0.6</td><td class="num">+35.2</td><td class="num">-15.2</td></tr>
+        <tr><td>IWM (small caps)</td><td class="num">-0.9</td><td class="num">-2.0</td><td class="num">-3.6</td><td class="num">+10.2</td><td class="num">-1.7</td></tr>
+        <tr><td>Brent (BZ=F)</td><td class="num">+2.4</td><td class="num">+3.5</td><td class="num">+7.0</td><td class="num">+79.8</td><td class="num">-2.4</td></tr>
+        <tr><td>WTI (CL=F)</td><td class="num">+0.8</td><td class="num">+4.6</td><td class="num">+8.1</td><td class="num">+71.5</td><td class="num">-9.4</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Yahoo daily closes. BORR closed $4.80 on 13 Oct and $4.44 on 19 Oct. Brent closed $109.39 and WTI $98.45 on 19 Oct. 18 May is BORR's 2026 closing high ($6.61), two days before its Q1 results; Brent was $112.10 that day. Over one year BORR is +72%, against RIG +81%, NE +60%, SDRL +63% and OIH +53%: in line with peers, and well behind them this year.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 3</small>Who wins and who loses?</h2>
+  <div class="panel">
+    <h3>Impact of a founder buying into a jack-up slump, scored -5 to +5 (judgement, reasons below each bar)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Gains</span><span><i style="background:var(--neg)"></i>Loses</span><span><i style="background:var(--zero);border:1px solid var(--baseline)"></i>Neutral</span></div>
+    <div class="bars" id="divBars"></div>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="divTable"><thead><tr><th>Who</th><th class="num">Score</th><th>Why</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 4</small>What could happen next?</h2>
+  <div class="scen">
+    <div class="s"><b>Base: a partial recovery at Q3</b><span>Q3 Adjusted EBITDA comes in well above Q2's $43.8M but short of 2025's pace, and the stock trades with its peers. Anchor: the company's own guidance ("improve significantly", about 23 rigs working against 21.2), and the Odin earning dayrate since 11 Sep. The results date is not set; last year Q3 came out on 5 Nov after a 15 Oct notice.</span></div>
+    <div class="s"><b>Bull: earnings clear the debt bill and the Gulf reopens</b><span>Q3 lands near or above about $77M (the interest-plus-amortisation level), the rigs whose contracts end in Q4 get new work at or above $134k a day, and delayed Middle East tenders are awarded. At Noble's 8.7x on Borr's 2025 EBITDA ($470.1M), the shares would be worth about $5.80 (my arithmetic; a what-if, not a target). Anchor: the 2025 results and the CEO's "we therefore expect the market to strengthen as stability returns".</span></div>
+    <div class="s"><b>Bear: Q3 below the coupon, then new shares</b><span>Q3 comes in under about $51M, more rigs sit idle in Q4, and the company raises equity again or Granular sells more. Anchor: Borr sold 50M shares at $2.05 in July and August 2025, close to the stock's lows, and has room for about 49.6M more shares under its authorised capital (my arithmetic). Leverage magnifies any of this: equity is 37% of EV, so a 10% fall in what the rigs are worth is about a 27% fall for the shares (my arithmetic).</span></div>
+  </div>
+  <p><b>What happened after Troim bought before</b> (only what the filings show):</p>
+  <ul>
+    <li><b>Golar LNG, June 2017:</b> Drew bought 50,000 shares at $20.68 and 600,000 January 2018 call options (strikes $22.50 and $25.00) on 14 and 15 June, taking him to 5.0% (13D, 19 Jun 2017). Golar closed $20.71 on 15 June, $23.29 a month later (+12.5%), $21.45 three months later (+3.6%) and $29.27 at the options' expiry on 19 Jan 2018 (+41.3%). That is one instance, in another company and another cycle.</li>
+    <li><b>Borr, 2024 to 2025:</b> Drew's holding rose from 15.8M (end 2023) to 17.7M (end 2024) and 22.6M (Sep 2025), while BORR fell from $7.36 to $3.90 and then to a $1.61 close in May 2025. It is still below its end-2023 price today. The 13Gs show holdings, not prices or dates, so they do not say whether he bought in the market or in the 2025 offerings, or what he paid.</li>
+    <li><b>Borr, 2026:</b> his March, April and June buys are 5% to 20% below cost today.</li>
+    <li><b>Himalaya Shipping:</b> Drew owns about 28%, but its holding drifted down from 13.8M (end 2023) to 13.0M (Apr 2026). It is not a buying precedent. I found no SEC filings by him or Drew for Seadrill or Flex LNG.</li>
+  </ul>
+  <div class="panel">
+    <h3>Dated catalysts</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>When</th><th>What</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td>Tue 20 Oct</td><td>Deadline for a Form 4 covering any Troim purchase on Fri 16 Oct (two business days). None filed by 16:35 New York time on 19 Oct.</td><td>EDGAR</td></tr>
+        <tr><td>Sun 1 Nov</td><td>First coupon on the 2033 converts, $5.25M (my arithmetic)</td><td>17 Apr release</td></tr>
+        <tr><td>Late Oct to early Nov</td><td>Brazil's clearance of Transocean-Valaris becomes final 15 days after publication on 15 or 16 Oct; closing expected Q4 2026</td><td>RIG and VAL 8-Ks, 14 Oct</td></tr>
+        <tr><td>Not announced</td><td>Q3 2026 results. Last year: notice 15 Oct, results 5 Nov 2025.</td><td>6-K, 15 Oct 2025</td></tr>
+        <tr><td>Sep to Dec 2026</td><td>Firm work ends with no follow-on announced in releases through 30 Sep: Ran (Mexico, Sep), Sif (Suriname, Oct), Vali (Libya, Oct), Skald (Malaysia, Nov), Grid (Angola, Nov), Forseti (charter to Noble, Dec)</td><td>Fleet status, 11 Aug; releases 15 and 30 Sep</td></tr>
+        <tr><td>Fri 15 Jan 2027</td><td>First coupon on the new notes, about $90.2M (my arithmetic)</td><td>Q2 report, debt note</td></tr>
+        <tr><td>Jul 2027</td><td>Note amortisation starts: 5% a year at 102.5%, about $104M a year</td><td>Q2 report</td></tr>
+        <tr><td>Feb 2028</td><td>$44.2M of 2028 converts mature</td><td>Q2 report</td></tr>
+        <tr><td>Jan 2029</td><td>Joint venture's $237M seller's credit matures (no recourse to Borr)</td><td>Q2 release</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>The 6-K setting the Q3 date, and a new fleet status report: do Ran, Sif, Vali, Skald and Grid have new work, and at what dayrate?</li>
+    <li>More Troim Form 4s, especially below his $4.44 average, or a 13D/A that changes Item 4.</li>
+    <li>Any Granular Form 4, or a new 13G/A from Cobas or Azvalor.</li>
+    <li>Any prospectus supplement (424B) or registration statement: that would be new shares.</li>
+    <li>Gulf tender awards, Brent, and Valaris's comments on its Gulf jack-ups once the takeover closes.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Verdict</small>WATCH</h2>
+  <div class="verdict">
+    <p><b>Not already run, not cheap.</b> BORR trails its peers by 29 to 67 points this year, and its October spike has gone. But at 13.9x first-half EBITDA it is priced for a recovery that Q3 has to deliver. The founder's buying is real, large and on the record. It is not a floor: his March to June lots are under water, and the 13D announces no plan beyond holding.</p>
+    <p><b>What would change it.</b> Toward OWN: Q3 Adjusted EBITDA at or above about $77M a quarter, new work at or above $134k a day, and no new shares. Toward AVOID: Q3 below about $51M (earnings not covering interest), an equity raise, or Granular selling again. Review on the Q3 results day. As a long-term holding it already fails gate LT3: shares outstanding rose 26% in 18 months.</p>
+    <p class="note">Method checks: primary filings read (12 Form 4s, the 13D and 13D/A, the 20-F, the Q2 report and release, releases since January); "already run" checked against peers; reaction measured against IWM, OIH and four peers, close-to-close; input price Brent and WTI; siblings (Valaris's Gulf jack-ups) and contagion (Transocean's deepwater news, Elliott cutting Seadrill to 4.9% on 8 Oct) checked. Liquidity is $39M a day (G5 passes); verifiable (G4 passes); G3 not run. G1 and G2 and the 0-10 card are for supply chains and do not apply. This is not personal investment advice.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Draft post</small>Caption</h2>
+  <div class="caption">Borr Drilling's founder has bought $57M of its shares since August. Monday's close, $4.44, is his average price, almost to the cent. The part nobody mentions: last quarter Borr earned $43.8M of EBITDA, and its new bonds cost about $51M a quarter in interest. From July 2027 it also has to start paying them down. His buying is a bet on the Q3 numbers, not a floor under the price. The date isn't set yet; last year it was 5 November.</div>
+</section>
+
+<footer>
+  <div><b>Sources</b></div>
+  <ol>
+    <li>Troim Form 4s (Drew Holdings), 2026: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026056941/0001628280-26-056941-index.htm">13 Aug</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026057216/0001628280-26-057216-index.htm">14 Aug</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026058766/0001628280-26-058766-index.htm">25 Aug</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026062396/0001628280-26-062396-index.htm">16 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026062623/0001628280-26-062623-index.htm">17 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065174/0001628280-26-065174-index.htm">5 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065290/0001628280-26-065290-index.htm">6 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065416/0001628280-26-065416-index.htm">7 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065603/0001628280-26-065603-index.htm">9 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065849/0001628280-26-065849-index.htm">13 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026065947/0001628280-26-065947-index.htm">14 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026066045/0001628280-26-066045-index.htm">15 Oct</a>; earlier: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026021237/0001628280-26-021237-index.htm">24 Mar</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026025616/0001628280-26-025616-index.htm">16 Apr</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026042068/0001628280-26-042068-index.htm">9 Jun</a>; Form 3, <a href="https://www.sec.gov/Archives/edgar/data/1709630/000162828026018448/0001628280-26-018448-index.htm">17 Mar</a></li>
+    <li>Schedule 13D, 13 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000119312526420407/0001193125-26-420407-index.htm">index</a>; 13D/A, 15 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000119312526423089/0001193125-26-423089-index.htm">index</a></li>
+    <li>Drew Holdings 13G and 13G/A on Borr: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000134100424000044/0001341004-24-000044-index.htm">Feb 2024</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000095017025012937/0000950170-25-012937-index.htm">Feb 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000119312525246172/0001193125-25-246172-index.htm">Oct 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000119312526052739/0001193125-26-052739-index.htm">Feb 2026</a>, <a href="https://www.sec.gov/Archives/edgar/data/1715497/000119312526334276/0001193125-26-334276-index.htm">Aug 2026</a></li>
+    <li>Other insiders' Form 4s: COO <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026066061/0001628280-26-066061-index.htm">16 Oct</a>; CEO <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026062804/0001628280-26-062804-index.htm">18 Sep</a>; Currie <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026056928/0001628280-26-056928-index.htm">13 Aug</a>; Mordehachvili (Granular) <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026042066/0001628280-26-042066-index.htm">9 Jun</a></li>
+    <li>Other holders: Cobas 13G <a href="https://www.sec.gov/Archives/edgar/data/1715497/000170593126000001/0001705931-26-000001-index.htm">17 Aug 2026</a>; Granular 13G/A <a href="https://www.sec.gov/Archives/edgar/data/1715497/000204415126000003/0002044151-26-000003-index.htm">14 Aug 2026</a> (reports 40,145,132 shares with an event date of 25 Nov 2024, which conflicts with its June Form 4; I use the Form 4); Azvalor 13G <a href="https://www.sec.gov/Archives/edgar/data/1715497/000171125225000002/0001711252-25-000002-index.htm">25 Nov 2025</a></li>
+    <li>Borr 20-F for 2025 (Troim biography, major holders, 2025 share issues, related parties): <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026021450/0001628280-26-021450-index.htm">index</a></li>
+    <li>Borr Q2 2026 report, 6-K 12 Aug (debt note, maturities, share count): <a href="https://www.sec.gov/Archives/edgar/data/1715497/000162828026055957/0001628280-26-055957-index.htm">index</a>; Q2 release and fleet status report, 6-K 13 Aug: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126032598/0001140361-26-032598-index.htm">index</a>; Q2 presentation: <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126032660/0001140361-26-032660-index.htm">index</a></li>
+    <li>Earlier presentations: Q1 2026 <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126022384/0001140361-26-022384-index.htm">21 May</a>; Q4 2025 <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126006222/0001140361-26-006222-index.htm">20 Feb</a></li>
+    <li>Borr releases: converts <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126014721/0001140361-26-014721-index.htm">15 Apr</a> and <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126015344/0001140361-26-015344-index.htm">17 Apr</a>; new notes <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126023042/0001140361-26-023042-index.htm">27 May</a>; Noble rigs <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126002719/0001140361-26-002719-index.htm">28 Jan</a>; Fontis rigs <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126010837/0001140361-26-010837-index.htm">23 Mar</a> and <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126029929/0001140361-26-029929-index.htm">29 Jul</a>; Arabian Gulf <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126008345/0001140361-26-008345-index.htm">9 Mar</a> and <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126014354/0001140361-26-014354-index.htm">13 Apr</a>; Mexico <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126036608/0001140361-26-036608-index.htm">15 Sep</a>; operations <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126036705/0001140361-26-036705-index.htm">15 Sep</a>; contracts <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126038129/0001140361-26-038129-index.htm">30 Sep</a>; investor presentation notice dated 16 Sep, filed <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036126039844/0001140361-26-039844-index.htm">16 Oct</a> (the presentation itself is on the company website only and was not read); December 2025 share sale <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036125045097/0001140361-25-045097-index.htm">10 Dec 2025</a>; Q3 2025 results notice <a href="https://www.sec.gov/Archives/edgar/data/1715497/000114036125038179/0001140361-25-038179-index.htm">15 Oct 2025</a></li>
+    <li>Peers, Q2 2026 releases: <a href="https://www.sec.gov/Archives/edgar/data/1451505/000145150526000058/0001451505-26-000058-index.htm">Transocean</a>, <a href="https://www.sec.gov/Archives/edgar/data/314808/000031480826000138/0000314808-26-000138-index.htm">Valaris</a>, <a href="https://www.sec.gov/Archives/edgar/data/1895262/000189526226000138/0001895262-26-000138-index.htm">Noble</a>, <a href="https://www.sec.gov/Archives/edgar/data/1737706/000173770626000023/0001737706-26-000023-index.htm">Seadrill</a>; share counts from each company's latest 10-Q cover (SEC XBRL)</li>
+    <li>Peers, October: Transocean 8-Ks <a href="https://www.sec.gov/Archives/edgar/data/1451505/000145150526000072/0001451505-26-000072-index.htm">9 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1451505/000110465926115871/0001104659-26-115871-index.htm">14 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1451505/000145150526000075/0001451505-26-000075-index.htm">15 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1451505/000145150526000077/0001451505-26-000077-index.htm">19 Oct</a>; Valaris 8-K <a href="https://www.sec.gov/Archives/edgar/data/314808/000114036126039551/0001140361-26-039551-index.htm">14 Oct</a>; Elliott 13D/A on Seadrill <a href="https://www.sec.gov/Archives/edgar/data/1737706/000091957426006770/0000919574-26-006770-index.htm">8 Oct</a></li>
+    <li>Troim precedents: Golar LNG 13D <a href="https://www.sec.gov/Archives/edgar/data/1207179/000091957417004921/0000919574-17-004921-index.htm">19 Jun 2017</a>; Golar Form 3 <a href="https://www.sec.gov/Archives/edgar/data/1207179/000170963026000004/0001709630-26-000004-index.htm">18 Mar 2026</a>; Drew 13G on Himalaya Shipping <a href="https://www.sec.gov/Archives/edgar/data/2011074/000134100424000045/0001341004-24-000045-index.htm">Feb 2024</a> and <a href="https://www.sec.gov/Archives/edgar/data/2011074/000119312526205693/0001193125-26-205693-index.htm">May 2026</a></li>
+    <li>Prices: Yahoo Finance daily bars for BORR, RIG, VAL, NE, SDRL, OIH, IWM, BZ=F and CL=F to 19 Oct 2026, and GLNG for Jun 2017 to Jun 2018</li>
+  </ol>
+  <div class="note">Not investment advice. Figures marked as arithmetic are mine from the cited inputs. Impact scores are judgement. Adjusted EBITDA is each company's own non-GAAP measure.</div>
+</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const mag = [
+  {lbl: "Adjusted EBITDA, Q3 2025", v: 135.6, k: "earn", src: "Q4 2025 presentation (6-K, 20 Feb 2026)"},
+  {lbl: "Adjusted EBITDA, Q4 2025", v: 105.2, k: "earn", src: "Q4 2025 presentation"},
+  {lbl: "Adjusted EBITDA, Q1 2026", v: 88.5, k: "earn", src: "Q1 2026 presentation (6-K, 21 May 2026)"},
+  {lbl: "Adjusted EBITDA, Q2 2026", v: 43.8, k: "earn", src: "Q2 2026 release (6-K, 13 Aug 2026)"},
+  {lbl: "Adjusted EBITDA, Q3 2026", v: null, k: "earn", nd: "not reported yet; guided to “improve significantly”", src: "Q2 2026 release; results date not set"},
+  {lbl: "Interest on today's debt, per quarter", v: 51.1, k: "debt", src: "Coupons x principal at 30 Jun 2026 ($204.4M a year); my arithmetic"},
+  {lbl: "Interest plus note amortisation, per quarter from Jul 2027", v: 77.2, k: "debt", src: "Adds 5% a year of $2,035M at 102.5% ($104.3M a year); my arithmetic"}
+];
+const impact = [
+  {lbl: "Holders who sold into his bid, 9 to 14 Oct", s: 3, why: "Got $4.72 to $4.93 a share; the stock is $4.44 now"},
+  {lbl: "Oil companies hiring jack-ups (Borr customers incl. Eni, Shell, PEMEX, BW Energy)", s: 2, why: "New Borr work priced at $120k to $125k a day, against a $145k average in 2025"},
+  {lbl: "Transocean and Valaris (deepwater, merging)", s: 2, why: "Deepwater awards and the merger's last approval; up 4% to 5% while BORR fell"},
+  {lbl: "Noble (NE)", s: 1, why: "Sold five jack-ups to Borr for $360M in Jan 2026; two of them sat warm-stacked in August"},
+  {lbl: "Tor Olav Troim (Drew Holdings)", s: 0, why: "13.1% and a louder voice, but his average cost equals today's price and the March to June lots are under water"},
+  {lbl: "Granular Capital (a director's fund)", s: -1, why: "About 38.2M shares, 5.5% below the $4.70 it sold 8M at in June"},
+  {lbl: "Borr 2032 and 2034 noteholders", s: -1, why: "Q2 EBITDA was below the notes' $45M quarterly coupon; secured on all 29 rigs"},
+  {lbl: "Borr shareholders generally", s: -2, why: "Four quarters of falling EBITDA; equity is 37% of EV, so leverage magnifies every rig-value move"},
+  {lbl: "Buyers at the peak, 12 and 13 Oct", s: -3, why: "Paid $4.80 to $5.23 as the run and the 13D made news; now $4.44, down 7% to 15%"}
+];
+const max = 165;
+const fmt = v => "$" + v.toFixed(1) + "M";
+const tip = document.getElementById("tip");
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = e.target.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 300)) + "px"; tip.style.top = (r.bottom + 8) + "px"; }
+function hideTip() { tip.hidden = true; }
+const mb = document.getElementById("magBars"), mt = document.querySelector("#magTable tbody");
+const refPct = 51.1 / max * 100;
+mag.forEach(d => {
+  const row = document.createElement("div"); row.className = "bar-row";
+  if (d.v === null) {
+    row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><span class="nd">${d.nd}</span></div>`;
+    mb.appendChild(row);
+    mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">not reported</td><td>${d.src}</td></tr>`);
+    return;
+  }
+  const pct = d.v / max * 100;
+  const ref = d.k === "earn" ? `<span class="ref" style="left:${refPct}%"></span>` : "";
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><div class="fill hit" tabindex="0" style="width:${pct}%;background:${d.k === "debt" ? "var(--s2)" : "var(--pos)"}"></div>${ref}<span class="val" style="left:${pct}%">${fmt(d.v)}</span></div>`;
+  const f = row.querySelector(".fill");
+  const html = `<b>${d.lbl}</b><br>${fmt(d.v)}<br><span style="color:var(--muted)">${d.src}</span>`;
+  f.addEventListener("mouseenter", e => showTip(e, html)); f.addEventListener("focus", e => showTip(e, html));
+  f.addEventListener("mouseleave", hideTip); f.addEventListener("blur", hideTip);
+  mb.appendChild(row);
+  mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${fmt(d.v)}</td><td>${d.src}</td></tr>`);
+});
+const ticks = document.getElementById("magTicks");
+[0, 50, 100, 150].forEach(t => ticks.insertAdjacentHTML("beforeend", `<span style="left:${t / max * 100}%">$${t}M</span>`));
+const db = document.getElementById("divBars"), dt = document.querySelector("#divTable tbody");
+impact.forEach(d => {
+  const row = document.createElement("div"); row.className = "div-row";
+  const w = Math.abs(d.s) / 5 * 50;
+  const cls = d.s > 0 ? "pos" : d.s < 0 ? "neg" : "zero";
+  const vpos = d.s >= 0 ? `left:calc(50% + ${w}% + ${d.s === 0 ? 10 : 6}px)` : `right:calc(50% + ${w}% + 6px)`;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="dtrack"><div class="seg ${cls} hit" tabindex="0" style="width:${w}%"></div><span class="v" style="${vpos}">${d.s > 0 ? "+" : ""}${d.s}</span></div><div class="why">${d.why}</div>`;
+  const s = row.querySelector(".seg");
+  const html = `<b>${d.lbl}</b><br>Score ${d.s > 0 ? "+" : ""}${d.s}<br>${d.why}`;
+  s.addEventListener("mouseenter", e => showTip(e, html)); s.addEventListener("focus", e => showTip(e, html));
+  s.addEventListener("mouseleave", hideTip); s.addEventListener("blur", hideTip);
+  db.appendChild(row);
+  dt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${d.s > 0 ? "+" : ""}${d.s}</td><td>${d.why}</td></tr>`);
+});
+</script>
