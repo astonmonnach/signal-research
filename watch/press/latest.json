@@ -1,10 +1,130 @@
 [
  {
-  "published_utc": "2026-10-19T06:53:00Z",
+  "published_utc": "2026-10-19T13:20:00Z",
   "wire": "PR Newswire",
-  "ticker": "ESLT",
-  "title": "Elbit Systems Awarded $235 Million Contract to Supply EXTRA-MR Rockets and PULS Launchers to a European Country",
-  "link": "https://www.prnewswire.com/news-releases/elbit-systems-awarded-235-million-contract-to-supply-extra-mr-rockets-and-puls-launchers-to-a-european-country-302912363.html",
-  "matched_on": "keyword:awarded a contract"
+  "ticker": "GPRO",
+  "title": "GoPro Files Preliminary Proxy Statement; Proposed Merger with Starman Optical on Track",
+  "link": "https://www.prnewswire.com/news-releases/gopro-files-preliminary-proxy-statement-proposed-merger-with-starman-optical-on-track-302912646.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-19T11:25:00Z",
+  "wire": "Business Wire",
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile Advances Space-Based Cellular Broadband in Europe in Collaboration with European Mobile Network Operator Partners",
+  "link": "http://www.businesswire.com/news/home/20261018409347/en/AST-SpaceMobile-Advances-Space-Based-Cellular-Broadband-in-Europe-in-Collaboration-with-European-Mobile-Network-Operator-Partners/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-19T10:10:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RIG",
+  "title": "Transocean Ltd. Announces Contract Awards Totaling $550 Million",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383180/0/en/transocean-ltd-announces-contract-awards-totaling-550-million.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-19T10:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "CLF",
+  "title": "Cleveland-Cliffs Reports Third-Quarter 2026 Results",
+  "link": "http://www.businesswire.com/news/home/20261019259231/en/Cleveland-Cliffs-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-19T12:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "DRTS;DRTSW",
+  "title": "Alpha Tau Announces FDA Approval to Expand Alpha DaRT® U.S. Recurrent Glioblastoma REGAIN Trial; New Trial Data to be Presented at SNO 2026 Annual Meeting",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383438/0/en/alpha-tau-announces-fda-approval-to-expand-alpha-dart-u-s-recurrent-glioblastoma-regain-trial-new-trial-data-to-be-presented-at-sno-2026-annual-meeting.html",
+  "matched_on": "keyword:FDA approval"
+ },
+ {
+  "published_utc": "2026-10-19T12:15:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MKSI",
+  "title": "MKS Inc. to Sell Its Ophir® Optics Business to TTM Technologies, Inc.",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383412/16396/en/mks-inc-to-sell-its-ophir-optics-business-to-ttm-technologies-inc.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-19T12:15:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "DAIO",
+  "title": "Data I/O Signs Definitive Agreement to Acquire V-TEK and A&J Programming",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383407/0/en/data-i-o-signs-definitive-agreement-to-acquire-v-tek-and-a-j-programming.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-19T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "SLN",
+  "title": "Silence Therapeutics Enters into Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+  "link": "http://www.businesswire.com/news/home/20261019615040/en/Silence-Therapeutics-Enters-into-Agreement-to-be-Acquired-by-Merck-KGaA-Darmstadt-Germany/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement;keyword:to be acquired"
+ },
+ {
+  "published_utc": "2026-10-19T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "SLN",
+  "title": "Merck KGaA, Darmstadt, Germany to Acquire Silence Therapeutics, Strengthening Rare Disease Pipeline with Innovative siRNA Asset",
+  "link": "http://www.businesswire.com/news/home/20261019777870/en/Merck-KGaA-Darmstadt-Germany-to-Acquire-Silence-Therapeutics-Strengthening-Rare-Disease-Pipeline-with-Innovative-siRNA-Asset/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-19T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ARGX",
+  "title": "argenx to Present Phase 3 ALKIVIA Results in Autoimmune Myositis as a Late-Breaking Oral Presentation at ACR Convergence 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383399/0/en/argenx-to-present-phase-3-alkivia-results-in-autoimmune-myositis-as-a-late-breaking-oral-presentation-at-acr-convergence-2026.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T11:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BIIB",
+  "title": "Biogen to Present New Data Across Nephrology Portfolio, Including Long-term EMPAVELI® (pegcetacoplan) Phase 3 Results, at American Society of Nephrology (ASN) Kidney Week",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383328/0/en/biogen-to-present-new-data-across-nephrology-portfolio-including-long-term-empaveli-pegcetacoplan-phase-3-results-at-american-society-of-nephrology-asn-kidney-week.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T11:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "MANE",
+  "title": "Veradermics’ Oral VDPHL01 Achieved Early, Consistent, and Robust Hair Growth in Positive Phase 3 ‘304’ Clinical Trial in Male Pattern Hair Loss",
+  "link": "http://www.businesswire.com/news/home/20261019684103/en/Veradermics%E2%80%99-Oral-VDPHL01-Achieved-Early-Consistent-and-Robust-Hair-Growth-in-Positive-Phase-3-%E2%80%98304%E2%80%99-Clinical-Trial-in-Male-Pattern-Hair-Loss/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "EYPT",
+  "title": "EyePoint Announces Topline Results from LUCIA, the Second Pivotal Phase 3 Clinical Trial of DURAVYU™ in Wet AMD",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383257/0/en/eyepoint-announces-topline-results-from-lucia-the-second-pivotal-phase-3-clinical-trial-of-duravyu-in-wet-amd.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "IRON",
+  "title": "Disc Medicine Announces Success on All Primary and Secondary Endpoints in the Pivotal Phase 3 APOLLO Trial of Bitopertin in Adults and Adolescents with Erythropoietic Protoporphyria (EPP)",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383263/0/en/disc-medicine-announces-success-on-all-primary-and-secondary-endpoints-in-the-pivotal-phase-3-apollo-trial-of-bitopertin-in-adults-and-adolescents-with-erythropoietic-protoporphyri.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "TNXP",
+  "title": "Tonix Pharmaceuticals to Present an Analysis of Phase 3 Data on TONMYA® at the IASP 2026 World Congress on Pain",
+  "link": "https://www.globenewswire.com/news-release/2026/10/19/3383285/28908/en/tonix-pharmaceuticals-to-present-an-analysis-of-phase-3-data-on-tonmya-at-the-iasp-2026-world-congress-on-pain.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-19T10:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "PERF",
+  "title": "Perfect Announces Shareholders’ Approval of Merger Agreement",
+  "link": "http://www.businesswire.com/news/home/20261019288254/en/Perfect-Announces-Shareholders%E2%80%99-Approval-of-Merger-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
  }
 ]
