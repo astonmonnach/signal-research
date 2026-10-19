@@ -88,8 +88,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.48 (2026-10-19, ledger) · 1d -1.1%, 5d +2.0%, 20d +5.7% (market context, 2026-10-19)
-- **Since first found:** **+7.3%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +7.6% vs IWM -3.3% = **+10.9 pts** vs IWM; direction +1 → excess +10.9% (20 days)
+- **Latest price:** $7.49 (2026-10-19, ledger) · 1d -0.9%, 5d +2.2%, 20d +5.9% (market context, 2026-10-19)
+- **Since first found:** **+7.5%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +7.8% vs IWM -3.1% = **+10.9 pts** vs IWM; direction +1 → excess +10.9% (20 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
@@ -113,4 +113,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.48 | +7.3% | +7.6% | -3.3% | +10.9% | 20 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.49 | +7.5% | +7.8% | -3.1% | +10.9% | 20 | live |
