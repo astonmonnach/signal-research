@@ -7,3 +7,6 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-19,23:04,True,GUTS,Fractyl Health Inc. Common Stock,S2,1.55,15098579,936532,16.12,873247,2026-10-05,0.083333,1.38,1.39,2026-10-20,0.007246,-0.012754,filled
 2026-10-19,23:04,True,GUTS,Fractyl Health Inc. Common Stock,S1,1.55,15098579,936532,16.12,873247,2026-10-05,0.083333,1.38,1.39,2026-10-20,0.007246,-0.012754,filled
 2026-10-19,23:04,True,SMX,SMX (Security Matters) Public Limited Company Ordinary Share,S2,1.89,10834106,768140,14.1,667972,,,1.89,1.9,2026-10-20,0.005291,-0.014709,filled
+2026-10-20,22:37,True,AIBZ,Bitzero Holdings Inc. Common Shares,S2,2.95,5929936,684110,8.67,1416491,,,,,,,,open
+2026-10-20,22:37,True,GLAS,Glass House Brands Inc. Subordinate Voting Shares,S2,2.46,16162118,2786350,5.8,10320953,,,,,,,,open
+2026-10-20,22:37,True,PERF,Perfect Corp. Class A Ordinary Share,S2,1.98,1779296,294170,6.05,294676,,,,,,,,open
