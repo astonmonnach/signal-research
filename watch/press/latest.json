@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "published_utc": "2026-10-20T07:31:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SBGSY",
+  "title": "Water shortages will threaten growth within five years, say over half of European industrial leaders",
+  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384049/0/en/water-shortages-will-threaten-growth-within-five-years-say-over-half-of-european-industrial-leaders.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-20T08:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ALVO",
+  "title": "Alvotech receives FDA approval for new SIMLANDI® manufacturing process that more than doubles output per batch",
+  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384088/0/en/alvotech-receives-fda-approval-for-new-simlandi-manufacturing-process-that-more-than-doubles-output-per-batch.html",
+  "matched_on": "keyword:FDA approval"
+ }
+]
