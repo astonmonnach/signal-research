@@ -28,7 +28,7 @@ IMPORTANT = {
     "424B3": "prospectus (resale / offering)",
     "424B4": "final offering prospectus",
     "424B5": "offering prospectus supplement",
-    "4": "insider buy/sell",
+    "4": "insider Form 4 (read the code: P is a buy, S a sale, F tax withholding, M an option exercise)",
     "144": "insider intends to sell",
     "SC 13D": "activist / 5%+ holder",
     "SC 13D/A": "activist / 5%+ holder update",
@@ -44,6 +44,20 @@ IMPORTANT = {
     "SC TO-T": "tender offer",
     "SC TO-I": "issuer tender offer",
     "10-12B/A": "spin-off registration",
+    # Added 2026-10-20 (LESSONS): on 19 Oct this list missed GPRO's merger proxy and restated accounts, SKYA's tender
+    # amendment and LCII's 425, because none of these forms were in it.
+    "PREM14A": "preliminary merger proxy",
+    "DEFA14A": "proxy soliciting material (often deal news)",
+    "425": "merger communication",
+    "10-K/A": "annual results (amended or restated)",
+    "10-Q/A": "quarterly results (amended or restated)",
+    "SC TO-I/A": "issuer tender offer amendment (check for an extension or new terms)",
+    "SC TO-T/A": "tender offer amendment (check for an extension, result or new terms)",
+    "SC 14D9": "target's response to a tender offer",
+    "SC 14D9/A": "target's response to a tender offer (amended)",
+    "6-K": "foreign company report",
+    "20-F": "foreign company annual report",
+    "SC 13E3": "going-private transaction",
 }
 
 # 8-K item codes, so the digest says what happened.
