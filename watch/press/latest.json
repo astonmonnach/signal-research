@@ -1,18 +1,82 @@
 [
  {
-  "published_utc": "2026-10-20T07:31:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "SBGSY",
-  "title": "Water shortages will threaten growth within five years, say over half of European industrial leaders",
-  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384049/0/en/water-shortages-will-threaten-growth-within-five-years-say-over-half-of-european-industrial-leaders.html",
+  "published_utc": "2026-10-20T13:20:00Z",
+  "wire": "PR Newswire",
+  "ticker": "HCTI",
+  "title": "HCTI Expands AI Business with 6 New Contracts, Targeting approx. $4.65M in Annual Run Rate Revenue",
+  "link": "https://www.prnewswire.com/news-releases/hcti-expands-ai-business-with-6-new-contracts-targeting-approx-4-65m-in-annual-run-rate-revenue-302914084.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-10-20T08:30:00Z",
+  "published_utc": "2026-10-20T12:42:00Z",
+  "wire": "Business Wire",
+  "ticker": "PL",
+  "title": "Planet Launches Pelican-12 Satellite",
+  "link": "http://www.businesswire.com/news/home/20261016907221/en/Planet-Launches-Pelican-12-Satellite/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-20T11:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile Advances Service Readiness Ahead of Initial Space-Based Cellular Broadband Coverage in Key Global Markets",
+  "link": "http://www.businesswire.com/news/home/20261020527793/en/AST-SpaceMobile-Advances-Service-Readiness-Ahead-of-Initial-Space-Based-Cellular-Broadband-Coverage-in-Key-Global-Markets/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-20T12:31:00Z",
+  "wire": "PR Newswire",
+  "ticker": "AEYE",
+  "title": "AudioEye Announces $15 million Stock Repurchase Program",
+  "link": "https://www.prnewswire.com/news-releases/audioeye-announces-15-million-stock-repurchase-program-302913805.html",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-20T12:30:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "ALVO",
-  "title": "Alvotech receives FDA approval for new SIMLANDI® manufacturing process that more than doubles output per batch",
-  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384088/0/en/alvotech-receives-fda-approval-for-new-simlandi-manufacturing-process-that-more-than-doubles-output-per-batch.html",
-  "matched_on": "keyword:FDA approval"
+  "ticker": "MYGN",
+  "title": "Myriad Genetics and Labcorp Announce Definitive Agreement for Myriad to Sell Prenatal Health Testing Business to Labcorp",
+  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384418/15459/en/myriad-genetics-and-labcorp-announce-definitive-agreement-for-myriad-to-sell-prenatal-health-testing-business-to-labcorp.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-20T12:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "OPTH",
+  "title": "Optimi Health Completes MDMA Production for Phase 3 PTSD Trial in Canada, MAPS Trial in Israel and Commercial Supply in Australia",
+  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384417/0/en/optimi-health-completes-mdma-production-for-phase-3-ptsd-trial-in-canada-maps-trial-in-israel-and-commercial-supply-in-australia.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-20T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "CRM;BRZE",
+  "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
+  "link": "http://www.businesswire.com/news/home/20261020157470/en/Salesforce-Signs-Definitive-Agreement-to-Acquire-Braze/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-20T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RVMD",
+  "title": "Revolution Medicines Begins Treating Patients in Phase 3 RASolve 308 Trial Evaluating Zoldonrasib in Combination with Pembrolizumab and Chemotherapy as First-Line Treatment for Patients with Metastatic RAS G12D Non-Squamous Non-Small Cell Lung Cancer",
+  "link": "https://www.globenewswire.com/news-release/2026/10/20/3384305/0/en/revolution-medicines-begins-treating-patients-in-phase-3-rasolve-308-trial-evaluating-zoldonrasib-in-combination-with-pembrolizumab-and-chemotherapy-as-first-line-treatment-for-pat.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-20T11:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "CBRE",
+  "title": "CBRE Expands Critical Infrastructure Capabilities in Europe and Asia Pacific with Onnec Acquisition",
+  "link": "http://www.businesswire.com/news/home/20261020066142/en/CBRE-Expands-Critical-Infrastructure-Capabilities-in%C2%A0Europe-and-Asia-Pacific-with-Onnec-Acquisition/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-20T10:30:00Z",
+  "wire": "PR Newswire",
+  "ticker": "GM",
+  "title": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization, declares quarterly dividend",
+  "link": "https://www.prnewswire.com/news-releases/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend-302913358.html",
+  "matched_on": "keyword:share repurchase"
  }
 ]
