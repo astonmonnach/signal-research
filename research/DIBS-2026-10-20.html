@@ -1,0 +1,371 @@
+<title>1stDibs Red Apple Stake</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column with full-width chart panels; a filing-style ledger feel (buying history, holder register, buyback ledger, dated scenarios). */
+:root {
+  --text: #0b0b0b; --text-2: #52514e; --muted: #898781;
+  --surface: #fcfcfb; --page: #f9f9f7; --grid: #e1e0d9; --baseline: #c3c2b7;
+  --pos: #2a78d6; --neg: #e34948; --zero: #f0efec; --s2: #eb6834;
+  --border: rgba(11,11,11,.10);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+    --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+    --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+    --border: rgba(255,255,255,.10); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+  --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+  --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+  --border: rgba(255,255,255,.10); color-scheme: dark;
+}
+body { background: var(--page); color: var(--text); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 32px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 36px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.12; margin: 0; text-wrap: balance; }
+.thesis { font-size: 17px; color: var(--text-2); margin: 0; max-width: 64ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1px; background: var(--grid); border: 1px solid var(--grid); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.fact b { font-family: var(--f-mono); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.fact span { font-size: 12.5px; color: var(--text-2); }
+section { display: grid; gap: 14px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 23px; margin: 0; text-wrap: balance; }
+h2 small { display: block; font-family: var(--f-mono); font-size: 11.5px; font-weight: 400; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+p { margin: 0; max-width: 66ch; }
+ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 66ch; }
+.note { font-size: 13px; color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--text-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+/* magnitude chart */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; align-items: center; }
+.bar-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.track { position: relative; height: 22px; }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; }
+.track .val { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12.5px; color: var(--text); padding-left: 6px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.axis { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--baseline); }
+.axis .ticks span { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+.ref { position: absolute; top: -4px; bottom: -4px; border-left: 1px dashed var(--muted); }
+/* diverging chart */
+.div-row { display: grid; grid-template-columns: minmax(130px, 220px) 1fr; gap: 10px; align-items: center; }
+.div-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.dtrack { position: relative; height: 22px; background: linear-gradient(to right, transparent calc(50% - 1px), var(--baseline) calc(50% - 1px), var(--baseline) calc(50% + 1px), transparent calc(50% + 1px)); }
+.dtrack .seg { position: absolute; top: 2px; bottom: 2px; }
+.dtrack .seg.pos { left: 50%; background: var(--pos); border-radius: 0 4px 4px 0; }
+.dtrack .seg.neg { right: 50%; background: var(--neg); border-radius: 4px 0 0 4px; }
+.dtrack .v { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12px; color: var(--text); font-variant-numeric: tabular-nums; }
+.why { grid-column: 2; font-size: 12.5px; color: var(--muted); margin-top: -4px; }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12.5px; max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.hit { cursor: default; }
+.hit:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 520px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12.5px; }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.sum td { font-weight: 600; }
+.scen { display: grid; gap: 12px; }
+.scen .s { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.scen .s b { font-size: 14px; }
+.verdict { border-left: 3px solid var(--s2); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+details summary { cursor: pointer; color: var(--text-2); font-size: 13px; }
+footer { display: grid; gap: 10px; font-size: 12.5px; color: var(--text-2); border-top: 1px solid var(--grid); padding-top: 18px; }
+footer ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; word-break: break-word; }
+footer a { color: var(--text-2); }
+.caption { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-size: 14px; }
+@media (max-width: 520px) {
+  .bar-row, .axis, .div-row { grid-template-columns: 1fr; gap: 4px; }
+  .axis .ticks { grid-column: 1; }
+  .axis > div:first-child { display: none; }
+  .why { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { .fill, .seg { transition: width .4s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Signal Lab deep dive · DIBS · Tue 20 Oct 2026</div>
+  <h1>Catsimatidis takes 1stDibs to 7.8%, buying after the company stopped</h1>
+  <p class="thesis">John Catsimatidis's United Refining bought 449,500 more 1stDibs shares on 15 Oct at $4.07, about 69% of the day's volume. He is a friendly long-term holder, not a bidder: the filing keeps his line that he has no plan to seek control. The bigger change is underneath. The company's own buyback, the one his first filing praised, ran out at the end of May. At $4.25 the shares trade at about twice the cash.</p>
+  <div class="facts" aria-label="Key figures">
+    <div class="fact"><b>$4.07</b><span>15 Oct buy, 449,500 shares, about 69% of the day's volume</span></div>
+    <div class="fact"><b>7.8%</b><span>2,635,385 shares now, up from 5.1% in Nov 2025</span></div>
+    <div class="fact"><b>$5.01</b><span>His average cost; about 15% under water at $4.25</span></div>
+    <div class="fact"><b>$2.01</b><span>Cash and short-term investments per share, 30 Jun</span></div>
+    <div class="fact"><b>$0</b><span>Buyback authority left at 30 Jun, after $22.3M spent since Nov 2025</span></div>
+  </div>
+</header>
+
+<section>
+  <h2><small>Rung 1</small>What is it?</h2>
+  <p>On Mon 19 Oct, after the US close, John Catsimatidis's group filed Amendment No. 1 to its Schedule 13D on 1stdibs.com (Nasdaq: DIBS), the online marketplace for vintage and luxury furniture, art and jewellery. The shares sit with United Refining, a Pennsylvania oil refiner owned through Red Apple Group. It bought 449,500 shares in the open market on Thu 15 Oct at a weighted average of $4.07 including commissions. It now holds 2,635,385 shares, 7.8% of the 33,615,293 outstanding at 31 Jul. They cost about $13,216,097 in total, an average of $5.01 (my arithmetic).</p>
+  <ul>
+    <li><b>Size of the buy:</b> 449,500 shares was about 69% of the 654,100 traded on 15 Oct (Yahoo volume; my arithmetic). DIBS closed at $4.275 that day, up 8.2%.</li>
+    <li><b>Filed on the deadline:</b> two business days after the trade. Counting from the first 13D, the group had added 763,350 shares, 2.3% of the company (my arithmetic). That is past the 1% change that forces an amendment.</li>
+    <li><b>What changed in the filing:</b> only Item 3 (money spent) and Item 5 (holding, trades). <b>Item 4, the purpose, is not amended.</b> It still reads as it did in Nov 2025: shares bought "solely for investment purposes", strong support for management and the board, and "no present intention to seek control".</li>
+    <li><b>A correction to the brief:</b> the new filing says nothing about the buyback. The "$12 million share repurchase program" is cited in the Nov 2025 13D. That programme was finished by 30 Jun 2026, and a second $10M programme authorised in May was used up in May.</li>
+    <li><b>Funding:</b> working capital. The filing notes that United Refining "regularly invests in securities" from its cash flow.</li>
+  </ul>
+  <div class="panel">
+    <h3>Every Catsimatidis purchase on file</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>When</th><th>What</th><th>Shares</th><th>Price</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td>Before 22 Sep 2025 (dates not disclosed)</td><td>Held before the first 13D's 60-day window</td><td class="num">160,763</td><td class="num">about $10.62 implied</td><td>13D cost total minus its listed trade; my arithmetic</td></tr>
+        <tr><td>14 Nov 2025</td><td>Open-market purchase, about 77% of the day's 2,212,700 shares</td><td class="num">1,711,272</td><td class="num">$4.58</td><td>13D, exhibit 99.1</td></tr>
+        <tr><td>21 Nov 2025</td><td>First Schedule 13D: 5.1% of 36,614,348 shares; cost $9,544,333</td><td class="num">1,872,035</td><td class="num">avg $5.10</td><td>13D; average is my arithmetic</td></tr>
+        <tr><td>22 Nov 2025 to about 19 Aug 2026 (dates not disclosed)</td><td>Purchases between the filings, each below the 1% trigger</td><td class="num">313,850</td><td class="num">$5.87 implied</td><td>Difference between the two filings; my arithmetic</td></tr>
+        <tr><td>15 Oct 2026</td><td>Open-market purchase</td><td class="num">449,500</td><td class="num">$4.07</td><td>13D/A, exhibit 99.1</td></tr>
+        <tr class="sum"><td>19 Oct 2026</td><td>13D/A No. 1: 7.8% of 33,615,293 shares; cost $13,216,097</td><td class="num">2,635,385</td><td class="num">avg $5.01</td><td>13D/A; average is my arithmetic</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Neither filing reports a sale. The listed prices are rounded averages, so the implied prices are close, not exact. The $10.62 is the interesting one: DIBS last closed above $10 on 1 Mar 2022 (Yahoo), so some of the first 160,763 shares must have been bought by then. Read that way, the group has held DIBS since 2021 or early 2022 (inference). The 14 Nov 2025 block: Sofina, which held 7,840,708 shares (8.6%) before the 2021 IPO, filed that it owned none by 14 Nov 2025 "following sales completed in October and November 2025". No filing names the seller to United Refining. The same date suggests a Sofina block but does not prove it.</p>
+  </div>
+  <div class="panel">
+    <h3>What the filings show about Catsimatidis as an investor</h3>
+    <ul>
+      <li><b>Turning Point Brands (NYSE: TPB).</b> TPB's 8-K of 22 Mar 2024 called Red Apple "a long-term Turning Point shareholder" and nominated John Catsimatidis Jr. to its board. He filed a Form 3 as a director in May 2024. His May 2026 Form 4 shows United Refining holding 400,000 TPB shares. The pattern is a long-held stake that leads to a board seat. At DIBS no seat has been asked for in any filing.</li>
+      <li><b>Gristedes Foods, 2004.</b> A going-private merger at $0.87 a share in cash by a company controlled by Catsimatidis, who was already Gristedes' chairman and chief executive (Schedule 13E-3, 10 Sep 2004). He has taken a company private before, but it was one he already ran.</li>
+      <li><b>United Refining Energy Corp, 2007 to 2009.</b> A blank-cheque company sponsored by United Refining. Its deal to merge with Chaparral Energy failed the shareholder vote and was ended on 11 Dec 2009 (8-K).</li>
+      <li><b>Premier Alliance Group (later root9B), 2012 to 2015.</b> Catsimatidis Sr. joined the board in July 2012 and received director options through Dec 2015 (8-K, Form 4s).</li>
+      <li><b>What is absent:</b> EDGAR full-text search finds no other Schedule 13D by these filers, apart from United Refining's 2009 13D on its own blank-cheque company. DIBS is the only 13D on file for the Catsimatidis Jr. filer account. I found no activist campaigns in the filings.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 2</small>What does it actually mean?</h2>
+  <p>A supportive holder is buying on dips, below his own average cost. It is not a control move. The business case his first filing made is half-delivered. Adjusted EBITDA has turned slightly positive, but the company still loses money under normal accounting (GAAP), sales growth is low single digits, and the buyback he cited has been spent.</p>
+  <div class="panel">
+    <h3>The business, last eight quarters ($ millions)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Quarter</th><th>GMV (y/y)</th><th>Net revenue (y/y)</th><th>Revenue / GMV</th><th>GAAP net loss</th><th>Adj. EBITDA</th></tr></thead>
+      <tbody>
+        <tr><td>Q3 2024</td><td class="num">84.6 (-5%)</td><td class="num">21.19 (+3%)</td><td class="num">25.0%</td><td class="num">-5.68</td><td class="num">-2.98</td></tr>
+        <tr><td>Q4 2024</td><td class="num">94.5 (+9%)</td><td class="num">22.77 (+9%)</td><td class="num">24.1%</td><td class="num">-5.21</td><td class="num">-1.64</td></tr>
+        <tr><td>Q1 2025</td><td class="num">94.7 (+3%)</td><td class="num">22.55 (+2%)</td><td class="num">23.8%</td><td class="num">-4.81</td><td class="num">-1.75</td></tr>
+        <tr><td>Q2 2025</td><td class="num">89.9 (-2%)</td><td class="num">22.14 (flat)</td><td class="num">24.6%</td><td class="num">-4.31</td><td class="num">-1.75</td></tr>
+        <tr><td>Q3 2025</td><td class="num">89.1 (+5%)</td><td class="num">21.97 (+4%)</td><td class="num">24.7%</td><td class="num">-3.51</td><td class="num">-0.24</td></tr>
+        <tr><td>Q4 2025</td><td class="num">90.2 (-5%)</td><td class="num">22.97 (+1%)</td><td class="num">25.5%</td><td class="num">-1.04</td><td class="num">+1.30</td></tr>
+        <tr><td>Q1 2026</td><td class="num">89.7 (-5%)</td><td class="num">22.39 (-1%)</td><td class="num">25.0%</td><td class="num">-2.17</td><td class="num">+0.55</td></tr>
+        <tr><td>Q2 2026</td><td class="num">96.0 (+7%)</td><td class="num">23.32 (+5%)</td><td class="num">24.3%</td><td class="num">-1.02</td><td class="num">+1.31</td></tr>
+        <tr class="sum"><td>Last four quarters</td><td class="num">365.0</td><td class="num">90.65</td><td class="num">24.8%</td><td class="num">-7.74</td><td class="num">+2.91</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">GMV (gross merchandise value, the total value of goods sold on the site), growth rates and adjusted EBITDA come from the company's quarterly releases. Revenue and net loss match the XBRL data. Revenue / GMV and the four-quarter totals are my arithmetic. The company does not publish a take rate: commissions run from 5% to 50% of GMV, and seller subscriptions were 21% of 2025 revenue (10-K). Adjusted EBITDA leaves out stock-based pay, which was $14.1M in 2025, or 15.7% of revenue (my arithmetic). Active buyers fell 10% y/y to about 58K in Q2 2026, and orders fell 4%. Q3 2026 guidance: GMV $89.0M to $94.0M (-0.1% to +5.5% y/y, my arithmetic), revenue $22.0M to $22.9M, adjusted EBITDA margin -1% to 2%.</p>
+  </div>
+  <p><b>Cash against market value.</b> At 30 Jun 2026 DIBS held $18.9M of cash and $48.8M of short-term investments, $67.7M in all, with no borrowings. Total liabilities were $36.6M, mostly leases ($16.4M) and money owed to sellers ($7.4M). At $4.25 the market value is $142.9M (my arithmetic). Cash is about 47% of that: $2.01 a share against a $4.25 price. The enterprise value (market value minus cash) is about $75M, or 0.83 times the last four quarters' revenue (my arithmetic). <b>This is not a stock trading near its cash.</b> Cash has fallen from $109.4M at 30 Sep 2024. About $29.4M of the drop went on buybacks (treasury stock at cost; my arithmetic), and $5.9M was moved into receivables when the payment-processor agreement changed (Q2 release footnote).</p>
+  <div class="panel">
+    <h3>The buyback: spent, and not renewed</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Programme</th><th>Authorised</th><th>Shares bought</th><th>Cost</th><th>Average</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>2025 programme, $12.0M</td><td>4 Nov 2025</td><td class="num">2,267,670</td><td class="num">$12.10M</td><td class="num">$5.33</td><td>Completed by 30 Jun 2026</td></tr>
+        <tr><td>2026 programme, $10.0M</td><td>11 May 2026</td><td class="num">2,189,896</td><td class="num">$10.20M</td><td class="num">$4.66</td><td>No funds left at 30 Jun 2026</td></tr>
+        <tr class="sum"><td>Since Nov 2025</td><td></td><td class="num">4,457,566</td><td class="num">$22.30M</td><td class="num">$5.00</td><td>Nothing new authorised in any filing since</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Costs come from the Q2 2026 10-Q treasury-stock table. Averages are my arithmetic. By month: 316,546 shares in Q4 2025, about 1.74M in Q1 2026 (my arithmetic from treasury stock), 119,773 in April at $5.47, 2,285,659 in May at $4.65, and none in June (10-Q). Shares outstanding fell from 36,614,348 (31 Oct 2025) to 33,615,293 (30 Jun and 31 Jul 2026), down 8.2%. May volume spiked on 18 May (1.41M shares) and 26 May (1.17M), which looks like block buying. The sellers are not disclosed. Earlier programmes: $25.4M in 2023 (including the June 2024 block bought from Insight Venture Partners at $5.2021) and $8.0M in 2024. The board has added a new programme each time the old one was nearly spent (Aug 2024, Nov 2025, May 2026), though not always quickly: in 2025 the company bought nothing from April to October. It is now nearly five months since the May programme ran out, and no new authorisation has been filed (my reading of the 8-Ks and the Q2 release).</p>
+  </div>
+  <div class="panel">
+    <h3>What a DIBS share has cost each disclosed buyer</h3>
+    <div class="legend"><span><i style="background:var(--s2)"></i>Paid by a disclosed buyer</span><span><i style="background:var(--pos)"></i>Market and reference values</span></div>
+    <div class="bars" id="magBars"></div>
+    <div class="axis"><div></div><div class="ticks" id="magTicks"></div></div>
+    <p class="note">Every buyer who has had to disclose a price since mid-2024 paid more than today's $4.25, except Catsimatidis on 15 Oct. Cash covers less than half the price.</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="magTable"><thead><tr><th>Line</th><th>USD per share</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+  <div class="panel">
+    <h3>Who else owns it: every 13D and 13G on file since 2024</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Holder</th><th>Latest filing</th><th>Shares</th><th>% then</th><th>% of 33.6M</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Benchmark Capital funds</td><td>13G/A, 14 Feb 2025</td><td class="num">7,307,832</td><td class="num">20.1% (proxy)</td><td class="num">21.7%</td><td>Pre-IPO venture holder; partner Matt Cohler is a director. Passive filing.</td></tr>
+        <tr><td>David Rosenblatt (CEO) and family trusts</td><td>13G/A, 14 Aug 2026</td><td class="num">3,701,802 + 735,302</td><td class="num">10.5% + 2.2%</td><td class="num">n/a</td><td>His own count includes options. Passive filing.</td></tr>
+        <tr><td>Beck, Mack &amp; Oliver</td><td>13G, 7 Nov 2024</td><td class="num">3,299,981</td><td class="num">8.3%</td><td class="num">9.8%</td><td>Client accounts; no amendment since. The 2026 proxy still lists it at 9.07%.</td></tr>
+        <tr><td>United Refining / Red Apple (Catsimatidis)</td><td>13D/A, 19 Oct 2026</td><td class="num">2,635,385</td><td class="num">7.8%</td><td class="num">7.8%</td><td>13D, so not a passive filing, but no control plan stated</td></tr>
+        <tr><td>Kanen Wealth Management / Philotimo</td><td>13G, 6 Feb 2026</td><td class="num">1,936,801</td><td class="num">5.3%</td><td class="num">5.8%</td><td>Passive filing (Rule 13d-1(c))</td></tr>
+        <tr><td>Sofina</td><td>13G, 15 Jan 2026</td><td class="num">0</td><td class="num">0.0%</td><td class="num">0</td><td>Late filing; sold out in Oct and Nov 2025</td></tr>
+        <tr><td>Insight Venture Partners</td><td>13G/A, 6 Jun 2024</td><td class="num">0</td><td class="num">0.0%</td><td class="num">0</td><td>Sold 2,982,446 shares back to the company at $5.2021 (8-K, 6 Jun 2024)</td></tr>
+        <tr><td>Foxhaven Asset Management</td><td>13G/A, 14 Feb 2024</td><td class="num">1,949,726</td><td class="num">n/a</td><td class="num">n/a</td><td>No later filing; not among the over-5% holders in the Mar 2026 proxy</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">"% of 33.6M" applies each holder's last filed share count to today's share count (my arithmetic). Several counts are old, so treat them as a rough guide. Benchmark, Rosenblatt (shares only, no options), Beck Mack, Kanen and Red Apple together hold about 54% (my arithmetic). Benchmark's stake equals about 86 days of the recent median dollar volume (my arithmetic). It is the largest block that could still come to market.</p>
+  </div>
+  <div class="panel">
+    <h3>Insider buying and selling, 20 Oct 2025 to 19 Oct 2026</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Date</th><th>Who</th><th>Trade</th><th>Shares</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td>12 May 2026</td><td>2012 David Rosenblatt Family Trust (CEO, indirect)</td><td>Open-market buy</td><td class="num">47,500</td><td class="num">about $4.51 (about $214k)</td></tr>
+        <tr><td>9 to 17 Mar 2026</td><td>Melanie Goins, General Counsel</td><td>Open-market sale under a 10b5-1 plan</td><td class="num">15,000</td><td class="num">$5.50 to $5.52 (about $83k)</td></tr>
+        <tr><td>23 Oct 2025</td><td>Matthew Rubinger, officer</td><td>Form 144 notice of sale only; no Form 4 found</td><td class="num">14,417</td><td class="num">about $43.6k market value</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Everything else in the year is routine: restricted stock vesting, shares withheld for tax, and director grants. The CEO's 24 Nov 2025 Form 4 is coded as a sale of 595,071 shares at $5.09. The footnote says those shares were withheld by the company to pay the exercise price and tax on 666,666 options at $3.87. None were sold in the market, and the December rows coded "S" are tax withholding too. Weighted prices and totals are my arithmetic. Net: one small insider buy below $4.55 and one small planned sale near $5.50.</p>
+  </div>
+  <div class="panel">
+    <h3>Any sign of a take-private or strategic interest? Not in the filings</h3>
+    <ul>
+      <li>The Catsimatidis Item 4 says there is "no present intention to seek control", and the 13D/A leaves it unchanged. It backs management's plan, including "evaluation of current and future inorganic growth opportunities", which means 1stDibs buying things, not being bought.</li>
+      <li>DIBS's filing list since 2024 has no merger proxy, no tender offer, no going-private schedule (13E-3) and no merger agreement. The only material-agreement 8-K was the Insight share buyback in June 2024.</li>
+      <li>"Strategic alternative expenses" were $0 in 2025, $77k in 2024 and $1.06M in 2023 (10-K FY2025). The company's definition covers capital-return work as well as mergers, so even the 2023 figure does not prove a sale process.</li>
+      <li>Defences: the board is staggered into three classes (10-K risk factors). Any bidder would face a register where about half the shares sit with five holders, one of whom has just restated his support for management.</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h3>The reaction against controls (close-to-close)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Window</th><th>DIBS</th><th>IWM</th><th>XRT</th><th>IBUY</th><th>ETSY</th><th>REAL</th><th>EBAY</th></tr></thead>
+      <tbody>
+        <tr><td>15 Oct, the buy day</td><td class="num">+8.2%</td><td class="num">+1.4%</td><td class="num">+3.7%</td><td class="num">+4.0%</td><td class="num">+7.5%</td><td class="num">+15.8%</td><td class="num">+5.2%</td></tr>
+        <tr><td>14 Oct to 19 Oct</td><td class="num">+7.6%</td><td class="num">0.0%</td><td class="num">+2.5%</td><td class="num">+2.6%</td><td class="num">+2.8%</td><td class="num">+14.3%</td><td class="num">+3.1%</td></tr>
+        <tr><td>12 Oct (low close) to 19 Oct</td><td class="num">+15.8%</td><td class="num">-2.4%</td><td class="num">+3.2%</td><td class="num">+2.3%</td><td class="num">+10.8%</td><td class="num">+7.3%</td><td class="num">+5.1%</td></tr>
+        <tr><td>29 May (buyback done) to 12 Oct</td><td class="num">-18.8%</td><td class="num">-4.3%</td><td class="num">+0.2%</td><td class="num">+2.6%</td><td class="num">+13.3%</td><td class="num">+0.5%</td><td class="num">+4.9%</td></tr>
+        <tr><td>One year to 19 Oct</td><td class="num">+53.4%</td><td class="num">+9.3%</td><td class="num">+2.4%</td><td class="num">-5.5%</td><td class="num">+19.5%</td><td class="num">-11.2%</td><td class="num">+25.9%</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Controls: IWM (small caps), XRT (US retail) and IBUY (online retail ETF), plus three listed online marketplaces: Etsy, The RealReal (the closest match, a luxury resale marketplace) and eBay. All are much larger than DIBS, and no listed peer matches its size. Yahoo daily closes, my arithmetic. The whole online-retail group rose on 15 Oct (cause not checked), so DIBS's gain that day was below the three-peer average of +9.5%. Since 14 Oct it is about 5 points ahead of IBUY and about 1 point ahead of the peer average. The filing itself was published after Monday's close, so today's open (14:30 UK) is the first trade that reflects it. Yahoo showed no pre-market trades at the time of writing.</p>
+  </div>
+  <p><b>The sleeper point:</b> the buyer has changed. From November to May the company spent $22.3M buying 4.46M of its own shares, about 12% of the company. In May alone it bought about 2.3M shares. Then the money ran out. From the 29 May close to the 12 Oct low the stock fell 18.8%, while the online-retail ETF rose 2.6%. The next big buyer to appear in a filing is Catsimatidis, at $4.07, for 69% of a day's trading. His bid now matters more than the company's, but nothing obliges him to keep making it.</p>
+</section>
+
+<section>
+  <h2><small>Rung 3</small>Who wins and who loses?</h2>
+  <div class="panel">
+    <h3>Impact of the 7.8% filing, scored -5 to +5 (judgement, reasons below each bar)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Gains</span><span><i style="background:var(--neg)"></i>Loses</span></div>
+    <div class="bars" id="divBars"></div>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="divTable"><thead><tr><th>Who</th><th>Score</th><th>Why</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 4</small>What could happen next?</h2>
+  <div class="scen">
+    <div class="s"><b>Base: a patient holder, and a stock that trades on its results</b><span>Catsimatidis keeps the stake and adds now and then below the 1% amendment line, as he did between Nov 2025 and Aug 2026. The price then moves on Q3 results. Each of the last four results days moved it hard: +15.5% (7 Nov 2025), -14.1% (27 Feb 2026), -4.0% (8 May 2026) and +12.8% (5 Aug 2026), against IBUY moves of +2.7%, +0.1%, -2.2% and -0.8%. Anchor: Q3 guidance of GMV $89M to $94M and an adjusted EBITDA margin of -1% to 2%.</span></div>
+    <div class="s"><b>Bull: the company starts buying again, or a block finds a home</b><span>The board has replaced each spent buyback so far. A new authorisation with the Q3 release would put the company's bid back next to his. A Benchmark block sold to a long-term holder, as Insight's was sold to the company at $5.2021 in June 2024, would remove the biggest overhang. Anchor: the 8-Ks of Aug 2024, Nov 2025 and May 2026, and the June 2024 Insight agreement.</span></div>
+    <div class="s"><b>Bear: no buyback, flat growth, thin trading</b><span>With no buyback, GMV at the low end of guidance, and stock-based pay still around 13% to 16% of revenue, the stock repeats its June to October drift. Anchor: -18.8% from 29 May to 12 Oct against IBUY +2.6%. The low close in that slide was $3.67.</span></div>
+    <div class="s"><b>Takeover: possible, but nothing in the filings points to it</b><span>Catsimatidis has taken a company private before (Gristedes, 2004), but he already controlled it. Here Item 4 rules out a control plan for now, there is no strategic review, and the board is staggered. It would take an amended Item 4 to make this a live scenario. Anchor: the Nov 2025 13D, unchanged on 19 Oct 2026.</span></div>
+  </div>
+  <p><b>Next results:</b> Q3 2026. The date is not yet announced in any release or filing I found. Last year's Q3 came on 7 Nov 2025, with the date announced on 14 Oct. DIBS is a non-accelerated filer, so the 10-Q is due within 45 days, by Mon 16 Nov 2026 (my arithmetic).</p>
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>An 8-K with a new buyback authorisation, most likely alongside the Q3 release.</li>
+    <li>Any 13D/A from United Refining, especially one that amends Item 4 or reports a sale.</li>
+    <li>A Benchmark, Beck Mack or Kanen 13G/A showing a lower stake. That would identify who has been selling the blocks.</li>
+    <li>Q3 GMV against the $89M to $94M range, and whether operating cash flow turns positive once the $5.9M reclassification is excluded.</li>
+    <li>Today's open: how much of the filing the price already reflects after the 15 Oct move.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Verdict</small>WATCH</h2>
+  <div class="verdict">
+    <p><b>Why WATCH and not more:</b> this is a supportive holder adding below his average cost. It is not a takeover signal, and the stock is not a cash box: price is about 2.1 times cash per share. The company's buyback, which absorbed blocks in the first half of 2026, has stopped. From the 14 Oct close, before the buy, the stock is up 7.6%, about 5 points ahead of the online-retail ETF. Some of that came on a day when the whole group rallied.</p>
+    <p><b>What would make the case stronger:</b> a new buyback authorisation, Q3 GMV at or above $94M with positive operating cash flow, or a 13D/A that changes Item 4 or adds a board seat. <b>What would make it AVOID:</b> Q3 GMV below $89M or adjusted EBITDA margin below -1%, any sale by United Refining, or a large holder selling into the market rather than to a buyer. Review on the Q3 release, due by 16 Nov.</p>
+    <p class="note">Method checks: primary filings read (13D/A and exhibit, the original 13D, 10-K FY2025, 10-Q Q1 and Q2 2026, eight quarterly releases, buyback 8-Ks, 2026 proxy, every 13G and Form 4 for the period). Controls: IWM, XRT, IBUY, ETSY, REAL and EBAY, all close-to-close. Liquidity: 20-day median dollar volume $360k (22 Sep to 19 Oct; my arithmetic), above the house $250k floor. Gates: G4 (verifiable) and G5 (tradeable) pass; G3 (already run) is flagged, at +53% over a year against SPY +14% though 36% below the Dec 2025 high of $6.625. The 0-10 supply-chain card does not apply to an ownership filing. Long-term gates, for reference: LT2 passes (no debt, $67.7M cash), LT3 passes (share count down 8.2% since Oct 2025), LT5 fails ($0.36M a day against $5M). Not logged in the ledger as part of this page.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Draft post</small>Caption</h2>
+  <div class="caption">1stDibs spent $22.3M buying back 4.46M of its own shares between November and May. Then the money ran out, and by mid-October the stock had fallen 19% while online retail rose. The next big buyer to show up in a filing is John Catsimatidis: on 15 Oct his refiner bought 449,500 shares at $4.07, about 69% of the day's volume, taking his stake to 7.8%. His average cost is $5.01. But the filing still says he has no plan to seek control, and cash is $2.01 a share against a $4.25 price. A friendly holder, not a takeover.</div>
+</section>
+
+<footer>
+  <div><b>Sources</b></div>
+  <ol>
+    <li>United Refining / Red Apple Schedule 13D/A No. 1, filed 19 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000110465926116935/0001104659-26-116935-index.htm">index</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000110465926116935/tm2627743d1_ex99-1.htm">exhibit 99.1</a></li>
+    <li>Original Schedule 13D, filed 21 Nov 2025 (Item 4 purpose; 14 Nov 2025 trade): <a href="https://www.sec.gov/Archives/edgar/data/1600641/000110465925115101/0001104659-25-115101-index.htm">index</a></li>
+    <li>1stDibs 10-Q for Q2 2026 (buyback tables, share count): <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000035/dibs-20260630.htm">10-Q</a>; 10-Q for Q1 2026: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000019/dibs-20260331.htm">10-Q</a>; 10-K FY2025: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000007/dibs-20251231.htm">10-K</a></li>
+    <li>Quarterly releases (exhibit 99.1): <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064124000192/ex991q3fy24earningsrelease.htm">Q3 2024</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064125000007/ex991q4fy24earningsrelease.htm">Q4 2024</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064125000055/ex991q1fy25earningsrelease.htm">Q1 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064125000109/ex991q2fy25earningsrelease.htm">Q2 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064125000128/ex991q3fy25earningsrelease.htm">Q3 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000004/ex991q4fy25earningsrelease.htm">Q4 2025</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000017/ex991q1fy26earningsrelease.htm">Q1 2026</a>, <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000032/ex991q2fy26earningsrelease.htm">Q2 2026</a></li>
+    <li>SEC XBRL company facts, CIK 1600641: <a href="https://data.sec.gov/api/xbrl/companyfacts/CIK0001600641.json">companyfacts</a></li>
+    <li>Buyback 8-Ks: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064125000128/quarterly-20251104.htm">$12M, Nov 2025</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000024/quarterly-20260511.htm">$10M, May 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064124000099/q1-20240603.htm">Insight repurchase, Jun 2024</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064124000157/q1-20240820.htm">$10M, Aug 2024</a></li>
+    <li>2026 proxy statement (ownership table at 10 Mar 2026): <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000011/dibs-20260326.htm">DEF 14A</a>; investor presentation 2 Sep 2026: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000160064126000040/final_roadmapreviewx2026.htm">exhibit 99.1</a></li>
+    <li>13G filings: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000110465925014101/0001104659-25-014101-index.htm">Benchmark, Feb 2025</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000123786026000016/0001237860-26-000016-index.htm">Rosenblatt, Aug 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000001074224000016/0000010742-24-000016-index.htm">Beck Mack &amp; Oliver, Nov 2024</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000168852226000001/0001688522-26-000001-index.htm">Kanen / Philotimo, Feb 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000210392126000001/0002103921-26-000001-index.htm">Sofina, Jan 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000089914024000653/0000899140-24-000653-index.htm">Insight, Jun 2024</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000117266124001488/0001172661-24-001488-index.htm">Foxhaven, Feb 2024</a></li>
+    <li>Form 4s and 144s: <a href="https://www.sec.gov/Archives/edgar/data/1600641/000123786026000008/0001237860-26-000008-index.htm">Rosenblatt trust buy, 13 May 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000123786025000007/0001237860-25-000007-index.htm">Rosenblatt net exercise, 26 Nov 2025</a>; Goins <a href="https://www.sec.gov/Archives/edgar/data/1600641/000177587726000002/0001775877-26-000002-index.htm">11 Mar</a> and <a href="https://www.sec.gov/Archives/edgar/data/1600641/000177587726000004/0001775877-26-000004-index.htm">17 Mar 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1600641/000195917325006537/0001959173-25-006537-index.htm">Rubinger Form 144, 23 Oct 2025</a>; all other Forms 4 on the DIBS filing list from Sep 2025 to Sep 2026</li>
+    <li>Catsimatidis history: <a href="https://www.sec.gov/Archives/edgar/data/1290677/000114036124014786/0001140361-24-014786-index.htm">TPB 8-K, 22 Mar 2024</a>; <a href="https://www.sec.gov/Archives/edgar/data/2022852/000143774926016828/0001437749-26-016828-index.htm">Catsimatidis Jr. TPB Form 4, 13 May 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/28325/000116923204004862/0001169232-04-004862-index.htm">Gristedes 13E-3, 10 Sep 2004</a>; <a href="https://www.sec.gov/Archives/edgar/data/1405037/000119312509251718/0001193125-09-251718-index.htm">United Refining Energy 13D, Dec 2009</a> and <a href="https://www.sec.gov/Archives/edgar/data/1405037/000119312509254991/d8k.htm">8-K, 17 Dec 2009</a>; <a href="https://www.sec.gov/Archives/edgar/data/1272550/000127255012000059/0001272550-12-000059-index.htm">Premier Alliance 8-K, Aug 2012</a>; EDGAR full-text search for "Red Apple Group", "United Refining, Inc." and "Catsimatidis"</li>
+    <li>Results-date precedent: <a href="https://www.businesswire.com/news/home/20251014752297/en/1stDibs-to-Announce-Third-Quarter-2025-Financial-Results-on-November-7-2025">Business Wire, 14 Oct 2025</a>; <a href="https://secure.businesswire.com/news/home/20260714787430/en/1stDibs-to-Announce-Second-Quarter-2026-Financial-Results-on-Wednesday-August-5-2026">Business Wire, 14 Jul 2026</a></li>
+    <li>Prices and volume: Yahoo Finance daily bars for DIBS, IWM, XRT, IBUY, ETSY, REAL, EBAY and SPY, Oct 2024 to 19 Oct 2026; DIBS history from Jun 2021</li>
+  </ol>
+  <div class="note">Not investment advice. Figures marked as arithmetic or implied are mine from the cited inputs; inferences are labelled. Impact scores are judgement.</div>
+</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const mag = [
+  {lbl: "Cash and short-term investments per share, 30 Jun 2026", v: 2.01, k: "ref", src: "$67.7M / 33,615,293 shares, 10-Q; my arithmetic"},
+  {lbl: "Catsimatidis buy, 15 Oct 2026", v: 4.07, k: "pay", src: "13D/A exhibit 99.1, weighted average with commissions"},
+  {lbl: "Market close, 19 Oct 2026", v: 4.25, k: "ref", src: "Yahoo close"},
+  {lbl: "CEO's family trust buy, 12 May 2026", v: 4.51, k: "pay", src: "Form 4, three lots of 47,500 shares; weighted average my arithmetic"},
+  {lbl: "Catsimatidis block, 14 Nov 2025", v: 4.58, k: "pay", src: "13D exhibit 99.1"},
+  {lbl: "Company buyback, May 2026 programme", v: 4.66, k: "pay", src: "$10.2M / 2,189,896 shares, 10-Q; my arithmetic"},
+  {lbl: "Catsimatidis average cost, all shares", v: 5.01, k: "pay", src: "$13,216,097 / 2,635,385, 13D/A; my arithmetic"},
+  {lbl: "Company bought Insight's block, Jun 2024", v: 5.23, k: "pay", src: "8-K 6 Jun 2024: $5.2021 plus $0.025 commission"},
+  {lbl: "Company buyback, Nov 2025 programme", v: 5.33, k: "pay", src: "$12.095M / 2,267,670 shares, 10-Q; my arithmetic"},
+  {lbl: "Catsimatidis adds, Nov 2025 to Aug 2026 (implied)", v: 5.87, k: "pay", src: "Difference between the 13D and 13D/A totals; dates not disclosed; my arithmetic"},
+  {lbl: "52-week high, 3 Dec 2025 (intraday)", v: 6.625, k: "ref", src: "Yahoo"}
+];
+const impact = [
+  {lbl: "Management and the board", s: 2, why: "A 7.8% holder who has said he backs them; with a staggered board, an unfriendly push gets harder"},
+  {lbl: "Long-term DIBS holders", s: 2, why: "A deep-pocketed holder buying dips below his own cost; with the buyback spent, his is the disclosed bid"},
+  {lbl: "Benchmark Capital (about 21.7%)", s: 2, why: "A buyer who takes blocks (77% and 69% of the day's volume) is a possible exit for the last big venture holder (inference)"},
+  {lbl: "United Refining / Red Apple", s: 1, why: "Adds at $4.07, below its $5.01 average; still about $2.0M under water at $4.25 (my arithmetic)"},
+  {lbl: "Online marketplace peers (ETSY, REAL, EBAY)", s: 0, why: "No link; they rose on 15 Oct for their own reasons"},
+  {lbl: "Holders hoping for a takeover", s: -1, why: "Item 4 still says no plan to seek control; the amendment left it alone"},
+  {lbl: "A future outside bidder", s: -1, why: "About 54% sits with five holders, one a declared supporter of management (my arithmetic on filed counts)"},
+  {lbl: "Buyers chasing the filing today", s: -2, why: "Up 15.8% from the 12 Oct low, no buyback left, and about $360k a day of trading"}
+];
+const max = 7;
+const fmt = v => "$" + (Math.round(v * 1000) % 10 ? v.toFixed(3) : v.toFixed(2));
+const tip = document.getElementById("tip");
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = e.target.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 300)) + "px"; tip.style.top = (r.bottom + 8) + "px"; }
+function hideTip() { tip.hidden = true; }
+const mb = document.getElementById("magBars"), mt = document.querySelector("#magTable tbody");
+mag.forEach(d => {
+  const row = document.createElement("div"); row.className = "bar-row";
+  const pct = d.v / max * 100;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><div class="fill hit" tabindex="0" style="width:${pct}%;background:${d.k === "pay" ? "var(--s2)" : "var(--pos)"}"></div><span class="val" style="left:${pct}%">${fmt(d.v)}</span></div>`;
+  const f = row.querySelector(".fill");
+  const html = `<b>${d.lbl}</b><br>${fmt(d.v)} per share<br><span style="color:var(--muted)">${d.src}</span>`;
+  f.addEventListener("mouseenter", e => showTip(e, html)); f.addEventListener("focus", e => showTip(e, html));
+  f.addEventListener("mouseleave", hideTip); f.addEventListener("blur", hideTip);
+  mb.appendChild(row);
+  mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${fmt(d.v)}</td><td>${d.src}</td></tr>`);
+});
+const ticks = document.getElementById("magTicks");
+[0, 1, 2, 3, 4, 5, 6].forEach(t => ticks.insertAdjacentHTML("beforeend", `<span style="left:${t / max * 100}%">$${t}</span>`));
+const db = document.getElementById("divBars"), dt = document.querySelector("#divTable tbody");
+impact.forEach(d => {
+  const row = document.createElement("div"); row.className = "div-row";
+  const w = Math.abs(d.s) / 5 * 50;
+  const cls = d.s >= 0 ? "pos" : "neg";
+  const vpos = d.s >= 0 ? `left:calc(50% + ${w}% + 6px)` : `right:calc(50% + ${w}% + 6px)`;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="dtrack"><div class="seg ${cls} hit" tabindex="0" style="width:${w}%"></div><span class="v" style="${vpos}">${d.s > 0 ? "+" : ""}${d.s}</span></div><div class="why">${d.why}</div>`;
+  const s = row.querySelector(".seg");
+  const html = `<b>${d.lbl}</b><br>Score ${d.s > 0 ? "+" : ""}${d.s}<br>${d.why}`;
+  s.addEventListener("mouseenter", e => showTip(e, html)); s.addEventListener("focus", e => showTip(e, html));
+  s.addEventListener("mouseleave", hideTip); s.addEventListener("blur", hideTip);
+  db.appendChild(row);
+  dt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${d.s > 0 ? "+" : ""}${d.s}</td><td>${d.why}</td></tr>`);
+});
+</script>
