@@ -33,36 +33,64 @@ def daily(ticker="NQ=F", rng="5y"):
     return rows
 
 
+def completed(rows, now_utc):
+    """Drop today's bar while the session is still trading (CME daily bar closes ~21:00 UTC)."""
+    if rows and rows[-1][0] == now_utc.date() and now_utc.hour < 21:
+        return rows[:-1]
+    return rows
+
+
+def label(state, rates, base):
+    """Rule 2026-10-20: the label comes from measured rates, not from a percentile.
+    ELEVATED only when the measured big-day rate after a 75th-90th percentile day beats the base rate."""
+    if state == "big":
+        return "EXPANSION LIKELY"
+    p_high = rates["high"][0]
+    if state == "high" and p_high is not None and p_high > base:
+        return "ELEVATED"
+    return "NORMAL"
+
+
+def measure(rows):
+    """Big day = range in the top 10% of the trailing 252 sessions. Each day is 'big', 'high'
+    (75th percentile up to big) or 'normal'; rates are P(next day big) after each state."""
+    rng = [None] + [(rows[i][1] - rows[i][2]) / rows[i - 1][3] * 100 for i in range(1, len(rows))]
+    big, state, pctile = [None] * len(rows), [None] * len(rows), [None] * len(rows)
+    for i in range(253, len(rows)):
+        prior = rng[i - 252:i]
+        window = sorted(prior)
+        big[i] = rng[i] >= window[int(0.9 * 252)]
+        pctile[i] = sum(x <= rng[i] for x in prior) / 252 * 100
+        state[i] = "big" if big[i] else ("high" if pctile[i] >= 75 else "normal")
+    pairs = [(state[i - 1], big[i]) for i in range(254, len(rows))]
+    base = sum(b for _, b in pairs) / len(pairs)
+    rates = {}
+    for s in ("big", "high", "normal"):
+        after = [b for p, b in pairs if p == s]
+        rates[s] = (sum(after) / len(after) if after else None, len(after))
+    last = state[-1]
+    return {"last_day": rows[-1][0], "last_range_pct": rng[-1], "last_pctile": pctile[-1],
+            "state": last, "base": base, "rates": rates, "pairs": len(pairs),
+            "p_next": rates[last][0], "label": label(last, rates, base)}
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    rows = daily()
-    now = datetime.now(timezone.utc)
-    if rows[-1][0] == now.date() and now.hour < 21:   # session still trading (CME daily bar closes ~21:00 UTC)
-        rows = rows[:-1]
-    rng =[None] + [(rows[i][1] - rows[i][2]) / rows[i - 1][3] * 100 for i in range(1, len(rows))]
-    big = [None] * len(rows)
-    for i in range(253, len(rows)):
-        window = sorted(rng[i - 252:i])
-        big[i] = rng[i] >= window[int(0.9 * 252)]
-    pairs = [(big[i - 1], big[i]) for i in range(254, len(rows))]
-    base = sum(b for _, b in pairs) / len(pairs)
-    after_big = [b for p, b in pairs if p]
-    after_quiet = [b for p, b in pairs if not p]
-    p_big = sum(after_big) / len(after_big)
-    p_quiet = sum(after_quiet) / len(after_quiet)
+    m = measure(completed(daily(), datetime.now(timezone.utc)))
+    last_day, last_rng, pct = m["last_day"], m["last_range_pct"], m["last_pctile"]
+    last_big, base, p_next, rates = m["state"] == "big", m["base"], m["p_next"], m["rates"]
 
-    last_day, last_rng, last_big = rows[-1][0], rng[-1], big[-1]
-    pct = sum(x <= last_rng for x in rng[-253:-1]) / 252 * 100
-    p_next = p_big if last_big else p_quiet
-    verdict = "EXPANSION LIKELY" if last_big else ("ELEVATED" if pct >= 75 else "NORMAL")
+    def rate(s):
+        p, n = rates[s]
+        return f"{p*100:.0f}% (n={n})" if p is not None else f"n/a (n={n})"
 
     lines = [f"# NQ regime: {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC", "",
              f"Last session **{last_day}**: range **{last_rng:.2f}%** of prior close, "
              f"{pct:.0f}th percentile of the past year. Big day: **{'YES' if last_big else 'no'}**.", "",
-             f"**Next session: {verdict}.** P(big day) = **{p_next*100:.0f}%** vs a {base*100:.0f}% base rate "
+             f"**Next session: {m['label']}.** P(big day) = **{p_next*100:.0f}%** vs a {base*100:.0f}% base rate "
              f"({p_next/base:.1f}x).", "",
-             f"Measured on {len(pairs)} sessions: after a big day {p_big*100:.0f}% (n={len(after_big)}), "
-             f"after a non-big day {p_quiet*100:.0f}% (n={len(after_quiet)}).", "",
+             f"Measured on {m['pairs']} sessions: after a big day {rate('big')}, after a 75th-90th percentile day "
+             f"{rate('high')}, after any other day {rate('normal')}.", "",
              "Timing (from research): the largest moves cluster 09:00-11:00 ET = **14:00-16:00 UK**. "
              "Direction is NOT predicted, only the size and timing."]
     out = ROOT / "watch" / "nq_regime.md"
