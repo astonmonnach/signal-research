@@ -1,0 +1,482 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aurora Hostile Bid</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column with full-width chart panels; a filing-style ledger feel (offer terms, conditions, holder notes, dated scenarios). */
+:root {
+  --text: #0b0b0b; --text-2: #52514e; --muted: #898781;
+  --surface: #fcfcfb; --page: #f9f9f7; --grid: #e1e0d9; --baseline: #c3c2b7;
+  --pos: #2a78d6; --neg: #e34948; --zero: #f0efec; --s2: #eb6834;
+  --border: rgba(11,11,11,.10);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+    --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+    --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+    --border: rgba(255,255,255,.10); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+  --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+  --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+  --border: rgba(255,255,255,.10); color-scheme: dark;
+}
+body { background: var(--page); color: var(--text); font-family: var(--f-body); font-size: 15px; line-height: 1.6; margin: 0; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 32px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 36px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.12; margin: 0; text-wrap: balance; }
+.thesis { font-size: 17px; color: var(--text-2); margin: 0; max-width: 64ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--grid); border: 1px solid var(--grid); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.fact b { font-family: var(--f-mono); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.fact span { font-size: 12.5px; color: var(--text-2); }
+section { display: grid; gap: 14px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 23px; margin: 0; text-wrap: balance; }
+h2 small { display: block; font-family: var(--f-mono); font-size: 11.5px; font-weight: 400; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+h3.sub { font-size: 16px; font-weight: 600; margin: 8px 0 0; }
+p { margin: 0; max-width: 66ch; }
+ul, ol.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 66ch; }
+.note { font-size: 13px; color: var(--muted); }
+.mine { font-size: 12px; color: var(--muted); font-style: italic; }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--text-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.legend i.ln { height: 2px; width: 16px; border-radius: 1px; vertical-align: 3px; }
+/* magnitude chart */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 230px) 1fr; gap: 10px; align-items: center; }
+.bar-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.track { position: relative; height: 22px; }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; }
+.track .val { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12.5px; color: var(--text); padding-left: 6px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.axis { display: grid; grid-template-columns: minmax(120px, 230px) 1fr; gap: 10px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--baseline); }
+.axis .ticks span { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+/* diverging chart */
+.div-row { display: grid; grid-template-columns: minmax(130px, 220px) 1fr; gap: 10px; align-items: center; }
+.div-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.dtrack { position: relative; height: 22px; background: linear-gradient(to right, transparent calc(50% - 1px), var(--baseline) calc(50% - 1px), var(--baseline) calc(50% + 1px), transparent calc(50% + 1px)); }
+.dtrack .seg { position: absolute; top: 2px; bottom: 2px; }
+.dtrack .seg.pos { left: 50%; background: var(--pos); border-radius: 0 4px 4px 0; }
+.dtrack .seg.neg { right: 50%; background: var(--neg); border-radius: 4px 0 0 4px; }
+.dtrack .seg.zero { left: calc(50% - 4px); width: 8px !important; background: var(--zero); border: 1px solid var(--baseline); border-radius: 4px; }
+.dtrack .v { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12px; color: var(--text); font-variant-numeric: tabular-nums; }
+.why { grid-column: 2; font-size: 12.5px; color: var(--muted); margin-top: -4px; }
+/* line chart */
+.linewrap { position: relative; width: 100%; min-width: 0; }
+.linewrap svg { display: block; width: 100%; height: auto; overflow: visible; }
+.linewrap text { font-family: var(--f-mono); font-size: 11px; fill: var(--muted); }
+.linewrap text.end { font-size: 12px; fill: var(--text); }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12.5px; max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.hit { cursor: default; }
+.hit:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 520px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12.5px; }
+td.num, th.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+tr.hl td { background: var(--zero); }
+.scen { display: grid; gap: 12px; }
+.scen .s { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.scen .s b { font-size: 14px; }
+.verdict { border-left: 3px solid var(--s2); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+details summary { cursor: pointer; color: var(--text-2); font-size: 13px; }
+footer { display: grid; gap: 10px; font-size: 12.5px; color: var(--text-2); border-top: 1px solid var(--grid); padding-top: 18px; }
+footer ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; word-break: break-word; }
+footer a { color: var(--text-2); }
+.caption { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-size: 14px; }
+@media (max-width: 520px) {
+  .bar-row, .axis, .div-row { grid-template-columns: 1fr; gap: 4px; }
+  .axis .ticks { grid-column: 1; }
+  .axis > div:first-child { display: none; }
+  .why { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { .fill, .seg { transition: width .4s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Signal Lab deep dive · ACB / CURA · Tue 20 Oct 2026</div>
+  <h1>Curaleaf's "$5" bid for Aurora is worth $4.06, and the stock is 10 cents below it</h1>
+  <p class="thesis">Curaleaf's hostile offer is US$1.00 cash plus 0.4013 of a Curaleaf share for each Aurora share. The "$5.00" headline used Curaleaf's price on 2 Oct. Curaleaf has fallen 23% since then, so the offer is now worth about $4.06 against Aurora's $3.96 close. Aurora's board says reject and is talking to other parties under standstill. No other bidder has been named, and the offer has no floor.</p>
+  <div class="facts" aria-label="Key figures">
+    <div class="fact"><b>$4.06</b><span>Offer value at CURLF's 19 Oct close of $7.63 (my arithmetic)</span></div>
+    <div class="fact"><b>$3.96</b><span>ACB close, Mon 19 Oct (Nasdaq)</span></div>
+    <div class="fact"><b>2.6%</b><span>Gross gap to the offer, before any costs (my arithmetic)</span></div>
+    <div class="fact"><b>4 Dec</b><span>Expiry, 11:59 pm Mountain (06:59 Sat 5 Dec, UK time)</span></div>
+  </div>
+</header>
+
+<section>
+  <h2><small>Rung 1</small>What is it?</h2>
+  <p>Curaleaf Holdings (TSX: CURA, OTCQX: CURLF), a US multi-state cannabis operator, made an unsolicited take-over bid for all of Aurora Cannabis (Nasdaq and TSX: ACB) on 18 Aug 2026. The first terms were US$0.75 cash plus 0.3463 of a Curaleaf share, capped at US$5.00. On 5 Oct Curaleaf raised the bid, and on 6 Oct it filed the Notice of Variation: <b>US$1.00 cash plus 0.4013 of a Curaleaf subordinate voting share per Aurora share, capped at US$6.00</b>, open until <b>11:59 pm Mountain Time on Fri 4 Dec 2026</b>. Aurora's board, on the unanimous advice of a special committee, rejected the revised bid on 14 Oct. Curaleaf hit back in a release on 19 Oct. Curaleaf owned no Aurora shares when it launched the bid.</p>
+
+  <h3 class="sub">How the price and the cap work</h3>
+  <ul>
+    <li><b>Below the cap, the share count is fixed.</b> You get 0.4013 Curaleaf shares whatever Curaleaf trades at. There is no floor or collar. Aurora's adviser points out that "the Offer provides no corresponding adjustment, and no minimum value protection" if Curaleaf falls.</li>
+    <li><b>The cap only bites if Curaleaf rises a long way.</b> If Curaleaf's 20-day VWAP on the TSX is above C$17.76 at expiry, or on the day all conditions are met if that is earlier, the share count shrinks so the total is US$6.00. C$17.76 assumes C$1 = US$0.7015. CURA closed at C$10.78 on 19 Oct, so it would need to rise about 65% (my arithmetic). For practical purposes the cap is irrelevant today.</li>
+    <li><b>Where "$5.00" came from.</b> Curaleaf's 6 Oct release priced the offer using CURA's 2 Oct close of C$14.21 at US$0.7015, which is about US$9.97 a share. The same release puts Aurora's unaffected price at a <b>30-day VWAP of US$2.75 to 10 Aug</b>, which makes the offer an 86% premium. The $2.75 is a VWAP, not a close. ACB closed at $2.89 on 10 Aug, and my VWAP from Yahoo daily bars comes to $2.76.</li>
+    <li><b>The cash</b> is about US$67M in total and is paid in US dollars, from Curaleaf's cash on hand. There is no financing condition. Fractional Curaleaf shares are rounded down, with no payment for the fraction.</li>
+    <li class="note">Aurora's Notice of Change describes the cap as "based on a formula related to Aurora's share price". The Notice of Variation ties it to Curaleaf's own 20-day VWAP. The bidder's document is the one that governs.</li>
+  </ul>
+
+  <h3 class="sub">The conditions (Section 4 of the Offer, unchanged by the variation)</h3>
+  <ul>
+    <li><b>Statutory Minimum Condition, which cannot be waived:</b> more than 50% of Aurora's shares must be tendered, excluding any held by Curaleaf or other non-independent holders. On the 65,744,811 shares Curaleaf counted at 31 Aug, that means more than about 32.9M shares (my arithmetic; the count has probably grown since through Aurora's share sales).</li>
+    <li><b>Minimum Deposit Condition, which can be waived:</b> at least 66⅔% on a fully diluted basis.</li>
+    <li><b>Regulatory approvals</b> on terms Curaleaf finds satisfactory. The circular names <b>Competition Act (Canada)</b> approval and <b>German foreign direct investment approval</b> from the economics ministry. Phase I there is two months from a complete filing, and a Phase II review can run to four. Curaleaf says it "cannot exclude" German merger-control filing and is "continuing to assess" filings in Europe, Australia, New Zealand, the Caribbean and the United States. No filing I read reports that any of these approvals has been received.</li>
+    <li><b>The rights plan</b> must not affect the bid. The board has to waive or redeem it, a regulator or court has to set it aside, or the bid must not be found to fall outside "Permitted Bid" status.</li>
+    <li><b>Wide walk-away rights</b>, each judged "in its reasonable judgment". They cover a material adverse effect, any legal action or new law, and any Aurora action that reduces the bid's value to Curaleaf. That last one includes <b>issuing shares</b> (Aurora's at-the-market programme is the live case) or agreeing any merger, arrangement or asset sale. Market disruption also counts, and so do "any material regulatory changes including any that could have a material affect on Curaleaf's ability to export cannabis internationally from the United States". Aurora's board notes that last item concerns Curaleaf's business, not Aurora's. Curaleaf has not changed any condition.</li>
+    <li><b>Timing:</b> if the minimum is met and the conditions are met or waived at expiry, Curaleaf takes up the shares "immediately" and pays within three business days. It must then keep the offer open for at least 10 more US business days for late tenders.</li>
+  </ul>
+
+  <h3 class="sub">Withdrawal rights</h3>
+  <ul>
+    <li>Tendered shares can be withdrawn <b>at any time before Curaleaf takes them up</b>. They can also be withdrawn if they are not paid for within three business days of take-up, and for 10 US business days after most notices of change or variation. The Permitted Bid terms in Section 6 repeat the any-time-before-take-up right.</li>
+    <li>The variation <b>deleted</b> one clause: the right to withdraw at any time after 17 Oct if the shares had not been taken up. Because the any-time-before-take-up right remains, the practical loss looks small (my reading). Your broker will set its own, earlier, withdrawal and tender cut-offs.</li>
+  </ul>
+
+  <h3 class="sub">The US cannabis issues</h3>
+  <ul>
+    <li>About <b>86% of Curaleaf's revenue</b> comes from cannabis in US states: medical and adult-use, in 15 states. The Attorney General's rescheduling order of 23 Apr 2026 moved state-licensed medical cannabis to Schedule III. <b>Adult-use cannabis remains illegal under US federal law.</b> A DEA hearing on adult-use ran from 29 Jun to 15 Jul 2026, and the judge's timing is "uncertain".</li>
+    <li>Aurora holders would swap a Nasdaq-listed share for one that is <b>not on any US exchange</b>. Curaleaf "does not intend" to apply to NYSE or Nasdaq and says holders "will likely have to trade such shares on the TSX". In June 2026 Curaleaf also removed the rule that converted Boris Jordan's multiple voting shares if it listed on a US exchange.</li>
+    <li>Aurora says the bid "does not address the approvals of, or advance notice to, U.S. state cannabis regulators" that a change in Curaleaf's ownership may need. The circular names only Canadian and German approvals.</li>
+    <li>Curaleaf carries a <b>US$468.5M uncertain-tax-position liability</b>, mainly its Section 280E position, which the IRS is examining (10-Q, 30 Jun 2026).</li>
+    <li class="note">For US holders: the Curaleaf shares "have not been registered or otherwise qualified for offer and sale in certain U.S. states". In those states no offer is made except to exempt institutions.</li>
+  </ul>
+
+  <h3 class="sub">Aurora's board and its rights plan</h3>
+  <ul>
+    <li><b>Recommendation: REJECT, do not tender</b> (14 Oct, unanimous). A special committee of four independent directors (Singer, Kohli, Beauchamp and Uttamchandani) is exploring alternatives. These include "a possible transaction with one or more third parties or remaining independent". The board says it will give a further recommendation later.</li>
+    <li><b>Inadequacy opinion:</b> Fort Capital found the revised offer inadequate on 14 Oct and valued it at US$4.74 using 9 Oct prices. Its own letter says some of its fees "may be contingent on the Company arriving at an alternative transaction, or circumstances where no transaction is completed at all". Curaleaf makes the same point.</li>
+    <li><b>Insiders:</b> directors and officers own 408,620 shares and do not intend to tender. Aurora knows of no holder above 10%. If Curaleaf took control and terminated them, six officers would receive change-of-control payments totalling about C$24.3M (my sum of the Notice of Change table; C$10.48M for the CEO, Miguel Martin), plus about C$2.19M for directors' DSUs.</li>
+    <li><b>Rights plan:</b> yes. It dates from 2018, was last renewed on 9 Aug 2024 and triggers at 20%. A Permitted Bid must stay open at least 105 days. On 1 Sep Aurora said the original bid, which expired at 5 pm on 1 Dec, was <b>not</b> a Permitted Bid. Curaleaf then moved expiry to 11:59 pm on 4 Dec. The 14 Oct Notice of Change does not mention Permitted Bid status, and it says the deficiencies Aurora raised were "sufficiently remedied". The board can waive the plan for one bid. A waiver then also covers any other bid made by circular before that bid expires.</li>
+    <li><b>Two regulator applications.</b> Curaleaf asked the Alberta Securities Commission on 14 Sep to halt Aurora's at-the-market share sales, and asked for an expedited hearing. <b>Neither company's filings report a hearing date or a ruling.</b> Aurora's own application, which sought pro forma statements and a longer deposit period, was dropped once Curaleaf's variation supplied both (decided 6 Oct). No court proceedings are disclosed.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Rung 2</small>What does it actually mean?</h2>
+  <p><b>The headline is stale, and the gap has nearly closed.</b> About three quarters of the offer is Curaleaf stock: the $1.00 cash is 25% of today's $4.06 (my arithmetic). So Aurora now trades like 0.4 of a Curaleaf share plus a dollar. Curaleaf has fallen from $9.95 on 2 Oct to $7.63. At the 2 Oct price the raised terms were worth about $4.99; today they are worth $4.06. ACB's close-to-close moves since the bump: -11.2% against CURLF's -21.8%. The cash leg cushions the fall but does not stop it.</p>
+
+  <div class="panel">
+    <h3>What one Aurora share is worth, by whose number (US$)</h3>
+    <div class="legend"><span><i style="background:var(--s2)"></i>Offer value</span><span><i style="background:var(--pos)"></i>Market and reference values</span></div>
+    <div class="bars" id="magBars"></div>
+    <div class="axis"><div></div><div class="ticks" id="magTicks"></div></div>
+    <p class="note">"Offer value today" is 0.4013 × CURLF's 19 Oct close of $7.63 + $1.00. At CURA.TO's C$10.78 and this morning's rate of 1.4049 it is $4.08. The fair-value bar is Curaleaf's preliminary purchase-price allocation, done without access to Aurora's books (US$313.2M ÷ 66.86M share equivalents; Aurora did the same division).</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="magTable"><thead><tr><th>Line</th><th class="num">US$ per share</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+
+  <p><b>The sleeper point:</b> at today's Curaleaf price, the bid is worth <b>less than the value Curaleaf itself puts on Aurora's identifiable net assets</b>, which is $4.68 a share. Curaleaf's own sensitivity table already shows a US$36.8M "bargain purchase" gain at US$7.81. At $7.63 the gain is about US$41.6M (my arithmetic on its inputs). Aurora's board will use this. It also tells any rival that the public bid is now a low bar.</p>
+
+  <div class="panel">
+    <h3>ACB close against the value of the offer in force, 20 Jul to 19 Oct 2026 (US$)</h3>
+    <div class="legend"><span><i class="ln" style="background:var(--pos)"></i>ACB close (Nasdaq)</span><span><i class="ln" style="background:var(--s2)"></i>Offer value at CURLF close (original terms to 2 Oct, raised terms from 5 Oct)</span></div>
+    <div class="linewrap" id="lineChart" role="img" aria-label="Line chart: ACB close and the offer's value since 20 July 2026. The gap was 7% on 2 October and is 2.6% on 19 October."></div>
+    <p class="note">Before 11 Aug there was no offer. In late August ACB briefly traded at or above the offer, as if a higher bid was expected, and the 5 Oct bump followed. Since 6 Oct both lines have fallen together.</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="lineTable"><thead><tr><th>Date</th><th class="num">ACB close</th><th class="num">Offer value</th><th class="num">Gap</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+
+  <div class="panel">
+    <h3>The offer moves 40 cents for every $1 on Curaleaf (my arithmetic)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>CURLF price (US$)</th><th class="num">Offer value</th><th class="num">vs ACB $3.96</th><th>What it is</th></tr></thead>
+      <tbody>
+        <tr><td class="num" style="text-align:left">6.00</td><td class="num">$3.41</td><td class="num">-13.9%</td><td>A further 21% fall in Curaleaf</td></tr>
+        <tr><td class="num" style="text-align:left">7.38</td><td class="num">$3.96</td><td class="num">0.0%</td><td>Break-even: the gap disappears after another 3.3% fall</td></tr>
+        <tr class="hl"><td class="num" style="text-align:left">7.63</td><td class="num">$4.06</td><td class="num">+2.6%</td><td>19 Oct close</td></tr>
+        <tr><td class="num" style="text-align:left">9.39</td><td class="num">$4.77</td><td class="num">+20.4%</td><td>9 Oct close, the date of Fort Capital's $4.74</td></tr>
+        <tr><td class="num" style="text-align:left">9.97</td><td class="num">$5.00</td><td class="num">+26.3%</td><td>The headline: CURA C$14.21 on 2 Oct</td></tr>
+        <tr><td class="num" style="text-align:left">12.46</td><td class="num">$6.00</td><td class="num">+51.5%</td><td>Cap: C$17.76 at US$0.7015</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <h3 class="sub">The two businesses</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th></th><th>Aurora (ACB)</th><th>Curaleaf (CURA / CURLF)</th></tr></thead>
+    <tbody>
+      <tr><td>Listing</td><td>Nasdaq and TSX: ACB; also Frankfurt (21P)</td><td>TSX: CURA (C$); OTCQX: CURLF (US$). No US exchange, and no plan to apply.</td></tr>
+      <tr><td>Business</td><td>Medical cannabis in Canada, Europe (Germany, Poland, UK), Australia and New Zealand. EU-GMP plants in Canada and Germany. Has exited Canadian consumer and plant propagation.</td><td>US multi-state operator in 15 states with 174 dispensaries at Q2 (176 since). About 86% of revenue comes from US state cannabis. Also Curaleaf International in Europe.</td></tr>
+      <tr><td>Latest quarter</td><td>Q1 FY27 (to 30 Jun): net revenue C$67.6M (C$74.1M a year earlier). Medical C$64.0M, of which international C$43.3M (+17%) and Canada C$20.7M (-25%, after the federal reimbursement change of 1 Apr). Adjusted EBITDA C$3.4M (C$10.8M a year earlier). Loss from continuing operations C$4.0M.</td><td>Q2 2026: net revenue US$340.1M (+10%), of which international US$51.4M. Adjusted EBITDA US$70.1M (20.6% margin). Net income from continuing operations US$12.5M.</td></tr>
+      <tr><td>Guidance</td><td>Q2 FY27 revenue and adjusted EBITDA "sequentially higher" (reaffirmed 16 Sep)</td><td>None in the documents read</td></tr>
+      <tr><td>Cash</td><td>C$69.3M cash, C$30.7M short-term investments and C$49.1M restricted. C$46.4M of the restricted cash is due to be freed by Q3 FY27. Aurora puts the total at US$108M.</td><td>US$107.0M, including US$12.4M restricted</td></tr>
+      <tr><td>Debt</td><td>No funded debt. C$22.7M of lease liabilities.</td><td>US$612M of notes: US$500M at 11.5% due 18 Feb 2029 and US$43.5M at 10% due Dec 2027. Also US$206M of financial obligations, plus leases. US$468.5M uncertain tax position.</td></tr>
+      <tr><td>Shares</td><td>65,744,811 at 31 Aug (Curaleaf's count). At-the-market programme: US$87.1M of capacity left at 30 Jun.</td><td>264,737,501 at 30 Jun, after a 1-for-3 reverse split on 5 Jun 2026</td></tr>
+      <tr><td>Market value, 19 Oct (my arithmetic)</td><td class="num" style="text-align:left">about US$260M</td><td class="num" style="text-align:left">about US$2.02B</td></tr>
+      <tr><td>Next results</td><td>Q2 FY27: <b>date not yet announced</b>. Last year it was 5 Nov, announced on 22 Oct.</td><td>Q3 2026: <b>Tue 3 Nov</b>, after the US close</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Aurora holders would own about 9% of the combined company (Aurora's figure; 26.83M new shares ÷ 291.6M gives 9.2%, my arithmetic). Curaleaf's "at least US$40M" of savings comes from applying its own SG&amp;A ratio to Aurora's revenue. It names no costs to achieve them (pro forma Note 9).</p>
+
+  <h3 class="sub">The reaction, against controls (close to close, %)</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Window</th><th class="num">ACB</th><th class="num">CURLF</th><th class="num">MSOS</th><th class="num">TLRY</th><th class="num">CGC</th><th class="num">SNDL</th><th class="num">IWM</th></tr></thead>
+    <tbody>
+      <tr><td>Bid news: 10 to 11 Aug</td><td class="num">+20.6</td><td class="num">+5.3</td><td class="num">+5.2</td><td class="num">+8.1</td><td class="num">+5.0</td><td class="num">+6.6</td><td class="num">+0.3</td></tr>
+      <tr><td>Bump: 2 to 5 Oct</td><td class="num">+13.8</td><td class="num">-1.9</td><td class="num">-1.8</td><td class="num">+3.0</td><td class="num">+1.1</td><td class="num">+0.8</td><td class="num">+0.7</td></tr>
+      <tr><td>Since the bump: 5 to 19 Oct</td><td class="num">-11.2</td><td class="num">-21.8</td><td class="num">-13.2</td><td class="num">-18.5</td><td class="num">-19.1</td><td class="num">+0.4</td><td class="num">-4.3</td></tr>
+      <tr class="hl"><td>Pre-bid close to now: 10 Aug to 19 Oct</td><td class="num">+37.0</td><td class="num">-18.7</td><td class="num">-13.4</td><td class="num">-31.4</td><td class="num">-24.8</td><td class="num">+2.9</td><td class="num">-9.6</td></tr>
+      <tr><td>One year to 19 Oct</td><td class="num">-25.7</td><td class="num">-14.6</td><td class="num">-22.9</td><td class="num">-80.7</td><td class="num">-48.5</td><td class="num">-46.8</td><td class="num">+9.3</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Yahoo daily closes. Open-to-close on the news days: ACB opened at $3.33 on 11 Aug (+15.2% gap) and at $4.37 on 5 Oct (+11.5% gap). Since 2 Oct the whole US cannabis group has fallen (MSOS -14.8%, CURLF -23.3%), while the Canadian producers have been mixed. The cause is not in either company's filings, and I did not find a primary source for it. Liquidity: ACB's 20-day median is $3.8M a day on Nasdaq; CURLF's is $1.7M on OTC; CURA's is C$3.8M on the TSX.</p>
+  <p><b>Already run.</b> ACB is up 37% from its pre-bid close while IWM is down 10%, the US cannabis ETF is down 13% and its Canadian peers TLRY and CGC are down 25-31%. Almost all of the bid is in the price. The 2.6% left is a gross gap with no floor, about seven weeks to expiry, and a board that opposes it.</p>
+
+  <h3 class="sub">What a rival bidder could look like, from the filings only</h3>
+  <ul>
+    <li><b>What is disclosed:</b> from 8 Sep, Fort Capital approached "a number of parties". Aurora has confidentiality and standstill agreements with "multiple parties", who have had confidential information and "numerous discussions". On 6 Oct the committee discussed "the anticipated timing of receipt of expressions of interest", but the timing is not published. <b>No filing names any party.</b> Aurora says "there can be no assurance that the process will result in a transaction". Staying independent is one of the options.</li>
+    <li><b>The bar to beat is $4.06, not $5.</b> On Curaleaf's own accounting, that is below Aurora's identifiable net assets.</li>
+    <li><b>Two routes in the documents.</b> First, a competing bid: the board can waive the rights plan, and a waiver then covers any other bid made by circular before that bid expires. Second, a negotiated deal. If Aurora agrees a merger, arrangement or asset sale, Curaleaf's condition (f)(xii) lets it walk. Curaleaf also says it would then shorten its own deposit period to the legal minimum (Section 5).</li>
+    <li class="mine">My inferences, not in the filings: standstill parties usually cannot launch a hostile bid of their own without Aurora's consent, but the terms are not disclosed. Any buyer of Aurora's German operations would probably face the same German investment review that Curaleaf describes.</li>
+  </ul>
+
+  <h3 class="sub">For a UK holder</h3>
+  <ul>
+    <li><b>You might not receive shares.</b> Section 7 says no Curaleaf shares will be delivered to a non-resident of Canada unless they "may be lawfully delivered to such person without further action by the Offeror". If they cannot be, the depositary sells them on the TSX and sends the net cash, after expenses, commissions and withholding. Cash is paid in US dollars.</li>
+    <li><b>Where CURA trades:</b> the TSX in Canadian dollars (CURA), and OTCQX in US dollars (CURLF). Neither is a US exchange.</li>
+    <li><b>Your broker:</b> neither company's filings mention the UK. Curaleaf sells adult-use cannabis, which is illegal under US federal law. Whether your UK platform will hold CURA, take it in through a corporate action, or sell it for you is a question for your broker. <b>Check with your own broker before tendering</b>, and ask for its cut-off, which will be earlier than 4 Dec.</li>
+    <li><b>Canadian tax (circular, Section 19):</b> a non-resident is generally not taxed in Canada on the exchange. That holds if ACB is listed on the TSX and you, with anyone you do not deal with at arm's length, have not owned 25% or more in the past 60 months. Draft rules from July 2026 would widen that 25% test to count options and interests. Canadian residents are taxed on the cash plus the market value of the shares received; there is no rollover.</li>
+    <li><b>US tax (circular, Section 20):</b> for non-US holders the exchange is "not expected to result in any U.S. federal income tax consequences". Afterwards, Curaleaf treats itself as a <b>US company for US tax</b>. Dividends on CURA would face 30% US withholding unless a treaty form such as the W-8BEN cuts it, and the Canadian section separately describes 25% Canadian withholding on dividends to non-residents. Gains on selling CURA are generally not taxed in the US. US holders face uncertain reorganisation treatment and a risk under the PFIC rules for passive foreign companies.</li>
+    <li class="mine">The circular does not discuss US estate tax for non-US holders. Because Curaleaf calls itself a US corporation for US tax, it is worth asking a UK adviser about (my inference). UK tax is separate and is not covered here or in the circular.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Rung 3</small>Who wins and who loses?</h2>
+  <div class="panel">
+    <h3>Impact of the bid as it stands today, scored -5 to +5 (judgement, reasons below each bar)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Gains</span><span><i style="background:var(--neg)"></i>Loses</span><span><i style="background:var(--zero);border:1px solid var(--baseline)"></i>No clear effect</span></div>
+    <div class="bars" id="divBars"></div>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="divTable"><thead><tr><th>Who</th><th class="num">Score</th><th>Why</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 4</small>What could happen next?</h2>
+  <div class="scen">
+    <div class="s"><b>Base: no rival, no recommendation, Curaleaf extends or lets it run</b><span>The board holds its line, and ACB keeps trading as 0.4 of a Curaleaf share plus a dollar, a few per cent below the offer. Curaleaf has already extended once (1 Dec to 4 Dec) and raised once (5 Oct). It can waive the 66⅔% condition but not the more-than-50% minimum. Anchors: the 4 Dec expiry, Curaleaf's Q3 results on 3 Nov, and Sections 4 and 5 of the Offer.</span></div>
+    <div class="s"><b>Bull: a rival or a second bump</b><span>One of the parties under standstill makes a proposal, or Curaleaf raises again. Precedent from this deal: the 5 Oct bump moved ACB +13.8% close to close, against -1.9% for CURLF. A cash or fixed-value bid would also remove the Curaleaf-price risk. Anchor: the Notice of Change on standstill parties and expressions of interest. No date has been given.</span></div>
+    <div class="s"><b>Bear: the bid fails or is withdrawn</b><span>Curaleaf can walk under conditions it judges itself: new Aurora share sales, an alternative deal, or US regulatory change. If the minimum is not met, the offer lapses. The reference is ACB's pre-bid close of $2.89, 27% below today. Since then TLRY and CGC have fallen 31% and 25%, and SNDL is up 3%. Aurora's cash, investments and restricted cash are about $1.64 a share (my arithmetic). Anchors: Section 4(f) and 4(h)(vii), and the 10 Aug close.</span></div>
+    <div class="s"><b>Bear, version two: Curaleaf keeps falling</b><span>No floor means every $1 off CURLF takes about 40 cents off the offer. Another 3.3% fall and the gap is gone. Watch the 3 Nov results and the 11.5% notes. Anchor: the fixed 0.4013 ratio in the Notice of Variation.</span></div>
+  </div>
+
+  <h3 class="sub">Dated catalysts</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Date</th><th>Event</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Tue 3 Nov, after US close</td><td>Curaleaf Q3 2026 results and call</td><td>Curaleaf release, 29 Sep</td></tr>
+      <tr><td>Early Nov (not announced)</td><td>Aurora Q2 FY27 results. Last year: 5 Nov, announced 22 Oct. Guided to sequential growth.</td><td>Aurora 6-K, 22 Oct 2025; release, 16 Sep 2026</td></tr>
+      <tr><td>Not disclosed</td><td>Alberta Securities Commission ruling on Curaleaf's application to stop Aurora's at-the-market share sales (filed 14 Sep, expedited hearing requested)</td><td>Curaleaf release, 14 Sep; no ruling in any filing</td></tr>
+      <tr><td>Not disclosed</td><td>Competition Act and German investment clearances; any filing dates not given</td><td>Circular, Section 16</td></tr>
+      <tr><td>Fri 4 Dec, 11:59 pm Mountain</td><td>Expiry (06:59 Sat 5 Dec, UK time) unless extended. If the minimum is met: immediate take-up, payment within 3 business days, then at least 10 more US business days open</td><td>Notice of Variation, Sections 2 and 7</td></tr>
+      <tr><td>None disclosed</td><td>Court hearings</td><td>Neither company's filings</td></tr>
+    </tbody>
+  </table></div>
+
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>An Aurora release on the strategic review: a named party, a deal, or "remaining independent".</li>
+    <li>A new Curaleaf notice of variation: a bump, an extension, a waiver of the 66⅔% condition, or a withdrawal.</li>
+    <li>Any tender count. Curaleaf has not disclosed one.</li>
+    <li>New Aurora share sales or a regulator ruling on them. Share issuance is a walk-away condition.</li>
+    <li>CURA against the break-even of about US$7.38. The cap at C$17.76 is far away.</li>
+    <li>Your broker's corporate-action notice, its cut-off, and whether it will take CURA.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Verdict</small>WATCH</h2>
+  <div class="verdict">
+    <p><b>Already run:</b> ACB is up 37% from its 10 Aug close, against IWM down 10%, and sits 10 cents under the offer's current value. What is left is a 2.6% gross gap tied to Curaleaf's share price, with no floor, a hostile board, and conditions Curaleaf judges itself. The one thing that could still re-rate it is a rival or a higher bid, and none is named or dated. No position.</p>
+    <p><b>What would change it.</b> Towards OWN: a named rival bid with cash or a fixed value, or the board backing a deal, with a gap still wide enough to pay for the risk. Towards AVOID: Curaleaf asserting a condition or withdrawing, Aurora saying it will stay independent, or CURA falling through about $7.38 into the 3 Nov results with no rival in sight. For a UK account, check first whether your broker will hold CURA at all.</p>
+    <p class="note">Method checks: primary documents read, including the Offer and Circular (Sections 4 to 8, 14, 16, 17, 19 and 20), the Notice of Variation with its pro formas, Aurora's directors' circular and Notice of Change, and both companies' releases and latest results. Reaction measured against MSOS, IWM and the peers TLRY, CGC, SNDL and CURLF, with move types labelled. Liquidity checked. Gates: G4 (verifiable) and G5 (tradeable) pass; G3 (already run) is flagged. The 0-10 supply-chain card does not apply to a take-over bid. Not logged to the ledger. Not personal investment advice.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Draft post</small>Caption</h2>
+  <div class="caption">On Curaleaf's own numbers, its bid for Aurora is now worth less than the value Curaleaf itself puts on Aurora's net assets. The "$5" headline used Curaleaf's 2 Oct price. Curaleaf is down 23% since, so 0.4013 of a share plus $1 is worth about $4.06. Aurora closed at $3.96: a 10-cent gap with no floor, and a board telling holders to reject. UK holders, read Section 7 first. You may get cash from a sale in Toronto instead of shares, and your broker may not hold Curaleaf anyway.</div>
+</section>
+
+<footer>
+  <div><b>Sources</b></div>
+  <ol>
+    <li>Curaleaf Offer to Purchase and Circular, 18 Aug 2026 (Form F-80, ex 1.1): <a href="https://www.sec.gov/Archives/edgar/data/1756770/000110465926098176/tm2623363d3_ex1-1.htm">document</a></li>
+    <li>Curaleaf Notice of Variation, Change and Extension, 6 Oct 2026, with pro forma statements (Form F-80, ex 1.4): <a href="https://www.sec.gov/Archives/edgar/data/1756770/000110465926113891/tm2623363d14_ex1-4.htm">document</a></li>
+    <li>Curaleaf 8-K, 19 Oct 2026, "Curaleaf Challenges Aurora's Unilateral Rejection": <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000130/curaleafchallengesaurora.htm">ex 99.1</a></li>
+    <li>Curaleaf releases: 6 Oct (enhanced offer, $5.00 basis and $2.75 unaffected VWAP) <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000126/a106pr.htm">ex 99.1</a>; 14 Sep (application to the Alberta Securities Commission) <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000102/a2026-09x14xcuraleafxsub.htm">ex 99.1</a>; 29 Sep (Q3 date) <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000118/a2026-09x29xcuraleafxtox.htm">ex 99.1</a>; 8-K of 28 Sep (CEO awards) <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000121/curlf-20261002.htm">8-K</a></li>
+    <li>Curaleaf Q2 2026 results: <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000078/q226-exx994xearningsrelease.htm">release</a>, <a href="https://www.sec.gov/Archives/edgar/data/1756770/000175677026000075/curlf-20260630.htm">10-Q</a></li>
+    <li>Aurora Notice of Change to Directors' Circular, 14 Oct 2026, with Fort Capital opinion (SC 14D9-F/A, ex 1.10): <a href="https://www.sec.gov/Archives/edgar/data/1683541/000110465926116021/tm2627570d1_ex1-10.htm">document</a></li>
+    <li>Aurora Directors' Circular, 1 Sep 2026 (SC 14D9-F, ex 1.1): <a href="https://www.sec.gov/Archives/edgar/data/1683541/000110465926104464/tm2624119d2_ex1-1.htm">document</a></li>
+    <li>Aurora releases (6-K ex 99.1): <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000974/ex991.htm">14 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000960/ex991.htm">8 Oct (Leuna)</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000955/ex991.htm">6 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000950/ex991.htm">5 Oct</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000915/ex991.htm">23 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000887/ex991.htm">16 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956926000881/ex991.htm">14 Sep</a>, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000119312526348364/d156067dex991.htm">11 Aug</a>; last year's results date, <a href="https://www.sec.gov/Archives/edgar/data/1683541/000127956925001141/ex991.htm">22 Oct 2025</a></li>
+    <li>Aurora Q1 FY2027 MD&amp;A (6-K, 5 Aug 2026): <a href="https://www.sec.gov/Archives/edgar/data/1683541/000162828026052911/mda20260630q12027.htm">MD&amp;A</a></li>
+    <li>Prices: Yahoo Finance daily bars for ACB, ACB.TO, CURLF, CURA.TO, MSOS, TLRY, CGC, SNDL, IWM and USD/CAD, Oct 2023 to 19 Oct 2026; USD/CAD at about 10:50 UK time on 20 Oct</li>
+  </ol>
+  <div class="note">Not investment advice. Figures marked as arithmetic are mine from the cited inputs. Impact scores are judgement. "Offer value" uses the CURLF close; the TSX line gives a few cents more or less depending on the exchange rate.</div>
+</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const mag = [
+  {lbl: "Aurora cash, investments and restricted cash (30 Jun)", v: 1.64, k: "ref", src: "Aurora: US$108M; ÷ 65,744,811 shares; my arithmetic"},
+  {lbl: "Unaffected 30-day VWAP to 10 Aug", v: 2.75, k: "ref", src: "Curaleaf release, 6 Oct (Yahoo bars give $2.76)"},
+  {lbl: "ACB close, 10 Aug (day before the bid news)", v: 2.89, k: "ref", src: "Yahoo close"},
+  {lbl: "ACB close, 19 Oct", v: 3.96, k: "ref", src: "Yahoo close"},
+  {lbl: "Offer value today (CURLF $7.63)", v: 4.06, k: "pay", src: "0.4013 × $7.63 + $1.00; my arithmetic"},
+  {lbl: "Curaleaf's fair value of Aurora's net assets", v: 4.68, k: "ref", src: "Notice of Variation, Note 4: US$313.2M ÷ 66.86M; preliminary, no diligence"},
+  {lbl: "Offer value on 9 Oct, per Aurora's adviser", v: 4.74, k: "pay", src: "Fort Capital opinion, 14 Oct"},
+  {lbl: "The \"$5.00\" headline (CURA C$14.21, 2 Oct)", v: 5.00, k: "pay", src: "Curaleaf release, 6 Oct"},
+  {lbl: "Cap (needs CURA 20-day VWAP above C$17.76)", v: 6.00, k: "pay", src: "Notice of Variation, Section 1"}
+];
+const impact = [
+  {lbl: "ACB holders from before 11 Aug", s: 3, why: "Up 37% from the 10 Aug close while IWM fell 10% and MSOS fell 13%"},
+  {lbl: "Parties under standstill with Aurora (unnamed)", s: 2, why: "They have the diligence Curaleaf was refused, and the public bar has dropped from about $5 to $4.06"},
+  {lbl: "Curaleaf shareholders", s: 1, why: "On Curaleaf's own accounts it would now buy Aurora below net asset value, but it issues about 26.8M shares (9% of the combined company)"},
+  {lbl: "Canadian producer peers (TLRY, CGC, SNDL)", s: 0, why: "A take-out bid for a Canadian medical producer, but no lift: -31%, -25% and +3% since 10 Aug"},
+  {lbl: "ACB holders who tender now", s: -1, why: "Value floats with CURA and has no floor; they can withdraw until take-up, so the cost is limited"},
+  {lbl: "UK and other non-Canadian holders", s: -2, why: "May receive cash from a forced TSX sale, not shares; broker treatment of a US cannabis share is unknown"},
+  {lbl: "Buyers on the \"$5\" headline, 5 to 7 Oct", s: -3, why: "Paid up to $4.67 (high, 7 Oct); the stock is now $3.96 and the offer $4.06"}
+];
+const series = [["2026-07-20",2.59,null],["2026-07-21",2.68,null],["2026-07-22",2.66,null],["2026-07-23",2.69,null],["2026-07-24",2.67,null],["2026-07-27",2.74,null],["2026-07-28",2.72,null],["2026-07-29",2.73,null],["2026-07-30",2.83,null],["2026-07-31",2.79,null],["2026-08-03",2.83,null],["2026-08-04",2.81,null],["2026-08-05",2.91,null],["2026-08-06",2.98,null],["2026-08-07",2.99,null],["2026-08-10",2.89,null],["2026-08-11",3.485,4.169],["2026-08-12",3.82,4.168],["2026-08-13",3.79,4.099],["2026-08-14",3.68,4.029],["2026-08-17",3.6,3.984],["2026-08-18",3.67,3.932],["2026-08-19",3.91,4.154],["2026-08-20",3.81,4.074],["2026-08-21",3.94,4.21],["2026-08-24",3.94,4.109],["2026-08-25",4.01,4.14],["2026-08-26",4.0,4.026],["2026-08-27",4.01,3.991],["2026-08-28",4.01,4.095],["2026-08-31",4.05,4.109],["2026-09-01",4.05,4.137],["2026-09-02",4.03,4.213],["2026-09-03",3.89,4.029],["2026-09-04",3.95,4.185],["2026-09-08",3.87,4.199],["2026-09-09",3.88,4.282],["2026-09-10",3.73,4.154],["2026-09-11",3.74,4.064],["2026-09-14",3.81,4.244],["2026-09-15",3.82,4.255],["2026-09-16",3.83,4.206],["2026-09-17",3.85,4.303],["2026-09-18",3.87,4.376],["2026-09-21",4.03,4.369],["2026-09-22",4.27,4.767],["2026-09-23",4.22,4.871],["2026-09-24",4.16,4.635],["2026-09-25",4.1,4.584],["2026-09-28",4.09,4.514],["2026-09-29",4.03,4.492],["2026-09-30",3.9,4.303],["2026-10-01",3.9,4.311],["2026-10-02",3.92,4.196],["2026-10-05",4.46,4.917],["2026-10-06",4.59,5.009],["2026-10-07",4.46,4.953],["2026-10-08",4.43,4.788],["2026-10-09",4.49,4.768],["2026-10-12",4.35,4.712],["2026-10-13",4.29,4.539],["2026-10-14",4.17,4.435],["2026-10-15",4.1,4.371],["2026-10-16",3.99,4.142],["2026-10-19",3.96,4.062]];
+
+const tip = document.getElementById("tip");
+function placeTip(x, y) { tip.style.left = Math.max(8, Math.min(x, window.innerWidth - 290)) + "px"; tip.style.top = (y + 12) + "px"; }
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = e.target.getBoundingClientRect(); placeTip(r.left, r.bottom - 4); }
+function hideTip() { tip.hidden = true; }
+const fmt = v => "$" + v.toFixed(2);
+
+/* magnitude chart */
+const max = 6.6;
+const mb = document.getElementById("magBars"), mt = document.querySelector("#magTable tbody");
+mag.forEach(d => {
+  const row = document.createElement("div"); row.className = "bar-row";
+  const pct = d.v / max * 100;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><div class="fill hit" tabindex="0" style="width:${pct}%;background:${d.k === "pay" ? "var(--s2)" : "var(--pos)"}"></div><span class="val" style="left:${pct}%">${fmt(d.v)}</span></div>`;
+  const f = row.querySelector(".fill");
+  const html = `<b>${d.lbl}</b><br>${fmt(d.v)} per Aurora share<br><span style="color:var(--muted)">${d.src}</span>`;
+  f.addEventListener("mouseenter", e => showTip(e, html)); f.addEventListener("focus", e => showTip(e, html));
+  f.addEventListener("mouseleave", hideTip); f.addEventListener("blur", hideTip);
+  mb.appendChild(row);
+  mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${fmt(d.v)}</td><td>${d.src}</td></tr>`);
+});
+const ticks = document.getElementById("magTicks");
+[0, 1, 2, 3, 4, 5, 6].forEach(t => ticks.insertAdjacentHTML("beforeend", `<span style="left:${t / max * 100}%">$${t}</span>`));
+
+/* diverging chart */
+const db = document.getElementById("divBars"), dt = document.querySelector("#divTable tbody");
+impact.forEach(d => {
+  const row = document.createElement("div"); row.className = "div-row";
+  const w = Math.abs(d.s) / 5 * 50;
+  const cls = d.s > 0 ? "pos" : d.s < 0 ? "neg" : "zero";
+  const vpos = d.s > 0 ? `left:calc(50% + ${w}% + 6px)` : d.s < 0 ? `right:calc(50% + ${w}% + 6px)` : `left:calc(50% + 10px)`;
+  const lab = (d.s > 0 ? "+" : "") + d.s;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="dtrack"><div class="seg ${cls} hit" tabindex="0" style="width:${w}%"></div><span class="v" style="${vpos}">${lab}</span></div><div class="why">${d.why}</div>`;
+  const s = row.querySelector(".seg");
+  const html = `<b>${d.lbl}</b><br>Score ${lab}<br>${d.why}`;
+  s.addEventListener("mouseenter", e => showTip(e, html)); s.addEventListener("focus", e => showTip(e, html));
+  s.addEventListener("mouseleave", hideTip); s.addEventListener("blur", hideTip);
+  db.appendChild(row);
+  dt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${lab}</td><td>${d.why}</td></tr>`);
+});
+
+/* line chart table */
+const lt = document.querySelector("#lineTable tbody");
+series.forEach(([d, a, o]) => {
+  lt.insertAdjacentHTML("beforeend", `<tr><td>${d}</td><td class="num">${fmt(a)}</td><td class="num">${o == null ? "no offer" : fmt(o)}</td><td class="num">${o == null ? "" : ((o / a - 1) * 100).toFixed(1) + "%"}</td></tr>`);
+});
+
+/* line chart: drawn at the container's real pixel width so text stays legible on phones */
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const dlabel = s => { const [y, m, d] = s.split("-"); return +d + " " + MONTHS[+m - 1]; };
+const box = document.getElementById("lineChart");
+function drawLine() {
+  const W = Math.max(300, box.clientWidth), narrow = W < 480;
+  const H = narrow ? 240 : 270;
+  const m = {l: 40, r: narrow ? 58 : 76, t: 22, b: 26};
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const y0 = 2.4, y1 = 5.2, n = series.length;
+  const X = i => m.l + i / (n - 1) * iw;
+  const Y = v => m.t + (1 - (v - y0) / (y1 - y0)) * ih;
+  const ns = "http://www.w3.org/2000/svg";
+  let g = "";
+  [2.5, 3, 3.5, 4, 4.5, 5].forEach(v => {
+    g += `<line x1="${m.l}" x2="${m.l + iw}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)" stroke-width="1"/>`;
+    g += `<text x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">$${v.toFixed(2)}</text>`;
+  });
+  g += `<line x1="${m.l}" x2="${m.l + iw}" y1="${m.t + ih}" y2="${m.t + ih}" stroke="var(--baseline)" stroke-width="1"/>`;
+  const idx = d => series.findIndex(r => r[0] === d);
+  [["2026-07-20"], ["2026-08-10"], ["2026-09-01"], ["2026-10-01"], ["2026-10-19"]].forEach(([d]) => {
+    const i = idx(d); if (i < 0) return;
+    if (narrow && (d === "2026-08-10" || d === "2026-10-01")) return;
+    g += `<text x="${X(i)}" y="${H - 6}" text-anchor="middle">${dlabel(d)}</text>`;
+  });
+  [["2026-08-11", "Bid"], ["2026-10-05", "Raised"]].forEach(([d, t]) => {
+    const i = idx(d);
+    g += `<line x1="${X(i)}" x2="${X(i)}" y1="${m.t - 6}" y2="${m.t + ih}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="3 3"/>`;
+    g += `<text x="${X(i) + 4}" y="${m.t - 8}">${t}</text>`;
+  });
+  const pathA = series.map((r, i) => `${i ? "L" : "M"}${X(i).toFixed(1)},${Y(r[1]).toFixed(1)}`).join("");
+  let pathO = "", started = false;
+  series.forEach((r, i) => { if (r[2] == null) return; pathO += `${started ? "L" : "M"}${X(i).toFixed(1)},${Y(r[2]).toFixed(1)}`; started = true; });
+  g += `<path d="${pathO}" fill="none" stroke="var(--s2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  g += `<path d="${pathA}" fill="none" stroke="var(--pos)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  const last = series[n - 1];
+  g += `<circle cx="${X(n - 1)}" cy="${Y(last[2])}" r="4" fill="var(--s2)" stroke="var(--surface)" stroke-width="2"/>`;
+  g += `<circle cx="${X(n - 1)}" cy="${Y(last[1])}" r="4" fill="var(--pos)" stroke="var(--surface)" stroke-width="2"/>`;
+  g += `<text class="end" x="${X(n - 1) + 8}" y="${Y(last[2]) - 2}">Offer ${fmt(last[2])}</text>`;
+  g += `<text class="end" x="${X(n - 1) + 8}" y="${Y(last[1]) + 13}">ACB ${fmt(last[1])}</text>`;
+  g += `<line id="xh" x1="0" x2="0" y1="${m.t}" y2="${m.t + ih}" stroke="var(--muted)" stroke-width="1" visibility="hidden"/>`;
+  g += `<circle id="xa" r="4" fill="var(--pos)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
+  g += `<circle id="xo" r="4" fill="var(--s2)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
+  g += `<rect id="hitr" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" tabindex="0"/>`;
+  box.innerHTML = `<svg xmlns="${ns}" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${g}</svg>`;
+  const svg = box.querySelector("svg"), xh = svg.querySelector("#xh"), xa = svg.querySelector("#xa"), xo = svg.querySelector("#xo"), hit = svg.querySelector("#hitr");
+  let cur = n - 1;
+  function show(i, cx, cy) {
+    cur = i; const r = series[i];
+    xh.setAttribute("x1", X(i)); xh.setAttribute("x2", X(i)); xh.setAttribute("visibility", "visible");
+    xa.setAttribute("cx", X(i)); xa.setAttribute("cy", Y(r[1])); xa.setAttribute("visibility", "visible");
+    if (r[2] != null) { xo.setAttribute("cx", X(i)); xo.setAttribute("cy", Y(r[2])); xo.setAttribute("visibility", "visible"); } else xo.setAttribute("visibility", "hidden");
+    tip.innerHTML = `<b>${dlabel(r[0])} 2026</b><br><span style="color:var(--pos)">&#9632;</span> ACB ${fmt(r[1])}<br>` + (r[2] == null ? `<span style="color:var(--muted)">No offer yet</span>` : `<span style="color:var(--s2)">&#9632;</span> Offer ${fmt(r[2])}<br>Gap ${((r[2] / r[1] - 1) * 100).toFixed(1)}%`);
+    tip.hidden = false; placeTip(cx, cy);
+  }
+  function fromEvent(e) {
+    const rect = svg.getBoundingClientRect();
+    const px = (e.clientX - rect.left) * (W / rect.width);
+    const i = Math.max(0, Math.min(n - 1, Math.round((px - m.l) / iw * (n - 1))));
+    show(i, e.clientX + 8, e.clientY);
+  }
+  function hide() { xh.setAttribute("visibility", "hidden"); xa.setAttribute("visibility", "hidden"); xo.setAttribute("visibility", "hidden"); hideTip(); }
+  hit.addEventListener("mousemove", fromEvent);
+  hit.addEventListener("mouseleave", hide);
+  hit.addEventListener("focus", () => { const r = svg.getBoundingClientRect(); show(cur, r.left + X(cur) * r.width / W, r.top + Y(series[cur][1]) * r.height / H); });
+  hit.addEventListener("blur", hide);
+  hit.addEventListener("keydown", e => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    const i = Math.max(0, Math.min(n - 1, cur + (e.key === "ArrowRight" ? 1 : -1)));
+    const r = svg.getBoundingClientRect(); show(i, r.left + X(i) * r.width / W, r.top + Y(series[i][1]) * r.height / H);
+  });
+}
+drawLine();
+let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawLine, 120); });
+</script>
