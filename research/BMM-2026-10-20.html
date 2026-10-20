@@ -1,0 +1,355 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blue Moon Placement</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column with full-width chart panels; a filing-style ledger feel (deal terms, asset table, money table, dated catalysts). */
+:root {
+  --text: #0b0b0b; --text-2: #52514e; --muted: #898781;
+  --surface: #fcfcfb; --page: #f9f9f7; --grid: #e1e0d9; --baseline: #c3c2b7;
+  --pos: #2a78d6; --neg: #e34948; --zero: #f0efec; --s2: #eb6834;
+  --border: rgba(11,11,11,.10);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+    --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+    --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+    --border: rgba(255,255,255,.10); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #898781;
+  --surface: #1a1a19; --page: #0d0d0d; --grid: #2c2c2a; --baseline: #383835;
+  --pos: #3987e5; --neg: #e66767; --zero: #383835; --s2: #d95926;
+  --border: rgba(255,255,255,.10); color-scheme: dark;
+}
+body { background: var(--page); color: var(--text); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 32px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 36px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.12; margin: 0; text-wrap: balance; }
+.thesis { font-size: 17px; color: var(--text-2); margin: 0; max-width: 64ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--grid); border: 1px solid var(--grid); border-radius: 6px; overflow: hidden; }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; align-content: start; }
+.fact b { font-family: var(--f-mono); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.fact span { font-size: 12.5px; color: var(--text-2); }
+section { display: grid; gap: 14px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 23px; margin: 0; text-wrap: balance; }
+h2 small { display: block; font-family: var(--f-mono); font-size: 11.5px; font-weight: 400; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+h3.sub { font-size: 16px; font-weight: 600; margin: 6px 0 0; }
+p { margin: 0; max-width: 66ch; }
+ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 66ch; }
+.note { font-size: 13px; color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--text-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+/* magnitude chart */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; align-items: center; }
+.bar-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.track { position: relative; height: 22px; }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; }
+.track .val { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12.5px; color: var(--text); padding-left: 6px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.axis { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--baseline); }
+.axis .ticks span { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+/* diverging chart */
+.div-row { display: grid; grid-template-columns: minmax(130px, 220px) 1fr; gap: 10px; align-items: center; }
+.div-row .lbl { font-size: 13px; color: var(--text-2); line-height: 1.3; }
+.dtrack { position: relative; height: 22px; background: linear-gradient(to right, transparent calc(50% - 1px), var(--baseline) calc(50% - 1px), var(--baseline) calc(50% + 1px), transparent calc(50% + 1px)); }
+.dtrack .seg { position: absolute; top: 2px; bottom: 2px; }
+.dtrack .seg.pos { left: 50%; background: var(--pos); border-radius: 0 4px 4px 0; }
+.dtrack .seg.neg { right: 50%; background: var(--neg); border-radius: 4px 0 0 4px; }
+.dtrack .seg.zero { left: calc(50% - 3px); width: 6px !important; background: var(--zero); border: 1px solid var(--baseline); border-radius: 2px; }
+.dtrack .v { position: absolute; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 12px; color: var(--text); font-variant-numeric: tabular-nums; }
+.why { grid-column: 2; font-size: 12.5px; color: var(--muted); margin-top: -4px; }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12.5px; max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.hit { cursor: default; }
+.hit:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 520px; }
+table.wide { min-width: 720px; font-size: 13px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12.5px; }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+th.num { text-align: right; }
+table.wide td.num { text-align: right; }
+.scen { display: grid; gap: 12px; }
+.scen .s { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.scen .s b { font-size: 14px; }
+.verdict { border-left: 3px solid var(--s2); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+details summary { cursor: pointer; color: var(--text-2); font-size: 13px; }
+footer { display: grid; gap: 10px; font-size: 12.5px; color: var(--text-2); border-top: 1px solid var(--grid); padding-top: 18px; }
+footer ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; word-break: break-word; }
+footer a { color: var(--text-2); }
+.caption { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-size: 14px; }
+@media (max-width: 520px) {
+  .bar-row, .axis, .div-row { grid-template-columns: 1fr; gap: 4px; }
+  .axis .ticks { grid-column: 1; }
+  .axis > div:first-child { display: none; }
+  .why { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { .fill, .seg { transition: width .4s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Signal Lab deep dive · BMM / MOON · Tue 20 Oct 2026, before the US open</div>
+  <h1>Blue Moon's C$10 deal with Elmet: the "65% premium" is mostly a warrant and a falling share price</h1>
+  <p class="thesis">Elmet (ELMT) has paid C$35M for 3.5M Blue Moon units, and the money can only be spent on the Springer tungsten complex in Nevada. The price was fixed on 11 Sep, when it was 31.8% above the market. On my numbers, a share plus its three-year warrant was worth about C$10 that day. Springer has its state permits and a mill, but no current resource and no study. The US$25M prepayment that was meant to close alongside the shares has not been announced.</p>
+  <div class="facts" aria-label="Key figures">
+    <div class="fact"><b>C$10.00</b><span>Elmet's unit price: 31.8% above the 11 Sep close, 65% above the 19 Oct close of C$6.05</span></div>
+    <div class="fact"><b>-20%</b><span>MOON since 11 Sep (BMM -21%). Tungsten peers fell 28% to 43% over the same period</span></div>
+    <div class="fact"><b>US$25M</b><span>Of Elmet's US$50M near-term money has arrived. The US$25M prepayment, expected by about 29 Oct, has not been announced</span></div>
+    <div class="fact"><b>None</b><span>Current resource or study at Springer. Restart target Q4 2027; the technical report is also planned for Q4 2027</span></div>
+  </div>
+</header>
+
+<section>
+  <h2><small>Rung 1</small>What is it?</h2>
+  <p><b>The closing.</b> On 19 Oct Blue Moon Metals (TSXV: MOON, Nasdaq: BMM, SEC CIK 1732379) said it had closed a non-brokered placement with The Elmet Group: 3,500,000 units at C$10.00, C$35,000,000 gross. Each unit is one share and one warrant, exercisable for three years at "$10.80". The 19 Oct release does not name the currency. The 14 Sep release and Elmet's 8-K both say C$10.80 (CAD 10.80), subject to TSX Venture Exchange approval. The net proceeds "will be used solely to fund the development of the Springer Project", and Elmet's 8-K gives it audit rights over that. The shares and warrants carry a Canadian hold of four months and one day, and the placement still needs final TSXV approval. No finder's fee was paid, and no new insider or control person was created.</p>
+  <ul>
+    <li><b>Board seat:</b> under an investor rights agreement, William Jacob Homiller joined Blue Moon's board from 16 Oct. He is a sitting Elmet director (Elmet proxy, 16 Sep: "W. Jacob Homiller, Director", 89,469 shares). Elmet keeps the seat while it holds at least 40% of the equity it bought. It also gets participation, top-up and information rights.</li>
+    <li><b>Elmet's stake:</b> about 3.1% of the roughly 111.2M shares the company counts after this deal, or about 6.1% if the warrants were exercised (my arithmetic; the company's own September deck shows "Elmet, 3%").</li>
+    <li><b>Part of a bigger package (14 Sep, signed 11 Sep):</b> Elmet plans about US$150M around Springer. US$25M is this equity. US$50M is a tungsten prepayment facility in two US$25M tranches, repaid through a 25% credit on Springer concentrate sales with no interest unless in default. US$75M goes into a joint venture that will own and run the ammonium paratungstate (APT) plant: Elmet 70%, Blue Moon 20%, EQ Resources (ASX: EQR) 10%. Elmet and EQ set aside a further US$25M for overruns. Blue Moon keeps 100% of the mine and mill. It contributes the APT plant through "an irrevocable and exclusive 99-year use and operating agreement", at a value still to be set.</li>
+    <li><b>Whose money:</b> Blue Moon's release says that of the US$450M the Department of War (DoW) committed to Elmet on 14 Sep, "US$150 million has been designated as use of proceeds for the Transactions".</li>
+    <li><b>Going the other way:</b> on 21 Sep Elmet issued Blue Moon a warrant for 1,166,970 Elmet shares at $21.423. It can be exercised from six months after issue (about 21 Mar 2027) and lasts three years. Blue Moon's deck calls the two warrants "reciprocal warrants totalling approximately US$25 million of strike value".</li>
+  </ul>
+
+  <h3 class="sub">What Blue Moon owns</h3>
+  <div class="tablewrap"><table class="wide">
+    <thead><tr><th>Asset</th><th>Stage, per the filings</th><th>Resource or reserve</th><th>Money and dates</th></tr></thead>
+    <tbody>
+      <tr><td><b>Springer</b>, tungsten-molybdenum, Pershing County, Nevada</td><td>Bought 10 Feb 2026 from GOODS LG for US$18.5M plus a 2.0% NSR royalty. A 1,200 tpd flotation mill with an APT circuit (autoclave included). The state water-pollution and reclamation permits were moved into Blue Moon's name and the bond was posted on 20 Aug. Tailings dam construction was approved on 18 Aug. Production decision taken "without the benefit of a current feasibility study".</td><td><b>Historical only.</b> 2012 estimate (2013 PEA by DMT Geosciences): indicated 355,000 short tons at 0.537% WO<sub>3</sub>, inferred 1,933,600 tons at 0.493%. GE and Utah International, 1984: 10.7 Mt at 0.45% WO<sub>3</sub>. The company says neither "should be relied upon". 67,000 m of drilling runs to Q1 2027.</td><td>Mine and mill restart target Q4 2027. APT plant 2H 2028 (Blue Moon) or 1H 2029 (Elmet's 2 Oct deck). Internal restart cost estimate US$50M. Technical report planned for Q4 2027. "Potential production of 107,000 to 124,000 MTU" with no time period stated.</td></tr>
+      <tr><td><b>Nussir</b>, copper-gold-silver, Norway</td><td>In construction. Final investment decision on 27 Apr 2026. Feasibility study by Worley, April 2026.</td><td>Proven and probable reserves of 24.98 Mt at 0.99% CuEq. After-tax NPV at 8% of US$235M, IRR 19%, 13-year life.</td><td>Initial capex US$184M. Ore production target Q3 2027. A short seller (Viceroy) has challenged the sea-tailings permit; the company says all permits are in good standing.</td></tr>
+      <tr><td><b>Blue Moon</b>, zinc-gold-silver-copper, California</td><td>Underground exploration decline; US$16.5M first phase</td><td>2025 PEA (company's own description)</td><td>Ore to be sent to a mill at Springer (company plan)</td></tr>
+      <tr><td><b>Apex</b>, germanium-gallium-copper, Utah</td><td>Bought from Teck in March 2026 for 7,031,959 shares (8.0% at the time), a 0.5% royalty and Teck offtake rights on Blue Moon zinc</td><td>Historical only</td><td>Re-permit Q2 2027, reopen 2H 2027 (September deck)</td></tr>
+      <tr><td><b>Ropa portfolio</b>: 33 tungsten and antimony claims, western US</td><td>Agreed 11 Aug</td><td>None; historical production records only</td><td>2.8M shares, US$5M cash, 1% NSR royalties and capped milestone payments. Expected to close in October; no closing announced</td></tr>
+      <tr><td><b>Turner</b>, copper-gold, Oregon</td><td>Agreed 23 Sep</td><td>Historical 2010 estimate</td><td>US$4.7M cash, 4,778,761 shares in four tranches over 12 months, up to US$7M of milestones. Expected to close in November</td></tr>
+      <tr><td><b>NSG</b>, Norway</td><td>Being sold into a new company with Alpha Future Funds</td><td></td><td>US$15M in the new company's shares (30%). Expected to close about 30 Nov</td></tr>
+      <tr><td><b>Springer water rights and land</b></td><td>Agreed 3 Sep</td><td></td><td>US$3.5M cash plus US$4.5M in shares. Completion expected early 2027</td></tr>
+      <tr><td><b>Elmet warrant</b></td><td>Issued 21 Sep</td><td></td><td>1,166,970 Elmet shares at $21.423. Elmet closed at $18.75 on 19 Oct, so it is out of the money</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Sources: Blue Moon 6-Ks of 10 Feb, 16 Mar, 16 Apr, 27 Apr (FWP), 30 Apr (prospectus supplement), 26 Jun, 20 Aug, 11 Aug, 13 Aug (Q2 statements and MD&A), 3 Sep, 14 Sep, 23 Sep and 19 Oct; Blue Moon's September 2026 deck; Elmet's 2 Oct deck. The April supplement does not list Springer as a "material property": its 12-month plan only aims to get it to where a technical report "may be commissioned".</p>
+</section>
+
+<section>
+  <h2><small>Rung 2</small>What does it actually mean?</h2>
+  <p><b>Why would Elmet pay 65% over the market? Mostly, it didn't choose to.</b> The terms were fixed on 11 Sep, when C$10.00 was 31.8% above the C$7.59 close. Elmet's 8-K calls the subscription "a binding commitment". The 65% gap is what was left after MOON fell to C$6.05 before closing. C$10.00 is also exactly what public investors paid in May, when Blue Moon sold 10,625,000 shares at C$10.00 and placed 5,000,000 more at the same price.</p>
+  <div class="panel">
+    <h3>What one C$10.00 unit was worth, on the day it was priced and today</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Line (C$ per unit)</th><th class="num">11 Sep (price set)</th><th class="num">19 Oct (closed)</th></tr></thead>
+      <tbody>
+        <tr><td>One MOON share (TSXV close)</td><td class="num">7.59</td><td class="num">6.05</td></tr>
+        <tr><td>Warrant at C$10.80: value if exercised now</td><td class="num">0.00</td><td class="num">0.00</td></tr>
+        <tr><td>Warrant, option value at 40% / 60% / 80% volatility</td><td class="num">1.39 / 2.42 / 3.39</td><td class="num">0.73 / 1.55 / 2.37</td></tr>
+        <tr><td>Share plus warrant, 60% case</td><td class="num">10.01</td><td class="num">7.60</td></tr>
+        <tr><td>Premium of C$10.00 over share plus warrant, 40% / 60% / 80%</td><td class="num">+11% / 0% / -9%</td><td class="num">+47% / +32% / +19%</td></tr>
+        <tr><td>Premium over the share alone (headline)</td><td class="num">+31.8%</td><td class="num">+65%</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">My arithmetic: Black-Scholes, three years, a 3% interest rate, no dividends, and no discount for the four-month hold or for dilution. Volatility is my assumption: MOON's realised volatility was 76% over the last year and 68% over the last three months (Yahoo closes), and long-dated volatility is usually lower. In the 60% case the warrant is the whole premium on 11 Sep, and 39% of the C$3.95 headline gap today.</p>
+  </div>
+  <p><b>What the rest of the money buys Elmet.</b> A seat on Blue Moon's board held by its own director. Control of the APT joint venture, which its deck calls the "first independent U.S. APT plant", with four of seven board seats. The right to take 100% of Springer's concentrate. And a source of feed for its Defense Logistics Agency (DLA) offtake: a guaranteed minimum of $150M of tungsten ore, concentrate and sodium tungstate over five years, with up to $1.85B more at the DLA's option. The DLA "shall have the right to determine the source", from "certain pre-determined sources". Elmet's filings do not say whether Springer is one of them. In return, Elmet gave Blue Moon a warrant on its own shares. I estimate that warrant at US$5.5M to US$10.8M at 40% to 80% volatility (my arithmetic; Elmet's realised volatility is about 99%).</p>
+  <p><b>The sleeper point: only the equity half has arrived.</b> On 14 Sep Blue Moon said Elmet "is expected to close on a US$50 million investment in the BM Group" within 45 days, "half of which is the Equity Subscription and half of which is the Tranche 1 investment". Day 45 is Thu 29 Oct (my arithmetic). The 19 Oct release covers the shares only. US$50M also matches, to the dollar, Blue Moon's own internal estimate of what a Springer restart costs. Elmet's 8-K says the full set of Springer deals, including the JV and the prepayment, is expected to close "within the next twelve calendar months".</p>
+
+  <h3 class="sub">Cash, shares and holders</h3>
+  <ul>
+    <li><b>Cash:</b> C$159.1M at 30 Jun 2026 (Q2 statements). Blue Moon's September deck shows a pro forma of US$134M: 30 Jun cash, plus the Elmet equity, minus Q3 cash for property deals. It does not take off spending since June. In the first half Blue Moon used C$44.9M in operations and C$40.7M in investing, including US$18M for Springer. At the first half's operating rate alone, July to October would use about another C$30M (my arithmetic). So the real figure is probably nearer US$110M or below (inference). The Q3 statements will show it. The C$35M from Elmet can only be spent at Springer.</li>
+    <li><b>Debt and funding gaps:</b> a US$12.5M bridge loan from Hartree and Oaktree, due 30 Jun 2027. The US$50M term loan and US$70M stream for Nussir have not closed ("no precious metals streaming agreement has been closed or drawn", 13 Aug). The April supplement planned C$174M of spending over 12 months. It warned that finishing the projects depends on "additional financing", and the MD&A says equity is still the "primary source of funding".</li>
+    <li><b>Shares:</b> 88,083,940 at 31 Dec 2025 and 104,863,001 at 13 Aug. The company counts about 111.2M after the Elmet units and 2.8M Ropa shares. That is up 26% this year (my arithmetic), which fails gate LT3. Still to come: 4,778,761 Turner shares, about US$4.5M of shares for the water rights (about 1.05M at $4.29, my arithmetic), the 3.5M Elmet warrants and about 1.2M options and share units.</li>
+    <li><b>Holders</b> (September deck, rounded): Monial 7%, Teck 6%, Hartree 6%, Oaktree 3%, Elmet 3%, LNS 3%, Ropa vendor 3%, Wheaton 2%, Altius 1%, management 4%, retail 10%, institutions and family offices 49%. Schedule 13G filers: Libra Advisors (Ranjan Tandon), 6.02% or 6,310,724 shares, filed 8 Sep. Eric Mindich, 5.3% in March, cut to 3.5% at 30 Jun. The July circular says no one holds 10% or more. <b>Absence:</b> Teck received 8.0% in March and the deck shows 6%, but no Teck 13G or 13D appears in Blue Moon's EDGAR filing list. I can't tell from the filings why.</li>
+  </ul>
+
+  <h3 class="sub">Tungsten: the supply squeeze is real, and both companies plan on the price halving</h3>
+  <p><b>China.</b> On 4 Feb 2025 China's Ministry of Commerce and customs authority (Announcement 2025 No. 10) put APT, tungsten oxide, some tungsten carbide, certain solid tungsten and tungsten alloys, and the related technology under export licensing. In May 2026 the ministry's export-control site published an enforcement case: a fine for 20 kg of tungsten powder smuggled out without a licence. The USGS (February 2026) says China produced 67,000 t of the world's 85,000 t of mined tungsten in 2025, about 79% (my arithmetic). It also says the US has had no commercial tungsten mine since 2015, and that Rotterdam APT rose from $331 to $675 per MTU during 2025.</p>
+  <p><b>US demand.</b> From 1 Jan 2027, 10 U.S.C. 4872 bars the Defense Department from contracting for covered material "mined, refined, or separated" in China, Russia, North Korea or Iran. Covered material includes tungsten metal powder and tungsten heavy alloy, and germanium and gallium (relevant to Apex) are added from Dec 2027. The stockpile's FY2025 plan listed potential purchases of 2,041 t of tungsten (USGS); the FY2026 plan "was not released".</p>
+  <div class="panel">
+    <h3>Tungsten prices in filings against the prices Springer is planned on (US$ per metric ton unit)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Market prices reported in filings</span><span><i style="background:var(--s2)"></i>Blue Moon and Elmet planning numbers</span></div>
+    <div class="bars" id="magBars"></div>
+    <div class="axis"><div></div><div class="ticks" id="magTicks"></div></div>
+    <p class="note">There is no free tungsten price. The latest primary APT quote I found is about $3,087 on 7 Aug (Almonty). EQ Resources' September-quarter figure is a realised price for concentrate, which sells below APT. Since mid-September listed tungsten shares have fallen 28% to 43%. I can't tell from any filing whether the price has fallen with them.</p>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="magTable"><thead><tr><th>Line</th><th>US$ per MTU</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+  <p>Both partners model Springer on a long-term price about half the 2026 APT quotes: US$1,450 per MTU in Blue Moon's deck, and US$1,500 for APT in Elmet's 2031 projections. Blue Moon's own cash-cost estimate is US$300-400 per MTU net of molybdenum, with no study behind it.</p>
+
+  <h3 class="sub">The reaction, against controls</h3>
+  <div class="tablewrap"><table class="wide">
+    <thead><tr><th>Window, close to close (%)</th><th class="num">BMM</th><th class="num">MOON</th><th class="num">ELMT</th><th class="num">IWM</th><th class="num">XME</th><th class="num">REMX</th><th class="num">ALM</th><th class="num">EQR</th><th class="num">TUN</th><th class="num">GMET</th></tr></thead>
+    <tbody>
+      <tr><td>Deal day, 11 to 14 Sep</td><td class="num">+4.1</td><td class="num">+4.0</td><td class="num">+32.8</td><td class="num">-0.3</td><td class="num">-3.0</td><td class="num">-2.3</td><td class="num">-5.1</td><td class="num">0.0*</td><td class="num">-2.7</td><td class="num">-6.7</td></tr>
+      <tr><td>Next day, 14 to 15 Sep</td><td class="num">-7.7</td><td class="num">-7.5</td><td class="num">-9.0</td><td class="num">-1.0</td><td class="num">-0.7</td><td class="num">-0.9</td><td class="num">-4.5</td><td class="num">+11.7</td><td class="num">-0.4</td><td class="num">+2.6</td></tr>
+      <tr><td>Since the deal, 11 Sep to 19 Oct</td><td class="num">-21.4</td><td class="num">-20.3</td><td class="num">+15.8</td><td class="num">-6.1</td><td class="num">-10.8</td><td class="num">-24.4</td><td class="num">-43.0</td><td class="num">-29.9</td><td class="num">-28.4</td><td class="num">-39.5</td></tr>
+      <tr><td>Closing release, 16 to 19 Oct</td><td class="num">+0.9</td><td class="num">+1.7</td><td class="num">-1.0</td><td class="num">+0.3</td><td class="num">+0.4</td><td class="num">-1.6</td><td class="num">-10.2</td><td class="num">-3.6</td><td class="num">-5.2</td><td class="num">+2.7</td></tr>
+      <tr><td>20 sessions before the deal, 13 Aug to 11 Sep</td><td class="num">+11.1</td><td class="num">+10.8</td><td class="num">-5.6</td><td class="num">-4.8</td><td class="num">-1.4</td><td class="num">-7.3</td><td class="num">+11.8</td><td class="num">+28.3</td><td class="num">+21.4</td><td class="num">-12.9</td></tr>
+      <tr><td>From MOON's peak close, 9 Apr to 19 Oct</td><td class="num">-49.3</td><td class="num">-47.8</td><td class="num">n/a</td><td class="num">+3.6</td><td class="num">-10.1</td><td class="num">-42.7</td><td class="num">-49.9</td><td class="num">-22.9</td><td class="num">-10.8</td><td class="num">-63.4</td></tr>
+      <tr><td>One year, 20 Oct 2025 to 19 Oct 2026</td><td class="num">n/a</td><td class="num">+62.2</td><td class="num">n/a</td><td class="num">+9.3</td><td class="num">-5.5</td><td class="num">-26.4</td><td class="num">-1.9</td><td class="num">+500.0</td><td class="num">+256.1</td><td class="num">-11.7</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Yahoo daily closes, local currency; my arithmetic. Controls: IWM (US small caps), XME (metals and mining), REMX (rare earth and strategic metals). Tungsten peers: Almonty (ALM, Nasdaq), the listed producer whose Sangdong mine was certified for commercial operation on 17 Sep. EQ Resources (EQR, ASX), Blue Moon's partner in the APT joint venture. Tungsten West (TUN, AIM), whose Hemerdon mine signed an Elmet offtake on 22 Sep. Guardian Metal Resources (GMET, AIM), a Nevada tungsten developer at the same stage as Springer. *The ASX had closed before the 14 Sep news, so EQR's reaction shows on 15 Sep: +11.7% from 11 Sep. ASX and London closes for 19 Oct come before the US session. BMM listed on Nasdaq on 26 Jan 2026 and ELMT floated in April, hence the n/a cells.</p>
+  <p><b>Read-across.</b> The deal day faded. BMM opened 20.8% higher on 14 Sep and closed only 4.1% up, giving back 13.8% from open to close; it fell another 7.7% the next day. Since then MOON is 14.2 points behind IWM and 9.5 behind XME. But it is 4.1 points ahead of REMX and 14.4 ahead of the median tungsten peer, which fell 34.7% (my arithmetic). The 24% drop since the announcement is mostly the tungsten group selling off, not Blue Moon news. The closing release itself moved nothing.</p>
+  <p><b>Already run?</b> It ran earlier: from C$3.73 a year ago to a C$11.59 peak close on 9 Apr, then half of that was given back. The Elmet news was priced and faded on 14 Sep. So there is no unpriced deal premium left to capture. What is left are dated events, mostly months away.</p>
+  <p><b>Takeable for a UK account?</b> Yes, through the US listing. BMM trades on the Nasdaq Capital Market at $4.29, with a 20-session average of $1.44M a day (median $1.23M). That passes the $250k bar, but not the $5M long-term bar (LT5 flagged). MOON on the TSXV adds about C$2.1M a day for brokers that offer it. Blue Moon pays no dividend, so withholding tax does not arise. BMM tracks MOON closely: C$6.05 at 1.405 CAD per USD is $4.31, against $4.29 (my arithmetic).</p>
+</section>
+
+<section>
+  <h2><small>Rung 3</small>Who wins and who loses?</h2>
+  <div class="panel">
+    <h3>Impact of the closed placement and the wider Springer package, scored -5 to +5 (judgement, reasons below each bar)</h3>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Gains</span><span><i style="background:var(--neg)"></i>Loses</span><span><i style="background:var(--zero);border:1px solid var(--baseline)"></i>Neutral</span></div>
+    <div class="bars" id="divBars"></div>
+    <details><summary>Table view</summary>
+      <div class="tablewrap"><table id="divTable"><thead><tr><th>Who</th><th>Score</th><th>Why</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2><small>Rung 4</small>What could happen next?</h2>
+  <div class="scen">
+    <div class="s"><b>Base: approval comes, the rest slips, and the stock follows tungsten</b><span>The TSXV signs off, the prepayment closes late, and drilling runs to Q1 2027. Until there is a current resource, MOON keeps trading with the tungsten group, not the deal. Anchors: the closing release moved BMM 0.9% (IWM +0.3%), and since 11 Sep it has tracked REMX (-24%) rather than Elmet (+16%).</span></div>
+    <div class="s"><b>Bear: more shares, and Springer money that is late</b><span>If the US$25M prepayment misses its window without explanation, Springer has to be funded from cash that Nussir also needs. Blue Moon's own MD&amp;A warns of "significant dilution" if it raises money while the share price is weak. Anchor: when the C$150M bought deal was announced on 27 Apr, MOON fell 7.9% the next day (C$10.91 to C$10.05). The Nussir permit is a separate risk: after a Norwegian Supreme Court ruling on another mine's (Engebø) sea-tailings permit, the EFTA Surveillance Authority sent Norway a formal notice that mentions Nussir.</span></div>
+    <div class="s"><b>Bear, version two: the tungsten trade unwinds</b><span>Almonty is down 43%, Guardian 40%, EQ 30% and Tungsten West 28% since 11 Sep. Both Blue Moon and Elmet plan on about US$1,450-1,500 per MTU over the long term, half the 2026 APT quotes. If prices move toward those numbers, the market will price Springer on them. Anchor: the controls table and the two companies' decks.</span></div>
+    <div class="s"><b>Bull: Springer gets real numbers</b><span>New drilling turns the historical estimate into a current NI 43-101 resource. The prepayment and JV agreements are signed, and a DLA delivery order names Springer concentrate. Anchors: re-assays such as 7.00 m at 1.28% WO<sub>3</sub> (22 Sep). Almonty's Sangdong reached commercial operation in September, so a restart can be done. EQ Resources realised US$2,248 per MTU for concentrate in the September quarter.</span></div>
+  </div>
+  <div class="panel">
+    <h3>Dated catalysts</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Date</th><th>Event</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td class="num">open</td><td>Final TSXV approval of the Elmet placement, and of the C$10.80 warrant price</td><td>6-K 19 Oct; 8-K 14 Sep</td></tr>
+        <tr><td class="num">by Thu 29 Oct</td><td>US$25M prepayment Tranche 1, "expected within forty-five (45) days" of 14 Sep. Not announced as of 19 Oct</td><td>6-K 14 Sep</td></tr>
+        <tr><td class="num">Oct 2026</td><td>Ropa portfolio closing expected (2.8M shares, US$2.5M cash)</td><td>6-K 11 Aug</td></tr>
+        <tr><td class="num">mid-Nov</td><td>Q3 statements: cash after Springer and Nussir spending, share count. Q2 came 44 days after the quarter end; a similar gap points to about 13-16 Nov (my inference)</td><td>Q2 filing date</td></tr>
+        <tr><td class="num">Nov 2026</td><td>Turner closing expected; the first of four share tranches</td><td>6-K 23 Sep</td></tr>
+        <tr><td class="num">~30 Nov</td><td>NSG sale to the Alpha Future Funds company expected to close</td><td>6-K 26 Jun</td></tr>
+        <tr><td class="num">1 Jan 2027</td><td>US defence ban on covered tungsten "mined, refined, or separated" in China, Russia, North Korea or Iran</td><td>10 U.S.C. 4872</td></tr>
+        <tr><td class="num">~20 Feb 2027</td><td>Canadian hold ends on Elmet's 3.5M shares and warrants (four months and a day, if issued 19 Oct; my arithmetic)</td><td>6-K 19 Oct</td></tr>
+        <tr><td class="num">Q1 2027</td><td>67,000 m Springer drill programme due to finish; water rights deal completes "early 2027"</td><td>6-Ks 7 Jul, 3 Sep</td></tr>
+        <tr><td class="num">~21 Mar 2027</td><td>Blue Moon's Elmet warrant (1,166,970 shares at $21.423) becomes exercisable</td><td>Elmet 8-K 22 Sep</td></tr>
+        <tr><td class="num">30 Jun 2027</td><td>Hartree and Oaktree bridge loan matures</td><td>Q2 MD&amp;A</td></tr>
+        <tr><td class="num">by Sep 2027</td><td>Springer JV, prepayment and site agreements "within the next twelve calendar months"</td><td>Elmet 8-K 14 Sep</td></tr>
+        <tr><td class="num">Q3 2027</td><td>Nussir ore production target</td><td>FWP 27 Apr</td></tr>
+        <tr><td class="num">Q4 2027</td><td>Springer mine and mill restart target; Springer technical report planned</td><td>6-K 14 Sep; September deck</td></tr>
+        <tr><td class="num">2H 2028 / 1H 2029</td><td>APT plant restart: Blue Moon says 2H 2028, Elmet says 1H 2029</td><td>6-K 14 Sep; Elmet deck 2 Oct</td></tr>
+        <tr><td class="num">Oct 2029</td><td>Elmet's C$10.80 warrants expire (three years from closing)</td><td>6-K 19 Oct</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p><b>Signals to watch:</b></p>
+  <ul>
+    <li>A Blue Moon 6-K or Elmet 8-K on the US$25M Tranche 1, or an explanation if it misses 29 Oct.</li>
+    <li>The TSXV bulletin giving final acceptance.</li>
+    <li>Any new prospectus supplement on Blue Moon's F-10 shelf (filed on EDGAR as SUPPL), or a new bought deal.</li>
+    <li>New-hole drilling results from Springer, as opposed to re-assays of 1970s and 1980s core.</li>
+    <li>Norway's reassessment of the Engebø permit, and anything it says about Nussir.</li>
+    <li>Changes in 13G filings (Libra Advisors), and whether Teck files one.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><small>Verdict</small>Tracked, no call</h2>
+  <div class="verdict">
+    <p><b>Why no call:</b> the money is real and ring-fenced for Springer. But the news was priced and faded on 14 Sep, and the closing moved nothing. Since then BMM has fallen with the tungsten group, not because of anything in its filings. Most of the "65% premium" is a warrant plus a price that fell after the terms were set. What would move the value (the prepayment, a current resource, the JV papers, Nussir finance) is weeks to a year away, and each one could go either way. As a long-term name it fails LT1 (no revenue, no current resource at Springer) and LT3 (shares up 26% this year, with more to come), and LT5 is flagged (about $1.4M a day in the US).</p>
+    <p><b>What would move it to WATCH:</b> the US$25M Tranche 1 announced by about 29 Oct, plus TSXV acceptance, while MOON keeps beating the tungsten peers. <b>To AVOID:</b> Tranche 1 missing its window with no explanation, a new equity raise priced below the market, or an adverse step on the Nussir permit. <b>Toward OWN (long term):</b> a current NI 43-101 resource at Springer, signed JV and prepayment agreements, and Nussir project finance closed, at a price that has not already run.</p>
+    <p class="note">Method checks: primary filings read (Blue Moon 6-Ks for 19 Oct, 6 Oct, 23 Sep, 22 Sep, 14 Sep, 3 Sep, 20 Aug, 13 Aug Q2 statements and MD&amp;A and Viceroy reply, 11 Aug, 7 Jul, 26 Jun, 6 May, 30 Apr supplement, 27 Apr FWP, 16 Apr, 16 Mar and 10 Feb; the July circular; three 13G filings; Elmet's 8-Ks of 14 and 22 Sep, its proxy and its 2 Oct deck). Company website and September deck read. SEDAR+ was blocked by a captcha, and I did not try to get round it. The TSXV bulletin was not checked. The reaction is measured against IWM, XME, REMX and four tungsten peers, with move types labelled. Siblings: EQ Resources (JV partner) and Tungsten West (Elmet offtake). Input commodity: no free price, so filed quotes only. Funded versus committed: US$25M of US$50M closed, US$75M JV not yet signed. There were no corporate actions to add back. Already logged in the ledger on 20 Oct as tracked (strategic placement). No personalised investment advice: this is a research verdict, not a recommendation to trade.</p>
+  </div>
+</section>
+
+<section>
+  <h2><small>Draft post</small>Caption</h2>
+  <div class="caption">Blue Moon Metals (BMM) has closed C$35M from Elmet at C$10 a unit, 65% above Monday's price. It looks like a strategic buyer paying up. Look closer. The price was fixed on 11 Sep, when it was 32% above the market. It is the same C$10 that public investors paid in May. And each unit comes with a three-year warrant at C$10.80. On my numbers, share plus warrant was worth about C$10 on the day the price was set. The 65% is mostly Blue Moon's own 20% fall since then, alongside every other tungsten stock. The next test is Elmet's US$25M prepayment. It was expected within 45 days of 14 Sep, so by about 29 Oct, and it has not been announced. Springer still has no current resource.</div>
+</section>
+
+<footer>
+  <div><b>Sources</b></div>
+  <ol>
+    <li>Blue Moon 6-K, 19 Oct 2026 (closing of the Elmet placement, board appointment): <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526002139/ex991_1.htm">ex 99.1</a></li>
+    <li>Blue Moon 6-K, 14 Sep 2026 (Springer transactions with Elmet and EQ Resources): <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001998/ex991_1.htm">ex 99.1</a></li>
+    <li>Elmet 8-K, 14 Sep 2026 (Springer Agreement, DLA offtake): <a href="https://www.sec.gov/Archives/edgar/data/2101698/000121390026099734/ea0304682-8k_elmet.htm">8-K</a>; 8-K 22 Sep 2026 (warrant to Blue Moon): <a href="https://www.sec.gov/Archives/edgar/data/2101698/000121390026101918/ea0306130-8k_elmet.htm">8-K</a>; 8-K 22 Sep 2026 (Tungsten West offtake): <a href="https://www.sec.gov/Archives/edgar/data/2101698/000121390026102242/ea0306073-8k_elmet.htm">8-K</a>; DEF 14A 16 Sep 2026 (directors): <a href="https://www.sec.gov/Archives/edgar/data/2101698/000121390026100530/ea0304521-01.htm">proxy</a>; presentation 2 Oct 2026: <a href="https://www.sec.gov/Archives/edgar/data/2101698/000121390026106420/ea030742001ex99-1.htm">ex 99.1</a></li>
+    <li>Blue Moon Q2 2026, 6-K 13 Aug 2026: <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001834/ex991_1.htm">financial statements</a>, <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001834/ex992_2.htm">MD&amp;A</a>; reply to Viceroy, 13 Aug: <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001827/ex991_1.htm">ex 99.1</a></li>
+    <li>Blue Moon FWP, 27 Apr 2026 (Nussir FID, Springer restart decision, historical estimate, bought deal): <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526000756/MainDocument.htm">FWP</a>; prospectus supplement, 30 Apr 2026: <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526000833/MainDocument.htm">SUPPL</a>; closing, 6 May 2026: <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526000912/ex991_1.htm">ex 99.1</a>; Nussir feasibility study, 16 Apr 2026: <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526000613/ex991_1.htm">ex 99.1</a></li>
+    <li>Springer: acquisition closing 10 Feb 2026 <a href="https://www.sec.gov/Archives/edgar/data/1732379/000110465926013050/tm265928d1_ex99-2.htm">ex 99.2</a>; drill programme 7 Jul <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001496/ex991_1.htm">ex 99.1</a>; permits and bond 20 Aug <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001899/ex991_1.htm">ex 99.1</a>; water rights 3 Sep <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001951/ex991_1.htm">ex 99.1</a>; re-assays 22 Sep <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526002032/ex991_1.htm">ex 99.1</a> and 6 Oct <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526002074/ex991_1.htm">ex 99.1</a></li>
+    <li>Other assets: Apex from Teck, 16 Mar <a href="https://www.sec.gov/Archives/edgar/data/1732379/000110465926027996/tm268823d1_ex99-1.htm">ex 99.1</a>; NSG and Alpha Future Funds, 26 Jun <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001441/ex991_1.htm">ex 99.1</a>; Ropa portfolio, 11 Aug <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001779/ex991_1.htm">ex 99.1</a>; Turner, 23 Sep <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526002036/ex991_1.htm">ex 99.1</a></li>
+    <li>Holders: management circular, July 2026 <a href="https://www.sec.gov/Archives/edgar/data/1732379/000155485526001564/ex995_5.htm">ex 99.5</a>; Schedule 13G, Libra Advisors, 8 Sep 2026 <a href="https://www.sec.gov/Archives/edgar/data/1732379/000119312526385226/0001193125-26-385226-index.htm">index</a>; Eric Mindich, 10 Mar 2026 <a href="https://www.sec.gov/Archives/edgar/data/1732379/000121465926003116/0001214659-26-003116-index.htm">index</a> and 14 Aug 2026 <a href="https://www.sec.gov/Archives/edgar/data/1732379/000121465926010178/0001214659-26-010178-index.htm">index</a>; EDGAR filing list <a href="https://data.sec.gov/submissions/CIK0001732379.json">submissions</a></li>
+    <li>Blue Moon September 2026 corporate presentation (capital structure, holders, Springer timeline, long-term prices): <a href="https://bluemoonmetals.com/wp-content/uploads/2026/09/MOON-September-2026-Corporate-Presentation-1.pdf">PDF</a></li>
+    <li>Tungsten prices: Almonty Q2 2026, 6-K 12 Aug 2026 <a href="https://www.sec.gov/Archives/edgar/data/1670061/000149315226037264/ex99-1.htm">release</a> and <a href="https://www.sec.gov/Archives/edgar/data/1670061/000149315226037264/ex99-3.htm">MD&amp;A</a>; Almonty Sangdong certification, 21 Sep 2026 <a href="https://www.sec.gov/Archives/edgar/data/1670061/000149315226043476/ex99-1.htm">ex 99.1</a>; EQ Resources September-quarter update, 6 Oct 2026 <a href="https://asx.api.markitdigital.com/asx-research/1.0/file/2924-03144781-2A1701944">ASX PDF</a></li>
+    <li>USGS, Mineral Commodity Summaries 2026, Tungsten: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf">PDF</a></li>
+    <li>China MOFCOM and GAC Announcement 2025 No. 10 (tungsten export controls): <a href="https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_084ded0609404b2d81c746b31c9a03a6.html">MOFCOM</a>; enforcement case, May 2026: <a href="https://exportcontrol.mofcom.gov.cn/article/hgfw/hgal/202605/1291.html">China Export Control Information</a></li>
+    <li>10 U.S.C. 4872, with the amendment effective 1 Jan 2027: <a href="https://www.law.cornell.edu/uscode/text/10/4872">LII</a></li>
+    <li>Peer descriptions: <a href="https://guardianmetalresources.com/">Guardian Metal Resources</a>, <a href="https://www.tungstenwest.com/">Tungsten West</a></li>
+    <li>Prices and volumes: Yahoo Finance daily bars for BMM, MOON.V, ELMT, IWM, SPY, XME, REMX, ALM, EQR.AX, TUN.L, GMET.L and CAD=X, to 19 Oct 2026</li>
+  </ol>
+  <div class="note">Not investment advice. Figures marked as arithmetic are mine, from the cited inputs. Inferences are labelled. Warrant values depend on the stated volatility assumptions. Impact scores are judgement.</div>
+</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const mag = [
+  {lbl: "APT, January 2025", v: 330, k: "mkt", src: "Almonty Q2 2026 MD&A, citing the Metal Bulletin European APT price"},
+  {lbl: "APT, end of 2025 (Rotterdam)", v: 675, k: "mkt", src: "USGS Mineral Commodity Summaries 2026 (Argus)"},
+  {lbl: "APT, 29 May 2026", v: 3040, k: "mkt", src: "Elmet presentation, 2 Oct 2026"},
+  {lbl: "APT, Q2 2026 average (Europe)", v: 3075, k: "mkt", src: "Almonty Q2 2026 release"},
+  {lbl: "APT, about 7 Aug 2026", v: 3087, k: "mkt", src: "Almonty Q2 2026 MD&A, 'based on market quotations'"},
+  {lbl: "EQ Resources concentrate, Sep quarter 2026 (realised)", v: 2248, k: "mkt", src: "EQ Resources ASX release, 6 Oct 2026; concentrate, not APT"},
+  {lbl: "Elmet long-term APT price (2031 plan)", v: 1500, k: "plan", src: "Elmet presentation, 2 Oct 2026 (Fastmarkets)"},
+  {lbl: "Blue Moon long-term tungsten price", v: 1450, k: "plan", src: "Blue Moon September 2026 deck, 'LT consensus pricing'"},
+  {lbl: "Springer cash cost, top of Blue Moon's range", v: 400, k: "plan", src: "Blue Moon internal estimate, US$300-400 net of molybdenum; no study"}
+];
+const impact = [
+  {lbl: "Blue Moon holders (BMM, MOON)", s: 2, why: "C$35M at C$10.00, ring-fenced for Springer; but the APT plant goes into a JV where Blue Moon keeps 20%, and half the near-term money has not arrived"},
+  {lbl: "EQ Resources (EQR)", s: 1, why: "10% of the APT JV for its know-how, plus an 8-year, 4,000 t WO3 offtake; the JV papers are not due for up to a year"},
+  {lbl: "DoW and the DLA stockpile", s: 1, why: "A US concentrate source for Elmet's $150M minimum offtake, but Springer has no current resource yet"},
+  {lbl: "Nevada tungsten developers, e.g. Guardian Metal (GMET)", s: 1, why: "A strategic buyer paid up for a Nevada restart, and Elmet pitches the APT plant as a hub for other western US mines (inference)"},
+  {lbl: "Tungsten West (TUN)", s: 0, why: "Already has its own Elmet offtake (22 Sep); Springer is years from competing for Elmet's feed"},
+  {lbl: "Nussir lenders (Hartree, Oaktree)", s: 0, why: "Elmet's money cannot be spent on Nussir; the US$120M term loan and stream are still not closed"},
+  {lbl: "Almonty (ALM)", s: -1, why: "A second Western concentrate and APT source aimed at US defence buyers from 2028-29; small and years away"},
+  {lbl: "Elmet holders (ELMT)", s: -1, why: "Paid C$10.00 for units worth about C$7.60 today (my estimate), and issued a warrant on 1.17M Elmet shares; in return, control of the APT plant project"}
+];
+const max = 3800;
+const fmt = v => "$" + v.toLocaleString("en-US");
+const tip = document.getElementById("tip");
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = e.target.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 300)) + "px"; tip.style.top = (r.bottom + 8) + "px"; }
+function hideTip() { tip.hidden = true; }
+const mb = document.getElementById("magBars"), mt = document.querySelector("#magTable tbody");
+mag.forEach(d => {
+  const row = document.createElement("div"); row.className = "bar-row";
+  const pct = d.v / max * 100;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="track"><div class="fill hit" tabindex="0" style="width:${pct}%;background:${d.k === "plan" ? "var(--s2)" : "var(--pos)"}"></div><span class="val" style="left:${pct}%">${fmt(d.v)}</span></div>`;
+  const f = row.querySelector(".fill");
+  const html = `<b>${d.lbl}</b><br>${fmt(d.v)} per MTU<br><span style="color:var(--muted)">${d.src}</span>`;
+  f.addEventListener("mouseenter", e => showTip(e, html)); f.addEventListener("focus", e => showTip(e, html));
+  f.addEventListener("mouseleave", hideTip); f.addEventListener("blur", hideTip);
+  mb.appendChild(row);
+  mt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${fmt(d.v)}</td><td>${d.src}</td></tr>`);
+});
+const ticks = document.getElementById("magTicks");
+[0, 1000, 2000, 3000].forEach(t => ticks.insertAdjacentHTML("beforeend", `<span style="left:${t / max * 100}%">${fmt(t)}</span>`));
+const db = document.getElementById("divBars"), dt = document.querySelector("#divTable tbody");
+impact.forEach(d => {
+  const row = document.createElement("div"); row.className = "div-row";
+  const w = Math.abs(d.s) / 5 * 50;
+  const cls = d.s > 0 ? "pos" : d.s < 0 ? "neg" : "zero";
+  const vpos = d.s >= 0 ? `left:calc(50% + ${w}% + 8px)` : `right:calc(50% + ${w}% + 6px)`;
+  row.innerHTML = `<div class="lbl">${d.lbl}</div><div class="dtrack"><div class="seg ${cls} hit" tabindex="0" style="width:${w}%"></div><span class="v" style="${vpos}">${d.s > 0 ? "+" : ""}${d.s}</span></div><div class="why">${d.why}</div>`;
+  const s = row.querySelector(".seg");
+  const html = `<b>${d.lbl}</b><br>Score ${d.s > 0 ? "+" : ""}${d.s}<br>${d.why}`;
+  s.addEventListener("mouseenter", e => showTip(e, html)); s.addEventListener("focus", e => showTip(e, html));
+  s.addEventListener("mouseleave", hideTip); s.addEventListener("blur", hideTip);
+  db.appendChild(row);
+  dt.insertAdjacentHTML("beforeend", `<tr><td>${d.lbl}</td><td class="num">${d.s > 0 ? "+" : ""}${d.s}</td><td>${d.why}</td></tr>`);
+});
+</script>
