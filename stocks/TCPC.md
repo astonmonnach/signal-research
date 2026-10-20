@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $4.11 (2026-10-20, ledger) · 1d -0.2%, 5d +3.0%, 20d +0.5% (market context, 2026-10-20)
-- **Since first found:** **+0.7%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +0.7% vs IWM +0.3% = **+0.4 pts** vs IWM; direction +1 → excess +0.4% (5 days)
+- **Latest price:** $4.16 (2026-10-20, ledger) · 1d +1.2%, 5d +4.5%, 20d +2.0% (market context, 2026-10-20)
+- **Since first found:** **+1.9%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +1.9% vs IWM +0.8% = **+1.1 pts** vs IWM; direction +1 → excess +1.1% (5 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.11 | +0.7% | +0.7% | +0.3% | +0.4% | 5 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.11 | -2.6% | -2.8% | -1.2% |  | 4 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.16 | +1.9% | +1.9% | +0.8% | +1.1% | 5 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.16 | -1.5% | -1.7% | -0.7% |  | 4 | live |

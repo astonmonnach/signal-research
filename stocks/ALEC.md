@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $1.94 (2026-10-20, ledger) · 1d +0.2%, 5d +4.5%, 20d -2.8% (market context, 2026-10-20)
-- **Since first found:** **+5.4%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +4.8% vs IWM +0.2% = **+4.6 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $1.95 (2026-10-20, ledger) · 1d -0.3%, 5d +4.0%, 20d -3.2% (market context, 2026-10-20)
+- **Since first found:** **+5.7%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +5.1% vs IWM +0.6% = **+4.5 pts** vs IWM; direction 0, tracked only (1 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +4.5% vs peer median +4.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Peers / sympathy:** no flag (self 5d +4.0% vs peer median +5.4%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.94 | +5.4% | +4.8% | +0.2% |  | 1 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.94 | +5.4% | +4.8% | +0.2% |  | 1 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.95 | +5.7% | +5.1% | +0.6% |  | 1 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $1.95 | +5.7% | +5.1% | +0.6% |  | 1 | live |

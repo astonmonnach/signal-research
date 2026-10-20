@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.94 (2026-10-20, ledger)
-- **Since first found:** found 2026-10-20 via `merger_hostile` at $3.94; the ledger enters it at the next session's open (pending)
+- **Latest price:** $3.95 (2026-10-20, ledger)
+- **Since first found:** found 2026-10-20 via `merger_hostile` at $3.95; the ledger enters it at the next session's open (pending)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | -0.5% | $4.7M | $3.94 |  | $3.94 |  |  |  |  |  | pending |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | -0.3% | $4.7M | $3.95 |  | $3.95 |  |  |  |  |  | pending |

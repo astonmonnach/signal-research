@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.42 (2026-10-20, ledger) · 1d +0.2%, 5d +0.3%, 20d +47.4% (market context, 2026-10-20)
-- **Since first found:** **+0.1%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.2% vs IWM -2.1% = **+2.4 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $36.35 (2026-10-20, ledger) · 1d +0.0%, 5d +0.1%, 20d +47.2% (market context, 2026-10-20)
+- **Since first found:** **-0.1%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.1% vs IWM -1.7% = **+1.8 pts** vs IWM; direction 0, tracked only (11 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median +7.5% 5d vs PCRX +0.3%; peers moved, it didn't. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median +7.7% 5d vs PCRX +0.1%; peers moved, it didn't. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-20)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: PCRX: Viatris $36.50 tender offer due to have started (15 business days from 8 Oct)
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.42 | +0.1% | +0.2% | -2.1% |  | 11 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.42 | +0.3% | +0.2% | -2.2% |  | 8 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.35 | -0.1% | +0.1% | -1.7% |  | 11 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.35 | +0.1% | +0.0% | -1.8% |  | 8 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $1.10 (2026-10-20, ledger) · 1d +2.3%, 5d -25.5%, 20d -35.6% (market context, 2026-10-20)
-- **Since first found:** **-12.4%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -13.1% vs IWM -2.1% = **-11.0 pts** vs IWM; direction +1 → excess -10.9% (11 days)
+- **Latest price:** $1.04 (2026-10-20, ledger) · 1d -1.9%, 5d -28.6%, 20d -38.2% (market context, 2026-10-20)
+- **Since first found:** **-16.8%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -17.5% vs IWM -1.7% = **-15.8 pts** vs IWM; direction +1 → excess -15.8% (11 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CRMT -25.5% 5d vs peer median +3.4%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Peers / sympathy:** solo_move: CRMT -28.6% 5d vs peer median +3.1%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 22 Oct 2026: CRMT: lenders' waiver and liquidity relief expire (company warns of a possible bankruptcy filing)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.10 | -12.4% | -13.1% | -2.1% | -10.9% | 11 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.10 | -18.9% | -19.5% | -2.2% |  | 8 | live |
-| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $1.10 | -18.9% | -19.5% | -1.2% | -18.3% | 4 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.04 | -16.8% | -17.5% | -1.7% | -15.8% | 11 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.04 | -23.0% | -23.5% | -1.8% |  | 8 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $1.04 | -23.0% | -23.5% | -0.7% | -22.8% | 4 | live |
