@@ -105,7 +105,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), MSGS (26 Oct), DIBS (16…) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `DEF 14A` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `4` 8 Oct · Triage, dismissed: **MOD** Form 4: a 915-share grant (code A). ([triage](../watch/digests/2026-10-10-triage.md))

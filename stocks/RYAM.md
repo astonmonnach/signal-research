@@ -113,7 +113,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), MSGS (26 Oct), DIBS (16…) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md)**: Research: Research: Fri 16 Oct 2026 (- RYAM (row logged 16 Oct, event dated 15 Dec) set to **none**. The "event" is an undated promise of "a clear…) ([note](../research/daily/2026-10-16.md))
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): potential sale; expected +$1-3; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
