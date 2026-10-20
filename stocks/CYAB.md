@@ -26,9 +26,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.149 (2026-10-19, ledger)
-- **Since first found:** **-25.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -25.2% vs IWM -3.4% = **-21.9 pts** vs IWM; direction 0, tracked only (14 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $0.150 (2026-10-19, ledger)
+- **Since first found:** **-25.0%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -25.0% vs IWM -3.8% = **-21.2 pts** vs IWM; direction 0, tracked only (14 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -37,6 +37,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage, dismissed: The CYAB, VVOS, DPU and RUBI supply items (under $1). ([triage](../watch/digests/2026-10-20-triage.md))
+- **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -26.3%, found day +7.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/999999999526003279/9999999995-26-003279-index.htm))
 - **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: Cyabra Secures Enterprise Agreement with Fortune 500 Media and Entertainment Company (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/08/3377373/0/en/cyabra-secures-enterprise-agreement-with-fortune-500-media-and-entertainment-company.html)) · Market scan: share registration (S-1) (`S-1`) (5d before -9.5%, found day -10.5%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026107694/0001213900-26-107694-index.htm))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 21 Sep + deficiency Jun; $0.20; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
@@ -46,5 +48,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.149 | -25.2% | -25.2% | -3.4% |  | 14 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.149 | -12.1% | -12.1% | -2.1% | +10.0% | 10 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.150 | -25.0% | -25.0% | -3.8% |  | 14 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.150 | -11.8% | -11.8% | -2.5% | +9.3% | 10 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 |  | $0.150 |  |  |  |  |  | pending |

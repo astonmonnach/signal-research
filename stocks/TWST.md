@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $139.13 (2026-10-19, ledger) · 1d +4.8%, 5d -8.4%, 20d -16.1% (market context, 2026-10-19)
-- **Since first found:** **-28.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -27.9% vs IWM -1.8% = **-26.2 pts** vs IWM; direction 0, tracked only (18 days)
-- **Peers / sympathy:** no flag (self 5d -8.4% vs peer median -9.1%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Latest price:** $139.77 (2026-10-19, ledger) · 1d +5.3%, 5d -8.0%, 20d -15.7% (market context, 2026-10-19)
+- **Since first found:** **-27.7%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -27.6% vs IWM -2.2% = **-25.4 pts** vs IWM; direction 0, tracked only (18 days)
+- **Peers / sympathy:** no flag (self 5d -8.0% vs peer median -9.7%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Research: Mon 19 Oct 2026 (- The size buckets were rebuilt from current market values. TWST moved to mid caps.) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `4` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `144` 9 Oct · Triage, dismissed: **TWST** Form 144: a routine notice of intended sale. ([triage](../watch/digests/2026-10-10-triage.md))
@@ -112,4 +113,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $139.13 | -28.0% | -27.9% | -1.8% |  | 18 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $139.77 | -27.7% | -27.6% | -2.2% |  | 18 | live |

@@ -7,8 +7,8 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
 - **Latest price:** $94.96 (2026-10-16, ledger)
-- **Since first found:** **+0.1%** (found 2026-10-07 via `8k_merger_agreement` at $94.85). From the next open $94.85: +0.1% vs IWM -1.4% = **+1.5 pts** vs IWM; direction 0, tracked only (8 days)
-  - 2 more ledger rows: see Performance since found
+- **Since first found:** **+0.1%** (found 2026-10-07 via `8k_merger_agreement` at $94.85). From the next open $94.85: +0.1% vs IWM -1.8% = **+1.9 pts** vs IWM; direction 0, tracked only (8 days)
+  - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.1%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1666138/000166613826000041/atkr-20261019.htm)) · Market scan: delisting (`25-NSE`) (5d before +0.1%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1666138/000087666126000843/0000876661-26-000843-index.htm)) · Filings: `8-K` 19 Oct; +33 older (Jun – Oct 2026) first picked up · Research: Research: Mon 19 Oct 2026 (- **ATKR:** the reports the merger completed on 19 Oct and the notes redeemed; its items include a listing…) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **ATKR** (market-wide, merger arb): shareholders approved Prysmian's **$95.00 cash** deal on 7 Oct, and HSR had already expired 14 Sep. ([triage](../watch/digests/2026-10-08-triage.md)) · Logged as `merger_arb` (direction 0): Prysmian $95 cash; vote passed 7 Oct, HSR expired; spread 0.1% at $94.88; tracked; source: daily research 8 Oct (research/daily/2026-10-08.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.1%, found day -0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1666138/000166613826000039/atkr-20261008.htm)) · Research: Research: Thu 8 Oct 2026 (2. ATKR: shareholders approve the $95 Prysmian deal) ([note](../research/daily/2026-10-08.md))
 - **[2026-10-07](../scans/2026-10-07.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -0.0%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1666138/000166613826000037/atkr-20261007.htm))
 - **[2026-09-29](../scans/2026-09-29.md)**: Research: Dated-catalyst scan: 2026-09-29 (window 30 Sep – 7 Oct 2026) (ATKR Prysmian merger vote 7 Oct 94.73 0.29% priced) ([note](../research/scans/2026-09-29-dated-catalysts.md))
@@ -27,6 +28,8 @@ Every [ledger](../ledger/LEDGER.md) row for ATKR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `8k_merger_agreement` | 0 | -0.0% | +0.1% | $75.2M | $94.85 | $94.85 | $94.96 | +0.1% | +0.1% | -1.4% |  | 8 | live |
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.96 | +0.1% | +0.1% | -2.1% |  | 7 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.96 | +0.1% | +0.1% | -2.1% |  | 7 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | -0.0% | +0.1% | $75.2M | $94.85 | $94.85 | $94.96 | +0.1% | +0.1% | -1.8% |  | 8 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.96 | +0.1% | +0.1% | -2.5% |  | 7 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.1% | -0.0% | $74.3M | $94.84 | $94.89 | $94.96 | +0.1% | +0.1% | -2.5% |  | 7 | live |
+| 2026-10-19 | `8k_merger_agreement` | 0 | +0.1% | +0.0% | $71.1M | $94.96 |  | $94.96 |  |  |  |  |  | pending |
+| 2026-10-19 | `delisting` | 0 | +0.1% | +0.0% | $71.1M | $94.96 |  | $94.96 |  |  |  |  |  | pending |

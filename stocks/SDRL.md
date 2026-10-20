@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $47.92 (2026-10-19, ledger)
-- **Since first found:** **+2.0%** (found 2026-10-12 via `linked_peer` at $46.99). From the next open $48.51: -1.2% vs IWM -2.0% = **+0.8 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $48.23 (2026-10-19, ledger)
+- **Since first found:** **+2.6%** (found 2026-10-12 via `linked_peer` at $46.99). From the next open $48.51: -0.6% vs IWM -2.4% = **+1.8 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (It is handing back its own spike. From 2 to 9 October, when he bought 6.75M shares and was 16% to 20% of each…) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): BORR peer (offshore driller): +3.3% from 7 Oct to 9 Oct close; Elliott sold 534,471 sh from 22 Sep to 8 Oct; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Over the same two sessions (7 Oct close to 9 Oct close): +2.2%, +3.4%, +2.2%, +3.3%, the oil services fund…) ([note](../research/daily/2026-10-12.md)) · Triage, dismissed: **SDRL**, **INSW**: holders selling; noted, no action. ([triage](../watch/digests/2026-10-12-triage.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1737706/000091957426006770/0000919574-26-006770-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for SDRL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +5.2% | +1.8% | $27.0M | $46.99 | $48.51 | $47.92 | +2.0% | -1.2% | -2.0% |  | 6 | live |
+| 2026-10-12 | `linked_peer` | 0 | +5.2% | +1.8% | $27.0M | $46.99 | $48.51 | $48.23 | +2.6% | -0.6% | -2.4% |  | 6 | live |

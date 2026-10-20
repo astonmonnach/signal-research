@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_selling` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $17.88 (2026-10-19, ledger) · 1d +0.6%, 5d +3.1%, 20d +8.8% (market context, 2026-10-19)
-- **Since first found:** **+5.0%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: +4.3% vs IWM +0.4% = **+3.9 pts** vs IWM; direction 0, tracked only (4 days)
-- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median +3.5%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Latest price:** $18.05 (2026-10-19, ledger) · 1d +1.6%, 5d +4.1%, 20d +9.9% (market context, 2026-10-19)
+- **Since first found:** **+6.0%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: +5.2% vs IWM -0.1% = **+5.3 pts** vs IWM; direction 0, tracked only (4 days)
+- **Peers / sympathy:** no flag (self 5d +4.1% vs peer median +4.0%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **TALO:** the Slim group sold another 2.75M shares on 15-16 Oct at about $17.01-17.19 (the 16 Oct sale was 43% of volume). ([triage](../watch/digests/2026-10-20-triage.md)) · Filings: `4` 19 Oct · Research: Research: Tue 20 Oct 2026 (- **TALO:** the Slim group sold 2.75M more shares on 15-16 Oct and is down to 16.0%, having sold 34% since 15…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **TALO:** no new sale filed. +4.7% to $17.77 (XOP +2.8%). Any 15 or 16 Oct sales are due by 19 or 20 Oct. AVOID stands; review 29 Oct. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- BORR and TALO quiet.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **TALO:** one more sale by Control Empresarial: 265,446 shares at $17.30 on 14 Oct. It now holds **17.6%**. ([triage](../watch/digests/2026-10-16-triage.md)) · Filings: `4` ×2 15 Oct, `4` 13 Oct, `SCHEDULE 13D/A` 13 Oct; +29 older (May – Oct 2026) first picked up · Research: Research: Fri 16 Oct 2026 (- **TALO:** the Slim group sold 265,446 more shares on 14 Oct, much slower than the week before. AVOID stands…) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **TALO**: no new 13D/A. One more sale shows in the 15 Oct Form 4 (16 Oct triage). ([triage](../watch/digests/2026-10-15-triage.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for TALO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $17.88 | +5.0% | +4.3% | +0.4% |  | 4 | live |
+| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $18.05 | +6.0% | +5.2% | -0.1% |  | 4 | live |

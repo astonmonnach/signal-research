@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $2.96 (2026-10-19, ledger) · 1d -2.8%, 5d +0.2%, 20d -34.1% (market context, 2026-10-19)
-- **Since first found:** **-7.9%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -8.5% vs IWM -1.1% = **-7.4 pts** vs IWM; direction 0, tracked only (3 days)
-- **Peers / sympathy:** missed_peer_move: peer median -15.6% 5d vs IMSR +0.2%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Latest price:** $2.85 (2026-10-19, ledger) · 1d -6.6%, 5d -3.7%, 20d -36.7% (market context, 2026-10-19)
+- **Since first found:** **-11.5%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -12.0% vs IWM -1.5% = **-10.5 pts** vs IWM; direction 0, tracked only (3 days)
+- **Peers / sympathy:** missed_peer_move: peer median -16.4% 5d vs IMSR -3.7%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- **Watchlist:** PED +7.0% to $14.65 with no filing; IMSR -6.6% to $2.85, now below all three insiders'…) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Research: Mon 19 Oct 2026 (IMSR $3.05 $2.87 -5.9% below all three insiders' prices ($2.95 to $3.28)) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **IMSR:** nothing new. -5.3% to $3.05. WATCH stands. ([triage](../watch/digests/2026-10-18-triage.md)) · Filings: `4` 15 Oct, `4` 14 Oct, `4` 13 Oct; +27 older (Feb – Aug 2026) first picked up · Research: Research: Sun 18 Oct 2026 (- **NKLR:** auditor KPMG dismissed with weaknesses unfixed. AVOID. It shares IMSR's industry code (a weak…) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **IMSR**: the third insider buy (director Pardee, 7,500 at $2.95 on 14 Oct, accepted 17:42). Three insiders in six days; see the 15 Oct note. WATCH. ([triage](../watch/digests/2026-10-16-triage.md))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **IMSR** (Terrestrial Energy), insider cluster, takeable ($3.065; median $5.74M a day). ([triage](../watch/digests/2026-10-15-triage.md)) · Logged as `insider_cluster` (direction 0): three insiders bought 9-14 Oct (director 12,000 at $3.28; CEO 16,900 at $3.01; director 7,500 at $2.95), about $112k; the scanner missed it until the 16 Oct fix; IMSR -10.0% from 8 Oct vs nuclear peers -15% to -20%; WATCH; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2019804/000119312526423068/0001193125-26-423068-index.htm)) · Research: Research: Thu 15 Oct 2026 (1. IMSR: the chief executive and two directors buy at the low, and the scanner missed it) ([note](../research/daily/2026-10-15.md))
@@ -28,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.96 | -7.9% | -8.5% | -1.1% |  | 3 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.85 | -11.5% | -12.0% | -1.5% |  | 3 | live |

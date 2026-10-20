@@ -98,12 +98,11 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $19.31 (2026-10-19, ledger) · 1d +2.0%, 5d -5.9%, 20d -11.5% (market context, 2026-10-19)
-- **Since first found:** **-1.7%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +0.4% vs IWM -2.8% = **+3.2 pts** vs IWM; direction +1 → excess +3.2% (21 days)
+- **Latest price:** $18.75 (2026-10-19, ledger) · 1d -0.9%, 5d -8.6%, 20d -14.1% (market context, 2026-10-19)
+- **Since first found:** **-4.5%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -2.5% vs IWM -3.2% = **+0.7 pts** vs IWM; direction +1 → excess +0.7% (21 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -5.9% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Peers / sympathy:** solo_move: ELMT -8.6% 5d vs peer median +0.5%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 19 Oct 2026: ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -111,6 +110,8 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ELMT:** the lock-up ended 19 Oct with no Form 144 or Form 4. 20.6M shares are free on Thu 22 Oct. ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Blue Moon Placement (Elmet (ELMT) has paid C$35M for 3.5M Blue Moon units, and the money can only be spent on the Springer…) ([note](../research/BMM-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (2. BMM: ELMT paid 65% above the market for a seat at a tungsten project) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-19](../scans/2026-10-19.md)**: Calendar: ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock ([calendar](../calendar/catalyst-dates.ics)) · Research: Elmet Lock-up Supply (Signal Lab deep dive · ELMT · Mon 19 Oct 2026, after the US close) ([note](../research/ELMT-2026-10-19.html)) · Research: Research: Mon 19 Oct 2026 (- **ELMT:** the underwriters' lock-up ended today. No filing, +0.6%. 20.6M shares can be sold from Thursday…) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **ELMT:** -2.9% to $18.93. The lock-up ends **19 Oct**; 20.6M shares are free **22 Oct**. No long before 22 Oct. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- ELMT lock-up ends 19 Oct, with shares free on 22 Oct.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **ELMT:** no filing. The underwriters' lock-up ends **19 Oct**, and 20.6M shares become free to sell on **22 Oct** (the agent's arithmetic from the… ([triage](../watch/digests/2026-10-16-triage.md)) · Research: Research: Fri 16 Oct 2026 (- **ELMT:** 20.6M shares (68% of the shares outstanding) can be sold from **22 Oct**.) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **ELMT**: no filing; -9.5% on 14 Oct (IWM -1.9%) with no filing to explain it. Lock-up dates 19 and 22 Oct. ([triage](../watch/digests/2026-10-15-triage.md)) · Research: Research: Thu 15 Oct 2026 (- **ELMT:**) ([note](../research/daily/2026-10-15.md))
@@ -124,5 +125,5 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.31 | -1.7% | +0.4% | -2.8% | +3.2% | 21 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.31 | -9.3% | -10.7% | -4.2% |  | 13 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.75 | -4.5% | -2.5% | -3.2% | +0.7% | 21 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.75 | -11.9% | -13.3% | -4.6% |  | 13 | live |

@@ -13,3 +13,6 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,none,open,,,,
 2026-10-16,RYAM,2026-12-15,RYAM: company promised a clear path forward in Q4 2026,2026-12-18,7.11,20.3,7.0,1.38,100.0,90,none,open,,,,
 2026-10-19,SKYA,2026-10-29,SKYA: $3.00 tender expires one minute after 11:59 pm New York (filed 16 Oct; may be extended to about 12-13 Nov; non-US ,2026-11-20,2.57,42.5,2.5,1.02,50.2,1267,,open,,,,
+2026-10-20,MG,2026-10-27,MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York,2026-11-20,21.44,21.1,25.0,4.53,154.2,142,,open,,,,
+2026-10-20,CSR,2026-11-10,CSR: merger vote (IRT 3.80 shares per CSR share),2026-11-20,54.87,7.7,55.0,4.22,119.1,4,,open,,,,
+2026-10-20,LCII,2026-11-18,"LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open",2026-11-20,81.92,10.5,80.0,8.3,81.8,13,,open,,,,

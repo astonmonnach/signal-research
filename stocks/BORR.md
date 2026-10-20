@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $4.31 (2026-10-19, ledger) · 1d -5.4%, 5d -12.9%, 20d -3.0% (market context, 2026-10-19)
-- **Since first found:** **-12.6%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -13.4% vs IWM -2.0% = **-11.4 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $4.44 (2026-10-19, ledger) · 1d -2.2%, 5d -9.9%, 20d +0.2% (market context, 2026-10-19)
+- **Since first found:** **-9.9%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -10.8% vs IWM -2.4% = **-8.4 pts** vs IWM; direction 0, tracked only (6 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: BORR -12.9% 5d vs peer median +3.7%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Peers / sympathy:** missed_peer_move: peer median +5.2% 5d vs BORR -9.9%; peers moved, it didn't. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- BORR: its trigger is checkable (Q3 adjusted EBITDA of about $77M or more, new work at $134k a day or more…) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (Signal Lab deep dive · BORR · Mon 19 Oct 2026) ([note](../research/BORR-2026-10-19.html)) · Research: Research: Mon 19 Oct 2026 (BORR $4.54 $4.405 -3.0% Troim's buying has not stopped the slide) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **BORR:** no new Troim Form 4. A 6-K investor-presentation link (dated 16 Sep inside) is immaterial. $4.54. WATCH stands. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- BORR and TALO quiet.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **BORR:** - Troim bought 750,000 shares at $4.7234 on 14 Oct and 500,000 at $4.5983 on 15 Oct (, ). ([triage](../watch/digests/2026-10-16-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1715497/000162828026066045/0001628280-26-066045-index.htm)) · Filings: `4` ×2 16 Oct, `SCHEDULE 13D/A` 15 Oct, `4` 15 Oct, `4` 14 Oct · Research: Research: Fri 16 Oct 2026 (- **BORR:**) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **BORR**: Troim's Form 4 for 13 Oct, 1,500,000 shares at $4.9344, accepted 12:22 on 14 Oct, during trading. Plan box not ticked. ([triage](../watch/digests/2026-10-15-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1715497/000162828026065947/0001628280-26-065947-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1715497/000119312526423089/0001193125-26-423089-index.htm)) · Research: Research: Thu 15 Oct 2026 (- **Insider clusters over 30 days** (LESSONS, 16 Oct): the scanner's Clusters line now counts different…) ([note](../research/daily/2026-10-15.md))
@@ -31,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $4.31 | -12.6% | -13.4% | -2.0% |  | 6 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $4.31 | -10.2% | -13.8% | -0.3% | -13.4% | 5 | live |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $4.44 | -9.9% | -10.8% | -2.4% |  | 6 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $4.44 | -7.5% | -11.2% | -0.8% | -10.4% | 5 | live |

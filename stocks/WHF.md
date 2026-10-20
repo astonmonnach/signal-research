@@ -88,8 +88,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.49 (2026-10-19, ledger) · 1d -0.9%, 5d +2.2%, 20d +5.9% (market context, 2026-10-19)
-- **Since first found:** **+7.5%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +7.8% vs IWM -2.8% = **+10.6 pts** vs IWM; direction +1 → excess +10.6% (20 days)
+- **Latest price:** $7.43 (2026-10-19, ledger) · 1d -1.7%, 5d +1.4%, 20d +4.9% (market context, 2026-10-19)
+- **Since first found:** **+6.6%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +6.9% vs IWM -3.2% = **+10.1 pts** vs IWM; direction +1 → excess +10.1% (20 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), MSGS (26 Oct), DIBS (16…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **WHF:** call time corrected to 1:00 pm New York on 9 Nov (15 Oct triage). ([triage](../watch/digests/2026-10-16-triage.md)) · Filings: `8-K/A` 14 Oct
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **WHF**: the 8-K/A only corrects the Q3 call time to **1:00 pm New York** (18:00 UK) on 9 Nov; the 14 Oct note and calendar said 1:30 pm. ([triage](../watch/digests/2026-10-15-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **WHF** (watchlist, 8-K today): a $0.17 special distribution, record date 30 Oct, paid 10 Dec. Q3 results on Mon 9 Nov, call at 1:30 pm New York. ([triage](../watch/digests/2026-10-14-triage.md)) · Press: WhiteHorse Finance, Inc. Announces Special Distribution And To Report Third Quarter 2026 Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-special-distribution-and-to-report-third-quarter-2026-financial-results-302909059.html)) · Filings: `8-K` 14 Oct · Research: Research: Wed 14 Oct 2026 (- **WHF (watchlist):** a special distribution of $0.17 a share, record date 30 Oct, paid 10 Dec. Q3 results…) ([note](../research/daily/2026-10-14.md))
@@ -113,4 +114,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.49 | +7.5% | +7.8% | -2.8% | +10.6% | 20 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.43 | +6.6% | +6.9% | -3.2% | +10.1% | 20 | live |

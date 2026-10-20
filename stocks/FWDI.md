@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $6.84 (2026-10-19, ledger)
-- **Since first found:** **-4.9%** (found 2026-10-12 via `linked_peer` at $7.19). From the next open $7.06: -3.1% vs IWM -2.0% = **-1.1 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $6.81 (2026-10-19, ledger)
+- **Since first found:** **-5.3%** (found 2026-10-12 via `linked_peer` at $7.19). From the next open $7.06: -3.5% vs IWM -2.4% = **-1.1 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: SkyAI Tender (The fight around it: Bastion Trading (Wei Zhu, about 8.6%) filed a 13D on 3 Sep citing payments to companies…) ([note](../research/SKYA-2026-10-19.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): SKYA counterparty: unsolicited 0.306-share proposal rejected by SkyAI on 11 Oct; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Forward's rejected proposal is worth about $2.26 a share at Forward's $7.40 (; my arithmetic).) ([note](../research/daily/2026-10-12.md))
 - **[2026-09-30](../scans/2026-09-30.md)**: Research: Discord stock calls, Oct–Nov 2025: graded against SPY (- **FORD** (Forward Industries) was renamed **FWDI** on 2025-11-17. The CIK is the same, and Massive…) ([note](../research/discord-calls-graded-2026-09-30.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for FWDI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | -10.0% | -2.0% | $18.7M | $7.19 | $7.06 | $6.84 | -4.9% | -3.1% | -2.0% |  | 6 | live |
+| 2026-10-12 | `linked_peer` | 0 | -10.0% | -2.0% | $18.7M | $7.19 | $7.06 | $6.81 | -5.3% | -3.5% | -2.4% |  | 6 | live |

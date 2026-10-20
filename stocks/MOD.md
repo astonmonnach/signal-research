@@ -93,10 +93,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $152.80 (2026-10-19, ledger) · 1d +2.7%, 5d -11.3%, 20d -22.6% (market context, 2026-10-19)
-- **Since first found:** **-11.5%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -11.7% vs IWM -1.8% = **-9.9 pts** vs IWM; direction 0, tracked only (18 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $149.59 (2026-10-19, ledger) · 1d +0.5%, 5d -13.3%, 20d -24.3% (market context, 2026-10-19)
+- **Since first found:** **-13.3%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -13.5% vs IWM -2.2% = **-11.3 pts** vs IWM; direction 0, tracked only (18 days). Includes +0.44619 THRM (spin)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MOD -11.3% 5d vs peer median -4.5%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Peers / sympathy:** solo_move: MOD -13.3% 5d vs peer median -4.6%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: MOD Investor Day (continuing business outlook)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -105,6 +105,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), MSGS (26 Oct), DIBS (16…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `DEF 14A` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-10](../scans/2026-10-10.md#watchlist-filings)**: Filings: `4` 8 Oct · Triage, dismissed: **MOD** Form 4: a 915-share grant (code A). ([triage](../watch/digests/2026-10-10-triage.md))
@@ -122,8 +123,8 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $152.80 | -11.5% | -11.7% | -1.8% |  | 18 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $152.80 | -16.5% | -18.7% | -4.2% |  | 13 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $152.80 | -19.3% | -17.7% | -1.4% |  | 11 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $149.59 | -13.3% | -13.5% | -2.2% |  | 18 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $149.59 | -18.2% | -20.4% | -4.6% |  | 13 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $149.59 | -21.0% | -19.4% | -1.8% |  | 11 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._

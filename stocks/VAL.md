@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $88.57 (2026-10-19, ledger)
-- **Since first found:** **+4.3%** (found 2026-10-12 via `linked_peer` at $84.94). From the next open $86.10: +2.9% vs IWM -2.0% = **+4.9 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $89.39 (2026-10-19, ledger)
+- **Since first found:** **+5.2%** (found 2026-10-12 via `linked_peer` at $84.94). From the next open $86.10: +3.8% vs IWM -2.4% = **+6.2 pts** vs IWM; direction 0, tracked only (6 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (VAL (Valaris)) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **RIG / VAL**, merger proxies: 15.235 RIG per VAL, meetings **24 Nov**, DOJ review closed 30 Sep. Gap 0.2% to 0.6%; needs a RIG short. ([triage](../watch/digests/2026-10-15-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +4.3%, found day -1.0%) ([filing](https://www.sec.gov/Archives/edgar/data/314808/000114036126039488/0001140361-26-039488-index.htm))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): BORR peer (offshore driller): +2.2% from 7 Oct to 9 Oct close vs BORR +11.2%; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Over the same two sessions (7 Oct close to 9 Oct close): +2.2%, +3.4%, +2.2%, +3.3%, the oil services fund…) ([note](../research/daily/2026-10-12.md))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for VAL ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +6.7% | +1.5% | $88.3M | $84.94 | $86.10 | $88.57 | +4.3% | +2.9% | -2.0% |  | 6 | live |
-| 2026-10-14 | `merger_vote` | 0 | +4.3% | -1.0% | $85.0M | $84.73 | $83.97 | $88.57 | +4.5% | +5.5% | +0.4% |  | 4 | live |
+| 2026-10-12 | `linked_peer` | 0 | +6.7% | +1.5% | $88.3M | $84.94 | $86.10 | $89.39 | +5.2% | +3.8% | -2.4% |  | 6 | live |
+| 2026-10-14 | `merger_vote` | 0 | +4.3% | -1.0% | $85.0M | $84.73 | $83.97 | $89.39 | +5.5% | +6.5% | -0.1% |  | 4 | live |

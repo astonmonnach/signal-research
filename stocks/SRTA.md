@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $4.52 (2026-10-19, ledger) · 1d -0.4%, 5d -0.4%, 20d -16.3% (market context, 2026-10-19)
-- **Since first found:** **+4.2%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: -0.7% vs IWM -1.1% = **+0.5 pts** vs IWM; direction +1 → excess +0.5% (3 days)
+- **Latest price:** $4.54 (2026-10-19, ledger) · 1d +0.0%, 5d +0.0%, 20d -15.9% (market context, 2026-10-19)
+- **Since first found:** **+4.6%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: -0.2% vs IWM -1.5% = **+1.3 pts** vs IWM; direction +1 → excess +1.3% (3 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.4% vs peer median -1.6%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Peers / sympathy:** no flag (self 5d +0.0% vs peer median -2.6%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- VYLR, HMH, ESRT, PED, IMSR and SRTA;) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Strata Activist Stake (Signal Lab deep dive · SRTA · Mon 19 Oct 2026) ([note](../research/SRTA-2026-10-19.html))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **SRTA:** no company response to Third Point. +4.6% to $4.54 on about twice normal volume, still 4.8% below Third Point's cost. WATCH stands. ([triage](../watch/digests/2026-10-18-triage.md)) · Filings: `SCHEDULE 13D` 15 Oct; +34 older (May – Oct 2026) first picked up · Research: Research: Sun 18 Oct 2026 (- SRTA +4.6% on double volume, no company response.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **SRTA** (Strata Critical Medical, formerly Blade), activist 13D, takeable ($4.56; median $3.63M a day). ([triage](../watch/digests/2026-10-16-triage.md)) · Triage: SRTA, 13D: read, research pick. +0.2% from today's open. ([triage](../watch/digests/2026-10-16-triage.md)) · Logged as `activist_13d` (direction 0): Third Point 5.8% (cost about $4.77) moved from 13G to 13D and asks for a sale process; filed after the 15 Oct close; SRTA +6.5% from 14 Oct vs IWM -0.1%; WATCH; source: daily research 16 Oct (research/daily/2026-10-16.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 16 Oct 2026 (1. SRTA: Third Point goes activist and asks for a sale) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-15](../scans/2026-10-15.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -8.5%, found day +1.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1779128/000089914026001108/0000899140-26-001108-index.htm))
@@ -27,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.52 | +4.2% | -0.7% | -1.1% | +0.5% | 3 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.59 | $4.52 | -0.4% | -1.5% | +0.2% |  | 0 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.54 | +4.6% | -0.2% | -1.5% | +1.3% | 3 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.54 | +0.0% | -0.4% | -0.2% |  | 0 | live |

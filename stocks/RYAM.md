@@ -101,9 +101,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.07 (2026-10-19, ledger) · 1d +1.3%, 5d -1.1%, 20d -16.5% (market context, 2026-10-19)
-- **Since first found:** **-13.2%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -13.2% vs IWM -2.8% = **-10.4 pts** vs IWM; direction +1 → excess -10.4% (20 days)
-- **Peers / sympathy:** missed_peer_move: peer median -6.0% 5d vs RYAM -1.1%; peers moved, it didn't. Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-19)
+- **Latest price:** $6.87 (2026-10-19, ledger) · 1d -1.7%, 5d -4.0%, 20d -19.0% (market context, 2026-10-19)
+- **Since first found:** **-15.7%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -15.7% vs IWM -3.2% = **-12.5 pts** vs IWM; direction +1 → excess -12.5% (20 days)
+- **Peers / sympathy:** no flag (self 5d -4.0% vs peer median -5.0%). Peer groups: SIC 2611 (1) ([market context](../watch/context/latest.json), 2026-10-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -113,6 +113,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), MSGS (26 Oct), DIBS (16…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md)**: Research: Research: Fri 16 Oct 2026 (- RYAM (row logged 16 Oct, event dated 15 Dec) set to **none**. The "event" is an undated promise of "a clear…) ([note](../research/daily/2026-10-16.md))
 - **[2026-09-28](../scans/2026-09-28.md#new-setups)**: Logged as `idea_catalyst` (direction +1): potential sale; expected +$1-3; source: first catalyst scan (X post 28 Sep) ([manual_calls.csv](../ledger/manual_calls.csv))
 
@@ -122,4 +123,4 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $7.07 | -13.2% | -13.2% | -2.8% | -10.4% | 20 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.87 | -15.7% | -15.7% | -3.2% | -12.5% | 20 | live |

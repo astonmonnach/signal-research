@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $3.80 (2026-10-19, ledger)
-- **Since first found:** **+4.1%** (found 2026-10-14 via `linked_peer` at $3.65). From the next open $3.64: +4.4% vs IWM +0.4% = **+4.0 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $3.85 (2026-10-19, ledger)
+- **Since first found:** **+5.5%** (found 2026-10-14 via `linked_peer` at $3.65). From the next open $3.64: +5.8% vs IWM -0.1% = **+5.8 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (WTI (CL=F)) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-14](../scans/2026-10-14.md#new-setups)**: Logged as `linked_peer` (direction 0): TALO peer (Gulf of Mexico producer): +7.3% from 7 to 13 Oct vs TALO +5.4%; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- WTI crude closed at $94.14 on 13 Oct. So most of this year's oil rise does not reach PED's cash flow. The…) ([note](../research/daily/2026-10-14.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for WTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | +6.7% | -4.7% | $12.8M | $3.65 | $3.64 | $3.80 | +4.1% | +4.4% | +0.4% |  | 4 | live |
+| 2026-10-14 | `linked_peer` | 0 | +6.7% | -4.7% | $12.8M | $3.65 | $3.64 | $3.85 | +5.5% | +5.8% | -0.1% |  | 4 | live |

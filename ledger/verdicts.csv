@@ -20,3 +20,7 @@ date,ticker,verdict,score,close
 2026-10-05,HCTI,AVOID,6/10,0.607
 2026-10-05,POLA,AVOID,6/10,1.15
 2026-10-05,CYAB,AVOID,5/10,0.21
+2026-10-20,THRM,"AVOID (kill: closed $28.61 on 19 Oct, below the $28.92 line)",5/10,28.61
+2026-10-20,CTVA,"tracked, no call",4/10,12.65
+2026-10-20,VYLR,"tracked, no call",2/10,72.39
+2026-10-20,HMH,"tracked, no call",2/10,17.38
