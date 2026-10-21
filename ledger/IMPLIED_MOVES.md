@@ -23,5 +23,6 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | smaller | open |  |
 | 2026-10-20 | LCII | LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York);  | 2026-11-18 | 2026-11-20 | $81.92 | ±10.5% | $8.30 @ 80.0 | 81.8% | none | open |  |
 | 2026-10-07 | WHF | WHF: $85M notes mature in December, check refinancing | 2026-12-01 | 2027-01-15 | $7.00 | ±18.2% | $1.27 @ 7.5 | 146.0% | none | open |  |
+| 2026-10-21 | ACB | ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mou | 2026-12-04 | 2026-12-18 | $3.95 | ±19.0% | $0.75 @ 4.0 | 130.0% | - | open |  |
 | 2026-10-13 | HZO | HZO earliest close | 2026-12-07 | 2027-01-15 | $52.33 | ±6.1% | $3.18 @ 50.0 | 82.9% | smaller | open |  |
 | 2026-10-16 | RYAM | RYAM: company promised a clear path forward in Q4 2026 | 2026-12-15 | 2026-12-18 | $7.11 | ±20.3% | $1.38 @ 7.0 | 100.0% | none | open |  |

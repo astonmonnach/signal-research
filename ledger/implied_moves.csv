@@ -18,3 +18,4 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-10-20,LCII,2026-11-18,"LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open",2026-11-20,81.92,10.5,80.0,8.3,81.8,13,none,open,,,,
 2026-10-21,WHF,2026-10-30,WHF: record date for the $0.17 special distribution (paid 10 Dec),2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,open,,,,
 2026-10-21,WHF,2026-11-09,"WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)",2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,open,,,,
+2026-10-21,ACB,2026-12-04,ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain),2026-12-18,3.95,19.0,4.0,0.75,130.0,1490,,open,,,,

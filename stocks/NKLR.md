@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.26 (2026-10-21, market context) · 1d +1.4%, 5d -12.7%, 20d -38.1% (market context, 2026-10-21)
+- **Latest price:** $2.23 (2026-10-21, market context) · 1d -0.2%, 5d -14.1%, 20d -39.0% (market context, 2026-10-21)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** solo_move: NKLR -12.7% 5d vs peer median -4.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-21)
+- **Peers / sympathy:** solo_move: NKLR -14.1% 5d vs peer median -4.3%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
