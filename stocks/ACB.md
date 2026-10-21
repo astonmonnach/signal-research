@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.97 (2026-10-20, ledger)
-- **Since first found:** found 2026-10-20 via `merger_hostile` at $3.97; the ledger enters it at the next session's open (pending)
+- **Latest price:** $3.95 (2026-10-21, ledger)
+- **Since first found:** **-0.5%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: -0.8% vs IWM +0.2% = **-1.0 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **ACB:** $3.97 against an offer worth about $4.15 at CURLF's $7.86 (arith), 4.6% under.) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ACB** (Aurora Cannabis), hostile exchange offer, takeable (median $3.81M). - Curaleaf offers 0.4013 CURA plus US$1.00, capped at $6.00, expiring 4… ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `merger_hostile` (direction 0): Curaleaf offer 0.4013 CURA + US$1.00, worth about $4.06 at CURLF $7.63 vs ACB $3.96; Aurora has standstill agreements with several parties; expires 4 Dec; tracked, no call; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Aurora Hostile Bid (ACB close against the value of the offer in force, 20 Jul to 19 Oct 2026 (US$)) ([note](../research/ACB-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (3. ACB: the "$5" hostile bid is worth about $4.06) ([note](../research/daily/2026-10-20.md))
 
 ## Performance since found
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 |  | $3.97 |  |  |  |  |  | pending |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $3.95 | -0.5% | -0.8% | +0.2% |  | 0 | live |

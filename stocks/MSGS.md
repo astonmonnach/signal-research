@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $413.41 (2026-10-20, ledger) · 1d +3.4%, 5d +2.3%, 20d +4.2% (market context, 2026-10-20)
-- **Since first found:** **+2.8%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: +2.2% vs IWM -1.0% = **+3.2 pts** vs IWM; direction 0, tracked only (8 days)
-- **Peers / sympathy:** no flag (self 5d +2.3% vs peer median +0.2%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Latest price:** $414.23 (2026-10-21, ledger) · 1d +0.2%, 5d +2.5%, 20d +4.9% (market context, 2026-10-21)
+- **Since first found:** **+3.0%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: +2.4% vs IWM -0.4% = **+2.8 pts** vs IWM; direction 0, tracked only (9 days)
+- **Peers / sympathy:** no flag (self 5d +2.5% vs peer median +1.3%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 26 Oct 2026: MSGS: Rangers spin-off effective; MSGS becomes MSGK
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- MSGS (T004, 27 Oct): the record date passed on 20 Oct; MSGS rose 3.4% to $413.41.) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Calendar: MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 20 Oct 2026 (- **Tracked, with a trigger that would make it a WATCH:** ELMT (Q3 10-Q, by 16 Nov), BMM (the prepayment, by…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MSGS:** -2.1% to $396.10. Record date **20 Oct**. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- MSGS record date 20 Oct.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **MSGS:** no new filing. Record date 20 Oct; the Rangers spin-off is effective 26 Oct (1 MSGR per 2 MSGS). ([triage](../watch/digests/2026-10-16-triage.md)) · Research: Research: Fri 16 Oct 2026 (- **MSGS:** -2.6% today with no filing, four days before the record date.) ([note](../research/daily/2026-10-16.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $413.41 | +2.8% | +2.2% | -1.0% |  | 8 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $414.23 | +3.0% | +2.4% | -0.4% |  | 9 | live |

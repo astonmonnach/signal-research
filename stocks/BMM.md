@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $4.30 (2026-10-20, ledger)
-- **Since first found:** found 2026-10-20 via `strategic_placement` at $4.30; the ledger enters it at the next session's open (pending)
+- **Latest price:** $4.32 (2026-10-21, ledger)
+- **Since first found:** **+0.5%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -0.2% vs IWM +0.2% = **-0.5 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- BMM (T008, by 29 Oct): ELMT's 8-K formally files the Blue Moon stake but says nothing about the US$25M…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **BMM** (Blue Moon Metals), 6-K, takeable (median $1.23M). - **Our watchlist's ELMT** bought 3.5M units at **C$10.00** (C$35M), with a board seat. ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `strategic_placement` (direction 0): ELMT bought 3.5M units at C$10.00 (C$35M) with a board seat, 65% above MOON's C$6.05; price flat on the closing; TSXV approval pending; tracked; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Blue Moon Placement (Signal Lab deep dive · BMM / MOON · Tue 20 Oct 2026, before the US open) ([note](../research/BMM-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (2. BMM: ELMT paid 65% above the market for a seat at a tungsten project) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1732379/000155485526002139/ex991_1.htm)) · Research: Elmet Lock-up Supply (Prices and volumes: Yahoo Finance daily bars for ELMT, IWM, ITA, XME, REMX, MP, USAR, UAMY, ALM, MTUS, KMT…) ([note](../research/ELMT-2026-10-19.html))
 
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 |  | $4.30 |  |  |  |  |  | pending |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $4.32 | +0.5% | -0.2% | +0.2% |  | 0 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $66.86 (2026-10-20, ledger)
-- **Since first found:** **+3.9%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +6.0% vs IWM +0.9% = **+5.1 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $67.04 (2026-10-21, ledger)
+- **Since first found:** **+4.2%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +6.2% vs IWM +1.5% = **+4.7 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **LCII / PATK:** votes on **Wed 18 Nov**. The DOJ second request is being answered; outside date 30 Mar 2027, extendable to 30 Sep 2027. ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- **SYNA:** vote 17 Nov; gross spread 5.1% to $123; foreign approvals pending. **LCII/PATK:** votes 18 Nov.) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **MSBI** (bank shelf, routine), **FBLG** (deregisters old resale shares: this removes supply), **PATK, KUBE** (merger shares): not supply events. ([triage](../watch/digests/2026-10-21-triage.md))
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **LCII / PATK:** votes on **Wed 18 Nov**. The DOJ second request is being answered; outside date 30 Mar 2027, extendable to 30 Sep 2027. ([triage](../watch/digests/2026-10-20-triage.md)) · Market scan: registration declared effective (`EFFECT`) ([filing](https://www.sec.gov/Archives/edgar/data/76605/999999999526003290/9999999995-26-003290-index.htm)) · Research: Research: Tue 20 Oct 2026 (- **SYNA:** vote 17 Nov; gross spread 5.1% to $123; foreign approvals pending. **LCII/PATK:** votes 18 Nov.) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Patrick Industries, Inc. Announces Third Quarter 2026 Earnings Release and Conference Call Webcast on October… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-announces-third-quarter-2026-earnings-release-and-conference-call-webcast-on-october-29-2026-302910525.html))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **LCII / PATK** (market-wide, merger): the DOJ sent a second request on 9 Oct on Patrick's all-stock purchase of LCI (1.2440 Patrick shares per LCI… ([triage](../watch/digests/2026-10-14-triage.md)) · Logged as `linked_peer` (direction 0): LCII counterparty (the buyer, all stock); -28.3% since 30 Jun; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (3. LCII / PATK: the DOJ asks for more on the RV parts merger) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -3.6%, found day +0.2%) ([filing](https://www.sec.gov/Archives/edgar/data/76605/000007660526000092/patk-20261009.htm))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $66.86 | +3.9% | +6.0% | +0.9% |  | 6 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $66.86 | +5.6% | +4.0% | +1.6% |  | 5 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $67.04 | +4.2% | +6.2% | +1.5% |  | 7 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $67.04 | +5.9% | +4.3% | +2.2% |  | 6 | live |

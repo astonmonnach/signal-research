@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.710 (2026-10-20, ledger)
-- **Since first found:** **-43.6%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -44.5% vs IWM -1.6% = **-42.9 pts** vs IWM; direction -1 → excess +42.9% (21 days)
+- **Latest price:** $0.700 (2026-10-21, ledger)
+- **Since first found:** **-44.5%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -45.3% vs IWM -1.0% = **-44.3 pts** vs IWM; direction -1 → excess +44.3% (22 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -47,6 +47,6 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.710 | -43.6% | -44.5% | -1.6% | +42.9% | 21 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.710 | -38.8% | -39.3% | -2.2% |  | 15 | live |
-| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.710 | -15.5% | -22.0% | +1.5% | +23.4% | 1 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.700 | -44.5% | -45.3% | -1.0% | +44.3% | 22 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.700 | -39.7% | -40.2% | -1.6% |  | 16 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.700 | -16.7% | -23.1% | +2.1% | +25.2% | 2 | live |

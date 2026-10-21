@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $14.24 (2026-10-20, ledger) · 1d -2.8%, 5d +7.5%, 20d +6.0% (market context, 2026-10-20)
-- **Since first found:** **+11.2%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: +9.2% vs IWM +1.6% = **+7.6 pts** vs IWM; direction 0, tracked only (5 days)
-- **Peers / sympathy:** solo_move: PED +7.5% 5d vs peer median +2.1%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Latest price:** $14.27 (2026-10-21, ledger) · 1d +0.2%, 5d +11.4%, 20d +7.6% (market context, 2026-10-21)
+- **Since first found:** **+11.4%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: +9.4% vs IWM +2.2% = **+7.2 pts** vs IWM; direction 0, tracked only (6 days)
+- **Peers / sympathy:** solo_move: PED +11.4% 5d vs peer median +1.5%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- **Watchlist:** PED +7.0% to $14.65 with no filing; IMSR -6.6% to $2.85, now below all three insiders'…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Research: Mon 19 Oct 2026 (PED $13.69 $14.19 +3.7% no new filing) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **PED:** about $490k traded on 16 Oct, one day over the $250k bar. +3.3% since 13 Oct against XOP +0.3%. WATCH stands. ([triage](../watch/digests/2026-10-18-triage.md))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for PED ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $14.24 | +11.2% | +9.2% | +1.6% |  | 5 | live |
+| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $14.27 | +11.4% | +9.4% | +2.2% |  | 6 | live |

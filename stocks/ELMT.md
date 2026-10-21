@@ -98,10 +98,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $19.04 (2026-10-20, ledger) · 1d +1.6%, 5d -10.7%, 20d -8.6% (market context, 2026-10-20)
-- **Since first found:** **-3.0%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -1.0% vs IWM -1.6% = **+0.6 pts** vs IWM; direction +1 → excess +0.6% (22 days)
+- **Latest price:** $19.47 (2026-10-21, ledger) · 1d +2.4%, 5d +1.0%, 20d -5.3% (market context, 2026-10-21)
+- **Since first found:** **-0.9%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +1.2% vs IWM -1.0% = **+2.3 pts** vs IWM; direction +1 → excess +2.3% (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -10.7% 5d vs peer median -2.2%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Peers / sympathy:** no flag (self 5d +1.0% vs peer median -1.2%). Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -110,6 +110,7 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md#watchlist-filings)**: Filings: `8-K` 21 Oct · Research: Research: Wed 21 Oct 2026 (- BMM (T008, by 29 Oct): ELMT's 8-K formally files the Blue Moon stake but says nothing about the US$25M…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ELMT:** the lock-up ended 19 Oct with no Form 144 or Form 4. 20.6M shares are free on Thu 22 Oct. ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Blue Moon Placement (Elmet (ELMT) has paid C$35M for 3.5M Blue Moon units, and the money can only be spent on the Springer…) ([note](../research/BMM-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (2. BMM: ELMT paid 65% above the market for a seat at a tungsten project) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Calendar: ELMT IPO lock-up ends ~19-22 Oct: ~20.6M shares (68% of outstanding) unlock ([calendar](../calendar/catalyst-dates.ics)) · Research: Elmet Lock-up Supply (Signal Lab deep dive · ELMT · Mon 19 Oct 2026, after the US close) ([note](../research/ELMT-2026-10-19.html)) · Research: Research: Mon 19 Oct 2026 (- **ELMT:** the underwriters' lock-up ended today. No filing, +0.6%. 20.6M shares can be sold from Thursday…) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **ELMT:** -2.9% to $18.93. The lock-up ends **19 Oct**; 20.6M shares are free **22 Oct**. No long before 22 Oct. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- ELMT lock-up ends 19 Oct, with shares free on 22 Oct.) ([note](../research/daily/2026-10-18.md))
@@ -125,5 +126,5 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.04 | -3.0% | -1.0% | -1.6% | +0.6% | 22 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.04 | -10.6% | -12.0% | -3.0% |  | 14 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.47 | -0.9% | +1.2% | -1.0% | +2.3% | 23 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.47 | -8.6% | -10.0% | -2.4% |  | 15 | live |
