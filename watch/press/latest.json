@@ -1,10 +1,74 @@
 [
  {
-  "published_utc": "2026-10-21T10:00:00Z",
+  "published_utc": "2026-10-21T13:15:00Z",
   "wire": "Business Wire",
-  "ticker": "PSNL",
-  "title": "Personalis NeXT Personal® Data Showcasing Ultrasensitive MRD to be Presented at ESMO 2026",
-  "link": "http://www.businesswire.com/news/home/20261019479647/en/Personalis-NeXT-Personal%C2%AE-Data-Showcasing-Ultrasensitive-MRD-to-be-Presented-at-ESMO-2026/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "ticker": "PL",
+  "title": "Planet Awarded NASA Commercial Satellite Data Acquisition (CSDA) Evaluation Task Order for Tanager Hyperspectral Data",
+  "link": "http://www.businesswire.com/news/home/20261021824897/en/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-21T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "LCII;PATK",
+  "title": "Jobs to Move America Report Finds Low Wages, Safety Issues at Transit Seating Manufacturer",
+  "link": "http://www.businesswire.com/news/home/20261021487953/en/Jobs-to-Move-America-Report-Finds-Low-Wages-Safety-Issues-at-Transit-Seating-Manufacturer/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-21T11:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MOD",
+  "title": "Modine to Host Second Quarter Fiscal 2027 Earnings Conference Call on November 4, 2026",
+  "link": "https://www.prnewswire.com/news-releases/modine-to-host-second-quarter-fiscal-2027-earnings-conference-call-on-november-4-2026-302914789.html",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-21T13:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "ADI",
+  "title": "Analog Devices Recommends Shareholders Reject \"Mini-Tender\" Offer by Tutanota LLC",
+  "link": "https://www.prnewswire.com/news-releases/analog-devices-recommends-shareholders-reject-mini-tender-offer-by-tutanota-llc-302914283.html",
+  "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-10-21T12:52:00Z",
+  "wire": "Business Wire",
+  "ticker": "TGTX",
+  "title": "TG Therapeutics Highlights New Clinical Data Across Multiple Sclerosis Portfolio at MSToronto2026",
+  "link": "http://www.businesswire.com/news/home/20261020332469/en/TG-Therapeutics-Highlights-New-Clinical-Data-Across-Multiple-Sclerosis-Portfolio-at-MSToronto2026/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-21T11:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "COR",
+  "title": "Cencora to Acquire American Oncology Network to Strengthen Support of Community Oncology",
+  "link": "http://www.businesswire.com/news/home/20261020319270/en/Cencora-to-Acquire-American-Oncology-Network-to-Strengthen-Support-of-Community-Oncology/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-21T11:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "INVE",
+  "title": "INVE Technologies Announces the Commencement of a $20 Million Modified Dutch Auction Tender Offer for its Common Stock",
+  "link": "https://www.prnewswire.com/news-releases/inve-technologies-announces-the-commencement-of-a-20-million-modified-dutch-auction-tender-offer-for-its-common-stock-302915349.html",
+  "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-10-21T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ROIV;ROIVW",
+  "title": "Roivant and Priovant Announce Positive Results in CLARITY-1 and CLARITY-2 Phase 3 Trials for Brepocitinib in Non-Infectious Uveitis (NIU)",
+  "link": "https://www.globenewswire.com/news-release/2026/10/21/3385358/34323/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-21T11:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "JBIO",
+  "title": "Jade Biosciences to Highlight Advancement of JADE101 Development Program at American Society of Nephrology (ASN) Kidney Week 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/21/3385377/0/en/jade-biosciences-to-highlight-advancement-of-jade101-development-program-at-american-society-of-nephrology-asn-kidney-week-2026.html",
   "matched_on": "keyword:Phase 3"
  }
 ]
