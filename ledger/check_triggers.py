@@ -30,8 +30,9 @@ def _date(s):
         return None
 
 
-def problems(rows, verdicts, strategies, today):
-    """rows: triggers.csv rows; verdicts: {ticker: current dossier verdict}; strategies: channel names."""
+def problems(rows, verdicts, strategies, today, watchlist=None):
+    """rows: triggers.csv rows; verdicts: {ticker: current dossier verdict}; strategies: channel names;
+    watchlist: tickers the daily filing check follows (None skips that check)."""
     out, seen = [], set()
     for r in rows:
         rid = r.get("id") or "?"
@@ -65,6 +66,8 @@ def problems(rows, verdicts, strategies, today):
             out.append(f"{where}: deadline is before set_date")
         if r.get("status") == "open" and dead and dead < today:
             out.append(f"{where}: overdue since {dead}; mark it fired, expired or cancelled")
+        if watchlist is not None and r.get("status") == "open" and r.get("ticker") not in watchlist:
+            out.append(f"{where}: not on watch/watchlist.json, so the daily filing check would miss its filings (LESSONS 2026-10-21)")
     open_tickers = {r.get("ticker") for r in rows if r.get("status") == "open"}
     for t, v in sorted(verdicts.items()):
         if (v or "").split()[0].upper().strip(";(:.") == "WATCH" and t not in open_tickers:
@@ -79,7 +82,8 @@ def main():
     rows = list(csv.DictReader(open(CSV, encoding="utf-8"))) if CSV.exists() else []
     verdicts = {t: i["verdict"] for t, i in recap.dossiers().items()}
     strategies = {s["channel"] for s in json.load(open(ROOT / "watch" / "strategies.json", encoding="utf-8"))["strategies"]}
-    found = problems(rows, verdicts, strategies, dt.date.today())
+    watchlist = set(json.load(open(ROOT / "watch" / "watchlist.json", encoding="utf-8"))["tickers"])
+    found = problems(rows, verdicts, strategies, dt.date.today(), watchlist)
     print("\n".join(found) if found else f"triggers: {len(rows)} rows, no problems")
     sys.exit(1 if found else 0)
 

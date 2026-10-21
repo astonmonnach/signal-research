@@ -65,3 +65,9 @@ def test_watch_with_open_row_passes():
 def test_overdue_open_row_is_reported():
     out = problems([row(deadline="2026-10-19", set_date="2026-10-10")], {}, STRATS, TODAY)
     assert any("overdue" in p for p in out)
+
+
+def test_open_trigger_ticker_must_be_on_the_watchlist():
+    out = problems([row(ticker="BMM")], {}, STRATS, TODAY, watchlist={"MTUS"})
+    assert any("BMM" in p and "watchlist" in p for p in out)
+    assert problems([row(ticker="BMM")], {}, STRATS, TODAY, watchlist={"BMM"}) == []
