@@ -43,10 +43,22 @@ MONEY = r"\$\s?([\d,]+(?:\.\d+)?)"
 
 # ---------- fetching ----------
 def curl(url):
-    """war.gov sits behind bot protection that blocks Python's TLS; curl with browser headers passes."""
+    """war.gov sits behind bot protection that blocks Python's TLS; curl with browser headers usually passes."""
     out = subprocess.run(["curl", "-s", "-L", "--compressed", *BROWSER, url],
                          capture_output=True, timeout=60)
     return out.stdout.decode("utf-8", "ignore")
+
+
+class Blocked(RuntimeError):
+    pass
+
+
+def check_page(html):
+    """The bot wall answers 'Access Denied'. Say so, instead of blaming the page layout (LESSONS 2026-10-21)."""
+    if "<TITLE>Access Denied</TITLE>" in html[:400] or "<title>Access Denied</title>" in html[:400].lower():
+        raise Blocked("war.gov returned Access Denied (bot block, not a layout change). Open the page in a browser, "
+                      "save it, and rerun with --html FILE.")
+    return html
 
 
 def sec_json(url):
@@ -105,13 +117,15 @@ def parse_awards(html):
 
 def parse_one(text, agency):
     low = text.lower()
-    multi = bool(re.search(r"\b(are|were|have been) (being )?awarded\b|\bshare\b.*\bmultiple[- ]award", low)) \
+    text = re.sub(r"^(?:UPDATE|CORRECTED)\s*:\s*", "", text)      # "UPDATE: Name, ..." (LESSONS 2026-10-21)
+    multi = bool(re.search(r"\b(are|were|have (?:each )?been) (being )?awarded\b|\bshare\b.*\bmultiple[- ]award", low)) \
         or ("multiple award" in low or "multiple-award" in low) and ";" in text
     # awardee(s): text before the first "(contract no.)" or " is/was awarded"
     head = re.split(r"\b(?:is|was|has been|are|were|have been)\s+(?:being\s+)?awarded\b", text, 1)[0]
     if multi:
         # each awardee appears as "Name, City, State (CONTRACT-NO)"; split on those units
-        units = re.findall(r"([^;()]+?)\s*\([A-Z0-9-]{8,}\)", head) or head.split(";")
+        # the brackets may also hold the amount: "(SPE604-27-D-8000, $66,760,473)" (LESSONS 2026-10-21)
+        units = re.findall(r"([^;()]+?)\s*\([A-Z0-9-]{8,}(?:,\s*\$[\d,.]+)?\)", head) or head.split(";")
         names = [re.split(r",", re.sub(r"^\s*and\s+", "", u).strip(), 1)[0] for u in units]
     else:
         names = [re.split(r",", head, 1)[0]]
@@ -215,6 +229,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--backfill", action="store_true",
                     help="mark rows as detected after the fact (excluded from forward-test stats)")
+    ap.add_argument("--html", help="the day's page saved from a browser, for when war.gov blocks curl")
     args = ap.parse_args()
 
     days = announcement_days()
@@ -226,8 +241,9 @@ def main():
         sys.exit(f"{want} not in the RSS feed (it only covers recent days). Available: {[str(d[0]) for d in days]}")
     day, url, pub = hits[-1]
     awards, seen = [], set()
-    for _, u, _ in hits:            # some days get a second page (supplement or re-post)
-        for a in parse_awards(curl(u)):
+    pages = [Path(args.html).read_text(encoding="utf-8")] if args.html else [check_page(curl(u)) for _, u, _ in hits]
+    for page in pages:              # some days get a second page (supplement or re-post)
+        for a in parse_awards(page):
             if a["summary"] not in seen:
                 seen.add(a["summary"])
                 awards.append(a)

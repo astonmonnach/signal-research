@@ -35,7 +35,9 @@
     "BMEZ",
     "LCII",
     "CRMT",
-    "NKLR"
+    "NKLR",
+    "XPOF",
+    "SSTI"
    ]
   },
   {
@@ -67,7 +69,8 @@
    "tickers": [
     "ESRT",
     "SRTA",
-    "TCPC"
+    "TCPC",
+    "XPOF"
    ]
   },
   {
@@ -86,7 +89,8 @@
     "LCII",
     "SYNA",
     "PCRX",
-    "CSR"
+    "CSR",
+    "SSTI"
    ]
   }
  ]

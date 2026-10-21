@@ -116,9 +116,23 @@ def main():
         print("First run: recorded current filings. Future runs will report anything new.")
         return
     DIGESTS.mkdir(exist_ok=True)
-    body = "\n".join(new_lines) if new_lines else "No new filings of interest."
-    (DIGESTS / f"{date.today()}.md").write_text(f"# Filings digest {date.today()}\n\n{body}\n", encoding="utf-8")
-    print(body)
+    out = DIGESTS / f"{date.today()}.md"
+    existing = out.read_text(encoding="utf-8") if out.exists() else None
+    out.write_text(digest_text(existing, new_lines, str(date.today())), encoding="utf-8")
+    print("\n".join(new_lines) if new_lines else NOTHING)
+
+
+NOTHING = "No new filings of interest."
+
+
+def digest_text(existing, new_lines, day):
+    """Today's digest. A second run the same day adds to the file and never wipes it (LESSONS 2026-10-21)."""
+    if existing is None or existing.strip().endswith(NOTHING):
+        body = "\n".join(new_lines) if new_lines else NOTHING
+        return f"# Filings digest {day}\n\n{body}\n"
+    if not new_lines:
+        return existing
+    return existing.rstrip("\n") + "\n" + "\n".join(new_lines) + "\n"
 
 
 if __name__ == "__main__":

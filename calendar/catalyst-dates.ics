@@ -693,4 +693,36 @@ DTEND;VALUE=DATE:20261030
 SUMMARY:BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1732379/000155485526002139/ex991_1.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:f1577853effa64213e30ab428777e549@signal-lab
+DTSTAMP:20261021T150000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:LFCR: go-shop for a higher bid than Webster's ends (about 27 Oct\, 30 days from 27 Sep\; our count)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1005286/000114036126037767/ef20082009_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:926d64aaae7421957dcbf8ad2030318e@signal-lab
+DTSTAMP:20261021T150000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:LFCR: record date for the merger vote ($6.28 cash plus CVR)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1005286/000100528626000040/lfcr-20261016.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:22b4afcdcfa7a8a3fd0cff9648d298e6@signal-lab
+DTSTAMP:20261021T150000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BRUN: six-month lock-up ends (about 8 Nov\, unless already released by the $12 price trigger)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2090646/000149315226046345/formposam.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:9cd722ef9f764891783f27ee11066f06@signal-lab
+DTSTAMP:20261021T150000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:SSTI: Transom tender ($8.00 cash plus CVR) expires one minute after 11:59 pm New York
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1351636/000114036126040176/ny20082824x1_exa1a.htm
+END:VEVENT
 END:VCALENDAR
