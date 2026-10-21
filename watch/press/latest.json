@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "published_utc": "2026-10-21T22:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "TKNO",
+  "title": "Teknova to Report Third Quarter 2026 Financial Results on November 4, 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/21/3385977/0/en/teknova-to-report-third-quarter-2026-financial-results-on-november-4-2026.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-21T20:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "RYAM",
+  "title": "RYAM Schedules Third Quarter 2026 Earnings Release",
+  "link": "http://www.businesswire.com/news/home/20261021423240/en/RYAM-Schedules-Third-Quarter-2026-Earnings-Release/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-21T21:15:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "HOMB",
+  "title": "Home BancShares, Inc. Increases Share Repurchase Program and Announces Fourth Quarter Cash Dividend",
+  "link": "https://www.globenewswire.com/news-release/2026/10/21/3385958/6997/en/home-bancshares-inc-increases-share-repurchase-program-and-announces-fourth-quarter-cash-dividend.html",
+  "matched_on": "keyword:share repurchase;keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-21T20:43:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ITGR",
+  "title": "Integer Holdings Corporation Stockholders Approve Proposals in Connection with KKR’s Proposed Acquisition of Integer",
+  "link": "https://www.globenewswire.com/news-release/2026/10/21/3385945/26755/en/integer-holdings-corporation-stockholders-approve-proposals-in-connection-with-kkr-s-proposed-acquisition-of-integer.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-10-21T20:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "TT",
+  "title": "Trane Technologies to Acquire Cancoil, Strengthening Supply Chain Resiliency and Thermal Management Expertise",
+  "link": "http://www.businesswire.com/news/home/20261021426362/en/Trane-Technologies-to-Acquire-Cancoil-Strengthening-Supply-Chain-Resiliency-and-Thermal-Management-Expertise/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-21T20:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "FBP",
+  "title": "First BanCorp Announces Capital Actions",
+  "link": "http://www.businesswire.com/news/home/20261021401245/en/First-BanCorp-Announces-Capital-Actions/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-21T20:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "HXL",
+  "title": "Hexcel Reports 2026 Third Quarter Results",
+  "link": "http://www.businesswire.com/news/home/20261021238404/en/Hexcel-Reports-2026-Third-Quarter-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:share repurchase"
+ }
+]
