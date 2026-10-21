@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $13.35 (2026-10-20, ledger)
-- **Since first found:** **-8.2%** (found 2026-10-15 via `linked_peer` at $14.54). From the next open $14.30: -6.6% vs IWM -0.7% = **-5.9 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $13.40 (2026-10-20, ledger)
+- **Since first found:** **-7.8%** (found 2026-10-15 via `linked_peer` at $14.54). From the next open $14.30: -6.3% vs IWM +0.1% = **-6.4 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: Planet Launches Pelican-12 Satellite (Business Wire) ([release](http://www.businesswire.com/news/home/20261016907221/en/Planet-Launches-Pelican-12-Satellite/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): MDA peer (space): -10.2% from 13 to 16 Oct vs MDA -1.2%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Planet Labs (PL) -10.2%) ([note](../research/daily/2026-10-15.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for PL ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -20.4% | +2.9% | $183.7M | $14.54 | $14.30 | $13.35 | -8.2% | -6.6% | -0.7% |  | 4 | live |
+| 2026-10-15 | `linked_peer` | 0 | -20.4% | +2.9% | $183.7M | $14.54 | $14.30 | $13.40 | -7.8% | -6.3% | +0.1% |  | 4 | live |

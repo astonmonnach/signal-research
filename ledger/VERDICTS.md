@@ -4,30 +4,30 @@ Every dossier verdict, measured from the close on the day it was given against t
 
 | verdict | n | average vs benchmark | median | beat benchmark |
 |---|---|---|---|---|
-| OWN | 1 | -0.4 pts | -0.4 pts | 0/1 |
-| WATCH | 3 | -2.8 pts | +2.9 pts | 2/3 |
-| AVOID | 14 | -20.6 pts | -21.6 pts | 1/14 |
+| OWN | 1 | +0.7 pts | +0.7 pts | 1/1 |
+| WATCH | 3 | -1.7 pts | +3.5 pts | 2/3 |
+| AVOID | 14 | -19.4 pts | -18.6 pts | 1/14 |
 
 | ticker | verdict | since | move | vs benchmark |
 |---|---|---|---|---|
-| CHDN | AVOID (kill) 1/10 | 2026-10-05 | +7.5% | +8.9 pts vs MDY |
+| CHDN | AVOID (kill) 1/10 | 2026-10-05 | +7.0% | +7.8 pts vs MDY |
 | THRM | AVOID (kill: closed $28.61 on 19 Oct, below the $28.92 line) 5/10 | 2026-10-20 | +0.0% | +0.0 pts vs IWM |
-| FLD | AVOID 6/10 | 2026-10-05 | -9.2% | -5.7 pts vs IWM |
-| GXAI | AVOID 5/10 | 2026-10-05 | -13.7% | -10.2 pts vs IWM |
-| ELMT | AVOID now; watch the lock-up supply 8/10 | 2026-10-05 | -15.0% | -11.5 pts vs IWM |
-| DYAI | AVOID 5/10 | 2026-10-05 | -15.6% | -12.1 pts vs IWM |
-| VHUB | AVOID 5/10 | 2026-10-05 | -20.8% | -17.3 pts vs IWM |
-| GOVX | AVOID 6/10 | 2026-10-05 | -29.3% | -25.9 pts vs IWM |
-| CYAB | AVOID 5/10 | 2026-10-05 | -30.0% | -26.6 pts vs IWM |
-| TWST | AVOID 3/10 | 2026-10-05 | -32.7% | -31.3 pts vs MDY |
-| HCTI | AVOID 6/10 | 2026-10-05 | -37.9% | -34.4 pts vs IWM |
-| SNTI | AVOID 6/10 | 2026-10-05 | -38.6% | -35.1 pts vs IWM |
-| POLA | AVOID 6/10 | 2026-10-05 | -46.1% | -42.6 pts vs IWM |
-| GWH | AVOID 6/10 | 2026-10-05 | -47.7% | -44.3 pts vs IWM |
-| MTUS | OWN 7/10 | 2026-10-05 | -3.9% | -0.4 pts vs IWM |
+| FLD | AVOID 6/10 | 2026-10-05 | -9.3% | -6.6 pts vs IWM |
+| ELMT | AVOID now; watch the lock-up supply 8/10 | 2026-10-05 | -10.6% | -7.9 pts vs IWM |
+| GXAI | AVOID 5/10 | 2026-10-05 | -10.7% | -8.0 pts vs IWM |
+| DYAI | AVOID 5/10 | 2026-10-05 | -13.3% | -10.7 pts vs IWM |
+| VHUB | AVOID 5/10 | 2026-10-05 | -14.0% | -11.3 pts vs IWM |
+| CYAB | AVOID 5/10 | 2026-10-05 | -28.6% | -25.9 pts vs IWM |
+| GOVX | AVOID 6/10 | 2026-10-05 | -29.1% | -26.4 pts vs IWM |
+| TWST | AVOID 3/10 | 2026-10-05 | -30.4% | -29.6 pts vs MDY |
+| SNTI | AVOID 6/10 | 2026-10-05 | -33.9% | -31.2 pts vs IWM |
+| HCTI | AVOID 6/10 | 2026-10-05 | -35.1% | -32.4 pts vs IWM |
+| POLA | AVOID 6/10 | 2026-10-05 | -38.3% | -35.6 pts vs IWM |
+| GWH | AVOID 6/10 | 2026-10-05 | -56.8% | -54.1 pts vs IWM |
+| MTUS | OWN 7/10 | 2026-10-05 | -2.0% | +0.7 pts vs IWM |
 | CTVA | tracked, no call 4/10 | 2026-10-20 | +0.0% | +0.0 pts vs MDY |
 | VYLR | tracked, no call 2/10 | 2026-10-20 | +0.0% | +0.0 pts vs SPY |
 | HMH | tracked, no call 2/10 | 2026-10-20 | +0.0% | +0.0 pts vs IWM |
-| WHF | WATCH 5/10 | 2026-10-05 | +5.0% | +8.4 pts vs IWM |
-| RYAM | WATCH 6/10 | 2026-10-05 | -0.6% | +2.9 pts vs IWM |
-| MOD | WATCH 5/10 | 2026-10-05 | -21.0% | -19.7 pts vs MDY |
+| WHF | WATCH 5/10 | 2026-10-05 | +7.6% | +10.3 pts vs IWM |
+| RYAM | WATCH 6/10 | 2026-10-05 | +0.9% | +3.5 pts vs IWM |
+| MOD | WATCH 5/10 | 2026-10-05 | -19.8% | -19.0 pts vs MDY |

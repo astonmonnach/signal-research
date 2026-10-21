@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.226 (2026-10-20, ledger)
-- **Since first found:** **-29.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.320). From the next open $0.330: -31.5% vs IWM -3.0% = **-28.5 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $0.227 (2026-10-20, ledger)
+- **Since first found:** **-29.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.320). From the next open $0.330: -31.2% vs IWM -2.2% = **-29.0 pts** vs IWM; direction 0, tracked only (15 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 27 Oct 2026: GOVX reverse-split vote
@@ -43,4 +43,4 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $0.320 | $0.330 | $0.226 | -29.3% | -31.5% | -3.0% |  | 15 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $0.320 | $0.330 | $0.227 | -29.1% | -31.2% | -2.2% |  | 15 | live |

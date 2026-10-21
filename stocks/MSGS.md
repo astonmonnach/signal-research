@@ -6,11 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $406.25 (2026-10-20, ledger) · 1d +1.6%, 5d +0.5%, 20d +2.4% (market context, 2026-10-20)
-- **Since first found:** **+1.0%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: +0.5% vs IWM -1.8% = **+2.2 pts** vs IWM; direction 0, tracked only (8 days)
-- **Peers / sympathy:** no flag (self 5d +0.5% vs peer median -0.3%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-20)
+- **Latest price:** $413.41 (2026-10-20, ledger) · 1d +3.4%, 5d +2.3%, 20d +4.2% (market context, 2026-10-20)
+- **Since first found:** **+2.8%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: +2.2% vs IWM -1.0% = **+3.2 pts** vs IWM; direction 0, tracked only (8 days)
+- **Peers / sympathy:** no flag (self 5d +2.3% vs peer median +0.2%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Tue 20 Oct 2026: MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS)
   - Mon 26 Oct 2026: MSGS: Rangers spin-off effective; MSGS becomes MSGK
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- **Tracked, with a trigger that would make it a WATCH:** ELMT (Q3 10-Q, by 16 Nov), BMM (the prepayment, by…) ([note](../research/daily/2026-10-20.md))
+- **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Calendar: MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 20 Oct 2026 (- **Tracked, with a trigger that would make it a WATCH:** ELMT (Q3 10-Q, by 16 Nov), BMM (the prepayment, by…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MSGS:** -2.1% to $396.10. Record date **20 Oct**. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- MSGS record date 20 Oct.) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **MSGS:** no new filing. Record date 20 Oct; the Rangers spin-off is effective 26 Oct (1 MSGR per 2 MSGS). ([triage](../watch/digests/2026-10-16-triage.md)) · Research: Research: Fri 16 Oct 2026 (- **MSGS:** -2.6% today with no filing, four days before the record date.) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-14](../scans/2026-10-14.md)**: Research: Research: Wed 14 Oct 2026 (- **Options record:** four open rows had no view and are still ahead. SKYA (15 Oct, implied 15.5%)…) ([note](../research/daily/2026-10-14.md))
@@ -31,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $406.25 | +1.0% | +0.5% | -1.8% |  | 8 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $413.41 | +2.8% | +2.2% | -1.0% |  | 8 | live |

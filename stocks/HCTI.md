@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.377 (2026-10-20, ledger)
-- **Since first found:** **-48.0%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -37.2% vs IWM -3.0% = **-34.2 pts** vs IWM; direction -1 → excess +34.2% (15 days)
+- **Latest price:** $0.394 (2026-10-20, ledger)
+- **Since first found:** **-45.7%** (found 2026-10-02 via `8k_reverse_split` at $0.725). From the next open $0.600: -34.3% vs IWM -2.2% = **-32.1 pts** vs IWM; direction -1 → excess +32.1% (15 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -35,6 +35,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: HCTI Expands AI Business with 6 New Contracts, Targeting approx. $4.65M in Annual Run Rate Revenue (PR Newswire) ([release](https://www.prnewswire.com/news-releases/hcti-expands-ai-business-with-6-new-contracts-targeting-approx-4-65m-in-annual-run-rate-revenue-302914084.html))
 - **[2026-10-12](../scans/2026-10-12.md)**: Calendar: HCTI suspended if no hearing request ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-08](../scans/2026-10-08.md)**: Calendar: HCTI hearing request due (else suspended 12 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -47,5 +48,5 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.377 | -48.0% | -37.2% | -3.0% | +34.2% | 15 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.377 | -48.0% | -37.2% | -3.0% |  | 15 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.394 | -45.7% | -34.3% | -2.2% | +32.1% | 15 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $0.725 | $0.600 | $0.394 | -45.7% | -34.3% | -2.2% |  | 15 | live |

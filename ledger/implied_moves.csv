@@ -16,3 +16,5 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-10-20,MG,2026-10-27,MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York,2026-11-20,21.44,21.1,25.0,4.53,154.2,142,,open,,,,
 2026-10-20,CSR,2026-11-10,CSR: merger vote (IRT 3.80 shares per CSR share),2026-11-20,54.87,7.7,55.0,4.22,119.1,4,,open,,,,
 2026-10-20,LCII,2026-11-18,"LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open",2026-11-20,81.92,10.5,80.0,8.3,81.8,13,,open,,,,
+2026-10-21,WHF,2026-10-30,WHF: record date for the $0.17 special distribution (paid 10 Dec),2026-11-20,7.61,10.5,7.5,0.8,174.9,8,,open,,,,
+2026-10-21,WHF,2026-11-09,"WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)",2026-11-20,7.61,10.5,7.5,0.8,174.9,8,,open,,,,

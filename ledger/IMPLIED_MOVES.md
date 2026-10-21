@@ -14,8 +14,10 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-20 | MG | MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 | 2026-10-27 | 2026-11-20 | $21.44 | ±21.1% | $4.53 @ 25.0 | 154.2% | - | open |  |
 | 2026-10-19 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-10-29 | 2026-11-20 | $2.57 | ±42.5% | $1.02 @ 2.5 | 50.2% | - | open |  |
 | 2026-10-06 | HZO | HZO antitrust (HSR) waiting period ends | 2026-10-30 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
+| 2026-10-21 | WHF | WHF: record date for the $0.17 special distribution (paid 10 | 2026-10-30 | 2026-11-20 | $7.61 | ±10.5% | $0.80 @ 7.5 | 174.9% | - | open |  |
 | 2026-10-06 | MTUS | MTUS Q3 earnings call: thesis check for trade #1 | 2026-11-03 | 2026-11-20 | $21.04 | ±12.7% | $2.65 @ 20.0 | 13.7% | none | open |  |
 | 2026-10-14 | MTUS | MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (r | 2026-11-03 | 2026-11-20 | $20.56 | ±10.3% | $1.93 @ 20.0 | 55.2% | none | open |  |
+| 2026-10-21 | WHF | WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corre | 2026-11-09 | 2026-11-20 | $7.61 | ±10.5% | $0.80 @ 7.5 | 174.9% | - | open |  |
 | 2026-10-20 | CSR | CSR: merger vote (IRT 3.80 shares per CSR share) | 2026-11-10 | 2026-11-20 | $54.87 | ±7.7% | $4.22 @ 55.0 | 119.1% | - | open |  |
 | 2026-10-06 | HZO | HZO merger vote ($53 cash) | 2026-11-11 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | smaller | open |  |
