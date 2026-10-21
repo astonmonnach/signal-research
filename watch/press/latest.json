@@ -1,18 +1,1 @@
-[
- {
-  "published_utc": "2026-10-20T20:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "RKLB",
-  "title": "Rocket Lab Announces Date of Third Quarter 2026 Financial Results",
-  "link": "https://www.globenewswire.com/news-release/2026/10/20/3385004/0/en/rocket-lab-announces-date-of-third-quarter-2026-financial-results.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-20T20:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "HERZ",
-  "title": "Herzfeld Credit Income Fund, Inc. Announces Final Tender Offer Results",
-  "link": "https://www.globenewswire.com/news-release/2026/10/20/3385010/0/en/herzfeld-credit-income-fund-inc-announces-final-tender-offer-results.html",
-  "matched_on": "keyword:tender offer"
- }
-]
+[]
