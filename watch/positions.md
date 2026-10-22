@@ -1,9 +1,9 @@
-# Open positions: 2026-10-22 14:04 UTC
+# Open positions: 2026-10-22 14:39 UTC
 
 ## MTUS  (trade #1, S1_CONTRACT_MCAP)
-- Price **$20.13** vs entry $19.368: **+3.9%**
-- P&L if sold now, after all fees: **$-0.87**  (fees paid so far $2.58)
+- Price **$19.98** vs entry $19.368: **+3.2%**
+- P&L if sold now, after all fees: **$-1.32**  (fees paid so far $2.58)
 - vs IWM since entry: +4.7 pts
-- Exit line: daily close below **$17.00**, which is 18.4% away (last close $20.13). OK.
+- Exit line: daily close below **$17.00**, which is 17.5% away (last close $19.98). OK.
 - Thesis check: Q3 results **Mon 2 Nov 2026 after the close**, call **Tue 3 Nov 2026, 14:00 UK** ([company release, 13 Oct](https://www.prnewswire.com/news-releases/metallus-announces-third-quarter-2026-earnings-webcast-details-302907111.html); the earlier 6 Nov date was a third-party estimate) and the 10-Q. Look for HF-1 / defence volumes, backlog, and any guidance tied to the award.
 
