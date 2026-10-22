@@ -10,5 +10,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-20,22:37,True,AIBZ,Bitzero Holdings Inc. Common Shares,S2,2.95,5929936,684110,8.67,1416491,,,3.04,3.21,2026-10-21,0.055921,0.035921,filled
 2026-10-20,22:37,True,GLAS,Glass House Brands Inc. Subordinate Voting Shares,S2,2.46,16162118,2786350,5.8,10320953,,,2.34,2.37,2026-10-21,0.012821,-0.007179,filled
 2026-10-20,22:37,True,PERF,Perfect Corp. Class A Ordinary Share,S2,1.98,1779296,294170,6.05,294676,,,1.99,1.98,2026-10-21,-0.005025,-0.025025,filled
-2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S2,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,,,,,,open
-2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S1,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,,,,,,open
+2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S2,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,2.84,2.71,2026-10-22,-0.045775,-0.065775,filled
+2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S1,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,2.84,2.71,2026-10-22,-0.045775,-0.065775,filled
