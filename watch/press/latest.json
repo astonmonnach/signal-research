@@ -1,26 +1,50 @@
 [
  {
-  "published_utc": "2026-10-22T12:00:00Z",
+  "published_utc": "2026-10-22T20:08:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MWA",
+  "title": "Mueller Water Products Expands Stock Repurchase Authorization by $300 Million and Increases Quarterly Dividend by 14.3%",
+  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386902/14520/en/mueller-water-products-expands-stock-repurchase-authorization-by-300-million-and-increases-quarterly-dividend-by-14-3.html",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-22T20:05:00Z",
   "wire": "Business Wire",
-  "ticker": "LCII",
-  "title": "LCI Industries Third Quarter 2026 Conference Call Scheduled for November 5, 2026, at 8:30 a.m. ET",
-  "link": "http://www.businesswire.com/news/home/20261022815836/en/LCI-Industries-Third-Quarter-2026-Conference-Call-Scheduled-for-November-5-2026-at-830-a.m.-ET/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "watchlist"
+  "ticker": "GILD",
+  "title": "Gilead to Acquire Investigational Oral IL-23R Inhibitor HCXT-2001, Strengthening Its Inflammation Pipeline in IBD",
+  "link": "http://www.businesswire.com/news/home/20261022181871/en/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:definitive agreement"
  },
  {
-  "published_utc": "2026-10-22T13:15:00Z",
+  "published_utc": "2026-10-22T20:05:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "POWW;POWWP",
-  "title": "Outdoor Holding Company Increases Aggregate Share Repurchase Authorization to $35 Million and Extends Program Through July 4, 2027",
-  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386472/0/en/outdoor-holding-company-increases-aggregate-share-repurchase-authorization-to-35-million-and-extends-program-through-july-4-2027.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-22T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "ANVS",
-  "title": "Annovis to Attend the CTAD 2026 with Three Presentations",
-  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386279/0/en/annovis-to-attend-the-ctad-2026-with-three-presentations.html",
+  "ticker": "AARD",
+  "title": "Aardvark Therapeutics Announces FDA Has Lifted the Clinical Hold on ARD-101 for the Treatment of Prader-Willi Syndrome and Will Host Webcast to Review the Available Exploratory Phase 3 HERO/OLE Data",
+  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386889/0/en/aardvark-therapeutics-announces-fda-has-lifted-the-clinical-hold-on-ard-101-for-the-treatment-of-prader-willi-syndrome-and-will-host-webcast-to-review-the-available-exploratory-pha.html",
   "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-22T20:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "VOR",
+  "title": "Telitacicept Demonstrates Durable Preservation of Kidney Function Through Two Years in Phase 3 TELIGAN Trial in IgA Nephropathy",
+  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386893/0/en/telitacicept-demonstrates-durable-preservation-of-kidney-function-through-two-years-in-phase-3-teligan-trial-in-iga-nephropathy.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-22T18:59:00Z",
+  "wire": "Business Wire",
+  "ticker": "MRK;MRNA",
+  "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium",
+  "link": "http://www.businesswire.com/news/home/20261022568161/en/Merck-and-Moderna-Will-Present-Results-From-Landmark-Phase-3-INTerpath-001-Trial-for-Intismeran-Autogene-Plus-KEYTRUDA%C2%AE-pembrolizumab-at-ESMO-2026-Presidential-Symposium/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-22T18:32:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NRIM",
+  "title": "Northrim BanCorp, Inc. and PBCO Financial Corporation Announce Shareholder Approvals for Proposed Acquisition",
+  "link": "https://www.globenewswire.com/news-release/2026/10/22/3386821/8875/en/northrim-bancorp-inc-and-pbco-financial-corporation-announce-shareholder-approvals-for-proposed-acquisition.html",
+  "matched_on": "keyword:merger agreement"
  }
 ]
