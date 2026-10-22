@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.38 (2026-10-22, ledger) · 1d +0.1%, 5d +0.1%, 20d +42.4% (market context, 2026-10-22)
+- **Latest price:** $36.37 (2026-10-22, ledger) · 1d +0.1%, 5d +0.1%, 20d +42.3% (market context, 2026-10-22)
 - **Since first found:** **-0.0%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.1% vs IWM -0.7% = **+0.8 pts** vs IWM; direction 0, tracked only (13 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median +2.4%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median +2.6%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-22)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: PCRX: Viatris $36.50 tender offer due to have started (15 business days from 8 Oct)
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.38 | -0.0% | +0.1% | -0.7% |  | 13 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.38 | +0.2% | +0.1% | -0.8% |  | 10 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.37 | -0.0% | +0.1% | -0.7% |  | 13 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.37 | +0.2% | +0.1% | -0.8% |  | 10 | live |

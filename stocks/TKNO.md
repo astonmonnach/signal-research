@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_offering` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $6.04 (2026-10-22, ledger)
-- **Since first found:** **+3.2%** (found 2026-10-21 via `supply_offering` at $5.85). From the next open $5.60: +7.9% vs IWM +0.5% = **+7.3 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $5.98 (2026-10-22, ledger)
+- **Since first found:** **+2.2%** (found 2026-10-21 via `supply_offering` at $5.85). From the next open $5.60: +6.8% vs IWM +0.5% = **+6.3 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for TKNO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `supply_offering` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $6.04 | +3.2% | +7.9% | +0.5% |  | 0 | live |
+| 2026-10-21 | `supply_offering` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $5.98 | +2.2% | +6.8% | +0.5% |  | 0 | live |

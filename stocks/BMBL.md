@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $5.94 (2026-10-22, ledger) · 1d -0.2%, 5d +0.2%, 20d +121.6% (market context, 2026-10-22)
 - **Since first found:** **-0.2%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: -0.2% vs IWM +1.1% = **-1.2 pts** vs IWM; direction 0, tracked only (8 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -4.7%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -4.5%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-10-22)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 9 Nov 2026: BMBL: Q3 10-Q due by today (paying users; no earnings call because of the deal)

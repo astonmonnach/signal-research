@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $15.36 (2026-10-22, ledger)
-- **Since first found:** **-10.1%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -7.9% vs IWM -0.8% = **-7.1 pts** vs IWM; direction 0, tracked only (10 days)
+- **Latest price:** $15.17 (2026-10-22, ledger)
+- **Since first found:** **-11.2%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -9.1% vs IWM -0.8% = **-8.3 pts** vs IWM; direction 0, tracked only (10 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $15.36 | -10.1% | -7.9% | -0.8% |  | 10 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $15.36 | +3.4% | +3.2% | -0.2% | -3.4% | 1 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $15.36 | -2.5% | +0.5% | +0.5% |  | 0 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $15.17 | -11.2% | -9.1% | -0.8% |  | 10 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $15.17 | +2.1% | +1.9% | -0.2% | -2.2% | 1 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $15.17 | -3.7% | -0.7% | +0.5% |  | 0 | live |
