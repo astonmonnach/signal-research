@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.820 (2026-10-21, ledger)
-- **Since first found:** **-34.9%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -35.9% vs IWM -1.4% = **-34.6 pts** vs IWM; direction -1 → excess +34.6% (22 days)
+- **Latest price:** $0.847 (2026-10-22, ledger)
+- **Since first found:** **-32.8%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -33.8% vs IWM -1.4% = **-32.4 pts** vs IWM; direction -1 → excess +32.4% (23 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -47,6 +47,6 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.820 | -34.9% | -35.9% | -1.4% | +34.6% | 22 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.820 | -29.3% | -29.9% | -1.9% |  | 16 | live |
-| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.820 | -2.4% | -9.9% | +1.7% | +11.6% | 2 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.847 | -32.8% | -33.8% | -1.4% | +32.4% | 23 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.847 | -26.9% | -27.6% | -2.0% |  | 17 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.847 | +0.9% | -6.9% | +1.6% | +8.5% | 3 | live |
