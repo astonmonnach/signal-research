@@ -93,10 +93,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $151.12 (2026-10-21, ledger) · 1d +3.6%, 5d -3.6%, 20d -21.3% (market context, 2026-10-21)
-- **Since first found:** **-12.3%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -12.5% vs IWM -0.4% = **-12.1 pts** vs IWM; direction 0, tracked only (20 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $149.78 (2026-10-21, ledger) · 1d +2.1%, 5d -5.0%, 20d -22.4% (market context, 2026-10-21)
+- **Since first found:** **-13.2%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -13.4% vs IWM -0.3% = **-13.1 pts** vs IWM; direction 0, tracked only (20 days). Includes +0.44619 THRM (spin)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MOD -3.6% 5d vs peer median -1.4%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-21)
+- **Peers / sympathy:** solo_move: MOD -5.0% 5d vs peer median -0.9%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: MOD Investor Day (continuing business outlook)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -105,6 +105,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: Modine to Host Second Quarter Fiscal 2027 Earnings Conference Call on November 4, 2026 (PR Newswire) ([release](https://www.prnewswire.com/news-releases/modine-to-host-second-quarter-fiscal-2027-earnings-conference-call-on-november-4-2026-302914789.html))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#watchlist-filings)**: Filings: `DEF 14A` 13 Oct · Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
@@ -123,8 +124,8 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $151.12 | -12.3% | -12.5% | -0.4% |  | 20 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $151.12 | -17.4% | -19.6% | -2.9% |  | 15 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $151.12 | -20.2% | -18.6% | -0.0% |  | 13 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $149.78 | -13.2% | -13.4% | -0.3% |  | 20 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $149.78 | -18.1% | -20.3% | -2.8% |  | 15 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $149.78 | -20.9% | -19.3% | +0.1% |  | 13 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._

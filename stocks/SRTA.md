@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
 - **Latest price:** $4.73 (2026-10-21, ledger) · 1d +0.8%, 5d +10.5%, 20d -12.1% (market context, 2026-10-21)
-- **Since first found:** **+9.0%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +4.0% vs IWM +0.2% = **+3.7 pts** vs IWM; direction +1 → excess +3.7% (5 days)
+- **Since first found:** **+9.0%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +4.0% vs IWM +0.3% = **+3.6 pts** vs IWM; direction +1 → excess +3.6% (5 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: SRTA +10.5% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-21)
+- **Peers / sympathy:** solo_move: SRTA +10.5% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.73 | +9.0% | +4.0% | +0.2% | +3.7% | 5 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.73 | +4.2% | +3.7% | +1.6% |  | 2 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.73 | +9.0% | +4.0% | +0.3% | +3.6% | 5 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.73 | +4.2% | +3.7% | +1.7% |  | 2 | live |

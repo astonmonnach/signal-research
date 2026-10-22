@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d_not_activism` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `insider_cluster` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $2.67 (2026-10-21, ledger) · 1d +3.1%, 5d -13.4%, 20d +0.4% (market context, 2026-10-21)
-- **Since first found:** **-19.3%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -18.1% vs IWM -0.7% = **-17.4 pts** vs IWM; direction +1 → excess -17.4% (12 days)
+- **Latest price:** $2.70 (2026-10-21, ledger) · 1d +5.1%, 5d -11.8%, 20d +2.3% (market context, 2026-10-21)
+- **Since first found:** **-18.4%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -17.2% vs IWM -0.6% = **-16.6 pts** vs IWM; direction +1 → excess -16.6% (12 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: FEAM -13.4% 5d vs peer median +1.7%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-10-21)
+- **Peers / sympathy:** solo_move: FEAM -11.8% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-10-21)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for FEAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $2.67 | -19.3% | -18.1% | -0.7% | -17.4% | 12 | live |
-| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $2.67 | -20.1% | -19.6% | -0.6% |  | 8 | live |
-| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $2.67 | -12.8% | -11.0% | +1.8% |  | 6 | live |
+| 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $2.70 | -18.4% | -17.2% | -0.6% | -16.6% | 12 | live |
+| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $2.70 | -19.2% | -18.7% | -0.5% |  | 8 | live |
+| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $2.70 | -11.8% | -10.0% | +1.9% |  | 6 | live |

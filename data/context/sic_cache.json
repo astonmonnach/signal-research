@@ -8424,6 +8424,12 @@
    "fetched": "2026-10-20",
    "sic": "1400"
   },
+  "1082554": {
+   "fetched": "2026-10-22",
+   "name": "UNITED THERAPEUTICS Corp",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
+  },
   "1082575": {
    "fetched": "2026-10-08",
    "sic": "7372"
@@ -21725,8 +21731,10 @@
    "sic": "6798"
   },
   "1455365": {
-   "fetched": "2026-10-04",
-   "sic": "2836"
+   "fetched": "2026-10-22",
+   "name": "COGNITION THERAPEUTICS INC",
+   "sic": "2836",
+   "sic_description": "Biological Products, (No Diagnostic Substances)"
   },
   "1455650": {
    "fetched": "2026-10-07",
@@ -25883,6 +25891,12 @@
   "1599222": {
    "fetched": "2026-10-08",
    "sic": "1311"
+  },
+  "1599298": {
+   "fetched": "2026-10-22",
+   "name": "Summit Therapeutics Inc.",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1599617": {
    "fetched": "2026-10-04",
@@ -30389,8 +30403,10 @@
    "sic": "6798"
   },
   "1776985": {
-   "fetched": "2026-10-04",
-   "sic": "2836"
+   "fetched": "2026-10-22",
+   "name": "BioNTech SE",
+   "sic": "2836",
+   "sic_description": "Biological Products, (No Diagnostic Substances)"
   },
   "1777393": {
    "fetched": "2026-10-07",
@@ -47497,8 +47513,10 @@
    "sic": "3577"
   },
   "936468": {
-   "fetched": "2026-10-20",
-   "sic": "3760"
+   "fetched": "2026-10-22",
+   "name": "LOCKHEED MARTIN CORP",
+   "sic": "3760",
+   "sic_description": "Guided Missiles & Space Vehicles & Parts"
   },
   "936537": {
    "fetched": "2026-10-04",

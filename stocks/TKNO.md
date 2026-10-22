@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_offering` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $5.14 (2026-10-21, ledger)
-- **Since first found:** found 2026-10-21 via `supply_offering` at $5.14; the ledger enters it at the next session's open (pending)
+- **Latest price:** $5.85 (2026-10-21, ledger)
+- **Since first found:** found 2026-10-21 via `supply_offering` at $5.85; the ledger enters it at the next session's open (pending)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **TKNO** (Alpha Teknova, about $397M): an underwritten follow-on launched after the 20 Oct close; size not yet priced. ([triage](../watch/digests/2026-10-21-triage.md)) · Logged as `supply_offering` (direction 0): underwritten follow-on launched after the 20 Oct close; -30% pre-market 21 Oct; AVOID; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 21 Oct 2026 (- 3. AVOID: BRUN (58.7M resale shares, 1.25x the class), TKNO (share sale launched after the close, -30%…) ([note](../research/daily/2026-10-21.md))
+- **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **TKNO** (Alpha Teknova, about $397M): an underwritten follow-on launched after the 20 Oct close; size not yet priced. ([triage](../watch/digests/2026-10-21-triage.md)) · Press: Teknova to Report Third Quarter 2026 Financial Results on November 4, 2026 (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/21/3385977/0/en/teknova-to-report-third-quarter-2026-financial-results-on-november-4-2026.html)) · Logged as `supply_offering` (direction 0): underwritten follow-on launched after the 20 Oct close; -30% pre-market 21 Oct; AVOID; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 21 Oct 2026 (- 3. AVOID: BRUN (58.7M resale shares, 1.25x the class), TKNO (share sale launched after the close, -30%…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1850902/000119312526426674/0001193125-26-426674-index.htm))
 
 ## Performance since found
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for TKNO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `supply_offering` | 0 | -10.1% | -30.4% | $2.9M | $5.14 |  | $5.14 |  |  |  |  |  | pending |
+| 2026-10-21 | `supply_offering` | 0 | -10.1% | -20.8% | $4.1M | $5.85 |  | $5.85 |  |  |  |  |  | pending |
