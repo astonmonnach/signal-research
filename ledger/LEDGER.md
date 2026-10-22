@@ -68,7 +68,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | registration_effective | -1 | 111 | +6.4% | +5.9% | 79/111 |
 | s1_dod_contract | +1 | 3 | +2.8% | +7.3% | 2/3 |
 | setup_supply_deficiency | 0 (track) | 10 | raw -24.1% | raw -27.3% | n/a |
-| share_registration | -1 | 22 | +15.9% | +17.6% | 17/22 |
+| share_registration | -1 | 22 | +16.0% | +17.6% | 17/22 |
 | spin_off | 0 (track) | 1 | raw +2.0% | raw +2.0% | n/a |
 | strategic_placement | 0 (track) | 1 | raw -0.7% | raw -0.7% | n/a |
 | tender_issuer | 0 (track) | 2 | raw +4.7% | raw +4.7% | n/a |
@@ -455,7 +455,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-12 | UMAC | linked_peer | +0 | -6.9% | -5.7% | $58.5M | 19.64 | 19.31 | 16.98 | -13.5% | -12.1% | -0.5% |  | 8 |
 | 2026-10-12 | VAL | linked_peer | +0 | +6.7% | +1.5% | $88.3M | 84.94 | 86.10 | 91.72 | +8.0% | +6.5% | -0.5% |  | 8 |
 | 2026-10-13 | ABCP | 8k_strategic_review | +1 | +9.3% | +0.0% | $1k ⚠ | 0.29 | 0.27 | 0.16 | -45.4% | -40.4% | +1.1% | -41.5% | 7 |
-| 2026-10-13 | ALBC | share_registration | -1 | -86.1% | +637.7% | $1k ⚠ | 0.45 | 0.44 | 0.43 | -4.4% | -2.3% | +1.9% | +4.1% | 5 |
+| 2026-10-13 | ALBC | share_registration | -1 |  | +0.0% | $0k ⚠ | 0.45 | 0.45 | 0.43 | -4.4% | -4.4% | +1.1% | +5.6% | 7 |
 | 2026-10-13 | ALUR | delisting | +0 | +4.1% | +1.4% | $2k ⚠ | 0.52 | 0.40 | 0.47 | -8.1% | +18.8% | +1.1% |  | 7 |
 | 2026-10-13 | ARXS | share_registration | -1 | -4.7% | +4.5% | $63.0M | 49.91 | 48.77 | 51.74 | +3.7% | +6.1% | +1.1% | -5.0% | 7 |
 | 2026-10-13 | ATII | 8k_reverse_split | -1 | +0.0% | +0.1% | $5.2M | 10.71 | 10.60 | 9.81 | -8.4% | -7.5% | +1.1% | +8.6% | 7 |
