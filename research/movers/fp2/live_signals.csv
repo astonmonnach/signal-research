@@ -12,8 +12,8 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-20,22:37,True,PERF,Perfect Corp. Class A Ordinary Share,S2,1.98,1779296,294170,6.05,294676,,,1.99,1.98,2026-10-21,-0.005025,-0.025025,filled
 2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S2,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,2.84,2.71,2026-10-22,-0.045775,-0.065775,filled
 2026-10-21,22:42,True,HOST,Host Digital Inc. Class A Common Stock,S1,2.83,6158267,498715,12.35,715267,2026-08-31,0.028571,2.84,2.71,2026-10-22,-0.045775,-0.065775,filled
-2026-10-22,22:44,True,AMOD,Alpha Modus Holdings Inc. Class A Common Stock,S2,1.03,114742495,19591010,5.86,1072195,,,,,,,,open
-2026-10-22,22:44,True,INVE,INVE Technologies Inc. Common Stock,S2,2.78,15432790,902745,17.1,340385,,,,,,,,open
-2026-10-22,22:44,True,OLOX,Olenox Industries Inc. Common Stock,S2,1.01,129604259,14503800,8.94,286354,,,,,,,,open
-2026-10-22,22:44,True,STAK,STAK Inc. Class A Ordinary Shares,S2,1.0,23559784,3892925,6.05,328393,,,,,,,,open
-2026-10-22,22:44,True,VIVO,VivoPower PLC Class A Ordinary Shares,S2,2.18,9262344,921475,10.05,1378944,,,,,,,,open
+2026-10-22,22:44,True,AMOD,Alpha Modus Holdings Inc. Class A Common Stock,S2,1.03,114742495,19591010,5.86,1072195,,,0.987,0.9507,2026-10-23,-0.036778,-0.056778,filled
+2026-10-22,22:44,True,INVE,INVE Technologies Inc. Common Stock,S2,2.78,15432790,902745,17.1,340385,,,2.73,2.71,2026-10-23,-0.007326,-0.027326,filled
+2026-10-22,22:44,True,OLOX,Olenox Industries Inc. Common Stock,S2,1.01,129604259,14503800,8.94,286354,,,0.912,0.9018,2026-10-23,-0.011184,-0.031184,filled
+2026-10-22,22:44,True,STAK,STAK Inc. Class A Ordinary Shares,S2,1.0,23559784,3892925,6.05,328393,,,1.67,1.85,2026-10-23,0.107784,0.087784,filled
+2026-10-22,22:44,True,VIVO,VivoPower PLC Class A Ordinary Shares,S2,2.18,9262344,921475,10.05,1378944,,,2.28,2.24,2026-10-23,-0.017544,-0.037544,filled
