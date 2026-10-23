@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_reaction` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $30.12 (2026-10-22, ledger)
-- **Since first found:** **-7.0%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: -6.7% vs IWM -0.6% = **-6.0 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $30.04 (2026-10-22, ledger)
+- **Since first found:** **-7.2%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: -6.9% vs IWM -0.5% = **-6.4 pts** vs IWM; direction 0, tracked only (9 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1789832/000139077726000112/0001390777-26-000112-index.htm))
 - **[2026-10-12](../scans/2026-10-12.md#triage-notes)**: Triage: **HESM** (market-wide, 13D/A): Chevron hands back its 38% stake and Hess Midstream buys its DJ Basin assets. ([triage](../watch/digests/2026-10-12-triage.md)) · Logged as `deal_reaction` (direction 0): Chevron hands back its 38% stake and HESM buys DJ Basin assets; -16.6% in 3 sessions vs AMLP -1.7%; John Hess bought 457,596 sh at $33.06; tracked; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (4. HESM: Chevron hands back its 38%, the stock falls 16.6%, and a Chevron director buys $15.1M) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1789832/000119312526418098/0001193125-26-418098-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for HESM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $30.12 | -7.0% | -6.7% | -0.6% |  | 9 | live |
+| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $30.04 | -7.2% | -6.9% | -0.5% |  | 9 | live |

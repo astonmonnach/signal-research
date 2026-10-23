@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $4.01 (2026-10-22, ledger) · 1d +1.4%, 5d -2.1%, 20d -3.5% (market context, 2026-10-22)
-- **Since first found:** **+1.0%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +0.8% vs IWM -0.2% = **+1.0 pts** vs IWM; direction 0, tracked only (1 days)
-- **Peers / sympathy:** missed_peer_move: peer median +5.6% 5d vs ACB -2.1%; peers moved, it didn't. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Latest price:** $3.97 (2026-10-22, ledger) · 1d +0.2%, 5d -3.2%, 20d -4.6% (market context, 2026-10-22)
+- **Since first found:** **+0.0%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: -0.2% vs IWM -0.1% = **-0.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Peers / sympathy:** no flag (self 5d -3.2% vs peer median +4.1%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: +29 older (May – Oct 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **ACB:** $3.97 against an offer worth about $4.15 at CURLF's $7.86 (arith), 4.6% under.) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ACB** (Aurora Cannabis), hostile exchange offer, takeable (median $3.81M). - Curaleaf offers 0.4013 CURA plus US$1.00, capped at $6.00, expiring 4… ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `merger_hostile` (direction 0): Curaleaf offer 0.4013 CURA + US$1.00, worth about $4.06 at CURLF $7.63 vs ACB $3.96; Aurora has standstill agreements with several parties; expires 4 Dec; tracked, no call; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Aurora Hostile Bid (ACB close against the value of the offer in force, 20 Jul to 19 Oct 2026 (US$)) ([note](../research/ACB-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (3. ACB: the "$5" hostile bid is worth about $4.06) ([note](../research/daily/2026-10-20.md))
 
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.01 | +1.0% | +0.8% | -0.2% |  | 1 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $3.97 | +0.0% | -0.2% | -0.1% |  | 1 | live |

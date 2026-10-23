@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $51.80 (2026-10-22, ledger)
-- **Since first found:** **-6.2%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: -4.9% vs IWM +0.3% = **-5.2 pts** vs IWM; direction 0, tracked only (6 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $51.22 (2026-10-22, ledger) · 1d -4.6%, 5d -7.3%, 20d -30.4% (market context, 2026-10-22)
+- **Since first found:** **-7.3%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: -6.0% vs IWM +0.4% = **-6.4 pts** vs IWM; direction 0, tracked only (6 days)
+- **Peers / sympathy:** no flag (self 5d -7.3% vs peer median -6.3%). Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/23/3387094/0/en/mission-success-rocket-lab-launches-98th-electron-mission.html))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: Rocket Lab Announces Date of Third Quarter 2026 Financial Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/20/3385004/0/en/rocket-lab-announces-date-of-third-quarter-2026-financial-results.html))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): MDA peer (space): -19.5% from 13 to 16 Oct vs MDA -1.2%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Rocket Lab (RKLB) -19.5%) ([note](../research/daily/2026-10-15.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for RKLB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $51.80 | -6.2% | -4.9% | +0.3% |  | 6 | live |
+| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $51.22 | -7.3% | -6.0% | +0.4% |  | 6 | live |

@@ -89,11 +89,12 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $17.42 (2026-10-22, ledger) · 1d -2.9%, 5d +0.5%, 20d -6.4% (market context, 2026-10-22)
-- **Since first found:** **-9.7%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -7.7% vs IWM -1.4% = **-6.3 pts** vs IWM; direction -1 → excess +6.3% (23 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.5% vs peer median -0.3%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Latest price:** $17.28 (2026-10-22, ledger) · 1d -3.7%, 5d -0.3%, 20d -7.2% (market context, 2026-10-22)
+- **Since first found:** **-10.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -8.4% vs IWM -1.3% = **-7.1 pts** vs IWM; direction -1 → excess +7.2% (23 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median -1.3%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Tue 27 Oct 2026: BKR: Baker Hughes Q3 results 17:00 (HMH holder; watch for HMH share sales)
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -102,7 +103,9 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-21](../scans/2026-10-21.md#new-setups)**: Logged as `supply_effective` (direction 0): resale S-1 for 31.9M Class A (2.61x the Class A count) effective 20 Oct after the close; first sellable session 21 Oct; tracked overhang test; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `EFFECT` 20 Oct · Research: Research: Wed 21 Oct 2026 (- **HMH:** the resale S-1 for 31.9M Class A shares (Baker Hughes and Akastor, 2.61x the class) became…) ([note](../research/daily/2026-10-21.md))
+- **[2026-10-23](../scans/2026-10-23.md)**: Research: Research: Fri 23 Oct 2026 (- **HMH:** still no sale by Baker Hughes or Akastor.) ([note](../research/daily/2026-10-23.md))
+- **[2026-10-22](../scans/2026-10-22.md)**: Research: Research: Thu 22 Oct 2026 (- **HMH:** no sales by Baker Hughes or Akastor since the resale became effective.) ([note](../research/daily/2026-10-22.md))
+- **[2026-10-21](../scans/2026-10-21.md#new-setups)**: Logged as `supply_effective` (direction 0): resale S-1 for 31.9M Class A (2.61x the Class A count) effective 20 Oct after the close; first sellable session 21 Oct; tracked overhang test; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: registration declared effective (`EFFECT`) (5d before -7.1%, found day +1.8%) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/999999999526003299/9999999995-26-003299-index.htm)) · Filings: `EFFECT` 20 Oct · Research: Research: Wed 21 Oct 2026 (- **HMH:** the resale S-1 for 31.9M Class A shares (Baker Hughes and Akastor, 2.61x the class) became…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- VYLR, HMH, ESRT, PED, IMSR and SRTA;) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **HMH:** a 16 Oct release announced the Q3 call date. The page returned 403, so the date is not recorded. ([triage](../watch/digests/2026-10-18-triage.md))
 - **[2026-10-16](../scans/2026-10-16.md#press-releases)**: Press: HMH Holding Inc. Announces Third Quarter 2026 Earnings Conference Call (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/16/3382784/0/en/hmh-holding-inc-announces-third-quarter-2026-earnings-conference-call.html))
@@ -116,6 +119,7 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $17.42 | -9.7% | -7.7% | -1.4% | +6.3% | 23 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $17.42 | -2.0% | -2.0% | -1.4% | +0.6% | 22 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.78 | $17.42 | -2.9% | -2.0% | +0.5% |  | 0 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $17.28 | -10.4% | -8.4% | -1.3% | +7.2% | 23 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $17.28 | -2.8% | -2.8% | -1.2% | +1.5% | 22 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $17.28 | -3.7% | -3.9% | +0.7% | +4.6% | 0 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $17.28 | -3.7% | -3.9% | +0.7% |  | 0 | live |

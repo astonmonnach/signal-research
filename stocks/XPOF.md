@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $4.32 (2026-10-22, ledger) · 1d +0.7%, 5d -6.7%, 20d +15.2% (market context, 2026-10-22)
-- **Since first found:** **-10.4%** (found 2026-10-13 via `8k_strategic_review` at $4.82). From the next open $4.79: -9.8% vs IWM +1.1% = **-10.9 pts** vs IWM; direction +1 → excess -10.9% (8 days)
+- **Latest price:** $4.20 (2026-10-22, ledger) · 1d -2.1%, 5d -9.3%, 20d +12.0% (market context, 2026-10-22)
+- **Since first found:** **-12.9%** (found 2026-10-13 via `8k_strategic_review` at $4.82). From the next open $4.79: -12.3% vs IWM +1.2% = **-13.5 pts** vs IWM; direction +1 → excess -13.5% (8 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: XPOF -6.7% 5d vs peer median +1.0%; peers didn't move with it. Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** solo_move: XPOF -9.3% 5d vs peer median -0.4%; peers didn't move with it. Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `SCHEDULE 13D/A` 20 Oct, `4` ×3 15 Oct; +31 older (Apr – Oct 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **XPOF** (Xponential Fitness, about $185M) 13D/A No. 3 from Pleasant Lake (Fund 1 Investments). **Research of the day, item 1.** ([triage](../watch/digests/2026-10-21-triage.md)) · Logged as `activist_13d` (direction 0): Pleasant Lake 9.9% shares plus 9.98% swaps = 19.86% (arith), at the 19.9% cap of its letter agreement and the rights plan, inside a strategic review; -8.9% since 13 Oct vs PLNT +11.6%; WATCH; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 21 Oct 2026 (1. XPOF: Pleasant Lake is at its 19.9% cap inside a sale review, and the stock is falling) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1802156/000092189526002831/0000921895-26-002831-index.htm))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **XPOF** (market-wide, rights plan): now read in the filing. 19.9% trigger, derivatives count, expires 11 Oct 2027, record date 22 Oct. ([triage](../watch/digests/2026-10-14-triage.md)) · Research: Research: Wed 14 Oct 2026 (- **XPOF (12 Oct [UNVERIFIED] now read):** the rights plan triggers at **19.9%**, counts derivatives as…) ([note](../research/daily/2026-10-14.md))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for XPOF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_strategic_review` | +1 | +3.7% | +0.2% | $4.0M | $4.82 | $4.79 | $4.32 | -10.4% | -9.8% | +1.1% | -10.9% | 8 | live |
-| 2026-10-21 | `activist_13d` | 0 | -8.9% | -2.3% | $4.1M | $4.29 | $4.29 | $4.32 | +0.7% | +0.7% | +0.5% |  | 0 | live |
+| 2026-10-13 | `8k_strategic_review` | +1 | +3.7% | +0.2% | $4.0M | $4.82 | $4.79 | $4.20 | -12.9% | -12.3% | +1.2% | -13.5% | 8 | live |
+| 2026-10-21 | `activist_13d` | 0 | -8.9% | -2.3% | $4.1M | $4.29 | $4.29 | $4.20 | -2.1% | -2.1% | +0.7% |  | 0 | live |

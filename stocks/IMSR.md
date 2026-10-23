@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $2.82 (2026-10-22, ledger) · 1d -3.7%, 5d -12.1%, 20d -35.1% (market context, 2026-10-22)
-- **Since first found:** **-12.4%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -13.0% vs IWM +0.3% = **-13.2 pts** vs IWM; direction 0, tracked only (6 days)
-- **Peers / sympathy:** no flag (self 5d -12.1% vs peer median -12.5%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Latest price:** $2.86 (2026-10-22, ledger) · 1d -2.7%, 5d -11.2%, 20d -34.4% (market context, 2026-10-22)
+- **Since first found:** **-11.2%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -11.7% vs IWM +0.4% = **-12.2 pts** vs IWM; direction 0, tracked only (6 days)
+- **Peers / sympathy:** no flag (self 5d -11.2% vs peer median -12.5%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `4` 21 Oct · Research: Research: Thu 22 Oct 2026 (- **IMSR:** its 21 Oct Form 4 is an option grant, not a buy. Wednesday's +6.6% is still unexplained.) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- **Watchlist:** PED +7.0% to $14.65 with no filing; IMSR -6.6% to $2.85, now below all three insiders'…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Research: Mon 19 Oct 2026 (IMSR $3.05 $2.87 -5.9% below all three insiders' prices ($2.95 to $3.28)) ([note](../research/daily/2026-10-19.md))
@@ -31,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.82 | -12.4% | -13.0% | +0.3% |  | 6 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.86 | -11.2% | -11.7% | +0.4% |  | 6 | live |

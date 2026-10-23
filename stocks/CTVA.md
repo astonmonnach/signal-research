@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $12.81 (2026-10-22, ledger) · 1d +0.7%, 5d -0.5%, 20d +7.5% (market context, 2026-10-22)
-- **Since first found:** **+623.4%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +623.0% vs IWM -1.4% = **+624.4 pts** vs IWM; direction 0, tracked only (22 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $12.86 (2026-10-22, ledger) · 1d +1.1%, 5d -0.2%, 20d +7.9% (market context, 2026-10-22)
+- **Since first found:** **+618.8%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +618.4% vs IWM -1.2% = **+619.7 pts** vs IWM; direction 0, tracked only (22 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.5% vs peer median -2.5%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d -0.2% vs peer median -2.0%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Corteva Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/corteva-declares-quarterly-dividend-302917451.html))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- CTVA: its 5-session test ended about 13 Oct and was never graded;) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, 8-Ks): 15 states and one sovereign sued on 1 Oct to challenge the separation. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `8-K` 13 Oct · Research: Research: Wed 14 Oct 2026 (- **VYLR / CTVA (watchlist):** 15 states and one sovereign sued on 1 Oct to challenge the Corteva / Vylor…) ([note](../research/daily/2026-10-14.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, spin-off): the 8-Ks confirm the spin completed 1 Oct. ([triage](../watch/digests/2026-10-08-triage.md)) · Research: Research: Thu 8 Oct 2026 (- **VYLR / CTVA:** the 8-Ks confirm the spin was completed on 1 Oct. Vylor borrowed **$3.08bn** on 1 Oct…) ([note](../research/daily/2026-10-08.md))
@@ -119,7 +120,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.81 | +623.4% | +623.0% | -1.4% |  | 22 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.81 | +3.4% | -2.1% | -2.9% |  | 16 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.86 | +618.8% | +618.4% | -1.2% |  | 22 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.86 | +3.8% | -1.7% | -2.7% |  | 16 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

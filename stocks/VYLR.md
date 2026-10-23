@@ -101,10 +101,10 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $71.71 (2026-10-22, ledger) · 1d -3.9%, 5d -2.1%, 20d  (market context, 2026-10-22)
-- **Since first found:** **+5.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.4% vs IWM -2.1% = **+6.5 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $71.12 (2026-10-22, ledger) · 1d -4.9%, 5d -3.0%, 20d  (market context, 2026-10-22)
+- **Since first found:** **+4.2%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +3.5% vs IWM -2.0% = **+5.5 pts** vs IWM; direction 0, tracked only (20 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -2.1% vs peer median -2.6%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** solo_move: VYLR -3.0% 5d vs peer median -1.1%; peers didn't move with it. Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-22)
   - warning: only 16 daily bars (new listing?)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
@@ -117,6 +117,7 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Vylor Announces $3 Billion Share Repurchase Program (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-announces-3-billion-share-repurchase-program-302917419.html)) · Press: Vylor Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-declares-quarterly-dividend-302917422.html))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- VYLR, HMH, ESRT, PED, IMSR and SRTA;) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-15](../scans/2026-10-15.md)**: Calendar: VYLR day-10 check (observation) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **VYLR / CTVA** (watchlist, 8-Ks): 15 states and one sovereign sued on 1 Oct to challenge the separation. ([triage](../watch/digests/2026-10-14-triage.md)) · Filings: `8-K` 13 Oct · Research: Research: Wed 14 Oct 2026 (- **VYLR / CTVA (watchlist):** 15 states and one sovereign sued on 1 Oct to challenge the Corteva / Vylor…) ([note](../research/daily/2026-10-14.md))
@@ -135,6 +136,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.71 | +5.1% | +4.4% | -2.1% |  | 20 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.71 | -2.2% | -0.3% | -2.9% |  | 16 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.71 | -1.8% | -2.9% | -0.0% |  | 14 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.12 | +4.2% | +3.5% | -2.0% |  | 20 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.12 | -3.0% | -1.1% | -2.7% |  | 16 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.12 | -2.6% | -3.7% | +0.1% |  | 14 | live |

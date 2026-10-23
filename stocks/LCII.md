@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $84.97 (2026-10-22, ledger) · 1d +2.2%, 5d +1.2%, 20d +1.8% (market context, 2026-10-22)
-- **Since first found:** **+7.1%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +8.0% vs IWM +1.1% = **+7.0 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $86.60 (2026-10-22, ledger) · 1d +4.2%, 5d +3.1%, 20d +3.6% (market context, 2026-10-22)
+- **Since first found:** **+9.2%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +10.1% vs IWM +1.2% = **+8.9 pts** vs IWM; direction 0, tracked only (8 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.2% vs peer median -3.4%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median -2.9%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: LCI Industries Third Quarter 2026 Conference Call Scheduled for November 5, 2026, at 8:30 a.m. ET (Business Wire) ([release](http://www.businesswire.com/news/home/20261022815836/en/LCI-Industries-Third-Quarter-2026-Conference-Call-Scheduled-for-November-5-2026-at-830-a.m.-ET/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `8-K` 22 Oct
 - **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: Jobs to Move America Report Finds Low Wages, Safety Issues at Transit Seating Manufacturer (Business Wire) ([release](http://www.businesswire.com/news/home/20261021487953/en/Jobs-to-Move-America-Report-Finds-Low-Wages-Safety-Issues-at-Transit-Seating-Manufacturer/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Research: Research: Wed 21 Oct 2026 (- **Options record:** the four open rows (SKYA, MG, CSR, LCII) have no real view, so each is set to "none"…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **LCII / PATK:** votes on **Wed 18 Nov**. The DOJ second request is being answered; outside date 30 Mar 2027, extendable to 30 Sep 2027. ([triage](../watch/digests/2026-10-20-triage.md)) · Filings: `DEFM14A` 19 Oct · Research: Research: Tue 20 Oct 2026 (- **SYNA:** vote 17 Nov; gross spread 5.1% to $123; foreign approvals pending. **LCII/PATK:** votes 18 Nov.) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +7.1%, found day -2.3%) ([filing](https://www.sec.gov/Archives/edgar/data/763744/000076374426000091/0000763744-26-000091-index.htm)) · Filings: `8-K` 13 Oct; +23 older (May – Oct 2026) first picked up
@@ -30,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for LCII ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $84.97 | +7.1% | +8.0% | +1.1% |  | 8 | live |
-| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $84.97 | +8.7% | +7.5% | +1.8% |  | 7 | live |
-| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $84.97 | +3.7% | +3.8% | +1.8% |  | 2 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $86.60 | +9.2% | +10.1% | +1.2% |  | 8 | live |
+| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $86.60 | +10.8% | +9.5% | +1.9% |  | 7 | live |
+| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $86.60 | +5.7% | +5.7% | +1.9% |  | 2 | live |

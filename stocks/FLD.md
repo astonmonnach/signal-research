@@ -22,17 +22,17 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.510 (2026-10-22, ledger)
-- **Since first found:** **-5.5%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -4.7% vs IWM -1.4% = **-3.3 pts** vs IWM; direction -1 → excess +3.3% (22 days)
+- **Since first found:** **-5.6%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -4.7% vs IWM -1.2% = **-3.4 pts** vs IWM; direction -1 → excess +3.4% (22 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 22 Oct 2026: FLD reverse-split vote
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md)**: Calendar: FLD reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 29 Sep + deficiency Jul; $0.54; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-09-30](../scans/2026-09-30.md#triage-notes)**: Triage, dismissed: **EFFECT** notices (KRKR, CLNK, XRP, FEMY, FFBC, FLD, GWAV, MBAI, MLSS, NIVF, RZAI): I didn't open the underlying registrations; they're crypto ETFs… ([triage](../watch/digests/2026-09-30-triage.md))
 - **[2026-09-29](../scans/2026-09-29.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -13.6%, found day +5.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/999999999526003083/9999999995-26-003083-index.htm))
@@ -43,5 +43,5 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.510 | -5.5% | -4.7% | -1.4% | +3.3% | 22 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.510 | -5.7% | -3.8% | -2.0% |  | 17 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.510 | -5.6% | -4.7% | -1.2% | +3.4% | 22 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.510 | -5.7% | -3.8% | -1.9% |  | 17 | live |

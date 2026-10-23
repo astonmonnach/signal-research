@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $105.86 (2026-10-22, ledger)
-- **Since first found:** **-16.7%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -14.4% vs IWM +0.3% = **-14.7 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $104.15 (2026-10-22, ledger)
+- **Since first found:** **-18.0%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -15.8% vs IWM +0.4% = **-16.2 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Centrus to Webcast Conference Call on November 5 at 8:30 a.m. ET (PR Newswire) ([release](https://www.prnewswire.com/news-releases/centrus-to-webcast-conference-call-on-november-5-at-830-am-et-302917455.html))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear fuel): -17.7% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Centrus (LEU) $142.09 $117.00 -17.7%) ([note](../research/daily/2026-10-15.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEU ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $105.86 | -16.7% | -14.4% | +0.3% |  | 6 | live |
+| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $104.15 | -18.0% | -15.8% | +0.4% |  | 6 | live |

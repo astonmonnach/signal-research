@@ -21,9 +21,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.836 (2026-10-22, ledger)
-- **Since first found:** **-33.6%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -34.7% vs IWM -1.4% = **-33.3 pts** vs IWM; direction -1 → excess +33.3% (23 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $0.780 (2026-10-22, ledger)
+- **Since first found:** **-38.1%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -39.1% vs IWM -1.3% = **-37.8 pts** vs IWM; direction -1 → excess +37.8% (23 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -32,6 +32,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-21](../scans/2026-10-21.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -35.5%, found day +15.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226047866/0001493152-26-047866-index.htm))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- POLA's after-hours jump does not count in close-to-close terms (+6.4% on the day).) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -11.1%, found day -12.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226047408/form8-k.htm))
 - **[2026-10-14](../scans/2026-10-14.md)**: Calendar: POLA reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
@@ -47,6 +48,7 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.836 | -33.6% | -34.7% | -1.4% | +33.3% | 23 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.836 | -27.9% | -28.6% | -2.0% |  | 17 | live |
-| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.836 | -0.5% | -8.1% | +1.6% | +9.8% | 3 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.780 | -38.1% | -39.1% | -1.3% | +37.8% | 23 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.780 | -32.8% | -33.3% | -1.9% |  | 17 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.780 | -7.1% | -14.3% | +1.8% | +16.1% | 3 | live |
+| 2026-10-21 | `activist_13d` | +1 | -35.5% | +15.5% | $882k | $0.820 | $0.800 | $0.780 | -4.9% | -2.5% | +0.7% | -3.2% | 0 | live |

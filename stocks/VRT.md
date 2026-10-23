@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $201.56 (2026-10-22, ledger)
-- **Since first found:** **-20.5%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -20.4% vs IWM -2.9% = **-17.5 pts** vs IWM; direction 0, tracked only (16 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $195.59 (2026-10-22, ledger) · 1d -7.8%, 5d -8.9%, 20d -20.3% (market context, 2026-10-22)
+- **Since first found:** **-22.9%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -22.8% vs IWM -2.7% = **-20.0 pts** vs IWM; direction 0, tracked only (16 days)
+- **Peers / sympathy:** no flag (self 5d -8.9% vs peer median -12.2%). Peer groups: thermal / data-center cooling (1), SIC 3679 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Vertiv to Participate in Upcoming Investor Conference (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Dassault Systèmes and Vertiv Team to Accelerate AI Factory Design and Deployment (Business Wire) ([release](http://www.businesswire.com/news/home/20261021876442/en/Dassault-Syst%C3%A8mes-and-Vertiv-Team-to-Accelerate-AI-Factory-Design-and-Deployment/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): already run (+453 pts vs SPY in 3y; 8.5x sales vs 3.45x median); source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (MOD B Data-centre cooling, with a $165M customer deposit 7 already run +308% in 3 years (spin-adjusted, +221…) ([note](../research/longterm-2026-10-05/REPORT.md))
 - **[2026-10-04](../scans/2026-10-04.md)**: Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (VRT 252.18 −33% +30% +0.7% +4.5%) ([note](../research/filings-2026-10-04/watchlist-deep.md))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $201.56 | -20.5% | -20.4% | -2.9% |  | 16 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $195.59 | -22.9% | -22.8% | -2.7% |  | 16 | live |

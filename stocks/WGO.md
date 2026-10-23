@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $26.56 (2026-10-22, ledger)
-- **Since first found:** **+15.0%** (found 2026-10-14 via `linked_peer` at $23.09). From the next open $23.49: +13.1% vs IWM +1.8% = **+11.3 pts** vs IWM; direction 0, tracked only (7 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $28.57 (2026-10-22, ledger) · 1d +11.4%, 5d +15.9%, 20d +6.2% (market context, 2026-10-22)
+- **Since first found:** **+23.7%** (found 2026-10-14 via `linked_peer` at $23.09). From the next open $23.49: +21.6% vs IWM +1.9% = **+19.7 pts** vs IWM; direction 0, tracked only (7 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Winnebago Industries Announces Intention to Nominate Jay L. Johnson to Board of Directors at 2026 Annual… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/23/3387208/0/en/winnebago-industries-announces-intention-to-nominate-jay-l-johnson-to-board-of-directors-at-2026-annual-meeting.html))
 - **[2026-10-14](../scans/2026-10-14.md#new-setups)**: Logged as `linked_peer` (direction 0): LCII peer (RV maker): -25.8% from 30 Jun to 13 Oct vs LCII -25.1%; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **Both have fallen hard:** 30 Jun to 13 Oct: LCII -25.1%, PATK -28.3%, Thor (THO) -13.2%, Winnebago (WGO)…) ([note](../research/daily/2026-10-14.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for WGO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | -7.1% | -0.3% | $17.5M | $23.09 | $23.49 | $26.56 | +15.0% | +13.1% | +1.8% |  | 7 | live |
+| 2026-10-14 | `linked_peer` | 0 | -7.1% | -0.3% | $17.5M | $23.09 | $23.49 | $28.57 | +23.7% | +21.6% | +1.9% |  | 7 | live |
