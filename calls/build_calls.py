@@ -82,8 +82,13 @@ def mark(call):
                 days=(end_d - ed).days, status="closed: " + reason if exit_d else "open")
 
 
+def side_label(c):
+    """LONG, or AVOID for a -1 call: a cash account can't short, so a down call means 'don't buy' (rule 2026-10-23)."""
+    return ("LONG" if int(c["direction"]) > 0 else "AVOID") + (" (long-term)" if c.get("horizon") == "long" else "")
+
+
 def post_text(c, link=True):
-    side = ("LONG" if int(c["direction"]) > 0 else "SHORT") + (" (long-term)" if c.get("horizon") == "long" else "")
+    side = side_label(c)
     inv = f"Exit if it closes {'below' if int(c['direction']) > 0 else 'above'} ${c['invalidation_close']} · " if c.get("invalidation_close") else ""
     return (f"CALL #{c['id']} · {side} ${c['ticker']}\nThesis: {c['thesis']}\n{inv}review {c['review_date']}\n"
             f"Measured from the next open vs ${c.get('benchmark') or 'IWM'} and ${c['control']}."
@@ -144,7 +149,7 @@ def main():
          "| # | posted | call | thesis | entry | now / exit | return | vs market | vs control | days | status |",
          "|---|---|---|---|---|---|---|---|---|---|---|"]
     for m in marked:
-        side = ("LONG" if int(m["direction"]) > 0 else "SHORT") + (" (long-term)" if m.get("horizon") == "long" else "")
+        side = side_label(m)
         thesis = m["thesis"] if not m.get("dossier") else f"[{m['thesis']}]({'../' + m['dossier']})"
         if "ret_pct" not in m:
             L.append(f"| {m['id']} | {m['posted_utc'][:10]} | {side} {m['ticker']} | {thesis} | | | | | | | {m['status']} |"); continue
