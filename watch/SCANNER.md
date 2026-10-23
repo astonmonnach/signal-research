@@ -93,6 +93,16 @@ Relevant companies only. Each line says which flag matched, and the last lines c
 - **How to read it.** Relevant companies only. Several rounds on one subject (revenue recognition, a restatement, a going-concern note) is worth reading. One letter and one reply about an S-1 is routine.
 - **Default stance.** Background reading.
 
+## The Hyperliquid tag (added 23 Oct 2026)
+
+A line whose company also trades as a Hyperliquid perp ends with **[Hyperliquid: xyz:SNDK 10x, ...]**: that name can
+be held long or short there, with leverage. Only builder-exchange markets count (the main exchange lists crypto tokens,
+some with stock-like symbols such as SOL), and a market only counts if it tracks the stock: last price within 15% and,
+with 8 or more shared days, daily moves correlated 0.5 or more. That check exists because xyz:GOLD is the metal and
+xyz:CL is crude oil, at about Colgate's share price. "not checked" means the prices could not be read that day. The
+tag is a fact about where a name trades, not a signal: see `crypto/hyperliquid/explore/` for whether our sections
+predict Hyperliquid moves.
+
 ## A companion tool: who a company depends on
 
 `python graph/company_links.py TICKER` is run by hand, not by the daily scan. It opens the company's latest 10-K (or 20-F) and prints the passages about customer and supplier concentration, the subsidiaries in Exhibit 21, and ready-to-paste `graph/links.py add` commands. A command is printed only when the passage names the other party. "Customer A" is not a name. The tool never writes to the graph itself.

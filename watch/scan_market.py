@@ -363,9 +363,113 @@ def scan(day):
     for heading, body in wider.items():
         if body:
             lines += [f"## {heading}", *body, ""]
+    try:
+        lines = tag_hl(lines, hl_markets())
+    except Exception as e:  # the tag is a bonus; a Hyperliquid outage never stops the scan
+        lines.append(f"- _Hyperliquid tag skipped: {type(e).__name__}._")
     OUT.mkdir(exist_ok=True)
     (OUT / f"{day}.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
+
+
+HL_CACHE = HERE / "hl_markets.json"
+
+
+def hl_markets():
+    """{ticker: [{"name": "xyz:SNDK", "lev": 10, "px": 101.2}, ...]} for every live Hyperliquid perp, main and builder
+    exchanges, with its mark price; cached for a day."""
+    import time as _t
+    if HL_CACHE.exists() and _t.time() - HL_CACHE.stat().st_mtime < 86400:
+        return json.loads(HL_CACHE.read_text(encoding="utf-8"))
+
+    def info(body):
+        req = urllib.request.Request("https://api.hyperliquid.xyz/info", data=json.dumps(body).encode(),
+                                     headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+    out = {}
+    for d in info({"type": "perpDexs"}):
+        dex = d["name"] if d else ""
+        meta, ctxs = info({"type": "metaAndAssetCtxs"} | ({"dex": dex} if dex else {}))
+        for u, c in zip(meta["universe"], ctxs):
+            if u.get("isDelisted"):
+                continue
+            out.setdefault(u["name"].split(":")[-1].upper(), []).append(
+                {"name": u["name"], "lev": u.get("maxLeverage"), "px": float(c.get("markPx") or 0)})
+    HL_CACHE.write_text(json.dumps(out), encoding="utf-8")
+    return out
+
+
+def stock_closes(ticker):
+    """{date: close} for the last month of a US-listed stock, from Yahoo; {} if it can't be read."""
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(ticker)}?range=1mo&interval=1d"
+        r = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20))
+        r = r["chart"]["result"][0]
+        return {date.fromtimestamp(t).isoformat(): c for t, c in zip(r["timestamp"], r["indicators"]["quote"][0]["close"]) if c}
+    except Exception:
+        return {}
+
+
+def hl_closes(name, days=35):
+    """{date: close} of a Hyperliquid perp's daily candles; {} if it can't be read."""
+    import time as _t
+    try:
+        end = int(_t.time() * 1000)
+        req = urllib.request.Request("https://api.hyperliquid.xyz/info", headers={"Content-Type": "application/json"},
+                                     data=json.dumps({"type": "candleSnapshot", "req": {"coin": name, "interval": "1d",
+                                                      "startTime": end - days * 86400000, "endTime": end}}).encode())
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return {date.fromtimestamp(c["t"] / 1000).isoformat(): float(c["c"]) for c in json.load(r)}
+    except Exception:
+        return {}
+
+
+def same_asset(perp, stock):
+    """True if a perp tracks the stock: last prices within 15% and, with 8+ shared days, daily moves correlated 0.5+.
+    xyz:CL is crude oil at about Colgate's price (23 Oct 2026), so price alone is not enough. None = nothing to compare."""
+    both = sorted(set(perp) & set(stock))
+    if not both:
+        return None
+    if abs(perp[both[-1]] / stock[both[-1]] - 1) > 0.15:
+        return False
+    if len(both) < 8:
+        return True
+    rp = [perp[b] / perp[a] - 1 for a, b in zip(both, both[1:])]
+    rs = [stock[b] / stock[a] - 1 for a, b in zip(both, both[1:])]
+    mp, ms = sum(rp) / len(rp), sum(rs) / len(rs)
+    cov = sum((x - mp) * (y - ms) for x, y in zip(rp, rs))
+    var = (sum((x - mp) ** 2 for x in rp) * sum((y - ms) ** 2 for y in rs)) ** 0.5
+    return bool(var) and cov / var >= 0.5
+
+
+def check_market(ticker, market):
+    return same_asset(hl_closes(market["name"]), stock_closes(ticker))
+
+
+def tag_hl(lines, hl, check=check_market):
+    """Mark report lines whose company also trades as a Hyperliquid perp (added 23 Oct 2026, the trader's call): tradable long or short there.
+    Hyperliquid also lists crypto tokens and commodities whose symbol can equal a stock ticker (SOL, xyz:GOLD, xyz:CL),
+    so main-exchange markets (crypto only) never count and a builder-exchange market must pass check(ticker, market);
+    a check that can't run (None) keeps the tag with "not checked"."""
+    out, seen = [], {}
+    for line in lines:
+        m = re.match(r"- \*\*([^*]+)\*\*", line)
+        if m:
+            found, unchecked = [], False
+            for t in [t.strip().upper() for t in m.group(1).split("/") if t.strip()]:
+                for mk in hl.get(t, []):
+                    if ":" not in mk["name"]:
+                        continue
+                    if mk["name"] not in seen:
+                        seen[mk["name"]] = check(t, mk)
+                    if seen[mk["name"]] is not False:
+                        found.append(f"{mk['name']} {mk['lev']}x")
+                        unchecked |= seen[mk["name"]] is None
+            if found:
+                line = f"{line} **[Hyperliquid: {', '.join(dict.fromkeys(found))}{', not checked' if unchecked else ''}]**"
+        out.append(line)
+    return out
 
 
 # ---------------------------------------------------------------------------------------------------------------------
