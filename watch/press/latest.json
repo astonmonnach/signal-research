@@ -1,98 +1,42 @@
 [
  {
-  "published_utc": "2026-10-23T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "WGO",
-  "title": "Winnebago Industries Announces Intention to Nominate Jay L. Johnson to Board of Directors at 2026 Annual Meeting",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387208/0/en/winnebago-industries-announces-intention-to-nominate-jay-l-johnson-to-board-of-directors-at-2026-annual-meeting.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-23T12:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "CTVA",
-  "title": "Corteva Declares Quarterly Dividend",
-  "link": "https://www.prnewswire.com/news-releases/corteva-declares-quarterly-dividend-302917451.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-23T12:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "VRT",
-  "title": "Vertiv to Participate in Upcoming Investor Conference",
-  "link": "https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-23T08:47:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "RKLB",
-  "title": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387094/0/en/mission-success-rocket-lab-launches-98th-electron-mission.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-23T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "MASK",
-  "title": "3 E Network Announces Entry into Material Definitive Agreement, Related Party Transaction and Unregistered Sale of Equity Securities",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387193/0/en/3-e-network-announces-entry-into-material-definitive-agreement-related-party-transaction-and-unregistered-sale-of-equity-securities.html",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-10-23T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "HUMA",
-  "title": "Humacyte at ASN Kidney Week: Phase 3 Trial Built for Women Shows ATEV Advantage Over Fistula, Getting Patients Off Catheters Months Sooner",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387207/0/en/humacyte-at-asn-kidney-week-phase-3-trial-built-for-women-shows-atev-advantage-over-fistula-getting-patients-off-catheters-months-sooner.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-23T11:30:00Z",
+  "published_utc": "2026-10-23T15:56:00Z",
   "wire": "Business Wire",
-  "ticker": "TAK",
-  "title": "Takeda Announces Arcotatug Tavatecan (TAK-921) Demonstrated Statistically Significant and Clinically Meaningful Improvements in Overall Survival and Progression-Free Survival in Phase 3 Advanced Gastric Cancer Study",
-  "link": "http://www.businesswire.com/news/home/20261021967745/en/Takeda-Announces-Arcotatug-Tavatecan-TAK-921-Demonstrated-Statistically-Significant-and-Clinically-Meaningful-Improvements-in-Overall-Survival-and-Progression-Free-Survival-in-Phase-3-Advanced-Gastric-Cancer-Study/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "ticker": "GMAB",
+  "title": "Genmab Announces Rinatabart Sesutecan (Rina-S®) Demonstrates Statistically Significant Improvement in Progression-Free Survival and Overall Survival in Patients with Platinum-Resistant Ovarian Cancer",
+  "link": "http://www.businesswire.com/news/home/20261023662606/en/Genmab-Announces-Rinatabart-Sesutecan-Rina-S%C2%AE-Demonstrates-Statistically-Significant-Improvement-in-Progression-Free-Survival-and-Overall-Survival-in-Patients-with-Platinum-Resistant-Ovarian-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-10-23T11:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "RVMD",
-  "title": "Revolution Medicines Presents Overall Survival Data for RASONQUE™ (daraxonrasib) Across Subgroups in Previously Treated Metastatic Pancreatic Cancer at ESMO 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387179/0/en/revolution-medicines-presents-overall-survival-data-for-rasonque-daraxonrasib-across-subgroups-in-previously-treated-metastatic-pancreatic-cancer-at-esmo-2026.html",
+  "published_utc": "2026-10-23T14:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "ONC",
+  "title": "BeOne Medicines Reports Sustained Survival Benefit with TEVIMBRA-ZIIHERA Combination in First-Line HER2+ Gastroesophageal Cancer",
+  "link": "http://www.businesswire.com/news/home/20261023068473/en/BeOne-Medicines-Reports-Sustained-Survival-Benefit-with-TEVIMBRA-ZIIHERA-Combination-in-First-Line-HER2-Gastroesophageal-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-10-23T11:00:00Z",
+  "published_utc": "2026-10-23T13:24:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "AARD",
-  "title": "Aardvark Therapeutics Reports Exploratory Data from the Terminated HERO and Open-Label Extension Trials",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387158/0/en/aardvark-therapeutics-reports-exploratory-data-from-the-terminated-hero-and-open-label-extension-trials.html",
+  "ticker": "AIOK",
+  "title": "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387307/0/en/ai-okto-corp-declares-special-dividend-of-3-50-per-share.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-10-23T12:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LXRX",
+  "title": "Lexicon Pharmaceuticals Provides Update on Baseline Patient Characteristics for Pivotal Phase 3 SONATA-HCM Study of Sotagliflozin in Symptomatic Hypertrophic Cardiomyopathy",
+  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387236/0/en/lexicon-pharmaceuticals-provides-update-on-baseline-patient-characteristics-for-pivotal-phase-3-sonata-hcm-study-of-sotagliflozin-in-symptomatic-hypertrophic-cardiomyopathy.html",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-10-23T10:30:00Z",
-  "wire": "PR Newswire",
-  "ticker": "FCNCA",
-  "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
-  "link": "https://www.prnewswire.com/news-releases/first-citizens-bancshares-reports-third-quarter-2026-earnings-announces-additional-share-repurchase-plan-302917517.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-23T08:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VCYT",
-  "title": "Phase III Trial Shows Veracyte’s Decipher Prostate Test Can Predict Benefit from Adding Abiraterone to Treatment in Very High-Risk Prostate Cancer",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387079/0/en/phase-iii-trial-shows-veracyte-s-decipher-prostate-test-can-predict-benefit-from-adding-abiraterone-to-treatment-in-very-high-risk-prostate-cancer.html",
-  "matched_on": "keyword:Phase III"
- },
- {
-  "published_utc": "2026-10-23T07:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "ORIC",
-  "title": "ORIC® Pharmaceuticals Presents Potential Best-in-Class Data for Enozertinib in 1L NSCLC Patients with EGFR Atypical Mutations at ESMO Congress 2026 and Plans to Advance Enozertinib into a Global Phase 3 Trial",
-  "link": "https://www.globenewswire.com/news-release/2026/10/23/3387076/0/en/oric-pharmaceuticals-presents-potential-best-in-class-data-for-enozertinib-in-1l-nsclc-patients-with-egfr-atypical-mutations-at-esmo-congress-2026-and-plans-to-advance-enozertinib-.html",
-  "matched_on": "keyword:Phase 3"
+  "published_utc": "2026-10-23T12:15:00Z",
+  "wire": "Business Wire",
+  "ticker": "PERF",
+  "title": "Perfect Announces Completion of Merger",
+  "link": "http://www.businesswire.com/news/home/20261023897444/en/Perfect-Announces-Completion-of-Merger/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
  }
 ]
