@@ -749,4 +749,36 @@ DTEND;VALUE=DATE:20261201
 SUMMARY:PSNL: merger vote on Tempus ($16.25 in TEM stock\, floor $48.42)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1527753/000119312526427872/d141436ddefm14a.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:8abf4e8e216b471ef6232cb0f1490cfb@signal-lab
+DTSTAMP:20261023T130000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:VREX: merger vote on Teledyne's $18.90 cash offer
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1681622/000110465926117962/tm2628039d1_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:77b9f36c55369a33f990a3c674bceceb@signal-lab
+DTSTAMP:20261023T130000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:MKTX: merger vote on ICE's $167.00 cash offer (9am New York)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1278021/000119312526395678/d171374ddefm14a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ece703fd80337c9d660f388d8361f329@signal-lab
+DTSTAMP:20261023T130000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:BKR: Baker Hughes Q3 results 17:00 (HMH holder\; watch for HMH share sales)
+DESCRIPTION:https://finviz.com/news/395814/baker-hughes-announces-dates-for-third-quarter-earnings-release-and-webcast
+END:VEVENT
+BEGIN:VEVENT
+UID:0de5e25a20695c34b203f5f0f3370ab1@signal-lab
+DTSTAMP:20261023T130000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CRMT: lenders' default waiver and liquidity relief expire (outer date 6 Nov)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/799850/000117184326006742/f8k_102126.htm
+END:VEVENT
 END:VCALENDAR

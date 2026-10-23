@@ -113,3 +113,8 @@ found,source,ticker,category,direction,note
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),INVE,tender_issuer_buyback,0,"Dutch auction $2.85-3.40 for up to $20M, expires 19 Nov; +25% on 21 Oct; UK holder loses unless it clears near $3.40 (15% withheld); watch only"
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),GTBP,supply_resale,0,"resale of 13.5M shares, 655% of outstanding, floating conversion; -26% on 21 Oct; AVOID"
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),SWBI,supply_overhang,0,issued 9.0M shares (19.99%) for Savage Arms; resale S-3 due within 60 days; seller lock-up in thirds; overhang
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),DOLE,activist_13d,0,"Pale Fire (Groupon takeover group) 10.89% after buying 648,356 shares ($8.55M) on 20-22 Oct, 16-29% of daily volume; 13D says undervalued, will engage the board; TF1 pass; WATCH"
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),AGMB,insider_cluster,0,"CEO, CFO and a director bought ~$400k after a -22% drop on 1 Oct; director's 21 Oct buy 22% of volume; TF1 fail; tracked"
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),VREX,merger_arb,0,Teledyne $18.90 cash; vote 28 Oct; HSR now to 19 Nov; 2.66% gross spread (arith); no reverse termination fee; tracked
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),AEHL,supply_atm,0,"$100M at-the-market amendment, ~70% of Class A at $8.65, plus 15M warrants at $0.50; AVOID"
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),TNON,supply_atm,0,at-the-market room larger than its non-affiliate float; AVOID
