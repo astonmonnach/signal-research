@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $86.60 (2026-10-22, ledger) · 1d +4.2%, 5d +3.1%, 20d +3.6% (market context, 2026-10-22)
 - **Since first found:** **+9.2%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +10.1% vs IWM +1.2% = **+8.9 pts** vs IWM; direction 0, tracked only (8 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median -2.9%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median -2.6%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

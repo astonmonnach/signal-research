@@ -92,7 +92,7 @@
 - **Latest price:** $17.28 (2026-10-22, ledger) · 1d -3.7%, 5d -0.3%, 20d -7.2% (market context, 2026-10-22)
 - **Since first found:** **-10.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -8.4% vs IWM -1.3% = **-7.1 pts** vs IWM; direction -1 → excess +7.2% (23 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median -1.3%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median -1.3%). Peer groups: oilfield equipment (5), SIC 3533 (7) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 27 Oct 2026: BKR: Baker Hughes Q3 results 17:00 (HMH holder; watch for HMH share sales)
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
