@@ -101,8 +101,8 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $71.12 (2026-10-22, ledger) · 1d -4.9%, 5d -3.0%, 20d  (market context, 2026-10-22)
-- **Since first found:** **+4.2%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +3.5% vs IWM -2.0% = **+5.5 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $71.69 (2026-10-23, ledger) · 1d -4.9%, 5d -3.0%, 20d  (market context, 2026-10-22)
+- **Since first found:** **+5.0%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.3% vs IWM -2.6% = **+6.9 pts** vs IWM; direction 0, tracked only (21 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** solo_move: VYLR -3.0% 5d vs peer median -1.1%; peers didn't move with it. Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-22)
   - warning: only 16 daily bars (new listing?)
@@ -136,6 +136,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.12 | +4.2% | +3.5% | -2.0% |  | 20 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.12 | -3.0% | -1.1% | -2.7% |  | 16 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.12 | -2.6% | -3.7% | +0.1% |  | 14 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.69 | +5.0% | +4.3% | -2.6% |  | 21 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.69 | -2.2% | -0.3% | -3.3% |  | 17 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.69 | -1.8% | -2.9% | -0.5% |  | 15 | live |

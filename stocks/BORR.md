@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $4.08 (2026-10-22, ledger) · 1d -3.3%, 5d -10.3%, 20d -4.2% (market context, 2026-10-22)
-- **Since first found:** **-17.2%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -18.1% vs IWM -0.5% = **-17.6 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $4.11 (2026-10-23, ledger) · 1d -3.3%, 5d -10.3%, 20d -4.2% (market context, 2026-10-22)
+- **Since first found:** **-16.7%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -17.6% vs IWM -1.1% = **-16.5 pts** vs IWM; direction 0, tracked only (10 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** solo_move: BORR -10.3% 5d vs peer median +4.7%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -34,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $4.08 | -17.2% | -18.1% | -0.5% |  | 9 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $4.08 | -15.0% | -18.4% | +1.2% | -19.6% | 8 | live |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $4.11 | -16.7% | -17.6% | -1.1% |  | 10 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $4.11 | -14.5% | -17.9% | +0.6% | -18.5% | 9 | live |

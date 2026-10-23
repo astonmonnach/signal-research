@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $195.59 (2026-10-22, ledger) · 1d -7.8%, 5d -8.9%, 20d -20.3% (market context, 2026-10-22)
-- **Since first found:** **-22.9%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -22.8% vs IWM -2.7% = **-20.0 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $192.11 (2026-10-23, ledger) · 1d -7.8%, 5d -8.9%, 20d -20.3% (market context, 2026-10-22)
+- **Since first found:** **-24.2%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -24.1% vs IWM -3.3% = **-20.8 pts** vs IWM; direction 0, tracked only (17 days)
 - **Peers / sympathy:** no flag (self 5d -8.9% vs peer median -12.2%). Peer groups: thermal / data-center cooling (1), SIC 3679 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $195.59 | -22.9% | -22.8% | -2.7% |  | 16 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $192.11 | -24.2% | -24.1% | -3.3% |  | 17 | live |

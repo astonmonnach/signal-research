@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $51.22 (2026-10-22, ledger) · 1d -4.6%, 5d -7.3%, 20d -30.4% (market context, 2026-10-22)
-- **Since first found:** **-7.3%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: -6.0% vs IWM +0.4% = **-6.4 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $50.38 (2026-10-23, ledger) · 1d -4.6%, 5d -7.3%, 20d -30.4% (market context, 2026-10-22)
+- **Since first found:** **-8.8%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: -7.5% vs IWM -0.2% = **-7.3 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** no flag (self 5d -7.3% vs peer median -6.3%). Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for RKLB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $51.22 | -7.3% | -6.0% | +0.4% |  | 6 | live |
+| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $50.38 | -8.8% | -7.5% | -0.2% |  | 7 | live |

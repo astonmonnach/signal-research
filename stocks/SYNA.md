@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $117.04 (2026-10-22, ledger) · 1d -0.4%, 5d -0.4%, 20d +20.9% (market context, 2026-10-22)
-- **Since first found:** **-1.7%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.4% vs IWM -0.6% = **-1.9 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $117.35 (2026-10-23, ledger) · 1d -0.4%, 5d -0.4%, 20d +20.9% (market context, 2026-10-22)
+- **Since first found:** **-1.4%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.2% vs IWM -1.1% = **-1.0 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** missed_peer_move: peer median -8.8% 5d vs SYNA -0.4%; peers moved, it didn't. Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-10-22)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for SYNA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.04 | -1.7% | -2.4% | -0.6% |  | 13 | live |
-| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.04 | -2.3% | -2.3% | -0.7% |  | 10 | live |
-| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.04 | -0.0% | -0.1% | +1.9% |  | 2 | live |
+| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.35 | -1.4% | -2.2% | -1.1% |  | 14 | live |
+| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.35 | -2.1% | -2.1% | -1.2% |  | 11 | live |
+| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.35 | +0.3% | +0.1% | +1.3% |  | 3 | live |
