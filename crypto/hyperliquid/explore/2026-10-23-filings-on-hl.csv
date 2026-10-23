@@ -1,0 +1,106 @@
+day,ticker,section,form,side,market,r1,r5,vol,c1,c5,note
+2026-03-30,SHAZ,Activists / new 5%+ holders,SCHEDULE 13D,1,,,,,,,no Hyperliquid market on T
+2026-04-01,IONQ,"Effective, not supply (S-4)",EFFECT,0,,,,,,,no Hyperliquid market on T
+2026-04-06,MRVL,Debt sale (prospectus for notes),424B5,0,,,,,,,no Hyperliquid market on T
+2026-04-08,SHAZ,Activists / new 5%+ holders,SCHEDULE 13D,1,,,,,,,no Hyperliquid market on T
+2026-04-13,SHAZ,Activists / new 5%+ holders,SCHEDULE 13D,1,,,,,,,no Hyperliquid market on T
+2026-04-17,CBRS,Share registrations,S-1,-1,,,,,,,no Hyperliquid market on T
+2026-04-22,SHAZ,Registrations effective,EFFECT,-1,,,,,,,no Hyperliquid market on T
+2026-04-24,BMNR,Share sales and shelves,S-3,-1,km:BMNR,-4.217,0.750,265383.168,-0.252,-1.428,
+2026-04-24,GLW,Share sales and shelves,S-3ASR,-1,,,,,,,no Hyperliquid market on T
+2026-04-27,INTC,Debt sale (prospectus for notes),424B5,0,cash:INTC,5.610,22.126,36267093.568,1.992,9.730,
+2026-04-28,BMNR,Share sales and shelves,S-3ASR,-1,km:BMNR,-2.880,8.402,104461.394,-0.252,-1.428,
+2026-04-29,BIRD,Share sales and shelves,424B5,-1,xyz:BIRD,3.246,-3.633,223213.446,-0.920,-4.165,
+2026-04-29,INTC,Debt sale (prospectus for notes),424B5,0,xyz:INTC,-4.159,13.107,83279022.040,0.711,3.167,
+2026-04-30,META,Share sales and shelves,S-3ASR,-1,xyz:META,-1.003,0.614,16359882.045,0.225,0.938,
+2026-04-30,RIVN,Share sales and shelves,S-3ASR,-1,xyz:RIVN,-4.909,-10.139,2198600.599,-0.050,-0.353,
+2026-05-04,BMNR,Share sales and shelves,S-3ASR,-1,km:BMNR,-0.180,-3.710,216813.034,-0.252,-1.428,
+2026-05-04,EBAY,Activists / new 5%+ holders,SCHEDULE 13D,1,,,,,,,no Hyperliquid market on T
+2026-05-05,GOOGL,Debt sale (prospectus for notes),424B5,0,xyz:GOOGL,1.597,-2.067,20494194.481,0.170,0.686,
+2026-05-06,BOT,"Effective, not supply (N-2)",EFFECT,0,,,,,,,no Hyperliquid market on T
+2026-05-08,QNT,Share registrations,S-1,-1,,,,,,,no Hyperliquid market on T
+2026-05-11,GOOGL,Debt sale (prospectus for notes),424B5,0,xyz:GOOGL,-0.363,3.119,13362751.401,0.170,0.686,
+2026-05-13,USAR,Share sales and shelves,S-3,-1,xyz:USAR,-4.212,-6.902,2514725.684,-0.048,-0.451,
+2026-05-14,AAOI,Share sales and shelves,424B5,-1,,,,,,,no Hyperliquid market on T
+2026-05-14,CBRS,Offering priced,424B4,-1,xyz:CBRS,-3.963,-7.163,298614809.980,-0.309,-2.195,
+2026-05-14,CBRS,Registrations effective,EFFECT,-1,xyz:CBRS,-3.963,-7.163,298614809.980,-0.309,-2.195,
+2026-05-18,GOOGL,Debt sale (prospectus for notes),424B5,0,xyz:GOOGL,-3.366,-4.212,17404342.920,0.170,0.686,
+2026-05-20,RKLB,Share sales and shelves,424B5,-1,xyz:RKLB,4.331,17.869,10025403.863,-0.230,-1.156,
+2026-05-20,SPCX,Share registrations,S-1,-1,xyz:SPCX,-0.806,-5.600,30691678.671,-0.193,-0.831,
+2026-05-22,CBRS,Activists / new 5%+ holders,SCHEDULE 13D,1,xyz:CBRS,-1.791,-11.968,2567143.049,-0.309,-2.195,
+2026-06-01,GOOGL,Share sales and shelves,S-3ASR,-1,xyz:GOOGL,-1.968,0.230,32700102.651,0.170,0.686,
+2026-06-01,TTWO,Share sales and shelves,S-3ASR,-1,,,,,,,no Hyperliquid market on T
+2026-06-02,GOOGL,Share sales and shelves,424B5,-1,xyz:GOOGL,0.343,1.008,31256675.096,0.170,0.686,
+2026-06-03,BMNR,Share sales and shelves,424B5,-1,km:BMNR,0.614,-5.216,324569.474,-0.252,-1.428,
+2026-06-03,COST,Share sales and shelves,S-3ASR,-1,xyz:COST,-0.958,-0.298,645781.744,-0.005,-0.009,
+2026-06-03,GPRO,Registrations effective,EFFECT,-1,,,,,,,no Hyperliquid market on T
+2026-06-04,GOOGL,Share sales and shelves,424B5,-1,xyz:GOOGL,-0.125,-1.773,20099653.126,0.170,0.686,
+2026-06-04,QNT,Registrations effective,EFFECT,-1,xyz:QNT,-3.267,-5.223,68872917.120,-0.620,-3.559,
+2026-06-05,BMNR,Share sales and shelves,424B5,-1,km:BMNR,-0.048,,67284.073,-0.252,-1.428,
+2026-06-05,CRWV,Share sales and shelves,S-3ASR,-1,xyz:CRWV,1.689,1.873,4048490.609,0.089,0.205,
+2026-06-05,QNT,Offering priced,424B4,-1,xyz:QNT,6.589,0.589,902626.023,-0.620,-3.559,
+2026-06-05,SHAZ,Share registrations,S-1,-1,,,,,,,no Hyperliquid market on T
+2026-06-08,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,-1.758,0.113,5441015.739,0.173,0.893,
+2026-06-08,USAR,Registrations effective,EFFECT,-1,xyz:USAR,-8.167,1.063,1087342.646,-0.048,-0.451,
+2026-06-09,SMCI,Share sales and shelves,S-3ASR,-1,,,,,,,no Hyperliquid market on T
+2026-06-10,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,1.336,-0.096,6114754.057,0.173,0.893,
+2026-06-10,SMCI,Share sales and shelves,424B5,-1,,,,,,,no Hyperliquid market on T
+2026-06-11,BIRD,Share sales and shelves,424B5,-1,xyz:BIRD,-0.647,49.739,100099.328,-0.920,-4.165,
+2026-06-11,DELL,Share sales and shelves,S-3ASR,-1,xyz:DELL,5.689,5.967,546795.907,0.073,0.909,
+2026-06-12,SHAZ,Registrations effective,EFFECT,-1,,,,,,,no Hyperliquid market on T
+2026-06-12,SMCI,Share sales and shelves,424B5,-1,,,,,,,no Hyperliquid market on T
+2026-06-12,SPCX,Offering priced,424B4,-1,xyz:SPCX,18.696,4.196,159015753.697,-0.193,-0.831,
+2026-06-12,SPCX,Registrations effective,EFFECT,-1,xyz:SPCX,18.696,4.196,159015753.697,-0.193,-0.831,
+2026-06-15,NVDA,Debt sale (prospectus for notes),424B5,0,xyz:NVDA,-1.161,-3.782,47456083.948,0.207,0.917,
+2026-06-17,NVDA,Debt sale (prospectus for notes),424B5,0,xyz:NVDA,0.813,-2.819,39946455.049,0.207,0.917,
+2026-06-18,AVGO,"Effective, not supply (S-4)",EFFECT,0,xyz:AVGO,0.777,-9.571,2456437.827,-0.327,-0.987,
+2026-06-18,TWST,Share sales and shelves,S-3ASR,-1,,,,,,,no Hyperliquid market on T
+2026-06-23,ORCL,Share sales and shelves,424B5,-1,xyz:ORCL,-3.688,-11.860,8046899.387,0.032,0.133,
+2026-06-23,STRC,Share sales and shelves,424B5,-1,xyz:STRC,-7.062,-3.853,557936.978,0.168,1.182,
+2026-06-30,USAR,"Effective, not supply (S-4)",EFFECT,0,xyz:USAR,-5.158,-18.075,528560.249,-0.048,-0.451,
+2026-07-06,RIVN,Share sales and shelves,424B5,-1,xyz:RIVN,-12.226,-2.992,2107817.357,-0.050,-0.353,
+2026-07-07,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,-1.409,2.366,13444319.411,0.173,0.893,
+2026-07-08,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,3.429,6.321,7697737.875,0.173,0.893,
+2026-07-08,RIVN,Share sales and shelves,424B5,-1,xyz:RIVN,9.980,6.352,1758225.894,-0.050,-0.353,
+2026-07-10,SKHY,"Effective, not supply (F-6)",EFFECT,0,xyz:SKHY,7.552,6.126,148803567.647,-0.024,-0.556,
+2026-07-10,SKHY,Offering priced,424B4,-1,xyz:SKHY,7.552,6.126,148803567.647,-0.024,-0.556,
+2026-07-10,SKHY,Registrations effective,EFFECT,-1,xyz:SKHY,7.552,6.126,148803567.647,-0.024,-0.556,
+2026-07-17,BOT,"Effective, not supply (N-2)",EFFECT,0,xyz:BOT,-5.249,-11.393,1131978.819,-0.249,-2.318,
+2026-07-21,NFLX,Debt sale (prospectus for notes),424B5,0,xyz:NFLX,-0.136,5.160,4670703.499,-0.172,-1.109,
+2026-07-31,SHAZ,Share registrations,S-1,-1,xyz:SHAZ,17.109,5.868,495744.724,-1.123,-5.246,
+2026-08-04,TWST,Share sales and shelves,424B5,-1,,,,,,,no Hyperliquid market on T
+2026-08-05,CRCL,Share sales and shelves,S-3ASR,-1,xyz:CRCL,5.834,14.685,38015486.635,0.100,0.220,
+2026-08-05,TWST,Share sales and shelves,424B5,-1,,,,,,,no Hyperliquid market on T
+2026-08-06,GOOGL,Debt sale (prospectus for notes),424B5,0,xyz:GOOGL,-0.680,-3.439,30756156.004,0.170,0.686,
+2026-08-06,GOOGL,Share sales and shelves,424B5,-1,xyz:GOOGL,-0.680,-3.439,30756156.004,0.170,0.686,
+2026-08-07,BOT,"Effective, not supply (N-2)",EFFECT,0,xyz:BOT,-0.643,15.805,206704.021,-0.249,-2.318,
+2026-08-10,INTC,Share sales and shelves,424B5,-1,xyz:INTC,2.885,1.445,40759161.614,0.711,3.167,
+2026-08-11,IBM,Debt sale (prospectus for notes),424B5,0,xyz:IBM,1.333,-1.426,1080847.483,-0.277,-1.065,
+2026-08-12,INTC,Share sales and shelves,424B5,-1,xyz:INTC,4.204,-9.434,79218501.294,0.711,3.167,
+2026-08-12,SHAZ,Share registrations,S-1,-1,xyz:SHAZ,6.385,-3.926,2048044.769,-1.123,-5.246,
+2026-08-13,AMD,Debt sale (prospectus for notes),424B5,0,xyz:AMD,5.476,-2.181,9728430.447,0.795,3.808,
+2026-08-13,AMD,Share sales and shelves,S-3ASR,-1,xyz:AMD,5.476,-2.181,9728430.447,0.795,3.808,
+2026-08-13,RKLB,Share sales and shelves,424B5,-1,xyz:RKLB,-0.826,-8.664,4492533.720,-0.230,-1.156,
+2026-08-14,AMD,Debt sale (prospectus for notes),424B5,0,xyz:AMD,-4.708,-9.391,6118820.022,0.795,3.808,
+2026-08-17,BIRD,Late filings,NT 10-Q,-1,xyz:BIRD,-2.765,-2.123,67753.440,-0.920,-4.165,
+2026-08-17,SHAZ,Registrations effective,EFFECT,-1,xyz:SHAZ,-4.752,-18.788,1951138.949,-1.123,-5.246,
+2026-08-19,AMZN,"Effective, not supply (S-4)",EFFECT,0,xyz:AMZN,-0.755,-1.347,11748968.346,0.173,0.893,
+2026-08-21,AAOI,Share sales and shelves,424B5,-1,xyz:AAOI,3.279,-3.142,978721.560,-1.251,-4.769,
+2026-08-24,SHAZ,Registrations effective,EFFECT,-1,xyz:SHAZ,0.310,-11.254,288614.358,-1.123,-5.246,
+2026-08-27,RKLB,"Effective, not supply (S-4)",EFFECT,0,xyz:RKLB,-5.489,-3.711,1511492.393,-0.230,-1.156,
+2026-08-28,SHAZ,Activists / new 5%+ holders,SCHEDULE 13D,1,xyz:SHAZ,2.623,6.967,168772.026,-1.123,-5.246,
+2026-09-04,USAR,Share sales and shelves,S-3,-1,xyz:USAR,-0.164,-14.405,68042.436,-0.048,-0.451,
+2026-09-09,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,1.784,0.379,6147222.318,0.173,0.893,
+2026-09-09,GPRO,Activists / new 5%+ holders,SCHEDULE 13D,1,io:GPRO,4.697,-4.455,701527.871,-0.752,-4.705,
+2026-09-09,VST,Share sales and shelves,S-3ASR,-1,para:VST,1.159,-2.170,221621.600,0.171,0.788,
+2026-09-10,VST,Debt sale (prospectus for notes),424B5,0,para:VST,-3.904,-4.290,700533.443,0.171,0.788,
+2026-09-11,AMZN,Debt sale (prospectus for notes),424B5,0,xyz:AMZN,-0.398,0.540,6121586.407,0.173,0.893,
+2026-09-11,CRWD,Share sales and shelves,S-3ASR,-1,xyz:CRWD,5.768,8.714,581366.222,0.299,2.547,
+2026-09-11,GLW,Share sales and shelves,424B5,-1,para:GLW,-3.523,3.970,58702.458,-0.055,-0.674,
+2026-09-11,USAR,Activists / new 5%+ holders,SCHEDULE 13D,1,xyz:USAR,3.143,7.716,603615.504,-0.048,-0.451,
+2026-09-16,USAR,Registrations effective,EFFECT,-1,xyz:USAR,0.307,-0.863,923596.242,-0.048,-0.451,
+2026-09-17,CRWV,Share sales and shelves,424B5,-1,xyz:CRWV,2.017,13.879,10670379.898,0.089,0.205,
+2026-09-21,AVGO,"Effective, not supply (S-4)",EFFECT,0,xyz:AVGO,-0.210,-2.644,13696840.311,-0.327,-0.987,
+2026-10-02,QCOM,Share sales and shelves,S-3,-1,xyz:QCOM,-2.675,-6.171,2934324.427,-0.221,-0.908,
+2026-10-13,QCOM,Registrations effective,EFFECT,-1,xyz:QCOM,-2.936,1.428,1118371.478,-0.221,-0.908,
+2026-10-14,IONQ,Share sales and shelves,424B5,-1,io:IONQ,7.904,0.072,246133.116,-0.450,-2.181,
