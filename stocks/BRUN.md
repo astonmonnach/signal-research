@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_resale` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $7.35 (2026-10-23, ledger)
-- **Since first found:** **-13.2%** (found 2026-10-20 via `registration_effective` at $8.47). From the next open $8.85: -16.9% vs IWM -0.7% = **-16.3 pts** vs IWM; direction -1 → excess +16.3% (2 days)
+- **Latest price:** $7.49 (2026-10-23, ledger)
+- **Since first found:** **-11.5%** (found 2026-10-20 via `registration_effective` at $8.47). From the next open $8.85: -15.3% vs IWM -0.8% = **-14.6 pts** vs IWM; direction -1 → excess +14.6% (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for BRUN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `registration_effective` | -1 | -25.5% | -3.5% | $39.7M | $8.47 | $8.85 | $7.35 | -13.2% | -16.9% | -0.7% | +16.3% | 2 | live |
-| 2026-10-21 | `supply_resale` | 0 | -26.2% | -0.8% | $40.3M | $8.40 | $8.14 | $7.35 | -12.5% | -9.7% | +0.1% |  | 1 | live |
+| 2026-10-20 | `registration_effective` | -1 | -25.5% | -3.5% | $39.7M | $8.47 | $8.85 | $7.49 | -11.5% | -15.3% | -0.8% | +14.6% | 2 | live |
+| 2026-10-21 | `supply_resale` | 0 | -26.2% | -0.8% | $40.3M | $8.40 | $8.14 | $7.49 | -10.8% | -7.9% | -0.0% |  | 1 | live |

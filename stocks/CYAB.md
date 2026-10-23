@@ -27,7 +27,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.141 (2026-10-23, ledger)
-- **Since first found:** **-29.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -29.4% vs IWM -2.5% = **-26.9 pts** vs IWM; direction 0, tracked only (18 days)
+- **Since first found:** **-29.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -29.5% vs IWM -2.5% = **-26.9 pts** vs IWM; direction 0, tracked only (18 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -48,6 +48,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.141 | -29.4% | -29.4% | -2.5% |  | 18 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.141 | -16.9% | -16.9% | -1.1% | +15.8% | 14 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.141 | -5.9% | -5.9% | +1.3% | +7.1% | 3 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.141 | -29.5% | -29.5% | -2.5% |  | 18 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.141 | -17.1% | -17.1% | -1.2% | +15.8% | 14 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.141 | -6.0% | -6.0% | +1.2% | +7.2% | 3 | live |

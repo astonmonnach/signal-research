@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $28.92 (2026-10-22, ledger) · 1d +0.5%, 5d -0.5%, 20d +45.1% (market context, 2026-10-22)
-- **Since first found:** **+0.9%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: +0.7% vs IWM -3.3% = **+4.0 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $28.72 (2026-10-23, ledger) · 1d -0.7%, 5d +0.4%, 20d +45.1% (market context, 2026-10-23)
+- **Since first found:** **+0.2%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: -0.1% vs IWM -3.4% = **+3.3 pts** vs IWM; direction 0, tracked only (17 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.5% vs peer median +1.2%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -0.2%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-10-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for RXO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.92 | +0.9% | +0.7% | -3.3% |  | 16 | live |
-| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.92 | +0.9% | +0.7% | -3.3% | +4.0% | 16 | live |
-| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $28.92 | +1.3% | +2.0% | -1.2% |  | 15 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.72 | +0.2% | -0.1% | -3.4% |  | 17 | live |
+| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.72 | +0.2% | -0.1% | -3.4% | +3.3% | 17 | live |
+| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $28.72 | +0.6% | +1.3% | -1.2% |  | 16 | live |

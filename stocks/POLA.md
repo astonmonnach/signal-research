@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.780 (2026-10-22, ledger)
-- **Since first found:** **-38.1%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -39.1% vs IWM -1.9% = **-37.2 pts** vs IWM; direction -1 → excess +37.2% (23 days)
+- **Latest price:** $0.762 (2026-10-23, ledger)
+- **Since first found:** **-39.5%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -40.4% vs IWM -2.0% = **-38.5 pts** vs IWM; direction -1 → excess +38.5% (24 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -48,7 +48,7 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.780 | -38.1% | -39.1% | -1.9% | +37.2% | 23 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.780 | -32.8% | -33.3% | -2.5% |  | 17 | live |
-| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.780 | -7.1% | -14.3% | +1.2% | +15.5% | 3 | live |
-| 2026-10-21 | `activist_13d` | +1 | -35.5% | +15.5% | $882k | $0.820 | $0.800 | $0.780 | -4.9% | -2.5% | +0.1% | -2.6% | 0 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.762 | -39.5% | -40.4% | -2.0% | +38.5% | 24 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.762 | -34.3% | -34.8% | -2.5% |  | 18 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.762 | -9.2% | -16.2% | +1.1% | +17.3% | 4 | live |
+| 2026-10-21 | `activist_13d` | +1 | -35.5% | +15.5% | $882k | $0.820 | $0.800 | $0.762 | -7.0% | -4.7% | -0.0% | -4.7% | 1 | live |

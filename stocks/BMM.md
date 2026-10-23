@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.89 (2026-10-23, ledger) · 1d -8.4%, 5d -9.8%, 20d -24.5% (market context, 2026-10-22)
-- **Since first found:** **-9.5%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -10.2% vs IWM -0.7% = **-9.5 pts** vs IWM; direction 0, tracked only (2 days)
-- **Peers / sympathy:** no flag (self 5d -9.8% vs peer median -7.3%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Latest price:** $3.91 (2026-10-23, ledger) · 1d -0.5%, 5d -7.8%, 20d -24.0% (market context, 2026-10-23)
+- **Since first found:** **-9.1%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -9.7% vs IWM -0.8% = **-8.9 pts** vs IWM; direction 0, tracked only (2 days)
+- **Peers / sympathy:** no flag (self 5d -7.8% vs peer median -6.9%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.89 | -9.5% | -10.2% | -0.7% |  | 2 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.91 | -9.1% | -9.7% | -0.8% |  | 2 | live |

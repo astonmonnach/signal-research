@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $132.09 (2026-10-23, ledger) · 1d -9.2%, 5d -6.2%, 20d -26.4% (market context, 2026-10-22)
-- **Since first found:** **-31.6%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -31.6% vs IWM -0.8% = **-30.8 pts** vs IWM; direction 0, tracked only (22 days)
-- **Peers / sympathy:** solo_move: TWST -6.2% 5d vs peer median -1.6%; peers didn't move with it. Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-22)
+- **Latest price:** $137.19 (2026-10-23, ledger) · 1d +0.6%, 5d +2.6%, 20d -25.5% (market context, 2026-10-23)
+- **Since first found:** **-29.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -28.9% vs IWM -0.9% = **-28.0 pts** vs IWM; direction 0, tracked only (22 days)
+- **Peers / sympathy:** no flag (self 5d +2.6% vs peer median +0.7%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -113,4 +113,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $132.09 | -31.6% | -31.6% | -0.8% |  | 22 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $137.19 | -29.0% | -28.9% | -0.9% |  | 22 | live |
