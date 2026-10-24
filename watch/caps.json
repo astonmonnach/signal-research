@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 23:52 UTC",
+ "updated": "2026-10-24 00:00 UTC",
  "buckets": {
   "micro": [
    0,
@@ -408,8 +408,8 @@
    "shares": 37423917,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-28",
-   "price": 1.7200000286102295,
-   "mcap": 64369138.310706854,
+   "price": 1.7599999904632568,
+   "mcap": 65866093.563097715,
    "bucket": "micro"
   },
   "DOLE": {
@@ -417,8 +417,8 @@
    "shares": 94458807,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-29",
-   "price": 13.4399995803833,
-   "mcap": 1269526326.4435072,
+   "price": 13.520000457763672,
+   "mcap": 1277083113.8798103,
    "bucket": "small"
   }
  }
