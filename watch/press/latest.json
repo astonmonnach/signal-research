@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "published_utc": "2026-10-26T11:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile Advances Brazil Expansion with Anatel’s Approval for S-band Spectrum and Secondary Use of the 700 MHz Band, Agreements with Four Regional Operators and Planned Ground Infrastructure",
+  "link": "http://www.businesswire.com/news/home/20261026540919/en/AST-SpaceMobile-Advances-Brazil-Expansion-with-Anatel%E2%80%99s-Approval-for-S-band-Spectrum-and-Secondary-Use-of-the-700-MHz-Band-Agreements-with-Four-Regional-Operators-and-Planned-Ground-Infrastructure/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-26T08:07:00Z",
+  "wire": "PR Newswire",
+  "ticker": "BORR",
+  "title": "Borr Drilling Limited - Prospector 5 Rig Incident Update",
+  "link": "https://www.prnewswire.com/news-releases/borr-drilling-limited---prospector-5-rig-incident-update-302919143.html",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-26T11:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "IMRX",
+  "title": "Immuneering Presents Design and Methodology of Ongoing Phase 3 MAPKeeper 301 Trial at ESMO Congress 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/26/3387994/0/en/immuneering-presents-design-and-methodology-of-ongoing-phase-3-mapkeeper-301-trial-at-esmo-congress-2026.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-26T10:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "EQT;RRC",
+  "title": "EQT Announces Strategic Acquisition of Range Resources, Creating America's Undisputed Natural Gas Champion",
+  "link": "https://www.prnewswire.com/news-releases/eqt-announces-strategic-acquisition-of-range-resources-creating-americas-undisputed-natural-gas-champion-302919052.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-10-26T09:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BNTX",
+  "title": "BioNTech and DualityBio Announce Topline Results of the DYNASTY-Breast02 Global Phase 3 Clinical Trial Evaluating Trastuzumab Pamirtecan in HR+/HER2-low Metastatic Breast Cancer",
+  "link": "https://www.globenewswire.com/news-release/2026/10/26/3387866/0/en/biontech-and-dualitybio-announce-topline-results-of-the-dynasty-breast02-global-phase-3-clinical-trial-evaluating-trastuzumab-pamirtecan-in-hr-her2-low-metastatic-breast-cancer.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-26T09:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BNTX",
+  "title": "BioNTech und DualityBio geben Topline-Ergebnisse der globalen klinischen Phase-3-Studie DYNASTY-Breast02 für Trastuzumab Pamirtecan bei metastasiertem HR+/HER2-low-Brustkrebs bekannt",
+  "link": "https://www.globenewswire.com/news-release/2026/10/26/3387866/0/de/biontech-und-dualitybio-geben-topline-ergebnisse-der-globalen-klinischen-phase-3-studie-dynasty-breast02-f%C3%BCr-trastuzumab-pamirtecan-bei-metastasiertem-hr-her2-low-brustkrebs-bekann.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-26T08:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "HCM",
+  "title": "HUTCHMED Highlights SANOVO Phase III Data for ORPATHYS® plus TAGRISSO® in First-Line EGFR-Mutated Lung Cancer Presented at ESMO Congress 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/10/26/3387851/0/en/hutchmed-highlights-sanovo-phase-iii-data-for-orpathys-plus-tagrisso-in-first-line-egfr-mutated-lung-cancer-presented-at-esmo-congress-2026.html",
+  "matched_on": "keyword:Phase III"
+ }
+]
