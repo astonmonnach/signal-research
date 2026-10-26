@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
 - **Latest price:** $2.74 (2026-10-26, ledger)
-- **Since first found:** **-1.3%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -1.7% vs IWM +1.4% = **-3.0 pts** vs IWM; direction 0, tracked only (4 days)
+- **Since first found:** **-1.4%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -1.8% vs IWM +1.4% = **-3.1 pts** vs IWM; direction 0, tracked only (4 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.3% | -1.7% | +1.4% |  | 4 | live |
-| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.3% | -1.7% | +1.4% | -3.0% | 4 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.74 | +0.5% | +1.2% | +1.3% |  | 3 | live |
+| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.4% | -1.8% | +1.4% |  | 4 | live |
+| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.4% | -1.8% | +1.4% | -3.1% | 4 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.74 | +0.4% | +1.1% | +1.3% |  | 3 | live |

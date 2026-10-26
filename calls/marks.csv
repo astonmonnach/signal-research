@@ -1,2 +1,2 @@
 id,posted_utc,ticker,direction,horizon,entry_date,entry,end_date,end_price,ret_pct,pnl_usd,bench,bench_pct,excess_bench,control,control_pct,excess_control,days,status
-1,2026-10-05T16:15Z,MTUS,1,swing,2026-10-06,21.13,2026-10-26,20.52,-2.89,-28.87,IWM,-2.01,-0.88,IIIN,-7.93,5.04,20,open
+1,2026-10-05T16:15Z,MTUS,1,swing,2026-10-06,21.13,2026-10-26,20.425,-3.34,-33.36,IWM,-2.2,-1.14,IIIN,-7.98,4.64,20,open

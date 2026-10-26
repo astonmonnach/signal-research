@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire)); `holder_13g_supply` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $2.04 (2026-10-26, ledger) · 1d +4.1%, 5d +5.2%, 20d -44.1% (market context, 2026-10-26)
+- **Latest price:** $2.04 (2026-10-26, ledger) · 1d +3.8%, 5d +4.9%, 20d -44.2% (market context, 2026-10-26)
 - **Since first found:** **-29.7%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -32.4% vs IWM -2.1% = **-30.3 pts** vs IWM; direction +1 → excess -30.3% (20 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +5.2% vs peer median +3.5%). Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Peers / sympathy:** no flag (self 5d +4.9% vs peer median +3.0%). Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 30 Dec 2026: PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic)
   - Tue 30 Mar 2027: PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)

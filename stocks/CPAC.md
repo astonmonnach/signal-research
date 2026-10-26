@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.79 (2026-10-26, ledger) · 1d +0.6%, 5d +1.5%, 20d +5.3% (market context, 2026-10-26)
+- **Latest price:** $12.79 (2026-10-26, ledger) · 1d +0.5%, 5d +1.4%, 20d +5.2% (market context, 2026-10-26)
 - **Since first found:** **+1.0%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.1% vs IWM +1.4% = **-0.2 pts** vs IWM; direction 0, tracked only (4 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.5% vs peer median +2.5%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Peers / sympathy:** no flag (self 5d +1.4% vs peer median +2.6%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

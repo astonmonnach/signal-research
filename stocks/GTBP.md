@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_resale` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $5.18 (2026-10-26, ledger)
-- **Since first found:** **-22.5%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -23.8% vs IWM +0.0% = **-23.8 pts** vs IWM; direction -1 → excess +23.8% (14 days)
+- **Latest price:** $5.27 (2026-10-26, ledger)
+- **Since first found:** **-21.1%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -22.4% vs IWM +0.0% = **-22.4 pts** vs IWM; direction -1 → excess +22.4% (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for GTBP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $5.18 | -22.5% | -23.8% | +0.0% | +23.8% | 14 | live |
-| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $5.18 | -4.3% | -3.6% | +1.4% | +5.0% | 4 | live |
-| 2026-10-22 | `supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $5.18 | -6.2% | -7.3% | +1.3% |  | 3 | live |
+| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $5.27 | -21.1% | -22.4% | +0.0% | +22.4% | 14 | live |
+| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $5.27 | -2.6% | -1.9% | +1.4% | +3.2% | 4 | live |
+| 2026-10-22 | `supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $5.27 | -4.6% | -5.6% | +1.3% |  | 3 | live |
