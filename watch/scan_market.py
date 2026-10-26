@@ -157,21 +157,23 @@ def get(url, limit=None):
 
 def search(query, day, forms, pages=1):
     """EDGAR full-text search for one day: the hits for `query` in `forms`, 100 a page. The search service throws the
-    odd HTTP 500, so each page is tried up to three times; if it still fails the error goes to the caller."""
+    odd HTTP 500 or an error body with no hits, so each page is tried five times, backing off 2, 10, 30 and 60 seconds
+    (rule 2026-10-26: on 23 Oct three quick tries lost the merger-agreement search); if it still fails the error goes
+    to the caller and the report says so."""
     out = []
     for page in range(pages):
         q = {"q": query, "dateRange": "custom", "category": "custom", "startdt": f"{day}", "enddt": f"{day}", "forms": forms}
         if page:
             q["from"] = page * 100
-        for attempt in (1, 2, 3):
+        for wait in (2, 10, 30, 60, None):
             time.sleep(0.3)
             try:
                 res = json.loads(fetch(f"https://efts.sec.gov/LATEST/search-index?{urllib.parse.urlencode(q)}"))["hits"]["hits"]
                 break
             except Exception:
-                if attempt == 3:
+                if wait is None:
                     raise
-                time.sleep(2)
+                time.sleep(wait)
         out += res
         if len(res) < 100:
             break

@@ -71,3 +71,21 @@ def test_open_trigger_ticker_must_be_on_the_watchlist():
     out = problems([row(ticker="BMM")], {}, STRATS, TODAY, watchlist={"MTUS"})
     assert any("BMM" in p and "watchlist" in p for p in out)
     assert problems([row(ticker="BMM")], {}, STRATS, TODAY, watchlist={"BMM"}) == []
+
+
+from check_triggers import tf1_label_problems  # noqa: E402
+
+
+def test_avoid_logged_with_a_label_outside_tf1s_exclusion_list_is_flagged():
+    rows = [dict(found="2026-10-23", ticker="AEHL", category="supply_atm", direction="0"),
+            dict(found="2026-10-26", ticker="DFNS", category="setup_supply_eloc", direction="0"),
+            dict(found="2026-10-20", ticker="OLD", category="supply_atm", direction="0"),       # before TF1's sample starts
+            dict(found="2026-10-26", ticker="SAMG", category="holder_buying", direction="0")]
+    out = tf1_label_problems(rows)
+    assert len(out) == 1 and "AEHL" in out[0] and "setup_supply_" in out[0]
+
+
+def test_distress_and_13g_supply_labels_also_count_as_avoid_types():
+    rows = [dict(found="2026-10-27", ticker="X", category="distress_avoid", direction="0"),
+            dict(found="2026-10-27", ticker="Y", category="holder_13g_supply", direction="0")]
+    assert len(tf1_label_problems(rows)) == 2

@@ -1,2 +1,6 @@
 id,posted_utc,ticker,direction,thesis,dossier,invalidation_close,review_date,control,conviction,source,exit_date,exit_price,exit_reason,horizon,benchmark
 1,2026-10-05T16:15Z,MTUS,1,$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales,stocks/MTUS.md,17.00,2026-12-29,IIIN,2,repo,,,,swing,IWM
+2,2026-10-26T20:54Z,DFNS,-1,"Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct",research/daily/2026-10-26.md,5.25,2026-11-23,ITA,2,repo,,,,swing,IWM
+3,2026-10-26T20:54Z,NCT,-1,"Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit",research/daily/2026-10-26.md,1.75,2026-11-23,GLBS,2,repo,,,,swing,IWM
+4,2026-10-26T20:54Z,TMCR,-1,"F-1s effective 22 Oct: a $100M Yorkville standby equity line (23.6M shares, 35% of 67.4M) at 96% of market, plus 4.37M consideration shares free to sell now",research/daily/2026-10-26.md,2.50,2026-11-23,GROY,1,repo,,,,swing,IWM
+5,2026-10-26T20:54Z,OSTX,-1,Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies,research/daily/2026-10-26.md,1.45,2026-11-23,XBI,1,repo,,,,swing,IWM

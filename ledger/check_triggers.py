@@ -75,6 +75,26 @@ def problems(rows, verdicts, strategies, today, watchlist=None):
     return out
 
 
+# TF1 (ledger/PREREG_TF1.md) leaves out "the supply and avoid ones" by this frozen list of categories. An AVOID logged
+# under any other label would land in TF1's fail group and flatter the filter (rule 2026-10-26: AEHL and TNON were
+# logged as supply_atm on 23 Oct). Supply/avoid items from TF1's start date must use setup_supply_* or a listed name.
+TF1_START = "2026-10-22"
+TF1_EXCLUDED = {"8k_reverse_split", "registration_effective", "share_registration", "delisting", "8k_lock_up",
+                "shelf_registration"}
+
+
+def tf1_label_problems(manual_rows):
+    out = []
+    for r in manual_rows:
+        cat = r.get("category", "")
+        if r.get("found", "") < TF1_START or cat in TF1_EXCLUDED or cat.startswith("setup_supply_"):
+            continue
+        if "supply" in cat or "avoid" in cat:
+            out.append(f"ledger/manual_calls.csv {r.get('ticker')} ({r.get('found')}): category {cat} is an avoid type outside "
+                       f"TF1's exclusion list; relabel it setup_supply_* so it stays out of the TF1 sample")
+    return out
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.path.insert(0, str(ROOT / "briefing"))
@@ -84,6 +104,7 @@ def main():
     strategies = {s["channel"] for s in json.load(open(ROOT / "watch" / "strategies.json", encoding="utf-8"))["strategies"]}
     watchlist = set(json.load(open(ROOT / "watch" / "watchlist.json", encoding="utf-8"))["tickers"])
     found = problems(rows, verdicts, strategies, dt.date.today(), watchlist)
+    found += tf1_label_problems(list(csv.DictReader(open(ROOT / "ledger" / "manual_calls.csv", encoding="utf-8"))))
     print("\n".join(found) if found else f"triggers: {len(rows)} rows, no problems")
     sys.exit(1 if found else 0)
 

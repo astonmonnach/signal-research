@@ -18,7 +18,7 @@ found,source,ticker,category,direction,note
 2026-10-04,KNRX-like screen,HCTI,setup_supply_deficiency,0,EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73
 2026-10-04,KNRX-like screen,POLA,setup_supply_deficiency,0,EFFECT 28 Sep + deficiency Jul; $1.16
 2026-10-04,KNRX-like screen,CYAB,setup_supply_deficiency,0,EFFECT 21 Sep + deficiency Jun; $0.20
-2026-10-05,press release (Business Wire),PUSA,idea_contract_press,1,"$82M funded order under existing USG IDIQ (2nd order) = ~17% of est. ~$485M mcap; stock -17% since 1 Oct reverse merger; under-reaction test like MTUS"
+2026-10-05,press release (Business Wire),PUSA,idea_contract_press,1,$82M funded order under existing USG IDIQ (2nd order) = ~17% of est. ~$485M mcap; stock -17% since 1 Oct reverse merger; under-reaction test like MTUS
 2026-10-05,long-term nth research (research/longterm-2026-10-05),MTUS,longterm_research,0,watch 7/10 (EV/sales at top of own range; Q3 6 Nov)
 2026-10-05,long-term nth research (research/longterm-2026-10-05),AAON,longterm_research,0,"kill under LT2 (cash ~$0 + $165M undrawn vs -$119M TTM FCF; OCF positive, growth capex); BASX 55% of sales"
 2026-10-05,long-term nth research (research/longterm-2026-10-05),MOD,longterm_research,0,"already run (+221 pts vs SPY in 3y, spin-adjusted)"
@@ -75,7 +75,7 @@ found,source,ticker,category,direction,note
 2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),THO,linked_peer,0,LCII peer (RV maker): -13.2% from 30 Jun to 13 Oct vs LCII -25.1%
 2026-10-14,daily research 14 Oct (research/daily/2026-10-14.md),WGO,linked_peer,0,LCII peer (RV maker): -25.8% from 30 Jun to 13 Oct vs LCII -25.1%
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),IMSR,insider_cluster,0,"three insiders bought 9-14 Oct (director 12,000 at $3.28; CEO 16,900 at $3.01; director 7,500 at $2.95), about $112k; the scanner missed it until the 16 Oct fix; IMSR -10.0% from 8 Oct vs nuclear peers -15% to -20%; WATCH"
-2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),MDA,holder_13d,0,"Czechoslovak Group 9.5% (forward settled 13 Oct at CAD 42.69); Item 4 names potential acquirers and a sale; MDA -1.2% from 13 Oct vs space peers -10% to -20%"
+2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),MDA,holder_13d,0,Czechoslovak Group 9.5% (forward settled 13 Oct at CAD 42.69); Item 4 names potential acquirers and a sale; MDA -1.2% from 13 Oct vs space peers -10% to -20%
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),TCPC,activist_13d,0,"Saba 5.11% at about $4.00; Item 4: NAV discount, liquidation, manager change; about 0.71x pro forma NAV; already +4.8% vs IWM -1.7%"
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),NNE,linked_peer,0,IMSR peer (nuclear developer): -15.2% from 8 to 16 Oct vs IMSR -10.0%
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),OKLO,linked_peer,0,IMSR peer (nuclear developer): -18.3% from 8 to 16 Oct vs IMSR -10.0%
@@ -84,9 +84,9 @@ found,source,ticker,category,direction,note
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),RKLB,linked_peer,0,MDA peer (space): -19.5% from 13 to 16 Oct vs MDA -1.2%
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),PL,linked_peer,0,MDA peer (space): -10.2% from 13 to 16 Oct vs MDA -1.2%
 2026-10-15,daily research 15 Oct (research/daily/2026-10-15.md),ASTS,linked_peer,0,MDA peer (space): -10.9% from 13 to 16 Oct vs MDA -1.2%
-2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SRTA,activist_13d,0,"Third Point 5.8% (cost about $4.77) moved from 13G to 13D and asks for a sale process; filed after the 15 Oct close; SRTA +6.5% from 14 Oct vs IWM -0.1%; WATCH"
+2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SRTA,activist_13d,0,Third Point 5.8% (cost about $4.77) moved from 13G to 13D and asks for a sale process; filed after the 15 Oct close; SRTA +6.5% from 14 Oct vs IWM -0.1%; WATCH
 2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),MG,merger_arb,0,"H.I.G. $20.35 cash; go-shop to 27 Oct (121 parties contacted, 38 NDAs); trades 5.9% above the deal price; tracked, no call"
-2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SKYA,tender_issuer,0,"$3.00 tender promised to start 15 Oct; no SC TO-I on EDGAR by 12:40 New York 16 Oct; gap 15.6%; SOL near the $100 condition"
+2026-10-16,daily research 16 Oct (research/daily/2026-10-16.md),SKYA,tender_issuer,0,$3.00 tender promised to start 15 Oct; no SC TO-I on EDGAR by 12:40 New York 16 Oct; gap 15.6%; SOL near the $100 condition
 2026-10-18,daily research 18 Oct (research/daily/2026-10-18.md),GPRO,merger_arb,0,"8-K 17:30 on 16 Oct: four quarters to be restated (non-cash warrant and derivative errors), defaults under all four debt facilities, waivers partly obtained; $1.14 cash plus 0.1 share takeover, outside date 31 Dec; $1.05 close; first reaction 19 Oct; tracked, no call"
 2026-10-18,daily research 18 Oct (research/daily/2026-10-18.md),SMTI,merger_arb,0,"FTC Second Request on MiMedx's $33 cash plus 0.4735 MDXG deal (8-K 16 Oct, before the open); SMTI -5.5% to $33.16, gap 5.8% to $35.10, implied odds about 77% vs the $26.64 pre-deal price; reverse fee does not appear to cover an antitrust block; tracked, no call"
 2026-10-18,daily research 18 Oct (research/daily/2026-10-18.md),MDXG,linked_peer,0,"SMTI deal counterparty (buyer, part stock): -5.3% to $4.43 on 16 Oct"
@@ -111,10 +111,21 @@ found,source,ticker,category,direction,note
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),TENX,holder_buying,0,"ADAR1 (10% owner) bought $1.46M on 19-21 Oct, about $4.45M since 31 Aug (arith); Phase 3 missed in Aug; June cash $118.0M vs value $61-93M; tracked with a trigger"
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),VRA,insider_buy,0,"director bought at $4.00 and $5.02; Royce 5.88% 13G; at the 52-week high, TF1 pass but 47% over the 50-day; tracked, no call"
 2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),INVE,tender_issuer_buyback,0,"Dutch auction $2.85-3.40 for up to $20M, expires 19 Nov; +25% on 21 Oct; UK holder loses unless it clears near $3.40 (15% withheld); watch only"
-2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),GTBP,supply_resale,0,"resale of 13.5M shares, 655% of outstanding, floating conversion; -26% on 21 Oct; AVOID"
-2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),SWBI,supply_overhang,0,issued 9.0M shares (19.99%) for Savage Arms; resale S-3 due within 60 days; seller lock-up in thirds; overhang
+2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),GTBP,setup_supply_resale,0,"resale of 13.5M shares, 655% of outstanding, floating conversion; -26% on 21 Oct; AVOID"
+2026-10-22,daily research 22 Oct (research/daily/2026-10-22.md),SWBI,setup_supply_overhang,0,issued 9.0M shares (19.99%) for Savage Arms; resale S-3 due within 60 days; seller lock-up in thirds; overhang
 2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),DOLE,activist_13d,0,"Pale Fire (Groupon takeover group) 10.89% after buying 648,356 shares ($8.55M) on 20-22 Oct, 16-29% of daily volume; 13D says undervalued, will engage the board; TF1 pass; WATCH"
 2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),AGMB,insider_cluster,0,"CEO, CFO and a director bought ~$400k after a -22% drop on 1 Oct; director's 21 Oct buy 22% of volume; TF1 fail; tracked"
 2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),VREX,merger_arb,0,Teledyne $18.90 cash; vote 28 Oct; HSR now to 19 Nov; 2.66% gross spread (arith); no reverse termination fee; tracked
-2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),AEHL,supply_atm,0,"$100M at-the-market amendment, ~70% of Class A at $8.65, plus 15M warrants at $0.50; AVOID"
-2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),TNON,supply_atm,0,at-the-market room larger than its non-affiliate float; AVOID
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),AEHL,setup_supply_atm,0,"$100M at-the-market amendment, ~70% of Class A at $8.65, plus 15M warrants at $0.50; AVOID"
+2026-10-23,daily research 23 Oct (research/daily/2026-10-23.md),TNON,setup_supply_atm,0,at-the-market room larger than its non-affiliate float; AVOID
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),SAMG,holder_buying,0,"Equinox Partners (Sean Fieler) 10.7% of Class A, bought 34,126 sh at $10.24-10.47 on 15-22 Oct; Item 4: undervalued, no plans; fails TF1 (36% off high, below 50-day); tracked, no call; Q3 30 Oct"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),ABEO,activist_13d,0,"James Russell Trust 6.1%, moved 13G to 13D; met two directors 14 Oct asking for independent directors and a leadership change; may nominate in 2027; fails TF1 (41% off high); tracked, no call"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),RAPP,insider_cluster,0,"six insiders bought 61,694 sh ($1.66M) at $26.10-27.35 on 21-23 Oct after the Phase 2 result sell-off; no 10b5-1; fails TF1 (51% off high, -10% in 5 days); tracked, no call"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),RENT,holder_13d_not_activism,0,"Nexus, STORY3 and CHS took 1.72M sh at a fixed $3.55 as backstop of the $15M rights offering (not open-market); hold 86.2%; +22.6% Mon on a ~5.25M float; tracked, no call"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),DFNS,setup_supply_eloc,0,"19.0M sellable shares (5.8x 3.25M): Esousa equity line at 97.5% of the lowest 15-day VWAP plus PIPE resales, EFFECT 22 Oct; AVOID, public call #2"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),NCT,setup_supply_registered_direct,0,"registered direct 15M Class A at $1.30 ($19.5M) = 4.8x 3.12M outstanding, delivered 26 Oct; AVOID, public call #3"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),TMCR,setup_supply_eloc,0,"F-1s effective 22 Oct: $100M Yorkville SEPA (23.6M sh, 35% of 67.4M) at 96% plus 4.37M free consideration shares; AVOID, public call #4"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),OSTX,setup_supply_warrants,0,"warrant inducement at $1.30: 5.52M new shares (12%), up to 3.93M more by 30 Oct, new $1.40 warrants; AVOID, public call #5"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),XRPN,setup_supply_resale,0,"Cantor equity-line resale S-1 for 5.22M sh (20% of Class A) at 97% of VWAP, not yet effective; tracked: re-read for AVOID at EFFECT"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),PMI,setup_supply_resale,0,"200,000 cashless warrant shares (8%) plus a 22 Oct S-3 for 500,000 more (20%), not yet effective; tracked: re-read for AVOID at EFFECT"
+2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),BORR,event_incident,0,"Prospector 5 rig sank off Gabon on 24 Oct during preload (punch-through), 5 of 115 missing; -10.0% Mon vs drillers +0.2-1.9%; insurance and contract effects not disclosed; tracked, no call"

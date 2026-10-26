@@ -4,15 +4,19 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 
 ## Scoreboard
 
-- Calls: **1** · marked: 1 · open: 1 · closed: 0
-- Total P&L on $1,000 per call: **$-33.36**
-- Average vs the market: **-1.1%** · beat it: 0/1
+- Calls: **5** · marked: 1 · open: 1 · closed: 0
+- Total P&L on $1,000 per call: **$-35.49**
+- Average vs the market: **-0.9%** · beat it: 0/1
 
 ## Every call
 
 | # | posted | call | thesis | entry | now / exit | return | vs market | vs control | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $20.43 | -3.3% | -1.1% (IWM) | +4.6% (IIIN) | 20 | open |
+| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $20.38 | -3.5% | -0.9% (IWM) | +2.8% (IIIN) | 20 | open |
+| 2 | 2026-10-26 | AVOID DFNS | [Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
+| 3 | 2026-10-26 | AVOID NCT | [Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
+| 4 | 2026-10-26 | AVOID TMCR | [F-1s effective 22 Oct: a $100M Yorkville standby equity line (23.6M shares, 35% of 67.4M) at 96% of market, plus 4.37M consideration shares free to sell now](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
+| 5 | 2026-10-26 | AVOID OSTX | [Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
 
 ## Rules
 
