@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $4.57 (2026-10-23, ledger) · 1d -3.0%, 5d +0.7%, 20d -14.3% (market context, 2026-10-23)
-- **Since first found:** **+5.2%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +0.3% vs IWM -0.3% = **+0.6 pts** vs IWM; direction +1 → excess +0.6% (7 days)
+- **Latest price:** $4.72 (2026-10-26, ledger) · 1d +0.9%, 5d +3.5%, 20d -10.1% (market context, 2026-10-26)
+- **Since first found:** **+8.8%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +3.7% vs IWM +1.0% = **+2.7 pts** vs IWM; direction +1 → excess +2.7% (10 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.7% vs peer median +4.4%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-23)
+- **Peers / sympathy:** no flag (self 5d +3.5% vs peer median +6.6%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Strata Critical Medical Schedules Third Quarter 2026 Earnings Conference Call (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/23/3387605/0/en/strata-critical-medical-schedules-third-quarter-2026-earnings-conference-call.html))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md)) · Research: Research: Tue 20 Oct 2026 (- VYLR, HMH, ESRT, PED, IMSR and SRTA;) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Strata Activist Stake (Signal Lab deep dive · SRTA · Mon 19 Oct 2026) ([note](../research/SRTA-2026-10-19.html))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **SRTA:** no company response to Third Point. +4.6% to $4.54 on about twice normal volume, still 4.8% below Third Point's cost. WATCH stands. ([triage](../watch/digests/2026-10-18-triage.md)) · Filings: `SCHEDULE 13D` 15 Oct; +34 older (May – Oct 2026) first picked up · Research: Research: Sun 18 Oct 2026 (- SRTA +4.6% on double volume, no company response.) ([note](../research/daily/2026-10-18.md))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.57 | +5.2% | +0.3% | -0.3% | +0.6% | 7 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.57 | +0.6% | +0.1% | +1.1% |  | 4 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.72 | +8.8% | +3.7% | +1.0% | +2.7% | 10 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.72 | +4.0% | +3.5% | +2.4% |  | 7 | live |

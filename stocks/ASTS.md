@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $37.53 (2026-10-23, ledger)
-- **Since first found:** **-15.6%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -13.2% vs IWM -0.3% = **-12.9 pts** vs IWM; direction 0, tracked only (7 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $39.61 (2026-10-26, ledger) · 1d -0.9%, 5d -5.8%, 20d -35.4% (market context, 2026-10-26)
+- **Since first found:** **-10.9%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -8.3% vs IWM +1.0% = **-9.4 pts** vs IWM; direction 0, tracked only (10 days)
+- **Peers / sympathy:** solo_move: ASTS -5.8% 5d vs peer median +1.8%; peers didn't move with it. Peer groups: SIC 4899 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md#press-releases)**: Press: AST SpaceMobile Advances Brazil Expansion with Anatel’s Approval for S-band Spectrum and Secondary Use of the… (Business Wire) ([release](http://www.businesswire.com/news/home/20261026540919/en/AST-SpaceMobile-Advances-Brazil-Expansion-with-Anatel%E2%80%99s-Approval-for-S-band-Spectrum-and-Secondary-Use-of-the-700-MHz-Band-Agreements-with-Four-Regional-Operators-and-Planned-Ground-Infrastructure/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: AST SpaceMobile Advances Service Readiness Ahead of Initial Space-Based Cellular Broadband Coverage in Key… (Business Wire) ([release](http://www.businesswire.com/news/home/20261020527793/en/AST-SpaceMobile-Advances-Service-Readiness-Ahead-of-Initial-Space-Based-Cellular-Broadband-Coverage-in-Key-Global-Markets/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-19](../scans/2026-10-19.md#press-releases)**: Press: AST SpaceMobile Advances Space-Based Cellular Broadband in Europe in Collaboration with European Mobile… (Business Wire) ([release](http://www.businesswire.com/news/home/20261018409347/en/AST-SpaceMobile-Advances-Space-Based-Cellular-Broadband-in-Europe-in-Collaboration-with-European-Mobile-Network-Operator-Partners/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): MDA peer (space): -10.9% from 13 to 16 Oct vs MDA -1.2%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (AST SpaceMobile (ASTS) -10.9%) ([note](../research/daily/2026-10-15.md))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $37.53 | -15.6% | -13.2% | -0.3% |  | 7 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $39.61 | -10.9% | -8.3% | +1.0% |  | 10 | live |

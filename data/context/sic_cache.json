@@ -29335,8 +29335,10 @@
    "sic": "4899"
   },
   "1648257": {
-   "fetched": "2026-10-07",
-   "sic": "2834"
+   "fetched": "2026-10-26",
+   "name": "HUTCHMED (China) Ltd",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1648383": {
    "fetched": "2026-10-07",
@@ -32885,8 +32887,10 @@
    "sic": "6199"
   },
   "1790340": {
-   "fetched": "2026-10-07",
-   "sic": "2834"
+   "fetched": "2026-10-26",
+   "name": "Immuneering Corp",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1790515": {
    "fetched": "2026-10-12",

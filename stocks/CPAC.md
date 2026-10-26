@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.80 (2026-10-23, ledger) · 1d +0.2%, 5d +0.9%, 20d +4.7% (market context, 2026-10-23)
-- **Since first found:** **+1.1%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.2% vs IWM -0.0% = **+1.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $12.74 (2026-10-26, ledger) · 1d +0.1%, 5d +0.9%, 20d +4.8% (market context, 2026-10-26)
+- **Since first found:** **+0.6%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +0.7% vs IWM +1.3% = **-0.6 pts** vs IWM; direction 0, tracked only (4 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.9% vs peer median +2.3%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-23)
+- **Peers / sympathy:** no flag (self 5d +0.9% vs peer median +2.9%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.80 | +1.1% | +1.2% | -0.0% |  | 1 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.80 | +0.2% | +0.2% | -0.0% |  | 0 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.74 | +0.6% | +0.7% | +1.3% |  | 4 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.74 | -0.2% | -0.3% | +1.3% |  | 3 | live |
