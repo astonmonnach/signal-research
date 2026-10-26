@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_selling` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $18.40 (2026-10-26, ledger) · 1d -0.1%, 5d +1.8%, 20d +11.7% (market context, 2026-10-26)
-- **Since first found:** **+8.0%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: +7.3% vs IWM +2.5% = **+4.7 pts** vs IWM; direction 0, tracked only (11 days)
-- **Peers / sympathy:** no flag (self 5d +1.8% vs peer median +1.0%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Latest price:** $18.37 (2026-10-26, ledger) · 1d -0.1%, 5d +1.8%, 20d +11.6% (market context, 2026-10-26)
+- **Since first found:** **+7.9%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: +7.1% vs IWM +2.4% = **+4.7 pts** vs IWM; direction 0, tracked only (11 days)
+- **Peers / sympathy:** no flag (self 5d +1.8% vs peer median +0.8%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for TALO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $18.40 | +8.0% | +7.3% | +2.5% |  | 11 | live |
+| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $18.37 | +7.9% | +7.1% | +2.4% |  | 11 | live |

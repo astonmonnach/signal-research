@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $392.31 (2026-10-26, ledger) · 1d +0.4%, 5d -2.4%, 20d -6.3% (market context, 2026-10-26)
-- **Since first found:** **-2.5%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: -3.0% vs IWM -0.1% = **-2.9 pts** vs IWM; direction 0, tracked only (14 days)
-- **Peers / sympathy:** no flag (self 5d -2.4% vs peer median +0.2%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Latest price:** $391.80 (2026-10-26, ledger) · 1d +0.9%, 5d -2.0%, 20d -5.8% (market context, 2026-10-26)
+- **Since first found:** **-2.6%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: -3.1% vs IWM -0.2% = **-2.9 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** no flag (self 5d -2.0% vs peer median +0.1%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 26 Oct 2026: MSGS: Rangers spin-off effective; MSGS becomes MSGK
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $392.31 | -2.5% | -3.0% | -0.1% |  | 14 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $391.80 | -2.6% | -3.1% | -0.2% |  | 14 | live |
