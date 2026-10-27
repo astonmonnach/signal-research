@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $48.04 (2026-10-26, ledger)
-- **Since first found:** **+11.9%** (found 2026-10-12 via `linked_peer` at $42.94). From the next open $43.61: +10.2% vs IWM +0.2% = **+10.0 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $47.81 (2026-10-26, ledger)
+- **Since first found:** **+11.3%** (found 2026-10-12 via `linked_peer` at $42.94). From the next open $43.61: +9.6% vs IWM -0.4% = **+10.0 pts** vs IWM; direction 0, tracked only (13 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- -10.0% Mon to $3.96, while RIG +1.9%, VAL +1.9% and NE +0.2%.) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (It is handing back its own spike. From 2 to 9 October, when he bought 6.75M shares and was 16% to 20% of each…) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-13](../scans/2026-10-13.md#press-releases)**: Press: Noble Corporation plc to announce third quarter 2026 results (PR Newswire, published Mon 12 Oct) ([release](https://www.prnewswire.com/news-releases/noble-corporation-plc-to-announce-third-quarter-2026-results-302906054.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): BORR peer (offshore driller): +3.4% from 7 Oct to 9 Oct close vs BORR +11.2%; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Over the same two sessions (7 Oct close to 9 Oct close): +2.2%, +3.4%, +2.2%, +3.3%, the oil services fund…) ([note](../research/daily/2026-10-12.md))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for NE ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +4.1% | +1.4% | $51.3M | $42.94 | $43.61 | $48.04 | +11.9% | +10.2% | +0.2% |  | 13 | live |
+| 2026-10-12 | `linked_peer` | 0 | +4.1% | +1.4% | $51.3M | $42.94 | $43.61 | $47.81 | +11.3% | +9.6% | -0.4% |  | 13 | live |

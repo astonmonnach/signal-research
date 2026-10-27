@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** open position (trade #1); [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $20.50 (2026-10-26, ledger) · 1d +0.6%, 5d -1.3%, 20d +8.2% (market context, 2026-10-26)
-- **Since first found:** **+8.8%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +5.1% vs IWM -0.7% = **+5.8 pts** vs IWM; direction +1 → excess +5.8% (28 days)
+- **Latest price:** $20.38 (2026-10-26, ledger) · 1d -0.1%, 5d -2.0%, 20d +7.4% (market context, 2026-10-26)
+- **Since first found:** **+8.2%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: +4.5% vs IWM -1.2% = **+5.7 pts** vs IWM; direction +1 → excess +5.7% (28 days)
   - 1 more ledger row: see Performance since found
-- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.50 (2026-10-26) +5.8%, P&L if sold, after all fees **$+0.24** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
-- **Peers / sympathy:** missed_peer_move: defence metals median -13.0% 5d vs MTUS -1.3%; peers moved, it didn't. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.38 (2026-10-26) +5.2%, P&L if sold, after all fees **$-0.12** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- **Peers / sympathy:** missed_peer_move: defence metals median -13.1% 5d vs MTUS -2.0%; peers moved, it didn't. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 3 Nov 2026: MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close)
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
@@ -136,6 +136,7 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **MTUS:** $20.38, +5.2% from entry; exit line $17.00, 19.9% away.) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md)**: Research: Research: Fri 23 Oct 2026 (- **MTUS:** $20.11, +3.8% on the entry. Q3 results Mon 2 Nov.) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md)**: Research: Research: Thu 22 Oct 2026 (- **MTUS:** $20.66 at the 22 Oct close, intraday about $20.24; +4.5% to +6.7% on the entry. Q3 results Mon 2…) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
@@ -159,9 +160,9 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $20.50 | +8.8% | +5.1% | -0.7% | +5.8% | 28 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $20.50 | -2.6% | -3.0% | -2.1% |  | 20 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $20.38 | +8.2% | +4.5% | -1.2% | +5.7% | 28 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $20.38 | -3.1% | -3.5% | -2.6% |  | 20 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 
-- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.50 (2026-10-26) +5.8%, P&L if sold, after all fees **$+0.24** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $20.38 (2026-10-26) +5.2%, P&L if sold, after all fees **$-0.12** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00

@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $7.31 (2026-10-26, ledger)
-- **Since first found:** **** (found 2026-10-02 via `8k_reverse_split`). From the next open $6.85: +6.7% vs IWM +0.8% = **+5.9 pts** vs IWM; direction -1 → excess -5.9% (0 days)
+- **Latest price:** $6.84 (2026-10-26, ledger)
+- **Since first found:** **-52.8%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -43.0% vs IWM -1.8% = **-41.2 pts** vs IWM; direction -1 → excess +41.2% (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -41,7 +41,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-10-08](../scans/2026-10-08.md)**: Calendar: HCTI hearing request due (else suspended 12 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 1 Oct + deficiency 2 Oct + reverse split; $0.73; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-03](../scans/2026-10-03.md#triage-notes)**: Triage, dismissed: Reverse splits (VTAK, JOB, HCTI, OPNW, CYCU, XELB, DARE), delistings, and EFFECT notices on micro-caps: not read. ([triage](../watch/digests/2026-10-03-triage.md))
-- **[2026-10-02](../scans/2026-10-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) ([filing](https://www.sec.gov/Archives/edgar/data/1839285/000121390026106533/ea0307459-8k_healthcare.htm))
+- **[2026-10-02](../scans/2026-10-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -3.8%, found day +3.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1839285/000121390026106533/ea0307459-8k_healthcare.htm))
 
 ## Performance since found
 
@@ -49,5 +49,5 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 |  |  |  |  | $6.85 | $7.31 |  | +6.7% | +0.8% | -5.9% | 0 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $6.85 | $7.31 |  | +6.7% | +0.8% |  | 0 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.84 | -52.8% | -43.0% | -1.8% | +41.2% | 21 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.84 | -52.8% | -43.0% | -1.8% |  | 21 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $99.19 (2026-10-26, ledger)
-- **Since first found:** **+16.8%** (found 2026-10-12 via `linked_peer` at $84.94). From the next open $86.10: +15.2% vs IWM +0.2% = **+15.0 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $99.18 (2026-10-26, ledger)
+- **Since first found:** **+16.8%** (found 2026-10-12 via `linked_peer` at $84.94). From the next open $86.10: +15.2% vs IWM -0.4% = **+15.5 pts** vs IWM; direction 0, tracked only (13 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- -10.0% Mon to $3.96, while RIG +1.9%, VAL +1.9% and NE +0.2%.) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Borr Founder Buying (VAL (Valaris)) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **RIG / VAL**, merger proxies: 15.235 RIG per VAL, meetings **24 Nov**, DOJ review closed 30 Sep. Gap 0.2% to 0.6%; needs a RIG short. ([triage](../watch/digests/2026-10-15-triage.md))
 - **[2026-10-14](../scans/2026-10-14.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +4.3%, found day -1.0%) ([filing](https://www.sec.gov/Archives/edgar/data/314808/000114036126039488/0001140361-26-039488-index.htm))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for VAL ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +6.7% | +1.5% | $88.3M | $84.94 | $86.10 | $99.19 | +16.8% | +15.2% | +0.2% |  | 13 | live |
-| 2026-10-14 | `merger_vote` | 0 | +4.3% | -1.0% | $85.0M | $84.73 | $83.97 | $99.19 | +17.1% | +18.1% | +2.6% |  | 11 | live |
+| 2026-10-12 | `linked_peer` | 0 | +6.7% | +1.5% | $88.3M | $84.94 | $86.10 | $99.18 | +16.8% | +15.2% | -0.4% |  | 13 | live |
+| 2026-10-14 | `merger_vote` | 0 | +4.3% | -1.0% | $85.0M | $84.73 | $83.97 | $99.18 | +17.1% | +18.1% | +2.0% |  | 11 | live |

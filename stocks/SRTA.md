@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $4.77 (2026-10-26, ledger) · 1d +2.2%, 5d +5.0%, 20d -8.9% (market context, 2026-10-26)
-- **Since first found:** **+9.9%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +4.8% vs IWM +1.1% = **+3.8 pts** vs IWM; direction +1 → excess +3.8% (10 days)
+- **Latest price:** $4.76 (2026-10-26, ledger) · 1d +2.1%, 5d +4.8%, 20d -9.0% (market context, 2026-10-26)
+- **Since first found:** **+9.7%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +4.6% vs IWM +0.5% = **+4.1 pts** vs IWM; direction +1 → excess +4.1% (10 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +5.0% vs peer median +7.0%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Peers / sympathy:** no flag (self 5d +4.8% vs peer median +4.5%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.77 | +9.9% | +4.8% | +1.1% | +3.8% | 10 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.77 | +5.1% | +4.6% | +2.5% |  | 7 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.76 | +9.7% | +4.6% | +0.5% | +4.1% | 10 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.76 | +4.8% | +4.4% | +1.9% |  | 7 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $2.74 (2026-10-26, ledger)
-- **Since first found:** **-1.4%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -1.8% vs IWM +1.4% = **-3.1 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $2.72 (2026-10-26, ledger)
+- **Since first found:** **-2.2%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -2.5% vs IWM +0.8% = **-3.3 pts** vs IWM; direction 0, tracked only (4 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Research: Research: Mon 26 Oct 2026 (- **INVE:** Radoff sold 802,000 shares at $2.68-2.75, below the $2.85-3.40 Dutch tender floor (expiry 19…) ([note](../research/daily/2026-10-26.md)) · Triage, dismissed: INVE: Radoff sold 802k below the tender floor and Item 4 is unchanged; tracked, 19 Nov kept. ([triage](../watch/digests/2026-10-26-triage.md))
+- **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000092189526002848/0000921895-26-002848-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#new-setups)**: Logged as `tender_issuer_buyback` (direction 0): Dutch auction $2.85-3.40 for up to $20M, expires 19 Nov; +25% on 21 Oct; UK holder loses unless it clears near $3.40 (15% withheld); watch only; source: daily research 22 Oct (research/daily/2026-10-22.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 22 Oct 2026 (- **INVE** (formerly Identiv): a Dutch-auction tender at $2.85-3.40 for up to $20M.) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: INVE Technologies Announces the Commencement of a $20 Million Modified Dutch Auction Tender Offer for its… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/inve-technologies-announces-the-commencement-of-a-20-million-modified-dutch-auction-tender-offer-for-its-common-stock-302915349.html)) · Market scan: 8-K trigger phrase "tender offer" (tender offer) (5d before -6.3%, found day +25.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026111181/ea030911901ex99-1.htm)) · Market scan: issuer tender / buyback (`SC TO-I`) (5d before -6.3%, found day +25.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026111186/0001213900-26-111186-index.htm))
 
@@ -27,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.4% | -1.8% | +1.4% |  | 4 | live |
-| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.74 | -1.4% | -1.8% | +1.4% | -3.1% | 4 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.74 | +0.4% | +1.1% | +1.3% |  | 3 | live |
+| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.72 | -2.2% | -2.5% | +0.8% |  | 4 | live |
+| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.72 | -2.2% | -2.5% | +0.8% | -3.3% | 4 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.72 | -0.4% | +0.4% | +0.8% |  | 3 | live |

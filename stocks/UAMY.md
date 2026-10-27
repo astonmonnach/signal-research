@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $3.01 (2026-10-26, ledger)
-- **Since first found:** **-23.9%** (found 2026-10-05 via `longterm_research` at $3.95). From the next open $4.02: -25.2% vs IWM -2.1% = **-23.2 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $2.85 (2026-10-26, ledger)
+- **Since first found:** **-27.9%** (found 2026-10-05 via `longterm_research` at $3.95). From the next open $4.02: -29.1% vs IWM -2.6% = **-26.5 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for UAMY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -11.3% | -1.0% | $22.7M | $3.95 | $4.02 | $3.01 | -23.9% | -25.2% | -2.1% |  | 20 | live |
+| 2026-10-05 | `longterm_research` | 0 | -11.3% | -1.0% | $22.7M | $3.95 | $4.02 | $2.85 | -27.9% | -29.1% | -2.6% |  | 20 | live |

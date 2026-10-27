@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $13.30 (2026-10-26, ledger) · 1d -1.1%, 5d +1.2%, 20d +2.4% (market context, 2026-10-26)
-- **Since first found:** **-1.0%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: -0.6% vs IWM +0.8% = **-1.4 pts** vs IWM; direction 0, tracked only (0 days)
-- **Peers / sympathy:** no flag (self 5d +1.2% vs peer median -1.5%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Latest price:** $13.30 (2026-10-26, ledger) · 1d -1.0%, 5d +1.3%, 20d +2.5% (market context, 2026-10-26)
+- **Since first found:** **-1.0%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: -0.6% vs IWM +0.3% = **-0.9 pts** vs IWM; direction 0, tracked only (0 days)
+- **Peers / sympathy:** no flag (self 5d +1.3% vs peer median -1.4%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **DOLE**: Pale Fire's 20-22 Oct buying (648,356 sh at $13.12-13.39), already in the 23 Oct note; holds 10,282,620.: director Helen Nolan retires 31… ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `8-K` 23 Oct, `4` 22 Oct; +27 older (Sep – Oct 2026) first picked up
 - **[2026-10-23](../scans/2026-10-23.md#new-setups)**: Logged as `activist_13d` (direction 0): Pale Fire (Groupon takeover group) 10.89% after buying 648,356 shares ($8.55M) on 20-22 Oct, 16-29% of daily volume; 13D says undervalued, will engage the board; TF1 pass; WATCH; source: daily research 23 Oct (research/daily/2026-10-23.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 23 Oct 2026 (1. DOLE: the Groupon takeover group is buying a fifth of Dole's daily volume) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1857475/000092189526002845/0000921895-26-002845-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for DOLE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $13.30 | -1.0% | -0.6% | +0.8% |  | 0 | live |
+| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $13.30 | -1.0% | -0.6% | +0.3% |  | 0 | live |
