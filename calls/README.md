@@ -4,19 +4,19 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 
 ## Scoreboard
 
-- Calls: **5** · marked: 1 · open: 1 · closed: 0
-- Total P&L on $1,000 per call: **$-35.49**
-- Average vs the market: **-0.9%** · beat it: 0/1
+- Calls: **5** · marked: 4 · open: 4 · closed: 0
+- Total P&L on $1,000 per call: **$+57.67**
+- Average vs the market: **+2.5%** · beat it: 4/4 · t-stat 2.44 (need about 2 and 20+ calls before it means anything)
 
 ## Every call
 
 | # | posted | call | thesis | entry | now / exit | return | vs market | vs control | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $20.38 | -3.5% | -0.9% (IWM) | +2.8% (IIIN) | 20 | open |
-| 2 | 2026-10-26 | AVOID DFNS | [Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
-| 3 | 2026-10-26 | AVOID NCT | [Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
+| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $21.01 | -0.6% | +1.7% (IWM) | +5.7% (IIIN) | 21 | open |
+| 2 | 2026-10-26 | AVOID **DFNS** | [Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct](../research/daily/2026-10-26.md) | $3.91 (2026-10-27) | $3.72 | +4.9% | +5.5% (IWM) | +7.0% (ITA) | 0 | open |
+| 3 | 2026-10-26 | AVOID **NCT** | [Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit](../research/daily/2026-10-26.md) | $1.55 (2026-10-27) | $1.54 | +0.7% | +1.3% (IWM) | -0.0% (GLBS) | 0 | open |
 | 4 | 2026-10-26 | AVOID TMCR | [F-1s effective 22 Oct: a $100M Yorkville standby equity line (23.6M shares, 35% of 67.4M) at 96% of market, plus 4.37M consideration shares free to sell now](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
-| 5 | 2026-10-26 | AVOID OSTX | [Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies](../research/daily/2026-10-26.md) | | | | | | | pending (enters next open) |
+| 5 | 2026-10-26 | AVOID **OSTX** | [Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies](../research/daily/2026-10-26.md) | $1.27 (2026-10-27) | $1.26 | +0.8% | +1.4% (IWM) | +0.8% (XBI) | 0 | open |
 
 ## Rules
 

@@ -1,6 +1,6 @@
 id,posted_utc,ticker,direction,horizon,entry_date,entry,end_date,end_price,ret_pct,pnl_usd,bench,bench_pct,excess_bench,control,control_pct,excess_control,days,status
-1,2026-10-05T16:15Z,MTUS,1,swing,2026-10-06,21.13,2026-10-26,20.38,-3.55,-35.49,IWM,-2.61,-0.94,IIIN,-6.38,2.83,20,open
-2,2026-10-26T20:54Z,DFNS,-1,swing,,,,,,,,,,ITA,,,,pending (enters next open)
-3,2026-10-26T20:54Z,NCT,-1,swing,,,,,,,,,,GLBS,,,,pending (enters next open)
+1,2026-10-05T16:15Z,MTUS,1,swing,2026-10-06,21.13,2026-10-27,21.01,-0.57,-5.68,IWM,-2.27,1.7,IIIN,-6.23,5.66,21,open
+2,2026-10-26T20:54Z,DFNS,-1,swing,2026-10-27,3.91,2026-10-27,3.7183,4.9,49.03,IWM,0.64,5.55,ITA,2.09,6.99,0,open
+3,2026-10-26T20:54Z,NCT,-1,swing,2026-10-27,1.55,2026-10-27,1.54,0.65,6.45,IWM,0.64,1.29,GLBS,-0.67,-0.03,0,open
 4,2026-10-26T20:54Z,TMCR,-1,swing,,,,,,,,,,GROY,,,,pending (enters next open)
-5,2026-10-26T20:54Z,OSTX,-1,swing,,,,,,,,,,XBI,,,,pending (enters next open)
+5,2026-10-26T20:54Z,OSTX,-1,swing,2026-10-27,1.27,2026-10-27,1.26,0.79,7.87,IWM,0.64,1.43,XBI,0.06,0.85,0,open

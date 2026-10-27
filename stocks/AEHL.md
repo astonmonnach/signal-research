@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $7.87 (2026-10-26, ledger)
-- **Since first found:** **-11.2%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: -11.2% vs IWM +0.3% = **-11.5 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $7.78 (2026-10-27, ledger)
+- **Since first found:** **-12.2%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: -12.2% vs IWM +0.6% = **-12.8 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for AEHL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $7.87 | -11.2% | -11.2% | +0.3% |  | 0 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $7.78 | -12.2% | -12.2% | +0.6% |  | 1 | live |

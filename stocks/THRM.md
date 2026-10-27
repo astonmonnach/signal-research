@@ -103,10 +103,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $28.59 (2026-10-26, ledger) · 1d -0.0%, 5d -0.1%, 20d -14.9% (market context, 2026-10-26)
-- **Since first found:** **-9.6%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -10.0% vs IWM -1.1% = **-8.9 pts** vs IWM; direction 0, tracked only (26 days). Includes +$2.07 cash (special_dividend)
+- **Latest price:** $30.71 (2026-10-27, ledger) · 1d +8.5%, 5d +5.9%, 20d -8.6% (market context, 2026-10-27)
+- **Since first found:** **-3.4%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -3.8% vs IWM -0.8% = **-3.0 pts** vs IWM; direction 0, tracked only (27 days). Includes +$2.07 cash (special_dividend)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -5.1% 5d vs THRM -0.1%; peers moved, it didn't. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Peers / sympathy:** no flag (self 5d +5.9% vs peer median -4.6%). Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -136,7 +136,7 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $28.59 | -9.6% | -10.0% | -1.1% |  | 26 | live |
-| 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.62 | $28.59 | -3.7% | -3.5% | -0.5% |  | 14 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $30.71 | -3.4% | -3.8% | -0.8% |  | 27 | live |
+| 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.62 | $30.71 | +3.5% | +3.7% | -0.2% |  | 15 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

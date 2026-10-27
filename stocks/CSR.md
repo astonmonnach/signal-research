@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $56.94 (2026-10-26, ledger) · 1d -0.1%, 5d +3.8%, 20d +2.3% (market context, 2026-10-26)
-- **Since first found:** **+4.6%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +4.7% vs IWM +0.2% = **+4.5 pts** vs IWM; direction 0, tracked only (18 days)
+- **Latest price:** $56.83 (2026-10-27, market context) · 1d -0.2%, 5d +1.3%, 20d +3.1% (market context, 2026-10-27)
+- **Since first found:** **+4.6%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +4.7% vs IWM +0.5% = **+4.2 pts** vs IWM; direction 0, tracked only (18 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +3.8% vs peer median +2.3%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-26)
+- **Peers / sympathy:** no flag (self 5d +1.3% vs peer median +1.4%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 10 Nov 2026: CSR: merger vote (IRT 3.80 shares per CSR share)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for CSR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.94 | +4.6% | +4.7% | +0.2% |  | 18 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.94 | +3.7% | +2.6% | -0.4% |  | 17 | live |
+| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.94 | +4.6% | +4.7% | +0.5% |  | 18 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.94 | +3.7% | +2.6% | -0.1% |  | 17 | live |
