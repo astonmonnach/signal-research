@@ -4,6 +4,10 @@ Every change to the IBKR watchlists, newest first. The AVOID list (id 114) mirro
 `ledger/avoid_register.csv` (rule 2026-10-27). Changes are made only with the trader's go-ahead and checked by reading the
 list back afterwards.
 
+## 2026-10-27: CALLED (107) +6 public AVOID calls
+
+The trader's go-ahead: "add them to CALLED as well" (27 Oct). Went from 1 (MTUS) to 7, read back from IBKR. Added the public AVOID calls DFNS (#2), NCT (#3), TMCR (#4), OSTX (#5), NNBR (#6) and NAUT (#7).
+
 ## 2026-10-27 (second change): AVOID (114) +12 from the 26 Oct filings
 
 Went from 74 to 86, read back from IBKR and equal to the register's 86 active rows. Added:
