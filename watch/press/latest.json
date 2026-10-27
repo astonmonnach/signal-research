@@ -1,82 +1,26 @@
 [
  {
-  "published_utc": "2026-10-27T12:15:00Z",
-  "wire": "PR Newswire",
-  "ticker": "MDA",
-  "title": "49North Signs MOU with UNWAVE for Joint Production and Support of Counter-UAS Systems",
-  "link": "https://www.prnewswire.com/news-releases/49north-signs-mou-with-unwave-for-joint-production-and-support-of-counter-uas-systems-302919830.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-27T12:17:00Z",
+  "published_utc": "2026-10-27T13:25:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "NEXR;NEXRW",
-  "title": "Nexera Technologies Signs Definitive Agreement to Sell KeepZone AI to a Global Aerospace and Defense Company for up to $6 million",
-  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388976/0/en/nexera-technologies-signs-definitive-agreement-to-sell-keepzone-ai-to-a-global-aerospace-and-defense-company-for-up-to-6-million.html",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-10-27T12:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "BWXT",
-  "title": "Antares Signs TRISO Fuel Agreement with BWXT, Securing Fabrication Through the End of the Decade",
-  "link": "http://www.businesswire.com/news/home/20261027445858/en/Antares-Signs-TRISO-Fuel-Agreement-with-BWXT-Securing-Fabrication-Through-the-End-of-the-Decade/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:Department of War"
- },
- {
-  "published_utc": "2026-10-27T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VTVT",
-  "title": "vTv Therapeutics Announces First Participant Randomized in Phase 2a Pilot Study Evaluating Cadisegliatin in Individuals with Type 1 Diabetes (T1D) Using Hybrid Closed-Loop (HCL) Insulin Delivery Systems",
-  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388945/0/en/vtv-therapeutics-announces-first-participant-randomized-in-phase-2a-pilot-study-evaluating-cadisegliatin-in-individuals-with-type-1-diabetes-t1d-using-hybrid-closed-loop-hcl-insuli.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-27T11:45:00Z",
-  "wire": "Business Wire",
-  "ticker": "NTRA",
-  "title": "Signatera™ Genome with Phased and Structural Variants Highlighted in ESMO Presidential Symposium, Supporting the Critical Role of MRD-Guided Treatment in Bladder Cancer",
-  "link": "http://www.businesswire.com/news/home/20261027424980/en/Signatera%E2%84%A2-Genome-with-Phased-and-Structural-Variants-Highlighted-in-ESMO-Presidential-Symposium-Supporting-the-Critical-Role-of-MRD-Guided-Treatment-in-Bladder-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase III"
- },
- {
-  "published_utc": "2026-10-27T11:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "KNSA",
-  "title": "Kiniksa Pharmaceuticals Reports Third Quarter 2026 Financial Results and Recent Portfolio Execution",
-  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388879/0/en/kiniksa-pharmaceuticals-reports-third-quarter-2026-financial-results-and-recent-portfolio-execution.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-27T11:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "TNXP",
-  "title": "Tonix Pharmaceuticals Presented an Analysis of Phase 3 Data Demonstrating TONMYA® Improved Physical Symptoms and Functional Ability of Patients with Fibromyalgia at the IASP 2026 World Congress on Pain",
-  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388831/28908/en/tonix-pharmaceuticals-presented-an-analysis-of-phase-3-data-demonstrating-tonmya-improved-physical-symptoms-and-functional-ability-of-patients-with-fibromyalgia-at-the-iasp-2026-wo.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-27T10:45:00Z",
-  "wire": "Business Wire",
-  "ticker": "PFE",
-  "title": "Pfizer’s ELREXFIO Outperforms Standard Regimens and Meets Primary Endpoint in Phase 3 Study in Relapsed or Refractory Multiple Myeloma",
-  "link": "http://www.businesswire.com/news/home/20261027750216/en/Pfizer%E2%80%99s-ELREXFIO-Outperforms-Standard-Regimens-and-Meets-Primary-Endpoint-in-Phase-3-Study-in-Relapsed-or-Refractory-Multiple-Myeloma/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-27T10:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NVA",
-  "title": "Nova Minerals Secures Final Permits for Alaska Antimony Project, Clearing Path to 2027 Production",
-  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388795/0/en/nova-minerals-secures-final-permits-for-alaska-antimony-project-clearing-path-to-2027-production.html",
-  "matched_on": "keyword:Department of War"
+  "ticker": "DFNS",
+  "title": "T3 Defense Enters Agreement to Acquire KeepZone AI",
+  "link": "https://www.globenewswire.com/news-release/2026/10/27/3389142/0/en/t3-defense-enters-agreement-to-acquire-keepzone-ai.html",
+  "matched_on": "manual_call"
  },
  {
   "published_utc": "2026-10-27T10:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NAUT",
+  "title": "Nautilus to Measure Proteoforms Driving Alzheimer’s Disease and Cancer in ARPA-H-Funded SEEDS Consortium",
+  "link": "https://www.globenewswire.com/news-release/2026/10/27/3388769/0/en/nautilus-to-measure-proteoforms-driving-alzheimer-s-disease-and-cancer-in-arpa-h-funded-seeds-consortium.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-27T13:23:00Z",
   "wire": "Business Wire",
-  "ticker": "ARCC;MFIC",
-  "title": "Ares Capital Corporation Agrees to Acquire MidCap Financial Investment Corporation",
-  "link": "http://www.businesswire.com/news/home/20261026200792/en/Ares-Capital-Corporation-Agrees-to-Acquire-MidCap-Financial-Investment-Corporation/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:merger agreement"
+  "ticker": "AGBK",
+  "title": "Agi Announces Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261027412174/en/Agi-Announces-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:share repurchase"
  }
 ]
