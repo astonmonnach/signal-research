@@ -129,3 +129,14 @@ found,source,ticker,category,direction,note
 2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),XRPN,setup_supply_resale,0,"Cantor equity-line resale S-1 for 5.22M sh (20% of Class A) at 97% of VWAP, not yet effective; tracked: re-read for AVOID at EFFECT"
 2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),PMI,setup_supply_resale,0,"200,000 cashless warrant shares (8%) plus a 22 Oct S-3 for 500,000 more (20%), not yet effective; tracked: re-read for AVOID at EFFECT"
 2026-10-26,daily research 26 Oct (research/daily/2026-10-26.md),BORR,event_incident,0,"Prospector 5 rig sank off Gabon on 24 Oct during preload (punch-through), 5 of 115 missing; -10.0% Mon vs drillers +0.2-1.9%; insurance and contract effects not disclosed; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),NNBR,setup_supply_resale,0,"PIPE resale 17.2% effective 23 Oct at holders' cost +1.8%; AVOID, public call #6"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),NAUT,setup_supply_atm,0,"unused $125M ATM ~40% after a 2.5x run; AVOID, public call #7"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),MEDS,setup_supply_deal_dilution,0,non-binding LOI leaving public holders ~10.5%; AVOID (not called: LOI)
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),THRM,insider_cluster,0,"CEO $130k at $26.00 and director $532.6k at $26.63 on 23 Oct, open market, no 10b5-1; AVOID (kill) reclassified 27 Oct as dropped, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),IMSR,buyback,0,"$25M repurchase authorised 27 Oct, about 8% of the ~$300M market value at $2.80-3.19 (arith); fails TF1; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),MG,merger_arb,0,H.I.G. $20.35 cash; go-shop ended 27 Oct with no proposal; vote 24 Nov; T014 TRACKED below $20.00
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),SGRY,merger_arb,0,"HealthSpan/Bon Secours $23.50 cash; spread 1.1-1.3%; close Q1 2027; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),CPSH,activist_13d,0,"Global Value Investment Corp 6.46%, bought 7-23 Oct at ~$3.47; Item 4 lists sale or merger; fails TF1; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),LEO,holder_buying,0,"Saba 10.5% buying a muni closed-end fund at an 8-10% NAV discount; passes TF1 narrowly; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),PRTA,holder_buying,0,"Scully bought 575k shares (~$4.8M) in October at $8.07-8.57; fails TF1 on the 50-day; tracked, no call"
+2026-10-27,daily research 27 Oct (research/daily/2026-10-27.md),AZUL,holder_13d_not_activism,0,"American Airlines 7.9% via $100M warrant exercise; resale prospectus (since 14 Sep) for up to 372.4M shares; -32.6% Mon; tracked, no call"

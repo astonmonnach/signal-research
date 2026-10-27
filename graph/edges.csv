@@ -144,3 +144,9 @@ date,a,b,type,detail,source
 2026-10-25,BORR,co:BW-Energy,customer,Prospector 5 contracted to BW Energy offshore Gabon; rig sank 24 Oct,https://www.sec.gov/Archives/edgar/data/1715497/000114036126040699/ef20084379_ex99-1.htm
 2026-10-26,co:Anthropic,AMZN,holder_13d,"Amazon will hold more than 5% of Anthropic capital stock (S-1, 26 Oct); at least $110bn compute commitment",https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm
 2026-10-26,co:Anthropic,GOOGL,holder_13d,"Google will hold more than 5% of Anthropic capital stock (S-1, 26 Oct); at least $114.5bn compute commitment",https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm
+2026-10-26,SGRY,co:HealthSpan Partners,merger,$23.50 cash via Spyglass Topco; Bon Secours Mercy Health guarantor; Bain ~39% rolls,https://www.sec.gov/Archives/edgar/data/1638833/000110465926118643/tm2628254d1_8k.htm
+2026-10-26,fund:Global Value Investment Corp,CPSH,holder_13d,"6.46%, bought 7-23 Oct at ~$3.47; Item 4 lists sale or merger",https://www.sec.gov/Archives/edgar/data/814676/000156986626000006/0001569866-26-000006-index.htm
+2026-10-26,fund:Saba Capital,LEO,holder_13d,"about 10.5%, buying at an 8-10% NAV discount",https://www.sec.gov/Archives/edgar/data/818972/000151028126000377/0001510281-26-000377-index.htm
+2026-10-26,AAL,AZUL,holder_13d,American Airlines 7.9% via a $100M warrant exercise on 20 Oct,https://www.sec.gov/Archives/edgar/data/1432364/000119312526431999/0001193125-26-431999-index.htm
+2026-10-26,MEDS,DVLT,counterparty,share recipient under MEDS's dilution LOI; DVLT filed Item 4.02 non-reliance the same day,https://www.sec.gov/Archives/edgar/data/2030763/000149315226048573/form8-k.htm
+2026-10-26,RRC,EQT,merger,"all-stock, 0.987 EQT per RRC share; close Q1 2027",https://www.sec.gov/Archives/edgar/data/315852/000119312526431025/d161989d8k.htm

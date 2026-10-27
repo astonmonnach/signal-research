@@ -6,3 +6,4 @@ _site/
 watch/marketcap.json
 crypto/hyperliquid/cache/
 watch/hl_markets.json
+ledger/cache_av1/

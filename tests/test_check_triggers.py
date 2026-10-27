@@ -89,3 +89,28 @@ def test_distress_and_13g_supply_labels_also_count_as_avoid_types():
     rows = [dict(found="2026-10-27", ticker="X", category="distress_avoid", direction="0"),
             dict(found="2026-10-27", ticker="Y", category="holder_13g_supply", direction="0")]
     assert len(tf1_label_problems(rows)) == 2
+
+
+from check_triggers import register_problems  # noqa: E402
+
+
+def _reg(**kw):
+    r = dict(date="2026-10-26", ticker="DFNS", supply_type="ongoing_supply", status="active", public_call_id="2")
+    r.update(kw)
+    return r
+
+
+def test_public_avoid_call_missing_from_the_register_is_flagged():
+    calls = [dict(id="2", ticker="DFNS", direction="-1"), dict(id="6", ticker="NEWX", direction="-1"), dict(id="1", ticker="MTUS", direction="1")]
+    out = register_problems([_reg()], calls)
+    assert len(out) == 1 and "NEWX" in out[0]
+
+
+def test_register_rejects_unknown_status_and_type():
+    out = register_problems([_reg(status="maybe"), _reg(ticker="X", supply_type="vibes", public_call_id="")], [])
+    assert len(out) == 2
+
+
+def test_a_kill_cannot_be_an_active_avoid():
+    out = register_problems([_reg(ticker="THRM", supply_type="kill", public_call_id="")], [])
+    assert len(out) == 1 and "kill" in out[0]

@@ -95,6 +95,28 @@ def tf1_label_problems(manual_rows):
     return out
 
 
+# The AVOID register (rule 2026-10-27) is the one record of every AVOID; the IBKR AVOID list mirrors its active rows.
+REG_STATUS = {"active", "reversed", "expired", "reclassified"}
+REG_TYPES = {"ongoing_supply", "one_off_offering", "warrant_supply", "distress", "holder_selling", "deal_dilution", "kill", "other"}
+
+
+def register_problems(reg_rows, calls):
+    out = []
+    for r in reg_rows:
+        where = f"ledger/avoid_register.csv {r.get('ticker')} ({r.get('date')})"
+        if r.get("status") not in REG_STATUS:
+            out.append(f"{where}: status {r.get('status')!r} is not one of {sorted(REG_STATUS)}")
+        if r.get("supply_type") not in REG_TYPES:
+            out.append(f"{where}: supply_type {r.get('supply_type')!r} is not one of {sorted(REG_TYPES)}")
+        elif r.get("supply_type") == "kill" and r.get("status") == "active":
+            out.append(f"{where}: a killed long thesis is 'dropped, no call', not an active AVOID (rule 2026-10-27)")
+    called = {r.get("public_call_id") for r in reg_rows if r.get("public_call_id")}
+    for c in calls:
+        if str(c.get("direction")) == "-1" and c.get("id") not in called:
+            out.append(f"calls/CALLS.csv #{c.get('id')} {c.get('ticker')}: a public AVOID call with no row in ledger/avoid_register.csv")
+    return out
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.path.insert(0, str(ROOT / "briefing"))
@@ -105,6 +127,8 @@ def main():
     watchlist = set(json.load(open(ROOT / "watch" / "watchlist.json", encoding="utf-8"))["tickers"])
     found = problems(rows, verdicts, strategies, dt.date.today(), watchlist)
     found += tf1_label_problems(list(csv.DictReader(open(ROOT / "ledger" / "manual_calls.csv", encoding="utf-8"))))
+    found += register_problems(list(csv.DictReader(open(ROOT / "ledger" / "avoid_register.csv", encoding="utf-8"))),
+                               list(csv.DictReader(open(ROOT / "calls" / "CALLS.csv", encoding="utf-8"))))
     print("\n".join(found) if found else f"triggers: {len(rows)} rows, no problems")
     sys.exit(1 if found else 0)
 
