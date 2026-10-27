@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
 - **Latest price:** $32.86 (2026-10-27, ledger) · 1d -0.5%, 5d -0.8%, 20d -6.4% (market context, 2026-10-27)
-- **Since first found:** **-0.9%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -0.1% vs IWM +2.3% = **-2.4 pts** vs IWM; direction 0, tracked only (8 days)
+- **Since first found:** **-0.9%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -0.1% vs IWM +2.6% = **-2.7 pts** vs IWM; direction 0, tracked only (8 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.8% vs peer median +2.0%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-10-27)
+- **Peers / sympathy:** no flag (self 5d -0.8% vs peer median +2.2%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for SMTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.86 | -0.9% | -0.1% | +2.3% |  | 8 | live |
-| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.86 | -0.9% | -0.1% | +2.3% |  | 8 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.86 | -0.9% | -0.1% | +2.6% |  | 8 | live |
+| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.86 | -0.9% | -0.1% | +2.6% |  | 8 | live |

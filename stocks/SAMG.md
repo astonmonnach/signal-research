@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $10.29 (2026-10-27, ledger)
-- **Since first found:** **-1.3%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.34: -0.5% vs IWM +0.0% = **-0.5 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $10.35 (2026-10-27, ledger)
+- **Since first found:** **-0.7%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.34: +0.1% vs IWM +0.4% = **-0.2 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: SAMG: Q3 results before the open (Equinox Partners holds ~10.7%)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for SAMG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.34 | $10.29 | -1.3% | -0.5% | +0.0% |  | 0 | live |
+| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.34 | $10.35 | -0.7% | +0.1% | +0.4% |  | 0 | live |

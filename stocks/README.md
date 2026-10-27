@@ -59,135 +59,135 @@ One file per stock: every ticker on the watchlist (`watch/watchlist.json`), in `
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [MTUS](MTUS.md) | Metallus Inc. | $20.91 (27 Oct) | +11.0% since 25 Sep | +8.0 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [MTUS](MTUS.md) | Metallus Inc. | $20.70 (27 Oct) | +9.9% since 25 Sep | +6.6 pts | [2026-10-26](../scans/2026-10-26.md) |
 
 ## Watchlist
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [ACB](ACB.md) | Aurora Cannabis Inc | $3.98 (27 Oct) | +0.2% since 20 Oct | -0.5 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [ALEC](ALEC.md) | Alector, Inc. | $1.90 (27 Oct) | +3.2% since 16 Oct | +0.4 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [BMBL](BMBL.md) | Bumble Inc. | $5.95 (27 Oct) | +0.1% since 13 Oct | -1.6 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [BMEZ](BMEZ.md) | BlackRock Health Sciences Term Trust | $16.97 (27 Oct) | +4.2% since 16 Oct | +1.7 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [BMM](BMM.md) | private placement [6-K](https://www.sec.gov/Archives/edgar/data/1732379/000155485526002139/ex991_1.htm) | $4.19 (27 Oct) | -2.6% since 20 Oct | -3.7 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [BORR](BORR.md) | Borr Drilling Ltd | $4.04 (27 Oct) | -18.1% since 12 Oct | -18.9 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [BYRN](BYRN.md) | Roth Adam L. (director) bought 15,000 shares at $4.69 = $70,375 on 2026-10-15 | $4.70 (27 Oct) | -2.9% since 18 Oct | -9.1 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [CHDN](CHDN.md) | Churchill Downs Inc | $83.09 (27 Oct) | +9.7% since 28 Sep | +10.1 pts | [2026-09-28](../scans/2026-09-28.md) |
-| [CPAC](CPAC.md) | Cementos Pacasmayo Saa | $12.77 (27 Oct) | +0.9% since 21 Oct | -0.2 pts | [2026-10-27](../scans/2026-10-27.md) |
-| [CRMT](CRMT.md) | Americas Carmart Inc | $0.819 (27 Oct) | -34.5% since 08 Oct | -35.0 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [CSR](CSR.md) | Centerspace | $56.78 (27 Oct) | +4.3% since 07 Oct | +3.8 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [CTVA](CTVA.md) | Corteva, Inc. | $11.99 (27 Oct) | +636.5% since 29 Sep | +636.8 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [DIBS](DIBS.md) | 1stdibs.com, Inc., filed by Catsimatidis John A. Jr | $4.59 (27 Oct) | +6.7% since 20 Oct | +6.3 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [DOLE](DOLE.md) | Dole plc | $13.28 (27 Oct) | -1.2% since 23 Oct | -1.4 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [ELMT](ELMT.md) | Elmet Group Co. | $21.54 (27 Oct) | +9.7% since 25 Sep | +12.8 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [ESRT](ESRT.md) | Empire State Realty Trust, Inc. | $5.03 (27 Oct) | +18.8% since 05 Oct | +19.1 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [FEAM](FEAM.md) | Weibel Paul Wesley III (Chief Executive Officer) bought 7,176 shares at $3.48 = $24,972 on 2026-10-08 | $2.48 (27 Oct) | -25.1% since 08 Oct | -23.9 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [GPRO](GPRO.md) | GoPro, Inc. | $1.05 (27 Oct) | +0.5% since 16 Oct | -8.5 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [HMH](HMH.md) | HMH Holding Inc | $18.76 (27 Oct) | -2.7% since 28 Sep | +0.2 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [IMMR](IMMR.md) | Singer Eric (director, President and CEO) bought 41,000 shares at $7.14 = $292,800 on 2026-10-07 | $7.18 (27 Oct) | -2.3% since 12 Oct | -2.1 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [IMSR](IMSR.md) | Terrestrial Energy Inc. /DE/ | $3.21 (27 Oct) | -0.2% since 15 Oct | -1.7 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [LCII](LCII.md) | Lci Industries | $85.79 (27 Oct) | +8.1% since 13 Oct | +7.4 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [MDA](MDA.md) | MDA Space Ltd. | $28.81 (27 Oct) | +4.5% since 14 Oct | +3.7 pts | [2026-10-27](../scans/2026-10-27.md) |
-| [MG](MG.md) | Mistras Group, Inc. | $20.50 (27 Oct) | -0.8% since 15 Oct | -3.3 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [MOD](MOD.md) | Modine Manufacturing Co | $136.91 (27 Oct) | -19.4% since 30 Sep | -19.8 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [MSGS](MSGS.md) | Madison Square Garden Sports Corp. | $384.39 (26 Oct) | -4.5% since 10 Oct | -4.8 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [NKLR](NKLR.md) | Terra Innovatum Global N.V. | $2.08 (27 Oct) |  |  | [2026-10-19](../scans/2026-10-19.md) |
-| [PCRX](PCRX.md) | Pacira BioSciences, Inc. | $36.38 (27 Oct) | -0.0% since 08 Oct | +0.2 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [PED](PED.md) | Pedevco Corp | $15.53 (27 Oct) | +21.2% since 14 Oct | +16.7 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [PTC](PTC.md) | Ptc Inc. | $194.12 (27 Oct) | +1.0% since 05 Oct | +2.8 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [PUSA](PUSA.md) | Aureus Greenway Holdings Inc | $2.02 (27 Oct) | -30.2% since 05 Oct | -30.7 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [RXO](RXO.md) | RXO, Inc. | $28.82 (27 Oct) | +0.6% since 05 Oct | +2.5 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [RYAM](RYAM.md) | Rayonier Advanced Materials Inc. | $6.43 (27 Oct) | -21.1% since 28 Sep | -20.3 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [SKYA](SKYA.md) | SkyAI, Inc. | $2.88 (27 Oct) | +11.0% since 12 Oct | +14.9 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [SMTI](SMTI.md) | Sanara MedTech Inc. | $32.86 (27 Oct) | -0.9% since 16 Oct | -2.4 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [SRTA](SRTA.md) | Strata Critical Medical, Inc. | $4.84 (27 Oct) | +11.4% since 15 Oct | +5.3 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [SSTI](SSTI.md) | Soundthinking, Inc. | $8.35 (27 Oct) | +1.7% since 29 Sep | +2.5 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [SYNA](SYNA.md) | SYNAPTICS Inc | $117.94 (27 Oct) | -1.0% since 08 Oct | -1.6 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [TALO](TALO.md) | Talos Energy Inc. | $18.29 (27 Oct) | +7.4% since 14 Oct | +4.2 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [TCPC](TCPC.md) | BlackRock TCP Capital Corp. | $4.03 (27 Oct) | -1.1% since 14 Oct | -3.6 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [TENX](TENX.md) | Tenax Therapeutics, Inc. | $1.63 (27 Oct) | -7.1% since 22 Oct | -8.3 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [THRM](THRM.md) | Gentherm Inc | $31.54 (27 Oct) | -0.9% since 29 Sep | -0.6 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [TWST](TWST.md) | Twist Bioscience Corp | $155.71 (27 Oct) | -19.4% since 30 Sep | -19.6 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [UUUU](UUUU.md) | Energy Fuels Inc | $7.98 (27 Oct) | -13.9% since 13 Oct | -13.0 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [VYLR](VYLR.md) | Vylor Inc. | $74.05 (27 Oct) | +8.5% since 01 Oct | +9.3 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [WHF](WHF.md) | WhiteHorse Finance, Inc. | $7.78 (27 Oct) | +11.6% since 28 Sep | +12.7 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [XPOF](XPOF.md) | Xponential Fitness, Inc. | $4.11 (27 Oct) | -14.7% since 13 Oct | -15.9 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [ACB](ACB.md) | Aurora Cannabis Inc | $4.02 (27 Oct) | +1.2% since 20 Oct | +0.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [ALEC](ALEC.md) | Alector, Inc. | $1.95 (27 Oct) | +5.7% since 16 Oct | +2.5 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [BMBL](BMBL.md) | Bumble Inc. | $5.95 (27 Oct) | +0.1% since 13 Oct | -2.0 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [BMEZ](BMEZ.md) | BlackRock Health Sciences Term Trust | $16.99 (27 Oct) | +4.3% since 16 Oct | +1.5 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [BMM](BMM.md) | private placement [6-K](https://www.sec.gov/Archives/edgar/data/1732379/000155485526002139/ex991_1.htm) | $4.23 (27 Oct) | -1.6% since 20 Oct | -3.1 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [BORR](BORR.md) | Borr Drilling Ltd | $4.03 (27 Oct) | -18.3% since 12 Oct | -19.4 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [BYRN](BYRN.md) | Roth Adam L. (director) bought 15,000 shares at $4.69 = $70,375 on 2026-10-15 | $4.71 (27 Oct) | -2.7% since 18 Oct | -9.2 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [CHDN](CHDN.md) | Churchill Downs Inc | $83.19 (27 Oct) | +9.9% since 28 Sep | +9.9 pts | [2026-09-28](../scans/2026-09-28.md) |
+| [CPAC](CPAC.md) | Cementos Pacasmayo Saa | $12.79 (27 Oct) | +1.0% since 21 Oct | -0.4 pts | [2026-10-27](../scans/2026-10-27.md) |
+| [CRMT](CRMT.md) | Americas Carmart Inc | $0.808 (27 Oct) | -35.4% since 08 Oct | -36.2 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [CSR](CSR.md) | Centerspace | $56.75 (27 Oct) | +4.3% since 07 Oct | +3.4 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [CTVA](CTVA.md) | Corteva, Inc. | $11.87 (27 Oct) | +632.7% since 29 Sep | +632.8 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [DIBS](DIBS.md) | 1stdibs.com, Inc., filed by Catsimatidis John A. Jr | $4.59 (27 Oct) | +6.7% since 20 Oct | +6.0 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [DOLE](DOLE.md) | Dole plc | $13.25 (27 Oct) | -1.4% since 23 Oct | -2.0 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [ELMT](ELMT.md) | Elmet Group Co. | $21.71 (27 Oct) | +10.5% since 25 Sep | +13.4 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [ESRT](ESRT.md) | Empire State Realty Trust, Inc. | $5.03 (27 Oct) | +19.0% since 05 Oct | +19.0 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [FEAM](FEAM.md) | Weibel Paul Wesley III (Chief Executive Officer) bought 7,176 shares at $3.48 = $24,972 on 2026-10-08 | $2.53 (27 Oct) | -23.7% since 08 Oct | -22.8 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [GPRO](GPRO.md) | GoPro, Inc. | $1.05 (27 Oct) | +0.2% since 16 Oct | -9.2 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [HMH](HMH.md) | HMH Holding Inc | $18.76 (27 Oct) | -2.7% since 28 Sep | -0.1 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [IMMR](IMMR.md) | Singer Eric (director, President and CEO) bought 41,000 shares at $7.14 = $292,800 on 2026-10-07 | $7.16 (27 Oct) | -2.5% since 12 Oct | -2.6 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [IMSR](IMSR.md) | Terrestrial Energy Inc. /DE/ | $3.24 (27 Oct) | +0.6% since 15 Oct | -1.2 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [LCII](LCII.md) | Lci Industries | $85.86 (27 Oct) | +8.2% since 13 Oct | +7.1 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [MDA](MDA.md) | MDA Space Ltd. | $28.91 (27 Oct) | +4.9% since 14 Oct | +3.8 pts | [2026-10-27](../scans/2026-10-27.md) |
+| [MG](MG.md) | Mistras Group, Inc. | $20.41 (27 Oct) | -1.3% since 15 Oct | -4.0 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [MOD](MOD.md) | Modine Manufacturing Co | $137.15 (27 Oct) | -19.2% since 30 Sep | -20.0 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [MSGS](MSGS.md) | Madison Square Garden Sports Corp. | $384.39 (26 Oct) | -4.5% since 10 Oct | -5.1 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [NKLR](NKLR.md) | Terra Innovatum Global N.V. | $2.10 (27 Oct) |  |  | [2026-10-19](../scans/2026-10-19.md) |
+| [PCRX](PCRX.md) | Pacira BioSciences, Inc. | $36.39 (27 Oct) | +0.0% since 08 Oct | -0.1 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [PED](PED.md) | Pedevco Corp | $15.53 (27 Oct) | +21.2% since 14 Oct | +16.3 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [PTC](PTC.md) | Ptc Inc. | $194.10 (27 Oct) | +1.0% since 05 Oct | +2.5 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [PUSA](PUSA.md) | Aureus Greenway Holdings Inc | $2.02 (27 Oct) | -30.2% since 05 Oct | -31.0 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [RXO](RXO.md) | RXO, Inc. | $28.84 (27 Oct) | +0.7% since 05 Oct | +2.3 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [RYAM](RYAM.md) | Rayonier Advanced Materials Inc. | $6.57 (27 Oct) | -19.3% since 28 Sep | -18.9 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [SKYA](SKYA.md) | SkyAI, Inc. | $2.88 (27 Oct) | +10.8% since 12 Oct | +14.4 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [SMTI](SMTI.md) | Sanara MedTech Inc. | $32.86 (27 Oct) | -0.9% since 16 Oct | -2.7 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [SRTA](SRTA.md) | Strata Critical Medical, Inc. | $4.86 (27 Oct) | +11.9% since 15 Oct | +5.4 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [SSTI](SSTI.md) | Soundthinking, Inc. | $8.35 (27 Oct) | +1.7% since 29 Sep | +2.1 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [SYNA](SYNA.md) | SYNAPTICS Inc | $117.95 (27 Oct) | -0.9% since 08 Oct | -1.9 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [TALO](TALO.md) | Talos Energy Inc. | $18.22 (27 Oct) | +7.0% since 14 Oct | +3.5 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [TCPC](TCPC.md) | BlackRock TCP Capital Corp. | $4.05 (27 Oct) | -0.9% since 14 Oct | -3.6 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [TENX](TENX.md) | Tenax Therapeutics, Inc. | $1.65 (27 Oct) | -6.0% since 22 Oct | -7.5 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [THRM](THRM.md) | Gentherm Inc | $31.69 (27 Oct) | -0.5% since 29 Sep | -0.5 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [TWST](TWST.md) | Twist Bioscience Corp | $156.85 (27 Oct) | -18.8% since 30 Sep | -19.4 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [UUUU](UUUU.md) | Energy Fuels Inc | $8.09 (27 Oct) | -12.7% since 13 Oct | -12.1 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [VYLR](VYLR.md) | Vylor Inc. | $73.74 (27 Oct) | +8.0% since 01 Oct | +8.5 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [WHF](WHF.md) | WhiteHorse Finance, Inc. | $7.84 (27 Oct) | +12.5% since 28 Sep | +13.3 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [XPOF](XPOF.md) | Xponential Fitness, Inc. | $4.11 (27 Oct) | -14.7% since 13 Oct | -16.3 pts | [2026-10-22](../scans/2026-10-22.md) |
 
 ## Setups (watch only)
 
 | ticker | company | latest | since first found | vs IWM | last mention |
 |---|---|---|---|---|---|
-| [AAON](AAON.md) | Aaon, Inc. | $72.36 (27 Oct) | -14.2% since 05 Oct | -13.0 pts | [2026-10-05](../scans/2026-10-05.md) |
-| [ABEO](ABEO.md) | Abeona Therapeutics Inc. | $4.37 (27 Oct) | -0.7% since 23 Oct | -1.1 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [ACOG](ACOG.md) | Opaleye Management Inc. (10% owner) bought 36,940 shares at $8.35 = $308,576 on 2026-10-16 | $8.65 (27 Oct) | +0.5% since 20 Oct | +0.1 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [ACVA](ACVA.md) | ACV Auctions Inc. | $10.50 (16 Oct) | +0.6% since 29 Sep | +1.3 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [ADSK](ADSK.md) | Autodesk, Inc. | $243.34 (27 Oct) | +5.2% since 06 Oct | +5.2 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [AEHL](AEHL.md) | Antelope Enterprise Holdings Ltd | $7.56 (27 Oct) | -14.6% since 23 Oct | -15.3 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [AGMB](AGMB.md) | Epstein David R (director) bought 10,000 shares at $8.88 = $88,800 on 2026-10-21 | $8.41 (27 Oct) | -7.1% since 23 Oct | -8.3 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [AMPY](AMPY.md) | Amplify Energy Corp. | $4.35 (27 Oct) | +0.2% since 14 Oct | -2.2 pts | [2026-10-14](../scans/2026-10-14.md) |
-| [ASTS](ASTS.md) | AST SpaceMobile, Inc. | $41.33 (27 Oct) | -7.0% since 15 Oct | -5.3 pts | [2026-10-27](../scans/2026-10-27.md) |
-| [ATKR](ATKR.md) | Atkore Inc. | $94.96 (16 Oct) | +0.1% since 07 Oct | -0.5 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [BRUN](BRUN.md) | Boost Run Inc. | $8.29 (27 Oct) | -2.1% since 20 Oct | -6.8 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [BSY](BSY.md) | Bentley Systems Inc | $38.81 (27 Oct) | +7.9% since 06 Oct | +7.9 pts | [2026-10-08](../scans/2026-10-08.md) |
-| [CHRW](CHRW.md) | C. H. Robinson Worldwide, Inc. | $141.07 (27 Oct) | +0.3% since 05 Oct | +2.4 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [CLF](CLF.md) | Cleveland-cliffs Inc. | $13.98 (27 Oct) | +14.6% since 05 Oct | +10.8 pts | [2026-10-27](../scans/2026-10-27.md) |
-| [CVX](CVX.md) | Chevron Corp | $229.51 (27 Oct) | +6.8% since 12 Oct | +5.7 pts | [2026-10-12](../scans/2026-10-12.md) |
-| [CYAB](CYAB.md) | Cyabra, Inc. | $0.130 (27 Oct) | -35.2% since 04 Oct | -33.9 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [DFNS](DFNS.md) | T3 Defense Inc. | $3.62 (27 Oct) | -12.0% since 23 Oct | -13.8 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [DYAI](DYAI.md) | Dyadic International Inc | $0.414 (27 Oct) | -10.0% since 04 Oct | -8.7 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [FLD](FLD.md) | Fold Holdings, Inc. | $0.512 (27 Oct) | -5.2% since 29 Sep | -3.6 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [FWDI](FWDI.md) | Forward Industries, Inc. | $6.68 (27 Oct) | -7.1% since 12 Oct | -5.4 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [GOVX](GOVX.md) | GeoVax Labs, Inc. | $0.201 (27 Oct) | -37.1% since 04 Oct | -37.7 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [GRND](GRND.md) | Grindr Inc. | $13.13 (27 Oct) | -15.1% since 13 Oct | -16.4 pts | [2026-10-13](../scans/2026-10-13.md) |
-| [GRNT](GRNT.md) | Granite Ridge Resources, Inc. | $5.82 (27 Oct) | +17.9% since 14 Oct | +14.1 pts | [2026-10-14](../scans/2026-10-14.md) |
-| [GTBP](GTBP.md) | GT Biopharma, Inc. | $5.29 (27 Oct) | -20.8% since 09 Oct | -21.9 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [GWH](GWH.md) | ESS Tech, Inc. | $0.060 (26 Oct) | -61.8% since 04 Oct | -52.5 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [GXAI](GXAI.md) | Gaxos.ai Inc. | $0.449 (27 Oct) | -13.0% since 04 Oct | -7.2 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [HCTI](HCTI.md) | Healthcare Triangle, Inc. | $6.76 (27 Oct) | -53.4% since 02 Oct | -42.3 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [HESM](HESM.md) | Hess Midstream LP, filed by Hess Investments North Dakota LLC | $31.34 (27 Oct) | -3.2% since 12 Oct | -2.9 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [HUBG](HUBG.md) | Hub Group, Inc. | $26.38 (27 Oct) | -6.3% since 06 Oct | -4.9 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [INVE](INVE.md) | INVE Technologies, Inc. | $2.72 (27 Oct) | -2.0% since 21 Oct | -3.5 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [JBHT](JBHT.md) | Hunt J B Transport Services Inc | $226.85 (27 Oct) | +0.4% since 06 Oct | +1.6 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [KOS](KOS.md) | Kosmos Energy Ltd. | $2.82 (27 Oct) | +3.9% since 14 Oct | +0.3 pts | [2026-10-14](../scans/2026-10-14.md) |
-| [LEU](LEU.md) | Centrus Energy Corp | $105.64 (27 Oct) | -16.8% since 15 Oct | -15.5 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [LSTR](LSTR.md) | Landstar System Inc | $166.44 (27 Oct) | -1.5% since 06 Oct | -0.2 pts | [2026-10-06](../scans/2026-10-06.md) |
-| [MDT](MDT.md) | Medtronic plc | $94.08 (27 Oct) | +7.2% since 08 Oct | +6.4 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [MDXG](MDXG.md) | Mimedx Group, Inc. | $3.87 (27 Oct) | -12.6% since 16 Oct | -15.1 pts | [2026-10-18](../scans/2026-10-18.md) |
-| [MP](MP.md) | MP Materials Corp. / DE | $39.45 (27 Oct) | -15.8% since 05 Oct | -14.5 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [MTCH](MTCH.md) | Match Group, Inc. | $44.14 (27 Oct) | +4.2% since 13 Oct | +2.3 pts | [2026-10-13](../scans/2026-10-13.md) |
-| [NCT](NCT.md) | Intercont (Cayman) Ltd | $1.59 (27 Oct) | +7.4% since 26 Oct | +2.5 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [NE](NE.md) | Noble Corp plc | $45.83 (27 Oct) | +6.7% since 12 Oct | +5.1 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [NNE](NNE.md) | Nano Nuclear Energy Inc.: SEC staff letter dated 2025-08-21 | $12.49 (27 Oct) | -20.0% since 02 Oct | -19.1 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [NWCL](NWCL.md) | newcleo plc | $4.43 (27 Oct) | -6.8% since 19 Oct | -10.2 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [OKLO](OKLO.md) | Oklo Inc. | $27.08 (27 Oct) | -9.8% since 15 Oct | -8.8 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [OSTX](OSTX.md) | OS Therapies Inc: sold $7,172,429 of $12,282,478 | $1.23 (27 Oct) | +1.6% since 26 Oct | +0.8 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [PATK](PATK.md) | Patrick Industries Inc | $69.01 (27 Oct) | +7.3% since 13 Oct | +7.6 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [PCOR](PCOR.md) | Procore Technologies, Inc. | $61.84 (27 Oct) | +13.7% since 06 Oct | +14.5 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [PL](PL.md) | Planet Labs PBC | $14.20 (27 Oct) | -2.3% since 15 Oct | -1.6 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [PMI](PMI.md) | Picard Medical, Inc. | $6.68 (27 Oct) | -5.8% since 23 Oct | -7.1 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [POLA](POLA.md) | Polar Power, Inc. | $0.670 (27 Oct) | -46.8% since 28 Sep | -46.9 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [PZZA](PZZA.md) | PAPA JOHNS INTERNATIONAL INC, filed by Norbel Investments, S.L. | $18.02 (27 Oct) | -1.2% since 21 Oct | -3.4 pts | [2026-10-21](../scans/2026-10-21.md) |
-| [RAPP](RAPP.md) | Sanchez Ramiro (director) bought 3,600 shares at $27.35 = $98,478 on 2026-10-23 | $25.88 (27 Oct) | +2.2% since 26 Oct | +3.0 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [RENT](RENT.md) | Nexus Capital Management LP (director, 10% owner) + Gateway Runway, LLC (director, 10% owner) + Gateway Runway Intermediate Holdings, Inc. (director, 10% owner) + 7 more bought 632,922 shares at $3.55 = $2,246,873 on 2026-10-21 | $2.84 (27 Oct) | +0.7% since 26 Oct | -1.4 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [RIG](RIG.md) | Transocean Ltd. | $6.46 (27 Oct) | +15.4% since 12 Oct | +14.5 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [RKLB](RKLB.md) | Rocket Lab Corp | $55.74 (27 Oct) | +0.9% since 15 Oct | +1.4 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [SAMG](SAMG.md) | Equinox Partners Investment Management LLC (10% owner) + EQUINOX PARTNERS LP (10% owner) bought 34,126 shares at $10.33 = $352,684 on 2026-10-22 | $10.29 (27 Oct) | -1.3% since 26 Oct | -0.5 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [SBGSY](SBGSY.md) | SBGSY | $53.82 (27 Oct) | -7.5% since 06 Oct | -5.1 pts | [2026-10-20](../scans/2026-10-20.md) |
-| [SDRL](SDRL.md) | SEADRILL Ltd, filed by Elliott Investment Management L.P. | $51.38 (27 Oct) | +9.3% since 12 Oct | +5.9 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [SMR](SMR.md) | NUSCALE POWER Corp | $5.57 (27 Oct) | -9.4% since 15 Oct | -7.9 pts | [2026-10-15](../scans/2026-10-15.md) |
-| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $0.181 (27 Oct) | -43.8% since 04 Oct | -40.3 pts | [2026-10-16](../scans/2026-10-16.md) |
-| [SWBI](SWBI.md) | Smith & Wesson Brands, Inc. | $13.86 (27 Oct) | -8.2% since 21 Oct | -9.3 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [THO](THO.md) | Thor Industries Inc | $68.93 (27 Oct) | +5.3% since 14 Oct | +0.5 pts | [2026-10-14](../scans/2026-10-14.md) |
-| [TKNO](TKNO.md) | Alpha Teknova, Inc. | $6.66 (27 Oct) | +13.9% since 21 Oct | +17.8 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [TMCR](TMCR.md) | Metals Royalty Co Inc. | $2.12 (27 Oct) | +0.0% since 23 Oct | -2.1 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [TNON](TNON.md) | Tenon Medical, Inc. | $2.25 (27 Oct) | -22.1% since 13 Oct | -21.9 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [UAMY](UAMY.md) | United States Antimony Corp | $3.09 (27 Oct) | -21.9% since 05 Oct | -21.0 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [UMAC](UMAC.md) | Unusual Machines, Inc. | $17.40 (27 Oct) | -11.4% since 12 Oct | -9.9 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [VAL](VAL.md) | Valaris Ltd | $98.14 (27 Oct) | +15.5% since 12 Oct | +14.0 pts | [2026-10-26](../scans/2026-10-26.md) |
-| [VHUB](VHUB.md) | VenHub Global, Inc. | $0.312 (27 Oct) | -35.0% since 04 Oct | -27.7 pts | [2026-10-04](../scans/2026-10-04.md) |
-| [VRA](VRA.md) | Vera Bradley, Inc., filed by ROYCE & ASSOCIATES LP | $5.87 (27 Oct) | -4.1% since 22 Oct | -4.9 pts | [2026-10-22](../scans/2026-10-22.md) |
-| [VREX](VREX.md) | Varex Imaging Corp | $18.43 (27 Oct) | +0.1% since 22 Oct | -1.1 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [VRT](VRT.md) | Vertiv Holdings Co | $208.42 (27 Oct) | -17.8% since 05 Oct | -15.5 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [WGO](WGO.md) | Winnebago Industries Inc | $27.96 (27 Oct) | +21.1% since 14 Oct | +16.6 pts | [2026-10-23](../scans/2026-10-23.md) |
-| [WTI](WTI.md) | W&t Offshore Inc | $4.19 (27 Oct) | +14.8% since 14 Oct | +12.7 pts | [2026-10-19](../scans/2026-10-19.md) |
-| [XRPN](XRPN.md) | Evernorth Holdings Inc. | $15.35 (27 Oct) | -10.2% since 09 Oct | -7.8 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [AAON](AAON.md) | Aaon, Inc. | $72.53 (27 Oct) | -14.0% since 05 Oct | -13.1 pts | [2026-10-05](../scans/2026-10-05.md) |
+| [ABEO](ABEO.md) | Abeona Therapeutics Inc. | $4.45 (27 Oct) | +1.0% since 23 Oct | +0.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [ACOG](ACOG.md) | Opaleye Management Inc. (10% owner) bought 36,940 shares at $8.35 = $308,576 on 2026-10-16 | $8.58 (27 Oct) | -0.3% since 20 Oct | -1.0 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [ACVA](ACVA.md) | ACV Auctions Inc. | $10.50 (16 Oct) | +0.6% since 29 Sep | +1.0 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [ADSK](ADSK.md) | Autodesk, Inc. | $243.68 (27 Oct) | +5.4% since 06 Oct | +5.0 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [AEHL](AEHL.md) | Antelope Enterprise Holdings Ltd | $7.56 (27 Oct) | -14.6% since 23 Oct | -15.7 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [AGMB](AGMB.md) | Epstein David R (director) bought 10,000 shares at $8.88 = $88,800 on 2026-10-21 | $8.43 (27 Oct) | -6.8% since 23 Oct | -8.4 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [AMPY](AMPY.md) | Amplify Energy Corp. | $4.32 (27 Oct) | -0.5% since 14 Oct | -3.2 pts | [2026-10-14](../scans/2026-10-14.md) |
+| [ASTS](ASTS.md) | AST SpaceMobile, Inc. | $42.14 (27 Oct) | -5.2% since 15 Oct | -3.8 pts | [2026-10-27](../scans/2026-10-27.md) |
+| [ATKR](ATKR.md) | Atkore Inc. | $94.96 (16 Oct) | +0.1% since 07 Oct | -0.8 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [BRUN](BRUN.md) | Boost Run Inc. | $8.28 (27 Oct) | -2.2% since 20 Oct | -7.2 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [BSY](BSY.md) | Bentley Systems Inc | $38.98 (27 Oct) | +8.4% since 06 Oct | +8.1 pts | [2026-10-08](../scans/2026-10-08.md) |
+| [CHRW](CHRW.md) | C. H. Robinson Worldwide, Inc. | $141.26 (27 Oct) | +0.5% since 05 Oct | +2.2 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [CLF](CLF.md) | Cleveland-cliffs Inc. | $13.84 (27 Oct) | +13.4% since 05 Oct | +9.3 pts | [2026-10-27](../scans/2026-10-27.md) |
+| [CVX](CVX.md) | Chevron Corp | $228.76 (27 Oct) | +6.4% since 12 Oct | +5.0 pts | [2026-10-12](../scans/2026-10-12.md) |
+| [CYAB](CYAB.md) | Cyabra, Inc. | $0.132 (27 Oct) | -34.2% since 04 Oct | -33.2 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [DFNS](DFNS.md) | T3 Defense Inc. | $3.57 (27 Oct) | -13.1% since 23 Oct | -15.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [DYAI](DYAI.md) | Dyadic International Inc | $0.406 (27 Oct) | -11.7% since 04 Oct | -10.7 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [FLD](FLD.md) | Fold Holdings, Inc. | $0.512 (27 Oct) | -5.2% since 29 Sep | -3.9 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [FWDI](FWDI.md) | Forward Industries, Inc. | $6.64 (27 Oct) | -7.7% since 12 Oct | -6.3 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [GOVX](GOVX.md) | GeoVax Labs, Inc. | $0.201 (27 Oct) | -37.1% since 04 Oct | -38.0 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [GRND](GRND.md) | Grindr Inc. | $13.10 (27 Oct) | -15.3% since 13 Oct | -17.0 pts | [2026-10-13](../scans/2026-10-13.md) |
+| [GRNT](GRNT.md) | Granite Ridge Resources, Inc. | $5.79 (27 Oct) | +17.2% since 14 Oct | +13.0 pts | [2026-10-14](../scans/2026-10-14.md) |
+| [GTBP](GTBP.md) | GT Biopharma, Inc. | $5.50 (27 Oct) | -17.7% since 09 Oct | -19.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [GWH](GWH.md) | ESS Tech, Inc. | $0.060 (26 Oct) | -61.8% since 04 Oct | -52.8 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [GXAI](GXAI.md) | Gaxos.ai Inc. | $0.443 (27 Oct) | -14.1% since 04 Oct | -8.7 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [HCTI](HCTI.md) | Healthcare Triangle, Inc. | $6.66 (27 Oct) | -54.1% since 02 Oct | -43.5 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [HESM](HESM.md) | Hess Midstream LP, filed by Hess Investments North Dakota LLC | $31.48 (27 Oct) | -2.8% since 12 Oct | -2.8 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [HUBG](HUBG.md) | Hub Group, Inc. | $26.56 (27 Oct) | -5.7% since 06 Oct | -4.6 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [INVE](INVE.md) | INVE Technologies, Inc. | $2.73 (27 Oct) | -1.6% since 21 Oct | -3.5 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [JBHT](JBHT.md) | Hunt J B Transport Services Inc | $227.47 (27 Oct) | +0.7% since 06 Oct | +1.5 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [KOS](KOS.md) | Kosmos Energy Ltd. | $2.78 (27 Oct) | +2.4% since 14 Oct | -1.5 pts | [2026-10-14](../scans/2026-10-14.md) |
+| [LEU](LEU.md) | Centrus Energy Corp | $106.59 (27 Oct) | -16.1% since 15 Oct | -15.1 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [LSTR](LSTR.md) | Landstar System Inc | $166.66 (27 Oct) | -1.4% since 06 Oct | -0.4 pts | [2026-10-06](../scans/2026-10-06.md) |
+| [MDT](MDT.md) | Medtronic plc | $93.99 (27 Oct) | +7.1% since 08 Oct | +5.9 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [MDXG](MDXG.md) | Mimedx Group, Inc. | $3.88 (27 Oct) | -12.4% since 16 Oct | -15.2 pts | [2026-10-18](../scans/2026-10-18.md) |
+| [MP](MP.md) | MP Materials Corp. / DE | $39.69 (27 Oct) | -15.3% since 05 Oct | -14.4 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [MTCH](MTCH.md) | Match Group, Inc. | $44.17 (27 Oct) | +4.3% since 13 Oct | +2.1 pts | [2026-10-13](../scans/2026-10-13.md) |
+| [NCT](NCT.md) | Intercont (Cayman) Ltd | $1.52 (27 Oct) | +3.0% since 26 Oct | -2.0 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [NE](NE.md) | Noble Corp plc | $45.55 (27 Oct) | +6.1% since 12 Oct | +4.1 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [NNE](NNE.md) | Nano Nuclear Energy Inc.: SEC staff letter dated 2025-08-21 | $12.59 (27 Oct) | -19.4% since 02 Oct | -18.8 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [NWCL](NWCL.md) | newcleo plc | $4.36 (27 Oct) | -8.2% since 19 Oct | -11.9 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [OKLO](OKLO.md) | Oklo Inc. | $27.32 (27 Oct) | -9.0% since 15 Oct | -8.3 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [OSTX](OSTX.md) | OS Therapies Inc: sold $7,172,429 of $12,282,478 | $1.22 (27 Oct) | +0.8% since 26 Oct | -0.4 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [PATK](PATK.md) | Patrick Industries Inc | $69.04 (27 Oct) | +7.3% since 13 Oct | +7.3 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [PCOR](PCOR.md) | Procore Technologies, Inc. | $62.10 (27 Oct) | +14.2% since 06 Oct | +14.6 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [PL](PL.md) | Planet Labs PBC | $14.42 (27 Oct) | -0.8% since 15 Oct | -0.4 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [PMI](PMI.md) | Picard Medical, Inc. | $6.68 (27 Oct) | -5.8% since 23 Oct | -7.5 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [POLA](POLA.md) | Polar Power, Inc. | $0.660 (27 Oct) | -47.6% since 28 Sep | -48.0 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [PZZA](PZZA.md) | PAPA JOHNS INTERNATIONAL INC, filed by Norbel Investments, S.L. | $17.94 (27 Oct) | -1.6% since 21 Oct | -4.2 pts | [2026-10-21](../scans/2026-10-21.md) |
+| [RAPP](RAPP.md) | Sanchez Ramiro (director) bought 3,600 shares at $27.35 = $98,478 on 2026-10-23 | $26.75 (27 Oct) | +5.6% since 26 Oct | +6.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [RENT](RENT.md) | Nexus Capital Management LP (director, 10% owner) + Gateway Runway, LLC (director, 10% owner) + Gateway Runway Intermediate Holdings, Inc. (director, 10% owner) + 7 more bought 632,922 shares at $3.55 = $2,246,873 on 2026-10-21 | $2.72 (27 Oct) | -3.5% since 26 Oct | -5.9 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [RIG](RIG.md) | Transocean Ltd. | $6.42 (27 Oct) | +14.6% since 12 Oct | +13.5 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [RKLB](RKLB.md) | Rocket Lab Corp | $56.97 (27 Oct) | +3.1% since 15 Oct | +3.3 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [SAMG](SAMG.md) | Equinox Partners Investment Management LLC (10% owner) + EQUINOX PARTNERS LP (10% owner) bought 34,126 shares at $10.33 = $352,684 on 2026-10-22 | $10.35 (27 Oct) | -0.7% since 26 Oct | -0.2 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [SBGSY](SBGSY.md) | SBGSY | $54.01 (27 Oct) | -7.2% since 06 Oct | -5.1 pts | [2026-10-20](../scans/2026-10-20.md) |
+| [SDRL](SDRL.md) | SEADRILL Ltd, filed by Elliott Investment Management L.P. | $50.83 (27 Oct) | +8.2% since 12 Oct | +4.4 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [SMR](SMR.md) | NUSCALE POWER Corp | $5.65 (27 Oct) | -8.1% since 15 Oct | -6.9 pts | [2026-10-15](../scans/2026-10-15.md) |
+| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $0.183 (27 Oct) | -43.2% since 04 Oct | -40.0 pts | [2026-10-16](../scans/2026-10-16.md) |
+| [SWBI](SWBI.md) | Smith & Wesson Brands, Inc. | $13.92 (27 Oct) | -7.8% since 21 Oct | -9.3 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [THO](THO.md) | Thor Industries Inc | $69.61 (27 Oct) | +6.3% since 14 Oct | +1.2 pts | [2026-10-14](../scans/2026-10-14.md) |
+| [TKNO](TKNO.md) | Alpha Teknova, Inc. | $6.94 (27 Oct) | +18.6% since 21 Oct | +22.4 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [TMCR](TMCR.md) | Metals Royalty Co Inc. | $2.12 (27 Oct) | +0.0% since 23 Oct | -2.4 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [TNON](TNON.md) | Tenon Medical, Inc. | $2.22 (27 Oct) | -23.2% since 13 Oct | -23.3 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [UAMY](UAMY.md) | United States Antimony Corp | $3.15 (27 Oct) | -20.2% since 05 Oct | -19.7 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [UMAC](UMAC.md) | Unusual Machines, Inc. | $17.52 (27 Oct) | -10.8% since 12 Oct | -9.6 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [VAL](VAL.md) | Valaris Ltd | $97.65 (27 Oct) | +15.0% since 12 Oct | +13.0 pts | [2026-10-26](../scans/2026-10-26.md) |
+| [VHUB](VHUB.md) | VenHub Global, Inc. | $0.309 (27 Oct) | -35.6% since 04 Oct | -28.7 pts | [2026-10-04](../scans/2026-10-04.md) |
+| [VRA](VRA.md) | Vera Bradley, Inc., filed by ROYCE & ASSOCIATES LP | $5.95 (27 Oct) | -2.8% since 22 Oct | -4.0 pts | [2026-10-22](../scans/2026-10-22.md) |
+| [VREX](VREX.md) | Varex Imaging Corp | $18.43 (27 Oct) | +0.1% since 22 Oct | -1.4 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [VRT](VRT.md) | Vertiv Holdings Co | $208.16 (27 Oct) | -17.9% since 05 Oct | -15.9 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [WGO](WGO.md) | Winnebago Industries Inc | $28.18 (27 Oct) | +22.0% since 14 Oct | +17.2 pts | [2026-10-23](../scans/2026-10-23.md) |
+| [WTI](WTI.md) | W&t Offshore Inc | $4.16 (27 Oct) | +14.1% since 14 Oct | +11.6 pts | [2026-10-19](../scans/2026-10-19.md) |
+| [XRPN](XRPN.md) | Evernorth Holdings Inc. | $15.37 (27 Oct) | -10.1% since 09 Oct | -8.0 pts | [2026-10-26](../scans/2026-10-26.md) |

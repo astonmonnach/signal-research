@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $18.76 (2026-10-27, ledger) · 1d +1.5%, 5d +6.0%, 20d +5.2% (market context, 2026-10-27)
-- **Since first found:** **-2.7%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -0.6% vs IWM -0.8% = **+0.2 pts** vs IWM; direction -1 → excess -0.2% (28 days)
+- **Latest price:** $18.76 (2026-10-27, ledger) · 1d +1.9%, 5d +6.4%, 20d +5.6% (market context, 2026-10-27)
+- **Since first found:** **-2.7%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -0.6% vs IWM -0.5% = **-0.1 pts** vs IWM; direction -1 → excess +0.1% (28 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +6.0% vs peer median +4.1%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-27)
+- **Peers / sympathy:** no flag (self 5d +6.4% vs peer median +3.3%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 27 Oct 2026: BKR: Baker Hughes Q3 results 17:00 (HMH holder; watch for HMH share sales)
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
@@ -119,7 +119,7 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.76 | -2.7% | -0.6% | -0.8% | -0.2% | 28 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.76 | +5.6% | +5.6% | -0.8% | -6.3% | 27 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.76 | +4.6% | +4.3% | +1.2% | -3.1% | 5 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.76 | +4.6% | +4.3% | +1.2% |  | 5 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.76 | -2.7% | -0.6% | -0.5% | +0.1% | 28 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.76 | +5.6% | +5.6% | -0.4% | -6.0% | 27 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.76 | +4.6% | +4.3% | +1.5% | -2.8% | 5 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.76 | +4.6% | +4.3% | +1.5% |  | 5 | live |

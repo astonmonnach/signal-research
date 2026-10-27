@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $384.39 (2026-10-26, ledger) · 1d -1.1%, 5d -3.9%, 20d -7.7% (market context, 2026-10-26)
-- **Since first found:** **-4.5%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: -4.9% vs IWM -0.1% = **-4.8 pts** vs IWM; direction 0, tracked only (14 days)
+- **Since first found:** **-4.5%** (found 2026-10-10 via `spin_off` at $402.30). From the next open $404.36: -4.9% vs IWM +0.2% = **-5.1 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** no flag (self 5d -3.9% vs peer median -2.4%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-26)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $384.39 | -4.5% | -4.9% | -0.1% |  | 14 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $402.30 | $404.36 | $384.39 | -4.5% | -4.9% | +0.2% |  | 14 | live |
