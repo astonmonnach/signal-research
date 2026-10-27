@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_deep_dive` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
 - **Latest price:** $5.03 (2026-10-27, ledger) · 1d -0.3%, 5d +6.7%, 20d +24.7% (market context, 2026-10-27)
-- **Since first found:** **+18.8%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +16.9% vs IWM -2.3% = **+19.2 pts** vs IWM; direction +1 → excess +19.2% (21 days)
+- **Since first found:** **+18.8%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +16.9% vs IWM -2.2% = **+19.1 pts** vs IWM; direction +1 → excess +19.1% (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** solo_move: ESRT +6.7% 5d vs peer median +1.4%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for ESRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.03 | +18.8% | +16.9% | -2.3% | +19.2% | 21 | live |
+| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.03 | +18.8% | +16.9% | -2.2% | +19.1% | 21 | live |
 | 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.03 | +9.7% | +10.0% | -0.1% |  | 18 | live |

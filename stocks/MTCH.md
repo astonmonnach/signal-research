@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $44.85 (2026-10-27, ledger)
-- **Since first found:** **+5.9%** (found 2026-10-13 via `deal_peer` at $42.36). From the next open $42.42: +5.7% vs IWM +1.6% = **+4.1 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $44.14 (2026-10-27, ledger)
+- **Since first found:** **+4.2%** (found 2026-10-13 via `deal_peer` at $42.36). From the next open $42.42: +4.0% vs IWM +1.7% = **+2.3 pts** vs IWM; direction 0, tracked only (13 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -24,4 +24,4 @@ Every [ledger](../ledger/LEDGER.md) row for MTCH ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `deal_peer` | 0 | +3.0% | +2.0% | $144.3M | $42.36 | $42.42 | $44.85 | +5.9% | +5.7% | +1.6% |  | 13 | live |
+| 2026-10-13 | `deal_peer` | 0 | +3.0% | +2.0% | $144.3M | $42.36 | $42.42 | $44.14 | +4.2% | +4.0% | +1.7% |  | 13 | live |
