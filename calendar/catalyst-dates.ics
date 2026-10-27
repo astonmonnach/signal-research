@@ -869,4 +869,36 @@ DTEND;VALUE=DATE:20261208
 SUMMARY:CEPL: secured notes mature; Monarch (39.8%) in refinancing talks
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1009759/000121390026112311/0001213900-26-112311-index.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:a035fb3e3f737e3912bfe085f2f806e0@signal-lab
+DTSTAMP:20261027T200000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:MTUS: Q3 results after the close (open position\, trade #1)
+DESCRIPTION:https://www.prnewswire.com/news-releases/metallus-announces-third-quarter-2026-earnings-webcast-details-302907111.html
+END:VEVENT
+BEGIN:VEVENT
+UID:0db0aa8f801d4d129fdf2f58dbf06b44@signal-lab
+DTSTAMP:20261027T200000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:MTUS: Q3 call 9am New York = 14:00 UK
+DESCRIPTION:https://www.prnewswire.com/news-releases/metallus-announces-third-quarter-2026-earnings-webcast-details-302907111.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b14d60d3c36ac8b81cc23f6d5e5513ad@signal-lab
+DTSTAMP:20261027T200000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2067627/000114036126040808/ny20082129x4_def14a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fd6808f10bfb9e09f68ba5ec60e11b2b@signal-lab
+DTSTAMP:20261027T200000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:MSGK: annual meeting (MSG Knickerbockers\, formerly MSGS)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1636519/000162828026067420/msgs-20261027.htm
+END:VEVENT
 END:VCALENDAR
