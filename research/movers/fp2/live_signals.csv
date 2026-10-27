@@ -22,5 +22,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-23,22:36,True,SKYQ,Sky Quarry Inc. Common Stock,S2,2.1,7501019,961660,7.8,1317265,,,2.15,2.1,2026-10-26,-0.023256,-0.043256,filled
 2026-10-23,22:36,True,STAK,STAK Inc. Class A Ordinary Shares,S2,1.67,84115928,5835555,14.41,328393,,,1.74,1.61,2026-10-26,-0.074713,-0.094713,filled
 2026-10-23,22:36,True,TROO,TROOPS Inc. Ordinary Shares ,S2,2.32,1801877,250910,7.18,279390,,,2.35,2.37,2026-10-26,0.008511,-0.011489,filled
-2026-10-26,23:19,True,AARD,Aardvark Therapeutics Inc. Common Stock,S2,1.39,16345672,994115,16.44,487360,,,,,,,,open
-2026-10-26,23:19,True,RENT,Rent the Runway Inc. Class A Common Stock,S2,2.3,6697406,362410,18.48,252790,,,,,,,,open
+2026-10-26,23:19,True,AARD,Aardvark Therapeutics Inc. Common Stock,S2,1.39,16345672,994115,16.44,487360,,,1.08,1.09,2026-10-27,0.009259,-0.010741,filled
+2026-10-26,23:19,True,RENT,Rent the Runway Inc. Class A Common Stock,S2,2.3,6697406,362410,18.48,252790,,,2.82,2.88,2026-10-27,0.021277,0.001277,filled
