@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $22.62 (2026-10-28, ledger)
-- **Since first found:** **-10.7%** (found 2026-10-26 via `insider_cluster` at $25.33). From the next open $25.11: -9.9% vs IWM +0.8% = **-10.7 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $22.82 (2026-10-28, ledger)
+- **Since first found:** **-9.9%** (found 2026-10-26 via `insider_cluster` at $25.33). From the next open $25.11: -9.1% vs IWM +0.6% = **-9.7 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for RAPP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `insider_cluster` | 0 | -5.9% | -2.3% | $27.0M | $25.33 | $25.11 | $22.62 | -10.7% | -9.9% | +0.8% |  | 1 | live |
+| 2026-10-26 | `insider_cluster` | 0 | -5.9% | -2.3% | $27.0M | $25.33 | $25.11 | $22.82 | -9.9% | -9.1% | +0.6% |  | 1 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $4.05 (2026-10-28, ledger) · 1d -2.5%, 5d +2.1%, 20d +3.7% (market context, 2026-10-28)
-- **Since first found:** **+1.9%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +1.6% vs IWM +1.2% = **+0.5 pts** vs IWM; direction 0, tracked only (7 days)
-- **Peers / sympathy:** no flag (self 5d +2.1% vs peer median -1.1%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Latest price:** $4.05 (2026-10-28, ledger) · 1d -2.4%, 5d +2.3%, 20d +3.9% (market context, 2026-10-28)
+- **Since first found:** **+1.9%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +1.6% vs IWM +1.0% = **+0.7 pts** vs IWM; direction 0, tracked only (7 days)
+- **Peers / sympathy:** no flag (self 5d +2.3% vs peer median -1.6%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.05 | +1.9% | +1.6% | +1.2% |  | 7 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.05 | +1.9% | +1.6% | +1.0% |  | 7 | live |

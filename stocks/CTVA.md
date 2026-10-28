@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $11.60 (2026-10-28, ledger) · 1d -0.3%, 5d -8.8%, 20d -0.5% (market context, 2026-10-28)
-- **Since first found:** **+618.7%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +618.3% vs IWM -0.0% = **+618.4 pts** vs IWM; direction 0, tracked only (28 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $11.49 (2026-10-28, ledger) · 1d -1.2%, 5d -9.7%, 20d -1.4% (market context, 2026-10-28)
+- **Since first found:** **+615.2%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +614.9% vs IWM -0.2% = **+615.1 pts** vs IWM; direction 0, tracked only (28 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: CTVA -8.8% 5d vs peer median +2.0% (crop inputs +2.7%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** solo_move: CTVA -9.7% 5d vs peer median +1.7% (crop inputs +2.4%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -120,7 +120,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $11.60 | +618.7% | +618.3% | -0.0% |  | 28 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $11.60 | -6.3% | -11.3% | -1.5% |  | 22 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $11.49 | +615.2% | +614.9% | -0.2% |  | 28 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $11.49 | -7.3% | -12.2% | -1.7% |  | 22 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._
