@@ -1,10 +1,114 @@
 [
  {
-  "published_utc": "2026-10-28T07:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "SGRY",
-  "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Surgery Partners, Inc. (NASDAQ: SGRY)",
-  "link": "https://www.prnewswire.com/news-releases/hareholder-alert-the-ma-class-action-firm-announces-an-investigation-of-surgery-partners-inc-nasdaq-sgry-302921664.html",
+  "published_utc": "2026-10-28T13:15:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CYAB",
+  "title": "Cyabra Finds Coordinated Inauthentic Activity in Five of Six Competitive Midterm Races, Affecting Candidates from Both Parties",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390290/0/en/cyabra-finds-coordinated-inauthentic-activity-in-five-of-six-competitive-midterm-races-affecting-candidates-from-both-parties.html",
   "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-28T12:15:00Z",
+  "wire": "PR Newswire",
+  "ticker": "MDA",
+  "title": "49North Qualifies Across All Five Streams of Canada's Defence Drone Initiative Marketplace",
+  "link": "https://www.prnewswire.com/news-releases/49north-qualifies-across-all-five-streams-of-canadas-defence-drone-initiative-marketplace-302919838.html",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-28T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "TWST",
+  "title": "Twist Bioscience Expands High-Throughput Antibody Characterization with Launch of Express Screening Antibodies",
+  "link": "http://www.businesswire.com/news/home/20261028674791/en/Twist-Bioscience-Expands-High-Throughput-Antibody-Characterization-with-Launch-of-Express-Screening-Antibodies/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-28T10:03:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PATK;LCII",
+  "title": "Patrick Industries, Inc. Reaffirms Merger Agreement with LCI Industries",
+  "link": "https://www.prnewswire.com/news-releases/patrick-industries-inc-reaffirms-merger-agreement-with-lci-industries-302921983.html",
+  "matched_on": "watchlist;keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-10-28T10:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "LCII;PATK",
+  "title": "LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners",
+  "link": "http://www.businesswire.com/news/home/20261027923281/en/LCI-Industries-Confirms-Receipt-of-Unsolicited-Non-Binding-Proposal-from-Monomoy-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "watchlist;keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-28T13:41:00Z",
+  "wire": "Business Wire",
+  "ticker": "GMAB",
+  "title": "Genmab Announces Statistically Significant, Clinically Meaningful Improvement in Overall Survival and Objective Response with Petosemtamab Combination at First Interim Analysis in First-Line R/M Patients with PD-L1+ Head and Neck Cancer",
+  "link": "http://www.businesswire.com/news/home/20261028593187/en/Genmab-Announces-Statistically-Significant-Clinically-Meaningful-Improvement-in-Overall-Survival-and-Objective-Response-with-Petosemtamab-Combination-at-First-Interim-Analysis-in-First-Line-RM-Patients-with-PD-L1-Head-and-Neck-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-28T13:27:00Z",
+  "wire": "PR Newswire",
+  "ticker": "APH",
+  "title": "Industrial Growth Partners Announces Sale of AdvancedPCB",
+  "link": "https://www.prnewswire.com/news-releases/industrial-growth-partners-announces-sale-of-advancedpcb-302921255.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-28T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ACNB",
+  "title": "ACNB Corporation Announces Fourth Quarter of 2026 Regular and Special Cash Dividends",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390240/0/en/acnb-corporation-announces-fourth-quarter-of-2026-regular-and-special-cash-dividends.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-10-28T12:35:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SLS",
+  "title": "SELLAS Life Sciences Reaches 80th Event in Phase 3 REGAL Trial of Galinpepimut-S (GPS) in Acute Myeloid Leukemia",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390187/0/en/sellas-life-sciences-reaches-80th-event-in-phase-3-regal-trial-of-galinpepimut-s-gps-in-acute-myeloid-leukemia.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-28T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "APH",
+  "title": "Amphenol Reports Record Third Quarter 2026 Results and Announces Dividend Increase and New Stock Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261028544438/en/Amphenol-Reports-Record-Third-Quarter-2026-Results-and-Announces-Dividend-Increase-and-New-Stock-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-28T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "GERN",
+  "title": "Geron Corporation Provides Update on Phase 3 IMpactMF Clinical Trial of Imetelstat in Relapsed/Refractory Myelofibrosis",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390096/35501/en/geron-corporation-provides-update-on-phase-3-impactmf-clinical-trial-of-imetelstat-in-relapsed-refractory-myelofibrosis.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-28T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "INMB",
+  "title": "INmune Bio, Inc. Announces Pricing of $4.50 Million Registered Direct Offering and Concurrent Private Placement",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390116/0/en/inmune-bio-inc-announces-pricing-of-4-50-million-registered-direct-offering-and-concurrent-private-placement.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-10-28T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ANNX",
+  "title": "Annexon to Host Virtual Investor Event on November 3, 2026: Vonaprument for the Treatment of Geographic Atrophy - Highlighting Key Aspects of Phase 3 ARCHER II Trial",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390122/0/en/annexon-to-host-virtual-investor-event-on-november-3-2026-vonaprument-for-the-treatment-of-geographic-atrophy-highlighting-key-aspects-of-phase-3-archer-ii-trial.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-10-28T11:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "PVLA",
+  "title": "Palvella Announces FDA Acceptance and Priority Review of QTORIN™ Rapamycin NDA; February 28, 2027 PDUFA Target Action Date Set",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html",
+  "matched_on": "keyword:PDUFA"
  }
 ]
