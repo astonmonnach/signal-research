@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $2.17 (2026-10-28, ledger) · 1d +3.6%, 5d +16.3%, 20d +17.6% (market context, 2026-10-28)
-- **Since first found:** **+18.2%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +17.6% vs IWM +2.8% = **+14.7 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $2.17 (2026-10-28, ledger) · 1d +3.8%, 5d +16.6%, 20d +17.8% (market context, 2026-10-28)
+- **Since first found:** **+18.2%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +17.6% vs IWM +3.0% = **+14.6 pts** vs IWM; direction 0, tracked only (9 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ALEC +16.3% 5d vs peer median +1.2%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** solo_move: ALEC +16.6% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.17 | +18.2% | +17.6% | +2.8% |  | 9 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.17 | +18.2% | +17.6% | +2.8% |  | 9 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.17 | +18.2% | +17.6% | +3.0% |  | 9 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.17 | +18.2% | +17.6% | +3.0% |  | 9 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $5.53 (2026-10-28, ledger)
-- **Since first found:** **-17.2%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -18.6% vs IWM +0.4% = **-18.9 pts** vs IWM; direction -1 → excess +18.9% (16 days)
+- **Latest price:** $5.47 (2026-10-28, ledger)
+- **Since first found:** **-18.2%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -19.5% vs IWM +0.6% = **-20.1 pts** vs IWM; direction -1 → excess +20.1% (16 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for GTBP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $5.53 | -17.2% | -18.6% | +0.4% | +18.9% | 16 | live |
-| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $5.53 | +2.2% | +3.0% | +1.7% | -1.3% | 6 | live |
-| 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $5.53 | +0.2% | -0.9% | +1.7% |  | 5 | live |
+| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $5.47 | -18.2% | -19.5% | +0.6% | +20.1% | 16 | live |
+| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $5.47 | +1.0% | +1.8% | +1.9% | +0.1% | 6 | live |
+| 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $5.47 | -1.0% | -2.1% | +1.9% |  | 5 | live |

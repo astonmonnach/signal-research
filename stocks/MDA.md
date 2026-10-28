@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $29.17 (2026-10-28, ledger) · 1d -0.4%, 5d +1.5%, 20d -1.6% (market context, 2026-10-28)
-- **Since first found:** **+5.8%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +7.5% vs IWM +3.0% = **+4.5 pts** vs IWM; direction +1 → excess +4.5% (13 days)
+- **Latest price:** $29.27 (2026-10-28, ledger) · 1d -0.0%, 5d +1.9%, 20d -1.2% (market context, 2026-10-28)
+- **Since first found:** **+6.2%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +7.9% vs IWM +3.2% = **+4.7 pts** vs IWM; direction +1 → excess +4.7% (13 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +7.5% 5d vs MDA +1.5%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** missed_peer_move: peer median +7.7% 5d vs MDA +1.9%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $29.17 | +5.8% | +7.5% | +3.0% | +4.5% | 13 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $29.17 | +1.8% | +1.7% | +1.5% |  | 12 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $29.27 | +6.2% | +7.9% | +3.2% | +4.7% | 13 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $29.27 | +2.1% | +2.1% | +1.6% |  | 12 | live |
