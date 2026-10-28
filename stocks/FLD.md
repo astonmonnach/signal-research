@@ -21,9 +21,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.512 (2026-10-27, ledger)
-- **Since first found:** **-5.2%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -4.3% vs IWM -0.4% = **-3.9 pts** vs IWM; direction -1 → excess +3.9% (27 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $0.510 (2026-10-28, ledger)
+- **Since first found:** **-5.5%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -4.7% vs IWM +0.2% = **-4.8 pts** vs IWM; direction -1 → excess +4.8% (28 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -32,6 +32,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md))
+- **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +0.8%, found day -0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000119312526432128/fld-20261022.htm))
 - **[2026-10-22](../scans/2026-10-22.md)**: Calendar: FLD reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 29 Sep + deficiency Jul; $0.54; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-09-30](../scans/2026-09-30.md#triage-notes)**: Triage, dismissed: **EFFECT** notices (KRKR, CLNK, XRP, FEMY, FFBC, FLD, GWAV, MBAI, MLSS, NIVF, RZAI): I didn't open the underlying registrations; they're crypto ETFs… ([triage](../watch/digests/2026-09-30-triage.md))
@@ -43,5 +45,6 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.512 | -5.2% | -4.3% | -0.4% | +3.9% | 27 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.512 | -5.4% | -3.4% | -1.1% |  | 22 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.510 | -5.5% | -4.7% | +0.2% | +4.8% | 28 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.510 | -5.7% | -3.8% | -0.4% |  | 23 | live |
+| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.510 | +0.0% | -0.6% | +1.0% | +1.6% | 1 | live |

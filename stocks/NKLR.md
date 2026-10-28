@@ -6,16 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.10 (2026-10-27, market context) · 1d +3.7%, 5d -6.0%, 20d -37.1% (market context, 2026-10-27)
+- **Latest price:** $2.12 (2026-10-28, market context) · 1d -0.2%, 5d -4.7%, 20d -37.6% (market context, 2026-10-28)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** solo_move: NKLR -6.0% 5d vs peer median +1.9%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-27)
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Peers / sympathy:** solo_move: NKLR -4.7% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **NKLR**: AGM 16 Nov, including a proposal to extend the time to prepare the FY2025 accounts. The AVOID stands. ([triage](../watch/digests/2026-10-27-triage.md)) · Filings: `DEF 14A` 27 Oct
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `8-K` 16 Oct; +33 older (Oct – Oct 2026) first picked up
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **NKLR** (Terra Innovatum): KPMG dismissed as auditor on 9 Oct, with the material weaknesses not fixed. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- **NKLR:** auditor KPMG dismissed with weaknesses unfixed. AVOID. It shares IMSR's industry code (a weak…) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "auditor change (Item 4.01)" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/2067627/000114036126039929/ef20083892_8k.htm))

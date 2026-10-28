@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_offering` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $6.94 (2026-10-27, ledger)
-- **Since first found:** **+18.6%** (found 2026-10-21 via `8k_lock_up` at $5.85). From the next open $5.60: +23.9% vs IWM +1.5% = **+22.4 pts** vs IWM; direction 0, tracked only (5 days)
+- **Latest price:** $7.29 (2026-10-28, ledger)
+- **Since first found:** **+24.6%** (found 2026-10-21 via `8k_lock_up` at $5.85). From the next open $5.60: +30.2% vs IWM +2.1% = **+28.0 pts** vs IWM; direction 0, tracked only (6 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-27](../scans/2026-10-27.md)**: Research: Research: Tue 27 Oct 2026 (- 47 active AVOIDs were missing from IBKR's AVOID list, which still held a reversed one (TKNO) and two killed…) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-22](../scans/2026-10-22.md)**: Research: Research: Thu 22 Oct 2026 (- **TKNO:** priced 8.0M shares at $5.00 (26.5% below the 19 Oct close). It closed at $5.85, then rose 7.4% on…) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **TKNO** (Alpha Teknova, about $397M): an underwritten follow-on launched after the 20 Oct close; size not yet priced. ([triage](../watch/digests/2026-10-21-triage.md)) · Press: Teknova to Report Third Quarter 2026 Financial Results on November 4, 2026 (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/21/3385977/0/en/teknova-to-report-third-quarter-2026-financial-results-on-november-4-2026.html)) · Logged as `supply_offering` (direction 0): underwritten follow-on launched after the 20 Oct close; -30% pre-market 21 Oct; AVOID; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -10.1%, found day -20.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1850902/000119312526427930/d170994dex11.htm)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1850902/000119312526427916/0001193125-26-427916-index.htm)) · Research: Research: Wed 21 Oct 2026 (- 3. AVOID: BRUN (58.7M resale shares, 1.25x the class), TKNO (share sale launched after the close, -30%…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1850902/000119312526426674/0001193125-26-426674-index.htm))
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for TKNO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_lock_up` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $6.94 | +18.6% | +23.9% | +1.5% |  | 5 | live |
-| 2026-10-21 | `supply_offering` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $6.94 | +18.6% | +23.9% | +1.5% |  | 5 | live |
+| 2026-10-21 | `8k_lock_up` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $7.29 | +24.6% | +30.2% | +2.1% |  | 6 | live |
+| 2026-10-21 | `supply_offering` | 0 | -10.1% | -20.8% | $4.1M | $5.85 | $5.60 | $7.29 | +24.6% | +30.2% | +2.1% |  | 6 | live |

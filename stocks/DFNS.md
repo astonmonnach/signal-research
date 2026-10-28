@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $3.57 (2026-10-27, ledger)
-- **Since first found:** **-13.1%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -14.2% vs IWM +1.0% = **-15.2 pts** vs IWM; direction -1 → excess +15.2% (1 days)
+- **Latest price:** $3.75 (2026-10-28, ledger)
+- **Since first found:** **-8.8%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -9.9% vs IWM +1.6% = **-11.5 pts** vs IWM; direction -1 → excess +11.5% (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: T3 Defense Enters Agreement to Acquire KeepZone AI (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/27/3389142/0/en/t3-defense-enters-agreement-to-acquire-keepzone-ai.html))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **DFNS** (takeable, $1.29M/day): 19.0M sellable shares, 5.8x its share count, from an equity line plus PIPE resales. **AVOID, public call #2.** ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_eloc` (direction 0): 19.0M sellable shares (5.8x 3.25M): Esousa equity line at 97.5% of the lowest 15-day VWAP plus PIPE resales, EFFECT 22 Oct; AVOID, public call #2; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (**Headline:** The first public AVOID calls. Four stocks you could actually buy (DFNS, NCT, TMCR, OSTX)…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -17.8%, found day -18.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/999999999526003317/9999999995-26-003317-index.htm))
 
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $3.57 | -13.1% | -14.2% | +1.0% | +15.2% | 1 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $3.57 | -7.8% | -8.7% | +0.4% |  | 0 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $3.75 | -8.8% | -9.9% | +1.6% | +11.5% | 2 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $3.75 | -3.1% | -4.1% | +1.0% |  | 1 | live |

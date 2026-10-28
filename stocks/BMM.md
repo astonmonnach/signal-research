@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $4.23 (2026-10-27, ledger) · 1d +6.5%, 5d -1.6%, 20d -17.1% (market context, 2026-10-27)
-- **Since first found:** **-1.6%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -2.3% vs IWM +0.8% = **-3.1 pts** vs IWM; direction 0, tracked only (6 days)
-- **Peers / sympathy:** no flag (self 5d -1.6% vs peer median -4.2%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-27)
+- **Latest price:** $4.31 (2026-10-28, ledger) · 1d -1.1%, 5d +0.2%, 20d -14.1% (market context, 2026-10-28)
+- **Since first found:** **+0.2%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -0.5% vs IWM +1.4% = **-1.8 pts** vs IWM; direction 0, tracked only (7 days)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -4.4%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Oct 2026: BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **BMM**: Springer mill refurbishment contract (RAM, Nordmin, Wood as owner's engineer); refurbishment ends Q4 2027. ([triage](../watch/digests/2026-10-27-triage.md)) · Filings: `6-K` 27 Oct · Research: Research: Tue 27 Oct 2026 (- **BMM (T008):** a mill contract, not the prepayment; still open to 29 Oct.) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#press-releases)**: Press: Blue Moon Announces the Signing of the Refurbishment Contract for the Springer Mill, Engages with Wood Group… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-announces-the-signing-of-the-refurbishment-contract-for-the-springer-mill-engages-with-wood-group-and-acquires-accommodations-for-springer-site-302919900.html))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `6-K` 19 Oct; +33 older (Apr – Oct 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- BMM (T008, by 29 Oct): ELMT's 8-K formally files the Blue Moon stake but says nothing about the US$25M…) ([note](../research/daily/2026-10-21.md))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $4.23 | -1.6% | -2.3% | +0.8% |  | 6 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $4.31 | +0.2% | -0.5% | +1.4% |  | 7 | live |

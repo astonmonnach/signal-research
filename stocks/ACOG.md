@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $8.58 (2026-10-27, ledger)
-- **Since first found:** **-0.3%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -0.2% vs IWM +0.8% = **-1.0 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $8.94 (2026-10-28, ledger)
+- **Since first found:** **+3.8%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +4.0% vs IWM +1.4% = **+2.6 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1655923/000149315226048562/0001493152-26-048562-index.htm))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ACOG** (Alpha Cognition): Opaleye, a 10% owner and healthcare specialist, bought another $309k on 15-16 Oct. ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `insider_buy` (direction 0): Opaleye (10% owner) buying every two weeks since May; $309k on 15-16 Oct; $8.50; tracked; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1655923/000149315226047631/0001493152-26-047631-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.58 | -0.3% | -0.2% | +0.8% |  | 6 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.94 | +3.8% | +4.0% | +1.4% |  | 7 | live |
