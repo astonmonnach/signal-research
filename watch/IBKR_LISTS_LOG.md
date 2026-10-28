@@ -4,6 +4,17 @@ Every change to the IBKR watchlists, newest first. The AVOID list (id 114) mirro
 `ledger/avoid_register.csv` (rule 2026-10-27). Changes are made only with the trader's go-ahead and checked by reading the
 list back afterwards.
 
+## 2026-10-28: AVOID +15, CALLED +2, Gov Filings +2, merger arb +1 (from the 27 Oct filings)
+
+The trader's go-ahead: "yeah make those changes" (28 Oct), for the list in watch/digests/2026-10-28-triage.md. Every list was read back from IBKR afterwards.
+
+- **AVOID (114):** 86 to 101, equal to the register's 101 active rows.
+  - Public calls: WORX (#8) and NIVF (#9).
+  - Not takeable: CABR, IMNN, EDVA, WFF, ACTU, TELO, CHSN, XHLD, CDT, NCI (Neo-Concept on Nasdaq, not the Canadian NCI), IBO (Impact BioMedical on AMEX, not the Canadian IBO), SCKT and HYFM.
+- **CALLED (107):** 7 to 9, adding WORX (#8) and NIVF (#9).
+- **Gov Filings pipeline findings (100):** 31 to 33, adding NPB (T017) and ARTV (T018).
+- **STRAT merger arb (tracked) (113):** 12 to 13, adding ULBI (T016). MFIC was optional and not added.
+
 ## 2026-10-27: CALLED (107) +6 public AVOID calls
 
 The trader's go-ahead: "add them to CALLED as well" (27 Oct). Went from 1 (MTUS) to 7, read back from IBKR. Added the public AVOID calls DFNS (#2), NCT (#3), TMCR (#4), OSTX (#5), NNBR (#6) and NAUT (#7).
