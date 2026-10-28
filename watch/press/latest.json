@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "published_utc": "2026-10-28T20:51:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MG",
+  "title": "MISTRAS Group, Inc. Announces Expiration of “Go-Shop” Period",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390799/12235/en/mistras-group-inc-announces-expiration-of-go-shop-period.html",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-10-28T20:21:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NNBR",
+  "title": "NN, Inc. Reports Third Quarter 2026 Results",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390774/0/en/nn-inc-reports-third-quarter-2026-results.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-10-28T23:19:00Z",
+  "wire": "Business Wire",
+  "ticker": "DXPE",
+  "title": "DXP Enterprises, Inc. Announces New Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261028584874/en/DXP-Enterprises-Inc.-Announces-New-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:share repurchase;keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-10-28T20:07:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MYRG",
+  "title": "MYR Group Inc. Announces Third-Quarter and First Nine-Months 2026 Results - Board Approves New $100 Million Share Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/10/28/3390752/10748/en/myr-group-inc-announces-third-quarter-and-first-nine-months-2026-results-board-approves-new-100-million-share-repurchase-program.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-10-28T20:06:00Z",
+  "wire": "PR Newswire",
+  "ticker": "BHC",
+  "title": "Bausch Health Announces US$50 Million Share Repurchase Program",
+  "link": "https://www.prnewswire.com/news-releases/bausch-health-announces-us50-million-share-repurchase-program-302922572.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-10-28T20:03:00Z",
+  "wire": "Business Wire",
+  "ticker": "TIPT",
+  "title": "Tiptree Announces Third Quarter 2026 Results",
+  "link": "http://www.businesswire.com/news/home/20261028809334/en/Tiptree-Announces-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:definitive agreement"
+ }
+]
