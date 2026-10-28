@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $95.12 (2026-10-28, ledger) · 1d +6.1%, 5d +14.6%, 20d +13.9% (market context, 2026-10-28)
-- **Since first found:** **+19.9%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +20.9% vs IWM +2.7% = **+18.2 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $95.31 (2026-10-28, ledger) · 1d +6.1%, 5d +14.6%, 20d +13.9% (market context, 2026-10-28)
+- **Since first found:** **+20.1%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +21.2% vs IWM +2.5% = **+18.7 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: LCII +14.6% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** solo_move: LCII +14.6% 5d vs peer median -2.4%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners (Business Wire) ([release](http://www.businesswire.com/news/home/20261027923281/en/LCI-Industries-Confirms-Receipt-of-Unsolicited-Non-Binding-Proposal-from-Monomoy-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Press: Patrick Industries, Inc. Reaffirms Merger Agreement with LCI Industries (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-reaffirms-merger-agreement-with-lci-industries-302921983.html))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: LCI Industries Third Quarter 2026 Conference Call Scheduled for November 5, 2026, at 8:30 a.m. ET (Business Wire) ([release](http://www.businesswire.com/news/home/20261022815836/en/LCI-Industries-Third-Quarter-2026-Conference-Call-Scheduled-for-November-5-2026-at-830-a.m.-ET/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `8-K` 22 Oct
 - **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: Jobs to Move America Report Finds Low Wages, Safety Issues at Transit Seating Manufacturer (Business Wire) ([release](http://www.businesswire.com/news/home/20261021487953/en/Jobs-to-Move-America-Report-Finds-Low-Wages-Safety-Issues-at-Transit-Seating-Manufacturer/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Research: Research: Wed 21 Oct 2026 (- **Options record:** the four open rows (SKYA, MG, CSR, LCII) have no real view, so each is set to "none"…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **LCII / PATK:** votes on **Wed 18 Nov**. The DOJ second request is being answered; outside date 30 Mar 2027, extendable to 30 Sep 2027. ([triage](../watch/digests/2026-10-20-triage.md)) · Filings: `DEFM14A` 19 Oct · Research: Research: Tue 20 Oct 2026 (- **SYNA:** vote 17 Nov; gross spread 5.1% to $123; foreign approvals pending. **LCII/PATK:** votes 18 Nov.) ([note](../research/daily/2026-10-20.md))
@@ -31,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for LCII ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $95.12 | +19.9% | +20.9% | +2.7% |  | 14 | live |
-| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $95.12 | +21.7% | +20.3% | +3.4% |  | 13 | live |
-| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $95.12 | +16.1% | +16.1% | +3.4% |  | 8 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $95.31 | +20.1% | +21.2% | +2.5% |  | 14 | live |
+| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $95.31 | +21.9% | +20.5% | +3.2% |  | 13 | live |
+| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $95.31 | +16.4% | +16.4% | +3.1% |  | 8 | live |

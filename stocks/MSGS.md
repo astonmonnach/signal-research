@@ -7,8 +7,8 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $305.42 (2026-10-27, ledger) · 1d +5.5%, 5d -1.9%, 20d -2.0% (market context, 2026-10-27)
-- **Since first found:** **+0.8%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +0.3% vs IWM +0.8% = **-0.5 pts** vs IWM; direction 0, tracked only (15 days)
-- **Peers / sympathy:** no flag (self 5d -1.9% vs peer median -2.1%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-27)
+- **Since first found:** **+0.8%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +0.3% vs IWM +0.6% = **-0.3 pts** vs IWM; direction 0, tracked only (15 days)
+- **Peers / sympathy:** no flag (self 5d -1.9% vs peer median -2.8%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-10-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -33,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $305.42 | +0.8% | +0.3% | +0.8% |  | 15 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $305.42 | +0.8% | +0.3% | +0.6% |  | 15 | live |

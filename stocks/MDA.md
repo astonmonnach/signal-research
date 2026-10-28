@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $29.15 (2026-10-28, ledger) · 1d -0.7%, 5d +1.2%, 20d -1.9% (market context, 2026-10-28)
-- **Since first found:** **+5.7%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +7.5% vs IWM +3.4% = **+4.0 pts** vs IWM; direction +1 → excess +4.0% (13 days)
+- **Latest price:** $29.02 (2026-10-28, ledger) · 1d -0.6%, 5d +1.3%, 20d -1.8% (market context, 2026-10-28)
+- **Since first found:** **+5.3%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +7.0% vs IWM +3.2% = **+3.8 pts** vs IWM; direction +1 → excess +3.8% (13 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +6.8% 5d vs MDA +1.2%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** missed_peer_move: peer median +7.9% 5d vs MDA +1.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: 49North Qualifies Across All Five Streams of Canada's Defence Drone Initiative Marketplace (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-qualifies-across-all-five-streams-of-canadas-defence-drone-initiative-marketplace-302919838.html))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: 49North Signs MOU with UNWAVE for Joint Production and Support of Counter-UAS Systems (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-signs-mou-with-unwave-for-joint-production-and-support-of-counter-uas-systems-302919830.html))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 14 Oct; +3 older (May – Jul 2026) first picked up
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **MDA** (MDA Space), new 13D by a strategic holder, takeable (NYSE $28.22; median $35.8M). ([triage](../watch/digests/2026-10-15-triage.md)) · Triage: MDA, 13D: read, above. +4.0%. ([triage](../watch/digests/2026-10-15-triage.md)) · Press: 49NORTH AWARDS CONTRACT TO TERRASENSE ANALYTICS-LED AIRBORNE SENSING LAB IN SUPPORT OF CANADA'S CQ-9B… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-awards-contract-to-terrasense-analytics-led-airborne-sensing-lab-in-support-of-canadas-cq-9b-guardian-remotely-piloted-aircraft-system-project-302908937.html)) · Logged as `holder_13d` (direction 0): Czechoslovak Group 9.5% (forward settled 13 Oct at CAD 42.69); Item 4 names potential acquirers and a sale; MDA -1.2% from 13 Oct vs space peers -10% to -20%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (2. MDA: a defence group takes 9.5% and names "potential acquirers") ([note](../research/daily/2026-10-15.md))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $29.15 | +5.7% | +7.5% | +3.4% | +4.0% | 13 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $29.15 | +1.7% | +1.6% | +1.9% |  | 12 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $29.02 | +5.3% | +7.0% | +3.2% | +3.8% | 13 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $29.02 | +1.2% | +1.2% | +1.7% |  | 12 | live |

@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $6.80 (2026-10-27, ledger)
-- **Since first found:** **-53.1%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -43.3% vs IWM -0.4% = **-42.9 pts** vs IWM; direction -1 → excess +42.9% (22 days)
+- **Latest price:** $6.60 (2026-10-28, ledger)
+- **Since first found:** **-54.5%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -45.0% vs IWM -0.7% = **-44.3 pts** vs IWM; direction -1 → excess +44.3% (23 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -49,5 +49,5 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.80 | -53.1% | -43.3% | -0.4% | +42.9% | 22 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.80 | -53.1% | -43.3% | -0.4% |  | 22 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.60 | -54.5% | -45.0% | -0.7% | +44.3% | 23 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.60 | -54.5% | -45.0% | -0.7% |  | 23 | live |

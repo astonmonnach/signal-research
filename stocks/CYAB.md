@@ -26,10 +26,10 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.130 (2026-10-28, ledger)
-- **Since first found:** **-35.0%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -35.0% vs IWM -0.4% = **-34.5 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $0.133 (2026-10-28, ledger) · 1d +2.3%, 5d -11.3%, 20d -36.7% (market context, 2026-10-28)
+- **Since first found:** **-33.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -33.5% vs IWM -0.7% = **-32.8 pts** vs IWM; direction 0, tracked only (23 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** solo_move: CYAB -11.3% 5d vs peer median +1.5%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-28)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -37,6 +37,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: Cyabra Finds Coordinated Inauthentic Activity in Five of Six Competitive Midterm Races, Affecting Candidates… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/28/3390290/0/en/cyabra-finds-coordinated-inauthentic-activity-in-five-of-six-competitive-midterm-races-affecting-candidates-from-both-parties.html))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage, dismissed: The CYAB, VVOS, DPU and RUBI supply items (under $1). ([triage](../watch/digests/2026-10-20-triage.md))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -26.3%, found day +7.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/999999999526003279/9999999995-26-003279-index.htm))
 - **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: Cyabra Secures Enterprise Agreement with Fortune 500 Media and Entertainment Company (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/08/3377373/0/en/cyabra-secures-enterprise-agreement-with-fortune-500-media-and-entertainment-company.html)) · Market scan: share registration (S-1) (`S-1`) (5d before -9.5%, found day -10.5%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026107694/0001213900-26-107694-index.htm))
@@ -48,6 +49,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.130 | -35.0% | -35.0% | -0.4% |  | 23 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.130 | -23.5% | -23.5% | +0.9% | +24.4% | 19 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.130 | -13.3% | -13.3% | +3.4% | +16.6% | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.133 | -33.5% | -33.5% | -0.7% |  | 23 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.133 | -21.8% | -21.8% | +0.7% | +22.4% | 19 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.133 | -11.3% | -11.3% | +3.1% | +14.5% | 8 | live |
