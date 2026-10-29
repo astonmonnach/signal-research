@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.95 (2026-10-29, ledger) · 1d +3.2%, 5d +10.2%, 20d +0.5% (market context, 2026-10-29)
-- **Since first found:** **+10.8%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +10.8% vs IWM +3.5% = **+7.3 pts** vs IWM; direction 0, tracked only (6 days)
-- **Peers / sympathy:** solo_move: TENX +10.2% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-29)
+- **Latest price:** $1.94 (2026-10-29, ledger) · 1d +2.7%, 5d +9.7%, 20d +0.0% (market context, 2026-10-29)
+- **Since first found:** **+10.2%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +10.2% vs IWM +3.5% = **+6.8 pts** vs IWM; direction 0, tracked only (6 days)
+- **Peers / sympathy:** solo_move: TENX +9.7% 5d vs peer median +1.0%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.95 | +10.8% | +10.8% | +3.5% |  | 6 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.94 | +10.2% | +10.2% | +3.5% |  | 6 | live |

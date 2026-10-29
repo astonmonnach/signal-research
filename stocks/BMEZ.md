@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $17.71 (2026-10-29, ledger) · 1d +0.8%, 5d +5.5%, 20d +6.8% (market context, 2026-10-29)
-- **Since first found:** **+8.7%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +8.5% vs IWM +4.7% = **+3.8 pts** vs IWM; direction +1 → excess +3.9% (10 days)
+- **Latest price:** $17.74 (2026-10-29, ledger) · 1d +1.0%, 5d +5.7%, 20d +7.0% (market context, 2026-10-29)
+- **Since first found:** **+8.9%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +8.7% vs IWM +4.6% = **+4.1 pts** vs IWM; direction +1 → excess +4.1% (10 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMEZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.71 | +8.7% | +8.5% | +4.7% | +3.9% | 10 | live |
-| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.71 | +8.7% | +8.5% | +4.7% |  | 10 | live |
+| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.74 | +8.9% | +8.7% | +4.6% | +4.1% | 10 | live |
+| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.74 | +8.9% | +8.7% | +4.6% |  | 10 | live |

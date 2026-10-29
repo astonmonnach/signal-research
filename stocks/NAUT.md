@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $3.23 (2026-10-29, ledger)
-- **Since first found:** **+11.9%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: +7.8% vs IWM +1.5% = **+6.3 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $3.22 (2026-10-29, ledger)
+- **Since first found:** **+11.6%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: +7.5% vs IWM +1.4% = **+6.1 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: CALLS: review date of AVOID calls #6-7 (NNBR, NAUT)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for NAUT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $3.23 | +11.9% | +7.8% | +1.5% |  | 1 | live |
+| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $3.22 | +11.6% | +7.5% | +1.4% |  | 1 | live |

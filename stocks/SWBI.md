@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_overhang` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
 - **Latest price:** $13.75 (2026-10-29, ledger)
-- **Since first found:** **-8.9%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: -8.9% vs IWM +3.5% = **-12.4 pts** vs IWM; direction 0, tracked only (7 days)
+- **Since first found:** **-8.9%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: -8.9% vs IWM +3.5% = **-12.3 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)

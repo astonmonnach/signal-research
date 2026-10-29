@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $3.91 (2026-10-29, ledger)
-- **Since first found:** **+16.5%** (found 2026-10-26 via `registration_effective` at $3.36). From the next open $3.41: +14.8% vs IWM +2.4% = **+12.5 pts** vs IWM; direction -1 → excess -12.4% (2 days)
+- **Latest price:** $3.98 (2026-10-29, ledger)
+- **Since first found:** **+18.6%** (found 2026-10-26 via `registration_effective` at $3.36). From the next open $3.41: +16.9% vs IWM +2.3% = **+14.6 pts** vs IWM; direction -1 → excess -14.6% (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for NNBR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `registration_effective` | -1 | -3.2% | +1.8% | $11.8M | $3.36 | $3.41 | $3.91 | +16.5% | +14.8% | +2.4% | -12.4% | 2 | live |
-| 2026-10-27 | `setup_supply_resale` | 0 | -9.2% | +4.5% | $11.3M | $3.51 | $3.60 | $3.91 | +11.5% | +8.8% | +1.5% |  | 1 | live |
+| 2026-10-26 | `registration_effective` | -1 | -3.2% | +1.8% | $11.8M | $3.36 | $3.41 | $3.98 | +18.6% | +16.9% | +2.3% | -14.6% | 2 | live |
+| 2026-10-27 | `setup_supply_resale` | 0 | -9.2% | +4.5% | $11.3M | $3.51 | $3.60 | $3.98 | +13.5% | +10.7% | +1.4% |  | 1 | live |
