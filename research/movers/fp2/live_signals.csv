@@ -28,3 +28,9 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-27,23:08,True,BBDO,Banco Bradesco Sa American Depositary Shares (each represent,S2,2.76,770433,129180,5.96,285047,,,2.76,2.67,2026-10-28,-0.032609,-0.052609,filled
 2026-10-27,23:08,True,RENT,Rent the Runway Inc. Class A Common Stock,S2,2.82,26146383,1760780,14.85,252790,,,2.7,2.63,2026-10-28,-0.025926,-0.045926,filled
 2026-10-27,23:08,True,XTND,Xtend AI Robotics Inc. Common Stock,S2,2.18,41187490,3044925,13.53,2458035,,,1.81,1.82,2026-10-28,0.005525,-0.014475,filled
+2026-10-29,23:33,True,ENHA,Enhanced Group Inc. Class A Common Stock,S2,1.16,407093,63783,6.38,634483,2026-10-29,0.1,,,,,,open
+2026-10-29,23:33,True,ENHA,Enhanced Group Inc. Class A Common Stock,S1,1.16,407093,63783,6.38,634483,2026-10-29,0.1,,,,,,open
+2026-10-29,23:33,True,JDZG,JIADE LIMITED Class A Ordinary Shares,S2,1.5,6727773,1340550,5.02,6189309,,,,,,,,open
+2026-10-29,23:33,True,LUNG,Pulmonx Corporation Common Stock,S2,2.52,7283234,653100,11.15,465152,,,,,,,,open
+2026-10-29,23:33,True,MWYN,Marwynn Holdings Inc. Common stock,S2,1.41,2607774,499865,5.22,760564,,,,,,,,open
+2026-10-29,23:33,True,PALI,Palisade Bio Inc. Common Stock,S2,1.19,15117669,2867185,5.27,2816659,,,,,,,,open
