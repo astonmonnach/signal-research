@@ -1,0 +1,129 @@
+{
+ "counts": {
+  "sampled": 200,
+  "not_fetched": 0,
+  "no_minute_bars": 0,
+  "no_rth_trigger": 3,
+  "late_trigger": 32,
+  "tested": 165
+ },
+ "by_cost": {
+  "1%": {
+   "n": 165,
+   "mean": -2.32,
+   "median": -2.03,
+   "win": 40.0,
+   "up10": 9.1,
+   "down10": 19.4,
+   "ci95": [
+    -4.23,
+    -0.48
+   ],
+   "half1_mean": -2.08,
+   "half1_n": 74,
+   "half2_mean": -2.52,
+   "half2_n": 91
+  },
+  "2%": {
+   "n": 165,
+   "mean": -3.32,
+   "median": -3.03,
+   "win": 33.3,
+   "up10": 8.5,
+   "down10": 23.6,
+   "ci95": [
+    -5.23,
+    -1.48
+   ],
+   "half1_mean": -3.08,
+   "half1_n": 74,
+   "half2_mean": -3.52,
+   "half2_n": 91
+  },
+  "4%": {
+   "n": 165,
+   "mean": -5.32,
+   "median": -5.03,
+   "win": 27.3,
+   "up10": 7.3,
+   "down10": 32.1,
+   "ci95": [
+    -7.23,
+    -3.48
+   ],
+   "half1_mean": -5.08,
+   "half1_n": 74,
+   "half2_mean": -5.52,
+   "half2_n": 91
+  }
+ },
+ "verdict": "DOES NOT PAY",
+ "describe": {
+  "exit_30min": {
+   "n": 165,
+   "mean": -2.73,
+   "median": -2.92,
+   "win": 24.2,
+   "up10": 5.5,
+   "down10": 15.2
+  },
+  "exit_60min": {
+   "n": 165,
+   "mean": -3.39,
+   "median": -3.5,
+   "win": 27.3,
+   "up10": 7.3,
+   "down10": 18.8
+  },
+  "exit_120min": {
+   "n": 165,
+   "mean": -3.32,
+   "median": -3.03,
+   "win": 33.3,
+   "up10": 8.5,
+   "down10": 23.6
+  },
+  "exit_close": {
+   "n": 165,
+   "mean": -2.71,
+   "median": -3.13,
+   "win": 36.4,
+   "up10": 12.7,
+   "down10": 27.3
+  },
+  "gap_ups": {
+   "n": 52,
+   "mean": -4.96,
+   "median": -2.01,
+   "win": 34.6,
+   "up10": 7.7,
+   "down10": 30.8
+  },
+  "crossed_in_session": {
+   "n": 113,
+   "mean": -2.57,
+   "median": -3.4,
+   "win": 32.7,
+   "up10": 8.8,
+   "down10": 20.4
+  },
+  "prev_close_1_to_3": {
+   "n": 55,
+   "mean": -3.37,
+   "median": -3.5,
+   "win": 29.1,
+   "up10": 12.7,
+   "down10": 27.3
+  },
+  "prev_close_3_up": {
+   "n": 110,
+   "mean": -3.3,
+   "median": -2.97,
+   "win": 35.5,
+   "up10": 6.4,
+   "down10": 21.8
+  },
+  "median_best_high_vs_entry": 4.1,
+  "median_worst_low_vs_entry": -6.7
+ }
+}
