@@ -25,9 +25,9 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.216 (2026-10-28, ledger)
-- **Since first found:** **-32.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -30.2% vs IWM -0.7% = **-29.5 pts** vs IWM; direction 0, tracked only (23 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $0.232 (2026-10-29, ledger)
+- **Since first found:** **-27.9%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -25.1% vs IWM +0.9% = **-26.0 pts** vs IWM; direction 0, tracked only (24 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -36,7 +36,8 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md)) · Research: Research: Tue 27 Oct 2026 (- **SNTI:** about 47M new shares on 28 Oct at $0.342. The AVOID stands.) ([note](../research/daily/2026-10-27.md))
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -22.9%, found day +6.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000162828026067624/snti-20261026.htm)) · Research: Research: Tue 27 Oct 2026 (- **SNTI:** about 47M new shares on 28 Oct at $0.342. The AVOID stands.) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split" (8k merger agreement) (5d before -16.4%, found day -6.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000114036126040772/ef20084208_8k.htm)) · Market scan: 8-K trigger phrase "at-the-market" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000114036126040772/ef20084208_ex99-1.htm))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage, dismissed: SNTI: merger and reverse split approved; $0.23. ([triage](../watch/digests/2026-10-16-triage.md))
 - **[2026-10-15](../scans/2026-10-15.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split" (8k merger agreement) (5d before -27.0%, found day +8.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000162828026065992/snti-20261015.htm))
@@ -49,6 +50,7 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.216 | -32.8% | -30.2% | -0.7% |  | 23 | live |
-| 2026-10-15 | `8k_merger_agreement` | 0 | -27.0% | +8.7% | $542k | $0.262 | $0.248 | $0.216 | -17.4% | -12.8% | +1.6% |  | 12 | live |
-| 2026-10-26 | `8k_merger_agreement` | 0 | -16.4% | -6.9% | $970k | $0.175 | $0.168 | $0.216 | +23.6% | +28.8% | +0.7% |  | 1 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.232 | -27.9% | -25.1% | +0.9% |  | 24 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 | -27.0% | +8.7% | $542k | $0.262 | $0.248 | $0.232 | -11.3% | -6.3% | +3.3% |  | 13 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | -16.4% | -6.9% | $970k | $0.175 | $0.168 | $0.232 | +32.7% | +38.3% | +2.4% |  | 2 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -22.9% | +6.9% | $1.8M | $0.187 | $0.181 | $0.232 | +24.2% | +28.3% | +1.5% |  | 1 | live |

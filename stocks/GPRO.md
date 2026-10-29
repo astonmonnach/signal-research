@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md)); `merger_arb` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $1.01 (2026-10-28, ledger) · 1d -1.0%, 5d -5.2%, 20d -21.7% (market context, 2026-10-28)
-- **Since first found:** **-3.3%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -9.8% vs IWM +3.0% = **-12.8 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $1.02 (2026-10-29, ledger) · 1d -1.9%, 5d -1.0%, 20d -24.1% (market context, 2026-10-29)
+- **Since first found:** **-2.9%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -9.3% vs IWM +4.7% = **-14.0 pts** vs IWM; direction 0, tracked only (10 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -5.2% vs peer median -4.7%). Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (self 5d -1.0% vs peer median -0.0%). Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 31 Dec 2026: GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Only three were above the ~3.5% cost hurdle (PTC, SMTI, GPRO), and each had a named risk.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-21](../scans/2026-10-21.md#watchlist-filings)**: Filings: `DEFA14A` 20 Oct · Research: Research: Wed 21 Oct 2026 (- **GPRO:** $1.10 (+5.8%). The cash part is about $1.14 (from the 20 Oct note), so about 3.5% under (arith).) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **GPRO, correction to 18 Oct:** all four lender groups **waived** the restatement defaults on 16 Oct, with no fee (Q2 ). ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `merger_arb` (direction 0): update: all four lender groups waived the restatement defaults on 16 Oct (10-Q/A); preliminary proxy filed 19 Oct; no support agreements; adviser valued the stock part at $0; $1.04, 8.8% under the $1.14 cash part; tracked; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 20 Oct 2026 (- **GPRO correction:** all four lender groups waived the restatement defaults on 16 Oct, with no fee (10-Q/A).) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-19](../scans/2026-10-19.md#press-releases)**: Press: GoPro Files Preliminary Proxy Statement; Proposed Merger with Starman Optical on Track (PR Newswire) ([release](https://www.prnewswire.com/news-releases/gopro-files-preliminary-proxy-statement-proposed-merger-with-starman-optical-on-track-302912646.html)) · Market scan: merger vote (`PREM14A`) (5d before -11.8%, found day -1.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1500435/000162828026066233/0001628280-26-066233-index.htm)) · Market scan: uncategorised (`10-Q/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1500435/000150043526000069/gpro-20260331.htm)) · Filings: `8-K` 16 Oct; +32 older (Jul – Sep 2026) first picked up · Research: Research: Mon 19 Oct 2026 (GPRO $1.05 $1.05 0.0% first session after the restatement 8-K; no reaction) ([note](../research/daily/2026-10-19.md))
@@ -30,7 +31,7 @@ Every [ledger](../ledger/LEDGER.md) row for GPRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $1.01 | -3.3% | -9.8% | +3.0% |  | 9 | live |
-| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $1.01 | -3.3% | -9.8% | +3.0% |  | 9 | live |
-| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $1.01 | -2.4% | -1.9% | +3.1% |  | 8 | live |
-| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $1.01 | -7.7% | -8.1% | +1.1% |  | 7 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $1.02 | -2.9% | -9.3% | +4.7% |  | 10 | live |
+| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $1.02 | -2.9% | -9.3% | +4.7% |  | 10 | live |
+| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $1.02 | -1.9% | -1.4% | +4.8% |  | 9 | live |
+| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $1.02 | -7.3% | -7.7% | +2.8% |  | 8 | live |

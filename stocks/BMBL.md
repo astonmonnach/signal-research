@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.99 (2026-10-28, ledger) · 1d +0.1%, 5d +0.6%, 20d +127.6% (market context, 2026-10-28)
-- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM +2.4% = **-1.8 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $5.97 (2026-10-29, ledger) · 1d +0.1%, 5d +0.4%, 20d +133.9% (market context, 2026-10-29)
+- **Since first found:** **+0.3%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.3% vs IWM +4.1% = **-3.7 pts** vs IWM; direction 0, tracked only (15 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median -0.1%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -1.4%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-10-29)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 9 Nov 2026: BMBL: Q3 10-Q due by today (paying users; no earnings call because of the deal)
@@ -20,6 +20,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **2026-10-29**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-13 7 BMBL +57% deal_signed $5.95 911.6 yes +0.3% +0.2% -1.5) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-21](../scans/2026-10-21.md#watchlist-filings)**: Filings: `SCHEDULE 13G` 20 Oct
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **BMBL:** a new passive 13G (Hilary Shane, 5.10%). No filing confirms the 19 Oct escrow. Spread 1.5%. ([triage](../watch/digests/2026-10-20-triage.md)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1830043/000107680926000124/0001076809-26-000124-index.htm))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1830043/000147793226006325/0001477932-26-006325-index.htm)) · Filings: `SCHEDULE 13G` 19 Oct, `SCHEDULE 13D/A` ×2 14 Oct, `4` ×6 14 Oct, `8-K` 13 Oct; +30 older (Jun – Oct 2026) first picked up · Calendar: BMBL: Ithaca's $102M termination fee due in escrow (Bumble take-private at $6.05) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Mon 19 Oct 2026 (- **BMBL:** a new passive 13G. Spread to $6.05 about 1.7%. No change.) ([note](../research/daily/2026-10-19.md))
@@ -35,5 +36,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | +2.4% |  | 14 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | +2.4% |  | 14 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.97 | +0.3% | +0.3% | +4.1% |  | 15 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.97 | +0.3% | +0.3% | +4.1% |  | 15 | live |

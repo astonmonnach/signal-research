@@ -1,6 +1,6 @@
-# Ledger: 2026-10-28
+# Ledger: 2026-10-29
 
-951 logged items · 906 live · 27 pending · 18 no price data
+1030 logged items · 981 live · 27 pending · 22 no price data
 
 Entry = next session's open after the item was found. Control = IWM over the same window. Excess = direction × (return − IWM).
 
@@ -8,1020 +8,1095 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 
 **Takeable** = a long bet (we buy, we can't short), average daily $ volume of at least $250,000 ($150,000 for items found from 2026-10-20), and an entry price of $1 or more. Every result has **1% taken off for costs**. A result is **judged** only after 20 trading days. Before that it's an early read and proves nothing.
 
-- **Judged (held 20+ trading days):** n 10 · beat IWM 3/10 · median -4.6% · mean -3.8% · mean without the best 2 -9.1%
-- **Early read (under 20 trading days):** n 68 · beat IWM 19/68 · median -2.3% · mean -4.3% · mean without the best 2 -8.9%
+- **Judged (held 20+ trading days):** n 10 · beat IWM 3/10 · median -8.0% · mean -5.4% · mean without the best 2 -11.3%
+- **Early read (under 20 trading days):** n 73 · beat IWM 21/73 · median -3.9% · mean -2.5% · mean without the best 2 -8.7%
 
 | category (takeable only) | judged | early read |
 |---|---|---|
-| 8k_strategic_review | n 1 · beat IWM 0/1 · median -31.9% · mean -31.9% | n 20 · beat IWM 3/20 · median -2.8% · mean -11.7% · mean without the best 2 -14.0% |
-| activist_13d | n 3 · beat IWM 0/3 · median -5.3% · mean -6.1% | n 33 · beat IWM 12/33 · median -2.3% · mean +0.9% · mean without the best 2 -8.7% |
-| idea_catalyst | n 2 · beat IWM 1/2 · median -1.7% · mean -1.7% | n 0 |
-| idea_contract_press | n 0 | n 1 · beat IWM 0/1 · median -31.7% · mean -31.7% |
-| s1_dod_contract | n 3 · beat IWM 2/3 · median +5.4% · mean +7.1% | n 0 |
-| tender_issuer_buyback | n 1 · beat IWM 0/1 · median -5.6% · mean -5.6% | n 14 · beat IWM 4/14 · median -1.6% · mean -3.7% · mean without the best 2 -5.1% |
+| 8k_strategic_review | n 1 · beat IWM 0/1 · median -32.5% · mean -32.5% | n 25 · beat IWM 5/25 · median -4.0% · mean -8.9% · mean without the best 2 -11.2% |
+| activist_13d | n 3 · beat IWM 0/3 · median -11.5% · mean -9.5% | n 33 · beat IWM 13/33 · median -3.5% · mean +4.8% · mean without the best 2 -9.0% |
+| idea_catalyst | n 2 · beat IWM 1/2 · median -3.3% · mean -3.3% | n 0 |
+| idea_contract_press | n 0 | n 1 · beat IWM 0/1 · median -41.1% · mean -41.1% |
+| s1_dod_contract | n 3 · beat IWM 2/3 · median +6.4% · mean +7.8% | n 0 |
+| tender_issuer_buyback | n 1 · beat IWM 0/1 · median -10.1% · mean -10.1% | n 14 · beat IWM 3/14 · median -4.0% · mean -5.3% · mean without the best 2 -6.8% |
 
 ### Paper only: not trades we could take
 
-- **Short bets (303):** fresh share supply, reverse splits and similar. 219/303 lagged IWM (median +9.5% in our favour).
+- **Short bets (319):** fresh share supply, reverse splits and similar. 231/319 lagged IWM (median +8.7% in our favour).
   We can't short, and borrowing these is usually impossible or very expensive, so they never count as wins. What they're good for is a **don't-buy list**: the stocks these signals flag mostly go down.
-- **Long bets we couldn't take (54):** too illiquid, under $1, or a false positive that reading the filing rules out.
+- **Long bets we couldn't take (56):** too illiquid, under $1, or a false positive that reading the filing rules out.
 
 ## All directional items by category (includes the paper-only short bets)
 
 | category | dir | n live | mean excess | median excess | hit rate (excess > 0) |
 |---|---|---|---|---|---|
-| 8k_lock_up | 0 (track) | 40 | raw -5.4% | raw -1.8% | n/a |
-| 8k_merger_agreement | 0 (track) | 114 | raw -3.6% | raw +0.0% | n/a |
-| 8k_reverse_split | -1 | 135 | +10.4% | +12.2% | 101/135 |
-| 8k_special_dividend | 0 (track) | 10 | raw -10.5% | raw -0.8% | n/a |
-| 8k_spin_off | 0 (track) | 35 | raw -8.1% | raw -4.5% | n/a |
-| 8k_strategic_review | +1 | 38 | +1.4% | -2.5% | 10/38 |
-| 8k_tender_offer | 0 (track) | 48 | raw -0.3% | raw +0.1% | n/a |
-| activist_13d | +1 | 66 | -3.0% | -4.7% | 19/66 |
+| 8k_lock_up | 0 (track) | 43 | raw -3.3% | raw -0.4% | n/a |
+| 8k_merger_agreement | 0 (track) | 130 | raw -2.5% | raw +0.1% | n/a |
+| 8k_reverse_split | -1 | 142 | +9.4% | +9.2% | 109/142 |
+| 8k_special_dividend | 0 (track) | 15 | raw -5.5% | raw +0.6% | n/a |
+| 8k_spin_off | 0 (track) | 38 | raw -5.7% | raw -0.8% | n/a |
+| 8k_strategic_review | +1 | 45 | +1.3% | -3.8% | 13/45 |
+| 8k_tender_offer | 0 (track) | 50 | raw +0.4% | raw +0.3% | n/a |
+| activist_13d | +1 | 66 | -3.2% | -6.0% | 19/66 |
 | activist_deep_dive | 0 (track) | 1 | raw +9.5% | raw +9.5% | n/a |
-| below_cash | 0 (track) | 1 | raw +17.6% | raw +17.6% | n/a |
-| buyback | 0 (track) | 1 | raw +2.7% | raw +2.7% | n/a |
+| below_cash | 0 (track) | 2 | raw +11.8% | raw +11.8% | n/a |
+| buyback | 0 (track) | 1 | raw +14.9% | raw +14.9% | n/a |
 | deal_acquirer | 0 (track) | 2 | raw -4.6% | raw -4.6% | n/a |
-| deal_dispute | 0 (track) | 1 | raw -0.2% | raw -0.2% | n/a |
-| deal_peer | 0 (track) | 8 | raw -1.1% | raw -0.5% | n/a |
-| deal_reaction | 0 (track) | 1 | raw -0.9% | raw -0.9% | n/a |
-| delisting | 0 (track) | 31 | raw +784.6% | raw -8.0% | n/a |
-| distress_avoid | 0 (track) | 1 | raw -38.1% | raw -38.1% | n/a |
-| event_incident | 0 (track) | 1 | raw +8.1% | raw +8.1% | n/a |
-| exchange_offer_missed | 0 (track) | 1 | raw +5.0% | raw +5.0% | n/a |
-| going_private | 0 (track) | 1 | raw +0.1% | raw +0.1% | n/a |
-| holder_13d | 0 (track) | 2 | raw +5.9% | raw +5.9% | n/a |
-| holder_13d_not_activism | 0 (track) | 3 | raw -8.7% | raw -8.3% | n/a |
-| holder_13g | 0 (track) | 1 | raw +0.6% | raw +0.6% | n/a |
-| holder_13g_supply | 0 (track) | 1 | raw -11.3% | raw -11.3% | n/a |
-| holder_buying | 0 (track) | 4 | raw +1.9% | raw +1.4% | n/a |
-| holder_selling | 0 (track) | 1 | raw +7.1% | raw +7.1% | n/a |
-| idea_catalyst | +1 | 3 | +2.4% | +8.4% | 2/3 |
-| idea_contract_press | +1 | 1 | -30.7% | -30.7% | 0/1 |
-| idea_merger | 0 (track) | 2 | raw -6.9% | raw -6.9% | n/a |
-| idea_overhang | +0 | 1 | -7.0% | -7.0% | 0/1 |
-| idea_spinoff | 0 (track) | 2 | raw +309.0% | raw +309.0% | n/a |
-| insider_buy | 0 (track) | 5 | raw +3.2% | raw +1.0% | n/a |
-| insider_cluster | 0 (track) | 6 | raw -9.3% | raw -10.3% | n/a |
-| ipo_priced | 0 (track) | 15 | raw -12.0% | raw -2.9% | n/a |
-| issuer_tender_intent | 0 (track) | 1 | raw +17.5% | raw +17.5% | n/a |
-| linked_peer | 0 (track) | 22 | raw +2.8% | raw +3.7% | n/a |
-| longterm_research | 0 (track) | 8 | raw -8.7% | raw -9.0% | n/a |
-| merger_arb | 0 (track) | 16 | raw -0.2% | raw +0.1% | n/a |
-| merger_cvr | 0 (track) | 1 | raw -0.4% | raw -0.4% | n/a |
-| merger_hostile | 0 (track) | 1 | raw +1.1% | raw +1.1% | n/a |
-| merger_vote | 0 (track) | 28 | raw +1.0% | raw +0.1% | n/a |
-| registration_effective | -1 | 135 | +10.5% | +8.2% | 95/135 |
-| s1_dod_contract | +1 | 3 | +8.1% | +6.4% | 2/3 |
-| setup_supply_atm | 0 (track) | 3 | raw -4.9% | raw -0.5% | n/a |
-| setup_supply_deal_dilution | 0 (track) | 1 | raw +11.4% | raw +11.4% | n/a |
-| setup_supply_deficiency | 0 (track) | 10 | raw -31.0% | raw -37.9% | n/a |
-| setup_supply_eloc | 0 (track) | 2 | raw -0.4% | raw -0.4% | n/a |
-| setup_supply_overhang | 0 (track) | 1 | raw -4.1% | raw -4.1% | n/a |
-| setup_supply_registered_direct | 0 (track) | 1 | raw +1.3% | raw +1.3% | n/a |
-| setup_supply_resale | 0 (track) | 4 | raw +1.4% | raw +2.1% | n/a |
-| setup_supply_warrants | 0 (track) | 1 | raw +1.6% | raw +1.6% | n/a |
-| share_registration | -1 | 32 | +13.1% | +10.9% | 23/32 |
-| spin_off | 0 (track) | 1 | raw +0.3% | raw +0.3% | n/a |
-| strategic_placement | 0 (track) | 1 | raw +0.7% | raw +0.7% | n/a |
-| supply_effective | 0 (track) | 1 | raw +5.7% | raw +5.7% | n/a |
-| supply_offering | 0 (track) | 1 | raw +34.2% | raw +34.2% | n/a |
-| supply_resale | 0 (track) | 1 | raw +3.8% | raw +3.8% | n/a |
-| supply_warrants | 0 (track) | 1 | raw +0.1% | raw +0.1% | n/a |
-| tender_issuer | 0 (track) | 2 | raw +7.3% | raw +7.3% | n/a |
-| tender_issuer_buyback | +1 | 21 | -2.7% | -2.0% | 8/21 |
-| tender_third_party | 0 (track) | 14 | raw +0.1% | raw +1.4% | n/a |
+| deal_dispute | 0 (track) | 1 | raw +1.7% | raw +1.7% | n/a |
+| deal_peer | 0 (track) | 8 | raw -1.6% | raw -0.1% | n/a |
+| deal_reaction | 0 (track) | 1 | raw -0.5% | raw -0.5% | n/a |
+| delisting | 0 (track) | 32 | raw -17.5% | raw -6.0% | n/a |
+| distress_avoid | 0 (track) | 1 | raw -32.9% | raw -32.9% | n/a |
+| event_incident | 0 (track) | 1 | raw +8.3% | raw +8.3% | n/a |
+| exchange_offer_missed | 0 (track) | 1 | raw +5.1% | raw +5.1% | n/a |
+| going_private | 0 (track) | 1 | raw +0.2% | raw +0.2% | n/a |
+| holder_13d | 0 (track) | 2 | raw +6.7% | raw +6.7% | n/a |
+| holder_13d_not_activism | 0 (track) | 3 | raw -9.0% | raw -11.8% | n/a |
+| holder_13g | 0 (track) | 1 | raw +0.2% | raw +0.2% | n/a |
+| holder_13g_supply | 0 (track) | 1 | raw -21.6% | raw -21.6% | n/a |
+| holder_buying | 0 (track) | 5 | raw +4.5% | raw +5.1% | n/a |
+| holder_selling | 0 (track) | 1 | raw +6.3% | raw +6.3% | n/a |
+| idea_catalyst | +1 | 3 | +3.3% | +14.4% | 2/3 |
+| idea_contract_press | +1 | 1 | -40.1% | -40.1% | 0/1 |
+| idea_merger | 0 (track) | 2 | raw -8.2% | raw -8.2% | n/a |
+| idea_overhang | +0 | 1 | -5.3% | -5.3% | 0/1 |
+| idea_spinoff | 0 (track) | 2 | raw +317.5% | raw +317.5% | n/a |
+| insider_buy | 0 (track) | 5 | raw +5.3% | raw +5.6% | n/a |
+| insider_cluster | 0 (track) | 8 | raw -5.3% | raw -1.2% | n/a |
+| ipo_priced | 0 (track) | 15 | raw -11.9% | raw -0.9% | n/a |
+| issuer_tender_intent | 0 (track) | 1 | raw +16.7% | raw +16.7% | n/a |
+| linked_peer | 0 (track) | 30 | raw +3.5% | raw +1.6% | n/a |
+| longterm_research | 0 (track) | 8 | raw -6.3% | raw -6.5% | n/a |
+| merger_arb | 0 (track) | 19 | raw +0.1% | raw +0.1% | n/a |
+| merger_cvr | 0 (track) | 1 | raw +0.2% | raw +0.2% | n/a |
+| merger_hostile | 0 (track) | 1 | raw +2.8% | raw +2.8% | n/a |
+| merger_vote | 0 (track) | 30 | raw +2.4% | raw +0.4% | n/a |
+| registration_effective | -1 | 140 | +10.6% | +8.4% | 95/140 |
+| s1_dod_contract | +1 | 3 | +8.8% | +7.4% | 2/3 |
+| setup_supply_atm | 0 (track) | 4 | raw -1.7% | raw -0.2% | n/a |
+| setup_supply_deal_dilution | 0 (track) | 1 | raw +2.7% | raw +2.7% | n/a |
+| setup_supply_deficiency | 0 (track) | 10 | raw -31.0% | raw -39.0% | n/a |
+| setup_supply_eloc | 0 (track) | 3 | raw +1.9% | raw -0.9% | n/a |
+| setup_supply_overhang | 0 (track) | 1 | raw -3.9% | raw -3.9% | n/a |
+| setup_supply_registered_direct | 0 (track) | 1 | raw -4.2% | raw -4.2% | n/a |
+| setup_supply_resale | 0 (track) | 5 | raw +3.9% | raw +0.5% | n/a |
+| setup_supply_warrants | 0 (track) | 1 | raw +4.1% | raw +4.1% | n/a |
+| share_registration | -1 | 36 | +11.9% | +8.6% | 27/36 |
+| spin_off | 0 (track) | 1 | raw -1.4% | raw -1.4% | n/a |
+| strategic_placement | 0 (track) | 1 | raw +0.0% | raw +0.0% | n/a |
+| supply_effective | 0 (track) | 1 | raw +5.6% | raw +5.6% | n/a |
+| supply_offering | 0 (track) | 1 | raw +46.0% | raw +46.0% | n/a |
+| supply_resale | 0 (track) | 1 | raw +2.5% | raw +2.5% | n/a |
+| supply_warrants | 0 (track) | 1 | raw -1.4% | raw -1.4% | n/a |
+| tender_issuer | 0 (track) | 3 | raw +4.1% | raw +6.5% | n/a |
+| tender_issuer_buyback | +1 | 21 | -4.7% | -4.4% | 5/21 |
+| tender_third_party | 0 (track) | 14 | raw -0.2% | raw +0.9% | n/a |
 
 ## Tradeable only (avg daily volume ≥ $250,000; $150,000 from 2026-10-20), split by the move in the 5 days before found
 
 | category | dir | n | mean excess | right | crashed >20% by found: n · excess | spiked >50% by found: n · excess |
 |---|---|---|---|---|---|---|
-| 8k_reverse_split | -1 | 89 | +12.7% | 71/89 | 27 · +31.9% | 3 · +29.9% |
-| 8k_strategic_review | +1 | 29 | -4.5% | 8/29 | 6 · -22.1% | 1 · -2.3% |
-| activist_13d | +1 | 47 | -1.7% | 16/47 | 10 · -24.2% | 2 · -14.6% |
-| idea_catalyst | +1 | 3 | +2.4% | 2/3 | 0 | 0 |
-| idea_contract_press | +1 | 1 | -30.7% | 0/1 | 1 · -30.7% | 0 |
-| idea_overhang | -1 | 1 | -7.0% | 0/1 | 0 | 0 |
-| registration_effective | -1 | 97 | +11.3% | 67/97 | 26 · +21.7% | 1 · +76.8% |
-| s1_dod_contract | +1 | 3 | +8.1% | 2/3 | 0 | 0 |
-| share_registration | -1 | 19 | +11.5% | 13/19 | 9 · +15.5% | 0 |
-| tender_issuer_buyback | +1 | 16 | -2.3% | 8/16 | 1 · -27.5% | 1 · +4.3% |
+| 8k_reverse_split | -1 | 92 | +11.8% | 75/92 | 26 · +31.4% | 3 · +46.4% |
+| 8k_strategic_review | +1 | 36 | -3.3% | 11/36 | 7 · -18.7% | 1 · -4.1% |
+| activist_13d | +1 | 47 | +0.2% | 16/47 | 10 · -25.5% | 2 · -15.9% |
+| idea_catalyst | +1 | 3 | +3.3% | 2/3 | 0 | 0 |
+| idea_contract_press | +1 | 1 | -40.1% | 0/1 | 1 · -40.1% | 0 |
+| idea_overhang | -1 | 1 | -5.3% | 0/1 | 0 | 0 |
+| registration_effective | -1 | 101 | +11.3% | 66/101 | 29 · +20.2% | 2 · +38.6% |
+| s1_dod_contract | +1 | 3 | +8.8% | 2/3 | 0 | 0 |
+| share_registration | -1 | 20 | +12.7% | 16/20 | 9 · +15.4% | 0 |
+| tender_issuer_buyback | +1 | 16 | -4.0% | 5/16 | 1 · -26.8% | 1 · +1.9% |
 
 ## Every live item
 
 | found | ticker | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-11 | OLN | s1_dod_contract | +1 | -2.0% | -0.6% | $47.2M | 17.20 | 17.46 | 16.50 | -4.1% | -5.5% | -2.6% | -2.9% | 44 |
-| 2026-09-25 | ELMT | s1_dod_contract | +1 | -10.2% | -0.5% | $26.4M | 19.64 | 19.23 | 23.20 | +18.1% | +20.6% | -0.1% | +20.8% | 30 |
-| 2026-09-25 | MTUS | s1_dod_contract | +1 | -2.3% | -0.5% | $6.5M | 18.84 | 19.50 | 20.73 | +10.0% | +6.3% | -0.1% | +6.4% | 30 |
-| 2026-09-28 | ADRX | ipo_priced | +0 |  | +3.8% | $52.9M | 20.09 | 19.90 | 18.02 | -10.3% | -9.4% | -0.1% |  | 29 |
-| 2026-09-28 | AEE | 8k_tender_offer | +0 | -2.8% | +0.0% | $175.3M | 99.39 | 98.77 | 108.94 | +9.6% | +10.3% | -0.1% |  | 29 |
-| 2026-09-28 | BEAG | 8k_tender_offer | +0 | -1.3% | -0.2% | $8.1M | 10.69 | 10.69 | 10.56 | -1.2% | -1.2% | -0.1% |  | 29 |
-| 2026-09-28 | BRX | 8k_tender_offer | +0 | +0.1% | -0.2% | $97.3M | 28.00 | 27.85 | 28.61 | +2.2% | +2.7% | -0.1% |  | 29 |
-| 2026-09-28 | CHDN | idea_catalyst | +1 | -2.6% | -5.1% | $92.0M | 75.72 | 76.00 | 82.35 | +8.8% | +8.4% | -0.1% | +8.4% | 29 |
-| 2026-09-28 | CHDN | 8k_strategic_review | +1 | -2.6% | -5.1% | $92.0M | 75.72 | 76.00 | 82.35 | +8.8% | +8.4% | -0.1% | +8.4% | 29 |
-| 2026-09-28 | CITR | share_registration | -1 | -17.2% | -12.0% | $218k ⚠ | 3.80 | 3.78 | 2.61 | -31.3% | -30.9% | -0.1% | +30.9% | 29 |
-| 2026-09-28 | CRTD | registration_effective | -1 | +18.5% | +7.1% | $7k ⚠ | 4.25 | 4.25 | 5.39 | +26.7% | +26.7% | -0.1% | -26.8% | 28 |
-| 2026-09-28 | ENRD | registration_effective | -1 | +5.3% | -6.5% | $932k | 3.87 | 3.84 | 2.19 | -43.4% | -43.0% | -0.1% | +42.9% | 29 |
-| 2026-09-28 | EP | registration_effective | -1 | -13.2% | -0.5% | $97k ⚠ | 2.10 | 2.08 | 3.02 | +43.6% | +45.0% | -0.1% | -45.0% | 29 |
-| 2026-09-28 | FFAI | 8k_reverse_split | -1 | -8.5% | -12.4% | $4.9M | 1.41 | 1.53 | 0.47 | -66.8% | -69.4% | -0.1% | +69.3% | 29 |
-| 2026-09-28 | FNWD | merger_vote | +0 | +1.6% | -1.8% | $565k | 42.45 | 42.46 | 43.62 | +2.7% | +2.7% | -0.1% |  | 29 |
-| 2026-09-28 | GMTL | registration_effective | -1 | -3.9% | -9.2% | $1.9M | 9.16 | 9.27 | 4.90 | -46.5% | -47.1% | -0.1% | +47.1% | 29 |
-| 2026-09-28 | GOSS | 8k_reverse_split | -1 | +2.0% | +5.3% | $3.0M | 11.52 | 11.68 | 9.96 | -13.5% | -14.7% | -0.1% | +14.6% | 29 |
-| 2026-09-28 | GRNQ | 8k_reverse_split | -1 | +5.7% | -8.3% | $2.1M | 9.67 | 9.68 | 7.13 | -26.3% | -26.3% | -0.1% | +26.3% | 29 |
-| 2026-09-28 | HAIN | 8k_reverse_split | -1 | -10.7% | -2.0% | $1.8M | 0.49 | 0.52 | 0.13 | -72.7% | -74.3% | -0.1% | +74.2% | 29 |
-| 2026-09-28 | HMH | share_registration | -1 | +1.6% | +0.6% | $3.7M | 19.28 | 18.87 | 19.00 | -1.4% | +0.7% | -0.1% | -0.8% | 29 |
-| 2026-09-28 | KNRX | registration_effective | -1 | -3.8% | +304.6% | $17.9M | 1.23 | 0.69 | 0.16 | -87.0% | -76.9% | -0.1% | +76.8% | 29 |
-| 2026-09-28 | LFCR | 8k_reverse_split | -1 | -5.8% | +55.2% | $1.9M | 6.52 | 6.53 | 6.45 | -1.1% | -1.3% | -0.1% | +1.2% | 29 |
-| 2026-09-28 | MATH | registration_effective | -1 | -2.9% | +5.0% | $204k ⚠ | 1.03 | 1.03 | 1.06 | +2.9% | +2.9% | -0.1% | -3.0% | 29 |
-| 2026-09-28 | MGLD | 8k_reverse_split | -1 | +82.1% | +2.1% | $1.8M | 1.97 | 1.96 | 1.97 | +0.0% | +0.5% | -0.1% | -0.6% | 28 |
-| 2026-09-28 | MTNB | 8k_reverse_split | -1 | +0.0% | +5.4% | $146k ⚠ | 2.53 | 2.47 | 1.80 | -28.7% | -26.9% | -0.1% | +26.8% | 29 |
-| 2026-09-28 | NEOV | registration_effective | -1 | -35.8% | +4.1% | $7.1M | 2.28 | 2.29 | 2.17 | -4.6% | -5.0% | -0.1% | +4.9% | 29 |
-| 2026-09-28 | PAAC | 8k_reverse_split | -1 | -0.3% | +0.0% | $203k ⚠ | 10.07 | 10.06 | 10.01 | -0.6% | -0.5% | -0.1% | +0.4% | 28 |
-| 2026-09-28 | PDYN | delisting | +0 | -5.1% | -2.0% | $4.5M | 5.28 | 5.39 | 3.94 | -25.3% | -26.8% | -0.1% |  | 29 |
-| 2026-09-28 | POLA | registration_effective | -1 | +4.8% | -3.8% | $137k ⚠ | 1.26 | 1.28 | 0.62 | -51.0% | -51.8% | -0.1% | +51.7% | 29 |
-| 2026-09-28 | PSKY | 8k_tender_offer | +0 |  | +15.9% | $107.1M | 10.87 | 9.26 | 6.91 | -36.4% | -25.4% | -0.7% |  | 11 |
-| 2026-09-28 | PULM | registration_effective | -1 | +11.8% | -1.2% | $75k ⚠ | 1.59 | 1.59 | 1.43 | -10.1% | -10.1% | -0.1% | +10.0% | 29 |
-| 2026-09-28 | QNRX | registration_effective | -1 | -8.9% | -18.2% | $841k | 5.26 | 5.30 | 4.07 | -22.7% | -23.3% | -0.1% | +23.2% | 29 |
-| 2026-09-28 | RILY | delisting | +0 | -4.5% | -3.9% | $3.3M | 5.49 | 5.08 | 4.04 | -26.4% | -20.5% | -0.1% |  | 29 |
-| 2026-09-28 | RYAM | idea_catalyst | +1 | +2.8% | -4.9% | $6.4M | 8.15 | 8.15 | 6.70 | -17.8% | -17.8% | -0.1% | -17.7% | 29 |
-| 2026-09-28 | RZAI | ipo_priced | +0 |  |  |  ⚠ |  | 27.63 | 9.87 |  | -64.3% | -0.1% |  | 28 |
-| 2026-09-28 | SABR | 8k_tender_offer | +0 | -3.5% | -3.7% | $13.1M | 2.10 | 2.09 | 1.56 | -25.7% | -25.4% | -0.1% |  | 29 |
-| 2026-09-28 | SHFS | 8k_reverse_split | -1 | -3.7% | -30.6% | $169k ⚠ | 1.31 | 1.32 | 0.09 | -93.1% | -93.1% | -0.1% | +93.0% | 29 |
-| 2026-09-28 | SKIN | 8k_reverse_split | -1 | -1.5% | -2.3% | $236k ⚠ | 13.00 | 12.90 | 10.29 | -20.8% | -20.2% | -0.1% | +20.1% | 29 |
-| 2026-09-28 | TDY | 8k_spin_off | +0 | +1.8% | -0.5% | $169.6M | 610.83 | 607.89 | 660.83 | +8.2% | +8.7% | -0.1% |  | 29 |
-| 2026-09-28 | TRAK | registration_effective | -1 | +0.5% | -0.4% | $694k | 8.20 | 7.80 | 7.11 | -13.2% | -8.8% | -0.1% | +8.7% | 29 |
-| 2026-09-28 | TWO-PC | delisting | +0 | +0.2% | +0.0% | $2.7M | 25.39 | 25.39 | 25.39 | +0.0% | +0.0% | -0.1% |  | 0 |
-| 2026-09-28 | VIOT | registration_effective | -1 | +4.7% | +17.8% | $6.3M | 1.59 | 1.61 | 1.38 | -13.2% | -14.3% | -0.1% | +14.2% | 29 |
-| 2026-09-28 | VKTX | 8k_tender_offer | +0 | +22.7% | -7.1% | $260.1M | 33.03 | 33.11 | 25.01 | -24.3% | -24.5% | -0.1% |  | 29 |
-| 2026-09-28 | WHF | idea_catalyst | +1 | -4.5% | -1.0% | $749k | 6.97 | 6.95 | 8.08 | +15.9% | +16.3% | -0.1% | +16.3% | 29 |
-| 2026-09-28 | WPRT | registration_effective | -1 | +4.6% | +1.0% | $112k ⚠ | 2.05 | 2.05 | 2.08 | +1.2% | +1.2% | -0.1% | -1.3% | 28 |
-| 2026-09-28 | XLAB | 8k_lock_up | +0 | -17.1% | -1.2% | $333k | 2.40 | 2.22 | 3.03 | +26.2% | +36.5% | -0.1% |  | 29 |
-| 2026-09-29 | ACVA | tender_third_party | +0 | -0.2% | -0.2% | $150.2M | 10.44 | 10.44 | 10.50 | +0.6% | +0.6% | -0.1% |  | 16 |
-| 2026-09-29 | AIR | 8k_reverse_split | -1 | -1.0% | -7.2% | $62.0M | 106.75 | 107.20 | 100.67 | -5.7% | -6.1% | -0.1% | +6.0% | 28 |
-| 2026-09-29 | AIXC | 8k_lock_up | +0 | +49.5% | -39.2% | $1.8M | 1.01 | 1.31 | 1.16 | +14.8% | -11.4% | -0.1% |  | 16 |
-| 2026-09-29 | BBLG | 8k_reverse_split | -1 | +4.2% | +0.0% | $161k ⚠ | 0.50 | 0.49 | 0.39 | -21.4% | -20.6% | -0.1% | +20.5% | 28 |
-| 2026-09-29 | BRSP | activist_13d | +1 | -2.9% | -0.7% | $7.5M | 4.03 | 3.91 | 3.74 | -7.2% | -4.3% | -0.1% | -4.3% | 28 |
-| 2026-09-29 | BSAA | activist_13d | +1 | +1.3% | +0.0% | $22k ⚠ | 11.30 | 11.30 | 10.73 | -5.0% | -5.0% | -0.1% | -5.0% | 27 |
-| 2026-09-29 | CLNK | registration_effective | -1 | +15.5% | -2.8% | $1.5M | 26.76 | 26.80 | 21.05 | -21.3% | -21.4% | -0.1% | +21.4% | 28 |
-| 2026-09-29 | CNTY | 8k_strategic_review | +1 | -6.3% | +1.9% | $50k ⚠ | 1.07 | 1.07 | 0.71 | -33.7% | -33.7% | -0.1% | -33.6% | 28 |
-| 2026-09-29 | CPRT | tender_third_party | +0 | -5.8% | -0.3% | $311.3M | 27.14 | 27.23 | 28.67 | +5.6% | +5.3% | -0.1% |  | 28 |
-| 2026-09-29 | CRTD | 8k_reverse_split | -1 | +49.1% | +12.9% | $7k ⚠ | 4.80 | 4.65 | 5.39 | +12.2% | +15.8% | -0.1% | -15.9% | 27 |
-| 2026-09-29 | CTVA | idea_spinoff | +0 | -1.7% | +0.2% | $403.9M | 11.68 | 11.69 | 11.52 | +613.7% | +613.3% | -0.1% |  | 28 |
-| 2026-09-29 | DAIC | 8k_lock_up | +0 | -9.4% | -13.5% | $36.9M | 2.82 | 2.89 | 1.01 | -64.1% | -65.0% | -0.1% |  | 28 |
-| 2026-09-29 | DV | merger_vote | +0 | -0.3% | +0.0% | $49.0M | 13.40 | 13.46 | 13.56 | +1.2% | +0.7% | -0.1% |  | 28 |
-| 2026-09-29 | ELAB | activist_13d | +1 | +8.1% | -23.2% | $237k ⚠ | 3.67 | 3.75 | 2.62 | -28.6% | -30.1% | -0.1% | -30.1% | 28 |
-| 2026-09-29 | ELME | 8k_special_dividend | +0 | -2.9% | +1.2% | $1.2M | 1.72 | 1.76 | 0.05 | -97.1% | -97.2% | -0.1% |  | 27 |
-| 2026-09-29 | FEMY | registration_effective | -1 | -5.9% | -12.2% | $195k ⚠ | 2.09 | 2.19 | 1.41 | -32.5% | -35.6% | -0.1% | +35.6% | 28 |
-| 2026-09-29 | FFBC | registration_effective | -1 | +0.6% | -1.5% | $30.2M | 31.45 | 31.52 | 32.53 | +3.4% | +3.2% | -0.1% | -3.3% | 28 |
-| 2026-09-29 | FLD | registration_effective | -1 | -13.6% | +5.9% | $200k ⚠ | 0.54 | 0.54 | 0.51 | -5.0% | -4.1% | -0.1% | +4.0% | 28 |
-| 2026-09-29 | FWAC | 8k_reverse_split | -1 | +0.0% | +0.1% | $660k | 9.95 | 9.95 | 9.95 | +0.0% | +0.0% | -0.1% | -0.1% | 27 |
-| 2026-09-29 | GDEV | tender_issuer_buyback | +1 | -6.6% | +1.5% | $19k ⚠ | 10.86 | 10.31 | 10.05 | -7.5% | -2.5% | -0.1% | -2.5% | 27 |
-| 2026-09-29 | GENK | 8k_reverse_split | -1 | -0.6% | -0.6% | $77k ⚠ | 1.70 | 1.72 | 1.57 | -7.7% | -8.7% | -0.1% | +8.7% | 28 |
-| 2026-09-29 | GOAI | 8k_reverse_split | -1 | +10.9% | -3.1% | $457k | 1.88 | 1.85 | 0.96 | -48.9% | -48.1% | -0.1% | +48.1% | 28 |
-| 2026-09-29 | GWAV | registration_effective | -1 | -7.5% | +5.5% | $212k ⚠ | 2.48 | 2.41 | 2.22 | -10.5% | -7.9% | -0.1% | +7.8% | 27 |
-| 2026-09-29 | HAVA | 8k_tender_offer | +0 | +0.2% | +0.0% | $535k | 10.24 | 10.24 | 10.30 | +0.6% | +0.6% | -0.1% |  | 28 |
-| 2026-09-29 | HMH | idea_overhang | -1 | +3.6% | -7.8% | $3.9M | 17.77 | 17.77 | 19.00 | +6.9% | +6.9% | -0.1% | -7.0% | 28 |
-| 2026-09-29 | IMNN | 8k_spin_off | +0 | -3.5% | -2.9% | $217k ⚠ | 1.34 | 1.28 | 0.87 | -35.3% | -32.3% | -0.1% |  | 28 |
-| 2026-09-29 | JELD | 8k_strategic_review | +1 | +3.5% | +12.4% | $3.3M | 1.99 | 1.99 | 1.38 | -30.9% | -30.9% | -0.1% | -30.9% | 28 |
-| 2026-09-29 | KRKR | registration_effective | -1 | -0.5% | -2.0% | $11k ⚠ | 3.00 | 3.21 | 2.76 | -8.0% | -14.0% | -0.1% | +14.0% | 28 |
-| 2026-09-29 | LABT | 8k_reverse_split | -1 | -43.9% | -13.9% | $3.5M | 0.99 | 0.97 | 0.28 | -71.7% | -71.1% | -0.1% | +71.1% | 28 |
-| 2026-09-29 | LBSR | 8k_reverse_split | -1 | -17.4% | -3.7% | $6k ⚠ | 0.02 | 0.02 | 0.02 | -12.6% | -25.9% | -0.1% | +25.9% | 27 |
-| 2026-09-29 | LIMN | 8k_reverse_split | -1 | +17.3% | -8.4% | $102k ⚠ | 3.91 | 3.81 | 3.06 | -21.6% | -19.6% | -0.1% | +19.5% | 28 |
-| 2026-09-29 | LWLG | 8k_strategic_review | +1 | -8.8% | +3.4% | $14.3M | 5.17 | 5.16 | 4.60 | -11.0% | -10.8% | -0.1% | -10.8% | 28 |
-| 2026-09-29 | MBAI | registration_effective | -1 | -35.3% | -6.7% | $171k ⚠ | 3.75 | 3.58 | 1.91 | -49.2% | -46.7% | -0.1% | +46.6% | 28 |
-| 2026-09-29 | MLSS | registration_effective | -1 | +5.1% | +0.0% | $33k ⚠ | 0.41 | 0.42 | 0.31 | -23.5% | -25.3% | -0.1% | +25.2% | 28 |
-| 2026-09-29 | MNY | activist_13d | +1 | -2.2% | +7.1% | $27k ⚠ | 0.72 | 0.71 | 0.56 | -22.5% | -21.1% | -0.1% | -21.1% | 28 |
-| 2026-09-29 | NIVF | registration_effective | -1 | -52.1% | -79.1% | $850k | 2.30 | 5.34 | 1.13 | -51.0% | -78.8% | -0.1% | +78.8% | 28 |
-| 2026-09-29 | NSAI | activist_13d | +1 | +0.0% | +0.1% | $629k | 9.88 | 9.88 | 9.90 | +0.2% | +0.2% | -0.1% | +0.3% | 28 |
-| 2026-09-29 | ONEN | 8k_lock_up | +0 | -80.2% | +21.9% | $3.0M | 2.62 | 2.46 | 1.42 | -45.8% | -42.2% | -0.1% |  | 28 |
-| 2026-09-29 | ONMD | 8k_reverse_split | -1 | -8.0% | -17.7% | $281k | 5.21 | 5.60 | 4.37 | -16.1% | -22.0% | -0.1% | +21.9% | 28 |
-| 2026-09-29 | PPLI | activist_13d | +1 | +7.8% | +2.8% | $50.1M | 40.74 | 40.74 | 36.17 | -11.2% | -11.2% | -0.1% | -11.2% | 28 |
-| 2026-09-29 | RZAI | registration_effective | -1 |  |  |  ⚠ |  | 27.63 | 9.87 |  | -64.3% | -0.1% | +64.2% | 28 |
-| 2026-09-29 | SMMT | 8k_reverse_split | -1 | -8.4% | +5.9% | $123.1M | 16.39 | 16.59 | 15.46 | -5.7% | -6.8% | -0.1% | +6.8% | 28 |
-| 2026-09-29 | SSTI | 8k_reverse_split | -1 | -0.4% | +50.1% | $2.5M | 8.21 | 8.21 | 8.35 | +1.7% | +1.7% | -0.1% | -1.8% | 28 |
-| 2026-09-29 | SURG | 8k_reverse_split | -1 | -15.0% | +11.0% | $4.2M | 0.15 | 0.15 | 0.15 | +2.0% | +5.5% | -0.1% | -5.5% | 28 |
-| 2026-09-29 | TDG | 8k_tender_offer | +0 | -0.0% | -0.9% | $436.1M | 1099.79 | 1099.36 | 1141.38 | +3.8% | +3.8% | -0.1% |  | 28 |
-| 2026-09-29 | THRM | idea_merger | +0 | -7.4% | +0.9% | $15.0M | 33.92 | 34.08 | 33.00 | +3.4% | +2.9% | -0.1% |  | 28 |
-| 2026-09-29 | TRUG | 8k_reverse_split | -1 | -38.4% | +11.3% | $27.8M | 2.96 | 2.75 | 0.81 | -72.5% | -70.4% | -0.1% | +70.3% | 28 |
-| 2026-09-29 | UTMD | tender_issuer_buyback | +1 | +0.0% | +0.6% | $2.5M | 74.95 | 74.95 | 71.46 | -4.7% | -4.7% | -0.1% | -4.6% | 28 |
-| 2026-09-29 | VRME | 8k_reverse_split | -1 |  |  |  ⚠ |  | 8.13 | 8.98 |  | +10.5% | -0.1% | -10.5% | 0 |
-| 2026-09-29 | WHLR | 8k_reverse_split | -1 | +97.6% | -18.3% | $31.6M | 3.34 | 3.11 | 0.26 | -92.3% | -91.7% | -0.1% | +91.7% | 28 |
-| 2026-09-29 | XRP | registration_effective | -1 | -1.8% | +0.8% | $32.7M | 16.69 | 17.14 | 14.68 | -12.1% | -14.4% | -0.1% | +14.3% | 28 |
-| 2026-09-29 | YTRA | tender_third_party | +0 | -7.1% | -0.6% | $36k ⚠ | 0.95 | 0.92 | 0.95 | -0.1% | +3.0% | -0.1% |  | 28 |
-| 2026-09-30 | MOD | idea_merger | +0 | -6.2% | +1.9% | $249.7M | 187.20 | 187.65 | 141.73 | -16.4% | -16.6% | +1.0% |  | 27 |
-| 2026-09-30 | TWST | idea_overhang | +0 | +13.1% | +3.8% | $350.5M | 193.24 | 193.10 | 177.98 | -7.9% | -7.8% | +1.0% |  | 27 |
-| 2026-10-01 | VYLR | idea_spinoff | +0 |  |  | $1025.0M | 68.26 | 68.71 | 71.86 | +5.3% | +4.6% | -0.8% |  | 26 |
-| 2026-10-02 | ADRX | activist_13d | +1 |  | -6.6% | $30.7M | 18.25 | 18.25 | 18.02 | -1.3% | -1.3% | -0.7% | -0.6% | 23 |
-| 2026-10-02 | ATER | activist_13d | +1 | -9.6% | +7.4% | $3.6M | 0.65 | 0.64 | 0.73 | +11.8% | +14.4% | -0.7% | +15.1% | 23 |
-| 2026-10-02 | BNBX | 8k_strategic_review | +1 | -7.1% | +7.7% | $3k ⚠ | 0.14 | 0.13 | 0.10 | -28.6% | -23.1% | -0.7% | -22.4% | 22 |
-| 2026-10-02 | BNS | registration_effective | -1 | -1.7% | +0.6% | $172.9M | 91.19 | 91.10 | 93.75 | +2.8% | +2.9% | -0.7% | -3.6% | 23 |
-| 2026-10-02 | BSEM | share_registration | -1 | -20.9% | -11.1% | $780k | 2.73 | 2.74 | 1.50 | -45.0% | -45.3% | -0.7% | +44.6% | 23 |
-| 2026-10-02 | CNTM | 8k_lock_up | +0 | -3.1% | -8.8% | $23k ⚠ | 4.55 | 4.55 | 4.46 | -2.0% | -2.0% | -0.7% |  | 23 |
-| 2026-10-02 | CYCU | 8k_reverse_split | -1 | -5.9% | +42.0% | $9.9M | 3.82 | 3.60 | 2.52 | -34.1% | -30.1% | -0.7% | +29.4% | 23 |
-| 2026-10-02 | DARE | 8k_reverse_split | -1 | +14.8% | -0.9% | $199k ⚠ | 0.84 | 0.83 | 0.67 | -20.5% | -19.6% | -0.7% | +18.9% | 23 |
-| 2026-10-02 | FDCT | registration_effective | -1 | -25.3% | -6.5% | $9k ⚠ | 2.01 | 2.01 | 4.37 | +117.4% | +117.4% | -0.7% | -118.1% | 22 |
-| 2026-10-02 | FLEX | 8k_spin_off | +0 | +0.3% | +3.4% | $359.3M | 116.61 | 116.99 | 90.43 | -22.5% | -22.7% | -0.7% |  | 23 |
-| 2026-10-02 | GETY | delisting | +0 | -50.6% | -47.5% | $812k | 0.04 | 0.04 | 0.03 | -28.6% | -30.2% | -0.7% |  | 22 |
-| 2026-10-02 | GOW | activist_13d | +1 | -60.2% | +29.9% | $6.5M | 3.87 | 3.89 | 3.05 | -21.2% | -21.7% | -0.7% | -21.0% | 23 |
-| 2026-10-02 | HCAC | 8k_lock_up | +0 | +0.2% | -0.2% | $849k | 10.13 | 10.13 | 10.12 | -0.1% | -0.1% | -0.7% |  | 23 |
-| 2026-10-02 | HCTI | 8k_reverse_split | -1 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 6.52 | -55.0% | -45.7% | -0.7% | +45.0% | 23 |
-| 2026-10-02 | HCWB | share_registration | -1 | -15.1% | -0.6% | $1.9M | 1.68 | 1.64 | 1.22 | -27.4% | -25.6% | -0.7% | +24.9% | 23 |
-| 2026-10-02 | HZO | merger_vote | +0 | -0.2% | +0.0% | $41.4M | 52.35 | 52.27 | 52.50 | +0.3% | +0.4% | -0.7% |  | 23 |
-| 2026-10-02 | INM | registration_effective | -1 | -3.6% | -1.5% | $89k ⚠ | 1.33 | 1.36 | 1.59 | +19.6% | +17.0% | -0.7% | -17.7% | 23 |
-| 2026-10-02 | JOB | 8k_reverse_split | -1 | -4.3% | -4.5% | $43k ⚠ | 0.21 | 0.21 | 0.21 | -0.3% | -0.3% | -0.7% | -0.3% | 23 |
-| 2026-10-02 | KAVL | delisting | +0 | +25.0% | +0.0% | $0k ⚠ | 0.03 | 0.04 | 0.03 | +0.0% | -25.0% | -0.7% |  | 22 |
-| 2026-10-02 | LGMK | activist_13d | +1 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +3.2% | -3.2% | 0 |
-| 2026-10-02 | MAXNQ | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.03 | +12400.0% | +24900.0% | -0.7% |  | 22 |
-| 2026-10-02 | MKZR | 8k_strategic_review | +1 | +0.1% | -3.0% | $17k ⚠ | 1.34 | 1.40 | 1.09 | -18.6% | -21.9% | -0.7% | -21.2% | 22 |
-| 2026-10-02 | NEOV | registration_effective | -1 | +5.2% | +21.0% | $4.8M | 3.05 | 3.07 | 2.17 | -28.7% | -29.1% | -0.7% | +28.5% | 23 |
-| 2026-10-02 | NNE | 8k_tender_offer | +0 | -7.6% | -0.7% | $32.3M | 15.62 | 15.70 | 12.01 | -23.1% | -23.5% | -0.7% |  | 23 |
-| 2026-10-02 | OPNW | 8k_reverse_split | -1 | -52.6% | -2.5% | $10.3M | 5.40 | 5.19 | 1.47 | -72.8% | -71.7% | -0.7% | +71.0% | 23 |
-| 2026-10-02 | PLRZ | registration_effective | -1 | -1.8% | -6.9% | $515k | 9.61 | 9.48 | 8.58 | -10.7% | -9.5% | -0.7% | +8.8% | 22 |
-| 2026-10-02 | SBFM | share_registration | -1 | -14.0% | -3.1% | $135k ⚠ | 13.34 | 9.70 | 3.00 | -77.5% | -69.1% | -0.7% | +68.4% | 23 |
-| 2026-10-02 | SILO | 8k_lock_up | +0 | -14.3% | -2.8% | $185k ⚠ | 1.46 | 1.35 | 1.30 | -10.8% | -3.7% | -0.7% |  | 23 |
-| 2026-10-02 | SSTI | activist_13d | +1 | +54.3% | -1.3% | $2.7M | 8.33 | 8.33 | 8.35 | +0.2% | +0.2% | -0.7% | +0.9% | 23 |
-| 2026-10-02 | TPST | registration_effective | -1 | -5.2% | +0.6% | $8.4M | 0.81 | 0.80 | 0.52 | -36.2% | -35.3% | -0.7% | +34.6% | 23 |
-| 2026-10-02 | UTZ | merger_vote | +0 | +0.1% | +0.1% | $21.6M | 14.27 | 14.29 | 14.31 | +0.3% | +0.2% | -0.7% |  | 23 |
-| 2026-10-02 | VCTR | merger_vote | +0 | +5.3% | +1.3% | $83.6M | 113.23 | 114.42 | 111.07 | -1.9% | -2.9% | -0.7% |  | 23 |
-| 2026-10-02 | VDTA | share_registration | -1 | -6.8% | -0.3% | $177k ⚠ | 5.25 | 5.30 | 3.70 | -29.5% | -30.2% | -0.7% | +29.5% | 23 |
-| 2026-10-02 | VTAK | 8k_reverse_split | -1 | -6.3% | +0.0% | $248k ⚠ | 1.50 | 1.60 | 0.65 | -56.7% | -59.4% | -0.7% | +58.7% | 22 |
-| 2026-10-02 | XELB | 8k_reverse_split | -1 | -10.3% | -7.3% | $16k ⚠ | 0.66 | 0.84 | 0.33 | -49.6% | -60.6% | -0.7% | +59.9% | 23 |
-| 2026-10-02 | ZDGE | activist_13d | +1 | -1.0% | +0.3% | $191k ⚠ | 3.00 | 3.04 | 2.58 | -14.2% | -15.3% | -0.7% | -14.6% | 23 |
-| 2026-10-04 | CYAB | setup_supply_deficiency | +0 | -12.5% | -4.8% | $2.5M | 0.20 | 0.20 | 0.13 | -35.1% | -35.1% | -0.7% |  | 23 |
-| 2026-10-04 | DYAI | setup_supply_deficiency | +0 | -2.3% | +7.0% | $87k ⚠ | 0.46 | 0.46 | 0.40 | -13.6% | -13.6% | -0.7% |  | 23 |
-| 2026-10-04 | FLD | setup_supply_deficiency | +0 | -4.6% | +4.6% | $79k ⚠ | 0.54 | 0.53 | 0.51 | -5.1% | -3.2% | -0.7% |  | 23 |
-| 2026-10-04 | GOVX | setup_supply_deficiency | +0 | -10.6% | -0.6% | $111k ⚠ | 0.32 | 0.33 | 0.20 | -38.9% | -40.8% | -0.7% |  | 23 |
-| 2026-10-04 | GWH | setup_supply_deficiency | +0 | -53.8% | +0.0% | $323k | 0.16 | 0.13 | 0.06 | -61.8% | -53.9% | -0.7% |  | 22 |
-| 2026-10-04 | GXAI | setup_supply_deficiency | +0 | -11.1% | -2.8% | $143k ⚠ | 0.52 | 0.49 | 0.49 | -4.4% | +0.5% | -0.7% |  | 23 |
-| 2026-10-04 | HCTI | setup_supply_deficiency | +0 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 6.52 | -55.0% | -45.7% | -0.7% |  | 23 |
-| 2026-10-04 | POLA | setup_supply_deficiency | +0 | -13.8% | +3.6% | $195k ⚠ | 1.16 | 1.17 | 0.62 | -46.8% | -47.3% | -0.7% |  | 23 |
-| 2026-10-04 | SNTI | setup_supply_deficiency | +0 | -5.5% | -0.6% | $385k | 0.32 | 0.31 | 0.22 | -32.8% | -30.2% | -0.7% |  | 23 |
-| 2026-10-04 | VHUB | setup_supply_deficiency | +0 | -9.6% | +2.1% | $243k ⚠ | 0.48 | 0.44 | 0.26 | -45.8% | -40.8% | -0.7% |  | 23 |
-| 2026-10-05 | AAON | longterm_research | +0 | -6.5% | +1.3% | $95.0M | 84.35 | 85.34 | 75.25 | -10.8% | -11.8% | -1.5% |  | 22 |
-| 2026-10-05 | ADRX | activist_13d | +1 | -5.7% | +4.4% | $28.8M | 19.05 | 19.05 | 18.02 | -5.4% | -5.4% | -1.5% | -3.9% | 22 |
-| 2026-10-05 | ASST | 8k_reverse_split | -1 | +2.0% | +0.8% | $252.5M | 30.26 | 30.17 | 27.22 | -10.1% | -9.8% | -1.5% | +8.2% | 22 |
-| 2026-10-05 | BLRX | registration_effective | -1 | -8.8% | -2.1% | $33k ⚠ | 2.32 | 2.31 | 2.00 | -13.8% | -13.4% | -1.5% | +11.8% | 22 |
-| 2026-10-05 | BRN | 8k_strategic_review | +1 | +4.3% | -4.1% | $38k ⚠ | 0.94 | 0.99 | 0.88 | -6.4% | -11.1% | -1.5% | -9.6% | 22 |
-| 2026-10-05 | BRNX | registration_effective | -1 | -26.9% | +3.8% | $2.1M | 1.89 | 1.90 | 0.63 | -66.9% | -67.1% | -1.5% | +65.5% | 22 |
-| 2026-10-05 | BWMN | merger_vote | +0 | +0.1% | +0.4% | $15.8M | 42.76 | 42.75 | 42.87 | +0.3% | +0.3% | -1.5% |  | 22 |
-| 2026-10-05 | CHRW | 8k_merger_agreement | +0 | +7.2% | -10.8% | $271.5M | 140.61 | 140.83 | 128.01 | -9.0% | -9.1% | -1.5% |  | 22 |
-| 2026-10-05 | CLF | longterm_research | +0 | -7.1% | +7.8% | $180.9M | 12.20 | 12.88 | 13.47 | +10.4% | +4.5% | -1.5% |  | 22 |
-| 2026-10-05 | CTVA | 8k_spin_off | +0 | +1.2% | +3.9% | $528.3M | 12.39 | 13.08 | 11.52 | -7.0% | -11.9% | -1.5% |  | 22 |
-| 2026-10-05 | CYDY | registration_effective | -1 | -13.0% | +0.0% | $322k | 0.20 | 0.20 | 0.22 | +11.5% | +11.5% | -1.5% | -13.0% | 22 |
-| 2026-10-05 | DCGO | 8k_merger_agreement | +0 | +7.2% | -1.4% | $241k ⚠ | 0.37 | 0.37 | 0.28 | -24.1% | -25.6% | -1.5% |  | 22 |
-| 2026-10-05 | DSGR | 8k_merger_agreement | +0 | +0.1% | +0.1% | $7.3M | 35.02 | 35.02 | 34.97 | -0.1% | -0.1% | -1.5% |  | 22 |
-| 2026-10-05 | DTCKF | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.28 | 0.25 | 0.25 | -10.4% | -0.4% | -1.5% |  | 22 |
-| 2026-10-05 | ELMT | longterm_research | +0 | +12.7% | -3.8% | $29.1M | 21.29 | 21.63 | 23.20 | +9.0% | +7.3% | -1.5% |  | 22 |
-| 2026-10-05 | EMAT | share_registration | -1 | -36.3% | +0.7% | $4.8M | 2.06 | 2.00 | 1.45 | -29.4% | -27.5% | -1.5% | +26.0% | 22 |
-| 2026-10-05 | ESRT | activist_13d | +1 | +1.5% | +1.4% | $22.0M | 4.23 | 4.30 | 5.01 | +18.3% | +16.4% | -1.5% | +17.9% | 22 |
-| 2026-10-05 | FLEX | 8k_spin_off | +0 | +1.7% | +0.1% | $349.9M | 116.76 | 118.01 | 90.43 | -22.6% | -23.4% | -1.5% |  | 22 |
-| 2026-10-05 | FRMM | 8k_strategic_review | +1 | -4.2% | -1.7% | $578k | 4.75 | 4.71 | 3.61 | -24.0% | -23.4% | -1.5% | -21.8% | 22 |
-| 2026-10-05 | HNOI | registration_effective | -1 | +34.5% | -6.4% | $4k ⚠ | 0.04 | 0.04 | 0.02 | -58.4% | -57.2% | -1.5% | +55.6% | 22 |
-| 2026-10-05 | HPP | 8k_tender_offer | +0 | -1.5% | -2.0% | $7.5M | 11.25 | 11.32 | 11.03 | -2.0% | -2.6% | -1.5% |  | 22 |
-| 2026-10-05 | JAGX | 8k_strategic_review | +1 | -52.5% | +29.2% | $72.1M | 4.73 | 6.56 | 2.11 | -55.4% | -67.8% | -1.5% | -66.3% | 22 |
-| 2026-10-05 | JSPR | 8k_merger_agreement | +0 | -7.2% | +5.0% | $212k ⚠ | 0.59 | 0.60 | 0.55 | -7.6% | -8.7% | -1.5% |  | 22 |
-| 2026-10-05 | JSPR | 8k_reverse_split | -1 | -7.2% | +5.0% | $212k ⚠ | 0.59 | 0.60 | 0.55 | -7.6% | -8.7% | -1.5% | +7.1% | 22 |
-| 2026-10-05 | KUST | 8k_reverse_split | -1 | -28.9% | +0.7% | $453k | 4.51 | 4.65 | 3.40 | -24.6% | -26.9% | -1.5% | +25.3% | 22 |
-| 2026-10-05 | MACI | merger_vote | +0 | -0.1% | +0.3% | $30k ⚠ | 11.07 | 11.09 | 8.92 | -19.4% | -19.5% | -1.5% |  | 22 |
-| 2026-10-05 | MOD | longterm_research | +0 | -10.0% | +2.6% | $251.6M | 182.91 | 188.00 | 141.73 | -22.5% | -24.6% | -1.5% |  | 22 |
-| 2026-10-05 | MOVE | registration_effective | -1 | -1.0% | -2.6% | $2.4M | 11.35 | 11.35 | 7.53 | -33.6% | -33.6% | -1.5% | +32.1% | 22 |
-| 2026-10-05 | MP | longterm_research | +0 | -3.8% | -0.3% | $256.2M | 46.84 | 47.40 | 40.43 | -13.7% | -14.7% | -1.5% |  | 22 |
-| 2026-10-05 | MTUS | longterm_research | +0 | +5.6% | +5.8% | $6.7M | 21.04 | 21.13 | 20.73 | -1.5% | -1.9% | -1.5% |  | 22 |
-| 2026-10-05 | NG | merger_vote | +0 | -8.1% | +0.9% | $42.1M | 6.61 | 6.66 | 6.09 | -7.8% | -8.5% | -1.5% |  | 22 |
-| 2026-10-05 | NG | 8k_lock_up | +0 | -8.1% | +0.9% | $42.1M | 6.61 | 6.66 | 6.09 | -7.8% | -8.5% | -1.5% |  | 22 |
-| 2026-10-05 | NHP | delisting | +0 | +0.4% | -1.4% | $12.5M | 15.87 | 15.95 | 14.67 | -7.6% | -8.0% | -1.5% |  | 22 |
-| 2026-10-05 | NIMU | 8k_merger_agreement | +0 | +0.0% | +0.0% | $2k ⚠ | 11.50 | 11.50 | 10.81 | -6.0% | -6.0% | -1.5% |  | 21 |
-| 2026-10-05 | PCMC | 8k_lock_up | +0 | +0.0% | +0.0% | $0k ⚠ | 0.25 | 0.25 | 0.25 | +0.0% | +0.0% | -1.5% |  | 21 |
-| 2026-10-05 | PCSA | 8k_merger_agreement | +0 | -12.5% | -7.5% | $51k ⚠ | 1.49 | 1.51 | 1.85 | +24.2% | +22.5% | -1.5% |  | 22 |
-| 2026-10-05 | PFSA | 8k_reverse_split | -1 | -22.5% | +3.6% | $14.8M | 1.75 | 1.72 | 0.75 | -57.0% | -56.3% | -1.5% | +54.8% | 22 |
-| 2026-10-05 | PPCB | share_registration | -1 | -19.5% | -1.5% | $180k ⚠ | 5.00 | 4.83 | 2.22 | -55.6% | -54.0% | -1.5% | +52.5% | 22 |
-| 2026-10-05 | PTC | 8k_merger_agreement | +0 | +4.3% | +33.5% | $507.7M | 192.26 | 193.00 | 194.15 | +1.0% | +0.6% | -1.5% |  | 22 |
-| 2026-10-05 | PUSA | idea_contract_press | +1 | -15.1% | -8.4% | $3.0M | 2.89 | 3.01 | 2.04 | -29.5% | -32.2% | -1.5% | -30.7% | 22 |
-| 2026-10-05 | RENX | 8k_reverse_split | -1 | -9.3% | -5.3% | $290k | 1.89 | 1.94 | 1.08 | -42.9% | -44.3% | -1.5% | +42.8% | 22 |
-| 2026-10-05 | RXO | activist_13d | +1 | +18.1% | +22.5% | $66.7M | 28.65 | 28.73 | 27.70 | -3.3% | -3.6% | -1.5% | -2.0% | 22 |
-| 2026-10-05 | RXO | 8k_merger_agreement | +0 | +18.1% | +22.5% | $66.7M | 28.65 | 28.73 | 27.70 | -3.3% | -3.6% | -1.5% |  | 22 |
-| 2026-10-05 | SIMAU | 8k_lock_up | +0 | +0.0% | +0.0% | $0k ⚠ | 11.25 | 11.25 | 11.11 | -1.2% | -1.2% | -1.5% |  | 21 |
-| 2026-10-05 | SNN | delisting | +0 | -1.8% | +1.9% | $40.0M | 26.92 | 27.10 | 30.14 | +11.9% | +11.2% | -1.5% |  | 22 |
-| 2026-10-05 | SQFT | tender_issuer_buyback | +1 | -21.3% | -4.2% | $771k | 1.13 | 1.12 | 0.80 | -29.6% | -29.0% | -1.5% | -27.5% | 21 |
-| 2026-10-05 | SQFT | 8k_tender_offer | +0 | -21.3% | -4.2% | $771k | 1.13 | 1.12 | 0.80 | -29.6% | -29.0% | -1.5% |  | 21 |
-| 2026-10-05 | SWKS | 8k_merger_agreement | +0 | -4.8% | -1.3% | $747.5M | 83.91 | 85.43 | 86.63 | +3.2% | +1.4% | -1.5% |  | 22 |
-| 2026-10-05 | UAMY | longterm_research | +0 | -11.3% | -1.0% | $22.7M | 3.95 | 4.02 | 3.12 | -20.9% | -22.3% | -1.5% |  | 22 |
-| 2026-10-05 | UTMD | tender_issuer_buyback | +1 | -0.1% | -1.1% | $2.4M | 73.31 | 73.50 | 71.46 | -2.5% | -2.8% | -1.5% | -1.2% | 22 |
-| 2026-10-05 | VATE | 8k_lock_up | +0 | -3.5% | -0.8% | $758k | 7.44 | 7.32 | 6.17 | -17.1% | -15.7% | -1.5% |  | 22 |
-| 2026-10-05 | VJET | 8k_reverse_split | -1 | +0.0% | +8.0% | $1.3M | 1.62 | 1.23 | 0.64 | -60.6% | -48.1% | -1.5% | +46.5% | 22 |
-| 2026-10-05 | VRT | longterm_research | +0 | -0.4% | +0.6% | $1340.3M | 253.62 | 253.20 | 237.59 | -6.3% | -6.2% | -1.5% |  | 22 |
-| 2026-10-05 | VYLR | 8k_spin_off | +0 |  | +9.0% | $1063.4M | 73.33 | 71.91 | 71.86 | -2.0% | -0.1% | -1.5% |  | 22 |
-| 2026-10-05 | WORX | 8k_reverse_split | -1 | +18.6% | +33.0% | $17k ⚠ | 5.52 | 5.70 | 1.91 | -65.4% | -66.5% | -1.5% | +65.0% | 22 |
-| 2026-10-06 | ADSK | deal_peer | +0 | +6.9% | +4.4% | $483.1M | 231.28 | 231.42 | 241.21 | +4.3% | +4.2% | +0.6% |  | 21 |
-| 2026-10-06 | BSY | deal_peer | +0 | +11.1% | +3.5% | $94.0M | 35.97 | 35.98 | 39.38 | +9.5% | +9.4% | +0.6% |  | 21 |
-| 2026-10-06 | CHRW | deal_acquirer | +0 | -5.1% | -4.0% | $288.7M | 135.05 | 135.25 | 128.01 | -5.2% | -5.3% | +0.6% |  | 21 |
-| 2026-10-06 | HUBG | deal_peer | +0 | -4.9% | -2.0% | $46.1M | 28.16 | 27.76 | 26.24 | -6.8% | -5.5% | +0.6% |  | 21 |
-| 2026-10-06 | JBHT | deal_peer | +0 | +1.6% | -1.7% | $291.2M | 225.93 | 223.46 | 222.63 | -1.5% | -0.4% | +0.6% |  | 21 |
-| 2026-10-06 | LSTR | deal_peer | +0 | +3.5% | -1.3% | $60.5M | 169.05 | 166.81 | 142.20 | -15.9% | -14.8% | +0.6% |  | 21 |
-| 2026-10-06 | PCOR | deal_peer | +0 | +10.4% | +0.4% | $143.7M | 54.39 | 54.04 | 61.73 | +13.5% | +14.2% | +0.6% |  | 21 |
-| 2026-10-06 | PTC | merger_arb | +0 | +37.6% | +0.4% | $566.3M | 193.00 | 193.20 | 194.15 | +0.6% | +0.5% | +0.6% |  | 21 |
-| 2026-10-06 | RXO | merger_arb | +0 | +42.2% | -0.4% | $77.1M | 28.54 | 28.34 | 27.70 | -2.9% | -2.3% | +0.6% |  | 21 |
-| 2026-10-06 | SBGSY | deal_acquirer | +0 | -7.5% | -5.2% | $19.8M | 58.20 | 56.73 | 54.50 | -6.4% | -3.9% | +0.6% |  | 21 |
-| 2026-10-07 | ABAT | registration_effective | -1 | -1.8% | -2.8% | $8.9M | 2.09 | 2.08 | 1.52 | -27.0% | -26.7% | +1.3% | +28.0% | 20 |
-| 2026-10-07 | ADTX | delisting | +0 | -25.0% | +0.0% | $58k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | -66.7% | +1.3% |  | 19 |
-| 2026-10-07 | ATKR | 8k_merger_agreement | +0 | -0.0% | +0.1% | $75.2M | 94.85 | 94.85 | 94.96 | +0.1% | +0.1% | +1.3% |  | 8 |
-| 2026-10-07 | AVX | 8k_reverse_split | -1 | -12.8% | +3.8% | $2.4M | 6.14 | 6.02 | 4.42 | -28.1% | -26.6% | +1.3% | +27.9% | 20 |
-| 2026-10-07 | BEEM | 8k_reverse_split | -1 | -0.9% | -2.7% | $437k | 1.08 | 1.07 | 0.87 | -19.9% | -19.1% | +1.3% | +20.5% | 20 |
-| 2026-10-07 | BHLL | registration_effective | -1 | -11.7% | -4.8% | $182k ⚠ | 2.38 | 2.36 | 2.06 | -13.4% | -12.7% | +1.3% | +14.1% | 20 |
-| 2026-10-07 | BUKS | 8k_reverse_split | -1 | +12.0% | -1.6% | $449k | 4.40 | 4.40 | 4.98 | +13.2% | +13.2% | +1.3% | -11.8% | 20 |
-| 2026-10-07 | CERO | 8k_lock_up | +0 | -18.2% | +11.1% | $4k ⚠ | 0.01 | 0.01 | 0.01 | -48.0% | -42.2% | +1.3% |  | 20 |
-| 2026-10-07 | CHAR | 8k_lock_up | +0 | +0.1% | +0.1% | $335k | 10.99 | 11.00 | 10.99 | -0.0% | -0.1% | +1.3% |  | 19 |
-| 2026-10-07 | CSR | merger_vote | +0 | +0.6% | -1.9% | $19.2M | 54.42 | 54.37 | 56.13 | +3.1% | +3.2% | +1.3% |  | 20 |
-| 2026-10-07 | CVKD | 8k_strategic_review | +1 | -9.2% | -1.8% | $196k ⚠ | 0.97 | 0.99 | 0.98 | +0.9% | -1.3% | +1.3% | -2.6% | 20 |
-| 2026-10-07 | DCOY | share_registration | -1 | -27.2% | +3.9% | $22.0M | 1.61 | 1.58 | 1.07 | -33.5% | -32.3% | +1.3% | +33.6% | 20 |
-| 2026-10-07 | GFUZ | registration_effective | -1 | +1.2% | +0.4% | $775k | 7.60 | 8.65 | 6.09 | -19.8% | -29.5% | +1.3% | +30.9% | 20 |
-| 2026-10-07 | GNLN | 8k_reverse_split | -1 | +9.1% | -5.1% | $92k ⚠ | 2.95 | 2.87 | 1.84 | -37.6% | -35.8% | +1.3% | +37.1% | 20 |
-| 2026-10-07 | HLSQ | 8k_reverse_split | -1 | -28.3% | -0.6% | $1.1M | 0.31 | 0.32 | 0.18 | -42.7% | -44.3% | +1.3% | +45.7% | 20 |
-| 2026-10-07 | HOST | 8k_merger_agreement | +0 | -29.8% | -4.7% | $1.5M | 3.21 | 3.21 | 2.78 | -13.4% | -13.4% | +1.3% |  | 20 |
-| 2026-10-07 | JSPR | tender_issuer_buyback | +1 | -10.4% | +1.8% | $222k ⚠ | 0.57 | 0.56 | 0.55 | -3.8% | -2.6% | +1.3% | -4.0% | 20 |
-| 2026-10-07 | JSPR | 8k_tender_offer | +0 | -10.4% | +1.8% | $222k ⚠ | 0.57 | 0.56 | 0.55 | -3.8% | -2.6% | +1.3% |  | 20 |
-| 2026-10-07 | KOYN | 8k_tender_offer | +0 | +0.0% | +0.1% | $1.4M | 10.26 | 10.27 | 10.26 | +0.0% | -0.1% | +1.3% |  | 20 |
-| 2026-10-07 | KPLT | registration_effective | -1 | -5.5% | -4.9% | $2.4M | 4.08 | 4.08 | 8.89 | +117.9% | +117.9% | +1.3% | -116.6% | 20 |
-| 2026-10-07 | LGMK | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +3.2% |  | 0 |
-| 2026-10-07 | LITS | registration_effective | -1 | +2.2% | -9.9% | $1.3M | 1.27 | 1.30 | 1.18 | -6.7% | -8.8% | +1.3% | +10.2% | 20 |
-| 2026-10-07 | MAIA | registration_effective | -1 | +3.5% | -0.8% | $889k | 1.18 | 1.15 | 1.16 | -1.7% | +0.9% | +1.3% | +0.5% | 20 |
-| 2026-10-07 | MOD | 8k_merger_agreement | +0 | +3.4% | -0.2% | $257.5M | 189.44 | 185.66 | 141.73 | -25.2% | -23.7% | +1.3% |  | 20 |
-| 2026-10-07 | NXGL | 8k_reverse_split | -1 | -1.7% | +2.3% | $103k ⚠ | 3.54 | 3.00 | 4.00 | +13.0% | +33.3% | +1.3% | -32.0% | 20 |
-| 2026-10-07 | NXXT | 8k_reverse_split | -1 | -24.2% | -8.4% | $338k | 0.60 | 0.61 | 0.35 | -41.5% | -42.6% | +1.3% | +44.0% | 20 |
-| 2026-10-07 | OPNW | activist_13d | +1 | -23.8% | -2.3% | $10.4M | 6.06 | 6.01 | 1.47 | -75.7% | -75.5% | +1.3% | -76.9% | 20 |
-| 2026-10-07 | PAXG | 8k_tender_offer | +0 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +1.9% |  | 5 |
-| 2026-10-07 | PSQL | registration_effective | -1 | +11.4% | +6.1% | $5.4M | 7.26 | 7.35 | 5.50 | -24.2% | -25.2% | +1.3% | +26.5% | 20 |
-| 2026-10-07 | SCNX | 8k_reverse_split | -1 | -43.7% | +9.8% | $1.7M | 4.13 | 4.26 | 3.16 | -23.5% | -25.8% | +1.3% | +27.2% | 20 |
-| 2026-10-07 | SGMOQ | delisting | +0 | +0.0% | +0.0% | $222k ⚠ | 0.14 | 0.14 | 0.12 | -14.3% | -14.3% | +1.3% |  | 19 |
-| 2026-10-07 | SRXH | 8k_lock_up | +0 | -7.5% | +0.7% | $1.2M | 1.49 | 1.50 | 1.07 | -27.9% | -28.4% | +1.3% |  | 20 |
-| 2026-10-07 | STKH | activist_13d | +1 | -55.2% | -6.9% | $818k | 0.61 | 0.59 | 0.38 | -38.3% | -36.3% | +1.3% | -37.7% | 20 |
-| 2026-10-07 | SYRE | 8k_reverse_split | -1 | -5.4% | +0.9% | $133.3M | 80.85 | 79.58 | 99.85 | +23.5% | +25.5% | +1.3% | -24.1% | 20 |
-| 2026-10-07 | TMGI | 8k_reverse_split | -1 | +100.0% | -50.0% | $3k ⚠ | 0.00 | 0.00 | 0.00 | +0.0% | -50.0% | +1.3% | +51.3% | 19 |
-| 2026-10-07 | VYLR | 8k_spin_off | +0 |  | +0.1% | $871.1M | 72.99 | 73.86 | 71.86 | -1.6% | -2.7% | +1.3% |  | 20 |
-| 2026-10-07 | WHK | registration_effective | -1 | +5.0% | +0.0% | $9.1M | 26.15 | 26.17 | 26.99 | +3.2% | +3.1% | +1.3% | -1.8% | 20 |
-| 2026-10-07 | WS | 8k_tender_offer | +0 | +7.2% | -6.9% | $14.4M | 35.56 | 34.65 | 42.31 | +19.0% | +22.1% | +1.3% |  | 20 |
-| 2026-10-08 | ACVA | tender_third_party | +0 | +0.1% | +0.0% | $160.3M | 10.44 | 10.45 | 10.50 | +0.6% | +0.5% | +0.7% |  | 7 |
-| 2026-10-08 | ASPI | activist_13d | +1 | +7.9% | -1.0% | $14.3M | 2.83 | 2.86 | 2.00 | -29.4% | -30.1% | +0.7% | -30.8% | 19 |
-| 2026-10-08 | ATKR | merger_arb | +0 | +0.1% | -0.0% | $74.3M | 94.84 | 94.89 | 94.96 | +0.1% | +0.1% | +0.7% |  | 7 |
-| 2026-10-08 | ATKR | 8k_merger_agreement | +0 | +0.1% | -0.0% | $74.3M | 94.84 | 94.89 | 94.96 | +0.1% | +0.1% | +0.7% |  | 7 |
-| 2026-10-08 | BMGL | ipo_priced | +0 | +5.1% | +9.8% | $11.7M | 3.60 | 3.50 | 4.59 | +27.4% | +31.0% | +0.7% |  | 19 |
-| 2026-10-08 | BMRA | registration_effective | -1 | -15.5% | -1.0% | $61k ⚠ | 1.89 | 1.86 | 1.72 | -9.0% | -7.5% | +0.7% | +8.2% | 19 |
-| 2026-10-08 | BSFC | 8k_strategic_review | +1 | +28.6% | +0.0% | $0k ⚠ | 1.44 | 0.26 | 1.00 | -30.6% | +284.6% | +0.7% | +284.0% | 5 |
-| 2026-10-08 | CHMI | merger_vote | +0 | -0.8% | +0.8% | $581k | 2.61 | 2.60 | 2.59 | -1.0% | -0.6% | +0.7% |  | 19 |
-| 2026-10-08 | CPRT | tender_third_party | +0 | -2.4% | +3.2% | $309.2M | 27.48 | 27.41 | 28.67 | +4.3% | +4.6% | +0.7% |  | 19 |
-| 2026-10-08 | CREG | delisting | +0 | +52.0% | +63.4% | $1k ⚠ | 0.32 | 0.25 | 0.00 | -98.7% | -98.3% | +0.7% |  | 18 |
-| 2026-10-08 | CRGY | 8k_merger_agreement | +0 | +4.5% | -3.4% | $91.6M | 13.01 | 12.92 | 13.80 | +6.1% | +6.8% | +0.7% |  | 19 |
-| 2026-10-08 | CRMT | 8k_strategic_review | +1 | +9.8% | +11.6% | $756k | 1.25 | 1.26 | 0.84 | -32.7% | -33.2% | +0.7% | -33.9% | 19 |
-| 2026-10-08 | CSR | merger_arb | +0 | +0.0% | +0.9% | $18.4M | 54.91 | 55.52 | 56.13 | +2.2% | +1.1% | +0.7% |  | 19 |
-| 2026-10-08 | CYAB | share_registration | -1 | -9.5% | -10.5% | $2.6M | 0.17 | 0.17 | 0.13 | -23.6% | -23.6% | +0.7% | +24.3% | 19 |
-| 2026-10-08 | CYDY | registration_effective | -1 | -4.8% | +0.0% | $304k | 0.20 | 0.20 | 0.22 | +11.5% | +11.5% | +0.7% | -10.8% | 19 |
-| 2026-10-08 | DAAQ | 8k_spin_off | +0 | -0.1% | +0.0% | $874k | 10.47 | 10.47 | 10.49 | +0.2% | +0.2% | +0.7% |  | 19 |
-| 2026-10-08 | DFLI | 8k_reverse_split | -1 | -19.0% | -28.9% | $270k | 3.92 | 3.88 | 2.28 | -41.8% | -41.2% | +0.7% | +41.9% | 19 |
-| 2026-10-08 | DSGR | 8k_merger_agreement | +0 | +0.5% | +0.0% | $7.5M | 35.07 | 35.05 | 34.97 | -0.3% | -0.2% | +0.7% |  | 19 |
-| 2026-10-08 | DTI | 8k_lock_up | +0 | +1.9% | -14.8% | $508k | 2.01 | 2.03 | 1.69 | -15.9% | -16.8% | +0.7% |  | 19 |
-| 2026-10-08 | DTSQ | 8k_tender_offer | +0 | +0.0% | -0.9% | $64k ⚠ | 11.48 | 11.42 | 11.55 | +0.6% | +1.1% | +0.7% |  | 18 |
-| 2026-10-08 | ESE | activist_13d | +1 | -3.1% | -1.1% | $75.9M | 254.06 | 257.20 | 238.06 | -6.3% | -7.4% | +0.7% | -8.1% | 19 |
-| 2026-10-08 | ESRT | activist_deep_dive | +0 | +10.9% | +2.5% | $22.7M | 4.58 | 4.57 | 5.01 | +9.3% | +9.5% | +0.7% |  | 19 |
-| 2026-10-08 | FEAM | activist_13d | +1 | -7.7% | +6.4% | $3.4M | 3.31 | 3.26 | 2.45 | -26.0% | -24.9% | +0.7% | -25.5% | 19 |
-| 2026-10-08 | MDT | tender_issuer_buyback | +1 | -0.9% | +2.6% | $2224.0M | 87.75 | 88.49 | 95.32 | +8.6% | +7.7% | +0.7% | +7.1% | 19 |
-| 2026-10-08 | MYSZ | registration_effective | -1 | -10.9% | -8.2% | $3.9M | 1.35 | 1.44 | 0.98 | -27.4% | -31.9% | +0.7% | +32.6% | 19 |
-| 2026-10-08 | NDRA | activist_13d | +1 | +1.7% | -2.1% | $214k ⚠ | 5.93 | 5.81 | 4.92 | -17.0% | -15.2% | +0.7% | -15.9% | 19 |
-| 2026-10-08 | NFJ | tender_issuer_buyback | +1 | -4.0% | -0.6% | $4.9M | 14.36 | 14.40 | 14.54 | +1.2% | +1.0% | +0.7% | +0.3% | 19 |
-| 2026-10-08 | NG | 8k_lock_up | +0 | -2.2% | -1.3% | $40.2M | 6.28 | 6.40 | 6.09 | -3.0% | -4.8% | +0.7% |  | 19 |
-| 2026-10-08 | NXXT | 8k_reverse_split | -1 | -29.0% | +3.5% | $301k | 0.62 | 0.62 | 0.35 | -43.5% | -43.8% | +0.7% | +44.5% | 19 |
-| 2026-10-08 | PAYO | 8k_merger_agreement | +0 | +0.3% | +0.0% | $21.0M | 7.16 | 7.17 | 7.14 | -0.2% | -0.3% | +0.7% |  | 19 |
-| 2026-10-08 | PCRX | 8k_merger_agreement | +0 | +0.6% | +44.4% | $65.8M | 36.39 | 36.33 | 36.37 | -0.1% | +0.1% | +0.7% |  | 19 |
-| 2026-10-08 | PUSA | activist_13d | +1 | -34.7% | +0.6% | $3.5M | 2.55 | 2.58 | 2.04 | -20.0% | -20.9% | +0.7% | -21.6% | 19 |
-| 2026-10-08 | RNA | 8k_spin_off | +0 | -4.2% | +4.2% | $3.4M | 8.26 | 8.29 | 8.20 | -0.7% | -1.1% | +0.7% |  | 19 |
-| 2026-10-08 | SAIQ | activist_13d | +1 | -46.7% | +41.6% | $24.5M | 5.51 | 6.12 | 6.24 | +13.3% | +2.0% | +0.7% | +1.3% | 19 |
-| 2026-10-08 | SBFM | registration_effective | -1 | -9.4% | -38.6% | $9.0M | 8.60 | 8.02 | 3.00 | -65.1% | -62.6% | +0.7% | +63.3% | 19 |
-| 2026-10-08 | SELXF | delisting | +0 | +200.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | -66.7% | +0.7% |  | 18 |
-| 2026-10-08 | SNBH | 8k_reverse_split | -1 | -3.8% | +0.0% | $0k ⚠ | 0.34 | 0.34 | 0.40 | +18.8% | +18.8% | +0.7% | -18.1% | 18 |
-| 2026-10-08 | SYNA | merger_vote | +0 | +17.8% | -0.3% | $117.3M | 119.08 | 119.95 | 117.79 | -1.1% | -1.8% | +0.7% |  | 19 |
-| 2026-10-08 | TELA | 8k_reverse_split | -1 | -7.0% | -1.9% | $303k | 1.05 | 1.04 | 0.99 | -5.9% | -5.0% | +0.7% | +5.6% | 19 |
-| 2026-10-08 | TLRY | 8k_reverse_split | -1 | -0.8% | -3.5% | $16.1M | 3.59 | 3.60 | 2.64 | -26.5% | -26.7% | +0.7% | +27.3% | 19 |
-| 2026-10-08 | TLSS | 8k_reverse_split | -1 | -40.0% | -83.3% | $0k ⚠ | 0.05 | 0.06 | 0.20 | +300.0% | +233.3% | +0.7% | -232.7% | 18 |
-| 2026-10-08 | VEEE | 8k_merger_agreement | +0 | -14.7% | -2.0% | $26.9M | 10.14 | 9.91 | 9.23 | -9.0% | -6.9% | +0.7% |  | 19 |
-| 2026-10-08 | VTRS | 8k_merger_agreement | +0 | -1.3% | -0.3% | $164.7M | 17.44 | 17.36 | 18.81 | +7.8% | +8.3% | +0.7% |  | 19 |
-| 2026-10-08 | WKEY | activist_13d | +1 |  |  |  ⚠ |  | 5.88 | 6.09 |  | +3.6% | +2.4% | +1.1% | 0 |
-| 2026-10-08 | WLDS | registration_effective | -1 | -6.1% | -2.9% | $409k | 1.35 | 1.36 | 1.38 | +2.2% | +1.5% | +0.7% | -0.8% | 19 |
-| 2026-10-09 | ACH | 8k_reverse_split | -1 | -21.4% | -2.3% | $1.1M | 0.43 | 0.44 | 0.21 | -50.4% | -51.6% | +0.6% | +52.1% | 16 |
-| 2026-10-09 | ALDF | 8k_tender_offer | +0 | +0.0% | +0.0% | $164k ⚠ | 10.82 | 10.82 | 10.98 | +1.5% | +1.5% | +0.6% |  | 15 |
-| 2026-10-09 | AUID | 8k_reverse_split | -1 | -10.1% | +2.9% | $409k | 0.35 | 0.35 | 0.24 | -31.7% | -30.9% | +0.6% | +31.4% | 16 |
-| 2026-10-09 | BIAF | 8k_reverse_split | -1 | -8.2% | -16.2% | $27.9M | 4.72 | 4.75 | 2.90 | -38.6% | -38.9% | +0.6% | +39.5% | 16 |
-| 2026-10-09 | BKYI | share_registration | -1 | -24.0% | -4.0% | $27.1M | 1.67 | 1.62 | 3.11 | +85.9% | +91.7% | +0.6% | -91.1% | 16 |
-| 2026-10-09 | BSVN | 8k_merger_agreement | +0 | +1.1% | -1.4% | $2.8M | 54.79 | 54.92 | 58.16 | +6.2% | +5.9% | +0.6% |  | 16 |
-| 2026-10-09 | BTOC | 8k_reverse_split | -1 | -9.6% | -0.9% | $16k ⚠ | 3.44 | 3.36 | 2.22 | -35.5% | -33.9% | +0.6% | +34.5% | 15 |
-| 2026-10-09 | CRGY | 8k_tender_offer | +0 | -2.0% | -2.7% | $114.1M | 12.66 | 12.92 | 13.80 | +9.0% | +6.8% | +0.6% |  | 16 |
-| 2026-10-09 | DKI | registration_effective | -1 | -42.2% | -54.2% | $7.9M | 17.10 | 9.05 | 1.98 | -88.4% | -78.1% | +0.6% | +78.7% | 16 |
-| 2026-10-09 | DKI | ipo_priced | +0 | -42.2% | -54.2% | $7.9M | 17.10 | 9.05 | 1.98 | -88.4% | -78.1% | +0.6% |  | 16 |
-| 2026-10-09 | DPU | activist_13d | +1 | -4.6% | +1.4% | $55k ⚠ | 1.47 | 1.52 | 1.67 | +13.3% | +9.6% | +0.6% | +9.1% | 16 |
-| 2026-10-09 | FTRKF | delisting | +0 | -35.9% | +0.0% | $1k ⚠ | 0.64 | 0.64 | 0.38 | -41.0% | -41.0% | +0.6% |  | 15 |
-| 2026-10-09 | GENK | registration_effective | -1 | -4.8% | +3.7% | $62k ⚠ | 1.66 | 1.77 | 1.57 | -5.4% | -11.3% | +0.6% | +11.8% | 16 |
-| 2026-10-09 | GIW | 8k_merger_agreement | +0 | -0.1% | +0.3% | $1.1M | 10.20 | 10.18 | 10.18 | -0.2% | +0.0% | +0.6% |  | 15 |
-| 2026-10-09 | GTBP | share_registration | -1 | -3.9% | +12.1% | $766k | 6.68 | 6.79 | 5.47 | -18.2% | -19.5% | +0.6% | +20.1% | 16 |
-| 2026-10-09 | GWLL | activist_13d | +1 | +0.0% | +0.0% | $0k ⚠ | 0.69 | 0.69 | 0.65 | -5.8% | -5.8% | +0.6% | -6.3% | 15 |
-| 2026-10-09 | HEPA | 8k_lock_up | +0 | +25.0% | -4.0% | $3k ⚠ | 0.12 | 0.12 | 0.12 | +0.0% | -1.6% | +0.6% |  | 16 |
-| 2026-10-09 | IBO | 8k_reverse_split | -1 | -24.3% | +3.4% | $80k ⚠ | 4.25 | 4.25 | 3.91 | -8.0% | -8.0% | +0.6% | +8.6% | 16 |
-| 2026-10-09 | ISPC | 8k_reverse_split | -1 | -4.4% | +3.7% | $471k | 1.13 | 1.12 | 0.85 | -24.4% | -23.7% | +0.6% | +24.3% | 16 |
-| 2026-10-09 | JOB | 8k_reverse_split | -1 | +0.0% | -4.5% | $46k ⚠ | 0.21 | 0.21 | 0.21 | -0.3% | -0.3% | +0.6% | +0.9% | 16 |
-| 2026-10-09 | MBRX | 8k_reverse_split | -1 | -15.9% | +4.2% | $648k | 8.84 | 9.00 | 9.10 | +2.9% | +1.1% | +0.6% | -0.6% | 16 |
-| 2026-10-09 | MSGR | 8k_reverse_split | -1 |  |  |  ⚠ |  | 210.00 | 184.80 |  | -12.0% | +1.1% | +13.1% | 7 |
-| 2026-10-09 | NCMI | activist_13d | +1 | +4.2% | -4.1% | $3.2M | 2.12 | 2.12 | 1.76 | -17.0% | -17.0% | +0.6% | -17.5% | 16 |
-| 2026-10-09 | NEXR | registration_effective | -1 | +2.0% | -1.0% | $1.1M | 1.01 | 1.02 | 0.47 | -53.5% | -53.9% | +0.6% | +54.5% | 16 |
-| 2026-10-09 | NIKI | 8k_spin_off | +0 | -10.2% | -7.4% | $172k ⚠ | 4.00 | 3.84 | 2.09 | -47.8% | -45.6% | +0.6% |  | 16 |
-| 2026-10-09 | NVVE | delisting | +0 | -6.1% | -3.6% | $14k ⚠ | 1.15 | 1.15 | 0.85 | -26.1% | -26.1% | +0.6% |  | 15 |
-| 2026-10-09 | OMTK | activist_13d | +1 | +50.0% | +0.0% | $5k ⚠ | 0.03 | 0.03 | 0.03 | +0.0% | +0.0% | +0.6% | -0.6% | 15 |
-| 2026-10-09 | PCVX | 8k_spin_off | +0 | +16.0% | +9.8% | $224.8M | 71.38 | 71.08 | 60.71 | -14.9% | -14.6% | +0.6% |  | 16 |
-| 2026-10-09 | RNA | 8k_spin_off | +0 | +1.5% | +1.7% | $3.3M | 8.40 | 8.40 | 8.20 | -2.4% | -2.4% | +0.6% |  | 16 |
-| 2026-10-09 | RTSN | registration_effective | -1 |  |  | $8.3M | 10.53 | 10.88 | 13.54 | +28.6% | +24.5% | +0.6% | -23.9% | 16 |
-| 2026-10-09 | RTSN | ipo_priced | +0 |  |  | $8.3M | 10.53 | 10.88 | 13.54 | +28.6% | +24.5% | +0.6% |  | 16 |
-| 2026-10-09 | SBFM | ipo_priced | +0 | -37.5% | -21.4% | $9.1M | 6.76 | 6.18 | 3.00 | -55.6% | -51.5% | +0.6% |  | 16 |
-| 2026-10-09 | SKYQ | 8k_reverse_split | -1 | -0.8% | -2.8% | $7.2M | 2.45 | 2.56 | 2.17 | -11.2% | -15.0% | +0.6% | +15.6% | 16 |
-| 2026-10-09 | SOAR | 8k_merger_agreement | +0 | +4.4% | +0.6% | $26.1M | 0.31 | 0.31 | 0.22 | -27.4% | -26.3% | +0.6% |  | 16 |
-| 2026-10-09 | SPTY | share_registration | -1 | +55.3% | -3.1% | $18k ⚠ | 0.31 | 0.25 | 0.18 | -41.6% | -28.7% | +0.6% | +29.3% | 16 |
-| 2026-10-09 | STEX | 8k_reverse_split | -1 | -17.3% | -3.0% | $777k | 0.49 | 0.48 | 0.41 | -15.5% | -13.4% | +0.6% | +14.0% | 16 |
-| 2026-10-09 | TCRT | 8k_strategic_review | +1 | -15.2% | +1.3% | $3.3M | 0.79 | 0.78 | 2.01 | +154.4% | +157.7% | +0.6% | +157.1% | 16 |
-| 2026-10-09 | THRM | 8k_merger_agreement | +0 | -11.0% | -0.8% | $59.9M | 29.68 | 29.62 | 33.00 | +11.2% | +11.4% | +0.6% |  | 16 |
-| 2026-10-09 | TOP | registration_effective | -1 | +4.9% | -4.7% | $1.4M | 14.92 | 15.07 | 15.34 | +2.8% | +1.8% | +0.6% | -1.2% | 16 |
-| 2026-10-09 | TRUG | 8k_reverse_split | -1 | -12.9% | -26.2% | $12.7M | 1.89 | 1.90 | 0.81 | -56.9% | -57.1% | +0.6% | +57.7% | 16 |
-| 2026-10-09 | TRXB | registration_effective | -1 |  |  | $17.6M | 14.00 | 14.19 | 13.41 | -4.2% | -5.5% | +0.6% | +6.0% | 16 |
-| 2026-10-09 | TRXB | ipo_priced | +0 |  |  | $17.6M | 14.00 | 14.19 | 13.41 | -4.2% | -5.5% | +0.6% |  | 16 |
-| 2026-10-09 | VATE | 8k_lock_up | +0 | -3.1% | +0.3% | $689k | 7.22 | 7.09 | 6.17 | -14.5% | -13.0% | +0.6% |  | 16 |
-| 2026-10-09 | VDTA | activist_13d | +1 | -31.6% | +5.6% | $202k ⚠ | 3.80 | 3.85 | 3.70 | -2.6% | -3.9% | +0.6% | -4.5% | 16 |
-| 2026-10-09 | VJET | 8k_reverse_split | -1 | -32.7% | +12.9% | $1.4M | 1.14 | 1.09 | 0.64 | -44.0% | -41.4% | +0.6% | +41.9% | 16 |
-| 2026-10-09 | VSTD | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.00 | +30.0% | +0.0% | +0.6% |  | 15 |
-| 2026-10-09 | WBUY | activist_13d | +1 | -12.1% | -5.5% | $2.3M | 0.69 | 0.78 | 0.59 | -14.6% | -24.4% | +0.6% | -25.0% | 16 |
-| 2026-10-09 | XRPN | delisting | +0 | +3.3% | -29.4% | $45.4M | 17.09 | 16.68 | 15.29 | -10.5% | -8.3% | +0.6% |  | 16 |
-| 2026-10-10 | ACVA | merger_arb | +0 | -0.1% | +0.0% | $100.9M | 10.44 | 10.46 | 10.50 | +0.6% | +0.4% | +0.6% |  | 4 |
-| 2026-10-10 | CRMT | distress_avoid | +0 | +27.6% | +8.0% | $495k | 1.35 | 1.36 | 0.84 | -37.7% | -38.1% | +0.6% |  | 16 |
-| 2026-10-10 | MDT | exchange_offer_missed | +0 | +1.5% | +0.8% | $2371.3M | 88.48 | 90.76 | 95.32 | +7.7% | +5.0% | +0.6% |  | 16 |
-| 2026-10-10 | MSGS | spin_off | +0 | +2.0% | -1.2% | $125.9M | 302.94 | 304.49 | 305.42 | +0.8% | +0.3% | +0.6% |  | 15 |
-| 2026-10-10 | PCRX | merger_arb | +0 | +45.5% | -0.2% | $73.6M | 36.31 | 36.34 | 36.37 | +0.1% | +0.1% | +0.6% |  | 16 |
-| 2026-10-10 | SYNA | merger_arb | +0 | +12.2% | +0.6% | $126.7M | 119.82 | 119.82 | 117.79 | -1.7% | -1.7% | +0.6% |  | 16 |
-| 2026-10-12 | BORR | insider_cluster | +0 | +22.3% | +3.1% | $33.9M | 4.93 | 4.98 | 4.28 | -13.2% | -14.0% | +0.7% |  | 15 |
-| 2026-10-12 | CVX | linked_peer | +0 | +2.6% | +1.4% | $1971.6M | 215.00 | 217.00 | 230.82 | +7.4% | +6.4% | +0.7% |  | 15 |
-| 2026-10-12 | FEAM | holder_13d_not_activism | +0 | -6.2% | -8.2% | $3.9M | 3.34 | 3.32 | 2.45 | -26.6% | -26.2% | +0.7% |  | 15 |
-| 2026-10-12 | FWDI | linked_peer | +0 | -10.0% | -2.0% | $18.7M | 7.19 | 7.06 | 6.93 | -3.5% | -1.8% | +0.7% |  | 15 |
-| 2026-10-12 | HESM | deal_reaction | +0 | -14.5% | +0.3% | $82.6M | 32.37 | 32.27 | 31.99 | -1.2% | -0.9% | +0.7% |  | 15 |
-| 2026-10-12 | IMMR | insider_buy | +0 | +0.5% | -1.1% | $3.1M | 7.35 | 7.33 | 7.13 | -3.0% | -2.7% | +0.7% |  | 15 |
-| 2026-10-12 | NE | linked_peer | +0 | +4.1% | +1.4% | $51.3M | 42.94 | 43.61 | 47.03 | +9.5% | +7.8% | +0.7% |  | 15 |
-| 2026-10-12 | PUSA | holder_13g_supply | +0 | -18.2% | -11.0% | $3.6M | 2.30 | 2.30 | 2.04 | -11.3% | -11.3% | +0.7% |  | 15 |
-| 2026-10-12 | RIG | linked_peer | +0 | +6.6% | +1.6% | $221.6M | 5.60 | 5.64 | 6.66 | +18.9% | +18.1% | +0.7% |  | 15 |
-| 2026-10-12 | SDRL | linked_peer | +0 | +5.2% | +1.8% | $27.0M | 46.99 | 48.51 | 52.19 | +11.1% | +7.6% | +0.7% |  | 15 |
-| 2026-10-12 | SKYA | issuer_tender_intent | +0 | -1.1% | +42.9% | $6.2M | 2.60 | 2.51 | 2.95 | +13.5% | +17.5% | +0.7% |  | 15 |
-| 2026-10-12 | UMAC | linked_peer | +0 | -6.9% | -5.7% | $58.5M | 19.64 | 19.31 | 17.24 | -12.2% | -10.7% | +0.7% |  | 15 |
-| 2026-10-12 | VAL | linked_peer | +0 | +6.7% | +1.5% | $88.3M | 84.94 | 86.10 | 101.27 | +19.2% | +17.6% | +0.7% |  | 15 |
-| 2026-10-13 | ABCP | 8k_strategic_review | +1 | +9.3% | +0.0% | $1k ⚠ | 0.29 | 0.27 | 0.26 | -11.9% | -3.7% | +2.4% | -6.1% | 13 |
-| 2026-10-13 | ALBC | share_registration | -1 |  |  |  ⚠ |  | 0.44 | 0.43 |  | -2.3% | +3.2% | +5.4% | 5 |
-| 2026-10-13 | ALUR | delisting | +0 | +4.1% | +1.4% | $2k ⚠ | 0.52 | 0.40 | 0.02 | -95.9% | -94.8% | +2.4% |  | 13 |
-| 2026-10-13 | ARXS | share_registration | -1 | -4.7% | +4.5% | $63.0M | 49.91 | 48.77 | 53.46 | +7.1% | +9.6% | +2.4% | -7.2% | 14 |
-| 2026-10-13 | ATII | 8k_reverse_split | -1 | +0.0% | +0.1% | $5.2M | 10.71 | 10.60 | 4.67 | -56.4% | -55.9% | +2.4% | +58.4% | 13 |
-| 2026-10-13 | BBCI | activist_13d | +1 |  | -40.2% | $633k | 3.02 | 2.94 | 1.95 | -35.4% | -33.7% | +2.4% | -36.1% | 14 |
-| 2026-10-13 | BBLG | delisting | +0 | -6.2% | -5.5% | $157k ⚠ | 0.43 | 0.42 | 0.39 | -9.3% | -6.7% | +2.4% |  | 14 |
-| 2026-10-13 | BESS | registration_effective | -1 | +24.2% | -3.0% | $202k ⚠ | 2.24 | 2.23 | 1.89 | -15.5% | -15.1% | +2.4% | +17.5% | 14 |
-| 2026-10-13 | BMBL | merger_arb | +0 | +49.0% | +56.6% | $48.0M | 5.95 | 5.95 | 5.99 | +0.6% | +0.6% | +2.4% |  | 14 |
-| 2026-10-13 | BMBL | 8k_merger_agreement | +0 | +49.0% | +56.6% | $48.0M | 5.95 | 5.95 | 5.99 | +0.6% | +0.6% | +2.4% |  | 14 |
-| 2026-10-13 | BORR | activist_13d | +1 | +18.8% | -2.6% | $36.2M | 4.80 | 5.00 | 4.28 | -10.8% | -14.4% | +2.4% | -16.8% | 14 |
-| 2026-10-13 | BSEM | registration_effective | -1 | -11.4% | -7.8% | $660k | 2.25 | 2.16 | 1.50 | -33.3% | -30.6% | +2.4% | +33.0% | 14 |
-| 2026-10-13 | CANF | registration_effective | -1 | -8.9% | +0.0% | $89k ⚠ | 1.95 | 1.95 | 1.67 | -14.1% | -14.1% | +2.4% | +16.5% | 14 |
-| 2026-10-13 | CAPS | 8k_merger_agreement | +0 | -7.1% | -7.7% | $2.2M | 3.60 | 3.60 | 2.70 | -25.0% | -25.0% | +2.4% |  | 14 |
-| 2026-10-13 | CCXI | 8k_merger_agreement | +0 | -10.7% | +3.5% | $29.0M | 11.16 | 10.95 | 10.23 | -8.3% | -6.6% | +2.4% |  | 14 |
-| 2026-10-13 | CHRN | registration_effective | -1 | -3.9% | -8.8% | $2.4M | 16.31 | 16.00 | 17.19 | +5.4% | +7.5% | +2.4% | -5.0% | 14 |
-| 2026-10-13 | CIFR | 8k_lock_up | +0 | -16.0% | -12.8% | $596.0M | 11.34 | 10.74 | 8.48 | -25.3% | -21.1% | +2.4% |  | 14 |
-| 2026-10-13 | CLVT | 8k_tender_offer | +0 | +11.0% | -0.6% | $7.0M | 1.60 | 1.56 | 1.76 | +10.3% | +13.1% | +2.4% |  | 14 |
-| 2026-10-13 | COPL | 8k_lock_up | +0 | -0.1% | +0.0% | $185k ⚠ | 10.57 | 10.57 | 10.60 | +0.3% | +0.3% | +2.4% |  | 13 |
-| 2026-10-13 | CRCUF | activist_13d | +1 | -3.8% | -5.9% | $9k ⚠ | 0.48 | 0.49 | 0.46 | -4.2% | -6.1% | +2.4% | -8.6% | 13 |
-| 2026-10-13 | CVAT | 8k_tender_offer | +0 | +0.0% | -25.0% | $8k ⚠ | 0.03 | 0.03 | 0.03 | +0.3% | +0.3% | +2.4% |  | 14 |
-| 2026-10-13 | DAIC | 8k_reverse_split | -1 | -34.4% | -5.3% | $35.7M | 1.61 | 1.44 | 1.01 | -37.1% | -29.7% | +2.4% | +32.1% | 14 |
-| 2026-10-13 | EMAT | registration_effective | -1 | -28.5% | -3.1% | $5.1M | 1.42 | 1.47 | 1.45 | +1.8% | -1.4% | +2.4% | +3.8% | 14 |
-| 2026-10-13 | EQS | 8k_reverse_split | -1 | +11.4% | -4.5% | $10k ⚠ | 0.84 | 0.82 | 0.64 | -23.8% | -21.9% | +2.4% | +24.4% | 14 |
-| 2026-10-13 | FLEX | 8k_spin_off | +0 | +0.4% | -5.4% | $369.7M | 110.88 | 108.26 | 90.43 | -18.4% | -16.5% | +2.4% |  | 14 |
-| 2026-10-13 | GCTK | 8k_merger_agreement | +0 | +4.5% | -4.3% | $10.0M | 2.22 | 2.20 | 2.01 | -9.7% | -8.9% | +2.4% |  | 14 |
-| 2026-10-13 | GETY | 8k_strategic_review | +1 | -53.7% | +0.0% | $617k | 0.02 | 0.02 | 0.03 | +57.9% | +50.0% | +2.4% | +47.6% | 13 |
-| 2026-10-13 | GIW | 8k_merger_agreement | +0 | +0.1% | -0.1% | $1.1M | 10.18 | 10.21 | 10.18 | +0.0% | -0.3% | +2.4% |  | 13 |
-| 2026-10-13 | GRND | deal_peer | +0 | +11.6% | +2.4% | $28.4M | 15.47 | 15.39 | 13.06 | -15.6% | -15.1% | +2.4% |  | 14 |
-| 2026-10-13 | HCWB | registration_effective | -1 | -9.8% | -14.9% | $1.6M | 1.26 | 1.24 | 1.22 | -3.2% | -1.7% | +2.4% | +4.1% | 14 |
-| 2026-10-13 | HLSQ | 8k_reverse_split | -1 | -31.7% | -7.1% | $616k | 0.26 | 0.27 | 0.18 | -31.9% | -34.4% | +2.4% | +36.9% | 14 |
-| 2026-10-13 | HSPOF | 8k_tender_offer | +0 | +0.0% | +0.0% | $1k ⚠ | 11.99 | 11.99 | 12.29 | +2.5% | +2.5% | +2.4% |  | 13 |
-| 2026-10-13 | IONQ | 8k_merger_agreement | +0 | -15.6% | -4.2% | $1035.6M | 34.73 | 33.15 | 32.22 | -7.2% | -2.8% | +2.4% |  | 14 |
-| 2026-10-13 | ITGR | activist_13d | +1 | +0.1% | +0.1% | $115.2M | 126.59 | 126.67 | 126.68 | +0.1% | +0.0% | +2.4% | -2.4% | 14 |
-| 2026-10-13 | LCII | 8k_merger_agreement | +0 | -4.2% | +0.3% | $30.8M | 79.34 | 78.65 | 95.53 | +20.4% | +21.5% | +2.4% |  | 14 |
-| 2026-10-13 | LGMK | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +3.2% |  | 0 |
-| 2026-10-13 | LSCC | 8k_merger_agreement | +0 | -7.5% | -1.4% | $224.5M | 121.15 | 118.06 | 103.25 | -14.8% | -12.6% | +2.4% |  | 14 |
-| 2026-10-13 | MCFT | 8k_merger_agreement | +0 | -2.6% | +2.0% | $4.5M | 19.59 | 18.98 | 20.04 | +2.3% | +5.6% | +2.4% |  | 14 |
-| 2026-10-13 | MDT | tender_issuer_buyback | +1 | +4.5% | +1.2% | $2578.4M | 93.01 | 93.01 | 95.32 | +2.5% | +2.5% | +2.4% | +0.1% | 14 |
-| 2026-10-13 | MTCH | deal_peer | +0 | +3.0% | +2.0% | $144.3M | 42.36 | 42.42 | 42.12 | -0.6% | -0.7% | +2.4% |  | 14 |
-| 2026-10-13 | NEOV | registration_effective | -1 | -14.9% | -2.4% | $4.4M | 2.46 | 2.50 | 2.17 | -11.6% | -13.0% | +2.4% | +15.4% | 14 |
-| 2026-10-13 | NIKI | registration_effective | -1 | -36.1% | -13.1% | $144k ⚠ | 2.62 | 2.58 | 2.09 | -20.5% | -19.1% | +2.4% | +21.5% | 14 |
-| 2026-10-13 | OPNW | 8k_merger_agreement | +0 | -32.9% | -16.1% | $10.5M | 3.34 | 3.26 | 1.47 | -56.0% | -54.9% | +2.4% |  | 14 |
-| 2026-10-13 | ORBS | 8k_reverse_split | -1 | -21.7% | -2.5% | $17.4M | 0.82 | 0.82 | 0.74 | -10.2% | -10.1% | +2.4% | +12.5% | 14 |
-| 2026-10-13 | PATK | 8k_merger_agreement | +0 | -3.6% | +0.2% | $40.4M | 64.34 | 63.10 | 70.57 | +9.7% | +11.8% | +2.4% |  | 14 |
-| 2026-10-13 | PAXG | activist_13d | +1 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +1.9% | -2.8% | 5 |
-| 2026-10-13 | PUSA | activist_13d | +1 | -20.6% | -1.3% | $3.7M | 2.27 | 2.21 | 2.04 | -10.1% | -7.7% | +2.4% | -10.1% | 14 |
-| 2026-10-13 | QCOM | registration_effective | -1 | -3.5% | +1.4% | $2433.2M | 176.86 | 173.63 | 181.54 | +2.6% | +4.6% | +2.4% | -2.1% | 14 |
-| 2026-10-13 | QUMS | 8k_merger_agreement | +0 | +0.1% | +0.2% | $331k | 10.38 | 10.38 | 10.40 | +0.2% | +0.2% | +2.4% |  | 13 |
-| 2026-10-13 | RDAC | 8k_merger_agreement | +0 | +1.1% | -2.7% | $89k ⚠ | 5.43 | 5.32 | 5.11 | -5.9% | -4.0% | +2.4% |  | 14 |
-| 2026-10-13 | SBXDF | delisting | +0 | +2.8% | +0.0% | $21k ⚠ | 11.00 | 11.00 | 10.50 | -4.5% | -4.5% | +2.4% |  | 13 |
-| 2026-10-13 | SEV | registration_effective | -1 | +1.3% | -3.4% | $554k | 1.54 | 1.53 | 1.60 | +3.6% | +4.6% | +2.4% | -2.1% | 14 |
-| 2026-10-13 | SKYA | 8k_tender_offer | +0 | +39.0% | +0.4% | $6.5M | 2.61 | 2.57 | 2.95 | +13.0% | +14.8% | +2.4% |  | 14 |
-| 2026-10-13 | SKYD | 8k_merger_agreement | +0 | -6.3% | +1.2% | $337.9M | 9.27 | 7.60 | 7.59 | -18.2% | -0.2% | +2.4% |  | 14 |
-| 2026-10-13 | SODI | 8k_strategic_review | +1 | +5.4% | -0.0% | $70k ⚠ | 33.97 | 34.75 | 38.09 | +12.1% | +9.6% | +2.4% | +7.2% | 13 |
-| 2026-10-13 | SSRM | 8k_tender_offer | +0 | +4.5% | -6.6% | $84.2M | 33.10 | 32.00 | 28.86 | -12.8% | -9.8% | +2.4% |  | 14 |
-| 2026-10-13 | SVRE | registration_effective | -1 | -8.9% | -0.9% | $109k ⚠ | 1.12 | 1.12 | 0.90 | -19.6% | -19.6% | +2.4% | +22.1% | 14 |
-| 2026-10-13 | SYRA | registration_effective | -1 | +2.4% | +0.0% | $21k ⚠ | 0.85 | 0.80 | 0.81 | -4.7% | +1.2% | +2.4% | +1.2% | 14 |
-| 2026-10-13 | TARS | 8k_merger_agreement | +0 | -0.1% | -4.8% | $62.9M | 70.82 | 70.57 | 71.90 | +1.5% | +1.9% | +2.4% |  | 14 |
-| 2026-10-13 | TCBX | 8k_reverse_split | -1 | -2.8% | +0.2% | $4.4M | 41.78 | 40.97 | 40.08 | -4.1% | -2.2% | +2.4% | +4.6% | 14 |
-| 2026-10-13 | TCRT | 8k_merger_agreement | +0 | +31.2% | +188.6% | $42.4M | 3.03 | 3.68 | 2.01 | -33.7% | -45.4% | +2.4% |  | 14 |
-| 2026-10-13 | TNON | registration_effective | -1 | -19.5% | -3.0% | $14.1M | 2.89 | 2.82 | 2.19 | -24.2% | -22.3% | +2.4% | +24.8% | 14 |
-| 2026-10-13 | TRNR | 8k_spin_off | +0 | -7.0% | +7.7% | $92k ⚠ | 2.22 | 2.12 | 1.62 | -27.2% | -23.5% | +2.4% |  | 14 |
-| 2026-10-13 | TRXB | 8k_merger_agreement | +0 |  | -3.1% | $7.3M | 13.60 | 13.41 | 13.41 | -1.4% | +0.0% | +2.4% |  | 14 |
-| 2026-10-13 | UNH | 8k_strategic_review | +1 | -0.0% | -0.2% | $2072.7M | 377.76 | 382.29 | 414.47 | +9.7% | +8.4% | +2.4% | +6.0% | 14 |
-| 2026-10-13 | UPC | registration_effective | -1 | -4.8% | +3.4% | $202k ⚠ | 4.27 | 4.17 | 1.99 | -53.4% | -52.3% | +2.4% | +54.7% | 14 |
-| 2026-10-13 | UUUU | 8k_merger_agreement | +0 | -10.7% | -4.0% | $86.3M | 9.27 | 8.99 | 8.09 | -12.8% | -10.1% | +2.4% |  | 14 |
-| 2026-10-13 | VIP | delisting | +0 | -8.6% | -3.6% | $201k ⚠ | 1.34 | 1.33 | 1.33 | -0.8% | +0.0% | +2.4% |  | 14 |
-| 2026-10-13 | WEAV | 8k_merger_agreement | +0 | +0.3% | -0.1% | $11.9M | 7.37 | 7.38 | 7.40 | +0.4% | +0.3% | +2.4% |  | 9 |
-| 2026-10-13 | WSHP | ipo_priced | +0 | -3.9% | -4.3% | $981k | 4.48 | 4.29 | 2.51 | -44.0% | -41.5% | +2.4% |  | 14 |
-| 2026-10-13 | XPOF | 8k_strategic_review | +1 | +3.7% | +0.2% | $4.0M | 4.82 | 4.79 | 4.11 | -14.7% | -14.2% | +2.4% | -16.6% | 14 |
-| 2026-10-13 | ZPTA | 8k_reverse_split | -1 | +16.3% | +1.8% | $80k ⚠ | 0.58 | 0.56 | 0.76 | +30.3% | +34.9% | +2.4% | -32.5% | 14 |
-| 2026-10-14 | ACVA | tender_third_party | +0 | +0.3% | +0.3% | $82.2M | 10.50 | 10.50 | 10.50 | +0.0% | +0.0% | +3.2% |  | 1 |
-| 2026-10-14 | AMPY | linked_peer | +0 | +2.9% | -5.9% | $2.1M | 4.34 | 4.34 | 4.35 | +0.2% | +0.2% | +3.2% |  | 13 |
-| 2026-10-14 | BOW | merger_vote | +0 | +0.7% | -0.0% | $8.8M | 33.99 | 33.98 | 34.31 | +0.9% | +1.0% | +3.2% |  | 13 |
-| 2026-10-14 | BTLN | 8k_reverse_split | -1 | -2.0% | -3.7% | $192k ⚠ | 5.08 | 5.26 | 3.11 | -38.8% | -40.9% | +3.2% | +44.0% | 13 |
-| 2026-10-14 | CCO | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 2.42 | 2.42 |  | +0.0% | +3.2% |  | 0 |
-| 2026-10-14 | CMTL | 8k_strategic_review | +1 | +4.0% | -1.5% | $380k | 1.28 | 1.32 | 1.35 | +5.5% | +2.3% | +3.2% | -0.9% | 13 |
-| 2026-10-14 | CPRT | tender_third_party | +0 | -1.7% | -0.4% | $276.0M | 26.27 | 26.85 | 28.67 | +9.1% | +6.8% | +3.2% |  | 13 |
-| 2026-10-14 | DSGR | 8k_merger_agreement | +0 | +0.1% | -0.1% | $7.2M | 35.05 | 35.05 | 34.97 | -0.2% | -0.2% | +3.2% |  | 13 |
-| 2026-10-14 | FCPT | 8k_spin_off | +0 | +0.6% | -0.1% | $29.0M | 21.40 | 21.78 | 22.11 | +3.3% | +1.5% | +3.2% |  | 13 |
-| 2026-10-14 | FEAM | insider_cluster | +0 | -12.8% | -6.7% | $3.8M | 3.06 | 3.00 | 2.45 | -19.9% | -18.3% | +3.2% |  | 13 |
-| 2026-10-14 | FFAI | 8k_reverse_split | -1 | -3.5% | -2.7% | $9.3M | 1.08 | 0.91 | 0.47 | -56.6% | -48.5% | +3.2% | +51.6% | 13 |
-| 2026-10-14 | FFR | 8k_reverse_split | -1 | +5.1% | -10.3% | $4.1M | 1.30 | 1.29 | 1.14 | -12.3% | -11.6% | +3.2% | +14.8% | 13 |
-| 2026-10-14 | FLEX | 8k_spin_off | +0 | -8.7% | -9.5% | $378.7M | 100.35 | 96.10 | 90.43 | -9.9% | -5.9% | +3.2% |  | 13 |
-| 2026-10-14 | FLSC | registration_effective | -1 |  |  | $12.5M | 10.29 | 10.23 | 10.23 | -0.6% | +0.0% | +3.2% | +3.2% | 12 |
-| 2026-10-14 | FLSC | ipo_priced | +0 |  |  | $12.5M | 10.29 | 10.23 | 10.23 | -0.6% | +0.0% | +3.2% |  | 12 |
-| 2026-10-14 | FOXA | 8k_merger_agreement | +0 | +0.7% | -0.5% | $275.0M | 62.21 | 62.76 | 63.63 | +2.3% | +1.4% | +3.2% |  | 13 |
-| 2026-10-14 | FSP | activist_13d | +1 | +29.0% | -2.5% | $405k | 0.39 | 0.41 | 0.36 | -6.7% | -11.2% | +3.2% | -14.4% | 13 |
-| 2026-10-14 | FUSE | registration_effective | -1 | -12.9% | -7.4% | $1.8M | 0.36 | 0.38 | 0.35 | -3.1% | -7.9% | +3.2% | +11.1% | 13 |
-| 2026-10-14 | GRNT | linked_peer | +0 | +10.4% | -2.9% | $5.7M | 4.94 | 5.00 | 5.80 | +17.5% | +16.1% | +3.2% |  | 13 |
-| 2026-10-14 | HODO | registration_effective | -1 | -33.3% | -23.9% | $482k | 0.07 | 0.06 | 0.05 | -28.2% | -18.5% | +3.2% | +21.6% | 13 |
-| 2026-10-14 | ITGR | 8k_merger_agreement | +0 | +0.1% | +0.0% | $112.5M | 126.61 | 126.65 | 126.68 | +0.1% | +0.0% | +3.2% |  | 13 |
-| 2026-10-14 | KOS | linked_peer | +0 | +6.9% | -2.5% | $33.9M | 2.71 | 2.74 | 2.80 | +3.3% | +2.2% | +3.2% |  | 13 |
-| 2026-10-14 | LB | delisting | +0 | +2.0% | -5.3% | $19.3M | 82.66 | 82.20 | 80.15 | -3.0% | -2.5% | +3.2% |  | 13 |
-| 2026-10-14 | LBTYA | 8k_spin_off | +0 | -6.5% | -4.4% | $35.7M | 8.17 | 8.29 | 7.64 | -6.5% | -7.8% | +3.2% |  | 13 |
-| 2026-10-14 | LCII | merger_arb | +0 | -3.5% | -1.5% | $31.1M | 78.16 | 79.07 | 95.53 | +22.2% | +20.8% | +3.2% |  | 13 |
-| 2026-10-14 | LEXX | registration_effective | -1 | -13.6% | +0.7% | $227k ⚠ | 2.82 | 2.74 | 3.10 | +9.8% | +13.0% | +3.2% | -9.8% | 13 |
-| 2026-10-14 | LNTH | 8k_merger_agreement | +0 | +0.1% | -0.0% | $95.9M | 100.00 | 100.05 | 100.09 | +0.1% | +0.0% | +3.2% |  | 13 |
-| 2026-10-14 | MDA | activist_13d | +1 | -5.5% | -3.5% | $58.0M | 27.57 | 27.13 | 29.27 | +6.2% | +7.9% | +3.2% | +4.7% | 13 |
-| 2026-10-14 | MDT | tender_issuer_buyback | +1 | +6.8% | +1.3% | $2764.8M | 94.23 | 95.00 | 95.32 | +1.2% | +0.3% | +3.2% | -2.8% | 13 |
-| 2026-10-14 | MOB | registration_effective | -1 | -9.5% | -13.9% | $523k | 3.35 | 3.21 | 3.38 | +0.9% | +5.3% | +3.2% | -2.1% | 13 |
-| 2026-10-14 | MX | registration_effective | -1 | -17.2% | -6.0% | $6.4M | 2.67 | 2.63 | 2.54 | -5.1% | -3.6% | +3.2% | +6.8% | 13 |
-| 2026-10-14 | NATH | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +0.7% |  | 0 |
-| 2026-10-14 | NFG | 8k_spin_off | +0 | +3.5% | -2.3% | $83.0M | 79.20 | 80.14 | 80.35 | +1.4% | +0.3% | +3.2% |  | 13 |
-| 2026-10-14 | PACH | 8k_reverse_split | -1 | +0.1% | +0.0% | $1.7M | 10.37 | 10.36 | 10.38 | +0.1% | +0.1% | +3.2% | +3.0% | 13 |
-| 2026-10-14 | PALX | 8k_lock_up | +0 | -17.1% | +2.2% | $22k ⚠ | 14.32 | 14.00 | 14.01 | -2.2% | +0.1% | +3.2% |  | 8 |
-| 2026-10-14 | PATK | linked_peer | +0 | -3.5% | -1.6% | $42.5M | 63.31 | 64.28 | 70.57 | +11.5% | +9.8% | +3.2% |  | 13 |
-| 2026-10-14 | PAXG | 8k_tender_offer | +0 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +1.9% |  | 5 |
-| 2026-10-14 | PED | insider_buy | +0 | +0.1% | -3.3% | $417k | 12.81 | 13.04 | 15.73 | +22.8% | +20.7% | +3.2% |  | 13 |
-| 2026-10-14 | PRIF-PD | delisting | +0 | -0.7% | +1.0% | $48k ⚠ | 24.66 | 24.61 | 24.98 | +1.3% | +1.5% | +3.2% |  | 12 |
-| 2026-10-14 | RIG | merger_vote | +0 | +4.6% | -1.2% | $211.8M | 5.58 | 5.61 | 6.66 | +19.4% | +18.7% | +3.2% |  | 13 |
-| 2026-10-14 | RTSN | activist_13d | +1 |  | +0.1% | $3.2M | 11.64 | 11.56 | 13.54 | +16.4% | +17.1% | +3.2% | +14.0% | 13 |
-| 2026-10-14 | SABR | 8k_tender_offer | +0 | -5.7% | -1.7% | $12.8M | 1.78 | 1.77 | 1.56 | -12.4% | -11.9% | +3.2% |  | 13 |
-| 2026-10-14 | SILO | 8k_lock_up | +0 | -15.9% | -1.6% | $191k ⚠ | 1.20 | 1.20 | 1.30 | +8.3% | +8.3% | +3.2% |  | 13 |
-| 2026-10-14 | SKIN | 8k_reverse_split | -1 | -7.7% | +6.8% | $241k ⚠ | 11.56 | 11.31 | 10.29 | -11.0% | -9.0% | +3.2% | +12.2% | 13 |
-| 2026-10-14 | SKYX | 8k_merger_agreement | +0 | -0.9% | -7.1% | $676k | 1.04 | 1.04 | 0.85 | -18.3% | -18.3% | +3.2% |  | 13 |
-| 2026-10-14 | STRR | 8k_merger_agreement | +0 | -0.2% | -1.6% | $65k ⚠ | 9.83 | 9.64 | 10.19 | +3.7% | +5.7% | +3.2% |  | 13 |
-| 2026-10-14 | TALO | holder_selling | +0 | +4.8% | -3.0% | $48.5M | 17.03 | 17.15 | 18.37 | +7.9% | +7.1% | +3.2% |  | 13 |
-| 2026-10-14 | TCPC | activist_13d | +1 | -0.3% | +2.5% | $2.9M | 4.08 | 4.08 | 4.16 | +2.0% | +2.0% | +3.2% | -1.2% | 13 |
-| 2026-10-14 | TDIC | activist_13d | +1 | -16.4% | +39.9% | $10.0M | 2.28 | 1.90 | 1.71 | -24.9% | -9.9% | +3.2% | -13.1% | 13 |
-| 2026-10-14 | THO | linked_peer | +0 | -3.5% | +0.4% | $65.9M | 65.47 | 66.93 | 70.46 | +7.6% | +5.3% | +3.2% |  | 13 |
-| 2026-10-14 | TROO | activist_13d | +1 | +0.0% | -2.4% | $312k | 1.63 | 1.61 | 2.23 | +36.8% | +38.5% | +3.2% | +35.3% | 13 |
-| 2026-10-14 | USGO | 8k_strategic_review | +1 | -7.6% | -6.8% | $702k | 5.66 | 5.64 | 5.05 | -10.9% | -10.6% | +3.2% | -13.7% | 13 |
-| 2026-10-14 | UUUU | deal_dispute | +0 | -17.7% | -10.0% | $88.6M | 8.34 | 8.10 | 8.09 | -3.1% | -0.2% | +3.2% |  | 13 |
-| 2026-10-14 | VAL | merger_vote | +0 | +4.3% | -1.0% | $85.0M | 84.73 | 83.97 | 101.27 | +19.5% | +20.6% | +3.2% |  | 13 |
-| 2026-10-14 | VDTA | registration_effective | -1 | +0.2% | -7.7% | $157k ⚠ | 3.76 | 3.55 | 3.70 | -1.7% | +4.2% | +3.2% | -1.1% | 13 |
-| 2026-10-14 | VSTM | 8k_reverse_split | -1 | -3.9% | +3.5% | $32.8M | 7.71 | 8.04 | 10.16 | +31.8% | +26.4% | +3.2% | -23.2% | 13 |
-| 2026-10-14 | WALD | registration_effective | -1 | -19.0% | -4.7% | $415k | 0.81 | 0.75 | 0.85 | +4.9% | +13.3% | +3.2% | -10.2% | 0 |
-| 2026-10-14 | WGO | linked_peer | +0 | -7.1% | -0.3% | $17.5M | 23.09 | 23.49 | 28.00 | +21.2% | +19.2% | +3.2% |  | 13 |
-| 2026-10-14 | WINA | 8k_special_dividend | +0 | -4.6% | +5.5% | $28.9M | 297.97 | 309.87 | 280.27 | -5.9% | -9.6% | +3.2% |  | 13 |
-| 2026-10-14 | WKSP | registration_effective | -1 | -0.3% | -3.1% | $136k ⚠ | 0.37 | 0.37 | 0.31 | -16.5% | -16.7% | +3.2% | +19.9% | 13 |
-| 2026-10-14 | WSHP | registration_effective | -1 | -10.2% | -14.7% | $1.0M | 3.82 | 3.61 | 2.51 | -34.3% | -30.5% | +3.2% | +33.6% | 13 |
-| 2026-10-14 | WSO | 8k_merger_agreement | +0 | +0.2% | +1.2% | $163.4M | 295.09 | 298.10 | 283.72 | -3.9% | -4.8% | +3.2% |  | 13 |
-| 2026-10-14 | WTI | linked_peer | +0 | +6.7% | -4.7% | $12.8M | 3.65 | 3.64 | 4.16 | +14.1% | +14.4% | +3.2% |  | 13 |
-| 2026-10-14 | YEXT | 8k_reverse_split | -1 | +6.7% | -0.4% | $5.7M | 6.97 | 7.00 | 7.14 | +2.4% | +2.0% | +3.2% | +1.2% | 13 |
-| 2026-10-14 | ZEO | registration_effective | -1 | -10.0% | -2.3% | $14.3M | 0.25 | 0.24 | 0.26 | +0.9% | +6.0% | +3.2% | -2.8% | 13 |
-| 2026-10-14 | ZTG | registration_effective | -1 | -28.4% | +12.3% | $6.9M | 0.63 | 0.58 | 0.64 | +1.6% | +9.8% | +3.2% | -6.6% | 13 |
-| 2026-10-15 | ADTX | 8k_lock_up | +0 | -33.3% | +50.0% | $47k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | +0.0% | +1.6% |  | 11 |
-| 2026-10-15 | AMRO | registration_effective | -1 |  |  | $3.5M | 4.41 | 4.43 | 6.05 | +37.1% | +36.5% | +1.6% | -34.8% | 12 |
-| 2026-10-15 | AMRO | ipo_priced | +0 |  |  | $3.5M | 4.41 | 4.43 | 6.05 | +37.1% | +36.5% | +1.6% |  | 12 |
-| 2026-10-15 | ASTS | linked_peer | +0 | -30.5% | +5.5% | $913.4M | 44.46 | 43.22 | 41.17 | -7.4% | -4.8% | +1.6% |  | 12 |
-| 2026-10-15 | ATCH | 8k_tender_offer | +0 | -8.9% | +7.9% | $2.0M | 0.18 | 0.17 | 0.16 | -11.9% | -8.2% | +1.6% |  | 12 |
-| 2026-10-15 | BKKT | delisting | +0 | -17.7% | -1.3% | $11.6M | 5.90 | 5.90 | 5.01 | -15.2% | -15.2% | +1.6% |  | 12 |
-| 2026-10-15 | BWIN | merger_vote | +0 | +0.3% | +0.0% | $96.9M | 31.93 | 31.97 | 31.90 | -0.1% | -0.2% | +1.6% |  | 12 |
-| 2026-10-15 | BZH | 8k_merger_agreement | +0 | -0.3% | +0.3% | $42.3M | 33.41 | 33.45 | 33.48 | +0.2% | +0.1% | +1.6% |  | 3 |
-| 2026-10-15 | CBAN | 8k_merger_agreement | +0 | -2.1% | +1.7% | $3.3M | 20.03 | 20.09 | 20.27 | +1.2% | +0.9% | +1.6% |  | 12 |
-| 2026-10-15 | CCC | 8k_merger_agreement | +0 | +16.6% | -0.1% | $211.0M | 7.63 | 7.64 | 7.66 | +0.4% | +0.3% | +1.6% |  | 12 |
-| 2026-10-15 | CRMT | 8k_strategic_review | +1 | +21.4% | -0.7% | $420k | 1.35 | 1.36 | 0.84 | -37.7% | -38.1% | +1.6% | -39.8% | 12 |
-| 2026-10-15 | CYN | 8k_reverse_split | -1 | -27.3% | +8.8% | $139k ⚠ | 0.48 | 0.48 | 0.39 | -19.3% | -18.8% | +1.6% | +20.4% | 12 |
-| 2026-10-15 | DVLT | 8k_merger_agreement | +0 | -13.3% | +7.7% | $5.3M | 0.14 | 0.14 | 0.08 | -40.5% | -40.5% | +1.6% |  | 12 |
-| 2026-10-15 | ESQ | 8k_merger_agreement | +0 | +1.9% | +0.9% | $20.5M | 118.95 | 119.17 | 129.79 | +9.1% | +8.9% | +1.6% |  | 12 |
-| 2026-10-15 | FBIN | 8k_strategic_review | +1 | +0.8% | +2.9% | $83.5M | 39.96 | 40.34 | 42.50 | +6.4% | +5.3% | +1.6% | +3.7% | 12 |
-| 2026-10-15 | FFAI | 8k_reverse_split | -1 | -1.8% | -23.3% | $9.4M | 0.83 | 0.82 | 0.47 | -43.4% | -43.0% | +1.6% | +44.6% | 12 |
-| 2026-10-15 | FLSC | 8k_tender_offer | +0 |  | +1.9% | $6.7M | 10.49 | 10.59 | 10.23 | -2.5% | -3.4% | +1.6% |  | 11 |
-| 2026-10-15 | FNGR | registration_effective | -1 | -10.3% | +1.6% | $8.9M | 0.19 | 0.18 | 0.14 | -26.8% | -26.0% | +1.6% | +27.6% | 12 |
-| 2026-10-15 | FOFO | registration_effective | -1 | +2.9% | +2.9% | $1.0M | 2.16 | 2.29 | 2.00 | -7.4% | -12.7% | +1.6% | +14.3% | 11 |
-| 2026-10-15 | GEMI | registration_effective | -1 | -13.8% | +0.3% | $14.9M | 3.88 | 3.80 | 3.05 | -21.5% | -19.9% | +1.6% | +21.5% | 12 |
-| 2026-10-15 | GGR | activist_13d | +1 | +3.7% | +1.3% | $78k ⚠ | 3.14 | 3.14 | 3.00 | -4.5% | -4.6% | +1.6% | -6.2% | 12 |
-| 2026-10-15 | GURE | 8k_reverse_split | -1 | +1.7% | +2.4% | $818k | 3.01 | 3.08 | 3.06 | +1.7% | -0.7% | +1.6% | +2.3% | 12 |
-| 2026-10-15 | IAM | registration_effective | -1 |  |  | $38.0M | 18.91 | 19.31 | 14.78 | -21.8% | -23.4% | +1.6% | +25.1% | 12 |
-| 2026-10-15 | IAM | ipo_priced | +0 |  |  | $38.0M | 18.91 | 19.31 | 14.78 | -21.8% | -23.4% | +1.6% |  | 12 |
-| 2026-10-15 | IMSR | insider_cluster | +0 | -19.5% | +9.5% | $6.3M | 3.22 | 3.24 | 3.04 | -5.6% | -6.2% | +1.6% |  | 12 |
-| 2026-10-15 | LEU | linked_peer | +0 | -18.5% | +5.9% | $111.7M | 127.01 | 123.65 | 108.19 | -14.8% | -12.5% | +1.6% |  | 12 |
-| 2026-10-15 | LUCY | 8k_reverse_split | -1 | -8.4% | +1.0% | $158k ⚠ | 0.84 | 0.85 | 0.82 | -3.2% | -3.9% | +1.6% | +5.5% | 12 |
-| 2026-10-15 | MACI | 8k_merger_agreement | +0 | +0.2% | +0.2% | $54k ⚠ | 11.10 | 11.08 | 8.92 | -19.6% | -19.5% | +1.6% |  | 12 |
-| 2026-10-15 | MBIO | 8k_reverse_split | -1 | -17.8% | +4.3% | $19k ⚠ | 0.39 | 0.40 | 0.37 | -3.3% | -7.2% | +1.6% | +8.8% | 12 |
-| 2026-10-15 | MDA | holder_13d | +0 | -4.9% | +4.0% | $58.1M | 28.67 | 28.68 | 29.27 | +2.1% | +2.1% | +1.6% |  | 12 |
-| 2026-10-15 | MG | merger_vote | +0 | -0.9% | -0.1% | $10.8M | 20.67 | 20.99 | 20.45 | -1.0% | -2.5% | +1.6% |  | 12 |
-| 2026-10-15 | MRK | delisting | +0 | +3.2% | -1.5% | $1488.5M | 145.19 | 146.96 | 141.67 | -2.4% | -3.6% | +1.6% |  | 12 |
-| 2026-10-15 | MXCT | activist_13d | +1 | +20.2% | +4.0% | $1.4M | 1.30 | 1.32 | 1.68 | +29.6% | +27.6% | +1.6% | +26.0% | 12 |
-| 2026-10-15 | NNE | linked_peer | +0 | -18.7% | +4.5% | $34.2M | 13.59 | 13.57 | 12.01 | -11.7% | -11.5% | +1.6% |  | 12 |
-| 2026-10-15 | OBAI | 8k_reverse_split | -1 | -10.5% | -17.6% | $291k | 2.80 | 2.80 | 2.14 | -23.6% | -23.6% | +1.6% | +25.3% | 12 |
-| 2026-10-15 | OKLO | linked_peer | +0 | -21.1% | +3.3% | $355.7M | 30.01 | 29.40 | 26.55 | -11.5% | -9.7% | +1.6% |  | 12 |
-| 2026-10-15 | OPTT | registration_effective | -1 | -31.2% | +4.5% | $899k | 0.69 | 0.68 | 0.64 | -7.4% | -6.1% | +1.6% | +7.7% | 12 |
-| 2026-10-15 | PAG | 8k_merger_agreement | +0 | +0.3% | +8.8% | $125.6M | 212.00 | 212.09 | 212.15 | +0.1% | +0.0% | +1.6% |  | 12 |
-| 2026-10-15 | PAII | 8k_reverse_split | -1 | -0.2% | -0.1% | $2.3M | 10.32 | 10.32 | 10.34 | +0.2% | +0.2% | +1.6% | +1.4% | 12 |
-| 2026-10-15 | PAPL | 8k_spin_off | +0 | -2.5% | +5.9% | $151k ⚠ | 0.91 | 0.92 | 0.88 | -3.4% | -4.5% | +1.6% |  | 11 |
-| 2026-10-15 | PL | linked_peer | +0 | -20.4% | +2.9% | $183.7M | 14.54 | 14.30 | 14.25 | -2.0% | -0.3% | +1.6% |  | 12 |
-| 2026-10-15 | RENX | registration_effective | -1 | -11.2% | +3.0% | $273k | 1.72 | 1.71 | 1.08 | -37.2% | -36.8% | +1.6% | +38.5% | 12 |
-| 2026-10-15 | RKLB | linked_peer | +0 | -17.7% | -6.6% | $1568.9M | 55.25 | 54.49 | 57.48 | +4.0% | +5.5% | +1.6% |  | 12 |
-| 2026-10-15 | ROKU | 8k_merger_agreement | +0 | -0.1% | +1.4% | $230.2M | 154.67 | 155.82 | 155.77 | +0.7% | -0.0% | +1.6% |  | 12 |
-| 2026-10-15 | RXRX | 8k_tender_offer | +0 | -12.4% | +11.2% | $135.5M | 4.16 | 4.11 | 4.41 | +6.1% | +7.4% | +1.6% |  | 12 |
-| 2026-10-15 | SKYA | 8k_tender_offer | +0 | +40.9% | +7.5% | $6.9M | 2.74 | 2.68 | 2.95 | +7.7% | +10.1% | +1.6% |  | 12 |
-| 2026-10-15 | SMR | linked_peer | +0 | -24.0% | +5.5% | $271.5M | 6.15 | 5.99 | 5.59 | -9.1% | -6.6% | +1.6% |  | 12 |
-| 2026-10-15 | SNTI | 8k_merger_agreement | +0 | -27.0% | +8.7% | $542k | 0.26 | 0.25 | 0.22 | -17.4% | -12.8% | +1.6% |  | 12 |
-| 2026-10-15 | SRTA | activist_13d | +1 | -8.5% | +1.4% | $4.1M | 4.34 | 4.55 | 4.74 | +9.1% | +4.1% | +1.6% | +2.4% | 12 |
-| 2026-10-15 | TCPC | activist_13d | +0 | +3.6% | +3.4% | $2.9M | 4.22 | 4.23 | 4.16 | -1.4% | -1.6% | +1.6% |  | 12 |
-| 2026-10-15 | TCRT | activist_13d | +1 | +146.4% | +5.3% | $50.1M | 2.18 | 2.81 | 2.01 | -7.8% | -28.5% | +1.6% | -30.1% | 12 |
-| 2026-10-15 | VBIO | 8k_spin_off | +0 | -33.8% | -15.2% | $10.9M | 1.23 | 1.23 | 0.75 | -39.0% | -39.0% | +1.6% |  | 12 |
-| 2026-10-15 | VRNS | 8k_merger_agreement | +0 | -3.9% | +0.6% | $76.4M | 47.34 | 48.67 | 49.02 | +3.5% | +0.7% | +1.6% |  | 12 |
-| 2026-10-15 | VVOS | 8k_reverse_split | -1 | -11.3% | +6.7% | $860k | 0.14 | 0.14 | 0.12 | -14.1% | -14.1% | +1.6% | +15.7% | 12 |
-| 2026-10-16 | AII | registration_effective | -1 | +2.7% | -0.7% | $5.2M | 27.50 | 27.44 | 28.20 | +2.5% | +2.8% | +3.0% | +0.2% | 9 |
-| 2026-10-16 | AIOK | activist_13d | +1 |  | +0.0% | $443k | 4.20 | 4.30 | 15.82 | +276.8% | +268.0% | +3.0% | +265.0% | 9 |
-| 2026-10-16 | ALEC | 8k_tender_offer | +0 | -5.4% | -3.7% | $13.6M | 1.84 | 1.85 | 2.17 | +18.2% | +17.6% | +3.0% |  | 9 |
-| 2026-10-16 | AMZE | share_registration | -1 | -22.2% | -7.1% | $264k | 0.01 | 0.01 | 0.01 | -9.2% | -21.3% | +3.0% | +24.4% | 9 |
-| 2026-10-16 | AMZE | 8k_reverse_split | -1 | -22.2% | -7.1% | $264k | 0.01 | 0.01 | 0.01 | -9.2% | -21.3% | +3.0% | +24.4% | 9 |
-| 2026-10-16 | ASST | 8k_lock_up | +0 | -9.1% | -6.1% | $248.4M | 24.09 | 24.75 | 27.22 | +13.0% | +10.0% | +3.0% |  | 9 |
-| 2026-10-16 | ATYR | 8k_reverse_split | -1 |  |  |  ⚠ |  | 0.12 | 0.12 |  | +1.2% | +0.7% | -0.5% | 1 |
-| 2026-10-16 | BLNK | 8k_lock_up | +0 | -7.1% | -4.3% | $662k | 0.42 | 0.43 | 0.38 | -9.7% | -10.8% | +3.0% |  | 9 |
-| 2026-10-16 | BMEZ | tender_issuer_buyback | +1 | +1.3% | -1.1% | $2.4M | 16.29 | 16.32 | 17.48 | +7.3% | +7.1% | +3.0% | +4.1% | 9 |
-| 2026-10-16 | CGC | 8k_reverse_split | -1 | -13.1% | -3.1% | $2.3M | 0.71 | 0.73 | 0.66 | -7.0% | -8.5% | +3.0% | +11.5% | 9 |
-| 2026-10-16 | CMTL | registration_effective | -1 | +22.9% | -4.1% | $423k | 1.39 | 1.34 | 1.35 | -2.9% | +0.8% | +3.0% | +2.3% | 9 |
-| 2026-10-16 | COCH | 8k_reverse_split | -1 | -2.0% | +3.6% | $43k ⚠ | 6.68 | 6.50 | 6.55 | -1.9% | +0.8% | +3.0% | +2.2% | 9 |
-| 2026-10-16 | CPRT | tender_third_party | +0 | +1.0% | +0.4% | $278.9M | 27.87 | 27.70 | 28.67 | +2.9% | +3.5% | +3.0% |  | 9 |
-| 2026-10-16 | CPRT | 8k_merger_agreement | +0 | +1.0% | +0.4% | $278.9M | 27.87 | 27.70 | 28.67 | +2.9% | +3.5% | +3.0% |  | 9 |
-| 2026-10-16 | CTY | registration_effective | -1 |  |  | $31.5M | 22.40 | 21.94 | 21.30 | -4.9% | -2.9% | +3.0% | +5.9% | 9 |
-| 2026-10-16 | CTY | ipo_priced | +0 |  |  | $31.5M | 22.40 | 21.94 | 21.30 | -4.9% | -2.9% | +3.0% |  | 9 |
-| 2026-10-16 | DAIC | 8k_lock_up | +0 | -50.2% | -9.2% | $4.3M | 1.19 | 1.15 | 1.01 | -14.9% | -12.0% | +3.0% |  | 9 |
-| 2026-10-16 | DLX | 8k_merger_agreement | +0 | -0.7% | +1.3% | $10.6M | 23.18 | 23.05 | 22.70 | -2.1% | -1.5% | +3.0% |  | 9 |
-| 2026-10-16 | EFSI | merger_vote | +0 | -0.1% | +0.3% | $1.4M | 45.89 | 45.91 | 45.87 | -0.0% | -0.1% | +3.0% |  | 9 |
-| 2026-10-16 | EHTH | 8k_reverse_split | -1 | -14.1% | -3.3% | $279k | 0.59 | 0.60 | 0.59 | +0.1% | -1.5% | +3.0% | +4.5% | 9 |
-| 2026-10-16 | ENSC | 8k_merger_agreement | +0 | +30.6% | -13.4% | $288k | 0.52 | 0.52 | 0.45 | -12.8% | -13.1% | +3.0% |  | 9 |
-| 2026-10-16 | ENVA | 8k_merger_agreement | +0 | -2.8% | +0.2% | $59.9M | 177.89 | 176.50 | 175.49 | -1.4% | -0.6% | +3.0% |  | 9 |
-| 2026-10-16 | ETN | 8k_spin_off | +0 | -5.2% | -2.8% | $882.3M | 391.25 | 400.00 | 393.17 | +0.5% | -1.7% | +3.0% |  | 9 |
-| 2026-10-16 | GLBS | registration_effective | -1 | -8.6% | -3.1% | $464k | 3.10 | 3.13 | 2.90 | -6.5% | -7.3% | +3.0% | +10.4% | 9 |
-| 2026-10-16 | GPRO | 8k_merger_agreement | +0 | -2.5% | -8.7% | $12.0M | 1.05 | 1.12 | 1.01 | -3.3% | -9.8% | +3.0% |  | 9 |
-| 2026-10-16 | HIT | registration_effective | -1 | -16.0% | +3.7% | $333k | 0.65 | 0.65 | 0.59 | -9.5% | -9.2% | +3.0% | +12.2% | 9 |
-| 2026-10-16 | HIT | 8k_reverse_split | -1 | -16.0% | +3.7% | $333k | 0.65 | 0.65 | 0.59 | -9.5% | -9.2% | +3.0% | +12.2% | 9 |
-| 2026-10-16 | INSW | 8k_reverse_split | -1 | -7.1% | -2.8% | $86.1M | 109.99 | 110.74 | 112.83 | +2.6% | +1.9% | +3.0% | +1.1% | 9 |
-| 2026-10-16 | IONQ | 8k_tender_offer | +0 | -12.9% | -8.9% | $1107.8M | 31.28 | 32.35 | 32.22 | +3.0% | -0.4% | +3.0% |  | 9 |
-| 2026-10-16 | IPW | share_registration | -1 | -57.2% | +1.8% | $3.8M | 4.81 | 5.16 | 2.46 | -48.9% | -52.3% | +3.0% | +55.3% | 9 |
-| 2026-10-16 | LHAI | activist_13d | +1 | -15.6% | -2.2% | $139k ⚠ | 0.85 | 0.78 | 0.94 | +10.2% | +19.9% | +3.0% | +16.9% | 9 |
-| 2026-10-16 | MDXG | 8k_merger_agreement | +0 | +1.3% | -5.3% | $5.2M | 4.43 | 4.44 | 3.92 | -11.5% | -11.7% | +3.0% |  | 9 |
-| 2026-10-16 | MG | merger_arb | +0 | -0.1% | +3.8% | $8.6M | 21.46 | 21.52 | 20.45 | -4.7% | -5.0% | +3.0% |  | 9 |
-| 2026-10-16 | NNUP | share_registration | -1 | +3.6% | -2.9% | $1k ⚠ | 1.70 | 1.70 | 1.60 | -5.9% | -5.9% | +3.0% | +8.9% | 9 |
-| 2026-10-16 | NXL | registration_effective | -1 | -40.4% | -4.1% | $24.2M | 2.35 | 2.37 | 1.72 | -26.8% | -27.4% | +3.0% | +30.4% | 9 |
-| 2026-10-16 | OMEX | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 0.52 | 0.52 |  | -0.7% | +1.4% |  | 2 |
-| 2026-10-16 | PBAM | 8k_special_dividend | +0 | -1.5% | -2.2% | $9.2M | 82.30 | 83.18 | 85.17 | +3.5% | +2.4% | +3.0% |  | 9 |
-| 2026-10-16 | PINE | registration_effective | -1 | +0.0% | +0.3% | $3.0M | 17.93 | 17.83 | 16.38 | -8.6% | -8.1% | +3.0% | +11.2% | 9 |
-| 2026-10-16 | PLUR | registration_effective | -1 | -6.0% | -1.1% | $14k ⚠ | 0.93 | 0.90 | 1.38 | +48.4% | +53.3% | +3.0% | -50.3% | 9 |
-| 2026-10-16 | POLA | 8k_reverse_split | -1 | -11.1% | -12.5% | $208k ⚠ | 0.84 | 0.91 | 0.62 | -26.6% | -32.2% | +3.0% | +35.2% | 9 |
-| 2026-10-16 | PUSA | 8k_merger_agreement | +0 | -12.9% | -7.2% | $3.7M | 2.06 | 2.04 | 2.04 | -1.0% | +0.0% | +3.0% |  | 9 |
-| 2026-10-16 | RGR | tender_third_party | +0 | -1.5% | +1.0% | $20.5M | 43.38 | 43.70 | 46.03 | +6.1% | +5.3% | +3.0% |  | 9 |
-| 2026-10-16 | SEAT | delisting | +0 | -10.8% | -3.7% | $293k | 2.87 | 2.91 | 2.42 | -15.7% | -16.8% | +3.0% |  | 9 |
-| 2026-10-16 | SKYA | tender_issuer | +0 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.95 | +11.3% | +7.3% | +3.0% |  | 9 |
-| 2026-10-16 | SKYA | tender_issuer_buyback | +1 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.95 | +11.3% | +7.3% | +3.0% | +4.3% | 9 |
-| 2026-10-16 | SKYD | 8k_merger_agreement | +0 | -21.8% | -4.8% | $336.8M | 6.91 | 6.89 | 7.59 | +9.8% | +10.1% | +3.0% |  | 9 |
-| 2026-10-16 | SMTI | 8k_merger_agreement | +0 | +0.1% | -5.5% | $7.0M | 33.16 | 32.89 | 32.83 | -1.0% | -0.2% | +3.0% |  | 9 |
-| 2026-10-16 | SRTA | activist_13d | +0 | -2.9% | +4.6% | $4.2M | 4.54 | 4.56 | 4.74 | +4.3% | +3.8% | +3.0% |  | 9 |
-| 2026-10-16 | SVIA | registration_effective | -1 | +3.2% | -5.9% | $7.9M | 3.66 | 3.66 | 3.36 | -8.2% | -8.2% | +3.0% | +11.2% | 9 |
-| 2026-10-16 | TCXB | registration_effective | -1 |  |  | $7.6M | 10.86 | 10.60 | 10.29 | -5.2% | -2.9% | +3.0% | +5.9% | 9 |
-| 2026-10-16 | TCXB | ipo_priced | +0 |  |  | $7.6M | 10.86 | 10.60 | 10.29 | -5.2% | -2.9% | +3.0% |  | 9 |
-| 2026-10-16 | TFC | 8k_strategic_review | +1 | +0.8% | +1.1% | $395.8M | 47.07 | 46.81 | 48.21 | +2.4% | +3.0% | +3.0% | -0.0% | 9 |
-| 2026-10-16 | TRXB | activist_13d | +1 |  | -1.1% | $4.9M | 14.01 | 14.28 | 13.41 | -4.3% | -6.1% | +3.0% | -9.1% | 9 |
-| 2026-10-16 | VCTR | merger_vote | +0 | -2.2% | -0.6% | $66.8M | 108.60 | 109.03 | 111.07 | +2.3% | +1.9% | +3.0% |  | 9 |
-| 2026-10-16 | WHK | share_registration | -1 | -5.1% | +3.7% | $6.4M | 25.96 | 26.00 | 26.99 | +4.0% | +3.8% | +3.0% | -0.8% | 9 |
-| 2026-10-18 | ALEC | below_cash | +0 | -5.4% | -3.7% | $13.6M | 1.84 | 1.85 | 2.17 | +18.2% | +17.6% | +3.0% |  | 9 |
-| 2026-10-18 | BMEZ | tender_issuer_buyback | +0 | +1.3% | -1.1% | $2.4M | 16.29 | 16.32 | 17.48 | +7.3% | +7.1% | +3.0% |  | 9 |
-| 2026-10-18 | BYRN | insider_buy | +0 | +1.1% | +1.3% | $2.9M | 4.84 | 5.04 | 4.64 | -4.1% | -7.9% | +3.0% |  | 9 |
-| 2026-10-18 | GPRO | merger_arb | +0 | -2.5% | -8.7% | $12.0M | 1.05 | 1.12 | 1.01 | -3.3% | -9.8% | +3.0% |  | 9 |
-| 2026-10-18 | MDXG | linked_peer | +0 | +1.3% | -5.3% | $5.2M | 4.43 | 4.44 | 3.92 | -11.5% | -11.7% | +3.0% |  | 9 |
-| 2026-10-18 | SKYA | tender_issuer | +0 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.95 | +11.3% | +7.3% | +3.0% |  | 9 |
-| 2026-10-18 | SMTI | merger_arb | +0 | +0.1% | -5.5% | $7.0M | 33.16 | 32.89 | 32.83 | -1.0% | -0.2% | +3.0% |  | 9 |
-| 2026-10-19 | AES | 8k_merger_agreement | +0 | +0.1% | +0.1% | $144.9M | 14.96 | 14.97 | 15.03 | +0.5% | +0.4% | +3.1% |  | 8 |
-| 2026-10-19 | AIAI | share_registration | -1 | -15.7% | +2.2% | $993k | 2.74 | 2.68 | 1.58 | -42.5% | -41.2% | +3.1% | +44.4% | 8 |
-| 2026-10-19 | AIRE | 8k_merger_agreement | +0 | -12.1% | +0.3% | $41k ⚠ | 0.99 | 0.95 | 0.75 | -23.7% | -20.7% | +3.1% |  | 8 |
-| 2026-10-19 | ASTL | delisting | +0 | -6.3% | +2.5% | $3.1M | 4.13 | 4.12 | 4.78 | +15.9% | +16.1% | +3.1% |  | 8 |
-| 2026-10-19 | ATII | 8k_merger_agreement | +0 | -13.1% | -8.0% | $4.2M | 8.55 | 8.45 | 4.67 | -45.4% | -44.7% | +3.1% |  | 7 |
-| 2026-10-19 | AZI | registration_effective | -1 | -9.6% | +1.0% | $52k ⚠ | 1.04 | 1.05 | 0.83 | -19.9% | -21.0% | +3.1% | +24.1% | 8 |
-| 2026-10-19 | BOF | registration_effective | -1 | -36.7% | +1.4% | $222k ⚠ | 2.22 | 2.22 | 1.76 | -20.5% | -20.5% | +3.1% | +23.6% | 8 |
-| 2026-10-19 | BULL | registration_effective | -1 | -3.8% | -2.8% | $94.1M | 5.90 | 5.84 | 5.47 | -7.3% | -6.3% | +3.1% | +9.5% | 8 |
-| 2026-10-19 | CDNL | 8k_merger_agreement | +0 | -30.8% | +8.5% | $24.8M | 15.87 | 15.80 | 15.00 | -5.5% | -5.1% | +3.1% |  | 8 |
-| 2026-10-19 | CISS | registration_effective | -1 | -31.9% | +3.0% | $634k | 0.55 | 0.54 | 0.48 | -13.4% | -12.1% | +3.1% | +15.3% | 8 |
-| 2026-10-19 | CNTM | 8k_lock_up | +0 | +7.1% | +8.9% | $21k ⚠ | 4.90 | 4.93 | 4.46 | -9.0% | -9.5% | +3.1% |  | 8 |
-| 2026-10-19 | CURLF | 8k_tender_offer | +0 | -16.6% | -2.6% | $2.4M | 7.63 | 7.64 | 8.40 | +10.1% | +9.9% | +3.1% |  | 8 |
-| 2026-10-19 | CYAB | registration_effective | -1 | -26.3% | +7.1% | $1.2M | 0.15 | 0.15 | 0.13 | -13.5% | -13.5% | +3.1% | +16.6% | 8 |
-| 2026-10-19 | DCOY | registration_effective | -1 | -20.4% | +0.0% | $22.0M | 1.17 | 1.17 | 1.07 | -8.6% | -8.6% | +3.1% | +11.7% | 8 |
-| 2026-10-19 | ENHA | 8k_reverse_split | -1 | -2.4% | -4.1% | $1.1M | 11.70 | 11.60 | 1.12 | -90.4% | -90.3% | +3.1% | +93.4% | 8 |
-| 2026-10-19 | GPRO | merger_vote | +0 | -11.8% | -1.0% | $11.6M | 1.04 | 1.03 | 1.01 | -2.4% | -1.9% | +3.1% |  | 8 |
-| 2026-10-19 | HERZ | tender_issuer_buyback | +1 | +0.7% | +0.5% | $236k ⚠ | 15.14 | 14.86 | 13.80 | -8.8% | -7.1% | +3.1% | -10.3% | 8 |
-| 2026-10-19 | HSCS | merger_vote | +0 | -5.0% | +1.7% | $996k | 3.07 | 3.02 | 3.30 | +7.3% | +9.1% | +3.1% |  | 8 |
-| 2026-10-19 | JEF | 8k_spin_off | +0 | +0.9% | -2.7% | $116.1M | 43.60 | 43.80 | 47.10 | +8.0% | +7.5% | +3.1% |  | 8 |
-| 2026-10-19 | LCII | merger_vote | +0 | +7.1% | -2.3% | $30.0M | 81.92 | 81.90 | 95.53 | +16.6% | +16.6% | +3.1% |  | 8 |
-| 2026-10-19 | LXP | 8k_merger_agreement | +0 | +0.1% | +0.0% | $60.6M | 61.08 | 61.10 | 61.13 | +0.1% | +0.1% | +3.1% |  | 8 |
-| 2026-10-19 | MOBX | 8k_merger_agreement | +0 | -15.6% | -2.0% | $10.0M | 0.75 | 0.74 | 0.71 | -4.7% | -3.9% | +3.1% |  | 8 |
-| 2026-10-19 | MYPS | 8k_reverse_split | -1 | -3.6% | -2.3% | $248k ⚠ | 3.87 | 3.82 | 4.76 | +23.0% | +24.6% | +3.1% | -21.5% | 8 |
-| 2026-10-19 | NIMU | 8k_merger_agreement | +0 | -18.8% | +0.0% | $1k ⚠ | 10.81 | 10.81 | 10.81 | +0.0% | +0.0% | +3.1% |  | 7 |
-| 2026-10-19 | NWCL | registration_effective | -1 | -21.3% | -19.2% | $2.1M | 4.75 | 4.80 | 4.57 | -3.8% | -4.8% | +3.1% | +7.9% | 8 |
-| 2026-10-19 | OPNW | 8k_merger_agreement | +0 | -40.5% | -18.4% | $2.7M | 2.17 | 2.11 | 1.47 | -32.3% | -30.3% | +3.1% |  | 8 |
-| 2026-10-19 | PUMP | 8k_spin_off | +0 | -15.0% | +0.9% | $36.9M | 7.80 | 7.77 | 7.80 | +0.0% | +0.4% | +3.1% |  | 8 |
-| 2026-10-19 | QNME | registration_effective | -1 | -29.8% | +2.9% | $10.8M | 0.54 | 0.54 | 0.42 | -22.2% | -22.4% | +3.1% | +25.6% | 8 |
-| 2026-10-19 | QSEA | 8k_tender_offer | +0 | -0.5% | +0.6% | $167k ⚠ | 10.72 | 10.72 | 10.71 | -0.1% | -0.1% | +3.1% |  | 7 |
-| 2026-10-19 | RBB | 8k_special_dividend | +0 | +1.3% | -1.2% | $2.3M | 25.45 | 26.73 | 25.97 | +2.0% | -2.8% | +3.1% |  | 8 |
-| 2026-10-19 | REKR | 8k_reverse_split | -1 | -1.8% | -9.4% | $633k | 0.30 | 0.31 | 0.31 | +1.9% | -1.4% | +3.1% | +4.5% | 8 |
-| 2026-10-19 | RMCF | 8k_strategic_review | +1 | -12.5% | +2.2% | $100k ⚠ | 0.93 | 0.91 | 0.81 | -12.9% | -11.0% | +3.1% | -14.1% | 8 |
-| 2026-10-19 | RNTZ | activist_13d | +1 | -16.9% | +1.5% | $319k | 4.60 | 4.60 | 4.26 | -7.3% | -7.3% | +3.1% | -10.4% | 8 |
-| 2026-10-19 | SDST | 8k_strategic_review | +1 | -46.4% | -13.3% | $7.6M | 0.03 | 0.02 | 0.01 | -76.9% | -64.7% | +3.1% | -67.8% | 8 |
-| 2026-10-19 | SKYA | 8k_tender_offer | +0 | +45.6% | +5.3% | $7.4M | 2.79 | 2.80 | 2.95 | +5.7% | +5.4% | +3.1% |  | 8 |
-| 2026-10-19 | SLE | 8k_lock_up | +0 | -10.0% | +6.9% | $665k | 4.80 | 4.97 | 5.18 | +7.9% | +4.2% | +3.1% |  | 8 |
-| 2026-10-19 | SLN | 8k_strategic_review | +1 | -12.0% | +125.6% | $81.1M | 19.58 | 19.58 | 19.75 | +0.8% | +0.8% | +3.1% | -2.3% | 8 |
-| 2026-10-19 | SYNA | merger_vote | +0 | -2.2% | -0.1% | $149.6M | 117.05 | 117.20 | 117.79 | +0.6% | +0.5% | +3.1% |  | 8 |
-| 2026-10-19 | TCGX | 8k_tender_offer | +0 | -1.7% | -18.5% | $1.0M | 10.02 | 10.03 | 10.08 | +0.6% | +0.5% | +3.1% |  | 8 |
-| 2026-10-19 | TCXB | 8k_tender_offer | +0 |  | -4.2% | $4.4M | 10.40 | 10.39 | 10.29 | -1.1% | -1.0% | +3.1% |  | 8 |
-| 2026-10-19 | TW | 8k_merger_agreement | +0 | +2.2% | +1.1% | $134.9M | 114.70 | 116.13 | 118.44 | +3.3% | +2.0% | +3.1% |  | 8 |
-| 2026-10-19 | VGZ | merger_vote | +0 | +2.6% | +0.0% | $6.7M | 2.72 | 2.71 | 2.59 | -4.8% | -4.4% | +3.1% |  | 8 |
-| 2026-10-19 | VVOS | 8k_reverse_split | -1 | -12.1% | +3.1% | $1.2M | 0.14 | 0.13 | 0.12 | -9.0% | -6.2% | +3.1% | +9.3% | 8 |
-| 2026-10-20 | ACB | merger_hostile | +0 | -9.0% | +0.3% | $4.8M | 3.97 | 3.98 | 4.03 | +1.4% | +1.1% | +1.1% |  | 7 |
-| 2026-10-20 | ACOG | insider_buy | +0 | -3.8% | +1.3% | $827k | 8.61 | 8.60 | 9.02 | +4.8% | +4.9% | +1.1% |  | 7 |
-| 2026-10-20 | ASPC | 8k_tender_offer | +0 | +0.9% | -0.9% | $38k ⚠ | 10.77 | 10.78 | 10.62 | -1.4% | -1.5% | +1.1% |  | 6 |
-| 2026-10-20 | BCAB | share_registration | -1 | +4.8% | +1.5% | $11k ⚠ | 1.33 | 1.34 | 1.80 | +35.3% | +34.3% | +1.1% | -33.2% | 7 |
-| 2026-10-20 | BMM | strategic_placement | +0 | -10.8% | +0.2% | $1.2M | 4.30 | 4.33 | 4.36 | +1.4% | +0.7% | +1.1% |  | 7 |
-| 2026-10-20 | BRUN | registration_effective | -1 | -25.5% | -3.5% | $39.7M | 8.47 | 8.85 | 8.45 | -0.2% | -4.5% | +1.1% | +5.6% | 7 |
-| 2026-10-20 | BRZE | 8k_merger_agreement | +0 | +3.4% | +51.7% | $197.6M | 45.57 | 45.52 | 45.83 | +0.6% | +0.7% | +1.1% |  | 7 |
-| 2026-10-20 | CLRCF | 8k_merger_agreement | +0 | +0.0% | +0.0% | $0k ⚠ | 12.75 | 12.75 | 12.75 | +0.0% | +0.0% | +1.1% |  | 6 |
-| 2026-10-20 | DCOM | 8k_merger_agreement | +0 | +0.5% | +6.0% | $15.3M | 41.01 | 40.86 | 41.95 | +2.3% | +2.7% | +1.1% |  | 7 |
-| 2026-10-20 | DFH | 8k_merger_agreement | +0 | -3.1% | +10.9% | $15.3M | 9.59 | 9.49 | 9.92 | +3.4% | +4.5% | +1.1% |  | 7 |
-| 2026-10-20 | DIBS | holder_13d | +0 | +15.8% | +1.2% | $501k | 4.30 | 4.30 | 4.72 | +9.8% | +9.8% | +1.1% |  | 7 |
-| 2026-10-20 | DMLP | 8k_lock_up | +0 | +1.1% | +0.4% | $2.3M | 30.16 | 30.11 | 30.69 | +1.8% | +1.9% | +1.1% |  | 7 |
-| 2026-10-20 | DV | 8k_merger_agreement | +0 | -0.1% | +0.1% | $26.5M | 13.53 | 13.53 | 13.56 | +0.2% | +0.2% | +1.1% |  | 7 |
-| 2026-10-20 | FBLG | registration_effective | -1 | -5.6% | -2.5% | $164k | 0.92 | 0.90 | 0.96 | +4.4% | +6.7% | +1.1% | -5.6% | 7 |
-| 2026-10-20 | GPRO | merger_arb | +0 | -12.6% | +5.8% | $11.5M | 1.10 | 1.11 | 1.01 | -7.7% | -8.1% | +1.1% |  | 7 |
-| 2026-10-20 | GRDX | registration_effective | -1 | -5.8% | +5.5% | $411k | 4.63 | 4.55 | 5.91 | +27.6% | +29.9% | +1.1% | -28.8% | 7 |
-| 2026-10-20 | HERZ | tender_issuer_buyback | +1 | +0.3% | -1.9% | $220k | 14.85 | 14.80 | 13.80 | -7.1% | -6.8% | +1.1% | -7.9% | 7 |
-| 2026-10-20 | HII | 8k_spin_off | +0 | +2.1% | +1.0% | $140.0M | 272.23 | 275.69 | 280.54 | +3.0% | +1.8% | +1.1% |  | 7 |
-| 2026-10-20 | LFCR | 8k_merger_agreement | +0 | -0.8% | -0.3% | $5.0M | 6.37 | 6.40 | 6.45 | +1.2% | +0.7% | +1.1% |  | 7 |
-| 2026-10-20 | MBRX | 8k_reverse_split | -1 | -36.0% | +16.8% | $380k | 6.19 | 6.00 | 9.10 | +47.0% | +51.7% | +1.1% | -50.5% | 7 |
-| 2026-10-20 | MCAG | merger_vote | +0 | +0.0% | +0.0% | $0k ⚠ | 13.27 | 13.27 | 13.27 | +0.0% | +0.0% | +1.1% |  | 6 |
-| 2026-10-20 | MEDS | 8k_lock_up | +0 | -13.0% | +3.0% | $21.2M | 2.75 | 2.70 | 2.25 | -18.2% | -16.7% | +1.1% |  | 7 |
-| 2026-10-20 | MMM | 8k_spin_off | +0 | +0.7% | +5.8% | $516.6M | 171.37 | 172.00 | 172.23 | +0.5% | +0.1% | +1.1% |  | 7 |
-| 2026-10-20 | MMS | 8k_tender_offer | +0 | +4.2% | -0.4% | $41.9M | 61.09 | 60.96 | 62.22 | +1.9% | +2.1% | +1.1% |  | 7 |
-| 2026-10-20 | MSBI | registration_effective | -1 | -1.7% | +2.4% | $5.4M | 32.56 | 32.64 | 33.81 | +3.8% | +3.6% | +1.1% | -2.5% | 7 |
-| 2026-10-20 | MWYN | 8k_reverse_split | -1 | +71.0% | +14.4% | $451k | 2.70 | 2.48 | 2.54 | -5.9% | +2.4% | +1.1% | -1.3% | 7 |
-| 2026-10-20 | MYGN | 8k_strategic_review | +1 | +0.2% | +31.6% | $13.4M | 5.54 | 5.60 | 6.49 | +17.1% | +15.8% | +1.1% | +14.7% | 7 |
-| 2026-10-20 | NGTF | 8k_reverse_split | -1 | -7.9% | -9.7% | $24k ⚠ | 3.25 | 3.50 | 4.06 | +24.9% | +16.0% | +1.1% | -14.9% | 6 |
-| 2026-10-20 | NUMD | 8k_reverse_split | -1 | -18.6% | +0.0% | $0k ⚠ | 0.01 | 0.01 | 0.01 | +0.0% | +0.0% | +1.1% | +1.1% | 6 |
-| 2026-10-20 | NWCL | registration_effective | +0 | -35.5% | -9.9% | $2.0M | 4.28 | 4.50 | 4.57 | +6.8% | +1.6% | +1.1% |  | 7 |
-| 2026-10-20 | PEBO | 8k_merger_agreement | +0 | +1.0% | +3.0% | $18.1M | 37.56 | 37.63 | 37.99 | +1.1% | +1.0% | +1.1% |  | 7 |
-| 2026-10-20 | PWDY | share_registration | -1 | +0.0% | -29.4% | $4k ⚠ | 0.00 | 0.00 | 0.00 | -8.3% | -8.3% | +1.1% | +9.5% | 6 |
-| 2026-10-20 | RGR | tender_third_party | +0 | +4.5% | +6.2% | $22.4M | 48.74 | 49.00 | 46.03 | -5.6% | -6.1% | +1.1% |  | 7 |
-| 2026-10-20 | SHFS | 8k_reverse_split | -1 | -76.6% | -4.3% | $2.0M | 0.09 | 0.15 | 0.09 | +0.8% | -41.1% | +1.1% | +42.2% | 7 |
-| 2026-10-20 | SKYA | tender_issuer_buyback | +1 | +7.3% | +1.4% | $7.8M | 2.83 | 2.83 | 2.95 | +4.2% | +4.2% | +1.1% | +3.1% | 7 |
-| 2026-10-20 | SLGN | 8k_spin_off | +0 | +13.7% | -0.4% | $49.0M | 39.90 | 39.84 | 37.65 | -5.7% | -5.5% | +1.1% |  | 7 |
-| 2026-10-20 | SSTI | tender_third_party | +0 | -0.6% | +1.4% | $2.9M | 8.40 | 8.39 | 8.35 | -0.6% | -0.5% | +1.1% |  | 7 |
-| 2026-10-20 | XFLT | tender_issuer_buyback | +1 | -6.4% | -3.7% | $2.0M | 17.04 | 17.00 | 16.16 | -5.2% | -4.9% | +1.1% | -6.1% | 7 |
-| 2026-10-20 | XRPN | registration_effective | -1 | -9.9% | -2.5% | $51.1M | 14.85 | 14.88 | 15.29 | +3.0% | +2.8% | +1.1% | -1.6% | 7 |
-| 2026-10-20 | XTER | 8k_tender_offer | +0 | -0.1% | +0.0% | $763k | 9.78 | 9.78 | 9.79 | +0.1% | +0.1% | +1.1% |  | 6 |
-| 2026-10-20 | XWEL | 8k_reverse_split | -1 | -12.2% | -9.7% | $41k ⚠ | 0.65 | 0.68 | 0.75 | +15.4% | +10.3% | +1.1% | -9.2% | 7 |
-| 2026-10-20 | YOUL | registration_effective | -1 | -19.4% | +0.4% | $67k ⚠ | 0.28 | 0.26 | 0.27 | -4.2% | +4.6% | +1.1% | -3.5% | 7 |
-| 2026-10-21 | AERG | registration_effective | -1 | +0.6% | +8.4% | $106k ⚠ | 0.89 | 0.90 | 0.91 | +2.2% | +1.1% | +1.9% | +0.8% | 6 |
-| 2026-10-21 | ATII | delisting | +0 | -33.1% | +36.8% | $4.2M | 9.81 | 11.55 | 4.67 | -52.4% | -59.6% | +1.9% |  | 5 |
-| 2026-10-21 | BGX | activist_13d | +1 | -1.2% | +1.1% | $1.0M | 10.49 | 10.42 | 10.49 | +0.0% | +0.7% | +1.9% | -1.2% | 6 |
-| 2026-10-21 | BRUN | supply_resale | +0 | -26.2% | -0.8% | $40.3M | 8.40 | 8.14 | 8.45 | +0.6% | +3.8% | +1.9% |  | 6 |
-| 2026-10-21 | CAPS | 8k_reverse_split | -1 | -26.1% | +3.4% | $1.0M | 2.75 | 2.70 | 2.70 | -1.8% | +0.0% | +1.9% | +1.9% | 6 |
-| 2026-10-21 | CCNE | 8k_special_dividend | +0 | +2.4% | -0.1% | $3.9M | 34.54 | 34.53 | 35.26 | +2.1% | +2.1% | +1.9% |  | 6 |
-| 2026-10-21 | CITR | registration_effective | -1 | -6.5% | +1.5% | $185k | 2.64 | 2.56 | 2.61 | -1.1% | +1.9% | +1.9% | -0.1% | 6 |
-| 2026-10-21 | COR | 8k_merger_agreement | +0 | +4.0% | -0.8% | $399.2M | 340.43 | 344.43 | 326.32 | -4.1% | -5.3% | +1.9% |  | 6 |
-| 2026-10-21 | CPAC | tender_third_party | +0 | +3.0% | +0.2% | $297k | 12.66 | 12.65 | 12.79 | +1.0% | +1.1% | +1.9% |  | 6 |
-| 2026-10-21 | CVAT | tender_third_party | +0 | +0.0% | +33.3% | $17k ⚠ | 0.04 | 0.04 | 0.03 | -24.8% | -24.8% | +1.9% |  | 6 |
-| 2026-10-21 | DRK | registration_effective | -1 | -10.2% | +0.0% | $469k | 2.03 | 2.00 | 2.01 | -1.0% | +0.5% | +1.9% | +1.4% | 6 |
-| 2026-10-21 | DRMA | registration_effective | -1 | +1.2% | -8.0% | $8.0M | 0.80 | 0.78 | 0.77 | -3.1% | -0.7% | +1.9% | +2.5% | 6 |
-| 2026-10-21 | ESI | 8k_merger_agreement | +0 | -4.1% | +1.9% | $128.8M | 36.34 | 35.49 | 35.17 | -3.2% | -0.9% | +1.9% |  | 6 |
-| 2026-10-21 | FLSC | activist_13d | +1 |  | +0.2% | $2.8M | 10.30 | 10.35 | 10.23 | -0.7% | -1.2% | +1.9% | -3.0% | 5 |
-| 2026-10-21 | GETY | 8k_merger_agreement | +0 | +5.3% | -5.0% | $448k | 0.02 | 0.02 | 0.03 | +57.9% | +76.5% | +1.9% |  | 5 |
-| 2026-10-21 | GNPX | 8k_strategic_review | +1 | -15.1% | -3.8% | $567k | 2.05 | 1.99 | 2.00 | -2.4% | +0.5% | +1.9% | -1.4% | 6 |
-| 2026-10-21 | GTBP | registration_effective | -1 | +12.5% | -26.0% | $302k | 5.41 | 5.37 | 5.47 | +1.0% | +1.8% | +1.9% | +0.1% | 6 |
-| 2026-10-21 | HLEO | share_registration | -1 | +7.1% | -4.4% | $47k ⚠ | 4.35 | 4.38 | 4.40 | +1.1% | +0.6% | +1.9% | +1.3% | 5 |
-| 2026-10-21 | HMH | supply_effective | +0 | -7.1% | +1.8% | $3.4M | 17.94 | 17.98 | 19.00 | +5.9% | +5.7% | +1.9% |  | 6 |
-| 2026-10-21 | HMH | registration_effective | -1 | -7.1% | +1.8% | $3.4M | 17.94 | 17.98 | 19.00 | +5.9% | +5.7% | +1.9% | -3.8% | 6 |
-| 2026-10-21 | HTB | 8k_merger_agreement | +0 | +2.8% | +0.5% | $6.9M | 47.36 | 47.51 | 46.57 | -1.7% | -2.0% | +1.9% |  | 6 |
-| 2026-10-21 | ICON | activist_13d | +1 | +13.6% | +0.4% | $31k ⚠ | 0.92 | 0.93 | 0.94 | +1.7% | +1.1% | +1.9% | -0.8% | 6 |
-| 2026-10-21 | IMCC | registration_effective | -1 | +2.9% | -15.0% | $1.2M | 1.19 | 1.13 | 0.83 | -29.8% | -26.1% | +1.9% | +28.0% | 6 |
-| 2026-10-21 | INVE | tender_issuer_buyback | +1 | -6.3% | +25.2% | $2.5M | 2.78 | 2.79 | 2.69 | -3.2% | -3.6% | +1.9% | -5.5% | 6 |
-| 2026-10-21 | INVE | 8k_tender_offer | +0 | -6.3% | +25.2% | $2.5M | 2.78 | 2.79 | 2.69 | -3.2% | -3.6% | +1.9% |  | 6 |
-| 2026-10-21 | IOND | activist_13d | +1 | -13.2% | +1.7% | $30.6M | 66.72 | 66.89 | 67.29 | +0.8% | +0.6% | +1.9% | -1.3% | 6 |
-| 2026-10-21 | ITGR | 8k_merger_agreement | +0 | +0.1% | +0.0% | $112.9M | 126.70 | 126.77 | 126.68 | -0.0% | -0.1% | +1.9% |  | 6 |
-| 2026-10-21 | NANO | 8k_merger_agreement | +0 | -33.1% | +36.8% | $4.2M | 9.81 | 11.55 | 4.04 | -58.8% | -65.0% | +1.9% |  | 6 |
-| 2026-10-21 | NGTF | 8k_lock_up | +0 | -5.8% | -11.4% | $31k ⚠ | 2.88 | 2.74 | 4.06 | +41.0% | +48.2% | +1.9% |  | 5 |
-| 2026-10-21 | OBAI | share_registration | -1 | -39.5% | +4.8% | $252k | 2.41 | 2.41 | 2.14 | -11.3% | -11.3% | +1.9% | +13.2% | 6 |
-| 2026-10-21 | OLOX | 8k_lock_up | +0 | -7.9% | +37.0% | $15.4M | 1.01 | 0.96 | 0.77 | -23.8% | -19.8% | +1.9% |  | 6 |
-| 2026-10-21 | POLA | activist_13d | +1 | -35.5% | +15.5% | $882k | 0.82 | 0.80 | 0.62 | -24.8% | -22.9% | +1.9% | -24.8% | 6 |
-| 2026-10-21 | PSNL | merger_vote | +0 | +0.6% | -0.3% | $37.5M | 15.90 | 15.90 | 15.98 | +0.5% | +0.5% | +1.9% |  | 6 |
-| 2026-10-21 | PZZA | holder_13g | +0 | -3.0% | -2.6% | $27.1M | 18.24 | 18.43 | 18.54 | +1.6% | +0.6% | +1.9% |  | 6 |
-| 2026-10-21 | QNME | 8k_spin_off | +0 | -26.5% | +1.5% | $4.4M | 0.48 | 0.48 | 0.42 | -13.3% | -12.9% | +1.9% |  | 6 |
-| 2026-10-21 | SKYX | registration_effective | -1 | -19.5% | -0.2% | $724k | 0.90 | 0.89 | 0.85 | -5.6% | -4.5% | +1.9% | +6.4% | 6 |
-| 2026-10-21 | SSEA | 8k_tender_offer | +0 | +0.7% | +0.0% | $27k ⚠ | 10.41 | 10.41 | 10.41 | +0.0% | +0.0% | +1.9% |  | 5 |
-| 2026-10-21 | SSTI | merger_cvr | +0 | +1.7% | +0.0% | $3.1M | 8.40 | 8.38 | 8.35 | -0.6% | -0.4% | +1.9% |  | 6 |
-| 2026-10-21 | SWBI | 8k_merger_agreement | +0 | +3.9% | +2.2% | $6.6M | 15.10 | 15.09 | 13.71 | -9.2% | -9.2% | +1.9% |  | 6 |
-| 2026-10-21 | TCRT | 8k_merger_agreement | +0 | -2.0% | +3.7% | $59.7M | 3.08 | 3.19 | 2.01 | -34.7% | -37.0% | +1.9% |  | 6 |
-| 2026-10-21 | TKNO | supply_offering | +0 | -10.1% | -20.8% | $4.1M | 5.85 | 5.60 | 7.51 | +28.5% | +34.2% | +1.9% |  | 6 |
-| 2026-10-21 | TKNO | 8k_lock_up | +0 | -10.1% | -20.8% | $4.1M | 5.85 | 5.60 | 7.51 | +28.5% | +34.2% | +1.9% |  | 6 |
-| 2026-10-21 | TRAD | 8k_merger_agreement | +0 | -0.2% | +0.1% | $338k | 10.07 | 10.07 | 10.07 | +0.0% | +0.0% | +1.9% |  | 6 |
-| 2026-10-21 | VBIO | registration_effective | -1 | -23.2% | -5.9% | $10.5M | 1.12 | 1.10 | 0.75 | -33.0% | -31.8% | +1.9% | +33.7% | 6 |
-| 2026-10-21 | WEST | 8k_reverse_split | -1 | +14.6% | -1.0% | $2.9M | 9.16 | 9.14 | 9.59 | +4.7% | +4.9% | +1.9% | -3.0% | 6 |
-| 2026-10-21 | WH | 8k_spin_off | +0 | +5.4% | +1.3% | $88.0M | 78.36 | 79.32 | 74.00 | -5.6% | -6.7% | +1.9% |  | 6 |
-| 2026-10-21 | XFLT | tender_issuer_buyback | +1 | -9.6% | -0.1% | $2.0M | 17.03 | 16.87 | 16.16 | -5.1% | -4.2% | +1.9% | -6.1% | 6 |
-| 2026-10-21 | XPOF | activist_13d | +0 | -8.9% | -2.3% | $4.1M | 4.29 | 4.29 | 4.11 | -4.2% | -4.2% | +1.9% |  | 6 |
-| 2026-10-21 | XRPN | supply_warrants | +0 | -9.9% | +6.1% | $51.7M | 15.75 | 15.28 | 15.29 | -2.9% | +0.1% | +1.9% |  | 6 |
-| 2026-10-21 | ZDGE | 8k_spin_off | +0 | -3.5% | +0.7% | $155k | 2.78 | 2.76 | 2.58 | -7.4% | -6.7% | +1.9% |  | 6 |
-| 2026-10-22 | AACG | activist_13d | +1 | -2.9% | +1.5% | $20k ⚠ | 0.68 | 0.73 | 0.69 | +1.5% | -5.5% | +1.9% | -7.4% | 4 |
-| 2026-10-22 | AIRE | share_registration | -1 | +3.0% | -21.6% | $42k ⚠ | 0.80 | 0.84 | 0.75 | -5.8% | -10.3% | +1.9% | +12.2% | 5 |
-| 2026-10-22 | AMCI | share_registration | -1 | -14.7% | -9.8% | $109k ⚠ | 1.94 | 1.90 | 2.13 | +9.8% | +12.1% | +1.9% | -10.2% | 5 |
-| 2026-10-22 | AUUD | 8k_merger_agreement | +0 | -9.4% | -2.2% | $274k | 0.93 | 0.95 | 0.84 | -10.1% | -12.4% | +1.9% |  | 5 |
-| 2026-10-22 | AZTR | 8k_reverse_split | -1 | +0.0% | +0.0% | $72k ⚠ | 0.72 | 0.72 | 0.87 | +21.2% | +21.2% | +1.9% | -19.3% | 5 |
-| 2026-10-22 | BBCI | activist_13d | +1 | -17.4% | -6.0% | $5.8M | 2.05 | 2.02 | 1.95 | -4.9% | -3.5% | +1.9% | -5.3% | 5 |
-| 2026-10-22 | BCML | 8k_special_dividend | +0 | +1.9% | +2.5% | $2.0M | 31.90 | 29.00 | 30.20 | -5.3% | +4.1% | +1.9% |  | 5 |
-| 2026-10-22 | BX | 8k_lock_up | +0 | +3.2% | +8.4% | $663.6M | 118.75 | 116.85 | 116.56 | -1.8% | -0.2% | +1.9% |  | 5 |
-| 2026-10-22 | BZAI | 8k_reverse_split | -1 | -1.6% | +2.5% | $877k | 0.25 | 0.25 | 0.21 | -15.3% | -16.6% | +1.9% | +18.5% | 5 |
-| 2026-10-22 | CABR | 8k_reverse_split | -1 | -15.4% | -4.5% | $33k ⚠ | 1.05 | 1.01 | 1.09 | +3.8% | +7.9% | +1.9% | -6.0% | 4 |
-| 2026-10-22 | CDLR | tender_third_party | +0 | +16.6% | +0.5% | $2.1M | 24.96 | 24.78 | 25.18 | +0.9% | +1.6% | +1.9% |  | 5 |
-| 2026-10-22 | CITR | ipo_priced | +0 | +0.8% | +0.4% | $178k | 2.65 | 2.55 | 2.61 | -1.5% | +2.4% | +1.9% |  | 5 |
-| 2026-10-22 | CITR | 8k_lock_up | +0 | +0.8% | +0.4% | $178k | 2.65 | 2.55 | 2.61 | -1.5% | +2.4% | +1.9% |  | 5 |
-| 2026-10-22 | CMCSA | 8k_spin_off | +0 | +4.9% | +3.4% | $681.7M | 22.84 | 22.47 | 21.55 | -5.7% | -4.1% | +1.9% |  | 5 |
-| 2026-10-22 | CNOB | 8k_strategic_review | +1 | +3.4% | +6.3% | $10.7M | 32.82 | 32.47 | 32.30 | -1.6% | -0.5% | +1.9% | -2.4% | 5 |
-| 2026-10-22 | CPAC | going_private | +0 | +2.9% | +0.9% | $264k | 12.77 | 12.78 | 12.79 | +0.2% | +0.1% | +1.9% |  | 5 |
-| 2026-10-22 | DAIO | 8k_reverse_split | -1 | -5.8% | -3.9% | $84k ⚠ | 2.49 | 2.40 | 2.54 | +2.0% | +5.8% | +1.9% | -4.0% | 5 |
-| 2026-10-22 | DFH | 8k_merger_agreement | +0 | +21.6% | +12.2% | $15.7M | 10.12 | 9.95 | 9.92 | -2.0% | -0.3% | +1.9% |  | 5 |
-| 2026-10-22 | EIIA | tender_issuer_buyback | +1 | +0.3% | +0.3% | $145k ⚠ | 25.03 | 24.81 | 24.78 | -1.0% | -0.1% | +1.9% | -2.0% | 5 |
-| 2026-10-22 | FLSC | 8k_tender_offer | +0 | +0.1% | -0.3% | $2.4M | 10.27 | 10.30 | 10.23 | -0.4% | -0.7% | +1.9% |  | 4 |
-| 2026-10-22 | FMAO | 8k_special_dividend | +0 | +1.5% | +2.0% | $1.8M | 35.89 | 36.00 | 35.83 | -0.2% | -0.5% | +1.9% |  | 5 |
-| 2026-10-22 | GCTK | 8k_reverse_split | -1 | -28.0% | -6.3% | $531k | 1.20 | 1.18 | 2.01 | +67.4% | +69.9% | +1.9% | -68.0% | 5 |
-| 2026-10-22 | GTBP | setup_supply_resale | +0 | -12.9% | +2.0% | $311k | 5.52 | 5.58 | 5.47 | -1.0% | -2.1% | +1.9% |  | 5 |
-| 2026-10-22 | GUTS | 8k_strategic_review | +1 | -71.8% | -1.7% | $2.1M | 1.13 | 1.15 | 0.88 | -22.1% | -23.5% | +1.9% | -25.4% | 5 |
-| 2026-10-22 | HON | 8k_spin_off | +0 | +3.4% | +1.7% | $507.4M | 218.31 | 215.87 | 217.70 | -0.3% | +0.8% | +1.9% |  | 5 |
-| 2026-10-22 | INVE | tender_issuer_buyback | +0 | +20.9% | -1.8% | $2.6M | 2.73 | 2.71 | 2.69 | -1.5% | -0.7% | +1.9% |  | 5 |
-| 2026-10-22 | IRON | 8k_tender_offer | +0 | +36.3% | -1.3% | $99.0M | 75.03 | 74.29 | 82.03 | +9.3% | +10.4% | +1.9% |  | 5 |
-| 2026-10-22 | KFII | 8k_spin_off | +0 | +0.1% | +0.0% | $1.3M | 10.72 | 10.73 | 10.73 | +0.1% | +0.0% | +1.9% |  | 4 |
-| 2026-10-22 | LNTH | 8k_merger_agreement | +0 | +0.2% | -0.1% | $110.7M | 100.10 | 99.97 | 100.09 | -0.0% | +0.1% | +1.9% |  | 5 |
-| 2026-10-22 | LUCD | 8k_reverse_split | -1 | -38.7% | -1.5% | $2.1M | 0.33 | 0.43 | 0.39 | +18.1% | -10.7% | +1.9% | +12.6% | 5 |
-| 2026-10-22 | MAT | activist_13d | +1 | +1.8% | -0.1% | $154.2M | 16.94 | 16.72 | 15.39 | -9.2% | -8.0% | +1.9% | -9.8% | 5 |
-| 2026-10-22 | MKTX | 8k_merger_agreement | +0 | -0.1% | +0.2% | $132.1M | 164.66 | 164.61 | 164.91 | +0.1% | +0.2% | +1.9% |  | 5 |
-| 2026-10-22 | NGTF | 8k_reverse_split | -1 | -9.0% | +9.7% | $44k ⚠ | 3.16 | 3.15 | 4.06 | +28.5% | +28.9% | +1.9% | -27.0% | 4 |
-| 2026-10-22 | NRIM | 8k_merger_agreement | +0 | -1.9% | +2.3% | $3.2M | 24.20 | 23.96 | 23.83 | -1.5% | -0.5% | +1.9% |  | 5 |
-| 2026-10-22 | NTWO | 8k_merger_agreement | +0 | +0.1% | +0.1% | $3.7M | 10.84 | 10.82 | 10.82 | -0.2% | +0.0% | +1.9% |  | 5 |
-| 2026-10-22 | PARA | 8k_reverse_split | -1 | -5.9% | -7.8% | $260k | 0.47 | 0.47 | 3.45 | +634.0% | +632.5% | +1.9% | -630.6% | 5 |
-| 2026-10-22 | PCG | 8k_strategic_review | +1 | +0.0% | -1.3% | $446.0M | 12.98 | 12.93 | 13.12 | +1.1% | +1.5% | +1.9% | -0.4% | 5 |
-| 2026-10-22 | PHXE-P | share_registration | -1 | -1.4% | +0.6% | $240k | 25.39 | 25.50 | 25.52 | +0.5% | +0.1% | +1.9% | +1.8% | 5 |
-| 2026-10-22 | PRIF-PD | tender_issuer_buyback | +1 | +1.1% | +0.2% | $92k ⚠ | 25.00 | 25.00 | 24.98 | -0.1% | -0.1% | +1.9% | -2.0% | 4 |
-| 2026-10-22 | QIND | 8k_lock_up | +0 | -44.2% | -1.5% | $0k ⚠ | 0.00 | 0.00 | 0.00 | +23.6% | +10.3% | +1.9% |  | 4 |
-| 2026-10-22 | SABS | delisting | +0 | +13.3% | +7.8% | $2.3M | 3.04 | 2.98 | 3.11 | +2.3% | +4.4% | +1.9% |  | 5 |
-| 2026-10-22 | SWBI | setup_supply_overhang | +0 | +6.5% | -5.0% | $6.7M | 14.35 | 14.30 | 13.71 | -4.5% | -4.1% | +1.9% |  | 5 |
-| 2026-10-22 | TENX | holder_buying | +0 | +6.2% | +8.0% | $4.1M | 1.76 | 1.76 | 1.82 | +3.1% | +3.1% | +1.9% |  | 5 |
-| 2026-10-22 | VBIO | 8k_strategic_review | +1 | -22.8% | -14.6% | $8.7M | 0.96 | 0.91 | 0.75 | -21.6% | -17.6% | +1.9% | -19.5% | 5 |
-| 2026-10-22 | VLO | 8k_strategic_review | +1 | -5.0% | -2.4% | $1073.5M | 426.28 | 428.98 | 387.43 | -9.1% | -9.7% | +1.9% | -11.6% | 5 |
-| 2026-10-22 | VRA | insider_buy | +0 | +7.8% | +0.8% | $2.6M | 6.12 | 6.10 | 6.16 | +0.7% | +1.0% | +1.9% |  | 5 |
-| 2026-10-22 | VREX | 8k_merger_agreement | +0 | +0.2% | -0.1% | $9.6M | 18.41 | 18.41 | 18.45 | +0.2% | +0.2% | +1.9% |  | 5 |
-| 2026-10-22 | WAFD | merger_vote | +0 | -1.9% | +3.8% | $34.5M | 29.44 | 29.20 | 29.10 | -1.1% | -0.3% | +1.9% |  | 5 |
-| 2026-10-22 | WEAV | 8k_merger_agreement | +0 | +0.0% | +0.0% | $13.2M | 7.39 | 7.40 | 7.40 | +0.1% | +0.0% | +1.9% |  | 0 |
-| 2026-10-23 | ABEO | activist_13d | +1 | -3.9% | -1.6% | $5.7M | 4.40 | 4.39 | 4.55 | +3.4% | +3.6% | +1.4% | +2.2% | 2 |
-| 2026-10-23 | AEHL | setup_supply_atm | +0 | -24.3% | +2.4% | $11.0M | 8.86 | 8.86 | 7.39 | -16.6% | -16.6% | +1.4% |  | 2 |
-| 2026-10-23 | AGMB | insider_cluster | +0 | +11.2% | -2.3% | $1.2M | 9.05 | 9.10 | 8.05 | -11.1% | -11.5% | +1.4% |  | 2 |
-| 2026-10-23 | AKBA | 8k_reverse_split | -1 | -19.3% | +0.9% | $6.3M | 0.57 | 0.59 | 0.69 | +21.7% | +17.3% | +1.4% | -15.9% | 2 |
-| 2026-10-23 | AMSS | 8k_spin_off | +0 | -8.3% | +0.0% | $150k | 0.33 | 0.33 | 0.31 | -6.1% | -6.1% | +1.4% |  | 2 |
-| 2026-10-23 | ARXS | registration_effective | -1 | -7.7% | +4.1% | $58.7M | 51.72 | 51.92 | 53.46 | +3.4% | +3.0% | +1.4% | -1.6% | 2 |
-| 2026-10-23 | BACC | merger_vote | +0 | +0.1% | +0.2% | $3.8M | 10.46 | 10.47 | 10.47 | +0.1% | -0.1% | +1.4% |  | 2 |
-| 2026-10-23 | BBCI | activist_13d | +1 | -35.1% | -16.6% | $5.3M | 1.71 | 1.86 | 1.95 | +14.0% | +4.8% | +1.4% | +3.5% | 2 |
-| 2026-10-23 | BOLT | 8k_reverse_split | -1 | -1.2% | +49.6% | $4.1M | 6.27 | 6.66 | 6.60 | +5.3% | -0.9% | +1.4% | +2.3% | 2 |
-| 2026-10-23 | BURU | registration_effective | -1 | -58.2% | -42.4% | $3.2M | 0.24 | 0.23 | 0.18 | -22.7% | -21.4% | +1.4% | +22.8% | 2 |
-| 2026-10-23 | DFNS | registration_effective | -1 | -17.8% | -18.6% | $3.2M | 4.11 | 4.16 | 3.81 | -7.4% | -8.5% | +1.4% | +9.9% | 2 |
-| 2026-10-23 | DOLE | activist_13d | +0 | +0.8% | -0.6% | $11.6M | 13.44 | 13.38 | 13.24 | -1.5% | -1.1% | +1.4% |  | 2 |
-| 2026-10-23 | EZET | registration_effective | -1 | -2.6% | +0.2% | $596k | 18.10 | 17.49 | 17.66 | -2.4% | +1.0% | +1.4% | +0.4% | 2 |
-| 2026-10-23 | FLG | 8k_reverse_split | -1 | +1.7% | -9.3% | $79.7M | 10.38 | 10.41 | 10.02 | -3.5% | -3.8% | +1.4% | +5.2% | 2 |
-| 2026-10-23 | GOAI | registration_effective | -1 | -8.9% | -11.1% | $92k ⚠ | 1.36 | 1.32 | 0.96 | -29.4% | -27.3% | +1.4% | +28.7% | 2 |
-| 2026-10-23 | HLSQ | 8k_reverse_split | -1 | +9.2% | -4.0% | $479k | 0.26 | 0.27 | 0.18 | -32.2% | -34.0% | +1.4% | +35.4% | 2 |
-| 2026-10-23 | HODO | 8k_reverse_split | -1 | +0.0% | -4.4% | $3.7M | 0.06 | 0.07 | 0.05 | -26.0% | -27.1% | +1.4% | +28.5% | 2 |
-| 2026-10-23 | JSPR | tender_issuer_buyback | +1 | -6.8% | +2.8% | $205k | 0.51 | 0.51 | 0.55 | +7.5% | +7.5% | +1.4% | +6.1% | 2 |
-| 2026-10-23 | LYCA | registration_effective | -1 |  |  | $68.5M | 30.00 | 23.73 | 24.91 | -17.0% | +5.0% | +1.4% | -3.6% | 2 |
-| 2026-10-23 | LYCA | ipo_priced | +0 |  |  | $68.5M | 30.00 | 23.73 | 24.91 | -17.0% | +5.0% | +1.4% |  | 2 |
-| 2026-10-23 | MKTX | 8k_strategic_review | +1 | +0.1% | +0.0% | $130.1M | 164.67 | 164.67 | 164.91 | +0.1% | +0.1% | +1.4% | -1.2% | 2 |
-| 2026-10-23 | NG | 8k_lock_up | +0 | -4.9% | -3.7% | $28.2M | 6.01 | 6.05 | 6.09 | +1.4% | +0.7% | +1.4% |  | 2 |
-| 2026-10-23 | NUWE | 8k_reverse_split | -1 | -10.9% | -34.7% | $101k ⚠ | 0.32 | 4.60 | 5.19 | +1522.8% | +12.9% | -0.1% | -13.0% | 0 |
-| 2026-10-23 | ONFO | share_registration | -1 | -18.1% | -3.1% | $497k | 0.50 | 0.51 | 0.47 | -7.2% | -8.3% | +1.4% | +9.7% | 2 |
-| 2026-10-23 | PAL | 8k_lock_up | +0 | -13.9% | -0.4% | $2.1M | 2.71 | 2.78 | 2.42 | -10.7% | -12.9% | +1.4% |  | 2 |
-| 2026-10-23 | PINE | 8k_strategic_review | +1 | -2.6% | -7.2% | $3.2M | 16.16 | 16.13 | 16.38 | +1.4% | +1.6% | +1.4% | +0.2% | 2 |
-| 2026-10-23 | PMI | 8k_reverse_split | -1 | -26.3% | -3.8% | $6.3M | 7.09 | 7.14 | 6.84 | -3.5% | -4.2% | +1.4% | +5.6% | 2 |
-| 2026-10-23 | PULM | registration_effective | -1 | +0.7% | +4.2% | $34k ⚠ | 1.48 | 1.45 | 1.43 | -3.4% | -1.4% | +1.4% | +2.8% | 2 |
-| 2026-10-23 | RCAT | 8k_tender_offer | +0 | -10.8% | +1.4% | $35.2M | 4.43 | 4.41 | 4.76 | +7.5% | +7.9% | +1.4% |  | 2 |
-| 2026-10-23 | RCUS | 8k_tender_offer | +0 | -15.2% | -4.2% | $52.7M | 18.54 | 18.37 | 18.13 | -2.2% | -1.3% | +1.4% |  | 2 |
-| 2026-10-23 | SPGI | 8k_spin_off | +0 | +6.7% | -0.6% | $821.3M | 450.31 | 447.54 | 447.79 | -0.6% | +0.1% | +1.4% |  | 2 |
-| 2026-10-23 | TMCR | registration_effective | -1 | -3.5% | -3.6% | $503k | 2.12 | 2.15 | 2.14 | +0.9% | -0.5% | +1.4% | +1.9% | 2 |
-| 2026-10-23 | TNON | setup_supply_atm | +0 | -23.0% | -1.8% | $12.9M | 2.20 | 2.20 | 2.19 | -0.5% | -0.5% | +1.4% |  | 2 |
-| 2026-10-23 | TRAW | 8k_reverse_split | -1 | -7.5% | -8.1% | $88k ⚠ | 0.34 | 0.37 | 0.36 | +5.0% | -3.5% | +1.4% | +4.9% | 2 |
-| 2026-10-23 | VREX | merger_arb | +0 | -0.3% | +0.1% | $9.4M | 18.42 | 18.41 | 18.45 | +0.2% | +0.2% | +1.4% |  | 2 |
-| 2026-10-23 | WS | 8k_tender_offer | +0 | +3.0% | +0.9% | $19.8M | 40.85 | 41.19 | 42.31 | +3.6% | +2.7% | +1.4% |  | 2 |
-| 2026-10-23 | XRPN | share_registration | -1 | -3.8% | -2.6% | $52.1M | 15.06 | 14.55 | 15.29 | +1.6% | +5.1% | +1.4% | -3.7% | 2 |
-| 2026-10-23 | ZVIA | 8k_reverse_split | -1 | +1.7% | +4.9% | $341k | 1.28 | 1.30 | 1.20 | -6.2% | -7.6% | +1.4% | +9.0% | 2 |
-| 2026-10-26 | AASP | 8k_tender_offer | +0 | -4.8% | +4.0% | $13k ⚠ | 5.20 | 5.20 | 5.20 | +0.0% | +0.0% | +0.7% |  | 0 |
-| 2026-10-26 | ABEO | activist_13d | +0 | -0.7% | -2.0% | $5.5M | 4.31 | 4.33 | 4.55 | +5.6% | +5.1% | +0.7% |  | 1 |
-| 2026-10-26 | ADGM | 8k_reverse_split | -1 | +4.0% | -5.8% | $342k | 0.10 | 0.10 | 0.10 | +2.4% | +1.3% | +0.7% | -0.6% | 1 |
-| 2026-10-26 | ALDS | activist_13d | +1 | +38.6% | -67.2% | $1k ⚠ | 0.05 | 0.05 | 0.05 | -10.0% | -10.0% | +0.7% | -10.7% | 0 |
-| 2026-10-26 | AMAN | 8k_reverse_split | -1 | -0.7% | -0.2% | $231k | 10.20 | 10.19 | 10.18 | -0.2% | -0.1% | +0.7% | +0.8% | 1 |
-| 2026-10-26 | AQB | registration_effective | -1 | +0.0% | +3.6% | $66k ⚠ | 1.15 | 1.15 | 1.15 | +0.0% | +0.0% | +0.7% | +0.7% | 1 |
-| 2026-10-26 | AZUL | activist_13d | +1 | -8.2% | -32.6% | $1.1M | 4.05 | 4.25 | 3.77 | -7.0% | -11.4% | +0.7% | -12.2% | 1 |
-| 2026-10-26 | BHR | 8k_spin_off | +0 | -1.4% | -1.4% | $1.1M | 1.39 | 1.40 | 1.30 | -6.1% | -6.8% | +0.7% |  | 1 |
-| 2026-10-26 | BMRC | 8k_special_dividend | +0 | +2.7% | +2.5% | $3.3M | 27.80 | 28.02 | 28.67 | +3.1% | +2.3% | +0.7% |  | 1 |
-| 2026-10-26 | BOF | 8k_lock_up | +0 | -7.8% | -13.9% | $285k | 1.74 | 1.69 | 1.76 | +1.4% | +4.4% | +0.7% |  | 1 |
-| 2026-10-26 | BORR | event_incident | +0 | -3.1% | -10.0% | $44.2M | 3.96 | 3.96 | 4.28 | +8.1% | +8.1% | +0.7% |  | 1 |
-| 2026-10-26 | BSRR | 8k_special_dividend | +0 | +5.4% | +1.3% | $2.5M | 42.30 | 42.78 | 42.33 | +0.1% | -1.1% | +0.7% |  | 1 |
-| 2026-10-26 | BTCS | tender_issuer_buyback | +1 | -4.4% | -1.9% | $1.3M | 1.06 | 1.08 | 1.09 | +2.8% | +0.9% | +0.7% | +0.2% | 1 |
-| 2026-10-26 | CPSH | activist_13d | +1 | +0.0% | -0.3% | $908k | 3.50 | 3.51 | 3.64 | +4.0% | +3.7% | +0.7% | +3.0% | 1 |
-| 2026-10-26 | CTY | activist_13d | +1 | -7.3% | +0.1% | $9.9M | 20.79 | 20.79 | 21.30 | +2.5% | +2.5% | +0.7% | +1.7% | 1 |
-| 2026-10-26 | DFNS | setup_supply_eloc | +0 | -14.7% | -5.8% | $3.2M | 3.87 | 3.91 | 3.81 | -1.7% | -2.7% | +0.7% |  | 1 |
-| 2026-10-26 | ELME | delisting | +0 | +0.6% | -97.7% | $2.6M | 0.04 | 0.04 | 0.05 | +25.0% | +25.0% | +0.7% |  | 0 |
-| 2026-10-26 | EQT | 8k_merger_agreement | +0 | +2.4% | -1.4% | $421.8M | 54.85 | 54.89 | 55.65 | +1.5% | +1.4% | +0.7% |  | 1 |
-| 2026-10-26 | FFAI | 8k_lock_up | +0 | -22.8% | -10.2% | $5.9M | 0.56 | 0.56 | 0.47 | -16.5% | -16.2% | +0.7% |  | 1 |
-| 2026-10-26 | FFR | 8k_reverse_split | -1 | -2.6% | -5.3% | $3.9M | 1.07 | 1.09 | 1.14 | +6.5% | +4.6% | +0.7% | -3.9% | 1 |
-| 2026-10-26 | FLD | 8k_reverse_split | -1 | +0.8% | -0.8% | $49k ⚠ | 0.51 | 0.51 | 0.51 | +0.6% | +0.0% | +0.7% | +0.7% | 1 |
-| 2026-10-26 | GRML | share_registration | -1 | -3.7% | +0.2% | $31.9M | 5.79 | 5.70 | 5.47 | -5.6% | -4.1% | +0.7% | +4.8% | 1 |
-| 2026-10-26 | HEPA | activist_13d | +1 | +34.6% | -6.4% | $3k ⚠ | 0.13 | 0.13 | 0.12 | -8.4% | -8.4% | +0.7% | -9.1% | 1 |
-| 2026-10-26 | MCFT | registration_effective | -1 | +0.3% | -0.9% | $3.1M | 19.52 | 19.80 | 20.04 | +2.7% | +1.2% | +0.7% | -0.5% | 1 |
-| 2026-10-26 | MEDS | 8k_tender_offer | +0 | -15.2% | -1.8% | $14.8M | 2.19 | 2.06 | 2.25 | +2.7% | +9.2% | +0.7% |  | 1 |
-| 2026-10-26 | NATH | delisting | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +0.7% |  | 0 |
-| 2026-10-26 | NATH | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +0.7% |  | 0 |
-| 2026-10-26 | NCT | setup_supply_registered_direct | +0 | -6.7% | +17.5% | $1.3M | 1.48 | 1.55 | 1.57 | +6.1% | +1.3% | +0.7% |  | 1 |
-| 2026-10-26 | NNBR | registration_effective | -1 | -3.2% | +1.8% | $11.8M | 3.36 | 3.41 | 3.71 | +10.6% | +8.9% | +0.7% | -8.2% | 1 |
-| 2026-10-26 | OBAI | registration_effective | -1 | -26.8% | -11.2% | $215k | 1.82 | 1.85 | 2.14 | +17.5% | +15.6% | +0.7% | -14.8% | 1 |
-| 2026-10-26 | ONCO | 8k_reverse_split | -1 | -12.7% | -4.5% | $2.1M | 0.40 | 0.35 | 0.55 | +37.8% | +57.1% | +0.7% | -56.4% | 1 |
-| 2026-10-26 | OSTX | setup_supply_warrants | +0 | -5.3% | -3.2% | $1.0M | 1.21 | 1.22 | 1.24 | +2.5% | +1.6% | +0.7% |  | 1 |
-| 2026-10-26 | OVV | 8k_strategic_review | +1 | +4.2% | +0.4% | $210.2M | 72.55 | 72.48 | 72.17 | -0.5% | -0.4% | +0.7% | -1.2% | 1 |
-| 2026-10-26 | PCSA | registration_effective | -1 | +7.1% | -0.8% | $307k | 1.79 | 1.76 | 1.85 | +3.1% | +5.1% | +0.7% | -4.4% | 1 |
-| 2026-10-26 | PMI | setup_supply_resale | +0 | -44.4% | -9.3% | $6.3M | 6.43 | 6.69 | 6.84 | +6.4% | +2.2% | +0.7% |  | 1 |
-| 2026-10-26 | PRK | 8k_special_dividend | +0 | +2.4% | +0.2% | $14.5M | 183.32 | 186.07 | 177.50 | -3.2% | -4.6% | +0.7% |  | 1 |
-| 2026-10-26 | PRSO | 8k_strategic_review | +1 | +5.6% | +7.9% | $7.4M | 0.41 | 0.42 | 0.43 | +4.9% | +2.4% | +0.7% | +1.7% | 1 |
-| 2026-10-26 | RAPP | insider_cluster | +0 | -5.9% | -2.3% | $27.0M | 25.33 | 25.11 | 22.83 | -9.9% | -9.1% | +0.7% |  | 1 |
-| 2026-10-26 | RDNT | 8k_merger_agreement | +0 | +2.2% | -0.4% | $33.4M | 70.05 | 70.53 | 74.46 | +6.3% | +5.6% | +0.7% |  | 1 |
-| 2026-10-26 | RENT | holder_13d_not_activism | +0 | +30.7% | +22.6% | $4.7M | 2.82 | 2.89 | 2.65 | -6.0% | -8.3% | +0.7% |  | 1 |
-| 2026-10-26 | RLYB | 8k_merger_agreement | +0 | +2.2% | +0.1% | $220k | 16.65 | 16.46 | 15.91 | -4.4% | -3.3% | +0.7% |  | 1 |
-| 2026-10-26 | RRC | 8k_merger_agreement | +0 | +5.3% | +17.7% | $175.3M | 53.56 | 53.67 | 54.97 | +2.6% | +2.4% | +0.7% |  | 1 |
-| 2026-10-26 | SAMG | holder_buying | +0 | -4.7% | +3.1% | $908k | 10.43 | 10.38 | 10.35 | -0.8% | -0.3% | +0.7% |  | 1 |
-| 2026-10-26 | SGRY | 8k_merger_agreement | +0 | +7.8% | +47.6% | $93.4M | 23.25 | 23.20 | 23.35 | +0.4% | +0.7% | +0.7% |  | 1 |
-| 2026-10-26 | SHFS | 8k_reverse_split | -1 | -8.3% | -28.8% | $24.8M | 0.09 | 0.09 | 0.09 | -3.5% | +5.5% | +0.7% | -4.7% | 1 |
-| 2026-10-26 | SKYE | merger_vote | +0 | -0.6% | +1.9% | $45k ⚠ | 1.57 | 1.58 | 1.50 | -4.5% | -5.1% | +0.7% |  | 1 |
-| 2026-10-26 | SNES | activist_13d | +1 | +29.8% | +1.0% | $2.2M | 0.85 | 0.85 | 0.98 | +15.1% | +15.1% | +0.7% | +14.3% | 1 |
-| 2026-10-26 | SNTI | 8k_merger_agreement | +0 | -16.4% | -6.9% | $970k | 0.17 | 0.17 | 0.22 | +23.6% | +28.8% | +0.7% |  | 1 |
-| 2026-10-26 | SUPN | 8k_merger_agreement | +0 | +7.4% | +0.2% | $38.4M | 40.77 | 40.57 | 40.37 | -1.0% | -0.5% | +0.7% |  | 1 |
-| 2026-10-26 | TANAF | registration_effective | -1 | -53.4% | +18.5% | $1k ⚠ | 0.16 | 0.10 | 0.10 | -37.2% | +0.0% | +0.7% | +0.7% | 0 |
-| 2026-10-26 | TMCR | setup_supply_eloc | +0 | +3.9% | -0.9% | $335k | 2.10 | 2.10 | 2.14 | +1.9% | +1.9% | +0.7% |  | 1 |
-| 2026-10-26 | TRAW | share_registration | -1 | -8.1% | +0.0% | $84k ⚠ | 0.34 | 0.34 | 0.36 | +5.0% | +5.0% | +0.7% | -4.3% | 1 |
-| 2026-10-26 | TRAX | share_registration | -1 | +27.8% | -1.3% | $43.2M | 43.48 | 43.33 | 45.49 | +4.6% | +5.0% | +0.7% | -4.2% | 1 |
-| 2026-10-26 | VBIO | 8k_strategic_review | +1 | -19.7% | -10.6% | $9.3M | 0.84 | 0.75 | 0.75 | -10.7% | -0.3% | +0.7% | -1.0% | 1 |
-| 2026-10-26 | WHK | registration_effective | -1 | -1.6% | +2.0% | $5.4M | 26.05 | 26.11 | 26.99 | +3.6% | +3.4% | +0.7% | -2.6% | 1 |
-| 2026-10-26 | WHLR | 8k_reverse_split | -1 | -5.8% | -4.5% | $4.3M | 0.34 | 0.32 | 0.26 | -24.6% | -19.7% | +0.7% | +20.4% | 1 |
-| 2026-10-26 | XRPN | setup_supply_resale | +0 | -2.5% | -0.4% | $52.2M | 15.00 | 14.99 | 15.29 | +2.0% | +2.0% | +0.7% |  | 1 |
-| 2026-10-27 | AZUL | holder_13d_not_activism | +0 | -37.5% | -14.6% | $1.3M | 3.46 | 3.47 | 3.77 | +8.8% | +8.5% | -0.1% |  | 0 |
-| 2026-10-27 | CPSH | activist_13d | +0 | +0.9% | +3.7% | $900k | 3.63 | 3.62 | 3.64 | +0.3% | +0.6% | -0.1% |  | 0 |
-| 2026-10-27 | IMSR | buyback | +0 | +3.2% | +11.9% | $5.5M | 3.29 | 2.96 | 3.04 | -7.6% | +2.7% | -0.1% |  | 0 |
-| 2026-10-27 | LEO | holder_buying | +0 | +3.0% | +1.4% | $1.8M | 5.92 | 5.92 | 5.89 | -0.5% | -0.5% | -0.1% |  | 0 |
-| 2026-10-27 | MEDS | setup_supply_deal_dilution | +0 | -18.0% | -5.9% | $14.6M | 2.06 | 2.02 | 2.25 | +9.2% | +11.4% | -0.1% |  | 0 |
-| 2026-10-27 | MG | merger_arb | +0 | -0.9% | -3.7% | $6.6M | 20.45 | 20.45 | 20.45 | +0.0% | +0.0% | -0.1% |  | 0 |
-| 2026-10-27 | NAUT | setup_supply_atm | +0 | -7.2% | +18.4% | $28.0M | 2.89 | 3.00 | 3.07 | +6.2% | +2.3% | -0.1% |  | 0 |
-| 2026-10-27 | NNBR | setup_supply_resale | +0 | -9.2% | +4.5% | $11.3M | 3.51 | 3.60 | 3.71 | +5.8% | +3.2% | -0.1% |  | 0 |
-| 2026-10-27 | PRTA | holder_buying | +0 | -0.9% | +4.9% | $4.8M | 8.81 | 8.64 | 9.08 | +3.1% | +5.1% | -0.1% |  | 0 |
-| 2026-10-27 | SGRY | merger_arb | +0 | +58.1% | +0.5% | $105.4M | 23.36 | 23.26 | 23.35 | -0.0% | +0.4% | -0.1% |  | 0 |
-| 2026-10-27 | THRM | insider_cluster | +0 | -0.1% | +11.3% | $87.5M | 31.82 | 31.96 | 33.00 | +3.7% | +3.2% | -0.1% |  | 0 |
+| 2026-09-11 | OLN | s1_dod_contract | +1 | -2.0% | -0.6% | $47.2M | 17.20 | 17.46 | 16.41 | -4.6% | -6.0% | -1.0% | -5.0% | 45 |
+| 2026-09-25 | ELMT | s1_dod_contract | +1 | -10.2% | -0.5% | $26.4M | 19.64 | 19.23 | 24.12 | +22.8% | +25.4% | +1.5% | +23.9% | 31 |
+| 2026-09-25 | MTUS | s1_dod_contract | +1 | -2.3% | -0.5% | $6.5M | 18.84 | 19.50 | 21.24 | +12.7% | +8.9% | +1.5% | +7.4% | 31 |
+| 2026-09-28 | ADRX | ipo_priced | +0 |  | +3.8% | $52.9M | 20.09 | 19.90 | 17.96 | -10.6% | -9.8% | +1.5% |  | 30 |
+| 2026-09-28 | AEE | 8k_tender_offer | +0 | -2.8% | +0.0% | $175.3M | 99.39 | 98.77 | 109.24 | +9.9% | +10.6% | +1.5% |  | 30 |
+| 2026-09-28 | BEAG | 8k_tender_offer | +0 | -1.3% | -0.2% | $8.1M | 10.69 | 10.69 | 10.57 | -1.1% | -1.1% | +1.5% |  | 30 |
+| 2026-09-28 | BRX | 8k_tender_offer | +0 | +0.1% | -0.2% | $97.3M | 28.00 | 27.85 | 28.71 | +2.5% | +3.1% | +1.5% |  | 30 |
+| 2026-09-28 | CHDN | idea_catalyst | +1 | -2.6% | -5.1% | $92.0M | 75.72 | 76.00 | 88.25 | +16.6% | +16.1% | +1.5% | +14.6% | 30 |
+| 2026-09-28 | CHDN | 8k_strategic_review | +1 | -2.6% | -5.1% | $92.0M | 75.72 | 76.00 | 88.25 | +16.6% | +16.1% | +1.5% | +14.6% | 30 |
+| 2026-09-28 | CITR | share_registration | -1 | -17.2% | -12.0% | $218k ⚠ | 3.80 | 3.78 | 2.69 | -29.2% | -28.8% | +1.5% | +30.4% | 30 |
+| 2026-09-28 | CRTD | registration_effective | -1 | +18.5% | +7.1% | $7k ⚠ | 4.25 | 4.25 | 5.65 | +32.9% | +32.9% | +1.5% | -31.4% | 29 |
+| 2026-09-28 | ENRD | registration_effective | -1 | +5.3% | -6.5% | $932k | 3.87 | 3.84 | 2.25 | -41.9% | -41.4% | +1.5% | +42.9% | 30 |
+| 2026-09-28 | EP | registration_effective | -1 | -13.2% | -0.5% | $97k ⚠ | 2.10 | 2.08 | 2.89 | +37.6% | +39.0% | +1.5% | -37.5% | 30 |
+| 2026-09-28 | FFAI | 8k_reverse_split | -1 | -8.5% | -12.4% | $4.9M | 1.41 | 1.53 | 0.47 | -66.6% | -69.2% | +1.5% | +70.8% | 30 |
+| 2026-09-28 | FNWD | merger_vote | +0 | +1.6% | -1.8% | $565k | 42.45 | 42.46 | 44.25 | +4.2% | +4.2% | +1.5% |  | 30 |
+| 2026-09-28 | GMTL | registration_effective | -1 | -3.9% | -9.2% | $1.9M | 9.16 | 9.27 | 5.19 | -43.3% | -44.0% | +1.5% | +45.5% | 30 |
+| 2026-09-28 | GOSS | 8k_reverse_split | -1 | +2.0% | +5.3% | $3.0M | 11.52 | 11.68 | 10.99 | -4.6% | -5.9% | +1.5% | +7.4% | 30 |
+| 2026-09-28 | GRNQ | 8k_reverse_split | -1 | +5.7% | -8.3% | $2.1M | 9.67 | 9.68 | 7.08 | -26.8% | -26.9% | +1.5% | +28.4% | 29 |
+| 2026-09-28 | HAIN | 8k_reverse_split | -1 | -10.7% | -2.0% | $1.8M | 0.49 | 0.52 | 0.13 | -74.2% | -75.7% | +1.5% | +77.2% | 30 |
+| 2026-09-28 | HMH | share_registration | -1 | +1.6% | +0.6% | $3.7M | 19.28 | 18.87 | 18.99 | -1.5% | +0.6% | +1.5% | +0.9% | 30 |
+| 2026-09-28 | KNRX | registration_effective | -1 | -3.8% | +304.6% | $17.9M | 1.23 | 0.69 | 0.14 | -88.3% | -79.3% | +1.5% | +80.8% | 30 |
+| 2026-09-28 | LFCR | 8k_reverse_split | -1 | -5.8% | +55.2% | $1.9M | 6.52 | 6.53 | 6.47 | -0.7% | -0.8% | +1.5% | +2.4% | 30 |
+| 2026-09-28 | MATH | registration_effective | -1 | -2.9% | +5.0% | $204k ⚠ | 1.03 | 1.03 | 1.02 | -1.0% | -1.0% | +1.5% | +2.5% | 30 |
+| 2026-09-28 | MGLD | 8k_reverse_split | -1 | +82.1% | +2.1% | $1.8M | 1.97 | 1.96 | 1.97 | -0.2% | +0.3% | +1.5% | +1.3% | 30 |
+| 2026-09-28 | MTNB | 8k_reverse_split | -1 | +0.0% | +5.4% | $146k ⚠ | 2.53 | 2.47 | 1.90 | -24.9% | -23.1% | +1.5% | +24.6% | 30 |
+| 2026-09-28 | NEOV | registration_effective | -1 | -35.8% | +4.1% | $7.1M | 2.28 | 2.29 | 2.30 | +0.9% | +0.4% | +1.5% | +1.1% | 30 |
+| 2026-09-28 | PAAC | 8k_reverse_split | -1 | -0.3% | +0.0% | $203k ⚠ | 10.07 | 10.06 | 10.01 | -0.6% | -0.5% | +1.5% | +2.0% | 29 |
+| 2026-09-28 | PDYN | delisting | +0 | -5.1% | -2.0% | $4.5M | 5.28 | 5.39 | 3.85 | -27.2% | -28.7% | +1.5% |  | 30 |
+| 2026-09-28 | POLA | registration_effective | -1 | +4.8% | -3.8% | $137k ⚠ | 1.26 | 1.28 | 0.65 | -48.4% | -49.2% | +1.5% | +50.8% | 30 |
+| 2026-09-28 | PSKY | 8k_tender_offer | +0 |  | +15.9% | $107.1M | 10.87 | 9.26 | 6.91 | -36.4% | -25.4% | +0.9% |  | 11 |
+| 2026-09-28 | PULM | registration_effective | -1 | +11.8% | -1.2% | $75k ⚠ | 1.59 | 1.59 | 1.50 | -5.7% | -5.7% | +1.5% | +7.2% | 29 |
+| 2026-09-28 | QNRX | registration_effective | -1 | -8.9% | -18.2% | $841k | 5.26 | 5.30 | 4.13 | -21.5% | -22.1% | +1.5% | +23.6% | 30 |
+| 2026-09-28 | RILY | delisting | +0 | -4.5% | -3.9% | $3.3M | 5.49 | 5.08 | 4.33 | -21.1% | -14.8% | +1.5% |  | 30 |
+| 2026-09-28 | RYAM | idea_catalyst | +1 | +2.8% | -4.9% | $6.4M | 8.15 | 8.15 | 6.72 | -17.6% | -17.6% | +1.5% | -19.1% | 30 |
+| 2026-09-28 | RZAI | ipo_priced | +0 |  |  |  ⚠ |  | 27.63 | 9.35 |  | -66.2% | +1.6% |  | 29 |
+| 2026-09-28 | SABR | 8k_tender_offer | +0 | -3.5% | -3.7% | $13.1M | 2.10 | 2.09 | 1.66 | -20.7% | -20.3% | +1.5% |  | 30 |
+| 2026-09-28 | SHFS | 8k_reverse_split | -1 | -3.7% | -30.6% | $169k ⚠ | 1.31 | 1.32 | 0.08 | -94.0% | -94.1% | +1.5% | +95.6% | 30 |
+| 2026-09-28 | SKIN | 8k_reverse_split | -1 | -1.5% | -2.3% | $236k ⚠ | 13.00 | 12.90 | 10.11 | -22.2% | -21.6% | +1.5% | +23.1% | 30 |
+| 2026-09-28 | TDY | 8k_spin_off | +0 | +1.8% | -0.5% | $169.6M | 610.83 | 607.89 | 672.47 | +10.1% | +10.6% | +1.5% |  | 30 |
+| 2026-09-28 | TRAK | registration_effective | -1 | +0.5% | -0.4% | $694k | 8.20 | 7.80 | 7.21 | -12.1% | -7.6% | +1.5% | +9.1% | 30 |
+| 2026-09-28 | TWO-PC | delisting | +0 | +0.2% | +0.0% | $2.7M | 25.39 | 25.39 | 25.39 | +0.0% | +0.0% | +1.5% |  | 0 |
+| 2026-09-28 | VIOT | registration_effective | -1 | +4.7% | +17.8% | $6.3M | 1.59 | 1.61 | 1.39 | -12.6% | -13.7% | +1.5% | +15.2% | 30 |
+| 2026-09-28 | VKTX | 8k_tender_offer | +0 | +22.7% | -7.1% | $260.1M | 33.03 | 33.11 | 27.52 | -16.7% | -16.9% | +1.5% |  | 30 |
+| 2026-09-28 | WHF | idea_catalyst | +1 | -4.5% | -1.0% | $749k | 6.97 | 6.95 | 8.06 | +15.6% | +15.9% | +1.5% | +14.4% | 30 |
+| 2026-09-28 | WPRT | registration_effective | -1 | +4.6% | +1.0% | $112k ⚠ | 2.05 | 2.05 | 1.99 | -2.9% | -2.9% | +1.5% | +4.5% | 29 |
+| 2026-09-28 | XLAB | 8k_lock_up | +0 | -17.1% | -1.2% | $333k | 2.40 | 2.22 | 3.34 | +39.1% | +50.4% | +1.5% |  | 30 |
+| 2026-09-29 | ACVA | tender_third_party | +0 | -0.2% | -0.2% | $150.2M | 10.44 | 10.44 | 10.50 | +0.6% | +0.6% | +1.6% |  | 16 |
+| 2026-09-29 | AIR | 8k_reverse_split | -1 | -1.0% | -7.2% | $62.0M | 106.75 | 107.20 | 104.43 | -2.2% | -2.6% | +1.6% | +4.1% | 29 |
+| 2026-09-29 | AIXC | 8k_lock_up | +0 | +49.5% | -39.2% | $1.8M | 1.01 | 1.31 | 1.16 | +14.8% | -11.4% | +1.6% |  | 16 |
+| 2026-09-29 | BBLG | 8k_reverse_split | -1 | +4.2% | +0.0% | $161k ⚠ | 0.50 | 0.49 | 0.41 | -17.3% | -16.5% | +1.6% | +18.1% | 29 |
+| 2026-09-29 | BRSP | activist_13d | +1 | -2.9% | -0.7% | $7.5M | 4.03 | 3.91 | 3.56 | -11.7% | -8.9% | +1.6% | -10.5% | 29 |
+| 2026-09-29 | BSAA | activist_13d | +1 | +1.3% | +0.0% | $22k ⚠ | 11.30 | 11.30 | 10.69 | -5.4% | -5.4% | +1.6% | -7.0% | 28 |
+| 2026-09-29 | CLNK | registration_effective | -1 | +15.5% | -2.8% | $1.5M | 26.76 | 26.80 | 21.09 | -21.2% | -21.3% | +1.6% | +22.9% | 29 |
+| 2026-09-29 | CNTY | 8k_strategic_review | +1 | -6.3% | +1.9% | $50k ⚠ | 1.07 | 1.07 | 0.72 | -32.7% | -32.7% | +1.6% | -34.2% | 29 |
+| 2026-09-29 | CPRT | tender_third_party | +0 | -5.8% | -0.3% | $311.3M | 27.14 | 27.23 | 29.33 | +8.1% | +7.7% | +1.6% |  | 29 |
+| 2026-09-29 | CRTD | 8k_reverse_split | -1 | +49.1% | +12.9% | $7k ⚠ | 4.80 | 4.65 | 5.65 | +17.7% | +21.5% | +1.6% | -20.0% | 28 |
+| 2026-09-29 | CTVA | idea_spinoff | +0 | -1.7% | +0.2% | $403.9M | 11.68 | 11.69 | 11.44 | +628.2% | +627.8% | +1.6% |  | 29 |
+| 2026-09-29 | DAIC | 8k_lock_up | +0 | -9.4% | -13.5% | $36.9M | 2.82 | 2.89 | 1.20 | -57.6% | -58.6% | +1.6% |  | 29 |
+| 2026-09-29 | DV | merger_vote | +0 | -0.3% | +0.0% | $49.0M | 13.40 | 13.46 | 13.57 | +1.3% | +0.8% | +1.6% |  | 29 |
+| 2026-09-29 | ELAB | activist_13d | +1 | +8.1% | -23.2% | $237k ⚠ | 3.67 | 3.75 | 2.56 | -30.2% | -31.7% | +1.6% | -33.3% | 29 |
+| 2026-09-29 | ELME | 8k_special_dividend | +0 | -2.9% | +1.2% | $1.2M | 1.72 | 1.76 | 0.05 | -97.1% | -97.2% | +1.6% |  | 28 |
+| 2026-09-29 | FEMY | registration_effective | -1 | -5.9% | -12.2% | $195k ⚠ | 2.09 | 2.19 | 1.43 | -31.6% | -34.7% | +1.6% | +36.2% | 29 |
+| 2026-09-29 | FFBC | registration_effective | -1 | +0.6% | -1.5% | $30.2M | 31.45 | 31.52 | 33.06 | +5.1% | +4.9% | +1.6% | -3.3% | 29 |
+| 2026-09-29 | FLD | registration_effective | -1 | -13.6% | +5.9% | $200k ⚠ | 0.54 | 0.54 | 0.51 | -5.5% | -4.6% | +1.6% | +6.2% | 29 |
+| 2026-09-29 | FWAC | 8k_reverse_split | -1 | +0.0% | +0.1% | $660k | 9.95 | 9.95 | 9.95 | +0.0% | +0.0% | +1.6% | +1.6% | 28 |
+| 2026-09-29 | GDEV | tender_issuer_buyback | +1 | -6.6% | +1.5% | $19k ⚠ | 10.86 | 10.31 | 9.29 | -14.5% | -9.9% | +1.6% | -11.4% | 29 |
+| 2026-09-29 | GENK | 8k_reverse_split | -1 | -0.6% | -0.6% | $77k ⚠ | 1.70 | 1.72 | 1.63 | -4.1% | -5.2% | +1.6% | +6.8% | 29 |
+| 2026-09-29 | GOAI | 8k_reverse_split | -1 | +10.9% | -3.1% | $457k | 1.88 | 1.85 | 0.99 | -47.4% | -46.6% | +1.6% | +48.1% | 29 |
+| 2026-09-29 | GWAV | registration_effective | -1 | -7.5% | +5.5% | $212k ⚠ | 2.48 | 2.41 | 2.22 | -10.5% | -7.9% | +1.6% | +9.4% | 28 |
+| 2026-09-29 | HAVA | 8k_tender_offer | +0 | +0.2% | +0.0% | $535k | 10.24 | 10.24 | 10.30 | +0.6% | +0.6% | +1.6% |  | 28 |
+| 2026-09-29 | HMH | idea_overhang | -1 | +3.6% | -7.8% | $3.9M | 17.77 | 17.77 | 18.99 | +6.8% | +6.8% | +1.6% | -5.3% | 29 |
+| 2026-09-29 | IMNN | 8k_spin_off | +0 | -3.5% | -2.9% | $217k ⚠ | 1.34 | 1.28 | 0.84 | -37.1% | -34.2% | +1.6% |  | 29 |
+| 2026-09-29 | JELD | 8k_strategic_review | +1 | +3.5% | +12.4% | $3.3M | 1.99 | 1.99 | 1.39 | -29.9% | -29.9% | +1.6% | -31.4% | 29 |
+| 2026-09-29 | KRKR | registration_effective | -1 | -0.5% | -2.0% | $11k ⚠ | 3.00 | 3.21 | 2.95 | -1.7% | -8.1% | +1.6% | +9.7% | 28 |
+| 2026-09-29 | LABT | 8k_reverse_split | -1 | -43.9% | -13.9% | $3.5M | 0.99 | 0.97 | 0.23 | -77.2% | -76.7% | +1.6% | +78.2% | 29 |
+| 2026-09-29 | LBSR | 8k_reverse_split | -1 | -17.4% | -3.7% | $6k ⚠ | 0.02 | 0.02 | 0.02 | -12.6% | -25.9% | +1.6% | +27.5% | 29 |
+| 2026-09-29 | LIMN | 8k_reverse_split | -1 | +17.3% | -8.4% | $102k ⚠ | 3.91 | 3.81 | 3.04 | -22.2% | -20.2% | +1.6% | +21.8% | 29 |
+| 2026-09-29 | LWLG | 8k_strategic_review | +1 | -8.8% | +3.4% | $14.3M | 5.17 | 5.16 | 4.68 | -9.4% | -9.2% | +1.6% | -10.8% | 29 |
+| 2026-09-29 | MBAI | registration_effective | -1 | -35.3% | -6.7% | $171k ⚠ | 3.75 | 3.58 | 2.51 | -33.1% | -29.8% | +1.6% | +31.3% | 29 |
+| 2026-09-29 | MLSS | registration_effective | -1 | +5.1% | +0.0% | $33k ⚠ | 0.41 | 0.42 | 0.32 | -21.1% | -23.0% | +1.6% | +24.5% | 29 |
+| 2026-09-29 | MNY | activist_13d | +1 | -2.2% | +7.1% | $27k ⚠ | 0.72 | 0.71 | 0.54 | -25.3% | -23.9% | +1.6% | -25.5% | 29 |
+| 2026-09-29 | NIVF | registration_effective | -1 | -52.1% | -79.1% | $850k | 2.30 | 5.34 | 1.12 | -51.4% | -79.0% | +1.6% | +80.6% | 29 |
+| 2026-09-29 | NSAI | activist_13d | +1 | +0.0% | +0.1% | $629k | 9.88 | 9.88 | 9.90 | +0.2% | +0.2% | +1.6% | -1.4% | 28 |
+| 2026-09-29 | ONEN | 8k_lock_up | +0 | -80.2% | +21.9% | $3.0M | 2.62 | 2.46 | 1.52 | -42.1% | -38.3% | +1.6% |  | 29 |
+| 2026-09-29 | ONMD | 8k_reverse_split | -1 | -8.0% | -17.7% | $281k | 5.21 | 5.60 | 4.46 | -14.4% | -20.4% | +1.6% | +21.9% | 28 |
+| 2026-09-29 | PPLI | activist_13d | +1 | +7.8% | +2.8% | $50.1M | 40.74 | 40.74 | 35.79 | -12.2% | -12.2% | +1.6% | -13.7% | 29 |
+| 2026-09-29 | RZAI | registration_effective | -1 |  |  |  ⚠ |  | 27.63 | 9.35 |  | -66.2% | +1.6% | +67.7% | 29 |
+| 2026-09-29 | SMMT | 8k_reverse_split | -1 | -8.4% | +5.9% | $123.1M | 16.39 | 16.59 | 16.39 | +0.0% | -1.2% | +1.6% | +2.8% | 29 |
+| 2026-09-29 | SSTI | 8k_reverse_split | -1 | -0.4% | +50.1% | $2.5M | 8.21 | 8.21 | 8.40 | +2.3% | +2.3% | +1.6% | -0.8% | 29 |
+| 2026-09-29 | SURG | 8k_reverse_split | -1 | -15.0% | +11.0% | $4.2M | 0.15 | 0.15 | 0.17 | +10.6% | +14.4% | +1.6% | -12.8% | 29 |
+| 2026-09-29 | TDG | 8k_tender_offer | +0 | -0.0% | -0.9% | $436.1M | 1099.79 | 1099.36 | 1177.69 | +7.1% | +7.1% | +1.6% |  | 29 |
+| 2026-09-29 | THRM | idea_merger | +0 | -7.4% | +0.9% | $15.0M | 33.92 | 34.08 | 32.30 | +1.3% | +0.8% | +1.6% |  | 29 |
+| 2026-09-29 | TRUG | 8k_reverse_split | -1 | -38.4% | +11.3% | $27.8M | 2.96 | 2.75 | 0.77 | -74.1% | -72.1% | +1.6% | +73.7% | 29 |
+| 2026-09-29 | UTMD | tender_issuer_buyback | +1 | +0.0% | +0.6% | $2.5M | 74.95 | 74.95 | 69.32 | -7.5% | -7.5% | +1.6% | -9.1% | 29 |
+| 2026-09-29 | VRME | 8k_reverse_split | -1 |  |  |  ⚠ |  | 8.13 | 8.98 |  | +10.5% | +1.6% | -8.9% | 0 |
+| 2026-09-29 | WHLR | 8k_reverse_split | -1 | +97.6% | -18.3% | $31.6M | 3.34 | 3.11 | 0.25 | -92.6% | -92.0% | +1.6% | +93.6% | 29 |
+| 2026-09-29 | XRP | registration_effective | -1 | -1.8% | +0.8% | $32.7M | 16.69 | 17.14 | 14.40 | -13.7% | -16.0% | +1.6% | +17.5% | 29 |
+| 2026-09-29 | YTRA | tender_third_party | +0 | -7.1% | -0.6% | $36k ⚠ | 0.95 | 0.92 | 0.88 | -7.5% | -4.6% | +1.6% |  | 29 |
+| 2026-09-30 | MOD | idea_merger | +0 | -6.2% | +1.9% | $249.7M | 187.20 | 187.65 | 140.70 | -17.1% | -17.3% | +2.6% |  | 28 |
+| 2026-09-30 | TWST | idea_overhang | +0 | +13.1% | +3.8% | $350.5M | 193.24 | 193.10 | 172.52 | -10.7% | -10.7% | +2.6% |  | 28 |
+| 2026-10-01 | VYLR | idea_spinoff | +0 |  |  | $1025.0M | 68.26 | 68.71 | 73.63 | +7.9% | +7.2% | +0.8% |  | 27 |
+| 2026-10-02 | ADRX | activist_13d | +1 |  | -6.6% | $30.7M | 18.25 | 18.25 | 17.96 | -1.6% | -1.6% | +0.9% | -2.5% | 24 |
+| 2026-10-02 | ATER | activist_13d | +1 | -9.6% | +7.4% | $3.6M | 0.65 | 0.64 | 0.76 | +15.6% | +18.3% | +0.9% | +17.4% | 24 |
+| 2026-10-02 | BNBX | 8k_strategic_review | +1 | -7.1% | +7.7% | $3k ⚠ | 0.14 | 0.13 | 0.12 | -14.5% | -7.9% | +0.9% | -8.8% | 24 |
+| 2026-10-02 | BNS | registration_effective | -1 | -1.7% | +0.6% | $172.9M | 91.19 | 91.10 | 95.72 | +5.0% | +5.1% | +0.9% | -4.2% | 24 |
+| 2026-10-02 | BSEM | share_registration | -1 | -20.9% | -11.1% | $780k | 2.73 | 2.74 | 1.41 | -48.3% | -48.5% | +0.9% | +49.4% | 24 |
+| 2026-10-02 | CNTM | 8k_lock_up | +0 | -3.1% | -8.8% | $23k ⚠ | 4.55 | 4.55 | 4.48 | -1.6% | -1.6% | +0.9% |  | 23 |
+| 2026-10-02 | CYCU | 8k_reverse_split | -1 | -5.9% | +42.0% | $9.9M | 3.82 | 3.60 | 2.63 | -31.1% | -26.9% | +0.9% | +27.9% | 24 |
+| 2026-10-02 | DARE | 8k_reverse_split | -1 | +14.8% | -0.9% | $199k ⚠ | 0.84 | 0.83 | 0.67 | -20.9% | -20.0% | +0.9% | +20.9% | 24 |
+| 2026-10-02 | FDCT | registration_effective | -1 | -25.3% | -6.5% | $9k ⚠ | 2.01 | 2.01 | 4.37 | +117.4% | +117.4% | +0.9% | -116.5% | 23 |
+| 2026-10-02 | FLEX | 8k_spin_off | +0 | +0.3% | +3.4% | $359.3M | 116.61 | 116.99 | 92.12 | -21.0% | -21.3% | +0.9% |  | 24 |
+| 2026-10-02 | GETY | delisting | +0 | -50.6% | -47.5% | $812k | 0.04 | 0.04 | 0.04 | -16.7% | -18.6% | +0.9% |  | 23 |
+| 2026-10-02 | GOW | activist_13d | +1 | -60.2% | +29.9% | $6.5M | 3.87 | 3.89 | 3.03 | -21.7% | -22.2% | +0.9% | -23.1% | 24 |
+| 2026-10-02 | HCAC | 8k_lock_up | +0 | +0.2% | -0.2% | $849k | 10.13 | 10.13 | 10.13 | +0.0% | +0.0% | +0.9% |  | 24 |
+| 2026-10-02 | HCTI | 8k_reverse_split | -1 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 6.42 | -55.7% | -46.5% | +0.9% | +47.4% | 24 |
+| 2026-10-02 | HCWB | share_registration | -1 | -15.1% | -0.6% | $1.9M | 1.68 | 1.64 | 1.16 | -30.9% | -29.3% | +0.9% | +30.2% | 24 |
+| 2026-10-02 | HZO | merger_vote | +0 | -0.2% | +0.0% | $41.4M | 52.35 | 52.27 | 52.54 | +0.4% | +0.5% | +0.9% |  | 24 |
+| 2026-10-02 | INM | registration_effective | -1 | -3.6% | -1.5% | $89k ⚠ | 1.33 | 1.36 | 1.60 | +20.3% | +17.6% | +0.9% | -16.7% | 24 |
+| 2026-10-02 | JOB | 8k_reverse_split | -1 | -4.3% | -4.5% | $43k ⚠ | 0.21 | 0.21 | 0.19 | -7.1% | -7.1% | +0.9% | +8.1% | 24 |
+| 2026-10-02 | KAVL | delisting | +0 | +25.0% | +0.0% | $0k ⚠ | 0.03 | 0.04 | 0.02 | -23.3% | -42.5% | +0.9% |  | 23 |
+| 2026-10-02 | LGMK | activist_13d | +1 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +4.8% | -4.8% | 0 |
+| 2026-10-02 | MAXNQ | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.00 | -50.0% | +0.0% | +0.9% |  | 23 |
+| 2026-10-02 | MKZR | 8k_strategic_review | +1 | +0.1% | -3.0% | $17k ⚠ | 1.34 | 1.40 | 1.05 | -21.6% | -24.8% | +0.9% | -25.7% | 24 |
+| 2026-10-02 | NEOV | registration_effective | -1 | +5.2% | +21.0% | $4.8M | 3.05 | 3.07 | 2.30 | -24.6% | -25.1% | +0.9% | +26.0% | 24 |
+| 2026-10-02 | NNE | 8k_tender_offer | +0 | -7.6% | -0.7% | $32.3M | 15.62 | 15.70 | 12.39 | -20.7% | -21.1% | +0.9% |  | 24 |
+| 2026-10-02 | OPNW | 8k_reverse_split | -1 | -52.6% | -2.5% | $10.3M | 5.40 | 5.19 | 1.15 | -78.7% | -77.8% | +0.9% | +78.8% | 24 |
+| 2026-10-02 | PLRZ | registration_effective | -1 | -1.8% | -6.9% | $515k | 9.61 | 9.48 | 8.61 | -10.4% | -9.2% | +0.9% | +10.1% | 23 |
+| 2026-10-02 | SBFM | share_registration | -1 | -14.0% | -3.1% | $135k ⚠ | 13.34 | 9.70 | 3.17 | -76.2% | -67.3% | +0.9% | +68.2% | 24 |
+| 2026-10-02 | SILO | 8k_lock_up | +0 | -14.3% | -2.8% | $185k ⚠ | 1.46 | 1.35 | 1.26 | -13.6% | -6.7% | +0.9% |  | 24 |
+| 2026-10-02 | SSTI | activist_13d | +1 | +54.3% | -1.3% | $2.7M | 8.33 | 8.33 | 8.40 | +0.8% | +0.8% | +0.9% | -0.1% | 24 |
+| 2026-10-02 | TPST | registration_effective | -1 | -5.2% | +0.6% | $8.4M | 0.81 | 0.80 | 0.55 | -32.2% | -31.3% | +0.9% | +32.2% | 24 |
+| 2026-10-02 | UTZ | merger_vote | +0 | +0.1% | +0.1% | $21.6M | 14.27 | 14.29 | 14.31 | +0.2% | +0.1% | +0.9% |  | 24 |
+| 2026-10-02 | VCTR | merger_vote | +0 | +5.3% | +1.3% | $83.6M | 113.23 | 114.42 | 113.67 | +0.4% | -0.7% | +0.9% |  | 24 |
+| 2026-10-02 | VDTA | share_registration | -1 | -6.8% | -0.3% | $177k ⚠ | 5.25 | 5.30 | 3.49 | -33.5% | -34.1% | +0.9% | +35.1% | 24 |
+| 2026-10-02 | VTAK | 8k_reverse_split | -1 | -6.3% | +0.0% | $248k ⚠ | 1.50 | 1.60 | 0.63 | -58.0% | -60.6% | +0.9% | +61.5% | 23 |
+| 2026-10-02 | XELB | 8k_reverse_split | -1 | -10.3% | -7.3% | $16k ⚠ | 0.66 | 0.84 | 0.36 | -44.8% | -56.8% | +0.9% | +57.7% | 24 |
+| 2026-10-02 | ZDGE | activist_13d | +1 | -1.0% | +0.3% | $191k ⚠ | 3.00 | 3.04 | 2.66 | -11.3% | -12.5% | +0.9% | -13.4% | 24 |
+| 2026-10-04 | CYAB | setup_supply_deficiency | +0 | -12.5% | -4.8% | $2.5M | 0.20 | 0.20 | 0.13 | -35.6% | -35.6% | +0.9% |  | 24 |
+| 2026-10-04 | DYAI | setup_supply_deficiency | +0 | -2.3% | +7.0% | $87k ⚠ | 0.46 | 0.46 | 0.40 | -12.7% | -12.7% | +0.9% |  | 24 |
+| 2026-10-04 | FLD | setup_supply_deficiency | +0 | -4.6% | +4.6% | $79k ⚠ | 0.54 | 0.53 | 0.51 | -5.7% | -3.7% | +0.9% |  | 24 |
+| 2026-10-04 | GOVX | setup_supply_deficiency | +0 | -10.6% | -0.6% | $111k ⚠ | 0.32 | 0.33 | 0.19 | -40.6% | -42.4% | +0.9% |  | 24 |
+| 2026-10-04 | GWH | setup_supply_deficiency | +0 | -53.8% | +0.0% | $323k | 0.16 | 0.13 | 0.06 | -61.8% | -53.9% | +0.9% |  | 23 |
+| 2026-10-04 | GXAI | setup_supply_deficiency | +0 | -11.1% | -2.8% | $143k ⚠ | 0.52 | 0.49 | 0.48 | -7.0% | -2.2% | +0.9% |  | 24 |
+| 2026-10-04 | HCTI | setup_supply_deficiency | +0 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 6.42 | -55.7% | -46.5% | +0.9% |  | 24 |
+| 2026-10-04 | POLA | setup_supply_deficiency | +0 | -13.8% | +3.6% | $195k ⚠ | 1.16 | 1.17 | 0.65 | -44.0% | -44.5% | +0.9% |  | 24 |
+| 2026-10-04 | SNTI | setup_supply_deficiency | +0 | -5.5% | -0.6% | $385k | 0.32 | 0.31 | 0.23 | -27.9% | -25.1% | +0.9% |  | 24 |
+| 2026-10-04 | VHUB | setup_supply_deficiency | +0 | -9.6% | +2.1% | $243k ⚠ | 0.48 | 0.44 | 0.25 | -48.0% | -43.2% | +0.9% |  | 24 |
+| 2026-10-05 | AAON | longterm_research | +0 | -6.5% | +1.3% | $95.0M | 84.35 | 85.34 | 74.36 | -11.8% | -12.9% | +0.0% |  | 23 |
+| 2026-10-05 | ADRX | activist_13d | +1 | -5.7% | +4.4% | $28.8M | 19.05 | 19.05 | 17.96 | -5.7% | -5.7% | +0.0% | -5.8% | 23 |
+| 2026-10-05 | ASST | 8k_reverse_split | -1 | +2.0% | +0.8% | $252.5M | 30.26 | 30.17 | 26.22 | -13.3% | -13.1% | +0.0% | +13.1% | 23 |
+| 2026-10-05 | BLRX | registration_effective | -1 | -8.8% | -2.1% | $33k ⚠ | 2.32 | 2.31 | 2.00 | -13.8% | -13.4% | +0.0% | +13.5% | 22 |
+| 2026-10-05 | BRN | 8k_strategic_review | +1 | +4.3% | -4.1% | $38k ⚠ | 0.94 | 0.99 | 0.88 | -6.1% | -10.9% | +0.0% | -10.9% | 23 |
+| 2026-10-05 | BRNX | registration_effective | -1 | -26.9% | +3.8% | $2.1M | 1.89 | 1.90 | 0.56 | -70.4% | -70.5% | +0.0% | +70.6% | 23 |
+| 2026-10-05 | BWMN | merger_vote | +0 | +0.1% | +0.4% | $15.8M | 42.76 | 42.75 | 42.87 | +0.2% | +0.3% | +0.0% |  | 23 |
+| 2026-10-05 | CHRW | 8k_merger_agreement | +0 | +7.2% | -10.8% | $271.5M | 140.61 | 140.83 | 126.32 | -10.2% | -10.3% | +0.0% |  | 23 |
+| 2026-10-05 | CLF | longterm_research | +0 | -7.1% | +7.8% | $180.9M | 12.20 | 12.88 | 14.16 | +16.1% | +9.9% | +0.0% |  | 23 |
+| 2026-10-05 | CTVA | 8k_spin_off | +0 | +1.2% | +3.9% | $528.3M | 12.39 | 13.08 | 11.44 | -7.6% | -12.5% | +0.0% |  | 23 |
+| 2026-10-05 | CYDY | registration_effective | -1 | -13.0% | +0.0% | $322k | 0.20 | 0.20 | 0.21 | +6.0% | +6.0% | +0.0% | -6.0% | 23 |
+| 2026-10-05 | DCGO | 8k_merger_agreement | +0 | +7.2% | -1.4% | $241k ⚠ | 0.37 | 0.37 | 0.28 | -23.8% | -25.2% | +0.0% |  | 23 |
+| 2026-10-05 | DSGR | 8k_merger_agreement | +0 | +0.1% | +0.1% | $7.3M | 35.02 | 35.02 | 34.96 | -0.2% | -0.2% | +0.0% |  | 23 |
+| 2026-10-05 | DTCKF | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.28 | 0.25 | 0.25 | -10.4% | -0.4% | +0.0% |  | 22 |
+| 2026-10-05 | ELMT | longterm_research | +0 | +12.7% | -3.8% | $29.1M | 21.29 | 21.63 | 24.12 | +13.3% | +11.5% | +0.0% |  | 23 |
+| 2026-10-05 | EMAT | share_registration | -1 | -36.3% | +0.7% | $4.8M | 2.06 | 2.00 | 1.94 | -5.6% | -3.0% | +0.0% | +3.0% | 23 |
+| 2026-10-05 | ESRT | activist_13d | +1 | +1.5% | +1.4% | $22.0M | 4.23 | 4.30 | 5.01 | +18.3% | +16.4% | +0.0% | +16.4% | 23 |
+| 2026-10-05 | FLEX | 8k_spin_off | +0 | +1.7% | +0.1% | $349.9M | 116.76 | 118.01 | 92.12 | -21.1% | -21.9% | +0.0% |  | 23 |
+| 2026-10-05 | FRMM | 8k_strategic_review | +1 | -4.2% | -1.7% | $578k | 4.75 | 4.71 | 3.86 | -18.7% | -18.1% | +0.0% | -18.1% | 23 |
+| 2026-10-05 | HNOI | registration_effective | -1 | +34.5% | -6.4% | $4k ⚠ | 0.04 | 0.04 | 0.01 | -58.9% | -57.8% | +0.0% | +57.8% | 23 |
+| 2026-10-05 | HPP | 8k_tender_offer | +0 | -1.5% | -2.0% | $7.5M | 11.25 | 11.32 | 10.95 | -2.7% | -3.3% | +0.0% |  | 23 |
+| 2026-10-05 | JAGX | 8k_strategic_review | +1 | -52.5% | +29.2% | $72.1M | 4.73 | 6.56 | 2.03 | -57.1% | -69.0% | +0.0% | -69.1% | 23 |
+| 2026-10-05 | JSPR | 8k_merger_agreement | +0 | -7.2% | +5.0% | $212k ⚠ | 0.59 | 0.60 | 0.55 | -7.3% | -8.4% | +0.0% |  | 23 |
+| 2026-10-05 | JSPR | 8k_reverse_split | -1 | -7.2% | +5.0% | $212k ⚠ | 0.59 | 0.60 | 0.55 | -7.3% | -8.4% | +0.0% | +8.4% | 23 |
+| 2026-10-05 | KUST | 8k_reverse_split | -1 | -28.9% | +0.7% | $453k | 4.51 | 4.65 | 3.43 | -23.9% | -26.2% | +0.0% | +26.3% | 23 |
+| 2026-10-05 | MACI | merger_vote | +0 | -0.1% | +0.3% | $30k ⚠ | 11.07 | 11.09 | 8.72 | -21.2% | -21.3% | +0.0% |  | 23 |
+| 2026-10-05 | MOD | longterm_research | +0 | -10.0% | +2.6% | $251.6M | 182.91 | 188.00 | 140.70 | -23.1% | -25.2% | +0.0% |  | 23 |
+| 2026-10-05 | MOVE | registration_effective | -1 | -1.0% | -2.6% | $2.4M | 11.35 | 11.35 | 7.21 | -36.5% | -36.5% | +0.0% | +36.5% | 23 |
+| 2026-10-05 | MP | longterm_research | +0 | -3.8% | -0.3% | $256.2M | 46.84 | 47.40 | 41.87 | -10.6% | -11.7% | +0.0% |  | 23 |
+| 2026-10-05 | MTUS | longterm_research | +0 | +5.6% | +5.8% | $6.7M | 21.04 | 21.13 | 21.24 | +0.9% | +0.5% | +0.0% |  | 23 |
+| 2026-10-05 | NG | merger_vote | +0 | -8.1% | +0.9% | $42.1M | 6.61 | 6.66 | 6.03 | -8.7% | -9.4% | +0.0% |  | 23 |
+| 2026-10-05 | NG | 8k_lock_up | +0 | -8.1% | +0.9% | $42.1M | 6.61 | 6.66 | 6.03 | -8.7% | -9.4% | +0.0% |  | 23 |
+| 2026-10-05 | NHP | delisting | +0 | +0.4% | -1.4% | $12.5M | 15.87 | 15.95 | 14.74 | -7.1% | -7.5% | +0.0% |  | 23 |
+| 2026-10-05 | NIMU | 8k_merger_agreement | +0 | +0.0% | +0.0% | $2k ⚠ | 11.50 | 11.50 | 10.81 | -6.0% | -6.0% | +0.0% |  | 22 |
+| 2026-10-05 | PCMC | 8k_lock_up | +0 | +0.0% | +0.0% | $0k ⚠ | 0.25 | 0.25 | 0.25 | +0.0% | +0.0% | +0.0% |  | 22 |
+| 2026-10-05 | PCSA | 8k_merger_agreement | +0 | -12.5% | -7.5% | $51k ⚠ | 1.49 | 1.51 | 1.94 | +30.2% | +28.5% | +0.0% |  | 23 |
+| 2026-10-05 | PFSA | 8k_reverse_split | -1 | -22.5% | +3.6% | $14.8M | 1.75 | 1.72 | 0.72 | -58.7% | -58.0% | +0.0% | +58.0% | 23 |
+| 2026-10-05 | PPCB | share_registration | -1 | -19.5% | -1.5% | $180k ⚠ | 5.00 | 4.83 | 2.13 | -57.4% | -55.9% | +0.0% | +55.9% | 23 |
+| 2026-10-05 | PTC | 8k_merger_agreement | +0 | +4.3% | +33.5% | $507.7M | 192.26 | 193.00 | 194.42 | +1.1% | +0.7% | +0.0% |  | 23 |
+| 2026-10-05 | PUSA | idea_contract_press | +1 | -15.1% | -8.4% | $3.0M | 2.89 | 3.01 | 1.80 | -37.7% | -40.1% | +0.0% | -40.1% | 23 |
+| 2026-10-05 | RENX | 8k_reverse_split | -1 | -9.3% | -5.3% | $290k | 1.89 | 1.94 | 1.10 | -41.8% | -43.3% | +0.0% | +43.3% | 22 |
+| 2026-10-05 | RXO | activist_13d | +1 | +18.1% | +22.5% | $66.7M | 28.65 | 28.73 | 27.54 | -3.9% | -4.1% | +0.0% | -4.2% | 23 |
+| 2026-10-05 | RXO | 8k_merger_agreement | +0 | +18.1% | +22.5% | $66.7M | 28.65 | 28.73 | 27.54 | -3.9% | -4.1% | +0.0% |  | 23 |
+| 2026-10-05 | SIMAU | 8k_lock_up | +0 | +0.0% | +0.0% | $0k ⚠ | 11.25 | 11.25 | 11.11 | -1.2% | -1.2% | +0.0% |  | 22 |
+| 2026-10-05 | SNN | delisting | +0 | -1.8% | +1.9% | $40.0M | 26.92 | 27.10 | 30.08 | +11.7% | +11.0% | +0.0% |  | 23 |
+| 2026-10-05 | SQFT | tender_issuer_buyback | +1 | -21.3% | -4.2% | $771k | 1.13 | 1.12 | 0.82 | -27.4% | -26.8% | +0.0% | -26.8% | 23 |
+| 2026-10-05 | SQFT | 8k_tender_offer | +0 | -21.3% | -4.2% | $771k | 1.13 | 1.12 | 0.82 | -27.4% | -26.8% | +0.0% |  | 23 |
+| 2026-10-05 | SWKS | 8k_merger_agreement | +0 | -4.8% | -1.3% | $747.5M | 83.91 | 85.43 | 86.07 | +2.6% | +0.8% | +0.0% |  | 23 |
+| 2026-10-05 | UAMY | longterm_research | +0 | -11.3% | -1.0% | $22.7M | 3.95 | 4.02 | 3.16 | -19.9% | -21.3% | +0.0% |  | 23 |
+| 2026-10-05 | UTMD | tender_issuer_buyback | +1 | -0.1% | -1.1% | $2.4M | 73.31 | 73.50 | 69.32 | -5.4% | -5.7% | +0.0% | -5.7% | 23 |
+| 2026-10-05 | VATE | 8k_lock_up | +0 | -3.5% | -0.8% | $758k | 7.44 | 7.32 | 5.92 | -20.4% | -19.1% | +0.0% |  | 23 |
+| 2026-10-05 | VJET | 8k_reverse_split | -1 | +0.0% | +8.0% | $1.3M | 1.62 | 1.23 | 0.62 | -61.7% | -49.6% | +0.0% | +49.6% | 23 |
+| 2026-10-05 | VRT | longterm_research | +0 | -0.4% | +0.6% | $1340.3M | 253.62 | 253.20 | 249.83 | -1.5% | -1.3% | +0.0% |  | 23 |
+| 2026-10-05 | VYLR | 8k_spin_off | +0 |  | +9.0% | $1063.4M | 73.33 | 71.91 | 73.63 | +0.4% | +2.4% | +0.0% |  | 23 |
+| 2026-10-05 | WORX | 8k_reverse_split | -1 | +18.6% | +33.0% | $17k ⚠ | 5.52 | 5.70 | 1.71 | -69.0% | -70.0% | +0.0% | +70.0% | 23 |
+| 2026-10-06 | ADSK | deal_peer | +0 | +6.9% | +4.4% | $483.1M | 231.28 | 231.42 | 239.34 | +3.5% | +3.4% | +2.2% |  | 22 |
+| 2026-10-06 | BSY | deal_peer | +0 | +11.1% | +3.5% | $94.0M | 35.97 | 35.98 | 39.02 | +8.5% | +8.4% | +2.2% |  | 22 |
+| 2026-10-06 | CHRW | deal_acquirer | +0 | -5.1% | -4.0% | $288.7M | 135.05 | 135.25 | 126.32 | -6.5% | -6.6% | +2.2% |  | 22 |
+| 2026-10-06 | HUBG | deal_peer | +0 | -4.9% | -2.0% | $46.1M | 28.16 | 27.76 | 26.14 | -7.2% | -5.8% | +2.2% |  | 22 |
+| 2026-10-06 | JBHT | deal_peer | +0 | +1.6% | -1.7% | $291.2M | 225.93 | 223.46 | 221.40 | -2.0% | -0.9% | +2.2% |  | 22 |
+| 2026-10-06 | LSTR | deal_peer | +0 | +3.5% | -1.3% | $60.5M | 169.05 | 166.81 | 140.33 | -17.0% | -15.9% | +2.2% |  | 22 |
+| 2026-10-06 | PCOR | deal_peer | +0 | +10.4% | +0.4% | $143.7M | 54.39 | 54.04 | 60.94 | +12.0% | +12.8% | +2.2% |  | 22 |
+| 2026-10-06 | PTC | merger_arb | +0 | +37.6% | +0.4% | $566.3M | 193.00 | 193.20 | 194.42 | +0.7% | +0.6% | +2.2% |  | 22 |
+| 2026-10-06 | RXO | merger_arb | +0 | +42.2% | -0.4% | $77.1M | 28.54 | 28.34 | 27.54 | -3.5% | -2.8% | +2.2% |  | 22 |
+| 2026-10-06 | SBGSY | deal_acquirer | +0 | -7.5% | -5.2% | $19.8M | 58.20 | 56.73 | 55.21 | -5.1% | -2.7% | +2.2% |  | 22 |
+| 2026-10-07 | ABAT | registration_effective | -1 | -1.8% | -2.8% | $8.9M | 2.09 | 2.08 | 1.59 | -24.2% | -23.8% | +3.0% | +26.8% | 21 |
+| 2026-10-07 | ADTX | delisting | +0 | -25.0% | +0.0% | $58k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | -66.7% | +3.0% |  | 20 |
+| 2026-10-07 | ATKR | 8k_merger_agreement | +0 | -0.0% | +0.1% | $75.2M | 94.85 | 94.85 | 94.96 | +0.1% | +0.1% | +3.0% |  | 8 |
+| 2026-10-07 | AVX | 8k_reverse_split | -1 | -12.8% | +3.8% | $2.4M | 6.14 | 6.02 | 4.42 | -28.1% | -26.6% | +3.0% | +29.5% | 21 |
+| 2026-10-07 | BEEM | 8k_reverse_split | -1 | -0.9% | -2.7% | $437k | 1.08 | 1.07 | 0.87 | -19.7% | -19.0% | +3.0% | +21.9% | 21 |
+| 2026-10-07 | BHLL | registration_effective | -1 | -11.7% | -4.8% | $182k ⚠ | 2.38 | 2.36 | 2.07 | -13.0% | -12.3% | +3.0% | +15.2% | 21 |
+| 2026-10-07 | BUKS | 8k_reverse_split | -1 | +12.0% | -1.6% | $449k | 4.40 | 4.40 | 5.06 | +15.0% | +15.0% | +3.0% | -12.0% | 21 |
+| 2026-10-07 | CERO | 8k_lock_up | +0 | -18.2% | +11.1% | $4k ⚠ | 0.01 | 0.01 | 0.00 | -58.0% | -53.3% | +3.0% |  | 21 |
+| 2026-10-07 | CHAR | 8k_lock_up | +0 | +0.1% | +0.1% | $335k | 10.99 | 11.00 | 10.99 | -0.1% | -0.1% | +3.0% |  | 20 |
+| 2026-10-07 | CSR | merger_vote | +0 | +0.6% | -1.9% | $19.2M | 54.42 | 54.37 | 56.45 | +3.7% | +3.8% | +3.0% |  | 21 |
+| 2026-10-07 | CVKD | 8k_strategic_review | +1 | -9.2% | -1.8% | $196k ⚠ | 0.97 | 0.99 | 1.00 | +2.8% | +0.6% | +3.0% | -2.4% | 21 |
+| 2026-10-07 | DCOY | share_registration | -1 | -27.2% | +3.9% | $22.0M | 1.61 | 1.58 | 1.24 | -23.0% | -21.5% | +3.0% | +24.5% | 21 |
+| 2026-10-07 | GFUZ | registration_effective | -1 | +1.2% | +0.4% | $775k | 7.60 | 8.65 | 6.19 | -18.6% | -28.4% | +3.0% | +31.4% | 21 |
+| 2026-10-07 | GNLN | 8k_reverse_split | -1 | +9.1% | -5.1% | $92k ⚠ | 2.95 | 2.87 | 1.71 | -42.0% | -40.3% | +3.0% | +43.2% | 21 |
+| 2026-10-07 | HLSQ | 8k_reverse_split | -1 | -28.3% | -0.6% | $1.1M | 0.31 | 0.32 | 0.18 | -41.9% | -43.5% | +3.0% | +46.5% | 21 |
+| 2026-10-07 | HOST | 8k_merger_agreement | +0 | -29.8% | -4.7% | $1.5M | 3.21 | 3.21 | 3.10 | -3.4% | -3.4% | +3.0% |  | 21 |
+| 2026-10-07 | JSPR | tender_issuer_buyback | +1 | -10.4% | +1.8% | $222k ⚠ | 0.57 | 0.56 | 0.55 | -3.5% | -2.3% | +3.0% | -5.3% | 21 |
+| 2026-10-07 | JSPR | 8k_tender_offer | +0 | -10.4% | +1.8% | $222k ⚠ | 0.57 | 0.56 | 0.55 | -3.5% | -2.3% | +3.0% |  | 21 |
+| 2026-10-07 | KOYN | 8k_tender_offer | +0 | +0.0% | +0.1% | $1.4M | 10.26 | 10.27 | 10.27 | +0.1% | +0.0% | +3.0% |  | 21 |
+| 2026-10-07 | KPLT | registration_effective | -1 | -5.5% | -4.9% | $2.4M | 4.08 | 4.08 | 10.61 | +160.0% | +160.0% | +3.0% | -157.0% | 21 |
+| 2026-10-07 | LGMK | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +4.8% |  | 0 |
+| 2026-10-07 | LITS | registration_effective | -1 | +2.2% | -9.9% | $1.3M | 1.27 | 1.30 | 1.18 | -6.7% | -8.8% | +3.0% | +11.8% | 21 |
+| 2026-10-07 | MAIA | registration_effective | -1 | +3.5% | -0.8% | $889k | 1.18 | 1.15 | 1.18 | +0.4% | +3.0% | +3.0% | -0.1% | 21 |
+| 2026-10-07 | MOD | 8k_merger_agreement | +0 | +3.4% | -0.2% | $257.5M | 189.44 | 185.66 | 140.70 | -25.7% | -24.2% | +3.0% |  | 21 |
+| 2026-10-07 | NXGL | 8k_reverse_split | -1 | -1.7% | +2.3% | $103k ⚠ | 3.54 | 3.00 | 3.98 | +12.4% | +32.7% | +3.0% | -29.7% | 21 |
+| 2026-10-07 | NXXT | 8k_reverse_split | -1 |  |  |  ⚠ |  | 0.37 | 0.31 |  | -16.9% | +0.7% | +17.6% | 0 |
+| 2026-10-07 | OPNW | activist_13d | +1 | -23.8% | -2.3% | $10.4M | 6.06 | 6.01 | 1.15 | -81.0% | -80.9% | +3.0% | -83.8% | 21 |
+| 2026-10-07 | PAXG | 8k_tender_offer | +0 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +3.5% |  | 5 |
+| 2026-10-07 | PSQL | registration_effective | -1 | +11.4% | +6.1% | $5.4M | 7.26 | 7.35 | 5.66 | -22.0% | -23.0% | +3.0% | +26.0% | 21 |
+| 2026-10-07 | SCNX | 8k_reverse_split | -1 | -43.7% | +9.8% | $1.7M | 4.13 | 4.26 | 3.43 | -16.8% | -19.4% | +3.0% | +22.3% | 21 |
+| 2026-10-07 | SGMOQ | delisting | +0 | +0.0% | +0.0% | $222k ⚠ | 0.14 | 0.14 | 0.12 | -14.3% | -14.3% | +3.0% |  | 20 |
+| 2026-10-07 | SRXH | 8k_lock_up | +0 | -7.5% | +0.7% | $1.2M | 1.49 | 1.50 | 1.06 | -28.9% | -29.4% | +3.0% |  | 21 |
+| 2026-10-07 | STKH | activist_13d | +1 | -55.2% | -6.9% | $818k | 0.61 | 0.59 | 0.37 | -39.3% | -37.3% | +3.0% | -40.3% | 21 |
+| 2026-10-07 | SYRE | 8k_reverse_split | -1 | -5.4% | +0.9% | $133.3M | 80.85 | 79.58 | 99.90 | +23.6% | +25.5% | +3.0% | -22.6% | 21 |
+| 2026-10-07 | TMGI | 8k_reverse_split | -1 | +100.0% | -50.0% | $3k ⚠ | 0.00 | 0.00 | 0.00 | +0.0% | -50.0% | +3.0% | +53.0% | 21 |
+| 2026-10-07 | VYLR | 8k_spin_off | +0 |  | +0.1% | $871.1M | 72.99 | 73.86 | 73.63 | +0.9% | -0.3% | +3.0% |  | 21 |
+| 2026-10-07 | WHK | registration_effective | -1 | +5.0% | +0.0% | $9.1M | 26.15 | 26.17 | 26.84 | +2.6% | +2.6% | +3.0% | +0.4% | 21 |
+| 2026-10-07 | WS | 8k_tender_offer | +0 | +7.2% | -6.9% | $14.4M | 35.56 | 34.65 | 43.55 | +22.5% | +25.7% | +3.0% |  | 21 |
+| 2026-10-08 | ACVA | tender_third_party | +0 | +0.1% | +0.0% | $160.3M | 10.44 | 10.45 | 10.50 | +0.6% | +0.5% | +2.3% |  | 7 |
+| 2026-10-08 | ASPI | activist_13d | +1 | +7.9% | -1.0% | $14.3M | 2.83 | 2.86 | 2.02 | -28.6% | -29.3% | +2.3% | -31.6% | 20 |
+| 2026-10-08 | ATKR | merger_arb | +0 | +0.1% | -0.0% | $74.3M | 94.84 | 94.89 | 94.96 | +0.1% | +0.1% | +2.3% |  | 7 |
+| 2026-10-08 | ATKR | 8k_merger_agreement | +0 | +0.1% | -0.0% | $74.3M | 94.84 | 94.89 | 94.96 | +0.1% | +0.1% | +2.3% |  | 7 |
+| 2026-10-08 | BMGL | ipo_priced | +0 | +5.1% | +9.8% | $11.7M | 3.60 | 3.50 | 4.56 | +26.7% | +30.3% | +2.3% |  | 20 |
+| 2026-10-08 | BMRA | registration_effective | -1 | -15.5% | -1.0% | $61k ⚠ | 1.89 | 1.86 | 1.74 | -8.2% | -6.7% | +2.3% | +9.0% | 20 |
+| 2026-10-08 | BSFC | 8k_strategic_review | +1 | +28.6% | +0.0% | $0k ⚠ | 1.44 | 0.26 | 1.00 | -30.6% | +284.6% | +2.3% | +282.4% | 5 |
+| 2026-10-08 | CHMI | merger_vote | +0 | -0.8% | +0.8% | $581k | 2.61 | 2.60 | 2.63 | +0.8% | +1.1% | +2.3% |  | 20 |
+| 2026-10-08 | CPRT | tender_third_party | +0 | -2.4% | +3.2% | $309.2M | 27.48 | 27.41 | 29.33 | +6.7% | +7.0% | +2.3% |  | 20 |
+| 2026-10-08 | CREG | delisting | +0 | +52.0% | +63.4% | $1k ⚠ | 0.32 | 0.25 | 0.00 | -99.9% | -99.9% | +2.3% |  | 19 |
+| 2026-10-08 | CRGY | 8k_merger_agreement | +0 | +4.5% | -3.4% | $91.6M | 13.01 | 12.92 | 13.72 | +5.4% | +6.2% | +2.3% |  | 20 |
+| 2026-10-08 | CRMT | 8k_strategic_review | +1 | +9.8% | +11.6% | $756k | 1.25 | 1.26 | 0.91 | -27.0% | -27.6% | +2.3% | -29.8% | 20 |
+| 2026-10-08 | CSR | merger_arb | +0 | +0.0% | +0.9% | $18.4M | 54.91 | 55.52 | 56.45 | +2.8% | +1.7% | +2.3% |  | 20 |
+| 2026-10-08 | CYAB | share_registration | -1 | -9.5% | -10.5% | $2.6M | 0.17 | 0.17 | 0.13 | -24.2% | -24.2% | +2.3% | +26.5% | 20 |
+| 2026-10-08 | CYDY | registration_effective | -1 | -4.8% | +0.0% | $304k | 0.20 | 0.20 | 0.21 | +6.0% | +6.0% | +2.3% | -3.8% | 20 |
+| 2026-10-08 | DAAQ | 8k_spin_off | +0 | -0.1% | +0.0% | $874k | 10.47 | 10.47 | 10.49 | +0.2% | +0.2% | +2.3% |  | 19 |
+| 2026-10-08 | DFLI | 8k_reverse_split | -1 | -19.0% | -28.9% | $270k | 3.92 | 3.88 | 2.21 | -43.6% | -43.0% | +2.3% | +45.3% | 20 |
+| 2026-10-08 | DSGR | 8k_merger_agreement | +0 | +0.5% | +0.0% | $7.5M | 35.07 | 35.05 | 34.96 | -0.3% | -0.3% | +2.3% |  | 20 |
+| 2026-10-08 | DTI | 8k_lock_up | +0 | +1.9% | -14.8% | $508k | 2.01 | 2.03 | 1.70 | -15.4% | -16.3% | +2.3% |  | 20 |
+| 2026-10-08 | DTSQ | 8k_tender_offer | +0 | +0.0% | -0.9% | $64k ⚠ | 11.48 | 11.42 | 11.55 | +0.6% | +1.1% | +2.3% |  | 19 |
+| 2026-10-08 | ESE | activist_13d | +1 | -3.1% | -1.1% | $75.9M | 254.06 | 257.20 | 245.75 | -3.3% | -4.5% | +2.3% | -6.7% | 20 |
+| 2026-10-08 | ESRT | activist_deep_dive | +0 | +10.9% | +2.5% | $22.7M | 4.58 | 4.57 | 5.01 | +9.3% | +9.5% | +2.3% |  | 20 |
+| 2026-10-08 | FEAM | activist_13d | +1 | -7.7% | +6.4% | $3.4M | 3.31 | 3.26 | 2.44 | -26.1% | -25.0% | +2.3% | -27.3% | 20 |
+| 2026-10-08 | MDT | tender_issuer_buyback | +1 | -0.9% | +2.6% | $2224.0M | 87.75 | 88.49 | 95.36 | +8.7% | +7.8% | +2.3% | +5.5% | 20 |
+| 2026-10-08 | MYSZ | registration_effective | -1 | -10.9% | -8.2% | $3.9M | 1.35 | 1.44 | 0.98 | -27.8% | -32.3% | +2.3% | +34.6% | 20 |
+| 2026-10-08 | NDRA | activist_13d | +1 | +1.7% | -2.1% | $214k ⚠ | 5.93 | 5.81 | 4.74 | -20.1% | -18.4% | +2.3% | -20.7% | 20 |
+| 2026-10-08 | NFJ | tender_issuer_buyback | +1 | -4.0% | -0.6% | $4.9M | 14.36 | 14.40 | 14.52 | +1.1% | +0.8% | +2.3% | -1.4% | 20 |
+| 2026-10-08 | NG | 8k_lock_up | +0 | -2.2% | -1.3% | $40.2M | 6.28 | 6.40 | 6.03 | -3.9% | -5.7% | +2.3% |  | 20 |
+| 2026-10-08 | NXXT | 8k_reverse_split | -1 |  |  |  ⚠ |  | 0.37 | 0.31 |  | -16.9% | +0.7% | +17.6% | 0 |
+| 2026-10-08 | PAYO | 8k_merger_agreement | +0 | +0.3% | +0.0% | $21.0M | 7.16 | 7.17 | 7.14 | -0.3% | -0.4% | +2.3% |  | 20 |
+| 2026-10-08 | PCRX | 8k_merger_agreement | +0 | +0.6% | +44.4% | $65.8M | 36.39 | 36.33 | 36.40 | +0.0% | +0.2% | +2.3% |  | 20 |
+| 2026-10-08 | PUSA | activist_13d | +1 | -34.7% | +0.6% | $3.5M | 2.55 | 2.58 | 1.80 | -29.3% | -30.1% | +2.3% | -32.4% | 20 |
+| 2026-10-08 | RNA | 8k_spin_off | +0 | -4.2% | +4.2% | $3.4M | 8.26 | 8.29 | 8.40 | +1.7% | +1.3% | +2.3% |  | 20 |
+| 2026-10-08 | SAIQ | activist_13d | +1 | -46.7% | +41.6% | $24.5M | 5.51 | 6.12 | 6.56 | +19.1% | +7.2% | +2.3% | +4.9% | 20 |
+| 2026-10-08 | SBFM | registration_effective | -1 | -9.4% | -38.6% | $9.0M | 8.60 | 8.02 | 3.17 | -63.1% | -60.4% | +2.3% | +62.7% | 20 |
+| 2026-10-08 | SELXF | delisting | +0 | +200.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | -66.7% | +2.3% |  | 19 |
+| 2026-10-08 | SNBH | 8k_reverse_split | -1 | -3.8% | +0.0% | $0k ⚠ | 0.34 | 0.34 | 0.35 | +3.9% | +3.9% | +2.3% | -1.6% | 19 |
+| 2026-10-08 | SYNA | merger_vote | +0 | +17.8% | -0.3% | $117.3M | 119.08 | 119.95 | 118.12 | -0.8% | -1.5% | +2.3% |  | 20 |
+| 2026-10-08 | TELA | 8k_reverse_split | -1 | -7.0% | -1.9% | $303k | 1.05 | 1.04 | 1.00 | -5.2% | -4.3% | +2.3% | +6.6% | 20 |
+| 2026-10-08 | TLRY | 8k_reverse_split | -1 | -0.8% | -3.5% | $16.1M | 3.59 | 3.60 | 2.64 | -26.5% | -26.7% | +2.3% | +28.9% | 20 |
+| 2026-10-08 | TLSS | 8k_reverse_split | -1 | -40.0% | -83.3% | $0k ⚠ | 0.05 | 0.06 | 0.20 | +300.0% | +233.3% | +2.3% | -231.1% | 19 |
+| 2026-10-08 | VEEE | 8k_merger_agreement | +0 | -14.7% | -2.0% | $26.9M | 10.14 | 9.91 | 9.34 | -7.9% | -5.8% | +2.3% |  | 19 |
+| 2026-10-08 | VTRS | 8k_merger_agreement | +0 | -1.3% | -0.3% | $164.7M | 17.44 | 17.36 | 19.03 | +9.1% | +9.6% | +2.3% |  | 20 |
+| 2026-10-08 | WKEY | activist_13d | +1 |  |  |  ⚠ |  | 5.88 | 6.09 |  | +3.6% | +4.1% | -0.5% | 0 |
+| 2026-10-08 | WLDS | registration_effective | -1 | -6.1% | -2.9% | $409k | 1.35 | 1.36 | 1.32 | -2.2% | -2.9% | +2.3% | +5.2% | 20 |
+| 2026-10-09 | ACH | 8k_reverse_split | -1 | -21.4% | -2.3% | $1.1M | 0.43 | 0.44 | 0.23 | -46.0% | -47.2% | +2.2% | +49.4% | 17 |
+| 2026-10-09 | ALDF | 8k_tender_offer | +0 | +0.0% | +0.0% | $164k ⚠ | 10.82 | 10.82 | 10.98 | +1.5% | +1.5% | +2.2% |  | 16 |
+| 2026-10-09 | AUID | 8k_reverse_split | -1 | -10.1% | +2.9% | $409k | 0.35 | 0.35 | 0.28 | -19.5% | -18.6% | +2.2% | +20.8% | 17 |
+| 2026-10-09 | BIAF | 8k_reverse_split | -1 | -8.2% | -16.2% | $27.9M | 4.72 | 4.75 | 3.16 | -33.1% | -33.5% | +2.2% | +35.6% | 17 |
+| 2026-10-09 | BKYI | share_registration | -1 | -24.0% | -4.0% | $27.1M | 1.67 | 1.62 | 2.96 | +77.2% | +82.7% | +2.2% | -80.5% | 17 |
+| 2026-10-09 | BSVN | 8k_merger_agreement | +0 | +1.1% | -1.4% | $2.8M | 54.79 | 54.92 | 59.40 | +8.4% | +8.2% | +2.2% |  | 17 |
+| 2026-10-09 | BTOC | 8k_reverse_split | -1 | -9.6% | -0.9% | $16k ⚠ | 3.44 | 3.36 | 2.13 | -38.1% | -36.6% | +2.2% | +38.8% | 17 |
+| 2026-10-09 | CRGY | 8k_tender_offer | +0 | -2.0% | -2.7% | $114.1M | 12.66 | 12.92 | 13.72 | +8.3% | +6.2% | +2.2% |  | 17 |
+| 2026-10-09 | DKI | registration_effective | -1 | -42.2% | -54.2% | $7.9M | 17.10 | 9.05 | 2.11 | -87.7% | -76.7% | +2.2% | +78.8% | 17 |
+| 2026-10-09 | DKI | ipo_priced | +0 | -42.2% | -54.2% | $7.9M | 17.10 | 9.05 | 2.11 | -87.7% | -76.7% | +2.2% |  | 17 |
+| 2026-10-09 | DPU | activist_13d | +1 | -4.6% | +1.4% | $55k ⚠ | 1.47 | 1.52 | 1.70 | +15.7% | +11.9% | +2.2% | +9.7% | 17 |
+| 2026-10-09 | FTRKF | delisting | +0 | -35.9% | +0.0% | $1k ⚠ | 0.64 | 0.64 | 0.38 | -41.0% | -41.0% | +2.2% |  | 16 |
+| 2026-10-09 | GENK | registration_effective | -1 | -4.8% | +3.7% | $62k ⚠ | 1.66 | 1.77 | 1.63 | -1.8% | -7.9% | +2.2% | +10.1% | 17 |
+| 2026-10-09 | GIW | 8k_merger_agreement | +0 | -0.1% | +0.3% | $1.1M | 10.20 | 10.18 | 10.19 | -0.1% | +0.1% | +2.2% |  | 17 |
+| 2026-10-09 | GTBP | share_registration | -1 | -3.9% | +12.1% | $766k | 6.68 | 6.79 | 5.53 | -17.2% | -18.6% | +2.2% | +20.7% | 17 |
+| 2026-10-09 | GWLL | activist_13d | +1 | +0.0% | +0.0% | $0k ⚠ | 0.69 | 0.69 | 0.65 | -5.8% | -5.8% | +2.2% | -7.9% | 16 |
+| 2026-10-09 | HEPA | 8k_lock_up | +0 | +25.0% | -4.0% | $3k ⚠ | 0.12 | 0.12 | 0.15 | +25.0% | +22.9% | +2.2% |  | 16 |
+| 2026-10-09 | IBO | 8k_reverse_split | -1 | -24.3% | +3.4% | $80k ⚠ | 4.25 | 4.25 | 4.15 | -2.4% | -2.4% | +2.2% | +4.5% | 17 |
+| 2026-10-09 | ISPC | 8k_reverse_split | -1 | -4.4% | +3.7% | $471k | 1.13 | 1.12 | 0.86 | -24.2% | -23.6% | +2.2% | +25.7% | 17 |
+| 2026-10-09 | JOB | 8k_reverse_split | -1 | +0.0% | -4.5% | $46k ⚠ | 0.21 | 0.21 | 0.19 | -7.1% | -7.1% | +2.2% | +9.3% | 17 |
+| 2026-10-09 | MBRX | 8k_reverse_split | -1 | -15.9% | +4.2% | $648k | 8.84 | 9.00 | 8.44 | -4.5% | -6.2% | +2.2% | +8.4% | 17 |
+| 2026-10-09 | MSGR | 8k_reverse_split | -1 |  |  |  ⚠ |  | 210.00 | 196.50 |  | -6.4% | +2.8% | +9.2% | 8 |
+| 2026-10-09 | NCMI | activist_13d | +1 | +4.2% | -4.1% | $3.2M | 2.12 | 2.12 | 1.74 | -18.2% | -18.2% | +2.2% | -20.3% | 17 |
+| 2026-10-09 | NEXR | registration_effective | -1 | +2.0% | -1.0% | $1.1M | 1.01 | 1.02 | 0.35 | -65.5% | -65.9% | +2.2% | +68.0% | 17 |
+| 2026-10-09 | NIKI | 8k_spin_off | +0 | -10.2% | -7.4% | $172k ⚠ | 4.00 | 3.84 | 1.82 | -54.5% | -52.6% | +2.2% |  | 17 |
+| 2026-10-09 | NVVE | delisting | +0 | -6.1% | -3.6% | $14k ⚠ | 1.15 | 1.15 | 0.87 | -24.8% | -24.8% | +2.2% |  | 16 |
+| 2026-10-09 | OMTK | activist_13d | +1 | +50.0% | +0.0% | $5k ⚠ | 0.03 | 0.03 | 0.02 | -33.3% | -33.3% | +2.2% | -35.5% | 16 |
+| 2026-10-09 | PCVX | 8k_spin_off | +0 | +16.0% | +9.8% | $224.8M | 71.38 | 71.08 | 62.76 | -12.1% | -11.7% | +2.2% |  | 17 |
+| 2026-10-09 | RNA | 8k_spin_off | +0 | +1.5% | +1.7% | $3.3M | 8.40 | 8.40 | 8.40 | +0.0% | +0.0% | +2.2% |  | 17 |
+| 2026-10-09 | RTSN | registration_effective | -1 |  |  | $8.3M | 10.53 | 10.88 | 12.71 | +20.7% | +16.8% | +2.2% | -14.7% | 17 |
+| 2026-10-09 | RTSN | ipo_priced | +0 |  |  | $8.3M | 10.53 | 10.88 | 12.71 | +20.7% | +16.8% | +2.2% |  | 17 |
+| 2026-10-09 | SBFM | ipo_priced | +0 | -37.5% | -21.4% | $9.1M | 6.76 | 6.18 | 3.17 | -53.0% | -48.6% | +2.2% |  | 17 |
+| 2026-10-09 | SKYQ | 8k_reverse_split | -1 | -0.8% | -2.8% | $7.2M | 2.45 | 2.56 | 2.15 | -12.0% | -15.8% | +2.2% | +18.0% | 17 |
+| 2026-10-09 | SOAR | 8k_merger_agreement | +0 | +4.4% | +0.6% | $26.1M | 0.31 | 0.31 | 0.24 | -22.5% | -21.2% | +2.2% |  | 17 |
+| 2026-10-09 | SPTY | share_registration | -1 | +55.3% | -3.1% | $18k ⚠ | 0.31 | 0.25 | 0.23 | -26.4% | -10.2% | +2.2% | +12.4% | 16 |
+| 2026-10-09 | STEX | 8k_reverse_split | -1 | -17.3% | -3.0% | $777k | 0.49 | 0.48 | 0.41 | -15.9% | -13.8% | +2.2% | +16.0% | 17 |
+| 2026-10-09 | TCRT | 8k_strategic_review | +1 | -15.2% | +1.3% | $3.3M | 0.79 | 0.78 | 2.01 | +154.4% | +157.7% | +2.2% | +155.5% | 17 |
+| 2026-10-09 | THRM | 8k_merger_agreement | +0 | -11.0% | -0.8% | $59.9M | 29.68 | 29.62 | 32.30 | +8.8% | +9.1% | +2.2% |  | 17 |
+| 2026-10-09 | TOP | registration_effective | -1 | +4.9% | -4.7% | $1.4M | 14.92 | 15.07 | 15.50 | +3.9% | +2.9% | +2.2% | -0.7% | 17 |
+| 2026-10-09 | TRUG | 8k_reverse_split | -1 | -12.9% | -26.2% | $12.7M | 1.89 | 1.90 | 0.77 | -59.4% | -59.7% | +2.2% | +61.8% | 17 |
+| 2026-10-09 | TRXB | registration_effective | -1 |  |  | $17.6M | 14.00 | 14.19 | 14.06 | +0.4% | -0.9% | +2.2% | +3.1% | 17 |
+| 2026-10-09 | TRXB | ipo_priced | +0 |  |  | $17.6M | 14.00 | 14.19 | 14.06 | +0.4% | -0.9% | +2.2% |  | 17 |
+| 2026-10-09 | VATE | 8k_lock_up | +0 | -3.1% | +0.3% | $689k | 7.22 | 7.09 | 5.92 | -18.0% | -16.5% | +2.2% |  | 17 |
+| 2026-10-09 | VDTA | activist_13d | +1 | -31.6% | +5.6% | $202k ⚠ | 3.80 | 3.85 | 3.49 | -8.2% | -9.3% | +2.2% | -11.5% | 17 |
+| 2026-10-09 | VJET | 8k_reverse_split | -1 | -32.7% | +12.9% | $1.4M | 1.14 | 1.09 | 0.62 | -45.6% | -43.1% | +2.2% | +45.3% | 17 |
+| 2026-10-09 | VSTD | delisting | +0 | +0.0% | +0.0% | $0k ⚠ | 0.00 | 0.00 | 0.00 | +30.0% | +0.0% | +2.2% |  | 16 |
+| 2026-10-09 | WBUY | activist_13d | +1 | -12.1% | -5.5% | $2.3M | 0.69 | 0.78 | 0.58 | -16.1% | -25.8% | +2.2% | -27.9% | 17 |
+| 2026-10-09 | XRPN | delisting | +0 | +3.3% | -29.4% | $45.4M | 17.09 | 16.68 | 15.06 | -11.9% | -9.7% | +2.2% |  | 17 |
+| 2026-10-10 | ACVA | merger_arb | +0 | -0.1% | +0.0% | $100.9M | 10.44 | 10.46 | 10.50 | +0.6% | +0.4% | +2.2% |  | 4 |
+| 2026-10-10 | CRMT | distress_avoid | +0 | +27.6% | +8.0% | $495k | 1.35 | 1.36 | 0.91 | -32.4% | -32.9% | +2.2% |  | 17 |
+| 2026-10-10 | MDT | exchange_offer_missed | +0 | +1.5% | +0.8% | $2371.3M | 88.48 | 90.76 | 95.36 | +7.8% | +5.1% | +2.2% |  | 17 |
+| 2026-10-10 | MSGS | spin_off | +0 | +2.0% | -1.2% | $125.9M | 302.94 | 304.49 | 300.32 | -0.9% | -1.4% | +2.2% |  | 16 |
+| 2026-10-10 | PCRX | merger_arb | +0 | +45.5% | -0.2% | $73.6M | 36.31 | 36.34 | 36.40 | +0.2% | +0.1% | +2.2% |  | 17 |
+| 2026-10-10 | SYNA | merger_arb | +0 | +12.2% | +0.6% | $126.7M | 119.82 | 119.82 | 118.12 | -1.4% | -1.4% | +2.2% |  | 17 |
+| 2026-10-12 | BORR | insider_cluster | +0 | +22.3% | +3.1% | $33.9M | 4.93 | 4.98 | 4.29 | -13.0% | -13.9% | +2.4% |  | 16 |
+| 2026-10-12 | CVX | linked_peer | +0 | +2.6% | +1.4% | $1971.6M | 215.00 | 217.00 | 230.85 | +7.4% | +6.4% | +2.4% |  | 16 |
+| 2026-10-12 | FEAM | holder_13d_not_activism | +0 | -6.2% | -8.2% | $3.9M | 3.34 | 3.32 | 2.44 | -26.8% | -26.4% | +2.4% |  | 16 |
+| 2026-10-12 | FWDI | linked_peer | +0 | -10.0% | -2.0% | $18.7M | 7.19 | 7.06 | 6.96 | -3.2% | -1.4% | +2.4% |  | 16 |
+| 2026-10-12 | HESM | deal_reaction | +0 | -14.5% | +0.3% | $82.6M | 32.37 | 32.27 | 32.10 | -0.8% | -0.5% | +2.4% |  | 16 |
+| 2026-10-12 | IMMR | insider_buy | +0 | +0.5% | -1.1% | $3.1M | 7.35 | 7.33 | 7.24 | -1.5% | -1.2% | +2.4% |  | 16 |
+| 2026-10-12 | NE | linked_peer | +0 | +4.1% | +1.4% | $51.3M | 42.94 | 43.61 | 47.68 | +11.0% | +9.3% | +2.4% |  | 16 |
+| 2026-10-12 | PUSA | holder_13g_supply | +0 | -18.2% | -11.0% | $3.6M | 2.30 | 2.30 | 1.80 | -21.6% | -21.6% | +2.4% |  | 16 |
+| 2026-10-12 | RIG | linked_peer | +0 | +6.6% | +1.6% | $221.6M | 5.60 | 5.64 | 6.76 | +20.7% | +19.9% | +2.4% |  | 16 |
+| 2026-10-12 | SDRL | linked_peer | +0 | +5.2% | +1.8% | $27.0M | 46.99 | 48.51 | 52.65 | +12.1% | +8.5% | +2.4% |  | 16 |
+| 2026-10-12 | SKYA | issuer_tender_intent | +0 | -1.1% | +42.9% | $6.2M | 2.60 | 2.51 | 2.93 | +12.7% | +16.7% | +2.4% |  | 16 |
+| 2026-10-12 | UMAC | linked_peer | +0 | -6.9% | -5.7% | $58.5M | 19.64 | 19.31 | 17.43 | -11.2% | -9.7% | +2.4% |  | 16 |
+| 2026-10-12 | VAL | linked_peer | +0 | +6.7% | +1.5% | $88.3M | 84.94 | 86.10 | 102.65 | +20.9% | +19.2% | +2.4% |  | 16 |
+| 2026-10-13 | ABCP | 8k_strategic_review | +1 | +9.3% | +0.0% | $1k ⚠ | 0.29 | 0.27 | 0.25 | -15.2% | -7.4% | +4.1% | -11.5% | 14 |
+| 2026-10-13 | ALBC | share_registration | -1 |  | +0.0% | $0k ⚠ | 0.45 | 0.45 | 0.43 | -4.4% | -4.4% | +4.1% | +8.5% | 14 |
+| 2026-10-13 | ALUR | delisting | +0 | +4.1% | +1.4% | $2k ⚠ | 0.52 | 0.40 | 0.02 | -95.9% | -94.8% | +4.1% |  | 14 |
+| 2026-10-13 | ARXS | share_registration | -1 | -4.7% | +4.5% | $63.0M | 49.91 | 48.77 | 53.82 | +7.8% | +10.3% | +4.1% | -6.3% | 15 |
+| 2026-10-13 | ATII | 8k_reverse_split | -1 | +0.0% | +0.1% | $5.2M | 10.71 | 10.60 | 4.22 | -60.6% | -60.2% | +4.1% | +64.3% | 14 |
+| 2026-10-13 | BBCI | activist_13d | +1 |  | -40.2% | $633k | 3.02 | 2.94 | 2.12 | -29.6% | -27.7% | +4.1% | -31.8% | 15 |
+| 2026-10-13 | BBLG | delisting | +0 | -6.2% | -5.5% | $157k ⚠ | 0.43 | 0.42 | 0.41 | -4.7% | -1.9% | +4.1% |  | 15 |
+| 2026-10-13 | BESS | registration_effective | -1 | +24.2% | -3.0% | $202k ⚠ | 2.24 | 2.23 | 2.15 | -4.0% | -3.6% | +4.1% | +7.7% | 15 |
+| 2026-10-13 | BMBL | merger_arb | +0 | +49.0% | +56.6% | $48.0M | 5.95 | 5.95 | 5.97 | +0.3% | +0.3% | +4.1% |  | 15 |
+| 2026-10-13 | BMBL | 8k_merger_agreement | +0 | +49.0% | +56.6% | $48.0M | 5.95 | 5.95 | 5.97 | +0.3% | +0.3% | +4.1% |  | 15 |
+| 2026-10-13 | BORR | activist_13d | +1 | +18.8% | -2.6% | $36.2M | 4.80 | 5.00 | 4.29 | -10.6% | -14.2% | +4.1% | -18.3% | 15 |
+| 2026-10-13 | BSEM | registration_effective | -1 | -11.4% | -7.8% | $660k | 2.25 | 2.16 | 1.41 | -37.2% | -34.6% | +4.1% | +38.7% | 15 |
+| 2026-10-13 | CANF | registration_effective | -1 | -8.9% | +0.0% | $89k ⚠ | 1.95 | 1.95 | 1.67 | -14.4% | -14.4% | +4.1% | +18.4% | 15 |
+| 2026-10-13 | CAPS | 8k_merger_agreement | +0 | -7.1% | -7.7% | $2.2M | 3.60 | 3.60 | 2.78 | -22.8% | -22.8% | +4.1% |  | 15 |
+| 2026-10-13 | CCXI | 8k_merger_agreement | +0 | -10.7% | +3.5% | $29.0M | 11.16 | 10.95 | 10.19 | -8.7% | -6.9% | +4.1% |  | 15 |
+| 2026-10-13 | CHRN | registration_effective | -1 | -3.9% | -8.8% | $2.4M | 16.31 | 16.00 | 16.69 | +2.3% | +4.3% | +4.1% | -0.2% | 15 |
+| 2026-10-13 | CIFR | 8k_lock_up | +0 | -16.0% | -12.8% | $596.0M | 11.34 | 10.74 | 8.55 | -24.6% | -20.4% | +4.1% |  | 15 |
+| 2026-10-13 | CLVT | 8k_tender_offer | +0 | +11.0% | -0.6% | $7.0M | 1.60 | 1.56 | 1.73 | +7.8% | +10.6% | +4.1% |  | 15 |
+| 2026-10-13 | COPL | 8k_lock_up | +0 | -0.1% | +0.0% | $185k ⚠ | 10.57 | 10.57 | 10.60 | +0.3% | +0.3% | +4.1% |  | 14 |
+| 2026-10-13 | CRCUF | activist_13d | +1 | -3.8% | -5.9% | $9k ⚠ | 0.48 | 0.49 | 0.46 | -4.2% | -6.1% | +4.1% | -10.2% | 14 |
+| 2026-10-13 | CVAT | 8k_tender_offer | +0 | +0.0% | -25.0% | $8k ⚠ | 0.03 | 0.03 | 0.03 | -10.0% | -10.0% | +4.1% |  | 15 |
+| 2026-10-13 | DAIC | 8k_reverse_split | -1 | -34.4% | -5.3% | $35.7M | 1.61 | 1.44 | 1.20 | -25.8% | -17.0% | +4.1% | +21.1% | 15 |
+| 2026-10-13 | EMAT | registration_effective | -1 | -28.5% | -3.1% | $5.1M | 1.42 | 1.47 | 1.94 | +36.1% | +32.0% | +4.1% | -27.9% | 15 |
+| 2026-10-13 | EQS | 8k_reverse_split | -1 | +11.4% | -4.5% | $10k ⚠ | 0.84 | 0.82 | 0.64 | -23.8% | -21.9% | +4.1% | +26.0% | 15 |
+| 2026-10-13 | FLEX | 8k_spin_off | +0 | +0.4% | -5.4% | $369.7M | 110.88 | 108.26 | 92.12 | -16.9% | -14.9% | +4.1% |  | 15 |
+| 2026-10-13 | GCTK | 8k_merger_agreement | +0 | +4.5% | -4.3% | $10.0M | 2.22 | 2.20 | 1.98 | -10.8% | -10.0% | +4.1% |  | 15 |
+| 2026-10-13 | GETY | 8k_strategic_review | +1 | -53.7% | +0.0% | $617k | 0.02 | 0.02 | 0.04 | +84.2% | +75.0% | +4.1% | +70.9% | 14 |
+| 2026-10-13 | GIW | 8k_merger_agreement | +0 | +0.1% | -0.1% | $1.1M | 10.18 | 10.21 | 10.19 | +0.1% | -0.2% | +4.1% |  | 15 |
+| 2026-10-13 | GRND | deal_peer | +0 | +11.6% | +2.4% | $28.4M | 15.47 | 15.39 | 12.99 | -16.0% | -15.6% | +4.1% |  | 15 |
+| 2026-10-13 | HCWB | registration_effective | -1 | -9.8% | -14.9% | $1.6M | 1.26 | 1.24 | 1.16 | -7.9% | -6.5% | +4.1% | +10.6% | 15 |
+| 2026-10-13 | HLSQ | 8k_reverse_split | -1 | -31.7% | -7.1% | $616k | 0.26 | 0.27 | 0.18 | -31.0% | -33.5% | +4.1% | +37.6% | 15 |
+| 2026-10-13 | HSPOF | 8k_tender_offer | +0 | +0.0% | +0.0% | $1k ⚠ | 11.99 | 11.99 | 12.29 | +2.5% | +2.5% | +4.1% |  | 14 |
+| 2026-10-13 | IONQ | 8k_merger_agreement | +0 | -15.6% | -4.2% | $1035.6M | 34.73 | 33.15 | 32.02 | -7.8% | -3.4% | +4.1% |  | 15 |
+| 2026-10-13 | ITGR | activist_13d | +1 | +0.1% | +0.1% | $115.2M | 126.59 | 126.67 | 126.60 | +0.0% | -0.1% | +4.1% | -4.1% | 15 |
+| 2026-10-13 | LCII | 8k_merger_agreement | +0 | -4.2% | +0.3% | $30.8M | 79.34 | 78.65 | 98.50 | +24.1% | +25.2% | +4.1% |  | 15 |
+| 2026-10-13 | LGMK | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.30 | 1.30 |  | +0.0% | +4.8% |  | 0 |
+| 2026-10-13 | LSCC | 8k_merger_agreement | +0 | -7.5% | -1.4% | $224.5M | 121.15 | 118.06 | 103.59 | -14.5% | -12.3% | +4.1% |  | 15 |
+| 2026-10-13 | MCFT | 8k_merger_agreement | +0 | -2.6% | +2.0% | $4.5M | 19.59 | 18.98 | 20.76 | +6.0% | +9.4% | +4.1% |  | 15 |
+| 2026-10-13 | MDT | tender_issuer_buyback | +1 | +4.5% | +1.2% | $2578.4M | 93.01 | 93.01 | 95.36 | +2.5% | +2.5% | +4.1% | -1.6% | 15 |
+| 2026-10-13 | MTCH | deal_peer | +0 | +3.0% | +2.0% | $144.3M | 42.36 | 42.42 | 42.76 | +0.9% | +0.8% | +4.1% |  | 15 |
+| 2026-10-13 | NEOV | registration_effective | -1 | -14.9% | -2.4% | $4.4M | 2.46 | 2.50 | 2.30 | -6.5% | -8.0% | +4.1% | +12.1% | 15 |
+| 2026-10-13 | NIKI | registration_effective | -1 | -36.1% | -13.1% | $144k ⚠ | 2.62 | 2.58 | 1.82 | -30.7% | -29.5% | +4.1% | +33.5% | 15 |
+| 2026-10-13 | OPNW | 8k_merger_agreement | +0 | -32.9% | -16.1% | $10.5M | 3.34 | 3.26 | 1.15 | -65.6% | -64.7% | +4.1% |  | 15 |
+| 2026-10-13 | ORBS | 8k_reverse_split | -1 | -21.7% | -2.5% | $17.4M | 0.82 | 0.82 | 0.82 | -0.1% | -0.0% | +4.1% | +4.1% | 15 |
+| 2026-10-13 | PATK | 8k_merger_agreement | +0 | -3.6% | +0.2% | $40.4M | 64.34 | 63.10 | 73.30 | +13.9% | +16.2% | +4.1% |  | 15 |
+| 2026-10-13 | PAXG | activist_13d | +1 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +3.5% | -4.4% | 5 |
+| 2026-10-13 | PUSA | activist_13d | +1 | -20.6% | -1.3% | $3.7M | 2.27 | 2.21 | 1.80 | -20.6% | -18.4% | +4.1% | -22.5% | 15 |
+| 2026-10-13 | QCOM | registration_effective | -1 | -3.5% | +1.4% | $2433.2M | 176.86 | 173.63 | 181.10 | +2.4% | +4.3% | +4.1% | -0.2% | 15 |
+| 2026-10-13 | QUMS | 8k_merger_agreement | +0 | +0.1% | +0.2% | $331k | 10.38 | 10.38 | 10.40 | +0.2% | +0.2% | +4.1% |  | 15 |
+| 2026-10-13 | RDAC | 8k_merger_agreement | +0 | +1.1% | -2.7% | $89k ⚠ | 5.43 | 5.32 | 5.11 | -5.9% | -4.0% | +4.1% |  | 14 |
+| 2026-10-13 | SBXDF | delisting | +0 | +2.8% | +0.0% | $21k ⚠ | 11.00 | 11.00 | 10.50 | -4.5% | -4.5% | +4.1% |  | 14 |
+| 2026-10-13 | SEV | registration_effective | -1 | +1.3% | -3.4% | $554k | 1.54 | 1.53 | 1.62 | +5.2% | +6.2% | +4.1% | -2.1% | 15 |
+| 2026-10-13 | SKYA | 8k_tender_offer | +0 | +39.0% | +0.4% | $6.5M | 2.61 | 2.57 | 2.93 | +12.3% | +14.0% | +4.1% |  | 15 |
+| 2026-10-13 | SKYD | 8k_merger_agreement | +0 | -6.3% | +1.2% | $337.9M | 9.27 | 7.60 | 7.86 | -15.2% | +3.5% | +4.1% |  | 15 |
+| 2026-10-13 | SODI | 8k_strategic_review | +1 | +5.4% | -0.0% | $70k ⚠ | 33.97 | 34.75 | 38.09 | +12.1% | +9.6% | +4.1% | +5.5% | 14 |
+| 2026-10-13 | SSRM | 8k_tender_offer | +0 | +4.5% | -6.6% | $84.2M | 33.10 | 32.00 | 28.74 | -13.2% | -10.2% | +4.1% |  | 15 |
+| 2026-10-13 | SVRE | registration_effective | -1 | -8.9% | -0.9% | $109k ⚠ | 1.12 | 1.12 | 0.79 | -29.4% | -29.4% | +4.1% | +33.5% | 15 |
+| 2026-10-13 | SYRA | registration_effective | -1 | +2.4% | +0.0% | $21k ⚠ | 0.85 | 0.80 | 0.81 | -4.7% | +1.3% | +4.1% | +2.8% | 15 |
+| 2026-10-13 | TARS | 8k_merger_agreement | +0 | -0.1% | -4.8% | $62.9M | 70.82 | 70.57 | 74.35 | +5.0% | +5.4% | +4.1% |  | 15 |
+| 2026-10-13 | TCBX | 8k_reverse_split | -1 | -2.8% | +0.2% | $4.4M | 41.78 | 40.97 | 40.67 | -2.7% | -0.7% | +4.1% | +4.8% | 15 |
+| 2026-10-13 | TCRT | 8k_merger_agreement | +0 | +31.2% | +188.6% | $42.4M | 3.03 | 3.68 | 2.01 | -33.7% | -45.4% | +4.1% |  | 15 |
+| 2026-10-13 | TNON | registration_effective | -1 | -19.5% | -3.0% | $14.1M | 2.89 | 2.82 | 2.25 | -22.1% | -20.2% | +4.1% | +24.3% | 15 |
+| 2026-10-13 | TRNR | 8k_spin_off | +0 | -7.0% | +7.7% | $92k ⚠ | 2.22 | 2.12 | 1.65 | -25.8% | -22.1% | +4.1% |  | 15 |
+| 2026-10-13 | TRXB | 8k_merger_agreement | +0 |  | -3.1% | $7.3M | 13.60 | 13.41 | 14.06 | +3.4% | +4.8% | +4.1% |  | 15 |
+| 2026-10-13 | UNH | 8k_strategic_review | +1 | -0.0% | -0.2% | $2072.7M | 377.76 | 382.29 | 408.98 | +8.3% | +7.0% | +4.1% | +2.9% | 15 |
+| 2026-10-13 | UPC | registration_effective | -1 | -4.8% | +3.4% | $202k ⚠ | 4.27 | 4.17 | 1.80 | -57.9% | -56.8% | +4.1% | +60.9% | 15 |
+| 2026-10-13 | UUUU | 8k_merger_agreement | +0 | -10.7% | -4.0% | $86.3M | 9.27 | 8.99 | 8.23 | -11.2% | -8.4% | +4.1% |  | 15 |
+| 2026-10-13 | VIP | delisting | +0 | -8.6% | -3.6% | $201k ⚠ | 1.34 | 1.33 | 1.29 | -3.7% | -3.0% | +4.1% |  | 15 |
+| 2026-10-13 | WEAV | 8k_merger_agreement | +0 | +0.3% | -0.1% | $11.9M | 7.37 | 7.38 | 7.40 | +0.4% | +0.3% | +4.1% |  | 9 |
+| 2026-10-13 | WSHP | ipo_priced | +0 | -3.9% | -4.3% | $981k | 4.48 | 4.29 | 2.40 | -46.3% | -43.9% | +4.1% |  | 15 |
+| 2026-10-13 | XPOF | 8k_strategic_review | +1 | +3.7% | +0.2% | $4.0M | 4.82 | 4.79 | 4.01 | -16.8% | -16.3% | +4.1% | -20.4% | 15 |
+| 2026-10-13 | ZPTA | 8k_reverse_split | -1 | +16.3% | +1.8% | $80k ⚠ | 0.58 | 0.56 | 0.79 | +35.8% | +40.6% | +4.1% | -36.5% | 15 |
+| 2026-10-14 | ACVA | tender_third_party | +0 | +0.3% | +0.3% | $82.2M | 10.50 | 10.50 | 10.50 | +0.0% | +0.0% | +4.8% |  | 1 |
+| 2026-10-14 | AMPY | linked_peer | +0 | +2.9% | -5.9% | $2.1M | 4.34 | 4.34 | 4.37 | +0.7% | +0.7% | +4.8% |  | 14 |
+| 2026-10-14 | BOW | merger_vote | +0 | +0.7% | -0.0% | $8.8M | 33.99 | 33.98 | 34.46 | +1.4% | +1.4% | +4.8% |  | 14 |
+| 2026-10-14 | BTLN | 8k_reverse_split | -1 | -2.0% | -3.7% | $192k ⚠ | 5.08 | 5.26 | 3.38 | -33.5% | -35.7% | +4.8% | +40.6% | 13 |
+| 2026-10-14 | CCO | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 2.42 | 2.42 |  | +0.0% | +4.8% |  | 0 |
+| 2026-10-14 | CMTL | 8k_strategic_review | +1 | +4.0% | -1.5% | $380k | 1.28 | 1.32 | 1.35 | +5.5% | +2.3% | +4.8% | -2.5% | 14 |
+| 2026-10-14 | CPRT | tender_third_party | +0 | -1.7% | -0.4% | $276.0M | 26.27 | 26.85 | 29.33 | +11.7% | +9.2% | +4.8% |  | 14 |
+| 2026-10-14 | DSGR | 8k_merger_agreement | +0 | +0.1% | -0.1% | $7.2M | 35.05 | 35.05 | 34.96 | -0.3% | -0.3% | +4.8% |  | 14 |
+| 2026-10-14 | FCPT | 8k_spin_off | +0 | +0.6% | -0.1% | $29.0M | 21.40 | 21.78 | 22.21 | +3.8% | +2.0% | +4.8% |  | 14 |
+| 2026-10-14 | FEAM | insider_cluster | +0 | -12.8% | -6.7% | $3.8M | 3.06 | 3.00 | 2.44 | -20.1% | -18.5% | +4.8% |  | 14 |
+| 2026-10-14 | FFAI | 8k_reverse_split | -1 | -3.5% | -2.7% | $9.3M | 1.08 | 0.91 | 0.47 | -56.4% | -48.2% | +4.8% | +53.1% | 14 |
+| 2026-10-14 | FFR | 8k_reverse_split | -1 | +5.1% | -10.3% | $4.1M | 1.30 | 1.29 | 1.10 | -15.8% | -15.1% | +4.8% | +19.9% | 14 |
+| 2026-10-14 | FLEX | 8k_spin_off | +0 | -8.7% | -9.5% | $378.7M | 100.35 | 96.10 | 92.12 | -8.2% | -4.1% | +4.8% |  | 14 |
+| 2026-10-14 | FLSC | registration_effective | -1 |  |  | $12.5M | 10.29 | 10.23 | 10.23 | -0.6% | +0.0% | +4.8% | +4.8% | 13 |
+| 2026-10-14 | FLSC | ipo_priced | +0 |  |  | $12.5M | 10.29 | 10.23 | 10.23 | -0.6% | +0.0% | +4.8% |  | 13 |
+| 2026-10-14 | FOXA | 8k_merger_agreement | +0 | +0.7% | -0.5% | $275.0M | 62.21 | 62.76 | 64.00 | +2.9% | +2.0% | +4.8% |  | 14 |
+| 2026-10-14 | FSP | activist_13d | +1 | +29.0% | -2.5% | $405k | 0.39 | 0.41 | 0.32 | -18.0% | -22.0% | +4.8% | -26.8% | 14 |
+| 2026-10-14 | FUSE | registration_effective | -1 | -12.9% | -7.4% | $1.8M | 0.36 | 0.38 | 0.37 | +1.6% | -3.5% | +4.8% | +8.3% | 14 |
+| 2026-10-14 | GRNT | linked_peer | +0 | +10.4% | -2.9% | $5.7M | 4.94 | 5.00 | 5.76 | +16.6% | +15.2% | +4.8% |  | 14 |
+| 2026-10-14 | HODO | registration_effective | -1 | -33.3% | -23.9% | $482k | 0.07 | 0.06 | 0.04 | -34.8% | -25.9% | +4.8% | +30.8% | 14 |
+| 2026-10-14 | ITGR | 8k_merger_agreement | +0 | +0.1% | +0.0% | $112.5M | 126.61 | 126.65 | 126.60 | -0.0% | -0.0% | +4.8% |  | 14 |
+| 2026-10-14 | KOS | linked_peer | +0 | +6.9% | -2.5% | $33.9M | 2.71 | 2.74 | 2.73 | +0.7% | -0.4% | +4.8% |  | 14 |
+| 2026-10-14 | LB | delisting | +0 | +2.0% | -5.3% | $19.3M | 82.66 | 82.20 | 83.40 | +0.9% | +1.5% | +4.8% |  | 14 |
+| 2026-10-14 | LBTYA | 8k_spin_off | +0 | -6.5% | -4.4% | $35.7M | 8.17 | 8.29 | 7.68 | -6.0% | -7.4% | +4.8% |  | 14 |
+| 2026-10-14 | LCII | merger_arb | +0 | -3.5% | -1.5% | $31.1M | 78.16 | 79.07 | 98.50 | +26.0% | +24.6% | +4.8% |  | 14 |
+| 2026-10-14 | LEXX | registration_effective | -1 | -13.6% | +0.7% | $227k ⚠ | 2.82 | 2.74 | 3.44 | +22.0% | +25.6% | +4.8% | -20.7% | 14 |
+| 2026-10-14 | LNTH | 8k_merger_agreement | +0 | +0.1% | -0.0% | $95.9M | 100.00 | 100.05 | 100.25 | +0.2% | +0.2% | +4.8% |  | 14 |
+| 2026-10-14 | MDA | activist_13d | +1 | -5.5% | -3.5% | $58.0M | 27.57 | 27.13 | 29.56 | +7.2% | +9.0% | +4.8% | +4.1% | 14 |
+| 2026-10-14 | MDT | tender_issuer_buyback | +1 | +6.8% | +1.3% | $2764.8M | 94.23 | 95.00 | 95.36 | +1.2% | +0.4% | +4.8% | -4.4% | 14 |
+| 2026-10-14 | MOB | registration_effective | -1 | -9.5% | -13.9% | $523k | 3.35 | 3.21 | 3.41 | +1.8% | +6.2% | +4.8% | -1.4% | 14 |
+| 2026-10-14 | MX | registration_effective | -1 | -17.2% | -6.0% | $6.4M | 2.67 | 2.63 | 2.61 | -2.2% | -0.8% | +4.8% | +5.6% | 14 |
+| 2026-10-14 | NATH | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +2.4% |  | 0 |
+| 2026-10-14 | NFG | 8k_spin_off | +0 | +3.5% | -2.3% | $83.0M | 79.20 | 80.14 | 79.75 | +0.7% | -0.5% | +4.8% |  | 14 |
+| 2026-10-14 | PACH | 8k_reverse_split | -1 | +0.1% | +0.0% | $1.7M | 10.37 | 10.36 | 10.38 | +0.1% | +0.2% | +4.8% | +4.6% | 13 |
+| 2026-10-14 | PALX | 8k_lock_up | +0 | -17.1% | +2.2% | $22k ⚠ | 14.32 | 14.00 | 14.01 | -2.2% | +0.1% | +4.8% |  | 8 |
+| 2026-10-14 | PATK | linked_peer | +0 | -3.5% | -1.6% | $42.5M | 63.31 | 64.28 | 73.30 | +15.8% | +14.0% | +4.8% |  | 14 |
+| 2026-10-14 | PAXG | 8k_tender_offer | +0 |  |  |  ⚠ |  | 9.90 | 9.81 |  | -0.9% | +3.5% |  | 5 |
+| 2026-10-14 | PED | insider_buy | +0 | +0.1% | -3.3% | $417k | 12.81 | 13.04 | 15.87 | +23.9% | +21.7% | +4.8% |  | 14 |
+| 2026-10-14 | PRIF-PD | delisting | +0 | -0.7% | +1.0% | $48k ⚠ | 24.66 | 24.61 | 24.98 | +1.3% | +1.5% | +4.8% |  | 14 |
+| 2026-10-14 | RIG | merger_vote | +0 | +4.6% | -1.2% | $211.8M | 5.58 | 5.61 | 6.76 | +21.1% | +20.5% | +4.8% |  | 14 |
+| 2026-10-14 | RTSN | activist_13d | +1 |  | +0.1% | $3.2M | 11.64 | 11.56 | 12.71 | +9.2% | +9.9% | +4.8% | +5.1% | 14 |
+| 2026-10-14 | SABR | 8k_tender_offer | +0 | -5.7% | -1.7% | $12.8M | 1.78 | 1.77 | 1.66 | -6.5% | -5.9% | +4.8% |  | 14 |
+| 2026-10-14 | SILO | 8k_lock_up | +0 | -15.9% | -1.6% | $191k ⚠ | 1.20 | 1.20 | 1.26 | +5.0% | +5.0% | +4.8% |  | 14 |
+| 2026-10-14 | SKIN | 8k_reverse_split | -1 | -7.7% | +6.8% | $241k ⚠ | 11.56 | 11.31 | 10.11 | -12.5% | -10.6% | +4.8% | +15.4% | 14 |
+| 2026-10-14 | SKYX | 8k_merger_agreement | +0 | -0.9% | -7.1% | $676k | 1.04 | 1.04 | 0.81 | -22.1% | -22.1% | +4.8% |  | 14 |
+| 2026-10-14 | STRR | 8k_merger_agreement | +0 | -0.2% | -1.6% | $65k ⚠ | 9.83 | 9.64 | 9.88 | +0.5% | +2.5% | +4.8% |  | 13 |
+| 2026-10-14 | TALO | holder_selling | +0 | +4.8% | -3.0% | $48.5M | 17.03 | 17.15 | 18.24 | +7.1% | +6.3% | +4.8% |  | 14 |
+| 2026-10-14 | TCPC | activist_13d | +1 | -0.3% | +2.5% | $2.9M | 4.08 | 4.08 | 4.16 | +2.1% | +2.1% | +4.8% | -2.7% | 14 |
+| 2026-10-14 | TDIC | activist_13d | +1 | -16.4% | +39.9% | $10.0M | 2.28 | 1.90 | 1.88 | -17.5% | -1.0% | +4.8% | -5.9% | 14 |
+| 2026-10-14 | THO | linked_peer | +0 | -3.5% | +0.4% | $65.9M | 65.47 | 66.93 | 72.93 | +11.4% | +9.0% | +4.8% |  | 14 |
+| 2026-10-14 | TROO | activist_13d | +1 | +0.0% | -2.4% | $312k | 1.63 | 1.61 | 2.17 | +33.1% | +34.8% | +4.8% | +30.0% | 14 |
+| 2026-10-14 | USGO | 8k_strategic_review | +1 | -7.6% | -6.8% | $702k | 5.66 | 5.64 | 5.44 | -3.9% | -3.5% | +4.8% | -8.4% | 14 |
+| 2026-10-14 | UUUU | deal_dispute | +0 | -17.7% | -10.0% | $88.6M | 8.34 | 8.10 | 8.23 | -1.3% | +1.7% | +4.8% |  | 14 |
+| 2026-10-14 | VAL | merger_vote | +0 | +4.3% | -1.0% | $85.0M | 84.73 | 83.97 | 102.65 | +21.1% | +22.2% | +4.8% |  | 14 |
+| 2026-10-14 | VDTA | registration_effective | -1 | +0.2% | -7.7% | $157k ⚠ | 3.76 | 3.55 | 3.49 | -7.3% | -1.7% | +4.8% | +6.5% | 14 |
+| 2026-10-14 | VSTM | 8k_reverse_split | -1 | -3.9% | +3.5% | $32.8M | 7.71 | 8.04 | 9.92 | +28.7% | +23.4% | +4.8% | -18.6% | 14 |
+| 2026-10-14 | WALD | registration_effective | -1 | -19.0% | -4.7% | $415k | 0.81 | 0.75 | 0.85 | +4.9% | +13.3% | +4.8% | -8.5% | 0 |
+| 2026-10-14 | WGO | linked_peer | +0 | -7.1% | -0.3% | $17.5M | 23.09 | 23.49 | 29.28 | +26.8% | +24.6% | +4.8% |  | 14 |
+| 2026-10-14 | WINA | 8k_special_dividend | +0 | -4.6% | +5.5% | $28.9M | 297.97 | 309.87 | 287.85 | -3.4% | -7.1% | +4.8% |  | 14 |
+| 2026-10-14 | WKSP | registration_effective | -1 | -0.3% | -3.1% | $136k ⚠ | 0.37 | 0.37 | 0.31 | -17.5% | -17.7% | +4.8% | +22.5% | 14 |
+| 2026-10-14 | WSHP | registration_effective | -1 | -10.2% | -14.7% | $1.0M | 3.82 | 3.61 | 2.40 | -37.0% | -33.4% | +4.8% | +38.2% | 14 |
+| 2026-10-14 | WSO | 8k_merger_agreement | +0 | +0.2% | +1.2% | $163.4M | 295.09 | 298.10 | 294.29 | -0.3% | -1.3% | +4.8% |  | 14 |
+| 2026-10-14 | WTI | linked_peer | +0 | +6.7% | -4.7% | $12.8M | 3.65 | 3.64 | 4.13 | +13.2% | +13.5% | +4.8% |  | 14 |
+| 2026-10-14 | YEXT | 8k_reverse_split | -1 | +6.7% | -0.4% | $5.7M | 6.97 | 7.00 | 7.19 | +3.2% | +2.7% | +4.8% | +2.1% | 14 |
+| 2026-10-14 | ZEO | registration_effective | -1 | -10.0% | -2.3% | $14.3M | 0.25 | 0.24 | 0.27 | +6.8% | +12.2% | +4.8% | -7.3% | 14 |
+| 2026-10-14 | ZTG | registration_effective | -1 | -28.4% | +12.3% | $6.9M | 0.63 | 0.58 | 0.62 | -1.5% | +6.4% | +4.8% | -1.6% | 14 |
+| 2026-10-15 | ADTX | 8k_lock_up | +0 | -33.3% | +50.0% | $47k ⚠ | 0.00 | 0.00 | 0.00 | -66.7% | +0.0% | +3.3% |  | 12 |
+| 2026-10-15 | AMRO | registration_effective | -1 |  |  | $3.5M | 4.41 | 4.43 | 5.95 | +34.9% | +34.3% | +3.3% | -31.1% | 13 |
+| 2026-10-15 | AMRO | ipo_priced | +0 |  |  | $3.5M | 4.41 | 4.43 | 5.95 | +34.9% | +34.3% | +3.3% |  | 13 |
+| 2026-10-15 | ASTS | linked_peer | +0 | -30.5% | +5.5% | $913.4M | 44.46 | 43.22 | 44.33 | -0.3% | +2.6% | +3.3% |  | 13 |
+| 2026-10-15 | ATCH | 8k_tender_offer | +0 | -8.9% | +7.9% | $2.0M | 0.18 | 0.17 | 0.16 | -10.1% | -6.3% | +3.3% |  | 13 |
+| 2026-10-15 | BKKT | delisting | +0 | -17.7% | -1.3% | $11.6M | 5.90 | 5.90 | 5.17 | -12.3% | -12.3% | +3.3% |  | 13 |
+| 2026-10-15 | BWIN | merger_vote | +0 | +0.3% | +0.0% | $96.9M | 31.93 | 31.97 | 31.97 | +0.1% | -0.0% | +3.3% |  | 13 |
+| 2026-10-15 | BZH | 8k_merger_agreement | +0 | -0.3% | +0.3% | $42.3M | 33.41 | 33.45 | 33.48 | +0.2% | +0.1% | +3.3% |  | 3 |
+| 2026-10-15 | CBAN | 8k_merger_agreement | +0 | -2.1% | +1.7% | $3.3M | 20.03 | 20.09 | 20.62 | +3.0% | +2.7% | +3.3% |  | 13 |
+| 2026-10-15 | CCC | 8k_merger_agreement | +0 | +16.6% | -0.1% | $211.0M | 7.63 | 7.64 | 7.67 | +0.6% | +0.4% | +3.3% |  | 13 |
+| 2026-10-15 | CRMT | 8k_strategic_review | +1 | +21.4% | -0.7% | $420k | 1.35 | 1.36 | 0.91 | -32.4% | -32.9% | +3.3% | -36.1% | 13 |
+| 2026-10-15 | CYN | 8k_reverse_split | -1 | -27.3% | +8.8% | $139k ⚠ | 0.48 | 0.48 | 0.38 | -20.0% | -19.5% | +3.3% | +22.7% | 13 |
+| 2026-10-15 | DVLT | 8k_merger_agreement | +0 | -13.3% | +7.7% | $5.3M | 0.14 | 0.14 | 0.08 | -40.0% | -40.0% | +3.3% |  | 13 |
+| 2026-10-15 | ESQ | 8k_merger_agreement | +0 | +1.9% | +0.9% | $20.5M | 118.95 | 119.17 | 128.06 | +7.7% | +7.5% | +3.3% |  | 13 |
+| 2026-10-15 | FBIN | 8k_strategic_review | +1 | +0.8% | +2.9% | $83.5M | 39.96 | 40.34 | 43.32 | +8.4% | +7.4% | +3.3% | +4.1% | 13 |
+| 2026-10-15 | FFAI | 8k_reverse_split | -1 | -1.8% | -23.3% | $9.4M | 0.83 | 0.82 | 0.47 | -43.2% | -42.8% | +3.3% | +46.0% | 13 |
+| 2026-10-15 | FLSC | 8k_tender_offer | +0 |  | +1.9% | $6.7M | 10.49 | 10.59 | 10.23 | -2.5% | -3.4% | +3.3% |  | 12 |
+| 2026-10-15 | FNGR | registration_effective | -1 | -10.3% | +1.6% | $8.9M | 0.19 | 0.18 | 0.15 | -19.6% | -18.7% | +3.3% | +22.0% | 13 |
+| 2026-10-15 | FOFO | registration_effective | -1 | +2.9% | +2.9% | $1.0M | 2.16 | 2.29 | 1.98 | -8.3% | -13.5% | +3.3% | +16.8% | 12 |
+| 2026-10-15 | GEMI | registration_effective | -1 | -13.8% | +0.3% | $14.9M | 3.88 | 3.80 | 3.10 | -20.1% | -18.4% | +3.3% | +21.7% | 13 |
+| 2026-10-15 | GGR | activist_13d | +1 | +3.7% | +1.3% | $78k ⚠ | 3.14 | 3.14 | 3.02 | -3.8% | -4.0% | +3.3% | -7.2% | 13 |
+| 2026-10-15 | GURE | 8k_reverse_split | -1 | +1.7% | +2.4% | $818k | 3.01 | 3.08 | 2.99 | -0.7% | -2.9% | +3.3% | +6.2% | 12 |
+| 2026-10-15 | IAM | registration_effective | -1 |  |  | $38.0M | 18.91 | 19.31 | 14.59 | -22.9% | -24.4% | +3.3% | +27.7% | 13 |
+| 2026-10-15 | IAM | ipo_priced | +0 |  |  | $38.0M | 18.91 | 19.31 | 14.59 | -22.9% | -24.4% | +3.3% |  | 13 |
+| 2026-10-15 | IMSR | insider_cluster | +0 | -19.5% | +9.5% | $6.3M | 3.22 | 3.24 | 3.39 | +5.3% | +4.6% | +3.3% |  | 13 |
+| 2026-10-15 | LEU | linked_peer | +0 | -18.5% | +5.9% | $111.7M | 127.01 | 123.65 | 112.38 | -11.5% | -9.1% | +3.3% |  | 13 |
+| 2026-10-15 | LUCY | 8k_reverse_split | -1 | -8.4% | +1.0% | $158k ⚠ | 0.84 | 0.85 | 0.84 | -0.2% | -0.9% | +3.3% | +4.2% | 13 |
+| 2026-10-15 | MACI | 8k_merger_agreement | +0 | +0.2% | +0.2% | $54k ⚠ | 11.10 | 11.08 | 8.72 | -21.4% | -21.3% | +3.3% |  | 13 |
+| 2026-10-15 | MBIO | 8k_reverse_split | -1 | -17.8% | +4.3% | $19k ⚠ | 0.39 | 0.40 | 0.38 | -0.3% | -4.2% | +3.3% | +7.5% | 13 |
+| 2026-10-15 | MDA | holder_13d | +0 | -4.9% | +4.0% | $58.1M | 28.67 | 28.68 | 29.56 | +3.1% | +3.1% | +3.3% |  | 13 |
+| 2026-10-15 | MG | merger_vote | +0 | -0.9% | -0.1% | $10.8M | 20.67 | 20.99 | 20.25 | -2.0% | -3.5% | +3.3% |  | 13 |
+| 2026-10-15 | MRK | delisting | +0 | +3.2% | -1.5% | $1488.5M | 145.19 | 146.96 | 147.49 | +1.6% | +0.4% | +3.3% |  | 13 |
+| 2026-10-15 | MXCT | activist_13d | +1 | +20.2% | +4.0% | $1.4M | 1.30 | 1.32 | 1.72 | +31.9% | +29.9% | +3.3% | +26.7% | 13 |
+| 2026-10-15 | NNE | linked_peer | +0 | -18.7% | +4.5% | $34.2M | 13.59 | 13.57 | 12.39 | -8.8% | -8.7% | +3.3% |  | 13 |
+| 2026-10-15 | OBAI | 8k_reverse_split | -1 | -10.5% | -17.6% | $291k | 2.80 | 2.80 | 2.05 | -26.8% | -26.8% | +3.3% | +30.1% | 13 |
+| 2026-10-15 | OKLO | linked_peer | +0 | -21.1% | +3.3% | $355.7M | 30.01 | 29.40 | 27.01 | -10.0% | -8.1% | +3.3% |  | 13 |
+| 2026-10-15 | OPTT | registration_effective | -1 | -31.2% | +4.5% | $899k | 0.69 | 0.68 | 0.39 | -43.1% | -42.3% | +3.3% | +45.5% | 13 |
+| 2026-10-15 | PAG | 8k_merger_agreement | +0 | +0.3% | +8.8% | $125.6M | 212.00 | 212.09 | 212.18 | +0.1% | +0.0% | +3.3% |  | 13 |
+| 2026-10-15 | PAII | 8k_reverse_split | -1 | -0.2% | -0.1% | $2.3M | 10.32 | 10.32 | 10.34 | +0.2% | +0.2% | +3.3% | +3.1% | 13 |
+| 2026-10-15 | PAPL | 8k_spin_off | +0 | -2.5% | +5.9% | $151k ⚠ | 0.91 | 0.92 | 0.96 | +5.3% | +4.1% | +3.3% |  | 12 |
+| 2026-10-15 | PL | linked_peer | +0 | -20.4% | +2.9% | $183.7M | 14.54 | 14.30 | 14.50 | -0.3% | +1.4% | +3.3% |  | 13 |
+| 2026-10-15 | RENX | registration_effective | -1 | -11.2% | +3.0% | $273k | 1.72 | 1.71 | 1.10 | -36.0% | -35.7% | +3.3% | +38.9% | 12 |
+| 2026-10-15 | RKLB | linked_peer | +0 | -17.7% | -6.6% | $1568.9M | 55.25 | 54.49 | 60.24 | +9.0% | +10.6% | +3.3% |  | 13 |
+| 2026-10-15 | ROKU | 8k_merger_agreement | +0 | -0.1% | +1.4% | $230.2M | 154.67 | 155.82 | 155.98 | +0.8% | +0.1% | +3.3% |  | 13 |
+| 2026-10-15 | RXRX | 8k_tender_offer | +0 | -12.4% | +11.2% | $135.5M | 4.16 | 4.11 | 4.36 | +4.7% | +6.0% | +3.3% |  | 13 |
+| 2026-10-15 | SKYA | 8k_tender_offer | +0 | +40.9% | +7.5% | $6.9M | 2.74 | 2.68 | 2.93 | +6.9% | +9.3% | +3.3% |  | 13 |
+| 2026-10-15 | SMR | linked_peer | +0 | -24.0% | +5.5% | $271.5M | 6.15 | 5.99 | 5.80 | -5.8% | -3.2% | +3.3% |  | 13 |
+| 2026-10-15 | SNTI | 8k_merger_agreement | +0 | -27.0% | +8.7% | $542k | 0.26 | 0.25 | 0.23 | -11.3% | -6.3% | +3.3% |  | 13 |
+| 2026-10-15 | SRTA | activist_13d | +1 | -8.5% | +1.4% | $4.1M | 4.34 | 4.55 | 4.81 | +10.8% | +5.7% | +3.3% | +2.5% | 13 |
+| 2026-10-15 | TCPC | activist_13d | +0 | +3.6% | +3.4% | $2.9M | 4.22 | 4.23 | 4.16 | -1.3% | -1.5% | +3.3% |  | 13 |
+| 2026-10-15 | TCRT | activist_13d | +1 | +146.4% | +5.3% | $50.1M | 2.18 | 2.81 | 2.01 | -7.8% | -28.5% | +3.3% | -31.7% | 13 |
+| 2026-10-15 | VBIO | 8k_spin_off | +0 | -33.8% | -15.2% | $10.9M | 1.23 | 1.23 | 0.70 | -43.2% | -43.2% | +3.3% |  | 13 |
+| 2026-10-15 | VRNS | 8k_merger_agreement | +0 | -3.9% | +0.6% | $76.4M | 47.34 | 48.67 | 48.86 | +3.2% | +0.4% | +3.3% |  | 13 |
+| 2026-10-15 | VVOS | 8k_reverse_split | -1 | -11.3% | +6.7% | $860k | 0.14 | 0.14 | 0.12 | -18.1% | -18.1% | +3.3% | +21.4% | 13 |
+| 2026-10-16 | AII | registration_effective | -1 | +2.7% | -0.7% | $5.2M | 27.50 | 27.44 | 28.59 | +4.0% | +4.2% | +4.7% | +0.5% | 10 |
+| 2026-10-16 | AIOK | activist_13d | +1 |  | +0.0% | $443k | 4.20 | 4.30 | 22.10 | +426.2% | +413.9% | +4.7% | +409.2% | 10 |
+| 2026-10-16 | ALEC | 8k_tender_offer | +0 | -5.4% | -3.7% | $13.6M | 1.84 | 1.85 | 2.28 | +23.6% | +23.0% | +4.7% |  | 10 |
+| 2026-10-16 | AMZE | share_registration | -1 | -22.2% | -7.1% | $264k | 0.01 | 0.01 | 0.01 | -15.4% | -26.7% | +4.7% | +31.3% | 10 |
+| 2026-10-16 | AMZE | 8k_reverse_split | -1 | -22.2% | -7.1% | $264k | 0.01 | 0.01 | 0.01 | -15.4% | -26.7% | +4.7% | +31.3% | 10 |
+| 2026-10-16 | ASST | 8k_lock_up | +0 | -9.1% | -6.1% | $248.4M | 24.09 | 24.75 | 26.22 | +8.8% | +5.9% | +4.7% |  | 10 |
+| 2026-10-16 | ATYR | 8k_reverse_split | -1 |  |  |  ⚠ |  | 4.87 | 5.05 |  | +3.8% | +2.4% | -1.5% | 2 |
+| 2026-10-16 | BLNK | 8k_lock_up | +0 | -7.1% | -4.3% | $662k | 0.42 | 0.43 | 0.42 | -0.9% | -2.0% | +4.7% |  | 10 |
+| 2026-10-16 | BMEZ | tender_issuer_buyback | +1 | +1.3% | -1.1% | $2.4M | 16.29 | 16.32 | 17.71 | +8.7% | +8.5% | +4.7% | +3.9% | 10 |
+| 2026-10-16 | CGC | 8k_reverse_split | -1 | -13.1% | -3.1% | $2.3M | 0.71 | 0.73 | 0.68 | -4.5% | -6.1% | +4.7% | +10.8% | 10 |
+| 2026-10-16 | CMTL | registration_effective | -1 | +22.9% | -4.1% | $423k | 1.39 | 1.34 | 1.35 | -2.9% | +0.8% | +4.7% | +3.9% | 10 |
+| 2026-10-16 | COCH | 8k_reverse_split | -1 | -2.0% | +3.6% | $43k ⚠ | 6.68 | 6.50 | 6.67 | -0.1% | +2.6% | +4.7% | +2.0% | 10 |
+| 2026-10-16 | CPRT | tender_third_party | +0 | +1.0% | +0.4% | $278.9M | 27.87 | 27.70 | 29.33 | +5.2% | +5.9% | +4.7% |  | 10 |
+| 2026-10-16 | CPRT | 8k_merger_agreement | +0 | +1.0% | +0.4% | $278.9M | 27.87 | 27.70 | 29.33 | +5.2% | +5.9% | +4.7% |  | 10 |
+| 2026-10-16 | CTY | registration_effective | -1 |  |  | $31.5M | 22.40 | 21.94 | 21.99 | -1.8% | +0.2% | +4.7% | +4.4% | 10 |
+| 2026-10-16 | CTY | ipo_priced | +0 |  |  | $31.5M | 22.40 | 21.94 | 21.99 | -1.8% | +0.2% | +4.7% |  | 10 |
+| 2026-10-16 | DAIC | 8k_lock_up | +0 | -50.2% | -9.2% | $4.3M | 1.19 | 1.15 | 1.20 | +0.4% | +3.9% | +4.7% |  | 10 |
+| 2026-10-16 | DLX | 8k_merger_agreement | +0 | -0.7% | +1.3% | $10.6M | 23.18 | 23.05 | 22.99 | -0.8% | -0.3% | +4.7% |  | 10 |
+| 2026-10-16 | EFSI | merger_vote | +0 | -0.1% | +0.3% | $1.4M | 45.89 | 45.91 | 46.51 | +1.4% | +1.3% | +4.7% |  | 10 |
+| 2026-10-16 | EHTH | 8k_reverse_split | -1 | -14.1% | -3.3% | $279k | 0.59 | 0.60 | 0.58 | -2.5% | -4.1% | +4.7% | +8.8% | 10 |
+| 2026-10-16 | ENSC | 8k_merger_agreement | +0 | +30.6% | -13.4% | $288k | 0.52 | 0.52 | 0.45 | -12.8% | -13.1% | +4.7% |  | 10 |
+| 2026-10-16 | ENVA | 8k_merger_agreement | +0 | -2.8% | +0.2% | $59.9M | 177.89 | 176.50 | 184.68 | +3.8% | +4.6% | +4.7% |  | 10 |
+| 2026-10-16 | ETN | 8k_spin_off | +0 | -5.2% | -2.8% | $882.3M | 391.25 | 400.00 | 395.88 | +1.2% | -1.0% | +4.7% |  | 10 |
+| 2026-10-16 | GLBS | registration_effective | -1 | -8.6% | -3.1% | $464k | 3.10 | 3.13 | 2.89 | -6.8% | -7.7% | +4.7% | +12.3% | 10 |
+| 2026-10-16 | GPRO | 8k_merger_agreement | +0 | -2.5% | -8.7% | $12.0M | 1.05 | 1.12 | 1.02 | -2.9% | -9.3% | +4.7% |  | 10 |
+| 2026-10-16 | HIT | registration_effective | -1 | -16.0% | +3.7% | $333k | 0.65 | 0.65 | 0.69 | +5.6% | +5.9% | +4.7% | -1.2% | 10 |
+| 2026-10-16 | HIT | 8k_reverse_split | -1 | -16.0% | +3.7% | $333k | 0.65 | 0.65 | 0.69 | +5.6% | +5.9% | +4.7% | -1.2% | 10 |
+| 2026-10-16 | INSW | 8k_reverse_split | -1 | -7.1% | -2.8% | $86.1M | 109.99 | 110.74 | 113.10 | +2.8% | +2.1% | +4.7% | +2.5% | 10 |
+| 2026-10-16 | IONQ | 8k_tender_offer | +0 | -12.9% | -8.9% | $1107.8M | 31.28 | 32.35 | 32.02 | +2.4% | -1.0% | +4.7% |  | 10 |
+| 2026-10-16 | IPW | share_registration | -1 | -57.2% | +1.8% | $3.8M | 4.81 | 5.16 | 2.30 | -52.2% | -55.4% | +4.7% | +60.1% | 10 |
+| 2026-10-16 | LHAI | activist_13d | +1 | -15.6% | -2.2% | $139k ⚠ | 0.85 | 0.78 | 1.02 | +20.0% | +30.6% | +4.7% | +25.9% | 10 |
+| 2026-10-16 | MDXG | 8k_merger_agreement | +0 | +1.3% | -5.3% | $5.2M | 4.43 | 4.44 | 3.62 | -18.2% | -18.4% | +4.7% |  | 10 |
+| 2026-10-16 | MG | merger_arb | +0 | -0.1% | +3.8% | $8.6M | 21.46 | 21.52 | 20.25 | -5.6% | -5.9% | +4.7% |  | 10 |
+| 2026-10-16 | NNUP | share_registration | -1 | +3.6% | -2.9% | $1k ⚠ | 1.70 | 1.70 | 1.60 | -5.9% | -5.9% | +4.7% | +10.6% | 9 |
+| 2026-10-16 | NXL | registration_effective | -1 | -40.4% | -4.1% | $24.2M | 2.35 | 2.37 | 1.64 | -30.1% | -30.7% | +4.7% | +35.4% | 10 |
+| 2026-10-16 | OMEX | 8k_merger_agreement | +0 | -2.4% | +0.0% | $197k ⚠ | 16.00 | 15.85 | 13.24 | -17.3% | -16.5% | +4.7% |  | 10 |
+| 2026-10-16 | PBAM | 8k_special_dividend | +0 | -1.5% | -2.2% | $9.2M | 82.30 | 83.18 | 86.00 | +4.5% | +3.4% | +4.7% |  | 10 |
+| 2026-10-16 | PINE | registration_effective | -1 | +0.0% | +0.3% | $3.0M | 17.93 | 17.83 | 16.25 | -9.4% | -8.9% | +4.7% | +13.6% | 10 |
+| 2026-10-16 | PLUR | registration_effective | -1 | -6.0% | -1.1% | $14k ⚠ | 0.93 | 0.90 | 1.27 | +36.1% | +40.7% | +4.7% | -36.0% | 10 |
+| 2026-10-16 | POLA | 8k_reverse_split | -1 | -11.1% | -12.5% | $208k ⚠ | 0.84 | 0.91 | 0.65 | -22.6% | -28.6% | +4.7% | +33.2% | 10 |
+| 2026-10-16 | PUSA | 8k_merger_agreement | +0 | -12.9% | -7.2% | $3.7M | 2.06 | 2.04 | 1.80 | -12.5% | -11.6% | +4.7% |  | 10 |
+| 2026-10-16 | RGR | tender_third_party | +0 | -1.5% | +1.0% | $20.5M | 43.38 | 43.70 | 46.11 | +6.3% | +5.5% | +4.7% |  | 10 |
+| 2026-10-16 | SEAT | delisting | +0 | -10.8% | -3.7% | $293k | 2.87 | 2.91 | 2.41 | -15.8% | -17.0% | +4.7% |  | 10 |
+| 2026-10-16 | SKYA | tender_issuer | +0 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.93 | +10.6% | +6.5% | +4.7% |  | 10 |
+| 2026-10-16 | SKYA | tender_issuer_buyback | +1 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.93 | +10.6% | +6.5% | +4.7% | +1.9% | 10 |
+| 2026-10-16 | SKYD | 8k_merger_agreement | +0 | -21.8% | -4.8% | $336.8M | 6.91 | 6.89 | 7.86 | +13.8% | +14.2% | +4.7% |  | 10 |
+| 2026-10-16 | SMTI | 8k_merger_agreement | +0 | +0.1% | -5.5% | $7.0M | 33.16 | 32.89 | 33.02 | -0.4% | +0.4% | +4.7% |  | 10 |
+| 2026-10-16 | SRTA | activist_13d | +0 | -2.9% | +4.6% | $4.2M | 4.54 | 4.56 | 4.81 | +6.0% | +5.5% | +4.7% |  | 10 |
+| 2026-10-16 | SVIA | registration_effective | -1 | +3.2% | -5.9% | $7.9M | 3.66 | 3.66 | 3.29 | -10.2% | -10.2% | +4.7% | +14.9% | 10 |
+| 2026-10-16 | TCXB | registration_effective | -1 |  |  | $7.6M | 10.86 | 10.60 | 10.27 | -5.4% | -3.1% | +4.7% | +7.8% | 9 |
+| 2026-10-16 | TCXB | ipo_priced | +0 |  |  | $7.6M | 10.86 | 10.60 | 10.27 | -5.4% | -3.1% | +4.7% |  | 9 |
+| 2026-10-16 | TFC | 8k_strategic_review | +1 | +0.8% | +1.1% | $395.8M | 47.07 | 46.81 | 49.25 | +4.6% | +5.2% | +4.7% | +0.5% | 10 |
+| 2026-10-16 | TRXB | activist_13d | +1 |  | -1.1% | $4.9M | 14.01 | 14.28 | 14.06 | +0.4% | -1.5% | +4.7% | -6.2% | 10 |
+| 2026-10-16 | VCTR | merger_vote | +0 | -2.2% | -0.6% | $66.8M | 108.60 | 109.03 | 113.67 | +4.7% | +4.3% | +4.7% |  | 10 |
+| 2026-10-16 | WHK | share_registration | -1 | -5.1% | +3.7% | $6.4M | 25.96 | 26.00 | 26.84 | +3.4% | +3.2% | +4.7% | +1.4% | 10 |
+| 2026-10-18 | ALEC | below_cash | +0 | -5.4% | -3.7% | $13.6M | 1.84 | 1.85 | 2.28 | +23.6% | +23.0% | +4.7% |  | 10 |
+| 2026-10-18 | BMEZ | tender_issuer_buyback | +0 | +1.3% | -1.1% | $2.4M | 16.29 | 16.32 | 17.71 | +8.7% | +8.5% | +4.7% |  | 10 |
+| 2026-10-18 | BYRN | insider_buy | +0 | +1.1% | +1.3% | $2.9M | 4.84 | 5.04 | 4.67 | -3.5% | -7.3% | +4.7% |  | 10 |
+| 2026-10-18 | GPRO | merger_arb | +0 | -2.5% | -8.7% | $12.0M | 1.05 | 1.12 | 1.02 | -2.9% | -9.3% | +4.7% |  | 10 |
+| 2026-10-18 | MDXG | linked_peer | +0 | +1.3% | -5.3% | $5.2M | 4.43 | 4.44 | 3.62 | -18.2% | -18.4% | +4.7% |  | 10 |
+| 2026-10-18 | SKYA | tender_issuer | +0 | +62.1% | -3.3% | $7.1M | 2.65 | 2.75 | 2.93 | +10.6% | +6.5% | +4.7% |  | 10 |
+| 2026-10-18 | SMTI | merger_arb | +0 | +0.1% | -5.5% | $7.0M | 33.16 | 32.89 | 33.02 | -0.4% | +0.4% | +4.7% |  | 10 |
+| 2026-10-19 | AES | 8k_merger_agreement | +0 | +0.1% | +0.1% | $144.9M | 14.96 | 14.97 | 15.01 | +0.4% | +0.3% | +4.8% |  | 9 |
+| 2026-10-19 | AIAI | share_registration | -1 | -15.7% | +2.2% | $993k | 2.74 | 2.68 | 1.30 | -52.5% | -51.5% | +4.8% | +56.3% | 9 |
+| 2026-10-19 | AIRE | 8k_merger_agreement | +0 | -12.1% | +0.3% | $41k ⚠ | 0.99 | 0.95 | 0.78 | -21.0% | -17.9% | +4.8% |  | 9 |
+| 2026-10-19 | ASTL | delisting | +0 | -6.3% | +2.5% | $3.1M | 4.13 | 4.12 | 5.03 | +21.7% | +22.0% | +4.8% |  | 9 |
+| 2026-10-19 | ATII | 8k_merger_agreement | +0 | -13.1% | -8.0% | $4.2M | 8.55 | 8.45 | 4.22 | -50.6% | -50.1% | +4.8% |  | 8 |
+| 2026-10-19 | AZI | registration_effective | -1 | -9.6% | +1.0% | $52k ⚠ | 1.04 | 1.05 | 0.82 | -21.0% | -22.1% | +4.8% | +26.9% | 9 |
+| 2026-10-19 | BOF | registration_effective | -1 | -36.7% | +1.4% | $222k ⚠ | 2.22 | 2.22 | 1.80 | -18.7% | -18.7% | +4.8% | +23.5% | 9 |
+| 2026-10-19 | BULL | registration_effective | -1 | -3.8% | -2.8% | $94.1M | 5.90 | 5.84 | 5.41 | -8.3% | -7.4% | +4.8% | +12.1% | 9 |
+| 2026-10-19 | CDNL | 8k_merger_agreement | +0 | -30.8% | +8.5% | $24.8M | 15.87 | 15.80 | 15.98 | +0.7% | +1.1% | +4.8% |  | 9 |
+| 2026-10-19 | CISS | registration_effective | -1 | -31.9% | +3.0% | $634k | 0.55 | 0.54 | 0.51 | -7.5% | -6.1% | +4.8% | +10.9% | 9 |
+| 2026-10-19 | CNTM | 8k_lock_up | +0 | +7.1% | +8.9% | $21k ⚠ | 4.90 | 4.93 | 4.48 | -8.6% | -9.2% | +4.8% |  | 8 |
+| 2026-10-19 | CURLF | 8k_tender_offer | +0 | -16.6% | -2.6% | $2.4M | 7.63 | 7.64 | 8.75 | +14.7% | +14.5% | +4.8% |  | 9 |
+| 2026-10-19 | CYAB | registration_effective | -1 | -26.3% | +7.1% | $1.2M | 0.15 | 0.15 | 0.13 | -14.1% | -14.1% | +4.8% | +18.9% | 9 |
+| 2026-10-19 | DCOY | registration_effective | -1 | -20.4% | +0.0% | $22.0M | 1.17 | 1.17 | 1.24 | +6.0% | +6.0% | +4.8% | -1.2% | 9 |
+| 2026-10-19 | ENHA | 8k_reverse_split | -1 | -2.4% | -4.1% | $1.1M | 11.70 | 11.60 | 12.06 | +3.1% | +4.0% | +4.8% | +0.8% | 9 |
+| 2026-10-19 | GPRO | merger_vote | +0 | -11.8% | -1.0% | $11.6M | 1.04 | 1.03 | 1.02 | -1.9% | -1.4% | +4.8% |  | 9 |
+| 2026-10-19 | HERZ | tender_issuer_buyback | +1 | +0.7% | +0.5% | $236k ⚠ | 15.14 | 14.86 | 13.91 | -8.1% | -6.4% | +4.8% | -11.2% | 8 |
+| 2026-10-19 | HSCS | merger_vote | +0 | -5.0% | +1.7% | $996k | 3.07 | 3.02 | 3.36 | +9.4% | +11.3% | +4.8% |  | 9 |
+| 2026-10-19 | JEF | 8k_spin_off | +0 | +0.9% | -2.7% | $116.1M | 43.60 | 43.80 | 48.87 | +12.1% | +11.6% | +4.8% |  | 9 |
+| 2026-10-19 | LCII | merger_vote | +0 | +7.1% | -2.3% | $30.0M | 81.92 | 81.90 | 98.50 | +20.2% | +20.3% | +4.8% |  | 9 |
+| 2026-10-19 | LXP | 8k_merger_agreement | +0 | +0.1% | +0.0% | $60.6M | 61.08 | 61.10 | 61.18 | +0.2% | +0.1% | +4.8% |  | 9 |
+| 2026-10-19 | MOBX | 8k_merger_agreement | +0 | -15.6% | -2.0% | $10.0M | 0.75 | 0.74 | 0.74 | -1.3% | -0.5% | +4.8% |  | 9 |
+| 2026-10-19 | MYPS | 8k_reverse_split | -1 | -3.6% | -2.3% | $248k ⚠ | 3.87 | 3.82 | 4.87 | +25.8% | +27.5% | +4.8% | -22.7% | 9 |
+| 2026-10-19 | NIMU | 8k_merger_agreement | +0 | -18.8% | +0.0% | $1k ⚠ | 10.81 | 10.81 | 10.81 | +0.0% | +0.0% | +4.8% |  | 8 |
+| 2026-10-19 | NWCL | registration_effective | -1 | -21.3% | -19.2% | $2.1M | 4.75 | 4.80 | 4.59 | -3.5% | -4.5% | +4.8% | +9.3% | 9 |
+| 2026-10-19 | OPNW | 8k_merger_agreement | +0 | -40.5% | -18.4% | $2.7M | 2.17 | 2.11 | 1.15 | -47.0% | -45.5% | +4.8% |  | 9 |
+| 2026-10-19 | PUMP | 8k_spin_off | +0 | -15.0% | +0.9% | $36.9M | 7.80 | 7.77 | 7.98 | +2.3% | +2.7% | +4.8% |  | 9 |
+| 2026-10-19 | QNME | registration_effective | -1 | -29.8% | +2.9% | $10.8M | 0.54 | 0.54 | 0.45 | -15.9% | -16.2% | +4.8% | +21.0% | 9 |
+| 2026-10-19 | QSEA | 8k_tender_offer | +0 | -0.5% | +0.6% | $167k ⚠ | 10.72 | 10.72 | 10.71 | -0.1% | -0.1% | +4.8% |  | 8 |
+| 2026-10-19 | RBB | 8k_special_dividend | +0 | +1.3% | -1.2% | $2.3M | 25.45 | 26.73 | 26.36 | +3.6% | -1.4% | +4.8% |  | 9 |
+| 2026-10-19 | REKR | 8k_reverse_split | -1 | -1.8% | -9.4% | $633k | 0.30 | 0.31 | 0.39 | +30.0% | +25.8% | +4.8% | -21.0% | 9 |
+| 2026-10-19 | RMCF | 8k_strategic_review | +1 | -12.5% | +2.2% | $100k ⚠ | 0.93 | 0.91 | 0.81 | -12.9% | -11.0% | +4.8% | -15.8% | 8 |
+| 2026-10-19 | RNTZ | activist_13d | +1 | -16.9% | +1.5% | $319k | 4.60 | 4.60 | 4.35 | -5.5% | -5.5% | +4.8% | -10.3% | 9 |
+| 2026-10-19 | SDST | 8k_strategic_review | +1 | -46.4% | -13.3% | $7.6M | 0.03 | 0.02 | 0.01 | -76.9% | -64.7% | +4.8% | -69.5% | 9 |
+| 2026-10-19 | SKYA | 8k_tender_offer | +0 | +45.6% | +5.3% | $7.4M | 2.79 | 2.80 | 2.93 | +5.0% | +4.6% | +4.8% |  | 9 |
+| 2026-10-19 | SLE | 8k_lock_up | +0 | -10.0% | +6.9% | $665k | 4.80 | 4.97 | 4.95 | +3.1% | -0.4% | +4.8% |  | 9 |
+| 2026-10-19 | SLN | 8k_strategic_review | +1 | -12.0% | +125.6% | $81.1M | 19.58 | 19.58 | 19.72 | +0.7% | +0.7% | +4.8% | -4.1% | 9 |
+| 2026-10-19 | SYNA | merger_vote | +0 | -2.2% | -0.1% | $149.6M | 117.05 | 117.20 | 118.12 | +0.9% | +0.8% | +4.8% |  | 9 |
+| 2026-10-19 | TCGX | 8k_tender_offer | +0 | -1.7% | -18.5% | $1.0M | 10.02 | 10.03 | 10.08 | +0.6% | +0.5% | +4.8% |  | 9 |
+| 2026-10-19 | TCXB | 8k_tender_offer | +0 |  | -4.2% | $4.4M | 10.40 | 10.39 | 10.27 | -1.2% | -1.1% | +4.8% |  | 8 |
+| 2026-10-19 | TW | 8k_merger_agreement | +0 | +2.2% | +1.1% | $134.9M | 114.70 | 116.13 | 119.61 | +4.3% | +3.0% | +4.8% |  | 9 |
+| 2026-10-19 | VGZ | merger_vote | +0 | +2.6% | +0.0% | $6.7M | 2.72 | 2.71 | 2.64 | -2.8% | -2.4% | +4.8% |  | 9 |
+| 2026-10-19 | VVOS | 8k_reverse_split | -1 | -12.1% | +3.1% | $1.2M | 0.14 | 0.13 | 0.12 | -13.3% | -10.6% | +4.8% | +15.4% | 9 |
+| 2026-10-20 | ACB | merger_hostile | +0 | -9.0% | +0.3% | $4.8M | 3.97 | 3.98 | 4.09 | +3.0% | +2.8% | +2.8% |  | 8 |
+| 2026-10-20 | ACOG | insider_buy | +0 | -3.8% | +1.3% | $827k | 8.61 | 8.60 | 9.29 | +7.9% | +8.0% | +2.8% |  | 8 |
+| 2026-10-20 | ASPC | 8k_tender_offer | +0 | +0.9% | -0.9% | $38k ⚠ | 10.77 | 10.78 | 10.62 | -1.4% | -1.5% | +2.8% |  | 8 |
+| 2026-10-20 | BCAB | share_registration | -1 | +4.8% | +1.5% | $11k ⚠ | 1.33 | 1.34 | 2.00 | +50.4% | +49.2% | +2.8% | -46.5% | 7 |
+| 2026-10-20 | BMM | strategic_placement | +0 | -10.8% | +0.2% | $1.2M | 4.30 | 4.33 | 4.33 | +0.7% | +0.0% | +2.8% |  | 8 |
+| 2026-10-20 | BRUN | registration_effective | -1 | -25.5% | -3.5% | $39.7M | 8.47 | 8.85 | 8.35 | -1.5% | -5.7% | +2.8% | +8.5% | 8 |
+| 2026-10-20 | BRZE | 8k_merger_agreement | +0 | +3.4% | +51.7% | $197.6M | 45.57 | 45.52 | 45.74 | +0.4% | +0.5% | +2.8% |  | 8 |
+| 2026-10-20 | CLRCF | 8k_merger_agreement | +0 | +0.0% | +0.0% | $0k ⚠ | 12.75 | 12.75 | 12.75 | +0.0% | +0.0% | +2.8% |  | 7 |
+| 2026-10-20 | DCOM | 8k_merger_agreement | +0 | +0.5% | +6.0% | $15.3M | 41.01 | 40.86 | 42.47 | +3.6% | +4.0% | +2.8% |  | 8 |
+| 2026-10-20 | DFH | 8k_merger_agreement | +0 | -3.1% | +10.9% | $15.3M | 9.59 | 9.49 | 9.94 | +3.6% | +4.7% | +2.8% |  | 8 |
+| 2026-10-20 | DIBS | holder_13d | +0 | +15.8% | +1.2% | $501k | 4.30 | 4.30 | 4.74 | +10.2% | +10.2% | +2.8% |  | 8 |
+| 2026-10-20 | DMLP | 8k_lock_up | +0 | +1.1% | +0.4% | $2.3M | 30.16 | 30.11 | 30.80 | +2.1% | +2.3% | +2.8% |  | 8 |
+| 2026-10-20 | DV | 8k_merger_agreement | +0 | -0.1% | +0.1% | $26.5M | 13.53 | 13.53 | 13.57 | +0.3% | +0.3% | +2.8% |  | 8 |
+| 2026-10-20 | FBLG | registration_effective | -1 | -5.6% | -2.5% | $164k | 0.92 | 0.90 | 0.99 | +7.6% | +10.0% | +2.8% | -7.2% | 8 |
+| 2026-10-20 | GPRO | merger_arb | +0 | -12.6% | +5.8% | $11.5M | 1.10 | 1.11 | 1.02 | -7.3% | -7.7% | +2.8% |  | 8 |
+| 2026-10-20 | GRDX | registration_effective | -1 | -5.8% | +5.5% | $411k | 4.63 | 4.55 | 5.45 | +17.7% | +19.8% | +2.8% | -17.0% | 8 |
+| 2026-10-20 | HERZ | tender_issuer_buyback | +1 | +0.3% | -1.9% | $220k | 14.85 | 14.80 | 13.91 | -6.3% | -6.0% | +2.8% | -8.8% | 7 |
+| 2026-10-20 | HII | 8k_spin_off | +0 | +2.1% | +1.0% | $140.0M | 272.23 | 275.69 | 303.80 | +11.6% | +10.2% | +2.8% |  | 8 |
+| 2026-10-20 | LFCR | 8k_merger_agreement | +0 | -0.8% | -0.3% | $5.0M | 6.37 | 6.40 | 6.47 | +1.6% | +1.2% | +2.8% |  | 8 |
+| 2026-10-20 | MBRX | 8k_reverse_split | -1 | -36.0% | +16.8% | $380k | 6.19 | 6.00 | 8.44 | +36.4% | +40.7% | +2.8% | -37.9% | 8 |
+| 2026-10-20 | MCAG | merger_vote | +0 | +0.0% | +0.0% | $0k ⚠ | 13.27 | 13.27 | 13.27 | +0.0% | +0.0% | +2.8% |  | 7 |
+| 2026-10-20 | MEDS | 8k_lock_up | +0 | -13.0% | +3.0% | $21.2M | 2.75 | 2.70 | 2.08 | -24.6% | -23.1% | +2.8% |  | 8 |
+| 2026-10-20 | MMM | 8k_spin_off | +0 | +0.7% | +5.8% | $516.6M | 171.37 | 172.00 | 175.46 | +2.4% | +2.0% | +2.8% |  | 8 |
+| 2026-10-20 | MMS | 8k_tender_offer | +0 | +4.2% | -0.4% | $41.9M | 61.09 | 60.96 | 62.47 | +2.2% | +2.5% | +2.8% |  | 8 |
+| 2026-10-20 | MSBI | registration_effective | -1 | -1.7% | +2.4% | $5.4M | 32.56 | 32.64 | 34.50 | +6.0% | +5.7% | +2.8% | -2.9% | 8 |
+| 2026-10-20 | MWYN | 8k_reverse_split | -1 | +71.0% | +14.4% | $451k | 2.70 | 2.48 | 1.45 | -46.5% | -41.7% | +2.8% | +44.5% | 8 |
+| 2026-10-20 | MYGN | 8k_strategic_review | +1 | +0.2% | +31.6% | $13.4M | 5.54 | 5.60 | 6.51 | +17.5% | +16.2% | +2.8% | +13.5% | 8 |
+| 2026-10-20 | NGTF | 8k_reverse_split | -1 | -7.9% | -9.7% | $24k ⚠ | 3.25 | 3.50 | 4.67 | +43.6% | +33.3% | +2.8% | -30.6% | 7 |
+| 2026-10-20 | NUMD | 8k_reverse_split | -1 | -18.6% | +0.0% | $0k ⚠ | 0.01 | 0.01 | 0.01 | +0.0% | +0.0% | +2.8% | +2.8% | 7 |
+| 2026-10-20 | NWCL | registration_effective | +0 | -35.5% | -9.9% | $2.0M | 4.28 | 4.50 | 4.59 | +7.1% | +1.9% | +2.8% |  | 8 |
+| 2026-10-20 | PEBO | 8k_merger_agreement | +0 | +1.0% | +3.0% | $18.1M | 37.56 | 37.63 | 38.90 | +3.6% | +3.4% | +2.8% |  | 8 |
+| 2026-10-20 | PWDY | share_registration | -1 | +0.0% | -29.4% | $4k ⚠ | 0.00 | 0.00 | 0.00 | +0.0% | +0.0% | +2.8% | +2.8% | 7 |
+| 2026-10-20 | RGR | tender_third_party | +0 | +4.5% | +6.2% | $22.4M | 48.74 | 49.00 | 46.11 | -5.4% | -5.9% | +2.8% |  | 8 |
+| 2026-10-20 | SHFS | 8k_reverse_split | -1 | -76.6% | -4.3% | $2.0M | 0.09 | 0.15 | 0.08 | -13.3% | -49.4% | +2.8% | +52.1% | 8 |
+| 2026-10-20 | SKYA | tender_issuer_buyback | +1 | +7.3% | +1.4% | $7.8M | 2.83 | 2.83 | 2.93 | +3.5% | +3.5% | +2.8% | +0.8% | 8 |
+| 2026-10-20 | SLGN | 8k_spin_off | +0 | +13.7% | -0.4% | $49.0M | 39.90 | 39.84 | 38.96 | -2.4% | -2.2% | +2.8% |  | 8 |
+| 2026-10-20 | SSTI | tender_third_party | +0 | -0.6% | +1.4% | $2.9M | 8.40 | 8.39 | 8.40 | +0.0% | +0.1% | +2.8% |  | 8 |
+| 2026-10-20 | XFLT | tender_issuer_buyback | +1 | -6.4% | -3.7% | $2.0M | 17.04 | 17.00 | 16.02 | -6.0% | -5.8% | +2.8% | -8.5% | 8 |
+| 2026-10-20 | XRPN | registration_effective | -1 | -9.9% | -2.5% | $51.1M | 14.85 | 14.88 | 15.06 | +1.4% | +1.2% | +2.8% | +1.5% | 8 |
+| 2026-10-20 | XTER | 8k_tender_offer | +0 | -0.1% | +0.0% | $763k | 9.78 | 9.78 | 9.79 | +0.1% | +0.1% | +2.8% |  | 7 |
+| 2026-10-20 | XWEL | 8k_reverse_split | -1 | -12.2% | -9.7% | $41k ⚠ | 0.65 | 0.68 | 0.74 | +13.2% | +8.2% | +2.8% | -5.5% | 8 |
+| 2026-10-20 | YOUL | registration_effective | -1 | -19.4% | +0.4% | $67k ⚠ | 0.28 | 0.26 | 0.24 | -14.3% | -6.4% | +2.8% | +9.2% | 8 |
+| 2026-10-21 | AERG | registration_effective | -1 | +0.6% | +8.4% | $106k ⚠ | 0.89 | 0.90 | 0.87 | -2.1% | -3.2% | +3.5% | +6.8% | 6 |
+| 2026-10-21 | ATII | delisting | +0 | -33.1% | +36.8% | $4.2M | 9.81 | 11.55 | 4.22 | -57.0% | -63.5% | +3.5% |  | 6 |
+| 2026-10-21 | BGX | activist_13d | +1 | -1.2% | +1.1% | $1.0M | 10.49 | 10.42 | 10.56 | +0.7% | +1.3% | +3.5% | -2.2% | 7 |
+| 2026-10-21 | BRUN | supply_resale | +0 | -26.2% | -0.8% | $40.3M | 8.40 | 8.14 | 8.35 | -0.7% | +2.5% | +3.5% |  | 7 |
+| 2026-10-21 | CAPS | 8k_reverse_split | -1 | -26.1% | +3.4% | $1.0M | 2.75 | 2.70 | 2.78 | +1.1% | +3.0% | +3.5% | +0.6% | 7 |
+| 2026-10-21 | CCNE | 8k_special_dividend | +0 | +2.4% | -0.1% | $3.9M | 34.54 | 34.53 | 35.85 | +3.8% | +3.8% | +3.5% |  | 7 |
+| 2026-10-21 | CITR | registration_effective | -1 | -6.5% | +1.5% | $185k | 2.64 | 2.56 | 2.69 | +1.9% | +5.1% | +3.5% | -1.6% | 7 |
+| 2026-10-21 | COR | 8k_merger_agreement | +0 | +4.0% | -0.8% | $399.2M | 340.43 | 344.43 | 328.05 | -3.6% | -4.8% | +3.5% |  | 7 |
+| 2026-10-21 | CPAC | tender_third_party | +0 | +3.0% | +0.2% | $297k | 12.66 | 12.65 | 12.81 | +1.2% | +1.2% | +3.5% |  | 7 |
+| 2026-10-21 | CVAT | tender_third_party | +0 | +0.0% | +33.3% | $17k ⚠ | 0.04 | 0.04 | 0.03 | -32.5% | -32.5% | +3.5% |  | 7 |
+| 2026-10-21 | DRK | registration_effective | -1 | -10.2% | +0.0% | $469k | 2.03 | 2.00 | 1.97 | -2.7% | -1.3% | +3.5% | +4.8% | 7 |
+| 2026-10-21 | DRMA | registration_effective | -1 | +1.2% | -8.0% | $8.0M | 0.80 | 0.78 | 0.86 | +7.5% | +10.3% | +3.5% | -6.8% | 7 |
+| 2026-10-21 | ESI | 8k_merger_agreement | +0 | -4.1% | +1.9% | $128.8M | 36.34 | 35.49 | 35.38 | -2.6% | -0.3% | +3.5% |  | 7 |
+| 2026-10-21 | FLSC | activist_13d | +1 |  | +0.2% | $2.8M | 10.30 | 10.35 | 10.23 | -0.7% | -1.2% | +3.5% | -4.7% | 6 |
+| 2026-10-21 | GETY | 8k_merger_agreement | +0 | +5.3% | -5.0% | $448k | 0.02 | 0.02 | 0.04 | +84.2% | +105.9% | +3.5% |  | 6 |
+| 2026-10-21 | GNPX | 8k_strategic_review | +1 | -15.1% | -3.8% | $567k | 2.05 | 1.99 | 2.00 | -2.4% | +0.5% | +3.5% | -3.0% | 7 |
+| 2026-10-21 | GTBP | registration_effective | -1 | +12.5% | -26.0% | $302k | 5.41 | 5.37 | 5.53 | +2.2% | +3.0% | +3.5% | +0.6% | 7 |
+| 2026-10-21 | HLEO | share_registration | -1 | +7.1% | -4.4% | $47k ⚠ | 4.35 | 4.38 | 4.15 | -4.6% | -5.1% | +3.5% | +8.7% | 7 |
+| 2026-10-21 | HMH | supply_effective | +0 | -7.1% | +1.8% | $3.4M | 17.94 | 17.98 | 18.99 | +5.8% | +5.6% | +3.5% |  | 7 |
+| 2026-10-21 | HMH | registration_effective | -1 | -7.1% | +1.8% | $3.4M | 17.94 | 17.98 | 18.99 | +5.8% | +5.6% | +3.5% | -2.1% | 7 |
+| 2026-10-21 | HTB | 8k_merger_agreement | +0 | +2.8% | +0.5% | $6.9M | 47.36 | 47.51 | 47.41 | +0.1% | -0.2% | +3.5% |  | 7 |
+| 2026-10-21 | ICON | activist_13d | +1 | +13.6% | +0.4% | $31k ⚠ | 0.92 | 0.93 | 0.95 | +2.9% | +2.3% | +3.5% | -1.3% | 7 |
+| 2026-10-21 | IMCC | registration_effective | -1 | +2.9% | -15.0% | $1.2M | 1.19 | 1.13 | 0.88 | -26.5% | -22.6% | +3.5% | +26.1% | 7 |
+| 2026-10-21 | INVE | tender_issuer_buyback | +1 | -6.3% | +25.2% | $2.5M | 2.78 | 2.79 | 2.71 | -2.5% | -2.9% | +3.5% | -6.4% | 7 |
+| 2026-10-21 | INVE | 8k_tender_offer | +0 | -6.3% | +25.2% | $2.5M | 2.78 | 2.79 | 2.71 | -2.5% | -2.9% | +3.5% |  | 7 |
+| 2026-10-21 | IOND | activist_13d | +1 | -13.2% | +1.7% | $30.6M | 66.72 | 66.89 | 69.54 | +4.2% | +4.0% | +3.5% | +0.4% | 7 |
+| 2026-10-21 | ITGR | 8k_merger_agreement | +0 | +0.1% | +0.0% | $112.9M | 126.70 | 126.77 | 126.60 | -0.1% | -0.1% | +3.5% |  | 7 |
+| 2026-10-21 | NANO | 8k_merger_agreement | +0 | -33.1% | +36.8% | $4.2M | 9.81 | 11.55 | 3.99 | -59.3% | -65.5% | +3.5% |  | 7 |
+| 2026-10-21 | NGTF | 8k_lock_up | +0 | -5.8% | -11.4% | $31k ⚠ | 2.88 | 2.74 | 4.67 | +62.0% | +70.3% | +3.5% |  | 6 |
+| 2026-10-21 | OBAI | share_registration | -1 | -39.5% | +4.8% | $252k | 2.41 | 2.41 | 2.05 | -14.9% | -14.9% | +3.5% | +18.5% | 7 |
+| 2026-10-21 | OLOX | 8k_lock_up | +0 | -7.9% | +37.0% | $15.4M | 1.01 | 0.96 | 0.76 | -24.5% | -20.5% | +3.5% |  | 7 |
+| 2026-10-21 | POLA | activist_13d | +1 | -35.5% | +15.5% | $882k | 0.82 | 0.80 | 0.65 | -20.7% | -18.8% | +3.5% | -22.3% | 7 |
+| 2026-10-21 | PSNL | merger_vote | +0 | +0.6% | -0.3% | $37.5M | 15.90 | 15.90 | 15.91 | +0.1% | +0.1% | +3.5% |  | 7 |
+| 2026-10-21 | PZZA | holder_13g | +0 | -3.0% | -2.6% | $27.1M | 18.24 | 18.43 | 18.47 | +1.3% | +0.2% | +3.5% |  | 7 |
+| 2026-10-21 | QNME | 8k_spin_off | +0 | -26.5% | +1.5% | $4.4M | 0.48 | 0.48 | 0.45 | -6.3% | -5.9% | +3.5% |  | 7 |
+| 2026-10-21 | SKYX | registration_effective | -1 | -19.5% | -0.2% | $724k | 0.90 | 0.89 | 0.81 | -10.0% | -9.0% | +3.5% | +12.5% | 7 |
+| 2026-10-21 | SSEA | 8k_tender_offer | +0 | +0.7% | +0.0% | $27k ⚠ | 10.41 | 10.41 | 10.41 | +0.0% | +0.0% | +3.5% |  | 6 |
+| 2026-10-21 | SSTI | merger_cvr | +0 | +1.7% | +0.0% | $3.1M | 8.40 | 8.38 | 8.40 | +0.0% | +0.2% | +3.5% |  | 7 |
+| 2026-10-21 | SWBI | 8k_merger_agreement | +0 | +3.9% | +2.2% | $6.6M | 15.10 | 15.09 | 13.75 | -8.9% | -8.9% | +3.5% |  | 7 |
+| 2026-10-21 | TCRT | 8k_merger_agreement | +0 | -2.0% | +3.7% | $59.7M | 3.08 | 3.19 | 2.01 | -34.7% | -37.0% | +3.5% |  | 7 |
+| 2026-10-21 | TKNO | supply_offering | +0 | -10.1% | -20.8% | $4.1M | 5.85 | 5.60 | 8.18 | +39.8% | +46.0% | +3.5% |  | 7 |
+| 2026-10-21 | TKNO | 8k_lock_up | +0 | -10.1% | -20.8% | $4.1M | 5.85 | 5.60 | 8.18 | +39.8% | +46.0% | +3.5% |  | 7 |
+| 2026-10-21 | TRAD | 8k_merger_agreement | +0 | -0.2% | +0.1% | $338k | 10.07 | 10.07 | 10.09 | +0.2% | +0.2% | +3.5% |  | 7 |
+| 2026-10-21 | VBIO | registration_effective | -1 | -23.2% | -5.9% | $10.5M | 1.12 | 1.10 | 0.70 | -37.6% | -36.5% | +3.5% | +40.0% | 7 |
+| 2026-10-21 | WEST | 8k_reverse_split | -1 | +14.6% | -1.0% | $2.9M | 9.16 | 9.14 | 9.73 | +6.2% | +6.5% | +3.5% | -2.9% | 7 |
+| 2026-10-21 | WH | 8k_spin_off | +0 | +5.4% | +1.3% | $88.0M | 78.36 | 79.32 | 76.26 | -2.7% | -3.9% | +3.5% |  | 7 |
+| 2026-10-21 | XFLT | tender_issuer_buyback | +1 | -9.6% | -0.1% | $2.0M | 17.03 | 16.87 | 16.02 | -5.9% | -5.0% | +3.5% | -8.6% | 7 |
+| 2026-10-21 | XPOF | activist_13d | +0 | -8.9% | -2.3% | $4.1M | 4.29 | 4.29 | 4.01 | -6.5% | -6.5% | +3.5% |  | 7 |
+| 2026-10-21 | XRPN | supply_warrants | +0 | -9.9% | +6.1% | $51.7M | 15.75 | 15.28 | 15.06 | -4.4% | -1.4% | +3.5% |  | 7 |
+| 2026-10-21 | ZDGE | 8k_spin_off | +0 | -3.5% | +0.7% | $155k | 2.78 | 2.76 | 2.66 | -4.3% | -3.6% | +3.5% |  | 7 |
+| 2026-10-22 | AACG | activist_13d | +1 | -2.9% | +1.5% | $20k ⚠ | 0.68 | 0.73 | 0.69 | +1.3% | -5.6% | +3.5% | -9.1% | 6 |
+| 2026-10-22 | AIRE | share_registration | -1 | +3.0% | -21.6% | $42k ⚠ | 0.80 | 0.84 | 0.78 | -2.5% | -7.1% | +3.5% | +10.7% | 6 |
+| 2026-10-22 | AMCI | share_registration | -1 | -14.7% | -9.8% | $109k ⚠ | 1.94 | 1.90 | 2.28 | +17.5% | +20.0% | +3.5% | -16.4% | 6 |
+| 2026-10-22 | AUUD | 8k_merger_agreement | +0 | -9.4% | -2.2% | $274k | 0.93 | 0.95 | 0.85 | -8.6% | -10.9% | +3.5% |  | 6 |
+| 2026-10-22 | AZTR | 8k_reverse_split | -1 | +0.0% | +0.0% | $72k ⚠ | 0.72 | 0.72 | 0.77 | +7.2% | +7.2% | +3.5% | -3.6% | 6 |
+| 2026-10-22 | BBCI | activist_13d | +1 | -17.4% | -6.0% | $5.8M | 2.05 | 2.02 | 2.12 | +3.6% | +5.2% | +3.5% | +1.7% | 6 |
+| 2026-10-22 | BCML | 8k_special_dividend | +0 | +1.9% | +2.5% | $2.0M | 31.90 | 29.00 | 30.88 | -3.2% | +6.5% | +3.5% |  | 6 |
+| 2026-10-22 | BX | 8k_lock_up | +0 | +3.2% | +8.4% | $663.6M | 118.75 | 116.85 | 120.32 | +1.3% | +3.0% | +3.5% |  | 6 |
+| 2026-10-22 | BZAI | 8k_reverse_split | -1 | -1.6% | +2.5% | $877k | 0.25 | 0.25 | 0.21 | -13.0% | -14.4% | +3.5% | +17.9% | 6 |
+| 2026-10-22 | CABR | 8k_reverse_split | -1 | -15.4% | -4.5% | $33k ⚠ | 1.05 | 1.01 | 1.12 | +6.7% | +10.9% | +3.5% | -7.4% | 5 |
+| 2026-10-22 | CDLR | tender_third_party | +0 | +16.6% | +0.5% | $2.1M | 24.96 | 24.78 | 25.53 | +2.3% | +3.0% | +3.5% |  | 6 |
+| 2026-10-22 | CITR | ipo_priced | +0 | +0.8% | +0.4% | $178k | 2.65 | 2.55 | 2.69 | +1.5% | +5.5% | +3.5% |  | 6 |
+| 2026-10-22 | CITR | 8k_lock_up | +0 | +0.8% | +0.4% | $178k | 2.65 | 2.55 | 2.69 | +1.5% | +5.5% | +3.5% |  | 6 |
+| 2026-10-22 | CMCSA | 8k_spin_off | +0 | +4.9% | +3.4% | $681.7M | 22.84 | 22.47 | 21.84 | -4.4% | -2.8% | +3.5% |  | 6 |
+| 2026-10-22 | CNOB | 8k_strategic_review | +1 | +3.4% | +6.3% | $10.7M | 32.82 | 32.47 | 32.90 | +0.2% | +1.3% | +3.5% | -2.2% | 6 |
+| 2026-10-22 | CPAC | going_private | +0 | +2.9% | +0.9% | $264k | 12.77 | 12.78 | 12.81 | +0.3% | +0.2% | +3.5% |  | 6 |
+| 2026-10-22 | DAIO | 8k_reverse_split | -1 | -5.8% | -3.9% | $84k ⚠ | 2.49 | 2.40 | 2.55 | +2.2% | +6.1% | +3.5% | -2.6% | 6 |
+| 2026-10-22 | DFH | 8k_merger_agreement | +0 | +21.6% | +12.2% | $15.7M | 10.12 | 9.95 | 9.94 | -1.8% | -0.1% | +3.5% |  | 6 |
+| 2026-10-22 | EIIA | tender_issuer_buyback | +1 | +0.3% | +0.3% | $145k ⚠ | 25.03 | 24.81 | 24.86 | -0.7% | +0.2% | +3.5% | -3.3% | 6 |
+| 2026-10-22 | FLSC | 8k_tender_offer | +0 | +0.1% | -0.3% | $2.4M | 10.27 | 10.30 | 10.23 | -0.4% | -0.7% | +3.5% |  | 5 |
+| 2026-10-22 | FMAO | 8k_special_dividend | +0 | +1.5% | +2.0% | $1.8M | 35.89 | 36.00 | 36.93 | +2.9% | +2.6% | +3.5% |  | 6 |
+| 2026-10-22 | GCTK | 8k_reverse_split | -1 | -28.0% | -6.3% | $531k | 1.20 | 1.18 | 1.98 | +65.3% | +67.8% | +3.5% | -64.3% | 6 |
+| 2026-10-22 | GTBP | setup_supply_resale | +0 | -12.9% | +2.0% | $311k | 5.52 | 5.58 | 5.53 | +0.2% | -0.9% | +3.5% |  | 6 |
+| 2026-10-22 | GUTS | 8k_strategic_review | +1 | -71.8% | -1.7% | $2.1M | 1.13 | 1.15 | 0.93 | -17.9% | -19.4% | +3.5% | -22.9% | 6 |
+| 2026-10-22 | HON | 8k_spin_off | +0 | +3.4% | +1.7% | $507.4M | 218.31 | 215.87 | 218.25 | -0.0% | +1.1% | +3.5% |  | 6 |
+| 2026-10-22 | INVE | tender_issuer_buyback | +0 | +20.9% | -1.8% | $2.6M | 2.73 | 2.71 | 2.71 | -0.7% | +0.0% | +3.5% |  | 6 |
+| 2026-10-22 | IRON | 8k_tender_offer | +0 | +36.3% | -1.3% | $99.0M | 75.03 | 74.29 | 84.64 | +12.8% | +13.9% | +3.5% |  | 6 |
+| 2026-10-22 | KFII | 8k_spin_off | +0 | +0.1% | +0.0% | $1.3M | 10.72 | 10.73 | 10.72 | +0.0% | -0.1% | +3.5% |  | 6 |
+| 2026-10-22 | LNTH | 8k_merger_agreement | +0 | +0.2% | -0.1% | $110.7M | 100.10 | 99.97 | 100.25 | +0.1% | +0.3% | +3.5% |  | 6 |
+| 2026-10-22 | LUCD | 8k_reverse_split | -1 | -38.7% | -1.5% | $2.1M | 0.33 | 0.43 | 0.44 | +33.0% | +0.5% | +3.5% | +3.0% | 6 |
+| 2026-10-22 | MAT | activist_13d | +1 | +1.8% | -0.1% | $154.2M | 16.94 | 16.72 | 15.48 | -8.7% | -7.5% | +3.5% | -11.0% | 6 |
+| 2026-10-22 | MKTX | 8k_merger_agreement | +0 | -0.1% | +0.2% | $132.1M | 164.66 | 164.61 | 164.92 | +0.2% | +0.2% | +3.5% |  | 6 |
+| 2026-10-22 | NGTF | 8k_reverse_split | -1 | -9.0% | +9.7% | $44k ⚠ | 3.16 | 3.15 | 4.67 | +47.7% | +48.1% | +3.5% | -44.6% | 5 |
+| 2026-10-22 | NRIM | 8k_merger_agreement | +0 | -1.9% | +2.3% | $3.2M | 24.20 | 23.96 | 24.40 | +0.8% | +1.8% | +3.5% |  | 6 |
+| 2026-10-22 | NTWO | 8k_merger_agreement | +0 | +0.1% | +0.1% | $3.7M | 10.84 | 10.82 | 10.86 | +0.2% | +0.4% | +3.5% |  | 6 |
+| 2026-10-22 | PARA | 8k_reverse_split | -1 | -5.9% | -7.8% | $260k | 0.47 | 0.47 | 3.30 | +602.7% | +601.2% | +3.5% | -597.7% | 6 |
+| 2026-10-22 | PCG | 8k_strategic_review | +1 | +0.0% | -1.3% | $446.0M | 12.98 | 12.93 | 13.28 | +2.3% | +2.7% | +3.5% | -0.8% | 6 |
+| 2026-10-22 | PHXE-P | share_registration | -1 | -1.4% | +0.6% | $240k | 25.39 | 25.50 | 25.38 | -0.1% | -0.5% | +3.5% | +4.0% | 6 |
+| 2026-10-22 | PRIF-PD | tender_issuer_buyback | +1 | +1.1% | +0.2% | $92k ⚠ | 25.00 | 25.00 | 24.98 | -0.1% | -0.1% | +3.5% | -3.6% | 6 |
+| 2026-10-22 | QIND | 8k_lock_up | +0 | -44.2% | -1.5% | $0k ⚠ | 0.00 | 0.00 | 0.00 | +6.1% | -5.4% | +3.5% |  | 5 |
+| 2026-10-22 | SABS | delisting | +0 | +13.3% | +7.8% | $2.3M | 3.04 | 2.98 | 3.35 | +10.2% | +12.4% | +3.5% |  | 6 |
+| 2026-10-22 | SWBI | setup_supply_overhang | +0 | +6.5% | -5.0% | $6.7M | 14.35 | 14.30 | 13.75 | -4.2% | -3.9% | +3.5% |  | 6 |
+| 2026-10-22 | TENX | holder_buying | +0 | +6.2% | +8.0% | $4.1M | 1.76 | 1.76 | 1.95 | +10.8% | +10.8% | +3.5% |  | 6 |
+| 2026-10-22 | VBIO | 8k_strategic_review | +1 | -22.8% | -14.6% | $8.7M | 0.96 | 0.91 | 0.70 | -26.9% | -23.2% | +3.5% | -26.8% | 6 |
+| 2026-10-22 | VLO | 8k_strategic_review | +1 | -5.0% | -2.4% | $1073.5M | 426.28 | 428.98 | 388.98 | -8.8% | -9.3% | +3.5% | -12.8% | 6 |
+| 2026-10-22 | VRA | insider_buy | +0 | +7.8% | +0.8% | $2.6M | 6.12 | 6.10 | 6.44 | +5.2% | +5.6% | +3.5% |  | 6 |
+| 2026-10-22 | VREX | 8k_merger_agreement | +0 | +0.2% | -0.1% | $9.6M | 18.41 | 18.41 | 18.45 | +0.2% | +0.2% | +3.5% |  | 6 |
+| 2026-10-22 | WAFD | merger_vote | +0 | -1.9% | +3.8% | $34.5M | 29.44 | 29.20 | 29.71 | +0.9% | +1.8% | +3.5% |  | 6 |
+| 2026-10-22 | WEAV | 8k_merger_agreement | +0 | +0.0% | +0.0% | $13.2M | 7.39 | 7.40 | 7.40 | +0.1% | +0.0% | +3.5% |  | 0 |
+| 2026-10-23 | ABEO | activist_13d | +1 | -3.9% | -1.6% | $5.7M | 4.40 | 4.39 | 4.69 | +6.6% | +6.8% | +3.0% | +3.8% | 3 |
+| 2026-10-23 | AEHL | setup_supply_atm | +0 | -24.3% | +2.4% | $11.0M | 8.86 | 8.86 | 7.59 | -14.3% | -14.3% | +3.0% |  | 3 |
+| 2026-10-23 | AGMB | insider_cluster | +0 | +11.2% | -2.3% | $1.2M | 9.05 | 9.10 | 7.83 | -13.5% | -14.0% | +3.0% |  | 3 |
+| 2026-10-23 | AKBA | 8k_reverse_split | -1 | -19.3% | +0.9% | $6.3M | 0.57 | 0.59 | 0.79 | +38.7% | +33.7% | +3.0% | -30.7% | 3 |
+| 2026-10-23 | AMSS | 8k_spin_off | +0 | -8.3% | +0.0% | $150k | 0.33 | 0.33 | 0.31 | -6.0% | -6.0% | +3.0% |  | 3 |
+| 2026-10-23 | ARXS | registration_effective | -1 | -7.7% | +4.1% | $58.7M | 51.72 | 51.92 | 53.82 | +4.1% | +3.7% | +3.0% | -0.6% | 3 |
+| 2026-10-23 | BACC | merger_vote | +0 | +0.1% | +0.2% | $3.8M | 10.46 | 10.47 | 10.46 | +0.0% | -0.1% | +3.0% |  | 2 |
+| 2026-10-23 | BBCI | activist_13d | +1 | -35.1% | -16.6% | $5.3M | 1.71 | 1.86 | 2.12 | +24.3% | +14.2% | +3.0% | +11.2% | 3 |
+| 2026-10-23 | BOLT | 8k_reverse_split | -1 | -1.2% | +49.6% | $4.1M | 6.27 | 6.66 | 6.50 | +3.7% | -2.4% | +3.0% | +5.4% | 3 |
+| 2026-10-23 | BURU | registration_effective | -1 | -58.2% | -42.4% | $3.2M | 0.24 | 0.23 | 0.26 | +9.6% | +11.5% | +3.0% | -8.5% | 3 |
+| 2026-10-23 | DFNS | registration_effective | -1 | -17.8% | -18.6% | $3.2M | 4.11 | 4.16 | 3.83 | -6.8% | -7.9% | +3.0% | +10.9% | 3 |
+| 2026-10-23 | DOLE | activist_13d | +0 | +0.8% | -0.6% | $11.6M | 13.44 | 13.38 | 13.04 | -3.0% | -2.5% | +3.0% |  | 3 |
+| 2026-10-23 | EZET | registration_effective | -1 | -2.6% | +0.2% | $596k | 18.10 | 17.49 | 17.62 | -2.6% | +0.7% | +3.0% | +2.3% | 3 |
+| 2026-10-23 | FLG | 8k_reverse_split | -1 | +1.7% | -9.3% | $79.7M | 10.38 | 10.41 | 10.26 | -1.2% | -1.4% | +3.0% | +4.5% | 3 |
+| 2026-10-23 | GOAI | registration_effective | -1 | -8.9% | -11.1% | $92k ⚠ | 1.36 | 1.32 | 0.99 | -27.3% | -25.1% | +3.0% | +28.1% | 3 |
+| 2026-10-23 | HLSQ | 8k_reverse_split | -1 | +9.2% | -4.0% | $479k | 0.26 | 0.27 | 0.18 | -31.2% | -33.0% | +3.0% | +36.0% | 3 |
+| 2026-10-23 | HODO | 8k_reverse_split | -1 | +0.0% | -4.4% | $3.7M | 0.06 | 0.07 | 0.04 | -32.8% | -33.8% | +3.0% | +36.8% | 3 |
+| 2026-10-23 | JSPR | tender_issuer_buyback | +1 | -6.8% | +2.8% | $205k | 0.51 | 0.51 | 0.55 | +7.8% | +7.8% | +3.0% | +4.8% | 3 |
+| 2026-10-23 | LYCA | registration_effective | -1 |  |  | $68.5M | 30.00 | 23.73 | 25.47 | -15.1% | +7.3% | +3.0% | -4.3% | 3 |
+| 2026-10-23 | LYCA | ipo_priced | +0 |  |  | $68.5M | 30.00 | 23.73 | 25.47 | -15.1% | +7.3% | +3.0% |  | 3 |
+| 2026-10-23 | MKTX | 8k_strategic_review | +1 | +0.1% | +0.0% | $130.1M | 164.67 | 164.67 | 164.92 | +0.1% | +0.1% | +3.0% | -2.9% | 3 |
+| 2026-10-23 | NG | 8k_lock_up | +0 | -4.9% | -3.7% | $28.2M | 6.01 | 6.05 | 6.03 | +0.4% | -0.2% | +3.0% |  | 3 |
+| 2026-10-23 | NUWE | 8k_reverse_split | -1 | -10.9% | -34.7% | $101k ⚠ | 0.32 | 3.19 | 6.68 | +1987.5% | +109.4% | +2.4% | -107.0% | 2 |
+| 2026-10-23 | ONFO | share_registration | -1 | -18.1% | -3.1% | $497k | 0.50 | 0.51 | 0.49 | -2.0% | -3.2% | +3.0% | +6.2% | 3 |
+| 2026-10-23 | PAL | 8k_lock_up | +0 | -13.9% | -0.4% | $2.1M | 2.71 | 2.78 | 2.45 | -9.6% | -11.9% | +3.0% |  | 3 |
+| 2026-10-23 | PINE | 8k_strategic_review | +1 | -2.6% | -7.2% | $3.2M | 16.16 | 16.13 | 16.25 | +0.5% | +0.7% | +3.0% | -2.3% | 3 |
+| 2026-10-23 | PMI | 8k_reverse_split | -1 | -26.3% | -3.8% | $6.3M | 7.09 | 7.14 | 7.88 | +11.1% | +10.4% | +3.0% | -7.3% | 3 |
+| 2026-10-23 | PULM | registration_effective | -1 | +0.7% | +4.2% | $34k ⚠ | 1.48 | 1.45 | 1.50 | +1.4% | +3.5% | +3.0% | -0.4% | 2 |
+| 2026-10-23 | RCAT | 8k_tender_offer | +0 | -10.8% | +1.4% | $35.2M | 4.43 | 4.41 | 5.00 | +12.9% | +13.4% | +3.0% |  | 3 |
+| 2026-10-23 | RCUS | 8k_tender_offer | +0 | -15.2% | -4.2% | $52.7M | 18.54 | 18.37 | 18.95 | +2.2% | +3.2% | +3.0% |  | 3 |
+| 2026-10-23 | SPGI | 8k_spin_off | +0 | +6.7% | -0.6% | $821.3M | 450.31 | 447.54 | 455.42 | +1.1% | +1.8% | +3.0% |  | 3 |
+| 2026-10-23 | TMCR | registration_effective | -1 | -3.5% | -3.6% | $503k | 2.12 | 2.15 | 2.28 | +7.5% | +6.0% | +3.0% | -3.0% | 3 |
+| 2026-10-23 | TNON | setup_supply_atm | +0 | -23.0% | -1.8% | $12.9M | 2.20 | 2.20 | 2.25 | +2.3% | +2.3% | +3.0% |  | 3 |
+| 2026-10-23 | TRAW | 8k_reverse_split | -1 | -7.5% | -8.1% | $88k ⚠ | 0.34 | 0.37 | 0.36 | +5.8% | -2.7% | +3.0% | +5.8% | 3 |
+| 2026-10-23 | VREX | merger_arb | +0 | -0.3% | +0.1% | $9.4M | 18.42 | 18.41 | 18.45 | +0.2% | +0.2% | +3.0% |  | 3 |
+| 2026-10-23 | WS | 8k_tender_offer | +0 | +3.0% | +0.9% | $19.8M | 40.85 | 41.19 | 43.55 | +6.6% | +5.7% | +3.0% |  | 3 |
+| 2026-10-23 | XRPN | share_registration | -1 | -3.8% | -2.6% | $52.1M | 15.06 | 14.55 | 15.06 | +0.0% | +3.5% | +3.0% | -0.5% | 3 |
+| 2026-10-23 | ZVIA | 8k_reverse_split | -1 | +1.7% | +4.9% | $341k | 1.28 | 1.30 | 1.23 | -3.9% | -5.4% | +3.0% | +8.4% | 3 |
+| 2026-10-26 | AASP | 8k_tender_offer | +0 | -4.8% | +4.0% | $13k ⚠ | 5.20 | 5.20 | 5.10 | -1.9% | -1.9% | +2.4% |  | 1 |
+| 2026-10-26 | ABEO | activist_13d | +0 | -0.7% | -2.0% | $5.5M | 4.31 | 4.33 | 4.69 | +8.8% | +8.3% | +2.4% |  | 2 |
+| 2026-10-26 | ADGM | 8k_reverse_split | -1 | +4.0% | -5.8% | $342k | 0.10 | 0.10 | 0.11 | +13.5% | +12.3% | +2.4% | -10.0% | 2 |
+| 2026-10-26 | ALDS | activist_13d | +1 | +38.6% | -67.2% | $1k ⚠ | 0.05 | 0.05 | 0.01 | -75.8% | -75.8% | +2.4% | -78.2% | 1 |
+| 2026-10-26 | AMAN | 8k_reverse_split | -1 | -0.7% | -0.2% | $231k | 10.20 | 10.19 | 10.15 | -0.5% | -0.4% | +2.4% | +2.8% | 2 |
+| 2026-10-26 | AQB | registration_effective | -1 | +0.0% | +3.6% | $66k ⚠ | 1.15 | 1.15 | 1.24 | +7.4% | +7.4% | +2.4% | -5.0% | 2 |
+| 2026-10-26 | AZUL | activist_13d | +1 | -8.2% | -32.6% | $1.1M | 4.05 | 4.25 | 3.86 | -4.7% | -9.2% | +2.4% | -11.5% | 2 |
+| 2026-10-26 | BHR | 8k_spin_off | +0 | -1.4% | -1.4% | $1.1M | 1.39 | 1.40 | 1.35 | -2.9% | -3.6% | +2.4% |  | 2 |
+| 2026-10-26 | BMRC | 8k_special_dividend | +0 | +2.7% | +2.5% | $3.3M | 27.80 | 28.02 | 29.45 | +6.0% | +5.1% | +2.4% |  | 2 |
+| 2026-10-26 | BOF | 8k_lock_up | +0 | -7.8% | -13.9% | $285k | 1.74 | 1.69 | 1.80 | +3.7% | +6.8% | +2.4% |  | 2 |
+| 2026-10-26 | BORR | event_incident | +0 | -3.1% | -10.0% | $44.2M | 3.96 | 3.96 | 4.29 | +8.3% | +8.3% | +2.4% |  | 2 |
+| 2026-10-26 | BSRR | 8k_special_dividend | +0 | +5.4% | +1.3% | $2.5M | 42.30 | 42.78 | 42.73 | +1.0% | -0.1% | +2.4% |  | 2 |
+| 2026-10-26 | BTCS | tender_issuer_buyback | +1 | -4.4% | -1.9% | $1.3M | 1.06 | 1.08 | 1.11 | +4.2% | +2.3% | +2.4% | -0.0% | 2 |
+| 2026-10-26 | CPSH | activist_13d | +1 | +0.0% | -0.3% | $908k | 3.50 | 3.51 | 3.68 | +5.3% | +5.0% | +2.4% | +2.6% | 2 |
+| 2026-10-26 | CTY | activist_13d | +1 | -7.3% | +0.1% | $9.9M | 20.79 | 20.79 | 21.99 | +5.8% | +5.8% | +2.4% | +3.4% | 2 |
+| 2026-10-26 | DFNS | setup_supply_eloc | +0 | -14.7% | -5.8% | $3.2M | 3.87 | 3.91 | 3.83 | -1.0% | -2.0% | +2.4% |  | 2 |
+| 2026-10-26 | ELME | delisting | +0 | +0.6% | -97.7% | $2.6M | 0.04 | 0.04 | 0.05 | +25.0% | +25.0% | +2.4% |  | 1 |
+| 2026-10-26 | EQT | 8k_merger_agreement | +0 | +2.4% | -1.4% | $421.8M | 54.85 | 54.89 | 55.38 | +1.0% | +0.9% | +2.4% |  | 2 |
+| 2026-10-26 | FFAI | 8k_lock_up | +0 | -22.8% | -10.2% | $5.9M | 0.56 | 0.56 | 0.47 | -16.1% | -15.8% | +2.4% |  | 2 |
+| 2026-10-26 | FFR | 8k_reverse_split | -1 | -2.6% | -5.3% | $3.9M | 1.07 | 1.09 | 1.10 | +2.3% | +0.5% | +2.4% | +1.9% | 2 |
+| 2026-10-26 | FLD | 8k_reverse_split | -1 | +0.8% | -0.8% | $49k ⚠ | 0.51 | 0.51 | 0.51 | +0.0% | -0.6% | +2.4% | +2.9% | 2 |
+| 2026-10-26 | GRML | share_registration | -1 | -3.7% | +0.2% | $31.9M | 5.79 | 5.70 | 5.32 | -8.0% | -6.6% | +2.4% | +8.9% | 2 |
+| 2026-10-26 | HEPA | activist_13d | +1 | +34.6% | -6.4% | $3k ⚠ | 0.13 | 0.13 | 0.15 | +14.5% | +14.5% | +2.4% | +12.2% | 1 |
+| 2026-10-26 | MCFT | registration_effective | -1 | +0.3% | -0.9% | $3.1M | 19.52 | 19.80 | 20.76 | +6.4% | +4.9% | +2.4% | -2.5% | 2 |
+| 2026-10-26 | MEDS | 8k_tender_offer | +0 | -15.2% | -1.8% | $14.8M | 2.19 | 2.06 | 2.08 | -5.2% | +0.7% | +2.4% |  | 2 |
+| 2026-10-26 | NATH | delisting | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +2.4% |  | 0 |
+| 2026-10-26 | NATH | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 102.05 | 102.05 |  | +0.0% | +2.4% |  | 0 |
+| 2026-10-26 | NCT | setup_supply_registered_direct | +0 | -6.7% | +17.5% | $1.3M | 1.48 | 1.55 | 1.49 | +0.3% | -4.2% | +2.4% |  | 2 |
+| 2026-10-26 | NNBR | registration_effective | -1 | -3.2% | +1.8% | $11.8M | 3.36 | 3.41 | 3.91 | +16.5% | +14.8% | +2.4% | -12.4% | 2 |
+| 2026-10-26 | OBAI | registration_effective | -1 | -26.8% | -11.2% | $215k | 1.82 | 1.85 | 2.05 | +12.6% | +10.8% | +2.4% | -8.5% | 2 |
+| 2026-10-26 | ONCO | 8k_reverse_split | -1 | -12.7% | -4.5% | $2.1M | 0.40 | 0.35 | 0.62 | +55.8% | +77.6% | +2.4% | -75.2% | 2 |
+| 2026-10-26 | OSTX | setup_supply_warrants | +0 | -5.3% | -3.2% | $1.0M | 1.21 | 1.22 | 1.27 | +5.0% | +4.1% | +2.4% |  | 2 |
+| 2026-10-26 | OVV | 8k_strategic_review | +1 | +4.2% | +0.4% | $210.2M | 72.55 | 72.48 | 71.11 | -2.0% | -1.9% | +2.4% | -4.2% | 2 |
+| 2026-10-26 | PCSA | registration_effective | -1 | +7.1% | -0.8% | $307k | 1.79 | 1.76 | 1.94 | +8.1% | +10.2% | +2.4% | -7.9% | 2 |
+| 2026-10-26 | PMI | setup_supply_resale | +0 | -44.4% | -9.3% | $6.3M | 6.43 | 6.69 | 7.88 | +22.6% | +17.8% | +2.4% |  | 2 |
+| 2026-10-26 | PRK | 8k_special_dividend | +0 | +2.4% | +0.2% | $14.5M | 183.32 | 186.07 | 182.60 | -0.4% | -1.9% | +2.4% |  | 2 |
+| 2026-10-26 | PRSO | 8k_strategic_review | +1 | +5.6% | +7.9% | $7.4M | 0.41 | 0.42 | 0.46 | +11.4% | +8.8% | +2.4% | +6.4% | 2 |
+| 2026-10-26 | RAPP | insider_cluster | +0 | -5.9% | -2.3% | $27.0M | 25.33 | 25.11 | 24.58 | -3.0% | -2.1% | +2.4% |  | 2 |
+| 2026-10-26 | RDNT | 8k_merger_agreement | +0 | +2.2% | -0.4% | $33.4M | 70.05 | 70.53 | 74.33 | +6.1% | +5.4% | +2.4% |  | 2 |
+| 2026-10-26 | RENT | holder_13d_not_activism | +0 | +30.7% | +22.6% | $4.7M | 2.82 | 2.89 | 2.55 | -9.6% | -11.8% | +2.4% |  | 2 |
+| 2026-10-26 | RLYB | 8k_merger_agreement | +0 | +2.2% | +0.1% | $220k | 16.65 | 16.46 | 16.04 | -3.7% | -2.5% | +2.4% |  | 2 |
+| 2026-10-26 | RRC | 8k_merger_agreement | +0 | +5.3% | +17.7% | $175.3M | 53.56 | 53.67 | 54.94 | +2.6% | +2.4% | +2.4% |  | 2 |
+| 2026-10-26 | SAMG | holder_buying | +0 | -4.7% | +3.1% | $908k | 10.43 | 10.38 | 10.48 | +0.5% | +1.0% | +2.4% |  | 2 |
+| 2026-10-26 | SGRY | 8k_merger_agreement | +0 | +7.8% | +47.6% | $93.4M | 23.25 | 23.20 | 23.24 | -0.1% | +0.1% | +2.4% |  | 2 |
+| 2026-10-26 | SHFS | 8k_reverse_split | -1 | -8.3% | -28.8% | $24.8M | 0.09 | 0.09 | 0.08 | -17.0% | -9.3% | +2.4% | +11.7% | 2 |
+| 2026-10-26 | SKYE | merger_vote | +0 | -0.6% | +1.9% | $45k ⚠ | 1.57 | 1.58 | 1.54 | -1.6% | -2.2% | +2.4% |  | 2 |
+| 2026-10-26 | SNES | activist_13d | +1 | +29.8% | +1.0% | $2.2M | 0.85 | 0.85 | 0.98 | +15.7% | +15.7% | +2.4% | +13.3% | 2 |
+| 2026-10-26 | SNTI | 8k_merger_agreement | +0 | -16.4% | -6.9% | $970k | 0.17 | 0.17 | 0.23 | +32.7% | +38.3% | +2.4% |  | 2 |
+| 2026-10-26 | SUPN | 8k_merger_agreement | +0 | +7.4% | +0.2% | $38.4M | 40.77 | 40.57 | 43.79 | +7.4% | +8.0% | +2.4% |  | 2 |
+| 2026-10-26 | TANAF | registration_effective | -1 | -53.4% | +18.5% | $1k ⚠ | 0.16 | 0.10 | 0.11 | -31.2% | +9.4% | +2.4% | -7.1% | 2 |
+| 2026-10-26 | TMCR | setup_supply_eloc | +0 | +3.9% | -0.9% | $335k | 2.10 | 2.10 | 2.28 | +8.6% | +8.6% | +2.4% |  | 2 |
+| 2026-10-26 | TRAW | share_registration | -1 | -8.1% | +0.0% | $84k ⚠ | 0.34 | 0.34 | 0.36 | +5.8% | +5.8% | +2.4% | -3.5% | 2 |
+| 2026-10-26 | TRAX | share_registration | -1 | +27.8% | -1.3% | $43.2M | 43.48 | 43.33 | 46.37 | +6.7% | +7.0% | +2.4% | -4.7% | 2 |
+| 2026-10-26 | VBIO | 8k_strategic_review | +1 | -19.7% | -10.6% | $9.3M | 0.84 | 0.75 | 0.70 | -16.9% | -7.1% | +2.4% | -9.5% | 2 |
+| 2026-10-26 | WHK | registration_effective | -1 | -1.6% | +2.0% | $5.4M | 26.05 | 26.11 | 26.84 | +3.0% | +2.8% | +2.4% | -0.4% | 2 |
+| 2026-10-26 | WHLR | 8k_reverse_split | -1 | -5.8% | -4.5% | $4.3M | 0.34 | 0.32 | 0.25 | -27.3% | -22.6% | +2.4% | +24.9% | 2 |
+| 2026-10-26 | XRPN | setup_supply_resale | +0 | -2.5% | -0.4% | $52.2M | 15.00 | 14.99 | 15.06 | +0.4% | +0.5% | +2.4% |  | 2 |
+| 2026-10-27 | ACRS | 8k_reverse_split | -1 | +8.9% | +0.0% | $16.2M | 3.79 | 3.70 | 4.07 | +7.5% | +10.1% | +1.5% | -8.7% | 1 |
+| 2026-10-27 | ACTU | registration_effective | -1 | -11.9% | -24.2% | $287k | 0.40 | 0.40 | 0.38 | -4.4% | -5.3% | +1.5% | +6.8% | 1 |
+| 2026-10-27 | ADIL | registration_effective | -1 | +1.7% | +0.8% | $120k ⚠ | 3.71 | 3.98 | 5.05 | +36.1% | +26.9% | +1.5% | -25.4% | 0 |
+| 2026-10-27 | AIR | 8k_lock_up | +0 | -1.3% | +2.8% | $61.6M | 100.08 | 100.82 | 104.43 | +4.3% | +3.6% | +1.5% |  | 1 |
+| 2026-10-27 | APAM | 8k_special_dividend | +0 | +4.1% | -0.4% | $46.0M | 33.20 | 34.60 | 35.45 | +6.8% | +2.5% | +1.5% |  | 1 |
+| 2026-10-27 | ARCC | 8k_merger_agreement | +0 | +1.1% | -0.5% | $86.7M | 18.51 | 18.49 | 18.88 | +2.0% | +2.1% | +1.5% |  | 1 |
+| 2026-10-27 | ARTV | 8k_strategic_review | +1 | +4.6% | -30.7% | $4.6M | 4.27 | 4.35 | 4.25 | -0.5% | -2.3% | +1.5% | -3.8% | 1 |
+| 2026-10-27 | ATYR | 8k_reverse_split | -1 |  |  | $1.1M | 4.96 | 4.80 | 5.05 | +1.9% | +5.3% | +1.5% | -3.8% | 1 |
+| 2026-10-27 | AZUL | holder_13d_not_activism | +0 | -37.5% | -14.6% | $1.3M | 3.46 | 3.47 | 3.86 | +11.6% | +11.2% | +1.5% |  | 1 |
+| 2026-10-27 | BANC | 8k_special_dividend | +0 | +5.8% | +1.4% | $36.6M | 18.24 | 17.85 | 18.43 | +1.1% | +3.3% | +1.5% |  | 1 |
+| 2026-10-27 | BNGO | share_registration | -1 | -4.9% | +5.2% | $345k | 1.22 | 1.23 | 1.19 | -2.5% | -3.2% | +1.5% | +4.7% | 1 |
+| 2026-10-27 | BOOM | 8k_strategic_review | +1 | +1.5% | -0.4% | $989k | 5.35 | 6.62 | 8.32 | +55.5% | +25.7% | +1.5% | +24.2% | 1 |
+| 2026-10-27 | BWMN | 8k_merger_agreement | +0 | +0.1% | +0.1% | $16.4M | 42.87 | 42.90 | 42.87 | +0.0% | -0.1% | +1.5% |  | 1 |
+| 2026-10-27 | CABR | share_registration | -1 | -10.0% | +0.9% | $34k ⚠ | 1.09 | 1.09 | 1.12 | +2.8% | +2.8% | +1.5% | -1.3% | 0 |
+| 2026-10-27 | CBZ | 8k_merger_agreement | +0 | +0.1% | -0.1% | $80.8M | 54.82 | 54.94 | 54.97 | +0.3% | +0.1% | +1.5% |  | 1 |
+| 2026-10-27 | CDT | 8k_reverse_split | -1 | -49.5% | -14.9% | $807k | 0.08 | 0.09 | 0.07 | -11.2% | -21.1% | +1.5% | +22.6% | 1 |
+| 2026-10-27 | CMS | 8k_tender_offer | +0 | +3.3% | -0.8% | $289.6M | 69.00 | 68.77 | 69.07 | +0.1% | +0.4% | +1.5% |  | 1 |
+| 2026-10-27 | COCH | 8k_reverse_split | -1 | -0.6% | +0.2% | $96k ⚠ | 6.51 | 6.45 | 6.67 | +2.5% | +3.4% | +1.5% | -1.9% | 1 |
+| 2026-10-27 | CPSH | activist_13d | +0 | +0.9% | +3.7% | $900k | 3.63 | 3.62 | 3.68 | +1.5% | +1.8% | +1.5% |  | 1 |
+| 2026-10-27 | CSGP | 8k_merger_agreement | +0 | +5.9% | -5.0% | $169.7M | 32.01 | 30.00 | 27.66 | -13.6% | -7.8% | +1.5% |  | 1 |
+| 2026-10-27 | DSGR | 8k_merger_agreement | +0 | -0.1% | +0.0% | $7.6M | 35.02 | 35.05 | 34.96 | -0.2% | -0.3% | +1.5% |  | 1 |
+| 2026-10-27 | EDVA | share_registration | -1 | +17.0% | +4.4% | $145k ⚠ | 0.17 | 0.16 | 0.17 | +3.1% | +7.0% | +1.5% | -5.6% | 1 |
+| 2026-10-27 | ELVG | 8k_lock_up | +0 | +0.0% | +0.0% | $0k ⚠ | 6.30 | 6.30 | 6.30 | +0.0% | +0.0% | +1.5% |  | 0 |
+| 2026-10-27 | ENS | 8k_merger_agreement | +0 | +0.2% | +2.8% | $94.1M | 174.17 | 176.84 | 173.40 | -0.4% | -1.9% | +1.5% |  | 1 |
+| 2026-10-27 | FSP | 8k_strategic_review | +1 | +21.1% | -6.5% | $453k | 0.43 | 0.40 | 0.32 | -25.6% | -20.0% | +1.5% | -21.5% | 1 |
+| 2026-10-27 | GLXY | 8k_lock_up | +0 | -0.3% | +9.6% | $128.6M | 17.18 | 17.62 | 18.83 | +9.6% | +6.9% | +1.5% |  | 1 |
+| 2026-10-27 | GOVX | 8k_reverse_split | -1 | -14.9% | +3.6% | $273k | 0.20 | 0.21 | 0.19 | -5.5% | -8.2% | +1.5% | +9.7% | 1 |
+| 2026-10-27 | HAFC | 8k_special_dividend | +0 | +3.8% | +0.7% | $6.2M | 32.41 | 32.99 | 33.18 | +2.4% | +0.6% | +1.5% |  | 1 |
+| 2026-10-27 | HCTI | 8k_reverse_split | -1 | -6.0% | -0.6% | $1.1M | 6.80 | 6.74 | 6.42 | -5.6% | -4.8% | +1.5% | +6.2% | 1 |
+| 2026-10-27 | HRI | 8k_spin_off | +0 | +2.1% | +22.8% | $94.8M | 156.06 | 163.09 | 169.72 | +8.8% | +4.1% | +1.5% |  | 1 |
+| 2026-10-27 | HYFM | 8k_reverse_split | -1 | +5.5% | -6.6% | $87k ⚠ | 0.79 | 0.80 | 0.77 | -1.9% | -2.6% | +1.5% | +4.1% | 1 |
+| 2026-10-27 | IBO | merger_vote | +0 | +21.9% | -4.8% | $58k ⚠ | 3.55 | 3.40 | 4.15 | +16.9% | +22.1% | +1.5% |  | 1 |
+| 2026-10-27 | IMNN | share_registration | -1 | +24.2% | -28.5% | $122k ⚠ | 0.88 | 0.86 | 0.84 | -4.3% | -2.0% | +1.5% | +3.5% | 1 |
+| 2026-10-27 | IMSR | buyback | +0 | +3.2% | +11.9% | $5.5M | 3.29 | 2.95 | 3.39 | +3.0% | +14.9% | +1.5% |  | 1 |
+| 2026-10-27 | LEO | holder_buying | +0 | +3.0% | +1.4% | $1.8M | 5.92 | 5.92 | 5.91 | -0.1% | -0.1% | +1.5% |  | 1 |
+| 2026-10-27 | LNAI | registration_effective | -1 | -41.7% | -8.0% | $266k | 0.25 | 0.22 | 0.22 | -14.6% | -2.3% | +1.5% | +3.8% | 1 |
+| 2026-10-27 | LSTR | 8k_strategic_review | +1 | -1.9% | +2.2% | $54.2M | 168.78 | 143.13 | 140.33 | -16.9% | -2.0% | +1.5% | -3.4% | 1 |
+| 2026-10-27 | MEDS | setup_supply_deal_dilution | +0 | -18.0% | -5.9% | $14.6M | 2.06 | 2.02 | 2.08 | +0.7% | +2.7% | +1.5% |  | 1 |
+| 2026-10-27 | MFIC | 8k_merger_agreement | +0 | +1.7% | +22.7% | $8.5M | 10.26 | 10.25 | 10.30 | +0.4% | +0.5% | +1.5% |  | 1 |
+| 2026-10-27 | MG | merger_arb | +0 | -0.9% | -3.7% | $6.6M | 20.45 | 20.45 | 20.25 | -1.0% | -1.0% | +1.5% |  | 1 |
+| 2026-10-27 | MG | merger_vote | +0 | -0.9% | -3.7% | $6.6M | 20.45 | 20.45 | 20.25 | -1.0% | -1.0% | +1.5% |  | 1 |
+| 2026-10-27 | MRP | 8k_spin_off | +0 | +8.8% | +1.7% | $92.9M | 24.31 | 24.65 | 25.70 | +5.7% | +4.3% | +1.5% |  | 1 |
+| 2026-10-27 | NANO | 8k_merger_agreement | +0 | -41.5% | -6.6% | $3.3M | 4.67 | 4.66 | 3.99 | -14.6% | -14.4% | +1.5% |  | 1 |
+| 2026-10-27 | NAUT | setup_supply_atm | +0 | -7.2% | +18.4% | $28.0M | 2.89 | 3.00 | 3.23 | +11.9% | +7.8% | +1.5% |  | 1 |
+| 2026-10-27 | NNBR | setup_supply_resale | +0 | -9.2% | +4.5% | $11.3M | 3.51 | 3.60 | 3.91 | +11.5% | +8.8% | +1.5% |  | 1 |
+| 2026-10-27 | PRTA | holder_buying | +0 | -0.9% | +4.9% | $4.8M | 8.81 | 8.64 | 9.12 | +3.6% | +5.6% | +1.5% |  | 1 |
+| 2026-10-27 | PULM | 8k_merger_agreement | +0 | +1.4% | +3.5% | $36k ⚠ | 1.49 | 1.47 | 1.50 | +0.7% | +2.0% | +1.5% |  | 0 |
+| 2026-10-27 | RNST | 8k_merger_agreement | +0 | +5.2% | -0.4% | $25.9M | 41.58 | 40.69 | 40.21 | -3.3% | -1.2% | +1.5% |  | 1 |
+| 2026-10-27 | SCKT | 8k_strategic_review | +1 | +2.1% | +6.1% | $11.5M | 0.52 | 0.34 | 0.34 | -34.2% | +0.6% | +1.5% | -0.9% | 1 |
+| 2026-10-27 | SGRY | merger_arb | +0 | +58.1% | +0.5% | $105.4M | 23.36 | 23.26 | 23.24 | -0.5% | -0.1% | +1.5% |  | 1 |
+| 2026-10-27 | SLDE | 8k_special_dividend | +0 | +7.2% | -2.4% | $33.1M | 28.39 | 28.46 | 27.69 | -2.5% | -2.7% | +1.5% |  | 1 |
+| 2026-10-27 | SNTI | 8k_merger_agreement | +0 | -22.9% | +6.9% | $1.8M | 0.19 | 0.18 | 0.23 | +24.2% | +28.3% | +1.5% |  | 1 |
+| 2026-10-27 | SPGI | 8k_strategic_review | +1 | +5.3% | -0.4% | $852.6M | 448.93 | 447.92 | 455.42 | +1.4% | +1.7% | +1.5% | +0.2% | 1 |
+| 2026-10-27 | ST | 8k_tender_offer | +0 | -0.4% | +4.0% | $54.7M | 42.32 | 41.14 | 41.59 | -1.7% | +1.1% | +1.5% |  | 1 |
+| 2026-10-27 | THFF | 8k_merger_agreement | +0 | +3.4% | +1.7% | $9.5M | 77.78 | 77.25 | 77.82 | +0.1% | +0.7% | +1.5% |  | 1 |
+| 2026-10-27 | THRM | insider_cluster | +0 | -0.1% | +11.3% | $87.5M | 31.82 | 31.96 | 32.30 | +1.5% | +1.1% | +1.5% |  | 1 |
+| 2026-10-27 | TNL | 8k_strategic_review | +1 | +0.6% | +2.5% | $47.1M | 67.23 | 67.12 | 70.81 | +5.3% | +5.5% | +1.5% | +4.0% | 1 |
+| 2026-10-27 | TTGT | 8k_merger_agreement | +0 | +3.5% | -2.9% | $1.4M | 3.69 | 3.62 | 3.70 | +0.3% | +2.2% | +1.5% |  | 1 |
+| 2026-10-27 | UMBF | 8k_merger_agreement | +0 | +3.6% | -0.3% | $84.3M | 133.80 | 133.80 | 135.26 | +1.1% | +1.1% | +1.5% |  | 1 |
+| 2026-10-27 | VRT | 8k_merger_agreement | +0 | -3.1% | +4.4% | $1296.7M | 208.56 | 243.00 | 249.83 | +19.8% | +2.8% | +1.5% |  | 1 |
+| 2026-10-27 | VZ | delisting | +0 | -2.4% | +1.9% | $1323.1M | 43.93 | 43.95 | 43.98 | +0.1% | +0.1% | +1.5% |  | 1 |
+| 2026-10-27 | WCCB | 8k_special_dividend | +0 | +3.6% | +1.6% | $4.1M | 63.46 | 63.69 | 63.63 | +0.3% | -0.1% | +1.5% |  | 1 |
+| 2026-10-27 | WELL | 8k_merger_agreement | +0 | +3.0% | -5.8% | $605.7M | 226.72 | 222.81 | 233.65 | +3.0% | +4.9% | +1.5% |  | 1 |
+| 2026-10-27 | WORX | registration_effective | -1 | -23.5% | -6.8% | $35.2M | 1.91 | 1.98 | 1.71 | -10.4% | -13.6% | +1.5% | +15.1% | 1 |
+| 2026-10-27 | WPC | 8k_spin_off | +0 | +1.0% | -1.4% | $106.6M | 63.51 | 62.47 | 63.57 | +0.1% | +1.8% | +1.5% |  | 1 |
+| 2026-10-27 | XHLD | registration_effective | -1 | +50.9% | +6.3% | $9.3M | 0.91 | 0.94 | 0.99 | +8.2% | +5.2% | +1.5% | -3.7% | 1 |
+| 2026-10-28 | ALLO | linked_peer | +0 | -7.5% | +5.7% | $9.2M | 1.30 | 1.33 | 1.33 | +2.3% | +0.0% | +0.7% |  | 0 |
+| 2026-10-28 | ARTV | below_cash | +0 | -34.9% | +0.1% | $5.1M | 4.28 | 4.22 | 4.25 | -0.6% | +0.7% | +0.7% |  | 0 |
+| 2026-10-28 | CABA | linked_peer | +0 | -9.6% | +4.5% | $8.7M | 1.52 | 1.54 | 1.59 | +4.3% | +2.9% | +0.7% |  | 0 |
+| 2026-10-28 | CTEV | holder_buying | +0 | +1.2% | +1.5% | $5.2M | 23.00 | 23.36 | 24.56 | +6.8% | +5.1% | +0.7% |  | 0 |
+| 2026-10-28 | FATE | linked_peer | +0 | +0.5% | +4.8% | $2.6M | 2.17 | 2.17 | 2.21 | +1.8% | +1.8% | +0.7% |  | 0 |
+| 2026-10-28 | IBRX | linked_peer | +0 | -1.6% | +2.1% | $144.7M | 8.81 | 8.75 | 8.84 | +0.3% | +1.0% | +0.7% |  | 0 |
+| 2026-10-28 | KYTX | linked_peer | +0 | -6.8% | +4.6% | $5.1M | 5.89 | 5.91 | 5.97 | +1.4% | +1.0% | +0.7% |  | 0 |
+| 2026-10-28 | LCII | merger_arb | +0 | +9.0% | +8.6% | $48.1M | 97.59 | 97.50 | 98.50 | +0.9% | +1.0% | +0.7% |  | 0 |
+| 2026-10-28 | LYCA | linked_peer | +0 |  | -4.1% | $29.6M | 25.05 | 25.26 | 25.47 | +1.7% | +0.8% | +0.7% |  | 0 |
+| 2026-10-28 | MFIC | merger_arb | +0 | +24.2% | -0.2% | $10.0M | 10.24 | 10.23 | 10.30 | +0.6% | +0.7% | +0.7% |  | 0 |
+| 2026-10-28 | NIVF | setup_supply_eloc | +0 | -42.5% | +4.3% | $7.5M | 1.20 | 1.13 | 1.12 | -6.7% | -0.9% | +0.7% |  | 0 |
+| 2026-10-28 | NKTX | linked_peer | +0 | -2.3% | +1.2% | $2.0M | 1.72 | 1.74 | 1.73 | +0.5% | -0.6% | +0.7% |  | 0 |
+| 2026-10-28 | NPB | insider_cluster | +0 | -0.1% | +2.7% | $4.9M | 16.19 | 16.52 | 16.47 | +1.7% | -0.3% | +0.7% |  | 0 |
+| 2026-10-28 | SANA | linked_peer | +0 | +4.7% | +6.5% | $8.4M | 2.63 | 2.65 | 2.73 | +3.7% | +2.9% | +0.7% |  | 0 |
+| 2026-10-28 | SKYA | tender_issuer | +0 | +2.8% | +1.4% | $9.0M | 2.95 | 2.95 | 2.93 | -0.7% | -0.7% | +0.7% |  | 0 |
+| 2026-10-28 | STC | insider_cluster | +0 | -17.1% | +1.9% | $23.1M | 44.30 | 44.86 | 45.32 | +2.3% | +1.0% | +0.7% |  | 0 |
+| 2026-10-28 | TONX | activist_13d | +0 | +15.8% | +1.8% | $608k | 3.35 | 3.30 | 3.44 | +2.7% | +4.2% | +0.7% |  | 0 |
+| 2026-10-28 | ULBI | merger_arb | +0 | +1.1% | +145.4% | $2.4M | 15.61 | 15.61 | 15.62 | +0.1% | +0.1% | +0.7% |  | 0 |
+| 2026-10-28 | WORX | setup_supply_resale | +0 | -47.8% | +0.0% | $35.2M | 1.91 | 1.83 | 1.71 | -10.4% | -6.5% | +0.7% |  | 0 |
+| 2026-10-28 | ZURA | setup_supply_atm | +0 | +6.7% | +1.9% | $19.9M | 4.35 | 4.35 | 4.24 | -2.6% | -2.6% | +0.7% |  | 0 |
 
 ## Pending (27): enter at the next session open
 
 ACA, ACVA, ATKR, BLFS, BWOW, BZH, CCO, COLA, GBCS, GBTG, IAE, IHD, LGMK, PERF, QRVO, SLP, SNUS-PI, VACI, WEAV
 
-## No price data (18): delisted, units/warrants or bad symbol
+## No price data (22): delisted, units/warrants or bad symbol
 
-BRRK, CLYD, GOTV, ILXP, KUBE, LEDR, NIAA, PGIM, PORT, STWI, TEGO, WBD
+BRRK, CLYD, GBC, GOTV, ILXP, KUBE, LEDR, NIAA, PGIM, PORT, SCQC, STWI, TEGO, WBD

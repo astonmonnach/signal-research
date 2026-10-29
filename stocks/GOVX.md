@@ -24,8 +24,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.196 (2026-10-28, ledger)
-- **Since first found:** **-38.9%** (found 2026-10-04 via `setup_supply_deficiency` at $0.320). From the next open $0.330: -40.8% vs IWM -0.7% = **-40.1 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $0.190 (2026-10-29, ledger)
+- **Since first found:** **-40.6%** (found 2026-10-04 via `setup_supply_deficiency` at $0.320). From the next open $0.330: -42.4% vs IWM +0.9% = **-43.3 pts** vs IWM; direction 0, tracked only (24 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -34,7 +35,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-27](../scans/2026-10-27.md)**: Calendar: GOVX reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
+- **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -14.9%, found day +3.6%) ([filing](https://www.sec.gov/Archives/edgar/data/832489/000143774926033610/govx20261027_8k.htm)) · Calendar: GOVX reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 24 Sep + listing deficiency Aug; $0.32; track for promo spike; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -43,4 +45,5 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $0.320 | $0.330 | $0.196 | -38.9% | -40.8% | -0.7% |  | 23 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $0.320 | $0.330 | $0.190 | -40.6% | -42.4% | +0.9% |  | 24 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $0.201 | $0.207 | $0.190 | -5.5% | -8.2% | +1.5% | +9.7% | 1 | live |

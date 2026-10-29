@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $15.29 (2026-10-28, ledger)
-- **Since first found:** **-10.5%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -8.3% vs IWM +0.6% = **-8.9 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $15.06 (2026-10-29, ledger)
+- **Since first found:** **-11.9%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -9.7% vs IWM +2.2% = **-11.9 pts** vs IWM; direction 0, tracked only (17 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **ZURA** is not called: its new $114M ATM (about 28% of the market value) sits on a shelf that is not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **XRPN, PMI** (takeable): resale registrations not yet effective. Tracked: re-read for AVOID at EFFECT. ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_resale` (direction 0): Cantor equity-line resale S-1 for 5.22M sh (20% of Class A) at 97% of VWAP, not yet effective; tracked: re-read for AVOID at EFFECT; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (- Tracked but not called: XRPN (a Cantor equity-line resale for 20% of Class A) and PMI (resale of 20% more).…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before -3.8%, found day -2.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2092592/000162828026067081/0001628280-26-067081-index.htm))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **XRPN** (Evernorth): 11.5M in-the-money public warrants registered, 49% of the Class A shares (arith), with a resale S-1 for the private-placement… ([triage](../watch/digests/2026-10-21-triage.md)) · Logged as `supply_warrants` (direction 0): 11.5M in-the-money public warrants registered, 49% of Class A (arith); PIPE resale to come; AVOID (moderate); source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 21 Oct 2026 (- 3. AVOID: BRUN (58.7M resale shares, 1.25x the class), TKNO (share sale launched after the close, -30%…) ([note](../research/daily/2026-10-21.md))
@@ -29,8 +30,8 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $15.29 | -10.5% | -8.3% | +0.6% |  | 16 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $15.29 | +3.0% | +2.8% | +1.1% | -1.6% | 7 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $15.29 | -2.9% | +0.1% | +1.9% |  | 6 | live |
-| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $15.29 | +1.6% | +5.1% | +1.4% | -3.7% | 2 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $15.29 | +2.0% | +2.0% | +0.7% |  | 1 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $15.06 | -11.9% | -9.7% | +2.2% |  | 17 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $15.06 | +1.4% | +1.2% | +2.8% | +1.5% | 8 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $15.06 | -4.4% | -1.4% | +3.5% |  | 7 | live |
+| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $15.06 | +0.0% | +3.5% | +3.0% | -0.5% | 3 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $15.06 | +0.4% | +0.5% | +2.4% |  | 2 | live |

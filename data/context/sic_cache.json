@@ -20233,8 +20233,10 @@
    "sic": "5961"
   },
   "1336706": {
-   "fetched": "2026-10-23",
-   "sic": "6022"
+   "fetched": "2026-10-29",
+   "name": "NORTHPOINTE BANCSHARES INC",
+   "sic": "6022",
+   "sic_description": "State Commercial Banks"
   },
   "1336776": {
    "fetched": "2026-10-27",
@@ -35517,8 +35519,10 @@
    "sic": "2836"
   },
   "1817241": {
-   "fetched": "2026-10-04",
-   "sic": "2836"
+   "fetched": "2026-10-29",
+   "name": "Artiva Biotherapeutics, Inc.",
+   "sic": "2836",
+   "sic_description": "Biological Products, (No Diagnostic Substances)"
   },
   "1817371": {
    "fetched": "2026-10-19",
@@ -50687,8 +50691,10 @@
    "sic": "8711"
   },
   "875657": {
-   "fetched": "2026-10-07",
-   "sic": "3690"
+   "fetched": "2026-10-29",
+   "name": "ULTRALIFE CORP",
+   "sic": "3690",
+   "sic_description": "Miscellaneous Electrical Machinery, Equipment & Supplies"
   },
   "875742": {
    "fetched": "2026-10-08",

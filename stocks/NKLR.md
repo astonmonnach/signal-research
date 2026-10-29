@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.19 (2026-10-28, market context) · 1d +3.1%, 5d -1.6%, 20d -35.5% (market context, 2026-10-28)
+- **Latest price:** $2.44 (2026-10-29, market context) · 1d +1.9%, 5d +17.1%, 20d -30.0% (market context, 2026-10-29)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** no flag (self 5d -1.6% vs peer median +3.2%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** solo_move: NKLR +17.1% 5d vs peer median +8.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,7 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **NKLR**: AGM 16 Nov, including a proposal to extend the time to prepare the FY2025 accounts. The AVOID stands. ([triage](../watch/digests/2026-10-27-triage.md)) · Filings: `DEF 14A` 27 Oct
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **NKLR**: MaloneBailey formally engaged 23 Oct. KPMG was dismissed 9 Oct with unremediated material weaknesses. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `8-K` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **NKLR:** the new auditor must review a 10-Q due about 16 Nov; the AVOID stands. **TALO:** the Slim family…) ([note](../research/daily/2026-10-28.md))
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **NKLR**: AGM 16 Nov, including a proposal to extend the time to prepare the FY2025 accounts. The AVOID stands. ([triage](../watch/digests/2026-10-27-triage.md)) · Market scan: 8-K trigger phrase "auditor change (Item 4.01)" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/2067627/000114036126040902/ef20084402_8k.htm)) · Filings: `DEF 14A` 27 Oct
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `8-K` 16 Oct; +33 older (Oct – Oct 2026) first picked up
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **NKLR** (Terra Innovatum): KPMG dismissed as auditor on 9 Oct, with the material weaknesses not fixed. ([triage](../watch/digests/2026-10-18-triage.md)) · Research: Research: Sun 18 Oct 2026 (- **NKLR:** auditor KPMG dismissed with weaknesses unfixed. AVOID. It shares IMSR's industry code (a weak…) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "auditor change (Item 4.01)" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/2067627/000114036126039929/ef20083892_8k.htm))

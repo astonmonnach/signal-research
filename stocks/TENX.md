@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.82 (2026-10-28, ledger) · 1d +5.8%, 5d +11.7%, 20d -3.7% (market context, 2026-10-28)
-- **Since first found:** **+3.1%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +3.1% vs IWM +1.9% = **+1.2 pts** vs IWM; direction 0, tracked only (5 days)
-- **Peers / sympathy:** solo_move: TENX +11.7% 5d vs peer median +1.5%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Latest price:** $1.95 (2026-10-29, ledger) · 1d +3.2%, 5d +10.2%, 20d +0.5% (market context, 2026-10-29)
+- **Since first found:** **+10.8%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +10.8% vs IWM +3.5% = **+7.3 pts** vs IWM; direction 0, tracked only (6 days)
+- **Peers / sympathy:** solo_move: TENX +10.2% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **TENX**: BlackRock 7.5%, passive. T012 unchanged. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `SCHEDULE 13G/A` 27 Oct
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `4` 21 Oct; +38 older (May – Oct 2026) first picked up
 - **[2026-10-22](../scans/2026-10-22.md#new-setups)**: Logged as `holder_buying` (direction 0): ADAR1 (10% owner) bought $1.46M on 19-21 Oct, about $4.45M since 31 Aug (arith); Phase 3 missed in Aug; June cash $118.0M vs value $61-93M; tracked with a trigger; source: daily research 22 Oct (research/daily/2026-10-22.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 22 Oct 2026 (2. TENX: a 10% holder keeps buying after a failed trial, near or below cash) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/34956/000194027226000027/0001940272-26-000027-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.82 | +3.1% | +3.1% | +1.9% |  | 5 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.95 | +10.8% | +10.8% | +3.5% |  | 6 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.79 (2026-10-28, ledger) · 1d +0.2%, 5d +1.0%, 20d +5.7% (market context, 2026-10-28)
-- **Since first found:** **+1.0%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.1% vs IWM +1.9% = **-0.8 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $12.81 (2026-10-29, ledger) · 1d +0.2%, 5d +0.3%, 20d +6.1% (market context, 2026-10-29)
+- **Since first found:** **+1.2%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.2% vs IWM +3.5% = **-2.3 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.0% vs peer median +0.1%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median +1.1%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **CPAC**: the board is **neutral**; directors and officers holding shares intend to tender. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `6-K` 28 Oct, `SC 14D9` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **CPAC:** the board is neutral on Holcim's offer and insiders will tender; the spread is down to about 1.2%…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **CPAC**: Q3 revenue +16.3%, EBITDA +45.1%. The tender price is fixed, so T011 is unchanged. ([triage](../watch/digests/2026-10-27-triage.md)) · Press: Cementos Pacasmayo S.A.A. Announces Consolidated Results for Third Quarter 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261026236119/en/Cementos-Pacasmayo-S.A.A.-Announces-Consolidated-Results-for-Third-Quarter-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `6-K` ×2 27 Oct
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **CPAC**: the Peru tender notice was published 23 Oct. S/8.93 a share, S/44.65 per ADS, open 22 Oct to 16:00 on 20 Nov, backed by a BBVA guarantee of… ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `6-K` ×2 23 Oct · Research: Research: Mon 26 Oct 2026 (- **CPAC (T011):**) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `6-K` ×2 22 Oct, `SCHEDULE 13D/A` 21 Oct, `SC 13E3` 21 Oct, `6-K` 16 Oct, `SCHEDULE 13D/A` 16 Oct; +30 older (Mar – Oct 2026) first picked up · Research: Research: Fri 23 Oct 2026 (2. CPAC: Peru's regulator queries the valuation behind the minimum price) ([note](../research/daily/2026-10-23.md))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.79 | +1.0% | +1.1% | +1.9% |  | 6 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.79 | +0.2% | +0.1% | +1.9% |  | 5 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.81 | +1.2% | +1.2% | +3.5% |  | 7 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.81 | +0.3% | +0.2% | +3.5% |  | 6 | live |

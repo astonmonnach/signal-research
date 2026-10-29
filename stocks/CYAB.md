@@ -26,10 +26,10 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.130 (2026-10-28, ledger) · 1d -0.1%, 5d -13.5%, 20d -38.2% (market context, 2026-10-28)
-- **Since first found:** **-35.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -35.1% vs IWM -0.7% = **-34.4 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $0.129 (2026-10-29, ledger)
+- **Since first found:** **-35.6%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -35.6% vs IWM +0.9% = **-36.5 pts** vs IWM; direction 0, tracked only (24 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CYAB -13.5% 5d vs peer median +0.4%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -49,6 +49,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.130 | -35.1% | -35.1% | -0.7% |  | 23 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.130 | -23.6% | -23.6% | +0.7% | +24.3% | 19 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.130 | -13.5% | -13.5% | +3.1% | +16.6% | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.129 | -35.6% | -35.6% | +0.9% |  | 24 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.129 | -24.2% | -24.2% | +2.3% | +26.5% | 20 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.129 | -14.1% | -14.1% | +4.8% | +18.9% | 9 | live |

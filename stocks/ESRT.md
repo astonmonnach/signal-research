@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_deep_dive` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $5.01 (2026-10-28, ledger) · 1d -0.5%, 5d +7.2%, 20d +24.2% (market context, 2026-10-28)
-- **Since first found:** **+18.3%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +16.4% vs IWM -1.5% = **+17.9 pts** vs IWM; direction +1 → excess +17.9% (22 days)
+- **Latest price:** $5.01 (2026-10-29, ledger) · 1d +0.7%, 5d +1.5%, 20d +21.2% (market context, 2026-10-29)
+- **Since first found:** **+18.3%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +16.4% vs IWM +0.0% = **+16.4 pts** vs IWM; direction +1 → excess +16.4% (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ESRT +7.2% 5d vs peer median +1.7%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (self 5d +1.5% vs peer median +4.6%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for ESRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.01 | +18.3% | +16.4% | -1.5% | +17.9% | 22 | live |
-| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.01 | +9.3% | +9.5% | +0.7% |  | 19 | live |
+| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.01 | +18.3% | +16.4% | +0.0% | +16.4% | 23 | live |
+| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.01 | +9.3% | +9.5% | +2.3% |  | 20 | live |

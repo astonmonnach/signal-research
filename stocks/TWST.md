@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $177.98 (2026-10-28, ledger) · 1d +10.5%, 5d +18.5%, 20d -8.6% (market context, 2026-10-28)
-- **Since first found:** **-7.9%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -7.8% vs IWM +1.0% = **-8.8 pts** vs IWM; direction 0, tracked only (27 days)
-- **Peers / sympathy:** no flag (self 5d +18.5% vs peer median +22.2%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Latest price:** $172.52 (2026-10-29, ledger) · 1d -0.6%, 5d +27.3%, 20d -8.3% (market context, 2026-10-29)
+- **Since first found:** **-10.7%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -10.7% vs IWM +2.6% = **-13.2 pts** vs IWM; direction 0, tracked only (28 days)
+- **Peers / sympathy:** no flag (self 5d +27.3% vs peer median +29.1%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,7 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: Twist Bioscience Expands High-Throughput Antibody Characterization with Launch of Express Screening Antibodies (Business Wire) ([release](http://www.businesswire.com/news/home/20261028674791/en/Twist-Bioscience-Expands-High-Throughput-Antibody-Characterization-with-Launch-of-Express-Screening-Antibodies/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **TWST**: a mandated RSU sell-to-cover (2,245 at $134.59). AVOID unchanged. TWST is +32.5% from that price since 23 Oct with no filing to explain it… ([triage](../watch/digests/2026-10-28-triage.md)) · Press: Twist Bioscience Expands High-Throughput Antibody Characterization with Launch of Express Screening Antibodies (Business Wire) ([release](http://www.businesswire.com/news/home/20261028674791/en/Twist-Bioscience-Expands-High-Throughput-Antibody-Characterization-with-Launch-of-Express-Screening-Antibodies/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==)) · Filings: `4` 27 Oct
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **TWST** Form 144: officer Patrick Finn, 2,245 sh (~$302k). Routine. **VYLR** three Form 4s: director grants (code A). ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `144` 23 Oct
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Research: Mon 19 Oct 2026 (- The size buckets were rebuilt from current market values. TWST moved to mid caps.) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **MOD** (-18.0% since 9 Oct) and **TWST** (-16.9%): falls with no filing to explain them. Price notes only. ([triage](../watch/digests/2026-10-18-triage.md))
@@ -115,4 +115,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $177.98 | -7.9% | -7.8% | +1.0% |  | 27 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $172.52 | -10.7% | -10.7% | +2.6% |  | 28 | live |

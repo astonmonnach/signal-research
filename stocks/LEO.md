@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $5.89 (2026-10-28, ledger)
-- **Since first found:** **-0.5%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: -0.5% vs IWM -0.1% = **-0.4 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $5.91 (2026-10-29, ledger)
+- **Since first found:** **-0.1%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: -0.1% vs IWM +1.5% = **-1.6 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `holder_buying` (direction 0): Saba 10.5% buying a muni closed-end fund at an 8-10% NAV discount; passes TF1 narrowly; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (- CPSH to fund:Global Value Investment Corp, LEO to fund:Saba Capital, AZUL to AAL (holder_13d).) ([note](../research/daily/2026-10-27.md))
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Caveats:** the sample is tiny, 14 of the 18 were held under 20 trading days, and the found dates were not…) ([note](../research/daily/2026-10-28.md))
+- **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `holder_buying` (direction 0): Saba 10.5% buying a muni closed-end fund at an 8-10% NAV discount; passes TF1 narrowly; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000382/0001510281-26-000382-index.htm)) · Research: Research: Tue 27 Oct 2026 (- CPSH to fund:Global Value Investment Corp, LEO to fund:Saba Capital, AZUL to AAL (holder_13d).) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000377/0001510281-26-000377-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000374/0001510281-26-000374-index.htm))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **LEO** (BNY Mellon Strategic Municipals): Saba Capital bought $1.91M and crossed 10% (10.3%). This is a closed-end-fund discount campaign. ([triage](../watch/digests/2026-10-21-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000369/0001510281-26-000369-index.htm))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $5.89 | -0.5% | -0.5% | -0.1% |  | 0 | live |
+| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $5.91 | -0.1% | -0.1% | +1.5% |  | 1 | live |

@@ -24,9 +24,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $6.52 (2026-10-28, ledger)
-- **Since first found:** **-55.0%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -45.7% vs IWM -0.7% = **-45.0 pts** vs IWM; direction -1 → excess +45.0% (23 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $6.42 (2026-10-29, ledger)
+- **Since first found:** **-55.7%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -46.5% vs IWM +0.9% = **-47.4 pts** vs IWM; direction -1 → excess +47.4% (24 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,6 +35,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
+- **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -6.0%, found day -0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1839285/000121390026112972/ea030971601ex99-1.htm))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Healthcare Triangle, Inc. Announces 1-for-20 Reverse Stock Split as Part of Nasdaq Compliance Plan (PR Newswire) ([release](https://www.prnewswire.com/news-releases/healthcare-triangle-inc-announces-1-for-20-reverse-stock-split-as-part-of-nasdaq-compliance-plan-302916160.html))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: HCTI Expands AI Business with 6 New Contracts, Targeting approx. $4.65M in Annual Run Rate Revenue (PR Newswire) ([release](https://www.prnewswire.com/news-releases/hcti-expands-ai-business-with-6-new-contracts-targeting-approx-4-65m-in-annual-run-rate-revenue-302914084.html))
 - **[2026-10-12](../scans/2026-10-12.md)**: Calendar: HCTI suspended if no hearing request ([calendar](../calendar/catalyst-dates.ics))
@@ -49,5 +51,6 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.52 | -55.0% | -45.7% | -0.7% | +45.0% | 23 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.52 | -55.0% | -45.7% | -0.7% |  | 23 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.42 | -55.7% | -46.5% | +0.9% | +47.4% | 24 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $6.42 | -55.7% | -46.5% | +0.9% |  | 24 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -6.0% | -0.6% | $1.1M | $6.80 | $6.74 | $6.42 | -5.6% | -4.8% | +1.5% | +6.2% | 1 | live |

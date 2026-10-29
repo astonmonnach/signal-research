@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $10.50 (2026-10-16, ledger)
-- **Since first found:** **+0.6%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.6% vs IWM -0.1% = **+0.6 pts** vs IWM; direction 0, tracked only (16 days)
+- **Since first found:** **+0.6%** (found 2026-09-29 via `tender_third_party` at $10.44). From the next open $10.44: +0.6% vs IWM +1.6% = **-1.0 pts** vs IWM; direction 0, tracked only (16 days)
   - 6 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Two have closed (ACVA, ATKR); 14 are pending.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, tender offer" (8k merger agreement) (5d before +0.6%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1637873/000119312526425225/d139534d8k.htm))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **ACVA:** **completed** (, ). - The tender expired 15 Oct with 68.43% tendered (together with Copart's own shares). ([triage](../watch/digests/2026-10-16-triage.md)) · Press: Copart Completes Acquisition of ACV (Business Wire) ([release](http://www.businesswire.com/news/home/20261015338070/en/Copart-Completes-Acquisition-of-ACV/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: delisting (`25-NSE`) (5d before +0.6%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1637873/000087666126000841/0000876661-26-000841-index.htm)) · Market scan: tender offer (third party) (`SC TO-T/A`) (5d before +0.6%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1637873/000119312526423456/0001193125-26-423456-index.htm)) · Research: Research: Fri 16 Oct 2026 (- **ACVA:** Copart's tender completed, and the merger closed on 16 Oct at $10.50. Removed.) ([note](../research/daily/2026-10-16.md))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **ACVA**: Copart's final amendment before expiry. The result is in the 16 Oct triage (completed). ([triage](../watch/digests/2026-10-15-triage.md)) · Calendar: ACVA: Copart $10.50 tender offer expires (5pm ET) ([calendar](../calendar/catalyst-dates.ics))
@@ -33,10 +34,10 @@ Every [ledger](../ledger/LEDGER.md) row for ACVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.50 | +0.6% | +0.6% | -0.1% |  | 16 | live |
-| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.50 | +0.6% | +0.5% | +0.7% |  | 7 | live |
-| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.50 | +0.6% | +0.4% | +0.6% |  | 4 | live |
-| 2026-10-14 | `tender_third_party` | 0 | +0.3% | +0.3% | $82.2M | $10.50 | $10.50 | $10.50 | +0.0% | +0.0% | +3.2% |  | 1 | live |
+| 2026-09-29 | `tender_third_party` | 0 | -0.2% | -0.2% | $150.2M | $10.44 | $10.44 | $10.50 | +0.6% | +0.6% | +1.6% |  | 16 | live |
+| 2026-10-08 | `tender_third_party` | 0 | +0.1% | +0.0% | $160.3M | $10.44 | $10.45 | $10.50 | +0.6% | +0.5% | +2.3% |  | 7 | live |
+| 2026-10-10 | `merger_arb` | 0 | -0.1% | +0.0% | $100.9M | $10.44 | $10.46 | $10.50 | +0.6% | +0.4% | +2.2% |  | 4 | live |
+| 2026-10-14 | `tender_third_party` | 0 | +0.3% | +0.3% | $82.2M | $10.50 | $10.50 | $10.50 | +0.0% | +0.0% | +4.8% |  | 1 | live |
 | 2026-10-16 | `delisting` | 0 | +0.6% | +0.0% | $66.6M | $10.50 |  | $10.50 |  |  |  |  |  | pending |
 | 2026-10-16 | `tender_third_party` | 0 | +0.6% | +0.0% | $66.6M | $10.50 |  | $10.50 |  |  |  |  |  | pending |
 | 2026-10-19 | `8k_merger_agreement` | 0 | +0.6% | +0.0% | $66.6M | $10.50 |  | $10.50 |  |  |  |  |  | pending |

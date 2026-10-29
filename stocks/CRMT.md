@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $0.841 (2026-10-28, ledger) · 1d +5.1%, 5d +27.4%, 20d -17.6% (market context, 2026-10-28)
-- **Since first found:** **-32.7%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -33.2% vs IWM +0.7% = **-33.9 pts** vs IWM; direction +1 → excess -33.9% (19 days)
+- **Latest price:** $0.913 (2026-10-29, ledger) · 1d +4.9%, 5d -3.9%, 20d -6.9% (market context, 2026-10-29)
+- **Since first found:** **-27.0%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -27.6% vs IWM +2.3% = **-29.8 pts** vs IWM; direction +1 → excess -29.8% (20 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT +27.4% 5d vs peer median +2.2%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT -3.9% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-29)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Sun 1 Nov 2026: CRMT: lenders' default waiver and liquidity relief expire (outer date 6 Nov)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **2026-10-29**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-22 6 CRMT +44% financing $0.95 7.9 no -15.8% -8.4% -10.1) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-23](../scans/2026-10-23.md)**: Research: Research: Fri 23 Oct 2026 (- **CRMT:** +43.5% to $0.946 on 15.9x volume. The likely driver is the 21 Oct 8-K, filed after the close:) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `8-K` 21 Oct · Calendar: CRMT: lenders' waiver and liquidity relief expire (company warns of a possible bankruptcy filing) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 22 Oct 2026 (- **CRMT:** lenders extended the default waiver again, to **1 Nov**. They added a $5.0M term loan for a $200k…) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `8-K` 15 Oct; +32 older (Jun – Oct 2026) first picked up
@@ -33,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.841 | -32.7% | -33.2% | +0.7% | -33.9% | 19 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.841 | -37.7% | -38.1% | +0.6% |  | 16 | live |
-| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.841 | -37.7% | -38.1% | +1.6% | -39.8% | 12 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.913 | -27.0% | -27.6% | +2.3% | -29.8% | 20 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.913 | -32.4% | -32.9% | +2.2% |  | 17 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.913 | -32.4% | -32.9% | +3.3% | -36.1% | 13 | live |

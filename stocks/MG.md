@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md)); `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $20.45 (2026-10-28, ledger) · 1d +0.0%, 5d -4.0%, 20d -2.9% (market context, 2026-10-28)
-- **Since first found:** **-1.0%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -2.5% vs IWM +1.6% = **-4.2 pts** vs IWM; direction 0, tracked only (12 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MG -4.0% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Latest price:** $20.25 (2026-10-29, ledger) · 1d -1.1%, 5d -5.5%, 20d -1.8% (market context, 2026-10-29)
+- **Since first found:** **-2.0%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.5% vs IWM +3.3% = **-6.8 pts** vs IWM; direction 0, tracked only (13 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: MG -5.5% 5d vs peer median +2.6%; peers didn't move with it. Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,7 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **MG**: H.I.G. at $20.35 cash; vote 24 Nov. - The go-shop ended 11:59pm ET 27 Oct: 122 parties contacted, 40 NDAs, no proposal. ([triage](../watch/digests/2026-10-27-triage.md)) · Logged as `merger_arb` (direction 0): H.I.G. $20.35 cash; go-shop ended 27 Oct with no proposal; vote 24 Nov; T014 TRACKED below $20.00; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `DEFM14A` 27 Oct · Calendar: MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 27 Oct 2026 (3. Buy side: insiders at THRM, no bidder at MG) ([note](../research/daily/2026-10-27.md))
+- **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: MISTRAS Group, Inc. Announces Expiration of “Go-Shop” Period (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/28/3390799/12235/en/mistras-group-inc-announces-expiration-of-go-shop-period.html))
+- **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **MG**: H.I.G. at $20.35 cash; vote 24 Nov. - The go-shop ended 11:59pm ET 27 Oct: 122 parties contacted, 40 NDAs, no proposal. ([triage](../watch/digests/2026-10-27-triage.md)) · Logged as `merger_arb` (direction 0): H.I.G. $20.35 cash; go-shop ended 27 Oct with no proposal; vote 24 Nov; T014 TRACKED below $20.00; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: merger vote (`DEFM14A`) (5d before -0.9%, found day -3.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1436126/000114036126040834/0001140361-26-040834-index.htm)) · Filings: `DEFM14A` 27 Oct · Calendar: MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 27 Oct 2026 (3. Buy side: insiders at THRM, no bidder at MG) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Options record:** the four open rows (SKYA, MG, CSR, LCII) have no real view, so each is set to "none"…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: +28 older (Apr – Oct 2026) first picked up
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **MG** (Mistras), merger proxy, takeable (median $7.72M). H.I.G. pays $20.35 cash. The go-shop ends **27 Oct, 11:59 pm New York**. ([triage](../watch/digests/2026-10-16-triage.md)) · Logged as `merger_arb` (direction 0): H.I.G. $20.35 cash; go-shop to 27 Oct (121 parties contacted, 38 NDAs); trades 5.9% above the deal price; tracked, no call; source: daily research 16 Oct (research/daily/2026-10-16.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 16 Oct 2026 (2. MG: a busy go-shop, and the stock already above the deal price) ([note](../research/daily/2026-10-16.md))
@@ -30,6 +31,7 @@ Every [ledger](../ledger/LEDGER.md) row for MG ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.45 | -1.0% | -2.5% | +1.6% |  | 12 | live |
-| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.45 | -4.7% | -5.0% | +3.0% |  | 9 | live |
-| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.45 | +0.0% | +0.0% | -0.1% |  | 0 | live |
+| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.25 | -2.0% | -3.5% | +3.3% |  | 13 | live |
+| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.25 | -5.6% | -5.9% | +4.7% |  | 10 | live |
+| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.25 | -1.0% | -1.0% | +1.5% |  | 1 | live |
+| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.25 | -1.0% | -1.0% | +1.5% |  | 1 | live |

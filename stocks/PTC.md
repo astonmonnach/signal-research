@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $194.15 (2026-10-28, ledger) · 1d -0.2%, 5d -0.1%, 20d +38.4% (market context, 2026-10-28)
-- **Since first found:** **+1.0%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.6% vs IWM -1.5% = **+2.1 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $194.42 (2026-10-29, ledger) · 1d -0.3%, 5d +0.2%, 20d +32.7% (market context, 2026-10-29)
+- **Since first found:** **+1.1%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.7% vs IWM +0.0% = **+0.7 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.1% vs peer median +0.4%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -2.0%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Only three were above the ~3.5% cost hurdle (PTC, SMTI, GPRO), and each had a named risk.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `4` 16 Oct; +37 older (Feb – Oct 2026) first picked up
 - **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: PTC Announces Servigistics Renewal with U.S. Air Force (PR Newswire) ([release](https://www.prnewswire.com/news-releases/ptc-announces-servigistics-renewal-with-us-air-force-302908699.html))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `merger_arb` (direction 0): Schneider Electric pays $205 cash (signed 4 Oct); $193.03 = 6.2% gross spread; ~10% implied break odds; HSR + foreign-investment review; $700M termination fee; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (1. Schneider Electric buys PTC: $205 cash) ([note](../research/daily/2026-10-06.md))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for PTC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $194.15 | +1.0% | +0.6% | -1.5% |  | 22 | live |
-| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $194.15 | +0.6% | +0.5% | +0.6% |  | 21 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $194.42 | +1.1% | +0.7% | +0.0% |  | 23 | live |
+| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $194.42 | +0.7% | +0.6% | +2.2% |  | 22 | live |

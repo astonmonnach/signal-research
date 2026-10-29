@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $8.08 (2026-10-28, ledger) · 1d +1.2%, 5d +4.9%, 20d +15.6% (market context, 2026-10-28)
-- **Since first found:** **+15.9%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.3% vs IWM -0.1% = **+16.4 pts** vs IWM; direction +1 → excess +16.3% (29 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Latest price:** $8.06 (2026-10-29, ledger) · 1d -0.7%, 5d +1.4%, 20d +17.4% (market context, 2026-10-29)
+- **Since first found:** **+15.6%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +15.9% vs IWM +1.5% = **+14.4 pts** vs IWM; direction +1 → excess +14.4% (30 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 30 Oct 2026: WHF: record date for the $0.17 special distribution (paid 10 Dec)
   - Mon 9 Nov 2026: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- WHF: +16.2 vs IWM. A business development company (BDC) 41% below its June NAV, with notes maturing in…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md#triage-notes)**: Triage: **WHF:** call time corrected to 1:00 pm New York on 9 Nov (15 Oct triage). ([triage](../watch/digests/2026-10-16-triage.md)) · Filings: `8-K/A` 14 Oct
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **WHF**: the 8-K/A only corrects the Q3 call time to **1:00 pm New York** (18:00 UK) on 9 Nov; the 14 Oct note and calendar said 1:30 pm. ([triage](../watch/digests/2026-10-15-triage.md))
@@ -114,4 +115,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.08 | +15.9% | +16.3% | -0.1% | +16.3% | 29 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.06 | +15.6% | +15.9% | +1.5% | +14.4% | 30 | live |

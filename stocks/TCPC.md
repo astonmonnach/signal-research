@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $4.16 (2026-10-28, ledger) · 1d +0.8%, 5d +2.6%, 20d +4.1% (market context, 2026-10-28)
-- **Since first found:** **+2.0%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +2.0% vs IWM +3.2% = **-1.2 pts** vs IWM; direction +1 → excess -1.2% (13 days)
+- **Latest price:** $4.16 (2026-10-29, ledger) · 1d +0.5%, 5d +1.5%, 20d +3.5% (market context, 2026-10-29)
+- **Since first found:** **+2.1%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +2.1% vs IWM +4.8% = **-2.7 pts** vs IWM; direction +1 → excess -2.7% (14 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-28)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Caveats:** the sample is tiny, 14 of the 18 were held under 20 trading days, and the found dates were not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 14 Oct; +27 older (Jun – Sep 2026) first picked up
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **TCPC** (BlackRock TCP Capital), activist 13D, takeable ($4.17; median $2.46M). ([triage](../watch/digests/2026-10-15-triage.md)) · Triage: TCPC, 13D: read. Saba activism, above. +2.2%. ([triage](../watch/digests/2026-10-15-triage.md)) · Logged as `activist_13d` (direction 0): Saba 5.11% at about $4.00; Item 4: NAV discount, liquidation, manager change; about 0.71x pro forma NAV; already +4.8% vs IWM -1.7%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Why IMSR ranked first (rule 8b, rank by how unnoticed): three insider filings over three days, no price…) ([note](../research/daily/2026-10-15.md))
 - **[2026-10-14](../scans/2026-10-14.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -0.3%, found day +2.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1370755/000106299326005324/0001062993-26-005324-index.htm))
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.16 | +2.0% | +2.0% | +3.2% | -1.2% | 13 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.16 | -1.4% | -1.6% | +1.6% |  | 12 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.16 | +2.1% | +2.1% | +4.8% | -2.7% | 14 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.16 | -1.3% | -1.5% | +3.3% |  | 13 | live |
