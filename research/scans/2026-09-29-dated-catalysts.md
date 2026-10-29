@@ -103,3 +103,45 @@ Prices: Massive daily closes, 29 Sep vs 28 Oct, adjusted for splits only. Cash a
 3. A registered overhang (HMH) only matters once the holder actually sells.
 
 Next checkpoint: 30 Nov (two months).
+
+**Full list: all 34 names in the scan** (29 Sep close to 28 Oct close; IWM +0.8%)
+
+| name | what the scan said | result | did it play out? |
+|---|---|---|---|
+| VYLR | WATCH: wait for forced selling (the only buy-side idea) | +5.9% from first close | no: it rose without us |
+| THRM | watch for unwanted-share selling | +3.9% (−17% to 22 Oct, then +27%) | mixed |
+| HMH | real overhang, watch | +6.7% | no |
+| TWST | most stretched lock-up | −6.8% | yes |
+| DBGI | red flag: market doesn't believe the bid | −81.6% | yes |
+| SHFS | reverse split, avoid | −93.4% | yes |
+| MYPS | reverse split, avoid | +3.6% | no |
+| VTAK | reverse split, avoid | no trades after 2 Oct ($1.51) | unknown |
+| TMCR | near miss: lock-up release | −45.4% | yes |
+| CLS | lock-up, "moderate" | −18.2% | no view |
+| GLOO | lock-up, "run, small supply" | −33.3% | no view |
+| SKHY | lock-up, "limited overhang" | −11.8% | no view |
+| RDVT | lock-up, "run" | +3.9% | no view |
+| UWMC | rights offering, "already crushed" | +21.0% | no view |
+| CHRS | CVR dividend | −1.7% | no view |
+| SMTI | merger, priced (0.34%) | −6.3% (FTC Second Request) | no |
+| ACVA | tender, priced (0.57%) | closed at $10.50, +0.6% | yes |
+| ATKR | merger, priced (0.29%) | closed 19 Oct, about +0.3% | yes |
+| FSEA | merger, priced (0.0%) | closed, 0% | yes |
+| BLFS | merger, priced (0.22%) | last trade 5 Oct, $38.61 (−1.6%) | yes |
+| UTMD | issuer tender at $75, priced | −8.2% after the tender | yes (price only for accepted shares) |
+| NFJ | pass: too small after proration | −3.7% | yes |
+| TORO | partly run | −11.5% | no view |
+| QNCX | run | no trades after 9 Oct ($31.73) | no view |
+| CTVA | spin parent | −9.9% from first post-spin close | no view |
+| MOD | RMT parent (incl. THRM shares) | −13.8% | no view |
+| BMY | FDA, large cap, immaterial | −3.6% | no view |
+| MRK | FDA, large cap, immaterial | −5.6% | no view |
+| SRRK | FDA, stale | −9.4% | no view |
+| BFRI | FDA, stale | −18.7% | no view |
+| PRAX | FDA, stale | +1.6% | no view |
+| ROIV | FDA, unverified date | +1.7% | no view |
+| MDT | near miss: MiniMed exchange offer | +8.8% | no view |
+| GTE | near miss: vote | +18.7% | no view |
+
+Scorecard: 1 buy-side idea (missed). 8 downside views: 4 right, 2 wrong, 1 mixed, 1 unknown. 7 "priced in / pass":
+6 right, SMTI wrong. 18 names had no view.
