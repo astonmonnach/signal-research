@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
 - **Latest price:** $194.20 (2026-10-29, ledger) · 1d -0.4%, 5d +0.1%, 20d +32.6% (market context, 2026-10-29)
-- **Since first found:** **+1.0%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.6% vs IWM -0.0% = **+0.6 pts** vs IWM; direction 0, tracked only (23 days)
+- **Since first found:** **+1.0%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.6% vs IWM +0.1% = **+0.5 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -2.6%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-29)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -3.1%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-10-29)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for PTC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $194.20 | +1.0% | +0.6% | -0.0% |  | 23 | live |
-| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $194.20 | +0.6% | +0.5% | +2.2% |  | 22 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $194.20 | +1.0% | +0.6% | +0.1% |  | 23 | live |
+| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $194.20 | +0.6% | +0.5% | +2.3% |  | 22 | live |
