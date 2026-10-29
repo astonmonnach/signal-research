@@ -55,3 +55,51 @@ Unverified: whether the TWST Form 144s are 10b5-1 sales; locked-vs-float counts 
 
 ## Forward-test checkpoint
 Re-check VYLR, CTVA and THRM prices on 2026-10-29 and 2026-11-30.
+
+## 1-month check (29 Oct 2026)
+Prices: Massive daily closes, 29 Sep vs 28 Oct, adjusted for splits only. Cash and spun-off shares are added back
+(`ledger/corporate_actions.csv`). Benchmark: IWM 279.01 to 281.29 (+0.8%); SPY +1.1%.
+
+**The four checkpoint names**
+
+| name | scan verdict | 29 Sep | 28 Oct | total return | vs IWM |
+|---|---|---|---|---|---|
+| CTVA held through the spin (1 CTVA + 1 VYLR) | — | 77.87 | 11.33 + 72.32 = 83.65 | +7.4% | +6.6 pts |
+| VYLR from its first open (1 Oct, $66.00) | WATCH, not a day-one trade | — | 72.32 | +9.6% | +8.2 pts (IWM +1.4% from 1 Oct open) |
+| VYLR from its first close ($68.26) | | — | 72.32 | +5.9% | +5.1 pts |
+| CTVA after the spin (first close $12.57) | — | — | 11.33 | −9.9% | −10.7 pts |
+| THRM (incl. $2.07 special dividend, ex 2 Oct) | backup: watch for unwanted-share selling | 33.92 | 33.16 | +3.9% | +3.1 pts |
+| HMH | real overhang, undated: watch | 17.77 | 18.96 | +6.7% | +5.9 pts |
+
+- **VYLR:** the forced selling we waited for lasted one day. The day-one low ($65.00) is still the low of the month.
+  It peaked at $76.94 (13 Oct). Waiting cost the trade.
+- **THRM:** the selling did come. Former MOD holders got 43.6% of the company. Volume was 6.1M, 5.3M and 10.6M on
+  2, 5 and 6 Oct, against 0.6M before. Measured from the ex-dividend level ($31.56), the stock fell 17% to $26.15 on
+  22 Oct (Q3 day). Then insiders bought on 23 Oct and it rose 27% in four sessions. We called it AVOID (kill) on
+  20 Oct, near the bottom. That was reclassified on 27 Oct as a killed long thesis, not an AVOID.
+- **HMH:** the resale S-1 (31.9M shares) went effective on 20 Oct. No sale by Baker Hughes or Akastor has been seen,
+  and the stock is up. An overhang that nobody sells into doesn't move the price.
+
+**The rest of the scan**
+- **Lock-up expiries:** 4 of 5 fell. TWST −6.8%, CLS −18.2%, GLOO −33.3%, SKHY −11.8%, RDVT +3.9%. The median was
+  −11.8% against IWM +0.8%. That fits the supply lens, but it's 5 names over one month.
+- **Red flags held up:**
+  - DBGI (the market didn't believe the $77.58 bid): −81.6%.
+  - Reverse splits: SHFS −93.4%, MYPS +3.6%. VTAK has no 28 Oct price.
+  - TMCR (lock-up near miss): −45.4%. It's now public call #4, which started 27 Oct.
+- **"Already crushed":** UWMC +21.0% after its rights offering.
+- **"Priced" mergers:**
+  - ACVA, ATKR, BLFS and FSEA no longer trade (deals closed).
+  - SMTI −6.3%: the vote passed, but the FTC issued a Second Request (16 Oct), so a spread of 0.34% didn't price
+    the antitrust risk.
+  - UTMD −8.2% after its $75 tender: the tender price only applied to the shares accepted.
+- **FDA, large caps:** BMY −3.6%, MRK −5.6%. Stale: SRRK −9.4%, ROIV +1.7%.
+
+**What it says (one month, small numbers; no new rule until TF1 and AV1 read)**
+1. Spin-offs: both sides of the trade moved, but not the way the timing assumed. VYLR's selling was over in a day.
+   THRM's took three weeks, and we read the bottom as a breakdown.
+2. Lock-up expiry on a name that has run is the same supply idea as the AVOID register. It's worth adding to the
+   AV1 sample, not a new filter.
+3. A registered overhang (HMH) only matters once the holder actually sells.
+
+Next checkpoint: 30 Nov (two months).
