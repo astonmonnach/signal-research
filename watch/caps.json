@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28 01:45 UTC",
+ "updated": "2026-10-29 00:59 UTC",
  "buckets": {
   "micro": [
    0,
@@ -102,11 +102,11 @@
   },
   "CHDN": {
    "ticker": "CHDN",
-   "shares": 69700243,
+   "shares": 68548342,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-22",
+   "shares_date": "2026-10-21",
    "price": 81.5199966430664,
-   "mcap": 5681963575.380913,
+   "mcap": 5588060609.727768,
    "bucket": "mid"
   },
   "RYAM": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.280000686645508
+   "price": 17.56999969482422
   },
   "CRMT": {
    "ticker": "CRMT",
@@ -420,6 +420,33 @@
    "price": 13.199999809265137,
    "mcap": 1246856234.3834124,
    "bucket": "small"
+  },
+  "ULBI": {
+   "ticker": "ULBI",
+   "shares": 16663269,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-08-03",
+   "price": 6.360000133514404,
+   "mcap": 105978393.06478643,
+   "bucket": "micro"
+  },
+  "NPB": {
+   "ticker": "NPB",
+   "shares": 34581842,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-08-13",
+   "price": 15.760000228881836,
+   "mcap": 545009837.8351555,
+   "bucket": "small"
+  },
+  "ARTV": {
+   "ticker": "ARTV",
+   "shares": 48890121,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-07-31",
+   "price": 4.269999980926514,
+   "mcap": 208760815.73749495,
+   "bucket": "micro"
   }
  }
 }
