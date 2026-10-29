@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $9.27 (2026-10-29, ledger)
-- **Since first found:** **+7.7%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +7.8% vs IWM +2.8% = **+5.0 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $9.26 (2026-10-29, ledger)
+- **Since first found:** **+7.5%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +7.6% vs IWM +3.0% = **+4.6 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $9.27 | +7.7% | +7.8% | +2.8% |  | 8 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $9.26 | +7.5% | +7.6% | +3.0% |  | 8 | live |

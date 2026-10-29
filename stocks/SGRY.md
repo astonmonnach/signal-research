@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
 - **Latest price:** $23.22 (2026-10-29, ledger)
-- **Since first found:** **-0.1%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +0.1% vs IWM +2.4% = **-2.3 pts** vs IWM; direction 0, tracked only (2 days)
+- **Since first found:** **-0.1%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +0.1% vs IWM +2.6% = **-2.5 pts** vs IWM; direction 0, tracked only (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $23.22 | -0.1% | +0.1% | +2.4% |  | 2 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $23.22 | -0.6% | -0.2% | +1.6% |  | 1 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $23.22 | -0.1% | +0.1% | +2.6% |  | 2 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $23.22 | -0.6% | -0.2% | +1.7% |  | 1 | live |
