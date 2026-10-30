@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 01:57 UTC",
+ "updated": "2026-10-30 01:01 UTC",
  "buckets": {
   "micro": [
    0,
@@ -272,11 +272,11 @@
   },
   "RXO": {
    "ticker": "RXO",
-   "shares": 164926128,
+   "shares": 164951056,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-04",
+   "shares_date": "2026-10-27",
    "price": 27.600000381469727,
-   "mcap": 4551961195.714325,
+   "mcap": 4552649208.523834,
    "bucket": "mid"
   },
   "TCPC": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.56999969482422
+   "price": 17.790000915527344
   },
   "CRMT": {
    "ticker": "CRMT",
