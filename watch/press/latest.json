@@ -1,34 +1,18 @@
 [
  {
-  "published_utc": "2026-10-29T20:45:00Z",
+  "published_utc": "2026-10-29T22:39:00Z",
+  "wire": "PR Newswire",
+  "ticker": "TCBS",
+  "title": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
+  "link": "https://www.prnewswire.com/news-releases/texas-community-bancshares-inc-and-the-banc-of-san-jacinto-county-bancshares-inc-the-parent-of-the-bank-of-san-jacinto-county-coldspring-texas-announce-merger-agreement-302924337.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-10-29T22:15:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "WTI",
-  "title": "W&T Offshore Announces Third Quarter 2026 Results and Declares Dividend for Fourth Quarter of 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/10/29/3391900/0/en/w-t-offshore-announces-third-quarter-2026-results-and-declares-dividend-for-fourth-quarter-of-2026.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-29T21:02:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "MEOH",
-  "title": "Methanex Announces Board Approval of a 5% Share Repurchase Program",
-  "link": "https://www.globenewswire.com/news-release/2026/10/29/3391911/0/en/methanex-announces-board-approval-of-a-5-share-repurchase-program.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-29T20:15:00Z",
-  "wire": "Business Wire",
-  "ticker": "PMT",
-  "title": "PennyMac Mortgage Investment Trust Reports Third Quarter 2026 Results and Announces Changes to its Leadership Team",
-  "link": "http://www.businesswire.com/news/home/20261029347653/en/PennyMac-Mortgage-Investment-Trust-Reports-Third-Quarter-2026-Results-and-Announces-Changes-to-its-Leadership-Team/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-10-29T20:02:00Z",
-  "wire": "Business Wire",
-  "ticker": "FSLR",
-  "title": "First Solar, Inc. Announces Third Quarter 2026 Financial Results, Updates Guidance, and Announces $500 Million Share Repurchase Program",
-  "link": "http://www.businesswire.com/news/home/20261029415483/en/First-Solar-Inc.-Announces-Third-Quarter-2026-Financial-Results-Updates-Guidance-and-Announces-500-Million-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:share repurchase"
+  "ticker": "BFST",
+  "title": "Business First Bancshares, Inc. Announces Stock Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/10/29/3391946/0/en/business-first-bancshares-inc-announces-stock-repurchase-program.html",
+  "matched_on": "keyword:stock repurchase"
  }
 ]
