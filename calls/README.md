@@ -4,8 +4,8 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 
 ## Scoreboard
 
-- Calls: **9** · marked: 7 · open: 7 · closed: 0
-- Total P&L on $1,000 per call: **$-181.43**
+- Calls: **9** · marked: 8 · open: 8 · closed: 0
+- Total P&L on $1,000 per call: **$-190.28**
 - Average vs the market: **-1.7%** · beat it: 3/7 · t-stat -1.43 (need about 2 and 20+ calls before it means anything)
 
 ## Every call
@@ -20,7 +20,7 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 | 6 | 2026-10-27 | AVOID **NNBR** | [PIPE holders (AIGH, Alyeska, Polar, Special Situations, Empery) free to resell 16.1M shares (17.2% of 93.7M) since the 23 Oct EFFECT; the price sits 1.8% above their $3.30 cost](../research/daily/2026-10-27.md) | $3.60 (2026-10-28) | $3.80 | -5.6% | -5.2% (IWM) | -5.8% (XLI) | 0 | open |
 | 7 | 2026-10-27 | AVOID **NAUT** | [Unused $125M TD Cowen at-the-market programme, about 51M shares (40% of the company) at Monday's price, after a 2.5x run; -24.7% on Monday](../research/daily/2026-10-27.md) | $3.00 (2026-10-28) | $3.21 | -7.0% | -6.7% (IWM) | -6.5% (SEER) | 0 | open |
 | 8 | 2026-10-28 | AVOID WORX | [Resale S-3 effective 26 Oct lets Iroquois and other warrant holders sell 8.25M shares (595% of 1.39M outstanding), with exercise-price resets; listing depends on a Nasdaq panel after two reverse splits this year](../research/daily/2026-10-28.md) | | | | | | | pending (enters next open) |
-| 9 | 2026-10-28 | AVOID NIVF | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | | | | | | | pending (enters next open) |
+| 9 | 2026-10-28 | AVOID **NIVF** | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | $1.13 (2026-10-29) | $1.14 | -0.9% |  (IWM) |  (XLV) | 0 | open |
 
 ## Rules
 
