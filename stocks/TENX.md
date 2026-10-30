@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.79 (2026-10-30, ledger) · 1d -3.8%, 5d +4.1%, 20d -9.6% (market context, 2026-10-30)
-- **Since first found:** **+1.7%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +1.7% vs IWM +2.1% = **-0.4 pts** vs IWM; direction 0, tracked only (7 days)
-- **Peers / sympathy:** no flag (self 5d +4.1% vs peer median +3.1%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $1.78 (2026-10-30, ledger) · 1d -4.8%, 5d +3.0%, 20d -10.6% (market context, 2026-10-30)
+- **Since first found:** **+1.1%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +1.1% vs IWM +1.8% = **-0.7 pts** vs IWM; direction 0, tracked only (7 days)
+- **Peers / sympathy:** no flag (self 5d +3.0% vs peer median +2.4%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: ATTENTION NASDAQ: TENX INVESTORS: Contact Berger Montague About a Tenax Therapeutics, Inc. Class Action… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/attention-nasdaq-tenx-investors-contact-berger-montague-about-a-tenax-therapeutics-inc-class-action-lawsuit-302924441.html))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **TENX**: BlackRock 7.5%, passive. T012 unchanged. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `SCHEDULE 13G/A` 27 Oct
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `4` 21 Oct; +38 older (May – Oct 2026) first picked up
 - **[2026-10-22](../scans/2026-10-22.md#new-setups)**: Logged as `holder_buying` (direction 0): ADAR1 (10% owner) bought $1.46M on 19-21 Oct, about $4.45M since 31 Aug (arith); Phase 3 missed in Aug; June cash $118.0M vs value $61-93M; tracked with a trigger; source: daily research 22 Oct (research/daily/2026-10-22.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 22 Oct 2026 (2. TENX: a 10% holder keeps buying after a failed trial, near or below cash) ([note](../research/daily/2026-10-22.md))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.79 | +1.7% | +1.7% | +2.1% |  | 7 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.78 | +1.1% | +1.1% | +1.8% |  | 7 | live |

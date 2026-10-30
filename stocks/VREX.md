@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $18.44 (2026-10-30, ledger)
-- **Since first found:** **+0.2%** (found 2026-10-22 via `8k_merger_agreement` at $18.41). From the next open $18.41: +0.2% vs IWM +2.1% = **-1.9 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $18.43 (2026-10-30, ledger)
+- **Since first found:** **+0.1%** (found 2026-10-22 via `8k_merger_agreement` at $18.41). From the next open $18.41: +0.1% vs IWM +1.8% = **-1.7 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for VREX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $9.6M | $18.41 | $18.41 | $18.44 | +0.2% | +0.2% | +2.1% |  | 7 | live |
-| 2026-10-23 | `merger_arb` | 0 | -0.3% | +0.1% | $9.4M | $18.42 | $18.41 | $18.44 | +0.1% | +0.2% | +1.6% |  | 4 | live |
+| 2026-10-22 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $9.6M | $18.41 | $18.41 | $18.43 | +0.1% | +0.1% | +1.8% |  | 7 | live |
+| 2026-10-23 | `merger_arb` | 0 | -0.3% | +0.1% | $9.4M | $18.42 | $18.41 | $18.43 | +0.1% | +0.1% | +1.3% |  | 4 | live |

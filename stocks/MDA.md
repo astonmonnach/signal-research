@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $27.61 (2026-10-30, ledger) · 1d -5.2%, 5d -0.0%, 20d -7.6% (market context, 2026-10-30)
-- **Since first found:** **+0.1%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +1.8% vs IWM +3.4% = **-1.6 pts** vs IWM; direction +1 → excess -1.6% (15 days)
+- **Latest price:** $27.70 (2026-10-30, ledger) · 1d -5.0%, 5d +0.2%, 20d -7.4% (market context, 2026-10-30)
+- **Since first found:** **+0.5%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +2.1% vs IWM +3.1% = **-1.0 pts** vs IWM; direction +1 → excess -1.0% (15 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +5.0% 5d vs MDA -0.0%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median +4.3%). Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: IRIS² CONSTELLATION: MDA SPACE TO PROVIDE THALES ALENIA SPACE WITH DIGITAL ANTENNA SUBSYSTEMS FOR 66… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/iris-constellation-mda-space-to-provide-thales-alenia-space-with-digital-antenna-subsystems-for-66-early-delivery-satellites-302924382.html))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: 49North Qualifies Across All Five Streams of Canada's Defence Drone Initiative Marketplace (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-qualifies-across-all-five-streams-of-canadas-defence-drone-initiative-marketplace-302919838.html))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: 49North Signs MOU with UNWAVE for Joint Production and Support of Counter-UAS Systems (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-signs-mou-with-unwave-for-joint-production-and-support-of-counter-uas-systems-302919830.html))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 14 Oct; +3 older (May – Jul 2026) first picked up
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $27.61 | +0.1% | +1.8% | +3.4% | -1.6% | 15 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $27.61 | -3.7% | -3.7% | +1.9% |  | 14 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $27.70 | +0.5% | +2.1% | +3.1% | -1.0% | 15 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $27.70 | -3.4% | -3.4% | +1.6% |  | 14 | live |
