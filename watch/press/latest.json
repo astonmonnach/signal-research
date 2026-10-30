@@ -1,90 +1,18 @@
 [
  {
-  "published_utc": "2026-10-30T13:06:00Z",
+  "published_utc": "2026-10-30T17:04:00Z",
   "wire": "PR Newswire",
-  "ticker": "TENX",
-  "title": "ATTENTION NASDAQ: TENX INVESTORS: Contact Berger Montague About a Tenax Therapeutics, Inc. Class Action Lawsuit",
-  "link": "https://www.prnewswire.com/news-releases/attention-nasdaq-tenx-investors-contact-berger-montague-about-a-tenax-therapeutics-inc-class-action-lawsuit-302924441.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-30T12:15:00Z",
-  "wire": "PR Newswire",
-  "ticker": "MDA",
-  "title": "IRIS² CONSTELLATION: MDA SPACE TO PROVIDE THALES ALENIA SPACE WITH DIGITAL ANTENNA SUBSYSTEMS FOR 66 EARLY-DELIVERY SATELLITES",
-  "link": "https://www.prnewswire.com/news-releases/iris-constellation-mda-space-to-provide-thales-alenia-space-with-digital-antenna-subsystems-for-66-early-delivery-satellites-302924382.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-30T11:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "LCII",
-  "title": "LCI Board Determines That the Unsolicited, Non-Binding Proposal From Monomoy Capital Partners Does Not Constitute a Superior Proposal",
-  "link": "http://www.businesswire.com/news/home/20261030615474/en/LCI-Board-Determines-That-the-Unsolicited-Non-Binding-Proposal-From-Monomoy-Capital-Partners-Does-Not-Constitute-a-Superior-Proposal/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-10-30T11:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "HESM",
-  "title": "Hess Midstream LP Reports Estimated Results for the Third Quarter of 2026",
-  "link": "http://www.businesswire.com/news/home/20261030606458/en/Hess-Midstream-LP-Reports-Estimated-Results-for-the-Third-Quarter-of-2026/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-30T10:15:00Z",
-  "wire": "Business Wire",
-  "ticker": "CVX",
-  "title": "Chevron Reports Third Quarter 2026 Results",
-  "link": "http://www.businesswire.com/news/home/20261030587778/en/Chevron-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-10-30T12:40:00Z",
-  "wire": "PR Newswire",
-  "ticker": "VTRS",
-  "title": "Viatris Announces Commencement of Tender Offer to Acquire Pacira BioSciences, Inc.",
-  "link": "https://www.prnewswire.com/news-releases/viatris-announces-commencement-of-tender-offer-to-acquire-pacira-biosciences-inc-302924916.html",
-  "matched_on": "keyword:tender offer"
- },
- {
-  "published_utc": "2026-10-30T12:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "PANW",
-  "title": "Palo Alto Networks Recommends Stockholders Reject Mini-Tender Offer by Tutanota LLC",
-  "link": "https://www.prnewswire.com/news-releases/palo-alto-networks-recommends-stockholders-reject-mini-tender-offer-by-tutanota-llc-302924598.html",
-  "matched_on": "keyword:tender offer"
- },
- {
-  "published_utc": "2026-10-30T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VOR",
-  "title": "Vor Bio Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-  "link": "https://www.globenewswire.com/news-release/2026/10/30/3392178/0/en/vor-bio-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-10-30T11:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NRXP",
-  "title": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
-  "link": "https://www.globenewswire.com/news-release/2026/10/30/3392146/0/en/nrx-pharmaceuticals-nasdaq-nrxp-receives-fda-approval-of-preservative-free-ketamine-ahead-of-november-10-fda-goal-date.html",
-  "matched_on": "keyword:FDA approval"
- },
- {
-  "published_utc": "2026-10-30T10:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "WLFC",
-  "title": "Willis Lease Finance Corporation Declares Fourth Quarter 2026 Dividend and Renewal and Increase of Share Repurchase Plan",
-  "link": "https://www.globenewswire.com/news-release/2026/10/30/3392124/9504/en/willis-lease-finance-corporation-declares-fourth-quarter-2026-dividend-and-renewal-and-increase-of-share-repurchase-plan.html",
+  "ticker": "ZION",
+  "title": "ZIONS BANCORPORATION'S BOARD ANNOUNCES APPROVAL OF SHARE REPURCHASE AND DECLARES DIVIDENDS ON COMMON AND PREFERRED STOCK",
+  "link": "https://www.prnewswire.com/news-releases/zions-bancorporations-board-announces-approval-of-share-repurchase-and-declares-dividends-on-common-and-preferred-stock-302925166.html",
   "matched_on": "keyword:share repurchase"
  },
  {
-  "published_utc": "2026-10-30T10:25:00Z",
+  "published_utc": "2026-10-30T14:30:00Z",
   "wire": "Business Wire",
-  "ticker": "VLO",
-  "title": "Valero to Acquire Former Houston Refinery from LyondellBasell",
-  "link": "http://www.businesswire.com/news/home/20261029912737/en/Valero-to-Acquire-Former-Houston-Refinery-from-LyondellBasell/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "ticker": "AIG;EG",
+  "title": "AIG Announces Agreement to Acquire Everest’s Insurance Operations in Chile and Completes Acquisition of Everest Colombia",
+  "link": "http://www.businesswire.com/news/home/20261030378537/en/AIG-Announces-Agreement-to-Acquire-Everest%E2%80%99s-Insurance-Operations-in-Chile-and-Completes-Acquisition-of-Everest-Colombia/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
   "matched_on": "keyword:definitive agreement"
  }
 ]
