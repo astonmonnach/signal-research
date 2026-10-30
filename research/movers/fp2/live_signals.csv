@@ -34,3 +34,6 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-10-29,23:33,True,LUNG,Pulmonx Corporation Common Stock,S2,2.52,7283234,653100,11.15,465152,,,3.165,3.065,2026-10-30,-0.031596,-0.051596,filled
 2026-10-29,23:33,True,MWYN,Marwynn Holdings Inc. Common stock,S2,1.41,2607774,499865,5.22,760564,,,1.76,1.69,2026-10-30,-0.039773,-0.059773,filled
 2026-10-29,23:33,True,PALI,Palisade Bio Inc. Common Stock,S2,1.19,15117669,2867185,5.27,2816659,,,1.19,1.18,2026-10-30,-0.008403,-0.028403,filled
+2026-10-30,23:11,True,CURR,Currenc Group Inc. Ordinary Shares,S2,2.24,814209,145340,5.6,258375,,,,,,,,open
+2026-10-30,23:11,True,CYH,Community Health Systems Inc. Common Stock,S2,2.41,8035342,1498440,5.36,2940235,,,,,,,,open
+2026-10-30,23:11,True,XRX,Xerox Holdings Corporation Common Stock,S2,1.665,30099284,4223440,7.13,7171037,,,,,,,,open
