@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.14 (2026-10-29, ledger)
-- **Since first found:** **-50.6%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -78.7% vs IWM +1.8% = **-80.5 pts** vs IWM; direction -1 → excess +80.5% (29 days)
+- **Latest price:** $1.07 (2026-10-30, ledger)
+- **Since first found:** **-53.5%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -80.0% vs IWM +0.2% = **-80.1 pts** vs IWM; direction -1 → excess +80.1% (30 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **2026-10-29**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 4 NIVF (split since) +50% no_news $0.29 2.6 no -15.0% -49.0% -52.6) ([note](../research/movers/outcomes-2026-10-29.md))
+- **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 4 NIVF (split since) +50% no_news $0.29 2.6 no -15.0% -49.0% -52.6) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `setup_supply_eloc` (direction 0): Fourth reverse split since July; $0.07 sale 30 Sep; White Lion $100M equity line and converts; new F-3; AVOID, public call #9; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (3. Two more public AVOID calls: WORX and NIVF) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`F-3`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026112724/0001213900-26-112724-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026112647/ea030961701ex99-1.htm))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: uncategorised (`UPLOAD`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000000000026002089/0000000000-26-002089-index.htm))
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $1.14 | -50.6% | -78.7% | +1.8% | +80.5% | 29 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $1.14 | -5.1% | +0.8% | +1.0% |  | 0 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $1.07 | -53.5% | -80.0% | +0.2% | +80.1% | 30 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $1.07 | -10.8% | -5.3% | -0.6% |  | 1 | live |

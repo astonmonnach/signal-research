@@ -89,12 +89,11 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $18.87 (2026-10-29, ledger) · 1d -0.5%, 5d +9.2%, 20d +8.7% (market context, 2026-10-29)
-- **Since first found:** **-2.1%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: +0.0% vs IWM +1.7% = **-1.7 pts** vs IWM; direction -1 → excess +1.7% (30 days)
+- **Latest price:** $18.61 (2026-10-30, ledger) · 1d -0.3%, 5d +2.4%, 20d +1.7% (market context, 2026-10-30)
+- **Since first found:** **-3.5%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -1.4% vs IWM +0.1% = **-1.5 pts** vs IWM; direction -1 → excess +1.5% (31 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +9.2% vs peer median +11.2%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-29)
+- **Peers / sympathy:** no flag (self 5d +2.4% vs peer median +3.4%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -102,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-27](../scans/2026-10-27.md)**: Calendar: BKR: Baker Hughes Q3 results 17:00 (HMH holder; watch for HMH share sales) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-23](../scans/2026-10-23.md)**: Research: Research: Fri 23 Oct 2026 (- **HMH:** still no sale by Baker Hughes or Akastor.) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md)**: Research: Research: Thu 22 Oct 2026 (- **HMH:** no sales by Baker Hughes or Akastor since the resale became effective.) ([note](../research/daily/2026-10-22.md))
@@ -119,7 +119,7 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.87 | -2.1% | +0.0% | +1.7% | +1.7% | 30 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.87 | +6.2% | +6.2% | +1.8% | -4.4% | 29 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.87 | +5.2% | +5.0% | +3.8% | -1.2% | 7 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.87 | +5.2% | +5.0% | +3.8% |  | 7 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $18.61 | -3.5% | -1.4% | +0.1% | +1.5% | 31 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $18.61 | +4.8% | +4.8% | +0.2% | -4.6% | 30 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.61 | +3.8% | +3.5% | +2.1% | -1.4% | 8 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $18.61 | +3.8% | +3.5% | +2.1% |  | 8 | live |

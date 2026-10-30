@@ -26,8 +26,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.125 (2026-10-29, ledger)
-- **Since first found:** **-37.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -37.5% vs IWM +1.1% = **-38.6 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $0.124 (2026-10-30, ledger)
+- **Since first found:** **-38.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -38.2% vs IWM -0.5% = **-37.7 pts** vs IWM; direction 0, tracked only (25 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -49,6 +49,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.125 | -37.5% | -37.5% | +1.1% |  | 24 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.125 | -26.5% | -26.5% | +2.5% | +29.0% | 20 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.125 | -16.7% | -16.7% | +5.0% | +21.7% | 9 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.124 | -38.2% | -38.2% | -0.5% |  | 25 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.124 | -27.3% | -27.3% | +0.9% | +28.2% | 21 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.124 | -17.6% | -17.6% | +3.4% | +21.0% | 10 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_contract_press` logged 2026-10-05 (press release (Business Wire)); `holder_13g_supply` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $1.83 (2026-10-29, ledger) · 1d +1.7%, 5d -6.6%, 20d -42.8% (market context, 2026-10-29)
-- **Since first found:** **-36.8%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -39.2% vs IWM +0.3% = **-39.5 pts** vs IWM; direction +1 → excess -39.5% (23 days)
+- **Latest price:** $1.72 (2026-10-30, ledger) · 1d -5.0%, 5d -12.2%, 20d -45.6% (market context, 2026-10-30)
+- **Since first found:** **-40.8%** (found 2026-10-05 via `idea_contract_press` at $2.89). From the next open $3.01: -43.0% vs IWM -1.3% = **-41.7 pts** vs IWM; direction +1 → excess -41.7% (24 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +7.5% 5d vs PUSA -6.6%; peers moved, it didn't. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-29)
+- **Peers / sympathy:** missed_peer_move: peer median +7.4% 5d vs PUSA -12.2%; peers moved, it didn't. Peer groups: SIC 7997 (3) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 30 Dec 2026: PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic)
   - Tue 30 Mar 2027: PUSA: last third of merger lock-up shares released (180 days after the 1 Oct close; date is our arithmetic)
@@ -40,8 +40,8 @@ Every [ledger](../ledger/LEDGER.md) row for PUSA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $1.83 | -36.8% | -39.2% | +0.3% | -39.5% | 23 | live |
-| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $1.83 | -28.2% | -29.1% | +2.5% | -31.6% | 20 | live |
-| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $1.83 | -20.4% | -20.4% | +2.6% |  | 16 | live |
-| 2026-10-13 | `activist_13d` | +1 | -20.6% | -1.3% | $3.7M | $2.27 | $2.21 | $1.83 | -19.4% | -17.2% | +4.3% | -21.5% | 15 | live |
-| 2026-10-16 | `8k_merger_agreement` | 0 | -12.9% | -7.2% | $3.7M | $2.06 | $2.04 | $1.83 | -11.2% | -10.3% | +4.9% |  | 10 | live |
+| 2026-10-05 | `idea_contract_press` | +1 | -15.1% | -8.4% | $3.0M | $2.89 | $3.01 | $1.72 | -40.8% | -43.0% | -1.3% | -41.7% | 24 | live |
+| 2026-10-08 | `activist_13d` | +1 | -34.7% | +0.6% | $3.5M | $2.55 | $2.58 | $1.72 | -32.8% | -33.5% | +0.9% | -34.4% | 21 | live |
+| 2026-10-12 | `holder_13g_supply` | 0 | -18.2% | -11.0% | $3.6M | $2.30 | $2.30 | $1.72 | -25.4% | -25.4% | +1.0% |  | 17 | live |
+| 2026-10-13 | `activist_13d` | +1 | -20.6% | -1.3% | $3.7M | $2.27 | $2.21 | $1.72 | -24.4% | -22.4% | +2.7% | -25.1% | 16 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -12.9% | -7.2% | $3.7M | $2.06 | $2.04 | $1.72 | -16.8% | -15.9% | +3.2% |  | 11 | live |

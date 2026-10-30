@@ -103,12 +103,11 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-29 (watchlist thread (X 29 Sep)); `insider_cluster` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $32.25 (2026-10-29, ledger) · 1d -2.9%, 5d +23.1%, 20d -4.2% (market context, 2026-10-29)
-- **Since first found:** **+1.2%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: +0.7% vs IWM +1.8% = **-1.1 pts** vs IWM; direction 0, tracked only (29 days). Includes +$2.07 cash (special_dividend)
+- **Latest price:** $31.60 (2026-10-30, ledger) · 1d -1.9%, 5d +10.5%, 20d +1.0% (market context, 2026-10-30)
+- **Since first found:** **-0.7%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -1.2% vs IWM +0.2% = **-1.4 pts** vs IWM; direction 0, tracked only (30 days). Includes +$2.07 cash (special_dividend)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: THRM +23.1% 5d vs peer median -0.1%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-29)
+- **Peers / sympathy:** solo_move: THRM +10.5% 5d vs peer median -0.5%; peers didn't move with it. Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 29 Oct 2026: Re-check the 29 Sep catalyst scan (1 month)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -116,6 +115,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **THRM**,: open-market buys on 23 Oct, no 10b5-1. - Director Paul Mascarenas: 20,000 at $26.63 ($532.6k). ([triage](../watch/digests/2026-10-27-triage.md)) · Logged as `insider_cluster` (direction 0): CEO $130k at $26.00 and director $532.6k at $26.63 on 23 Oct, open market, no 10b5-1; AVOID (kill) reclassified 27 Oct as dropped, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `4` ×2 26 Oct · Research: Research: Tue 27 Oct 2026 (3. Buy side: insiders at THRM, no bidder at MG) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/903129/000119312526432218/0001193125-26-432218-index.htm))
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `10-Q` 22 Oct · Research: Research: Fri 23 Oct 2026 (- **Watchlist:** THRM filed its Q3 10-Q, CPAC filed two "material event" 6-Ks (above), and PUSA hired a chief…) ([note](../research/daily/2026-10-23.md))
@@ -138,8 +138,8 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $32.25 | +1.2% | +0.7% | +1.8% |  | 29 | live |
-| 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.62 | $32.25 | +8.7% | +8.9% | +2.4% |  | 17 | live |
-| 2026-10-27 | `insider_cluster` | 0 | -0.1% | +11.3% | $87.5M | $31.82 | $31.96 | $32.25 | +1.4% | +0.9% | +1.7% |  | 1 | live |
+| 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $31.60 | -0.7% | -1.2% | +0.2% |  | 30 | live |
+| 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.62 | $31.60 | +6.5% | +6.7% | +0.8% |  | 18 | live |
+| 2026-10-27 | `insider_cluster` | 0 | -0.1% | +11.3% | $87.5M | $31.82 | $31.96 | $31.60 | -0.7% | -1.1% | +0.1% |  | 2 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._
