@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $76.81 (2026-10-30, ledger)
-- **Since first found:** **+19.4%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +21.7% vs IWM +2.5% = **+19.2 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $76.89 (2026-10-30, ledger)
+- **Since first found:** **+19.5%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +21.9% vs IWM +2.3% = **+19.5 pts** vs IWM; direction 0, tracked only (16 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $76.81 | +19.4% | +21.7% | +2.5% |  | 16 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $76.81 | +21.3% | +19.5% | +3.2% |  | 15 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $76.89 | +19.5% | +21.9% | +2.3% |  | 16 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $76.89 | +21.4% | +19.6% | +3.1% |  | 15 | live |
