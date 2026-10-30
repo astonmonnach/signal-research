@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $1.06 (2026-10-30, ledger) · 1d +0.0%, 5d +32.5%, 20d +0.9% (market context, 2026-10-30)
-- **Since first found:** **-15.2%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -15.9% vs IWM +0.6% = **-16.5 pts** vs IWM; direction +1 → excess -16.5% (21 days)
+- **Latest price:** $1.08 (2026-10-30, ledger) · 1d +0.0%, 5d +32.5%, 20d +0.9% (market context, 2026-10-30)
+- **Since first found:** **-14.0%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -14.7% vs IWM +0.7% = **-15.4 pts** vs IWM; direction +1 → excess -15.4% (21 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT +32.5% 5d vs peer median +2.8%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT +32.5% 5d vs peer median +2.5%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-10-30)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Sun 1 Nov 2026: CRMT: lenders' default waiver and liquidity relief expire (outer date 6 Nov)
@@ -34,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.06 | -15.2% | -15.9% | +0.6% | -16.5% | 21 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.06 | -21.5% | -22.1% | +0.5% |  | 18 | live |
-| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $1.06 | -21.5% | -22.1% | +1.6% | -23.6% | 14 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $1.08 | -14.0% | -14.7% | +0.7% | -15.4% | 21 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $1.08 | -20.4% | -21.0% | +0.6% |  | 18 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $1.08 | -20.4% | -21.0% | +1.7% | -22.6% | 14 | live |

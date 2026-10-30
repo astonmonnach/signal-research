@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_reaction` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $32.71 (2026-10-30, ledger) · 1d +1.4%, 5d +6.9%, 20d -13.3% (market context, 2026-10-30)
-- **Since first found:** **+1.1%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: +1.4% vs IWM +0.7% = **+0.7 pts** vs IWM; direction 0, tracked only (17 days)
-- **Peers / sympathy:** solo_move: HESM +6.9% 5d vs peer median +0.1%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $32.90 (2026-10-30, ledger) · 1d +2.0%, 5d +7.5%, 20d -12.9% (market context, 2026-10-30)
+- **Since first found:** **+1.6%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: +1.9% vs IWM +0.8% = **+1.2 pts** vs IWM; direction 0, tracked only (17 days)
+- **Peers / sympathy:** solo_move: HESM +7.5% 5d vs peer median -0.0%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-10-30)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for HESM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $32.71 | +1.1% | +1.4% | +0.7% |  | 17 | live |
+| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $32.90 | +1.6% | +1.9% | +0.8% |  | 17 | live |
