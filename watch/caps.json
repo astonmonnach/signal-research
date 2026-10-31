@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 01:02 UTC",
+ "updated": "2026-10-31 01:34 UTC",
  "buckets": {
   "micro": [
    0,
@@ -24,8 +24,8 @@
    "shares": 667200000.0,
    "shares_source": "Spun off 1:1 from CTVA on 1 Oct 2026 (CTVA cover page 667.2M); no VYLR 10-Q yet",
    "shares_date": "2026-10-01",
-   "price": 72.68000030517578,
-   "mcap": 48492096203.61328,
+   "price": 72.4000015258789,
+   "mcap": 48305281018.06641,
    "bucket": "large"
   },
   "CTVA": {
@@ -33,8 +33,8 @@
    "shares": 667196000,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-24",
-   "price": 11.470000267028809,
-   "mcap": 7652738298.160553,
+   "price": 11.640000343322754,
+   "mcap": 7766161669.063568,
    "bucket": "mid"
   },
   "THRM": {
@@ -42,8 +42,8 @@
    "shares": 54400000.0,
    "shares_source": "30.7M before + 23.7M issued to MOD holders in the RMT (Gentherm/Modine 8-K, 1-2 Oct 2026)",
    "shares_date": "2026-10-02",
-   "price": 32.20000076293945,
-   "mcap": 1751680041.5039062,
+   "price": 30.950000762939453,
+   "mcap": 1683680041.5039062,
    "bucket": "small"
   },
   "MOD": {
@@ -51,8 +51,8 @@
    "shares": 53112708,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-24",
-   "price": 138.7899932861328,
-   "mcap": 7371512386.7283325,
+   "price": 129.75999450683594,
+   "mcap": 6891904698.323181,
    "bucket": "mid"
   },
   "HMH": {
@@ -60,8 +60,8 @@
    "shares": 44093153.0,
    "shares_source": "Up-C: 12,201,501 Class A + 31,891,652 Class B (resale S-1, 28 Sep 2026); fully-exchanged count",
    "shares_date": "2026-09-28",
-   "price": 18.670000076293945,
-   "mcap": 823219169.8740406,
+   "price": 18.940000534057617,
+   "mcap": 835124341.3682842,
    "bucket": "small"
   },
   "TWST": {
@@ -69,17 +69,17 @@
    "shares": 62707424,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-29",
-   "price": 173.4499969482422,
-   "mcap": 10876602501.432129,
-   "bucket": "large"
+   "price": 152.77999877929688,
+   "mcap": 9580440162.172852,
+   "bucket": "mid"
   },
   "MTUS": {
    "ticker": "MTUS",
    "shares": 41449284,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-31",
-   "price": 21.420000076293945,
-   "mcap": 887843666.4423294,
+   "price": 21.1200008392334,
+   "mcap": 875408912.8656235,
    "bucket": "small"
   },
   "ELMT": {
@@ -87,8 +87,8 @@
    "shares": 30459498,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-10",
-   "price": 24.079999923706055,
-   "mcap": 733464709.5161247,
+   "price": 23.190000534057617,
+   "mcap": 706355774.8871269,
    "bucket": "small"
   },
   "WHF": {
@@ -96,8 +96,8 @@
    "shares": 21476471,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-10",
-   "price": 8.119999885559082,
-   "mcap": 174388942.06221294,
+   "price": 7.96999979019165,
+   "mcap": 171167469.36405706,
    "bucket": "micro"
   },
   "CHDN": {
@@ -105,8 +105,8 @@
    "shares": 68548342,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-10-21",
-   "price": 91.16000366210938,
-   "mcap": 6248867107.751526,
+   "price": 94.83000183105469,
+   "mcap": 6500439397.375763,
    "bucket": "mid"
   },
   "RYAM": {
@@ -114,8 +114,8 @@
    "shares": 67644208,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-03",
-   "price": 6.690000057220459,
-   "mcap": 452539755.3906326,
+   "price": 6.610000133514404,
+   "mcap": 447128223.91147614,
    "bucket": "small"
   },
   "PUSA": {
@@ -123,8 +123,8 @@
    "shares": 162000000.0,
    "shares_source": "8-K 1 Oct 2026: ~134.6M new shares issued to Legacy Powerus holders = ~83% of the total, so ~162M implied; confirm in the next 10-Q",
    "shares_date": "2026-10-01",
-   "price": 1.809999942779541,
-   "mcap": 293219990.73028564,
+   "price": 1.690000057220459,
+   "mcap": 273780009.26971436,
    "bucket": "micro"
   },
   "ESRT": {
@@ -132,21 +132,21 @@
    "shares": 170500000.0,
    "shares_source": "13D 5 Oct 2026: Erez 7,500,000 shares = 4.4% of Class A, so ~170.5M Class A (ESRT does not tag its share count in XBRL)",
    "shares_date": "2026-10-05",
-   "price": 5.050000190734863,
-   "mcap": 861025032.5202942,
+   "price": 4.96999979019165,
+   "mcap": 847384964.2276764,
    "bucket": "small"
   },
   "MSGS": {
    "ticker": "MSGS",
-   "price": 310.17999267578125
+   "price": 312.8999938964844
   },
   "BORR": {
    "ticker": "BORR",
    "shares": 307215419,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2025-12-31",
-   "price": 4.059999942779541,
-   "mcap": 1247294583.5609927,
+   "price": 4.019999980926514,
+   "mcap": 1235005978.520331,
    "bucket": "small"
   },
   "SKYA": {
@@ -154,8 +154,8 @@
    "shares": 42982506,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-04",
-   "price": 2.930000066757202,
-   "mcap": 125938745.44939184,
+   "price": 2.9700000286102295,
+   "mcap": 127658044.04973936,
    "bucket": "micro"
   },
   "PED": {
@@ -163,8 +163,8 @@
    "shares": 13290902,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-11",
-   "price": 16.40999984741211,
-   "mcap": 218103699.7919693,
+   "price": 16.639999389648438,
+   "mcap": 221160601.1678772,
    "bucket": "micro"
   },
   "TALO": {
@@ -172,8 +172,8 @@
    "shares": 166965468,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-28",
-   "price": 17.809999465942383,
-   "mcap": 2973654895.91082,
+   "price": 18.229999542236328,
+   "mcap": 3043780405.2092743,
    "bucket": "mid"
   },
   "IMSR": {
@@ -181,8 +181,8 @@
    "shares": 105935254,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-11",
-   "price": 3.4549999237060547,
-   "mcap": 366006294.4877815,
+   "price": 3.2200000286102295,
+   "mcap": 341111520.9108319,
    "bucket": "small"
   },
   "SRTA": {
@@ -190,21 +190,21 @@
    "shares": 88466806,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-28",
-   "price": 4.75,
-   "mcap": 420217328.5,
+   "price": 4.440000057220459,
+   "mcap": 392792623.70211124,
    "bucket": "small"
   },
   "GPRO": {
    "ticker": "GPRO",
-   "price": 1.0
+   "price": 0.9300000071525574
   },
   "SMTI": {
    "ticker": "SMTI",
    "shares": 9188035,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-07",
-   "price": 32.91999816894531,
-   "mcap": 302470095.37620544,
+   "price": 32.83000183105469,
+   "mcap": 301643205.87379456,
    "bucket": "small"
   },
   "MG": {
@@ -212,8 +212,8 @@
    "shares": 31849893,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-05",
-   "price": 20.200000762939453,
-   "mcap": 643367862.89954,
+   "price": 20.18000030517578,
+   "mcap": 642730850.459816,
    "bucket": "small"
   },
   "BMBL": {
@@ -221,8 +221,8 @@
    "shares": 119799036,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2021-07-31",
-   "price": 5.980000019073486,
-   "mcap": 716398237.5649853,
+   "price": 5.989999771118164,
+   "mcap": 717596198.2201767,
    "bucket": "small"
   },
   "LCII": {
@@ -230,8 +230,8 @@
    "shares": 24311507,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-31",
-   "price": 98.97000122070312,
-   "mcap": 2406109877.4671326,
+   "price": 98.9800033569336,
+   "mcap": 2406353044.4721146,
    "bucket": "mid"
   },
   "SYNA": {
@@ -239,8 +239,8 @@
    "shares": 39106986,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-04",
-   "price": 117.91000366210938,
-   "mcap": 4611104862.47406,
+   "price": 117.86000061035156,
+   "mcap": 4609149393.82901,
    "bucket": "mid"
   },
   "PCRX": {
@@ -257,8 +257,8 @@
    "shares": 16794151.358,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-27",
-   "price": 58.72999954223633,
-   "mcap": 986320501.5675875,
+   "price": 58.439998626708984,
+   "mcap": 981450182.2982627,
    "bucket": "small"
   },
   "PTC": {
@@ -266,8 +266,8 @@
    "shares": 108506261,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-29",
-   "price": 194.8000030517578,
-   "mcap": 21137019973.93483,
+   "price": 195.5399932861328,
+   "mcap": 21217313547.443375,
    "bucket": "large"
   },
   "RXO": {
@@ -275,8 +275,8 @@
    "shares": 164951056,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-10-27",
-   "price": 27.649999618530273,
-   "mcap": 4560896635.476166,
+   "price": 27.489999771118164,
+   "mcap": 4534504491.685699,
    "bucket": "mid"
   },
   "TCPC": {
@@ -284,21 +284,21 @@
    "shares": 83902775,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-06",
-   "price": 4.21999979019165,
-   "mcap": 354069692.89649725,
+   "price": 4.179999828338623,
+   "mcap": 350713585.0971341,
    "bucket": "small"
   },
   "MDA": {
    "ticker": "MDA",
-   "price": 29.1200008392334
+   "price": 27.200000762939453
   },
   "BYRN": {
    "ticker": "BYRN",
    "shares": 23404754,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-10-08",
-   "price": 4.760000228881836,
-   "mcap": 111406634.39692307,
+   "price": 4.300000190734863,
+   "mcap": 100640446.66410255,
    "bucket": "micro"
   },
   "FEAM": {
@@ -306,8 +306,8 @@
    "shares": 41647371,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-09-16",
-   "price": 2.559999942779541,
-   "mcap": 106617267.37691832,
+   "price": 2.3299999237060547,
+   "mcap": 97038371.25255775,
    "bucket": "micro"
   },
   "IMMR": {
@@ -315,8 +315,8 @@
    "shares": 33206041,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-09-08",
-   "price": 7.300000190734863,
-   "mcap": 242404105.6335497,
+   "price": 7.199999809265137,
+   "mcap": 239083488.8664503,
    "bucket": "micro"
   },
   "UUUU": {
@@ -324,17 +324,17 @@
    "shares": 249965000,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-31",
-   "price": 8.229999542236328,
-   "mcap": 2057211835.5751038,
-   "bucket": "mid"
+   "price": 7.710000038146973,
+   "mcap": 1927230159.535408,
+   "bucket": "small"
   },
   "ALEC": {
    "ticker": "ALEC",
    "shares": 111656919,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-31",
-   "price": 2.240000009536743,
-   "mcap": 250111499.62484336,
+   "price": 2.2100000381469727,
+   "mcap": 246761795.24937344,
    "bucket": "micro"
   },
   "BMEZ": {
@@ -346,8 +346,8 @@
    "shares": 8338478,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-09-09",
-   "price": 1.059999942779541,
-   "mcap": 8838786.202868462,
+   "price": 1.0399999618530273,
+   "mcap": 8672016.801912308,
    "bucket": "micro"
   },
   "NKLR": {
@@ -355,21 +355,21 @@
    "shares": 110500908,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-13",
-   "price": 2.3299999237060547,
-   "mcap": 257467107.20944977,
+   "price": 2.2200000286102295,
+   "mcap": 245312018.92145634,
    "bucket": "micro"
   },
   "XPOF": {
    "ticker": "XPOF",
-   "price": 3.740000009536743
+   "price": 4.460000038146973
   },
   "SSTI": {
    "ticker": "SSTI",
    "shares": 13163790,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-05",
-   "price": 8.369999885559082,
-   "mcap": 110180920.79352379,
+   "price": 8.319999694824219,
+   "mcap": 109522728.7827301,
    "bucket": "micro"
   },
   "DIBS": {
@@ -386,8 +386,8 @@
    "shares": 56234231,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2025-03-31",
-   "price": 4.079999923706055,
-   "mcap": 229435658.18966866,
+   "price": 4.059999942779541,
+   "mcap": 228310974.6422515,
    "bucket": "micro"
   },
   "BMM": {
@@ -408,8 +408,8 @@
    "shares": 37423917,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-28",
-   "price": 1.8600000143051147,
-   "mcap": 69608486.15535343,
+   "price": 1.7899999618530273,
+   "mcap": 66988810.00239086,
    "bucket": "micro"
   },
   "DOLE": {
@@ -417,8 +417,8 @@
    "shares": 94458807,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-29",
-   "price": 13.149999618530273,
-   "mcap": 1242133276.0168247,
+   "price": 13.069999694824219,
+   "mcap": 1234576578.6634598,
    "bucket": "small"
   },
   "ULBI": {
@@ -435,8 +435,8 @@
    "shares": 34581842,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-08-13",
-   "price": 16.18000030517578,
-   "mcap": 559534214.1135406,
+   "price": 15.789999961853027,
+   "mcap": 546047283.8608074,
    "bucket": "small"
   },
   "ARTV": {
@@ -444,8 +444,8 @@
    "shares": 48890121,
    "shares_source": "SEC cover page (dei)",
    "shares_date": "2026-07-31",
-   "price": 4.230000019073486,
-   "mcap": 206805212.76250505,
+   "price": 4.190000057220459,
+   "mcap": 204849609.78751516,
    "bucket": "micro"
   }
  }

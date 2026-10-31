@@ -5,22 +5,22 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 ## Scoreboard
 
 - Calls: **9** · marked: 9 · open: 8 · closed: 1
-- Total P&L on $1,000 per call: **$-123.68**
-- Average vs the market: **+0.0%** · beat it: 5/9 · t-stat 0.02 (need about 2 and 20+ calls before it means anything)
+- Total P&L on $1,000 per call: **$+423.54**
+- Average vs the market: **+5.0%** · beat it: 7/9 · t-stat 2.22 (need about 2 and 20+ calls before it means anything)
 
 ## Every call
 
 | # | posted | call | thesis | entry | now / exit | return | vs market | vs control | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $21.42 | +1.4% | +1.5% (IWM) | +4.7% (IIIN) | 23 | open |
-| 2 | 2026-10-26 | AVOID **DFNS** | [Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct](../research/daily/2026-10-26.md) | $3.91 (2026-10-27) | $3.66 | +6.4% | +8.6% (IWM) | +9.9% (ITA) | 2 | open |
-| 3 | 2026-10-26 | AVOID **NCT** | [Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit](../research/daily/2026-10-26.md) | $1.55 (2026-10-27) | $1.55 | -0.0% | +2.2% (IWM) | -4.4% (GLBS) | 2 | open |
-| 4 | 2026-10-26 | AVOID **TMCR** | [F-1s effective 22 Oct: a $100M Yorkville standby equity line (23.6M shares, 35% of 67.4M) at 96% of market, plus 4.37M consideration shares free to sell now](../research/daily/2026-10-26.md) | $2.10 (2026-10-27) | $2.07 | +1.4% | +3.6% (IWM) | +0.0% (GROY) | 2 | open |
-| 5 | 2026-10-26 | AVOID **OSTX** | [Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies](../research/daily/2026-10-26.md) | $1.22 (2026-10-27) | $1.30 | -6.6% | -4.4% (IWM) | -1.6% (XBI) | 2 | open |
+| 1 | 2026-10-05 | LONG **MTUS** | [$125M funded DLA order under the $995M HF-1 steel stockpile IDIQ; Q3 (6 Nov) should show it in backlog and A&D sales](../stocks/MTUS.md) | $21.13 (2026-10-06) | $21.12 | -0.1% | +1.7% (IWM) | +5.0% (IIIN) | 24 | open |
+| 2 | 2026-10-26 | AVOID **DFNS** | [Registered 19.0M sellable shares, 5.8x its 3.25M shares: a 10M-share equity line priced at 97.5% of the lowest 15-day VWAP plus PIPE resales; EFFECT 22 Oct](../research/daily/2026-10-26.md) | $3.91 (2026-10-27) | $3.59 | +8.2% | +8.7% (IWM) | +9.4% (ITA) | 3 | open |
+| 3 | 2026-10-26 | AVOID **NCT** | [Registered direct of 15M new Class A shares at $1.30 ($19.5M), 4.8x the 3.12M shares outstanding, delivered 26 Oct; Monday's +17% to $1.48 hands those buyers an exit](../research/daily/2026-10-26.md) | $1.55 (2026-10-27) | $1.49 | +3.9% | +4.4% (IWM) | +0.8% (GLBS) | 3 | open |
+| 4 | 2026-10-26 | AVOID **TMCR** | [F-1s effective 22 Oct: a $100M Yorkville standby equity line (23.6M shares, 35% of 67.4M) at 96% of market, plus 4.37M consideration shares free to sell now](../research/daily/2026-10-26.md) | $2.10 (2026-10-27) | $1.95 | +7.1% | +7.6% (IWM) | +0.1% (GROY) | 3 | open |
+| 5 | 2026-10-26 | AVOID **OSTX** | [Warrant inducement at $1.30: 5.52M new shares (12% of 46.1M) issued with up to 3.93M more by 30 Oct and new $1.40 warrants capping rallies](../research/daily/2026-10-26.md) | $1.22 (2026-10-27) | $1.24 | -1.6% | -1.1% (IWM) | +2.1% (XBI) | 3 | open |
 | 6 | 2026-10-27 | AVOID **NNBR** | [PIPE holders (AIGH, Alyeska, Polar, Special Situations, Empery) free to resell 16.1M shares (17.2% of 93.7M) since the 23 Oct EFFECT; the price sits 1.8% above their $3.30 cost](../research/daily/2026-10-27.md) | $3.60 (2026-10-28) | $3.96 | -10.0% | -8.7% (IWM) | -9.3% (XLI) | 1 | closed: invalidation close 3.96 vs 3.83 |
-| 7 | 2026-10-27 | AVOID **NAUT** | [Unused $125M TD Cowen at-the-market programme, about 51M shares (40% of the company) at Monday's price, after a 2.5x run; -24.7% on Monday](../research/daily/2026-10-27.md) | $3.00 (2026-10-28) | $3.14 | -4.7% | -3.4% (IWM) | -6.7% (SEER) | 1 | open |
-| 8 | 2026-10-28 | AVOID **WORX** | [Resale S-3 effective 26 Oct lets Iroquois and other warrant holders sell 8.25M shares (595% of 1.39M outstanding), with exercise-price resets; listing depends on a Nasdaq panel after two reverse splits this year](../research/daily/2026-10-28.md) | $1.83 (2026-10-29) | $1.82 | +0.6% | +1.1% (IWM) | +1.1% (XLV) | 0 | open |
-| 9 | 2026-10-28 | AVOID **NIVF** | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | $1.13 (2026-10-29) | $1.14 | -0.9% | -0.3% (IWM) | -0.3% (XLV) | 0 | open |
+| 7 | 2026-10-27 | AVOID **NAUT** | [Unused $125M TD Cowen at-the-market programme, about 51M shares (40% of the company) at Monday's price, after a 2.5x run; -24.7% on Monday](../research/daily/2026-10-27.md) | $3.00 (2026-10-28) | $2.73 | +9.0% | +8.6% (IWM) | -6.2% (SEER) | 2 | open |
+| 8 | 2026-10-28 | AVOID **WORX** | [Resale S-3 effective 26 Oct lets Iroquois and other warrant holders sell 8.25M shares (595% of 1.39M outstanding), with exercise-price resets; listing depends on a Nasdaq panel after two reverse splits this year](../research/daily/2026-10-28.md) | $1.83 (2026-10-29) | $1.60 | +12.6% | +11.5% (IWM) | +13.6% (XLV) | 1 | open |
+| 9 | 2026-10-28 | AVOID **NIVF** | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | $1.13 (2026-10-29) | $0.98 | +13.3% | +12.2% (IWM) | +14.3% (XLV) | 1 | open |
 
 ## Rules
 
