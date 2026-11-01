@@ -160,3 +160,13 @@ found,source,ticker,category,direction,note
 2026-10-28,daily research 28 Oct (research/daily/2026-10-28.md),NKTX,linked_peer,0,ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference)
 2026-10-28,daily research 28 Oct (research/daily/2026-10-28.md),SANA,linked_peer,0,ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference)
 2026-10-28,daily research 28 Oct (research/daily/2026-10-28.md),LYCA,linked_peer,0,ARTV -> Venrock Healthcare Capital Partners (13G holder in both) -> LYCA
+2026-11-01,"daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md)",IPW,setup_supply_convert,0,"ATW floating-price notes converted into ~72% of 596,808 shares; resale S-1/A for up to 8.09M; three splits in 2026; AVOID, public call #10"
+2026-11-01,"daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md)",TTMI,insider_cluster,0,"CEO and a director bought ~$1.34M at $88-91 on 28 Oct after a 27.7% earnings drop; $100M buyback; tracked, no call"
+2026-11-01,"daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md)",GOLD,holder_buying,0,"Tether (10%+ holder) bought up to 500,000 shares direct by 28 Oct at ~$39; one holder group; tracked"
+2026-11-01,"daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md)",BCTX,distress,0,"Going concern repeated from FY2025, now a critical audit matter; AVOID register only"
+2026-11-01,"daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md)",SEER,below_cash,0,"Committee rejected $2.55 (Radoff-JEC) and $2.45 (CEO) bids on 29 Oct after the close; $1.68 = 0.52x 30 Jun net cash ($3.22, arith); WATCH T019"
+2026-11-01,"daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md)",GRRR,setup_supply_convert,0,"Up to $111.1M floating-price notes at 90% of the three lowest VWAPs after converts at $25.48; AVOID, public call #11"
+2026-11-01,"daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md)",MVIS,setup_supply_atm,0,"Going concern, $41.1M unused ATM, converts near $1.13; AVOID, public call #12"
+2026-11-01,"daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md)",CABO,distress,0,"Former CRO joins the strategic-alternatives committee (8-K after the 30 Oct close); $700M revolver draw; AVOID, public call #13"
+2026-11-01,"daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md)",LEE,activist_13d,0,"Quint Digital 13G to 13D at 14.38% (no new buying; 10b5-1 plan adopted 29 Oct); Hoffmann controls 53.47%; tracked, no call"
+2026-11-01,"daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md)",XPOF,takeover_proposal,0,"Fund 1 proposes $5.61-7.00 cash (non-binding); +19.25% to $4.46; WATCH, T020 replaces T009"

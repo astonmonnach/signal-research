@@ -973,4 +973,60 @@ DTEND;VALUE=DATE:20261201
 SUMMARY:NPB: CMG purchase of the retail mortgage channels expected to complete (T017)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1336706/000133670626000083/npb-20261026.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:19a92c6cfd7b6db12187dbb153a4ceb3@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:ACB: Q2 FY27 results before the open\, call 8:00am New York (Curaleaf hostile offer still open)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926119872/tm2628516d1_ex99-1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:8f4fad90537d4e2abff4f47360324ed1@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:SKYA: tender expiry confirmed in Amendment No. 4\, which drops the 30% withholding for non-US holders (T015)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1737995/000149315226049311/ex99a1a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:5a9363ccacdab90cf4dd4834bd835dd2@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:PCRX: Viatris $36.50 cash tender expires
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1396814/000114036126041224/ny20084254x1_exa1a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:a50a4a88aa571c7c3108f5410c0cb7a8@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ENVX: record date for the warrant dividend (1 warrant per 4 shares\, $3.00 exercise\; AVOID)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1828318/000182831826000063/envx8k-10282026ex991pr.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:50feb65e057730f6a5b86518bf1f485e@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:AMOD: PIPE issuance restriction lifts (30 days after the 28 Oct resale effectiveness\; AVOID)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1862463/000149315226041775/formdef14c.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f9322913f5dbd3e3baba60c15df840@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:SWBI: first third of JDH Capital's 8\,993\,968 Savage-deal shares leaves lock-up (90 days after 21 Oct)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1092796/000149315226049116/xslSCHEDULE_13D_X02/primary_doc.xml
+END:VEVENT
+BEGIN:VEVENT
+UID:5d9e70a0565790bc383e6f7a5752ccba@signal-lab
+DTSTAMP:20261101T170000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:TENX: lead-plaintiff deadline in the securities class action
+DESCRIPTION:https://www.prnewswire.com/news-releases/attention-nasdaq-tenx-investors-contact-berger-montague-about-a-tenax-therapeutics-inc-class-action-lawsuit-302924441.html
+END:VEVENT
 END:VCALENDAR

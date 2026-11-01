@@ -195,3 +195,14 @@ date,a,b,type,detail,source
 2026-03-10,ARTV,ALLO,peer_named,"Named competitor in Artiva's 10-K (allogeneic NK, CAR-NK, CAR-T)",https://www.sec.gov/Archives/edgar/data/1817241/000119312526100135/artv-20251231.htm
 2026-03-10,ARTV,SANA,peer_named,"Named competitor in Artiva's 10-K (allogeneic NK, CAR-NK, CAR-T)",https://www.sec.gov/Archives/edgar/data/1817241/000119312526100135/artv-20251231.htm
 2026-03-10,ARTV,IBRX,peer_named,"Named competitor in Artiva's 10-K (allogeneic NK, CAR-NK, CAR-T)",https://www.sec.gov/Archives/edgar/data/1817241/000119312526100135/artv-20251231.htm
+2026-11-01,SEER,NAUT,peer_named,Proteomics peer; SEER is the control on public AVOID #7 (NAUT),https://www.sec.gov/Archives/edgar/data/1808805/000180880526000052/naut-20260930.htm
+2026-11-01,SEER,QSI,peer_named,"Proteomics tools peer; ~1x cash at its July low, then re-rated",https://www.sec.gov/Archives/edgar/data/1816431/000181643126000056/qsi-20260630.htm
+2026-11-01,SEER,LAB,peer_named,Proteomics peer; discount widened after its reverse merger,https://www.sec.gov/Archives/edgar/data/1162194/000119312526335103/lab-20260630.htm
+2026-11-01,LEE,co:Quint Digital,holder_13d,14.38%; 10b5-1 buying plan adopted 29 Oct,https://www.sec.gov/Archives/edgar/data/58361/000201162026000006/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-01,VTEX,co:SoftBank,holder_13d,42.9% holder selling in the open market,https://www.sec.gov/Archives/edgar/data/1793663/000149315226049499/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-01,SEER,fund:Radoff-JEC Group,holder_13d,7.7%; $2.55 cash plus CVR bid rejected 29 Oct,https://www.sec.gov/Archives/edgar/data/1726445/000119312526437906/d178905dex991.htm
+2026-11-01,LEE,BRK.B,counterparty,"BH Finance (Berkshire affiliate) term loan, $454.7M to 2045",https://www.sec.gov/Archives/edgar/data/58361/000005836126000060/lee-20260628.htm
+2026-11-01,IPW,fund:ATW Digital Asset Opportunities XIV,counterparty,Series A floating-price convertible lender; sole resale seller,https://www.sec.gov/Archives/edgar/data/1830072/000168316826008203/ipower_s1a1.htm
+2026-11-01,VREX,TDY,merger,Teledyne $18.90 cash; holders approved 28 Oct,https://www.sec.gov/Archives/edgar/data/1681622/000110465926093349/tm2622593d1_8k.htm
+2026-11-01,PTHS,LGND,counterparty,Ligand among the Series B convertible-preferred PIPE buyers,https://www.sec.gov/Archives/edgar/data/1919246/000110465926120457/tm2628523d1_8k.htm
+2026-11-01,TCBK,FHB,merger,First Hawaiian merger approved by TCBK holders 29 Oct,https://www.sec.gov/Archives/edgar/data/356171/000035617126000119/tcbk-20261029.htm

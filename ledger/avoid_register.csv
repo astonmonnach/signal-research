@@ -27,7 +27,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-10-20,AIAI,A $200M equity line with B. Riley against a company worth about $190M,ongoing_supply,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:42
 2026-10-20,HOST,Resale S-3 for 172% of its Class A shares,ongoing_supply,unknown,active,2026-10-21,"21 Oct movers: '+47.4% on a $15M buyback, while its resale S-3 for 172% of the Class A shares is still pending'; no stance change",,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:43
 2026-10-20,SDST,Delisted at the open on 23 Oct (found on a strategic-review tag),distress,yes,active,2026-10-20,No later note changes it (notes read through 26 Oct) (takeable per 20 Oct triage 'Takeable long signals from the 19 Oct scan'),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:44
-2026-10-20,CABO,The Graham trusts are selling and are down to 4.99%; -86% from its 3-month high,holder_selling,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:47
+2026-10-20,CABO,The Graham trusts are selling and are down to 4.99%; -86% from its 3-month high,holder_selling,unknown,active,2026-11-01,"No later note changes it (notes read through 26 Oct); Public call #13 open from the 2 Nov open; invalidation close above $7.25; review 30 Nov (distress: former Chief Restructuring Officer on the strategic-alternatives committee, 30 Oct 8-K)",13,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:47
 2026-10-20,NVGS,"BW Group fell below 5% and is still selling about 100k shares a day, now unreported",holder_selling,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:48
 2026-10-20,FBYD,"6.95M shares distributed in kind, about 89 days of volume",holder_selling,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:49
 2026-10-20,RMCF,Going concern and covenant breaches (triage AVOID list only; not in the research note's AVOID line),distress,no,active,2026-10-20,No later note changes it (notes read through 26 Oct) (triage: 'RMCF... not takeable under the $250k bar'),,watch/digests/2026-10-20-triage.md:45
@@ -103,3 +103,40 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-10-28,IBO,Reverse merger into Zoar leaves holders 4.80%; DSS (88.87%) may sell down to 51% before closing and 1.8M advisor shares (about 1.9x the non-DSS float) are free after; vote 13 Nov,deal_dilution,no,active,,,,research/daily/2026-10-28.md (agent A triage of the 27 Oct scan)
 2026-10-28,SCKT,Voluntary move from Nasdaq to OTCID (fails the $2.5M equity rule); last Nasdaq day 18 Nov; -35% to $0.34 on 28 Oct,distress,no,active,,,,research/daily/2026-10-28.md (agent A triage of the 27 Oct scan)
 2026-10-28,HYFM,Debt-for-equity: lenders get 27.5M convertible preferred plus 27.5M $0.78 warrants; $8.3M placement at $0.905 with 9.21M more warrants (1.9x the 4.82M shares before the lender securities); resale S-3 due about 11 Nov,distress,no,active,,,,research/daily/2026-10-28.md (agent A triage of the 27 Oct scan)
+2026-11-01,IPW,"ATW floating-price notes (95% of the lowest 7-day VWAP) converted into ~72% of 596,808 shares; resale S-1/A for up to 8.09M more; three reverse splits in 2026",ongoing_supply,yes,active,2026-11-01,Public call #10 open from the 2 Nov open; invalidation close above $2.89; review 30 Nov,10,research/daily/2026-10-29.md
+2026-11-01,BCTX,"Going concern (repeat of FY2025, now a critical audit matter); not public: not new distress",distress,yes,active,2026-11-01,Register only,,research/daily/2026-10-29.md
+2026-11-01,MGN,15M shares sold at $0.50 vs a $3.59 close (14x the old Class A); class action alleges a manipulation scheme,one_off_offering,yes,active,2026-11-01,"Register only (one-off, already priced)",,research/daily/2026-10-29.md
+2026-11-01,ENVX,"Warrant dividend, 1 per 4 shares at $3.00 vs $3.15; record date 13 Nov",warrant_supply,yes,active,2026-11-01,Register only,,research/daily/2026-10-29.md
+2026-11-01,GPRK,"42.1M new shares to PEH, about 65% of the company",deal_dilution,yes,active,2026-11-01,Register only,,research/daily/2026-10-29.md
+2026-11-01,HCAI,Reset warrants now 173% of Class A after a 1:20 consolidation,warrant_supply,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,NNOX,"Bid-price deficiency, ATM and a vote on 300M more shares",distress,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,AMZE,Equity line for 138% of shares effective,ongoing_supply,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,OPTT,Going concern; auditor dismissed to save fees; offering pending,distress,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,OSRH,Nasdaq panel ordered delisting,distress,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,LOTT,Off Nasdaq; authorised shares raised to 10 billion,distress,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,MIST,"Nasdaq bid-price deficiency, cure by 21 Apr 2027",distress,no,active,2026-11-01,,,research/daily/2026-10-29.md
+2026-11-01,CDZI,Registered direct of 5M shares at $4.20,one_off_offering,yes,active,2026-11-01,Register only (one-off),,research/daily/2026-10-30.md
+2026-11-01,LVWR,Going-concern doubt; $1.60 to $0.66,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,ESYN,Controlling holder's warrants for 156M shares vs 33.7M outstanding,warrant_supply,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,TOPS,Commitment shares issued under an equity-line SPA,ongoing_supply,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,PPCB,Nasdaq delisting on 2 Nov unless appealed,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,SRTM,"Equity-line S-1 for 4,965% of shares; going concern",ongoing_supply,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,ARAI,Toxic warrant (cashless exercise x3.33) resale,warrant_supply,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,FCHL,Share consolidation plus an F-1 raise,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,MASK,Cumulative 4:1 consolidation,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,HUDI,"8:1 consolidation, EGM 16 Nov",distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,RCON,1:200 or 1:300 consolidation,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,ZTG,12:1 consolidation,distress,no,active,2026-11-01,,,research/daily/2026-10-30.md
+2026-11-01,GRRR,"Up to $111.1M of floating-price notes (90% of the three lowest VWAPs, floor $3.858) after converts at $25.48; authorised shares 73.5M to 200M",ongoing_supply,yes,active,2026-11-01,Public call #11 open from the 2 Nov open; invalidation close above $10.08; review 30 Nov,11,research/daily/2026-11-02.md
+2026-11-01,MVIS,"Going concern, $41.1M unused ATM, convertible holder converting near $1.13",ongoing_supply,yes,active,2026-11-01,Public call #12 open from the 2 Nov open; invalidation close above $1.58; review 30 Nov,12,research/daily/2026-11-02.md
+2026-11-01,XRX,Distressed exchange of the 2028 notes at 69 cents plus 3.87M shares,distress,yes,active,2026-11-01,"Register only (supply small, -47% already)",,research/daily/2026-11-02.md
+2026-11-01,PTHS,Castle Creek merger (32.5% to its holders) plus a $57.5M convertible-preferred PIPE; -43%,deal_dilution,yes,active,2026-11-01,Register only,,research/daily/2026-11-02.md
+2026-11-01,VTEX,SoftBank (42.9%) selling in the open market,holder_selling,yes,active,2026-11-01,Register only (holder selling is not a public-call type),,research/daily/2026-11-02.md
+2026-11-01,PARA,"Staff delisting determination; 1-for-2,000 cumulative splits; unit offering with reset warrants",distress,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,CAPS,3i note in default converting at 90% of the lowest VWAP; equity-line resale,distress,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,MOBX,"Kips Bay floating-price preferred, 6M-share S-1",ongoing_supply,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,BCAB,"Yorkville equity line effective, 492% of shares",ongoing_supply,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,OPNW,Registered direct with 2x warrants plus an Item 3.01,warrant_supply,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,APVO,"Baby-shelf ATM reset, about 65% of non-affiliate shares",ongoing_supply,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,RCT,Consolidation ratio raised from 20:1 to 100:1,distress,no,active,2026-11-01,,,research/daily/2026-11-02.md
+2026-11-01,NNUP,Resale of 36.2% effective (OTC),holder_selling,no,active,2026-11-01,,,research/daily/2026-11-02.md

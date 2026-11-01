@@ -4,7 +4,7 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 
 ## Scoreboard
 
-- Calls: **9** · marked: 9 · open: 8 · closed: 1
+- Calls: **13** · marked: 9 · open: 8 · closed: 1
 - Total P&L on $1,000 per call: **$+423.54**
 - Average vs the market: **+5.0%** · beat it: 7/9 · t-stat 2.22 (need about 2 and 20+ calls before it means anything)
 
@@ -21,6 +21,10 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 | 7 | 2026-10-27 | AVOID **NAUT** | [Unused $125M TD Cowen at-the-market programme, about 51M shares (40% of the company) at Monday's price, after a 2.5x run; -24.7% on Monday](../research/daily/2026-10-27.md) | $3.00 (2026-10-28) | $2.73 | +9.0% | +8.6% (IWM) | -6.2% (SEER) | 2 | open |
 | 8 | 2026-10-28 | AVOID **WORX** | [Resale S-3 effective 26 Oct lets Iroquois and other warrant holders sell 8.25M shares (595% of 1.39M outstanding), with exercise-price resets; listing depends on a Nasdaq panel after two reverse splits this year](../research/daily/2026-10-28.md) | $1.83 (2026-10-29) | $1.60 | +12.6% | +11.5% (IWM) | +13.6% (XLV) | 1 | open |
 | 9 | 2026-10-28 | AVOID **NIVF** | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | $1.13 (2026-10-29) | $0.98 | +13.3% | +12.2% (IWM) | +14.3% (XLV) | 1 | open |
+| 10 | 2026-11-01 | AVOID IPW | [ATW floating-price notes (95% of the lowest 7-day VWAP; $15M undrawn) have converted into about 72% of the 596,808 shares; a resale S-1/A covers up to 8.09M more (at a $0.445 floor); three reverse splits in 2026](../research/daily/2026-10-29.md) | | | | | | | pending (enters next open) |
+| 11 | 2026-11-01 | AVOID GRRR | [Up to $111.1M of floating-price notes (90% of the three lowest VWAPs in 20 days, $6M a month, floor $3.858) four months after converts at $25.48; asks holders to lift authorised shares from 73.5M to 200M](../research/daily/2026-11-02.md) | | | | | | | pending (enters next open) |
+| 12 | 2026-11-01 | AVOID MVIS | [Going-concern doubt in the Q3 10-Q, a $41.1M unused ATM (about 89% of the company at $1.35) and a convertible holder converting near $1.13](../research/daily/2026-11-02.md) | | | | | | | pending (enters next open) |
+| 13 | 2026-11-01 | AVOID CABO | [Strategic-alternatives committee now includes a former Chief Restructuring Officer ($40k a month), after a $700M revolver draw to hoard cash and the end of investor talks; about $31M of equity against about $3.8B of debt (arith)](../research/daily/2026-11-02.md) | | | | | | | pending (enters next open) |
 
 ## Rules
 

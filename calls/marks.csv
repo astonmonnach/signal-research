@@ -8,3 +8,7 @@ id,posted_utc,ticker,direction,horizon,entry_date,entry,end_date,end_price,ret_p
 7,2026-10-27T17:53Z,NAUT,-1,swing,2026-10-28,3.0,2026-10-30,2.73,9.0,90.0,IWM,-0.36,8.64,SEER,-15.15,-6.15,2,open
 8,2026-10-28T15:55Z,WORX,-1,swing,2026-10-29,1.83,2026-10-30,1.6,12.57,125.68,IWM,-1.09,11.48,XLV,1.04,13.61,1,open
 9,2026-10-28T15:55Z,NIVF,-1,swing,2026-10-29,1.13,2026-10-30,0.98,13.27,132.74,IWM,-1.09,12.18,XLV,1.04,14.31,1,open
+10,2026-11-01T17:00Z,IPW,-1,swing,,,,,,,,,,XRT,,,,pending (enters next open)
+11,2026-11-01T17:00Z,GRRR,-1,swing,,,,,,,,,,IGV,,,,pending (enters next open)
+12,2026-11-01T17:00Z,MVIS,-1,swing,,,,,,,,,,OUST,,,,pending (enters next open)
+13,2026-11-01T17:00Z,CABO,-1,swing,,,,,,,,,,CHTR,,,,pending (enters next open)
