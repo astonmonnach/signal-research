@@ -7,3 +7,4 @@ watch/marketcap.json
 crypto/hyperliquid/cache/
 watch/hl_markets.json
 ledger/cache_av1/
+calls/evidence/.cache/

@@ -123,7 +123,20 @@ def main():
     rows = list(csv.DictReader(open(CALLS, encoding="utf-8"))) if CALLS.exists() else []
     if "--post" in sys.argv:
         cid = sys.argv[sys.argv.index("--post") + 1]
+        # rule 2026-11-01: the post is written only from claims whose quotes check out in the filings
+        import check_evidence as ev
+        evid = ev.load(int(cid))
+        if evid is None and int(cid) >= ev.FIRST_ID:
+            sys.exit(f"call {cid}: no calls/evidence/{cid}.csv; write it and run python calls/check_evidence.py {cid}")
+        bad = ev.problems(int(cid), evid) if evid else []
+        if bad:
+            sys.exit("\n".join(["evidence problems, fix before posting:"] + bad))
         print(post_text(next(r for r in rows if r["id"] == cid)))
+        if evid:
+            print("\nVerified claims (write the post from these only):")
+            for c in dict.fromkeys(r["claim"] for r in evid):
+                fixes = [r["note"] for r in evid if r["claim"] == c and r.get("note", "").startswith("CORRECTION")]
+                print("-", c + (f"  [{'; '.join(fixes)}]" if fixes else ""))
         return
     marked = [mark(r) for r in rows]
     live = [m for m in marked if "ret_pct" in m]
