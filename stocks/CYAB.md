@@ -26,8 +26,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.116 (2026-11-02, ledger)
-- **Since first found:** **-42.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -42.1% vs IWM -0.3% = **-41.8 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $0.108 (2026-11-02, ledger)
+- **Since first found:** **-46.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -46.1% vs IWM -0.5% = **-45.6 pts** vs IWM; direction 0, tracked only (28 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -49,6 +49,6 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.116 | -42.1% | -42.1% | -0.3% |  | 28 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.116 | -31.9% | -31.9% | +1.0% | +33.0% | 24 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.116 | -22.9% | -22.9% | +3.5% | +26.4% | 13 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.108 | -46.1% | -46.1% | -0.5% |  | 28 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.108 | -36.6% | -36.6% | +0.8% | +37.5% | 24 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.108 | -28.2% | -28.2% | +3.3% | +31.5% | 13 | live |

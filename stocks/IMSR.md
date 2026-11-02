@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `buyback` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $3.13 (2026-11-02, ledger) · 1d -2.6%, 5d +6.6%, 20d -16.4% (market context, 2026-11-02)
-- **Since first found:** **-2.6%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -3.2% vs IWM +2.0% = **-5.3 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $3.10 (2026-11-02, ledger) · 1d -3.7%, 5d +5.4%, 20d -17.3% (market context, 2026-11-02)
+- **Since first found:** **-3.7%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -4.3% vs IWM +1.8% = **-6.1 pts** vs IWM; direction 0, tracked only (17 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: IMSR +6.6% 5d vs peer median +2.6%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-02)
+- **Peers / sympathy:** no flag (self 5d +5.4% vs peer median +3.3%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -35,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $3.13 | -2.6% | -3.2% | +2.0% |  | 17 | live |
-| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $3.13 | -4.7% | +6.3% | +0.3% |  | 5 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $3.10 | -3.7% | -4.3% | +1.8% |  | 17 | live |
+| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $3.10 | -5.8% | +5.1% | +0.1% |  | 5 | live |
