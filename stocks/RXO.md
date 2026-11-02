@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $27.40 (2026-10-30, ledger) · 1d -0.8%, 5d -4.6%, 20d +17.3% (market context, 2026-10-30)
-- **Since first found:** **-4.4%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: -4.6% vs IWM -1.6% = **-3.0 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $27.75 (2026-11-02, ledger) · 1d +0.9%, 5d -3.3%, 20d -3.2% (market context, 2026-11-02)
+- **Since first found:** **-3.1%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: -3.4% vs IWM -0.8% = **-2.6 pts** vs IWM; direction 0, tracked only (27 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: RXO -4.6% 5d vs peer median +0.0%; peers didn't move with it. Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** missed_peer_move: peer median +5.4% 5d vs RXO -3.3%; peers moved, it didn't. Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `425` 30 Oct, `10-Q` 29 Oct, `425` ×3 29 Oct, `8-K` 29 Oct, `425` 28 Oct
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: +17 older (Apr – Oct 2026) first picked up
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `merger_arb` (direction 0): $17.25 cash + 0.0856 CHRW = $28.98 now vs $28.62: 1.25% gross spread, ~1.7%/yr to mid-2027; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (2. C.H. Robinson buys RXO: $17.25 cash + 0.0856 CHRW shares) ([note](../research/daily/2026-10-06.md))
 - **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, spin-off, tender offer" (8k merger agreement) (5d before +18.1%, found day +22.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1929561/000114036126038548/ef20083265_8k.htm)) · Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +18.1%, found day +22.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1929561/000119312526414547/0001193125-26-414547-index.htm))
@@ -27,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for RXO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $27.40 | -4.4% | -4.6% | -1.6% |  | 24 | live |
-| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $27.40 | -4.4% | -4.6% | -1.6% | -3.0% | 24 | live |
-| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $27.40 | -4.0% | -3.3% | +0.5% |  | 23 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $27.75 | -3.1% | -3.4% | -0.8% |  | 27 | live |
+| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $27.75 | -3.1% | -3.4% | -0.8% | -2.6% | 27 | live |
+| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $27.75 | -2.8% | -2.1% | +1.4% |  | 26 | live |

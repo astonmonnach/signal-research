@@ -6,17 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $11.14 (2026-10-30, ledger)
-- **Since first found:** **+6.8%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: +7.3% vs IWM +0.6% = **+6.7 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $11.39 (2026-11-02, ledger)
+- **Since first found:** **+9.2%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: +9.7% vs IWM +1.5% = **+8.2 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Fri 30 Oct 2026: SAMG: Q3 results before the open (Equinox Partners holds ~10.7%)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md)**: Calendar: SAMG: Q3 results before the open (Equinox Partners holds ~10.7%) ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1549966/000101359426001116/0001013594-26-001116-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **SAMG** (takeable): Equinox Partners at 10.7% of Class A, buying steadily at $10.24-10.47; Q3 on 30 Oct. Fails TF1. Tracked, no call. ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `holder_buying` (direction 0): Equinox Partners (Sean Fieler) 10.7% of Class A, bought 34,126 sh at $10.24-10.47 on 15-22 Oct; Item 4: undervalued, no plans; fails TF1 (36% off high, below 50-day); tracked, no call; Q3 30 Oct; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (3. The buy side: real buyers on weak charts (SAMG, ABEO, RAPP)) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1549966/000101359426001082/0001013594-26-001082-index.htm))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1549966/000101359426001053/0001013594-26-001053-index.htm))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for SAMG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $11.14 | +6.8% | +7.3% | +0.6% |  | 3 | live |
+| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $11.39 | +9.2% | +9.7% | +1.5% |  | 6 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $2.74 (2026-10-30, ledger)
-- **Since first found:** **+1.1%** (found 2026-10-14 via `linked_peer` at $2.71). From the next open $2.74: +0.0% vs IWM +3.1% = **-3.1 pts** vs IWM; direction 0, tracked only (15 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $2.47 (2026-11-02, ledger) · 1d -13.2%, 5d -13.2%, 20d -1.9% (market context, 2026-11-02)
+- **Since first found:** **-8.7%** (found 2026-10-14 via `linked_peer` at $2.71). From the next open $2.74: -9.7% vs IWM +4.0% = **-13.6 pts** vs IWM; direction 0, tracked only (18 days)
+- **Peers / sympathy:** solo_move: KOS -13.2% 5d vs peer median -3.1%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Kosmos Energy Announces Successful Amendment and Extension of Reserve-Based Lending Facility (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3392856/0/en/kosmos-energy-announces-successful-amendment-and-extension-of-reserve-based-lending-facility.html)) · Press: Kosmos Energy Announces Third Quarter 2026 Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3392854/0/en/kosmos-energy-announces-third-quarter-2026-results.html))
 - **[2026-10-14](../scans/2026-10-14.md#new-setups)**: Logged as `linked_peer` (direction 0): TALO peer (offshore producer): +7.3% from 7 to 13 Oct vs TALO +5.4%; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **Reaction** (,,, ):) ([note](../research/daily/2026-10-14.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for KOS ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | +6.9% | -2.5% | $33.9M | $2.71 | $2.74 | $2.74 | +1.1% | +0.0% | +3.1% |  | 15 | live |
+| 2026-10-14 | `linked_peer` | 0 | +6.9% | -2.5% | $33.9M | $2.71 | $2.74 | $2.47 | -8.7% | -9.7% | +4.0% |  | 18 | live |

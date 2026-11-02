@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.83 (2026-10-30, ledger) · 1d -5.8%, 5d -1.5%, 20d -22.2% (market context, 2026-10-30)
-- **Since first found:** **-10.9%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -11.5% vs IWM +1.0% = **-12.5 pts** vs IWM; direction 0, tracked only (9 days)
-- **Peers / sympathy:** no flag (self 5d -1.5% vs peer median -2.0%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $3.89 (2026-11-02, ledger) · 1d +4.0%, 5d -2.0%, 20d -20.4% (market context, 2026-11-02)
+- **Since first found:** **-9.5%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -10.2% vs IWM +1.9% = **-12.1 pts** vs IWM; direction 0, tracked only (12 days)
+- **Peers / sympathy:** no flag (self 5d -2.0% vs peer median +0.5%). Peer groups: SIC 1000 (7) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- BMM's trigger T008 expired on 29 Oct with no prepayment news. Blue Moon dropped its 33-project deal and…) ([note](../research/daily/2026-11-02.md))
+- **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: Blue Moon Metals Announces Termination of Ropa Acquisition and Completion of Continuance to Ontario (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-metals-announces-termination-of-ropa-acquisition-and-completion-of-continuance-to-ontario-302925202.html))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Industry in play: critical minerals (from CRML).** Peers NB +17.6%, USAR +16.7% and UAMY +16.1% moved the…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **BMM**: Springer mill refurbishment contract (RAM, Nordmin, Wood as owner's engineer); refurbishment ends Q4 2027. ([triage](../watch/digests/2026-10-27-triage.md)) · Filings: `6-K` 27 Oct · Research: Research: Tue 27 Oct 2026 (- **BMM (T008):** a mill contract, not the prepayment; still open to 29 Oct.) ([note](../research/daily/2026-10-27.md))
@@ -31,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.83 | -10.9% | -11.5% | +1.0% |  | 9 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.89 | -9.5% | -10.2% | +1.9% |  | 12 | live |

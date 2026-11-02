@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $24.98 (2026-10-30, ledger)
-- **Since first found:** **-1.4%** (found 2026-10-26 via `insider_cluster` at $25.33). From the next open $25.11: -0.5% vs IWM +0.6% = **-1.2 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $24.74 (2026-11-02, ledger)
+- **Since first found:** **-2.3%** (found 2026-10-26 via `insider_cluster` at $25.33). From the next open $25.11: -1.5% vs IWM +1.5% = **-3.0 pts** vs IWM; direction 0, tracked only (6 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up, tender offer" (tender offer) (5d before -8.7%, found day +3.5%) ([filing](https://www.sec.gov/Archives/edgar/data/2012593/000119312526441851/d49801dex12.htm)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2012593/000119312526439863/0001193125-26-439863-index.htm)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2012593/000110465926120789/0001104659-26-120789-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **RAPP** priced at $21.00, 23.7% below Tuesday's close and below all six insider buys at $26.10-27.35…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2012593/000119312526434371/0001193125-26-434371-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **RAPP** (takeable): six insiders bought $1.66M after the Phase 2 sell-off, all below $27.35. Fails TF1. Tracked, no call. ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `insider_cluster` (direction 0): six insiders bought 61,694 sh ($1.66M) at $26.10-27.35 on 21-23 Oct after the Phase 2 result sell-off; no 10b5-1; fails TF1 (51% off high, -10% in 5 days); tracked, no call; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (3. The buy side: real buyers on weak charts (SAMG, ABEO, RAPP)) ([note](../research/daily/2026-10-26.md))
@@ -29,4 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for RAPP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `insider_cluster` | 0 | -5.9% | -2.3% | $27.0M | $25.33 | $25.11 | $24.98 | -1.4% | -0.5% | +0.6% |  | 3 | live |
+| 2026-10-26 | `insider_cluster` | 0 | -5.9% | -2.3% | $27.0M | $25.33 | $25.11 | $24.74 | -2.3% | -1.5% | +1.5% |  | 6 | live |
+| 2026-10-30 | `8k_tender_offer` | 0 | -8.7% | +3.5% | $36.6M | $25.05 | $25.16 | $24.74 | -1.2% | -1.7% | +0.2% |  | 0 | live |

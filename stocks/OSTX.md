@@ -6,11 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_warrants` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.25 (2026-10-30, ledger)
-- **Since first found:** **+3.3%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: +2.5% vs IWM +0.6% = **+1.8 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $1.21 (2026-11-02, ledger)
+- **Since first found:** **+0.0%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -0.8% vs IWM +1.5% = **-2.3 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Fri 30 Oct 2026: OSTX: $1.30 warrant inducement offer expires (public AVOID call #5)
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md)**: Calendar: OSTX: $1.30 warrant inducement offer expires (public AVOID call #5) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **OSTX** (takeable, $0.67M/day): warrant inducement at $1.30, 12% new shares, more by 30 Oct. **AVOID, public call #5.** ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_warrants` (direction 0): warrant inducement at $1.30: 5.52M new shares (12%), up to 3.93M more by 30 Oct, new $1.40 warrants; AVOID, public call #5; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (**Headline:** The first public AVOID calls. Four stocks you could actually buy (DFNS, NCT, TMCR, OSTX)…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`D`) ([filing](https://www.sec.gov/Archives/edgar/data/1795091/000092189526002846/0000921895-26-002846-index.htm))
 
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for OSTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $1.25 | +3.3% | +2.5% | +0.6% |  | 3 | live |
+| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $1.21 | +0.0% | -0.8% | +1.5% |  | 6 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $2.65 (2026-10-30, ledger)
-- **Since first found:** **-4.5%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -4.8% vs IWM +1.8% = **-6.6 pts** vs IWM; direction 0, tracked only (8 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $2.69 (2026-11-02, ledger)
+- **Since first found:** **-3.2%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -3.6% vs IWM +2.7% = **-6.3 pts** vs IWM; direction 0, tracked only (11 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 19 Nov 2026: INVE: Dutch-auction tender ($2.85-3.40, up to $20M) expires 5pm New York
@@ -18,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **INVE**: $20M Dutch auction, expires 19 Nov. Tracked. ([triage](../watch/digests/2026-11-02-triage.md)) · Research: Research: Mon 2 Nov 2026 (- **INVE:** a $20M Dutch auction at $2.85-3.40, expiring 19 Nov. A UK holder who tenders gets 30% withheld.…) ([note](../research/daily/2026-11-02.md))
+- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -1.8%, found day +1.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026114054/0001213900-26-114054-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Research: Research: Mon 26 Oct 2026 (- **INVE:** Radoff sold 802,000 shares at $2.68-2.75, below the $2.85-3.40 Dutch tender floor (expiry 19…) ([note](../research/daily/2026-10-26.md)) · Triage, dismissed: INVE: Radoff sold 802k below the tender floor and Item 4 is unchanged; tracked, 19 Nov kept. ([triage](../watch/digests/2026-10-26-triage.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000092189526002848/0000921895-26-002848-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#new-setups)**: Logged as `tender_issuer_buyback` (direction 0): Dutch auction $2.85-3.40 for up to $20M, expires 19 Nov; +25% on 21 Oct; UK holder loses unless it clears near $3.40 (15% withheld); watch only; source: daily research 22 Oct (research/daily/2026-10-22.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 22 Oct 2026 (- **INVE** (formerly Identiv): a Dutch-auction tender at $2.85-3.40 for up to $20M.) ([note](../research/daily/2026-10-22.md))
@@ -29,6 +31,7 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.65 | -4.5% | -4.8% | +1.8% |  | 8 | live |
-| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.65 | -4.5% | -4.8% | +1.8% | -6.6% | 8 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.65 | -2.8% | -2.0% | +1.8% |  | 7 | live |
+| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.69 | -3.2% | -3.6% | +2.7% |  | 11 | live |
+| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.69 | -3.2% | -3.6% | +2.7% | -6.3% | 11 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.69 | -1.5% | -0.7% | +2.7% |  | 10 | live |
+| 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.69 | -0.7% | -1.1% | +0.2% | -1.3% | 0 | live |

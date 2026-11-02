@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $4.20 (2026-10-30, ledger) · 1d -0.5%, 5d -31.6%, 20d -38.4% (market context, 2026-10-30)
-- **Since first found:** **-1.5%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -3.3% vs IWM -0.2% = **-3.1 pts** vs IWM; direction +1 → excess -3.1% (2 days)
+- **Latest price:** $4.20 (2026-11-02, ledger) · 1d +0.1%, 5d -31.9%, 20d -41.2% (market context, 2026-11-02)
+- **Since first found:** **-1.8%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -3.6% vs IWM +0.7% = **-4.2 pts** vs IWM; direction +1 → excess -4.2% (5 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ARTV -31.6% 5d vs peer median +5.5%; peers didn't move with it | missed_peer_move: peer median +5.5% 5d vs ARTV -31.6%; peers moved, it didn't. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** solo_move: ARTV -31.9% 5d vs peer median +4.0%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: ARTV: Q3 10-Q due (first wind-down cost estimate? T018)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `8-K` 27 Oct; +38 older (Aug – Oct 2026) first picked up
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Research picks:** NPB (insider cluster plus buyback, below tangible book) and ARTV (cash about $6.25 a share against $4.28, liquidation on the… ([triage](../watch/digests/2026-10-28-triage.md)) · Logged as `below_cash` (direction 0): AlloNK stopped (two deaths, weak durability); strategic alternatives with Leerink incl. liquidation; $319.1M cash = $6.25/share vs $4.30 (69%); our net range $4.46-5.48; RA Capital 37.9% decides; fails TF1; tracked, no call (T018); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (2. ARTV: a failed cell therapy priced at 69% of its cash, with liquidation on the table) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives, strategic review" (strategic review / alternatives) (5d before +4.6%, found day -30.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1817241/000119312526432806/d102135dex991.htm))
 
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for ARTV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $4.20 | -1.5% | -3.3% | -0.2% | -3.1% | 2 | live |
-| 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $4.20 | -1.6% | -0.4% | -0.9% |  | 1 | live |
+| 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $4.20 | -1.8% | -3.6% | +0.7% | -4.2% | 5 | live |
+| 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $4.20 | -1.9% | -0.6% | -0.1% |  | 4 | live |

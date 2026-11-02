@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_deep_dive` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $5.00 (2026-10-30, ledger) · 1d -1.1%, 5d -0.3%, 20d +19.8% (market context, 2026-10-30)
-- **Since first found:** **+18.2%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +16.3% vs IWM -1.6% = **+17.9 pts** vs IWM; direction +1 → excess +17.9% (24 days)
+- **Latest price:** $5.04 (2026-11-02, ledger) · 1d +1.2%, 5d -0.2%, 20d +18.9% (market context, 2026-11-02)
+- **Since first found:** **+19.1%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +17.2% vs IWM -0.8% = **+18.0 pts** vs IWM; direction +1 → excess +18.0% (27 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median +4.2%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** no flag (self 5d -0.2% vs peer median +1.7%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 30 Oct
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- VYLR, HMH, ESRT, PED, IMSR and SRTA;) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage: **ESRT** (watchlist, activist): the CEO converted 3,061,902 LTIP units into Class A shares on 7 Oct. Not a purchase or sale. ([triage](../watch/digests/2026-10-10-triage.md)) · Filings: `4` 9 Oct · Research: Research: Sat 10 Oct 2026 (- **ESRT (follow-up):** the chairman and CEO, Anthony Malkin, turned **3,061,902 vested LTIP units into Class…**) ([note](../research/daily/2026-10-10.md))
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **ESRT** (watchlist, activist): this was the deep dive. The 13D group holds **10.0M shares (5.8%)**, not 7.5M (4.4%); the 6 Oct note used the fund's… ([triage](../watch/digests/2026-10-08-triage.md)) · Logged as `activist_deep_dive` (direction 0): Erez group 10.0M sh (5.8%) at ~$4.30 avg; observatory NOI negative in Q2; 1y -41% vs VNQ +2%; WATCH; source: daily research 8 Oct (research/daily/2026-10-08.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 8 Oct 2026 (1. ESRT: the go-deeper checks on the Erez 13D) ([note](../research/daily/2026-10-08.md))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for ESRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.00 | +18.2% | +16.3% | -1.6% | +17.9% | 24 | live |
-| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.00 | +9.2% | +9.4% | +0.6% |  | 21 | live |
+| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.04 | +19.1% | +17.2% | -0.8% | +18.0% | 27 | live |
+| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.04 | +10.0% | +10.3% | +1.4% |  | 24 | live |

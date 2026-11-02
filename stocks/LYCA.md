@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $26.62 (2026-10-30, ledger)
-- **Since first found:** **-11.3%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +12.2% vs IWM +1.3% = **+10.9 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $26.95 (2026-11-02, ledger)
+- **Since first found:** **-10.2%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +13.6% vs IWM +2.2% = **+11.4 pts** vs IWM; direction 0, tracked only (7 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001519/0001231919-26-001519-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV -> Venrock Healthcare Capital Partners (13G holder in both) -> LYCA; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Linked names:** ALLO, CABA, FATE, IBRX, KYTX, NKTX, SANA (named competitors in the 10-K) and LYCA (ARTV…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001503/0001231919-26-001503-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage, dismissed: LYCA: IPO at $18; lock-up ends about 20 Apr 2027 (arith). ([triage](../watch/digests/2026-10-26-triage.md))
@@ -28,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for LYCA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $26.62 | -11.3% | +12.2% | +1.3% |  | 4 | live |
-| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $26.62 | -11.3% | +12.2% | +1.3% | -10.9% | 4 | live |
-| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $26.62 | +6.3% | +5.4% | -0.9% |  | 1 | live |
+| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $26.95 | -10.2% | +13.6% | +2.2% |  | 7 | live |
+| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $26.95 | -10.2% | +13.6% | +2.2% | -11.4% | 7 | live |
+| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $26.95 | +7.6% | +6.8% | -0.1% |  | 4 | live |

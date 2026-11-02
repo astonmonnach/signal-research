@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $4.05 (2026-10-30, ledger) · 1d -0.5%, 5d +4.6%, 20d +3.6% (market context, 2026-10-30)
-- **Since first found:** **+1.9%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +1.6% vs IWM +1.0% = **+0.6 pts** vs IWM; direction 0, tracked only (9 days)
-- **Peers / sympathy:** solo_move: ACB +4.6% 5d vs peer median -1.3%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $4.27 (2026-11-02, ledger) · 1d +5.2%, 5d +9.5%, 20d -4.3% (market context, 2026-11-02)
+- **Since first found:** **+7.6%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +7.3% vs IWM +1.9% = **+5.4 pts** vs IWM; direction 0, tracked only (12 days)
+- **Peers / sympathy:** solo_move: ACB +9.5% 5d vs peer median +2.4%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Thu 12 Nov 2026: ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `6-K` 29 Oct
+- **[2026-10-29](../scans/2026-10-29.md)**: Research: Research: Thu 29 Oct 2026 (- ACB: Curaleaf hostile, public since August.) ([note](../research/daily/2026-10-29.md))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **ACB**: the Alberta Securities Commission dismissed Curaleaf's application against Aurora's ATM. ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `6-K` 26 Oct · Research: Research: Mon 26 Oct 2026 (- **ACB (T006):** the Alberta regulator dismissed Curaleaf's ATM complaint. The board says reject the revised…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: +29 older (May – Oct 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **ACB:** $3.97 against an offer worth about $4.15 at CURLF's $7.86 (arith), 4.6% under.) ([note](../research/daily/2026-10-21.md))
@@ -28,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.05 | +1.9% | +1.6% | +1.0% |  | 9 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.27 | +7.6% | +7.3% | +1.9% |  | 12 | live |

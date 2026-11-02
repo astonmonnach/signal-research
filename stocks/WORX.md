@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.59 (2026-10-30, ledger)
-- **Since first found:** **-71.2%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -72.1% vs IWM -1.6% = **-70.5 pts** vs IWM; direction -1 → excess +70.5% (24 days)
+- **Latest price:** $1.53 (2026-11-02, ledger)
+- **Since first found:** **-72.3%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -73.2% vs IWM -0.8% = **-72.4 pts** vs IWM; direction -1 → excess +72.4% (27 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-19 2 WORX +94% no_news $2.68 2.0 no +36.6% -28.7% -32.4) ([note](../research/movers/outcomes-2026-10-29.md))
+- **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-19 2 WORX +94% no_news $2.68 2.0 no +36.6% -28.7% -32.4) ([note](../research/movers/outcomes-2026-10-29.md)) · Research: Research: Thu 29 Oct 2026 (- All rules pass. The market value is about $1.1M (arith), as small and squeeze-prone as WORX and NIVF; the…) ([note](../research/daily/2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `setup_supply_resale` (direction 0): Resale S-3 effective 26 Oct: 8.25M shares (595% of 1.39M) mostly reset-able warrants; Nasdaq panel; AVOID, public call #8; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (3. Two more public AVOID calls: WORX and NIVF) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -23.5%, found day -6.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1674227/999999999526003347/9999999995-26-003347-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md)**: Research: Exploration only (rule 2026-10-06): seven sessions, not a test (3. **History rule.** The 15-of-20-bar rule and the zero-volume rule for missing sessions drop new and very…) ([note](../research/movers/explore/2026-10-22-prior-volume.md))
@@ -32,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.59 | -71.2% | -72.1% | -1.6% | +70.5% | 24 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.59 | -16.8% | -19.7% | -0.2% | +19.5% | 2 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.59 | -16.8% | -13.1% | -0.9% |  | 1 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.53 | -72.3% | -73.2% | -0.8% | +72.4% | 27 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.53 | -19.9% | -22.7% | +0.7% | +23.4% | 5 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.53 | -19.9% | -16.4% | -0.1% |  | 4 | live |

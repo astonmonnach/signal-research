@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $18.43 (2026-10-30, ledger)
-- **Since first found:** **+0.1%** (found 2026-10-22 via `8k_merger_agreement` at $18.41). From the next open $18.41: +0.1% vs IWM +1.8% = **-1.6 pts** vs IWM; direction 0, tracked only (7 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $18.48 (2026-11-02, ledger)
+- **Since first found:** **+0.4%** (found 2026-10-22 via `8k_merger_agreement` at $18.41). From the next open $18.41: +0.4% vs IWM +2.7% = **-2.3 pts** vs IWM; direction 0, tracked only (10 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-30](../scans/2026-10-30.md)**: Research: Research: Fri 30 Oct 2026 (- **Spreads under 3.5%:** VREX 2.55% (Teledyne $18.90), ULBI 2.4%, ADT 1.4%, SKYA 1.0%.) ([note](../research/daily/2026-10-30.md))
+- **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.2%, found day -0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1681622/000168162226000080/vrex-20261028.htm))
 - **[2026-10-28](../scans/2026-10-28.md)**: Calendar: VREX: merger vote on Teledyne's $18.90 cash offer ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-23](../scans/2026-10-23.md#new-setups)**: Logged as `merger_arb` (direction 0): Teledyne $18.90 cash; vote 28 Oct; HSR now to 19 Nov; 2.66% gross spread (arith); no reverse termination fee; tracked; source: daily research 23 Oct (research/daily/2026-10-23.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 23 Oct 2026 (- **VREX:** Teledyne pays $18.90 cash; vote 28 Oct; 2.66% gross spread (arith). The antitrust (HSR) waiting…) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, strategic review, go-shop" (8k merger agreement) (5d before +0.2%, found day -0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1681622/000110465926117962/tm2628039d1_8k.htm))
@@ -27,5 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for VREX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $9.6M | $18.41 | $18.41 | $18.43 | +0.1% | +0.1% | +1.8% |  | 7 | live |
-| 2026-10-23 | `merger_arb` | 0 | -0.3% | +0.1% | $9.4M | $18.42 | $18.41 | $18.43 | +0.1% | +0.1% | +1.3% |  | 4 | live |
+| 2026-10-22 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $9.6M | $18.41 | $18.41 | $18.48 | +0.4% | +0.4% | +2.7% |  | 10 | live |
+| 2026-10-23 | `merger_arb` | 0 | -0.3% | +0.1% | $9.4M | $18.42 | $18.41 | $18.48 | +0.3% | +0.4% | +2.2% |  | 7 | live |
+| 2026-10-29 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $10.4M | $18.44 | $18.44 | $18.48 | +0.2% | +0.2% | +0.1% |  | 3 | live |

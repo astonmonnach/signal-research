@@ -6,17 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_overhang` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $13.25 (2026-10-30, ledger)
-- **Since first found:** **-12.2%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: -12.2% vs IWM +1.8% = **-14.0 pts** vs IWM; direction 0, tracked only (8 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $13.28 (2026-11-02, ledger)
+- **Since first found:** **-12.1%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: -12.0% vs IWM +2.7% = **-14.7 pts** vs IWM; direction 0, tracked only (11 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Tue 19 Jan 2027: SWBI: first third of JDH Capital's 8,993,968 Savage-deal shares leaves lock-up (90 days after 21 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-29](../scans/2026-10-29.md)**: Research: Research: Thu 29 Oct 2026 (- **Shares from a merger:** SWBI (JDH Capital's 8,993,968 shares leave lock-up in thirds from about 19 Jan…) ([note](../research/daily/2026-10-29.md))
+- **[2026-10-28](../scans/2026-10-28.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -6.1%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1092796/000149315226049116/0001493152-26-049116-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **AVOIDs must use labels TF1 excludes:** GTBP, SWBI, AEHL and TNON were logged as supply_* labels outside…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-22](../scans/2026-10-22.md#new-setups)**: Logged as `setup_supply_overhang` (direction 0): issued 9.0M shares (19.99%) for Savage Arms; resale S-3 due within 60 days; seller lock-up in thirds; overhang; source: daily research 22 Oct (research/daily/2026-10-22.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 22 Oct 2026 (- **SWBI** (Smith & Wesson, $677M, takeable, TF1 pass): it issued 9.0M shares (19.99%) to buy Savage Arms.) ([note](../research/daily/2026-10-22.md))
 - **[2026-10-21](../scans/2026-10-21.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, lock-up" (8k merger agreement) (5d before +3.9%, found day +2.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1092796/000119312526427316/d166089d8k.htm))
@@ -27,5 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for SWBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $13.25 | -12.2% | -12.2% | +1.8% |  | 8 | live |
-| 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $13.25 | -7.7% | -7.3% | +1.8% |  | 7 | live |
+| 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $13.28 | -12.1% | -12.0% | +2.7% |  | 11 | live |
+| 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $13.28 | -7.5% | -7.1% | +2.7% |  | 10 | live |
+| 2026-10-28 | `activist_13d` | +1 | -6.1% | +0.1% | $7.0M | $13.89 | $14.02 | $13.28 | -4.4% | -5.3% | -0.1% | -5.2% | 4 | live |

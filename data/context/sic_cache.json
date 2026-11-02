@@ -27297,8 +27297,10 @@
    "sic": "7372"
   },
   "1509991": {
-   "fetched": "2026-10-08",
-   "sic": "1311"
+   "fetched": "2026-11-02",
+   "name": "Kosmos Energy Ltd.",
+   "sic": "1311",
+   "sic_description": "Crude Petroleum & Natural Gas"
   },
   "1510295": {
    "fetched": "2026-10-30",
@@ -33721,8 +33723,10 @@
    "sic": "7370"
   },
   "1726445": {
-   "fetched": "2026-10-13",
-   "sic": "3826"
+   "fetched": "2026-11-02",
+   "name": "Seer, Inc.",
+   "sic": "3826",
+   "sic_description": "Laboratory Analytical Instruments"
   },
   "1726676": {
    "fetched": "2026-10-07",

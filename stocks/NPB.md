@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.93 (2026-10-30, ledger) · 1d -1.6%, 5d +3.1%, 20d +3.8% (market context, 2026-10-30)
-- **Since first found:** **-1.6%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -3.6% vs IWM -0.9% = **-2.6 pts** vs IWM; direction 0, tracked only (1 days)
-- **Peers / sympathy:** solo_move: NPB +3.1% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $16.33 (2026-11-02, ledger) · 1d +3.4%, 5d +7.2%, 20d +6.3% (market context, 2026-11-02)
+- **Since first found:** **+0.9%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -1.1% vs IWM -0.1% = **-1.1 pts** vs IWM; direction 0, tracked only (4 days)
+- **Peers / sympathy:** solo_move: NPB +7.2% 5d vs peer median +0.8%; peers didn't move with it. Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NPB: Q3 10-Q due (exit charges; T017)
   - Mon 30 Nov 2026: NPB: CMG purchase of the retail mortgage channels expected to complete (T017)
@@ -18,6 +18,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 29 Oct, `8-K` 28 Oct, `4` ×3 27 Oct, `8-K` 26 Oct; +25 older (Jul – Oct 2026) first picked up
+- **[2026-10-30](../scans/2026-10-30.md#triage-notes)**: Triage: **NPB** (Form 4): fourth insider buyer (director, 3,000 at $15.7992). T017 open. ([triage](../watch/digests/2026-10-30-triage.md)) · Research: Research: Fri 30 Oct 2026 (- **NPB (T017):** a fourth insider, director Chaudhary, bought 3,000 shares at $15.80 on 28 Oct. The CMG sale…) ([note](../research/daily/2026-10-30.md))
+- **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1336706/000133670626000086/0001336706-26-000086-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Research picks:** NPB (insider cluster plus buyback, below tangible book) and ARTV (cash about $6.25 a share against $4.28, liquidation on the… ([triage](../watch/digests/2026-10-28-triage.md)) · Logged as `insider_cluster` (direction 0): CEO (5th buy this year), a first-time director and the new COO bought $1.77M at $15.32-15.42 on 23-26 Oct, no 10b5-1; $30M buyback (5.5%); 0.91x tangible book; exiting retail mortgage origination (CMG, by 30 Nov); fails TF1 on the 50-day; tracked, no call (T017); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (1. NPB: insiders buy below tangible book as the bank exits retail mortgage origination) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1336706/000133670626000080/0001336706-26-000080-index.htm))
 
@@ -27,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for NPB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $15.93 | -1.6% | -3.6% | -0.9% |  | 1 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $16.33 | +0.9% | -1.1% | -0.1% |  | 4 | live |

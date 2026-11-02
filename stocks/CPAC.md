@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.75 (2026-10-30, ledger) · 1d -0.1%, 5d +0.2%, 20d +3.5% (market context, 2026-10-30)
-- **Since first found:** **+0.7%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +0.8% vs IWM +1.8% = **-1.0 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $12.77 (2026-11-02, ledger) · 1d +0.1%, 5d +0.0%, 20d +4.6% (market context, 2026-11-02)
+- **Since first found:** **+0.9%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.0% vs IWM +2.7% = **-1.7 pts** vs IWM; direction 0, tracked only (11 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median +3.8%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Peers / sympathy:** missed_peer_move: peer median +10.3% 5d vs CPAC +0.0%; peers moved, it didn't. Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-02)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,7 +18,10 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **CPAC**: the board is **neutral**; directors and officers holding shares intend to tender. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `6-K` 28 Oct, `SC 14D9` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **CPAC:** the board is neutral on Holcim's offer and insiders will tender; the spread is down to about 1.2%…) ([note](../research/daily/2026-10-28.md))
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `6-K` 30 Oct, `6-K` ×2 29 Oct
+- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026113922/ea031025501ex99-1.htm))
+- **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026113499/ea031007701ex99-1.htm))
+- **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **CPAC**: the board is **neutral**; directors and officers holding shares intend to tender. ([triage](../watch/digests/2026-10-28-triage.md)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026113122/ea030990201ex99-1.htm)) · Filings: `6-K` 28 Oct, `SC 14D9` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **CPAC:** the board is neutral on Holcim's offer and insiders will tender; the spread is down to about 1.2%…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **CPAC**: Q3 revenue +16.3%, EBITDA +45.1%. The tender price is fixed, so T011 is unchanged. ([triage](../watch/digests/2026-10-27-triage.md)) · Press: Cementos Pacasmayo S.A.A. Announces Consolidated Results for Third Quarter 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261026236119/en/Cementos-Pacasmayo-S.A.A.-Announces-Consolidated-Results-for-Third-Quarter-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `6-K` ×2 27 Oct
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **CPAC**: the Peru tender notice was published 23 Oct. S/8.93 a share, S/44.65 per ADS, open 22 Oct to 16:00 on 20 Nov, backed by a BBVA guarantee of… ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `6-K` ×2 23 Oct · Research: Research: Mon 26 Oct 2026 (- **CPAC (T011):**) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `6-K` ×2 22 Oct, `SCHEDULE 13D/A` 21 Oct, `SC 13E3` 21 Oct, `6-K` 16 Oct, `SCHEDULE 13D/A` 16 Oct; +30 older (Mar – Oct 2026) first picked up · Research: Research: Fri 23 Oct 2026 (2. CPAC: Peru's regulator queries the valuation behind the minimum price) ([note](../research/daily/2026-10-23.md))
@@ -34,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.75 | +0.7% | +0.8% | +1.8% |  | 8 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.75 | -0.2% | -0.2% | +1.8% |  | 7 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.77 | +0.9% | +1.0% | +2.7% |  | 11 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.77 | +0.0% | -0.0% | +2.7% |  | 10 | live |

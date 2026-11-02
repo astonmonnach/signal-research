@@ -6,9 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.62 (2026-10-30, ledger) · 1d +0.0%, 5d +157.3%, 20d +139.9% (market context, 2026-10-30)
-- **Since first found:** **+0.1%** (found 2026-10-28 via `merger_arb` at $15.61). From the next open $15.61: +0.1% vs IWM -0.9% = **+1.0 pts** vs IWM; direction 0, tracked only (1 days)
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: ULBI +157.3% 5d vs peer median +2.3%; peers didn't move with it. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-10-30)
+- **Latest price:** $15.62 (2026-11-02, ledger) · 1d +0.0%, 5d +159.9%, 20d +142.9% (market context, 2026-11-02)
+- **Since first found:** **+0.1%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.1% vs IWM -0.1% = **+0.1 pts** vs IWM; direction 0, tracked only (4 days)
+  - 2 more ledger rows: see Performance since found
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: ULBI +159.9% 5d vs peer median +4.6%; peers didn't move with it. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-02)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions)
@@ -18,7 +19,11 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `merger_arb` (direction 0): EnerSys $16.00 cash tender to 3 Dec (HSR, UK NSIA); 2.47% spread, below costs; tracked, no call (T016); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **ULBI:** EnerSys's $16.00 cash tender (a +152% premium) expires 3 Dec; HSR and the UK National Security…) ([note](../research/daily/2026-10-28.md))
+- **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- **Movers log:** 30 rows added for 28-30 Oct (14 sessions logged). 17 of 30 had no company news; 14 of 30…) ([note](../research/daily/2026-11-02.md))
+- **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `SCHEDULE 13D/A` 29 Oct, `SC 14D9` 28 Oct, `8-K` 28 Oct, `SC TO-T` 28 Oct; +32 older (May – Aug 2026) first picked up
+- **[2026-10-30](../scans/2026-10-30.md)**: Research: Research: Fri 30 Oct 2026 (- **Spreads under 3.5%:** VREX 2.55% (Teledyne $18.90), ULBI 2.4%, ADT 1.4%, SKYA 1.0%.) ([note](../research/daily/2026-10-30.md))
+- **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/875657/000093343026000005/0000933430-26-000005-index.htm)) · Research: Research: Thu 29 Oct 2026 (- **Spreads under 3.5%:** ULBI 2.4%, SKYA 1.0%, MG 0.8%, OPCH 0.7%, DSGR 0.06%.) ([note](../research/daily/2026-10-29.md))
+- **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `merger_arb` (direction 0): EnerSys $16.00 cash tender to 3 Dec (HSR, UK NSIA); 2.47% spread, below costs; tracked, no call (T016); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split, tender offer" (8k merger agreement) (5d before +1.1%, found day +145.4%) ([filing](https://www.sec.gov/Archives/edgar/data/875657/000143774926033731/ulbi20261027_8k.htm)) · Market scan: tender offer (third party) (`SC TO-T`) (5d before +1.1%, found day +145.4%) ([filing](https://www.sec.gov/Archives/edgar/data/875657/000119312526435071/0001193125-26-435071-index.htm)) · Research: Research: Wed 28 Oct 2026 (- **ULBI:** EnerSys's $16.00 cash tender (a +152% premium) expires 3 Dec; HSR and the UK National Security…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: EnerSys To Acquire Ultralife, Expanding Differentiated Battery Technologies and Accelerating Growth in… (Business Wire) ([release](http://www.businesswire.com/news/home/20261027929742/en/EnerSys-To-Acquire-Ultralife-Expanding-Differentiated-Battery-Technologies-and-Accelerating-Growth-in-Defense-Market/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Press: EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/27/3389645/18622/en/enersys-to-acquire-ultralife-corporation-in-a-320-million-all-cash-transaction.html))
 
 ## Performance since found
@@ -27,4 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for ULBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -0.9% |  | 1 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -0.1% |  | 4 | live |
+| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -0.1% |  | 4 | live |
+| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -0.1% |  | 4 | live |

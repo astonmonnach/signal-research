@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $124.05 (2026-10-30, ledger)
-- **Since first found:** **-11.8%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -11.9% vs IWM -1.6% = **-10.3 pts** vs IWM; direction 0, tracked only (24 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $127.75 (2026-11-02, ledger)
+- **Since first found:** **-9.2%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -9.3% vs IWM -0.8% = **-8.5 pts** vs IWM; direction 0, tracked only (27 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-10-28](../scans/2026-10-28.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +2.1%, found day -11.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1043277/000104327726000039/chrw-20261028.htm))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_acquirer` (direction 0): C.H. Robinson -13.1% since Fri on the RXO deal; pauses buybacks; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (2. C.H. Robinson buys RXO: $17.25 cash + 0.0856 CHRW shares) ([note](../research/daily/2026-10-06.md))
 - **[2026-10-05](../scans/2026-10-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, spin-off, tender offer" (8k merger agreement) (5d before +7.2%, found day -10.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm))
 
@@ -26,5 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for CHRW ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $124.05 | -11.8% | -11.9% | -1.6% |  | 24 | live |
-| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $124.05 | -8.2% | -8.3% | +0.5% |  | 23 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $127.75 | -9.2% | -9.3% | -0.8% |  | 27 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $127.75 | -5.4% | -5.5% | +1.4% |  | 26 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $127.75 | +0.1% | -0.8% | -0.1% |  | 4 | live |
