@@ -1,34 +1,146 @@
 [
  {
-  "published_utc": "2026-11-02T07:00:00Z",
+  "published_utc": "2026-11-02T18:22:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "KOS",
-  "title": "Kosmos Energy Announces Third Quarter 2026 Results",
-  "link": "https://www.globenewswire.com/news-release/2026/11/02/3392854/0/en/kosmos-energy-announces-third-quarter-2026-results.html",
+  "ticker": "RKLB",
+  "title": "MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393627/0/en/mission-success-rocket-lab-launches-99th-electron-mission.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-02T07:00:00Z",
+  "published_utc": "2026-11-02T13:30:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "KOS",
-  "title": "Kosmos Energy Announces Successful Amendment and Extension of Reserve-Based Lending Facility",
-  "link": "https://www.globenewswire.com/news-release/2026/11/02/3392856/0/en/kosmos-energy-announces-successful-amendment-and-extension-of-reserve-based-lending-facility.html",
+  "ticker": "NWCL;NWCLW",
+  "title": "newcleo Completes Acquisition of Bonifait Pesage, Bringing Nuclear-Grade Scales In-House",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393143/0/en/newcleo-completes-acquisition-of-bonifait-pesage-bringing-nuclear-grade-scales-in-house.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-02T06:47:00Z",
-  "wire": "PR Newswire",
-  "ticker": "BORR",
-  "title": "Borr Drilling Limited - Prospector 5 Rig Incident Update - November 2, 2026",
-  "link": "https://www.prnewswire.com/news-releases/borr-drilling-limited---prospector-5-rig-incident-update---november-2-2026-302926066.html",
-  "matched_on": "watchlist"
+  "published_utc": "2026-11-02T13:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SKYA;SKYAW",
+  "title": "SkyAI Files Amended Tender Offer Documents and Reminds Security Holders To Tender Before the November 12, 2026 Expiration",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393163/0/en/skyai-files-amended-tender-offer-documents-and-reminds-security-holders-to-tender-before-the-november-12-2026-expiration.html",
+  "matched_on": "watchlist;keyword:tender offer"
  },
  {
-  "published_utc": "2026-11-02T07:38:00Z",
+  "published_utc": "2026-11-02T13:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "BSY",
+  "title": "Bentley Systems Announces Seequent’s Acquisition of Seismic Interpretation Software Company Eliis",
+  "link": "http://www.businesswire.com/news/home/20261029964674/en/Bentley-Systems-Announces-Seequent%E2%80%99s-Acquisition-of-Seismic-Interpretation-Software-Company-Eliis/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-02T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "GOLD",
+  "title": "Gold.com Appoints Nick Bowkett as Vice President of Trading and Business Development",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393090/31746/en/gold-com-appoints-nick-bowkett-as-vice-president-of-trading-and-business-development.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-02T12:46:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ABEO",
+  "title": "Abeona Therapeutics® Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393056/0/en/abeona-therapeutics-announces-new-employee-inducement-grants-under-nasdaq-listing-rule-5635-c-4.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-02T12:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "CVX",
+  "title": "Siva Barnwell Adams Named Corporate Secretary and Chief Governance Officer",
+  "link": "http://www.businesswire.com/news/home/20261102362062/en/Siva-Barnwell-Adams-Named-Corporate-Secretary-and-Chief-Governance-Officer/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-02T14:25:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "QCRH",
+  "title": "QCR Holdings, Inc. Announces Agreement to Sell Three Branches to BankIowa",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393282/9114/en/qcr-holdings-inc-announces-agreement-to-sell-three-branches-to-bankiowa.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-02T14:07:00Z",
+  "wire": "Business Wire",
+  "ticker": "NXH;FGII",
+  "title": "tZERO Proposed Business Combination Advances Opportunity to Scale Regulated Digital-Asset Infrastructure; NXH Signs Support Agreement",
+  "link": "http://www.businesswire.com/news/home/20261101523880/en/tZERO-Proposed-Business-Combination-Advances-Opportunity-to-Scale-Regulated-Digital-Asset-Infrastructure-NXH-Signs-Support-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-02T14:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RBNE",
+  "title": "Robin Energy Declares Special Dividend of $0.10 Per Share",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393240/0/en/robin-energy-declares-special-dividend-of-0-10-per-share.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-11-02T14:00:00Z",
   "wire": "PR Newswire",
-  "ticker": "ESLT",
-  "title": "Elbit Systems Awarded Approximately $170 Million Contract to Establish and Operate an Advanced Training and Simulation Center for the IDF Artillery Corps",
-  "link": "https://www.prnewswire.com/news-releases/elbit-systems-awarded-approximately-170-million-contract-to-establish-and-operate-an-advanced-training-and-simulation-center-for-the-idf-artillery-corps-302926105.html",
-  "matched_on": "keyword:awarded a contract"
+  "ticker": "KEQU",
+  "title": "Kewaunee Scientific Announces Agreement to Acquire Nycom, Inc.",
+  "link": "https://www.prnewswire.com/news-releases/kewaunee-scientific-announces-agreement-to-acquire-nycom-inc-302925329.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-02T13:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "IMNN",
+  "title": "IMUNON to Hold Third Quarter 2026 Financial Results and Business Update Conference Call on Thursday, November 12, 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393165/0/en/imunon-to-hold-third-quarter-2026-financial-results-and-business-update-conference-call-on-thursday-november-12-2026.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-02T13:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "OSK",
+  "title": "Oshkosh Defense and Grid Aero Announce Strategic Partnership",
+  "link": "http://www.businesswire.com/news/home/20261102234779/en/Oshkosh-Defense-and-Grid-Aero-Announce-Strategic-Partnership/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:Department of War"
+ },
+ {
+  "published_utc": "2026-11-02T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MIST",
+  "title": "New Data Presented at AHA Scientific Sessions 2026 Demonstrate That CARDAMYST® (etripamil) Nasal Spray Converted Recurrent PSVT to Normal Heart Rhythm in Patients with Prior Catheter Ablation",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393096/0/en/new-data-presented-at-aha-scientific-sessions-2026-demonstrate-that-cardamyst-etripamil-nasal-spray-converted-recurrent-psvt-to-normal-heart-rhythm-in-patients-with-prior-catheter-.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-02T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MNPR",
+  "title": "Monopar to Present at AASLD – The Liver Meeting® 2026: Phase 3 FoCus Baseline Data and ALXN1840 Molybdenum Safety Data",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393112/0/en/monopar-to-present-at-aasld-the-liver-meeting-2026-phase-3-focus-baseline-data-and-alxn1840-molybdenum-safety-data.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-02T12:05:00Z",
+  "wire": "Business Wire",
+  "ticker": "MRVL;LITE",
+  "title": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity",
+  "link": "http://www.businesswire.com/news/home/20261102374788/en/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-02T12:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "QURE",
+  "title": "uniQure Announces FDA Acceptance and Priority Review of the Biologics License Application for ifezuntirgene inilparvovec for the Treatment of Huntington’s Disease",
+  "link": "https://www.globenewswire.com/news-release/2026/11/02/3393020/0/en/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease.html",
+  "matched_on": "keyword:PDUFA"
+ },
+ {
+  "published_utc": "2026-11-02T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "FLOC",
+  "title": "Flowco Holdings Inc. Announces Expansion of Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261102424271/en/Flowco-Holdings-Inc.-Announces-Expansion-of-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:share repurchase"
  }
 ]
