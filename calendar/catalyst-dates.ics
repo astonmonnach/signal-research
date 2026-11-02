@@ -1029,4 +1029,12 @@ DTEND;VALUE=DATE:20261229
 SUMMARY:TENX: lead-plaintiff deadline in the securities class action
 DESCRIPTION:https://www.prnewswire.com/news-releases/attention-nasdaq-tenx-investors-contact-berger-montague-about-a-tenax-therapeutics-inc-class-action-lawsuit-302924441.html
 END:VEVENT
+BEGIN:VEVENT
+UID:9ef2cd444cdcf0d0775e2a21eb9aa58d@signal-lab
+DTSTAMP:20261102T180000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:CRMT: lenders' waiver and minimum-liquidity relief expire (extended only from 1 Nov\; AVOID)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/799850/000117184326007015/f8k_110226.htm
+END:VEVENT
 END:VCALENDAR
