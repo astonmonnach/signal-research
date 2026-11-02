@@ -4,6 +4,15 @@ Every change to the IBKR watchlists, newest first. The AVOID list (id 114) mirro
 `ledger/avoid_register.csv` (rule 2026-10-27). Changes are made only with the trader's go-ahead and checked by reading the
 list back afterwards.
 
+## 2026-11-02: AVOID +37, CALLED +4, Gov Filings +1 (the 1 Nov catch-up run)
+
+The trader's go-ahead: on 2 Nov he reconnected IBKR ("Its connected") after being told the sync would follow; the list is in watch/digests/2026-11-02-triage.md. Every list was read back from IBKR afterwards.
+
+- **AVOID (114):** 101 to 138, equal to the register's 138 active rows. Added: IPW (#10), GRRR (#11), MVIS (#12), BCTX, MGN, ENVX, GPRK, HCAI, NNOX, AMZE, OPTT, OSRH, LOTT, MIST, CDZI, LVWR, ESYN, TOPS, PPCB, SRTM, ARAI, FCHL, MASK, HUDI, RCON, ZTG, XRX, PTHS, VTEX, PARA (Parabolic Technologies, contract 938443339), CAPS (Capstone Holding, 935551478), MOBX, BCAB, OPNW, APVO, RCT (RedCloud, 758557374), NNUP. CABO (#13) was already on it.
+- **CALLED (107):** 9 to 13: IPW, GRRR, MVIS, CABO.
+- **Gov Filings pipeline findings (100):** 33 to 34: SEER (T019).
+- Not changed: BMM stays off the AVOID list (dropped, no call); the ALL list was not touched.
+
 ## 2026-10-28: AVOID +15, CALLED +2, Gov Filings +2, merger arb +1 (from the 27 Oct filings)
 
 The trader's go-ahead: "yeah make those changes" (28 Oct), for the list in watch/digests/2026-10-28-triage.md. Every list was read back from IBKR afterwards.
