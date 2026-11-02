@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $15.27 (2026-11-02, ledger)
-- **Since first found:** **-22.2%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -20.9% vs IWM +1.4% = **-22.3 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $15.10 (2026-11-02, ledger)
+- **Since first found:** **-23.1%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -21.8% vs IWM +1.1% = **-22.9 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for UMAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $15.27 | -22.2% | -20.9% | +1.4% |  | 20 | live |
+| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $15.10 | -23.1% | -21.8% | +1.1% |  | 20 | live |

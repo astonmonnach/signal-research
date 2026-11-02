@@ -25,8 +25,8 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.189 (2026-11-02, ledger)
-- **Since first found:** **-41.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -39.2% vs IWM -0.1% = **-39.1 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $0.192 (2026-11-02, ledger)
+- **Since first found:** **-40.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.322). From the next open $0.310: -38.1% vs IWM -0.3% = **-37.8 pts** vs IWM; direction 0, tracked only (28 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -50,7 +50,7 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.189 | -41.5% | -39.2% | -0.1% |  | 28 | live |
-| 2026-10-15 | `8k_merger_agreement` | 0 | -27.0% | +8.7% | $542k | $0.262 | $0.248 | $0.189 | -28.1% | -24.0% | +2.3% |  | 17 | live |
-| 2026-10-26 | `8k_merger_agreement` | 0 | -16.4% | -6.9% | $970k | $0.175 | $0.168 | $0.189 | +7.7% | +12.2% | +1.4% |  | 6 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 | -22.9% | +6.9% | $1.8M | $0.187 | $0.181 | $0.189 | +0.8% | +4.1% | +0.5% |  | 5 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -5.5% | -0.6% | $385k | $0.322 | $0.310 | $0.192 | -40.4% | -38.1% | -0.3% |  | 28 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 | -27.0% | +8.7% | $542k | $0.262 | $0.248 | $0.192 | -26.8% | -22.6% | +2.0% |  | 17 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | -16.4% | -6.9% | $970k | $0.175 | $0.168 | $0.192 | +9.7% | +14.2% | +1.1% |  | 6 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -22.9% | +6.9% | $1.8M | $0.187 | $0.181 | $0.192 | +2.6% | +6.0% | +0.3% |  | 5 | live |

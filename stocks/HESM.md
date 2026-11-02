@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_reaction` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $32.46 (2026-11-02, ledger)
-- **Since first found:** **+0.3%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: +0.6% vs IWM +1.4% = **-0.8 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $32.25 (2026-11-02, ledger)
+- **Since first found:** **-0.4%** (found 2026-10-12 via `deal_reaction` at $32.37). From the next open $32.27: -0.1% vs IWM +1.1% = **-1.2 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for HESM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $32.46 | +0.3% | +0.6% | +1.4% |  | 20 | live |
+| 2026-10-12 | `deal_reaction` | 0 | -14.5% | +0.3% | $82.6M | $32.37 | $32.27 | $32.25 | -0.4% | -0.1% | +1.1% |  | 20 | live |
