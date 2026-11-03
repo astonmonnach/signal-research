@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $40.68 (2026-11-02, ledger)
-- **Since first found:** **+7.0%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: +4.6% vs IWM -0.4% = **+5.0 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $39.48 (2026-11-03, ledger)
+- **Since first found:** **+3.8%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: +1.5% vs IWM -0.5% = **+2.0 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Gold.com Appoints Nick Bowkett as Vice President of Trading and Business Development (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393090/31746/en/gold-com-appoints-nick-bowkett-as-vice-president-of-trading-and-business-development.html))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `holder_buying` (direction 0): Tether (10%+ holder) bought up to 500,000 shares direct by 28 Oct at ~$39; one holder group; tracked; source: daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-29](../scans/2026-10-29.md#triage-notes)**: Triage: **GOLD**: Tether, a 10%+ holder, keeps buying (500,000 shares direct on 28 Oct). Tracked. ([triage](../watch/digests/2026-10-29-triage.md)) · Research: Research: Thu 29 Oct 2026 (- **GOLD:** Tether keeps buying in the open market, up to 500,000 shares on 28 Oct at $39.39, plus 3,370,787…) ([note](../research/daily/2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1591588/000110465926119719/0001104659-26-119719-index.htm))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for GOLD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $40.68 | +7.0% | +4.6% | -0.4% |  | 0 | live |
+| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $39.48 | +3.8% | +1.5% | -0.5% |  | 1 | live |

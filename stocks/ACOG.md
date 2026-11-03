@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $8.37 (2026-11-02, ledger)
-- **Since first found:** **-2.8%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -2.7% vs IWM +1.3% = **-4.0 pts** vs IWM; direction 0, tracked only (12 days)
+- **Latest price:** $8.46 (2026-11-03, ledger)
+- **Since first found:** **-1.7%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -1.6% vs IWM +1.2% = **-2.9 pts** vs IWM; direction 0, tracked only (13 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Alpha Cognition to Report Third Quarter 2026 Financial Results and Provide Business Update (Business Wire, published Mon 2 Nov) ([release](http://www.businesswire.com/news/home/20261102524180/en/Alpha-Cognition-to-Report-Third-Quarter-2026-Financial-Results-and-Provide-Business-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1655923/000149315226048562/0001493152-26-048562-index.htm))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ACOG** (Alpha Cognition): Opaleye, a 10% owner and healthcare specialist, bought another $309k on 15-16 Oct. ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `insider_buy` (direction 0): Opaleye (10% owner) buying every two weeks since May; $309k on 15-16 Oct; $8.50; tracked; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1655923/000149315226047631/0001493152-26-047631-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.37 | -2.8% | -2.7% | +1.3% |  | 12 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.46 | -1.7% | -1.6% | +1.2% |  | 13 | live |

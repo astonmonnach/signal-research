@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md)); `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $20.15 (2026-11-02, ledger) · 1d -0.1%, 5d -5.1%, 20d -2.3% (market context, 2026-11-02)
-- **Since first found:** **-2.5%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -4.0% vs IWM +1.8% = **-5.8 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $20.16 (2026-11-03, ledger) · 1d +0.1%, 5d -1.4%, 20d -4.1% (market context, 2026-11-03)
+- **Since first found:** **-2.5%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -4.0% vs IWM +1.7% = **-5.7 pts** vs IWM; direction 0, tracked only (18 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +7.7% 5d vs MG -5.1%; peers moved, it didn't. Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-02)
+- **Peers / sympathy:** missed_peer_move: peer median +6.5% 5d vs MG -1.4%; peers moved, it didn't. Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-03)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -34,8 +34,8 @@ Every [ledger](../ledger/LEDGER.md) row for MG ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.15 | -2.5% | -4.0% | +1.8% |  | 17 | live |
-| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.15 | -6.1% | -6.4% | +3.2% |  | 14 | live |
-| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.15 | -1.5% | -1.5% | +0.1% |  | 5 | live |
-| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.15 | -1.5% | -1.5% | +0.1% |  | 5 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.15 | -1.6% | -1.2% | -0.7% |  | 4 | live |
+| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.16 | -2.5% | -4.0% | +1.7% |  | 18 | live |
+| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.16 | -6.1% | -6.3% | +3.1% |  | 15 | live |
+| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.16 | -1.4% | -1.4% | -0.0% |  | 6 | live |
+| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.16 | -1.4% | -1.4% | -0.0% |  | 6 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.16 | -1.5% | -1.2% | -0.7% |  | 5 | live |

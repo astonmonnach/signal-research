@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $81.34 (2026-11-02, ledger)
-- **Since first found:** **+26.4%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +28.9% vs IWM +2.6% = **+26.3 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $81.38 (2026-11-03, ledger)
+- **Since first found:** **+26.5%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +29.0% vs IWM +2.5% = **+26.4 pts** vs IWM; direction 0, tracked only (20 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Patrick Industries, Inc. to Participate in Upcoming Investor Conferences (PR Newswire, published Mon 2 Nov) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-to-participate-in-upcoming-investor-conferences-302926871.html))
 - **[2026-10-29](../scans/2026-10-29.md#press-releases)**: Press: Patrick Industries, Inc. Reports Third Quarter 2026 Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-reports-third-quarter-2026-financial-results-302923617.html))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners (Business Wire) ([release](http://www.businesswire.com/news/home/20261027923281/en/LCI-Industries-Confirms-Receipt-of-Unsolicited-Non-Binding-Proposal-from-Monomoy-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Press: Patrick Industries, Inc. Reaffirms Merger Agreement with LCI Industries (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-reaffirms-merger-agreement-with-lci-industries-302921983.html)) · Research: Research: Wed 28 Oct 2026 (- The board still backs Patrick's all-stock deal (1.2440 PATK; votes 18 Nov; DOJ second request open), and…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **MSBI** (bank shelf, routine), **FBLG** (deregisters old resale shares: this removes supply), **PATK, KUBE** (merger shares): not supply events. ([triage](../watch/digests/2026-10-21-triage.md)) · Press: Jobs to Move America Report Finds Low Wages, Safety Issues at Transit Seating Manufacturer (Business Wire) ([release](http://www.businesswire.com/news/home/20261021487953/en/Jobs-to-Move-America-Report-Finds-Low-Wages-Safety-Issues-at-Transit-Seating-Manufacturer/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $81.34 | +26.4% | +28.9% | +2.6% |  | 19 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $81.34 | +28.5% | +26.5% | +3.4% |  | 18 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $81.38 | +26.5% | +29.0% | +2.5% |  | 20 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $81.38 | +28.5% | +26.6% | +3.3% |  | 19 | live |

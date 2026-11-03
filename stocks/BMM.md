@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.85 (2026-11-02, ledger) · 1d +2.9%, 5d -3.0%, 20d -21.2% (market context, 2026-11-02)
-- **Since first found:** **-10.5%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -11.1% vs IWM +1.3% = **-12.4 pts** vs IWM; direction 0, tracked only (12 days)
-- **Peers / sympathy:** solo_move: BMM -3.0% 5d vs peer median -0.7%; peers didn't move with it. Peer groups: SIC 1000 (7) ([market context](../watch/context/latest.json), 2026-11-02)
+- **Latest price:** $3.80 (2026-11-03, ledger) · 1d -1.3%, 5d -12.8%, 20d -25.9% (market context, 2026-11-03)
+- **Since first found:** **-11.6%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -12.2% vs IWM +1.2% = **-13.5 pts** vs IWM; direction 0, tracked only (13 days)
+- **Peers / sympathy:** solo_move: BMM -12.8% 5d vs peer median -5.9%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-03)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Blue Moon Announces Sale of Blue Moon Norway to ACG Metals Limited (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-announces-sale-of-blue-moon-norway-to-acg-metals-limited-302927302.html))
 - **[2026-11-02](../scans/2026-11-02.md#watchlist-filings)**: Filings: `6-K` 2 Nov · Research: Research: Mon 2 Nov 2026 (- BMM's trigger T008 expired on 29 Oct with no prepayment news. Blue Moon dropped its 33-project deal and…) ([note](../research/daily/2026-11-02.md))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: Blue Moon Metals Announces Termination of Ropa Acquisition and Completion of Continuance to Ontario (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-metals-announces-termination-of-ropa-acquisition-and-completion-of-continuance-to-ontario-302925202.html))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: BMM: day 45 for Elmet's US$25M prepayment (only the US$25M of shares has closed) ([calendar](../calendar/catalyst-dates.ics))
@@ -33,4 +34,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.85 | -10.5% | -11.1% | +1.3% |  | 12 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.80 | -11.6% | -12.2% | +1.2% |  | 13 | live |

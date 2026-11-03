@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $41.92 (2026-11-02, ledger)
-- **Since first found:** **-1.1%** (found 2026-10-13 via `deal_peer` at $42.36). From the next open $42.42: -1.2% vs IWM +2.6% = **-3.8 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $40.10 (2026-11-03, ledger)
+- **Since first found:** **-5.3%** (found 2026-10-13 via `deal_peer` at $42.36). From the next open $42.42: -5.5% vs IWM +2.5% = **-8.0 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Match Group Announces Third Quarter Results (PR Newswire, published Mon 2 Nov) ([release](https://www.prnewswire.com/news-releases/match-group-announces-third-quarter-results-302926778.html))
 - **[2026-10-13](../scans/2026-10-13.md#new-setups)**: Logged as `deal_peer` (direction 0): Bumble takeout read-across: +3.1% since 9 Oct vs XLC +1.7%; source: nth run 13 Oct (research/BMBL-2026-10-13.html) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Bumble Take-Private (Match Group (MTCH)) ([note](../research/BMBL-2026-10-13.html))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for MTCH ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `deal_peer` | 0 | +3.0% | +2.0% | $144.3M | $42.36 | $42.42 | $41.92 | -1.1% | -1.2% | +2.6% |  | 19 | live |
+| 2026-10-13 | `deal_peer` | 0 | +3.0% | +2.0% | $144.3M | $42.36 | $42.42 | $40.10 | -5.3% | -5.5% | +2.5% |  | 20 | live |

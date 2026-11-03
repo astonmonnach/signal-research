@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $4.16 (2026-11-02, ledger)
-- **Since first found:** **-5.3%** (found 2026-10-23 via `activist_13d` at $4.40). From the next open $4.39: -5.1% vs IWM +1.6% = **-6.7 pts** vs IWM; direction +1 → excess -6.7% (7 days)
+- **Latest price:** $4.36 (2026-11-03, ledger)
+- **Since first found:** **-0.9%** (found 2026-10-23 via `activist_13d` at $4.40). From the next open $4.39: -0.7% vs IWM +1.5% = **-2.2 pts** vs IWM; direction +1 → excess -2.2% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Abeona Therapeutics® Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393056/0/en/abeona-therapeutics-announces-new-employee-inducement-grants-under-nasdaq-listing-rule-5635-c-4.html))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **ABEO** (takeable): new individual activist at 6.1% wants a leadership change. Fails TF1. Tracked, no call. ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `activist_13d` (direction 0): James Russell Trust 6.1%, moved 13G to 13D; met two directors 14 Oct asking for independent directors and a leadership change; may nominate in 2027; fails TF1 (41% off high); tracked, no call; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (3. The buy side: real buyers on weak charts (SAMG, ABEO, RAPP)) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -3.9%, found day -1.6%) ([filing](https://www.sec.gov/Archives/edgar/data/318306/000147793226006433/0001477932-26-006433-index.htm))
 
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for ABEO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | +1 | -3.9% | -1.6% | $5.7M | $4.40 | $4.39 | $4.16 | -5.3% | -5.1% | +1.6% | -6.7% | 7 | live |
-| 2026-10-26 | `activist_13d` | 0 | -0.7% | -2.0% | $5.5M | $4.31 | $4.33 | $4.16 | -3.4% | -3.8% | +0.9% |  | 6 | live |
+| 2026-10-23 | `activist_13d` | +1 | -3.9% | -1.6% | $5.7M | $4.40 | $4.39 | $4.36 | -0.9% | -0.7% | +1.5% | -2.2% | 8 | live |
+| 2026-10-26 | `activist_13d` | 0 | -0.7% | -2.0% | $5.5M | $4.31 | $4.33 | $4.36 | +1.2% | +0.7% | +0.8% |  | 7 | live |

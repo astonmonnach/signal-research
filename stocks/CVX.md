@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $227.90 (2026-11-02, ledger)
-- **Since first found:** **+6.0%** (found 2026-10-12 via `linked_peer` at $215.00). From the next open $217.00: +5.0% vs IWM +0.9% = **+4.1 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $226.04 (2026-11-03, ledger)
+- **Since first found:** **+5.1%** (found 2026-10-12 via `linked_peer` at $215.00). From the next open $217.00: +4.2% vs IWM +0.8% = **+3.3 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Siva Barnwell Adams Named Corporate Secretary and Chief Governance Officer (Business Wire) ([release](http://www.businesswire.com/news/home/20261102362062/en/Siva-Barnwell-Adams-Named-Corporate-Secretary-and-Chief-Governance-Officer/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: Chevron Reports Third Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261030587778/en/Chevron-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): HESM counterparty: seller of the DJ Basin assets, hands back its 38% HESM stake; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- **Linked names:** CVX (seller of the assets, and the holder handing back its stake).) ([note](../research/daily/2026-10-12.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for CVX ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +2.6% | +1.4% | $1971.6M | $215.00 | $217.00 | $227.90 | +6.0% | +5.0% | +0.9% |  | 20 | live |
+| 2026-10-12 | `linked_peer` | 0 | +2.6% | +1.4% | $1971.6M | $215.00 | $217.00 | $226.04 | +5.1% | +4.2% | +0.8% |  | 21 | live |

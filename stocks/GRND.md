@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $12.76 (2026-11-02, ledger)
-- **Since first found:** **-17.6%** (found 2026-10-13 via `deal_peer` at $15.47). From the next open $15.39: -17.1% vs IWM +2.6% = **-19.7 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $12.84 (2026-11-03, ledger)
+- **Since first found:** **-17.0%** (found 2026-10-13 via `deal_peer` at $15.47). From the next open $15.39: -16.6% vs IWM +2.5% = **-19.2 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Grindr Completes Acquisition of Freddie, Accelerating Grindr Health (Business Wire, published Mon 2 Nov) ([release](http://www.businesswire.com/news/home/20261102918068/en/Grindr-Completes-Acquisition-of-Freddie-Accelerating-Grindr-Health/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==))
 - **[2026-10-13](../scans/2026-10-13.md#new-setups)**: Logged as `deal_peer` (direction 0): Bumble takeout read-across: +2.9% since 9 Oct vs XLC +1.7%; source: nth run 13 Oct (research/BMBL-2026-10-13.html) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Bumble Take-Private (Grindr (GRND)) ([note](../research/BMBL-2026-10-13.html))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRND ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `deal_peer` | 0 | +11.6% | +2.4% | $28.4M | $15.47 | $15.39 | $12.76 | -17.6% | -17.1% | +2.6% |  | 19 | live |
+| 2026-10-13 | `deal_peer` | 0 | +11.6% | +2.4% | $28.4M | $15.47 | $15.39 | $12.84 | -17.0% | -16.6% | +2.5% |  | 20 | live |
