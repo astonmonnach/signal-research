@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-11-01 (daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md))
 - **Latest price:** $1.75 (2026-11-03, ledger) · 1d +1.2%, 5d -10.7%, 20d -20.1% (market context, 2026-11-03)
-- **Since first found:** **-9.8%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -7.4% vs IWM -0.0% = **-7.4 pts** vs IWM; direction +1 → excess -7.4% (4 days)
+- **Since first found:** **-9.8%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -7.4% vs IWM -0.3% = **-7.1 pts** vs IWM; direction +1 → excess -7.1% (4 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: SEER -10.7% 5d vs peer median -1.3%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-03)
+- **Peers / sympathy:** solo_move: SEER -10.7% 5d vs peer median -0.9%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-03)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for SEER ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.75 | -9.8% | -7.4% | -0.0% | -7.4% | 4 | live |
-| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.75 | +4.2% | +4.2% | +0.1% |  | 1 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.75 | -9.8% | -7.4% | -0.3% | -7.1% | 4 | live |
+| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.75 | +4.2% | +4.2% | -0.2% |  | 1 | live |
