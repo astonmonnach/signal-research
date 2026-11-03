@@ -25,8 +25,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.233 (2026-11-03, ledger)
-- **Since first found:** **-51.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -47.0% vs IWM -0.4% = **-46.6 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $0.243 (2026-11-03, ledger)
+- **Since first found:** **-49.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -44.8% vs IWM -0.0% = **-44.8 pts** vs IWM; direction 0, tracked only (29 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -43,4 +43,4 @@ Every [ledger](../ledger/LEDGER.md) row for VHUB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.233 | -51.4% | -47.0% | -0.4% |  | 29 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.243 | -49.4% | -44.8% | -0.0% |  | 29 | live |

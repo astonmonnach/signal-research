@@ -79,10 +79,10 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $97.95 (2026-11-03, ledger) · 1d -1.2%, 5d +20.0%, 20d +25.1% (market context, 2026-11-03)
-- **Since first found:** **+29.4%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +28.9% vs IWM +0.2% = **+28.6 pts** vs IWM; direction +1 → excess +28.6% (35 days)
+- **Latest price:** $98.31 (2026-11-03, ledger) · 1d -0.8%, 5d +20.6%, 20d +25.6% (market context, 2026-11-03)
+- **Since first found:** **+29.8%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +29.4% vs IWM +0.6% = **+28.8 pts** vs IWM; direction +1 → excess +28.8% (35 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CHDN +20.0% 5d vs peer median -0.8%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-03)
+- **Peers / sympathy:** solo_move: CHDN +20.6% 5d vs peer median -0.8%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-03)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -104,6 +104,6 @@ Every [ledger](../ledger/LEDGER.md) row for CHDN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $97.95 | +29.4% | +28.9% | +0.2% | +28.6% | 35 | live |
-| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $97.95 | +29.4% | +28.9% | +0.2% | +28.6% | 35 | live |
-| 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $97.95 | +19.5% | +13.1% | -0.5% | +13.6% | 5 | live |
+| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $98.31 | +29.8% | +29.4% | +0.6% | +28.8% | 35 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $98.31 | +29.8% | +29.4% | +0.6% | +28.8% | 35 | live |
+| 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $98.31 | +20.0% | +13.5% | -0.2% | +13.7% | 5 | live |

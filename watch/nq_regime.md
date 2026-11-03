@@ -1,4 +1,4 @@
-# NQ regime: 2026-11-03 15:28 UTC
+# NQ regime: 2026-11-03 16:16 UTC
 
 Last session **2026-11-02**: range **2.77%** of prior close, 86th percentile of the past year. Big day: **no**.
 
