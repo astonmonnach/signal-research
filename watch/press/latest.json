@@ -1,18 +1,58 @@
 [
  {
-  "published_utc": "2026-11-03T07:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "BMM",
-  "title": "Blue Moon Announces Sale of Blue Moon Norway to ACG Metals Limited",
-  "link": "https://www.prnewswire.com/news-releases/blue-moon-announces-sale-of-blue-moon-norway-to-acg-metals-limited-302927302.html",
+  "published_utc": "2026-11-03T14:16:00Z",
+  "wire": "Business Wire",
+  "ticker": "ACB;OGI",
+  "title": "Organigram to Acquire Aurora and Establish a Global Cannabis Leader",
+  "link": "http://www.businesswire.com/news/home/20261103746636/en/Organigram-to-Acquire-Aurora-and-Establish-a-Global-Cannabis-Leader/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
   "matched_on": "watchlist"
  },
  {
-  "published_utc": "2026-11-03T08:37:00Z",
+  "published_utc": "2026-11-03T16:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "CBSH",
+  "title": "Commerce Bancshares, Inc. Board of Directors Reauthorizes Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261103236034/en/Commerce-Bancshares-Inc.-Board-of-Directors-Reauthorizes-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-03T13:05:00Z",
+  "wire": "Business Wire",
+  "ticker": "GH",
+  "title": "Guardant Health Wins 2026 Prix Galien USA Award for Best Medical Technology for Shield Blood Test",
+  "link": "http://www.businesswire.com/news/home/20261103053283/en/Guardant-Health-Wins-2026-Prix-Galien-USA-Award-for-Best-Medical-Technology-for-Shield-Blood-Test/?feedref=JjAwJuNHiystnCoBq_hl-YN6jh2YIt48IJ80PBTZst6qcp-o_pnudlUwsb5apQ1S4gUE65BTfjH3-pSuqdv0gW3cb3F4oTIgUqCPafFkgu5aCD-FAO6Y4EA4btlz6J4c",
+  "matched_on": "keyword:FDA approval"
+ },
+ {
+  "published_utc": "2026-11-03T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ARDX",
+  "title": "Ardelyx Completes Enrollment in Phase 3 ACCEL Clinical Trial of IBSRELA® (tenapanor) in Adults with Chronic Idiopathic Constipation",
+  "link": "https://www.globenewswire.com/news-release/2026/11/03/3394190/0/en/ardelyx-completes-enrollment-in-phase-3-accel-clinical-trial-of-ibsrela-tenapanor-in-adults-with-chronic-idiopathic-constipation.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-03T11:45:00Z",
+  "wire": "Business Wire",
+  "ticker": "MRK",
+  "title": "Merck Initiates Phase 3 Study Evaluating Ohtuvayre® (ensifentrine) for the Prevention of COPD Exacerbations in Adult Patients Receiving Standard of Care With a History of Exacerbations",
+  "link": "http://www.businesswire.com/news/home/20261103140801/en/Merck-Initiates-Phase-3-Study-Evaluating-Ohtuvayre%C2%AE-ensifentrine-for-the-Prevention-of-COPD-Exacerbations-in-Adult-Patients-Receiving-Standard-of-Care-With-a-History-of-Exacerbations/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-03T11:28:00Z",
+  "wire": "Business Wire",
+  "ticker": "CVI;MPC",
+  "title": "CVR Energy Announces Transformative Transaction to Acquire 2 Refineries and Marketing Platform From Marathon Petroleum",
+  "link": "http://www.businesswire.com/news/home/20261102533425/en/CVR-Energy-Announces-Transformative-Transaction-to-Acquire-2-Refineries-and-Marketing-Platform-From-Marathon-Petroleum/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-03T09:00:00Z",
   "wire": "Business Wire",
   "ticker": "CRWD",
-  "title": "CrowdStrike to Acquire Fiddler to Deliver Agent Observability for AI Trust",
-  "link": "http://www.businesswire.com/news/home/20261102485608/en/CrowdStrike-to-Acquire-Fiddler-to-Deliver-Agent-Observability-for-AI-Trust/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "title": "CrowdStrike to Acquire Dreadnode to Advance AI Trust and Deliver Automated AI Security Testing for the Agentic Enterprise",
+  "link": "http://www.businesswire.com/news/home/20261102259259/en/CrowdStrike-to-Acquire-Dreadnode-to-Advance-AI-Trust-and-Deliver-Automated-AI-Security-Testing-for-the-Agentic-Enterprise/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
   "matched_on": "keyword:definitive agreement"
  }
 ]
