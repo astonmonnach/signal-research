@@ -1,10 +1,82 @@
 [
  {
-  "published_utc": "2026-11-03T22:44:00Z",
+  "published_utc": "2026-11-04T14:24:00Z",
+  "wire": "Business Wire",
+  "ticker": "PL",
+  "title": "Planet Releases First Light from Pelican-12",
+  "link": "http://www.businesswire.com/news/home/20261104953655/en/Planet-Releases-First-Light-from-Pelican-12/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-04T13:30:00Z",
   "wire": "PR Newswire",
-  "ticker": "ACB",
-  "title": "Curaleaf Issues Statement Regarding Alternative Proposal for Aurora Cannabis",
-  "link": "https://www.prnewswire.com/news-releases/curaleaf-issues-statement-regarding-alternative-proposal-for-aurora-cannabis-302928528.html",
+  "ticker": "VRT",
+  "title": "Vertiv and Infineon Deepen Strategic Partnership for Critical Power Infrastructure",
+  "link": "https://www.prnewswire.com/news-releases/vertiv-and-infineon-deepen-strategic-partnership-for-critical-power-infrastructure-302928515.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-04T13:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "IBRX",
+  "title": "ImmunityBio Announces First Patients in Europe Treated with ANKTIVA® Plus BCG for BCG-unresponsive Non-Muscle Invasive Bladder Cancer with Carcinoma in Situ",
+  "link": "http://www.businesswire.com/news/home/20261104114389/en/ImmunityBio-Announces-First-Patients-in-Europe-Treated-with-ANKTIVA%C2%AE-Plus-BCG-for-BCG-unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Carcinoma-in-Situ/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-04T11:15:00Z",
+  "wire": "PR Newswire",
+  "ticker": "UUUU",
+  "title": "Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors",
+  "link": "https://www.prnewswire.com/news-releases/energy-fuels-announces-appointment-of-jeffrey-olsen-to-board-of-directors-302928692.html",
   "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-11-04T14:13:00Z",
+  "wire": "Business Wire",
+  "ticker": "ONC",
+  "title": "U.S. FDA Grants Priority Review to BeOne Medicines’ BRUKINSA Combination in First-Line Mantle Cell Lymphoma",
+  "link": "http://www.businesswire.com/news/home/20261103605806/en/U.S.-FDA-Grants-Priority-Review-to-BeOne-Medicines%E2%80%99-BRUKINSA-Combination-in-First-Line-Mantle-Cell-Lymphoma/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-04T14:05:00Z",
+  "wire": "Business Wire",
+  "ticker": "PENG",
+  "title": "Penguin Solutions Announces Agreement to Sell Cree LED to Transom Capital Group",
+  "link": "http://www.businesswire.com/news/home/20261104524800/en/Penguin-Solutions-Announces-Agreement-to-Sell-Cree-LED-to-Transom-Capital-Group/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-04T13:39:00Z",
+  "wire": "Business Wire",
+  "ticker": "CRH",
+  "title": "CRH announces Cash Tender Offers, Exchange Offers and Consent Solicitations for Arcosa, Inc. Notes",
+  "link": "http://www.businesswire.com/news/home/20261104399618/en/CRH-announces-Cash-Tender-Offers-Exchange-Offers-and-Consent-Solicitations-for-Arcosa-Inc.-Notes/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-11-04T12:03:00Z",
+  "wire": "Business Wire",
+  "ticker": "KHC",
+  "title": "Kraft Heinz to Divest North America Coffee Business to One Rock Capital Partners",
+  "link": "http://www.businesswire.com/news/home/20261104872049/en/Kraft-Heinz-to-Divest-North-America-Coffee-Business-to-One-Rock-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-04T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SHLS;ARRY",
+  "title": "ARRAY Technologies and Shoals Technologies Group Announce Transformative Merger, Creating an Integrated Energy Infrastructure Platform",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395153/0/en/array-technologies-and-shoals-technologies-group-announce-transformative-merger-creating-an-integrated-energy-infrastructure-platform.html",
+  "matched_on": "keyword:definitive agreement;keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-04T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "DFTX",
+  "title": "Definium Therapeutics Presents Topline Phase 3 Data for DT120 ODT in Generalized Anxiety Disorder and Major Depressive Disorder at 2026 NEI Fall Congress",
+  "link": "http://www.businesswire.com/news/home/20261030107692/en/Definium-Therapeutics-Presents-Topline-Phase-3-Data-for-DT120-ODT-in-Generalized-Anxiety-Disorder-and-Major-Depressive-Disorder-at-2026-NEI-Fall-Congress/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:Phase 3"
  }
 ]
