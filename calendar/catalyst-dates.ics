@@ -1037,4 +1037,60 @@ DTEND;VALUE=DATE:20261105
 SUMMARY:CRMT: lenders' waiver and minimum-liquidity relief expire (extended only from 1 Nov\; AVOID)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/799850/000117184326007015/f8k_110226.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:21f5a26670e316c7fec3e8c7abeb0502@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:SEER: Q3 results after the close (WATCH T019: cash return by 30 Nov)
+DESCRIPTION:https://www.biopharmawatch.com/news/SEER/seer-third-quarter-2026-financial-results
+END:VEVENT
+BEGIN:VEVENT
+UID:663642382079a7ef34204beb6d27c56f@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:IMXI: Western Union merger outside date (either party may terminate; California approval suspended)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683695/000162828026055191/imxi-20260630.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:f3cf5f376be9e746b4a609a14badea6f@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:BIAF: vote on warrant shares and offering authority (public AVOID #14)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1712762/000149315226048245/formdef14a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:dd718ddbf0a4ef31732cd614285acfdd@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:CPAC: Holcim US tender expires 4pm New York (T011)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1221029/000114036126041643/ny20084690x1_exa1a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fc948c99e58f01fe48eb0f9442e04afb@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:ACB: Curaleaf's competing offer expires (Organigram deal pending\, T021)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926113908/tm2623363d19_ex99-1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ec4d7738f83d544ede532960097dff4c@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:ACB/OGI: target date for both shareholder meetings on the Organigram arrangement (T021)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926122357/tm2628851d1_ex99-1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:792cbfbe427d4c3bc23d6ba96cdae418@signal-lab
+DTSTAMP:20261104T190000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:ACB: earliest closing of the Organigram arrangement
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926122357/tm2628851d1_ex99-1.htm
+END:VEVENT
 END:VCALENDAR

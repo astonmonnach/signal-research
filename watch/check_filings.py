@@ -58,6 +58,14 @@ IMPORTANT = {
     "6-K": "foreign company report",
     "20-F": "foreign company annual report",
     "SC 13E3": "going-private transaction",
+    # Added 2026-11-04 (LESSONS): on 2-4 Nov the list missed ACB's amended 14D-9F, CPAC's going-private amendment and
+    # IMSR's post-effective amendment.
+    "SC 13E3/A": "going-private transaction (amended)",
+    "SC 14D9F": "Canadian target's response to a tender offer",
+    "SC14D9F": "Canadian target's response to a tender offer",
+    "SC 14D9F/A": "Canadian target's response to a tender offer (amended)",
+    "SC14D9F/A": "Canadian target's response to a tender offer (amended)",
+    "POS AM": "post-effective amendment (resale or shelf revived, extended or withdrawn)",
 }
 
 # 8-K item codes, so the digest says what happened.

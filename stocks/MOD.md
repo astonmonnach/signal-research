@@ -84,8 +84,9 @@
 | By ~1 Jan 2027 | special meeting for the Modexus name change (proxy expected within ~60 days) |
 | 2027–2029 | LTA delivery years |
 
-## 9. Verdict: WATCH, score 5/10
-- A real customer prepayment and a dated catalyst. But it's not cheap, and the last two catalysts were priced on the day and then given back.
+## 9. Verdict: dropped, no call (4 Nov 2026; earlier score 5/10)
+- **4 Nov:** the Q2 release says Data Centers had a "gross margin of 19.7 percent, which was 470 basis points lower than the prior year". That is below Q1's 20.2%, the invalidation line, and the 10-Q blames higher material costs. T002 failed and the stock fell 35% in a week. See research/daily/2026-11-04.md.
+- (Original 5 Oct view) A real customer prepayment and a dated catalyst. But it's not cheap, and the last two catalysts were priced on the day and then given back.
 - **Would upgrade:** an S&P index-add notice (a forced buyer, date-certain), or a 7 Oct / Q2 print showing Data Centers margins back above ~25% with the outlook held.
 - **Would downgrade:** a continuing outlook below ~$500m EBITDA.
 
