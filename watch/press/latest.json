@@ -1,82 +1,114 @@
 [
  {
-  "published_utc": "2026-11-04T14:24:00Z",
-  "wire": "Business Wire",
-  "ticker": "PL",
-  "title": "Planet Releases First Light from Pelican-12",
-  "link": "http://www.businesswire.com/news/home/20261104953655/en/Planet-Releases-First-Light-from-Pelican-12/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-04T13:30:00Z",
+  "published_utc": "2026-11-04T21:15:00Z",
   "wire": "PR Newswire",
-  "ticker": "VRT",
-  "title": "Vertiv and Infineon Deepen Strategic Partnership for Critical Power Infrastructure",
-  "link": "https://www.prnewswire.com/news-releases/vertiv-and-infineon-deepen-strategic-partnership-for-critical-power-infrastructure-302928515.html",
+  "ticker": "MDT",
+  "title": "Medtronic to announce financial results for its second quarter of fiscal year 2027",
+  "link": "https://www.prnewswire.com/news-releases/medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027-302929617.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-04T13:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "IBRX",
-  "title": "ImmunityBio Announces First Patients in Europe Treated with ANKTIVA® Plus BCG for BCG-unresponsive Non-Muscle Invasive Bladder Cancer with Carcinoma in Situ",
-  "link": "http://www.businesswire.com/news/home/20261104114389/en/ImmunityBio-Announces-First-Patients-in-Europe-Treated-with-ANKTIVA%C2%AE-Plus-BCG-for-BCG-unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Carcinoma-in-Situ/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "published_utc": "2026-11-04T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "GOLD",
+  "title": "Gold.com Reports Fiscal First Quarter 2027 Results",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395811/31746/en/gold-com-reports-fiscal-first-quarter-2027-results.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-04T11:15:00Z",
-  "wire": "PR Newswire",
-  "ticker": "UUUU",
-  "title": "Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors",
-  "link": "https://www.prnewswire.com/news-releases/energy-fuels-announces-appointment-of-jeffrey-olsen-to-board-of-directors-302928692.html",
+  "published_utc": "2026-11-04T21:02:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "HMH",
+  "title": "HMH Holding Inc. Announces Third Quarter 2026 Results",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395787/0/en/hmh-holding-inc-announces-third-quarter-2026-results.html",
   "matched_on": "watchlist"
  },
  {
-  "published_utc": "2026-11-04T14:13:00Z",
-  "wire": "Business Wire",
-  "ticker": "ONC",
-  "title": "U.S. FDA Grants Priority Review to BeOne Medicines’ BRUKINSA Combination in First-Line Mantle Cell Lymphoma",
-  "link": "http://www.businesswire.com/news/home/20261103605806/en/U.S.-FDA-Grants-Priority-Review-to-BeOne-Medicines%E2%80%99-BRUKINSA-Combination-in-First-Line-Mantle-Cell-Lymphoma/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
+  "published_utc": "2026-11-04T21:01:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PTC",
+  "title": "PTC ANNOUNCES FOURTH FISCAL QUARTER AND FULL FISCAL YEAR 2026 RESULTS",
+  "link": "https://www.prnewswire.com/news-releases/ptc-announces-fourth-fiscal-quarter-and-full-fiscal-year-2026-results-302929708.html",
+  "matched_on": "watchlist"
  },
  {
-  "published_utc": "2026-11-04T14:05:00Z",
-  "wire": "Business Wire",
-  "ticker": "PENG",
-  "title": "Penguin Solutions Announces Agreement to Sell Cree LED to Transom Capital Group",
-  "link": "http://www.businesswire.com/news/home/20261104524800/en/Penguin-Solutions-Announces-Agreement-to-Sell-Cree-LED-to-Transom-Capital-Group/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-11-04T13:39:00Z",
-  "wire": "Business Wire",
-  "ticker": "CRH",
-  "title": "CRH announces Cash Tender Offers, Exchange Offers and Consent Solicitations for Arcosa, Inc. Notes",
-  "link": "http://www.businesswire.com/news/home/20261104399618/en/CRH-announces-Cash-Tender-Offers-Exchange-Offers-and-Consent-Solicitations-for-Arcosa-Inc.-Notes/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:tender offer"
- },
- {
-  "published_utc": "2026-11-04T12:03:00Z",
-  "wire": "Business Wire",
-  "ticker": "KHC",
-  "title": "Kraft Heinz to Divest North America Coffee Business to One Rock Capital Partners",
-  "link": "http://www.businesswire.com/news/home/20261104872049/en/Kraft-Heinz-to-Divest-North-America-Coffee-Business-to-One-Rock-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-11-04T12:00:00Z",
+  "published_utc": "2026-11-04T22:20:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "SHLS;ARRY",
-  "title": "ARRAY Technologies and Shoals Technologies Group Announce Transformative Merger, Creating an Integrated Energy Infrastructure Platform",
-  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395153/0/en/array-technologies-and-shoals-technologies-group-announce-transformative-merger-creating-an-integrated-energy-infrastructure-platform.html",
-  "matched_on": "keyword:definitive agreement;keyword:merger agreement"
+  "ticker": "PSEC",
+  "title": "Prospect Capital Announces September 2026 Results and $200 Million Common Share Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395935/0/en/prospect-capital-announces-september-2026-results-and-200-million-common-share-repurchase-program.html",
+  "matched_on": "keyword:share repurchase"
  },
  {
-  "published_utc": "2026-11-04T12:00:00Z",
+  "published_utc": "2026-11-04T22:15:00Z",
   "wire": "Business Wire",
-  "ticker": "DFTX",
-  "title": "Definium Therapeutics Presents Topline Phase 3 Data for DT120 ODT in Generalized Anxiety Disorder and Major Depressive Disorder at 2026 NEI Fall Congress",
-  "link": "http://www.businesswire.com/news/home/20261030107692/en/Definium-Therapeutics-Presents-Topline-Phase-3-Data-for-DT120-ODT-in-Generalized-Anxiety-Disorder-and-Major-Depressive-Disorder-at-2026-NEI-Fall-Congress/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "ticker": "ALNY",
+  "title": "Alnylam Announces $1 Billion Share Repurchase Program and Change in Commercial Leadership",
+  "link": "http://www.businesswire.com/news/home/20261104468006/en/Alnylam-Announces-1-Billion-Share-Repurchase-Program-and-Change-in-Commercial-Leadership/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-04T21:35:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NHPAP;NHP;NHPBP",
+  "title": "National Healthcare Properties Reports Third Quarter 2026 Results",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395909/0/en/national-healthcare-properties-reports-third-quarter-2026-results.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-04T21:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MKSI",
+  "title": "MKS Inc. Announces $500 Million Share Repurchase Program and Declares Quarterly Cash Dividend",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395886/16396/en/mks-inc-announces-500-million-share-repurchase-program-and-declares-quarterly-cash-dividend.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-04T21:15:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CXW",
+  "title": "CoreCivic Reports Third Quarter 2026 Financial Results",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395859/0/en/corecivic-reports-third-quarter-2026-financial-results.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-04T21:07:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ANVS",
+  "title": "Annovis Announces Launch of Proposed Public Offering",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395846/0/en/annovis-announces-launch-of-proposed-public-offering.html",
   "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-04T21:05:00Z",
+  "wire": "Business Wire",
+  "ticker": "EBS",
+  "title": "Emergent BioSolutions Receives $22.3 Million Delivery Order Modification to Supply BioThrax® (Anthrax Vaccine Adsorbed) to the U.S. Department of War",
+  "link": "http://www.businesswire.com/news/home/20261104083043/en/Emergent-BioSolutions-Receives-22.3-Million-Delivery-Order-Modification-to-Supply-BioThrax%C2%AE-Anthrax-Vaccine-Adsorbed-to-the-U.S.-Department-of-War/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:delivery order;keyword:indefinite-delivery;keyword:Department of War"
+ },
+ {
+  "published_utc": "2026-11-04T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "PCVX",
+  "title": "Vaxcyte Reports Third Quarter 2026 Financial Results and Provides Business Update",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395828/0/en/vaxcyte-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-04T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MLYS",
+  "title": "Mineralys Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395833/0/en/mineralys-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "matched_on": "keyword:PDUFA"
+ },
+ {
+  "published_utc": "2026-11-04T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MYGN",
+  "title": "Myriad Genetics Reports Third Quarter 2026 Financial Results; Raises Mid-Point of Full-Year 2026 Revenue Guidance Following Solid Execution Definitive Agreement to Sell Prenatal Health Business to Support Strategic Growth Initiatives",
+  "link": "https://www.globenewswire.com/news-release/2026/11/04/3395837/15459/en/myriad-genetics-reports-third-quarter-2026-financial-results-raises-mid-point-of-full-year-2026-revenue-guidance-following-solid-execution-definitive-agreement-to-sell-prenatal-hea.html",
+  "matched_on": "keyword:definitive agreement"
  }
 ]
