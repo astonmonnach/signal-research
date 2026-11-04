@@ -4,6 +4,14 @@ Every change to the IBKR watchlists, newest first. The AVOID list (id 114) mirro
 `ledger/avoid_register.csv` (rule 2026-10-27). Changes are made only with the trader's go-ahead and checked by reading the
 list back afterwards.
 
+## 2026-11-04: AVOID +24, CALLED +2, merger arb +1 (runs of 3 and 4 Nov)
+
+The trader's go-ahead: "yeah make those changes" (4 Nov), for the lists in watch/digests/2026-11-03-triage.md and 2026-11-04-triage.md. Every list was read back from IBKR afterwards.
+
+- **AVOID (114):** 138 to 162, equal to the register's 162 active rows. Added: BIAF (#14), INV, INTZ, ABTS, GMEX, CJMB, UZX, GMM, ABVC, WBX, NTCL, WCT, DRMA, LNAI, SEGG, KPTI, PRSO, OTAI (Starlink AI Acquisition, 895512157), KALA, AMIX, GPRO, SPRC, YOUL, MERC. XRPN (#15) was already on it.
+- **CALLED (107):** 13 to 15: BIAF, XRPN.
+- **STRAT merger arb (113):** 13 to 14: ACB (T021).
+
 ## 2026-11-02: AVOID +37, CALLED +4, Gov Filings +1 (the 1 Nov catch-up run)
 
 The trader's go-ahead: on 2 Nov he reconnected IBKR ("Its connected") after being told the sync would follow; the list is in watch/digests/2026-11-02-triage.md. Every list was read back from IBKR afterwards.
