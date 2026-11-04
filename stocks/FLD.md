@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.578 (2026-11-04, ledger)
-- **Since first found:** **+7.1%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: +8.1% vs IWM +0.7% = **+7.5 pts** vs IWM; direction -1 → excess -7.5% (35 days)
+- **Latest price:** $0.580 (2026-11-04, ledger)
+- **Since first found:** **+7.4%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: +8.4% vs IWM +0.8% = **+7.6 pts** vs IWM; direction -1 → excess -7.6% (35 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -45,6 +45,6 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.578 | +7.1% | +8.1% | +0.7% | -7.5% | 35 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.578 | +6.9% | +9.2% | +0.0% |  | 30 | live |
-| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.578 | +13.4% | +12.8% | +1.5% | -11.3% | 8 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.580 | +7.4% | +8.4% | +0.8% | -7.6% | 35 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.580 | +7.2% | +9.4% | +0.2% |  | 30 | live |
+| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.580 | +13.7% | +13.1% | +1.6% | -11.4% | 8 | live |

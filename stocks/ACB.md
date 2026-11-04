@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $5.16 (2026-11-04, ledger) · 1d +0.1%, 5d +26.6%, 20d +15.8% (market context, 2026-11-04)
-- **Since first found:** **+30.1%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +29.8% vs IWM +1.9% = **+27.9 pts** vs IWM; direction 0, tracked only (14 days)
-- **Peers / sympathy:** solo_move: ACB +26.6% 5d vs peer median +5.6%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $5.19 (2026-11-04, ledger) · 1d +0.7%, 5d +27.3%, 20d +16.5% (market context, 2026-11-04)
+- **Since first found:** **+30.8%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +30.4% vs IWM +2.0% = **+28.4 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** solo_move: ACB +27.3% 5d vs peer median +6.0%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 12 Nov 2026: ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
@@ -33,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.16 | +30.1% | +29.8% | +1.9% |  | 14 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.19 | +30.8% | +30.4% | +2.0% |  | 14 | live |

@@ -101,8 +101,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $6.84 (2026-11-04, ledger) · 1d +0.2%, 5d +2.7%, 20d +2.0% (market context, 2026-11-04)
-- **Since first found:** **-16.1%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -16.1% vs IWM +0.6% = **-16.7 pts** vs IWM; direction +1 → excess -16.7% (36 days)
+- **Latest price:** $6.82 (2026-11-04, ledger) · 1d -1.4%, 5d +1.0%, 20d +0.3% (market context, 2026-11-04)
+- **Since first found:** **-16.4%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -16.4% vs IWM +0.8% = **-17.2 pts** vs IWM; direction +1 → excess -17.2% (36 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
@@ -125,4 +125,4 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.84 | -16.1% | -16.1% | +0.6% | -16.7% | 36 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.82 | -16.4% | -16.4% | +0.8% | -17.2% | 36 | live |
