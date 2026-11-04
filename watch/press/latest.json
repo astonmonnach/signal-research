@@ -1,82 +1,10 @@
 [
  {
-  "published_utc": "2026-11-03T21:15:00Z",
-  "wire": "Business Wire",
-  "ticker": "RYAM",
-  "title": "RYAM Reports Third Quarter 2026 Results",
-  "link": "http://www.businesswire.com/news/home/20261103071362/en/RYAM-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-03T21:15:00Z",
+  "published_utc": "2026-11-03T22:44:00Z",
   "wire": "PR Newswire",
-  "ticker": "MOD",
-  "title": "Modine Reports Second Quarter Fiscal 2027 Results",
-  "link": "https://www.prnewswire.com/news-releases/modine-reports-second-quarter-fiscal-2027-results-302928192.html",
-  "matched_on": "watchlist;keyword:spin-off"
- },
- {
-  "published_utc": "2026-11-03T21:15:00Z",
-  "wire": "PR Newswire",
-  "ticker": "TALO",
-  "title": "Talos Energy Announces Third Quarter 2026 Operational and Financial Results",
-  "link": "https://www.prnewswire.com/news-releases/talos-energy-announces-third-quarter-2026-operational-and-financial-results-302928376.html",
+  "ticker": "ACB",
+  "title": "Curaleaf Issues Statement Regarding Alternative Proposal for Aurora Cannabis",
+  "link": "https://www.prnewswire.com/news-releases/curaleaf-issues-statement-regarding-alternative-proposal-for-aurora-cannabis-302928528.html",
   "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-03T21:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "CPSH",
-  "title": "CPS Technologies Announces Third Quarter 2026 Financial Results",
-  "link": "https://www.globenewswire.com/news-release/2026/11/03/3394814/0/en/cps-technologies-announces-third-quarter-2026-financial-results.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-03T21:05:00Z",
-  "wire": "Business Wire",
-  "ticker": "TWST",
-  "title": "Notice of Proposed Derivative Settlement: Twist Bioscience Corporation",
-  "link": "http://www.businesswire.com/news/home/20261103793144/en/Notice-of-Proposed-Derivative-Settlement-Twist-Bioscience-Corporation/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-03T21:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "SRTA",
-  "title": "Strata Critical Medical to Present at the UBS Global Healthcare Conference",
-  "link": "https://www.globenewswire.com/news-release/2026/11/03/3394791/0/en/strata-critical-medical-to-present-at-the-ubs-global-healthcare-conference.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-03T22:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "AFG",
-  "title": "American Financial Group, Inc. Announces Third Quarter Results and Declares Special Dividend",
-  "link": "http://www.businesswire.com/news/home/20261103661675/en/American-Financial-Group-Inc.-Announces-Third-Quarter-Results-and-Declares-Special-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
-  "matched_on": "keyword:special dividend"
- },
- {
-  "published_utc": "2026-11-03T21:59:00Z",
-  "wire": "PR Newswire",
-  "ticker": "MMM",
-  "title": "3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Dividend",
-  "link": "https://www.prnewswire.com/news-releases/3m-board-approves-new-6-billion-share-repurchase-authorization-declares-quarterly-dividend-302928490.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-03T21:14:00Z",
-  "wire": "Business Wire",
-  "ticker": "JXN",
-  "title": "Jackson Announces Fourth Quarter 2026 Common and Preferred Stock Dividends and $1 Billion Increase to Common Share Repurchase Authorization",
-  "link": "http://www.businesswire.com/news/home/20261103351889/en/Jackson-Announces-Fourth-Quarter-2026-Common-and-Preferred-Stock-Dividends-and-1-Billion-Increase-to-Common-Share-Repurchase-Authorization/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-03T21:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "WEYS",
-  "title": "Weyco Group, Inc. Declares Special Cash Dividend",
-  "link": "https://www.globenewswire.com/news-release/2026/11/03/3394764/26819/en/weyco-group-inc-declares-special-cash-dividend.html",
-  "matched_on": "keyword:special dividend"
  }
 ]
