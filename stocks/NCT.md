@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.26 (2026-11-04, ledger)
-- **Since first found:** **-14.5%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: -18.4% vs IWM +1.6% = **-20.0 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $1.35 (2026-11-04, ledger)
+- **Since first found:** **-8.8%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: -12.9% vs IWM +1.4% = **-14.3 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $1.26 | -14.5% | -18.4% | +1.6% |  | 8 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $1.35 | -8.8% | -12.9% | +1.4% |  | 8 | live |

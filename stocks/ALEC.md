@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $2.13 (2026-11-04, ledger) · 1d +4.2%, 5d -5.1%, 20d +11.2% (market context, 2026-11-04)
-- **Since first found:** **+15.8%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +15.2% vs IWM +3.9% = **+11.3 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $2.13 (2026-11-04, ledger) · 1d +3.9%, 5d -5.3%, 20d +10.9% (market context, 2026-11-04)
+- **Since first found:** **+15.8%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +15.1% vs IWM +3.7% = **+11.4 pts** vs IWM; direction 0, tracked only (16 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -5.1% vs peer median +4.0%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Peers / sympathy:** no flag (self 5d -5.3% vs peer median +4.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.13 | +15.8% | +15.2% | +3.9% |  | 16 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.13 | +15.8% | +15.2% | +3.9% |  | 16 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.13 | +15.8% | +15.1% | +3.7% |  | 16 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.13 | +15.8% | +15.1% | +3.7% |  | 16 | live |
