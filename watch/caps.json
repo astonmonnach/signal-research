@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 03:44 UTC",
+ "updated": "2026-11-04 01:23 UTC",
  "buckets": {
   "micro": [
    0,
@@ -75,11 +75,11 @@
   },
   "MTUS": {
    "ticker": "MTUS",
-   "shares": 41449284,
+   "shares": 41258894,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-31",
+   "shares_date": "2026-10-31",
    "price": 21.31999969482422,
-   "mcap": 883698722.2306824,
+   "mcap": 879639607.4887848,
    "bucket": "small"
   },
   "ELMT": {
@@ -187,11 +187,11 @@
   },
   "SRTA": {
    "ticker": "SRTA",
-   "shares": 88466806,
+   "shares": 89319857,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-28",
+   "shares_date": "2026-10-26",
    "price": 4.28000020980835,
-   "mcap": 378637948.24107456,
+   "mcap": 382289006.7000518,
    "bucket": "small"
   },
   "GPRO": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.34000015258789
+   "price": 17.3799991607666
   },
   "CRMT": {
    "ticker": "CRMT",
