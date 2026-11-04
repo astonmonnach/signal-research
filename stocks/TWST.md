@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $136.91 (2026-11-03, ledger) · 1d +6.2%, 5d -14.2%, 20d -17.9% (market context, 2026-11-03)
-- **Since first found:** **-29.1%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -29.1% vs IWM +1.3% = **-30.4 pts** vs IWM; direction 0, tracked only (33 days)
-- **Peers / sympathy:** no flag (self 5d -14.2% vs peer median -11.1%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-03)
+- **Latest price:** $134.52 (2026-11-04, ledger) · 1d -3.6%, 5d -22.1%, 20d -13.2% (market context, 2026-11-04)
+- **Since first found:** **-30.4%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -30.3% vs IWM +1.7% = **-32.0 pts** vs IWM; direction 0, tracked only (34 days)
+- **Peers / sympathy:** no flag (self 5d -22.1% vs peer median -18.4%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Notice of Proposed Derivative Settlement: Twist Bioscience Corporation (Business Wire) ([release](http://www.businesswire.com/news/home/20261103793144/en/Notice-of-Proposed-Derivative-Settlement-Twist-Bioscience-Corporation/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-10-29](../scans/2026-10-29.md#press-releases)**: Press: Twist Bioscience Launches MRD Express with Rapid Turnaround Time (Business Wire) ([release](http://www.businesswire.com/news/home/20261029639258/en/Twist-Bioscience-Launches-MRD-Express-with-Rapid-Turnaround-Time/?feedref=JjAwJuNHiystnCoBq_hl-YN6jh2YIt48IJ80PBTZst6qcp-o_pnudlUwsb5apQ1S4gUE65BTfjH3-pSuqdv0gW3cb3F4oTIgUqCPafFkgu5aCD-FAO6Y4EA4btlz6J4c))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **TWST**: a mandated RSU sell-to-cover (2,245 at $134.59). AVOID unchanged. TWST is +32.5% from that price since 23 Oct with no filing to explain it… ([triage](../watch/digests/2026-10-28-triage.md)) · Press: Twist Bioscience Expands High-Throughput Antibody Characterization with Launch of Express Screening Antibodies (Business Wire) ([release](http://www.businesswire.com/news/home/20261028674791/en/Twist-Bioscience-Expands-High-Throughput-Antibody-Characterization-with-Launch-of-Express-Screening-Antibodies/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==)) · Filings: `4` 27 Oct
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **TWST** Form 144: officer Patrick Finn, 2,245 sh (~$302k). Routine. **VYLR** three Form 4s: director grants (code A). ([triage](../watch/digests/2026-10-26-triage.md)) · Filings: `144` 23 Oct
@@ -116,4 +117,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $136.91 | -29.1% | -29.1% | +1.3% |  | 33 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $134.52 | -30.4% | -30.3% | +1.7% |  | 34 | live |

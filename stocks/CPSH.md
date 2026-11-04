@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $3.53 (2026-11-03, ledger)
-- **Since first found:** **+0.9%** (found 2026-10-26 via `activist_13d` at $3.50). From the next open $3.51: +0.6% vs IWM +1.1% = **-0.5 pts** vs IWM; direction +1 → excess -0.5% (7 days)
+- **Latest price:** $3.85 (2026-11-04, ledger)
+- **Since first found:** **+10.0%** (found 2026-10-26 via `activist_13d` at $3.50). From the next open $3.51: +9.7% vs IWM +1.5% = **+8.2 pts** vs IWM; direction +1 → excess +8.2% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: CPS Technologies Announces Third Quarter 2026 Financial Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/03/3394814/0/en/cps-technologies-announces-third-quarter-2026-financial-results.html))
 - **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `activist_13d` (direction 0): Global Value Investment Corp 6.46%, bought 7-23 Oct at ~$3.47; Item 4 lists sale or merger; fails TF1; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (- CPSH to fund:Global Value Investment Corp, LEO to fund:Saba Capital, AZUL to AAL (holder_13d).) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +0.0%, found day -0.3%) ([filing](https://www.sec.gov/Archives/edgar/data/814676/000156986626000006/0001569866-26-000006-index.htm))
 
@@ -26,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPSH ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `activist_13d` | +1 | +0.0% | -0.3% | $908k | $3.50 | $3.51 | $3.53 | +0.9% | +0.6% | +1.1% | -0.5% | 7 | live |
-| 2026-10-27 | `activist_13d` | 0 | +0.9% | +3.7% | $900k | $3.63 | $3.62 | $3.53 | -2.8% | -2.5% | +0.2% |  | 6 | live |
+| 2026-10-26 | `activist_13d` | +1 | +0.0% | -0.3% | $908k | $3.50 | $3.51 | $3.85 | +10.0% | +9.7% | +1.5% | +8.2% | 8 | live |
+| 2026-10-27 | `activist_13d` | 0 | +0.9% | +3.7% | $900k | $3.63 | $3.62 | $3.85 | +6.1% | +6.3% | +0.6% |  | 7 | live |

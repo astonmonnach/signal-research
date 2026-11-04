@@ -101,9 +101,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $6.66 (2026-11-03, ledger) · 1d -0.1%, 5d +0.3%, 20d -1.9% (market context, 2026-11-03)
-- **Since first found:** **-18.3%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -18.3% vs IWM +0.3% = **-18.6 pts** vs IWM; direction +1 → excess -18.6% (35 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-03)
+- **Latest price:** $6.84 (2026-11-04, ledger) · 1d +0.2%, 5d +2.7%, 20d +2.0% (market context, 2026-11-04)
+- **Since first found:** **-16.1%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -16.1% vs IWM +0.6% = **-16.7 pts** vs IWM; direction +1 → excess -16.7% (36 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -113,6 +113,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: RYAM Reports Third Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261103071362/en/RYAM-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: RYAM Schedules Third Quarter 2026 Earnings Release (Business Wire) ([release](http://www.businesswire.com/news/home/20261021423240/en/RYAM-Schedules-Third-Quarter-2026-Earnings-Release/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
 - **[2026-10-16](../scans/2026-10-16.md)**: Research: Research: Fri 16 Oct 2026 (- RYAM (row logged 16 Oct, event dated 15 Dec) set to **none**. The "event" is an undated promise of "a clear…) ([note](../research/daily/2026-10-16.md))
@@ -124,4 +125,4 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.66 | -18.3% | -18.3% | +0.3% | -18.6% | 35 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.84 | -16.1% | -16.1% | +0.6% | -16.7% | 36 | live |

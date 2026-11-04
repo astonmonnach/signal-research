@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $17.08 (2026-11-03, ledger) · 1d -1.6%, 5d -10.1%, 20d -9.4% (market context, 2026-11-03)
-- **Since first found:** **-11.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -9.5% vs IWM +0.3% = **-9.8 pts** vs IWM; direction -1 → excess +9.8% (35 days)
+- **Latest price:** $16.03 (2026-11-04, ledger) · 1d -3.7%, 5d -15.4%, 20d -11.2% (market context, 2026-11-04)
+- **Since first found:** **-16.9%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -15.1% vs IWM +0.6% = **-15.7 pts** vs IWM; direction -1 → excess +15.7% (36 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -10.1% vs peer median -5.1%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-03)
+- **Peers / sympathy:** no flag (self 5d -15.4% vs peer median -7.8%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-04)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -119,7 +119,7 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $17.08 | -11.4% | -9.5% | +0.3% | +9.8% | 35 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $17.08 | -3.9% | -3.9% | +0.3% | +4.2% | 34 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $17.08 | -4.8% | -5.0% | +2.3% | +7.3% | 12 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $17.08 | -4.8% | -5.0% | +2.3% |  | 12 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $16.03 | -16.9% | -15.1% | +0.6% | +15.7% | 36 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $16.03 | -9.8% | -9.8% | +0.7% | +10.5% | 35 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $16.03 | -10.7% | -10.8% | +2.6% | +13.5% | 13 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $16.03 | -10.7% | -10.8% | +2.6% |  | 13 | live |
