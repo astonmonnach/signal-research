@@ -41,3 +41,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-03,01:46,False,XRX,Xerox Holdings Corporation Common Stock,S2,1.465,29354084,5575520,5.26,7269776,,,1.22,1.24,2026-11-04,0.016393,-0.003607,filled
 2026-11-04,00:11,False,EVGO,EVgo Inc. Class A Common Stock,S2,1.85,72259630,6832263,10.58,3739892,,,,,,,,open
 2026-11-04,00:11,False,INO,Inovio Pharmaceuticals Inc. Common Stock,S2,1.89,222260402,21347232,10.41,3517168,,,,,,,,open
+2026-11-05,00:31,False,ICU,SeaStar Medical Holding Corporation Common Stock,S2,2.0,2282658,259749,8.79,352531,,,,,,,,open
+2026-11-05,00:31,False,IFRX,InflaRx N.V. Common Stock,S2,1.62,5678419,1084425,5.24,1101141,,,,,,,,open
