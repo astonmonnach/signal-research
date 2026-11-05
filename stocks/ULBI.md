@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.62 (2026-11-05, ledger) · 1d +0.0%, 5d +0.0%, 20d +151.6% (market context, 2026-11-05)
-- **Since first found:** **+0.1%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.1% vs IWM -2.4% = **+2.5 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $15.63 (2026-11-05, ledger) · 1d +0.1%, 5d +0.1%, 20d +151.7% (market context, 2026-11-05)
+- **Since first found:** **+0.1%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.1% vs IWM -2.3% = **+2.4 pts** vs IWM; direction 0, tracked only (7 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median -8.2% 5d vs ULBI +0.0%; peers moved, it didn't. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median -6.6% 5d vs ULBI +0.1%; peers moved, it didn't. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-05)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions)
@@ -32,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for ULBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -2.4% |  | 7 | live |
-| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -2.4% |  | 7 | live |
-| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.62 | +0.1% | +0.1% | -2.4% |  | 7 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.63 | +0.1% | +0.1% | -2.3% |  | 7 | live |
+| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.63 | +0.1% | +0.1% | -2.3% |  | 7 | live |
+| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.63 | +0.1% | +0.1% | -2.3% |  | 7 | live |
