@@ -37,7 +37,29 @@ def bars(t):
              for ts, o, c in zip(r["timestamp"], q["open"], q["close"]) if o and c]
     except Exception:
         b = []
+    b = split_adjust(t, b)
     _cache[t] = b; time.sleep(0.2)
+    return b
+
+
+def split_adjust(t, b):
+    """Yahoo can lag a split by days, which fakes a huge move (ITA's 3-for-1 on 5 Nov 2026 read as -67%).
+    Splits in ledger/corporate_actions.csv (kind split, ratio = new shares per old; 0.1 for a 1-for-10
+    reverse split) rescale the earlier bars, unless Yahoo has already adjusted them. Any other overnight
+    gap of 2.5x either way is flagged so a missing split can't trip an invalidation close unseen."""
+    p = ROOT / "ledger/corporate_actions.csv"
+    splits = {}
+    if p.exists():
+        splits = {dt.date.fromisoformat(r["ex_date"]): float(r["ratio"]) for r in csv.DictReader(open(p, encoding="utf-8"))
+                  if r["ticker"] == t and r["kind"] == "split"}
+    for i in range(1, len(b)):
+        d, o = b[i][0], b[i][1]
+        gap = b[i - 1][2] / o
+        if d in splits and abs(gap / splits[d] - 1) < 0.2:
+            k = splits[d]
+            b = [(x[0], x[1] / k, x[2] / k, x[3]) for x in b[:i]] + b[i:]
+        elif d not in splits and (gap >= 2.5 or gap <= 0.4):
+            print(f"WARNING {t} {d}: overnight gap x{gap:.2f}; if it's a split, add it to ledger/corporate_actions.csv", file=sys.stderr)
     return b
 
 

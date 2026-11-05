@@ -54,7 +54,8 @@ def bars(t):
 
 def corporate_actions():
     p = ROOT / "ledger/corporate_actions.csv"
-    return list(csv.DictReader(open(p, encoding="utf-8"))) if p.exists() else []
+    # Splits only rescale prices (calls/build_calls.py); they add nothing to a holder's value.
+    return [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["kind"] != "split"] if p.exists() else []
 
 
 CAS = corporate_actions()
