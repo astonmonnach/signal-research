@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 02:45 UTC",
+ "updated": "2026-11-05 01:28 UTC",
  "buckets": {
   "micro": [
    0,
@@ -48,11 +48,11 @@
   },
   "MOD": {
    "ticker": "MOD",
-   "shares": 53112708,
+   "shares": 53196918,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-24",
+   "shares_date": "2026-10-30",
    "price": 125.44999694824219,
-   "mcap": 6662989056.512878,
+   "mcap": 6673553200.75589,
    "bucket": "mid"
   },
   "HMH": {
@@ -113,7 +113,7 @@
    "ticker": "RYAM",
    "shares": 67644208,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-03",
+   "shares_date": "2026-11-02",
    "price": 6.909999847412109,
    "mcap": 467421466.958313,
    "bucket": "small"
@@ -169,11 +169,11 @@
   },
   "TALO": {
    "ticker": "TALO",
-   "shares": 166965468,
+   "shares": 165791747,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-28",
+   "shares_date": "2026-10-28",
    "price": 16.100000381469727,
-   "mcap": 2688144098.4922714,
+   "mcap": 2669247189.9445324,
    "bucket": "mid"
   },
   "IMSR": {
@@ -321,11 +321,11 @@
   },
   "UUUU": {
    "ticker": "UUUU",
-   "shares": 249965000,
+   "shares": 264828000,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-31",
+   "shares_date": "2026-10-30",
    "price": 7.239999771118164,
-   "mcap": 1809746542.7875519,
+   "mcap": 1917354659.3856812,
    "bucket": "small"
   },
   "ALEC": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.3799991607666
+   "price": 17.850000381469727
   },
   "CRMT": {
    "ticker": "CRMT",
