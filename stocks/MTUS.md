@@ -2,7 +2,7 @@
 <!-- DEEP DIVE (hand-written; generators never touch this part) -->
 *Dossier written 5 Oct 2026 (~16:00 UK). Folds in `ideas/MTUS.md` (1 Oct entry note, 4 Oct renewal check and 4 Oct deep dive); every number there is kept here. Prices: Yahoo daily closes; "5 Oct" = intraday at ~11:00 ET.*
 
-**Position:** OPEN, trade #1, strategy `S1_CONTRACT_MCAP` v1, signal `S1-2026-09-25-MTUS-SP8000-26-D-0032`. Bought 3 @ $19.368 on 1 Oct 2026, 20:18 UK; fees $2.58 incl. FX. Entry note written 1 Oct, before entry.
+**Position:** CLOSED 5 Nov 2026: sold 3 @ $16.97 at 14:53 UK, intraday below the $17.00 line (the rule was a daily close below it); all-in -$10.28 incl. $3.09 fees. Was: trade #1, strategy `S1_CONTRACT_MCAP` v1, signal `S1-2026-09-25-MTUS-SP8000-26-D-0032`. Bought 3 @ $19.368 on 1 Oct 2026, 20:18 UK; fees $2.58 incl. FX. Entry note written 1 Oct, before entry.
 - Plan from that note: a limit order near the ask during US hours (bid/ask $19.26/$19.29 at ~19:30 UK on 1 Oct; price ~$19.25), fractional shares.
 - Size: the whole £50 test account (~$65 after FX). Maximum loss £50, treated as real capital.
 - The pre-entry check fields in `ideas/MTUS.md` (confidence_pre, state_pre, with "don't enter below 3") were left blank.
