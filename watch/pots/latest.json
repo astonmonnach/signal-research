@@ -3,15 +3,15 @@
   "office": "SP8000",
   "name": "National Defense Stockpile (DLA Strategic Materials)",
   "money_usd": 2000000000,
-  "ceilings_usd": 7758364251.3,
+  "ceilings_usd": 8424512481.08,
   "ordered_usd": 1235871206.8,
   "committed_pct": 61.8,
-  "ceiling_multiple": 3.88,
-  "idiqs": 20,
+  "ceiling_multiple": 4.21,
+  "idiqs": 24,
   "tickers": [
    "MTUS",
    "ELMT"
   ],
-  "updated": "2026-11-04 16:35 UTC"
+  "updated": "2026-11-05 15:28 UTC"
  }
 }

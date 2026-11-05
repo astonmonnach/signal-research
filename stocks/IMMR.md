@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $7.17 (2026-11-04, ledger) · 1d +1.0%, 5d -0.8%, 20d -1.2% (market context, 2026-11-04)
-- **Since first found:** **-2.5%** (found 2026-10-12 via `insider_buy` at $7.35). From the next open $7.33: -2.2% vs IWM +1.6% = **-3.8 pts** vs IWM; direction 0, tracked only (22 days)
-- **Peers / sympathy:** no flag (self 5d -0.8% vs peer median -4.0%). Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $6.72 (2026-11-05, ledger) · 1d -6.0%, 5d -7.8%, 20d -5.7% (market context, 2026-11-05)
+- **Since first found:** **-8.6%** (found 2026-10-12 via `insider_buy` at $7.35). From the next open $7.33: -8.3% vs IWM +0.0% = **-8.3 pts** vs IWM; direction 0, tracked only (23 days)
+- **Peers / sympathy:** no flag (self 5d -7.8% vs peer median -7.5%). Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` 2 Nov
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: +35 older (Mar – Oct 2026) first picked up
 - **[2026-10-12](../scans/2026-10-12.md#triage-notes)**: Triage: **IMMR** (market-wide, insider buys): chief executive Eric Singer bought 41,000 shares for $292,800 at $7.11 to $7.15 on 7 Oct. ([triage](../watch/digests/2026-10-12-triage.md)) · Logged as `insider_buy` (direction 0): CEO Singer bought 41,000 sh ($292,800) at $7.11-7.15 on 7 Oct; one insider, no cluster; tracked; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (5. IMMR: the chief executive buys $292,800) ([note](../research/daily/2026-10-12.md))
 - **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1058811/000119312526418131/0001193125-26-418131-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for IMMR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_buy` | 0 | +0.5% | -1.1% | $3.1M | $7.35 | $7.33 | $7.17 | -2.5% | -2.2% | +1.6% |  | 22 | live |
+| 2026-10-12 | `insider_buy` | 0 | +0.5% | -1.1% | $3.1M | $7.35 | $7.33 | $6.72 | -8.6% | -8.3% | +0.0% |  | 23 | live |

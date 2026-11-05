@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $5.03 (2026-11-04, ledger) · 1d +13.2%, 5d +5.6%, 20d +7.4% (market context, 2026-11-04)
-- **Since first found:** **+15.8%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +10.4% vs IWM +2.5% = **+8.0 pts** vs IWM; direction +1 → excess +8.0% (19 days)
+- **Latest price:** $4.95 (2026-11-05, ledger) · 1d -5.6%, 5d +3.8%, 20d +10.3% (market context, 2026-11-05)
+- **Since first found:** **+14.2%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +8.9% vs IWM +0.9% = **+8.0 pts** vs IWM; direction +1 → excess +8.0% (20 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +5.6% vs peer median +3.0%). Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Peers / sympathy:** solo_move: SRTA +3.8% 5d vs peer median +0.5%; peers didn't move with it. Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 3 Nov, `8-K` 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Strata Critical Medical to Present at the UBS Global Healthcare Conference (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/03/3394791/0/en/strata-critical-medical-to-present-at-the-ubs-global-healthcare-conference.html))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 30 Oct
 - **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Strata Critical Medical Schedules Third Quarter 2026 Earnings Conference Call (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/23/3387605/0/en/strata-critical-medical-schedules-third-quarter-2026-earnings-conference-call.html))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $5.03 | +15.8% | +10.4% | +2.5% | +8.0% | 19 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $5.03 | +10.7% | +10.2% | +3.9% |  | 16 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.95 | +14.2% | +8.9% | +0.9% | +8.0% | 20 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.95 | +9.1% | +8.7% | +2.3% |  | 17 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $46.22 (2026-11-04, ledger)
-- **Since first found:** **+4.3%** (found 2026-10-28 via `insider_cluster` at $44.30). From the next open $44.86: +3.0% vs IWM -0.0% = **+3.1 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $48.85 (2026-11-05, ledger)
+- **Since first found:** **+10.3%** (found 2026-10-28 via `insider_cluster` at $44.30). From the next open $44.86: +8.9% vs IWM -1.6% = **+10.5 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for STC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -17.1% | +1.9% | $23.1M | $44.30 | $44.86 | $46.22 | +4.3% | +3.0% | -0.0% |  | 6 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -17.1% | +1.9% | $23.1M | $44.30 | $44.86 | $48.85 | +10.3% | +8.9% | -1.6% |  | 7 | live |

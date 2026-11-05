@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $11.93 (2026-11-04, ledger) · 1d +0.2%, 5d +5.1%, 20d -17.6% (market context, 2026-11-04)
-- **Since first found:** **+630.1%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +629.8% vs IWM +0.8% = **+629.0 pts** vs IWM; direction 0, tracked only (35 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $12.53 (2026-11-05, ledger) · 1d +2.0%, 5d +9.0%, 20d -9.1% (market context, 2026-11-05)
+- **Since first found:** **+618.1%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +617.7% vs IWM -0.8% = **+618.5 pts** vs IWM; direction 0, tracked only (36 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +5.1% vs peer median +5.8%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Peers / sympathy:** no flag (self 5d +9.0% vs peer median +12.3%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` ×3 3 Nov
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Corteva Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/corteva-declares-quarterly-dividend-302917451.html))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- CTVA: its 5-session test ended about 13 Oct and was never graded;) ([note](../research/daily/2026-10-20.md))
@@ -120,7 +121,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $11.93 | +630.1% | +629.8% | +0.8% |  | 35 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $11.93 | -3.8% | -8.8% | -0.7% |  | 29 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.53 | +618.1% | +617.7% | -0.8% |  | 36 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.53 | +1.1% | -4.2% | -2.2% |  | 30 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

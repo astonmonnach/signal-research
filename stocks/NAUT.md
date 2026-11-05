@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $2.18 (2026-11-04, ledger)
-- **Since first found:** **-24.4%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: -27.2% vs IWM +0.7% = **-27.9 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $2.09 (2026-11-05, ledger)
+- **Since first found:** **-27.7%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: -30.3% vs IWM -0.8% = **-29.5 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: CALLS: review date of AVOID calls #6-7 (NNBR, NAUT)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#triage-notes)**: Triage: **NAUT** (call #7): Perceptive selling below 5%. Supports the call. ([triage](../watch/digests/2026-11-04-triage.md)) · Research: Research: Wed 4 Nov 2026 (- **NAUT (call #7):** Perceptive filed a 13D/A showing it is selling in the open market and has gone below…) ([note](../research/daily/2026-11-04.md))
+- **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1808805/000119312526445289/0001193125-26-445289-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md)**: Research: Research: Fri 30 Oct 2026 (- QSI and NAUT re-rated from about 1x cash on sector momentum, to 2.0x and 4.2x.) ([note](../research/daily/2026-10-30.md))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **A caveat the trader should see:** both companies are tiny (market value about $2.7M and $1.4M, arith) and…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: Nautilus to Measure Proteoforms Driving Alzheimer’s Disease and Cancer in ARPA-H-Funded SEEDS Consortium (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/27/3388769/0/en/nautilus-to-measure-proteoforms-driving-alzheimer-s-disease-and-cancer-in-arpa-h-funded-seeds-consortium.html)) · Logged as `setup_supply_atm` (direction 0): unused $125M ATM ~40% after a 2.5x run; AVOID, public call #7; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (2. Two public AVOID calls: NNBR and NAUT) ([note](../research/daily/2026-10-27.md)) · Triage, dismissed: NAUT's 424B5 is dated 18 Sep (a scanner date quirk, read anyway). ([triage](../watch/digests/2026-10-27-triage.md))
@@ -28,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for NAUT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $2.18 | -24.4% | -27.2% | +0.7% |  | 7 | live |
+| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $2.09 | -27.7% | -30.3% | -0.8% |  | 8 | live |

@@ -31,3 +31,5 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-11-02,TENX,2026-12-28,TENX: lead-plaintiff deadline in the securities class action,2027-01-15,1.79,43.7,2.0,0.82,113.8,1722,,open,,,,
 2026-11-02,PUSA,2026-12-30,PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic),2027-01-15,1.68,134.1,2.5,2.25,125.7,4968,,open,,,,
 2026-11-02,GPRO,2026-12-31,GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed),2027-01-15,0.93,32.2,1.0,0.3,34.3,41316,,open,,,,
+2026-11-05,ACB,2026-12-04,"ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)",2026-12-18,5.21,12.5,5.0,0.65,51.0,4374,,open,,,,
+2026-11-05,ACB,2026-12-23,ACB/OGI: target date for both shareholder meetings on the Organigram arrangement (T021),2027-01-15,5.21,15.6,5.0,0.68,66.7,5290,,open,,,,

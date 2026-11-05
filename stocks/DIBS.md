@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $5.47 (2026-11-04, ledger) · 1d +6.3%, 5d +15.5%, 20d +39.7% (market context, 2026-11-04)
-- **Since first found:** **+27.3%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +27.3% vs IWM +2.0% = **+25.3 pts** vs IWM; direction 0, tracked only (14 days)
-- **Peers / sympathy:** no flag (self 5d +15.5% vs peer median +7.8%). Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $5.57 (2026-11-05, ledger) · 1d +2.0%, 5d +14.8%, 20d +43.9% (market context, 2026-11-05)
+- **Since first found:** **+29.6%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +29.6% vs IWM +0.4% = **+29.2 pts** vs IWM; direction 0, tracked only (15 days)
+- **Peers / sympathy:** solo_move: DIBS +14.8% 5d vs peer median +3.8%; peers didn't move with it. Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- DIBS +15% (T005 not fired); CRMT +47% (lender relief ran to today).) ([note](../research/daily/2026-11-04.md))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `SCHEDULE 13D/A` 19 Oct; +39 older (Mar – Sep 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **DIBS** (1stdibs), 13D/A, takeable ($4.25; median $360k). - The Catsimatidis group (Red Apple / United Refining) bought 449,500 shares at $4.07 on… ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `holder_13d` (direction 0): Catsimatidis group (Red Apple / United Refining) to 7.8% after buying 449,500 at $4.07 on 15 Oct; average cost about $5.01; management-friendly, not activist; $4.25, no wire story; WATCH; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: 1stDibs Red Apple Stake (What a DIBS share has cost each disclosed buyer) ([note](../research/DIBS-2026-10-20.html)) · Research: Research: Tue 20 Oct 2026 (1. DIBS: a billionaire's family keeps buying a $143M marketplace below his own cost) ([note](../research/daily/2026-10-20.md))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for DIBS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.47 | +27.3% | +27.3% | +2.0% |  | 14 | live |
+| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.57 | +29.6% | +29.6% | +0.4% |  | 15 | live |

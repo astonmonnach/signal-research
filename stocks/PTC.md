@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $195.32 (2026-11-04, ledger) · 1d +0.7%, 5d +0.2%, 20d +0.9% (market context, 2026-11-04)
-- **Since first found:** **+1.6%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +1.2% vs IWM -0.7% = **+1.9 pts** vs IWM; direction 0, tracked only (29 days)
-  - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -7.6% 5d vs PTC +0.2%; peers moved, it didn't. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $194.82 (2026-11-05, ledger) · 1d -0.2%, 5d +0.0%, 20d +0.6% (market context, 2026-11-05)
+- **Since first found:** **+1.3%** (found 2026-10-05 via `8k_merger_agreement` at $192.26). From the next open $193.00: +0.9% vs IWM -2.2% = **+3.2 pts** vs IWM; direction 0, tracked only (30 days)
+  - 2 more ledger rows: see Performance since found
+- **Peers / sympathy:** missed_peer_move: peer median -9.2% 5d vs PTC +0.0%; peers moved, it didn't. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: PTC ANNOUNCES FOURTH FISCAL QUARTER AND FULL FISCAL YEAR 2026 RESULTS (PR Newswire) ([release](https://www.prnewswire.com/news-releases/ptc-announces-fourth-fiscal-quarter-and-full-fiscal-year-2026-results-302929708.html)) · Filings: `PREM14A` 3 Nov · Research: Research: Wed 4 Nov 2026 (- PTC: Schneider at $205, 5.0-5.6%, but closing runs to Q3 2027.) ([note](../research/daily/2026-11-04.md))
+- **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: merger vote (`PREM14A`) (5d before +0.0%, found day -0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/857005/000114036126041824/0001140361-26-041824-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Only three were above the ~3.5% cost hurdle (PTC, SMTI, GPRO), and each had a named risk.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `4` 16 Oct; +37 older (Feb – Oct 2026) first picked up
 - **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: PTC Announces Servigistics Renewal with U.S. Air Force (PR Newswire) ([release](https://www.prnewswire.com/news-releases/ptc-announces-servigistics-renewal-with-us-air-force-302908699.html))
@@ -29,5 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for PTC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $195.32 | +1.6% | +1.2% | -0.7% |  | 29 | live |
-| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $195.32 | +1.2% | +1.1% | +1.5% |  | 28 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +4.3% | +33.5% | $507.7M | $192.26 | $193.00 | $194.82 | +1.3% | +0.9% | -2.2% |  | 30 | live |
+| 2026-10-06 | `merger_arb` | 0 | +37.6% | +0.4% | $566.3M | $193.00 | $193.20 | $194.82 | +0.9% | +0.8% | -0.1% |  | 29 | live |
+| 2026-11-03 | `merger_vote` | 0 | +0.0% | -0.1% | $556.3M | $194.06 | $194.84 | $194.82 | +0.4% | -0.0% | -2.2% |  | 1 | live |

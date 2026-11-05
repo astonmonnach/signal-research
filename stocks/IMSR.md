@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `buyback` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $2.70 (2026-11-04, ledger) · 1d -5.6%, 5d -19.4%, 20d -26.0% (market context, 2026-11-04)
-- **Since first found:** **-16.1%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -16.7% vs IWM +2.5% = **-19.2 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $2.53 (2026-11-05, ledger) · 1d -12.0%, 5d -26.9%, 20d -25.7% (market context, 2026-11-05)
+- **Since first found:** **-21.4%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -21.9% vs IWM +0.9% = **-22.8 pts** vs IWM; direction 0, tracked only (20 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: IMSR -19.4% 5d vs peer median -2.1%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Peers / sympathy:** solo_move: IMSR -26.9% 5d vs peer median -12.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `S-3` ×2 3 Nov · Research: Research: Wed 4 Nov 2026 (- IMSR: $500M shelf, about 2.2x its value; re-read at EFFECT.) ([note](../research/daily/2026-11-04.md))
+- **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/2019804/000110465926122102/0001104659-26-122102-index.htm))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 30 Oct
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **IMSR**: a $25M buyback authorised (expires 22 Oct 2027), on about 105.9M shares. At $2.80-3.19 that is about 8% of the market value (arith). ([triage](../watch/digests/2026-10-27-triage.md)) · Logged as `buyback` (direction 0): $25M repurchase authorised 27 Oct, about 8% of the ~$300M market value at $2.80-3.19 (arith); fails TF1; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` 27 Oct, `4` 26 Oct · Research: Research: Tue 27 Oct 2026 (- **IMSR:**) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `4` 21 Oct · Research: Research: Thu 22 Oct 2026 (- **IMSR:** its 21 Oct Form 4 is an option grant, not a buy. Wednesday's +6.6% is still unexplained.) ([note](../research/daily/2026-10-22.md))
@@ -35,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.70 | -16.1% | -16.7% | +2.5% |  | 19 | live |
-| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.70 | -17.9% | -8.5% | +0.7% |  | 7 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.53 | -21.4% | -21.9% | +0.9% |  | 20 | live |
+| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.53 | -23.1% | -14.2% | -0.8% |  | 8 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $59.00 (2026-11-04, ledger) · 1d +3.0%, 5d +4.5%, 20d +8.4% (market context, 2026-11-04)
-- **Since first found:** **+8.4%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +8.5% vs IWM +2.2% = **+6.3 pts** vs IWM; direction 0, tracked only (27 days)
-  - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +4.5% vs peer median +3.4%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $59.86 (2026-11-05, ledger) · 1d +0.6%, 5d +2.0%, 20d +9.1% (market context, 2026-11-05)
+- **Since first found:** **+10.0%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +10.1% vs IWM +0.6% = **+9.5 pts** vs IWM; direction 0, tracked only (28 days)
+  - 2 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d +2.0% vs peer median +3.0%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 10 Nov 2026: CSR: merger vote (IRT 3.80 shares per CSR share)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,7 +18,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `425` 3 Nov, `8-K` 2 Nov, `10-Q` 2 Nov, `425` 2 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Centerspace Reports Third Quarter 2026 Financial & Operating Results (PR Newswire, published Mon 2 Nov) ([release](https://www.prnewswire.com/news-releases/centerspace-reports-third-quarter-2026-financial--operating-results-302926810.html))
+- **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before +2.6%, found day +1.2%) ([filing](https://www.sec.gov/Archives/edgar/data/798359/000079835926000095/centerspace093026exhibit991.htm))
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Options record:** the four open rows (SKYA, MG, CSR, LCII) have no real view, so each is set to "none"…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: +30 older (Apr – Oct 2026) first picked up
 - **[2026-10-08](../scans/2026-10-08.md#triage-notes)**: Triage: **CSR** (market-wide, merger arb): DEFM14A for IRT's all-stock deal (**3.800 IRT shares**). Gross spread 0.6%; both votes on **10 Nov**. ([triage](../watch/digests/2026-10-08-triage.md)) · Logged as `merger_arb` (direction 0): IRT 3.80x stock; 0.6% gross spread at $54.27 vs IRT $14.37; votes 10 Nov; tracked; source: daily research 8 Oct (research/daily/2026-10-08.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 8 Oct 2026 (3. CSR: Centerspace-IRT merger proxy, votes 10 Nov) ([note](../research/daily/2026-10-08.md))
@@ -30,5 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for CSR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $59.00 | +8.4% | +8.5% | +2.2% |  | 27 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $59.00 | +7.5% | +6.3% | +1.5% |  | 26 | live |
+| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $59.86 | +10.0% | +10.1% | +0.6% |  | 28 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $59.86 | +9.0% | +7.8% | -0.1% |  | 27 | live |
+| 2026-11-02 | `8k_strategic_review` | +1 | +2.6% | +1.2% | $12.6M | $59.17 | $59.90 | $59.86 | +1.2% | -0.1% | -0.7% | +0.6% | 2 | live |

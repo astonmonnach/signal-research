@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $6.68 (2026-11-04, ledger)
-- **Since first found:** **-24.7%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: -24.7% vs IWM +2.2% = **-26.9 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $11.44 (2026-11-05, ledger)
+- **Since first found:** **+29.1%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: +29.1% vs IWM +0.7% = **+28.5 pts** vs IWM; direction 0, tracked only (10 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1470683/000149315226049623/form6-k.htm))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 10 AEHL +34% no_news $11.49 218.5 yes -0.6% -33.5% -37.2) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **AVOIDs must use labels TF1 excludes:** GTBP, SWBI, AEHL and TNON were logged as supply_* labels outside…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): $100M at-the-market amendment, ~70% of Class A at $8.65, plus 15M warrants at $0.50; AVOID; source: daily research 23 Oct (research/daily/2026-10-23.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 23 Oct 2026 (- AEHL: a $100M at-the-market programme, about 70% of the Class A shares, plus 15M warrants at $0.50.) ([note](../research/daily/2026-10-23.md))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for AEHL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $6.68 | -24.7% | -24.7% | +2.2% |  | 9 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $11.44 | +29.1% | +29.1% | +0.7% |  | 10 | live |

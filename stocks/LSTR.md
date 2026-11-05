@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $149.65 (2026-11-04, ledger)
-- **Since first found:** **-11.5%** (found 2026-10-06 via `deal_peer` at $169.05). From the next open $166.81: -10.3% vs IWM +1.5% = **-11.8 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $150.76 (2026-11-05, ledger)
+- **Since first found:** **-10.8%** (found 2026-10-06 via `deal_peer` at $169.05). From the next open $166.81: -9.6% vs IWM -0.1% = **-9.5 pts** vs IWM; direction 0, tracked only (29 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/853816/000085381626000069/0000853816-26-000069-index.htm))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before -1.9%, found day +2.2%) ([filing](https://www.sec.gov/Archives/edgar/data/853816/000119312526434270/d176512dex991.htm))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_peer` (direction 0): RXO deal: -2.1% since Fri vs SPY +1.3%; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- **Second order:** rival brokers fell. HUBG −5.6%, JBHT −3.3%, LSTR −2.1%, XPO −1.1%, while SPY was +1.3%.) ([note](../research/daily/2026-10-06.md))
 
@@ -26,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for LSTR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | +3.5% | -1.3% | $60.5M | $169.05 | $166.81 | $149.65 | -11.5% | -10.3% | +1.5% |  | 28 | live |
-| 2026-10-27 | `8k_strategic_review` | +1 | -1.9% | +2.2% | $54.2M | $168.78 | $143.13 | $149.65 | -11.3% | +4.6% | +0.7% | +3.9% | 7 | live |
+| 2026-10-06 | `deal_peer` | 0 | +3.5% | -1.3% | $60.5M | $169.05 | $166.81 | $150.76 | -10.8% | -9.6% | -0.1% |  | 29 | live |
+| 2026-10-27 | `8k_strategic_review` | +1 | -1.9% | +2.2% | $54.2M | $168.78 | $143.13 | $150.76 | -10.7% | +5.3% | -0.8% | +6.2% | 8 | live |

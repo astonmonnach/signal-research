@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $36.05 (2026-11-04, ledger)
-- **Since first found:** **-23.0%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -23.9% vs IWM -0.7% = **-23.2 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $32.98 (2026-11-05, ledger)
+- **Since first found:** **-29.6%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -30.4% vs IWM -2.2% = **-28.2 pts** vs IWM; direction 0, tracked only (30 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- ELMT -14%, alongside MP -12% (likely a sector move). Its insider window is clean through 4 Nov and closes 5…) ([note](../research/daily/2026-11-04.md))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: MP Materials to Participate in Upcoming Conferences (Business Wire) ([release](http://www.businesswire.com/news/home/20261027151849/en/MP-Materials-to-Participate-in-Upcoming-Conferences/?feedref=JjAwJuNHiystnCoBq_hl-WM0HSwaiJOV4ew37VhmA-V_AFChGO3y0nEP3RiLje9i7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LP6oD-t3eB0qV-nJQ-WeFyC2oJ72yfyvUvvaxllIYV0HQ==))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Elmet Lock-up Supply (MP) ([note](../research/ELMT-2026-10-19.html))
 - **[2026-10-08](../scans/2026-10-08.md#press-releases)**: Press: MP Materials Announces Date for Third Quarter 2026 Financial Results and Webcast (Business Wire) ([release](http://www.businesswire.com/news/home/20261008452637/en/MP-Materials-Announces-Date-for-Third-Quarter-2026-Financial-Results-and-Webcast/?feedref=JjAwJuNHiystnCoBq_hl-WM0HSwaiJOV4ew37VhmA-V_AFChGO3y0nEP3RiLje9i7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LP6oD-t3eB0qV-nJQ-WeFyC2oJ72yfyvUvvaxllIYV0HQ==))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for MP ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $36.05 | -23.0% | -23.9% | -0.7% |  | 29 | live |
+| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $32.98 | -29.6% | -30.4% | -2.2% |  | 30 | live |

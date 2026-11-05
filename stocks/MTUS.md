@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** open position (trade #1); [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $17.61 (2026-11-04, ledger) · 1d -10.6%, 5d -16.8%, 20d -11.8% (market context, 2026-11-04)
-- **Since first found:** **-6.5%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -9.7% vs IWM +0.7% = **-10.4 pts** vs IWM; direction +1 → excess -10.4% (37 days)
+- **Latest price:** $17.30 (2026-11-05, ledger) · 1d -3.2%, 5d -19.3%, 20d -12.0% (market context, 2026-11-05)
+- **Since first found:** **-8.2%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -11.3% vs IWM -0.8% = **-10.4 pts** vs IWM; direction +1 → excess -10.4% (38 days)
   - 1 more ledger row: see Performance since found
-- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $17.61 (2026-11-04) -9.1%, P&L if sold, after all fees **$-8.43** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
-- **Peers / sympathy:** solo_move: MTUS -16.8% 5d vs peer median -1.2% (steel -2.3%, defence metals +2.1%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Position:** trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $17.30 (2026-11-05) -10.7%, P&L if sold, after all fees **$-9.36** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- **Peers / sympathy:** solo_move: MTUS -19.3% 5d vs peer median -6.6% (steel -6.7%, defence metals -6.5%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [thesis](../ideas/MTUS.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -135,7 +135,8 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Metallus Announces Third-Quarter 2026 Results (Company IR, published Mon 2 Nov) ([release](https://investors.metallus.com/news/news-details/2026/Metallus-Announces-Third-Quarter-2026-Results/default.aspx)) · Calendar: MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close) ([calendar](../calendar/catalyst-dates.ics)) · Calendar: MTUS: Q3 call 9am New York = 14:00 UK ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 3 Nov, `144` ×2 2 Nov, `8-K` 2 Nov · Research: Research: Wed 4 Nov 2026 (2. MTUS (open position): the Q4 guide is what the market sold) ([note](../research/daily/2026-11-04.md))
+- **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Metallus Announces Third-Quarter 2026 Results (Company IR, published Mon 2 Nov) ([release](https://investors.metallus.com/news/news-details/2026/Metallus-Announces-Third-Quarter-2026-Results/default.aspx)) · Calendar: MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close) ([calendar](../calendar/catalyst-dates.ics)) · Calendar: MTUS: Q3 call 9am New York = 14:00 UK ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 3 Nov 2026 (- **MTUS results (open position):**) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md)**: Calendar: MTUS: Q3 results after the close (open position, trade #1) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Options record:** three new rows (MTUS Q3 on 2 and 3 Nov, NKLR's 16 Nov AGM) set to **none**. MTUS: we…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **MTUS:** $20.38, +5.2% from entry; exit line $17.00, 19.9% away.) ([note](../research/daily/2026-10-26.md))
@@ -162,9 +163,9 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $17.61 | -6.5% | -9.7% | +0.7% | -10.4% | 37 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $17.61 | -16.3% | -16.7% | -0.7% |  | 29 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $17.30 | -8.2% | -11.3% | -0.8% | -10.4% | 38 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $17.30 | -17.8% | -18.1% | -2.2% |  | 30 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 
-- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $17.61 (2026-11-04) -9.1%, P&L if sold, after all fees **$-8.43** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00
+- trade #1 (S1_CONTRACT_MCAP) OPEN since 2026-10-01: LONG 3 @ $19.368; at $17.30 (2026-11-05) -10.7%, P&L if sold, after all fees **$-9.36** (fees so far $2.58 + est. $0.58 to sell); exit line: daily close below $17.00

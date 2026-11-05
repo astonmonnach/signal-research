@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $8.30 (2026-11-04, ledger)
-- **Since first found:** **-5.8%** (found 2026-10-28 via `linked_peer` at $8.81). From the next open $8.75: -5.2% vs IWM -0.0% = **-5.1 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $8.47 (2026-11-05, ledger)
+- **Since first found:** **-3.9%** (found 2026-10-28 via `linked_peer` at $8.81). From the next open $8.75: -3.2% vs IWM -1.6% = **-1.6 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: ImmunityBio Announces First Patients in Europe Treated with ANKTIVA® Plus BCG for BCG-unresponsive Non-Muscle… (Business Wire) ([release](http://www.businesswire.com/news/home/20261104114389/en/ImmunityBio-Announces-First-Patients-in-Europe-Treated-with-ANKTIVA%C2%AE-Plus-BCG-for-BCG-unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Carcinoma-in-Situ/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Linked names:** ALLO, CABA, FATE, IBRX, KYTX, NKTX, SANA (named competitors in the 10-K) and LYCA (ARTV…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-16](../scans/2026-10-16.md#press-releases)**: Press: ImmunityBio Reports Phase 3 Data Showing 84% Cystectomy Avoidance at Three Years and Complete Responses… (Business Wire) ([release](http://www.businesswire.com/news/home/20261016061704/en/ImmunityBio-Reports-Phase-3-Data-Showing-84-Cystectomy-Avoidance-at-Three-Years-and-Complete-Responses-Beyond-53-Months-with-ANKTIVA%C2%AE-Plus-BCG-in-BCG-Unresponsive-NMIBC-With-CIS-With-or-Without-Papillary-Tumors/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for IBRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -1.6% | +2.1% | $144.7M | $8.81 | $8.75 | $8.30 | -5.8% | -5.2% | -0.0% |  | 6 | live |
+| 2026-10-28 | `linked_peer` | 0 | -1.6% | +2.1% | $144.7M | $8.81 | $8.75 | $8.47 | -3.9% | -3.2% | -1.6% |  | 7 | live |

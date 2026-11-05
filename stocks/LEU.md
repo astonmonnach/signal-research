@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $89.26 (2026-11-04, ledger)
-- **Since first found:** **-29.7%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -27.8% vs IWM +2.5% = **-30.3 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $88.59 (2026-11-05, ledger)
+- **Since first found:** **-30.2%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -28.4% vs IWM +0.9% = **-29.2 pts** vs IWM; direction 0, tracked only (20 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`S-3ASR`) ([filing](https://www.sec.gov/Archives/edgar/data/1065059/000110465926121326/0001104659-26-121326-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Centrus to Webcast Conference Call on November 5 at 8:30 a.m. ET (PR Newswire) ([release](https://www.prnewswire.com/news-releases/centrus-to-webcast-conference-call-on-november-5-at-830-am-et-302917455.html))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear fuel): -17.7% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Centrus (LEU) $142.09 $117.00 -17.7%) ([note](../research/daily/2026-10-15.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEU ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $89.26 | -29.7% | -27.8% | +2.5% |  | 19 | live |
+| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $88.59 | -30.2% | -28.4% | +0.9% |  | 20 | live |

@@ -6,11 +6,12 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.75 (2026-11-04, ledger) · 1d +0.5%, 5d -0.3%, 20d +4.3% (market context, 2026-11-04)
-- **Since first found:** **+0.7%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +0.8% vs IWM +2.7% = **-2.0 pts** vs IWM; direction 0, tracked only (13 days)
-  - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +9.2% 5d vs CPAC -0.3%; peers moved, it didn't. Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $12.73 (2026-11-05, ledger) · 1d +0.0%, 5d -0.2%, 20d +3.9% (market context, 2026-11-05)
+- **Since first found:** **+0.6%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +0.6% vs IWM +1.2% = **-0.5 pts** vs IWM; direction 0, tracked only (14 days)
+  - 2 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -0.2% vs peer median +4.5%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Fri 20 Nov 2026: CPAC: Holcim US tender expires 4pm New York (T011)
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,6 +19,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `6-K` ×2 3 Nov, `SC 14D9/A` 3 Nov, `6-K` 2 Nov · Research: Research: Wed 4 Nov 2026 (- CPAC: 2.3%. HZO: 0.7%. SAFT: 0.7%.) ([note](../research/daily/2026-11-04.md))
+- **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) (5d before -0.5%, found day -0.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000114036126041643/0001140361-26-041643-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026115151/ea031064001ex99-1.htm))
+- **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026114965/ea031054901ex99-1.htm))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `6-K` 30 Oct, `6-K` ×2 29 Oct
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026113922/ea031025501ex99-1.htm))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026113499/ea031007701ex99-1.htm))
@@ -37,5 +41,6 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.75 | +0.7% | +0.8% | +2.7% |  | 13 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.75 | -0.2% | -0.2% | +2.7% |  | 12 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.73 | +0.6% | +0.6% | +1.2% |  | 14 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.73 | -0.3% | -0.4% | +1.1% |  | 13 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.73 | +0.3% | +0.2% | -2.2% |  | 1 | live |

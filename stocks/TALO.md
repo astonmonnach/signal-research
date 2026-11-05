@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_selling` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $15.55 (2026-11-04, ledger) · 1d -3.2%, 5d -14.4%, 20d -6.5% (market context, 2026-11-04)
-- **Since first found:** **-8.7%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: -9.4% vs IWM +4.0% = **-13.4 pts** vs IWM; direction 0, tracked only (20 days)
-- **Peers / sympathy:** no flag (self 5d -14.4% vs peer median -9.4%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-04)
+- **Latest price:** $15.76 (2026-11-05, ledger) · 1d +0.6%, 5d -11.8%, 20d -7.3% (market context, 2026-11-05)
+- **Since first found:** **-7.5%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: -8.1% vs IWM +2.4% = **-10.5 pts** vs IWM; direction 0, tracked only (21 days)
+- **Peers / sympathy:** no flag (self 5d -11.8% vs peer median -9.2%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 4 Nov, `8-K` 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Talos Energy Announces Third Quarter 2026 Operational and Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/talos-energy-announces-third-quarter-2026-operational-and-financial-results-302928376.html))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- TALO: Slim sold 1.5M more shares.) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 29 Oct, `4` 28 Oct
@@ -36,4 +37,4 @@ Every [ledger](../ledger/LEDGER.md) row for TALO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $15.55 | -8.7% | -9.4% | +4.0% |  | 20 | live |
+| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $15.76 | -7.5% | -8.1% | +2.4% |  | 21 | live |
