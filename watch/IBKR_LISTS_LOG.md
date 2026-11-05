@@ -69,3 +69,9 @@ read back from IBKR and equal to the register's 74 active rows.
 **Kept (22):** ELMT, TWST, CRMT, GOVX, SNTI, DYAI, GXAI, VHUB, FLD, GWHT (the old GWH, now OTC), POLA, CYAB, PUSA, TALO, SKYX, MOVE, IONQ, RXRX, GEMI, NKLR, BRUN and XRPN.
 - On 27 Oct I wrongly said eight of these (IONQ, RXRX, GEMI, SKYX, MOVE, NKLR, PUSA, TALO) were not AVOIDs.
 - In fact they are AVOIDs from the 12-18 Oct triage that were never added to the scoring file. The register now holds them.
+
+## 2026-11-05
+
+- **AVOID (114):** 162 -> 185. Added the 23 register rows dated 5 Nov: STIM, GRO, DSGN, ECOR, FTCI, CLNN, HMH, QNRX, CODX, GMHS, MCRB, PRPL, OCGN, EVAX, FISN, GRML, BIVI, SMX, DAIO, ARAY, JSPR, EHTH, ANVS. Read back: 185.
+- **STRAT activist (112):** +VVR (T022). Read back: ESRT, SRTA, TCPC, XPOF, VVR.
+- Approved by the trader in chat ("yeah make the IBKR changes").
