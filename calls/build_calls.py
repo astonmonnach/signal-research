@@ -9,6 +9,7 @@ named control ticker.
 Run:  python calls/build_calls.py            -> calls/README.md (the public record), calls/marks.csv
       python calls/build_calls.py --post ID  -> prints the facts block for an X post (you write the post)
       python calls/build_calls.py --announce -> also posts new and newly closed calls to Discord #calls (once each)
+      python calls/build_calls.py --weekly   -> Fridays: calls/weekly/<date>.md and the X thread for the weekly scoreboard
 
 calls/CALLS.csv columns:
   id, posted_utc, ticker, direction (+1 long / -1 short), thesis, dossier, invalidation_close
@@ -141,6 +142,88 @@ def fmt(v, suf="%"):
     return "" if v in (None, "") else f"{float(v):+.1f}{suf}"
 
 
+# On X these cashtags open a crypto token, so the weekly thread writes them without the $.
+NOT_CASHTAG = {"NCT"}
+
+
+def tag(t):
+    return t if t in NOT_CASHTAG else "$" + t
+
+
+def weekly(marked):
+    """Friday scoreboard: calls/weekly/<last session>.md plus an X thread (each post under 280 characters)."""
+    live = [m for m in marked if "ret_pct" in m]
+    asof = max(dt.date.fromisoformat(m["end_date"]) for m in live)
+    wk = asof - dt.timedelta(days=7)
+    opn = [m for m in live if m["status"] == "open"]
+    closed = [m for m in live if m["status"].startswith("closed")]
+    xs = [m["excess_bench"] for m in live if m.get("excess_bench") is not None]
+    cs = [m["excess_control"] for m in live if m.get("excess_control") is not None]
+    stock = lambda m: m["ret_pct"] * int(m["direction"])  # the stock's own move since entry
+
+    def line(m):
+        state = "open" if m["status"] == "open" else "closed"
+        return (f"#{m['id']} {side_label(m).split()[0]} {tag(m['ticker'])}: stock {fmt(stock(m))}, "
+                f"{fmt(m['excess_bench'], ' pts')} vs {tag(m['bench'])}, {state}")
+
+    def to_line(m):
+        """How far the price must move to hit the invalidation close (positive = room left)."""
+        inv, p = float(m["invalidation_close"]), m["end_price"]
+        return (inv / p - 1) * 100 if int(m["direction"]) < 0 else (1 - inv / p) * 100
+
+    new = [m for m in live if dt.date.fromisoformat(m["entry_date"]) > wk]
+    shut = [m for m in closed if dt.date.fromisoformat(m["end_date"]) > wk]
+    near = sorted((m for m in opn if m.get("invalidation_close")), key=to_line)[:3]
+    due = [m for m in opn if m.get("review_date") and asof < dt.date.fromisoformat(m["review_date"]) <= asof + dt.timedelta(days=7)]
+    young = sum(1 for m in live if m["days"] < 28)
+    day = f"{asof.day} {asof:%b}"
+
+    head = (f"Weekly scoreboard, w/e {day}: {len(live)} public calls, {len(opn)} open, {len(closed)} closed "
+            f"({sum(m['ret_pct'] > 0 for m in closed)} right, {sum(m['ret_pct'] <= 0 for m in closed)} wrong). "
+            f"Average vs {tag('IWM')} {fmt(mean(xs), ' pts')}, beat it {sum(x > 0 for x in xs)}/{len(xs)}. "
+            f"Vs each call's control {fmt(mean(cs), ' pts')}. {young} of {len(live)} are under 4 weeks old. Losers stay up.")
+    thread, cur = [head], ""
+    for s in [line(m) for m in live]:
+        if len(cur) + len(s) + 1 > 270:
+            thread.append(cur); cur = ""
+        cur = (cur + "\n" + s).strip()
+    thread.append(cur)
+    week = []
+    if shut: week.append("Closed this week: " + "; ".join(f"{tag(m['ticker'])}, call {fmt(m['ret_pct'])} ({m['status'][8:]})" for m in shut) + ".")
+    if new: week.append("New this week: " + ", ".join(f"#{m['id']} {tag(m['ticker'])}" for m in new) + ".")
+    if near: week.append("Closest to the exit line: " + ", ".join(f"{tag(m['ticker'])} {to_line(m):.0f}% away" for m in near) + ".")
+    cur = ""
+    for s in week:
+        if len(cur) + len(s) + 1 > 280:
+            thread.append(cur); cur = ""
+        cur = (cur + " " + s).strip()
+    if cur: thread.append(cur)
+    thread.append("AVOID names usually fall, so the real test is each call vs its control. "
+                  "Every call, losers included: github.com/astonmonnach/signal-research/tree/main/calls")
+    assert all(len(t) <= 280 for t in thread), [len(t) for t in thread]
+
+    L = [f"# Weekly scoreboard: week ending {asof:%a %d %b %Y}", "",
+         f"- Calls: **{len(live)}** · open {len(opn)} · closed {len(closed)} "
+         f"({sum(m['ret_pct'] > 0 for m in closed)} right, {sum(m['ret_pct'] <= 0 for m in closed)} wrong)",
+         f"- Average vs the market: **{fmt(mean(xs), ' pts')}** · beat it {sum(x > 0 for x in xs)}/{len(xs)}",
+         f"- Average vs each call's control: **{fmt(mean(cs), ' pts')}** · beat it {sum(x > 0 for x in cs)}/{len(cs)}",
+         f"- {young} of {len(live)} calls are under 4 weeks old; judge the record after 20+ closed calls (rule 5).", "",
+         "## This week", ""] + [f"- {w}" for w in week[:-1]] + \
+        ([f"- Review dates in the next 7 days: " + ", ".join(f"{m['ticker']} {m['review_date']}" for m in due)] if due else []) + \
+        ["", "## Every call", "", "| # | call | entry | now / exit | stock | vs market | vs control | to exit line | status |",
+         "|---|---|---|---|---|---|---|---|---|"]
+    for m in live:
+        dist = f"{to_line(m):.0f}%" if m["status"] == "open" and m.get("invalidation_close") else ""
+        L.append(f"| {m['id']} | {side_label(m)} {m['ticker']} | ${m['entry']:.2f} ({m['entry_date']}) | ${m['end_price']:.2f} | "
+                 f"{fmt(stock(m))} | {fmt(m['excess_bench'], ' pts')} | {fmt(m['excess_control'], ' pts')} ({m['control']}) | {dist} | {m['status']} |")
+    L += ["", "## X thread", ""] + [f"```\n{t}\n```" for t in thread] + [""]
+    out = ROOT / f"calls/weekly/{asof}.md"
+    out.parent.mkdir(exist_ok=True)
+    out.write_text("\n".join(L), encoding="utf-8")
+    print("\n\n".join(thread))
+    print(f"\nweekly -> {out.relative_to(ROOT)}")
+
+
 def main():
     rows = list(csv.DictReader(open(CALLS, encoding="utf-8"))) if CALLS.exists() else []
     if "--post" in sys.argv:
@@ -203,6 +286,8 @@ def main():
     if "--announce" in sys.argv:
         announce(rows, marked)
     print(f"calls: {len(rows)} total, {len(live)} marked -> calls/README.md, calls/marks.csv")
+    if "--weekly" in sys.argv:
+        weekly(marked)
 
 
 if __name__ == "__main__":
