@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $5.14 (2026-11-05, ledger) · 1d -1.6%, 5d +26.4%, 20d +16.4% (market context, 2026-11-05)
-- **Since first found:** **+29.6%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +29.3% vs IWM -0.3% = **+29.6 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $5.09 (2026-11-05, ledger) · 1d -3.0%, 5d +24.6%, 20d +14.8% (market context, 2026-11-05)
+- **Since first found:** **+28.3%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +28.0% vs IWM -0.9% = **+28.9 pts** vs IWM; direction 0, tracked only (15 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ACB +26.4% 5d vs peer median +3.0%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** solo_move: ACB +24.6% 5d vs peer median +2.2%; peers didn't move with it. Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-05)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 12 Nov 2026: ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
@@ -37,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.14 | +29.6% | +29.3% | -0.3% |  | 15 | live |
-| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.21 | $5.14 | -1.8% | -1.2% | -2.7% |  | 0 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.09 | +28.3% | +28.0% | -0.9% |  | 15 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.21 | $5.09 | -2.8% | -2.2% | -3.3% |  | 0 | live |
