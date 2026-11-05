@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $131.16 (2026-11-05, ledger)
-- **Since first found:** **-6.7%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -6.9% vs IWM -2.2% = **-4.6 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $130.36 (2026-11-05, ledger)
+- **Since first found:** **-7.3%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -7.4% vs IWM -3.0% = **-4.4 pts** vs IWM; direction 0, tracked only (30 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for CHRW ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $131.16 | -6.7% | -6.9% | -2.2% |  | 30 | live |
-| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $131.16 | -2.9% | -3.0% | -0.1% |  | 29 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $131.16 | +2.8% | +1.9% | -1.6% |  | 7 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $130.36 | -7.3% | -7.4% | -3.0% |  | 30 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $130.36 | -3.5% | -3.6% | -0.9% |  | 29 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $130.36 | +2.2% | +1.3% | -2.4% |  | 7 | live |

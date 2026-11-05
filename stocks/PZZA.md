@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13g` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $19.62 (2026-11-05, ledger)
-- **Since first found:** **+7.6%** (found 2026-10-21 via `holder_13g` at $18.24). From the next open $18.43: +6.5% vs IWM +1.2% = **+5.3 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $19.81 (2026-11-05, ledger)
+- **Since first found:** **+8.6%** (found 2026-10-21 via `holder_13g` at $18.24). From the next open $18.43: +7.5% vs IWM +0.3% = **+7.2 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for PZZA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `holder_13g` | 0 | -3.0% | -2.6% | $27.1M | $18.24 | $18.43 | $19.62 | +7.6% | +6.5% | +1.2% |  | 14 | live |
+| 2026-10-21 | `holder_13g` | 0 | -3.0% | -2.6% | $27.1M | $18.24 | $18.43 | $19.81 | +8.6% | +7.5% | +0.3% |  | 14 | live |
