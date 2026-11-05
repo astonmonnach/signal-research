@@ -164,3 +164,26 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-04,SPRC,Up to $10M notes at 85% of the lowest 20-day VWAP plus 200% warrants,ongoing_supply,no,active,2026-11-04,,,research/daily/2026-11-04.md
 2026-11-04,YOUL,Floating-price convertible for 93.8% of Class A,ongoing_supply,no,active,2026-11-04,,,research/daily/2026-11-04.md
 2026-11-04,MERC,Prepackaged Chapter 11 by 9 Nov; equity gets 8.5% of new common,distress,no,active,2026-11-04,,,research/daily/2026-11-04.md
+2026-11-05,STIM,Repeat going concern; lender revenue covenant projected to fail at Mar 2027 on $65.0M debt; $33.1M ATM left (15.7% of value),distress,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,GRO,Repeat going concern; $125M ATM plus $75M Alumni equity line vs ~$104M value (ATM likely baby-shelf capped),ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,DSGN,"Jefferies ATM raised to $200M ($133.7M left, 19.6% of value); new $300M S-3 pending; no distress",ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,ECOR,Repeat going concern; $15.7M ATM left (~20% of value),ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,FTCI,"Repeat going concern; Lincoln Park line ~$18.1M left (~72% of value), usable only at $1.00+",ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,CLNN,Repeat going concern plus Canaccord ATM (size left not stated),ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,HMH,"Resale of up to 31,891,652 Class B shares (2.61x the Class A) live; Q3 product revenue -69%",holder_selling,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,QNRX,New $150M shelf effective 4 Nov plus $11.0M Leerink ATM (~58% of ADSs),ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,CODX,S-3 resale of 39.6M J.J. Astor conversion shares vs 9.49M outstanding (417%) at 90% of lowest VWAP,ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,GMHS,~24.5M Class A shares at $0.80 for Techforge; resale due within 60 days of closing,deal_dilution,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,MCRB,Repeat going concern plus new Aug 2026 sales agreement,ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,PRPL,Repeat going concern,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,OCGN,Repeat going concern; under $1,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,EVAX,"ATM in use: 201,198 ADSs sold 19-21 Oct",ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,FISN,"Repeat going concern and non-reliance on past accounts; $300M S-3 filed (3.4x value), re-read at EFFECT",distress,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,GRML,Resale of 1.4M merger shares effective (10.2%) after serial registered directs Aug-Sep,holder_selling,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,BIVI,"Offering of 2,962,500 shares plus pre-funded warrants at $1.60 on 5 Nov (34% of non-affiliate shares)",one_off_offering,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,ANVS,Unit offering with warrants; NYSE 802.01B notice 29 Oct; -40.8% on 5 Nov,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,SMX,2.8:1 reverse split from 9 Nov,distress,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,DAIO,$13.25M convertible debentures plus shares for the V-Tek and A&J acquisitions (Form D),deal_dilution,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,ARAY,1-for-40 reverse split 9 Nov; TCW $40M term loan swapped for convertible preferred; goodwill impairment,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,JSPR,1-for-30 reverse split 6 Nov,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,EHTH,Possible reverse split to regain the Nasdaq $1 minimum,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md

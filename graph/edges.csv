@@ -216,3 +216,11 @@ date,a,b,type,detail,source
 2026-11-04,GRRR,fund:Lind Fund III,holder_13d,9.99%: floating-note holder,https://www.sec.gov/Archives/edgar/data/1903145/000121390026114094/ea0310294-6k_gorilla.htm
 2026-11-04,NAUT,fund:Perceptive Advisors,holder_13d,"selling in the open market, below 5%",https://www.sec.gov/Archives/edgar/data/1808805/000119312526445289/xslSCHEDULE_13D_X02/primary_doc.xml
 2026-11-04,PTC,co:Schneider Electric,merger,$205 cash,https://www.sec.gov/Archives/edgar/data/857005/000114036126041824/ny20084401x1_prem14a.htm
+2026-11-05,VVR,fund:Saba Capital,holder_13d,"5.18%, $23.06M bought in the open market 4 Sep-3 Nov; aims include buybacks, tenders, liquidation",https://www.sec.gov/Archives/edgar/data/1059386/000106299326005733/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-04,HELE,SPB,counterparty,"Empower Brands (SPB and Oaktree) $37 cash proposal, ~4.5% stake; board rejected",https://www.sec.gov/Archives/edgar/data/109177/000095010326016905/dp256289_ex9901.htm
+2026-11-04,MNRO,IEP,holder_13d,"Icahn Enterprises 16.92% (13D, Oct 2025); rights plan extended to 1 Nov 2027",https://www.sec.gov/Archives/edgar/data/876427/000153949725002871/xslSCHEDULE_13D_X01/primary_doc.xml
+2026-11-04,LFCR,fund:Webster Equity Partners,merger,$6.28 cash plus CVR; HSR early termination 4 Nov,https://www.sec.gov/Archives/edgar/data/1005286/000114036126037767/ef20082009_8k.htm
+2026-11-04,MDA,co:CSG (Czechoslovak Group),holder_13d,9.5% plus a cash-settled swap from 3 Nov; bank may hedge by buying to 31 Aug 2027,https://www.sec.gov/Archives/edgar/data/1857047/000121390026115918/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-04,HMH,BKR,counterparty,"Baker Hughes and Akastor: resale of up to 31,891,652 Class B shares registered",https://www.sec.gov/Archives/edgar/data/2021880/000162828026070117/a424b3.htm
+2026-11-05,CRMT,fund:Silver Point Finance,counterparty,lender: waiver and liquidity relief extended to 9 Nov,https://www.sec.gov/Archives/edgar/data/799850/000117184326007147/f8k_110526.htm
+2026-11-04,SHLS,ARRY,merger,"1.6931 ARRY per SHLS, all stock; outside date 4 May 2027",https://www.sec.gov/Archives/edgar/data/1831651/000119312526446356/d130123d8k.htm
