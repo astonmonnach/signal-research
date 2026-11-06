@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $5.96 (2026-11-05, ledger) · 1d +7.2%, 5d +20.6%, 20d +51.3% (market context, 2026-11-05)
-- **Since first found:** **+38.6%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +38.6% vs IWM -0.9% = **+39.5 pts** vs IWM; direction 0, tracked only (15 days)
-- **Peers / sympathy:** solo_move: DIBS +20.6% 5d vs peer median +5.9%; peers didn't move with it. Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Latest price:** $6.05 (2026-11-06, ledger) · 1d +0.2%, 5d +22.5%, 20d +60.0% (market context, 2026-11-06)
+- **Since first found:** **+40.7%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +40.7% vs IWM -1.8% = **+42.5 pts** vs IWM; direction 0, tracked only (16 days)
+- **Peers / sympathy:** solo_move: DIBS +22.5% 5d vs peer median +4.0%; peers didn't move with it. Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **DIBS**: T005 **fired** on the buyback leg, a $5.0M authorisation (2.4% of value). GMV of $92.6M missed the $94M leg. ([triage](../watch/digests/2026-11-05-triage.md)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (3. DIBS: the trigger fired, but on the news itself) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- DIBS +15% (T005 not fired); CRMT +47% (lender relief ran to today).) ([note](../research/daily/2026-11-04.md))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `SCHEDULE 13D/A` 19 Oct; +39 older (Mar – Sep 2026) first picked up
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for DIBS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.96 | +38.6% | +38.6% | -0.9% |  | 15 | live |
+| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $6.05 | +40.7% | +40.7% | -1.8% |  | 16 | live |

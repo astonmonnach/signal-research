@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $6.01 (2026-11-05, ledger)
-- **Since first found:** **+1.4%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: +1.4% vs IWM -2.1% = **+3.5 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $6.04 (2026-11-06, ledger)
+- **Since first found:** **+2.0%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: +2.0% vs IWM -3.0% = **+5.1 pts** vs IWM; direction 0, tracked only (9 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- VVR -> Saba -> **LEO** (Saba about 10.5%, buying at an 8-10% NAV discount).) ([note](../research/daily/2026-11-05.md))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Caveats:** the sample is tiny, 14 of the 18 were held under 20 trading days, and the found dates were not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `holder_buying` (direction 0): Saba 10.5% buying a muni closed-end fund at an 8-10% NAV discount; passes TF1 narrowly; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000382/0001510281-26-000382-index.htm)) · Research: Research: Tue 27 Oct 2026 (- CPSH to fund:Global Value Investment Corp, LEO to fund:Saba Capital, AZUL to AAL (holder_13d).) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000377/0001510281-26-000377-index.htm))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $6.01 | +1.4% | +1.4% | -2.1% |  | 8 | live |
+| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $6.04 | +2.0% | +2.0% | -3.0% |  | 9 | live |

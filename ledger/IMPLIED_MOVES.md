@@ -23,11 +23,11 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-21 | WHF | WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corre | 2026-11-09 | 2026-11-20 | $7.61 | ±10.5% | $0.80 @ 7.5 | 174.9% | none | open |  |
 | 2026-10-20 | CSR | CSR: merger vote (IRT 3.80 shares per CSR share) | 2026-11-10 | 2026-11-20 | $54.87 | ±7.7% | $4.22 @ 55.0 | 119.1% | none | open |  |
 | 2026-10-06 | HZO | HZO merger vote ($53 cash) | 2026-11-11 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
-| 2026-10-29 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-11-12 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | - | open |  |
-| 2026-11-02 | ACB | ACB: Q2 FY27 results before the open, call 8:00am New York ( | 2026-11-12 | 2026-11-20 | $4.10 | ±14.0% | $0.57 @ 4.0 | 93.9% | - | open |  |
-| 2026-11-02 | SKYA | SKYA: tender expiry confirmed in Amendment No. 4, which drop | 2026-11-12 | 2026-11-20 | $2.98 | ±31.1% | $0.93 @ 2.5 | 41.0% | - | open |  |
+| 2026-10-29 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-11-12 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | smaller | open |  |
+| 2026-11-02 | ACB | ACB: Q2 FY27 results before the open, call 8:00am New York ( | 2026-11-12 | 2026-11-20 | $4.10 | ±14.0% | $0.57 @ 4.0 | 93.9% | smaller | open |  |
+| 2026-11-02 | SKYA | SKYA: tender expiry confirmed in Amendment No. 4, which drop | 2026-11-12 | 2026-11-20 | $2.98 | ±31.1% | $0.93 @ 2.5 | 41.0% | smaller | open |  |
 | 2026-10-28 | NKLR | NKLR: annual meeting (includes extending the time to prepare | 2026-11-16 | 2026-11-20 | $2.13 | ±32.9% | $0.70 @ 2.5 | 42.4% | none | open |  |
-| 2026-11-02 | ARTV | ARTV: Q3 10-Q due (first wind-down cost estimate? T018) | 2026-11-16 | 2026-11-20 | $4.21 | ±22.0% | $0.93 @ 5.0 | 83.3% | - | open |  |
+| 2026-11-02 | ARTV | ARTV: Q3 10-Q due (first wind-down cost estimate? T018) | 2026-11-16 | 2026-11-20 | $4.21 | ±22.0% | $0.93 @ 5.0 | 83.3% | none | open |  |
 | 2026-10-26 | SYNA | SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00  | 2026-11-17 | 2026-11-20 | $117.39 | ±2.5% | $2.90 @ 115.0 | 71.4% | smaller | open |  |
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | smaller | open |  |
 | 2026-10-20 | LCII | LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York);  | 2026-11-18 | 2026-11-20 | $81.92 | ±10.5% | $8.30 @ 80.0 | 81.8% | none | open |  |
@@ -37,6 +37,6 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-13 | HZO | HZO earliest close | 2026-12-07 | 2027-01-15 | $52.33 | ±6.1% | $3.18 @ 50.0 | 82.9% | smaller | open |  |
 | 2026-10-16 | RYAM | RYAM: company promised a clear path forward in Q4 2026 | 2026-12-15 | 2026-12-18 | $7.11 | ±20.3% | $1.38 @ 7.0 | 100.0% | none | open |  |
 | 2026-11-05 | ACB | ACB/OGI: target date for both shareholder meetings on the Or | 2026-12-23 | 2027-01-15 | $5.21 | ±15.6% | $0.68 @ 5.0 | 66.7% | - | open |  |
-| 2026-11-02 | TENX | TENX: lead-plaintiff deadline in the securities class action | 2026-12-28 | 2027-01-15 | $1.79 | ±43.7% | $0.82 @ 2.0 | 113.8% | - | open |  |
-| 2026-11-02 | PUSA | PUSA: second third of merger lock-up shares released (90 day | 2026-12-30 | 2027-01-15 | $1.68 | ±134.1% | $2.25 @ 2.5 | 125.7% | - | open |  |
-| 2026-11-02 | GPRO | GPRO: outside date for the $1.14 cash plus stock takeover (a | 2026-12-31 | 2027-01-15 | $0.93 | ±32.2% | $0.30 @ 1.0 | 34.3% | - | open |  |
+| 2026-11-02 | TENX | TENX: lead-plaintiff deadline in the securities class action | 2026-12-28 | 2027-01-15 | $1.79 | ±43.7% | $0.82 @ 2.0 | 113.8% | none | open |  |
+| 2026-11-02 | PUSA | PUSA: second third of merger lock-up shares released (90 day | 2026-12-30 | 2027-01-15 | $1.68 | ±134.1% | $2.25 @ 2.5 | 125.7% | none | open |  |
+| 2026-11-02 | GPRO | GPRO: outside date for the $1.14 cash plus stock takeover (a | 2026-12-31 | 2027-01-15 | $0.93 | ±32.2% | $0.30 @ 1.0 | 34.3% | none | open |  |

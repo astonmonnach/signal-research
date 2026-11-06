@@ -98,10 +98,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $18.94 (2026-11-05, ledger) · 1d -5.7%, 5d -21.2%, 20d -7.2% (market context, 2026-11-05)
-- **Since first found:** **-3.6%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -1.5% vs IWM -2.1% = **+0.6 pts** vs IWM; direction +1 → excess +0.6% (38 days)
+- **Latest price:** $18.29 (2026-11-06, ledger) · 1d +6.5%, 5d -20.8%, 20d -13.1% (market context, 2026-11-06)
+- **Since first found:** **-6.9%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -4.9% vs IWM -3.0% = **-1.9 pts** vs IWM; direction +1 → excess -1.9% (39 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -21.2% 5d vs peer median -5.2%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** solo_move: ELMT -20.8% 5d vs peer median +0.2%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -110,6 +110,7 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- **ELMT (T007):** no insider sold through the window that ended today. The stock is $17.24, down 28% since…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- ELMT -14%, alongside MP -12% (likely a sector move). Its insider window is clean through 4 Nov and closes 5…) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- ELMT's insider window (T007) is clean through 1 Nov.) ([note](../research/daily/2026-11-02.md))
 - **[2026-10-23](../scans/2026-10-23.md)**: Research: Research: Fri 23 Oct 2026 (- **ELMT:** no Form 144, Form 4 sale, 424B or marketed secondary. $20.91 (-1.5%). The two-week check runs to…) ([note](../research/daily/2026-10-23.md))
@@ -130,5 +131,5 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.94 | -3.6% | -1.5% | -2.1% | +0.6% | 38 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.94 | -11.0% | -12.4% | -3.5% |  | 30 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.29 | -6.9% | -4.9% | -3.0% | -1.9% | 39 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.29 | -14.1% | -15.4% | -4.4% |  | 31 | live |

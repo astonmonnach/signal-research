@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `takeover_proposal` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $4.33 (2026-11-05, ledger) · 1d -4.6%, 5d +15.5%, 20d -12.9% (market context, 2026-11-05)
-- **Since first found:** **-10.2%** (found 2026-10-13 via `8k_strategic_review` at $4.82). From the next open $4.79: -9.6% vs IWM +0.4% = **-10.0 pts** vs IWM; direction +1 → excess -10.0% (22 days)
+- **Latest price:** $4.45 (2026-11-06, ledger) · 1d +0.6%, 5d -0.3%, 20d -10.2% (market context, 2026-11-06)
+- **Since first found:** **-7.8%** (found 2026-10-13 via `8k_strategic_review` at $4.82). From the next open $4.79: -7.2% vs IWM -0.6% = **-6.7 pts** vs IWM; direction +1 → excess -6.7% (23 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: XPOF +15.5% 5d vs peer median +4.5%; peers didn't move with it. Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median +0.6%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `8-K` 5 Nov
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **XPOF**: Fund 1 proposal, $5.61-7.00 cash. WATCH, T020 (replaces T009). ([triage](../watch/digests/2026-11-02-triage.md)) · Research: Research: Mon 2 Nov 2026 (4. XPOF: a cash proposal from a 19.9% holder) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `takeover_proposal` (direction 0): Fund 1 proposes $5.61-7.00 cash (non-binding); +19.25% to $4.46; WATCH, T020 replaces T009; source: daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `SCHEDULE 13D/A` 30 Oct
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1802156/000092189526002888/0000921895-26-002888-index.htm))
@@ -33,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for XPOF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_strategic_review` | +1 | +3.7% | +0.2% | $4.0M | $4.82 | $4.79 | $4.33 | -10.2% | -9.6% | +0.4% | -10.0% | 22 | live |
-| 2026-10-21 | `activist_13d` | 0 | -8.9% | -2.3% | $4.1M | $4.29 | $4.29 | $4.33 | +0.9% | +0.9% | -0.1% |  | 14 | live |
-| 2026-11-01 | `takeover_proposal` | 0 | -11.0% | +19.3% | $3.8M | $4.46 | $4.70 | $4.33 | -2.9% | -7.9% | -2.5% |  | 3 | live |
+| 2026-10-13 | `8k_strategic_review` | +1 | +3.7% | +0.2% | $4.0M | $4.82 | $4.79 | $4.45 | -7.8% | -7.2% | -0.6% | -6.7% | 23 | live |
+| 2026-10-21 | `activist_13d` | 0 | -8.9% | -2.3% | $4.1M | $4.29 | $4.29 | $4.45 | +3.6% | +3.6% | -1.1% |  | 15 | live |
+| 2026-11-01 | `takeover_proposal` | 0 | -11.0% | +19.3% | $3.8M | $4.46 | $4.70 | $4.45 | -0.3% | -5.4% | -3.5% |  | 4 | live |

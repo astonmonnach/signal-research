@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $3.85 (2026-11-05, ledger)
-- **Since first found:** **-11.6%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -11.6% vs IWM -2.8% = **-8.8 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $3.84 (2026-11-06, ledger)
+- **Since first found:** **-11.8%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -11.8% vs IWM -3.7% = **-8.1 pts** vs IWM; direction 0, tracked only (8 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -6.6%, found day +0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1855644/999999999526003425/9999999995-26-003425-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): New $700M shelf with a $114M Leerink ATM (about 28% of market value) filed on a +19.9% day; shelf not yet effective; re-read for AVOID at EFFECT; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **ZURA** is not called: its new $114M ATM (about 28% of the market value) sits on a shelf that is not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/1855644/000110465926119219/0001104659-26-119219-index.htm))
 
@@ -25,4 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for ZURA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $3.85 | -11.6% | -11.6% | -2.8% |  | 7 | live |
+| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $3.84 | -11.8% | -11.8% | -3.7% |  | 8 | live |
+| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $3.84 | -4.6% | -4.1% | -4.2% | -0.1% | 1 | live |

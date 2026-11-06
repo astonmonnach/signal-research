@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $3.77 (2026-11-05, ledger) · 1d -9.4%, 5d -20.8%, 20d -20.3% (market context, 2026-11-05)
-- **Since first found:** **-22.1%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -25.2% vs IWM +1.0% = **-26.2 pts** vs IWM; direction 0, tracked only (17 days)
-- **Peers / sympathy:** solo_move: BYRN -20.8% 5d vs peer median -7.7%; peers didn't move with it. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Latest price:** $3.82 (2026-11-06, ledger) · 1d +2.1%, 5d -11.2%, 20d -15.5% (market context, 2026-11-06)
+- **Since first found:** **-21.1%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -24.2% vs IWM +0.0% = **-24.2 pts** vs IWM; direction 0, tracked only (18 days)
+- **Peers / sympathy:** solo_move: BYRN -11.2% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 5 Nov
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `4` 16 Oct; +34 older (Jun – Oct 2026) first picked up · Research: Research: Mon 19 Oct 2026 (BYRN $4.84 $5.215 +7.7% first session after director Roth's Form 4 (filed after Friday's close)) ([note](../research/daily/2026-10-19.md))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **BYRN** (Byrna), insider buy, takeable ($4.84; median $1.65M). Director Adam Roth bought 15,000 at $4.53 to $4.78 on 14 and 15 Oct, $70,375 in all… ([triage](../watch/digests/2026-10-18-triage.md)) · Logged as `insider_buy` (direction 0): director Roth bought 15,000 at $4.53 to $4.78 on 14-15 Oct (filed 16:01 on 16 Oct); not a 30-day cluster but extends July buying by CEO, CFO, four directors and the founder at $3.39 to $4.64; Q3 revenue -46%; tracked; source: daily research 18 Oct (research/daily/2026-10-18.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sun 18 Oct 2026 (- **BYRN:** director Adam Roth bought $70k on 14 and 15 Oct (filed after Friday's close).) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1354866/000143774926032801/0001437749-26-032801-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for BYRN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $3.77 | -22.1% | -25.2% | +1.0% |  | 17 | live |
+| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $3.82 | -21.1% | -24.2% | +0.0% |  | 18 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $6.63 (2026-11-05, ledger) · 1d -7.7%, 5d -19.5%, 20d -33.4% (market context, 2026-11-05)
-- **Since first found:** **-28.5%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -26.2% vs IWM +0.4% = **-26.7 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $6.89 (2026-11-06, ledger) · 1d +4.4%, 5d -10.8%, 20d -30.9% (market context, 2026-11-06)
+- **Since first found:** **-25.7%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -23.4% vs IWM -0.6% = **-22.8 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: UUUU -19.5% 5d vs peer median +0.3%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** solo_move: UUUU -10.8% 5d vs peer median -0.1%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors (PR Newswire) ([release](https://www.prnewswire.com/news-releases/energy-fuels-announces-appointment-of-jeffrey-olsen-to-board-of-directors-302928692.html))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `8-K` 14 Oct, `424B5` 13 Oct, `8-K` 13 Oct; +33 older (Mar – Aug 2026) first picked up
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage: **UUUU** (market-wide, 8-K and 424B5): Energy Fuels amended its VAC deal for a dispute: VAC's customer for the Sumter, South Carolina magnet plant… ([triage](../watch/digests/2026-10-14-triage.md)) · Logged as `deal_dispute` (direction 0): VAC deal amended 13 Oct: e-VAC's offtake customer gave termination notice 1 Jul, in arbitration; VAC going-concern note; new $500M ATM; no setup; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **UUUU (not a long):** Energy Fuels amended its deal to buy VAC, the magnet maker, on 13 Oct. VAC's…) ([note](../research/daily/2026-10-14.md)) · Triage, dismissed: UUUU: supply and a lost anchor customer at the target. ([triage](../watch/digests/2026-10-14-triage.md))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $6.63 | -28.5% | -26.2% | +0.4% |  | 22 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $6.63 | -20.5% | -18.1% | +1.1% |  | 21 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $6.89 | -25.7% | -23.4% | -0.6% |  | 23 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $6.89 | -17.4% | -14.9% | +0.2% |  | 22 | live |

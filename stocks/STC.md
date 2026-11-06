@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $48.63 (2026-11-05, ledger)
-- **Since first found:** **+9.8%** (found 2026-10-28 via `insider_cluster` at $44.30). From the next open $44.86: +8.4% vs IWM -2.8% = **+11.2 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $48.24 (2026-11-06, ledger)
+- **Since first found:** **+8.9%** (found 2026-10-28 via `insider_cluster` at $44.30). From the next open $44.86: +7.5% vs IWM -3.7% = **+11.3 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: STEWART INFORMATION SERVICES CORPORATION APPOINTS MICHAEL BROWN AS NEW DIRECTOR (PR Newswire) ([release](https://www.prnewswire.com/news-releases/stewart-information-services-corporation-appoints-michael-brown-as-new-director-302930579.html))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `insider_cluster` (direction 0): Five insiders bought about $461k on 23-26 Oct after a 17% post-Q3 drop; 0.79x book; fails TF1 on three legs; tracked, no call; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Second order:** CMG Mortgage (private) gains a 121-person retail channel for a fee. NPB putting more…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/94344/000162828026067616/0001628280-26-067616-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/94344/000162828026067363/0001628280-26-067363-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for STC ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -17.1% | +1.9% | $23.1M | $44.30 | $44.86 | $48.63 | +9.8% | +8.4% | -2.8% |  | 7 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -17.1% | +1.9% | $23.1M | $44.30 | $44.86 | $48.24 | +8.9% | +7.5% | -3.7% |  | 8 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.61 (2026-11-05, ledger) · 1d -11.3%, 5d -13.7%, 20d -13.7% (market context, 2026-11-05)
-- **Since first found:** **-8.5%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -8.5% vs IWM -0.1% = **-8.4 pts** vs IWM; direction 0, tracked only (13 days)
-- **Peers / sympathy:** solo_move: TENX -13.7% 5d vs peer median +3.7%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Latest price:** $1.67 (2026-11-06, ledger) · 1d +2.8%, 5d -6.4%, 20d -10.4% (market context, 2026-11-06)
+- **Since first found:** **-4.8%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -4.8% vs IWM -1.1% = **-3.7 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** solo_move: TENX -6.4% 5d vs peer median -0.6%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: TENX: lead-plaintiff deadline in the securities class action
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **TENX (T012):** cash of $113.7M against a $74.2M market value (arith), but LEVEL-2 enrolment is…) ([note](../research/daily/2026-11-05.md))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: ATTENTION NASDAQ: TENX INVESTORS: Contact Berger Montague About a Tenax Therapeutics, Inc. Class Action… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/attention-nasdaq-tenx-investors-contact-berger-montague-about-a-tenax-therapeutics-inc-class-action-lawsuit-302924441.html))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **TENX**: BlackRock 7.5%, passive. T012 unchanged. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `SCHEDULE 13G/A` 27 Oct
 - **[2026-10-23](../scans/2026-10-23.md#watchlist-filings)**: Filings: `4` 21 Oct; +38 older (May – Oct 2026) first picked up
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.61 | -8.5% | -8.5% | -0.1% |  | 13 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.67 | -4.8% | -4.8% | -1.1% |  | 14 | live |

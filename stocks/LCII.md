@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md)); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $102.52 (2026-11-05, ledger) · 1d -1.8%, 5d +3.5%, 20d +27.8% (market context, 2026-11-05)
-- **Since first found:** **+29.2%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +30.4% vs IWM +0.4% = **+29.9 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $99.34 (2026-11-06, ledger) · 1d -3.1%, 5d +0.4%, 20d +26.9% (market context, 2026-11-06)
+- **Since first found:** **+25.2%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +26.3% vs IWM -0.6% = **+26.9 pts** vs IWM; direction 0, tracked only (23 days)
   - 5 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: LCII +3.5% 5d vs peer median -1.5%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -3.8%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: LCI Industries Reports Third Quarter Financial Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261105208208/en/LCI-Industries-Reports-Third-Quarter-Financial-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `10-Q` 5 Nov, `425` 5 Nov, `8-K` 5 Nov, `425` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- LCII's board says Monomoy's $101 is not superior (vote 18 Nov). LCII at $98.98 is above the Patrick-implied…) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `425` ×2 30 Oct, `8-K` 30 Oct, `DEFA14A` 30 Oct
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: LCI Board Determines That the Unsolicited, Non-Binding Proposal From Monomoy Capital Partners Does Not… (Business Wire) ([release](http://www.businesswire.com/news/home/20261030615474/en/LCI-Board-Determines-That-the-Unsolicited-Non-Binding-Proposal-From-Monomoy-Capital-Partners-Does-Not-Constitute-a-Superior-Proposal/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +14.3%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/763744/000076374426000101/lcii-20261030.htm))
@@ -36,9 +37,9 @@ Every [ledger](../ledger/LEDGER.md) row for LCII ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $102.52 | +29.2% | +30.4% | +0.4% |  | 22 | live |
-| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $102.52 | +31.2% | +29.7% | +1.1% |  | 21 | live |
-| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $102.52 | +25.1% | +25.2% | +1.1% |  | 16 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $102.52 | +5.0% | +5.2% | -2.8% |  | 7 | live |
-| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $102.52 | +5.0% | +5.2% | -2.8% |  | 7 | live |
-| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $102.52 | +3.6% | +4.2% | -2.5% |  | 3 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $99.34 | +25.2% | +26.3% | -0.6% |  | 23 | live |
+| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $99.34 | +27.1% | +25.6% | +0.2% |  | 22 | live |
+| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $99.34 | +21.3% | +21.3% | +0.1% |  | 17 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $99.34 | +1.8% | +1.9% | -3.7% |  | 8 | live |
+| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $99.34 | +1.8% | +1.9% | -3.7% |  | 8 | live |
+| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $99.34 | +0.4% | +1.0% | -3.5% |  | 4 | live |

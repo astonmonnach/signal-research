@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-11-01 (daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md))
-- **Latest price:** $1.66 (2026-11-05, ledger) · 1d -2.4%, 5d -14.4%, 20d -23.5% (market context, 2026-11-05)
-- **Since first found:** **-14.4%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -12.2% vs IWM -2.6% = **-9.5 pts** vs IWM; direction +1 → excess -9.5% (6 days)
+- **Latest price:** $1.64 (2026-11-06, ledger) · 1d +0.6%, 5d -2.4%, 20d -25.1% (market context, 2026-11-06)
+- **Since first found:** **-15.5%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -13.2% vs IWM -3.6% = **-9.6 pts** vs IWM; direction +1 → excess -9.6% (7 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: SEER -14.4% 5d vs peer median -4.0%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** no flag (self 5d -2.4% vs peer median -0.1%). Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 10 Nov 2026: SEER: Q3 results after the close (WATCH T019: cash return by 30 Nov)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 2 Nov
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **SEER**: BML 13D at 4.7%, urging the board to reconsider the bids. T019 open. ([triage](../watch/digests/2026-11-03-triage.md)) · Research: Research: Tue 3 Nov 2026 (3. SEER: a second holder pushes the board (T019 open)) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -14.7%, found day +3.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1726445/000137360426000071/0001373604-26-000071-index.htm)) · Filings: `8-K` 29 Oct; +29 older (Jun – Sep 2026) first picked up
@@ -32,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for SEER ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.66 | -14.4% | -12.2% | -2.6% | -9.5% | 6 | live |
-| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.66 | -1.2% | -1.2% | -2.5% |  | 3 | live |
-| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.66 | -4.0% | -5.1% | -1.9% | -3.2% | 2 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.64 | -15.5% | -13.2% | -3.6% | -9.6% | 7 | live |
+| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.64 | -2.4% | -2.4% | -3.5% |  | 4 | live |
+| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.64 | -5.2% | -6.3% | -2.9% | -3.4% | 3 | live |

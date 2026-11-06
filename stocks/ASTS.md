@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $30.82 (2026-11-05, ledger)
-- **Since first found:** **-30.7%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -28.7% vs IWM -0.4% = **-28.3 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $30.57 (2026-11-06, ledger)
+- **Since first found:** **-31.2%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -29.3% vs IWM -1.3% = **-28.0 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: AST SpaceMobile Awarded U.S. Space Force Contract Through STR to Advance Space-Based Sensing Capabilities (Business Wire) ([release](http://www.businesswire.com/news/home/20261104508354/en/AST-SpaceMobile-Awarded-U.S.-Space-Force-Contract-Through-STR-to-Advance-Space-Based-Sensing-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: AST SpaceMobile to Host Third Quarter 2026 Business Update Call on November 9, 2026 (Business Wire, published Mon 26 Oct) ([release](http://www.businesswire.com/news/home/20261026877819/en/AST-SpaceMobile-to-Host-Third-Quarter-2026-Business-Update-Call-on-November-9-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-26](../scans/2026-10-26.md#press-releases)**: Press: AST SpaceMobile Advances Brazil Expansion with Anatel’s Approval for S-band Spectrum and Secondary Use of the… (Business Wire) ([release](http://www.businesswire.com/news/home/20261026540919/en/AST-SpaceMobile-Advances-Brazil-Expansion-with-Anatel%E2%80%99s-Approval-for-S-band-Spectrum-and-Secondary-Use-of-the-700-MHz-Band-Agreements-with-Four-Regional-Operators-and-Planned-Ground-Infrastructure/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: AST SpaceMobile Advances Service Readiness Ahead of Initial Space-Based Cellular Broadband Coverage in Key… (Business Wire) ([release](http://www.businesswire.com/news/home/20261020527793/en/AST-SpaceMobile-Advances-Service-Readiness-Ahead-of-Initial-Space-Based-Cellular-Broadband-Coverage-in-Key-Global-Markets/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $30.82 | -30.7% | -28.7% | -0.4% |  | 20 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $30.57 | -31.2% | -29.3% | -1.3% |  | 21 | live |

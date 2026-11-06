@@ -79,10 +79,10 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $97.15 (2026-11-05, ledger) · 1d -1.0%, 5d +6.4%, 20d +27.4% (market context, 2026-11-05)
-- **Since first found:** **+28.3%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +27.8% vs IWM -2.1% = **+29.9 pts** vs IWM; direction +1 → excess +29.9% (37 days)
+- **Latest price:** $95.45 (2026-11-06, ledger) · 1d -2.9%, 5d +0.6%, 20d +19.3% (market context, 2026-11-06)
+- **Since first found:** **+26.1%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +25.6% vs IWM -3.0% = **+28.6 pts** vs IWM; direction +1 → excess +28.6% (38 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CHDN +6.4% 5d vs peer median -0.5%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median +1.3%). Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -91,6 +91,7 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G` 5 Nov
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- **CHDN, a dropped idea that rose:** the 5 Oct kill (at $77.57) said the "strategic alternatives" 8-K was a…) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `8-K` ×3 28 Oct, `10-Q` 28 Oct
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Research: Thu 29 Oct 2026 (- **Watchlist:** CHDN record Q3 and a $750M buyback (see the 2 Nov note on the CHDN kill). TALO: Slim sold…) ([note](../research/daily/2026-10-29.md))
@@ -104,6 +105,6 @@ Every [ledger](../ledger/LEDGER.md) row for CHDN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $97.15 | +28.3% | +27.8% | -2.1% | +29.9% | 37 | live |
-| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $97.15 | +28.3% | +27.8% | -2.1% | +29.9% | 37 | live |
-| 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $97.15 | +18.6% | +12.1% | -2.8% | +14.9% | 7 | live |
+| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $95.45 | +26.1% | +25.6% | -3.0% | +28.6% | 38 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $95.45 | +26.1% | +25.6% | -3.0% | +28.6% | 38 | live |
+| 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $95.45 | +16.5% | +10.2% | -3.7% | +13.9% | 8 | live |

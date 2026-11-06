@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $2.06 (2026-11-05, ledger) · 1d -9.9%, 5d -8.3%, 20d +1.7% (market context, 2026-11-05)
-- **Since first found:** **+11.7%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +11.1% vs IWM +1.0% = **+10.1 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $2.19 (2026-11-06, ledger) · 1d +5.0%, 5d -0.7%, 20d +5.5% (market context, 2026-11-06)
+- **Since first found:** **+19.3%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +18.6% vs IWM +0.0% = **+18.6 pts** vs IWM; direction 0, tracked only (18 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ALEC -8.3% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** no flag (self 5d -0.7% vs peer median -1.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 5 Nov, `8-K` 5 Nov
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- ALEC: +14.7. It now trades about 10% above its cash.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1653087/000134682426000247/0001346824-26-000247-index.htm)) · Filings: `SCHEDULE 13G` 26 Oct, `SCHEDULE 13G` 23 Oct
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1653087/000117266126004680/0001172661-26-004680-index.htm))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.06 | +11.7% | +11.1% | +1.0% |  | 17 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.06 | +11.7% | +11.1% | +1.0% |  | 17 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.19 | +19.3% | +18.6% | +0.0% |  | 18 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.19 | +19.3% | +18.6% | +0.0% |  | 18 | live |

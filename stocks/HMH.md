@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $12.36 (2026-11-05, ledger) · 1d -19.1%, 5d -33.3%, 20d -33.5% (market context, 2026-11-05)
-- **Since first found:** **-35.9%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -34.5% vs IWM -2.1% = **-32.4 pts** vs IWM; direction -1 → excess +32.4% (37 days)
+- **Latest price:** $11.80 (2026-11-06, ledger) · 1d -1.6%, 5d -37.9%, 20d -38.3% (market context, 2026-11-06)
+- **Since first found:** **-38.8%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -37.5% vs IWM -3.0% = **-34.5 pts** vs IWM; direction -1 → excess +34.5% (38 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: HMH -33.3% 5d vs peer median -8.2%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** solo_move: HMH -37.9% 5d vs peer median -8.8%; peers didn't move with it. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **HMH**: resale of up to 31.9M Class B shares (2.61x the Class A) is live. Q3 product revenue fell 69%. AVOID (register); already -37% since 27 Oct. ([triage](../watch/digests/2026-11-05-triage.md)) · Filings: `424B3` 4 Nov, `10-Q` 4 Nov, `8-K` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **HMH (AVOID, register):** the resale of "up to 31,891,652 shares" (2.61x the Class A) is live after a 69%…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: HMH Holding Inc. Announces Third Quarter 2026 Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/04/3395787/0/en/hmh-holding-inc-announces-third-quarter-2026-results.html))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-27](../scans/2026-10-27.md)**: Calendar: BKR: Baker Hughes Q3 results 17:00 (HMH holder; watch for HMH share sales) ([calendar](../calendar/catalyst-dates.ics))
@@ -120,7 +121,7 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $12.36 | -35.9% | -34.5% | -2.1% | +32.4% | 37 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $12.36 | -30.4% | -30.4% | -2.0% | +28.4% | 36 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $12.36 | -31.1% | -31.3% | -0.1% | +31.1% | 14 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $12.36 | -31.1% | -31.3% | -0.1% |  | 14 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $11.80 | -38.8% | -37.5% | -3.0% | +34.5% | 38 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $11.80 | -33.6% | -33.6% | -3.0% | +30.6% | 37 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.80 | -34.2% | -34.4% | -1.1% | +33.3% | 15 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.80 | -34.2% | -34.4% | -1.1% |  | 15 | live |

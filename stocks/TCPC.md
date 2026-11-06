@@ -6,17 +6,19 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $4.10 (2026-11-05, ledger) · 1d -6.2%, 5d -2.8%, 20d +1.7% (market context, 2026-11-05)
-- **Since first found:** **+0.5%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +0.5% vs IWM +1.1% = **-0.6 pts** vs IWM; direction +1 → excess -0.6% (21 days)
+- **Latest price:** $4.28 (2026-11-06, ledger) · 1d +0.1%, 5d +2.3%, 20d +6.6% (market context, 2026-11-06)
+- **Since first found:** **+4.9%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +4.9% vs IWM +0.2% = **+4.7 pts** vs IWM; direction +1 → excess +4.7% (22 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-05)
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Thu 17 Dec 2026: TCPC: record date for the $0.17 dividend (UK holders withheld)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: BlackRock TCP Capital Corp. Announces Third Quarter 2026 Financial Results Including Net Investment Income of… (Business Wire) ([release](http://www.businesswire.com/news/home/20261105038735/en/BlackRock-TCP-Capital-Corp.-Announces-Third-Quarter-2026-Financial-Results-Including-Net-Investment-Income-of-0.16-Per-Share-Declares-a-Fourth-Quarter-Dividend-of-0.17-Per-Share/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ)) · Filings: `8-K` 5 Nov, `10-Q` 5 Nov · Research: Research: Thu 5 Nov 2026 (- VVR -> Saba -> **TCPC** (Saba 5.11% since Oct; TCPC trades at 0.76x NAV after a 14.7% NAV fall this…) ([note](../research/daily/2026-11-05.md))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Caveats:** the sample is tiny, 14 of the 18 were held under 20 trading days, and the found dates were not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 14 Oct; +27 older (Jun – Sep 2026) first picked up
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **TCPC** (BlackRock TCP Capital), activist 13D, takeable ($4.17; median $2.46M). ([triage](../watch/digests/2026-10-15-triage.md)) · Triage: TCPC, 13D: read. Saba activism, above. +2.2%. ([triage](../watch/digests/2026-10-15-triage.md)) · Logged as `activist_13d` (direction 0): Saba 5.11% at about $4.00; Item 4: NAV discount, liquidation, manager change; about 0.71x pro forma NAV; already +4.8% vs IWM -1.7%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Why IMSR ranked first (rule 8b, rank by how unnoticed): three insider filings over three days, no price…) ([note](../research/daily/2026-10-15.md))
@@ -28,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.10 | +0.5% | +0.5% | +1.1% | -0.6% | 21 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.10 | -2.8% | -3.1% | -0.4% |  | 20 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.28 | +4.9% | +4.9% | +0.2% | +4.7% | 22 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.28 | +1.4% | +1.2% | -1.3% |  | 21 | live |

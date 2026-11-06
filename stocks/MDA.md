@@ -6,17 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $27.10 (2026-11-05, ledger) · 1d +2.9%, 5d -7.3%, 20d -1.3% (market context, 2026-11-05)
-- **Since first found:** **-1.7%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: -0.1% vs IWM +1.1% = **-1.2 pts** vs IWM; direction +1 → excess -1.2% (21 days)
+- **Latest price:** $27.12 (2026-11-06, ledger) · 1d +0.5%, 5d -0.9%, 20d -4.2% (market context, 2026-11-06)
+- **Since first found:** **-1.6%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: -0.0% vs IWM +0.2% = **-0.2 pts** vs IWM; direction +1 → excess -0.2% (22 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -23.8% 5d vs MDA -7.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-05)
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Peers / sympathy:** missed_peer_move: peer median -13.7% 5d vs MDA -0.9%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Tue 31 Aug 2027: MDA: latest end of the hedging period on CSG's cash-settled swap
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **MDA**: CSG (9.5%) entered a cash-settled swap on 3 Nov. The bank may hedge by buying shares until 31 Aug 2027. Tracked. ([triage](../watch/digests/2026-11-05-triage.md)) · Filings: `6-K` 5 Nov, `SCHEDULE 13D/A` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **MDA:** CSG's new cash-settled swap lets the bank hedge by buying until 31 Aug 2027; the size is not…) ([note](../research/daily/2026-11-05.md))
+- **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1857047/000121390026115918/0001213900-26-115918-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: IRIS² CONSTELLATION: MDA SPACE TO PROVIDE THALES ALENIA SPACE WITH DIGITAL ANTENNA SUBSYSTEMS FOR 66… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/iris-constellation-mda-space-to-provide-thales-alenia-space-with-digital-antenna-subsystems-for-66-early-delivery-satellites-302924382.html))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: 49North Qualifies Across All Five Streams of Canada's Defence Drone Initiative Marketplace (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-qualifies-across-all-five-streams-of-canadas-defence-drone-initiative-marketplace-302919838.html))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: 49North Signs MOU with UNWAVE for Joint Production and Support of Counter-UAS Systems (PR Newswire) ([release](https://www.prnewswire.com/news-releases/49north-signs-mou-with-unwave-for-joint-production-and-support-of-counter-uas-systems-302919830.html))
@@ -30,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $27.10 | -1.7% | -0.1% | +1.1% | -1.2% | 21 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $27.10 | -5.5% | -5.5% | -0.4% |  | 20 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $27.12 | -1.6% | -0.0% | +0.2% | -0.2% | 22 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $27.12 | -5.4% | -5.4% | -1.3% |  | 21 | live |

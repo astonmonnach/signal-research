@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $117.11 (2026-11-05, ledger) · 1d -0.4%, 5d -0.8%, 20d -1.7% (market context, 2026-11-05)
-- **Since first found:** **-1.6%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.4% vs IWM -1.3% = **-1.0 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $116.90 (2026-11-06, ledger) · 1d +0.4%, 5d -0.8%, 20d -2.4% (market context, 2026-11-06)
+- **Since first found:** **-1.8%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.5% vs IWM -2.3% = **-0.3 pts** vs IWM; direction 0, tracked only (28 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -23.3% 5d vs SYNA -0.8%; peers moved, it didn't. Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-05)
+- **Peers / sympathy:** missed_peer_move: peer median -11.2% 5d vs SYNA -0.8%; peers moved, it didn't. Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 17 Nov 2026: SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00 UK)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 5 Nov, `8-K` 5 Nov, `SCHEDULE 13G/A` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` ×7 3 Nov, `DEFA14A` 2 Nov · Research: Research: Wed 4 Nov 2026 (- SYNA: onsemi at $123 cash, 4.7%, vote 17 Nov.) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `8-K` 29 Oct
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **Options record:** ACB 4 Dec is **none** (the outcome depends on Curaleaf's next move, which nothing in…) ([note](../research/daily/2026-10-26.md))
@@ -34,6 +35,6 @@ Every [ledger](../ledger/LEDGER.md) row for SYNA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.11 | -1.6% | -2.4% | -1.3% |  | 27 | live |
-| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.11 | -2.3% | -2.3% | -1.4% |  | 24 | live |
-| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.11 | +0.1% | -0.1% | +1.1% |  | 16 | live |
+| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $116.90 | -1.8% | -2.5% | -2.3% |  | 28 | live |
+| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $116.90 | -2.4% | -2.4% | -2.4% |  | 25 | live |
+| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $116.90 | -0.1% | -0.3% | +0.1% |  | 17 | live |
