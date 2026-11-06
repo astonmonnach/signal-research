@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $16.76 (2026-11-06, ledger) · 1d +6.5%, 5d -20.6%, 20d -16.1% (market context, 2026-11-06)
-- **Since first found:** **-11.0%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -14.1% vs IWM -2.7% = **-11.3 pts** vs IWM; direction +1 → excess -11.3% (39 days)
+- **Latest price:** $16.82 (2026-11-06, ledger) · 1d +6.7%, 5d -20.4%, 20d -15.9% (market context, 2026-11-06)
+- **Since first found:** **-10.7%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -13.7% vs IWM -2.8% = **-10.9 pts** vs IWM; direction +1 → excess -10.9% (39 days)
   - 1 more ledger row: see Performance since found
 - **Position:** trade #1 (S1_CONTRACT_MCAP) closed 2026-11-05: LONG 3 @ $19.368 → $16.970, P&L after fees **$-10.28** (Sold intraday below the $17.00 line the morning after the Q4-guide sell-off (limit 16.90 day, filled 16.97 on IBKRATS))
-- **Peers / sympathy:** solo_move: MTUS -20.6% 5d vs peer median -7.0% (steel -9.0%, defence metals -3.6%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** solo_move: MTUS -20.4% 5d vs peer median -6.8% (steel -9.1%, defence metals -3.7%); peers didn't move with it. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [thesis](../ideas/MTUS.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -164,8 +164,8 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.76 | -11.0% | -14.1% | -2.7% | -11.3% | 39 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.76 | -20.3% | -20.7% | -4.1% |  | 31 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.82 | -10.7% | -13.7% | -2.8% | -10.9% | 39 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.82 | -20.1% | -20.4% | -4.2% |  | 31 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 

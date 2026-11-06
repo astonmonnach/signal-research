@@ -101,10 +101,10 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $70.37 (2026-11-06, ledger) · 1d +2.9%, 5d -2.6%, 20d -3.6% (market context, 2026-11-06)
-- **Since first found:** **+3.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +2.4% vs IWM -3.4% = **+5.8 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $70.56 (2026-11-06, ledger) · 1d +2.7%, 5d -2.8%, 20d -3.8% (market context, 2026-11-06)
+- **Since first found:** **+3.4%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +2.7% vs IWM -3.5% = **+6.2 pts** vs IWM; direction 0, tracked only (35 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -2.6% vs peer median -0.7%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** no flag (self 5d -2.8% vs peer median -1.1%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 10 Nov 2026: VYLR ~day 28 check (typical spin-off low)
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
@@ -136,6 +136,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $70.37 | +3.1% | +2.4% | -3.4% |  | 35 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $70.37 | -4.0% | -2.1% | -4.1% |  | 31 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $70.37 | -3.6% | -4.7% | -1.3% |  | 29 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $70.56 | +3.4% | +2.7% | -3.5% |  | 35 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $70.56 | -3.8% | -1.9% | -4.2% |  | 31 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $70.56 | -3.3% | -4.5% | -1.4% |  | 29 | live |

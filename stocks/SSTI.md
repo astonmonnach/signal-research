@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_cvr` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $8.33 (2026-11-06, ledger) · 1d +0.1%, 5d +0.1%, 20d -0.4% (market context, 2026-11-06)
-- **Since first found:** **+1.5%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +1.5% vs IWM -2.7% = **+4.1 pts** vs IWM; direction -1 → excess -4.1% (37 days)
+- **Latest price:** $8.33 (2026-11-06, ledger) · 1d +0.2%, 5d +0.2%, 20d -0.3% (market context, 2026-11-06)
+- **Since first found:** **+1.5%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +1.5% vs IWM -2.8% = **+4.2 pts** vs IWM; direction -1 → excess -4.2% (37 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -4.2%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -5.0%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 17 Nov 2026: SSTI: Transom tender ($8.00 cash plus CVR) expires one minute after 11:59 pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -32,7 +32,7 @@ Every [ledger](../ledger/LEDGER.md) row for SSTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.33 | +1.5% | +1.5% | -2.7% | -4.1% | 37 | live |
-| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.33 | +0.0% | +0.0% | -3.3% | +3.3% | 32 | live |
-| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.33 | -0.8% | -0.7% | -1.5% |  | 16 | live |
-| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.33 | -0.8% | -0.6% | -0.8% |  | 15 | live |
+| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.33 | +1.5% | +1.5% | -2.8% | -4.2% | 37 | live |
+| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.33 | +0.0% | +0.0% | -3.4% | +3.4% | 32 | live |
+| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.33 | -0.8% | -0.7% | -1.6% |  | 16 | live |
+| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.33 | -0.8% | -0.6% | -0.9% |  | 15 | live |
