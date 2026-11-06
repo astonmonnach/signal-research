@@ -41,8 +41,8 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-03,01:46,False,XRX,Xerox Holdings Corporation Common Stock,S2,1.465,29354084,5575520,5.26,7269776,,,1.22,1.24,2026-11-04,0.016393,-0.003607,filled
 2026-11-04,00:11,False,EVGO,EVgo Inc. Class A Common Stock,S2,1.85,72259630,6832263,10.58,3739892,,,1.81,1.82,2026-11-05,0.005525,-0.014475,filled
 2026-11-04,00:11,False,INO,Inovio Pharmaceuticals Inc. Common Stock,S2,1.89,222260402,21347232,10.41,3517168,,,1.62,1.5708,2026-11-05,-0.03037,-0.05037,filled
-2026-11-05,00:31,False,ICU,SeaStar Medical Holding Corporation Common Stock,S2,2.0,2282658,259749,8.79,352531,,,,,,,,open
-2026-11-05,00:31,False,IFRX,InflaRx N.V. Common Stock,S2,1.62,5678419,1084425,5.24,1101141,,,,,,,,open
+2026-11-05,00:31,False,ICU,SeaStar Medical Holding Corporation Common Stock,S2,2.0,2282658,259749,8.79,352531,,,1.92,1.93,2026-11-06,0.005208,-0.014792,filled
+2026-11-05,00:31,False,IFRX,InflaRx N.V. Common Stock,S2,1.62,5678419,1084425,5.24,1101141,,,1.355,1.22,2026-11-06,-0.099631,-0.119631,filled
 2026-11-06,00:33,False,CMTG,Claros Mortgage Trust Inc. Common Stock,S2,1.85,21991017,1879923,11.7,699457,,,,,,,,open
 2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S2,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,,,,,,open
 2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S1,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,,,,,,open
