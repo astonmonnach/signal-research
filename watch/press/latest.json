@@ -1,98 +1,10 @@
 [
  {
-  "published_utc": "2026-11-05T21:45:00Z",
+  "published_utc": "2026-11-06T01:50:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "ULBI",
-  "title": "Ultralife Corporation Reports Third Quarter Results",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3397177/18622/en/ultralife-corporation-reports-third-quarter-results.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-05T21:34:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NKTX",
-  "title": "Nkarta Reports Third Quarter 2026 Financial Results and Provides Business Update",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3397171/0/en/nkarta-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T21:20:00Z",
-  "wire": "PR Newswire",
-  "ticker": "STC",
-  "title": "STEWART INFORMATION SERVICES CORPORATION APPOINTS MICHAEL BROWN AS NEW DIRECTOR",
-  "link": "https://www.prnewswire.com/news-releases/stewart-information-services-corporation-appoints-michael-brown-as-new-director-302930579.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T21:07:00Z",
-  "wire": "Business Wire",
-  "ticker": "GRNT",
-  "title": "Granite Ridge Resources, Inc. Reports Third Quarter 2026 Results and Declares Quarterly Cash Dividend",
-  "link": "http://www.businesswire.com/news/home/20261105856351/en/Granite-Ridge-Resources-Inc.-Reports-Third-Quarter-2026-Results-and-Declares-Quarterly-Cash-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T21:05:00Z",
-  "wire": "Business Wire",
-  "ticker": "MP",
-  "title": "MP Materials Reports Third Quarter 2026 Results",
-  "link": "http://www.businesswire.com/news/home/20261105634092/en/MP-Materials-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-WM0HSwaiJOV4ew37VhmA-V_AFChGO3y0nEP3RiLje9i7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LP6oD-t3eB0qV-nJQ-WeFyC2oJ72yfyvUvvaxllIYV0HQ==",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "GRO",
-  "title": "Brazil Potash Provides Third Quarter 2026 Update as Construction Readiness and Financing Strategy Advance",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3396276/0/en/brazil-potash-provides-third-quarter-2026-update-as-construction-readiness-and-financing-strategy-advance.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T12:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "GRO",
-  "title": "A Brazil Potash divulga atualização do terceiro trimestre de 2026 com o avanço da prontidão para construção e da estratégia de financiamento",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3396283/0/pt/a-brazil-potash-divulga-atualiza%C3%A7%C3%A3o-do-terceiro-trimestre-de-2026-com-o-avan%C3%A7o-da-prontid%C3%A3o-para-constru%C3%A7%C3%A3o-e-da-estrat%C3%A9gia-de-financiamento.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-05T22:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "CVV",
-  "title": "CVD Equipment Provides Strategic Update and Reports Third Quarter 2026 Results",
-  "link": "http://www.businesswire.com/news/home/20261105496782/en/CVD-Equipment-Provides-Strategic-Update-and-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:strategic alternatives"
- },
- {
-  "published_utc": "2026-11-05T21:15:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NNDM",
-  "title": "Nano Dimension Reports Financial Results for the Third Quarter 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3397140/0/en/nano-dimension-reports-financial-results-for-the-third-quarter-2026.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-05T21:05:00Z",
-  "wire": "PR Newswire",
-  "ticker": "LRCX",
-  "title": "Lam Research Corporation Announces $25 Billion Share Repurchase Authorization and Declares Quarterly Dividend",
-  "link": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-25-billion-share-repurchase-authorization-and-declares-quarterly-dividend-302931288.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-05T21:01:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VTVT",
-  "title": "vTv Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-  "link": "https://www.globenewswire.com/news-release/2026/11/05/3397006/0/en/vtv-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-05T21:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "SND",
-  "title": "SMART SAND, INC. DECLARES SPECIAL DIVIDEND OF $0.05 PER SHARE",
-  "link": "https://www.prnewswire.com/news-releases/smart-sand-inc-declares-special-dividend-of-0-05-per-share-302931244.html",
-  "matched_on": "keyword:special dividend"
+  "ticker": "DOV",
+  "title": "Dover Announces Pricing Terms, Expiration and Results of Cash Tender Offers for Certain of Its Outstanding Debt Securities",
+  "link": "https://www.globenewswire.com/news-release/2026/11/06/3397290/0/en/dover-announces-pricing-terms-expiration-and-results-of-cash-tender-offers-for-certain-of-its-outstanding-debt-securities.html",
+  "matched_on": "keyword:tender offer"
  }
 ]
