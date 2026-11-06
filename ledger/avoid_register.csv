@@ -31,7 +31,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-10-20,NVGS,"BW Group fell below 5% and is still selling about 100k shares a day, now unreported",holder_selling,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:48
 2026-10-20,FBYD,"6.95M shares distributed in kind, about 89 days of volume",holder_selling,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,research/daily/2026-10-20.md:71; watch/digests/2026-10-20-triage.md:49
 2026-10-20,RMCF,Going concern and covenant breaches (triage AVOID list only; not in the research note's AVOID line),distress,no,active,2026-10-20,No later note changes it (notes read through 26 Oct) (triage: 'RMCF... not takeable under the $250k bar'),,watch/digests/2026-10-20-triage.md:45
-2026-10-20,ENHA,1-for-10 reverse split on 29 Oct (triage AVOID list only; not in the research note's AVOID line),other,unknown,active,2026-10-20,No later note changes it (notes read through 26 Oct),,watch/digests/2026-10-20-triage.md:46
+2026-10-20,ENHA,1-for-10 reverse split on 29 Oct (triage AVOID list only; not in the research note's AVOID line),deal_dilution,yes,active,2026-11-06,6 Nov: related-party PIPE at $7.11 plus DEAG exchange for ~10.97M new shares (95.6%) and a warrant reset up to 5.75M; post-SPAC unlock 9 Nov; controlling holder Apeiron (research/daily/2026-11-06.md),,watch/digests/2026-10-20-triage.md:46
 2026-10-21,BRUN,"Resale S-1 update covers 58,738,753 shares, 1.25x the Class A count; lock-up very likely released early via the $12 price trigger; down 63% since 17 Aug",ongoing_supply,yes,active,2026-10-21,"No later note changes it (notes read through 26 Oct) ($673M, median $36.5M a day; one of 'the liquid ones')",,research/daily/2026-10-21.md:6 (detail L77); watch/digests/2026-10-21-triage.md:64
 2026-10-21,TKNO,Underwritten follow-on launched after the 20 Oct close; cash $16.6M and $50M of ATM capacity behind the lock-up; -30% before the 21 Oct open,one_off_offering,yes,reversed,2026-10-22,"22 Oct: 'priced 8.0M shares at $5.00... It closed at $5.85, then rose 7.4% on 22 Oct. The supply was absorbed above the deal price, so it is no longer an AVOID.'",,research/daily/2026-10-21.md:6 (detail L80); watch/digests/2026-10-21-triage.md:65
 2026-10-21,XRPN,"'AVOID (moderate)': 11,499,992 public warrants at $11.50 registered, 48.6% of the Class A; a resale S-1 for the private-placement shares still to come",warrant_supply,yes,active,2026-11-04,"26 Oct note: 'Tracked but not called: XRPN (a Cantor equity-line resale for 20% of Class A)... re-read at EFFECT'; triage: 'Tracked: re-read for AVOID at EFFECT'. The 21 Oct AVOID was never explicitly dropped, but the 26 Oct wording treats it as tracked pending an AVOID re-read | 27 Oct review: never dropped; the 26 Oct 'tracked' line is about a new registration, so the earlier AVOID stays active.; Public call #15 open from the 5 Nov open; invalidation close above $14.20; review 3 Dec (re-read at EFFECT: Cantor equity line effective 30 Oct)",15,research/daily/2026-10-21.md:6 (detail L83); watch/digests/2026-10-21-triage.md:66
@@ -187,3 +187,37 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-05,ARAY,1-for-40 reverse split 9 Nov; TCW $40M term loan swapped for convertible preferred; goodwill impairment,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,JSPR,1-for-30 reverse split 6 Nov,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,EHTH,Possible reverse split to regain the Nasdaq $1 minimum,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-06,CVI,IEP (controlling holder) pulled its $250M secondary; the company's $47.55 primary closed 5 Nov and the stock is ~20% below it; IEP lock-up length unverified,holder_selling,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,DDD,"New $42.5M Cantor ATM (~15% of value) plus 13,471,138 exchange shares to 2030 noteholders on ~12 Nov; -36.7% on 5 Nov",ongoing_supply,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,INO,Priced $75M offering at $1.05 (64.8% of shares incl. pre-funded) plus 44.8M July warrants at $1.10 now in the money,one_off_offering,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,LXEH,"F-1 resale of 20.0B Class A shares, 10.7x the Class A outstanding",holder_selling,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,PODC,Guarantor of majority parent LiveOne's debentures under lender forbearance; parent payments due 28 Nov and 15 Dec; sale talks for the control block,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SUNS,"8,464,975 unregistered merger shares (38.5%); only ~32% of SRT holders locked up for 120 days",holder_selling,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,RGNX,New going concern (the 12-month window now reaches Q4 2027; runway unchanged) plus a $150M ATM in use; wet-AMD topline due Q4 2026,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,CCOI,New going concern: $700M of notes due 15 Jun 2027 against $166.9M cash; dividend suspended; -48.7% already,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,BYND,Repeat NT 10-Q; 2027 converts being swapped for shares,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,PESI,Repeat going concern,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SANA,Repeat going concern,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,AGEN,Repeat going concern,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,AMTX,Repeat going concern,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,ELTX,Repeat going concern,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,INMB,Repeat going concern; 424B5 on 29 Oct,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,NTHI,Repeat going concern; the note now names its ATM; insiders 58.2% as a group,distress,yes,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,PHIO,New going concern; under $1,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,REFR,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,VEEE,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,INTS,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,REVB,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,COCH,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SINT,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,INAB,Repeat going concern,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SRFM,"Repeat going concern; resale S-3 of 2,043,226 shares; under $1",distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,NEXR,Floating-price convertible,ongoing_supply,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,NAAS,Negative equity,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SGRX,8-for-1 share consolidation 13 Nov,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,INM,Reverse merger with Mentari after a 1-for-10 consolidation,deal_dilution,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,CRBU,Winding down; cash less liabilities about equal to value; under $1,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,ISPC,Asset purchase hands Foldlab ~53.6% of the shares,deal_dilution,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,ADGM,1-for-30 reverse split 9 Nov,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,SPWR,Holders approved a reverse split of 1-for-5 to 1-for-35,distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
+2026-11-06,CGTX,Nasdaq bid-price notice (deadline 3 May 2027),distress,no,active,2026-11-06,,,research/daily/2026-11-06.md
