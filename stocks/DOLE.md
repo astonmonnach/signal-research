@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $13.96 (2026-11-06, ledger) · 1d +1.2%, 5d +7.2%, 20d +6.6% (market context, 2026-11-06)
-- **Since first found:** **+3.9%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +4.3% vs IWM -1.1% = **+5.4 pts** vs IWM; direction 0, tracked only (11 days)
-- **Peers / sympathy:** solo_move: DOLE +7.2% 5d vs peer median -1.0%; peers didn't move with it. Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Latest price:** $14.03 (2026-11-06, ledger) · 1d +1.1%, 5d +7.0%, 20d +6.5% (market context, 2026-11-06)
+- **Since first found:** **+4.4%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +4.9% vs IWM -1.3% = **+6.1 pts** vs IWM; direction 0, tracked only (11 days)
+- **Peers / sympathy:** solo_move: DOLE +7.0% 5d vs peer median -1.0%; peers didn't move with it. Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for DOLE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $13.96 | +3.9% | +4.3% | -1.1% |  | 11 | live |
+| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $14.03 | +4.4% | +4.9% | -1.3% |  | 11 | live |

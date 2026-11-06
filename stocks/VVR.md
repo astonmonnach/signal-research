@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $2.86 (2026-11-06, ledger) · 1d +0.2%, 5d -0.5%, 20d -0.2% (market context, 2026-11-06)
-- **Since first found:** **-0.2%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: +0.5% vs IWM -3.8% = **+4.3 pts** vs IWM; direction +1 → excess +4.3% (1 days)
+- **Latest price:** $2.87 (2026-11-06, ledger) · 1d +0.5%, 5d -0.2%, 20d +0.2% (market context, 2026-11-06)
+- **Since first found:** **+0.2%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: +0.9% vs IWM -3.9% = **+4.8 pts** vs IWM; direction +1 → excess +4.8% (1 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-06)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for VVR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.86 | -0.2% | +0.5% | -3.8% | +4.3% | 1 | live |
-| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.86 | +0.2% | -0.2% | +0.4% |  | 0 | live |
+| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.87 | +0.2% | +0.9% | -3.9% | +4.8% | 1 | live |
+| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.87 | +0.5% | +0.2% | +0.3% |  | 0 | live |
