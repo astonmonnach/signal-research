@@ -75,3 +75,10 @@ read back from IBKR and equal to the register's 74 active rows.
 - **AVOID (114):** 162 -> 185. Added the 23 register rows dated 5 Nov: STIM, GRO, DSGN, ECOR, FTCI, CLNN, HMH, QNRX, CODX, GMHS, MCRB, PRPL, OCGN, EVAX, FISN, GRML, BIVI, SMX, DAIO, ARAY, JSPR, EHTH, ANVS. Read back: 185.
 - **STRAT activist (112):** +VVR (T022). Read back: ESRT, SRTA, TCPC, XPOF, VVR.
 - Approved by the trader in chat ("yeah make the IBKR changes").
+
+## 2026-11-06
+
+- **AVOID (114):** 185 -> 219, matching the register's active rows. Added the 34 rows dated 6 Nov: CVI, DDD, INO, LXEH, PODC, SUNS, RGNX, CCOI, BYND, PESI, SANA, AGEN, AMTX, ELTX, INMB, NTHI, PHIO, REFR, VEEE, INTS, REVB, COCH, SINT, INAB, SRFM, NEXR, NAAS, SGRX, INM, CRBU, ISPC, ADGM, SPWR, CGTX.
+- Reverse splits had left four entries on dead contracts; swapped for the new ones: JSPR (941899200), CDT (941899217), TOPS (939691625), XXII (941586486). Read back: 219.
+- MSGS -> MSGK: IBKR kept the same contract (206591285) and renamed it, so the ALL list needed no change.
+- Approved by the trader in chat ("Add the new names").
