@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.71 (2026-11-06, ledger)
-- **Since first found:** **-19.3%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -20.5% vs IWM -1.6% = **-18.9 pts** vs IWM; direction -1 → excess +18.9% (11 days)
+- **Latest price:** $1.78 (2026-11-06, ledger)
+- **Since first found:** **-16.0%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -17.2% vs IWM -1.1% = **-16.1 pts** vs IWM; direction -1 → excess +16.1% (11 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for TMCR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.71 | -19.3% | -20.5% | -1.6% | +18.9% | 11 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.71 | -18.6% | -18.6% | -2.2% |  | 10 | live |
+| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.78 | -16.0% | -17.2% | -1.1% | +16.1% | 11 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.78 | -15.2% | -15.2% | -1.7% |  | 10 | live |

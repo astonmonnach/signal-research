@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $7.16 (2026-11-06, ledger)
-- **Since first found:** **-15.3%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -16.7% vs IWM -4.3% = **-12.4 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $7.11 (2026-11-06, ledger)
+- **Since first found:** **-15.9%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -17.3% vs IWM -3.9% = **-13.4 pts** vs IWM; direction 0, tracked only (2 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for IMXI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $7.16 | -15.3% | -16.7% | -4.3% |  | 2 | live |
-| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $7.16 | -13.8% | -3.9% | -4.2% |  | 1 | live |
+| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $7.11 | -15.9% | -17.3% | -3.9% |  | 2 | live |
+| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $7.11 | -14.4% | -4.6% | -3.8% |  | 1 | live |

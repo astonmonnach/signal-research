@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $102.43 (2026-11-06, ledger)
-- **Since first found:** **+16.7%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +15.8% vs IWM -2.3% = **+18.0 pts** vs IWM; direction +1 → excess +18.0% (28 days)
+- **Latest price:** $102.80 (2026-11-06, ledger)
+- **Since first found:** **+17.1%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +16.2% vs IWM -1.8% = **+18.0 pts** vs IWM; direction +1 → excess +18.0% (28 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,7 +32,7 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $102.43 | +16.7% | +15.8% | -2.3% | +18.0% | 28 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $102.43 | +15.8% | +12.9% | -2.4% |  | 25 | live |
-| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $102.43 | +10.1% | +10.1% | -0.6% | +10.7% | 23 | live |
-| 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $102.43 | +8.7% | +7.8% | +0.2% | +7.7% | 22 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $102.80 | +17.1% | +16.2% | -1.8% | +18.0% | 28 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $102.80 | +16.2% | +13.3% | -1.9% |  | 25 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $102.80 | +10.5% | +10.5% | -0.1% | +10.6% | 23 | live |
+| 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $102.80 | +9.1% | +8.2% | +0.6% | +7.6% | 22 | live |
