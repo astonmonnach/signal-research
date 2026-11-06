@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 02:50 UTC",
+ "updated": "2026-11-06 01:34 UTC",
  "buckets": {
   "micro": [
    0,
@@ -227,29 +227,29 @@
   },
   "LCII": {
    "ticker": "LCII",
-   "shares": 24311507,
+   "shares": 24312075,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-31",
+   "shares_date": "2026-10-30",
    "price": 104.27999877929688,
-   "mcap": 2535203920.2828674,
+   "mcap": 2535263151.322174,
    "bucket": "mid"
   },
   "SYNA": {
    "ticker": "SYNA",
-   "shares": 39106986,
+   "shares": 39728516,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-04",
+   "shares_date": "2026-10-29",
    "price": 117.48999786376953,
-   "mcap": 4594679701.598465,
+   "mcap": 4667703259.970734,
    "bucket": "mid"
   },
   "PCRX": {
    "ticker": "PCRX",
-   "shares": 39861886,
+   "shares": 40094660,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-03",
+   "shares_date": "2026-11-04",
    "price": 36.400001525878906,
-   "mcap": 1450972711.224411,
+   "mcap": 1459445685.179596,
    "bucket": "small"
   },
   "CSR": {
@@ -283,7 +283,7 @@
    "ticker": "TCPC",
    "shares": 83902775,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-06",
+   "shares_date": "2026-11-05",
    "price": 4.369999885559082,
    "mcap": 366655117.1480894,
    "bucket": "small"
@@ -330,16 +330,16 @@
   },
   "ALEC": {
    "ticker": "ALEC",
-   "shares": 111656919,
+   "shares": 148877074,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-31",
+   "shares_date": "2026-10-30",
    "price": 2.2799999713897705,
-   "mcap": 254577772.12546992,
-   "bucket": "micro"
+   "mcap": 339439724.46059275,
+   "bucket": "small"
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.850000381469727
+   "price": 17.3799991607666
   },
   "CRMT": {
    "ticker": "CRMT",
@@ -374,11 +374,11 @@
   },
   "DIBS": {
    "ticker": "DIBS",
-   "shares": 33615293,
+   "shares": 34050988,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-31",
+   "shares_date": "2026-10-30",
    "price": 5.559999942779541,
-   "mcap": 186901027.1565175,
+   "mcap": 189323491.33158684,
    "bucket": "micro"
   },
   "ACB": {
@@ -405,11 +405,11 @@
   },
   "TENX": {
    "ticker": "TENX",
-   "shares": 37423917,
+   "shares": 45536448,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-28",
+   "shares_date": "2026-10-31",
    "price": 1.809999942779541,
-   "mcap": 67737287.62858629,
+   "mcap": 82420968.27438354,
    "bucket": "micro"
   },
   "DOLE": {
@@ -423,11 +423,11 @@
   },
   "ULBI": {
    "ticker": "ULBI",
-   "shares": 16663269,
+   "shares": 16668049,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-03",
+   "shares_date": "2026-11-02",
    "price": 15.619999885559082,
-   "mcap": 260280259.8730402,
+   "mcap": 260354923.47249317,
    "bucket": "micro"
   },
   "NPB": {
@@ -456,6 +456,10 @@
    "price": 1.7000000476837158,
    "mcap": 94132428.14034343,
    "bucket": "micro"
+  },
+  "VVR": {
+   "ticker": "VVR",
+   "price": 2.8499999046325684
   }
  }
 }
