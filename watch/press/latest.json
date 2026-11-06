@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "published_utc": "2026-11-06T12:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "ASTS;FLY",
+  "title": "AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites in Low Earth Orbit Using Miranda Engines from Firefly Aerospace",
+  "link": "http://www.businesswire.com/news/home/20261106165875/en/AST-SpaceMobile-to-Build-Own-20-Ton-Rocket-to-Deploy-BlueBird-Satellites-in-Low-Earth-Orbit-Using-Miranda-Engines-from-Firefly-Aerospace/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-06T12:29:00Z",
+  "wire": "Business Wire",
+  "ticker": "OKLO",
+  "title": "Oklo, U.S. Forged Rings Partner to Advance Domestic Manufacturing for Future Aurora Powerhouse Deployments",
+  "link": "http://www.businesswire.com/news/home/20261106023707/en/Oklo-U.S.-Forged-Rings-Partner-to-Advance-Domestic-Manufacturing-for-Future-Aurora-Powerhouse-Deployments/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-06T14:57:00Z",
+  "wire": "PR Newswire",
+  "ticker": "HALO",
+  "title": "U.S. FDA Approves RYBREVANT FASPRO™ (amivantamab and hyaluronidase-lpuj) Co-Formulated with Halozyme's ENHANZE® Technology for the Treatment of Advanced Head and Neck Cancer",
+  "link": "https://www.prnewswire.com/news-releases/us-fda-approves-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-co-formulated-with-halozymes-enhanze-technology-for-the-treatment-of-advanced-head-and-neck-cancer-302932125.html",
+  "matched_on": "keyword:FDA approves"
+ },
+ {
+  "published_utc": "2026-11-06T14:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SDA;SDAWW",
+  "title": "SunCar Technology Group Announces Share Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/11/06/3397597/0/en/suncar-technology-group-announces-share-repurchase-program.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-06T14:10:00Z",
+  "wire": "Business Wire",
+  "ticker": "ALGN",
+  "title": "Align Technology Announces $270 Million Accelerated Stock Repurchase Agreement",
+  "link": "http://www.businesswire.com/news/home/20261106269526/en/Align-Technology-Announces-270-Million-Accelerated-Stock-Repurchase-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-11-06T12:23:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CANF",
+  "title": "Can-Fite to Pursue Global Licensing and Strategic Partnerships at BIO-Europe 2026 Following Recent Clinical and Intellectual Property Milestones",
+  "link": "https://www.globenewswire.com/news-release/2026/11/06/3397456/0/en/can-fite-to-pursue-global-licensing-and-strategic-partnerships-at-bio-europe-2026-following-recent-clinical-and-intellectual-property-milestones.html",
+  "matched_on": "keyword:Phase III"
+ }
+]
