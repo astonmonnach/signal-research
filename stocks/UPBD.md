@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $24.78 (2026-11-06, ledger)
-- **Since first found:** **-0.4%** (found 2026-11-05 via `insider_cluster` at $24.88). From the next open $24.50: +1.1% vs IWM +0.1% = **+1.0 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $24.70 (2026-11-09, ledger)
+- **Since first found:** **-0.7%** (found 2026-11-05 via `insider_cluster` at $24.88). From the next open $24.50: +0.8% vs IWM +3.4% = **-2.6 pts** vs IWM; direction 0, tracked only (3 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-05](../scans/2026-11-05.md#new-setups)**: Logged as `insider_cluster` (direction 0): Seven insiders ~$1.34M on 2-3 Nov; +47% from 28 Oct already; late; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- UPBD: seven insiders, about $1.34M, but +47% from 28 Oct. Late.) ([note](../research/daily/2026-11-05.md))
+- **[2026-11-05](../scans/2026-11-05.md#new-setups)**: Logged as `insider_cluster` (direction 0): Seven insiders ~$1.34M on 2-3 Nov; +47% from 28 Oct already; late; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/933036/000119312526449973/0001193125-26-449973-index.htm)) · Research: Research: Thu 5 Nov 2026 (- UPBD: seven insiders, about $1.34M, but +47% from 28 Oct. Late.) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/933036/000119312526447393/0001193125-26-447393-index.htm))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/933036/000119312526437864/0001193125-26-437864-index.htm))
 
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for UPBD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `insider_cluster` | 0 | +42.8% | +3.1% | $26.1M | $24.88 | $24.50 | $24.78 | -0.4% | +1.1% | +0.1% |  | 0 | live |
+| 2026-11-05 | `insider_cluster` | 0 | +42.8% | +3.1% | $26.1M | $24.88 | $24.50 | $24.70 | -0.7% | +0.8% | +3.4% |  | 3 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $11.85 (2026-11-06, ledger)
-- **Since first found:** **-2.9%** (found 2026-10-05 via `longterm_research` at $12.20). From the next open $12.88: -8.0% vs IWM -4.2% = **-3.8 pts** vs IWM; direction 0, tracked only (31 days)
+- **Latest price:** $12.30 (2026-11-09, ledger)
+- **Since first found:** **+0.8%** (found 2026-10-05 via `longterm_research` at $12.20). From the next open $12.88: -4.5% vs IWM -1.1% = **-3.4 pts** vs IWM; direction 0, tracked only (34 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Cleveland-Cliffs Reaches New Four-Year Labor Agreements with United Steelworkers (Business Wire) ([release](http://www.businesswire.com/news/home/20261105708947/en/Cleveland-Cliffs-Reaches-New-Four-Year-Labor-Agreements-with-United-Steelworkers/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: Cleveland-Cliffs Confirms Full Compliance with Stelco Undertakings (Business Wire, published Mon 26 Oct) ([release](http://www.businesswire.com/news/home/20261026731490/en/Cleveland-Cliffs-Confirms-Full-Compliance-with-Stelco-Undertakings/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage, dismissed: CLF director buy (over $2B). ([triage](../watch/digests/2026-10-26-triage.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/764065/000076406526000117/0000764065-26-000117-index.htm))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for CLF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -7.1% | +7.8% | $180.9M | $12.20 | $12.88 | $11.85 | -2.9% | -8.0% | -4.2% |  | 31 | live |
+| 2026-10-05 | `longterm_research` | 0 | -7.1% | +7.8% | $180.9M | $12.20 | $12.88 | $12.30 | +0.8% | -4.5% | -1.1% |  | 34 | live |

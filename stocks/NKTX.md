@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.81 (2026-11-06, ledger)
-- **Since first found:** **+5.2%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: +4.0% vs IWM -3.5% = **+7.6 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $1.48 (2026-11-09, ledger)
+- **Since first found:** **-14.2%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -15.2% vs IWM -0.4% = **-14.8 pts** vs IWM; direction 0, tracked only (11 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Nkarta to Host Webcast to Discuss Initial Clinical Data for NKX019 in Autoimmune Diseases at ACR Convergence… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/06/3397882/0/en/nkarta-to-host-webcast-to-discuss-initial-clinical-data-for-nkx019-in-autoimmune-diseases-at-acr-convergence-2026.html))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: Nkarta Reports Third Quarter 2026 Financial Results and Provides Business Update (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/05/3397171/0/en/nkarta-reports-third-quarter-2026-financial-results-and-provides-business-update.html))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Reaction** (Yahoo closes): -30.7% on 27 Oct against XBI +2.9% and IWM +1.2%; volume about 12x the $2.98M…) ([note](../research/daily/2026-10-28.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for NKTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.81 | +5.2% | +4.0% | -3.5% |  | 8 | live |
+| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.48 | -14.2% | -15.2% | -0.4% |  | 11 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $12.07 (2026-11-06, ledger)
-- **Since first found:** **+36.2%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: +36.2% vs IWM -1.4% = **+37.6 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $12.61 (2026-11-09, ledger)
+- **Since first found:** **+42.3%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: +42.3% vs IWM +1.9% = **+40.5 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **Movers log (5 Nov):** LABT +182.4% (redeemed its Series C preferred), AEHL +178.1% (no news; it is on our…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1470683/000149315226049623/form6-k.htm))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 10 AEHL +34% no_news $11.49 218.5 yes -0.6% -33.5% -37.2) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **AVOIDs must use labels TF1 excludes:** GTBP, SWBI, AEHL and TNON were logged as supply_* labels outside…) ([note](../research/daily/2026-10-26.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for AEHL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $12.07 | +36.2% | +36.2% | -1.4% |  | 11 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $12.61 | +42.3% | +42.3% | +1.9% |  | 14 | live |

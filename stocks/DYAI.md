@@ -23,8 +23,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.330 (2026-11-06, ledger)
-- **Since first found:** **-28.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.460). From the next open $0.460: -28.3% vs IWM -3.4% = **-24.9 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $0.379 (2026-11-09, ledger)
+- **Since first found:** **-17.6%** (found 2026-10-04 via `setup_supply_deficiency` at $0.460). From the next open $0.460: -17.6% vs IWM -0.2% = **-17.4 pts** vs IWM; direction 0, tracked only (35 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -43,4 +43,4 @@ Every [ledger](../ledger/LEDGER.md) row for DYAI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -2.3% | +7.0% | $87k ⚠ | $0.460 | $0.460 | $0.330 | -28.3% | -28.3% | -3.4% |  | 32 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -2.3% | +7.0% | $87k ⚠ | $0.460 | $0.460 | $0.379 | -17.6% | -17.6% | -0.2% |  | 35 | live |

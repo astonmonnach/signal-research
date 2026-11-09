@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $7.92 (2026-11-06, ledger)
-- **Since first found:** **+11.7%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: +10.9% vs IWM -1.4% = **+12.3 pts** vs IWM; direction -1 → excess -12.3% (11 days)
+- **Latest price:** $8.50 (2026-11-09, ledger)
+- **Since first found:** **+19.9%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: +19.1% vs IWM +1.9% = **+17.2 pts** vs IWM; direction -1 → excess -17.2% (14 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for PMI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $7.92 | +11.7% | +10.9% | -1.4% | -12.3% | 11 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $7.92 | +23.2% | +18.4% | -2.0% |  | 10 | live |
+| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $8.50 | +19.9% | +19.1% | +1.9% | -17.2% | 14 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $8.50 | +32.2% | +27.1% | +1.2% |  | 13 | live |

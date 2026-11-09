@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.29 (2026-11-06, ledger)
-- **Since first found:** **-14.8%** (found 2026-10-28 via `linked_peer` at $1.52). From the next open $1.54: -15.9% vs IWM -3.5% = **-12.4 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $1.47 (2026-11-09, ledger)
+- **Since first found:** **-3.3%** (found 2026-10-28 via `linked_peer` at $1.52). From the next open $1.54: -4.5% vs IWM -0.4% = **-4.2 pts** vs IWM; direction 0, tracked only (11 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-08](../scans/2026-11-08.md#press-releases)**: Press: Cabaletta Bio Presents New Rese-cel Phase 1/2 Clinical Data at ACR Convergence 2026 Featuring… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/08/3398000/0/en/cabaletta-bio-presents-new-rese-cel-phase-1-2-clinical-data-at-acr-convergence-2026-featuring-immunomodulator-free-durability-and-favorable-benefit-risk-profile-across-autoimmune-d.html))
+- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1759138/000175913826000047/caba-20260930.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Reaction** (Yahoo closes): -30.7% on 27 Oct against XBI +2.9% and IWM +1.2%; volume about 12x the $2.98M…) ([note](../research/daily/2026-10-28.md))
 
 ## Performance since found
@@ -24,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for CABA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -9.6% | +4.5% | $8.7M | $1.52 | $1.54 | $1.29 | -14.8% | -15.9% | -3.5% |  | 8 | live |
+| 2026-10-28 | `linked_peer` | 0 | -9.6% | +4.5% | $8.7M | $1.52 | $1.54 | $1.47 | -3.3% | -4.5% | -0.4% |  | 11 | live |

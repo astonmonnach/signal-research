@@ -35,8 +35,10 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-21 | ACB | ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mou | 2026-12-04 | 2026-12-18 | $3.95 | ±19.0% | $0.75 @ 4.0 | 130.0% | none | open |  |
 | 2026-11-05 | ACB | ACB: Curaleaf's competing offer expires (Organigram deal pen | 2026-12-04 | 2026-12-18 | $5.21 | ±12.5% | $0.65 @ 5.0 | 51.0% | - | open |  |
 | 2026-10-13 | HZO | HZO earliest close | 2026-12-07 | 2027-01-15 | $52.33 | ±6.1% | $3.18 @ 50.0 | 82.9% | smaller | open |  |
+| 2026-11-09 | MSGK | MSGK: annual meeting (MSG Knickerbockers, formerly MSGS) | 2026-12-08 | 2026-12-18 | $311.22 | ±7.8% | $24.10 @ 310.0 | 17.9% | - | open |  |
 | 2026-10-16 | RYAM | RYAM: company promised a clear path forward in Q4 2026 | 2026-12-15 | 2026-12-18 | $7.11 | ±20.3% | $1.38 @ 7.0 | 100.0% | none | open |  |
 | 2026-11-05 | ACB | ACB/OGI: target date for both shareholder meetings on the Or | 2026-12-23 | 2027-01-15 | $5.21 | ±15.6% | $0.68 @ 5.0 | 66.7% | - | open |  |
 | 2026-11-02 | TENX | TENX: lead-plaintiff deadline in the securities class action | 2026-12-28 | 2027-01-15 | $1.79 | ±43.7% | $0.82 @ 2.0 | 113.8% | none | open |  |
 | 2026-11-02 | PUSA | PUSA: second third of merger lock-up shares released (90 day | 2026-12-30 | 2027-01-15 | $1.68 | ±134.1% | $2.25 @ 2.5 | 125.7% | none | open |  |
 | 2026-11-02 | GPRO | GPRO: outside date for the $1.14 cash plus stock takeover (a | 2026-12-31 | 2027-01-15 | $0.93 | ±32.2% | $0.30 @ 1.0 | 34.3% | none | open |  |
+| 2026-11-09 | ACB | ACB: earliest closing of the Organigram arrangement | 2027-01-06 | 2027-01-15 | $5.16 | ±16.8% | $0.70 @ 5.0 | 75.0% | - | open |  |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $30.83 (2026-11-06, ledger)
-- **Since first found:** **-30.6%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -28.6% vs IWM -1.1% = **-27.5 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $36.95 (2026-11-09, ledger)
+- **Since first found:** **-16.9%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -14.5% vs IWM +2.1% = **-16.6 pts** vs IWM; direction 0, tracked only (24 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites in Low Earth Orbit Using Miranda… (Business Wire) ([release](http://www.businesswire.com/news/home/20261106165875/en/AST-SpaceMobile-to-Build-Own-20-Ton-Rocket-to-Deploy-BlueBird-Satellites-in-Low-Earth-Orbit-Using-Miranda-Engines-from-Firefly-Aerospace/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: AST SpaceMobile Awarded U.S. Space Force Contract Through STR to Advance Space-Based Sensing Capabilities (Business Wire) ([release](http://www.businesswire.com/news/home/20261104508354/en/AST-SpaceMobile-Awarded-U.S.-Space-Force-Contract-Through-STR-to-Advance-Space-Based-Sensing-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: AST SpaceMobile to Host Third Quarter 2026 Business Update Call on November 9, 2026 (Business Wire, published Mon 26 Oct) ([release](http://www.businesswire.com/news/home/20261026877819/en/AST-SpaceMobile-to-Host-Third-Quarter-2026-Business-Update-Call-on-November-9-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-26](../scans/2026-10-26.md#press-releases)**: Press: AST SpaceMobile Advances Brazil Expansion with Anatel’s Approval for S-band Spectrum and Secondary Use of the… (Business Wire) ([release](http://www.businesswire.com/news/home/20261026540919/en/AST-SpaceMobile-Advances-Brazil-Expansion-with-Anatel%E2%80%99s-Approval-for-S-band-Spectrum-and-Secondary-Use-of-the-700-MHz-Band-Agreements-with-Four-Regional-Operators-and-Planned-Ground-Infrastructure/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $30.83 | -30.6% | -28.6% | -1.1% |  | 21 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $36.95 | -16.9% | -14.5% | +2.1% |  | 24 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.99 (2026-11-06, ledger) · 1d +0.1%, 5d -0.1%, 20d +135.6% (market context, 2026-11-06)
-- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM -0.4% = **+0.9 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $6.00 (2026-11-09, ledger) · 1d +0.5%, 5d +0.5%, 20d +57.9% (market context, 2026-11-09)
+- **Since first found:** **+0.8%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.8% vs IWM +2.9% = **-2.1 pts** vs IWM; direction 0, tracked only (26 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.1% vs peer median +0.6%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** no flag (self 5d +0.5% vs peer median +4.4%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-11-09)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 9 Nov 2026: BMBL: Q3 10-Q due by today (paying users; no earnings call because of the deal)
@@ -37,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -0.4% |  | 23 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -0.4% |  | 23 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.00 | +0.8% | +0.8% | +2.9% |  | 26 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.00 | +0.8% | +0.8% | +2.9% |  | 26 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $74.59 (2026-11-06, ledger)
-- **Since first found:** **+37.1%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +38.0% vs IWM -2.1% = **+40.1 pts** vs IWM; direction 0, tracked only (30 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $76.71 (2026-11-09, ledger) · 1d +1.8%, 5d +22.6%, 20d +36.4% (market context, 2026-11-09)
+- **Since first found:** **+41.0%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +42.0% vs IWM +1.1% = **+40.9 pts** vs IWM; direction 0, tracked only (33 days)
+- **Peers / sympathy:** solo_move: PCOR +22.6% 5d vs peer median -0.7%; peers didn't move with it. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Half of Young People Say AI Would Make Construction More Appealing, but 41% Don’t Know the Industry Uses It (Business Wire) ([release](http://www.businesswire.com/news/home/20261108009738/en/Half-of-Young-People-Say-AI-Would-Make-Construction-More-Appealing-but-41-Don%E2%80%99t-Know-the-Industry-Uses-It/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==))
 - **[2026-10-15](../scans/2026-10-15.md#press-releases)**: Press: Procore Names COMPASS Its Preferred Subcontractor Prequalification Solution (PR Newswire) ([release](https://www.prnewswire.com/news-releases/procore-names-compass-its-preferred-subcontractor-prequalification-solution-302909126.html))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_peer` (direction 0): PTC takeout read-across: +5.8% since Fri vs IGV +2.3%; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- Bentley (BSY) +10.2%, Autodesk (ADSK) +8.1%, Procore (PCOR) +5.8%, Dassault (DASTY) +4.4%.) ([note](../research/daily/2026-10-06.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for PCOR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $74.59 | +37.1% | +38.0% | -2.1% |  | 30 | live |
+| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $76.71 | +41.0% | +42.0% | +1.1% |  | 33 | live |

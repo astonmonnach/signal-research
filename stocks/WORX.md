@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.41 (2026-11-06, ledger)
-- **Since first found:** **-74.5%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -75.3% vs IWM -4.2% = **-71.0 pts** vs IWM; direction -1 → excess +71.0% (31 days)
+- **Latest price:** $1.46 (2026-11-09, ledger)
+- **Since first found:** **-73.6%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -74.5% vs IWM -1.1% = **-73.4 pts** vs IWM; direction -1 → excess +73.4% (34 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.41 | -74.5% | -75.3% | -4.2% | +71.0% | 31 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.41 | -26.2% | -28.8% | -2.8% | +26.0% | 9 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.41 | -26.2% | -23.0% | -3.5% |  | 8 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.46 | -73.6% | -74.5% | -1.1% | +73.4% | 34 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.46 | -23.8% | -26.5% | +0.3% | +26.9% | 12 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.46 | -23.8% | -20.5% | -0.4% |  | 11 | live |

@@ -33,3 +33,5 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-11-02,GPRO,2026-12-31,GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed),2027-01-15,0.93,32.2,1.0,0.3,34.3,41316,none,open,,,,
 2026-11-05,ACB,2026-12-04,"ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)",2026-12-18,5.21,12.5,5.0,0.65,51.0,4374,,open,,,,
 2026-11-05,ACB,2026-12-23,ACB/OGI: target date for both shareholder meetings on the Organigram arrangement (T021),2027-01-15,5.21,15.6,5.0,0.68,66.7,5290,,open,,,,
+2026-11-09,MSGK,2026-12-08,"MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)",2026-12-18,311.22,7.8,310.0,24.1,17.9,53,,open,,,,
+2026-11-09,ACB,2027-01-06,ACB: earliest closing of the Organigram arrangement,2027-01-15,5.16,16.8,5.0,0.7,75.0,5284,,open,,,,

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.19 (2026-11-06, market context) · 1d +7.9%, 5d -1.4%, 20d -30.7% (market context, 2026-11-06)
+- **Latest price:** $2.60 (2026-11-09, market context) · 1d +10.2%, 5d +17.1%, 20d -9.1% (market context, 2026-11-09)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** missed_peer_move: peer median -10.6% 5d vs NKLR -1.4%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** solo_move: NKLR +17.1% 5d vs peer median +1.4%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `DEFA14A` 6 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `424B3` 28 Oct
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **NKLR**: MaloneBailey formally engaged 23 Oct. KPMG was dismissed 9 Oct with unremediated material weaknesses. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `8-K` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **NKLR:** the new auditor must review a 10-Q due about 16 Nov; the AVOID stands. **TALO:** the Slim family…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **NKLR**: AGM 16 Nov, including a proposal to extend the time to prepare the FY2025 accounts. The AVOID stands. ([triage](../watch/digests/2026-10-27-triage.md)) · Market scan: 8-K trigger phrase "auditor change (Item 4.01)" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/2067627/000114036126040902/ef20084402_8k.htm)) · Filings: `DEF 14A` 27 Oct

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $8.42 (2026-11-06, ledger)
-- **Since first found:** **-2.2%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -2.1% vs IWM -1.6% = **-0.5 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $8.80 (2026-11-09, ledger)
+- **Since first found:** **+2.1%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +2.3% vs IWM +1.6% = **+0.7 pts** vs IWM; direction 0, tracked only (19 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Alpha Cognition to Participate in Upcoming Investor Events (Business Wire) ([release](http://www.businesswire.com/news/home/20261106352544/en/Alpha-Cognition-to-Participate-in-Upcoming-Investor-Events/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Alpha Cognition to Report Third Quarter 2026 Financial Results and Provide Business Update (Business Wire, published Mon 2 Nov) ([release](http://www.businesswire.com/news/home/20261102524180/en/Alpha-Cognition-to-Report-Third-Quarter-2026-Financial-Results-and-Provide-Business-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1655923/000149315226048562/0001493152-26-048562-index.htm))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **ACOG** (Alpha Cognition): Opaleye, a 10% owner and healthcare specialist, bought another $309k on 15-16 Oct. ([triage](../watch/digests/2026-10-20-triage.md)) · Logged as `insider_buy` (direction 0): Opaleye (10% owner) buying every two weeks since May; $309k on 15-16 Oct; $8.50; tracked; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.42 | -2.2% | -2.1% | -1.6% |  | 16 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.80 | +2.1% | +2.3% | +1.6% |  | 19 | live |

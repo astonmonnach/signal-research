@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $12.05 (2026-11-06, ledger) · 1d +0.0%, 5d +3.4%, 20d -9.1% (market context, 2026-11-06)
-- **Since first found:** **+607.0%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +606.6% vs IWM -2.8% = **+609.4 pts** vs IWM; direction 0, tracked only (37 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $12.17 (2026-11-09, ledger) · 1d +1.9%, 5d +1.7%, 20d -8.8% (market context, 2026-11-09)
+- **Since first found:** **+618.1%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +617.7% vs IWM +0.4% = **+617.3 pts** vs IWM; direction 0, tracked only (40 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: CTVA +3.4% 5d vs peer median +0.8% (crop inputs +4.4%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** no flag (self 5d +1.7% vs peer median +1.6%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 6 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 5 Nov, `SCHEDULE 13G/A` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` ×3 3 Nov
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
@@ -122,7 +123,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.05 | +607.0% | +606.6% | -2.8% |  | 37 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.05 | -2.8% | -7.9% | -4.2% |  | 31 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.17 | +618.1% | +617.7% | +0.4% |  | 40 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.17 | -1.8% | -7.0% | -1.1% |  | 34 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

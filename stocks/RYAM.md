@@ -101,10 +101,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $6.22 (2026-11-06, ledger) · 1d -4.2%, 5d -6.0%, 20d -11.5% (market context, 2026-11-06)
-- **Since first found:** **-23.6%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -23.6% vs IWM -2.8% = **-20.8 pts** vs IWM; direction +1 → excess -20.8% (38 days)
+- **Latest price:** $5.82 (2026-11-09, ledger) · 1d -1.6%, 5d -13.0%, 20d -18.9% (market context, 2026-11-09)
+- **Since first found:** **-28.6%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -28.6% vs IWM +0.4% = **-29.0 pts** vs IWM; direction +1 → excess -29.0% (41 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-06)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -128,5 +128,5 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $6.22 | -23.6% | -23.6% | -2.8% | -20.8% | 38 | live |
-| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $6.22 | -9.9% | -0.6% | -4.2% | +3.6% | 2 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $5.82 | -28.6% | -28.6% | +0.4% | -29.0% | 41 | live |
+| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $5.82 | -15.8% | -7.1% | -1.0% | -6.1% | 5 | live |

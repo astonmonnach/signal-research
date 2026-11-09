@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $1.40 (2026-11-06, ledger)
-- **Since first found:** **-70.8%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -72.8% vs IWM +0.2% = **-73.0 pts** vs IWM; direction -1 → excess +73.0% (18 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $1.43 (2026-11-09, ledger)
+- **Since first found:** **-70.3%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -72.3% vs IWM +3.5% = **-75.8 pts** vs IWM; direction -1 → excess +75.8% (21 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **IPW (call #10):** the resale of "up to an aggregate of 8,089,888 shares" against 644,010 outstanding is…) ([note](../research/daily/2026-11-06.md))
+- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -35.7%, found day -7.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1830072/999999999526003441/9999999995-26-003441-index.htm))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `setup_supply_convert` (direction 0): ATW floating-price notes converted into ~72% of 596,808 shares; resale S-1/A for up to 8.09M; three splits in 2026; AVOID, public call #10; source: daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-29](../scans/2026-10-29.md#triage-notes)**: Triage: **IPW**: ATW floating-price notes, resale of up to 8.09M shares vs 596,808 outstanding, S-3 effective 27 Oct. AVOID, public call #10 (research note). ([triage](../watch/digests/2026-10-29-triage.md)) · Research: Research: Thu 29 Oct 2026 (1. IPW: a floating-price lender, a resale filing for 13.6x the shares, three splits this year) ([note](../research/daily/2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -18.1%, found day -17.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1830072/999999999526003349/9999999995-26-003349-index.htm))
@@ -28,6 +30,7 @@ Every [ledger](../ledger/LEDGER.md) row for IPW ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.40 | -70.8% | -72.8% | +0.2% | +73.0% | 18 | live |
-| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.40 | -39.0% | -37.4% | -3.5% | +33.8% | 8 | live |
-| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.40 | -20.8% | -19.4% | -3.3% |  | 4 | live |
+| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.43 | -70.3% | -72.3% | +3.5% | +75.8% | 21 | live |
+| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.43 | -37.8% | -36.2% | -0.4% | +35.8% | 11 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.43 | -19.2% | -17.8% | -0.1% |  | 7 | live |
+| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.43 | +4.4% | +5.2% | +3.4% | -1.7% | 3 | live |

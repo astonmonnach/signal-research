@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $22.75 (2026-11-06, ledger)
-- **Since first found:** **-24.2%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -22.6% vs IWM -1.1% = **-21.5 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $26.67 (2026-11-09, ledger)
+- **Since first found:** **-11.2%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -9.3% vs IWM +2.1% = **-11.4 pts** vs IWM; direction 0, tracked only (24 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Oklo, U.S. Forged Rings Partner to Advance Domestic Manufacturing for Future Aurora Powerhouse Deployments (Business Wire) ([release](http://www.businesswire.com/news/home/20261106023707/en/Oklo-U.S.-Forged-Rings-Partner-to-Advance-Domestic-Manufacturing-for-Future-Aurora-Powerhouse-Deployments/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear developer): -18.3% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Oklo (OKLO) $34.57 $28.24 -18.3%) ([note](../research/daily/2026-10-15.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for OKLO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $22.75 | -24.2% | -22.6% | -1.1% |  | 21 | live |
+| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $26.67 | -11.2% | -9.3% | +2.1% |  | 24 | live |

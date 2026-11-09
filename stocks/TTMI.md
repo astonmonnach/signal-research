@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $64.27 (2026-11-06, ledger)
-- **Since first found:** **-22.5%** (found 2026-11-01 via `insider_cluster` at $82.94). From the next open $84.27: -23.7% vs IWM -3.3% = **-20.4 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $75.68 (2026-11-09, ledger)
+- **Since first found:** **-8.8%** (found 2026-11-01 via `insider_cluster` at $82.94). From the next open $84.27: -10.2% vs IWM -0.1% = **-10.1 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1116942/000119312526449379/0001193125-26-449379-index.htm))
 - **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- TTMI -11% on 4 Nov, alongside the data-centre hardware sell-off (VRT, SANM, CLS).) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `insider_cluster` (direction 0): CEO and a director bought ~$1.34M at $88-91 on 28 Oct after a 27.7% earnings drop; $100M buyback; tracked, no call; source: daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-29](../scans/2026-10-29.md#triage-notes)**: Triage: **TTMI**: CEO and a director bought about $1.34M on 28 Oct after a 27.7% earnings drop. Insider cluster, tracked. ([triage](../watch/digests/2026-10-29-triage.md)) · Research: Research: Thu 29 Oct 2026 (2. TTMI: two insiders buy after a 28% earnings drop) ([note](../research/daily/2026-10-29.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for TTMI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `insider_cluster` | 0 | +18.6% | -5.4% | $454.1M | $82.94 | $84.27 | $64.27 | -22.5% | -23.7% | -3.3% |  | 4 | live |
+| 2026-11-01 | `insider_cluster` | 0 | +18.6% | -5.4% | $454.1M | $82.94 | $84.27 | $75.68 | -8.8% | -10.2% | -0.1% |  | 7 | live |

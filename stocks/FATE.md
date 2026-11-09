@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.83 (2026-11-06, ledger)
-- **Since first found:** **-15.9%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -15.9% vs IWM -3.5% = **-12.4 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $1.92 (2026-11-09, ledger)
+- **Since first found:** **-11.3%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -11.3% vs IWM -0.4% = **-10.9 pts** vs IWM; direction 0, tracked only (11 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1434316/000119312526450013/0001193125-26-450013-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV named competitor (10-K) -- ARTV stopped AlloNK on 27 Oct; fludarabine read-across (inference); source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Linked names:** ALLO, CABA, FATE, IBRX, KYTX, NKTX, SANA (named competitors in the 10-K) and LYCA (ARTV…) ([note](../research/daily/2026-10-28.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for FATE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.83 | -15.9% | -15.9% | -3.5% |  | 8 | live |
+| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.92 | -11.3% | -11.3% | -0.4% |  | 11 | live |
