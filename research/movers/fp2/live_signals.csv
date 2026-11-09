@@ -43,12 +43,12 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-04,00:11,False,INO,Inovio Pharmaceuticals Inc. Common Stock,S2,1.89,222260402,21347232,10.41,3517168,,,1.62,1.5708,2026-11-05,-0.03037,-0.05037,filled
 2026-11-05,00:31,False,ICU,SeaStar Medical Holding Corporation Common Stock,S2,2.0,2282658,259749,8.79,352531,,,1.92,1.93,2026-11-06,0.005208,-0.014792,filled
 2026-11-05,00:31,False,IFRX,InflaRx N.V. Common Stock,S2,1.62,5678419,1084425,5.24,1101141,,,1.355,1.22,2026-11-06,-0.099631,-0.119631,filled
-2026-11-06,00:33,False,CMTG,Claros Mortgage Trust Inc. Common Stock,S2,1.85,21991017,1879923,11.7,699457,,,,,,,,open
-2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S2,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,,,,,,open
-2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S1,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,,,,,,open
-2026-11-06,00:33,False,FTCI,FTC Solar Inc. Common Stock,S2,1.38,97298450,5184140,18.77,321057,,,,,,,,open
-2026-11-06,00:33,False,SMRT,SmartRent Inc. Class A Common Stock,S2,1.62,4977974,812511,6.13,679903,,,,,,,,open
-2026-11-06,00:33,False,STEM,Stem Inc. Class A Common Stock,S2,2.88,1821607,269056,6.77,382269,,,,,,,,open
-2026-11-06,00:33,False,STIM,Neuronetics Inc. Common Stock,S2,2.705,5469652,1020084,5.36,1520538,,,,,,,,open
-2026-11-06,00:33,False,THM,International Tower Hill Mines Ltd. Ordinary Shares (Canada),S2,1.74,7931983,1470938,5.39,1034595,,,,,,,,open
-2026-11-06,00:33,False,TSQ,Townsquare Media Inc. Class A Common Stock,S2,2.18,1031384,195115,5.29,515849,,,,,,,,open
+2026-11-06,00:33,False,CMTG,Claros Mortgage Trust Inc. Common Stock,S2,1.85,21991017,1879923,11.7,699457,,,1.64,1.66,2026-11-09,0.012195,-0.007805,filled
+2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S2,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,1.47,1.43,2026-11-09,-0.027211,-0.047211,filled
+2026-11-06,00:33,False,DKI,DarkIris Inc. Class A Ordinary Shares,S1,2.08,41522544,3743947,11.09,4860206,2026-10-22,0.02,1.47,1.43,2026-11-09,-0.027211,-0.047211,filled
+2026-11-06,00:33,False,FTCI,FTC Solar Inc. Common Stock,S2,1.38,97298450,5184140,18.77,321057,,,1.56,1.59,2026-11-09,0.019231,-0.000769,filled
+2026-11-06,00:33,False,SMRT,SmartRent Inc. Class A Common Stock,S2,1.62,4977974,812511,6.13,679903,,,1.59,1.66,2026-11-09,0.044025,0.024025,filled
+2026-11-06,00:33,False,STEM,Stem Inc. Class A Common Stock,S2,2.88,1821607,269056,6.77,382269,,,2.52,2.58,2026-11-09,0.02381,0.00381,filled
+2026-11-06,00:33,False,STIM,Neuronetics Inc. Common Stock,S2,2.705,5469652,1020084,5.36,1520538,,,2.15,2.23,2026-11-09,0.037209,0.017209,filled
+2026-11-06,00:33,False,THM,International Tower Hill Mines Ltd. Ordinary Shares (Canada),S2,1.74,7931983,1470938,5.39,1034595,,,1.54,1.57,2026-11-09,0.019481,-0.000519,filled
+2026-11-06,00:33,False,TSQ,Townsquare Media Inc. Class A Common Stock,S2,2.18,1031384,195115,5.29,515849,,,1.85,1.85,2026-11-09,0.0,-0.02,filled
