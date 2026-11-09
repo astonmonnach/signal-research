@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $14.05 (2026-11-09, ledger)
-- **Since first found:** **-3.4%** (found 2026-10-15 via `linked_peer` at $14.54). From the next open $14.30: -1.8% vs IWM +2.1% = **-3.9 pts** vs IWM; direction 0, tracked only (24 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $14.12 (2026-11-09, ledger) · 1d +12.6%, 5d +9.0%, 20d -11.5% (market context, 2026-11-09)
+- **Since first found:** **-2.9%** (found 2026-10-15 via `linked_peer` at $14.54). From the next open $14.30: -1.3% vs IWM +2.2% = **-3.5 pts** vs IWM; direction 0, tracked only (24 days)
+- **Peers / sympathy:** solo_move: PL +9.0% 5d vs peer median +1.2%; peers didn't move with it. Peer groups: SIC 3663 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Planet and Stoke Space Sign Multi-Launch Agreement for Nova Launch Capabilities (Business Wire) ([release](http://www.businesswire.com/news/home/20261109619079/en/Planet-and-Stoke-Space-Sign-Multi-Launch-Agreement-for-Nova-Launch-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Planet Releases First Light from Pelican-12 (Business Wire) ([release](http://www.businesswire.com/news/home/20261104953655/en/Planet-Releases-First-Light-from-Pelican-12/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-21](../scans/2026-10-21.md#press-releases)**: Press: Planet Awarded NASA Commercial Satellite Data Acquisition (CSDA) Evaluation Task Order for Tanager… (Business Wire) ([release](http://www.businesswire.com/news/home/20261021824897/en/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: Planet Launches Pelican-12 Satellite (Business Wire) ([release](http://www.businesswire.com/news/home/20261016907221/en/Planet-Launches-Pelican-12-Satellite/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for PL ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -20.4% | +2.9% | $183.7M | $14.54 | $14.30 | $14.05 | -3.4% | -1.8% | +2.1% |  | 24 | live |
+| 2026-10-15 | `linked_peer` | 0 | -20.4% | +2.9% | $183.7M | $14.54 | $14.30 | $14.12 | -2.9% | -1.3% | +2.2% |  | 24 | live |

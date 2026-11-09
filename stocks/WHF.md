@@ -88,8 +88,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $8.18 (2026-11-09, ledger) · 1d -2.5%, 5d +1.1%, 20d +11.6% (market context, 2026-11-09)
-- **Since first found:** **+17.4%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +17.7% vs IWM +0.4% = **+17.3 pts** vs IWM; direction +1 → excess +17.3% (41 days)
+- **Latest price:** $8.10 (2026-11-09, ledger) · 1d -3.5%, 5d +0.1%, 20d +10.5% (market context, 2026-11-09)
+- **Since first found:** **+16.2%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.6% vs IWM +0.5% = **+16.0 pts** vs IWM; direction +1 → excess +16.0% (41 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 9 Nov 2026: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)
@@ -101,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: WhiteHorse Finance, Inc. Announces Third Quarter 2026 Earnings Results and Declares Quarterly Distribution of… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-third-quarter-2026-earnings-results-and-declares-quarterly-distribution-of-0-25-per-share-302933316.html))
 - **[2026-10-30](../scans/2026-10-30.md)**: Calendar: WHF: record date for the $0.17 special distribution (paid 10 Dec) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- WHF: +16.2 vs IWM. A business development company (BDC) 41% below its June NAV, with notes maturing in…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- **Kept as WATCH, with a dated trigger:** RYAM (31 Dec), MOD (18 Nov), WHF (15 Dec), DIBS (16 Nov) and ACB…) ([note](../research/daily/2026-10-20.md))
@@ -115,4 +116,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.18 | +17.4% | +17.7% | +0.4% | +17.3% | 41 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.10 | +16.2% | +16.6% | +0.5% | +16.0% | 41 | live |

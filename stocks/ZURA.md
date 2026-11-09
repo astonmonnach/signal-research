@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.12 (2026-11-09, ledger)
-- **Since first found:** **-74.1%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -74.1% vs IWM -0.4% = **-73.8 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $1.17 (2026-11-09, ledger) · 1d -71.5%, 5d -70.4%, 20d -70.9% (market context, 2026-11-09)
+- **Since first found:** **-73.1%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -73.1% vs IWM -0.2% = **-72.8 pts** vs IWM; direction 0, tracked only (11 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: ZURA -70.4% 5d vs peer median +2.9%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+  - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Zura Bio Provides Clinical Update on Phase 2 TibuSHIELD Study of Tibulizumab (ZB-106) in Hidradenitis… (Business Wire) ([release](http://www.businesswire.com/news/home/20261109871255/en/Zura-Bio-Provides-Clinical-Update-on-Phase-2-TibuSHIELD-Study-of-Tibulizumab-ZB-106-in-Hidradenitis-Suppurativa/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -6.6%, found day +0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1855644/999999999526003425/9999999995-26-003425-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): New $700M shelf with a $114M Leerink ATM (about 28% of market value) filed on a +19.9% day; shelf not yet effective; re-read for AVOID at EFFECT; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **ZURA** is not called: its new $114M ATM (about 28% of the market value) sits on a shelf that is not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/1855644/000110465926119219/0001104659-26-119219-index.htm))
@@ -27,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for ZURA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.12 | -74.1% | -74.1% | -0.4% |  | 11 | live |
-| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.12 | -72.0% | -71.9% | -0.9% | +71.0% | 4 | live |
+| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.17 | -73.1% | -73.1% | -0.2% |  | 11 | live |
+| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.17 | -70.9% | -70.8% | -0.7% | +70.0% | 4 | live |

@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $26.22 (2026-11-09, ledger)
-- **Since first found:** **+12.8%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +13.0% vs IWM +1.2% = **+11.8 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $26.16 (2026-11-09, ledger) · 1d +12.8%, 5d +13.2%, 20d +83.8% (market context, 2026-11-09)
+- **Since first found:** **+12.5%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +12.8% vs IWM +1.4% = **+11.4 pts** vs IWM; direction 0, tracked only (13 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** no flag (self 5d +13.2% vs peer median +9.3%). Peer groups: SIC 8062 (5) ([market context](../watch/context/latest.json), 2026-11-09)
+  - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Surgery Partners and HealthSpan Partners Announce Amended Merger Agreement, Following Receipt of Unsolicited… (Business Wire) ([release](http://www.businesswire.com/news/home/20261109695957/en/Surgery-Partners-and-HealthSpan-Partners-Announce-Amended-Merger-Agreement-Following-Receipt-of-Unsolicited-Proposal/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-26 4 SGRY +48% deal_signed $23.25 3043.8 yes +0.5% -0.0% -1.6) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Surgery Partners, Inc. (NASDAQ… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/hareholder-alert-the-ma-class-action-firm-announces-an-investigation-of-surgery-partners-inc-nasdaq-sgry-302921664.html))
 - **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `merger_arb` (direction 0): HealthSpan/Bon Secours $23.50 cash; spread 1.1-1.3%; close Q1 2027; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (- SGRY to co:HealthSpan Partners (merger).) ([note](../research/daily/2026-10-27.md))
@@ -28,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.22 | +12.8% | +13.0% | +1.2% |  | 13 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.22 | +12.2% | +12.7% | +0.3% |  | 12 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.16 | +12.5% | +12.8% | +1.4% |  | 13 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.16 | +12.0% | +12.5% | +0.5% |  | 12 | live |
