@@ -88,8 +88,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $8.10 (2026-11-09, ledger) · 1d -3.5%, 5d +0.1%, 20d +10.5% (market context, 2026-11-09)
-- **Since first found:** **+16.2%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.6% vs IWM +0.5% = **+16.0 pts** vs IWM; direction +1 → excess +16.0% (41 days)
+- **Latest price:** $8.17 (2026-11-09, ledger) · 1d -2.6%, 5d +1.0%, 20d +11.5% (market context, 2026-11-09)
+- **Since first found:** **+17.2%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +17.6% vs IWM +0.8% = **+16.8 pts** vs IWM; direction +1 → excess +16.8% (41 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 9 Nov 2026: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)
@@ -116,4 +116,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.10 | +16.2% | +16.6% | +0.5% | +16.0% | 41 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.17 | +17.2% | +17.6% | +0.8% | +16.8% | 41 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.17 (2026-11-09, ledger) · 1d -71.5%, 5d -70.4%, 20d -70.9% (market context, 2026-11-09)
-- **Since first found:** **-73.1%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -73.1% vs IWM -0.2% = **-72.8 pts** vs IWM; direction 0, tracked only (11 days)
+- **Latest price:** $1.15 (2026-11-09, ledger) · 1d -71.8%, 5d -70.7%, 20d -71.1% (market context, 2026-11-09)
+- **Since first found:** **-73.5%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -73.5% vs IWM +0.0% = **-73.5 pts** vs IWM; direction 0, tracked only (11 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: ZURA -70.4% 5d vs peer median +2.9%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: ZURA -70.7% 5d vs peer median +3.4%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-09)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for ZURA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.17 | -73.1% | -73.1% | -0.2% |  | 11 | live |
-| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.17 | -70.9% | -70.8% | -0.7% | +70.0% | 4 | live |
+| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.15 | -73.5% | -73.5% | +0.0% |  | 11 | live |
+| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.15 | -71.3% | -71.1% | -0.5% | +70.7% | 4 | live |

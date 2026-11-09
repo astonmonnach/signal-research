@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
 - **Latest price:** $7.16 (2026-11-09, ledger) · 1d +7.6%, 5d -3.0%, 20d -25.8% (market context, 2026-11-09)
-- **Since first found:** **-22.8%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -20.4% vs IWM +3.0% = **-23.4 pts** vs IWM; direction 0, tracked only (26 days)
+- **Since first found:** **-22.7%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -20.3% vs IWM +3.3% = **-23.6 pts** vs IWM; direction 0, tracked only (26 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: UUUU -3.0% 5d vs peer median +1.2%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** no flag (self 5d -3.0% vs peer median +1.7%). Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $7.16 | -22.8% | -20.4% | +3.0% |  | 26 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $7.16 | -14.2% | -11.6% | +3.8% |  | 25 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $7.16 | -22.7% | -20.3% | +3.3% |  | 26 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $7.16 | -14.1% | -11.5% | +4.0% |  | 25 | live |
