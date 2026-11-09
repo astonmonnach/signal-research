@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.45 (2026-11-09, ledger) · 1d +0.1%, 5d +0.2%, 20d +0.3% (market context, 2026-11-09)
+- **Latest price:** $36.45 (2026-11-09, ledger) · 1d +0.1%, 5d +0.1%, 20d +0.3% (market context, 2026-11-09)
 - **Since first found:** **+0.2%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.3% vs IWM +1.5% = **-1.2 pts** vs IWM; direction 0, tracked only (31 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median +1.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median +1.6%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: PCRX: Viatris $36.50 cash tender expires
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

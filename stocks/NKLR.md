@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.62 (2026-11-09, market context) · 1d +11.0%, 5d +18.0%, 20d -8.4% (market context, 2026-11-09)
+- **Latest price:** $2.63 (2026-11-09, market context) · 1d +11.7%, 5d +18.7%, 20d -7.9% (market context, 2026-11-09)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** solo_move: NKLR +18.0% 5d vs peer median +3.5%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** solo_move: NKLR +18.7% 5d vs peer median +3.8%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

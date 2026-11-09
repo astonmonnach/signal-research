@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $8.91 (2026-11-09, ledger) · 1d +7.5%, 5d +6.9%, 20d +0.8% (market context, 2026-11-09)
-- **Since first found:** **+3.5%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +3.7% vs IWM +2.0% = **+1.7 pts** vs IWM; direction 0, tracked only (19 days)
-- **Peers / sympathy:** solo_move: ACOG +6.9% 5d vs peer median +3.4%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Latest price:** $8.98 (2026-11-09, ledger) · 1d +8.3%, 5d +7.7%, 20d +1.6% (market context, 2026-11-09)
+- **Since first found:** **+4.3%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +4.4% vs IWM +2.0% = **+2.4 pts** vs IWM; direction 0, tracked only (19 days)
+- **Peers / sympathy:** solo_move: ACOG +7.7% 5d vs peer median +3.2%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.91 | +3.5% | +3.7% | +2.0% |  | 19 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.98 | +4.3% | +4.4% | +2.0% |  | 19 | live |

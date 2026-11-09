@@ -6,7 +6,7 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $17.71 (2026-11-09, ledger) · 1d +1.9%, 5d +2.1%, 20d +7.8% (market context, 2026-11-09)
+- **Latest price:** $17.71 (2026-11-09, ledger) · 1d +1.6%, 5d +1.8%, 20d +7.5% (market context, 2026-11-09)
 - **Since first found:** **+8.7%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +8.5% vs IWM +3.9% = **+4.6 pts** vs IWM; direction +1 → excess +4.6% (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-09)

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `buyback` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $2.95 (2026-11-09, ledger) · 1d +3.9%, 5d -1.3%, 20d -0.3% (market context, 2026-11-09)
-- **Since first found:** **-8.4%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -8.9% vs IWM +2.5% = **-11.4 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $2.95 (2026-11-09, ledger) · 1d +3.7%, 5d -1.5%, 20d -0.5% (market context, 2026-11-09)
+- **Since first found:** **-8.5%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -9.1% vs IWM +2.5% = **-11.6 pts** vs IWM; direction 0, tracked only (24 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +7.7% 5d vs IMSR -1.3%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** missed_peer_move: peer median +7.6% 5d vs IMSR -1.5%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-09)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -37,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.95 | -8.4% | -8.9% | +2.5% |  | 24 | live |
-| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.95 | -10.3% | +0.0% | +0.7% |  | 12 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.95 | -8.5% | -9.1% | +2.5% |  | 24 | live |
+| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.95 | -10.5% | -0.1% | +0.7% |  | 12 | live |

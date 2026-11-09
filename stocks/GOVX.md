@@ -47,5 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $0.320 | $0.330 | $0.167 | -47.8% | -49.4% | +0.2% |  | 35 | live |
-| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $0.201 | $0.207 | $0.167 | -16.9% | -19.3% | +0.7% | +20.0% | 12 | live |
-| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $0.168 | $0.168 | $0.167 | -0.5% | -0.5% | -0.5% | +0.1% | 4 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $0.201 | $0.207 | $0.167 | -16.9% | -19.3% | +0.7% | +20.1% | 12 | live |
+| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $0.168 | $0.168 | $0.167 | -0.6% | -0.6% | -0.5% | +0.1% | 4 | live |
