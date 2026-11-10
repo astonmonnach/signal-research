@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.81 (2026-11-09, ledger) · 1d +7.1%, 5d +0.6%, 20d -1.1% (market context, 2026-11-09)
-- **Since first found:** **+2.8%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: +2.8% vs IWM +2.7% = **+0.1 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $1.74 (2026-11-10, ledger) · 1d -2.3%, 5d -5.5%, 20d +8.7% (market context, 2026-11-10)
+- **Since first found:** **-1.1%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -1.1% vs IWM +1.4% = **-2.5 pts** vs IWM; direction 0, tracked only (18 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median +1.6%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Peers / sympathy:** solo_move: TENX -5.5% 5d vs peer median +1.8%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: TENX: lead-plaintiff deadline in the securities class action
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.81 | +2.8% | +2.8% | +2.7% |  | 17 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.81 | +11.0% | +10.4% | +3.8% | +6.5% | 3 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.74 | -1.1% | -1.1% | +1.4% |  | 18 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.74 | +6.8% | +6.1% | +2.4% | +3.7% | 4 | live |

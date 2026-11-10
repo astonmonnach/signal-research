@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $36.60 (2026-11-09, ledger) · 1d +13.3%, 5d +0.8%, 20d -28.8% (market context, 2026-11-09)
-- **Since first found:** **-17.7%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -15.3% vs IWM +2.5% = **-17.8 pts** vs IWM; direction 0, tracked only (24 days)
-- **Peers / sympathy:** no flag (self 5d +0.8% vs peer median +2.3%). Peer groups: SIC 4899 (6) ([market context](../watch/context/latest.json), 2026-11-09)
+- **Latest price:** $33.88 (2026-11-10, ledger)
+- **Since first found:** **-23.8%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -21.6% vs IWM +1.1% = **-22.7 pts** vs IWM; direction 0, tracked only (25 days)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: AST SpaceMobile Provides Business Update and Third Quarter 2026 Results (Business Wire, published Mon 9 Nov) ([release](http://www.businesswire.com/news/home/20261109330752/en/AST-SpaceMobile-Provides-Business-Update-and-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Rakuten and AST SpaceMobile Establish "Rakuten AST" Joint Venture to Build D2D Satellite Communications… (Business Wire) ([release](http://www.businesswire.com/news/home/20261109243455/en/Rakuten-and-AST-SpaceMobile-Establish-Rakuten-AST-Joint-Venture-to-Build-D2D-Satellite-Communications-Network-in-Japan/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites in Low Earth Orbit Using Miranda… (Business Wire) ([release](http://www.businesswire.com/news/home/20261106165875/en/AST-SpaceMobile-to-Build-Own-20-Ton-Rocket-to-Deploy-BlueBird-Satellites-in-Low-Earth-Orbit-Using-Miranda-Engines-from-Firefly-Aerospace/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: AST SpaceMobile Awarded U.S. Space Force Contract Through STR to Advance Space-Based Sensing Capabilities (Business Wire) ([release](http://www.businesswire.com/news/home/20261104508354/en/AST-SpaceMobile-Awarded-U.S.-Space-Force-Contract-Through-STR-to-Advance-Space-Based-Sensing-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -31,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $36.60 | -17.7% | -15.3% | +2.5% |  | 24 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $33.88 | -23.8% | -21.6% | +1.1% |  | 25 | live |
