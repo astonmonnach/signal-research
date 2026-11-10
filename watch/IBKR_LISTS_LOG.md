@@ -82,3 +82,11 @@ read back from IBKR and equal to the register's 74 active rows.
 - Reverse splits had left four entries on dead contracts; swapped for the new ones: JSPR (941899200), CDT (941899217), TOPS (939691625), XXII (941586486). Read back: 219.
 - MSGS -> MSGK: IBKR kept the same contract (206591285) and renamed it, so the ALL list needed no change.
 - Approved by the trader in chat ("Add the new names").
+
+## 2026-11-10
+
+- **AVOID (114):** 219 -> 248, matching the register's active rows. Removed ELMT (register row reversed: T007 fired on the 9 Nov 10-Q). Added the 30 rows dated 10 Nov: TTRX, ATYR, DRK, AMRO, TNXP, NRXS, LFMD, DRVN, THRY, KDK, CRVO, XLAB, USBC, GPUS, PIII, HYPR, EXOZ, MDCX, DWTX, AGIG, SNGX, AIRS, OPTU, CVR (Chicago Rivet, AMEX, contract 754285), ALGS, MVST, HRTX, HAIN, HIHO, SLE. MERC was already on the list. Read back: 248.
+- **ALL (105):** +CCAP (contract 402361687; WATCH T023). ELMT stays on ALL as a tracked name.
+- **Gov Filings pipeline findings (100):** +CCAP.
+- Still on AVOID and worth a clean-up later: NCI.OLD (884034770, a dead contract) and eight entries with a blank name.
+- Approved by the trader in chat ("yeah make the IBKR changes").
