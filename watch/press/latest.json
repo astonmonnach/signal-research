@@ -1,170 +1,82 @@
 [
  {
-  "published_utc": "2026-11-09T14:03:00Z",
-  "wire": "Business Wire",
-  "ticker": "PL",
-  "title": "Planet and Stoke Space Sign Multi-Launch Agreement for Nova Launch Capabilities",
-  "link": "http://www.businesswire.com/news/home/20261109619079/en/Planet-and-Stoke-Space-Sign-Multi-Launch-Agreement-for-Nova-Launch-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-09T13:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "SGRY",
-  "title": "Surgery Partners and HealthSpan Partners Announce Amended Merger Agreement, Following Receipt of Unsolicited Proposal",
-  "link": "http://www.businesswire.com/news/home/20261109695957/en/Surgery-Partners-and-HealthSpan-Partners-Announce-Amended-Merger-Agreement-Following-Receipt-of-Unsolicited-Proposal/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "manual_call;keyword:merger agreement"
- },
- {
-  "published_utc": "2026-11-09T13:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "ACOG",
-  "title": "Alpha Cognition Strengthens Its Board of Directors with Appointment of Caren Deardorf",
-  "link": "http://www.businesswire.com/news/home/20261109133062/en/Alpha-Cognition-Strengthens-Its-Board-of-Directors-with-Appointment-of-Caren-Deardorf/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-09T13:00:00Z",
+  "published_utc": "2026-11-09T22:00:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "ALLO",
-  "title": "Allogene Therapeutics Reports First Clinical Data from Phase 1 RESOLUTION Study of ALLO-329 in Autoimmune Disease",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398329/0/en/allogene-therapeutics-reports-first-clinical-data-from-phase-1-resolution-study-of-allo-329-in-autoimmune-disease.html",
+  "ticker": "INVE",
+  "title": "INVE Technologies and Trackonomy Announce Strategic Partnership to Power Next-Generation Enterprise Software with Physical AI",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3399055/8259/en/inve-technologies-and-trackonomy-announce-strategic-partnership-to-power-next-generation-enterprise-software-with-physical-ai.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-09T13:00:00Z",
-  "wire": "PR Newswire",
-  "ticker": "WHF",
-  "title": "WhiteHorse Finance, Inc. Announces Third Quarter 2026 Earnings Results and Declares Quarterly Distribution of $0.25 Per Share",
-  "link": "https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-third-quarter-2026-earnings-results-and-declares-quarterly-distribution-of-0-25-per-share-302933316.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-09T12:30:00Z",
+  "published_utc": "2026-11-09T21:30:00Z",
   "wire": "Business Wire",
   "ticker": "ASTS",
-  "title": "Rakuten and AST SpaceMobile Establish \"Rakuten AST\" Joint Venture to Build D2D Satellite Communications Network in Japan",
-  "link": "http://www.businesswire.com/news/home/20261109243455/en/Rakuten-and-AST-SpaceMobile-Establish-Rakuten-AST-Joint-Venture-to-Build-D2D-Satellite-Communications-Network-in-Japan/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "title": "AST SpaceMobile Provides Business Update and Third Quarter 2026 Results",
+  "link": "http://www.businesswire.com/news/home/20261109330752/en/AST-SpaceMobile-Provides-Business-Update-and-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-09T12:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "IBRX",
-  "title": "ImmunityBio Reports Label Expansion and Additional Global Approval with Q3 2026 Net Product Revenue of $48.7 Million, Up 53% Year-Over-Year and First Nine Months U.S. Revenue Up 92% to $143.6 Million",
-  "link": "http://www.businesswire.com/news/home/20261109683136/en/ImmunityBio-Reports-Label-Expansion-and-Additional-Global-Approval-with-Q3-2026-Net-Product-Revenue-of-48.7-Million-Up-53-Year-Over-Year-and-First-Nine-Months-U.S.-Revenue-Up-92-to-143.6-Million/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "manual_call;keyword:FDA approval"
- },
- {
-  "published_utc": "2026-11-09T12:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "ZURA",
-  "title": "Zura Bio Provides Clinical Update on Phase 2 TibuSHIELD Study of Tibulizumab (ZB-106) in Hidradenitis Suppurativa",
-  "link": "http://www.businesswire.com/news/home/20261109871255/en/Zura-Bio-Provides-Clinical-Update-on-Phase-2-TibuSHIELD-Study-of-Tibulizumab-ZB-106-in-Hidradenitis-Suppurativa/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "published_utc": "2026-11-09T21:06:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RKLB",
+  "title": "Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398984/0/en/rocket-lab-lands-over-515m-in-neutron-launch-deals-from-constellation-operators-in-q3.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-09T12:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "IBRX",
-  "title": "ImmunityBio and Rafa Announce Israeli Ministry of Health Approval of ANKTIVA® Plus BCG for BCG-Unresponsive Non-Muscle Invasive Bladder Cancer with Carcinoma in Situ",
-  "link": "http://www.businesswire.com/news/home/20261109516206/en/ImmunityBio-and-Rafa-Announce-Israeli-Ministry-of-Health-Approval-of-ANKTIVA%C2%AE-Plus-BCG-for-BCG-Unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Carcinoma-in-Situ/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "manual_call"
+  "published_utc": "2026-11-09T21:15:00Z",
+  "wire": "PR Newswire",
+  "ticker": "SECZ",
+  "title": "Securitize Reports Third Quarter 2026 Results",
+  "link": "https://www.prnewswire.com/news-releases/securitize-reports-third-quarter-2026-results-302933834.html",
+  "matched_on": "keyword:share repurchase"
  },
  {
-  "published_utc": "2026-11-09T11:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "IBRX",
-  "title": "ImmunityBio Announces ANKTIVA® Plus BCG Meets Primary Endpoint in BCG-Naïve Non-Muscle Invasive Bladder Cancer Randomized QUILT-2.005 Trial",
-  "link": "http://www.businesswire.com/news/home/20261109448906/en/ImmunityBio-Announces-ANKTIVA%C2%AE-Plus-BCG-Meets-Primary-Endpoint-in-BCG-Na%C3%AFve-Non-Muscle-Invasive-Bladder-Cancer-Randomized-QUILT-2.005-Trial/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-09T15:50:00Z",
-  "wire": "Business Wire",
-  "ticker": "ALNY",
-  "title": "Alnylam Announces Five-Year HELIOS-B Data Demonstrating Sustained Benefit of AMVUTTRA® (vutrisiran) in ATTR-CM",
-  "link": "http://www.businesswire.com/news/home/20261109441010/en/Alnylam-Announces-Five-Year-HELIOS-B-Data-Demonstrating-Sustained-Benefit-of-AMVUTTRA%C2%AE-vutrisiran-in-ATTR-CM/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-09T14:15:00Z",
-  "wire": "Business Wire",
-  "ticker": "AVAV",
-  "title": "AV Secures Approximately $315 Million Award Under $940 Million IDIQ Contract",
-  "link": "http://www.businesswire.com/news/home/20261109634954/en/AV-Secures-Approximately-315-Million-Award-Under-940-Million-IDIQ-Contract/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:IDIQ;keyword:indefinite-delivery"
- },
- {
-  "published_utc": "2026-11-09T14:00:00Z",
-  "wire": "Business Wire",
-  "ticker": "EVI",
-  "title": "EVI Industries Expands Florida Presence with Acquisition of Commercial Laundry Equipment Company",
-  "link": "http://www.businesswire.com/news/home/20261109971516/en/EVI-Industries-Expands-Florida-Presence-with-Acquisition-of-Commercial-Laundry-Equipment-Company/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-11-09T14:00:00Z",
+  "published_utc": "2026-11-09T21:15:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "CAPR",
-  "title": "Capricor’s HOPE-3 Phase 3 Cardiac Results for Deramiocel Win American Heart Association Outstanding Research Award in Pediatric Cardiology",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398455/0/en/capricor-s-hope-3-phase-3-cardiac-results-for-deramiocel-win-american-heart-association-outstanding-research-award-in-pediatric-cardiology.html",
-  "matched_on": "keyword:Phase 3"
+  "ticker": "KBR",
+  "title": "KBR Announces Future Board of Directors for Trinzic",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398995/0/en/kbr-announces-future-board-of-directors-for-trinzic.html",
+  "matched_on": "keyword:spin-off"
  },
  {
-  "published_utc": "2026-11-09T13:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "CELC",
-  "title": "Celcuity Announces FDA Acceptance of sNDA for REVTORPYK™ (gedatolisib) for HR+/HER2-, PIK3CA Mutant Locally Advanced or Metastatic Breast Cancer",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398409/0/en/celcuity-announces-fda-acceptance-of-snda-for-revtorpyk-gedatolisib-for-hr-her2-pik3ca-mutant-locally-advanced-or-metastatic-breast-cancer.html",
-  "matched_on": "keyword:PDUFA"
- },
- {
-  "published_utc": "2026-11-09T13:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "VTGN",
-  "title": "Vistagen Provides Regulatory Update Following Productive Type C Meeting with U.S. FDA on Phase 3 Development of Fasedienol for Social Anxiety Disorder",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398411/0/en/vistagen-provides-regulatory-update-following-productive-type-c-meeting-with-u-s-fda-on-phase-3-development-of-fasedienol-for-social-anxiety-disorder.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-09T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "MNPR",
-  "title": "Monopar Presents Data Highlighting Residual Disease Burden in Treatment-Experienced Wilson Disease Patients and Long-Term Molybdenum Safety Data for ALXN1840 at AASLD – The Liver Meeting® 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398343/0/en/monopar-presents-data-highlighting-residual-disease-burden-in-treatment-experienced-wilson-disease-patients-and-long-term-molybdenum-safety-data-for-alxn1840-at-aasld-the-liver-mee.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-09T12:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "CGTX",
-  "title": "Cognition Therapeutics Invited to Participate in 2026 Jefferies Global Healthcare Conference",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398290/0/en/cognition-therapeutics-invited-to-participate-in-2026-jefferies-global-healthcare-conference.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-09T12:00:00Z",
+  "published_utc": "2026-11-09T21:10:00Z",
   "wire": "Business Wire",
-  "ticker": "MANE",
-  "title": "Veradermics Achieved the Highest VDPHL01 Reported Hair Count in the Phase 3 Program to Date in Positive 12-Month Study '302' Data in Male Pattern Hair Loss",
-  "link": "http://www.businesswire.com/news/home/20261109139498/en/Veradermics-Achieved-the-Highest-VDPHL01-Reported-Hair-Count-in-the-Phase-3-Program-to-Date-in-Positive-12-Month-Study-302-Data-in-Male-Pattern-Hair-Loss/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
+  "ticker": "VGAS",
+  "title": "Verde Clean Fuels, Inc. Reports Q3 2026 Results",
+  "link": "http://www.businesswire.com/news/home/20261109656199/en/Verde-Clean-Fuels-Inc.-Reports-Q3-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
+  "matched_on": "keyword:strategic alternatives"
  },
  {
-  "published_utc": "2026-11-09T12:00:00Z",
+  "published_utc": "2026-11-09T21:05:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "COAG",
-  "title": "Hemab Therapeutics Initiates SOLARA, a Pivotal Phase 3 Trial of Sutacimig in Glanzmann Thrombasthenia",
-  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398220/0/en/hemab-therapeutics-initiates-solara-a-pivotal-phase-3-trial-of-sutacimig-in-glanzmann-thrombasthenia.html",
+  "ticker": "TRVI",
+  "title": "Trevi Therapeutics Reports Third Quarter 2026 Financial Results and Provides Business Updates",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398979/0/en/trevi-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-updates.html",
   "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-11-09T11:54:00Z",
-  "wire": "Business Wire",
-  "ticker": "NRG",
-  "title": "NRG Energy Announces $4 Billion Asset Sale",
-  "link": "http://www.businesswire.com/news/home/20261108045871/en/NRG-Energy-Announces-4-Billion-Asset-Sale/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
+  "published_utc": "2026-11-09T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "AVIR",
+  "title": "Atea Pharmaceuticals Reports Third Quarter 2026 Financial Results and Provides Business Update",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398942/0/en/atea-pharmaceuticals-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-09T21:01:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MBX",
+  "title": "MBX Biosciences Reports Third Quarter 2026 Financial Results and Corporate Highlights",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398915/0/en/mbx-biosciences-reports-third-quarter-2026-financial-results-and-corporate-highlights.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-09T21:01:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BDTX",
+  "title": "Black Diamond Therapeutics to Host Webcast Highlighting Updated Silevertinib Phase 2 Data and FDA Feedback Supporting a Clear Phase 3 Path to Potential Accelerated Approval in 1L EGFR-NCM NSCLC",
+  "link": "https://www.globenewswire.com/news-release/2026/11/09/3398920/0/en/black-diamond-therapeutics-to-host-webcast-highlighting-updated-silevertinib-phase-2-data-and-fda-feedback-supporting-a-clear-phase-3-path-to-potential-accelerated-approval-in-1l-e.html",
+  "matched_on": "keyword:Phase 3"
  }
 ]
