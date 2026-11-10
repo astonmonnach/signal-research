@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $77.07 (2026-11-10, ledger) · 1d +21.8%, 5d +10.9%, 20d -11.2% (market context, 2026-11-10)
-- **Since first found:** **-8.6%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -9.7% vs IWM -1.9% = **-7.7 pts** vs IWM; direction 0, tracked only (35 days)
-- **Peers / sympathy:** missed_peer_move: peer median -17.5% 5d vs AAON +10.9%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3585 (5) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $77.25 (2026-11-10, ledger) · 1d +22.9%, 5d +11.8%, 20d -10.4% (market context, 2026-11-10)
+- **Since first found:** **-8.4%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -9.5% vs IWM -1.9% = **-7.6 pts** vs IWM; direction 0, tracked only (35 days)
+- **Peers / sympathy:** missed_peer_move: peer median -17.3% 5d vs AAON +11.8%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3585 (5) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for AAON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $77.07 | -8.6% | -9.7% | -1.9% |  | 35 | live |
+| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $77.25 | -8.4% | -9.5% | -1.9% |  | 35 | live |

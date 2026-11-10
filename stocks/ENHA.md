@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $7.61 (2026-11-10, ledger)
-- **Since first found:** **-35.0%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -34.4% vs IWM +2.7% = **-37.1 pts** vs IWM; direction -1 → excess +37.1% (21 days)
+- **Latest price:** $7.71 (2026-11-10, ledger)
+- **Since first found:** **-34.1%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -33.5% vs IWM +2.7% = **-36.3 pts** vs IWM; direction -1 → excess +36.3% (21 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,7 +29,7 @@ Every [ledger](../ledger/LEDGER.md) row for ENHA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $7.61 | -35.0% | -34.4% | +2.7% | +37.1% | 21 | live |
-| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $7.61 | +7.0% | +8.9% | -1.9% | -10.8% | 6 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $7.61 | -6.8% | -6.5% | +2.5% | +9.0% | 4 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $7.61 | -9.1% | -7.8% | +0.5% |  | 1 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $7.71 | -34.1% | -33.5% | +2.7% | +36.3% | 21 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $7.71 | +8.4% | +10.3% | -1.8% | -12.1% | 6 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $7.71 | -5.6% | -5.3% | +2.6% | +7.8% | 4 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $7.71 | -7.9% | -6.5% | +0.5% |  | 1 | live |

@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $20.18 (2026-11-10, ledger) · 1d -0.0%, 5d -0.0%, 20d -3.2% (market context, 2026-11-10)
 - **Since first found:** **-2.4%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.9% vs IWM +1.2% = **-5.1 pts** vs IWM; direction 0, tracked only (25 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.0% vs peer median -3.0%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d -0.0% vs peer median -1.0%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -39,4 +39,4 @@ Every [ledger](../ledger/LEDGER.md) row for MG ([rules](../ledger/RULES.md)): fo
 | 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.18 | -6.0% | -6.2% | +2.6% |  | 22 | live |
 | 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.18 | -1.3% | -1.3% | -0.5% |  | 13 | live |
 | 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.18 | -1.3% | -1.3% | -0.5% |  | 13 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.18 | -1.4% | -1.1% | -1.3% |  | 12 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.18 | -1.4% | -1.1% | -1.2% |  | 12 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.78 (2026-11-10, ledger) · 1d -8.8%, 5d -13.2%, 20d -11.5% (market context, 2026-11-10)
-- **Since first found:** **-18.0%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -18.0% vs IWM -1.3% = **-16.7 pts** vs IWM; direction 0, tracked only (12 days)
-- **Peers / sympathy:** solo_move: FATE -13.2% 5d vs peer median +0.5%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $1.76 (2026-11-10, ledger) · 1d -9.0%, 5d -13.5%, 20d -11.8% (market context, 2026-11-10)
+- **Since first found:** **-18.7%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -18.7% vs IWM -1.2% = **-17.4 pts** vs IWM; direction 0, tracked only (12 days)
+- **Peers / sympathy:** solo_move: FATE -13.5% 5d vs peer median +0.3%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for FATE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.78 | -18.0% | -18.0% | -1.3% |  | 12 | live |
+| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.76 | -18.7% | -18.7% | -1.2% |  | 12 | live |

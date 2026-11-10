@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `insider_buy` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
 - **Latest price:** $7.99 (2026-11-10, ledger)
-- **Since first found:** **+30.5%** (found 2026-10-22 via `insider_buy` at $6.12). From the next open $6.10: +30.9% vs IWM +1.4% = **+29.4 pts** vs IWM; direction 0, tracked only (18 days)
+- **Since first found:** **+30.6%** (found 2026-10-22 via `insider_buy` at $6.12). From the next open $6.10: +31.1% vs IWM +1.5% = **+29.6 pts** vs IWM; direction 0, tracked only (18 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for VRA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `insider_buy` | 0 | +7.8% | +0.8% | $2.6M | $6.12 | $6.10 | $7.99 | +30.5% | +30.9% | +1.4% |  | 18 | live |
+| 2026-10-22 | `insider_buy` | 0 | +7.8% | +0.8% | $2.6M | $6.12 | $6.10 | $7.99 | +30.6% | +31.1% | +1.5% |  | 18 | live |

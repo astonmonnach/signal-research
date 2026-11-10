@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $36.49 (2026-11-10, ledger) · 1d +0.1%, 5d +0.3%, 20d +0.5% (market context, 2026-11-10)
-- **Since first found:** **+0.3%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.4% vs IWM +0.2% = **+0.2 pts** vs IWM; direction 0, tracked only (32 days)
+- **Since first found:** **+0.3%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.4% vs IWM +0.3% = **+0.2 pts** vs IWM; direction 0, tracked only (32 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median +1.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median +1.5%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: PCRX: Viatris $36.50 cash tender expires
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -34,7 +34,7 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.49 | +0.3% | +0.4% | +0.2% |  | 32 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.49 | +0.5% | +0.4% | +0.1% |  | 29 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.49 | +0.3% | +0.4% | +0.3% |  | 32 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.49 | +0.5% | +0.4% | +0.2% |  | 29 | live |
 | 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.49 | +0.3% | +0.2% | -1.0% |  | 8 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.49 | +0.2% | +0.2% | +2.5% |  | 4 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.49 | +0.2% | +0.2% | +2.6% |  | 4 | live |

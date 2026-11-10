@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $31.77 (2026-11-10, ledger) · 1d -1.0%, 5d -1.2%, 20d -9.6% (market context, 2026-11-10)
 - **Since first found:** **-4.2%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -3.4% vs IWM +2.6% = **-6.0 pts** vs IWM; direction 0, tracked only (22 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +9.3% 5d vs SMTI -1.2%; peers moved, it didn't. Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** missed_peer_move: peer median +9.2% 5d vs SMTI -1.2%; peers moved, it didn't. Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
