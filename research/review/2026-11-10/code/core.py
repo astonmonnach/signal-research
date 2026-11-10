@@ -34,7 +34,7 @@ def clean(t, d, out):
                 r = out[i][2] / out[i - 1][2]
                 if exp > 1.5 and 0.6 < r / exp < 1.6 or exp < 0.67 and 0.6 < r / exp < 1.6:
                     for j in range(i):
-                        out[j][1] *= exp; out[j][2] *= exp
+                        out[j][1] *= exp; out[j][2] *= exp; out[j][6] *= exp; out[j][7] *= exp
                     fixed = True
                     break
         if not fixed:
@@ -68,7 +68,9 @@ def series(t):
             continue
         adj = a[i] if a and a[i] else c
         k = adj / c
-        out.append((dt.datetime.fromtimestamp(ts, dt.UTC).date(), o * k, adj, v or 0, o, c))
+        hh = (d.get("h") or [None] * len(d["ts"]))[i] or max(o, c)
+        ll = (d.get("l") or [None] * len(d["ts"]))[i] or min(o, c)
+        out.append((dt.datetime.fromtimestamp(ts, dt.UTC).date(), o * k, adj, v or 0, o, c, hh * k, ll * k))
     if not out:
         return None
     return clean(t, d, out) or None
@@ -157,3 +159,26 @@ def stats(vals):
 
 def fmt(s, key="med"):
     return "n/a" if not s.get("n") else f"{s[key]:+.1f}"
+
+
+def excursion(t, found, upto=None):
+    """Peak and trough after the first open we could act on, from daily highs and lows.
+    Returns entry, peak % and its session number and date, the worst low before the peak, the lowest low and its session, and now."""
+    s = S(t)
+    if not s:
+        return None
+    if isinstance(found, str):
+        found = dt.date.fromisoformat(found)
+    dates = [b[0] for b in s]
+    e = bisect.bisect_right(dates, found)
+    if e >= len(s):
+        return None
+    w = s[e:] if upto is None else s[e:e + upto]
+    eo = s[e][1]
+    pk = max(range(len(w)), key=lambda i: w[i][6])
+    tr = min(range(len(w)), key=lambda i: w[i][7])
+    return {"entry_date": dates[e], "entry": eo, "sessions": len(w),
+            "peak": (w[pk][6] / eo - 1) * 100, "peak_day": pk + 1, "peak_date": w[pk][0],
+            "pain_before_peak": (min(b[7] for b in w[:pk + 1]) / eo - 1) * 100,
+            "trough": (w[tr][7] / eo - 1) * 100, "trough_day": tr + 1, "trough_date": w[tr][0],
+            "now": (w[-1][2] / eo - 1) * 100, "day1_high": (w[0][6] / eo - 1) * 100, "day1_low": (w[0][7] / eo - 1) * 100, "day1_close": (w[0][2] / eo - 1) * 100}

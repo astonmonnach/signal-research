@@ -14,3 +14,4 @@ research/review/**/code/*.json
 research/review/**/code/*.pkl
 research/review/**/code/img/
 research/review/**/code/out_*.txt
+research/review/**/code/i5/

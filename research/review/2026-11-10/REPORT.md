@@ -10,6 +10,8 @@
 4. **Inside the buy side, one kind of pick worked.** Where an outside buyer or holder was acting (a tender, a bid, a 13D with a demand, a big holder buying), 10 of 11 picks rose, averaging +14.9%. Where the reason was the company's own story (a review, a spin-off, a contract), 3 of 9 rose, averaging -12.6%. That split was drawn after the results, so it is a lead to test, not a finding.
 5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in the sessions around Q3 results. ACB, XPOF, SRTA and DIBS made most of their gain on one or two filing days. Our triggers fired on those same days, which is too late to act.
 
+**Part 2, [peaks and what happened at actual times](TIMES.md)**, covers what each pick peaked at, the hours after each filing on 5-minute bars, results days and exit rules. The filing-by-filing account is in [EVENTS.md](EVENTS.md).
+
 "Similar stocks" means this throughout: unflagged stocks in the same share-price band and the same market-value band, measured over the same dates. The method is at the end.
 
 ## 1. The yardstick: cheap stocks fell on their own
