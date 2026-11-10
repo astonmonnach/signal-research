@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_warrants` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
 - **Latest price:** $0.930 (2026-11-10, ledger)
-- **Since first found:** **-23.1%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -23.7% vs IWM +0.2% = **-24.0 pts** vs IWM; direction 0, tracked only (14 days)
+- **Since first found:** **-23.1%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -23.8% vs IWM +0.3% = **-24.1 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for OSTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $0.930 | -23.1% | -23.7% | +0.2% |  | 14 | live |
+| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $0.930 | -23.1% | -23.8% | +0.3% |  | 14 | live |

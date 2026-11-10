@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $76.34 (2026-11-10, ledger)
-- **Since first found:** **-9.5%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -10.6% vs IWM -2.0% = **-8.5 pts** vs IWM; direction 0, tracked only (35 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $77.07 (2026-11-10, ledger) · 1d +21.8%, 5d +10.9%, 20d -11.2% (market context, 2026-11-10)
+- **Since first found:** **-8.6%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -9.7% vs IWM -1.9% = **-7.7 pts** vs IWM; direction 0, tracked only (35 days)
+- **Peers / sympathy:** missed_peer_move: peer median -17.5% 5d vs AAON +10.9%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3585 (5) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: The Aaon Group Announces Quarterly Cash Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/the-aaon-group-announces-quarterly-cash-dividend-302934292.html))
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): kill under LT2 (cash ~$0 + $165M undrawn vs -$119M TTM FCF; OCF positive, growth capex); BASX 55% of sales; source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (- **SEC XBRL, AAON:** cash $0.01M and a $435.0M line of credit at 30 Jun 2026.) ([note](../research/longterm-2026-10-05/REPORT.md))
 - **[2026-10-04](../scans/2026-10-04.md)**: Research: Watchlist filings, deep read: VYLR/CTVA, THRM/MOD, TWST, MTUS (AAON 83.27 −44% −9% +2.3% +0.6%) ([note](../research/filings-2026-10-04/watchlist-deep.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for AAON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $76.34 | -9.5% | -10.6% | -2.0% |  | 35 | live |
+| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $77.07 | -8.6% | -9.7% | -1.9% |  | 35 | live |

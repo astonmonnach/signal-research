@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $30.28 (2026-11-10, ledger) · 1d -1.2%, 5d +11.2%, 20d +6.3% (market context, 2026-11-10)
-- **Since first found:** **+9.8%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +11.6% vs IWM +2.6% = **+9.0 pts** vs IWM; direction +1 → excess +9.0% (26 days)
+- **Latest price:** $30.50 (2026-11-10, ledger) · 1d -0.8%, 5d +11.7%, 20d +6.7% (market context, 2026-11-10)
+- **Since first found:** **+10.7%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +12.4% vs IWM +2.7% = **+9.7 pts** vs IWM; direction +1 → excess +9.7% (26 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: MDA +11.2% 5d vs peer median +3.2%; peers didn't move with it. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** solo_move: MDA +11.7% 5d vs peer median +3.0%; peers didn't move with it. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 31 Aug 2027: MDA: latest end of the hedging period on CSG's cash-settled swap
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: MDA SPACE AND GLOBALSTAR COMPLETE INITIAL ON-ORBIT FUNCTIONAL TESTS FOR GLOBALSTAR 2-R MISSION (PR Newswire) ([release](https://www.prnewswire.com/news-releases/mda-space-and-globalstar-complete-initial-on-orbit-functional-tests-for-globalstar-2-r-mission-302933853.html))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **MDA**: CSG (9.5%) entered a cash-settled swap on 3 Nov. The bank may hedge by buying shares until 31 Aug 2027. Tracked. ([triage](../watch/digests/2026-11-05-triage.md)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1857047/000110465926122961/tm2628958d1_ex99-1.htm)) · Filings: `6-K` 5 Nov, `SCHEDULE 13D/A` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **MDA:** CSG's new cash-settled swap lets the bank hedge by buying until 31 Aug 2027; the size is not…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1857047/000121390026115918/0001213900-26-115918-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: IRIS² CONSTELLATION: MDA SPACE TO PROVIDE THALES ALENIA SPACE WITH DIGITAL ANTENNA SUBSYSTEMS FOR 66… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/iris-constellation-mda-space-to-provide-thales-alenia-space-with-digital-antenna-subsystems-for-66-early-delivery-satellites-302924382.html))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $30.28 | +9.8% | +11.6% | +2.6% | +9.0% | 26 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $30.28 | +5.6% | +5.6% | +1.1% |  | 25 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $30.50 | +10.7% | +12.4% | +2.7% | +9.7% | 26 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $30.50 | +6.4% | +6.4% | +1.2% |  | 25 | live |

@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `below_cash` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
 - **Latest price:** $4.38 (2026-11-10, ledger)
-- **Since first found:** **+21.4%** (found 2026-11-05 via `8k_strategic_review` at $3.61). From the next open $3.72: +17.8% vs IWM +2.4% = **+15.4 pts** vs IWM; direction +1 → excess +15.4% (4 days)
+- **Since first found:** **+21.4%** (found 2026-11-05 via `8k_strategic_review` at $3.61). From the next open $3.72: +17.8% vs IWM +2.5% = **+15.3 pts** vs IWM; direction +1 → excess +15.3% (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for CVV ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `8k_strategic_review` | +1 | -7.0% | -6.2% | $227k | $3.61 | $3.72 | $4.38 | +21.4% | +17.8% | +2.4% | +15.4% | 4 | live |
-| 2026-11-06 | `below_cash` | 0 | -10.6% | +10.0% | $228k | $3.97 | $4.00 | $4.38 | +10.4% | +9.6% | +0.4% |  | 1 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | -7.0% | -6.2% | $227k | $3.61 | $3.72 | $4.38 | +21.4% | +17.8% | +2.5% | +15.3% | 4 | live |
+| 2026-11-06 | `below_cash` | 0 | -10.6% | +10.0% | $228k | $3.97 | $4.00 | $4.38 | +10.4% | +9.6% | +0.5% |  | 1 | live |

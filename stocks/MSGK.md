@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $312.34 (2026-11-10, market context) · 1d -2.0%, 5d -0.8%, 20d +2.6% (market context, 2026-11-10)
+- **Latest price:** $315.54 (2026-11-10, market context) · 1d -1.0%, 5d +0.2%, 20d +3.7% (market context, 2026-11-10)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** no flag (self 5d -0.8% vs peer median -0.1%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -0.3%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-10)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
