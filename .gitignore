@@ -8,3 +8,9 @@ crypto/hyperliquid/cache/
 watch/hl_markets.json
 ledger/cache_av1/
 calls/evidence/.cache/
+
+# two-month review caches
+research/review/**/code/*.json
+research/review/**/code/*.pkl
+research/review/**/code/img/
+research/review/**/code/out_*.txt
