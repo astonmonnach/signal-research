@@ -52,3 +52,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-06,00:33,False,STIM,Neuronetics Inc. Common Stock,S2,2.705,5469652,1020084,5.36,1520538,,,2.15,2.23,2026-11-09,0.037209,0.017209,filled
 2026-11-06,00:33,False,THM,International Tower Hill Mines Ltd. Ordinary Shares (Canada),S2,1.74,7931983,1470938,5.39,1034595,,,1.54,1.57,2026-11-09,0.019481,-0.000519,filled
 2026-11-06,00:33,False,TSQ,Townsquare Media Inc. Class A Common Stock,S2,2.18,1031384,195115,5.29,515849,,,1.85,1.85,2026-11-09,0.0,-0.02,filled
+2026-11-10,02:22,False,CDT,CDT Equity Inc. Common Stock,S2,1.31,27133043,2460514,11.03,448249,2026-11-06,0.05,,,,,,open
+2026-11-10,02:22,False,CDT,CDT Equity Inc. Common Stock,S1,1.31,27133043,2460514,11.03,448249,2026-11-06,0.05,,,,,,open
