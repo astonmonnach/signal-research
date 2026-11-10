@@ -81,7 +81,24 @@ def problems(call_id, rows, get=fetch):
             out.append(f"{where}: could not fetch {url} ({e})"); continue
         if not found(quote, text):
             out.append(f"{where}: quote not found in {url}: {quote[:90]!r}")
+        out += unfunded_claim(where, claim, quote, r.get("note", ""))
     return out
+
+
+UNFUNDED = re.compile(r"no money|obligates? no|unfunded|not funded|no orders?\b|nothing (?:is )?(?:funded|ordered)", re.I)
+
+
+def unfunded_claim(where, claim, quote, note):
+    """Rule 2026-11-10 (ELMT): an SF 1449's "does not obligate funds" note is form boilerplate. A guaranteed IDIQ
+    minimum is money the government must order, and ELMT's 10-Q later showed $161.9M funded at 2 Oct. A claim that an
+    award is unfunded or has no orders may not rest on that sentence; quote the funds obligated at award (DoD contract
+    page) or the next 10-Q's backlog instead. Rows whose note starts with CORRECTION are exempt."""
+    if note.strip().upper().startswith("CORRECTION"):
+        return []
+    if "obligate funds" in quote.lower() and UNFUNDED.search(claim):
+        return [f"{where}: 'does not obligate funds' is SF 1449 boilerplate, not proof of no money or no orders; "
+                f"quote the funds obligated at award or the 10-Q backlog (rule 2026-11-10, ELMT)"]
+    return []
 
 
 def load(call_id):

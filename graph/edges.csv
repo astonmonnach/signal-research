@@ -232,3 +232,15 @@ date,a,b,type,detail,source
 2026-11-06,MAX,WTM,holder_13d,"White Mountains 24.3% after a Rule 144 sale of 5,500,391 shares at $13.90",https://www.sec.gov/Archives/edgar/data/1818383/000095015726001220/xslSCHEDULE_13D_X02/primary_doc.xml
 2026-11-06,UP,DAL,counterparty,Delta 36.2% holder adds a $100M revolver,https://www.sec.gov/Archives/edgar/data/1819516/000168316826008357/xslSCHEDULE_13D_X02/primary_doc.xml
 2026-11-06,NNDM,SSYS,counterparty,Markforged sale for $42.5M,https://www.sec.gov/Archives/edgar/data/1643303/000119312526449867/nndm-ex99_1.htm
+2026-11-09,CCAP,co:Sun Life,counterparty,adviser's parent; up to $25M open-market buys via 10b5-1 alongside CCAP's $50M buyback,https://www.sec.gov/Archives/edgar/data/1633336/000119312526453594/ccap-ex99_1.htm
+2026-11-06,XYF,co:Mangrove Coast Investment,merger,non-binding $6.03/ADS go-private; ~93.45% of votes,https://www.sec.gov/Archives/edgar/data/1725033/000110465926123554/tm2629201d1_ex99-1.htm
+2026-11-06,co:Slim family (Control Empresarial / Fundacion Carlos Slim / Fundacion Telmex),BAK,holder_13d,6.5% of Class A pref; open-market buys 7 Oct-5 Nov at $1.10-1.84/ADS,https://www.sec.gov/Archives/edgar/data/1071438/000092189526002956/0000921895-26-002956-index.htm
+2026-11-09,fund:DGB Investment (Doug Bergeron),ETD,holder_13d,5.1% group; slate won 3 seats at the 4 Nov AGM,https://www.sec.gov/Archives/edgar/data/896156/000092189526002982/0000921895-26-002982-index.htm
+2026-11-09,person:Leonard M. Tannenbaum,AFCG,holder_13d,32.6%; open-market buys Sep-Nov 2026 plus issuer buyback,https://www.sec.gov/Archives/edgar/data/1822523/000182912626012156/0001829126-26-012156-index.htm
+2026-11-09,person:Leonard M. Tannenbaum,SUNS,holder_13d,28.5%; open-market buys since 31 Dec 2025,https://www.sec.gov/Archives/edgar/data/2012706/000182912626012158/0001829126-26-012158-index.htm
+2026-11-08,HRTX,CRMD,asset_deal,"$145.0M cash + 14,583,333 CRMD shares + up to $55M earn-outs",https://www.sec.gov/Archives/edgar/data/818033/000119312526452672/hrtx-20261108.htm
+2026-11-09,DDI,co:DoubleU Games,merger,67.05% holder; signed tender $16.25/ADS,https://www.sec.gov/Archives/edgar/data/1799567/000119312526453838/d112557dex992.htm
+2026-11-09,EDSA,co:Kyorin Pharmaceutical,counterparty,Japan licence; $12M upfront,https://www.sec.gov/Archives/edgar/data/1540159/000117184326007242/f8k_110926.htm
+2026-11-06,ABEO,co:Ellodi Pharmaceuticals,asset_deal,"APT-1011 for 4,494,383 shares ($20M); unlock in thirds at 6/12/18 months",https://www.sec.gov/Archives/edgar/data/318306/000149315226050606/form8-k.htm
+2026-11-09,KBR,TZIC,spin_off,at least 80.1% of Mission Technology Solutions; distribution expected 2027,https://www.sec.gov/Archives/edgar/data/2101664/000114036126042809/ny20061458x9_ex99-1.htm
+2026-11-09,ELMT,co:Defense Logistics Agency,awarded_by,"SP8000-26-D-0029 tungsten offtake: $161.9M initially funded, in backlog at 2 Oct",https://www.sec.gov/Archives/edgar/data/2101698/000162828026072286/elmt-20261002.htm

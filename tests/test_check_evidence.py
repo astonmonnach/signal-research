@@ -43,3 +43,21 @@ def test_missing_url_fails():
 
 def test_empty_file_fails():
     assert problems(9, [], get)
+
+
+SF1449 = plain("<p>The award of this IDIQ contract does not obligate funds.</p>")
+
+
+def test_unfunded_claim_from_sf1449_boilerplate_fails():
+    # rule 2026-11-10 (ELMT): the SF 1449 note is not proof that an award has no money or no orders
+    r = dict(claim="The $2B contract obligates no money, no orders yet",
+             quote="The award of this IDIQ contract does not obligate funds.", url=URL)
+    bad = problems(9, [r], lambda u: SF1449)
+    assert len(bad) == 1 and "2026-11-10" in bad[0]
+
+
+def test_sf1449_quote_with_a_neutral_claim_or_correction_passes():
+    r = dict(claim="The $2B is the ceiling", quote="The award of this IDIQ contract does not obligate funds.", url=URL)
+    assert problems(9, [r], lambda u: SF1449) == []
+    r2 = dict(r, claim="It obligates no money", note="CORRECTION: shown as the line that was misread")
+    assert problems(9, [r2], lambda u: SF1449) == []

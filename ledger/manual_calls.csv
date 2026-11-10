@@ -197,3 +197,13 @@ found,source,ticker,category,direction,note
 2026-11-06,daily research 6 Nov (research/daily/2026-11-06.md),CVI,setup_supply_resale,0,"IEP secondary pulled, stock 20% below the $47.55 primary; controlled, so register only"
 2026-11-06,daily research 6 Nov (research/daily/2026-11-06.md),RGNX,setup_supply_atm,0,Mechanical new going concern plus ATM in use; binary Q4 readout; register only
 2026-11-06,daily research 6 Nov (research/daily/2026-11-06.md),CCOI,setup_supply_deficiency,0,New going concern on $700M 2027 notes; already -48.7%; register only
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),ARTV,value_gap,0,"T018 fired on the company's wind-down estimate; table mid $4.78 (RSU-diluted ~$4.40) vs $4.22; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),ELMT,longterm_research,0,"T007 fired on the 9 Nov 10-Q; AVOID reversed ($161.9M DLA funded, no insider sales); tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),CCAP,tender_issuer_buyback,0,WATCH T023: $50M buyback + up to $25M Sun Life 10b5-1 buying (~22% of market value) at 52% of NAV; results after the 9 Nov close
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),BAK,holder_buying,0,"Slim family 13D (6.5% of Class A pref) bought 7 Oct-5 Nov at $1.10-1.84/ADS; debt restructuring may dilute; at the $1 line; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),XYF,merger_arb,0,"Controller's non-binding $6.03/ADS go-private (93.45% of votes); $5.56, 8.4% gap; unaffected $4.70; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),ETD,activist_13d,0,"Bergeron slate won 3 of 5 seats (certified 6 Nov); stock fell; widely covered; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),ADTN,insider_cluster,0,"CEO $601k + CFO $74k open-market buys 6 Nov after a 42% month; IC1 says clusters do not pay; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),AFCG,insider_cluster,0,"Tannenbaum couple + CFO buys 6 Nov, 32.6% holder, issuer buyback; mdv20 at the line; tracked, no call"
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),TTRX,setup_supply_atm,0,Equity line + resale registered since 2025; new $50M ATM shelf pending; going concern; register only
+2026-11-10,daily research 10 Nov (research/daily/2026-11-10.md),DRK,setup_supply_atm,0,"Going concern, ATM in use, PIPE resale effective; baby-shelf room likely used; register only"

@@ -694,6 +694,21 @@ def dilution(day, filings, tickers, relevant):
     return (lines + left_out(left) if lines else []) + notes
 
 
+NOT_COMMON = re.compile(r"prefer|warrant|\bnotes?\b|debenture|\brights?\b", re.I)
+NOT_MARKET = re.compile(r"underwritten (?:public )?offering|registered direct|private placement|"
+                        r"(?:directly )?from the (?:issuer|company)\b|dividend reinvestment|\bDRIP\b|"
+                        r"combined (?:purchase |offering )?price|purchased in (?:the|an|this|a) (?:public )?offering|subscription agreement", re.I)
+
+
+def not_open_market(title, notes):
+    """Rule 2026-11-10: a code-P row is an open-market buy of ordinary shares only when the security is common stock and the
+    footnotes don't say it came from an offering, from the company, or by dividend reinvestment. On 6-9 Nov the section
+    listed OBIO (four insiders buying in an underwritten offering at $5.00), ANVS (units from the company), FFAI (one
+    preferred share from the company) and APOG (dividend reinvestment) as buys."""
+    units = re.search(r"\bunits?\b", title, re.I) and not re.search(r"common", title, re.I)   # MLP "Common Units" are the equity
+    return bool(NOT_COMMON.search(title) or units or NOT_MARKET.search(notes))
+
+
 def insider_buys(form4, tickers, relevant, day):
     """Form 4s filed for relevant companies: open-market or private purchases (code P) of ordinary shares only.
     Grants, option exercises, tax withholding, gifts and sales are ignored. The Clusters line counts different insiders
@@ -708,7 +723,7 @@ def insider_buys(form4, tickers, relevant, day):
         except (TypeError, ValueError):
             return None
 
-    buys, people, failed = [], defaultdict(set), 0
+    buys, people, failed, not_market, seen_tx = [], defaultdict(set), 0, 0, {}
     for acc, path in list(form4.items())[:FORM4_CAP]:
         try:   # the ownership XML sits inside the filing's text file, between <XML> tags
             text = get("https://www.sec.gov/Archives/" + path).decode("utf-8", "ignore")
@@ -723,10 +738,13 @@ def insider_buys(form4, tickers, relevant, day):
         last = ""
         # A P row sold again the same day in the same form is an option exercise, not a buy
         # (BORR's chief operating officer, Form 4 of 16 Oct 2026: P and S of 300,000 shares on 14 Oct).
+        # A gift given away and bought back the same day nets to nothing (LKFN, 9 Nov 2026), so gifts count like sales.
         sold = defaultdict(float)
         for t in doc.findall("nonDerivativeTable/nonDerivativeTransaction"):
-            if (t.findtext("transactionCoding/transactionCode") or "").strip() == "S":
+            code = (t.findtext("transactionCoding/transactionCode") or "").strip()
+            if code == "S" or (code == "G" and (t.findtext("transactionAmounts/transactionAcquiredDisposedCode/value") or "").strip() == "D"):
                 sold[(t.findtext("transactionDate/value") or "").strip()[:10]] += num(t.findtext("transactionAmounts/transactionShares/value")) or 0
+        foot = {f.get("id"): " ".join("".join(f.itertext()).split()) for f in doc.iter("footnote")}
         for t in doc.findall("nonDerivativeTable/nonDerivativeTransaction"):
             n = num(t.findtext("transactionAmounts/transactionShares/value"))
             if (t.findtext("transactionCoding/transactionCode") or "").strip() != "P" or not n:
@@ -734,6 +752,9 @@ def insider_buys(form4, tickers, relevant, day):
             tday = (t.findtext("transactionDate/value") or "").strip()[:10]
             if sold[tday] >= n:
                 sold[tday] -= n
+                continue
+            if not_open_market(t.findtext("securityTitle/value") or "", " ".join(foot.get(x.get("id"), "") for x in t.iter("footnoteId"))):
+                not_market += 1
                 continue
             price = num(t.findtext("transactionAmounts/transactionPricePerShare/value"))
             shares += n
@@ -757,14 +778,19 @@ def insider_buys(form4, tickers, relevant, day):
                 if yes(r.findtext("isOther")):
                     roles.append((r.findtext("otherText") or "").strip() or "other")
             who.append(quote(o.findtext("reportingOwnerId/rptOwnerName") or "?", 60) + (f" ({quote(', '.join(roles), 80)})" if roles else ""))
-        if value >= CLUSTER_MIN_USD or not priced:   # tiny plan-style buys ($100 of stock) don't make a cluster (rule 2026-10-19)
-            people[symbols([issuer], tickers)].add((quote(doc.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or acc, 60).upper(), last or str(day)))
         avg = value / priced if priced else None
+        # One joint purchase reported by two owners (SYNX, 6 Nov 2026: a CEO and his wife) is one buyer, not a cluster.
+        tx = (issuer, last, shares, round(avg or 0, 4))
+        twin = seen_tx.get(tx)
+        seen_tx.setdefault(tx, acc)
+        if (value >= CLUSTER_MIN_USD or not priced) and not twin:   # tiny plan-style buys ($100 of stock) don't make a cluster (rule 2026-10-19)
+            people[symbols([issuer], tickers)].add((quote(doc.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or acc, 60).upper(), last or str(day)))
         cost = "with no price in the form (usually a private deal, not a market buy: read the footnotes)"   # NFE, 15 Sep 2026
         if avg:
             cost = (f"at ${avg:,.2f}" if avg >= 1 else f"at ${avg:,.4f}") + f" = ${value:,.0f}" + (" (part of it unpriced)" if priced < shares else "")
         buys.append((-value, f"- **{symbols([issuer], tickers)}** {' + '.join(who[:3])}{f' + {len(who) - 3} more' if len(who) > 3 else ''} "
-                             f"bought {shares:,.0f} shares {cost}{f' on {last}' if last else ''} `4` [Form 4]({index_url(path)})"))
+                             f"bought {shares:,.0f} shares {cost}{f' on {last}' if last else ''} `4` [Form 4]({index_url(path)})"
+                             + (" _(same purchase as another Form 4 today: a joint holding, one buyer)_" if twin else "")))
     lines = [line for _, line in sorted(buys)]
     if lines:
         for f in sorted(OUT.glob("*.md")):   # earlier buy lines: "- **SYM** NAME (roles) ... bought N shares ... on YYYY-MM-DD"
@@ -789,6 +815,9 @@ def insider_buys(form4, tickers, relevant, day):
                 clusters.append(f"{sym} ({len(first_buy)} insiders in 30 days: "
                                 + "; ".join(f"{o.title()} {w}" for o, w in first_buy.items()) + ")")
         lines.append("- Clusters: " + (", ".join(clusters) if clusters else "none"))
+    if not_market:
+        lines.append(f"- _Not counted as buys: {not_market} code-P row{'' if not_market == 1 else 's'} bought in an offering or from the company, "
+                     f"by dividend reinvestment, or not in common stock (rule 2026-11-10)._")
     if len(form4) > FORM4_CAP:
         lines.append(f"- _Form 4 cap hit: opened {FORM4_CAP} of the {len(form4)} filed for relevant companies; the rest were not read._")
     if failed:
