@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $31.83 (2026-11-11, ledger) · 1d +0.5%, 5d -1.6%, 20d -9.4% (market context, 2026-11-11)
-- **Since first found:** **-4.0%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -3.2% vs IWM +3.8% = **-7.1 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $31.83 (2026-11-11, ledger) · 1d +0.6%, 5d -1.5%, 20d -9.3% (market context, 2026-11-11)
+- **Since first found:** **-4.0%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -3.2% vs IWM +3.8% = **-7.0 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -1.6% vs peer median +0.4%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** no flag (self 5d -1.5% vs peer median +0.3%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

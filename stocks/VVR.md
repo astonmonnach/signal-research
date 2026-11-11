@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for VVR ([rules](../ledger/RULES.md)): f
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.88 | +0.5% | +1.2% | -0.6% | +1.8% | 6 | live |
-| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.88 | +0.9% | +0.5% | +3.8% |  | 5 | live |
+| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.88 | +0.9% | +0.5% | +3.7% |  | 5 | live |
 | 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.88 | -0.9% | -0.5% | +1.7% |  | 2 | live |

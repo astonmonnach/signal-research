@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $5.07 (2026-11-11, ledger) · 1d -0.8%, 5d -3.2%, 20d +21.6% (market context, 2026-11-11)
-- **Since first found:** **+27.7%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +27.4% vs IWM +1.9% = **+25.5 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $5.07 (2026-11-11, ledger) · 1d -0.7%, 5d -3.2%, 20d +21.6% (market context, 2026-11-11)
+- **Since first found:** **+27.8%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +27.4% vs IWM +1.9% = **+25.5 pts** vs IWM; direction 0, tracked only (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (self 5d -3.2% vs peer median -2.5%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -41,5 +41,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.07 | +27.7% | +27.4% | +1.9% |  | 21 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.07 | +27.8% | +27.4% | +1.9% |  | 21 | live |
 | 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $5.07 | -3.2% | -2.5% | -0.6% |  | 6 | live |
