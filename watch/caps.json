@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 04:21 UTC",
+ "updated": "2026-11-11 01:15 UTC",
  "buckets": {
   "micro": [
    0,
@@ -178,11 +178,11 @@
   },
   "IMSR": {
    "ticker": "IMSR",
-   "shares": 105935254,
+   "shares": 105988406,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-11",
+   "shares_date": "2026-11-06",
    "price": 3.0,
-   "mcap": 317805762.0,
+   "mcap": 317965218.0,
    "bucket": "small"
   },
   "SRTA": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.649999618530273
+   "price": 17.549999237060547
   },
   "CRMT": {
    "ticker": "CRMT",
@@ -450,16 +450,25 @@
   },
   "SEER": {
    "ticker": "SEER",
-   "shares": 55372015,
+   "shares": 55814767,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-05",
+   "shares_date": "2026-11-06",
    "price": 1.6799999475479126,
-   "mcap": 93024982.29562223,
+   "mcap": 93768805.63239896,
    "bucket": "micro"
   },
   "VVR": {
    "ticker": "VVR",
-   "price": 2.9000000953674316
+   "price": 2.890000104904175
+  },
+  "CCAP": {
+   "ticker": "CCAP",
+   "shares": 36845952,
+   "shares_source": "SEC cover page (dei)",
+   "shares_date": "2026-11-09",
+   "price": 9.239999771118164,
+   "mcap": 340456588.04663086,
+   "bucket": "small"
   }
  }
 }
