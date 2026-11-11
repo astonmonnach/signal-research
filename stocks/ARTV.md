@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md)); `value_gap` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $4.06 (2026-11-11, ledger) · 1d +0.0%, 5d -3.8%, 20d -31.3% (market context, 2026-11-11)
-- **Since first found:** **-4.9%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -6.7% vs IWM +0.6% = **-7.3 pts** vs IWM; direction +1 → excess -7.3% (14 days)
+- **Latest price:** $4.11 (2026-11-11, ledger) · 1d +1.1%, 5d -2.7%, 20d -30.5% (market context, 2026-11-11)
+- **Since first found:** **-3.9%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -5.6% vs IWM +0.9% = **-6.5 pts** vs IWM; direction +1 → excess -6.5% (14 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -3.8% vs peer median -3.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** no flag (self 5d -2.7% vs peer median -3.5%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: ARTV: Q3 10-Q due (first wind-down cost estimate? T018)
   - Mon 16 Nov 2026: ARTV: Q3 10-Q filed 9 Nov; T018 fired, re-read done (tracked). Check for a plan of dissolution or RA Capital 13D/A
@@ -33,7 +33,7 @@ Every [ledger](../ledger/LEDGER.md) row for ARTV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $4.06 | -4.9% | -6.7% | +0.6% | -7.3% | 14 | live |
-| 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $4.06 | -5.0% | -3.8% | -0.1% |  | 13 | live |
-| 2026-11-09 | `8k_strategic_review` | +1 | -1.0% | +1.7% | $5.8M | $4.22 | $4.19 | $4.06 | -3.8% | -3.1% | +0.8% | -4.0% | 1 | live |
-| 2026-11-10 | `value_gap` | 0 | +0.7% | -3.8% | $5.9M | $4.06 | $4.10 | $4.06 | +0.0% | -1.0% | -0.3% |  | 0 | live |
+| 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $4.11 | -3.9% | -5.6% | +0.9% | -6.5% | 14 | live |
+| 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $4.11 | -4.0% | -2.7% | +0.1% |  | 13 | live |
+| 2026-11-09 | `8k_strategic_review` | +1 | -1.0% | +1.7% | $5.8M | $4.22 | $4.19 | $4.11 | -2.7% | -2.0% | +1.1% | -3.1% | 1 | live |
+| 2026-11-10 | `value_gap` | 0 | +0.7% | -3.8% | $5.9M | $4.06 | $4.10 | $4.11 | +1.1% | +0.1% | -0.1% |  | 0 | live |

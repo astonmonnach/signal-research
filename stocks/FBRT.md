@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $6.35 (2026-11-11, ledger)
-- **Since first found:** **+2.5%** (found 2026-11-06 via `insider_buy` at $6.20). From the next open $6.21: +2.3% vs IWM +1.7% = **+0.6 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $6.40 (2026-11-11, ledger)
+- **Since first found:** **+3.2%** (found 2026-11-06 via `insider_buy` at $6.20). From the next open $6.21: +3.1% vs IWM +1.9% = **+1.1 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 31 Dec 2026: FBRT: $50M buyback authorisation ends (CEO bought ~$1.0M on 3 Nov; tracked)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for FBRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `insider_buy` | 0 | +1.9% | -1.3% | $7.5M | $6.20 | $6.21 | $6.35 | +2.5% | +2.3% | +1.7% |  | 2 | live |
+| 2026-11-06 | `insider_buy` | 0 | +1.9% | -1.3% | $7.5M | $6.20 | $6.21 | $6.40 | +3.2% | +3.1% | +1.9% |  | 2 | live |

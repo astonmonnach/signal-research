@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $13.73 (2026-11-11, ledger)
-- **Since first found:** **-11.2%** (found 2026-10-13 via `deal_peer` at $15.47). From the next open $15.39: -10.8% vs IWM +3.2% = **-14.0 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $13.68 (2026-11-11, ledger)
+- **Since first found:** **-11.6%** (found 2026-10-13 via `deal_peer` at $15.47). From the next open $15.39: -11.1% vs IWM +3.5% = **-14.6 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRND ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `deal_peer` | 0 | +11.6% | +2.4% | $28.4M | $15.47 | $15.39 | $13.73 | -11.2% | -10.8% | +3.2% |  | 28 | live |
+| 2026-10-13 | `deal_peer` | 0 | +11.6% | +2.4% | $28.4M | $15.47 | $15.39 | $13.68 | -11.6% | -11.1% | +3.5% |  | 28 | live |

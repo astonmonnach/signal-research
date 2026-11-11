@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $1.67 (2026-11-11, ledger) · 1d -16.9%, 5d -38.3%, 20d -11.4% (market context, 2026-11-11)
-- **Since first found:** **-31.3%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -32.1% vs IWM +3.7% = **-35.9 pts** vs IWM; direction 0, tracked only (5 days)
-- **Peers / sympathy:** solo_move: STIM -38.3% 5d vs peer median -1.7%; peers didn't move with it. Peer groups: SIC 3841 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Latest price:** $1.64 (2026-11-11, ledger) · 1d -17.9%, 5d -39.0%, 20d -12.5% (market context, 2026-11-11)
+- **Since first found:** **-32.5%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -33.3% vs IWM +4.0% = **-37.3 pts** vs IWM; direction 0, tracked only (5 days)
+- **Peers / sympathy:** solo_move: STIM -39.0% 5d vs peer median -1.7%; peers didn't move with it. Peer groups: SIC 3841 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for STIM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.67 | -31.3% | -32.1% | +3.7% |  | 5 | live |
+| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.64 | -32.5% | -33.3% | +4.0% |  | 5 | live |
