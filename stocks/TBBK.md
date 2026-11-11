@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $48.08 (2026-11-10, ledger)
-- **Since first found:** **+0.7%** (found 2026-11-05 via `insider_cluster` at $47.74). From the next open $47.69: +0.8% vs IWM +2.6% = **-1.7 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $48.83 (2026-11-11, ledger)
+- **Since first found:** **+2.3%** (found 2026-11-05 via `insider_cluster` at $47.74). From the next open $47.69: +2.4% vs IWM +3.8% = **-1.4 pts** vs IWM; direction 0, tracked only (5 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1295401/000203985226000136/0002039852-26-000136-index.htm))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **TBBK**: the CFO and two directors bought about $373k on 3 Nov. Our own study logged past TBBK clusters that lost. Tracked. ([triage](../watch/digests/2026-11-05-triage.md)) · Logged as `insider_cluster` (direction 0): CFO and two directors ~$373k on 3 Nov after results; past TBBK clusters lost; tracked, no call; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- TBBK: the CFO and two directors bought about $373k. Past TBBK clusters in our own study lost (-21.1% and…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1295401/000203985226000132/0002039852-26-000132-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for TBBK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `insider_cluster` | 0 | -6.1% | +0.8% | $27.0M | $47.74 | $47.69 | $48.08 | +0.7% | +0.8% | +2.6% |  | 4 | live |
+| 2026-11-05 | `insider_cluster` | 0 | -6.1% | +0.8% | $27.0M | $47.74 | $47.69 | $48.83 | +2.3% | +2.4% | +3.8% |  | 5 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $39.24 (2026-11-10, ledger)
-- **Since first found:** **-1.5%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: +0.3% vs IWM +2.6% = **-2.2 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $40.03 (2026-11-11, ledger)
+- **Since first found:** **+0.5%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: +2.3% vs IWM +3.8% = **-1.4 pts** vs IWM; direction 0, tracked only (5 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **CVI:** IEP pulled its $250M secondary. The company's own $47.55 offering closed, and the stock is 20% below it. Controlled by IEP, so register only. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `setup_supply_resale` (direction 0): IEP secondary pulled, stock 20% below the $47.55 primary; controlled, so register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
+- **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **CVI:** IEP pulled its $250M secondary. The company's own $47.55 offering closed, and the stock is 20% below it. Controlled by IEP, so register only. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `setup_supply_resale` (direction 0): IEP secondary pulled, stock 20% below the $47.55 primary; controlled, so register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1376139/000119312526451979/0001193125-26-451979-index.htm)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -24.6%, found day -7.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1376139/000119312526450036/d169461dex11.htm))
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: CVR Energy Announces Transformative Transaction to Acquire 2 Refineries and Marketing Platform From Marathon… (Business Wire) ([release](http://www.businesswire.com/news/home/20261102533425/en/CVR-Energy-Announces-Transformative-Transaction-to-Acquire-2-Refineries-and-Marketing-Platform-From-Marathon-Petroleum/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: 8-K trigger phrase "supply agreement: "entered into a crude oil supply agreement (the “ Supply Agreement ”) with Trafigura Trading LLC (the “ Commercial Counterparty ”) with respect to the T"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1376139/000119312526444428/d87305d8k.htm))
 
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for CVI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $39.24 | -1.5% | +0.3% | +2.6% |  | 4 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $39.24 | +2.9% | +2.2% | +0.5% |  | 1 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $40.03 | +0.5% | +2.3% | +3.8% |  | 5 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $40.03 | +5.0% | +4.2% | +1.7% |  | 2 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $4.08 (2026-11-10, ledger) · 1d +3.8%, 5d -2.2%, 20d -10.3% (market context, 2026-11-10)
-- **Since first found:** **-15.7%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -19.1% vs IWM +2.6% = **-21.7 pts** vs IWM; direction 0, tracked only (22 days)
-- **Peers / sympathy:** no flag (self 5d -2.2% vs peer median +2.9%). Peer groups: SIC 3690 (7) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $4.25 (2026-11-11, ledger) · 1d +0.5%, 5d +0.5%, 20d -10.1% (market context, 2026-11-11)
+- **Since first found:** **-12.2%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -15.7% vs IWM +3.8% = **-19.5 pts** vs IWM; direction 0, tracked only (23 days)
+- **Peers / sympathy:** no flag (self 5d +0.5% vs peer median -2.5%). Peer groups: SIC 3690 (7) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **BYRN** six Form 4s: all code A or M (RSU grants and settlements). No buys. Also FMR 13G 15.0% (6 Nov). ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `4` ×6 9 Nov
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G` 6 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 5 Nov
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `4` 16 Oct; +34 older (Jun – Oct 2026) first picked up · Research: Research: Mon 19 Oct 2026 (BYRN $4.84 $5.215 +7.7% first session after director Roth's Form 4 (filed after Friday's close)) ([note](../research/daily/2026-10-19.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for BYRN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $4.08 | -15.7% | -19.1% | +2.6% |  | 22 | live |
+| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $4.25 | -12.2% | -15.7% | +3.8% |  | 23 | live |

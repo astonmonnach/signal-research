@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.99 (2026-11-10, ledger) · 1d +0.1%, 5d +0.1%, 20d +0.6% (market context, 2026-11-10)
-- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM +2.0% = **-1.5 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $5.99 (2026-11-11, ledger) · 1d -0.2%, 5d -0.3%, 20d +0.2% (market context, 2026-11-11)
+- **Since first found:** **+0.7%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.7% vs IWM +3.2% = **-2.6 pts** vs IWM; direction 0, tracked only (28 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median +2.6%). Peer groups: SIC 7370 (7) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median +2.0%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-19 BMBL -0.2 +0.3 -0.2 +0.3 +0.2 +0.2 +0.3 Ithaca's $102M termination fee due in escrow (Bumble…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-09](../scans/2026-11-09.md)**: Calendar: BMBL: Q3 10-Q due by today (paying users; no earnings call because of the deal) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` ×3 4 Nov, `10-Q` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-13 7 BMBL +57% deal_signed $5.95 911.6 yes +0.3% +0.2% -1.5) ([note](../research/movers/outcomes-2026-10-29.md))
@@ -36,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | +2.0% |  | 27 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | +2.0% |  | 27 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.7% | +0.7% | +3.2% |  | 28 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.7% | +0.7% | +3.2% |  | 28 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $7.25 (2026-11-10, ledger)
-- **Since first found:** **-3.9%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: -4.6% vs IWM -1.0% = **-3.7 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $8.26 (2026-11-11, ledger)
+- **Since first found:** **+9.6%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: +8.7% vs IWM +0.2% = **+8.5 pts** vs IWM; direction 0, tracked only (9 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRRR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $7.25 | -3.9% | -4.6% | -1.0% |  | 8 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $8.26 | +9.6% | +8.7% | +0.2% |  | 9 | live |

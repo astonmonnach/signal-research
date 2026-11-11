@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.69 (2026-11-10, ledger) · 1d +0.0%, 5d +0.4%, 20d +154.3% (market context, 2026-11-10)
-- **Since first found:** **+0.5%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.5% vs IWM -1.2% = **+1.7 pts** vs IWM; direction 0, tracked only (12 days)
+- **Latest price:** $15.76 (2026-11-11, ledger) · 1d -0.1%, 5d +1.0%, 20d +160.8% (market context, 2026-11-11)
+- **Since first found:** **+1.0%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +1.0% vs IWM -0.1% = **+1.0 pts** vs IWM; direction 0, tracked only (13 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median +2.9%). Peer groups: SIC 3690 (7) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d +1.0% vs peer median -2.5%). Peer groups: SIC 3690 (7) ([market context](../watch/context/latest.json), 2026-11-11)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#watchlist-filings)**: Filings: `8-K` 9 Nov
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `10-Q` 5 Nov · Research: Research: Fri 6 Nov 2026 (- **Deals:** SYNA 5.4% (a litigation-mootness supplement only; vote 17 Nov); LCII now 0.2% below Patrick's…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: Ultralife Corporation Reports Third Quarter Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/05/3397177/18622/en/ultralife-corporation-reports-third-quarter-results.html))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- **Movers log:** 30 rows added for 28-30 Oct (14 sessions logged). 17 of 30 had no company news; 14 of 30…) ([note](../research/daily/2026-11-02.md))
@@ -34,6 +35,6 @@ Every [ledger](../ledger/LEDGER.md) row for ULBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.69 | +0.5% | +0.5% | -1.2% |  | 12 | live |
-| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.69 | +0.5% | +0.5% | -1.2% |  | 12 | live |
-| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.69 | +0.5% | +0.5% | -1.2% |  | 12 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.76 | +1.0% | +1.0% | -0.1% |  | 13 | live |
+| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.76 | +1.0% | +1.0% | -0.1% |  | 13 | live |
+| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.76 | +1.0% | +1.0% | -0.1% |  | 13 | live |

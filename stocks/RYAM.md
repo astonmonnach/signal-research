@@ -101,10 +101,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $5.30 (2026-11-10, ledger) · 1d -6.8%, 5d -23.3%, 20d -27.6% (market context, 2026-11-10)
-- **Since first found:** **-35.0%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -35.0% vs IWM -0.5% = **-34.5 pts** vs IWM; direction +1 → excess -34.5% (42 days)
+- **Latest price:** $5.63 (2026-11-11, ledger) · 1d +0.4%, 5d -21.3%, 20d -20.1% (market context, 2026-11-11)
+- **Since first found:** **-30.9%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -30.9% vs IWM +0.7% = **-31.6 pts** vs IWM; direction +1 → excess -31.6% (43 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Dec 2026: RYAM: company promised a clear path forward in Q4 2026
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
@@ -114,6 +114,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (RYAM (WATCH 05/10): peak +5.3% on 12 Oct (session 5), low -19.6% on 09 Nov, now -18.5%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 RYAM $6.98 +5.3% 12 Oct (5) -6.2% -19.6% 9 Nov -18.5% -22.6%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `8-K` 3 Nov · Research: Research: Wed 4 Nov 2026 (- **RYAM (T001):** the review is now "targeting a conclusion in Q1 2027", after our 31 Dec deadline, plus…) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: RYAM Reports Third Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261103071362/en/RYAM-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Market scan: 8-K trigger phrase "strategic alternatives, strategic review" (strategic review / alternatives) (5d before +2.9%, found day +3.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1597672/000159767226000037/exhibit991ryamq32026.htm))
@@ -128,5 +129,5 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $5.30 | -35.0% | -35.0% | -0.5% | -34.5% | 42 | live |
-| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $5.30 | -23.3% | -15.3% | -1.8% | -13.5% | 6 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $5.63 | -30.9% | -30.9% | +0.7% | -31.6% | 43 | live |
+| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $5.63 | -18.5% | -10.1% | -0.7% | -9.4% | 7 | live |

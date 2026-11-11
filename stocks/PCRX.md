@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.49 (2026-11-10, ledger) · 1d +0.1%, 5d +0.3%, 20d +0.5% (market context, 2026-11-10)
-- **Since first found:** **+0.3%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.4% vs IWM +0.3% = **+0.2 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $36.48 (2026-11-11, ledger) · 1d -0.0%, 5d +0.2%, 20d +0.2% (market context, 2026-11-11)
+- **Since first found:** **+0.2%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.4% vs IWM +1.4% = **-1.0 pts** vs IWM; direction 0, tracked only (33 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median +1.5%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -1.9%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: PCRX: Viatris $36.50 cash tender expires
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-30 PCRX +0.0 +0.1 -0.0 +0.0 +0.0 +0.0 +0.1 Viatris $36.50 tender offer due to have started (15…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, tender offer" (8k merger agreement) (5d before +0.0%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000162828026071129/pcrx-20261105.htm)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` 3 Nov, `SC 14D9/A` 3 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 30 Oct, `SC 14D9` 30 Oct, `SC TO-T` 30 Oct
@@ -34,7 +35,7 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.49 | +0.3% | +0.4% | +0.3% |  | 32 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.49 | +0.5% | +0.4% | +0.2% |  | 29 | live |
-| 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.49 | +0.3% | +0.2% | -1.0% |  | 8 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.49 | +0.2% | +0.2% | +2.6% |  | 4 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.48 | +0.2% | +0.4% | +1.4% |  | 33 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.48 | +0.5% | +0.4% | +1.3% |  | 30 | live |
+| 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.48 | +0.2% | +0.2% | +0.2% |  | 9 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.48 | +0.2% | +0.2% | +3.8% |  | 5 | live |

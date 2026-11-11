@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $4.32 (2026-11-10, ledger)
-- **Since first found:** **+8.5%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: +6.4% vs IWM +0.5% = **+5.9 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $4.43 (2026-11-11, ledger)
+- **Since first found:** **+11.4%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: +9.2% vs IWM +1.7% = **+7.5 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Jun 2027: CCOI: $700M of 2027 notes mature (new going concern; AVOID register)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for CCOI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $4.32 | +8.5% | +6.4% | +0.5% |  | 1 | live |
+| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $4.43 | +11.4% | +9.2% | +1.7% |  | 2 | live |

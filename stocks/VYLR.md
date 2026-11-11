@@ -101,12 +101,11 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $71.87 (2026-11-10, ledger) · 1d -0.9%, 5d -0.1%, 20d -6.6% (market context, 2026-11-10)
-- **Since first found:** **+5.3%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.6% vs IWM -1.2% = **+5.8 pts** vs IWM; direction 0, tracked only (39 days)
+- **Latest price:** $71.69 (2026-11-11, ledger) · 1d -1.4%, 5d +0.3%, 20d -3.9% (market context, 2026-11-11)
+- **Since first found:** **+5.0%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.3% vs IWM -0.1% = **+4.4 pts** vs IWM; direction 0, tracked only (40 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.1% vs peer median +1.8%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median -1.3%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Tue 10 Nov 2026: VYLR ~day 28 check (typical spin-off low)
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [thesis](../ideas/VYLR.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -115,6 +114,7 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Calendar: VYLR ~day 28 check (typical spin-off low) ([calendar](../calendar/catalyst-dates.ics)) · Research: Every event, at its actual time (VYLR (WATCH 05/10): peak +7.6% on 13 Oct (session 6), low -5.2% on 06 Nov, now +0.9%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 VYLR $71.91 +7.6% 13 Oct (6) -0.9% -5.2% 6 Nov +0.9% -6.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 VYLR spin-off $71.91 +0.9% +4.9% -4.0) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-26](../scans/2026-10-26.md#watchlist-filings)**: Filings: `4` ×3 26 Oct
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Vylor Announces $3 Billion Share Repurchase Program (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-announces-3-billion-share-repurchase-program-302917419.html)) · Press: Vylor Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-declares-quarterly-dividend-302917422.html))
@@ -136,6 +136,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.87 | +5.3% | +4.6% | -1.2% |  | 39 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.87 | -2.0% | -0.1% | -1.9% |  | 35 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.87 | -1.5% | -2.7% | +0.9% |  | 33 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.69 | +5.0% | +4.3% | -0.1% |  | 40 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.69 | -2.2% | -0.3% | -0.8% |  | 36 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.69 | -1.8% | -2.9% | +2.1% |  | 34 | live |

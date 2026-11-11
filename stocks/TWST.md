@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $132.70 (2026-11-10, ledger) · 1d -1.9%, 5d -5.3%, 20d -12.2% (market context, 2026-11-10)
-- **Since first found:** **-31.3%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -31.3% vs IWM +0.6% = **-31.9 pts** vs IWM; direction 0, tracked only (40 days)
-- **Peers / sympathy:** no flag (self 5d -5.3% vs peer median -5.8%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $138.10 (2026-11-11, ledger) · 1d +4.3%, 5d -3.4%, 20d -7.0% (market context, 2026-11-11)
+- **Since first found:** **-28.5%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -28.5% vs IWM +1.7% = **-30.2 pts** vs IWM; direction 0, tracked only (41 days)
+- **Peers / sympathy:** no flag (self 5d -3.4% vs peer median -3.7%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **Kills:** CHDN, killed on 5 Oct as a false positive, is +26.8% since. TWST, marked AVOID the same day, is…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` ×5 5 Nov, `SCHEDULE 13G/A` 5 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `144` ×5 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Notice of Proposed Derivative Settlement: Twist Bioscience Corporation (Business Wire) ([release](http://www.businesswire.com/news/home/20261103793144/en/Notice-of-Proposed-Derivative-Settlement-Twist-Bioscience-Corporation/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
@@ -119,4 +120,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $132.70 | -31.3% | -31.3% | +0.6% |  | 40 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $138.10 | -28.5% | -28.5% | +1.7% |  | 41 | live |

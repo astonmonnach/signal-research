@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $31.77 (2026-11-10, ledger) · 1d -1.0%, 5d -1.2%, 20d -9.6% (market context, 2026-11-10)
-- **Since first found:** **-4.2%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -3.4% vs IWM +2.6% = **-6.0 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $31.83 (2026-11-11, ledger) · 1d +0.5%, 5d -1.6%, 20d -9.4% (market context, 2026-11-11)
+- **Since first found:** **-4.0%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -3.2% vs IWM +3.8% = **-7.1 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +9.2% 5d vs SMTI -1.2%; peers moved, it didn't. Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d -1.6% vs peer median +0.4%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SMTI** 13G: Goldman 5.0% (likely deal-related). **MDA** 13G/13G/A: Morgan Stanley 8.8% then 0.3% (the CSG share-forward hedge, inference). ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `SCHEDULE 13G` 9 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `8-K` 29 Oct, `425` 28 Oct
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Only three were above the ~3.5% cost hurdle (PTC, SMTI, GPRO), and each had a named risk.) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage: **No change:** BORR (no Troim filing for 16 Oct), SRTA (no reply to Third Point), IMSR (-6.6% to $2.85, below the insiders' prices), PED (+7.0% to… ([triage](../watch/digests/2026-10-20-triage.md))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for SMTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $31.77 | -4.2% | -3.4% | +2.6% |  | 22 | live |
-| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $31.77 | -4.2% | -3.4% | +2.6% |  | 22 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $31.83 | -4.0% | -3.2% | +3.8% |  | 23 | live |
+| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $31.83 | -4.0% | -3.2% | +3.8% |  | 23 | live |

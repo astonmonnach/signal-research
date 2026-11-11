@@ -6,18 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-11-01 (daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md))
-- **Latest price:** $1.63 (2026-11-10, ledger) · 1d -3.0%, 5d -5.8%, 20d -22.8% (market context, 2026-11-10)
-- **Since first found:** **-16.0%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -13.8% vs IWM -1.1% = **-12.7 pts** vs IWM; direction +1 → excess -12.7% (11 days)
+- **Latest price:** $1.62 (2026-11-11, ledger) · 1d +0.6%, 5d -4.7%, 20d -22.1% (market context, 2026-11-11)
+- **Since first found:** **-16.5%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -14.3% vs IWM +0.1% = **-14.4 pts** vs IWM; direction +1 → excess -14.4% (12 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: SEER -5.8% 5d vs peer median +1.8%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-10)
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Tue 10 Nov 2026: SEER: Q3 results after the close (WATCH T019: cash return by 30 Nov)
+- **Peers / sympathy:** solo_move: SEER -4.7% 5d vs peer median +0.8%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Seer Reports Third Quarter 2026 Financial Results and Updates Full Year 2026 Revenue Guidance (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/10/3400224/0/en/seer-reports-third-quarter-2026-financial-results-and-updates-full-year-2026-revenue-guidance.html)) · Calendar: SEER: Q3 results after the close (WATCH T019: cash return by 30 Nov) ([calendar](../calendar/catalyst-dates.ics)) · Research: Every event, at its actual time (SEER (WATCH 01/11): peak +6.0% on 02 Nov (session 1), low -3.6% on 05 Nov, now +0.0%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (01/11 SEER $1.68 +6.0% 2 Nov (1) -1.8% -3.6% 5 Nov 0.0% -5.6%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (01/11 SEER bids rejected, at half of net cash $1.68 0.0% -2.6% +2.6) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 2 Nov
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **SEER**: BML 13D at 4.7%, urging the board to reconsider the bids. T019 open. ([triage](../watch/digests/2026-11-03-triage.md)) · Research: Research: Tue 3 Nov 2026 (3. SEER: a second holder pushes the board (T019 open)) ([note](../research/daily/2026-11-03.md))
@@ -33,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for SEER ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.63 | -16.0% | -13.8% | -1.1% | -12.7% | 11 | live |
-| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.63 | -3.0% | -3.0% | -1.0% |  | 8 | live |
-| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.63 | -5.8% | -6.9% | -0.3% | -6.5% | 7 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.62 | -16.5% | -14.3% | +0.1% | -14.4% | 12 | live |
+| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.62 | -3.6% | -3.6% | +0.2% |  | 9 | live |
+| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.62 | -6.4% | -7.4% | +0.8% | -8.3% | 8 | live |

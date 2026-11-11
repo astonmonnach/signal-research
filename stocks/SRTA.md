@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $5.88 (2026-11-10, ledger) · 1d -2.7%, 5d +32.5%, 20d +32.2% (market context, 2026-11-10)
-- **Since first found:** **+35.5%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +29.2% vs IWM +1.2% = **+28.0 pts** vs IWM; direction +1 → excess +28.0% (25 days)
+- **Latest price:** $6.08 (2026-11-11, ledger) · 1d +0.6%, 5d +16.0%, 20d +41.5% (market context, 2026-11-11)
+- **Since first found:** **+40.1%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +33.6% vs IWM +2.4% = **+31.2 pts** vs IWM; direction +1 → excess +31.2% (26 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: SRTA +32.5% 5d vs peer median -5.5%; peers didn't move with it | missed_peer_move: peer median -5.5% 5d vs SRTA +32.5%; peers moved, it didn't. Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** missed_peer_move: peer median -10.2% 5d vs SRTA +16.0%; peers moved, it didn't. Peer groups: SIC 8000 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SRTA** Form 4: director bought 2,000 at $4.999 ($10k). Token. Stock $6.05. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `4` 9 Nov · Research: Every event, at its actual time (SRTA (WATCH 16/10): peak +34.4% on 09 Nov (session 16), low -7.7% on 02 Nov, now +32.7%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (16/10 SRTA $4.56 +34.4% 9 Nov (16) -7.7% -7.7% 2 Nov +32.7% -1.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
+- **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1779128/000162828026071913/0001628280-26-071913-index.htm))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 3 Nov, `8-K` 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Strata Critical Medical to Present at the UBS Global Healthcare Conference (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/03/3394791/0/en/strata-critical-medical-to-present-at-the-ubs-global-healthcare-conference.html))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 30 Oct
@@ -33,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $5.88 | +35.5% | +29.2% | +1.2% | +28.0% | 25 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $5.88 | +29.5% | +28.9% | +2.6% |  | 22 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $6.08 | +40.1% | +33.6% | +2.4% | +31.2% | 26 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $6.08 | +33.9% | +33.3% | +3.8% |  | 23 | live |

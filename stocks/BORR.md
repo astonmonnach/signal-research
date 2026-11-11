@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `event_incident` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $3.15 (2026-11-10, ledger) · 1d -2.0%, 5d -8.8%, 20d -34.3% (market context, 2026-11-10)
-- **Since first found:** **-36.0%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -36.6% vs IWM +0.3% = **-37.0 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $3.32 (2026-11-11, ledger) · 1d +4.6%, 5d -0.1%, 20d -28.9% (market context, 2026-11-11)
+- **Since first found:** **-32.7%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -33.3% vs IWM +1.5% = **-34.8 pts** vs IWM; direction 0, tracked only (29 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -8.8% vs peer median -9.2%). Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d -0.1% vs peer median +0.0%). Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (BORR (WATCH 12/10): peak +2.9% on 13 Oct (session 1), low -37.6% on 05 Nov, now -35.3%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (12/10 BORR $4.98 +2.9% 13 Oct (1) -3.6% -37.6% 5 Nov -35.3% -37.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (12/10 BORR director's $32M of buying $4.98 -35.3% -6.6% -28.8) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Borr Drilling Limited - Prospector 5 Rig Incident Update - November 2, 2026 (PR Newswire) ([release](https://www.prnewswire.com/news-releases/borr-drilling-limited---prospector-5-rig-incident-update---november-2-2026-302926066.html)) · Filings: `6-K` 2 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `6-K` 30 Oct
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **BORR**: the Prospector 5 rig sank off Gabon on 24 Oct during preload (punch-through). 5 of 115 people are missing. ([triage](../watch/digests/2026-10-26-triage.md)) · Press: Borr Drilling Limited - Prospector 5 Rig Incident Update (PR Newswire) ([release](https://www.prnewswire.com/news-releases/borr-drilling-limited---prospector-5-rig-incident-update-302919143.html)) · Logged as `event_incident` (direction 0): Prospector 5 rig sank off Gabon on 24 Oct during preload (punch-through), 5 of 115 missing; -10.0% Mon vs drillers +0.2-1.9%; insurance and contract effects not disclosed; tracked, no call; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `6-K` 26 Oct · Research: Research: Mon 26 Oct 2026 (- **BORR:**) ([note](../research/daily/2026-10-26.md))
@@ -37,6 +38,6 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.15 | -36.0% | -36.6% | +0.3% |  | 28 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.15 | -34.3% | -36.9% | +2.0% | -38.9% | 27 | live |
-| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.15 | -20.3% | -20.3% | +0.4% |  | 14 | live |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.32 | -32.7% | -33.3% | +1.5% |  | 29 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.32 | -30.8% | -33.6% | +3.2% | -36.8% | 28 | live |
+| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.32 | -16.2% | -16.2% | +1.5% |  | 15 | live |

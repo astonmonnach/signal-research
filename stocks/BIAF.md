@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $2.45 (2026-11-10, ledger)
-- **Since first found:** **-48.1%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -48.4% vs IWM +0.2% = **-48.6 pts** vs IWM; direction -1 → excess +48.6% (29 days)
+- **Latest price:** $2.32 (2026-11-11, ledger)
+- **Since first found:** **-50.9%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -51.2% vs IWM +1.3% = **-52.5 pts** vs IWM; direction -1 → excess +52.5% (30 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1712762/000149315226050540/form10-q.htm))
 - **[2026-11-04](../scans/2026-11-04.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): ATM up to $5.23M (~99% of non-affiliate shares); warrant vote 20 Nov; AVOID, public call #14; source: daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **BIAF**: ATM of up to $5.23M more, about 99% of the non-affiliate shares; warrant vote 20 Nov. AVOID, public call #14. ([triage](../watch/digests/2026-11-03-triage.md)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1712762/000149315226049806/0001493152-26-049806-index.htm)) · Research: Research: Tue 3 Nov 2026 (1. BIAF: an ATM that can sell about as many shares as outsiders own) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1712762/000149315226049637/0001493152-26-049637-index.htm))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for BIAF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $2.45 | -48.1% | -48.4% | +0.2% | +48.6% | 29 | live |
-| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $2.45 | -16.4% | -17.2% | -1.7% |  | 5 | live |
+| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $2.32 | -50.9% | -51.2% | +1.3% | +52.5% | 30 | live |
+| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $2.32 | -20.8% | -21.6% | -0.6% |  | 6 | live |

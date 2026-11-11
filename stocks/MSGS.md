@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $318.64 (2026-11-09, ledger)
-- **Since first found:** **+5.2%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +4.7% vs IWM +0.2% = **+4.5 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $316.48 (2026-11-10, ledger)
+- **Since first found:** **+4.5%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +3.9% vs IWM +1.3% = **+2.6 pts** vs IWM; direction 0, tracked only (29 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (MSGS (WATCH 10/10): peak +9.0% on 05 Nov (session 19), low -8.0% on 27 Oct, now +4.6%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (10/10 MSGS $304.49 +9.0% 5 Nov (19) -8.0% -8.0% 27 Oct +4.6% -4.0%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (10/10 MSGS Rangers spin-off $404.36 +4.6% +5.5% -0.9) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **MSGS** is now **MSGK** (MSG Knickerbockers) after the Rangers spin-off on 26 Oct. Watchlist renamed. ([triage](../watch/digests/2026-11-06-triage.md)) · Filings: `SCHEDULE 13G/A` ×2 6 Nov, `10-Q` 6 Nov, `8-K` 6 Nov · Research: Research: Fri 6 Nov 2026 (- **MSGS** is now **MSGK** (MSG Knickerbockers, after the Rangers spin-off). There's nothing on a sale ("We…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `4` 28 Oct
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **MSGS (now MSGK)**: records the completed spin-off (26 Oct), the NHL consent agreement and a one-time $10M cash "Distribution Award" to Dolan. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `8-K` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **Where the event has already happened, no gap closed:** NFJ's fund tender (-3.3), DBGI's go-shop with no…) ([note](../research/daily/2026-10-28.md))
@@ -36,4 +37,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $318.64 | +5.2% | +4.7% | +0.2% |  | 28 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $316.48 | +4.5% | +3.9% | +1.3% |  | 29 | live |

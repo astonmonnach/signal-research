@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $6.97 (2026-11-10, ledger)
-- **Since first found:** **-23.0%** (found 2026-10-23 via `insider_cluster` at $9.05). From the next open $9.10: -23.4% vs IWM +1.0% = **-24.4 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $7.00 (2026-11-11, ledger)
+- **Since first found:** **-22.6%** (found 2026-10-23 via `insider_cluster` at $9.05). From the next open $9.10: -23.1% vs IWM +2.2% = **-25.3 pts** vs IWM; direction 0, tracked only (16 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2020932/000144582626000018/0001445826-26-000018-index.htm))
 - **[2026-10-23](../scans/2026-10-23.md#new-setups)**: Logged as `insider_cluster` (direction 0): CEO, CFO and a director bought ~$400k after a -22% drop on 1 Oct; director's 21 Oct buy 22% of volume; TF1 fail; tracked; source: daily research 23 Oct (research/daily/2026-10-23.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 23 Oct 2026 (- **AGMB** (AgomAb): the chief executive, finance chief and a director bought about $400k after a 22% fall on…) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2020932/000144582626000015/0001445826-26-000015-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for AGMB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `insider_cluster` | 0 | +11.2% | -2.3% | $1.2M | $9.05 | $9.10 | $6.97 | -23.0% | -23.4% | +1.0% |  | 15 | live |
+| 2026-10-23 | `insider_cluster` | 0 | +11.2% | -2.3% | $1.2M | $9.05 | $9.10 | $7.00 | -22.6% | -23.1% | +2.2% |  | 16 | live |

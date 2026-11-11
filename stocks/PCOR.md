@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $74.80 (2026-11-10, ledger)
-- **Since first found:** **+37.5%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +38.4% vs IWM +0.2% = **+38.2 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $76.39 (2026-11-11, ledger)
+- **Since first found:** **+40.4%** (found 2026-10-06 via `deal_peer` at $54.39). From the next open $54.04: +41.4% vs IWM +1.4% = **+39.9 pts** vs IWM; direction 0, tracked only (35 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for PCOR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $74.80 | +37.5% | +38.4% | +0.2% |  | 34 | live |
+| 2026-10-06 | `deal_peer` | 0 | +10.4% | +0.4% | $143.7M | $54.39 | $54.04 | $76.39 | +40.4% | +41.4% | +1.4% |  | 35 | live |

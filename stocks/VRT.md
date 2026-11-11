@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $192.25 (2026-11-10, ledger)
-- **Since first found:** **-24.2%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -24.1% vs IWM -1.9% = **-22.1 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $205.06 (2026-11-11, ledger)
+- **Since first found:** **-19.1%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -19.0% vs IWM -0.8% = **-18.2 pts** vs IWM; direction 0, tracked only (36 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Vertiv and Infineon Deepen Strategic Partnership for Critical Power Infrastructure (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vertiv-and-infineon-deepen-strategic-partnership-for-critical-power-infrastructure-302928515.html)) · Research: Research: Wed 4 Nov 2026 (- TTMI -11% on 4 Nov, alongside the data-centre hardware sell-off (VRT, SANM, CLS).) ([note](../research/daily/2026-11-04.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -3.1%, found day +4.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm))
 - **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: Vertiv to Participate in Upcoming Investor Conference (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $192.25 | -24.2% | -24.1% | -1.9% |  | 35 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $192.25 | -7.8% | -20.9% | -0.5% |  | 13 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $205.06 | -19.1% | -19.0% | -0.8% |  | 36 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $205.06 | -1.7% | -15.6% | +0.7% |  | 14 | live |

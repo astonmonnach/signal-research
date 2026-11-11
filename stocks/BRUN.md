@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_resale` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $6.55 (2026-11-10, ledger)
-- **Since first found:** **-22.7%** (found 2026-10-20 via `registration_effective` at $8.47). From the next open $8.85: -26.0% vs IWM +0.8% = **-26.7 pts** vs IWM; direction -1 → excess +26.7% (20 days)
+- **Latest price:** $7.07 (2026-11-11, ledger)
+- **Since first found:** **-16.6%** (found 2026-10-20 via `registration_effective` at $8.47). From the next open $8.85: -20.2% vs IWM +1.9% = **-22.1 pts** vs IWM; direction -1 → excess +22.1% (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-11-09 BRUN +0.3 +11.3 -2.4 +10.0 n/a n/a n/a six-month lock-up ends (about 8 Nov, unless already…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-08](../scans/2026-11-08.md)**: Calendar: BRUN: six-month lock-up ends (about 8 Nov, unless already released by the $12 price trigger) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **BRUN** (Boost Run, $673M): an update to a resale S-1 for **58.7M shares, 1.25x the Class A count**. ([triage](../watch/digests/2026-10-21-triage.md)) · Logged as `supply_resale` (direction 0): resale S-1 update: 58.7M shares, 1.25x Class A; -63% since 17 Aug; AVOID; source: daily research 21 Oct (research/daily/2026-10-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 21 Oct 2026 (- 3. AVOID: BRUN (58.7M resale shares, 1.25x the class), TKNO (share sale launched after the close, -30%…) ([note](../research/daily/2026-10-21.md))
 - **[2026-10-20](../scans/2026-10-20.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -25.5%, found day -3.5%) ([filing](https://www.sec.gov/Archives/edgar/data/2090646/999999999526003288/9999999995-26-003288-index.htm))
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for BRUN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `registration_effective` | -1 | -25.5% | -3.5% | $39.7M | $8.47 | $8.85 | $6.55 | -22.7% | -26.0% | +0.8% | +26.7% | 20 | live |
-| 2026-10-21 | `supply_resale` | 0 | -26.2% | -0.8% | $40.3M | $8.40 | $8.14 | $6.55 | -22.0% | -19.5% | +1.5% |  | 19 | live |
+| 2026-10-20 | `registration_effective` | -1 | -25.5% | -3.5% | $39.7M | $8.47 | $8.85 | $7.07 | -16.6% | -20.2% | +1.9% | +22.1% | 21 | live |
+| 2026-10-21 | `supply_resale` | 0 | -26.2% | -0.8% | $40.3M | $8.40 | $8.14 | $7.07 | -15.9% | -13.2% | +2.7% |  | 20 | live |

@@ -88,11 +88,13 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $8.01 (2026-11-10, ledger) · 1d -1.1%, 5d -4.0%, 20d +8.7% (market context, 2026-11-10)
-- **Since first found:** **+14.9%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +15.2% vs IWM -0.5% = **+15.7 pts** vs IWM; direction +1 → excess +15.7% (42 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $8.06 (2026-11-11, ledger) · 1d +0.1%, 5d -4.8%, 20d +8.9% (market context, 2026-11-11)
+- **Since first found:** **+15.6%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.0% vs IWM +0.7% = **+15.3 pts** vs IWM; direction +1 → excess +15.3% (43 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
+  - Fri 4 Dec 2026: WHF: $10M 5.375% notes due (T003; no refinancing announced yet)
+  - Tue 15 Dec 2026: WHF: $75M 4.000% notes due (T003)
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -100,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **WHF** /: NAV $11.82 (from $11.77), non-accruals down to $8.1M at fair value, $0.25 held. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (WHF (WATCH 05/10): peak +23.5% on 06 Nov (session 24), low -3.4% on 07 Oct, now +17.2%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Reaction so far:** none in regular hours. 5 Nov to 9 Nov: CCAP -2.2%, against IWM +4.3%, the BDC ETF BIZD…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 WHF $6.91 +23.5% 6 Nov (24) -3.4% -3.4% 7 Oct +17.2% -5.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 WHF BDC sale review, below NAV $7.06 +17.2% -2.9% +20.1) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: WhiteHorse Finance, Inc. Announces Third Quarter 2026 Earnings Results and Declares Quarterly Distribution of… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-third-quarter-2026-earnings-results-and-declares-quarterly-distribution-of-0-25-per-share-302933316.html)) · Calendar: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-30](../scans/2026-10-30.md)**: Calendar: WHF: record date for the $0.17 special distribution (paid 10 Dec) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- WHF: +16.2 vs IWM. A business development company (BDC) 41% below its June NAV, with notes maturing in…) ([note](../research/daily/2026-10-28.md))
@@ -115,4 +118,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.01 | +14.9% | +15.2% | -0.5% | +15.7% | 42 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.06 | +15.6% | +16.0% | +0.7% | +15.3% | 43 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $315.48 (2026-11-10, market context) · 1d -1.0%, 5d +0.2%, 20d +3.7% (market context, 2026-11-10)
-- **Since first found:** not in the ledger
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -0.6%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $316.30 (2026-11-11, ledger) · 1d +0.5%, 5d -2.1%, 20d +4.5% (market context, 2026-11-11)
+- **Since first found:** **+1.6%** (found 2026-11-06 via `8k_spin_off` at $311.22). From the next open $312.01: +1.4% vs IWM +1.7% = **-0.3 pts** vs IWM; direction 0, tracked only (2 days)
+- **Peers / sympathy:** no flag (self 5d -2.1% vs peer median +0.0%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,11 +17,16 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **MSGS** is now **MSGK** (MSG Knickerbockers) after the Rangers spin-off on 26 Oct. Watchlist renamed. ([triage](../watch/digests/2026-11-06-triage.md)) · Research: Research: Fri 6 Nov 2026 (- **MSGS** is now **MSGK** (MSG Knickerbockers, after the Rangers spin-off). There's nothing on a sale ("We…) ([note](../research/daily/2026-11-06.md))
+- **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **MSGK** 8-K/10-Q (6 Nov): first results after the spin; buyback reauthorised ($184.6M left). T. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `SCHEDULE 13G/A` ×2 6 Nov, `10-Q` 6 Nov, `8-K` 6 Nov; +32 older (May – Oct 2026) first picked up · Research: Every event, at its actual time (2026-10-26 MSGS +0.4 +1.1 -1.4 -1.1 +4.4 +2.6 +6.9 Rangers spin-off effective; MSGS becomes MSGK) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Options record:** MSGK annual meeting (8 Dec): **smaller** (routine meeting, results already out). Three…) ([note](../research/daily/2026-11-10.md))
+- **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **MSGS** is now **MSGK** (MSG Knickerbockers) after the Rangers spin-off on 26 Oct. Watchlist renamed. ([triage](../watch/digests/2026-11-06-triage.md)) · Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before +2.3%, found day -1.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1636519/000162828026071321/msgknickerbockerscorpex991.htm)) · Research: Research: Fri 6 Nov 2026 (- **MSGS** is now **MSGK** (MSG Knickerbockers, after the Rangers spin-off). There's nothing on a sale ("We…) ([note](../research/daily/2026-11-06.md))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **MSGS (now MSGK)**: records the completed spin-off (26 Oct), the NHL consent agreement and a one-time $10M cash "Distribution Award" to Dolan. ([triage](../watch/digests/2026-10-28-triage.md))
 - **[2026-10-26](../scans/2026-10-26.md)**: Calendar: MSGS: Rangers spin-off effective; MSGS becomes MSGK ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-10](../scans/2026-10-10.md)**: Research: Research: Sat 10 Oct 2026 (- The Rangers company lists on the NYSE as **MSGR**. MSG Sports keeps the Knicks, renames itself MSG…) ([note](../research/daily/2026-10-10.md))
 
 ## Performance since found
 
-_Not in the ledger yet._
+Every [ledger](../ledger/LEDGER.md) row for MSGK ([rules](../ledger/RULES.md)): found = close on the day it was found; entry = next session's open; IWM over the same entry → now window; excess = direction × (return − IWM).
+
+| found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-06 | `8k_spin_off` | 0 | +2.3% | -1.9% | $145.3M | $311.22 | $312.01 | $316.30 | +1.6% | +1.4% | +1.7% |  | 2 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $25.63 (2026-11-10, ledger)
-- **Since first found:** **-14.6%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -12.8% vs IWM +1.2% = **-14.1 pts** vs IWM; direction 0, tracked only (25 days)
+- **Latest price:** $26.21 (2026-11-11, ledger)
+- **Since first found:** **-12.7%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -10.8% vs IWM +2.4% = **-13.3 pts** vs IWM; direction 0, tracked only (26 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for OKLO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $25.63 | -14.6% | -12.8% | +1.2% |  | 25 | live |
+| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $26.21 | -12.7% | -10.8% | +2.4% |  | 26 | live |

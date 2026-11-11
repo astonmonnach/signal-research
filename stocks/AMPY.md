@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $3.42 (2026-11-10, ledger)
-- **Since first found:** **-21.1%** (found 2026-10-14 via `linked_peer` at $4.34). From the next open $4.34: -21.1% vs IWM +2.8% = **-23.8 pts** vs IWM; direction 0, tracked only (26 days)
+- **Latest price:** $3.73 (2026-11-11, ledger)
+- **Since first found:** **-13.9%** (found 2026-10-14 via `linked_peer` at $4.34). From the next open $4.34: -13.9% vs IWM +4.0% = **-17.9 pts** vs IWM; direction 0, tracked only (27 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -22.0%, found day -3.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1533924/000110465926124492/ampy-20261109x8k.htm))
 - **[2026-10-14](../scans/2026-10-14.md#new-setups)**: Logged as `linked_peer` (direction 0): PED peer (small oil producer): +0.7% from 8 to 13 Oct vs PED +2.9%; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **Reaction** (closes;,,,,,, ):) ([note](../research/daily/2026-10-14.md))
 
 ## Performance since found
@@ -24,4 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for AMPY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | +2.9% | -5.9% | $2.1M | $4.34 | $4.34 | $3.42 | -21.1% | -21.1% | +2.8% |  | 26 | live |
+| 2026-10-14 | `linked_peer` | 0 | +2.9% | -5.9% | $2.1M | $4.34 | $4.34 | $3.73 | -13.9% | -13.9% | +4.0% |  | 27 | live |
+| 2026-11-09 | `8k_strategic_review` | +1 | -22.0% | -3.9% | $2.5M | $3.20 | $3.63 | $3.73 | +16.7% | +2.9% | +0.9% | +2.0% | 1 | live |

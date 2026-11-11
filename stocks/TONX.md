@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $3.05 (2026-11-10, ledger)
-- **Since first found:** **-9.0%** (found 2026-10-28 via `activist_13d` at $3.35). From the next open $3.30: -7.6% vs IWM -1.2% = **-6.3 pts** vs IWM; direction 0, tracked only (12 days)
+- **Latest price:** $3.69 (2026-11-11, ledger)
+- **Since first found:** **+10.2%** (found 2026-10-28 via `activist_13d` at $3.35). From the next open $3.30: +11.8% vs IWM -0.1% = **+11.9 pts** vs IWM; direction 0, tracked only (13 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for TONX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `activist_13d` | 0 | +15.8% | +1.8% | $608k | $3.35 | $3.30 | $3.05 | -9.0% | -7.6% | -1.2% |  | 12 | live |
+| 2026-10-28 | `activist_13d` | 0 | +15.8% | +1.8% | $608k | $3.35 | $3.30 | $3.69 | +10.2% | +11.8% | -0.1% |  | 13 | live |

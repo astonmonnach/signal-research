@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep))
-- **Latest price:** $12.10 (2026-11-10, ledger) · 1d -0.2%, 5d +1.8%, 20d -9.5% (market context, 2026-11-10)
-- **Since first found:** **+618.8%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +618.4% vs IWM -0.4% = **+618.8 pts** vs IWM; direction 0, tracked only (41 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $12.02 (2026-11-11, ledger) · 1d -1.4%, 5d -2.1%, 20d -10.4% (market context, 2026-11-11)
+- **Since first found:** **+616.5%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +616.1% vs IWM +0.7% = **+615.4 pts** vs IWM; direction 0, tracked only (42 days). Includes +1.0 VYLR (spin)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.8% vs peer median +3.5%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (self 5d -2.1% vs peer median +1.7%). Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,6 +101,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (CTVA (WATCH 05/10): peak +11.8% on 07 Oct (session 2), low -14.0% on 28 Oct, now -7.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 CTVA $13.08 +11.8% 7 Oct (2) -1.8% -14.0% 28 Oct -7.4% -17.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 CTVA spin-off $13.08 -7.4% -2.9% -4.5) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 6 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 5 Nov, `SCHEDULE 13G/A` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` ×3 3 Nov
@@ -123,7 +124,7 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.10 | +618.8% | +618.4% | -0.4% |  | 41 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.10 | -2.3% | -7.5% | -1.9% |  | 35 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $12.02 | +616.5% | +616.1% | +0.7% |  | 42 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $12.02 | -3.0% | -8.1% | -0.8% |  | 36 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

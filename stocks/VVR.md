@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $2.89 (2026-11-10, ledger) · 1d -0.3%, 5d +2.5%, 20d +0.4% (market context, 2026-11-10)
-- **Since first found:** **+1.1%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: +1.8% vs IWM -1.7% = **+3.5 pts** vs IWM; direction +1 → excess +3.5% (5 days)
+- **Latest price:** $2.88 (2026-11-11, ledger) · 1d -0.5%, 5d +0.5%, 20d +0.9% (market context, 2026-11-11)
+- **Since first found:** **+0.5%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: +1.2% vs IWM -0.6% = **+1.8 pts** vs IWM; direction +1 → excess +1.8% (6 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 2 Mar 2027: VVR: Rule 14a-8 proposal deadline for the 2027 meeting (Saba 13D, T022)
   - Thu 6 May 2027: VVR: advance-notice window for nominations closes (T022 deadline)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (VVR (WATCH 05/11): peak +1.4% on 06 Nov (session 1), low -0.3% on 06 Nov, now +1.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **What we don't know:** the 10b5-1 plans' price limits and pace are not disclosed, and "up to" is not a…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/11 VVR $2.86 +1.4% 6 Nov (1) -0.3% -0.3% 6 Nov +1.4% 0.0%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/11 VVR Saba 13D at a 12.5% discount $2.86 +1.4% +3.4% -2.0) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **VVR, correction:** Saba ran a full campaign at VVR in 2019, which ended in a 15% tender at 98.5% of NAV. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `activist_13d` (direction 0): CORRECTION: Saba 2019 campaign ended in a 15% tender at 98.5% NAV (25.7% proration); repeat adds ~2.8%, below costs; downgraded to TRACKED (T022); source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `SCHEDULE 13D` 4 Nov; +6 older (Feb – Jul 2026) first picked up · Research: Research: Fri 6 Nov 2026 (1. VVR: Saba has done this before, and the precedent pays little) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **VVR** (Invesco Senior Income Trust): new Saba 13D at 5.18%, about $23.06M bought in the open market from 4 Sep to 3 Nov. ([triage](../watch/digests/2026-11-05-triage.md)) · Logged as `activist_13d` (direction 0): Saba 5.18% new 13D ($23.06M open market); 12.5% below NAV; WATCH T022; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (1. VVR: Saba buys 5% of a loan fund at a 12.5% discount) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -1.1%, found day +1.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1059386/000106299326005733/0001062993-26-005733-index.htm))
@@ -29,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for VVR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.89 | +1.1% | +1.8% | -1.7% | +3.5% | 5 | live |
-| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.89 | +1.4% | +1.1% | +2.6% |  | 4 | live |
-| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.89 | -0.3% | +0.0% | +0.5% |  | 1 | live |
+| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.88 | +0.5% | +1.2% | -0.6% | +1.8% | 6 | live |
+| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.88 | +0.9% | +0.5% | +3.8% |  | 5 | live |
+| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.88 | -0.9% | -0.5% | +1.7% |  | 2 | live |

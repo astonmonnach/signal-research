@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $7.71 (2026-11-10, ledger)
-- **Since first found:** **-34.1%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -33.5% vs IWM +2.7% = **-36.3 pts** vs IWM; direction -1 → excess +36.3% (21 days)
+- **Latest price:** $8.15 (2026-11-11, ledger)
+- **Since first found:** **-30.3%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -29.7% vs IWM +3.9% = **-33.7 pts** vs IWM; direction -1 → excess +33.7% (22 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-11-09 ENHA -1.4 +2.9 -5.4 +1.3 n/a n/a n/a six-month post-SPAC unlock, tradable float up ~52% (AVOID…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-09](../scans/2026-11-09.md)**: Calendar: ENHA: six-month post-SPAC unlock, tradable float up ~52% (AVOID register) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **ENHA:** a related-party PIPE and exchange create about 95.6% new shares, and a post-SPAC unlock on 9 Nov lifts the tradable float about 52%. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `setup_supply_resale` (direction 0): Related-party PIPE/exchange (95.6% new shares) and 9 Nov unlock; controlling holder, so register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split, lock-up" (reverse split) (5d before -38.7%, found day +14.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000162828026070679/enhaequitydeck-11526v15x.htm))
@@ -29,7 +30,7 @@ Every [ledger](../ledger/LEDGER.md) row for ENHA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $7.71 | -34.1% | -33.5% | +2.7% | +36.3% | 21 | live |
-| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $7.71 | +8.4% | +10.3% | -1.8% | -12.1% | 6 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $7.71 | -5.6% | -5.3% | +2.6% | +7.8% | 4 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $7.71 | -7.9% | -6.5% | +0.5% |  | 1 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $8.15 | -30.3% | -29.7% | +3.9% | +33.7% | 22 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $8.15 | +14.7% | +16.6% | -0.7% | -17.3% | 7 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $8.15 | -0.2% | +0.1% | +3.8% | +3.6% | 5 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $8.15 | -2.6% | -1.2% | +1.7% |  | 2 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.96 (2026-11-10, ledger)
-- **Since first found:** **-7.5%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -8.8% vs IWM +1.0% = **-9.8 pts** vs IWM; direction -1 → excess +9.8% (15 days)
+- **Latest price:** $1.87 (2026-11-11, ledger)
+- **Since first found:** **-12.0%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -13.3% vs IWM +2.2% = **-15.4 pts** vs IWM; direction -1 → excess +15.4% (16 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/2087398/000110465926124493/tm2629281d1_ex99-1.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **TMCR** (takeable, $0.24M/day): $100M Yorkville equity line (35%) plus free consideration shares. **AVOID, public call #4.** ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_eloc` (direction 0): F-1s effective 22 Oct: $100M Yorkville SEPA (23.6M sh, 35% of 67.4M) at 96% plus 4.37M free consideration shares; AVOID, public call #4; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (**Headline:** The first public AVOID calls. Four stocks you could actually buy (DFNS, NCT, TMCR, OSTX)…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -3.5%, found day -3.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2087398/999999999526003319/9999999995-26-003319-index.htm))
 - **[2026-09-29](../scans/2026-09-29.md)**: Research: Dated-catalyst scan: 2026-09-29 (window 30 Sep – 7 Oct 2026) (Near miss: TMCR direct-listing lockup releases 10% of 44.1M shares around 8 Oct.) ([note](../research/scans/2026-09-29-dated-catalysts.md))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for TMCR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.96 | -7.5% | -8.8% | +1.0% | +9.8% | 15 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.96 | -6.6% | -6.6% | +0.4% |  | 14 | live |
+| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.87 | -12.0% | -13.3% | +2.2% | +15.4% | 16 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.87 | -11.2% | -11.2% | +1.5% |  | 15 | live |

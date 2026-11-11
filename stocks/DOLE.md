@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $13.98 (2026-11-10, ledger) · 1d -0.1%, 5d +6.8%, 20d +3.8% (market context, 2026-11-10)
-- **Since first found:** **+4.0%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +4.5% vs IWM +1.0% = **+3.5 pts** vs IWM; direction 0, tracked only (15 days)
-- **Peers / sympathy:** solo_move: DOLE +6.8% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-10)
+- **Latest price:** $13.92 (2026-11-11, ledger) · 1d -1.2%, 5d +0.4%, 20d +3.1% (market context, 2026-11-11)
+- **Since first found:** **+3.6%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +4.0% vs IWM +2.2% = **+1.9 pts** vs IWM; direction 0, tracked only (16 days)
+- **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -2.3%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#watchlist-filings)**: Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (DOLE (WATCH 23/10): peak +7.9% on 09 Nov (session 11), low -3.3% on 30 Oct, now +4.5%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (23/10 DOLE $13.38 +7.9% 9 Nov (11) -3.3% -3.3% 30 Oct +4.5% -3.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (23/10 DOLE Pale Fire buying a fifth $13.38 +4.5% +1.6% +2.9) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **COUR:** Pale Fire (the DOLE and Groupon group) bought 8,355,251 shares on 3-5 Nov for $31.45M on a passive 13G. Tracked. ([triage](../watch/digests/2026-11-06-triage.md)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **DOLE**: Pale Fire bought 986,557 more shares on 2-4 Nov (code P, about $12.9M) and now holds 11.9%; Item 4 unchanged. ([triage](../watch/digests/2026-11-05-triage.md)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1857475/000092189526002935/0000921895-26-002935-index.htm)) · Filings: `SCHEDULE 13D/A` 5 Nov, `4` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **DOLE (T013):** Pale Fire bought 986,557 more shares (code P) on 2-4 Nov and holds "approximately 11.9%".…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1857475/000092189526002932/0000921895-26-002932-index.htm))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for DOLE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $13.98 | +4.0% | +4.5% | +1.0% |  | 15 | live |
+| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $13.92 | +3.6% | +4.0% | +2.2% |  | 16 | live |

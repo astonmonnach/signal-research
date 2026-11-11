@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $10.28 (2026-11-10, ledger)
-- **Since first found:** **+0.2%** (found 2026-10-27 via `8k_merger_agreement` at $10.26). From the next open $10.25: +0.3% vs IWM -0.5% = **+0.8 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $10.30 (2026-11-11, ledger)
+- **Since first found:** **+0.4%** (found 2026-10-27 via `8k_merger_agreement` at $10.26). From the next open $10.25: +0.5% vs IWM +0.7% = **-0.2 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-11-05 MFIC +0.2 +0.7 -1.5 -0.6 -0.7 -0.6 n/a Q3 results and final 30 Sep NAV (ARCC merger pending)) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +0.9%, found day -0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1278752/000119312526448373/d140597dex991.htm)) · Calendar: MFIC: Q3 results and final 30 Sep NAV (ARCC merger pending) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `merger_arb` (direction 0): ARCC deal $10.88 headline, about $10.45 at market (ARCC shares counted at NAV, ARCC at 95.6% of NAV); 1.9% spread; needs a majority of outstanding shares; 85% of NAV; tracked, no call; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **MFIC:** Ares Capital's $10.88 headline is worth about $10.45, because the ARCC shares are counted at NAV…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#press-releases)**: Press: Ares Capital Corporation Agrees to Acquire MidCap Financial Investment Corporation (Business Wire) ([release](http://www.businesswire.com/news/home/20261026200792/en/Ares-Capital-Corporation-Agrees-to-Acquire-MidCap-Financial-Investment-Corporation/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split, special dividend, tender offer" (8k merger agreement) (5d before +1.7%, found day +22.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1278752/000119312526432622/d115048d8k.htm))
@@ -27,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for MFIC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `8k_merger_agreement` | 0 | +1.7% | +22.7% | $8.5M | $10.26 | $10.25 | $10.28 | +0.2% | +0.3% | -0.5% |  | 13 | live |
-| 2026-10-28 | `merger_arb` | 0 | +24.2% | -0.2% | $10.0M | $10.24 | $10.23 | $10.28 | +0.4% | +0.5% | -1.2% |  | 12 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | +0.9% | -0.6% | $14.1M | $10.27 | $10.28 | $10.28 | +0.1% | +0.1% | +2.6% | +2.5% | 4 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | +1.7% | +22.7% | $8.5M | $10.26 | $10.25 | $10.30 | +0.4% | +0.5% | +0.7% |  | 14 | live |
+| 2026-10-28 | `merger_arb` | 0 | +24.2% | -0.2% | $10.0M | $10.24 | $10.23 | $10.30 | +0.6% | +0.7% | -0.1% |  | 13 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | +0.9% | -0.6% | $14.1M | $10.27 | $10.28 | $10.30 | +0.3% | +0.2% | +3.8% | +3.6% | 5 | live |
