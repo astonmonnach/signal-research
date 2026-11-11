@@ -1,42 +1,26 @@
 [
  {
-  "published_utc": "2026-11-10T22:15:00Z",
+  "published_utc": "2026-11-11T04:45:00Z",
+  "wire": "Business Wire",
+  "ticker": "IMXI;WU",
+  "title": "Western Union Announces Termination of Agreement to Acquire Intermex",
+  "link": "http://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "manual_call;keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-11T03:39:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "NNDM",
-  "title": "Nano Dimension Announces 2026 Annual General Meeting (AGM) of Shareholders",
-  "link": "https://www.globenewswire.com/news-release/2026/11/10/3400319/0/en/nano-dimension-announces-2026-annual-general-meeting-agm-of-shareholders.html",
+  "ticker": "STIM",
+  "title": "Neuronetics Announces Pricing of $30 Million Underwritten Public Offering of Common Stock",
+  "link": "https://www.globenewswire.com/news-release/2026/11/11/3400430/0/en/neuronetics-announces-pricing-of-30-million-underwritten-public-offering-of-common-stock.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-10T21:49:00Z",
-  "wire": "PR Newswire",
-  "ticker": "LEU",
-  "title": "Centrus Energy Appoints Kevin Graney to Board of Directors",
-  "link": "https://www.prnewswire.com/news-releases/centrus-energy-appoints-kevin-graney-to-board-of-directors-302935615.html",
+  "published_utc": "2026-11-11T02:31:00Z",
+  "wire": "Business Wire",
+  "ticker": "IBRX",
+  "title": "ImmunityBio to Participate in UK Investor Conferences During London Life Sciences Week 2026",
+  "link": "http://www.businesswire.com/news/home/20261110032259/en/ImmunityBio-to-Participate-in-UK-Investor-Conferences-During-London-Life-Sciences-Week-2026/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
   "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-10T22:38:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "DDI",
-  "title": "DoubleU Games Commences All-Cash Tender Offer for All ADSs of DoubleDown Interactive at US$16.25 Per ADS",
-  "link": "https://www.globenewswire.com/news-release/2026/11/10/3400356/0/en/doubleu-games-commences-all-cash-tender-offer-for-all-adss-of-doubledown-interactive-at-us-16-25-per-ads.html",
-  "matched_on": "keyword:tender offer"
- },
- {
-  "published_utc": "2026-11-10T22:15:00Z",
-  "wire": "Business Wire",
-  "ticker": "RLYB",
-  "title": "Rallybio Announces Reverse Stock Split of Common Stock in Connection with the Proposed Merger with Avenzo",
-  "link": "http://www.businesswire.com/news/home/20261108364985/en/Rallybio-Announces-Reverse-Stock-Split-of-Common-Stock-in-Connection-with-the-Proposed-Merger-with-Avenzo/?feedref=JjAwJuNHiystnCoBq_hl-YN6jh2YIt48IJ80PBTZst6qcp-o_pnudlUwsb5apQ1S4gUE65BTfjH3-pSuqdv0gW3cb3F4oTIgUqCPafFkgu5aCD-FAO6Y4EA4btlz6J4c",
-  "matched_on": "keyword:merger agreement"
- },
- {
-  "published_utc": "2026-11-10T22:02:00Z",
-  "wire": "Business Wire",
-  "ticker": "GGG",
-  "title": "Graco Announces $600 Million Accelerated Share Repurchase Agreement",
-  "link": "http://www.businesswire.com/news/home/20261110827561/en/Graco-Announces-600-Million-Accelerated-Share-Repurchase-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:share repurchase"
  }
 ]
