@@ -723,7 +723,7 @@ def insider_buys(form4, tickers, relevant, day):
         except (TypeError, ValueError):
             return None
 
-    buys, people, failed, not_market, seen_tx = [], defaultdict(set), 0, 0, {}
+    buys, people, failed, not_market, seen_tx, net_sellers = [], defaultdict(set), 0, 0, {}, 0
     for acc, path in list(form4.items())[:FORM4_CAP]:
         try:   # the ownership XML sits inside the filing's text file, between <XML> tags
             text = get("https://www.sec.gov/Archives/" + path).decode("utf-8", "ignore")
@@ -764,6 +764,13 @@ def insider_buys(form4, tickers, relevant, day):
             last = max(last, (t.findtext("transactionDate/value") or "").strip()[:10])
         if not shares:
             continue
+        # Sales on other days in the same form are netted too (MX, Form 4 of 10 Nov 2026: sold 378,252 on 6 Nov, bought
+        # 268,009 on 6 Nov and 300,000 on 9 Nov; the line said "bought 300,000", the net was +189,757).
+        left = sum(v for v in sold.values() if v > 0)
+        if left >= shares:
+            net_sellers += 1
+            continue
+        net_value = value * (shares - left) / shares   # the cluster test uses the net buy; the line keeps the gross price
         who = []
         for o in doc.findall("reportingOwner"):
             r = o.find("reportingOwnerRelationship")
@@ -783,13 +790,14 @@ def insider_buys(form4, tickers, relevant, day):
         tx = (issuer, last, shares, round(avg or 0, 4))
         twin = seen_tx.get(tx)
         seen_tx.setdefault(tx, acc)
-        if (value >= CLUSTER_MIN_USD or not priced) and not twin:   # tiny plan-style buys ($100 of stock) don't make a cluster (rule 2026-10-19)
+        if (net_value >= CLUSTER_MIN_USD or not priced) and not twin:   # tiny plan-style buys ($100 of stock) don't make a cluster (rule 2026-10-19)
             people[symbols([issuer], tickers)].add((quote(doc.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or acc, 60).upper(), last or str(day)))
         cost = "with no price in the form (usually a private deal, not a market buy: read the footnotes)"   # NFE, 15 Sep 2026
         if avg:
             cost = (f"at ${avg:,.2f}" if avg >= 1 else f"at ${avg:,.4f}") + f" = ${value:,.0f}" + (" (part of it unpriced)" if priced < shares else "")
         buys.append((-value, f"- **{symbols([issuer], tickers)}** {' + '.join(who[:3])}{f' + {len(who) - 3} more' if len(who) > 3 else ''} "
                              f"bought {shares:,.0f} shares {cost}{f' on {last}' if last else ''} `4` [Form 4]({index_url(path)})"
+                             + (f" _(the same form also sold {left:,.0f} more shares: net {shares - left:+,.0f})_" if left else "")
                              + (" _(same purchase as another Form 4 today: a joint holding, one buyer)_" if twin else "")))
     lines = [line for _, line in sorted(buys)]
     if lines:
@@ -818,6 +826,8 @@ def insider_buys(form4, tickers, relevant, day):
     if not_market:
         lines.append(f"- _Not counted as buys: {not_market} code-P row{'' if not_market == 1 else 's'} bought in an offering or from the company, "
                      f"by dividend reinvestment, or not in common stock (rule 2026-11-10)._")
+    if net_sellers:
+        lines.append(f"- _Not counted as buys: {net_sellers} Form 4{'' if net_sellers == 1 else 's'} that sold at least as many shares as they bought (rule 2026-11-11)._")
     if len(form4) > FORM4_CAP:
         lines.append(f"- _Form 4 cap hit: opened {FORM4_CAP} of the {len(form4)} filed for relevant companies; the rest were not read._")
     if failed:

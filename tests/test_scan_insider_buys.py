@@ -9,13 +9,14 @@ import scan_market  # noqa: E402
 
 
 def form4(owner, rows, notes=""):
+    rows = [r if len(r) == 6 else (*r, "2026-11-06") for r in rows]   # optional 6th item: the transaction date
     body = "".join(f"""<nonDerivativeTransaction><securityTitle><value>{title}</value></securityTitle>
-      <transactionDate><value>2026-11-06</value></transactionDate>
+      <transactionDate><value>{day}</value></transactionDate>
       <transactionCoding><transactionCode>{code}</transactionCode></transactionCoding>
       <transactionAmounts><transactionShares><value>{n}</value></transactionShares>
       <transactionPricePerShare><value>{px}</value>{'<footnoteId id="F1"/>' if notes else ''}</transactionPricePerShare>
       <transactionAcquiredDisposedCode><value>{ad}</value></transactionAcquiredDisposedCode></transactionAmounts>
-      </nonDerivativeTransaction>""" for title, code, n, px, ad in rows)
+      </nonDerivativeTransaction>""" for title, code, n, px, ad, day in rows)
     xml = f"""<ownershipDocument><issuer><issuerCik>0000000123</issuerCik></issuer>
       <reportingOwner><reportingOwnerId><rptOwnerName>{owner}</rptOwnerName></reportingOwnerId>
       <reportingOwnerRelationship><isDirector>1</isDirector></reportingOwnerRelationship></reportingOwner>
@@ -59,6 +60,23 @@ def test_one_joint_purchase_filed_twice_is_one_buyer(monkeypatch, tmp_path):
 def test_gift_bought_back_the_same_day_is_not_a_buy(monkeypatch, tmp_path):
     lines = run(monkeypatch, [form4("LAKE DIRECTOR", [("Common Stock", "G", 1918, 0, "D"), ("Common Stock", "P", 1918, 61.0, "A")])], tmp_path)
     assert not any(line.startswith("- **") for line in lines)
+
+
+def test_sale_on_another_day_in_the_same_form_is_netted(monkeypatch, tmp_path):
+    """Rule 2026-11-11 (MX): sold 378,252 on 6 Nov, bought 268,009 on 6 Nov and 300,000 on 9 Nov = net +189,757."""
+    lines = run(monkeypatch, [form4("AMORUSO", [("Common Stock", "S", 378252, 2.2225, "D", "2026-11-06"),
+                                                ("Common Stock", "P", 268009, 2.3586, "A", "2026-11-06"),
+                                                ("Common Stock", "P", 300000, 2.4634, "A", "2026-11-09")])], tmp_path)
+    buy = [line for line in lines if line.startswith("- **")]
+    assert len(buy) == 1 and "also sold 110,243 more shares: net +189,757" in buy[0]
+    assert "bought 300,000 shares at $2.46 = $739,020" in buy[0]   # the gross line keeps the real price
+
+
+def test_net_seller_is_not_a_buy(monkeypatch, tmp_path):
+    lines = run(monkeypatch, [form4("SELLER", [("Common Stock", "S", 50000, 10.0, "D", "2026-11-05"),
+                                               ("Common Stock", "P", 1000, 10.0, "A", "2026-11-06")])], tmp_path)
+    assert not any(line.startswith("- **") for line in lines)
+    assert any("1 Form 4 that sold at least as many shares as they bought" in line for line in lines)
 
 
 def test_security_titles():
