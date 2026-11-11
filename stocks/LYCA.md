@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $33.41 (2026-11-11, ledger)
-- **Since first found:** **+11.4%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +40.8% vs IWM +2.4% = **+38.4 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $33.33 (2026-11-11, ledger) · 1d +6.5%, 5d +15.3%, 20d  (market context, 2026-11-11)
+- **Since first found:** **+11.1%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +40.5% vs IWM +2.4% = **+38.0 pts** vs IWM; direction 0, tracked only (16 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** solo_move: LYCA +15.3% 5d vs peer median -3.6%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+  - warning: only 14 daily bars (new listing?)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Lycia Therapeutics to Present at the 2026 Jefferies Global Healthcare Conference (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400618/0/en/lycia-therapeutics-to-present-at-the-2026-jefferies-global-healthcare-conference.html))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001536/0001231919-26-001536-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001519/0001231919-26-001519-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `linked_peer` (direction 0): ARTV -> Venrock Healthcare Capital Partners (13G holder in both) -> LYCA; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **Linked names:** ALLO, CABA, FATE, IBRX, KYTX, NKTX, SANA (named competitors in the 10-K) and LYCA (ARTV…) ([note](../research/daily/2026-10-28.md))
@@ -30,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for LYCA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $33.41 | +11.4% | +40.8% | +2.4% |  | 16 | live |
-| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $33.41 | +11.4% | +40.8% | +2.4% | -38.4% | 16 | live |
-| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $33.41 | +33.4% | +32.3% | +0.1% |  | 13 | live |
+| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $33.33 | +11.1% | +40.5% | +2.4% |  | 16 | live |
+| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $33.33 | +11.1% | +40.5% | +2.4% | -38.0% | 16 | live |
+| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $33.33 | +33.1% | +32.0% | +0.2% |  | 13 | live |

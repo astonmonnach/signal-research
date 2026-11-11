@@ -94,10 +94,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $109.70 (2026-11-11, ledger) · 1d +6.5%, 5d +11.3%, 20d -30.4% (market context, 2026-11-11)
-- **Since first found:** **-34.3%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -34.5% vs IWM +2.0% = **-36.4 pts** vs IWM; direction 0, tracked only (41 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $110.04 (2026-11-11, ledger) · 1d +6.4%, 5d +11.2%, 20d -30.5% (market context, 2026-11-11)
+- **Since first found:** **-34.1%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -34.3% vs IWM +2.0% = **-36.3 pts** vs IWM; direction 0, tracked only (41 days). Includes +0.44619 THRM (spin)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MOD +11.3% 5d vs peer median +2.9%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** solo_move: MOD +11.2% 5d vs peer median +3.0%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: MOD Investor Day (continuing business outlook)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -106,6 +106,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Production of Airedale® Chillers for Data Center Customers Begins at New Texas Facility (PR Newswire) ([release](https://www.prnewswire.com/news-releases/production-of-airedale-chillers-for-data-center-customers-begins-at-new-texas-facility-302935612.html))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (MOD (WATCH 05/10): peak +3.3% on 06 Oct (session 1), low -53.3% on 05 Nov, now -43.5%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 MOD $188.00 +3.3% 6 Oct (1) -1.8% -53.3% 5 Nov -43.5% -45.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#triage-notes)**: Triage: **MOD**: T002 cancelled (Data Centers margin 19.7%). Dropped. ([triage](../watch/digests/2026-11-04-triage.md)) · Filings: `10-Q` 4 Nov, `8-K` 3 Nov · Research: Research: Wed 4 Nov 2026 (- **MOD (WATCH, T002):** failed. Data Centers had a "gross margin of 19.7 percent, which was 470 basis points…) ([note](../research/daily/2026-11-04.md))
@@ -130,9 +131,9 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $109.70 | -34.3% | -34.5% | +2.0% |  | 41 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $109.70 | -40.0% | -41.6% | -0.6% |  | 36 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $109.70 | -42.1% | -40.9% | +2.4% |  | 34 | live |
-| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $109.70 | -12.6% | -5.0% | -0.5% |  | 7 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $110.04 | -34.1% | -34.3% | +2.0% |  | 41 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $110.04 | -39.8% | -41.5% | -0.5% |  | 36 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $110.04 | -41.9% | -40.7% | +2.4% |  | 34 | live |
+| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $110.04 | -12.3% | -4.7% | -0.5% |  | 7 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._

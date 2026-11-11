@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `below_cash` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $1.36 (2026-11-11, ledger)
-- **Since first found:** **+2.6%** (found 2026-11-06 via `below_cash` at $1.32). From the next open $1.32: +2.6% vs IWM +1.9% = **+0.7 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $1.35 (2026-11-11, ledger)
+- **Since first found:** **+2.3%** (found 2026-11-06 via `below_cash` at $1.32). From the next open $1.32: +2.3% vs IWM +2.0% = **+0.3 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for NNDM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `below_cash` | 0 | -9.7% | +5.2% | $1.8M | $1.32 | $1.32 | $1.36 | +2.6% | +2.6% | +1.9% |  | 2 | live |
+| 2026-11-06 | `below_cash` | 0 | -9.7% | +5.2% | $1.8M | $1.32 | $1.32 | $1.35 | +2.3% | +2.3% | +2.0% |  | 2 | live |

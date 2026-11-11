@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.35 (2026-11-11, ledger)
-- **Since first found:** **-21.5%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -22.4% vs IWM +0.1% = **-22.6 pts** vs IWM; direction 0, tracked only (13 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $1.37 (2026-11-11, ledger) · 1d +1.9%, 5d -20.5%, 20d -32.3% (market context, 2026-11-11)
+- **Since first found:** **-20.6%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -21.6% vs IWM +0.2% = **-21.7 pts** vs IWM; direction 0, tracked only (13 days)
+- **Peers / sympathy:** solo_move: NKTX -20.5% 5d vs peer median -1.8%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Nkarta Presents Initial Safety Data for NKX019 in 40 Patients Across Five Autoimmune Diseases at ACR… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400583/0/en/nkarta-presents-initial-safety-data-for-nkx019-in-40-patients-across-five-autoimmune-diseases-at-acr-convergence-2026.html))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Research: Tue 10 Nov 2026 (- **Linked names:** RA Capital (37.9%), GC Cell (12.3%, also the AlloNK licensor), Viking, Venrock, Leerink…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Nkarta to Host Webcast to Discuss Initial Clinical Data for NKX019 in Autoimmune Diseases at ACR Convergence… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/06/3397882/0/en/nkarta-to-host-webcast-to-discuss-initial-clinical-data-for-nkx019-in-autoimmune-diseases-at-acr-convergence-2026.html))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: Nkarta Reports Third Quarter 2026 Financial Results and Provides Business Update (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/05/3397171/0/en/nkarta-reports-third-quarter-2026-financial-results-and-provides-business-update.html))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for NKTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.35 | -21.5% | -22.4% | +0.1% |  | 13 | live |
+| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.37 | -20.6% | -21.6% | +0.2% |  | 13 | live |

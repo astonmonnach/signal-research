@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $26.36 (2026-11-11, ledger)
-- **Since first found:** **-12.2%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -10.3% vs IWM +2.6% = **-13.0 pts** vs IWM; direction 0, tracked only (26 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $26.43 (2026-11-11, ledger) · 1d +5.4%, 5d +19.6%, 20d -8.9% (market context, 2026-11-11)
+- **Since first found:** **-11.9%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -10.1% vs IWM +2.7% = **-12.8 pts** vs IWM; direction 0, tracked only (26 days)
+- **Peers / sympathy:** solo_move: OKLO +19.6% 5d vs peer median -0.6%; peers didn't move with it. Peer groups: SIC 4911 (8) ([market context](../watch/context/latest.json), 2026-11-11)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Oklo’s Groves-1 to Begin Research and Demonstration Phase after being Cleared by U.S. Department of Energy… (Business Wire) ([release](http://www.businesswire.com/news/home/20261111613764/en/Oklo%E2%80%99s-Groves-1-to-Begin-Research-and-Demonstration-Phase-after-being-Cleared-by-U.S.-Department-of-Energy-for-Unrestricted-Operations/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Oklo, U.S. Forged Rings Partner to Advance Domestic Manufacturing for Future Aurora Powerhouse Deployments (Business Wire) ([release](http://www.businesswire.com/news/home/20261106023707/en/Oklo-U.S.-Forged-Rings-Partner-to-Advance-Domestic-Manufacturing-for-Future-Aurora-Powerhouse-Deployments/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear developer): -18.3% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Oklo (OKLO) $34.57 $28.24 -18.3%) ([note](../research/daily/2026-10-15.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for OKLO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $26.36 | -12.2% | -10.3% | +2.6% |  | 26 | live |
+| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $26.43 | -11.9% | -10.1% | +2.7% |  | 26 | live |

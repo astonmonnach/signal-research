@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $6.34 (2026-11-11, ledger)
-- **Since first found:** **-25.0%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -26.3% vs IWM -0.5% = **-25.8 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $6.31 (2026-11-11, ledger)
+- **Since first found:** **-25.3%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -26.6% vs IWM -0.5% = **-26.2 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Western Union Announces Termination of Agreement to Acquire Intermex (Business Wire) ([release](http://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==))
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Intermex Rejects Western Union’s Purported Termination of Merger Agreement (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400552/0/en/intermex-rejects-western-union-s-purported-termination-of-merger-agreement.html)) · Press: Western Union Announces Termination of Agreement to Acquire Intermex (Business Wire) ([release](http://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==))
 - **[2026-11-10](../scans/2026-11-10.md)**: Calendar: IMXI: Western Union merger outside date (either party may terminate; California approval suspended) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-04](../scans/2026-11-04.md#triage-notes)**: Triage: **IMXI**: Western Union deal outside date 10 Nov, California approval suspended. Binary; no trade. ([triage](../watch/digests/2026-11-04-triage.md)) · Logged as `merger_arb` (direction 0): WU $16 deal, outside date 10 Nov, California approval suspended; market prices it dead; binary; tracked; source: daily research 4 Nov (research/daily/2026-11-04.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 4 Nov 2026 (- **IMXI:** Western Union's $16 cash deal has an outside date of 10 Nov, and the California approval is…) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +3.9%, found day -11.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1683695/000114036126041709/ef20084808_8k.htm))
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for IMXI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $6.34 | -25.0% | -26.3% | -0.5% |  | 7 | live |
-| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $6.34 | -23.7% | -14.9% | -0.3% |  | 6 | live |
+| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $6.31 | -25.3% | -26.6% | -0.5% |  | 7 | live |
+| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $6.31 | -24.1% | -15.3% | -0.3% |  | 6 | live |
