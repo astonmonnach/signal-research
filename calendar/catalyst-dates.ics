@@ -978,8 +978,8 @@ UID:19a92c6cfd7b6db12187dbb153a4ceb3@signal-lab
 DTSTAMP:20261101T170000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:ACB: Q2 FY27 results before the open\, call 8:00am New York (Curaleaf hostile offer still open)
-DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926119872/tm2628516d1_ex99-1.htm
+SUMMARY:ACB: (moved) results came out early on 5 Nov and the 12 Nov call was cancelled because of the Organigram deal
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/0001683541/000110465926123048/tm2629080d1_ex99-1.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:8f4fad90537d4e2abff4f47360324ed1@signal-lab
