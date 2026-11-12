@@ -252,3 +252,6 @@ date,a,b,type,detail,source
 2026-11-11,GPUS,PMAX,holder_13d,Hyperscale Data / Ault Lending 13D: 21.6% of Class A plus Class C convertibles,https://www.sec.gov/Archives/edgar/data/2012096/000092189526003015/0000921895-26-003015-index.htm
 2026-11-11,GPUS,MEDS,counterparty,"Ault Lending holds a convertible note into 501,204 MEDS shares (13G)",https://www.sec.gov/Archives/edgar/data/2030763/000121465926013939/primary_doc.xml
 2026-11-11,AROC,HIVOLT,asset_deal,"Archrock buying private HiVolt Energy Holdings for $415M, close Q1 2027",https://www.sec.gov/Archives/edgar/data/1389050/000110465926125218/tm2629454d1_8k.htm
+2026-11-11,ICMB,BCIC,merger,"BCIC to acquire ICMB for 90% of ICMB NAV in BCIC shares at NAV (capped at 19.99%) plus cash; signed 11 Nov 2026, close expected Q1 2027",https://www.sec.gov/Archives/edgar/data/1372807/000119312526457103/d182548d8k.htm
+2026-11-11,ICMB,fund:Investcorp BDC Holdings,holder_13d,"key stockholder agreement with BCIC (voting support, transfer restriction, standstill); key holders total about 41% of ICMB",https://www.sec.gov/Archives/edgar/data/1372807/000119312526457103/d182548d8k.htm
+2026-11-12,SKYA,fund:SOL Markets,counterparty,"tendering 2,157,900 shares and 3,955,293 strategic warrants into the $3.00 offer (Amendment No. 6)",https://www.sec.gov/Archives/edgar/data/1737995/000149315226051201/formsctoia.htm
