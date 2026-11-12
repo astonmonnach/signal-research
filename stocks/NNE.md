@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $11.32 (2026-11-12, ledger)
-- **Since first found:** **-27.5%** (found 2026-10-02 via `8k_tender_offer` at $15.62). From the next open $15.70: -27.9% vs IWM -0.4% = **-27.5 pts** vs IWM; direction 0, tracked only (38 days)
+- **Latest price:** $11.55 (2026-11-12, ledger)
+- **Since first found:** **-26.1%** (found 2026-10-02 via `8k_tender_offer` at $15.62). From the next open $15.70: -26.4% vs IWM -0.1% = **-26.3 pts** vs IWM; direction 0, tracked only (38 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for NNE ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_tender_offer` | 0 | -7.6% | -0.7% | $32.3M | $15.62 | $15.70 | $11.32 | -27.5% | -27.9% | -0.4% |  | 38 | live |
-| 2026-10-15 | `linked_peer` | 0 | -18.7% | +4.5% | $34.2M | $13.59 | $13.57 | $11.32 | -16.7% | -16.6% | +1.9% |  | 27 | live |
+| 2026-10-02 | `8k_tender_offer` | 0 | -7.6% | -0.7% | $32.3M | $15.62 | $15.70 | $11.55 | -26.1% | -26.4% | -0.1% |  | 38 | live |
+| 2026-10-15 | `linked_peer` | 0 | -18.7% | +4.5% | $34.2M | $13.59 | $13.57 | $11.55 | -15.0% | -14.9% | +2.2% |  | 27 | live |

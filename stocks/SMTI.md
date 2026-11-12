@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $32.45 (2026-11-12, ledger) · 1d +1.1%, 5d +1.1%, 20d -8.9% (market context, 2026-11-12)
-- **Since first found:** **-2.1%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -1.3% vs IWM +3.3% = **-4.7 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $32.41 (2026-11-12, ledger) · 1d +2.5%, 5d +2.5%, 20d -7.6% (market context, 2026-11-12)
+- **Since first found:** **-2.3%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -1.5% vs IWM +3.6% = **-5.0 pts** vs IWM; direction 0, tracked only (24 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.1% vs peer median +2.0%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** no flag (self 5d +2.5% vs peer median +2.1%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -33,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for SMTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.45 | -2.1% | -1.3% | +3.3% |  | 24 | live |
-| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.45 | -2.1% | -1.3% | +3.3% |  | 24 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.41 | -2.3% | -1.5% | +3.6% |  | 24 | live |
+| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.41 | -2.3% | -1.5% | +3.6% |  | 24 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `buyback` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md)); `below_cash` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $2.47 (2026-11-12, ledger) · 1d -3.3%, 5d -3.5%, 20d -23.1% (market context, 2026-11-12)
-- **Since first found:** **-23.3%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -23.8% vs IWM +1.9% = **-25.7 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $2.52 (2026-11-12, ledger) · 1d -1.8%, 5d -1.9%, 20d -21.9% (market context, 2026-11-12)
+- **Since first found:** **-21.9%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -22.4% vs IWM +2.2% = **-24.6 pts** vs IWM; direction 0, tracked only (27 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +14.8% 5d vs IMSR -3.5%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** missed_peer_move: peer median +17.3% 5d vs IMSR -1.9%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -39,7 +39,7 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.47 | -23.3% | -23.8% | +1.9% |  | 27 | live |
-| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.47 | -24.9% | -16.3% | +0.2% |  | 15 | live |
-| 2026-11-10 | `registration_effective` | -1 | +0.3% | -9.2% | $5.6M | $2.72 | $2.75 | $2.47 | -9.4% | -10.2% | -0.8% | +9.4% | 1 | live |
-| 2026-11-11 | `below_cash` | 0 | -4.7% | -6.1% | $5.7M | $2.56 | $2.45 | $2.47 | -3.5% | +0.8% | -0.2% |  | 0 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.52 | -21.9% | -22.4% | +2.2% |  | 27 | live |
+| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.52 | -23.6% | -14.8% | +0.4% |  | 15 | live |
+| 2026-11-10 | `registration_effective` | -1 | +0.3% | -9.2% | $5.6M | $2.72 | $2.75 | $2.52 | -7.7% | -8.6% | -0.5% | +8.0% | 1 | live |
+| 2026-11-11 | `below_cash` | 0 | -4.7% | -6.1% | $5.7M | $2.56 | $2.45 | $2.52 | -1.8% | +2.6% | +0.0% |  | 0 | live |
