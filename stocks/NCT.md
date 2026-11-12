@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $0.671 (2026-11-12, ledger)
-- **Since first found:** **-54.7%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: -56.7% vs IWM +1.2% = **-57.9 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $0.690 (2026-11-12, ledger)
+- **Since first found:** **-53.4%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: -55.5% vs IWM +1.1% = **-56.6 pts** vs IWM; direction 0, tracked only (16 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NCT: 8-for-1 consolidation effective (public AVOID #3: the $1.75 invalidation level becomes $14.00)
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $0.671 | -54.7% | -56.7% | +1.2% |  | 16 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $0.690 | -53.4% | -55.5% | +1.1% |  | 16 | live |

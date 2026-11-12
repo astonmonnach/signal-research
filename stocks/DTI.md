@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $1.80 (2026-11-12, ledger)
-- **Since first found:** **-10.4%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -11.3% vs IWM +1.1% = **-12.4 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $1.77 (2026-11-12, ledger)
+- **Since first found:** **-11.7%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -12.6% vs IWM +1.0% = **-13.6 pts** vs IWM; direction 0, tracked only (34 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -29,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.80 | -10.4% | -11.3% | +1.1% |  | 34 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.80 | +27.7% | +29.5% | +3.4% |  | 6 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.80 | +11.8% | +11.1% | -0.1% |  | 0 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.77 | -11.7% | -12.6% | +1.0% |  | 34 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.77 | +25.9% | +27.7% | +3.3% |  | 6 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.77 | +10.2% | +9.6% | -0.1% |  | 0 | live |

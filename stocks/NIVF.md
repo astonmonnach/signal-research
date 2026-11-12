@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.263 (2026-11-12, ledger)
-- **Since first found:** **-88.6%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -95.1% vs IWM +0.4% = **-95.5 pts** vs IWM; direction -1 → excess +95.5% (43 days)
+- **Latest price:** $0.258 (2026-11-12, ledger)
+- **Since first found:** **-88.8%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -95.2% vs IWM +0.3% = **-95.5 pts** vs IWM; direction -1 → excess +95.5% (43 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.263 | -88.6% | -95.1% | +0.4% | +95.5% | 43 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.263 | -78.1% | -76.8% | -0.4% |  | 14 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.258 | -88.8% | -95.2% | +0.3% | +95.5% | 43 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.258 | -78.5% | -77.2% | -0.5% |  | 14 | live |

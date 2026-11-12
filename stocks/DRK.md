@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for DRK ([rules](../ledger/RULES.md)): f
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-21 | `registration_effective` | -1 | -10.2% | +0.0% | $469k | $2.03 | $2.00 | $1.72 | -15.3% | -14.0% | +2.3% | +16.3% | 21 | live |
-| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.72 | +5.2% | +1.8% | -0.6% |  | 1 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.72 | +5.2% | +1.8% | -0.7% |  | 1 | live |

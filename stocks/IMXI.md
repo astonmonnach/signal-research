@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md)); `deal_dispute` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $6.57 (2026-11-12, ledger)
-- **Since first found:** **-22.3%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -23.7% vs IWM -1.0% = **-22.6 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $6.51 (2026-11-12, ledger)
+- **Since first found:** **-23.0%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -24.3% vs IWM -1.1% = **-23.2 pts** vs IWM; direction 0, tracked only (8 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for IMXI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $6.57 | -22.3% | -23.7% | -1.0% |  | 8 | live |
-| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $6.57 | -21.0% | -11.9% | -0.9% |  | 7 | live |
-| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $6.57 | -4.7% | +2.3% | -0.1% |  | 0 | live |
+| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $6.51 | -23.0% | -24.3% | -1.1% |  | 8 | live |
+| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $6.51 | -21.7% | -12.7% | -1.0% |  | 7 | live |
+| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $6.51 | -5.5% | +1.4% | -0.1% |  | 0 | live |
