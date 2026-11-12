@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.56 (2026-11-11, market context) · 1d +2.4%, 5d +9.4%, 20d -1.2% (market context, 2026-11-11)
+- **Latest price:** $2.33 (2026-11-12, market context) · 1d -4.1%, 5d +14.8%, 20d -9.7% (market context, 2026-11-12)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** solo_move: NKLR +9.4% 5d vs peer median +0.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** solo_move: NKLR +14.8% 5d vs peer median +0.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `DEFA14A` 6 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `424B3` 28 Oct
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **NKLR**: MaloneBailey formally engaged 23 Oct. KPMG was dismissed 9 Oct with unremediated material weaknesses. ([triage](../watch/digests/2026-10-28-triage.md)) · Filings: `8-K` 27 Oct · Research: Research: Wed 28 Oct 2026 (- **NKLR:** the new auditor must review a 10-Q due about 16 Nov; the AVOID stands. **TALO:** the Slim family…) ([note](../research/daily/2026-10-28.md))

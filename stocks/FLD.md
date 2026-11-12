@@ -21,9 +21,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.402 (2026-11-11, ledger)
-- **Since first found:** **-25.5%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -24.8% vs IWM +1.0% = **-25.8 pts** vs IWM; direction -1 → excess +25.8% (42 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $0.449 (2026-11-12, ledger)
+- **Since first found:** **-16.9%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -16.1% vs IWM +0.2% = **-16.3 pts** vs IWM; direction -1 → excess +16.4% (43 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -32,6 +32,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -16.2%, found day -4.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000119312526455432/fld-ex99_1.htm))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +0.8%, found day -0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000119312526432128/fld-20261022.htm))
 - **[2026-10-22](../scans/2026-10-22.md)**: Calendar: FLD reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
@@ -45,6 +46,7 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.402 | -25.5% | -24.8% | +1.0% | +25.8% | 42 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.402 | -25.7% | -24.1% | +0.3% |  | 37 | live |
-| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.402 | -21.2% | -21.6% | +1.8% | +23.4% | 15 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.449 | -16.9% | -16.1% | +0.2% | +16.4% | 43 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.449 | -17.0% | -15.3% | -0.4% |  | 38 | live |
+| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.449 | -12.0% | -12.5% | +1.0% | +13.6% | 16 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -16.2% | -4.6% | $41k ⚠ | $0.440 | $0.401 | $0.449 | +2.0% | +11.9% | -0.8% | -12.7% | 1 | live |

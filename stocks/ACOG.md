@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $8.90 (2026-11-11, ledger)
-- **Since first found:** **+3.4%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +3.5% vs IWM +2.2% = **+1.3 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $8.71 (2026-11-12, ledger)
+- **Since first found:** **+1.2%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: +1.3% vs IWM +1.4% = **-0.2 pts** vs IWM; direction 0, tracked only (22 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Alpha Cognition Inc. Reports Third Quarter 2026 Financial Results and Provides Operational Update (Business Wire) ([release](http://www.businesswire.com/news/home/20261111978366/en/Alpha-Cognition-Inc.-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Operational-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Alpha Cognition Strengthens Its Board of Directors with Appointment of Caren Deardorf (Business Wire) ([release](http://www.businesswire.com/news/home/20261109133062/en/Alpha-Cognition-Strengthens-Its-Board-of-Directors-with-Appointment-of-Caren-Deardorf/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Alpha Cognition to Participate in Upcoming Investor Events (Business Wire) ([release](http://www.businesswire.com/news/home/20261106352544/en/Alpha-Cognition-to-Participate-in-Upcoming-Investor-Events/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Alpha Cognition to Report Third Quarter 2026 Financial Results and Provide Business Update (Business Wire, published Mon 2 Nov) ([release](http://www.businesswire.com/news/home/20261102524180/en/Alpha-Cognition-to-Report-Third-Quarter-2026-Financial-Results-and-Provide-Business-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.90 | +3.4% | +3.5% | +2.2% |  | 21 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $8.71 | +1.2% | +1.3% | +1.4% |  | 22 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $11.25 (2026-11-11, ledger)
-- **Since first found:** **+27.0%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: +27.0% vs IWM +2.4% = **+24.6 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $10.81 (2026-11-12, ledger)
+- **Since first found:** **+22.0%** (found 2026-10-23 via `setup_supply_atm` at $8.86). From the next open $8.86: +22.0% vs IWM +1.7% = **+20.3 pts** vs IWM; direction 0, tracked only (17 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-14 10 AEHL +34% no_news $11.49 218.5 yes -21.4% -0.6% +64.5% / +0.0% / +26.5% -20.9% +29.2% -33.5% -2.4%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **Movers log (5 Nov):** LABT +182.4% (redeemed its Series C preferred), AEHL +178.1% (no news; it is on our…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1470683/000149315226049623/form6-k.htm))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 10 AEHL +34% no_news $11.49 218.5 yes -0.6% -33.5% -37.2) ([note](../research/movers/outcomes-2026-10-29.md))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for AEHL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $11.25 | +27.0% | +27.0% | +2.4% |  | 16 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -24.3% | +2.4% | $11.0M | $8.86 | $8.86 | $10.81 | +22.0% | +22.0% | +1.7% |  | 17 | live |

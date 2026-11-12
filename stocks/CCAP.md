@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $10.28 (2026-11-11, ledger) · 1d -1.0%, 5d +6.6%, 20d +14.7% (market context, 2026-11-11)
-- **Since first found:** **+11.3%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +3.8% vs IWM +1.1% = **+2.7 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $10.13 (2026-11-12, ledger) · 1d -1.2%, 5d +7.2%, 20d +10.9% (market context, 2026-11-12)
+- **Since first found:** **+9.6%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +2.3% vs IWM +0.4% = **+1.9 pts** vs IWM; direction 0, tracked only (2 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: CCAP: record date for the final $0.03 special dividend (WATCH T023)
   - Sun 31 Jan 2027: CCAP: T023 deadline, check the buyback and Sun Life buying in the filings
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#watchlist-filings)**: Filings: `8-K` 9 Nov, `10-Q` 9 Nov; +27 older (Feb – Sep 2026) first picked up · Research: Research: Wed 11 Nov 2026 (- **CCAP (T023):** first session after the news, $10.38 (+12.3%), 58.6% of NAV. Still under the $10.63 bar…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **CCAP**, after the 9 Nov close: $50M buyback plus up to $25M of Sun Life 10b5-1 buying, about 22% of the $340M market value; NAV $17.72 vs $9.24… ([triage](../watch/digests/2026-11-10-triage.md)) · Logged as `tender_issuer_buyback` (direction 0): WATCH T023: $50M buyback + up to $25M Sun Life 10b5-1 buying (~22% of market value) at 52% of NAV; results after the 9 Nov close; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (1. CCAP: a $75M bid for a $340M fund at half of NAV) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: 8-K trigger phrase "special dividend" (special dividend) (5d before +1.2%, found day -1.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1633336/000119312526453594/ccap-ex99_1.htm))
 
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for CCAP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $10.28 | +11.3% | +3.8% | +1.1% |  | 1 | live |
-| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $10.28 | -1.0% | +0.3% | -0.0% |  | 0 | live |
+| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $10.13 | +9.6% | +2.3% | +0.4% |  | 2 | live |
+| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $10.13 | -2.4% | -1.2% | -0.8% |  | 1 | live |

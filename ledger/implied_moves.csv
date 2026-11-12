@@ -36,3 +36,5 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-11-09,MSGK,2026-12-08,"MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)",2026-12-18,311.22,7.8,310.0,24.1,17.9,53,smaller,open,,,,
 2026-11-09,ACB,2027-01-06,ACB: earliest closing of the Organigram arrangement,2027-01-15,5.16,16.8,5.0,0.7,75.0,5284,none,open,,,,
 2026-11-11,ACB,2026-12-23,ACB: special meeting on the Organigram arrangement confirmed (virtual; T021),2027-01-15,5.11,15.7,5.0,0.8,62.5,5285,none,open,,,,
+2026-11-12,CTVA,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,9.29,10.2,10.0,0.95,63.0,542,,open,,,,
+2026-11-12,VYLR,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,72.1,7.8,70.0,5.65,29.7,191,,open,,,,

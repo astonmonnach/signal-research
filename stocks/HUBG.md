@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $24.39 (2026-11-11, ledger)
-- **Since first found:** **-13.4%** (found 2026-10-06 via `deal_peer` at $28.16). From the next open $27.76: -12.1% vs IWM +1.7% = **-13.8 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $24.47 (2026-11-12, ledger)
+- **Since first found:** **-13.1%** (found 2026-10-06 via `deal_peer` at $28.16). From the next open $27.76: -11.8% vs IWM +0.9% = **-12.8 pts** vs IWM; direction 0, tracked only (36 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Research: Research: Wed 11 Nov 2026 (- **Late filers:** CTVA and VYLR both blame spin-off reporting, with no flags. Results come before the 12 Nov…) ([note](../research/daily/2026-11-11.md)) · Triage, dismissed: GDRX and HUBG (restatements, not supply), RAMP (acquired), NFE, BALY, ITP, TRS: late filings without supply. ([triage](../watch/digests/2026-11-11-triage.md))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/940942/000119312526455499/0001193125-26-455499-index.htm))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_peer` (direction 0): RXO deal: rival broker -5.6% since Fri vs SPY +1.3% (bigger CHRW = tougher competitor; inferred); source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- **Second order:** rival brokers fell. HUBG −5.6%, JBHT −3.3%, LSTR −2.1%, XPO −1.1%, while SPY was +1.3%.) ([note](../research/daily/2026-10-06.md))
 
 ## Performance since found
@@ -24,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for HUBG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | -4.9% | -2.0% | $46.1M | $28.16 | $27.76 | $24.39 | -13.4% | -12.1% | +1.7% |  | 35 | live |
+| 2026-10-06 | `deal_peer` | 0 | -4.9% | -2.0% | $46.1M | $28.16 | $27.76 | $24.47 | -13.1% | -11.8% | +0.9% |  | 36 | live |

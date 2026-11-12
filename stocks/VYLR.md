@@ -101,11 +101,12 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day)
-- **Latest price:** $71.49 (2026-11-11, ledger) · 1d -1.4%, 5d +0.3%, 20d -3.9% (market context, 2026-11-11)
-- **Since first found:** **+4.7%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.0% vs IWM +0.2% = **+3.8 pts** vs IWM; direction 0, tracked only (40 days)
+- **Latest price:** $71.59 (2026-11-12, ledger) · 1d -0.7%, 5d +4.5%, 20d -2.3% (market context, 2026-11-12)
+- **Since first found:** **+4.9%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.2% vs IWM -0.5% = **+4.7 pts** vs IWM; direction 0, tracked only (41 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median -1.2%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** solo_move: VYLR +4.5% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Thu 12 Nov 2026: CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [thesis](../ideas/VYLR.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -114,7 +115,8 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-10](../scans/2026-11-10.md)**: Calendar: VYLR ~day 28 check (typical spin-off low) ([calendar](../calendar/catalyst-dates.ics)) · Research: Every event, at its actual time (VYLR (WATCH 05/10): peak +7.6% on 13 Oct (session 6), low -5.2% on 06 Nov, now +0.9%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 VYLR $71.91 +7.6% 13 Oct (6) -0.9% -5.2% 6 Nov +0.9% -6.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 VYLR spin-off $71.91 +0.9% +4.9% -4.0) ([note](../research/review/2026-11-10/REPORT.md))
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Late filers:** CTVA and VYLR both blame spin-off reporting, with no flags. Results come before the 12 Nov…) ([note](../research/daily/2026-11-11.md))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526455591/0001193125-26-455591-index.htm)) · Calendar: VYLR ~day 28 check (typical spin-off low) ([calendar](../calendar/catalyst-dates.ics)) · Research: Every event, at its actual time (VYLR (WATCH 05/10): peak +7.6% on 13 Oct (session 6), low -5.2% on 06 Nov, now +0.9%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 VYLR $71.91 +7.6% 13 Oct (6) -0.9% -5.2% 6 Nov +0.9% -6.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 VYLR spin-off $71.91 +0.9% +4.9% -4.0) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-26](../scans/2026-10-26.md#watchlist-filings)**: Filings: `4` ×3 26 Oct
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Vylor Announces $3 Billion Share Repurchase Program (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-announces-3-billion-share-repurchase-program-302917419.html)) · Press: Vylor Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vylor-declares-quarterly-dividend-302917422.html))
@@ -136,6 +138,6 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.49 | +4.7% | +4.0% | +0.2% |  | 40 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.49 | -2.5% | -0.6% | -0.5% |  | 36 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.49 | -2.1% | -3.2% | +2.4% |  | 34 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.59 | +4.9% | +4.2% | -0.5% |  | 41 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.59 | -2.4% | -0.5% | -1.2% |  | 37 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.59 | -1.9% | -3.1% | +1.6% |  | 35 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `spin_off` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $316.48 (2026-11-10, ledger)
-- **Since first found:** **+4.5%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +3.9% vs IWM +1.6% = **+2.3 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $322.56 (2026-11-11, ledger)
+- **Since first found:** **+6.5%** (found 2026-10-10 via `spin_off` at $302.94). From the next open $304.49: +5.9% vs IWM +0.8% = **+5.1 pts** vs IWM; direction 0, tracked only (30 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
@@ -37,4 +37,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $316.48 | +4.5% | +3.9% | +1.6% |  | 29 | live |
+| 2026-10-10 | `spin_off` | 0 | +2.0% | -1.2% | $125.9M | $302.94 | $304.49 | $322.56 | +6.5% | +5.9% | +0.8% |  | 30 | live |

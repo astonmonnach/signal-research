@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $5.34 (2026-11-11, ledger)
-- **Since first found:** **-13.1%** (found 2026-10-15 via `linked_peer` at $6.15). From the next open $5.99: -10.7% vs IWM +2.7% = **-13.4 pts** vs IWM; direction 0, tracked only (26 days)
+- **Latest price:** $5.05 (2026-11-12, ledger)
+- **Since first found:** **-18.0%** (found 2026-10-15 via `linked_peer` at $6.15). From the next open $5.99: -15.7% vs IWM +1.9% = **-17.6 pts** vs IWM; direction 0, tracked only (27 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Reaction:** $2.725 on 10 Nov (-9.2%) against OKLO -6.5%, SMR -4.0%, NNE -7.2% and IWM -0.7%. On 11 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear developer): -20.0% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (NuScale (SMR) $7.32 $5.86 -20.0%) ([note](../research/daily/2026-10-15.md))
 
 ## Performance since found
@@ -24,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for SMR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -24.0% | +5.5% | $271.5M | $6.15 | $5.99 | $5.34 | -13.1% | -10.7% | +2.7% |  | 26 | live |
+| 2026-10-15 | `linked_peer` | 0 | -24.0% | +5.5% | $271.5M | $6.15 | $5.99 | $5.05 | -18.0% | -15.7% | +1.9% |  | 27 | live |

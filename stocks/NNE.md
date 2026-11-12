@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $12.02 (2026-11-11, ledger)
-- **Since first found:** **-23.0%** (found 2026-10-02 via `8k_tender_offer` at $15.62). From the next open $15.70: -23.4% vs IWM +0.3% = **-23.7 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $11.32 (2026-11-12, ledger)
+- **Since first found:** **-27.5%** (found 2026-10-02 via `8k_tender_offer` at $15.62). From the next open $15.70: -27.9% vs IWM -0.4% = **-27.5 pts** vs IWM; direction 0, tracked only (38 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Reaction:** $2.725 on 10 Nov (-9.2%) against OKLO -6.5%, SMR -4.0%, NNE -7.2% and IWM -0.7%. On 11 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear developer): -15.2% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`UPLOAD`) ([filing](https://www.sec.gov/Archives/edgar/data/1923891/000000000025008959/0000000000-25-008959-index.htm)) · Research: Research: Thu 15 Oct 2026 (Nano Nuclear (NNE) $15.26 $12.95 -15.2%) ([note](../research/daily/2026-10-15.md))
 - **[2026-10-05](../scans/2026-10-05.md#triage-notes)**: Triage, dismissed: **NNE**: the "tender/lock-up" hit is an asset purchase agreement (HALEU fluorine assets from RadNostix / International Isotopes). Not a tender offer. ([triage](../watch/digests/2026-10-05-triage.md))
 - **[2026-10-02](../scans/2026-10-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up, tender offer" (tender offer) (5d before -7.6%, found day -0.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1923891/000149315226045534/ex2-1.htm))
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for NNE ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_tender_offer` | 0 | -7.6% | -0.7% | $32.3M | $15.62 | $15.70 | $12.02 | -23.0% | -23.4% | +0.3% |  | 37 | live |
-| 2026-10-15 | `linked_peer` | 0 | -18.7% | +4.5% | $34.2M | $13.59 | $13.57 | $12.02 | -11.5% | -11.4% | +2.7% |  | 26 | live |
+| 2026-10-02 | `8k_tender_offer` | 0 | -7.6% | -0.7% | $32.3M | $15.62 | $15.70 | $11.32 | -27.5% | -27.9% | -0.4% |  | 38 | live |
+| 2026-10-15 | `linked_peer` | 0 | -18.7% | +4.5% | $34.2M | $13.59 | $13.57 | $11.32 | -16.7% | -16.6% | +1.9% |  | 27 | live |

@@ -26,9 +26,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.088 (2026-11-11, ledger)
-- **Since first found:** **-56.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -56.1% vs IWM +0.3% = **-56.5 pts** vs IWM; direction 0, tracked only (37 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $0.094 (2026-11-12, ledger)
+- **Since first found:** **-53.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -53.1% vs IWM -0.4% = **-52.7 pts** vs IWM; direction 0, tracked only (38 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -37,6 +37,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -18.2%, found day -11.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026118128/ea0311735-8k_cyabra.htm))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: Cyabra Finds Coordinated Inauthentic Activity in Five of Six Competitive Midterm Races, Affecting Candidates… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/28/3390290/0/en/cyabra-finds-coordinated-inauthentic-activity-in-five-of-six-competitive-midterm-races-affecting-candidates-from-both-parties.html))
 - **[2026-10-20](../scans/2026-10-20.md#triage-notes)**: Triage, dismissed: The CYAB, VVOS, DPU and RUBI supply items (under $1). ([triage](../watch/digests/2026-10-20-triage.md))
 - **[2026-10-19](../scans/2026-10-19.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -26.3%, found day +7.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/999999999526003279/9999999995-26-003279-index.htm))
@@ -49,6 +50,7 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.088 | -56.1% | -56.1% | +0.3% |  | 37 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.088 | -48.4% | -48.4% | +1.7% | +50.1% | 33 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.088 | -41.5% | -41.5% | +4.2% | +45.7% | 22 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.094 | -53.1% | -53.1% | -0.4% |  | 38 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.094 | -44.8% | -44.8% | +0.9% | +45.8% | 34 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.094 | -37.5% | -37.5% | +3.4% | +40.9% | 23 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $0.080 | $0.080 | $0.094 | +17.2% | +17.2% | -0.8% | -18.0% | 1 | live |

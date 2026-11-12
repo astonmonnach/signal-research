@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $26.51 (2026-11-11, ledger)
-- **Since first found:** **+14.0%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +14.3% vs IWM +1.8% = **+12.5 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $26.58 (2026-11-12, ledger)
+- **Since first found:** **+14.3%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +14.6% vs IWM +1.0% = **+13.5 pts** vs IWM; direction 0, tracked only (16 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-26 4 SGRY +48% deal_signed $23.25 3043.8 yes -0.2% +0.5% +0.7% / -0.3% / +0.7% -0.6% +0.5% +13.8% +15.0%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SGRY**: amended to $25.00 cash plus ticking fee after a $28.00 rival proposal; price $26.45 is above the deal. Tracked, no call. ([triage](../watch/digests/2026-11-10-triage.md)) · Research: Research: Tue 10 Nov 2026 (- **SGRY** (amended to $25 after a $28 rival; price $26.45), **DDI** (tender at $16.25, 3.5% gap after…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Surgery Partners and HealthSpan Partners Announce Amended Merger Agreement, Following Receipt of Unsolicited… (Business Wire) ([release](http://www.businesswire.com/news/home/20261109695957/en/Surgery-Partners-and-HealthSpan-Partners-Announce-Amended-Merger-Agreement-Following-Receipt-of-Unsolicited-Proposal/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -0.0%, found day +14.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1638833/000110465926124236/tm2629312d1_8k.htm))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-26 4 SGRY +48% deal_signed $23.25 3043.8 yes +0.5% -0.0% -1.6) ([note](../research/movers/outcomes-2026-10-29.md))
@@ -30,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.51 | +14.0% | +14.3% | +1.8% |  | 15 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.51 | +13.5% | +14.0% | +0.9% |  | 14 | live |
-| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.51 | +0.2% | -0.8% | +1.1% |  | 1 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.58 | +14.3% | +14.6% | +1.0% |  | 16 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.58 | +13.8% | +14.2% | +0.2% |  | 15 | live |
+| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.58 | +0.5% | -0.5% | +0.4% |  | 2 | live |

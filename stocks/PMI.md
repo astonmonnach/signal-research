@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $7.92 (2026-11-11, ledger)
-- **Since first found:** **+11.7%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: +10.9% vs IWM +2.4% = **+8.5 pts** vs IWM; direction -1 → excess -8.5% (16 days)
+- **Latest price:** $7.57 (2026-11-12, ledger)
+- **Since first found:** **+6.8%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: +6.0% vs IWM +1.7% = **+4.3 pts** vs IWM; direction -1 → excess -4.3% (17 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-16 7 PMI +28% no_news $12.75 29.8 yes +6.6% +21.2% +14.8% / -9.3% / +13.7% -44.4% +37.0% -34.5% -36.9%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-16 7 PMI +28% no_news $12.75 29.8 yes +21.2% -43.3% -47.3) ([note](../research/movers/outcomes-2026-10-29.md))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **ZURA** is not called: its new $114M ATM (about 28% of the market value) sits on a shelf that is not…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **XRPN, PMI** (takeable): resale registrations not yet effective. Tracked: re-read for AVOID at EFFECT. ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_resale` (direction 0): 200,000 cashless warrant shares (8%) plus a 22 Oct S-3 for 500,000 more (20%), not yet effective; tracked: re-read for AVOID at EFFECT; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (- Tracked but not called: XRPN (a Cantor equity-line resale for 20% of Class A) and PMI (resale of 20% more).…) ([note](../research/daily/2026-10-26.md))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for PMI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $7.92 | +11.7% | +10.9% | +2.4% | -8.5% | 16 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $7.92 | +23.2% | +18.4% | +1.8% |  | 15 | live |
+| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $7.57 | +6.8% | +6.0% | +1.7% | -4.3% | 17 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $7.57 | +17.7% | +13.2% | +1.0% |  | 16 | live |

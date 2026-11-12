@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $5.45 (2026-11-11, ledger)
-- **Since first found:** **-24.1%** (found 2026-10-12 via `linked_peer` at $7.19). From the next open $7.06: -22.7% vs IWM +1.8% = **-24.5 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $5.15 (2026-11-12, ledger)
+- **Since first found:** **-28.4%** (found 2026-10-12 via `linked_peer` at $7.19). From the next open $7.06: -27.1% vs IWM +1.0% = **-28.1 pts** vs IWM; direction 0, tracked only (30 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "at-the-market, sales agreement" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/38264/000168316826008510/forward_8k.htm))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/38264/000168316826008408/0001683168-26-008408-index.htm))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: SkyAI Tender (The fight around it: Bastion Trading (Wei Zhu, about 8.6%) filed a 13D on 3 Sep citing payments to companies…) ([note](../research/SKYA-2026-10-19.html))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): SKYA counterparty: unsolicited 0.306-share proposal rejected by SkyAI on 11 Oct; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- Forward's rejected proposal is worth about $2.26 a share at Forward's $7.40 (; my arithmetic).) ([note](../research/daily/2026-10-12.md))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for FWDI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | -10.0% | -2.0% | $18.7M | $7.19 | $7.06 | $5.45 | -24.1% | -22.7% | +1.8% |  | 29 | live |
+| 2026-10-12 | `linked_peer` | 0 | -10.0% | -2.0% | $18.7M | $7.19 | $7.06 | $5.15 | -28.4% | -27.1% | +1.0% |  | 30 | live |

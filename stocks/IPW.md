@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $1.43 (2026-11-11, ledger)
-- **Since first found:** **-70.3%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -72.3% vs IWM +4.1% = **-76.4 pts** vs IWM; direction -1 → excess +76.4% (23 days)
+- **Latest price:** $1.26 (2026-11-12, ledger)
+- **Since first found:** **-73.8%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -75.6% vs IWM +3.3% = **-78.9 pts** vs IWM; direction -1 → excess +78.9% (24 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,7 +30,7 @@ Every [ledger](../ledger/LEDGER.md) row for IPW ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.43 | -70.3% | -72.3% | +4.1% | +76.4% | 23 | live |
-| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.43 | -37.8% | -36.2% | +0.2% | +36.3% | 13 | live |
-| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.43 | -19.2% | -17.8% | +0.4% |  | 9 | live |
-| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.43 | +4.4% | +5.2% | +4.0% | -1.1% | 5 | live |
+| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.26 | -73.8% | -75.6% | +3.3% | +78.9% | 24 | live |
+| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.26 | -45.2% | -43.8% | -0.6% | +43.2% | 14 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.26 | -28.8% | -27.6% | -0.3% |  | 10 | live |
+| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.26 | -8.0% | -7.3% | +3.3% | +10.6% | 6 | live |

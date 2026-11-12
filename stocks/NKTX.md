@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.37 (2026-11-11, ledger) · 1d +1.9%, 5d -20.5%, 20d -32.3% (market context, 2026-11-11)
-- **Since first found:** **-20.6%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -21.6% vs IWM +0.2% = **-21.7 pts** vs IWM; direction 0, tracked only (13 days)
-- **Peers / sympathy:** solo_move: NKTX -20.5% 5d vs peer median -1.8%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Latest price:** $1.39 (2026-11-12, ledger)
+- **Since first found:** **-19.2%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -20.1% vs IWM -0.6% = **-19.6 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for NKTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.37 | -20.6% | -21.6% | +0.2% |  | 13 | live |
+| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.39 | -19.2% | -20.1% | -0.6% |  | 14 | live |

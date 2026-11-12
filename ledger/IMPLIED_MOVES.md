@@ -26,6 +26,8 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-29 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-11-12 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | smaller | open |  |
 | 2026-11-02 | ACB | ACB: Q2 FY27 results before the open, call 8:00am New York ( | 2026-11-12 | 2026-11-20 | $4.10 | ±14.0% | $0.57 @ 4.0 | 93.9% | smaller | open |  |
 | 2026-11-02 | SKYA | SKYA: tender expiry confirmed in Amendment No. 4, which drop | 2026-11-12 | 2026-11-20 | $2.98 | ±31.1% | $0.93 @ 2.5 | 41.0% | smaller | open |  |
+| 2026-11-12 | CTVA | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $9.29 | ±10.2% | $0.95 @ 10.0 | 63.0% | - | open |  |
+| 2026-11-12 | VYLR | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $72.10 | ±7.8% | $5.65 @ 70.0 | 29.7% | - | open |  |
 | 2026-10-28 | NKLR | NKLR: annual meeting (includes extending the time to prepare | 2026-11-16 | 2026-11-20 | $2.13 | ±32.9% | $0.70 @ 2.5 | 42.4% | none | open |  |
 | 2026-11-02 | ARTV | ARTV: Q3 10-Q due (first wind-down cost estimate? T018) | 2026-11-16 | 2026-11-20 | $4.21 | ±22.0% | $0.93 @ 5.0 | 83.3% | none | open |  |
 | 2026-10-26 | SYNA | SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00  | 2026-11-17 | 2026-11-20 | $117.39 | ±2.5% | $2.90 @ 115.0 | 71.4% | smaller | open |  |
@@ -38,7 +40,7 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-11-09 | MSGK | MSGK: annual meeting (MSG Knickerbockers, formerly MSGS) | 2026-12-08 | 2026-12-18 | $311.22 | ±7.8% | $24.10 @ 310.0 | 17.9% | smaller | open |  |
 | 2026-10-16 | RYAM | RYAM: company promised a clear path forward in Q4 2026 | 2026-12-15 | 2026-12-18 | $7.11 | ±20.3% | $1.38 @ 7.0 | 100.0% | none | open |  |
 | 2026-11-05 | ACB | ACB/OGI: target date for both shareholder meetings on the Or | 2026-12-23 | 2027-01-15 | $5.21 | ±15.6% | $0.68 @ 5.0 | 66.7% | none | open |  |
-| 2026-11-11 | ACB | ACB: special meeting on the Organigram arrangement confirmed | 2026-12-23 | 2027-01-15 | $5.11 | ±15.7% | $0.80 @ 5.0 | 62.5% | - | open |  |
+| 2026-11-11 | ACB | ACB: special meeting on the Organigram arrangement confirmed | 2026-12-23 | 2027-01-15 | $5.11 | ±15.7% | $0.80 @ 5.0 | 62.5% | none | open |  |
 | 2026-11-02 | TENX | TENX: lead-plaintiff deadline in the securities class action | 2026-12-28 | 2027-01-15 | $1.79 | ±43.7% | $0.82 @ 2.0 | 113.8% | none | open |  |
 | 2026-11-02 | PUSA | PUSA: second third of merger lock-up shares released (90 day | 2026-12-30 | 2027-01-15 | $1.68 | ±134.1% | $2.25 @ 2.5 | 125.7% | none | open |  |
 | 2026-11-02 | GPRO | GPRO: outside date for the $1.14 cash plus stock takeover (a | 2026-12-31 | 2027-01-15 | $0.93 | ±32.2% | $0.30 @ 1.0 | 34.3% | none | open |  |

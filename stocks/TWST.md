@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $137.14 (2026-11-11, ledger) · 1d +3.8%, 5d -3.8%, 20d -7.5% (market context, 2026-11-11)
-- **Since first found:** **-29.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -29.0% vs IWM +2.0% = **-31.0 pts** vs IWM; direction 0, tracked only (41 days)
-- **Peers / sympathy:** no flag (self 5d -3.8% vs peer median -3.4%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Latest price:** $108.91 (2026-11-12, ledger) · 1d -11.1%, 5d -9.6%, 20d -24.6% (market context, 2026-11-12)
+- **Since first found:** **-43.6%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -43.6% vs IWM +1.3% = **-44.9 pts** vs IWM; direction 0, tracked only (42 days)
+- **Peers / sympathy:** solo_move: TWST -9.6% 5d vs peer median +0.2%; peers didn't move with it. Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **Kills:** CHDN, killed on 5 Oct as a false positive, is +26.8% since. TWST, marked AVOID the same day, is…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `4` ×5 5 Nov, `SCHEDULE 13G/A` 5 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `144` ×5 3 Nov
@@ -120,4 +121,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $137.14 | -29.0% | -29.0% | +2.0% |  | 41 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $108.91 | -43.6% | -43.6% | +1.3% |  | 42 | live |

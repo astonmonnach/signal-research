@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.48 (2026-11-11, ledger) · 1d +1.5%, 5d +16.8%, 20d -19.6% (market context, 2026-11-11)
-- **Since first found:** **-19.1%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -19.6% vs IWM +2.2% = **-21.8 pts** vs IWM; direction 0, tracked only (21 days)
-- **Peers / sympathy:** solo_move: BMM +16.8% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Latest price:** $3.28 (2026-11-12, ledger) · 1d -4.4%, 5d +4.8%, 20d -24.9% (market context, 2026-11-12)
+- **Since first found:** **-23.7%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -24.2% vs IWM +1.4% = **-25.7 pts** vs IWM; direction 0, tracked only (22 days)
+- **Peers / sympathy:** no flag (self 5d +4.8% vs peer median +2.8%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-29 BMM -0.9 -0.9 -8.5 -7.5 -15.0 -12.5 -32.3 day 45 for Elmet's US$25M prepayment (only the US$25M of…) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Linked names:** DLA (SP8000), Cantor (IPO lead), BMM (Elmet's C$35M stake).) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (- **BMM on day 45 of Elmet's prepayment (29 Oct):** -7.5% on the day, -32.3% four sessions later.) ([note](../research/review/2026-11-10/TIMES.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `6-K` 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Blue Moon Announces Sale of Blue Moon Norway to ACG Metals Limited (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-announces-sale-of-blue-moon-norway-to-acg-metals-limited-302927302.html))
@@ -36,4 +37,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.48 | -19.1% | -19.6% | +2.2% |  | 21 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $3.28 | -23.7% | -24.2% | +1.4% |  | 22 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.52 (2026-11-11, ledger)
-- **Since first found:** **-64.9%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -64.9% vs IWM +0.2% = **-65.1 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $1.27 (2026-11-12, ledger)
+- **Since first found:** **-70.7%** (found 2026-10-28 via `setup_supply_atm` at $4.35). From the next open $4.35: -70.7% vs IWM -0.6% = **-70.1 pts** vs IWM; direction 0, tracked only (14 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for ZURA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.52 | -64.9% | -64.9% | +0.2% |  | 13 | live |
-| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.52 | -62.1% | -61.9% | -0.3% | +61.6% | 6 | live |
+| 2026-10-28 | `setup_supply_atm` | 0 | +6.7% | +1.9% | $19.9M | $4.35 | $4.35 | $1.27 | -70.7% | -70.7% | -0.6% |  | 14 | live |
+| 2026-11-04 | `registration_effective` | -1 | -6.6% | +0.8% | $20.4M | $4.02 | $4.00 | $1.27 | -68.3% | -68.1% | -1.0% | +67.1% | 7 | live |

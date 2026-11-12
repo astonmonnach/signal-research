@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $56.28 (2026-11-11, ledger) · 1d -1.6%, 5d -5.5%, 20d +1.5% (market context, 2026-11-11)
-- **Since first found:** **+3.4%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +3.5% vs IWM +2.4% = **+1.1 pts** vs IWM; direction 0, tracked only (34 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CSR -5.5% 5d vs peer median -1.9%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Latest price:** $56.85 (2026-11-12, ledger) · 1d +0.1%, 5d -2.6%, 20d +1.9% (market context, 2026-11-12)
+- **Since first found:** **+4.5%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +4.6% vs IWM +1.6% = **+2.9 pts** vs IWM; direction 0, tracked only (35 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -2.6% vs peer median -0.8%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-12)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,7 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Independence Realty Trust Stockholders and Centerspace Shareholders Approve Merger (Business Wire) ([release](http://www.businesswire.com/news/home/20261110836089/en/Independence-Realty-Trust-Stockholders-and-Centerspace-Shareholders-Approve-Merger/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Calendar: CSR: merger vote (IRT 3.80 shares per CSR share) ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-11-11](../scans/2026-11-11.md#watchlist-filings)**: Filings: `8-K` 10 Nov · Research: Research: Wed 11 Nov 2026 (- **CSR/IRT:** both votes passed.) ([note](../research/daily/2026-11-11.md))
+- **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Independence Realty Trust Stockholders and Centerspace Shareholders Approve Merger (Business Wire) ([release](http://www.businesswire.com/news/home/20261110836089/en/Independence-Realty-Trust-Stockholders-and-Centerspace-Shareholders-Approve-Merger/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -2.8%, found day -0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/798359/000114036126043039/ef20085203_8k.htm)) · Calendar: CSR: merger vote (IRT 3.80 shares per CSR share) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `425` 3 Nov, `8-K` 2 Nov, `10-Q` 2 Nov, `425` 2 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Centerspace Reports Third Quarter 2026 Financial & Operating Results (PR Newswire, published Mon 2 Nov) ([release](https://www.prnewswire.com/news-releases/centerspace-reports-third-quarter-2026-financial--operating-results-302926810.html))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before +2.6%, found day +1.2%) ([filing](https://www.sec.gov/Archives/edgar/data/798359/000079835926000095/centerspace093026exhibit991.htm))
@@ -32,6 +33,7 @@ Every [ledger](../ledger/LEDGER.md) row for CSR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.28 | +3.4% | +3.5% | +2.4% |  | 34 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.28 | +2.5% | +1.4% | +1.7% |  | 33 | live |
-| 2026-11-02 | `8k_strategic_review` | +1 | +2.6% | +1.2% | $12.6M | $59.17 | $59.90 | $56.28 | -4.9% | -6.0% | +1.1% | -7.1% | 8 | live |
+| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.85 | +4.5% | +4.6% | +1.6% |  | 35 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.85 | +3.5% | +2.4% | +0.9% |  | 34 | live |
+| 2026-11-02 | `8k_strategic_review` | +1 | +2.6% | +1.2% | $12.6M | $59.17 | $59.90 | $56.85 | -3.9% | -5.1% | +0.4% | -5.5% | 9 | live |
+| 2026-11-10 | `8k_merger_agreement` | 0 | -2.8% | -0.6% | $12.0M | $57.17 | $56.52 | $56.85 | -0.6% | +0.6% | -0.8% |  | 1 | live |

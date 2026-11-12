@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $2.34 (2026-11-11, ledger) · 1d +6.4%, 5d -17.9%, 20d -64.3% (market context, 2026-11-11)
-- **Since first found:** **-43.1%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -43.8% vs IWM +2.4% = **-46.2 pts** vs IWM; direction -1 → excess +46.2% (16 days)
+- **Latest price:** $2.00 (2026-11-12, ledger)
+- **Since first found:** **-51.3%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -51.9% vs IWM +1.7% = **-53.6 pts** vs IWM; direction -1 → excess +53.6% (17 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: DFNS -17.9% 5d vs peer median -1.9%; peers didn't move with it. Peer groups: SIC 8742 (8) ([market context](../watch/context/latest.json), 2026-11-11)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $2.34 | -43.1% | -43.8% | +2.4% | +46.2% | 16 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $2.34 | -39.5% | -40.1% | +1.8% |  | 15 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $2.00 | -51.3% | -51.9% | +1.7% | +53.6% | 17 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $2.00 | -48.3% | -48.9% | +1.0% |  | 16 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $13.03 (2026-11-11, ledger)
-- **Since first found:** **-33.6%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -32.5% vs IWM +1.8% = **-34.3 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $11.94 (2026-11-12, ledger)
+- **Since first found:** **-39.2%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -38.1% vs IWM +1.0% = **-39.2 pts** vs IWM; direction 0, tracked only (30 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: MEDS, NDRA, UMAC, PSQL: passive or lender 13Gs. ([triage](../watch/digests/2026-11-11-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`D`) ([filing](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008244/0001683168-26-008244-index.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage, dismissed: UMAC: acquisition closed. ([triage](../watch/digests/2026-10-26-triage.md))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): PUSA counterparty: subscribed $30.0M for Legacy Powerus pre-funded warrants in June 2026; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- **Linked names:** UMAC (Unusual Machines put $30.0M into Powerus warrants in June, per the prospectus).) ([note](../research/daily/2026-10-12.md))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for UMAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $13.03 | -33.6% | -32.5% | +1.8% |  | 29 | live |
+| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $11.94 | -39.2% | -38.1% | +1.0% |  | 30 | live |

@@ -6,11 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $33.33 (2026-11-11, ledger) · 1d +6.5%, 5d +15.3%, 20d  (market context, 2026-11-11)
-- **Since first found:** **+11.1%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +40.5% vs IWM +2.4% = **+38.0 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $32.15 (2026-11-12, ledger)
+- **Since first found:** **+7.2%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +35.5% vs IWM +1.7% = **+33.8 pts** vs IWM; direction 0, tracked only (17 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: LYCA +15.3% 5d vs peer median -3.6%; peers didn't move with it. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-11)
-  - warning: only 14 daily bars (new listing?)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -32,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for LYCA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $33.33 | +11.1% | +40.5% | +2.4% |  | 16 | live |
-| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $33.33 | +11.1% | +40.5% | +2.4% | -38.0% | 16 | live |
-| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $33.33 | +33.1% | +32.0% | +0.2% |  | 13 | live |
+| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $32.15 | +7.2% | +35.5% | +1.7% |  | 17 | live |
+| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $32.15 | +7.2% | +35.5% | +1.7% | -33.8% | 17 | live |
+| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $32.15 | +28.3% | +27.3% | -0.6% |  | 14 | live |

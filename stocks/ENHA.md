@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $8.53 (2026-11-11, ledger)
-- **Since first found:** **-27.1%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -26.5% vs IWM +4.2% = **-30.6 pts** vs IWM; direction -1 → excess +30.6% (22 days)
-  - 3 more ledger rows: see Performance since found
+- **Latest price:** $8.12 (2026-11-12, ledger)
+- **Since first found:** **-30.6%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -30.0% vs IWM +3.4% = **-33.4 pts** vs IWM; direction -1 → excess +33.4% (23 days)
+  - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,7 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-11-09 ENHA -1.4 +2.9 -5.4 +1.3 n/a n/a n/a six-month post-SPAC unlock, tradable float up ~52% (AVOID…) ([note](../research/review/2026-11-10/EVENTS.md))
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: CMMB (merger partner buying from the ATM), PMAX (Ault convertible holder, under $1), JAGU (strategic share swap), ENHA (controller's related-party… ([triage](../watch/digests/2026-11-11-triage.md))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before +15.8%, found day -8.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000162828026072457/apadu-20261104.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000119312526454519/0001193125-26-454519-index.htm)) · Research: Every event, at its actual time (2026-11-09 ENHA -1.4 +2.9 -5.4 +1.3 n/a n/a n/a six-month post-SPAC unlock, tradable float up ~52% (AVOID…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-09](../scans/2026-11-09.md)**: Calendar: ENHA: six-month post-SPAC unlock, tradable float up ~52% (AVOID register) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **ENHA:** a related-party PIPE and exchange create about 95.6% new shares, and a post-SPAC unlock on 9 Nov lifts the tradable float about 52%. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `setup_supply_resale` (direction 0): Related-party PIPE/exchange (95.6% new shares) and 9 Nov unlock; controlling holder, so register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split, lock-up" (reverse split) (5d before -38.7%, found day +14.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000162828026070679/enhaequitydeck-11526v15x.htm))
@@ -30,7 +31,8 @@ Every [ledger](../ledger/LEDGER.md) row for ENHA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $8.53 | -27.1% | -26.5% | +4.2% | +30.6% | 22 | live |
-| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $8.53 | +20.0% | +22.0% | -0.5% | -22.5% | 7 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $8.53 | +4.4% | +4.8% | +4.0% | -0.8% | 5 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $8.53 | +1.9% | +3.4% | +2.0% |  | 2 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $8.12 | -30.6% | -30.0% | +3.4% | +33.4% | 23 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $8.12 | +14.2% | +16.2% | -1.2% | -17.3% | 8 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $8.12 | -0.6% | -0.2% | +3.3% | +3.5% | 6 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $8.12 | -3.0% | -1.6% | +1.2% |  | 3 | live |
+| 2026-11-10 | `8k_lock_up` | 0 | +15.8% | -8.6% | $924k | $7.75 | $7.83 | $8.12 | +4.8% | +3.7% | -0.8% |  | 1 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deal_dilution` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $0.936 (2026-11-11, ledger)
-- **Since first found:** **-66.0%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -65.3% vs IWM +2.2% = **-67.5 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $0.960 (2026-11-12, ledger)
+- **Since first found:** **-65.1%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -64.5% vs IWM +1.4% = **-65.9 pts** vs IWM; direction 0, tracked only (22 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: MEDS, NDRA, UMAC, PSQL: passive or lender 13Gs. ([triage](../watch/digests/2026-11-11-triage.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md)) · Logged as `setup_supply_deal_dilution` (direction 0): non-binding LOI leaving public holders ~10.5%; AVOID (not called: LOI); source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (- MEDS to DVLT (counterparty).) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: 8-K trigger phrase "(relevant) license agreement: "enter into an intellectual property license agreement and a product and services agreement with REBOOT, pursuant to which REBOOT would license to the Company certa"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/2030763/000149315226048573/form8-k.htm)) · Market scan: 8-K trigger phrase "lock-up, tender offer" (tender offer) (5d before -15.2%, found day -1.8%) ([filing](https://www.sec.gov/Archives/edgar/data/2030763/000149315226048573/form8-k.htm))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage, dismissed: NGTF, MBRX, XWEL, SHFS, NUMD, MEDS, UFG, GSUN, AXNX, NIPG, DFSC, SCNI, CLRCF, DMLP: reverse splits, listing notices, small placements, routine items. ([triage](../watch/digests/2026-10-21-triage.md))
@@ -29,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for MEDS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $0.936 | -66.0% | -65.3% | +2.2% |  | 21 | live |
-| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $0.936 | -57.2% | -54.5% | +1.8% |  | 15 | live |
-| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $0.936 | -54.5% | -53.6% | +0.9% |  | 14 | live |
+| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $0.960 | -65.1% | -64.5% | +1.4% |  | 22 | live |
+| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $0.960 | -56.2% | -53.4% | +1.0% |  | 16 | live |
+| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $0.960 | -53.4% | -52.5% | +0.2% |  | 15 | live |

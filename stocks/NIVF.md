@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.276 (2026-11-11, ledger)
-- **Since first found:** **-88.0%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -94.8% vs IWM +1.0% = **-95.8 pts** vs IWM; direction -1 → excess +95.8% (42 days)
+- **Latest price:** $0.255 (2026-11-12, ledger)
+- **Since first found:** **-89.0%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -95.2% vs IWM +0.2% = **-95.5 pts** vs IWM; direction -1 → excess +95.5% (43 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-14 4 NIVF +50% no_news $0.29 2.6 no -14.3% -15.0% +10.7% / -10.7% / -0.8% -36.1% -3.1% -49.0% -88.0%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- GRO: the baby-shelf cap on its $125M ATM isn't checked yet (NIVF rule).) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- **The evidence gate** (rule 2026-11-01, from the NIVF reply on X): every public call and deep dive now…) ([note](../research/daily/2026-11-02.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-14 4 NIVF (split since) +50% no_news $0.29 2.6 no -15.0% -49.0% -52.6) ([note](../research/movers/outcomes-2026-10-29.md)) · Research: Research: Thu 29 Oct 2026 (- All rules pass. The market value is about $1.1M (arith), as small and squeeze-prone as WORX and NIVF; the…) ([note](../research/daily/2026-10-29.md))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.276 | -88.0% | -94.8% | +1.0% | +95.8% | 42 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.276 | -77.0% | -75.6% | +0.2% |  | 13 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.255 | -89.0% | -95.2% | +0.2% | +95.5% | 43 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.255 | -78.8% | -77.5% | -0.6% |  | 14 | live |
