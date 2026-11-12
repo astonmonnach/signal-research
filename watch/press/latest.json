@@ -1,10 +1,18 @@
 [
  {
-  "published_utc": "2026-11-11T21:05:00Z",
-  "wire": "Business Wire",
-  "ticker": "ACOG",
-  "title": "Alpha Cognition Inc. Reports Third Quarter 2026 Financial Results and Provides Operational Update",
-  "link": "http://www.businesswire.com/news/home/20261111978366/en/Alpha-Cognition-Inc.-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Operational-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "manual_call"
+  "published_utc": "2026-11-11T23:07:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BCIC",
+  "title": "BCP Investment Corporation Announces Third Quarter 2026 Financial Results",
+  "link": "https://www.globenewswire.com/news-release/2026/11/11/3401185/7512/en/bcp-investment-corporation-announces-third-quarter-2026-financial-results.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-11T23:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BCIC;ICMB",
+  "title": "Investcorp Credit Management BDC, Inc. to Merge into BCP Investment Corporation",
+  "link": "https://www.globenewswire.com/news-release/2026/11/11/3401183/7512/en/investcorp-credit-management-bdc-inc-to-merge-into-bcp-investment-corporation.html",
+  "matched_on": "keyword:merger agreement"
  }
 ]
