@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $14.34 (2026-11-12, ledger) · 1d +0.3%, 5d +3.8%, 20d +7.1% (market context, 2026-11-12)
-- **Since first found:** **+6.7%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +7.2% vs IWM +1.8% = **+5.4 pts** vs IWM; direction 0, tracked only (17 days)
-- **Peers / sympathy:** no flag (self 5d +3.8% vs peer median -4.4%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Latest price:** $14.20 (2026-11-13, ledger) · 1d +0.1%, 5d +2.3%, 20d +6.8% (market context, 2026-11-13)
+- **Since first found:** **+5.7%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: +6.2% vs IWM -0.3% = **+6.5 pts** vs IWM; direction 0, tracked only (18 days)
+- **Peers / sympathy:** no flag (self 5d +2.3% vs peer median -2.9%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **DOLE** Form 4: the executive chairman's children sold 55 shares at $13.87 (T013 not fired). **TENX** Adage 13G/A: 2.26%, below 5% (T012). ([triage](../watch/digests/2026-11-12-triage.md)) · Filings: `4` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **Holders:** DOLE (the executive chairman's children sold 55 shares; T013 not fired), TENX (Adage below 5%…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-10](../scans/2026-11-10.md#watchlist-filings)**: Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (DOLE (WATCH 23/10): peak +7.9% on 09 Nov (session 11), low -3.3% on 30 Oct, now +4.5%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (23/10 DOLE $13.38 +7.9% 9 Nov (11) -3.3% -3.3% 30 Oct +4.5% -3.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (23/10 DOLE Pale Fire buying a fifth $13.38 +4.5% +1.6% +2.9) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **COUR:** Pale Fire (the DOLE and Groupon group) bought 8,355,251 shares on 3-5 Nov for $31.45M on a passive 13G. Tracked. ([triage](../watch/digests/2026-11-06-triage.md)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **DOLE**: Pale Fire bought 986,557 more shares on 2-4 Nov (code P, about $12.9M) and now holds 11.9%; Item 4 unchanged. ([triage](../watch/digests/2026-11-05-triage.md)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1857475/000092189526002935/0000921895-26-002935-index.htm)) · Filings: `SCHEDULE 13D/A` 5 Nov, `4` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **DOLE (T013):** Pale Fire bought 986,557 more shares (code P) on 2-4 Nov and holds "approximately 11.9%".…) ([note](../research/daily/2026-11-05.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for DOLE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $14.34 | +6.7% | +7.2% | +1.8% |  | 17 | live |
+| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $14.20 | +5.7% | +6.2% | -0.3% |  | 18 | live |

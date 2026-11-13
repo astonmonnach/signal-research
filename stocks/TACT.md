@@ -6,17 +6,17 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $4.85 (2026-11-12, ledger)
-- **Since first found:** **-1.6%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: +0.4% vs IWM -0.1% = **+0.6 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $5.00 (2026-11-13, ledger)
+- **Since first found:** **+1.4%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: +3.5% vs IWM -2.2% = **+5.7 pts** vs IWM; direction 0, tracked only (1 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 12 Nov 2026: TACT: Q3 results after the close (Gillman 13D/A No. 4 demands a sale of BOHA!)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md)**: Calendar: TACT: Q3 results after the close (Gillman 13D/A No. 4 demands a sale of BOHA!) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- Tonight: TACT results, SKYA expiry.) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TACT**: Gillman (5.1%) demands Friedberg as chair, two 325 Capital seats and a BOHA! sale. Not takeable (~$110k a day). Results 12 Nov (calendar). ([triage](../watch/digests/2026-11-11-triage.md)) · Logged as `activist_13d` (direction 0): Gillman 13D/A No. 4 (5.1%): demands Friedberg as chair, two more 325 Capital seats and a sale of BOHA!; not takeable (~$110k a day); results 12 Nov after the close; tracked; source: daily research 11 Nov (research/daily/2026-11-11.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 11 Nov 2026 (- **TACT:** Gillman's 13D/A No. 4 demands a new chair, two more 325 Capital seats and a sale of BOHA!. It is…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1017303/000121465926013914/0001214659-26-013914-index.htm))
 
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for TACT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.85 | -1.6% | +0.4% | -0.1% |  | 0 | live |
+| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $5.00 | +1.4% | +3.5% | -2.2% |  | 1 | live |

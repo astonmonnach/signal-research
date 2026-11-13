@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $32.05 (2026-11-12, ledger) · 1d +1.4%, 5d +1.4%, 20d -8.7% (market context, 2026-11-12)
-- **Since first found:** **-3.4%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -2.5% vs IWM +3.4% = **-5.9 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $32.70 (2026-11-13, market context) · 1d +0.5%, 5d +3.6%, 20d -1.4% (market context, 2026-11-13)
+- **Since first found:** **-1.9%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -1.1% vs IWM +1.3% = **-2.3 pts** vs IWM; direction 0, tracked only (24 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +1.4% vs peer median +1.8%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** solo_move: SMTI +3.6% 5d vs peer median +1.3%; peers didn't move with it. Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 29 Jul 2027: SMTI/MDXG: merger end date (extendable to 29 Jan 2028 for antitrust; FTC Second Request 15 Oct)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#press-releases)**: Press: Sanara MedTech Inc. Reports Third Quarter 2026 Financial Results (Unaudited) (GlobeNewswire, published Thu 12 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/12/3402233/0/en/sanara-medtech-inc-reports-third-quarter-2026-financial-results-unaudited.html))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SMTI** 13G: Goldman 5.0% (likely deal-related). **MDA** 13G/13G/A: Morgan Stanley 8.8% then 0.3% (the CSG share-forward hedge, inference). ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `SCHEDULE 13G` 9 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `8-K` 29 Oct, `425` 28 Oct
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- Only three were above the ~3.5% cost hurdle (PTC, SMTI, GPRO), and each had a named risk.) ([note](../research/daily/2026-10-28.md))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for SMTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.05 | -3.4% | -2.5% | +3.4% |  | 24 | live |
-| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.05 | -3.4% | -2.5% | +3.4% |  | 24 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.54 | -1.9% | -1.1% | +1.3% |  | 24 | live |
+| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.54 | -1.9% | -1.1% | +1.3% |  | 24 | live |

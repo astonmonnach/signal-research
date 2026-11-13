@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $65.80 (2026-11-12, ledger)
-- **Since first found:** **+19.1%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: +20.8% vs IWM +2.0% = **+18.8 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $60.53 (2026-11-13, ledger)
+- **Since first found:** **+9.6%** (found 2026-10-15 via `linked_peer` at $55.25). From the next open $54.49: +11.1% vs IWM -0.1% = **+11.2 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#press-releases)**: Press: Rocket Lab To Launch Milestone 100th Electron Rocket This Week (GlobeNewswire, published Thu 12 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/12/3402322/0/en/rocket-lab-to-launch-milestone-100th-electron-rocket-this-week.html))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3 (GlobeNewswire, published Mon 9 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/09/3398984/0/en/rocket-lab-lands-over-515m-in-neutron-launch-deals-from-constellation-operators-in-q3.html))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393627/0/en/mission-success-rocket-lab-launches-99th-electron-mission.html))
 - **[2026-10-23](../scans/2026-10-23.md#press-releases)**: Press: MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/23/3387094/0/en/mission-success-rocket-lab-launches-98th-electron-mission.html))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for RKLB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $65.80 | +19.1% | +20.8% | +2.0% |  | 27 | live |
+| 2026-10-15 | `linked_peer` | 0 | -17.7% | -6.6% | $1568.9M | $55.25 | $54.49 | $60.53 | +9.6% | +11.1% | -0.1% |  | 28 | live |

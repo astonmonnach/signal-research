@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_cvr` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $8.24 (2026-11-12, ledger) · 1d +0.1%, 5d -1.0%, 20d -1.0% (market context, 2026-11-12)
-- **Since first found:** **+0.4%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +0.4% vs IWM +0.3% = **+0.1 pts** vs IWM; direction -1 → excess -0.1% (43 days)
+- **Latest price:** $8.26 (2026-11-13, ledger) · 1d +0.1%, 5d -1.0%, 20d -0.1% (market context, 2026-11-13)
+- **Since first found:** **+0.6%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +0.6% vs IWM -1.7% = **+2.4 pts** vs IWM; direction -1 → excess -2.4% (44 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -1.0% vs peer median +2.4%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** no flag (self 5d -1.0% vs peer median +1.0%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 17 Nov 2026: SSTI: Transom tender ($8.00 cash plus CVR) expires one minute after 11:59 pm New York
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- 17 Nov: SSTI expiry and CLRO hearing.) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SSTI** SC TO-T/A and 14D-9/A: litigation only; $8.00 + CVR, expiry 17 Nov unchanged. T010 not hit. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `SC 14D9/A` 9 Nov, `SC TO-T/A` 9 Nov
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) (5d before +0.2%, found day -0.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1351636/000114036126042603/0001140361-26-042603-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#watchlist-filings)**: Filings: `SC 14D9` 20 Oct, `SC TO-T` 20 Oct; +32 older (Mar – Oct 2026) first picked up
@@ -34,8 +35,8 @@ Every [ledger](../ledger/LEDGER.md) row for SSTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.24 | +0.4% | +0.4% | +0.3% | -0.1% | 43 | live |
-| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.24 | -1.1% | -1.1% | -0.3% | -0.8% | 38 | live |
-| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.24 | -1.9% | -1.8% | +1.5% |  | 22 | live |
-| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.24 | -1.9% | -1.7% | +2.3% |  | 21 | live |
-| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.24 | -1.0% | -1.0% | +0.4% |  | 2 | live |
+| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.26 | +0.6% | +0.6% | -1.7% | -2.4% | 44 | live |
+| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.26 | -0.8% | -0.8% | -2.4% | +1.5% | 39 | live |
+| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.26 | -1.7% | -1.6% | -0.6% |  | 23 | live |
+| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.26 | -1.7% | -1.4% | +0.2% |  | 22 | live |
+| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.26 | -0.7% | -0.7% | -1.6% |  | 3 | live |

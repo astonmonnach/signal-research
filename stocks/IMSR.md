@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `buyback` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md)); `below_cash` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $2.52 (2026-11-12, ledger) · 1d -1.9%, 5d -2.1%, 20d -22.1% (market context, 2026-11-12)
-- **Since first found:** **-21.9%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -22.4% vs IWM +2.0% = **-24.4 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $2.53 (2026-11-13, ledger) · 1d +1.0%, 5d -11.1%, 20d -17.2% (market context, 2026-11-13)
+- **Since first found:** **-21.4%** (found 2026-10-15 via `insider_cluster` at $3.22). From the next open $3.24: -21.9% vs IWM -0.1% = **-21.8 pts** vs IWM; direction 0, tracked only (28 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +16.7% 5d vs IMSR -2.1%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** no flag (self 5d -11.1% vs peer median -7.2%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `EFFECT` 10 Nov · Research: Research: Thu 12 Nov 2026 (- **Watchlist prices on 11 Nov:** IMSR $2.56 (tracked since yesterday), SEER $1.59 (T019 open), CCAP $10.25…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **IMSR** /: $276.3M cash and investments, $8.6M liabilities, 105.9M shares = $2.53 net a share; burn $7.1M and rising; $25M buyback, none disclosed… ([triage](../watch/digests/2026-11-11-triage.md)) · Logged as `below_cash` (direction 0): Q3: $276.3M cash and short-term investments, $8.6M liabilities, no debt, 105.9M shares = about $2.53 net a share (arith) vs $2.725 close (-9.2% on results day) and ~$2.49 on 11 Nov; burn $7.1M a quarter and rising; 30.3M warrants (10.5M at $2.24); 9 Nov EFFECT was a POS AM conversion, no new shares; WATCH from 15 Oct downgraded to tracked, no call; source: daily research 11 Nov (research/daily/2026-11-11.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `10-Q` 10 Nov, `8-K` 10 Nov, `EFFECT` 9 Nov · Research: Research: Wed 11 Nov 2026 (2. IMSR: trades at about its cash, and the WATCH thesis failed) ([note](../research/daily/2026-11-11.md)) · Triage, dismissed: BWMN (deregistration after take-private), EMBJ, BRW, TLWR, IMSR: not supply. ENLT, HL: routine ATMs at large companies. ([triage](../watch/digests/2026-11-11-triage.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before +0.3%, found day -9.2%) ([filing](https://www.sec.gov/Archives/edgar/data/2019804/999999999526003481/9999999995-26-003481-index.htm)) · Research: Every event, at its actual time (IMSR (WATCH 15/10): peak +12.7% on 29 Oct (session 10), low -24.7% on 05 Nov, now -7.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (15/10 IMSR $3.24 +12.7% 29 Oct (10) -16.7% -24.7% 5 Nov -7.4% -17.8%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (15/10 IMSR CEO and two directors buy $3.24 -7.4% -6.5% -0.9) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `S-3` ×2 3 Nov · Research: Research: Wed 4 Nov 2026 (- IMSR: $500M shelf, about 2.2x its value; re-read at EFFECT.) ([note](../research/daily/2026-11-04.md))
@@ -39,7 +40,7 @@ Every [ledger](../ledger/LEDGER.md) row for IMSR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.52 | -21.9% | -22.4% | +2.0% |  | 27 | live |
-| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.52 | -23.6% | -14.8% | +0.2% |  | 15 | live |
-| 2026-11-10 | `registration_effective` | -1 | +0.3% | -9.2% | $5.6M | $2.72 | $2.75 | $2.52 | -7.7% | -8.6% | -0.7% | +7.8% | 1 | live |
-| 2026-11-11 | `below_cash` | 0 | -4.7% | -6.1% | $5.7M | $2.56 | $2.45 | $2.52 | -1.8% | +2.6% | -0.1% |  | 0 | live |
+| 2026-10-15 | `insider_cluster` | 0 | -19.5% | +9.5% | $6.3M | $3.22 | $3.24 | $2.53 | -21.4% | -21.9% | -0.1% |  | 28 | live |
+| 2026-10-27 | `buyback` | 0 | +3.2% | +11.9% | $5.5M | $3.29 | $2.95 | $2.53 | -23.1% | -14.2% | -1.8% |  | 16 | live |
+| 2026-11-10 | `registration_effective` | -1 | +0.3% | -9.2% | $5.6M | $2.72 | $2.75 | $2.53 | -7.2% | -8.0% | -2.7% | +5.3% | 2 | live |
+| 2026-11-11 | `below_cash` | 0 | -4.7% | -6.1% | $5.7M | $2.56 | $2.45 | $2.53 | -1.2% | +3.3% | -2.2% |  | 1 | live |

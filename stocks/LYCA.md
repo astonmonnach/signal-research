@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $32.50 (2026-11-12, ledger)
-- **Since first found:** **+8.3%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +37.0% vs IWM +1.8% = **+35.2 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $32.08 (2026-11-13, ledger)
+- **Since first found:** **+6.9%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +35.2% vs IWM -0.3% = **+35.5 pts** vs IWM; direction 0, tracked only (18 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Lycia Therapeutics to Present at the 2026 Jefferies Global Healthcare Conference (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400618/0/en/lycia-therapeutics-to-present-at-the-2026-jefferies-global-healthcare-conference.html))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001536/0001231919-26-001536-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1806540/000123191926001519/0001231919-26-001519-index.htm))
@@ -31,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for LYCA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $32.50 | +8.3% | +37.0% | +1.8% |  | 17 | live |
-| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $32.50 | +8.3% | +37.0% | +1.8% | -35.2% | 17 | live |
-| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $32.50 | +29.7% | +28.7% | -0.5% |  | 14 | live |
+| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $32.08 | +6.9% | +35.2% | -0.3% |  | 18 | live |
+| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $32.08 | +6.9% | +35.2% | -0.3% | -35.5% | 18 | live |
+| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $32.08 | +28.1% | +27.1% | -2.5% |  | 15 | live |

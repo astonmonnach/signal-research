@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $1.42 (2026-11-12, ledger)
-- **Since first found:** **-41.4%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -42.1% vs IWM +3.3% = **-45.4 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $1.27 (2026-11-13, ledger)
+- **Since first found:** **-47.7%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -48.4% vs IWM +1.2% = **-49.6 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Press log, not read in depth:** GGG $600M accelerated buyback (over $10B), CAAS $5M buyback with results…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Neuronetics Announces Pricing of $30 Million Underwritten Public Offering of Common Stock (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400430/0/en/neuronetics-announces-pricing-of-30-million-underwritten-public-offering-of-common-stock.html))
 - **[2026-11-05](../scans/2026-11-05.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Repeat going concern, covenant projected to fail Mar 2027, $33.1M ATM; register only (ATM barely used in Q3); source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- STIM: the going-concern and covenant wording is word-for-word from Q2, and the ATM fell only from $33.7M to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000110465926122380/stim-20260930x10q.htm))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for STIM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.42 | -41.4% | -42.1% | +3.3% |  | 6 | live |
+| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.27 | -47.7% | -48.4% | +1.2% |  | 7 | live |

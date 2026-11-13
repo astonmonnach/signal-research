@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $1.77 (2026-11-12, ledger)
-- **Since first found:** **-11.7%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -12.6% vs IWM +1.0% = **-13.6 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $1.70 (2026-11-13, ledger)
+- **Since first found:** **-15.3%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -16.2% vs IWM -1.1% = **-15.1 pts** vs IWM; direction 0, tracked only (35 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **DTI** Form 4 (12 Nov): director Jack Furst bought 2,531 shares at $1.509 on 10 Nov (about $3,800), a fourth insider. ([triage](../watch/digests/2026-11-12-triage.md)) · Research: Research: Thu 12 Nov 2026 (- **DTI (tracked 11 Nov):** a fourth insider, director Jack Furst, bought 2,531 shares at $1.509 on 10 Nov…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **DTI** (CEO, CFO, director; 155,350 shares, ~$254,917 on 9 Nov): tracked, no call; the Saltire financing deadline is 30 Nov (calendar). ([triage](../watch/digests/2026-11-11-triage.md)) · Logged as `insider_cluster` (direction 0): CEO, CFO and a director bought 155,350 shares (~$254,917) at $1.61-1.65 on 9 Nov, at a 52-week low; financing for the Saltire deal (a $135.0M Nordic bond) not yet placed, seller can terminate if not financed by 30 Nov; 17.4M shares to sellers at closing; tracked, no call; source: daily research 11 Nov (research/daily/2026-11-11.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 11 Nov 2026 (3. DTI: three insiders buy at the low, but the deal financing decides it) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526455713/0001193125-26-455713-index.htm))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -11.2%, found day -6.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526449924/dti-ex99_1.htm))
@@ -29,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.77 | -11.7% | -12.6% | +1.0% |  | 34 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.77 | +25.9% | +27.7% | +3.3% |  | 6 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.77 | +10.2% | +9.6% | -0.1% |  | 0 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.70 | -15.3% | -16.2% | -1.1% |  | 35 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.70 | +20.7% | +22.4% | +1.2% |  | 7 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.70 | +5.7% | +5.1% | -2.2% |  | 1 | live |

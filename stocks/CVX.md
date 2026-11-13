@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $216.57 (2026-11-12, ledger)
-- **Since first found:** **+0.7%** (found 2026-10-12 via `linked_peer` at $215.00). From the next open $217.00: -0.2% vs IWM +1.1% = **-1.3 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $218.43 (2026-11-13, ledger)
+- **Since first found:** **+1.6%** (found 2026-10-12 via `linked_peer` at $215.00). From the next open $217.00: +0.7% vs IWM -1.0% = **+1.6 pts** vs IWM; direction 0, tracked only (31 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Chevron to Restart Ralston Biodiesel Facility in Iowa, Supported by Landus Cooperative Feedstock Supply… (Business Wire) ([release](http://www.businesswire.com/news/home/20261112427787/en/Chevron-to-Restart-Ralston-Biodiesel-Facility-in-Iowa-Supported-by-Landus-Cooperative-Feedstock-Supply-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Siva Barnwell Adams Named Corporate Secretary and Chief Governance Officer (Business Wire) ([release](http://www.businesswire.com/news/home/20261102362062/en/Siva-Barnwell-Adams-Named-Corporate-Secretary-and-Chief-Governance-Officer/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: Chevron Reports Third Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261030587778/en/Chevron-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-10-12](../scans/2026-10-12.md#new-setups)**: Logged as `linked_peer` (direction 0): HESM counterparty: seller of the DJ Basin assets, hands back its 38% HESM stake; source: daily research 12 Oct (research/daily/2026-10-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 12 Oct 2026 (- **Linked names:** CVX (seller of the assets, and the holder handing back its stake).) ([note](../research/daily/2026-10-12.md))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for CVX ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +2.6% | +1.4% | $1971.6M | $215.00 | $217.00 | $216.57 | +0.7% | -0.2% | +1.1% |  | 30 | live |
+| 2026-10-12 | `linked_peer` | 0 | +2.6% | +1.4% | $1971.6M | $215.00 | $217.00 | $218.43 | +1.6% | +0.7% | -1.0% |  | 31 | live |

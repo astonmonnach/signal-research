@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $11.01 (2026-11-12, ledger)
-- **Since first found:** **-10.5%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -8.9% vs IWM -0.3% = **-8.6 pts** vs IWM; direction +1 → excess -8.6% (13 days)
+- **Latest price:** $10.28 (2026-11-13, ledger)
+- **Since first found:** **-16.4%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -14.9% vs IWM -2.4% = **-12.6 pts** vs IWM; direction +1 → excess -12.6% (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $11.01 | -10.5% | -8.9% | -0.3% | -8.6% | 13 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $11.01 | -9.1% | -10.0% | -1.0% | -9.0% | 7 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $11.01 | -2.6% | -2.6% | +3.3% |  | 6 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.28 | -16.4% | -14.9% | -2.4% | -12.6% | 14 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.28 | -15.1% | -15.9% | -3.0% | -12.9% | 8 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.28 | -9.1% | -9.0% | +1.2% |  | 7 | live |

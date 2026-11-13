@@ -13,7 +13,7 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-12 | MSGS | MSGS: Rangers spin-off effective; MSGS becomes MSGK | 2026-10-26 | 2026-11-20 | $402.30 | ±7.3% | $29.45 @ 400.0 | 16.7% | none | open |  |
 | 2026-10-20 | MG | MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 | 2026-10-27 | 2026-11-20 | $21.44 | ±21.1% | $4.53 @ 25.0 | 154.2% | none | open |  |
 | 2026-10-19 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-10-29 | 2026-11-20 | $2.57 | ±42.5% | $1.02 @ 2.5 | 50.2% | none | open |  |
-| 2026-10-29 | SKYA | SKYA: tender NOT expiring today; extended to Thu 12 Nov (rel | 2026-10-29 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | - | open |  |
+| 2026-10-29 | SKYA | SKYA: tender NOT expiring today; extended to Thu 12 Nov (rel | 2026-10-29 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | none | open |  |
 | 2026-10-06 | HZO | HZO antitrust (HSR) waiting period ends | 2026-10-30 | 2026-11-20 | $52.35 | ±10.0% | $5.22 @ 50.0 | 175.8% | smaller | open |  |
 | 2026-10-21 | WHF | WHF: record date for the $0.17 special distribution (paid 10 | 2026-10-30 | 2026-11-20 | $7.61 | ±10.5% | $0.80 @ 7.5 | 174.9% | none | open |  |
 | 2026-10-28 | MTUS | MTUS: Q3 results after the close (open position, trade #1) | 2026-11-02 | 2026-11-20 | $21.13 | ±11.5% | $2.40 @ 20.0 | 16.2% | none | open |  |
@@ -26,8 +26,8 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-29 | SKYA | SKYA: $3.00 tender expires one minute after 11:59 pm New Yor | 2026-11-12 | 2026-11-20 | $2.95 | ±28.8% | $0.85 @ 2.5 | 93.3% | smaller | open |  |
 | 2026-11-02 | ACB | ACB: Q2 FY27 results before the open, call 8:00am New York ( | 2026-11-12 | 2026-11-20 | $4.10 | ±14.0% | $0.57 @ 4.0 | 93.9% | smaller | open |  |
 | 2026-11-02 | SKYA | SKYA: tender expiry confirmed in Amendment No. 4, which drop | 2026-11-12 | 2026-11-20 | $2.98 | ±31.1% | $0.93 @ 2.5 | 41.0% | smaller | open |  |
-| 2026-11-12 | CTVA | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $9.29 | ±10.2% | $0.95 @ 10.0 | 63.0% | - | open |  |
-| 2026-11-12 | VYLR | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $72.10 | ±7.8% | $5.65 @ 70.0 | 29.7% | - | open |  |
+| 2026-11-12 | CTVA | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $9.29 | ±10.2% | $0.95 @ 10.0 | 63.0% | none | open |  |
+| 2026-11-12 | VYLR | CTVA and VYLR: Q3 results before the earnings call (10-Qs la | 2026-11-12 | 2026-11-20 | $72.10 | ±7.8% | $5.65 @ 70.0 | 29.7% | none | open |  |
 | 2026-10-28 | NKLR | NKLR: annual meeting (includes extending the time to prepare | 2026-11-16 | 2026-11-20 | $2.13 | ±32.9% | $0.70 @ 2.5 | 42.4% | none | open |  |
 | 2026-11-02 | ARTV | ARTV: Q3 10-Q due (first wind-down cost estimate? T018) | 2026-11-16 | 2026-11-20 | $4.21 | ±22.0% | $0.93 @ 5.0 | 83.3% | none | open |  |
 | 2026-10-26 | SYNA | SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00  | 2026-11-17 | 2026-11-20 | $117.39 | ±2.5% | $2.90 @ 115.0 | 71.4% | smaller | open |  |

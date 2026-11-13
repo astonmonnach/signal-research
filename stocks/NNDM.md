@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `below_cash` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $1.26 (2026-11-12, ledger)
-- **Since first found:** **-4.2%** (found 2026-11-06 via `below_cash` at $1.32). From the next open $1.32: -4.2% vs IWM +1.3% = **-5.5 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $1.26 (2026-11-13, ledger)
+- **Since first found:** **-4.5%** (found 2026-11-06 via `below_cash` at $1.32). From the next open $1.32: -4.5% vs IWM -0.8% = **-3.7 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Nano Dimension Announces 2026 Annual General Meeting (AGM) of Shareholders (GlobeNewswire, published Tue 10 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/10/3400319/0/en/nano-dimension-announces-2026-annual-general-meeting-agm-of-shareholders.html))
 - **[2026-11-06](../scans/2026-11-06.md#new-setups)**: Logged as `below_cash` (direction 0): 0.81x net cash incl. the Markforged sale; well known, ~$25M a quarter burn; tracked; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (- **NNDM:** 0.81x net cash including the Markforged sale, but well known and burning about $25M a quarter.…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: Nano Dimension Reports Financial Results for the Third Quarter 2026 (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/05/3397140/0/en/nano-dimension-reports-financial-results-for-the-third-quarter-2026.html)) · Market scan: 8-K trigger phrase "bio-mention (strategic alternatives), bio-mention (strategic review)" (other phrase (go-shop, bio-mention)) ([filing](https://www.sec.gov/Archives/edgar/data/1643303/000119312526449867/nndm-ex99_1.htm))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for NNDM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `below_cash` | 0 | -9.7% | +5.2% | $1.8M | $1.32 | $1.32 | $1.26 | -4.2% | -4.2% | +1.3% |  | 3 | live |
+| 2026-11-06 | `below_cash` | 0 | -9.7% | +5.2% | $1.8M | $1.32 | $1.32 | $1.26 | -4.5% | -4.5% | -0.8% |  | 4 | live |

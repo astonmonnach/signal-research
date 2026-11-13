@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $4.12 (2026-11-12, ledger)
-- **Since first found:** **-71.5%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -65.6% vs IWM -0.3% = **-65.3 pts** vs IWM; direction -1 → excess +65.3% (38 days)
+- **Latest price:** $3.60 (2026-11-13, ledger)
+- **Since first found:** **-75.2%** (found 2026-10-02 via `8k_reverse_split` at $14.50). From the next open $12.00: -70.0% vs IWM -2.4% = **-67.6 pts** vs IWM; direction -1 → excess +67.6% (39 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -35,6 +35,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Healthcare Triangle Reports Third Quarter 2026 Results: Nine-Month Revenue Up 162% to $28.2 Million and… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/healthcare-triangle-reports-third-quarter-2026-results-nine-month-revenue-up-162-to-28-2-million-and-nine-month-gross-margin-up-354-302937894.html))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -6.0%, found day -0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1839285/000121390026112972/ea030971601ex99-1.htm))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Healthcare Triangle, Inc. Announces 1-for-20 Reverse Stock Split as Part of Nasdaq Compliance Plan (PR Newswire) ([release](https://www.prnewswire.com/news-releases/healthcare-triangle-inc-announces-1-for-20-reverse-stock-split-as-part-of-nasdaq-compliance-plan-302916160.html))
@@ -51,6 +52,6 @@ Every [ledger](../ledger/LEDGER.md) row for HCTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $4.12 | -71.5% | -65.6% | -0.3% | +65.3% | 38 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $4.12 | -71.5% | -65.6% | -0.3% |  | 38 | live |
-| 2026-10-27 | `8k_reverse_split` | -1 | -6.0% | -0.6% | $1.1M | $6.80 | $6.74 | $4.12 | -39.3% | -38.8% | +0.2% | +39.0% | 15 | live |
+| 2026-10-02 | `8k_reverse_split` | -1 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $3.60 | -75.2% | -70.0% | -2.4% | +67.6% | 39 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -3.8% | +3.3% | $3.7M | $14.50 | $12.00 | $3.60 | -75.2% | -70.0% | -2.4% |  | 39 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -6.0% | -0.6% | $1.1M | $6.80 | $6.74 | $3.60 | -47.1% | -46.6% | -1.8% | +44.8% | 16 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.30 (2026-11-12, ledger)
-- **Since first found:** **-76.5%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -77.2% vs IWM -1.2% = **-76.0 pts** vs IWM; direction -1 → excess +76.0% (37 days)
+- **Latest price:** $1.26 (2026-11-13, ledger)
+- **Since first found:** **-77.2%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -77.9% vs IWM -3.2% = **-74.7 pts** vs IWM; direction -1 → excess +74.7% (38 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -34,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.30 | -76.5% | -77.2% | -1.2% | +76.0% | 37 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.30 | -31.9% | -34.3% | +0.2% | +34.6% | 15 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.30 | -31.9% | -29.0% | -0.5% |  | 14 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.26 | -77.2% | -77.9% | -3.2% | +74.7% | 38 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.26 | -34.0% | -36.4% | -1.8% | +34.6% | 16 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.26 | -34.0% | -31.1% | -2.5% |  | 15 | live |

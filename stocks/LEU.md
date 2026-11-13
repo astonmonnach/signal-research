@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $107.45 (2026-11-12, ledger)
-- **Since first found:** **-15.4%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -13.1% vs IWM +2.0% = **-15.1 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $99.26 (2026-11-13, ledger)
+- **Since first found:** **-21.9%** (found 2026-10-15 via `linked_peer` at $127.01). From the next open $123.65: -19.7% vs IWM -0.1% = **-19.7 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Centrus Energy Appoints Kevin Graney to Board of Directors (PR Newswire, published Tue 10 Nov) ([release](https://www.prnewswire.com/news-releases/centrus-energy-appoints-kevin-graney-to-board-of-directors-302935615.html)) · Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`S-3ASR`) ([filing](https://www.sec.gov/Archives/edgar/data/1065059/000110465926121326/0001104659-26-121326-index.htm))
 - **[2026-10-22](../scans/2026-10-22.md#press-releases)**: Press: Centrus to Webcast Conference Call on November 5 at 8:30 a.m. ET (PR Newswire) ([release](https://www.prnewswire.com/news-releases/centrus-to-webcast-conference-call-on-november-5-at-830-am-et-302917455.html))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEU ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $107.45 | -15.4% | -13.1% | +2.0% |  | 27 | live |
+| 2026-10-15 | `linked_peer` | 0 | -18.5% | +5.9% | $111.7M | $127.01 | $123.65 | $99.26 | -21.9% | -19.7% | -0.1% |  | 28 | live |

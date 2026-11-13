@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.34 (2026-11-12, ledger)
-- **Since first found:** **-22.1%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -23.0% vs IWM -0.5% = **-22.5 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $1.16 (2026-11-13, ledger)
+- **Since first found:** **-32.6%** (found 2026-10-28 via `linked_peer` at $1.72). From the next open $1.74: -33.3% vs IWM -2.5% = **-30.8 pts** vs IWM; direction 0, tracked only (15 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Nkarta Presents Initial Safety Data for NKX019 in 40 Patients Across Five Autoimmune Diseases at ACR… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400583/0/en/nkarta-presents-initial-safety-data-for-nkx019-in-40-patients-across-five-autoimmune-diseases-at-acr-convergence-2026.html))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Research: Tue 10 Nov 2026 (- **Linked names:** RA Capital (37.9%), GC Cell (12.3%, also the AlloNK licensor), Viking, Venrock, Leerink…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Nkarta to Host Webcast to Discuss Initial Clinical Data for NKX019 in Autoimmune Diseases at ACR Convergence… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/06/3397882/0/en/nkarta-to-host-webcast-to-discuss-initial-clinical-data-for-nkx019-in-autoimmune-diseases-at-acr-convergence-2026.html))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for NKTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.34 | -22.1% | -23.0% | -0.5% |  | 14 | live |
+| 2026-10-28 | `linked_peer` | 0 | -2.3% | +1.2% | $2.0M | $1.72 | $1.74 | $1.16 | -32.6% | -33.3% | -2.5% |  | 15 | live |

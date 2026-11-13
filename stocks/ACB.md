@@ -6,23 +6,24 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $5.01 (2026-11-12, ledger) · 1d -0.7%, 5d -3.4%, 20d +22.3% (market context, 2026-11-12)
-- **Since first found:** **+26.2%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +25.9% vs IWM +1.5% = **+24.4 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $4.98 (2026-11-13, ledger) · 1d -0.3%, 5d -5.1%, 20d +24.7% (market context, 2026-11-13)
+- **Since first found:** **+25.5%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +25.2% vs IWM -0.6% = **+25.7 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -3.4% vs peer median -5.8%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-12)
+- **Peers / sympathy:** no flag (self 5d -5.1% vs peer median -5.9%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 12 Nov 2026: ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)
   - Wed 18 Nov 2026: ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
   - Wed 23 Dec 2026: ACB/OGI: target date for both shareholder meetings on the Organigram arrangement (T021)
   - Wed 23 Dec 2026: ACB: special meeting on the Organigram arrangement confirmed (virtual; T021)
+  - Wed 6 Jan 2027: ACB: earliest closing of the Organigram arrangement
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Calendar: ACB: (moved) results came out early on 5 Nov and the 12 Nov call was cancelled because of the Organigram deal ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **ACB (T021):** the package gap was 3.6% on 11 Nov (arith), below the 6% bar. The results the calendar…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **ACB**: Trium Capital 5.0%, passive (event 26 Oct). T021 gap 3.0% on 10 Nov. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov · Research: Research: Wed 11 Nov 2026 (- **ACB (T021):** package gap 3.0% on 10 Nov (below 6%). Trium Capital filed a passive 13G at 5.0%. Curaleaf…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **ACB** 6-K: special meeting 23 Dec, record date 18 Nov (calendar). Package gap 3.3% vs the 6% bar. T021 open. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `6-K` 9 Nov · Research: Every event, at its actual time (ACB (WATCH 20/10): peak +33.2% on 05 Nov (session 12), low -3.5% on 26 Oct, now +29.6%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Options record:** MSGK annual meeting (8 Dec): **smaller** (routine meeting, results already out). Three…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (20/10 ACB $3.98 +33.2% 5 Nov (12) -3.5% -3.5% 26 Oct +29.6% -2.6%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **Verdict:** **tracked, no call**. Switching to a 13D would itself be the headline, so there's no trigger…) ([note](../research/daily/2026-11-06.md))
@@ -42,5 +43,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $5.01 | +26.2% | +25.9% | +1.5% |  | 22 | live |
-| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $5.01 | -4.4% | -3.6% | -1.0% |  | 7 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.98 | +25.5% | +25.2% | -0.6% |  | 23 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.98 | -4.9% | -4.2% | -3.0% |  | 8 | live |
