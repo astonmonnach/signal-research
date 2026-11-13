@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $79.90 (2026-11-13, ledger)
-- **Since first found:** **+24.2%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +26.6% vs IWM +0.7% = **+25.9 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $80.36 (2026-11-13, ledger) · 1d +2.2%, 5d +2.0%, 20d +18.1% (market context, 2026-11-13)
+- **Since first found:** **+24.9%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +27.4% vs IWM +1.0% = **+26.4 pts** vs IWM; direction 0, tracked only (30 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** no flag (self 5d +2.0% vs peer median +2.2%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#press-releases)**: Press: Patrick Industries, Inc. Announces Increase to Regular Quarterly Cash Dividend and Replenished Share… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-announces-increase-to-regular-quarterly-cash-dividend-and-replenished-share-repurchase-authorization-302938935.html))
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Patrick Industries, Inc. to Participate in Upcoming Investor Conferences (PR Newswire, published Mon 2 Nov) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-to-participate-in-upcoming-investor-conferences-302926871.html))
 - **[2026-10-29](../scans/2026-10-29.md#press-releases)**: Press: Patrick Industries, Inc. Reports Third Quarter 2026 Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-reports-third-quarter-2026-financial-results-302923617.html))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners (Business Wire) ([release](http://www.businesswire.com/news/home/20261027923281/en/LCI-Industries-Confirms-Receipt-of-Unsolicited-Non-Binding-Proposal-from-Monomoy-Capital-Partners/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Press: Patrick Industries, Inc. Reaffirms Merger Agreement with LCI Industries (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-reaffirms-merger-agreement-with-lci-industries-302921983.html)) · Research: Research: Wed 28 Oct 2026 (- The board still backs Patrick's all-stock deal (1.2440 PATK; votes 18 Nov; DOJ second request open), and…) ([note](../research/daily/2026-10-28.md))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $79.90 | +24.2% | +26.6% | +0.7% |  | 30 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $79.90 | +26.2% | +24.3% | +1.4% |  | 29 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $80.36 | +24.9% | +27.4% | +1.0% |  | 30 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $80.36 | +26.9% | +25.0% | +1.7% |  | 29 | live |

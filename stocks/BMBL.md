@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
 - **Latest price:** $6.01 (2026-11-13, ledger) · 1d -0.1%, 5d +0.6%, 20d +1.1% (market context, 2026-11-13)
-- **Since first found:** **+0.9%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.9% vs IWM +0.7% = **+0.2 pts** vs IWM; direction 0, tracked only (30 days)
+- **Since first found:** **+1.0%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +1.0% vs IWM +1.0% = **+0.1 pts** vs IWM; direction 0, tracked only (30 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median -1.4%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median -1.5%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -38,5 +38,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.01 | +0.9% | +0.9% | +0.7% |  | 30 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.01 | +0.9% | +0.9% | +0.7% |  | 30 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.01 | +1.0% | +1.0% | +1.0% |  | 30 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $6.01 | +1.0% | +1.0% | +1.0% |  | 30 | live |

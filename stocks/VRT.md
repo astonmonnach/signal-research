@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $198.23 (2026-11-13, ledger)
-- **Since first found:** **-21.8%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -21.7% vs IWM -3.2% = **-18.5 pts** vs IWM; direction 0, tracked only (38 days)
+- **Latest price:** $198.22 (2026-11-13, ledger) · 1d -5.5%, 5d +8.3%, 20d -4.1% (market context, 2026-11-13)
+- **Since first found:** **-21.8%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -21.7% vs IWM -3.0% = **-18.8 pts** vs IWM; direction 0, tracked only (38 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** missed_peer_move: peer median +41.8% 5d vs VRT +8.3%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3679 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#press-releases)**: Press: Vertiv Declares Quarterly Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vertiv-declares-quarterly-dividend-302938565.html))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Vertiv and Infineon Deepen Strategic Partnership for Critical Power Infrastructure (PR Newswire) ([release](https://www.prnewswire.com/news-releases/vertiv-and-infineon-deepen-strategic-partnership-for-critical-power-infrastructure-302928515.html)) · Research: Research: Wed 4 Nov 2026 (- TTMI -11% on 4 Nov, alongside the data-centre hardware sell-off (VRT, SANM, CLS).) ([note](../research/daily/2026-11-04.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -3.1%, found day +4.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm))
@@ -31,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $198.23 | -21.8% | -21.7% | -3.2% |  | 38 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $198.23 | -5.0% | -18.4% | -1.8% |  | 16 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $198.22 | -21.8% | -21.7% | -3.0% |  | 38 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $198.22 | -5.0% | -18.4% | -1.6% |  | 16 | live |

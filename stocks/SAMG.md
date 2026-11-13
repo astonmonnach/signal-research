@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `holder_buying` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
 - **Latest price:** $11.09 (2026-11-13, ledger)
-- **Since first found:** **+6.3%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: +6.8% vs IWM -1.0% = **+7.8 pts** vs IWM; direction 0, tracked only (17 days)
+- **Since first found:** **+6.3%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: +6.8% vs IWM -0.7% = **+7.5 pts** vs IWM; direction 0, tracked only (17 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for SAMG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $11.09 | +6.3% | +6.8% | -1.0% |  | 17 | live |
+| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $11.09 | +6.3% | +6.8% | -0.7% |  | 17 | live |

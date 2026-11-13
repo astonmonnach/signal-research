@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `takeover_proposal` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $36.74 (2026-11-13, ledger)
-- **Since first found:** **+4.5%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +5.4% vs IWM -2.4% = **+7.8 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $36.90 (2026-11-13, ledger)
+- **Since first found:** **+5.0%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +5.8% vs IWM -2.1% = **+8.0 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for DIN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $36.74 | +4.5% | +5.4% | -2.4% |  | 14 | live |
-| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $36.74 | +0.7% | +0.7% | -1.6% | +2.3% | 10 | live |
-| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $36.74 | +0.7% | +0.2% | -3.0% |  | 8 | live |
+| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $36.90 | +5.0% | +5.8% | -2.1% |  | 14 | live |
+| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $36.90 | +1.1% | +1.1% | -1.4% | +2.5% | 10 | live |
+| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $36.90 | +1.1% | +0.7% | -2.7% |  | 8 | live |
