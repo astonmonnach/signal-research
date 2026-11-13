@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.44 (2026-11-13, ledger) · 1d -0.1%, 5d +0.0%, 20d +0.3% (market context, 2026-11-13)
-- **Since first found:** **+0.1%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.3% vs IWM -0.6% = **+0.9 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $36.44 (2026-11-13, ledger) · 1d -0.0%, 5d +0.0%, 20d +0.3% (market context, 2026-11-13)
+- **Since first found:** **+0.1%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.3% vs IWM -0.7% = **+1.0 pts** vs IWM; direction 0, tracked only (35 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (self 5d +0.0% vs peer median +0.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -35,7 +35,7 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.44 | +0.1% | +0.3% | -0.6% |  | 35 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.44 | +0.4% | +0.3% | -0.7% |  | 32 | live |
-| 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.44 | +0.1% | +0.1% | -1.8% |  | 11 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.44 | +0.1% | +0.1% | +1.7% |  | 7 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.44 | +0.1% | +0.3% | -0.7% |  | 35 | live |
+| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.44 | +0.4% | +0.3% | -0.8% |  | 32 | live |
+| 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.44 | +0.1% | +0.1% | -1.9% |  | 11 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.44 | +0.1% | +0.1% | +1.6% |  | 7 | live |

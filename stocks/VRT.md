@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $199.62 (2026-11-13, ledger) · 1d -4.8%, 5d +9.2%, 20d -3.3% (market context, 2026-11-13)
-- **Since first found:** **-21.3%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -21.2% vs IWM -2.8% = **-18.4 pts** vs IWM; direction 0, tracked only (38 days)
+- **Latest price:** $198.92 (2026-11-13, ledger) · 1d -4.9%, 5d +9.1%, 20d -3.4% (market context, 2026-11-13)
+- **Since first found:** **-21.6%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -21.4% vs IWM -2.9% = **-18.6 pts** vs IWM; direction 0, tracked only (38 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median +40.9% 5d vs VRT +9.2%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3679 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** missed_peer_move: peer median +40.2% 5d vs VRT +9.1%; peers moved, it didn't. Peer groups: thermal / data-center cooling (1), SIC 3679 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $199.62 | -21.3% | -21.2% | -2.8% |  | 38 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $199.62 | -4.3% | -17.9% | -1.4% |  | 16 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $198.92 | -21.6% | -21.4% | -2.9% |  | 38 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $198.92 | -4.6% | -18.1% | -1.4% |  | 16 | live |

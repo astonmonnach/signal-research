@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_cvr` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
 - **Latest price:** $8.30 (2026-11-13, ledger) · 1d +0.6%, 5d -0.5%, 20d +0.4% (market context, 2026-11-13)
-- **Since first found:** **+1.1%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +1.1% vs IWM -1.3% = **+2.4 pts** vs IWM; direction -1 → excess -2.4% (44 days)
+- **Since first found:** **+1.1%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +1.1% vs IWM -1.4% = **+2.5 pts** vs IWM; direction -1 → excess -2.5% (44 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (self 5d -0.5% vs peer median +0.6%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -35,8 +35,8 @@ Every [ledger](../ledger/LEDGER.md) row for SSTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.30 | +1.1% | +1.1% | -1.3% | -2.4% | 44 | live |
-| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.30 | -0.4% | -0.4% | -1.9% | +1.6% | 39 | live |
-| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.30 | -1.2% | -1.1% | -0.1% |  | 23 | live |
-| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.30 | -1.2% | -0.9% | +0.6% |  | 22 | live |
-| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.30 | -0.2% | -0.2% | -1.1% |  | 3 | live |
+| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.30 | +1.1% | +1.1% | -1.4% | -2.5% | 44 | live |
+| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.30 | -0.4% | -0.4% | -2.0% | +1.6% | 39 | live |
+| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.30 | -1.2% | -1.1% | -0.2% |  | 23 | live |
+| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.30 | -1.2% | -0.9% | +0.5% |  | 22 | live |
+| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.30 | -0.2% | -0.2% | -1.2% |  | 3 | live |
