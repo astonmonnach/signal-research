@@ -255,3 +255,7 @@ date,a,b,type,detail,source
 2026-11-11,ICMB,BCIC,merger,"BCIC to acquire ICMB for 90% of ICMB NAV in BCIC shares at NAV (capped at 19.99%) plus cash; signed 11 Nov 2026, close expected Q1 2027",https://www.sec.gov/Archives/edgar/data/1372807/000119312526457103/d182548d8k.htm
 2026-11-11,ICMB,fund:Investcorp BDC Holdings,holder_13d,"key stockholder agreement with BCIC (voting support, transfer restriction, standstill); key holders total about 41% of ICMB",https://www.sec.gov/Archives/edgar/data/1372807/000119312526457103/d182548d8k.htm
 2026-11-12,SKYA,fund:SOL Markets,counterparty,"tendering 2,157,900 shares and 3,955,293 strategic warrants into the $3.00 offer (Amendment No. 6)",https://www.sec.gov/Archives/edgar/data/1737995/000149315226051201/formsctoia.htm
+2026-11-13,NVDA,TSM,customer,NVDA uses TSMC as a foundry for its wafers (10-K),https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+2026-11-13,NVDA,MU,customer,NVDA buys memory from Micron (10-K),https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+2026-11-13,GCTS,fund:Indigo,counterparty,floating-price convertible notes at 90% of the lowest 3-day VWAP (Q3 10-Q),https://www.sec.gov/Archives/edgar/data/1851961/000119312526458474/gcts-20260930.htm
+2026-11-13,GCTS,fund:Obsidian,counterparty,floating-price convertible notes at 95% of the reference price (Q3 10-Q),https://www.sec.gov/Archives/edgar/data/1851961/000119312526458474/gcts-20260930.htm

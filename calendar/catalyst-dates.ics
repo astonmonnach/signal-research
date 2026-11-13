@@ -616,10 +616,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:d70f8aaf2f13b09855c5c7f5132e325a@signal-lab
 DTSTAMP:20261018T140000Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed)
-DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1500435/000150043526000064/0001500435-26-000064-index.htm
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:GPRO: outside date for the $1.14 cash plus stock takeover\, moved from 31 Dec 2026 by Amendment No. 1 (6 Nov\; buyer still needs its commitment letter extended)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1500435/000162828026073371/gpro-20261106.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:4fb1c9883bb49e88bded3aec6890ae23@signal-lab
@@ -1380,5 +1380,69 @@ DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:AGLT: lock-up on about 160.8M shares (66%) ends\, earlier at a $12.00 VWAP for 15 of 180 days (AVOID register)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2074973/000121390026118025/ea0311220-s1_agility.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:0e2c0f0301a61593fd0095a380ca2f70@signal-lab
+DTSTAMP:20261113T193000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ENVX: warrants distributed (about 18 Nov) and start trading as ENVXW\; $3.00 exercise\, cash or 2028 Notes (AVOID)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1828318/000182831826000069/enovixq32026financialres.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:14d46e0578104c63b63ed11c6c91b2c5@signal-lab
+DTSTAMP:20261113T193000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:NVDA: Q3 FY27 results\, call 5pm New York\, first under interim CEO Colette Kress (Huang resigned 11 Nov)
+DESCRIPTION:https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873
+END:VEVENT
+BEGIN:VEVENT
+UID:8c8ffaf47182bbad864e0d053a39a3b0@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:MYPS: modified Dutch auction tender ($4.30-5.50\, up to $15M) expires midnight New York\; treated as a dividend for withholding
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1823878/000207709626000313/ea031178201ex99a1i.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:9c04a5175b2c8599ba69d1fe93c1bb26@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:AIRI: special meeting on the Tenax reverse merger (10am ET)\; Tenax says AIR breached merger covenants
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1009891/000121390026118187/ea0311763-8k_airindus.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:af4a357c8e2119626d1d78df40143090@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:RLYB: Avenzo merger expected to close after the close
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1739410/000119312526458624/d176721d8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:6c21d1a41bdcd6783630fe122d24df96@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:JBSS: record date for the $2.00 special dividend (paid 18 Dec\; 15% US withholding for UK holders)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/880117/000119312526458301/jbss-ex99_1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:aee2b60948ea76daaa89123a11563b14@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:AGLT: resale registration due within 30 days of the 4 Nov closing (supply\; arith)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2074973/000121390026118976/xslSCHEDULE_13D_X02/primary_doc.xml
+END:VEVENT
+BEGIN:VEVENT
+UID:a06d4378e4778b791d67beb3a38df095@signal-lab
+DTSTAMP:20261113T200000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:VISN: CEO Chuck Treadway steps down
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1517228/000119312526452515/visn-20261104.htm
 END:VEVENT
 END:VCALENDAR
