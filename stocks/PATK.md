@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $80.36 (2026-11-13, ledger) · 1d +2.2%, 5d +2.0%, 20d +18.1% (market context, 2026-11-13)
-- **Since first found:** **+24.9%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +27.4% vs IWM +1.0% = **+26.4 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $81.31 (2026-11-13, ledger) · 1d +3.5%, 5d +3.2%, 20d +19.5% (market context, 2026-11-13)
+- **Since first found:** **+26.4%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +28.9% vs IWM +1.2% = **+27.7 pts** vs IWM; direction 0, tracked only (30 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +2.0% vs peer median +2.2%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** no flag (self 5d +3.2% vs peer median +2.2%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -34,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $80.36 | +24.9% | +27.4% | +1.0% |  | 30 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $80.36 | +26.9% | +25.0% | +1.7% |  | 29 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $81.31 | +26.4% | +28.9% | +1.2% |  | 30 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $81.31 | +28.4% | +26.5% | +1.9% |  | 29 | live |

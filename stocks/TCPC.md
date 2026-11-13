@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $4.09 (2026-11-13, ledger) · 1d -0.4%, 5d -4.8%, 20d -1.6% (market context, 2026-11-13)
-- **Since first found:** **+0.4%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +0.4% vs IWM +1.7% = **-1.3 pts** vs IWM; direction +1 → excess -1.3% (29 days)
+- **Latest price:** $4.11 (2026-11-13, ledger) · 1d +0.1%, 5d -4.3%, 20d -1.1% (market context, 2026-11-13)
+- **Since first found:** **+0.9%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +0.9% vs IWM +1.9% = **-1.0 pts** vs IWM; direction +1 → excess -1.0% (29 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-13)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -32,7 +32,7 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.09 | +0.4% | +0.4% | +1.7% | -1.3% | 29 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.09 | -3.0% | -3.2% | +0.2% |  | 28 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.09 | -4.1% | -3.6% | +1.5% | -5.1% | 7 | live |
-| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.09 | -4.8% | -4.5% | -0.5% |  | 4 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.11 | +0.9% | +0.9% | +1.9% | -1.0% | 29 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.11 | -2.5% | -2.7% | +0.4% |  | 28 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.11 | -3.6% | -3.2% | +1.7% | -4.9% | 7 | live |
+| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.11 | -4.3% | -4.1% | -0.3% |  | 4 | live |
