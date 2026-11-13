@@ -293,3 +293,5 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-13,LASE,Going-concern doubt in the Q3 10-Q; under $1,distress,no,active,2026-11-13,,,research/daily/2026-11-13.md
 2026-11-13,KSCP,Going-concern doubt in the Q3 10-Q; under $1,distress,no,active,2026-11-13,,,research/daily/2026-11-13.md
 2026-11-13,RKDA,Going-concern doubt in the Q3 10-Q; under $1,distress,no,active,2026-11-13,,,research/daily/2026-11-13.md
+2026-11-13,RETO,"424B5 (12 Nov): on 6 Nov the floor on Mapie Wind's up to $36M of pre-paid purchases was cut from $16.00 to $0.10, at 50% of the lowest close in 180 trading days; tiny after 1-for-20 and 1-for-8 consolidations; +99% in five days then -24.5% on 13 Nov, so register only",ongoing_supply,yes,active,2026-11-13,,,research/daily/2026-11-13.md
+2026-11-13,XLAB,"Resale S-1 for up to 12,350,000 Class A shares (36.7% of 33.69M) effective 4 Nov (sponsor founder-share holders); -67% from 29 Oct to 11 Nov, then +118% on 12 Nov with no news; already run, so register only",holder_selling,yes,active,2026-11-13,,,research/daily/2026-11-13.md
