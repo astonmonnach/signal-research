@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 03:24 UTC",
+ "updated": "2026-11-13 01:51 UTC",
  "buckets": {
   "micro": [
    0,
@@ -30,11 +30,11 @@
   },
   "CTVA": {
    "ticker": "CTVA",
-   "shares": 667196000,
+   "shares": 667323000,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-07-24",
+   "shares_date": "2026-11-05",
    "price": 12.140000343322754,
-   "mcap": 8099759669.063568,
+   "mcap": 8101301449.10717,
    "bucket": "mid"
   },
   "THRM": {
@@ -160,11 +160,11 @@
   },
   "PED": {
    "ticker": "PED",
-   "shares": 13290902,
+   "shares": 13282934,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-11",
+   "shares_date": "2026-11-09",
    "price": 13.619999885559082,
-   "mcap": 181022083.71897697,
+   "mcap": 180913559.55988884,
    "bucket": "micro"
   },
   "TALO": {
@@ -200,11 +200,11 @@
   },
   "SMTI": {
    "ticker": "SMTI",
-   "shares": 9188035,
+   "shares": 9182824,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-07",
+   "shares_date": "2026-11-10",
    "price": 31.610000610351562,
-   "mcap": 290433791.9579315,
+   "mcap": 290269072.244751,
    "bucket": "micro"
   },
   "MG": {
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.510000228881836
+   "price": 17.290000915527344
   },
   "CRMT": {
    "ticker": "CRMT",
@@ -365,11 +365,11 @@
   },
   "SSTI": {
    "ticker": "SSTI",
-   "shares": 13163790,
+   "shares": 13240512,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-05",
+   "shares_date": "2026-11-05",
    "price": 8.229999542236328,
-   "mcap": 108337985.67409515,
+   "mcap": 108969407.69897461,
    "bucket": "micro"
   },
   "DIBS": {
@@ -434,7 +434,7 @@
    "ticker": "NPB",
    "shares": 34581842,
    "shares_source": "SEC cover page (dei)",
-   "shares_date": "2026-08-13",
+   "shares_date": "2026-11-12",
    "price": 15.770000457763672,
    "mcap": 545355664.170311,
    "bucket": "small"
@@ -459,7 +459,7 @@
   },
   "VVR": {
    "ticker": "VVR",
-   "price": 2.869999885559082
+   "price": 2.819999933242798
   },
   "CCAP": {
    "ticker": "CCAP",
