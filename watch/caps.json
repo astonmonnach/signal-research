@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 02:57 UTC",
+ "updated": "2026-11-14 01:27 UTC",
  "buckets": {
   "micro": [
    0,
@@ -339,7 +339,7 @@
   },
   "BMEZ": {
    "ticker": "BMEZ",
-   "price": 17.290000915527344
+   "price": 17.18000030517578
   },
   "CRMT": {
    "ticker": "CRMT",
@@ -459,7 +459,7 @@
   },
   "VVR": {
    "ticker": "VVR",
-   "price": 2.819999933242798
+   "price": 2.869999885559082
   },
   "CCAP": {
    "ticker": "CCAP",
