@@ -5,8 +5,8 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 ## Scoreboard
 
 - Calls: **16** · marked: 15 · open: 13 · closed: 2
-- Total P&L on $1,000 per call: **$+3,769.54**
-- Average vs the market: **+24.8%** · beat it: 13/15 · t-stat 4.00 (need about 2 and 20+ calls before it means anything)
+- Total P&L on $1,000 per call: **$+3,798.53**
+- Average vs the market: **+25.0%** · beat it: 13/15 · t-stat 4.03 (need about 2 and 20+ calls before it means anything)
 
 ## Every call
 
@@ -23,7 +23,7 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 | 9 | 2026-10-28 | AVOID **NIVF** | [Fourth reverse split since July (1:8 on 23 Oct) after a 30 Sep sale at $0.07; a $100M White Lion equity line and three convertible holders sell into any rise; new $100M F-3](../research/daily/2026-10-28.md) | $1.13 (2026-10-29) | $0.28 | +75.5% | +74.1% (IWM) | +78.1% (XLV) | 14 | open |
 | 10 | 2026-11-01 | AVOID **IPW** | [ATW floating-price notes (95% of the lowest 7-day VWAP; $15M undrawn) have converted into about 72% of the 596,808 shares; a resale S-1/A covers up to 8.09M more (at a $0.445 floor); three reverse splits in 2026](../research/daily/2026-10-29.md) | $1.74 (2026-11-02) | $1.29 | +25.9% | +24.7% (IWM) | +27.3% (XRT) | 10 | open |
 | 11 | 2026-11-01 | AVOID **GRRR** | [Up to $111.1M of floating-price notes (90% of the three lowest VWAPs in 20 days, $6M a month, floor $3.858) four months after converts at $25.48; asks holders to lift authorised shares from 73.5M to 200M](../research/daily/2026-11-02.md) | $7.60 (2026-11-02) | $7.20 | +5.3% | +4.1% (IWM) | +2.3% (IGV) | 10 | open |
-| 12 | 2026-11-01 | AVOID **MVIS** | [Going-concern doubt in the Q3 10-Q, a $41.1M unused ATM (about 89% of the company at $1.35) and a convertible holder converting near $1.13](../research/daily/2026-11-02.md) | $1.38 (2026-11-02) | $1.09 | +21.0% | +19.9% (IWM) | +41.9% (OUST) | 10 | open |
+| 12 | 2026-11-01 | AVOID **MVIS** | [Going-concern doubt in the Q3 10-Q, a $41.1M unused ATM (about 89% of the company at $1.35) and a convertible holder converting near $1.13](../research/daily/2026-11-02.md) | $1.38 (2026-11-02) | $1.05 | +23.9% | +22.5% (IWM) |  (OUST) | 11 | open |
 | 13 | 2026-11-01 | AVOID **CABO** | [Strategic-alternatives committee now includes a former Chief Restructuring Officer ($40k a month), after a $700M revolver draw to hoard cash and the end of investor talks; about $31M of equity against about $3.8B of debt (arith)](../research/daily/2026-11-02.md) | $5.35 (2026-11-02) | $2.96 | +44.7% | +43.5% (IWM) | +62.9% (CHTR) | 10 | open |
 | 14 | 2026-11-04 | AVOID **BIAF** | [At-the-market sales of up to $5.23M more (about 99% of the 1.81M shares held by non-affiliates at $2.91), after $4.0M already sold under the small-company cap; a 20 Nov vote on warrant shares (1,128,272 and 980,072); going-concern doubt](../research/daily/2026-11-03.md) | $2.96 (2026-11-05) | $2.34 | +20.9% | +19.1% (IWM) | +17.0% (XBI) | 7 | open |
 | 15 | 2026-11-04 | AVOID **XRPN** | [Cantor equity line live since 30 Oct (up to 5.22M shares at 97% of VWAP, about 20% of the 26.1M Class A) with a 73.7M-share resale S-1 pending; -17.6% on 2 Nov on 3.7x volume while XRP was flat](../research/daily/2026-11-03.md) | $10.51 (2026-11-05) | $8.97 | +14.7% | +12.8% (IWM) | +4.5% (IBIT) | 7 | open |
