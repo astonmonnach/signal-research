@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "published_utc": "2026-11-16T09:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CYTK",
+  "title": "Cytokinetics Announces Prescribing Information for MYQORZO® (aficamten) Expanded to Include Data from Phase 3 MAPLE-HCM",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-16T07:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RLMD",
+  "title": "Relmada Therapeutics Appoints Uro-Oncology Leader Jørn Skibsted Jakobsen, MD, PhD, as Chief Development Officer",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403167/0/en/relmada-therapeutics-appoints-uro-oncology-leader-j%C3%B8rn-skibsted-jakobsen-md-phd-as-chief-development-officer.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-16T06:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LKFT",
+  "title": "Lakefront Initiates New €50 Million Share Repurchase Program Following Completion of Initial Share Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403163/0/en/lakefront-initiates-new-50-million-share-repurchase-program-following-completion-of-initial-share-repurchase-program.html",
+  "matched_on": "keyword:share repurchase"
+ }
+]
