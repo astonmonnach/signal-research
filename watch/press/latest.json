@@ -1,26 +1,138 @@
 [
  {
-  "published_utc": "2026-11-16T09:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "CYTK",
-  "title": "Cytokinetics Announces Prescribing Information for MYQORZO® (aficamten) Expanded to Include Data from Phase 3 MAPLE-HCM",
-  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html",
-  "matched_on": "keyword:Phase 3"
+  "published_utc": "2026-11-16T13:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "ACOG",
+  "title": "Alpha Cognition Announces Publication of U.S. Patent Application for Benzgalantamine for Treating Persistent Post-Concussion Symptoms",
+  "link": "http://www.businesswire.com/news/home/20261116172110/en/Alpha-Cognition-Announces-Publication-of-U.S.-Patent-Application-for-Benzgalantamine-for-Treating-Persistent-Post-Concussion-Symptoms/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-16T07:00:00Z",
+  "published_utc": "2026-11-16T13:00:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "RLMD",
-  "title": "Relmada Therapeutics Appoints Uro-Oncology Leader Jørn Skibsted Jakobsen, MD, PhD, as Chief Development Officer",
-  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403167/0/en/relmada-therapeutics-appoints-uro-oncology-leader-j%C3%B8rn-skibsted-jakobsen-md-phd-as-chief-development-officer.html",
-  "matched_on": "keyword:Phase 3"
+  "ticker": "AFCG",
+  "title": "AFC Announces Results of Article 9 Public Sale of Justice Grown’s Pennsylvania Dispensaries",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403486/0/en/afc-announces-results-of-article-9-public-sale-of-justice-grown-s-pennsylvania-dispensaries.html",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-16T06:30:00Z",
+  "published_utc": "2026-11-16T13:00:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "LKFT",
-  "title": "Lakefront Initiates New €50 Million Share Repurchase Program Following Completion of Initial Share Repurchase Program",
-  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403163/0/en/lakefront-initiates-new-50-million-share-repurchase-program-following-completion-of-initial-share-repurchase-program.html",
+  "ticker": "NIVF",
+  "title": "NewGen Provides Business Update",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403460/0/en/newgen-provides-business-update.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-16T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "TTRX",
+  "title": "Turn Therapeutics to Present at Jefferies Global Healthcare Conference in London",
+  "link": "http://www.businesswire.com/news/home/20261116536424/en/Turn-Therapeutics-to-Present-at-Jefferies-Global-Healthcare-Conference-in-London/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-16T14:26:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "RPID",
+  "title": "Rapid Micro Biosystems Signs Definitive Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403664/33206/en/rapid-micro-biosystems-signs-definitive-agreement-to-be-acquired-by-merck-kgaa-darmstadt-germany.html",
+  "matched_on": "keyword:definitive agreement;keyword:to be acquired"
+ },
+ {
+  "published_utc": "2026-11-16T14:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "ONTO",
+  "title": "Onto Innovation Announces $400 Million Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261116538186/en/Onto-Innovation-Announces-400-Million-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
   "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-16T14:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "XOM",
+  "title": "ExxonMobil: Cash tender offers to purchase certain outstanding notes",
+  "link": "http://www.businesswire.com/news/home/20261116008533/en/ExxonMobil-Cash-tender-offers-to-purchase-certain-outstanding-notes/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
+  "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-11-16T14:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LNTH",
+  "title": "Lantheus Presents Data from Two Pivotal Phase 3 Studies of TAUKLARIFY (Florquinitau F 18 Injection) PET Imaging in Early Alzheimer’s Disease",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403601/0/en/lantheus-presents-data-from-two-pivotal-phase-3-studies-of-tauklarify-florquinitau-f-18-injection-pet-imaging-in-early-alzheimer-s-disease.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "JNJ",
+  "title": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology",
+  "link": "http://www.businesswire.com/news/home/20261116907414/en/Johnson-Johnson-to-acquire-Ollin-Biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "WFRD",
+  "title": "Weatherford Awarded a Deepwater Managed Pressure Drilling Contract by Constellation for a Drillship Operation in Brazil",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403431/0/en/weatherford-awarded-a-deepwater-managed-pressure-drilling-contract-by-constellation-for-a-drillship-operation-in-brazil.html",
+  "matched_on": "keyword:awarded a contract"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "PXLW",
+  "title": "Pixelworks Announces Board Authorization of Expanded Stock Repurchase Program",
+  "link": "https://www.prnewswire.com/news-releases/pixelworks-announces-board-authorization-of-expanded-stock-repurchase-program-302940362.html",
+  "matched_on": "keyword:stock repurchase"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "CGON",
+  "title": "PIVOT-006 Phase 3 Registrational Trial Demonstrates Unprecedented Improvement in Recurrence-Free Survival (RFS) for Intermediate-Risk and High-Grade Ta Non-Muscle Invasive Bladder Cancer (NMIBC)",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403439/0/en/pivot-006-phase-3-registrational-trial-demonstrates-unprecedented-improvement-in-recurrence-free-survival-rfs-for-intermediate-risk-and-high-grade-ta-non-muscle-invasive-bladder-ca.html",
+  "matched_on": "keyword:Phase 3"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "MDWD",
+  "title": "MediWound to Host Virtual KOL Event on EscharEx® Phase III VALUE Study and Commercial Opportunity on December 2, 2026",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403462/30505/en/mediwound-to-host-virtual-kol-event-on-escharex-phase-iii-value-study-and-commercial-opportunity-on-december-2-2026.html",
+  "matched_on": "keyword:Phase III"
+ },
+ {
+  "published_utc": "2026-11-16T13:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "TEVA",
+  "title": "U.S. FDA Approves IGALMI® as First At-Home Acute Treatment for Agitation Associated with Schizophrenia, Schizoaffective Disorder, or Bipolar I or II Disorder in Adults",
+  "link": "https://www.globenewswire.com/news-release/2026/11/16/3403459/0/en/u-s-fda-approves-igalmi-as-first-at-home-acute-treatment-for-agitation-associated-with-schizophrenia-schizoaffective-disorder-or-bipolar-i-or-ii-disorder-in-adults.html",
+  "matched_on": "keyword:FDA approves"
+ },
+ {
+  "published_utc": "2026-11-16T12:50:00Z",
+  "wire": "Business Wire",
+  "ticker": "ABCB",
+  "title": "Ameris Bancorp Enhances Central Florida Presence Through Agreement to Acquire Bank of Central Florida Holding Company",
+  "link": "http://www.businesswire.com/news/home/20261116215742/en/Ameris-Bancorp-Enhances-Central-Florida-Presence-Through-Agreement-to-Acquire-Bank-of-Central-Florida-Holding-Company/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-16T12:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "HIHO",
+  "title": "HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
+  "link": "https://www.prnewswire.com/news-releases/highway-holdings-declares-us0-43228-cash-per-share-special-dividend-302939872.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-11-16T11:59:00Z",
+  "wire": "Business Wire",
+  "ticker": "BXDC",
+  "title": "Blackstone Digital Infrastructure Trust Announces $5 Billion Acquisition of Stabilized Data Center Portfolio",
+  "link": "http://www.businesswire.com/news/home/20261115127759/en/Blackstone-Digital-Infrastructure-Trust-Announces-5-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement"
  }
 ]
