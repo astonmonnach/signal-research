@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md)); `merger_arb` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $0.618 (2026-11-16, ledger) · 1d -2.3%, 5d -29.8%, 20d -40.6% (market context, 2026-11-16)
-- **Since first found:** **-41.1%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -45.0% vs IWM +1.0% = **-46.0 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $0.621 (2026-11-16, ledger) · 1d -2.0%, 5d -29.5%, 20d -40.3% (market context, 2026-11-16)
+- **Since first found:** **-40.9%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -44.8% vs IWM +0.8% = **-45.7 pts** vs IWM; direction 0, tracked only (28 days)
   - 6 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: GPRO -29.8% 5d vs peer median -2.9%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-16)
+- **Peers / sympathy:** solo_move: GPRO -29.5% 5d vs peer median -3.4%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 31 Mar 2027: GPRO: outside date for the $1.14 cash plus stock takeover, moved from 31 Dec 2026 by Amendment No. 1 (6 Nov; buyer still needs its commitment letter extended)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -38,10 +38,10 @@ Every [ledger](../ledger/LEDGER.md) row for GPRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.618 | -41.1% | -45.0% | +1.0% |  | 28 | live |
-| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.618 | -41.1% | -45.0% | +1.0% |  | 28 | live |
-| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.618 | -40.5% | -40.3% | +1.1% |  | 27 | live |
-| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.618 | -43.8% | -44.0% | -0.8% |  | 26 | live |
-| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.618 | -35.9% | -36.3% | -3.4% | +32.9% | 12 | live |
-| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.618 | -7.7% | -9.1% | -1.6% |  | 3 | live |
-| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.618 | -2.3% | -2.0% | -0.6% |  | 0 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.621 | -40.9% | -44.8% | +0.8% |  | 28 | live |
+| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.621 | -40.9% | -44.8% | +0.8% |  | 28 | live |
+| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.621 | -40.3% | -40.0% | +0.9% |  | 27 | live |
+| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.621 | -43.6% | -43.9% | -1.0% |  | 26 | live |
+| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.621 | -35.6% | -36.0% | -3.5% | +32.5% | 12 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.621 | -7.4% | -8.8% | -1.7% |  | 3 | live |
+| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.621 | -2.0% | -1.7% | -0.7% |  | 0 | live |

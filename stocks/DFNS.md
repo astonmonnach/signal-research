@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.69 (2026-11-16, ledger)
-- **Since first found:** **-58.9%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -59.4% vs IWM -0.6% = **-58.8 pts** vs IWM; direction -1 → excess +58.8% (21 days)
+- **Latest price:** $1.68 (2026-11-16, ledger)
+- **Since first found:** **-59.1%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -59.6% vs IWM -0.8% = **-58.9 pts** vs IWM; direction -1 → excess +58.9% (21 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.69 | -58.9% | -59.4% | -0.6% | +58.8% | 21 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.69 | -56.3% | -56.8% | -1.2% |  | 20 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.68 | -59.1% | -59.6% | -0.8% | +58.9% | 21 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.68 | -56.6% | -57.0% | -1.4% |  | 20 | live |

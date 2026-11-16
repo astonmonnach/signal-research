@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $16.71 (2026-11-16, ledger) · 1d -1.4%, 5d -4.3%, 20d -19.7% (market context, 2026-11-16)
-- **Since first found:** **-11.3%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -14.3% vs IWM -2.1% = **-12.2 pts** vs IWM; direction +1 → excess -12.2% (49 days)
+- **Latest price:** $16.73 (2026-11-16, ledger) · 1d -1.2%, 5d -4.2%, 20d -19.6% (market context, 2026-11-16)
+- **Since first found:** **-11.2%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -14.2% vs IWM -2.2% = **-12.0 pts** vs IWM; direction +1 → excess -12.0% (49 days)
   - 1 more ledger row: see Performance since found
 - **Position:** trade #1 (S1_CONTRACT_MCAP) closed 2026-11-05: LONG 3 @ $19.368 → $16.970, P&L after fees **$-10.28** (Sold intraday below the $17.00 line the morning after the Q4-guide sell-off (limit 16.90 day, filled 16.97 on IBKRATS))
-- **Peers / sympathy:** solo_move: MTUS -4.3% 5d vs steel median -2.0%. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-16)
+- **Peers / sympathy:** solo_move: MTUS -4.2% 5d vs steel median -1.9%. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [thesis](../ideas/MTUS.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -166,8 +166,8 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.71 | -11.3% | -14.3% | -2.1% | -12.2% | 49 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.71 | -20.6% | -20.9% | -3.5% |  | 41 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.73 | -11.2% | -14.2% | -2.2% | -12.0% | 49 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.73 | -20.5% | -20.8% | -3.6% |  | 41 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 
