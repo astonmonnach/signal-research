@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_peer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $24.38 (2026-11-16, ledger)
-- **Since first found:** **-13.4%** (found 2026-10-06 via `deal_peer` at $28.16). From the next open $27.76: -12.2% vs IWM -2.2% = **-10.0 pts** vs IWM; direction 0, tracked only (40 days)
+- **Latest price:** $24.50 (2026-11-16, ledger)
+- **Since first found:** **-13.0%** (found 2026-10-06 via `deal_peer` at $28.16). From the next open $27.76: -11.7% vs IWM -1.9% = **-9.9 pts** vs IWM; direction 0, tracked only (40 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for HUBG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_peer` | 0 | -4.9% | -2.0% | $46.1M | $28.16 | $27.76 | $24.38 | -13.4% | -12.2% | -2.2% |  | 40 | live |
+| 2026-10-06 | `deal_peer` | 0 | -4.9% | -2.0% | $46.1M | $28.16 | $27.76 | $24.50 | -13.0% | -11.7% | -1.9% |  | 40 | live |

@@ -7,8 +7,8 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
 - **Latest price:** $10.08 (2026-11-16, ledger) · 1d -13.9%, 5d -30.5%, 20d -31.2% (market context, 2026-11-16)
-- **Since first found:** **-21.3%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -22.7% vs IWM +0.2% = **-22.9 pts** vs IWM; direction 0, tracked only (32 days)
-- **Peers / sympathy:** solo_move: PED -30.5% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-16)
+- **Since first found:** **-21.3%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -22.7% vs IWM +0.6% = **-23.3 pts** vs IWM; direction 0, tracked only (32 days)
+- **Peers / sympathy:** solo_move: PED -30.5% 5d vs peer median +1.8%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -33,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for PED ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $10.08 | -21.3% | -22.7% | +0.2% |  | 32 | live |
+| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $10.08 | -21.3% | -22.7% | +0.6% |  | 32 | live |

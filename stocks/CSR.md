@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $56.76 (2026-11-16, ledger) · 1d -0.3%, 5d -1.3%, 20d +3.4% (market context, 2026-11-16)
-- **Since first found:** **+4.3%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +4.4% vs IWM -1.5% = **+5.9 pts** vs IWM; direction 0, tracked only (39 days)
+- **Latest price:** $56.64 (2026-11-16, ledger) · 1d -0.5%, 5d -1.5%, 20d +3.3% (market context, 2026-11-16)
+- **Since first found:** **+4.1%** (found 2026-10-07 via `merger_vote` at $54.42). From the next open $54.37: +4.2% vs IWM -1.2% = **+5.3 pts** vs IWM; direction 0, tracked only (39 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -1.3% vs peer median -1.1%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-16)
+- **Peers / sympathy:** no flag (self 5d -1.5% vs peer median -0.9%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -33,7 +33,7 @@ Every [ledger](../ledger/LEDGER.md) row for CSR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.76 | +4.3% | +4.4% | -1.5% |  | 39 | live |
-| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.76 | +3.4% | +2.2% | -2.2% |  | 38 | live |
-| 2026-11-02 | `8k_strategic_review` | +1 | +2.6% | +1.2% | $12.6M | $59.17 | $59.90 | $56.76 | -4.1% | -5.2% | -2.8% | -2.5% | 13 | live |
-| 2026-11-10 | `8k_merger_agreement` | 0 | -2.8% | -0.6% | $12.0M | $57.17 | $56.52 | $56.76 | -0.7% | +0.4% | -3.9% |  | 5 | live |
+| 2026-10-07 | `merger_vote` | 0 | +0.6% | -1.9% | $19.2M | $54.42 | $54.37 | $56.64 | +4.1% | +4.2% | -1.2% |  | 39 | live |
+| 2026-10-08 | `merger_arb` | 0 | +0.0% | +0.9% | $18.4M | $54.91 | $55.52 | $56.64 | +3.1% | +2.0% | -1.8% |  | 38 | live |
+| 2026-11-02 | `8k_strategic_review` | +1 | +2.6% | +1.2% | $12.6M | $59.17 | $59.90 | $56.64 | -4.3% | -5.4% | -2.4% | -3.0% | 13 | live |
+| 2026-11-10 | `8k_merger_agreement` | 0 | -2.8% | -0.6% | $12.0M | $57.17 | $56.52 | $56.64 | -0.9% | +0.2% | -3.5% |  | 5 | live |
