@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
 - **Latest price:** $10.49 (2026-11-16, ledger)
-- **Since first found:** **-14.7%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -13.2% vs IWM -2.8% = **-10.4 pts** vs IWM; direction +1 → excess -10.4% (17 days)
+- **Since first found:** **-14.7%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -13.2% vs IWM -3.5% = **-9.7 pts** vs IWM; direction +1 → excess -9.7% (17 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.49 | -14.7% | -13.2% | -2.8% | -10.4% | 17 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.49 | -13.4% | -14.2% | -3.4% | -10.8% | 11 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.49 | -7.2% | -7.2% | +0.8% |  | 10 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.49 | -14.7% | -13.2% | -3.5% | -9.7% | 17 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.49 | -13.3% | -14.2% | -4.1% | -10.1% | 11 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.49 | -7.2% | -7.1% | +0.0% |  | 10 | live |

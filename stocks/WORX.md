@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.14 (2026-11-16, ledger)
-- **Since first found:** **-79.3%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.0% vs IWM -3.6% = **-76.4 pts** vs IWM; direction -1 → excess +76.4% (41 days)
+- **Latest price:** $1.16 (2026-11-16, ledger)
+- **Since first found:** **-79.0%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -79.7% vs IWM -4.3% = **-75.3 pts** vs IWM; direction -1 → excess +75.3% (41 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -34,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.14 | -79.3% | -80.0% | -3.6% | +76.4% | 41 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.14 | -40.3% | -42.4% | -2.2% | +40.2% | 19 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.14 | -40.3% | -37.7% | -2.9% |  | 18 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.16 | -79.0% | -79.7% | -4.3% | +75.3% | 41 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.16 | -39.3% | -41.4% | -2.9% | +38.5% | 19 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.16 | -39.3% | -36.6% | -3.6% |  | 18 | live |
