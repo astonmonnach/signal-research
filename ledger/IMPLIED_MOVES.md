@@ -33,6 +33,7 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-26 | SYNA | SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00  | 2026-11-17 | 2026-11-20 | $117.39 | ±2.5% | $2.90 @ 115.0 | 71.4% | smaller | open |  |
 | 2026-10-06 | MOD | MOD Investor Day (continuing business outlook) | 2026-11-18 | 2026-11-20 | $191.01 | ±22.4% | $42.50 @ 190.0 | 11.8% | smaller | open |  |
 | 2026-10-20 | LCII | LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York);  | 2026-11-18 | 2026-11-20 | $81.92 | ±10.5% | $8.30 @ 80.0 | 81.8% | none | open |  |
+| 2026-11-16 | ACB | ACB: record date for the 23 Dec special meeting on the Organ | 2026-11-18 | 2026-11-20 | $4.90 | ±6.1% | $0.30 @ 5.0 | 131.4% | - | open |  |
 | 2026-10-07 | WHF | WHF: $85M notes mature in December, check refinancing | 2026-12-01 | 2027-01-15 | $7.00 | ±18.2% | $1.27 @ 7.5 | 146.0% | none | open |  |
 | 2026-10-21 | ACB | ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mou | 2026-12-04 | 2026-12-18 | $3.95 | ±19.0% | $0.75 @ 4.0 | 130.0% | none | open |  |
 | 2026-11-05 | ACB | ACB: Curaleaf's competing offer expires (Organigram deal pen | 2026-12-04 | 2026-12-18 | $5.21 | ±12.5% | $0.65 @ 5.0 | 51.0% | none | open |  |

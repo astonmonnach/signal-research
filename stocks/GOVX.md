@@ -24,9 +24,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $1.72 (2026-11-13, ledger)
-- **Since first found:** **-77.7%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -78.3% vs IWM -2.0% = **-76.3 pts** vs IWM; direction 0, tracked only (39 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $1.63 (2026-11-16, ledger)
+- **Since first found:** **-78.8%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -79.4% vs IWM -2.6% = **-76.8 pts** vs IWM; direction 0, tracked only (42 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,6 +35,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -46.4%, found day -5.6%) ([filing](https://www.sec.gov/Archives/edgar/data/832489/000143774926036297/govx20261110_8k.htm)) · Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/832489/000143774926036546/govx20260930_10q.htm))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before -18.4%, found day +2.4%) ([filing](https://www.sec.gov/Archives/edgar/data/832489/000143774926034729/0001437749-26-034729-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -14.9%, found day +3.6%) ([filing](https://www.sec.gov/Archives/edgar/data/832489/000143774926033610/govx20261027_8k.htm)) · Calendar: GOVX reverse-split vote ([calendar](../calendar/catalyst-dates.ics))
@@ -46,6 +47,7 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $1.72 | -77.7% | -78.3% | -2.0% |  | 39 | live |
-| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $1.72 | -64.5% | -65.5% | -1.4% | +64.0% | 16 | live |
-| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $1.72 | -57.5% | -57.5% | -2.6% | +54.8% | 8 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $1.63 | -78.8% | -79.4% | -2.6% |  | 42 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $1.63 | -66.2% | -67.2% | -2.1% | +65.1% | 19 | live |
+| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $1.63 | -59.6% | -59.6% | -3.2% | +56.3% | 11 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -46.4% | -5.6% | $127k ⚠ | $2.04 | $2.20 | $1.63 | -20.1% | -25.9% | -1.6% | +24.3% | 3 | live |

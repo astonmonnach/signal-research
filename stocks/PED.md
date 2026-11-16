@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $13.50 (2026-11-13, ledger) · 1d +3.3%, 5d -9.4%, 20d -1.5% (market context, 2026-11-13)
-- **Since first found:** **+5.4%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: +3.5% vs IWM +1.8% = **+1.7 pts** vs IWM; direction 0, tracked only (29 days)
-- **Peers / sympathy:** solo_move: PED -9.4% 5d vs peer median +3.5%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Latest price:** $10.67 (2026-11-16, ledger) · 1d -8.9%, 5d -26.5%, 20d -27.2% (market context, 2026-11-16)
+- **Since first found:** **-16.7%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -18.2% vs IWM +1.1% = **-19.3 pts** vs IWM; direction 0, tracked only (32 days)
+- **Peers / sympathy:** solo_move: PED -26.5% 5d vs peer median +2.2%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `10-Q` 12 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (PED (WATCH 14/10): peak +27.6% on 30 Oct (session 12), low -1.2% on 15 Oct, now +11.3%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (14/10 PED $13.04 +27.6% 30 Oct (12) -1.2% -1.2% 15 Oct +11.3% -12.8%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (14/10 PED 34% holder buys $1.9M $13.04 +11.3% +0.9% +10.4) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` ×2 3 Nov
 - **[2026-10-21](../scans/2026-10-21.md)**: Research: Research: Wed 21 Oct 2026 (- **Watchlist moves on 20 Oct:** BORR -5.0% to $4.22 on 10.3M shares; IMSR -1.8% to $2.80; PED -2.8% to…) ([note](../research/daily/2026-10-21.md))
@@ -32,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for PED ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $13.50 | +5.4% | +3.5% | +1.8% |  | 29 | live |
+| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $10.67 | -16.7% | -18.2% | +1.1% |  | 32 | live |

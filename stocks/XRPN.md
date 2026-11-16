@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md)); `setup_supply_eloc` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $8.18 (2026-11-13, ledger)
-- **Since first found:** **-52.2%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -51.0% vs IWM -0.8% = **-50.2 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $7.73 (2026-11-16, ledger)
+- **Since first found:** **-54.8%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -53.7% vs IWM -1.4% = **-52.2 pts** vs IWM; direction 0, tracked only (35 days)
   - 8 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -39,12 +39,12 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $8.18 | -52.2% | -51.0% | -0.8% |  | 32 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $8.18 | -45.0% | -45.1% | -0.2% | +44.9% | 23 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $8.18 | -48.1% | -46.5% | +0.5% |  | 22 | live |
-| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $8.18 | -45.7% | -43.8% | +0.1% | +43.9% | 18 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $8.18 | -45.5% | -45.5% | -0.6% |  | 17 | live |
-| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $8.18 | -42.4% | -41.7% | -1.9% | +39.8% | 11 | live |
-| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $8.18 | -30.1% | -31.9% | -1.3% | +30.6% | 10 | live |
-| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $8.18 | -22.8% | -22.2% | -2.6% |  | 8 | live |
-| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $8.18 | +2.7% | -1.1% | -2.4% | -1.2% | 2 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $7.73 | -54.8% | -53.7% | -1.4% |  | 35 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $7.73 | -48.0% | -48.0% | -0.8% | +47.2% | 26 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $7.73 | -50.9% | -49.4% | -0.1% |  | 25 | live |
+| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $7.73 | -48.7% | -46.9% | -0.6% | +46.3% | 21 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $7.73 | -48.5% | -48.4% | -1.2% |  | 20 | live |
+| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $7.73 | -45.6% | -44.9% | -2.5% | +42.4% | 14 | live |
+| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $7.73 | -33.9% | -35.6% | -1.9% | +33.7% | 13 | live |
+| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $7.73 | -27.0% | -26.4% | -3.2% |  | 11 | live |
+| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $7.73 | -2.9% | -6.5% | -3.0% | +3.5% | 5 | live |

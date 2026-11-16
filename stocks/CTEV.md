@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $28.21 (2026-11-13, ledger)
-- **Since first found:** **+22.6%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: +20.8% vs IWM -2.2% = **+22.9 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $25.49 (2026-11-16, ledger)
+- **Since first found:** **+10.8%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: +9.1% vs IWM -2.8% = **+11.9 pts** vs IWM; direction 0, tracked only (18 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **CTEV**: Ares bought 115,579 at $24.42-26.14 while a director sold 65,567; already +36% since 5 Nov. ([triage](../watch/digests/2026-11-13-triage.md))
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000110465926126283/0001104659-26-126283-index.htm))
 - **[2026-10-28](../scans/2026-10-28.md#new-setups)**: Logged as `holder_buying` (direction 0): Ares (10% owner) bought 70,834 at $23.53-24.07 after GIC's full exit; -68% from the high; fails TF1; tracked, no call; source: daily research 28 Oct (research/daily/2026-10-28.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 28 Oct 2026 (- **STC:** five insiders bought after a 17% post-Q3 drop, at 0.79x book; fails TF1 on three legs. **CTEV:**…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000110465926119180/0001104659-26-119180-index.htm))
 
@@ -25,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for CTEV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $28.21 | +22.6% | +20.8% | -2.2% |  | 15 | live |
+| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $25.49 | +10.8% | +9.1% | -2.8% |  | 18 | live |

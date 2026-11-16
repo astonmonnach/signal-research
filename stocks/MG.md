@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md)); `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $20.22 (2026-11-13, ledger) · 1d +0.1%, 5d +0.3%, 20d -5.8% (market context, 2026-11-13)
-- **Since first found:** **-2.2%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.7% vs IWM +0.3% = **-4.0 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $20.20 (2026-11-16, ledger) · 1d -0.0%, 5d +0.1%, 20d -5.8% (market context, 2026-11-16)
+- **Since first found:** **-2.3%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.8% vs IWM -0.4% = **-3.4 pts** vs IWM; direction 0, tracked only (31 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median +4.6%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -4.5%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T014 MG: $20.19, above $20.00, not fired. ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Watchlist prices on 11 Nov:** IMSR $2.56 (tracked since yesterday), SEER $1.59 (T019 open), CCAP $10.25…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-27 MG -3.6 -3.1 -5.3 -3.7 -3.6 -4.9 -5.1 go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 2 Nov
@@ -37,8 +38,8 @@ Every [ledger](../ledger/LEDGER.md) row for MG ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.22 | -2.2% | -3.7% | +0.3% |  | 28 | live |
-| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.22 | -5.8% | -6.0% | +1.6% |  | 25 | live |
-| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.22 | -1.1% | -1.1% | -1.4% |  | 16 | live |
-| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.22 | -1.1% | -1.1% | -1.4% |  | 16 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.22 | -1.2% | -0.9% | -2.2% |  | 15 | live |
+| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.20 | -2.3% | -3.8% | -0.4% |  | 31 | live |
+| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.20 | -5.9% | -6.1% | +1.0% |  | 28 | live |
+| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.20 | -1.2% | -1.2% | -2.1% |  | 19 | live |
+| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.20 | -1.2% | -1.2% | -2.1% |  | 19 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.20 | -1.3% | -1.0% | -2.8% |  | 18 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.99 (2026-11-13, ledger) · 1d -5.1%, 5d -5.1%, 20d -29.6% (market context, 2026-11-13)
-- **Since first found:** **-30.5%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -30.9% vs IWM -0.2% = **-30.8 pts** vs IWM; direction 0, tracked only (23 days)
-- **Peers / sympathy:** solo_move: BMM -5.1% 5d vs peer median -1.5%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Latest price:** $2.94 (2026-11-16, ledger) · 1d -4.2%, 5d -17.4%, 20d -31.5% (market context, 2026-11-16)
+- **Since first found:** **-31.6%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -32.1% vs IWM -0.8% = **-31.3 pts** vs IWM; direction 0, tracked only (26 days)
+- **Peers / sympathy:** solo_move: BMM -17.4% 5d vs peer median -8.4%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `6-K` 12 Nov
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1732379/000155485526002351/ex992_2.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-29 BMM -0.9 -0.9 -8.5 -7.5 -15.0 -12.5 -32.3 day 45 for Elmet's US$25M prepayment (only the US$25M of…) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Linked names:** DLA (SP8000), Cantor (IPO lead), BMM (Elmet's C$35M stake).) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (- **BMM on day 45 of Elmet's prepayment (29 Oct):** -7.5% on the day, -32.3% four sessions later.) ([note](../research/review/2026-11-10/TIMES.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `6-K` 3 Nov
@@ -37,4 +39,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.99 | -30.5% | -30.9% | -0.2% |  | 23 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.94 | -31.6% | -32.1% | -0.8% |  | 26 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $1.47 (2026-11-13, ledger)
-- **Since first found:** **-49.3%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -48.0% vs IWM +1.1% = **-49.1 pts** vs IWM; direction -1 → excess +49.1% (30 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $1.31 (2026-11-16, ledger)
+- **Since first found:** **-54.7%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -53.5% vs IWM +0.4% = **-54.0 pts** vs IWM; direction -1 → excess +54.0% (33 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -8.6%, found day +2.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1560293/000121390026118946/ea031209601ex99-1.htm))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- **AVOIDs must use labels TF1 excludes:** GTBP, SWBI, AEHL and TNON were logged as supply_* labels outside…) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-23](../scans/2026-10-23.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): at-the-market room larger than its non-affiliate float; AVOID; source: daily research 23 Oct (research/daily/2026-10-23.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 23 Oct 2026 (- TNON: room to sell more shares than its free float.) ([note](../research/daily/2026-10-23.md))
 - **[2026-10-22](../scans/2026-10-22.md#market-wide-scan)**: Market scan: 8-K trigger phrase "at-the-market, sales agreement" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1560293/000121390026111740/ea0309254-8k_tenon.htm))
@@ -29,5 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.47 | -49.3% | -48.0% | +1.1% | +49.1% | 30 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.47 | -33.4% | -33.4% | +0.1% |  | 18 | live |
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.31 | -54.7% | -53.5% | +0.4% | +54.0% | 33 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.31 | -40.5% | -40.5% | -0.6% |  | 21 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.31 | -26.8% | -25.1% | -1.6% | +23.6% | 3 | live |

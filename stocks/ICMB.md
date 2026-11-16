@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $1.05 (2026-11-13, ledger)
-- **Since first found:** **-0.8%** (found 2026-11-12 via `merger_arb` at $1.06). From the next open $1.13: -7.0% vs IWM -0.9% = **-6.0 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $1.06 (2026-11-16, ledger)
+- **Since first found:** **-0.0%** (found 2026-11-12 via `8k_merger_agreement` at $1.06). From the next open $1.13: -6.2% vs IWM -1.6% = **-4.6 pts** vs IWM; direction 0, tracked only (3 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **ICMB / BCIC** /: BCP Investment (BCIC) buys Investcorp Credit (ICMB) for 90% of ICMB's NAV, paid in BCIC shares valued at BCIC's NAV (capped at… ([triage](../watch/digests/2026-11-12-triage.md)) · Press: Investcorp Credit Management BDC, Inc. Announces Financial Results for the Quarter Ended September 30, 2026 (Business Wire, published Wed 11 Nov) ([release](http://www.businesswire.com/news/home/20261111258248/en/Investcorp-Credit-Management-BDC-Inc.-Announces-Financial-Results-for-the-Quarter-Ended-September-30-2026/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ)) · Press: Investcorp Credit Management BDC, Inc. to Merge into BCP Investment Corporation (GlobeNewswire, published Wed 11 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/11/3401183/7512/en/investcorp-credit-management-bdc-inc-to-merge-into-bcp-investment-corporation.html)) · Logged as `merger_arb` (direction 0): BCIC to buy ICMB for 90% of NAV in BCIC shares at BCIC's NAV (capped at 19.99%) plus cash; about 0.1716 BCIC + $0.26 cash a share (arith); $1.00 on 12 Nov (+62%, 61.7M shares traded) vs about $1.21 at BCIC $5.535 (arith); 41% locked up; Q1 2027; not takeable (20-day median about $40k a day); tracked, no call; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 12 Nov 2026 (1. ICMB / BCIC: a bid paid in a discounted currency) ([note](../research/daily/2026-11-12.md))
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **ICMB / BCIC** /: BCP Investment (BCIC) buys Investcorp Credit (ICMB) for 90% of ICMB's NAV, paid in BCIC shares valued at BCIC's NAV (capped at… ([triage](../watch/digests/2026-11-12-triage.md)) · Press: Investcorp Credit Management BDC, Inc. Announces Financial Results for the Quarter Ended September 30, 2026 (Business Wire, published Wed 11 Nov) ([release](http://www.businesswire.com/news/home/20261111258248/en/Investcorp-Credit-Management-BDC-Inc.-Announces-Financial-Results-for-the-Quarter-Ended-September-30-2026/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ)) · Press: Investcorp Credit Management BDC, Inc. to Merge into BCP Investment Corporation (GlobeNewswire, published Wed 11 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/11/3401183/7512/en/investcorp-credit-management-bdc-inc-to-merge-into-bcp-investment-corporation.html)) · Logged as `merger_arb` (direction 0): BCIC to buy ICMB for 90% of NAV in BCIC shares at BCIC's NAV (capped at 19.99%) plus cash; about 0.1716 BCIC + $0.26 cash a share (arith); $1.00 on 12 Nov (+62%, 61.7M shares traded) vs about $1.21 at BCIC $5.535 (arith); 41% locked up; Q1 2027; not takeable (20-day median about $40k a day); tracked, no call; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "agreement and plan of merger, strategic review, reverse stock split, tender offer" (8k merger agreement) (5d before -6.2%, found day +71.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1578348/000119312526457105/d173515d8k.htm)) · Research: Research: Thu 12 Nov 2026 (1. ICMB / BCIC: a bid paid in a discounted currency) ([note](../research/daily/2026-11-12.md))
 
 ## Performance since found
 
@@ -24,4 +25,5 @@ Every [ledger](../ledger/LEDGER.md) row for ICMB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-12 | `merger_arb` | 0 | -6.2% | +71.5% | $3.9M | $1.06 | $1.13 | $1.05 | -0.8% | -7.0% | -0.9% |  | 0 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -6.2% | +71.5% | $3.9M | $1.06 | $1.13 | $1.06 | -0.0% | -6.2% | -1.6% |  | 3 | live |
+| 2026-11-12 | `merger_arb` | 0 | -6.2% | +71.5% | $3.9M | $1.06 | $1.13 | $1.06 | -0.0% | -6.2% | -1.6% |  | 3 | live |

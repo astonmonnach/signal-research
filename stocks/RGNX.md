@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $7.51 (2026-11-13, ledger)
-- **Since first found:** **-1.4%** (found 2026-11-06 via `setup_supply_atm` at $7.62). From the next open $7.77: -3.4% vs IWM -0.4% = **-2.9 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $7.60 (2026-11-16, ledger)
+- **Since first found:** **-0.3%** (found 2026-11-06 via `setup_supply_atm` at $7.62). From the next open $7.77: -2.2% vs IWM -1.1% = **-1.1 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for RGNX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `setup_supply_atm` | 0 | -0.4% | +3.3% | $9.4M | $7.62 | $7.77 | $7.51 | -1.4% | -3.4% | -0.4% |  | 4 | live |
+| 2026-11-06 | `setup_supply_atm` | 0 | -0.4% | +3.3% | $9.4M | $7.62 | $7.77 | $7.60 | -0.3% | -2.2% | -1.1% |  | 7 | live |

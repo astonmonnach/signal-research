@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep)); `longterm_research` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $9.20 (2026-11-13, ledger) · 1d +0.7%, 5d -22.2%, 20d -28.1% (market context, 2026-11-13)
-- **Since first found:** **+598.9%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +598.5% vs IWM -1.4% = **+599.9 pts** vs IWM; direction 0, tracked only (44 days). Includes +1.0 VYLR (spin)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CTVA -22.2% 5d vs peer median +0.9% (crop inputs -0.1%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Latest price:** $9.12 (2026-11-16, ledger) · 1d -3.3%, 5d -24.7%, 20d -27.9% (market context, 2026-11-16)
+- **Since first found:** **+590.0%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +589.7% vs IWM -2.0% = **+591.7 pts** vs IWM; direction 0, tracked only (47 days). Includes +1.0 VYLR (spin)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: CTVA -24.7% 5d vs peer median -2.1% (crop inputs -2.9%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,7 +101,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **CTVA**: Q3 sales -9%, Latin America organic -31%; 2026 EBITDA guide cut to $1.1-1.125B on Brazil. -18.8% on 12 Nov. ([triage](../watch/digests/2026-11-12-triage.md)) · Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Logged as `longterm_research` (direction 0): Crop protection spin parent: Q3 sales -9%, Latin America organic -31%, 2026 EBITDA guide cut to $1.1-1.125B on Brazil; -18.8% on 12 Nov; results day (coin flip after the open per the review); tracked, no call; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` 12 Nov · Calendar: CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **CTVA / VYLR results (calendar):**) ([note](../research/daily/2026-11-12.md))
+- **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 13 Nov, `8-K` 12 Nov, `10-Q` 12 Nov
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **CTVA**: Q3 sales -9%, Latin America organic -31%; 2026 EBITDA guide cut to $1.1-1.125B on Brazil. -18.8% on 12 Nov. ([triage](../watch/digests/2026-11-12-triage.md)) · Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Logged as `longterm_research` (direction 0): Crop protection spin parent: Q3 sales -9%, Latin America organic -31%, 2026 EBITDA guide cut to $1.1-1.125B on Brazil; -18.8% on 12 Nov; results day (coin flip after the open per the review); tracked, no call; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before -1.0%, found day -24.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1755672/000175567226000031/newcorteva-q32026proformaf.htm)) · Filings: `8-K` 12 Nov · Calendar: CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **CTVA / VYLR results (calendar):**) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Late filers:** CTVA and VYLR both blame spin-off reporting, with no flags. Results come before the 12 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1755672/000119312526455598/0001193125-26-455598-index.htm)) · Research: Every event, at its actual time (CTVA (WATCH 05/10): peak +11.8% on 07 Oct (session 2), low -14.0% on 28 Oct, now -7.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 CTVA $13.08 +11.8% 7 Oct (2) -1.8% -14.0% 28 Oct -7.4% -17.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 CTVA spin-off $13.08 -7.4% -2.9% -4.5) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 6 Nov
@@ -126,8 +127,9 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $9.20 | +598.9% | +598.5% | -1.4% |  | 44 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $9.20 | -25.7% | -29.6% | -2.9% |  | 38 | live |
-| 2026-11-12 | `longterm_research` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $9.20 | +0.2% | +1.0% | -0.9% |  | 0 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $9.12 | +590.0% | +589.7% | -2.0% |  | 47 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $9.12 | -26.4% | -30.3% | -3.5% |  | 41 | live |
+| 2026-11-12 | `8k_spin_off` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $9.12 | -0.8% | +0.1% | -1.6% |  | 3 | live |
+| 2026-11-12 | `longterm_research` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $9.12 | -0.8% | +0.1% | -1.6% |  | 3 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

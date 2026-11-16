@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $81.23 (2026-11-13, ledger) · 1d +3.4%, 5d +3.1%, 20d +19.4% (market context, 2026-11-13)
-- **Since first found:** **+26.2%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +28.7% vs IWM +1.1% = **+27.6 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $81.89 (2026-11-16, ledger)
+- **Since first found:** **+27.3%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +29.8% vs IWM +0.4% = **+29.3 pts** vs IWM; direction 0, tracked only (33 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +3.1% vs peer median +2.1%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -34,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $81.23 | +26.2% | +28.7% | +1.1% |  | 30 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $81.23 | +28.3% | +26.4% | +1.8% |  | 29 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $81.89 | +27.3% | +29.8% | +0.4% |  | 33 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $81.89 | +29.3% | +27.4% | +1.1% |  | 32 | live |

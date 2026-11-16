@@ -38,3 +38,4 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-11-11,ACB,2026-12-23,ACB: special meeting on the Organigram arrangement confirmed (virtual; T021),2027-01-15,5.11,15.7,5.0,0.8,62.5,5285,none,open,,,,
 2026-11-12,CTVA,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,9.29,10.2,10.0,0.95,63.0,542,none,open,,,,
 2026-11-12,VYLR,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,72.1,7.8,70.0,5.65,29.7,191,none,open,,,,
+2026-11-16,ACB,2026-11-18,ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021),2026-11-20,4.9,6.1,5.0,0.3,131.4,1782,,open,,,,

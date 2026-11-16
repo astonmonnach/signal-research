@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $10.41 (2026-11-13, ledger)
-- **Since first found:** **-15.3%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -13.8% vs IWM -2.0% = **-11.8 pts** vs IWM; direction +1 → excess -11.8% (14 days)
+- **Latest price:** $10.52 (2026-11-16, ledger)
+- **Since first found:** **-14.4%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -12.9% vs IWM -2.6% = **-10.3 pts** vs IWM; direction +1 → excess -10.3% (17 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.41 | -15.3% | -13.8% | -2.0% | -11.8% | 14 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.41 | -14.0% | -14.8% | -2.6% | -12.2% | 8 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.41 | -7.9% | -7.8% | +1.6% |  | 7 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.52 | -14.4% | -12.9% | -2.6% | -10.3% | 17 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.52 | -13.1% | -13.9% | -3.2% | -10.7% | 11 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.52 | -6.9% | -6.9% | +0.9% |  | 10 | live |

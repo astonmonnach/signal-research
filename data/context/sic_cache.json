@@ -8921,8 +8921,10 @@
    "sic": "3679"
   },
   "1061983": {
-   "fetched": "2026-10-07",
-   "sic": "2834"
+   "fetched": "2026-11-16",
+   "name": "CYTOKINETICS INC",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1062043": {
    "fetched": "2026-11-09",
@@ -29635,8 +29637,10 @@
    "sic": "7990"
   },
   "1421876": {
-   "fetched": "2026-10-07",
-   "sic": "2834"
+   "fetched": "2026-11-16",
+   "name": "Lakefront Biotherapeutics NV",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1421901": {
    "fetched": "2026-11-09",
@@ -34957,6 +34961,12 @@
   "1553467": {
    "fetched": "2026-10-09",
    "sic": "1381"
+  },
+  "1553643": {
+   "fetched": "2026-11-16",
+   "name": "RELMADA THERAPEUTICS, INC.",
+   "sic": "2834",
+   "sic_description": "Pharmaceutical Preparations"
   },
   "1553784": {
    "fetched": "2026-10-20",

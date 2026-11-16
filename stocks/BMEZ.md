@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $17.09 (2026-11-13, ledger) · 1d -1.2%, 5d -1.7%, 20d +4.9% (market context, 2026-11-13)
-- **Since first found:** **+4.9%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +4.7% vs IWM +1.6% = **+3.1 pts** vs IWM; direction +1 → excess +3.1% (25 days)
+- **Latest price:** $17.10 (2026-11-16, ledger) · 1d -1.1%, 5d -3.7%, 20d +3.4% (market context, 2026-11-16)
+- **Since first found:** **+5.0%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +4.8% vs IWM +1.0% = **+3.8 pts** vs IWM; direction +1 → excess +3.8% (28 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: BMEZ: fund buyback tender at 98% of NAV for up to 5% of shares expires (5 pm New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMEZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.09 | +4.9% | +4.7% | +1.6% | +3.1% | 25 | live |
-| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.09 | +4.9% | +4.7% | +1.6% |  | 25 | live |
+| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.10 | +5.0% | +4.8% | +1.0% | +3.8% | 28 | live |
+| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $17.10 | +5.0% | +4.8% | +1.0% |  | 28 | live |

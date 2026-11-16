@@ -104,10 +104,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05)); `longterm_research` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $19.37 (2026-11-13, ledger) · 1d -3.0%, 5d -1.2%, 20d +2.4% (market context, 2026-11-13)
-- **Since first found:** **-1.4%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +0.7% vs IWM -1.4% = **+2.2 pts** vs IWM; direction +1 → excess +2.2% (46 days)
+- **Latest price:** $19.45 (2026-11-16, ledger) · 1d -1.9%, 5d -11.5%, 20d +3.8% (market context, 2026-11-16)
+- **Since first found:** **-0.9%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +1.2% vs IWM -2.1% = **+3.2 pts** vs IWM; direction +1 → excess +3.2% (49 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -1.2% vs peer median +2.8%). Peer groups: defence metals (4), SIC 3490 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Peers / sympathy:** solo_move: ELMT -11.5% 5d vs peer median -4.2%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -116,7 +116,7 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-13](../scans/2026-11-13.md)**: Research: The Huang Stake (The selling limit you remembered from ELMT is Rule 144. An insider can sell, in any 3 months, the bigger of…) ([note](../research/NVDA-2026-11-13.html))
+- **[2026-11-13](../scans/2026-11-13.md)**: Research: Research: Fri 13 Nov 2026 (- **Rule 144:** the bigger of 1% of the shares (about 241M) or average weekly volume over four weeks (about…) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (The selling limit you remembered from ELMT is Rule 144. An insider can sell, in any 3 months, the bigger of…) ([note](../research/NVDA-2026-11-13.html))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **ELMT**: director Jake Homiller named President of a new division, Elmet Refining and Trading ($300,000 salary). -11.9% on 10 Nov, +13.0% on 11 Nov. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `8-K` 10 Nov
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **ELMT** and, after the 9 Nov close: **T007 fired** (the $35.6M DLA award and ADG backlog +$96.9M are in the 10-Q; no insider sale since 10 Jun). ([triage](../watch/digests/2026-11-10-triage.md)) · Logged as `longterm_research` (direction 0): T007 fired on the 9 Nov 10-Q; AVOID reversed ($161.9M DLA funded, no insider sales); tracked, no call; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` 9 Nov, `10-Q` 9 Nov · Research: Research: Tue 10 Nov 2026 (3. ELMT: T007 fired, the AVOID is reversed, still no call) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- **ELMT (T007):** no insider sold through the window that ended today. The stock is $17.24, down 28% since…) ([note](../research/daily/2026-11-05.md))
@@ -140,6 +140,6 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.37 | -1.4% | +0.7% | -1.4% | +2.2% | 46 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.37 | -9.0% | -10.4% | -2.9% |  | 38 | live |
-| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $19.37 | -0.1% | -4.5% | -2.4% |  | 2 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.45 | -0.9% | +1.2% | -2.1% | +3.2% | 49 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.45 | -8.6% | -10.1% | -3.5% |  | 41 | live |
+| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $19.45 | +0.4% | -4.1% | -3.0% |  | 5 | live |

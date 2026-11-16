@@ -101,10 +101,10 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day); `linked_peer` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $72.45 (2026-11-13, ledger) · 1d +0.5%, 5d +3.2%, 20d +0.3% (market context, 2026-11-13)
-- **Since first found:** **+6.1%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +5.4% vs IWM -2.1% = **+7.6 pts** vs IWM; direction 0, tracked only (42 days)
-  - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: VYLR +3.2% 5d vs peer median +0.1%; peers didn't move with it. Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-13)
+- **Latest price:** $71.50 (2026-11-16, ledger) · 1d -1.2%, 5d -1.2%, 20d -1.1% (market context, 2026-11-16)
+- **Since first found:** **+4.8%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +4.1% vs IWM -2.8% = **+6.8 pts** vs IWM; direction 0, tracked only (45 days)
+  - 4 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -1.2% vs peer median -3.8%). Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-16)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 16 Nov 2026: Q3 13F deadline (who bought MTUS/VYLR/ELMT)
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
@@ -114,7 +114,8 @@ BlackRock has no current 13G (the last was Feb 2024).
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Logged as `linked_peer` (direction 0): CTVA spin-off (1 Oct); kept its 2026 guide, new $3B buyback and $0.13 dividend; -0.8% on 12 Nov; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` ×2 12 Nov · Calendar: CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **CTVA / VYLR results (calendar):**) ([note](../research/daily/2026-11-12.md))
+- **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `10-Q` 12 Nov
+- **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Logged as `linked_peer` (direction 0): CTVA spin-off (1 Oct); kept its 2026 guide, new $3B buyback and $0.13 dividend; -0.8% on 12 Nov; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before +1.2%, found day -0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000212862626000007/vylr-20261112.htm)) · Market scan: uncategorised (`S-3ASR`) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526458647/0001193125-26-458647-index.htm)) · Filings: `8-K` ×2 12 Nov · Calendar: CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **CTVA / VYLR results (calendar):**) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Late filers:** CTVA and VYLR both blame spin-off reporting, with no flags. Results come before the 12 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2128626/000119312526455591/0001193125-26-455591-index.htm)) · Calendar: VYLR ~day 28 check (typical spin-off low) ([calendar](../calendar/catalyst-dates.ics)) · Research: Every event, at its actual time (VYLR (WATCH 05/10): peak +7.6% on 13 Oct (session 6), low -5.2% on 06 Nov, now +0.9%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 VYLR $71.91 +7.6% 13 Oct (6) -0.9% -5.2% 6 Nov +0.9% -6.3%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 VYLR spin-off $71.91 +0.9% +4.9% -4.0) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-10-29](../scans/2026-10-29.md)**: Calendar: Re-check the 29 Sep catalyst scan (1 month) ([calendar](../calendar/catalyst-dates.ics))
@@ -138,7 +139,8 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $72.45 | +6.1% | +5.4% | -2.1% |  | 42 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $72.45 | -1.2% | +0.8% | -2.9% |  | 38 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $72.45 | -0.7% | -1.9% | -0.0% |  | 36 | live |
-| 2026-11-12 | `linked_peer` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $72.45 | +0.5% | +0.3% | -0.9% |  | 0 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $71.50 | +4.8% | +4.1% | -2.8% |  | 45 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $71.50 | -2.5% | -0.6% | -3.5% |  | 41 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $71.50 | -2.0% | -3.2% | -0.6% |  | 39 | live |
+| 2026-11-12 | `8k_spin_off` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $71.50 | -0.8% | -1.0% | -1.6% |  | 3 | live |
+| 2026-11-12 | `linked_peer` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $71.50 | -0.8% | -1.0% | -1.6% |  | 3 | live |

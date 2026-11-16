@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $6.57 (2026-11-13, ledger)
-- **Since first found:** **-43.9%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -43.4% vs IWM +1.8% = **-45.1 pts** vs IWM; direction -1 → excess +45.1% (24 days)
-  - 4 more ledger rows: see Performance since found
+- **Latest price:** $6.47 (2026-11-16, ledger)
+- **Since first found:** **-44.7%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -44.2% vs IWM +1.1% = **-45.3 pts** vs IWM; direction -1 → excess +45.3% (27 days)
+  - 5 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split, lock-up" (reverse split) (5d before +13.2%, found day -10.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000162828026073365/exhibit991-pressreleasex93.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: CMMB (merger partner buying from the ATM), PMAX (Ault convertible holder, under $1), JAGU (strategic share swap), ENHA (controller's related-party… ([triage](../watch/digests/2026-11-11-triage.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before +15.8%, found day -8.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000162828026072457/apadu-20261104.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1956439/000119312526454519/0001193125-26-454519-index.htm)) · Research: Every event, at its actual time (2026-11-09 ENHA -1.4 +2.9 -5.4 +1.3 n/a n/a n/a six-month post-SPAC unlock, tradable float up ~52% (AVOID…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-11-09](../scans/2026-11-09.md)**: Calendar: ENHA: six-month post-SPAC unlock, tradable float up ~52% (AVOID register) ([calendar](../calendar/catalyst-dates.ics))
@@ -31,8 +32,9 @@ Every [ledger](../ledger/LEDGER.md) row for ENHA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $6.57 | -43.9% | -43.4% | +1.8% | +45.1% | 24 | live |
-| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $6.57 | -7.6% | -6.0% | -2.8% | +3.2% | 9 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $6.57 | -19.6% | -19.3% | +1.6% | +20.9% | 7 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $6.57 | -21.5% | -20.4% | -0.4% |  | 4 | live |
-| 2026-11-10 | `8k_lock_up` | 0 | +15.8% | -8.6% | $924k | $7.75 | $7.83 | $6.57 | -15.2% | -16.1% | -2.4% |  | 2 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $6.47 | -44.7% | -44.2% | +1.1% | +45.3% | 27 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $6.47 | -9.0% | -7.4% | -3.4% | +4.0% | 12 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $6.47 | -20.8% | -20.5% | +0.9% | +21.5% | 10 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $6.47 | -22.7% | -21.6% | -1.1% |  | 7 | live |
+| 2026-11-10 | `8k_lock_up` | 0 | +15.8% | -8.6% | $924k | $7.75 | $7.83 | $6.47 | -16.5% | -17.4% | -3.0% |  | 5 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | +13.2% | -10.6% | $848k | $7.20 | $7.92 | $6.47 | -10.1% | -18.3% | -1.6% | +16.7% | 3 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $4.82 (2026-11-13, ledger)
-- **Since first found:** **+9.3%** (found 2026-11-10 via `insider_cluster` at $4.41). From the next open $4.50: +7.1% vs IWM -2.4% = **+9.5 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $4.73 (2026-11-16, ledger)
+- **Since first found:** **+7.3%** (found 2026-11-10 via `insider_cluster` at $4.41). From the next open $4.50: +5.1% vs IWM -3.0% = **+8.1 pts** vs IWM; direction 0, tracked only (5 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/926282/000119312526458287/0001193125-26-458287-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **ADTN** Form 4s: CEO 150,000 at $4.006 ($601k) and CFO 17,820 at $4.16 ($74k), 6 Nov. Tracked, no call (IC1). ([triage](../watch/digests/2026-11-10-triage.md)) · Logged as `insider_cluster` (direction 0): CEO $601k + CFO $74k open-market buys 6 Nov after a 42% month; IC1 says clusters do not pay; tracked, no call; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- **ADTN** (CEO $601k and CFO $74k, 6 Nov), **AFCG** (Tannenbaum couple plus the CFO, holder at 32.6%)…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/926282/000119312526454019/0001193125-26-454019-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for ADTN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `insider_cluster` | 0 | -31.7% | +2.8% | $11.4M | $4.41 | $4.50 | $4.82 | +9.3% | +7.1% | -2.4% |  | 2 | live |
+| 2026-11-10 | `insider_cluster` | 0 | -31.7% | +2.8% | $11.4M | $4.41 | $4.50 | $4.73 | +7.3% | +5.1% | -3.0% |  | 5 | live |
