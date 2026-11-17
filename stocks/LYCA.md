@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $30.57 (2026-11-17, ledger)
-- **Since first found:** **+1.9%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +28.8% vs IWM -2.7% = **+31.5 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $30.68 (2026-11-17, ledger)
+- **Since first found:** **+2.3%** (found 2026-10-23 via `ipo_priced` at $30.00). From the next open $23.73: +29.3% vs IWM -2.0% = **+31.3 pts** vs IWM; direction 0, tracked only (22 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for LYCA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $30.57 | +1.9% | +28.8% | -2.7% |  | 22 | live |
-| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $30.57 | +1.9% | +28.8% | -2.7% | -31.5% | 22 | live |
-| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $30.57 | +22.0% | +21.1% | -4.8% |  | 19 | live |
+| 2026-10-23 | `ipo_priced` | 0 |  |  | $68.5M | $30.00 | $23.73 | $30.68 | +2.3% | +29.3% | -2.0% |  | 22 | live |
+| 2026-10-23 | `registration_effective` | -1 |  |  | $68.5M | $30.00 | $23.73 | $30.68 | +2.3% | +29.3% | -2.0% | -31.3% | 22 | live |
+| 2026-10-28 | `linked_peer` | 0 |  | -4.1% | $29.6M | $25.05 | $25.25 | $30.68 | +22.5% | +21.5% | -4.2% |  | 19 | live |
