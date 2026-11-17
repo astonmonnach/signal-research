@@ -259,3 +259,6 @@ date,a,b,type,detail,source
 2026-11-13,NVDA,MU,customer,NVDA buys memory from Micron (10-K),https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 2026-11-13,GCTS,fund:Indigo,counterparty,floating-price convertible notes at 90% of the lowest 3-day VWAP (Q3 10-Q),https://www.sec.gov/Archives/edgar/data/1851961/000119312526458474/gcts-20260930.htm
 2026-11-13,GCTS,fund:Obsidian,counterparty,floating-price convertible notes at 95% of the reference price (Q3 10-Q),https://www.sec.gov/Archives/edgar/data/1851961/000119312526458474/gcts-20260930.htm
+2026-11-17,ARCT,fund:Meiji,counterparty,"Meiji bought 2,466,395 shares for $50.0M at an 80% premium; license by 31 May 2027",https://www.sec.gov/Archives/edgar/data/1768224/000119380526001485/e665891_8k-arct.htm
+2026-11-17,FUN,fund:H Partners,holder_13d,"7.2% (7.4M shares) bought 6-16 Nov; board seat, standstill to the 2027 AGM",https://www.sec.gov/Archives/edgar/data/1364412/000091957426008157/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-17,TE,fund:Encompass,holder_13d,19.99% blocker; convertible preferred holder,https://www.sec.gov/Archives/edgar/data/1992243/000092189526003078/primary_doc.xml

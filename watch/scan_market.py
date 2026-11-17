@@ -926,15 +926,26 @@ def going_concern(text):
     """How a document uses the words "substantial doubt":
     ("stated", the sentence) when it says the doubt exists; ("lifted", "") when it says an earlier doubt is over;
     ("none", "") when every mention is a denial, a what-if or the accounting rule being quoted."""
-    stated = None
+    stated, lifted = None, False
     for m in re.finditer(r"substantial\s+doubt", text, re.I):
         before = re.split(r"\.\s+(?=[A-Z])", text[max(0, m.start() - 220):m.start()])[-1]
         after = re.split(r"\.\s+(?=[A-Z])", text[m.end():m.end() + 200])[0]
+        # The accounting rule itself ("management evaluates whether ... its plans sufficiently alleviates
+        # substantial doubt") is not news either way (rule 2026-11-17: FEAM and GPRO, both still in doubt,
+        # were listed as "an earlier doubt is said to be over" because of this sentence).
+        if re.search(r"\bwhether\b", before + after, re.I) and re.search(r"alleviat", before + after, re.I):
+            continue
         if re.search(DOUBT_LIFTED, before + m.group(0) + after, re.I):
-            return "lifted", ""
+            lifted = True
+            continue
         if stated is None and not re.search(NO_DOUBT, before + "substantial doubt", re.I):
             lead = before if len(before) <= 110 else "..." + before[-110:].split(" ", 1)[-1]
             stated = lead + m.group(0) + after[:130]
+    # "continues to exist" or "continue to raise" beats any lifted wording elsewhere in the document.
+    if stated and re.search(r"\bcontinu\w*\s+to\s+(?:exist|raise|be)\b[^.]{0,60}substantial\s+doubt", text, re.I):
+        return "stated", stated
+    if lifted:
+        return "lifted", ""
     return ("stated", stated) if stated else ("none", "")
 
 

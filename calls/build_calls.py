@@ -17,7 +17,7 @@ calls/CALLS.csv columns:
   conviction (1-3), source (where it was posted: X url or 'repo'), exit_date, exit_price, exit_reason,
   horizon (swing / long), benchmark (IWM default; SPY for long-term)
 """
-import csv, json, sys, time, urllib.request, datetime as dt
+import csv, json, math, sys, time, urllib.request, datetime as dt
 from pathlib import Path
 from statistics import mean, stdev
 
@@ -53,15 +53,37 @@ def split_adjust(t, b):
     if p.exists():
         splits = {dt.date.fromisoformat(r["ex_date"]): float(r["ratio"]) for r in csv.DictReader(open(p, encoding="utf-8"))
                   if r["ticker"] == t and r["kind"] == "split"}
+    # A split applies at the first bar on or after its ex-date: Yahoo can skip the ex-date itself
+    # (NCT's 16 Nov 2026 bar was empty, so the old exact-date match never fired). Rescale the earlier
+    # bars when the overnight gap sits nearer the split ratio than 1 (log distance), i.e. Yahoo hasn't.
+    first_after = {}
+    for ex, k in splits.items():
+        i = next((j for j in range(1, len(b)) if b[j][0] >= ex), None)
+        if i is not None:
+            first_after[i] = k
     for i in range(1, len(b)):
         d, o = b[i][0], b[i][1]
         gap = b[i - 1][2] / o
-        if d in splits and abs(gap / splits[d] - 1) < 0.2:
-            k = splits[d]
-            b = [(x[0], x[1] / k, x[2] / k, x[3]) for x in b[:i]] + b[i:]
-        elif d not in splits and (gap >= 2.5 or gap <= 0.4):
+        if i in first_after:
+            k = first_after[i]
+            if abs(math.log(gap) - math.log(k)) < abs(math.log(gap)):
+                b = [(x[0], x[1] / k, x[2] / k, x[3]) for x in b[:i]] + b[i:]
+        elif gap >= 2.5 or gap <= 0.4:
             print(f"WARNING {t} {d}: overnight gap x{gap:.2f}; if it's a split, add it to ledger/corporate_actions.csv", file=sys.stderr)
     return b
+
+
+def split_factor_after(t, since):
+    """Product of split ratios (new shares per old) for `t` with an ex-date after `since`, from
+    ledger/corporate_actions.csv. 0.125 for a 1-for-8 reverse split, so a price level set before it
+    is divided by the factor to read in today's share terms."""
+    p = ROOT / "ledger/corporate_actions.csv"
+    k = 1.0
+    if p.exists():
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            if r["ticker"] == t and r["kind"] == "split" and dt.date.fromisoformat(r["ex_date"]) > since:
+                k *= float(r["ratio"])
+    return k
 
 
 def mark(call):
@@ -83,6 +105,11 @@ def mark(call):
         exit_d, exit_p, reason = dt.date.fromisoformat(call["exit_date"]), float(call["exit_price"]), call["exit_reason"]
     else:
         inv = float(call["invalidation_close"]) if call.get("invalidation_close") else None
+        # Bars come back in today's share terms (split_adjust), so a split after the call was posted must
+        # rescale its invalidation level too, or a reverse split fakes a stop-out (rule 2026-11-17, NCT:
+        # the 8-for-1 of 16 Nov read $9.62 against the unadjusted $1.75 instead of $14.00).
+        if inv is not None:
+            inv /= split_factor_after(call["ticker"], posted.date())
         rev = dt.date.fromisoformat(call["review_date"]) if call.get("review_date") else None
         for d, o, c in after:
             if inv is not None and ((d_dir > 0 and c < inv) or (d_dir < 0 and c > inv)):
