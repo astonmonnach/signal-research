@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $3.12 (2026-11-17, ledger) · 1d +0.3%, 5d -9.8%, 20d -28.0% (market context, 2026-11-17)
+- **Latest price:** $3.12 (2026-11-17, ledger) · 1d +1.3%, 5d -8.9%, 20d -27.3% (market context, 2026-11-17)
 - **Since first found:** **-27.4%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -27.9% vs IWM -2.3% = **-25.7 pts** vs IWM; direction 0, tracked only (27 days)
-- **Peers / sympathy:** no flag (self 5d -9.8% vs peer median -8.1%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d -8.9% vs peer median -8.3%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 

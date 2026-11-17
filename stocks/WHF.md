@@ -89,7 +89,7 @@
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
 - **Latest price:** $8.11 (2026-11-17, ledger) · 1d -0.1%, 5d +0.8%, 20d +6.6% (market context, 2026-11-17)
-- **Since first found:** **+16.4%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.7% vs IWM -3.5% = **+20.1 pts** vs IWM; direction +1 → excess +20.1% (49 days)
+- **Since first found:** **+16.4%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.7% vs IWM -3.5% = **+20.2 pts** vs IWM; direction +1 → excess +20.1% (49 days)
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing

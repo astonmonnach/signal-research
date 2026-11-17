@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $5.99 (2026-11-17, ledger) · 1d -0.1%, 5d +0.1%, 20d +0.8% (market context, 2026-11-17)
 - **Since first found:** **+0.8%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.8% vs IWM -1.0% = **+1.8 pts** vs IWM; direction 0, tracked only (34 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -2.8%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -2.6%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

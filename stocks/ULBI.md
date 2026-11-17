@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
 - **Latest price:** $15.68 (2026-11-17, ledger) · 1d -0.0%, 5d -0.7%, 20d +149.3% (market context, 2026-11-17)
-- **Since first found:** **+0.5%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.5% vs IWM -4.2% = **+4.6 pts** vs IWM; direction 0, tracked only (19 days)
+- **Since first found:** **+0.5%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: +0.5% vs IWM -4.2% = **+4.7 pts** vs IWM; direction 0, tracked only (19 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median -8.3% 5d vs ULBI -0.7%; peers moved, it didn't. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): missed_peer_move: peer median -8.8% 5d vs ULBI -0.7%; peers moved, it didn't. Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-17)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions)

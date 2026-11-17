@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `event_incident` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $154.18 (2026-11-17, ledger) · 1d -1.2%, 5d -8.7%, 20d -28.8% (market context, 2026-11-17)
-- **Since first found:** **-5.3%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -3.0% vs IWM -2.0% = **-1.0 pts** vs IWM; direction 0, tracked only (1 days)
-- **Peers / sympathy:** no flag (self 5d -8.7% vs peer median -4.7%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Latest price:** $153.85 (2026-11-17, ledger) · 1d -1.5%, 5d -9.0%, 20d -29.0% (market context, 2026-11-17)
+- **Since first found:** **-5.5%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -3.2% vs IWM -2.0% = **-1.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Peers / sympathy:** no flag (self 5d -9.0% vs peer median -4.6%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 17 Nov 2026: NVDA: Q3 FY27 results, call 5pm New York, first under interim CEO Colette Kress (Huang resigned 11 Nov)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for NVDA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $154.18 | -5.3% | -3.0% | -2.0% |  | 1 | live |
+| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $153.85 | -5.5% | -3.2% | -2.0% |  | 1 | live |
