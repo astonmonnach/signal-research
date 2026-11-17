@@ -306,3 +306,5 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-17,FRTT,Up to $20M of convertible notes at a 10% original issue discount in quarterly tranches; under $1,ongoing_supply,no,active,2026-11-17,,,research/daily/2026-11-17.md
 2026-11-17,LINK,$7.2M AGP ATM at the baby-shelf limit (non-affiliate float $21.6M); illiquid,ongoing_supply,no,active,2026-11-17,,,research/daily/2026-11-17.md
 2026-11-17,ENLV,"$7.5M registered direct, already priced; illiquid",one_off_offering,no,active,2026-11-17,,,research/daily/2026-11-17.md
+2026-11-17,AKAN,"F-1/A (5 Nov) for $10M of Series A convertible preferred converting at 85% of the market price (floor 20% of the prior close), up to 11.3M conversion shares vs 2.39M outstanding; +102.5% on 13 Nov and +62.5% on 16 Nov with no news; liquidity only on the spike days",ongoing_supply,no,active,2026-11-17,,,research/daily/2026-11-17.md
+2026-11-17,GDHG,"$50M Craft Capital ATM (424B5, 31 Aug); Class A rose from 20.0M to 59.4M shares between 31 Mar and 31 Aug; +91.4% on 16 Nov with no news",ongoing_supply,no,active,2026-11-17,,,research/daily/2026-11-17.md
