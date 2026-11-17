@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `supply_offering` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
 - **Latest price:** $7.75 (2026-11-17, ledger)
-- **Since first found:** **+32.5%** (found 2026-10-21 via `8k_lock_up` at $5.85). From the next open $5.60: +38.4% vs IWM -1.6% = **+39.9 pts** vs IWM; direction 0, tracked only (26 days)
+- **Since first found:** **+32.5%** (found 2026-10-21 via `8k_lock_up` at $5.85). From the next open $5.60: +38.4% vs IWM -1.6% = **+40.0 pts** vs IWM; direction 0, tracked only (26 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)

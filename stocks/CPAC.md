@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
 - **Latest price:** $12.93 (2026-11-17, ledger) · 1d +0.0%, 5d +0.4%, 20d +2.2% (market context, 2026-11-17)
-- **Since first found:** **+2.1%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +2.2% vs IWM -1.6% = **+3.7 pts** vs IWM; direction 0, tracked only (26 days)
+- **Since first found:** **+2.1%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +2.2% vs IWM -1.6% = **+3.8 pts** vs IWM; direction 0, tracked only (26 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (self 5d +0.4% vs peer median -4.6%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -47,5 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.93 | +2.1% | +2.2% | -1.6% |  | 26 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.93 | +1.2% | +1.1% | -1.6% |  | 25 | live |
-| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.93 | +1.9% | +1.8% | -4.8% |  | 13 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.93 | +1.2% | +1.1% | -1.7% |  | 25 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.93 | +1.9% | +1.8% | -4.9% |  | 13 | live |
