@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md)); `merger_arb` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $0.624 (2026-11-16, ledger) · 1d -1.3%, 5d -29.0%, 20d -39.9% (market context, 2026-11-16)
-- **Since first found:** **-40.6%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -44.6% vs IWM +0.5% = **-45.0 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $0.629 (2026-11-17, ledger) · 1d +1.8%, 5d -26.1%, 20d -43.4% (market context, 2026-11-17)
+- **Since first found:** **-40.1%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -44.1% vs IWM -1.1% = **-43.0 pts** vs IWM; direction 0, tracked only (29 days)
   - 6 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: GPRO -29.0% 5d vs peer median -3.6%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-16)
+- **Peers / sympathy:** solo_move: GPRO -26.1% 5d vs peer median -3.7%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 31 Mar 2027: GPRO: outside date for the $1.14 cash plus stock takeover, moved from 31 Dec 2026 by Amendment No. 1 (6 Nov; buyer still needs its commitment letter extended)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: GoPro Announces Third Quarter Results (PR Newswire, published Mon 16 Nov) ([release](https://www.prnewswire.com/news-releases/gopro-announces-third-quarter-results-302941004.html))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **GPRO** (watchlist): Amendment No. 1 moves the outside date from 31 Dec 2026 to 31 Mar 2027; the buyer still has to get its commitment letter… ([triage](../watch/digests/2026-11-13-triage.md)) · Logged as `merger_arb` (direction 0): Outside date moved to 31 Mar 2027 (Amendment No. 1, 6 Nov); buyer must extend its commitment letter; $0.67 implies about 13% odds (arith); under $1; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `8-K` 12 Nov · Research: Research: Fri 13 Nov 2026 (- **GPRO:** outside date moved to 31 Mar 2027; $0.67 implies about 13% odds (arith). Calendar moved, UID kept.) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split, tender offer" (8k merger agreement) (5d before -27.2%, found day -2.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1500435/000162828026073371/gpro2026-11x128xkexhibit21.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **GPRO** NT 10-Q: covenant waivers sought, acceleration could let the acquirer terminate its merger; Q3 revenue about $96M vs $163M. On the register. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `8-K` 10 Nov · Research: Research: Wed 11 Nov 2026 (- **Late filers:** CTVA and VYLR both blame spin-off reporting, with no flags. Results come before the 12 Nov…) ([note](../research/daily/2026-11-11.md))
@@ -38,10 +39,10 @@ Every [ledger](../ledger/LEDGER.md) row for GPRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.624 | -40.6% | -44.6% | +0.5% |  | 28 | live |
-| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.624 | -40.6% | -44.6% | +0.5% |  | 28 | live |
-| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.624 | -40.0% | -39.8% | +0.6% |  | 27 | live |
-| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.624 | -43.3% | -43.6% | -1.4% |  | 26 | live |
-| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.624 | -35.3% | -35.7% | -3.9% | +31.8% | 12 | live |
-| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.624 | -6.9% | -8.3% | -2.1% |  | 3 | live |
-| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.624 | -1.5% | -1.2% | -1.1% |  | 0 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.629 | -40.1% | -44.1% | -1.1% |  | 29 | live |
+| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.629 | -40.1% | -44.1% | -1.1% |  | 29 | live |
+| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.629 | -39.5% | -39.2% | -1.0% |  | 28 | live |
+| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.629 | -42.8% | -43.1% | -2.9% |  | 27 | live |
+| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.629 | -34.8% | -35.2% | -5.4% | +29.8% | 13 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.629 | -6.2% | -7.5% | -3.7% |  | 4 | live |
+| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.629 | -0.7% | -0.3% | -2.7% |  | 1 | live |

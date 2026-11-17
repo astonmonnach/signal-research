@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $5.36 (2026-11-16, ledger)
-- **Since first found:** **-6.7%** (found 2026-11-06 via `activist_13d` at $5.75). From the next open $5.77: -7.0% vs IWM -1.6% = **-5.5 pts** vs IWM; direction +1 → excess -5.5% (7 days)
+- **Latest price:** $5.32 (2026-11-17, ledger)
+- **Since first found:** **-7.5%** (found 2026-11-06 via `activist_13d` at $5.75). From the next open $5.77: -7.8% vs IWM -3.1% = **-4.7 pts** vs IWM; direction +1 → excess -4.7% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: X Financial to Hold Annual General Meeting on December 24, 2026 (PR Newswire, published Mon 16 Nov) ([release](https://www.prnewswire.com/news-releases/x-financial-to-hold-annual-general-meeting-on-december-24-2026-302940252.html))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **XYF**: controller's non-binding $6.03/ADS go-private; 93.45% of votes; $5.56 (8.4% gap); unaffected $4.70. Tracked, no call (see note). ([triage](../watch/digests/2026-11-10-triage.md)) · Logged as `merger_arb` (direction 0): Controller's non-binding $6.03/ADS go-private (93.45% of votes); $5.56, 8.4% gap; unaffected $4.70; tracked, no call; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- **XYF:** controller's non-binding $6.03/ADS go-private (93.45% of the votes). $5.56 is 8.4% below the…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -3.9%, found day +22.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1725033/000110465926123916/0001104659-26-123916-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1725033/000110465926123554/tm2629201d1_ex99-1.htm))
 
@@ -26,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for XYF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `activist_13d` | +1 | -3.9% | +22.3% | $337k | $5.75 | $5.77 | $5.36 | -6.7% | -7.0% | -1.6% | -5.5% | 7 | live |
-| 2026-11-10 | `merger_arb` | 0 | +14.9% | -4.0% | $390k | $5.34 | $5.27 | $5.36 | +0.5% | +1.8% | -3.5% |  | 5 | live |
+| 2026-11-06 | `activist_13d` | +1 | -3.9% | +22.3% | $337k | $5.75 | $5.77 | $5.32 | -7.5% | -7.8% | -3.1% | -4.7% | 8 | live |
+| 2026-11-10 | `merger_arb` | 0 | +14.9% | -4.0% | $390k | $5.34 | $5.27 | $5.32 | -0.4% | +0.9% | -5.0% |  | 6 | live |

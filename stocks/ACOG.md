@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $7.77 (2026-11-16, ledger)
-- **Since first found:** **-9.8%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -9.7% vs IWM -1.4% = **-8.3 pts** vs IWM; direction 0, tracked only (26 days)
+- **Latest price:** $7.85 (2026-11-17, ledger)
+- **Since first found:** **-8.8%** (found 2026-10-20 via `insider_buy` at $8.61). From the next open $8.60: -8.7% vs IWM -2.9% = **-5.8 pts** vs IWM; direction 0, tracked only (27 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: Alpha Cognition Announces Publication of U.S. Patent Application for Benzgalantamine for Treating Persistent… (Business Wire) ([release](http://www.businesswire.com/news/home/20261116172110/en/Alpha-Cognition-Announces-Publication-of-U.S.-Patent-Application-for-Benzgalantamine-for-Treating-Persistent-Post-Concussion-Symptoms/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Alpha Cognition Inc. Reports Third Quarter 2026 Financial Results and Provides Operational Update (Business Wire) ([release](http://www.businesswire.com/news/home/20261111978366/en/Alpha-Cognition-Inc.-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Operational-Update/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Alpha Cognition Strengthens Its Board of Directors with Appointment of Caren Deardorf (Business Wire) ([release](http://www.businesswire.com/news/home/20261109133062/en/Alpha-Cognition-Strengthens-Its-Board-of-Directors-with-Appointment-of-Caren-Deardorf/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Alpha Cognition to Participate in Upcoming Investor Events (Business Wire) ([release](http://www.businesswire.com/news/home/20261106352544/en/Alpha-Cognition-to-Participate-in-Upcoming-Investor-Events/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for ACOG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $7.77 | -9.8% | -9.7% | -1.4% |  | 26 | live |
+| 2026-10-20 | `insider_buy` | 0 | -3.8% | +1.3% | $827k | $8.61 | $8.60 | $7.85 | -8.8% | -8.7% | -2.9% |  | 27 | live |

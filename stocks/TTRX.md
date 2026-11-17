@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $8.52 (2026-11-16, ledger)
-- **Since first found:** **-14.1%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -15.7% vs IWM -3.5% = **-12.2 pts** vs IWM; direction 0, tracked only (5 days)
+- **Latest price:** $8.19 (2026-11-17, ledger)
+- **Since first found:** **-17.4%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -19.0% vs IWM -5.0% = **-14.0 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: Turn Therapeutics to Present at Jefferies Global Healthcare Conference in London (Business Wire) ([release](http://www.businesswire.com/news/home/20261116536424/en/Turn-Therapeutics-to-Present-at-Jefferies-Global-Healthcare-Conference-in-London/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-10](../scans/2026-11-10.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Equity line + resale registered since 2025; new $50M ATM shelf pending; going concern; register only; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- TTRX: its resale and equity line have been registered since 2025; re-check when the new $50M ATM goes…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026117186/ea0308697-10q_turn.htm)) · Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026117224/0001213900-26-117224-index.htm))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for TTRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $8.52 | -14.1% | -15.7% | -3.5% |  | 5 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $8.19 | -17.4% | -19.0% | -5.0% |  | 6 | live |

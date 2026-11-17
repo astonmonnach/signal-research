@@ -6,17 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $1.97 (2026-11-16, market context) · 1d -11.1%, 5d -26.7%, 20d -17.8% (market context, 2026-11-16)
+- **Latest price:** $1.86 (2026-11-17, market context) · 1d -9.0%, 5d -25.4%, 20d -16.4% (market context, 2026-11-17)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** no flag (self 5d -26.7% vs peer median -17.5%). Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-16)
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 16 Nov 2026: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts)
+- **Peers / sympathy:** solo_move: NKLR -25.4% 5d vs peer median -11.0%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Terra Innovatum Reports Third Quarter 2026 Financial Results and Continued Progress Toward First Solo™… (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404211/0/en/terra-innovatum-reports-third-quarter-2026-financial-results-and-continued-progress-toward-first-solo-reactor-deployment.html))
+- **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `DEFA14A` 6 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `424B3` 28 Oct

@@ -6,11 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $8.25 (2026-11-16, ledger)
-- **Since first found:** **** (found 2026-10-26 via `setup_supply_registered_direct`). From the next open $6.24: +32.3% vs IWM -1.1% = **+33.4 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $9.41 (2026-11-17, ledger)
+- **Since first found:** **+536.1%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +507.4% vs IWM -3.3% = **+510.7 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 16 Nov 2026: NCT: 8-for-1 consolidation effective (public AVOID #3: the $1.75 invalidation level becomes $14.00)
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NCT: 8-for-1 consolidation effective (public AVOID #3: the $1.75 invalidation level becomes $14.00) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Public calls:** NCT (#3) went $0.409 on 10 Nov to $0.72 on 11 Nov and $0.74 today, far below its $1.75…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **NCT** (public AVOID #3): 8-for-1 consolidation effective 16 Nov; added to ledger/corporate_actions.csv. ([triage](../watch/digests/2026-11-11-triage.md)) · Research: Research: Wed 11 Nov 2026 (- **NCT (public AVOID #3):** an 8-for-1 consolidation is effective 16 Nov, after a 25-for-1 on 17 Sep. Added…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/10/3399814/0/en/intercont-cayman-limited-announces-effective-time-of-share-consolidation-reverse-share-split.html)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/2018529/000121390026117835/ea031113901ex99-1.htm))
@@ -32,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 |  |  |  |  | $6.24 | $8.25 |  | +32.3% | -1.1% |  | 0 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $9.41 | +536.1% | +507.4% | -3.3% |  | 21 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $103.53 (2026-11-16, ledger)
-- **Since first found:** **+18.0%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +17.0% vs IWM -1.8% = **+18.8 pts** vs IWM; direction +1 → excess +18.8% (38 days)
+- **Latest price:** $102.79 (2026-11-17, ledger) · 1d -0.1%, 5d +1.1%, 20d +8.6% (market context, 2026-11-17)
+- **Since first found:** **+17.1%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +16.1% vs IWM -3.4% = **+19.5 pts** vs IWM; direction +1 → excess +19.6% (39 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** no flag (self 5d +1.1% vs peer median -0.5%). Peer groups: SIC 3845 (8) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Medtronic announces FDA clearance of general surgery procedures for the Hugo™ robotic-assisted surgery (RAS)… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-announces-fda-clearance-of-general-surgery-procedures-for-the-hugo-robotic-assisted-surgery-ras-system-302941366.html))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Medtronic to announce financial results for its second quarter of fiscal year 2027 (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027-302929617.html))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: MDT, issuer tender: read. The final MiniMed results; Medtronic now holds no MiniMed shares. Nothing new. -0.2%. ([triage](../watch/digests/2026-10-15-triage.md)) · Press: Medtronic Completes Separation of MiniMed Group, Inc. (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-completes-separation-of-minimed-group-inc-302910198.html)) · Press: Medtronic Named to TIME Best Inventions of 2026 List for Stealth AXiS™ surgical system and Corsano™*… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-named-to-time-best-inventions-of-2026-list-for-stealth-axis-surgical-system-and-corsano-multi-parameter-wearable-302910528.html)) · Press: MiniMed Completes Separation from Medtronic (PR Newswire) ([release](https://www.prnewswire.com/news-releases/minimed-completes-separation-from-medtronic-302910187.html))
 - **[2026-10-14](../scans/2026-10-14.md#press-releases)**: Press: Medtronic Announces Final Results of MiniMed Group, Inc. Exchange Offer (PR Newswire) ([release](https://www.prnewswire.com/news-releases/medtronic-announces-final-results-of-minimed-group-inc-exchange-offer-302908450.html)) · Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before +6.8%, found day +1.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1613103/000162828026065823/0001628280-26-065823-index.htm))
@@ -32,7 +33,7 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $103.53 | +18.0% | +17.0% | -1.8% | +18.8% | 38 | live |
-| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $103.53 | +17.0% | +14.1% | -1.9% |  | 35 | live |
-| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $103.53 | +11.3% | +11.3% | -0.1% | +11.4% | 33 | live |
-| 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $103.53 | +9.9% | +9.0% | +0.6% | +8.3% | 32 | live |
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $102.79 | +17.1% | +16.1% | -3.4% | +19.6% | 39 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $102.79 | +16.2% | +13.2% | -3.5% |  | 36 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $102.79 | +10.5% | +10.5% | -1.7% | +12.2% | 34 | live |
+| 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $102.79 | +9.1% | +8.2% | -1.0% | +9.2% | 33 | live |

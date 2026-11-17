@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $3.18 (2026-11-16, ledger)
-- **Since first found:** **-8.9%** (found 2026-11-10 via `insider_cluster` at $3.49). From the next open $3.48: -8.8% vs IWM -3.5% = **-5.3 pts** vs IWM; direction 0, tracked only (5 days)
+- **Latest price:** $3.50 (2026-11-17, ledger)
+- **Since first found:** **+0.3%** (found 2026-11-10 via `insider_cluster` at $3.49). From the next open $3.48: +0.4% vs IWM -5.0% = **+5.5 pts** vs IWM; direction 0, tracked only (6 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: AFC Announces Results of Article 9 Public Sale of Justice Grown’s Pennsylvania Dispensaries (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/16/3403486/0/en/afc-announces-results-of-article-9-public-sale-of-justice-grown-s-pennsylvania-dispensaries.html))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000162828026073398/0001628280-26-073398-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **AFCG** 13D/A + three Form 4s: Tannenbaum 32.6%, couple plus CFO bought $91k on 6 Nov; issuer buyback; mdv20 $158k. Tracked, no call. ([triage](../watch/digests/2026-11-10-triage.md)) · Logged as `insider_cluster` (direction 0): Tannenbaum couple + CFO buys 6 Nov, 32.6% holder, issuer buyback; mdv20 at the line; tracked, no call; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- **ADTN** (CEO $601k and CFO $74k, 6 Nov), **AFCG** (Tannenbaum couple plus the CFO, holder at 32.6%)…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000162828026072331/0001628280-26-072331-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000182912626012156/0001829126-26-012156-index.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for AFCG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `insider_cluster` | 0 | +14.9% | +1.6% | $193k | $3.49 | $3.48 | $3.18 | -8.9% | -8.8% | -3.5% |  | 5 | live |
+| 2026-11-10 | `insider_cluster` | 0 | +14.9% | +1.6% | $193k | $3.49 | $3.48 | $3.50 | +0.3% | +0.4% | -5.0% |  | 6 | live |

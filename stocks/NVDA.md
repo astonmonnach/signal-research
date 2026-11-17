@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `event_incident` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $156.22 (2026-11-16, ledger)
-- **Since first found:** **-4.1%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.00: -1.8% vs IWM -1.1% = **-0.7 pts** vs IWM; direction 0, tracked only (0 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $153.21 (2026-11-17, ledger) · 1d -2.1%, 5d -9.4%, 20d -29.4% (market context, 2026-11-17)
+- **Since first found:** **-5.9%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -3.7% vs IWM -2.7% = **-1.0 pts** vs IWM; direction 0, tracked only (1 days)
+- **Peers / sympathy:** no flag (self 5d -9.4% vs peer median -5.5%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-17)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 17 Nov 2026: NVDA: Q3 FY27 results, call 5pm New York, first under interim CEO Colette Kress (Huang resigned 11 Nov)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html))
 - **[2026-11-13](../scans/2026-11-13.md#new-setups)**: Logged as `event_incident` (direction 0): Huang resigned as CEO and director on 11 Nov (8-K 12 Nov); -11.0% 6-12 Nov vs SMH +8.1%; nth-order page research/NVDA-2026-11-13.html; results 17 Nov; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 13 Nov 2026 (1. Nvidia: the CEO left, and the share-sale question is the small part (NVDA)) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (Nvidia (NVDA) · 13 Nov 2026 · prices to the 12 Nov close) ([note](../research/NVDA-2026-11-13.html))
 
 ## Performance since found
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for NVDA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38522.9M | $162.85 | $159.00 | $156.22 | -4.1% | -1.8% | -1.1% |  | 0 | live |
+| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $153.21 | -5.9% | -3.7% | -2.7% |  | 1 | live |
