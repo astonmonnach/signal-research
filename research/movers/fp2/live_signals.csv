@@ -56,3 +56,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-10,02:22,False,CDT,CDT Equity Inc. Common Stock,S1,1.31,27133043,2460514,11.03,448249,2026-11-06,0.05,0.561,0.4833,2026-11-11,-0.138503,-0.158503,filled
 2026-11-17,02:35,False,MRLN,Merlin Inc. Common Stock,S2,1.13,42476092,4630040,9.17,1580877,,,,,,,,open
 2026-11-17,02:35,False,STIM,Neuronetics Inc. Common Stock,S2,1.39,16259542,3072720,5.29,2499993,,,,,,,,open
+2026-11-18,01:51,False,MNTK,Montauk Renewables Inc. Common Stock,S2,1.17,6966082,1023515,6.81,1097857,,,,,,,,open
+2026-11-18,01:51,False,SPAI,Safe Pro Group Inc. Common Stock,S2,2.47,3348492,296390,11.3,327905,,,,,,,,open
