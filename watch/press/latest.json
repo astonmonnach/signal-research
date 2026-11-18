@@ -1,66 +1,18 @@
 [
  {
-  "published_utc": "2026-11-17T22:18:00Z",
+  "published_utc": "2026-11-18T09:59:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "NVDA",
-  "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
-  "link": "https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html",
-  "matched_on": "manual_call"
+  "ticker": "RXRX",
+  "title": "Recursion Announces Alignment with FDA on Registrational Phase 3 Trial Design for REC-4881 in Familial Adenomatous Polyposis",
+  "link": "https://www.globenewswire.com/news-release/2026/11/18/3405436/0/en/recursion-announces-alignment-with-fda-on-registrational-phase-3-trial-design-for-rec-4881-in-familial-adenomatous-polyposis.html",
+  "matched_on": "keyword:Phase 3"
  },
  {
-  "published_utc": "2026-11-17T21:40:00Z",
+  "published_utc": "2026-11-18T08:35:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "HUBG",
-  "title": "Hub Group Declares Quarterly Dividend",
-  "link": "https://www.globenewswire.com/news-release/2026/11/17/3405216/0/en/hub-group-declares-quarterly-dividend.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-17T21:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "HUBG",
-  "title": "Hub Group Receives Nasdaq Approval for Continued Listing and Extension to Complete Delayed Filings",
-  "link": "https://www.globenewswire.com/news-release/2026/11/17/3405210/0/en/hub-group-receives-nasdaq-approval-for-continued-listing-and-extension-to-complete-delayed-filings.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-17T21:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "SKYA;SKYAW",
-  "title": "SkyAI Announces Final Results of Cash Tender Offer",
-  "link": "https://www.globenewswire.com/news-release/2026/11/17/3405184/0/en/skyai-announces-final-results-of-cash-tender-offer.html",
-  "matched_on": "watchlist;keyword:tender offer"
- },
- {
-  "published_utc": "2026-11-18T01:53:00Z",
-  "wire": "Business Wire",
-  "ticker": "ARDT",
-  "title": "Ardent Health Announces Pricing of Secondary Offering of Common Stock and Concurrent Share Repurchase",
-  "link": "http://www.businesswire.com/news/home/20261117444708/en/Ardent-Health-Announces-Pricing-of-Secondary-Offering-of-Common-Stock-and-Concurrent-Share-Repurchase/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-17T22:04:00Z",
-  "wire": "Business Wire",
-  "ticker": "ARDT",
-  "title": "CORRECTING and REPLACING Ardent Health Announces Proposed Secondary Offering of Common Stock and Concurrent Share Repurchase",
-  "link": "http://www.businesswire.com/news/home/20261117434866/en/CORRECTING-and-REPLACING-Ardent-Health-Announces-Proposed-Secondary-Offering-of-Common-Stock-and-Concurrent-Share-Repurchase/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-17T21:35:00Z",
-  "wire": "Business Wire",
-  "ticker": "FIX",
-  "title": "Comfort Systems USA Increases Stock Repurchase Program",
-  "link": "http://www.businesswire.com/news/home/20261117937526/en/Comfort-Systems-USA-Increases-Stock-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:stock repurchase"
- },
- {
-  "published_utc": "2026-11-17T21:35:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "IRTC",
-  "title": "iRhythm Announces $100 Million Accelerated Share Repurchase Agreement",
-  "link": "https://www.globenewswire.com/news-release/2026/11/17/3405212/0/en/irhythm-announces-100-million-accelerated-share-repurchase-agreement.html",
+  "ticker": "HSAI",
+  "title": "Hesai Group Announces US$100 Million Share Repurchase Program",
+  "link": "https://www.globenewswire.com/news-release/2026/11/18/3405411/0/en/hesai-group-announces-us-100-million-share-repurchase-program.html",
   "matched_on": "keyword:share repurchase"
  }
 ]
