@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.36 (2026-11-18, ledger)
-- **Since first found:** **-9.1%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -9.1% vs IWM -0.9% = **-8.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $1.37 (2026-11-18, ledger)
+- **Since first found:** **-8.2%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -8.2% vs IWM -0.8% = **-7.4 pts** vs IWM; direction 0, tracked only (1 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for TE ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.36 | -9.1% | -9.1% | -0.9% |  | 1 | live |
-| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $57.9M | $1.33 | $1.30 | $1.36 | +1.9% | +4.2% | +0.6% |  | 0 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.37 | -8.2% | -8.2% | -0.8% |  | 1 | live |
+| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $57.9M | $1.33 | $1.30 | $1.37 | +2.9% | +5.3% | +0.7% |  | 0 | live |

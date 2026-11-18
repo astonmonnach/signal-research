@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.90 (2026-11-18, ledger) · 1d +0.3%, 5d +0.1%, 20d +1.9% (market context, 2026-11-18)
-- **Since first found:** **+1.9%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +2.0% vs IWM -1.9% = **+3.8 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $12.85 (2026-11-18, ledger) · 1d -0.1%, 5d -0.3%, 20d +1.5% (market context, 2026-11-18)
+- **Since first found:** **+1.5%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +1.6% vs IWM -1.8% = **+3.3 pts** vs IWM; direction 0, tracked only (27 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -4.3%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Peers / sympathy:** no flag (self 5d -0.3% vs peer median -4.2%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 20 Nov 2026: CPAC: Holcim US tender expires 4pm New York (T011)
   - Fri 20 Nov 2026: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York
@@ -48,6 +48,6 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.90 | +1.9% | +2.0% | -1.9% |  | 27 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.90 | +1.0% | +0.9% | -1.9% |  | 26 | live |
-| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.90 | +1.6% | +1.6% | -5.1% |  | 14 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.85 | +1.5% | +1.6% | -1.8% |  | 27 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.85 | +0.6% | +0.6% | -1.8% |  | 26 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.85 | +1.3% | +1.2% | -5.0% |  | 14 | live |

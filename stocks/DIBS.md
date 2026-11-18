@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $5.77 (2026-11-18, ledger) · 1d +0.0%, 5d +1.1%, 20d +33.9% (market context, 2026-11-18)
-- **Since first found:** **+34.2%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +34.2% vs IWM -2.6% = **+36.8 pts** vs IWM; direction 0, tracked only (28 days)
-- **Peers / sympathy:** no flag (self 5d +1.1% vs peer median -3.5%). Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Latest price:** $5.76 (2026-11-18, ledger) · 1d -0.3%, 5d +0.8%, 20d +33.5% (market context, 2026-11-18)
+- **Since first found:** **+33.8%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +33.8% vs IWM -2.5% = **+36.3 pts** vs IWM; direction 0, tracked only (28 days)
+- **Peers / sympathy:** no flag (self 5d +0.8% vs peer median -3.2%). Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for DIBS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.77 | +34.2% | +34.2% | -2.6% |  | 28 | live |
+| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.76 | +33.8% | +33.8% | -2.5% |  | 28 | live |
