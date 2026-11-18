@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $1.79 (2026-11-17, market context) · 1d -12.7%, 5d -28.4%, 20d -19.7% (market context, 2026-11-17)
+- **Latest price:** $1.80 (2026-11-18, market context) · 1d +0.3%, 5d -25.7%, 20d -18.7% (market context, 2026-11-18)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** solo_move: NKLR -28.4% 5d vs peer median -10.3%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** solo_move: NKLR -25.7% 5d vs peer median -10.3%; peers didn't move with it. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,7 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Terra Innovatum Reports Third Quarter 2026 Financial Results and Continued Progress Toward First Solo™… (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404211/0/en/terra-innovatum-reports-third-quarter-2026-financial-results-and-continued-progress-toward-first-solo-reactor-deployment.html))
+- **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Terra Innovatum Reports Third Quarter 2026 Financial Results and Continued Progress Toward First Solo™… (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404211/0/en/terra-innovatum-reports-third-quarter-2026-financial-results-and-continued-progress-toward-first-solo-reactor-deployment.html)) · Filings: `10-Q` 16 Nov
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `DEFA14A` 6 Nov

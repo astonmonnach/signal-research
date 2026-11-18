@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $4.53 (2026-11-17, ledger) · 1d -1.6%, 5d -11.2%, 20d +14.3% (market context, 2026-11-17)
-- **Since first found:** **+14.2%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +13.9% vs IWM -2.4% = **+16.3 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $4.45 (2026-11-18, ledger) · 1d -1.4%, 5d -11.8%, 20d +12.5% (market context, 2026-11-18)
+- **Since first found:** **+12.2%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +11.9% vs IWM -2.6% = **+14.5 pts** vs IWM; direction 0, tracked only (28 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -11.2% vs peer median -8.0%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d -11.8% vs peer median -9.4%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 18 Nov 2026: ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
@@ -23,6 +23,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T019 SEER $1.59, T020 XPOF $4.63, T021 ACB $4.99: no new filing. ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **Calendar events dated today, re-checked:** SKYA expiry and CTVA/VYLR results (above). ([triage](../watch/digests/2026-11-12-triage.md)) · Calendar: ACB: (moved) results came out early on 5 Nov and the 12 Nov call was cancelled because of the Organigram deal ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Thu 12 Nov 2026 (- **ACB (T021):** the package gap was 3.6% on 11 Nov (arith), below the 6% bar. The results the calendar…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **ACB**: Trium Capital 5.0%, passive (event 26 Oct). T021 gap 3.0% on 10 Nov. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov · Research: Research: Wed 11 Nov 2026 (- **ACB (T021):** package gap 3.0% on 10 Nov (below 6%). Trium Capital filed a passive 13G at 5.0%. Curaleaf…) ([note](../research/daily/2026-11-11.md))
@@ -44,5 +45,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.53 | +14.2% | +13.9% | -2.4% |  | 27 | live |
-| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.53 | -13.4% | -12.8% | -4.8% |  | 12 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.45 | +12.2% | +11.9% | -2.6% |  | 28 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.45 | -15.0% | -14.3% | -5.0% |  | 13 | live |

@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $3.59 (2026-11-17, ledger)
-- **Since first found:** **-4.1%** (found 2026-11-06 via `holder_buying` at $3.74). From the next open $3.90: -8.1% vs IWM -2.6% = **-5.5 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $3.54 (2026-11-18, ledger)
+- **Since first found:** **-5.5%** (found 2026-11-06 via `holder_buying` at $3.74). From the next open $3.90: -9.4% vs IWM -2.8% = **-6.6 pts** vs IWM; direction 0, tracked only (9 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -5.1%, found day -1.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1651562/000107261326000890/0001072613-26-000890-index.htm))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **COUR:** Pale Fire (the DOLE and Groupon group) bought 8,355,251 shares on 3-5 Nov for $31.45M on a passive 13G. Tracked. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `holder_buying` (direction 0): Pale Fire (13G filer here; the DOLE and Groupon group) bought 8.36M shares 3-5 Nov for $31.45M; tracked; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1651562/000092189526002941/0000921895-26-002941-index.htm))
 
@@ -25,4 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for COUR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `holder_buying` | 0 | -19.5% | -0.3% | $36.0M | $3.74 | $3.90 | $3.59 | -4.1% | -8.1% | -2.6% |  | 8 | live |
+| 2026-11-06 | `holder_buying` | 0 | -19.5% | -0.3% | $36.0M | $3.74 | $3.90 | $3.54 | -5.5% | -9.4% | -2.8% |  | 9 | live |
+| 2026-11-13 | `activist_13d` | +1 | -5.1% | -1.4% | $36.0M | $3.51 | $3.50 | $3.54 | +0.7% | +1.0% | -2.3% | +3.3% | 2 | live |

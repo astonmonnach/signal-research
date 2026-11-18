@@ -25,8 +25,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.200 (2026-11-17, ledger)
-- **Since first found:** **-58.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -54.6% vs IWM -4.1% = **-50.4 pts** vs IWM; direction 0, tracked only (43 days)
+- **Latest price:** $0.201 (2026-11-18, ledger)
+- **Since first found:** **-58.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -54.4% vs IWM -4.3% = **-50.0 pts** vs IWM; direction 0, tracked only (44 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,6 +36,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -8.7%, found day +9.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1972234/999999999526003517/9999999995-26-003517-index.htm))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 15 Sep + deficiency 2 Sep; $0.48; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
 ## Performance since found
@@ -43,4 +45,5 @@ Every [ledger](../ledger/LEDGER.md) row for VHUB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.200 | -58.4% | -54.6% | -4.1% |  | 43 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.201 | -58.2% | -54.4% | -4.3% |  | 44 | live |
+| 2026-11-13 | `registration_effective` | -1 | -8.7% | +9.5% | $33k ⚠ | $0.230 | $0.240 | $0.201 | -12.7% | -16.4% | -2.3% | +14.1% | 2 | live |

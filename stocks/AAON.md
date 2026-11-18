@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $78.43 (2026-11-17, ledger)
-- **Since first found:** **-7.0%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -8.1% vs IWM -5.0% = **-3.1 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $78.58 (2026-11-18, ledger)
+- **Since first found:** **-6.8%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -7.9% vs IWM -5.2% = **-2.8 pts** vs IWM; direction 0, tracked only (43 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: 8-K trigger phrase "tender offer" (tender offer) (5d before +44.8%, found day +1.8%) ([filing](https://www.sec.gov/Archives/edgar/data/824142/000162828026073758/aaon-2ndarloanagreementfin.htm))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: The Aaon Group Announces Quarterly Cash Dividend (PR Newswire) ([release](https://www.prnewswire.com/news-releases/the-aaon-group-announces-quarterly-cash-dividend-302934292.html)) · Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: 8-K trigger phrase "non-reliance on past accounts (Item 4.02)" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/aaon-20261109.htm))
 - **[2026-10-05](../scans/2026-10-05.md#new-setups)**: Logged as `longterm_research` (direction 0): kill under LT2 (cash ~$0 + $165M undrawn vs -$119M TTM FCF; OCF positive, growth capex); BASX 55% of sales; source: long-term nth research (research/longterm-2026-10-05) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Long-term nth-order research, 5 Oct 2026 (6–36 month horizon) (- **SEC XBRL, AAON:** cash $0.01M and a $435.0M line of credit at 30 Jun 2026.) ([note](../research/longterm-2026-10-05/REPORT.md))
@@ -27,4 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for AAON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $78.43 | -7.0% | -8.1% | -5.0% |  | 42 | live |
+| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $78.58 | -6.8% | -7.9% | -5.2% |  | 43 | live |
+| 2026-11-13 | `8k_tender_offer` | 0 | +44.8% | +1.8% | $107.7M | $80.25 | $78.88 | $78.58 | -2.1% | -0.4% | -2.3% |  | 2 | live |

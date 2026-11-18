@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $34.91 (2026-11-17, ledger)
-- **Since first found:** **-25.5%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -26.4% vs IWM -5.0% = **-21.4 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $36.67 (2026-11-18, ledger)
+- **Since first found:** **-21.7%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -22.6% vs IWM -5.2% = **-17.5 pts** vs IWM; direction 0, tracked only (43 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000183168626000012/0001831686-26-000012-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000103160926000009/0001031609-26-000009-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: MP Materials Reports Third Quarter 2026 Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261105634092/en/MP-Materials-Reports-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-WM0HSwaiJOV4ew37VhmA-V_AFChGO3y0nEP3RiLje9i7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LP6oD-t3eB0qV-nJQ-WeFyC2oJ72yfyvUvvaxllIYV0HQ==)) · Research: Research: Thu 5 Nov 2026 (- **ELMT (T007):** no insider sold through the window that ended today. The stock is $17.24, down 28% since…) ([note](../research/daily/2026-11-05.md))
@@ -31,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for MP ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $34.91 | -25.5% | -26.4% | -5.0% |  | 42 | live |
+| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $36.67 | -21.7% | -22.6% | -5.2% |  | 43 | live |

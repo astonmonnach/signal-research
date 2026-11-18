@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $28.67 (2026-11-17, ledger) · 1d +1.1%, 5d +2.6%, 20d -0.0% (market context, 2026-11-17)
-- **Since first found:** **+0.1%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: -0.2% vs IWM -5.0% = **+4.8 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $28.68 (2026-11-18, ledger) · 1d +0.0%, 5d +1.9%, 20d -0.3% (market context, 2026-11-18)
+- **Since first found:** **+0.1%** (found 2026-10-05 via `8k_merger_agreement` at $28.65). From the next open $28.73: -0.2% vs IWM -5.2% = **+5.0 pts** vs IWM; direction 0, tracked only (43 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +2.6% vs peer median -0.3%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d +1.9% vs peer median -2.9%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **MG**, **LCII**, **RXO**: proxy supplement, CFO retention bonus, CFO social post. Nothing new. LCII votes 18 Nov. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `425` 13 Nov
 - **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `425` 12 Nov · Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#watchlist-filings)**: Filings: `425` 10 Nov
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 6 Nov
@@ -31,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for RXO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.67 | +0.1% | -0.2% | -5.0% |  | 42 | live |
-| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.67 | +0.1% | -0.2% | -5.0% | +4.8% | 42 | live |
-| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $28.67 | +0.5% | +1.1% | -2.9% |  | 41 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.68 | +0.1% | -0.2% | -5.2% |  | 43 | live |
+| 2026-10-05 | `activist_13d` | +1 | +18.1% | +22.5% | $66.7M | $28.65 | $28.73 | $28.68 | +0.1% | -0.2% | -5.2% | +5.0% | 43 | live |
+| 2026-10-06 | `merger_arb` | 0 | +42.2% | -0.4% | $77.1M | $28.54 | $28.34 | $28.68 | +0.5% | +1.2% | -3.1% |  | 42 | live |

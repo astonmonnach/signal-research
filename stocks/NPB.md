@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.07 (2026-11-17, ledger) · 1d -0.7%, 5d -4.7%, 20d -4.4% (market context, 2026-11-17)
-- **Since first found:** **-6.9%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -8.8% vs IWM -4.3% = **-4.5 pts** vs IWM; direction 0, tracked only (19 days)
-- **Peers / sympathy:** no flag (self 5d -4.7% vs peer median -3.4%). Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Latest price:** $14.88 (2026-11-18, ledger) · 1d +0.4%, 5d -5.6%, 20d -1.6% (market context, 2026-11-18)
+- **Since first found:** **-8.1%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -9.9% vs IWM -4.5% = **-5.4 pts** vs IWM; direction 0, tracked only (20 days)
+- **Peers / sympathy:** no flag (self 5d -5.6% vs peer median -5.0%). Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: NPB: CMG purchase of the retail mortgage channels expected to complete (T017)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NPB: Q3 10-Q due (exit charges; T017) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T017 NPB: the 10-Q says the CMG sale is "expected to be completed by November 30, 2026" with charges still estimated at $6-7M; not fired until the… ([triage](../watch/digests/2026-11-13-triage.md)) · Filings: `10-Q` 12 Nov, `4` 12 Nov
 - **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **Holders:** DOLE (the executive chairman's children sold 55 shares; T013 not fired), TENX (Adage below 5%…) ([note](../research/daily/2026-11-12.md))
@@ -32,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for NPB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $15.07 | -6.9% | -8.8% | -4.3% |  | 19 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $14.88 | -8.1% | -9.9% | -4.5% |  | 20 | live |

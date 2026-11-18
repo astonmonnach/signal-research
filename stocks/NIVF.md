@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.188 (2026-11-17, ledger)
-- **Since first found:** **-91.8%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -96.5% vs IWM -3.5% = **-92.9 pts** vs IWM; direction -1 → excess +92.9% (48 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $0.180 (2026-11-18, ledger)
+- **Since first found:** **-92.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -96.6% vs IWM -3.7% = **-92.9 pts** vs IWM; direction -1 → excess +92.9% (49 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: NewGen Provides Business Update (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/16/3403460/0/en/newgen-provides-business-update.html))
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -43.1%, found day -16.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/999999999526003533/9999999995-26-003533-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-14 4 NIVF +50% no_news $0.29 2.6 no -14.3% -15.0% +10.7% / -10.7% / -0.8% -36.1% -3.1% -49.0% -88.0%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- GRO: the baby-shelf cap on its $125M ATM isn't checked yet (NIVF rule).) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-02](../scans/2026-11-02.md)**: Research: Research: Mon 2 Nov 2026 (- **The evidence gate** (rule 2026-11-01, from the NIVF reply on X): every public call and deep dive now…) ([note](../research/daily/2026-11-02.md))
@@ -34,5 +35,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.188 | -91.8% | -96.5% | -3.5% | +92.9% | 48 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.188 | -84.3% | -83.3% | -4.3% |  | 19 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.180 | -92.2% | -96.6% | -3.7% | +92.9% | 49 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.180 | -85.0% | -84.1% | -4.5% |  | 20 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.180 | -22.0% | -19.6% | -2.3% | +17.3% | 2 | live |

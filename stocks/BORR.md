@@ -6,17 +6,19 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `event_incident` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $3.22 (2026-11-17, ledger) · 1d -0.2%, 5d +0.2%, 20d -24.5% (market context, 2026-11-17)
-- **Since first found:** **-34.7%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -35.3% vs IWM -2.8% = **-32.6 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $3.24 (2026-11-18, ledger) · 1d +1.4%, 5d -3.4%, 20d -23.6% (market context, 2026-11-18)
+- **Since first found:** **-34.3%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -34.9% vs IWM -3.0% = **-32.0 pts** vs IWM; direction 0, tracked only (36 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -1.1%). Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-17)
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Peers / sympathy:** no flag (self 5d -3.4% vs peer median -5.5%). Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Wed 18 Nov 2026: BORR: Q3 results after the close (call 19 Nov 9am New York)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `6-K` 16 Nov · Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (BORR (WATCH 12/10): peak +2.9% on 13 Oct (session 1), low -37.6% on 05 Nov, now -35.3%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (12/10 BORR $4.98 +2.9% 13 Oct (1) -3.6% -37.6% 5 Nov -35.3% -37.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (12/10 BORR director's $32M of buying $4.98 -35.3% -6.6% -28.8) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Borr Drilling Limited - Prospector 5 Rig Incident Update - November 2, 2026 (PR Newswire) ([release](https://www.prnewswire.com/news-releases/borr-drilling-limited---prospector-5-rig-incident-update---november-2-2026-302926066.html)) · Filings: `6-K` 2 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `6-K` 30 Oct
@@ -38,6 +40,6 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.22 | -34.7% | -35.3% | -2.8% |  | 35 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.22 | -32.9% | -35.6% | -1.1% | -34.5% | 34 | live |
-| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.22 | -18.7% | -18.7% | -2.8% |  | 21 | live |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.24 | -34.3% | -34.9% | -3.0% |  | 36 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.24 | -32.5% | -35.2% | -1.3% | -33.9% | 35 | live |
+| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.24 | -18.2% | -18.2% | -3.0% |  | 22 | live |

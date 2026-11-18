@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $107.52 (2026-11-17, ledger) · 1d +2.6%, 5d -18.4%, 20d -24.5% (market context, 2026-11-17)
-- **Since first found:** **-44.4%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -44.3% vs IWM -2.5% = **-41.8 pts** vs IWM; direction 0, tracked only (47 days)
-- **Peers / sympathy:** no flag (self 5d -18.4% vs peer median -16.3%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Latest price:** $115.68 (2026-11-18, ledger) · 1d +2.6%, 5d -6.2%, 20d -22.9% (market context, 2026-11-18)
+- **Since first found:** **-40.1%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -40.1% vs IWM -2.8% = **-37.3 pts** vs IWM; direction 0, tracked only (48 days)
+- **Peers / sympathy:** no flag (self 5d -6.2% vs peer median -8.8%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `10-K` 16 Nov, `144` ×6 16 Nov, `4` ×6 16 Nov, `SCHEDULE 13G/A` 16 Nov
 - **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Twist Bioscience Announces Fiscal 2026 Fourth Quarter and Full Year Financial Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261112854825/en/Twist-Bioscience-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=)) · Filings: `8-K` 12 Nov, `SCHEDULE 13G/A` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **TWST:** FY26 revenue $459.4M (+22%) and an FY27 guide of $550-560M. -7.2% on 11 Nov and -8.2% intraday on…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **Kills:** CHDN, killed on 5 Oct as a false positive, is +26.8% since. TWST, marked AVOID the same day, is…) ([note](../research/review/2026-11-10/REPORT.md))
@@ -122,4 +123,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $107.52 | -44.4% | -44.3% | -2.5% |  | 47 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $115.68 | -40.1% | -40.1% | -2.8% |  | 48 | live |

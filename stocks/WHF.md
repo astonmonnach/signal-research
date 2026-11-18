@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $8.11 (2026-11-17, ledger) · 1d -0.1%, 5d +0.8%, 20d +6.6% (market context, 2026-11-17)
-- **Since first found:** **+16.4%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +16.7% vs IWM -3.6% = **+20.2 pts** vs IWM; direction +1 → excess +20.2% (49 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Latest price:** $7.84 (2026-11-18, ledger) · 1d -2.3%, 5d -6.4%, 20d +1.8% (market context, 2026-11-18)
+- **Since first found:** **+12.4%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +12.7% vs IWM -3.8% = **+16.5 pts** vs IWM; direction +1 → excess +16.5% (50 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Fri 4 Dec 2026: WHF: $10M 5.375% notes due (T003; no refinancing announced yet)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T003 WHF: the 13 Nov 8-K redeems all $34.5M of the 7.875% 2028 notes on 15 Dec; no new financing filed yet. Not fired. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 13 Nov
 - **[2026-11-14](../scans/2026-11-14.md#press-releases)**: Press: WHITEHORSE FINANCE, INC. TO REDEEM 7.875% NOTES DUE 2028 (PR Newswire, published Fri 13 Nov) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-to-redeem-7-875-notes-due-2028--302939373.html))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **WHF** /: NAV $11.82 (from $11.77), non-accruals down to $8.1M at fair value, $0.25 held. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (WHF (WATCH 05/10): peak +23.5% on 06 Nov (session 24), low -3.4% on 07 Oct, now +17.2%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Reaction so far:** none in regular hours. 5 Nov to 9 Nov: CCAP -2.2%, against IWM +4.3%, the BDC ETF BIZD…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 WHF $6.91 +23.5% 6 Nov (24) -3.4% -3.4% 7 Oct +17.2% -5.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 WHF BDC sale review, below NAV $7.06 +17.2% -2.9% +20.1) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: WhiteHorse Finance, Inc. Announces Third Quarter 2026 Earnings Results and Declares Quarterly Distribution of… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-announces-third-quarter-2026-earnings-results-and-declares-quarterly-distribution-of-0-25-per-share-302933316.html)) · Calendar: WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct) ([calendar](../calendar/catalyst-dates.ics))
@@ -119,4 +120,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $8.11 | +16.4% | +16.7% | -3.6% | +20.2% | 49 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.84 | +12.4% | +12.7% | -3.8% | +16.5% | 50 | live |

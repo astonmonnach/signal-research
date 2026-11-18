@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $5.64 (2026-11-17, ledger) · 1d -2.3%, 5d -4.1%, 20d +30.5% (market context, 2026-11-17)
-- **Since first found:** **+31.2%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +31.2% vs IWM -2.4% = **+33.5 pts** vs IWM; direction 0, tracked only (27 days)
-- **Peers / sympathy:** no flag (self 5d -4.1% vs peer median -4.5%). Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Latest price:** $5.77 (2026-11-18, ledger) · 1d +0.0%, 5d +1.1%, 20d +33.9% (market context, 2026-11-18)
+- **Since first found:** **+34.2%** (found 2026-10-20 via `holder_13d` at $4.30). From the next open $4.30: +34.2% vs IWM -2.6% = **+36.8 pts** vs IWM; direction 0, tracked only (28 days)
+- **Peers / sympathy:** no flag (self 5d +1.1% vs peer median -3.5%). Peer groups: SIC 5961 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 16 Nov
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (DIBS (WATCH 20/10): peak +44.2% on 06 Nov (session 13), low -4.9% on 21 Oct, now +34.7%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (20/10 DIBS $4.30 +44.2% 6 Nov (13) -4.9% -4.9% 21 Oct +34.7% -6.6%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **DIBS**: T005 **fired** on the buyback leg, a $5.0M authorisation (2.4% of value). GMV of $92.6M missed the $94M leg. ([triage](../watch/digests/2026-11-05-triage.md)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (3. DIBS: the trigger fired, but on the news itself) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md)**: Research: Research: Wed 4 Nov 2026 (- DIBS +15% (T005 not fired); CRMT +47% (lender relief ran to today).) ([note](../research/daily/2026-11-04.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for DIBS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.64 | +31.2% | +31.2% | -2.4% |  | 27 | live |
+| 2026-10-20 | `holder_13d` | 0 | +15.8% | +1.2% | $501k | $4.30 | $4.30 | $5.77 | +34.2% | +34.2% | -2.6% |  | 28 | live |

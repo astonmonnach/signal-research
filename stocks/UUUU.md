@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $5.93 (2026-11-17, ledger) · 1d -1.7%, 5d -11.9%, 20d -27.7% (market context, 2026-11-17)
-- **Since first found:** **-36.1%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -34.1% vs IWM -1.1% = **-33.0 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $5.88 (2026-11-18, ledger) · 1d -1.0%, 5d -15.3%, 20d -28.4% (market context, 2026-11-18)
+- **Since first found:** **-36.6%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -34.6% vs IWM -1.3% = **-33.3 pts** vs IWM; direction 0, tracked only (35 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -11.9% vs peer median -8.6%). Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d -15.3% vs peer median -10.4%). Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `8-K` 16 Nov, `4` ×8 13 Nov
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **UUUU** 8-K: new director (already in the 4 Nov release). **XPOF** 10-Q: review ongoing, no Fund 1 mention; T020 not fired. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `8-K` 9 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 4 Nov
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors (PR Newswire) ([release](https://www.prnewswire.com/news-releases/energy-fuels-announces-appointment-of-jeffrey-olsen-to-board-of-directors-302928692.html))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.93 | -36.1% | -34.1% | -1.1% |  | 34 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.93 | -29.0% | -26.9% | -0.4% |  | 33 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.88 | -36.6% | -34.6% | -1.3% |  | 35 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.88 | -29.6% | -27.5% | -0.6% |  | 34 | live |

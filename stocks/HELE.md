@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $37.30 (2026-11-17, ledger)
-- **Since first found:** **+0.7%** (found 2026-11-04 via `8k_tender_offer` at $37.04). From the next open $37.24: +0.2% vs IWM -4.8% = **+4.9 pts** vs IWM; direction 0, tracked only (12 days)
-  - 1 more ledger row: see Performance since found
+- **Latest price:** $36.95 (2026-11-18, ledger)
+- **Since first found:** **-0.2%** (found 2026-11-04 via `8k_tender_offer` at $37.04). From the next open $37.24: -0.8% vs IWM -5.0% = **+4.2 pts** vs IWM; direction 0, tracked only (13 days)
+  - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage, dismissed: PCRX lawsuits (disclosure suits), HELE (above the bid), KBR, IBP, LSTA, ADIG, OCTV (results or decks), SPACs (GTERA, KOYN, IPXG, CSTAF, FVN, VLOS)… ([triage](../watch/digests/2026-11-13-triage.md))
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: 8-K trigger phrase "tender offer" (tender offer) (5d before -1.5%, found day +0.3%) ([filing](https://www.sec.gov/Archives/edgar/data/916789/000091678926000148/ex-991_111226xhelepressr.htm)) · Triage, dismissed: PCRX lawsuits (disclosure suits), HELE (above the bid), KBR, IBP, LSTA, ADIG, OCTV (results or decks), SPACs (GTERA, KOYN, IPXG, CSTAF, FVN, VLOS)… ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **HELE**: Spectrum Brands and Oaktree made a $37 cash proposal; the board rejected it. The stock is already +30.7% and trades above the bid. ([triage](../watch/digests/2026-11-05-triage.md)) · Logged as `merger_arb` (direction 0): Empower Brands (SPB/Oaktree) $37 cash proposal rejected; +30.7% already, trades above the bid; tracked, read-across; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- **HELE:** Empower Brands (Spectrum Brands with Oaktree, about 4.5% holders) offered "$37.00 per share" in…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: 8-K trigger phrase "tender offer" (tender offer) (5d before +1.2%, found day +25.4%) ([filing](https://www.sec.gov/Archives/edgar/data/916789/000091678926000141/ex-992finalheleemployeel.htm))
 
@@ -27,5 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for HELE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `8k_tender_offer` | 0 | +1.2% | +25.4% | $20.5M | $37.04 | $37.24 | $37.30 | +0.7% | +0.2% | -4.8% |  | 12 | live |
-| 2026-11-05 | `merger_arb` | 0 | +26.4% | +2.0% | $20.4M | $37.77 | $36.72 | $37.30 | -1.2% | +1.6% | -0.6% |  | 11 | live |
+| 2026-11-04 | `8k_tender_offer` | 0 | +1.2% | +25.4% | $20.5M | $37.04 | $37.24 | $36.95 | -0.2% | -0.8% | -5.0% |  | 13 | live |
+| 2026-11-05 | `merger_arb` | 0 | +26.4% | +2.0% | $20.4M | $37.77 | $36.72 | $36.95 | -2.2% | +0.6% | -0.8% |  | 12 | live |
+| 2026-11-13 | `8k_tender_offer` | 0 | -1.5% | +0.3% | $20.2M | $37.32 | $37.32 | $36.95 | -1.0% | -1.0% | -2.3% |  | 2 | live |

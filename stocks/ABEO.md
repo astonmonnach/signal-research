@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $2.58 (2026-11-17, ledger)
-- **Since first found:** **-41.4%** (found 2026-10-23 via `activist_13d` at $4.40). From the next open $4.39: -41.2% vs IWM -2.1% = **-39.1 pts** vs IWM; direction +1 → excess -39.1% (22 days)
+- **Latest price:** $2.74 (2026-11-18, ledger)
+- **Since first found:** **-37.6%** (found 2026-10-23 via `activist_13d` at $4.40). From the next open $4.39: -37.5% vs IWM -2.4% = **-35.1 pts** vs IWM; direction +1 → excess -35.1% (23 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/318306/000149315226052027/0001493152-26-052027-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **ABEO**: bought APT-1011 for 4,494,383 shares plus a ~$30M PIPE at ~$3.75; fell 39% to $2.54. ([triage](../watch/digests/2026-11-10-triage.md)) · Research: Research: Tue 10 Nov 2026 (- **SGRY** (amended to $25 after a $28 rival; price $26.45), **DDI** (tender at $16.25, 3.5% gap after…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -4.1%, found day -39.1%) ([filing](https://www.sec.gov/Archives/edgar/data/318306/000149315226050606/form8-k.htm))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Abeona Therapeutics® Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393056/0/en/abeona-therapeutics-announces-new-employee-inducement-grants-under-nasdaq-listing-rule-5635-c-4.html))
@@ -30,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for ABEO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | +1 | -3.9% | -1.6% | $5.7M | $4.40 | $4.39 | $2.58 | -41.4% | -41.2% | -2.1% | -39.1% | 22 | live |
-| 2026-10-26 | `activist_13d` | 0 | -0.7% | -2.0% | $5.5M | $4.31 | $4.33 | $2.58 | -40.1% | -40.4% | -2.8% |  | 21 | live |
-| 2026-11-09 | `8k_lock_up` | 0 | -4.1% | -39.1% | $6.0M | $2.54 | $2.64 | $2.58 | +1.6% | -2.3% | -3.4% |  | 7 | live |
+| 2026-10-23 | `activist_13d` | +1 | -3.9% | -1.6% | $5.7M | $4.40 | $4.39 | $2.74 | -37.6% | -37.5% | -2.4% | -35.1% | 23 | live |
+| 2026-10-26 | `activist_13d` | 0 | -0.7% | -2.0% | $5.5M | $4.31 | $4.33 | $2.74 | -36.3% | -36.6% | -3.0% |  | 22 | live |
+| 2026-11-09 | `8k_lock_up` | 0 | -4.1% | -39.1% | $6.0M | $2.54 | $2.64 | $2.74 | +8.1% | +4.0% | -3.6% |  | 8 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.46 (2026-11-17, ledger) · 1d -1.7%, 5d -13.9%, 20d -10.7% (market context, 2026-11-17)
-- **Since first found:** **-17.3%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -17.3% vs IWM -1.7% = **-15.7 pts** vs IWM; direction 0, tracked only (25 days)
+- **Latest price:** $1.38 (2026-11-18, ledger) · 1d -2.5%, 5d -18.1%, 20d -15.0% (market context, 2026-11-18)
+- **Since first found:** **-21.9%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -21.9% vs IWM -1.9% = **-20.0 pts** vs IWM; direction 0, tracked only (26 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: TENX -13.9% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** solo_move: TENX -18.1% 5d vs peer median -3.4%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: TENX: lead-plaintiff deadline in the securities class action
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **T010 SSTI, T012 TENX, T013 DOLE: expired at the 16 Nov deadline.** ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `SCHEDULE 13G/A` ×5 16 Nov, `SCHEDULE 13G` 16 Nov · Research: Research: Tue 17 Nov 2026 (- **Triggers:** T010 SSTI, T012 TENX and T013 DOLE expired at their 16 Nov deadline. TENX's 13G/As show…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T012 TENX: no 10-Q yet (a 13G/A only); $1.61. ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **Holders:** DOLE (the executive chairman's children sold 55 shares; T013 not fired), TENX (Adage below 5%…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -3.7%, found day -9.9%) ([filing](https://www.sec.gov/Archives/edgar/data/34956/000119312526448517/d33477dex991.htm)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **TENX (T012):** cash of $113.7M against a $74.2M market value (arith), but LEVEL-2 enrolment is…) ([note](../research/daily/2026-11-05.md))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.46 | -17.3% | -17.3% | -1.7% |  | 25 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.46 | -10.7% | -11.3% | -0.6% | -10.7% | 11 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.38 | -21.9% | -21.9% | -1.9% |  | 26 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.38 | -15.6% | -16.2% | -0.8% | -15.3% | 12 | live |

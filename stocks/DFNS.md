@@ -6,18 +6,21 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.64 (2026-11-17, ledger)
-- **Since first found:** **-60.0%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -60.5% vs IWM -2.1% = **-58.3 pts** vs IWM; direction -1 → excess +58.3% (22 days)
+- **Latest price:** $1.41 (2026-11-18, ledger)
+- **Since first found:** **-65.7%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -66.1% vs IWM -2.4% = **-63.8 pts** vs IWM; direction -1 → excess +63.8% (23 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
+  - Mon 23 Nov 2026: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/000118518526005490/0001185185-26-005490-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/000121390026118896/0001213900-26-118896-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: T3 Defense Secures Exclusive Israeli Distribution Rights for Copting GmbH Tethered Drone System (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400819/0/en/t3-defense-secures-exclusive-israeli-distribution-rights-for-copting-gmbh-tethered-drone-system.html))
 - **[2026-11-05](../scans/2026-11-05.md)**: Research: Research: Thu 5 Nov 2026 (- **ITA split (LESSONS 2026-11-05):** ITA split 3-for-1 on 5 Nov and Yahoo hadn't adjusted it, so the…) ([note](../research/daily/2026-11-05.md))
@@ -31,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.64 | -60.0% | -60.5% | -2.1% | +58.3% | 22 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.64 | -57.5% | -57.9% | -2.8% |  | 21 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.41 | -65.7% | -66.1% | -2.4% | +63.8% | 23 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.41 | -63.6% | -63.9% | -3.0% |  | 22 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_deep_dive` logged 2026-10-08 (daily research 8 Oct (research/daily/2026-10-08.md))
-- **Latest price:** $5.51 (2026-11-17, ledger) · 1d +0.6%, 5d +5.8%, 20d +17.1% (market context, 2026-11-17)
-- **Since first found:** **+30.3%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +28.1% vs IWM -5.0% = **+33.1 pts** vs IWM; direction +1 → excess +33.1% (42 days)
+- **Latest price:** $5.52 (2026-11-18, ledger) · 1d +1.2%, 5d +5.6%, 20d +18.3% (market context, 2026-11-18)
+- **Since first found:** **+30.5%** (found 2026-10-05 via `activist_13d` at $4.23). From the next open $4.30: +28.4% vs IWM -5.2% = **+33.5 pts** vs IWM; direction +1 → excess +33.5% (43 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: ESRT +5.8% 5d vs peer median -0.9%; peers didn't move with it. Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d +5.6% vs peer median -3.6%). Peer groups: SIC 6798 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 16 Nov
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **ESRT** 13G/A: LaSalle at 8.9% (15,366,973 shares) at 30 Sep, up from 7.64% at 30 Jun. Passive, still adding. ([triage](../watch/digests/2026-11-13-triage.md)) · Filings: `SCHEDULE 13G/A` 12 Nov
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **ESRT**: bought 13,675,160 shares (about $63.3M at $4.63) from 1 Oct to 6 Nov, Class A down 5.9%; observatory visitors -24.9% (nine months); 1359… ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `10-Q` 9 Nov · Research: Every event, at its actual time (ESRT (WATCH 06/10): peak +22.8% on 06 Nov (session 23), low -1.1% on 07 Oct, now +21.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **ESRT:** bought back 13.7M shares (5.9% of Class A) from 1 Oct to 6 Nov, funded by asset sales…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (06/10 ESRT $4.39 +22.8% 6 Nov (23) -1.1% -1.1% 7 Oct +21.4% -1.1%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (06/10 ESRT 13D asking for a review $4.39 +21.4% -5.7% +27.1) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `8-K` 2 Nov
@@ -34,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for ESRT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.51 | +30.3% | +28.1% | -5.0% | +33.1% | 42 | live |
-| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.51 | +20.3% | +20.6% | -2.9% |  | 39 | live |
+| 2026-10-05 | `activist_13d` | +1 | +1.5% | +1.4% | $22.0M | $4.23 | $4.30 | $5.52 | +30.5% | +28.4% | -5.2% | +33.5% | 43 | live |
+| 2026-10-08 | `activist_deep_dive` | 0 | +10.9% | +2.5% | $22.7M | $4.58 | $4.57 | $5.52 | +20.5% | +20.8% | -3.1% |  | 40 | live |

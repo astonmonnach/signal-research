@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $5.77 (2026-11-17, ledger)
-- **Since first found:** **-2.7%** (found 2026-11-13 via `insider_buy` at $5.93). From the next open $5.92: -2.5% vs IWM -2.1% = **-0.4 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $5.66 (2026-11-18, ledger)
+- **Since first found:** **-4.5%** (found 2026-11-13 via `insider_buy` at $5.93). From the next open $5.92: -4.3% vs IWM -2.3% = **-2.0 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **HOS**: the CEO bought another 85,912 at $5.82 on 13 Nov. **CRMD**: the CEO 80,000 at $4.89. **MX**: the CEO 90,000 at $2.33-2.51. ([triage](../watch/digests/2026-11-17-triage.md)) · Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/866829/000128459126000003/0001284591-26-000003-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **HOS** /: the CEO ended his 10b5-1 plan to sell 1,170,405 shares (none sold), then bought 189,570 at $5.275 and 91,296 at $5.477 on 10-11 Nov (about… ([triage](../watch/digests/2026-11-13-triage.md)) · Logged as `insider_buy` (direction 0): CEO ended his 10b5-1 plan to sell 1,170,405 shares (none sold), then bought 189,570 at $5.275 and 91,296 at $5.477 on 10-11 Nov; single insider; tracked; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 13 Nov 2026 (- **Insider buys, tracked:** HOS (the CEO cancelled his 10b5-1 sale plan for 1,170,405 shares, none sold…) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/866829/000128459126000002/0001284591-26-000002-index.htm))
 
@@ -25,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for HOS ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `insider_buy` | 0 | +8.8% | +1.7% | $21.0M | $5.93 | $5.92 | $5.77 | -2.7% | -2.5% | -2.1% |  | 1 | live |
+| 2026-11-13 | `insider_buy` | 0 | +8.8% | +1.7% | $21.0M | $5.93 | $5.92 | $5.66 | -4.5% | -4.3% | -2.3% |  | 2 | live |

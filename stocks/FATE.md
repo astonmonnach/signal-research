@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.03 (2026-11-17, ledger)
-- **Since first found:** **-52.3%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -52.3% vs IWM -4.3% = **-48.0 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $1.03 (2026-11-18, ledger)
+- **Since first found:** **-52.5%** (found 2026-10-28 via `linked_peer` at $2.17). From the next open $2.17: -52.5% vs IWM -4.5% = **-48.0 pts** vs IWM; direction 0, tracked only (20 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **New AVOID register rows (17):** GCTS (public #16), SDOT, PROK, FATE, KLXE, NUAI, AIRO, XNDU, DGNX (takeable); BLNK, ICU, KITT, REKR, EYPT, LASE… ([triage](../watch/digests/2026-11-13-triage.md)) · Research: Research: Fri 13 Nov 2026 (- **AVOID register:** 19 new rows, 292 active. Only GCTS became public: SDOT and RETO are tiny, PROK sits a…) ([note](../research/daily/2026-11-13.md))
+- **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **New AVOID register rows (17):** GCTS (public #16), SDOT, PROK, FATE, KLXE, NUAI, AIRO, XNDU, DGNX (takeable); BLNK, ICU, KITT, REKR, EYPT, LASE… ([triage](../watch/digests/2026-11-13-triage.md)) · Market scan: registration declared effective (`EFFECT`) (5d before -27.6%, found day -4.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1434316/999999999526003536/9999999995-26-003536-index.htm)) · Research: Research: Fri 13 Nov 2026 (- **AVOID register:** 19 new rows, 292 active. Only GCTS became public: SDOT and RETO are tiny, PROK sits a…) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1434316/000119312526458736/0001193125-26-458736-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: Fate Therapeutics Presents New FT819 Data at ACR Convergence 2026 Highlighting Meaningful Clinical Responses… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/10/3399336/24675/en/fate-therapeutics-presents-new-ft819-data-at-acr-convergence-2026-highlighting-meaningful-clinical-responses-in-lupus-without-the-use-of-conditioning-chemotherapy.html))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1434316/000090514826004718/0000905148-26-004718-index.htm))
@@ -29,4 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for FATE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.03 | -52.3% | -52.3% | -4.3% |  | 19 | live |
+| 2026-10-28 | `linked_peer` | 0 | +0.5% | +4.8% | $2.6M | $2.17 | $2.17 | $1.03 | -52.5% | -52.5% | -4.5% |  | 20 | live |
+| 2026-11-13 | `registration_effective` | -1 | -27.6% | -4.5% | $2.9M | $1.28 | $1.27 | $1.03 | -19.5% | -18.9% | -2.3% | +16.6% | 2 | live |

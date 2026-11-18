@@ -40,6 +40,7 @@ Paper only. Before each dated event we record the move the options market expect
 | 2026-10-13 | HZO | HZO earliest close | 2026-12-07 | 2027-01-15 | $52.33 | ±6.1% | $3.18 @ 50.0 | 82.9% | smaller | open |  |
 | 2026-11-09 | MSGK | MSGK: annual meeting (MSG Knickerbockers, formerly MSGS) | 2026-12-08 | 2026-12-18 | $311.22 | ±7.8% | $24.10 @ 310.0 | 17.9% | smaller | open |  |
 | 2026-10-16 | RYAM | RYAM: company promised a clear path forward in Q4 2026 | 2026-12-15 | 2026-12-18 | $7.11 | ±20.3% | $1.38 @ 7.0 | 100.0% | none | open |  |
+| 2026-11-18 | PTC | PTC: vote on Schneider $205 cash (11am ET); HSR, CFIUS and f | 2026-12-17 | 2026-12-18 | $195.84 | ±2.7% | $4.38 @ 200.0 | 100.9% | - | open |  |
 | 2026-11-05 | ACB | ACB/OGI: target date for both shareholder meetings on the Or | 2026-12-23 | 2027-01-15 | $5.21 | ±15.6% | $0.68 @ 5.0 | 66.7% | none | open |  |
 | 2026-11-11 | ACB | ACB: special meeting on the Organigram arrangement confirmed | 2026-12-23 | 2027-01-15 | $5.11 | ±15.7% | $0.80 @ 5.0 | 62.5% | none | open |  |
 | 2026-11-02 | TENX | TENX: lead-plaintiff deadline in the securities class action | 2026-12-28 | 2027-01-15 | $1.79 | ±43.7% | $0.82 @ 2.0 | 113.8% | none | open |  |

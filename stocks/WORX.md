@@ -6,17 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.13 (2026-11-17, ledger)
-- **Since first found:** **-79.5%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.2% vs IWM -5.0% = **-75.2 pts** vs IWM; direction -1 → excess +75.2% (42 days)
+- **Latest price:** $1.11 (2026-11-18, ledger)
+- **Since first found:** **-80.0%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.6% vs IWM -5.2% = **-75.4 pts** vs IWM; direction -1 → excess +75.4% (43 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
+- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Mon 23 Nov 2026: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1674227/000121390026120827/0001213900-26-120827-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-19 2 WORX +94% no_news $2.68 2.0 no +48.5% +36.6% +15.1% / -20.4% / -8.0% -23.5% +70.9% -48.5% -51.1%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1674227/000109991026000297/0001099910-26-000297-index.htm))
 - **[2026-10-29](../scans/2026-10-29.md)**: Research: Daily gainers since 13 Oct: what happened next (checked 29 Oct 2026) (10-19 2 WORX +94% no_news $2.68 2.0 no +36.6% -28.7% -32.4) ([note](../research/movers/outcomes-2026-10-29.md)) · Research: Research: Thu 29 Oct 2026 (- All rules pass. The market value is about $1.1M (arith), as small and squeeze-prone as WORX and NIVF; the…) ([note](../research/daily/2026-10-29.md))
@@ -34,6 +37,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.13 | -79.5% | -80.2% | -5.0% | +75.2% | 42 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.13 | -40.8% | -42.9% | -3.6% | +39.3% | 20 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.13 | -40.8% | -38.2% | -4.3% |  | 19 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.11 | -80.0% | -80.6% | -5.2% | +75.4% | 43 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.11 | -42.1% | -44.2% | -3.8% | +40.4% | 21 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.11 | -42.1% | -39.6% | -4.5% |  | 20 | live |

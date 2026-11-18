@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $6.68 (2026-11-17, ledger)
-- **Since first found:** **+9.2%** (found 2026-10-30 via `activist_13d` at $6.12). From the next open $6.12: +9.2% vs IWM -4.0% = **+13.3 pts** vs IWM; direction +1 → excess +13.3% (15 days)
+- **Latest price:** $6.56 (2026-11-18, ledger)
+- **Since first found:** **+7.2%** (found 2026-10-30 via `activist_13d` at $6.12). From the next open $6.12: +7.2% vs IWM -4.2% = **+11.4 pts** vs IWM; direction +1 → excess +11.4% (16 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000069/0001183010-26-000069-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000067/0001183010-26-000067-index.htm))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **LEE**: Quint Digital 13D, 14.38%, no new shares; 10b5-1 plan. Tracked. ([triage](../watch/digests/2026-11-02-triage.md)) · Research: Research: Mon 2 Nov 2026 (5. LEE: a 13D with no new shares) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `activist_13d` (direction 0): Quint Digital 13G to 13D at 14.38% (no new buying; 10b5-1 plan adopted 29 Oct); Hoffmann controls 53.47%; tracked, no call; source: daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for LEE ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-30 | `activist_13d` | +1 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.68 | +9.2% | +9.2% | -4.0% | +13.3% | 15 | live |
-| 2026-11-01 | `activist_13d` | 0 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.68 | +9.2% | +9.2% | -4.0% |  | 15 | live |
+| 2026-10-30 | `activist_13d` | +1 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.56 | +7.2% | +7.2% | -4.2% | +11.4% | 16 | live |
+| 2026-11-01 | `activist_13d` | 0 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.56 | +7.2% | +7.2% | -4.2% |  | 16 | live |
