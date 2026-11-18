@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $1.18 (2026-11-18, ledger)
-- **Since first found:** **-59.2%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -58.2% vs IWM -1.2% = **-56.9 pts** vs IWM; direction -1 → excess +56.9% (35 days)
+- **Latest price:** $1.20 (2026-11-18, ledger)
+- **Since first found:** **-58.6%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -57.6% vs IWM -0.8% = **-56.8 pts** vs IWM; direction -1 → excess +56.8% (35 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.18 | -59.2% | -58.2% | -1.2% | +56.9% | 35 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.18 | -46.4% | -46.4% | -2.2% |  | 23 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.18 | -34.1% | -32.6% | -3.2% | +29.4% | 5 | live |
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.20 | -58.6% | -57.6% | -0.8% | +56.8% | 35 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.20 | -45.6% | -45.6% | -1.8% |  | 23 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.20 | -33.2% | -31.7% | -2.8% | +28.9% | 5 | live |
