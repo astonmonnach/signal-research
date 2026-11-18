@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d_not_activism` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $2.18 (2026-11-18, ledger)
-- **Since first found:** **-22.7%** (found 2026-10-26 via `holder_13d_not_activism` at $2.82). From the next open $2.89: -24.6% vs IWM -2.4% = **-22.1 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $2.19 (2026-11-18, ledger)
+- **Since first found:** **-22.3%** (found 2026-10-26 via `holder_13d_not_activism` at $2.82). From the next open $2.89: -24.2% vs IWM -2.0% = **-22.2 pts** vs IWM; direction 0, tracked only (22 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for RENT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `holder_13d_not_activism` | 0 | +30.7% | +22.6% | $4.7M | $2.82 | $2.89 | $2.18 | -22.7% | -24.6% | -2.4% |  | 22 | live |
+| 2026-10-26 | `holder_13d_not_activism` | 0 | +30.7% | +22.6% | $4.7M | $2.82 | $2.89 | $2.19 | -22.3% | -24.2% | -2.0% |  | 22 | live |

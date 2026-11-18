@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $6.71 (2026-11-18, ledger)
-- **Since first found:** **-42.6%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -42.1% vs IWM -0.1% = **-42.0 pts** vs IWM; direction -1 → excess +42.0% (29 days)
+- **Latest price:** $7.00 (2026-11-18, ledger)
+- **Since first found:** **-40.2%** (found 2026-10-19 via `8k_reverse_split` at $11.70). From the next open $11.60: -39.7% vs IWM +0.3% = **-40.0 pts** vs IWM; direction -1 → excess +40.0% (29 days)
   - 5 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,9 +33,9 @@ Every [ledger](../ledger/LEDGER.md) row for ENHA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $6.71 | -42.6% | -42.1% | -0.1% | +42.0% | 29 | live |
-| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $6.71 | -5.6% | -4.0% | -4.6% | -0.6% | 14 | live |
-| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $6.71 | -17.9% | -17.6% | -0.3% | +17.3% | 12 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $6.71 | -19.8% | -18.6% | -2.2% |  | 9 | live |
-| 2026-11-10 | `8k_lock_up` | 0 | +15.8% | -8.6% | $924k | $7.75 | $7.83 | $6.71 | -13.4% | -14.3% | -4.2% |  | 7 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | +13.2% | -10.6% | $848k | $7.20 | $7.92 | $6.71 | -6.8% | -15.3% | -2.8% | +12.5% | 5 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -2.4% | -4.1% | $1.1M | $11.70 | $11.60 | $7.00 | -40.2% | -39.7% | +0.3% | +40.0% | 29 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | -32.8% | -2.9% | $965k | $7.11 | $6.99 | $7.00 | -1.6% | +0.1% | -4.2% | -4.3% | 14 | live |
+| 2026-11-05 | `8k_reverse_split` | -1 | -38.7% | +14.9% | $1.1M | $8.17 | $8.14 | $7.00 | -14.3% | -14.0% | +0.1% | +14.1% | 12 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -36.7% | +2.4% | $1.1M | $8.37 | $8.25 | $7.00 | -16.4% | -15.2% | -1.8% |  | 9 | live |
+| 2026-11-10 | `8k_lock_up` | 0 | +15.8% | -8.6% | $924k | $7.75 | $7.83 | $7.00 | -9.7% | -10.6% | -3.8% |  | 7 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | +13.2% | -10.6% | $848k | $7.20 | $7.92 | $7.00 | -2.8% | -11.6% | -2.4% | +9.2% | 5 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $9.97 (2026-11-18, ledger) · 1d +0.8%, 5d -2.8%, 20d +17.2% (market context, 2026-11-18)
-- **Since first found:** **+7.8%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +0.7% vs IWM -3.1% = **+3.7 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $9.99 (2026-11-18, ledger) · 1d +1.1%, 5d -2.5%, 20d +17.5% (market context, 2026-11-18)
+- **Since first found:** **+8.1%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +0.9% vs IWM -2.7% = **+3.6 pts** vs IWM; direction 0, tracked only (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for CCAP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $9.97 | +7.8% | +0.7% | -3.1% |  | 8 | live |
-| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $9.97 | -4.0% | -2.8% | -4.2% |  | 7 | live |
+| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $9.99 | +8.1% | +0.9% | -2.7% |  | 8 | live |
+| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $9.99 | -3.8% | -2.5% | -3.8% |  | 7 | live |
