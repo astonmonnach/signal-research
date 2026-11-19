@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `event_incident` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $152.75 (2026-11-18, ledger)
-- **Since first found:** **-6.2%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -3.9% vs IWM -1.4% = **-2.6 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $153.47 (2026-11-19, ledger)
+- **Since first found:** **-5.8%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -3.5% vs IWM -2.7% = **-0.8 pts** vs IWM; direction 0, tracked only (3 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout (GlobeNewswire, published Tue 17 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html))
+- **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: Cantor Sets the Record Straight on Nvidia: Positions Are Hedges in Connection with Client Transactions, Not… (Business Wire) ([release](http://www.businesswire.com/news/home/20261118432563/en/Cantor-Sets-the-Record-Straight-on-Nvidia-Positions-Are-Hedges-in-Connection-with-Client-Transactions-Not-Material-Proprietary-Investments/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ)) · Press: NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout (GlobeNewswire, published Tue 17 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: NVDA: results after today's close (release 28 Oct; the 12 Nov CEO release says "as previously scheduled"). ([triage](../watch/digests/2026-11-17-triage.md)) · Press: NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html)) · Calendar: NVDA: Q3 FY27 results, call 5pm New York, first under interim CEO Colette Kress (Huang resigned 11 Nov) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#new-setups)**: Logged as `event_incident` (direction 0): Huang resigned as CEO and director on 11 Nov (8-K 12 Nov); -11.0% 6-12 Nov vs SMH +8.1%; nth-order page research/NVDA-2026-11-13.html; results 17 Nov; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 13 Nov 2026 (1. Nvidia: the CEO left, and the share-sale question is the small part (NVDA)) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (Nvidia (NVDA) · 13 Nov 2026 · prices to the 12 Nov close) ([note](../research/NVDA-2026-11-13.html))
 
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for NVDA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $152.75 | -6.2% | -3.9% | -1.4% |  | 2 | live |
+| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $153.47 | -5.8% | -3.5% | -2.7% |  | 3 | live |

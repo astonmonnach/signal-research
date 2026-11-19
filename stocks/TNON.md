@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $1.19 (2026-11-18, ledger)
-- **Since first found:** **-58.8%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -57.8% vs IWM -0.4% = **-57.4 pts** vs IWM; direction -1 → excess +57.4% (35 days)
+- **Latest price:** $1.01 (2026-11-19, ledger)
+- **Since first found:** **-64.9%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -64.0% vs IWM -1.8% = **-62.3 pts** vs IWM; direction -1 → excess +62.2% (36 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.19 | -58.8% | -57.8% | -0.4% | +57.4% | 35 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.19 | -45.9% | -45.9% | -1.4% |  | 23 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.19 | -33.5% | -32.0% | -2.4% | +29.6% | 5 | live |
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.01 | -64.9% | -64.0% | -1.8% | +62.2% | 36 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.01 | -53.9% | -53.9% | -2.8% |  | 24 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.01 | -43.3% | -42.0% | -3.7% | +38.3% | 6 | live |

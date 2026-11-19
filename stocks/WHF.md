@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.91 (2026-11-18, ledger) · 1d -1.4%, 5d -5.5%, 20d +2.7% (market context, 2026-11-18)
-- **Since first found:** **+13.5%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +13.8% vs IWM -2.8% = **+16.6 pts** vs IWM; direction +1 → excess +16.6% (50 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Latest price:** $7.88 (2026-11-19, ledger) · 1d -1.5%, 5d -5.2%, 20d -0.9% (market context, 2026-11-19)
+- **Since first found:** **+13.1%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +13.4% vs IWM -4.2% = **+17.6 pts** vs IWM; direction +1 → excess +17.6% (51 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Fri 4 Dec 2026: WHF: $10M 5.375% notes due (T003; no refinancing announced yet)
@@ -120,4 +120,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.91 | +13.5% | +13.8% | -2.8% | +16.6% | 50 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.88 | +13.1% | +13.4% | -4.2% | +17.6% | 51 | live |

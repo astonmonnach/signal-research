@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $2.12 (2026-11-18, ledger)
-- **Since first found:** **-55.2%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -55.5% vs IWM -2.2% = **-53.3 pts** vs IWM; direction -1 → excess +53.3% (37 days)
+- **Latest price:** $2.09 (2026-11-19, ledger)
+- **Since first found:** **-55.8%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -56.0% vs IWM -3.6% = **-52.4 pts** vs IWM; direction -1 → excess +52.4% (38 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for BIAF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $2.12 | -55.2% | -55.5% | -2.2% | +53.3% | 37 | live |
-| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $2.12 | -27.8% | -28.6% | -4.0% |  | 13 | live |
+| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $2.09 | -55.8% | -56.0% | -3.6% | +52.4% | 38 | live |
+| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $2.09 | -28.7% | -29.4% | -5.4% |  | 14 | live |

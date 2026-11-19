@@ -8459,7 +8459,7 @@
    "sic": "1000"
   },
   "1058811": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "IMMERSION CORP",
    "sic": "3577",
    "sic_description": "Computer Peripheral Equipment, NEC"
@@ -26605,7 +26605,7 @@
    "sic": "6199"
   },
   "1354866": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Byrna Technologies Inc.",
    "sic": "3690",
    "sic_description": "Miscellaneous Electrical Machinery, Equipment & Supplies"
@@ -27409,7 +27409,7 @@
    "sic": "3674"
   },
   "1370755": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "BlackRock TCP Capital Corp.",
    "sic": "",
    "sic_description": ""
@@ -28209,7 +28209,7 @@
    "sic": "2834"
   },
   "1385849": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "ENERGY FUELS INC",
    "sic": "1400",
    "sic_description": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)"
@@ -28731,7 +28731,7 @@
    "sic": "3510"
   },
   "1396814": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Pacira BioSciences, Inc.",
    "sic": "2834",
    "sic_description": "Pharmaceutical Preparations"
@@ -30715,7 +30715,7 @@
    "sic": "1311"
   },
   "1436126": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Mistras Group, Inc.",
    "sic": "8711",
    "sic_description": "Services-Engineering Services"
@@ -39389,7 +39389,7 @@
    "sic": "2834"
   },
   "1653087": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Alector, Inc.",
    "sic": "2836",
    "sic_description": "Biological Products, (No Diagnostic Substances)"
@@ -43305,7 +43305,7 @@
    "sic": "6199"
   },
   "1785971": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "BlackRock Health Sciences Term Trust",
    "sic": "",
    "sic_description": ""
@@ -45947,7 +45947,7 @@
    "sic": "2834"
   },
   "1857047": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "MDA Space Ltd.",
    "sic": "3760",
    "sic_description": "Guided Missiles & Space Vehicles & Parts"
@@ -46767,7 +46767,7 @@
    "sic": "1400"
   },
   "1888654": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "5E Advanced Materials, Inc.",
    "sic": "1400",
    "sic_description": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)"
@@ -47417,7 +47417,7 @@
    "sic": "2834"
   },
   "1929561": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "RXO, Inc.",
    "sic": "4700",
    "sic_description": "Transportation Services"
@@ -49633,7 +49633,7 @@
    "sic": "3443"
   },
   "2067627": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Terra Innovatum Global N.V.",
    "sic": "3443",
    "sic_description": "Fabricated Plate Work (Boiler Shops)"
@@ -49685,6 +49685,10 @@
   "2070849": {
    "fetched": "2026-10-21",
    "sic": "8071"
+  },
+  "2070887": {
+   "fetched": "2026-11-19",
+   "sic": "5500"
   },
   "2070976": {
    "fetched": "2026-10-04",
@@ -50412,6 +50416,10 @@
    "fetched": "2026-10-19",
    "sic": "4899"
   },
+  "2128045": {
+   "fetched": "2026-11-19",
+   "sic": "3760"
+  },
   "2128626": {
    "fetched": "2026-11-03",
    "name": "Vylor Inc.",
@@ -50541,6 +50549,10 @@
   "2144182": {
    "fetched": "2026-10-08",
    "sic": "7372"
+  },
+  "2144445": {
+   "fetched": "2026-11-19",
+   "sic": "5500"
   },
   "2145089": {
    "fetched": "2026-11-03",
@@ -54341,7 +54353,7 @@
    "sic": "6798"
   },
   "714256": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "Sanara MedTech Inc.",
    "sic": "3842",
    "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies"
@@ -56647,7 +56659,7 @@
    "sic": "6798"
   },
   "763744": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "LCI INDUSTRIES",
    "sic": "3714",
    "sic_description": "Motor Vehicle Parts & Accessories"
@@ -58253,7 +58265,7 @@
    "sic": "1040"
   },
   "798359": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "CENTERSPACE",
    "sic": "6798",
    "sic_description": "Real Estate Investment Trusts"
@@ -58369,7 +58381,7 @@
    "sic": "6798"
   },
   "799850": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "AMERICAS CARMART INC",
    "sic": "5500",
    "sic_description": "Retail-Auto Dealers & Gasoline Stations"
@@ -59471,7 +59483,7 @@
    "sic": "3674"
   },
   "817720": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "SYNAPTICS Inc",
    "sic": "3674",
    "sic_description": "Semiconductors & Related Devices"
@@ -61721,7 +61733,7 @@
    "sic": "8000"
   },
   "857005": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-19",
    "name": "PTC INC.",
    "sic": "7372",
    "sic_description": "Services-Prepackaged Software"
@@ -71957,7 +71969,7 @@
     1161879,
     1341313
    ],
-   "fetched": "2026-10-20"
+   "fetched": "2026-11-19"
   },
   "1731": {
    "ciks": [
@@ -74600,7 +74612,7 @@
     108772,
     1770450
    ],
-   "fetched": "2026-10-20"
+   "fetched": "2026-11-19"
   },
   "3585": {
    "ciks": [
@@ -76394,6 +76406,7 @@
   "3760": {
    "ciks": [
     40888,
+    2128045,
     1080669,
     68366,
     1860160,
@@ -76427,7 +76440,7 @@
     2111860,
     2086587
    ],
-   "fetched": "2026-10-20"
+   "fetched": "2026-11-19"
   },
   "3823": {
    "ciks": [
@@ -79383,6 +79396,7 @@
     1016919,
     1228976,
     1504307,
+    2070887,
     733775,
     1562039,
     2123232,
@@ -79619,6 +79633,7 @@
     1044107,
     1044106,
     1044194,
+    2144445,
     1172008,
     1172009,
     1172006,
@@ -79648,7 +79663,7 @@
     1172027,
     1172028
    ],
-   "fetched": "2026-10-20"
+   "fetched": "2026-11-19"
   },
   "5961": {
    "ciks": [

@@ -24,8 +24,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $2.10 (2026-11-18, ledger)
-- **Since first found:** **-72.7%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -73.5% vs IWM -3.4% = **-70.1 pts** vs IWM; direction 0, tracked only (44 days)
+- **Latest price:** $1.97 (2026-11-19, ledger)
+- **Since first found:** **-74.3%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -75.1% vs IWM -4.8% = **-70.4 pts** vs IWM; direction 0, tracked only (45 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -47,7 +47,7 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $2.10 | -72.7% | -73.5% | -3.4% |  | 44 | live |
-| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $2.10 | -56.5% | -57.7% | -2.9% | +54.9% | 21 | live |
-| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $2.10 | -47.9% | -47.9% | -4.0% | +43.9% | 13 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -46.4% | -5.6% | $127k ⚠ | $2.04 | $2.20 | $2.10 | +2.9% | -4.5% | -2.4% | +2.2% | 5 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $1.97 | -74.3% | -75.1% | -4.8% |  | 45 | live |
+| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $1.97 | -59.2% | -60.4% | -4.2% | +56.1% | 22 | live |
+| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $1.97 | -51.1% | -51.1% | -5.4% | +45.8% | 14 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -46.4% | -5.6% | $127k ⚠ | $2.04 | $2.20 | $1.97 | -3.4% | -10.5% | -3.7% | +6.7% | 6 | live |

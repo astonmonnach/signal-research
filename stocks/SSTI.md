@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_cvr` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
-- **Latest price:** $8.24 (2026-11-17, ledger) · 1d -0.4%, 5d -0.4%, 20d -1.9% (market context, 2026-11-17)
-- **Since first found:** **+0.4%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +0.4% vs IWM -2.8% = **+3.2 pts** vs IWM; direction -1 → excess -3.2% (48 days)
+- **Latest price:** $8.24 (2026-11-18, ledger) · 1d +0.0%, 5d +0.1%, 20d -1.9% (market context, 2026-11-18)
+- **Since first found:** **+0.4%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +0.4% vs IWM -4.2% = **+4.5 pts** vs IWM; direction -1 → excess -4.5% (49 days)
   - 5 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.4% vs peer median -4.8%). Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: Transom Capital Completes Acquisition of SoundThinking (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/18/3405653/0/en/transom-capital-completes-acquisition-of-soundthinking.html))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **T010 SSTI, T012 TENX, T013 DOLE: expired at the 16 Nov deadline.** ([triage](../watch/digests/2026-11-17-triage.md)) · Triage: SSTI: tender expires tonight; no change filed. SYNA and VCTR votes: no results filed yet. ([triage](../watch/digests/2026-11-17-triage.md)) · Calendar: SSTI: Transom tender ($8.00 cash plus CVR) expires one minute after 11:59 pm New York ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 17 Nov 2026 (- **Triggers:** T010 SSTI, T012 TENX and T013 DOLE expired at their 16 Nov deadline. TENX's 13G/As show…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **SSTI**: Q3 revenue $25.0M, flat; Transom's $8.00 cash plus CVR tender expires 17 Nov. ([triage](../watch/digests/2026-11-13-triage.md)) · Triage: T010 SSTI: Q3 release has no segment split; deadline 16 Nov. ([triage](../watch/digests/2026-11-13-triage.md)) · Filings: `10-Q` 12 Nov, `8-K` 12 Nov
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "tender offer" (tender offer) (5d before -1.2%, found day +0.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1351636/000119312526458411/ssti-ex99_1.htm)) · Research: Research: Thu 12 Nov 2026 (- 17 Nov: SSTI expiry and CLRO hearing.) ([note](../research/daily/2026-11-12.md))
@@ -36,9 +37,9 @@ Every [ledger](../ledger/LEDGER.md) row for SSTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.24 | +0.4% | +0.4% | -2.8% | -3.2% | 48 | live |
-| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.24 | -1.1% | -1.1% | -3.4% | +2.3% | 43 | live |
-| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.24 | -1.9% | -1.8% | -1.6% |  | 27 | live |
-| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.24 | -1.9% | -1.7% | -0.9% |  | 26 | live |
-| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.24 | -1.0% | -1.0% | -2.7% |  | 7 | live |
-| 2026-11-12 | `8k_tender_offer` | 0 | -1.2% | +0.2% | $1.0M | $8.25 | $8.23 | $8.24 | -0.1% | +0.1% | -2.4% |  | 4 | live |
+| 2026-09-29 | `8k_reverse_split` | -1 | -0.4% | +50.1% | $2.5M | $8.21 | $8.21 | $8.24 | +0.4% | +0.4% | -4.2% | -4.5% | 49 | live |
+| 2026-10-02 | `activist_13d` | +1 | +54.3% | -1.3% | $2.7M | $8.33 | $8.33 | $8.24 | -1.1% | -1.1% | -4.8% | +3.7% | 44 | live |
+| 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.24 | -1.9% | -1.8% | -3.0% |  | 28 | live |
+| 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.24 | -1.9% | -1.7% | -2.3% |  | 27 | live |
+| 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.24 | -1.0% | -1.0% | -4.0% |  | 8 | live |
+| 2026-11-12 | `8k_tender_offer` | 0 | -1.2% | +0.2% | $1.0M | $8.25 | $8.23 | $8.24 | -0.1% | +0.1% | -3.7% |  | 5 | live |

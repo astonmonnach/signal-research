@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $36.48 (2026-11-17, ledger) · 1d +0.0%, 5d -0.0%, 20d +0.3% (market context, 2026-11-17)
-- **Since first found:** **+0.2%** (found 2026-10-08 via `8k_merger_agreement` at $36.39). From the next open $36.33: +0.4% vs IWM -2.1% = **+2.5 pts** vs IWM; direction 0, tracked only (39 days)
+- **Latest price:** $36.48 (2026-11-18, ledger)
+- **Since first found:** **** (found 2026-10-08 via `8k_merger_agreement`). From the next open $36.48: +0.0% vs IWM +0.1% = **-0.1 pts** vs IWM; direction 0, tracked only (0 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.0% vs peer median -3.2%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-17)
+- **Peers / sympathy:** no flag (self 5d n/a vs peer median -5.2%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+  - warning: only 1 daily bars (new listing?)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -20,17 +21,17 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **PCRX**: Viatris completed the $36.50 tender and merger (8-K 17 Nov; 25-NSE). Done. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 17 Nov, `SC 14D9/A` 17 Nov, `SC TO-T/A` 17 Nov · Research: Research: Tue 17 Nov 2026 (- **Deals closed or decided:** PCRX (Viatris completed), SKYA (about 47.0M shares bought at $3.00), BOW…) ([note](../research/daily/2026-11-17.md)) · Triage, dismissed: PCRX (completed), HSBC SC TO-I/A (over $10B), ENS (acquirer), SPACs (CMCA, BACC, NUCL, MTAL, IPXG and others), DXLG (reverse merger, $0.39), MOBX… ([triage](../watch/digests/2026-11-17-triage.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: PCRX: Viatris $36.50 cash tender expires ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **PCRX** (watchlist): the amendment only adds two New York disclosure lawsuits. $36.46 against the $36.50 tender, which expires 16 Nov. ([triage](../watch/digests/2026-11-13-triage.md)) · Filings: `8-K` 12 Nov, `SC TO-T/A` 12 Nov, `SC 14D9/A` 12 Nov · Triage, dismissed: PCRX lawsuits (disclosure suits), HELE (above the bid), KBR, IBP, LSTA, ADIG, OCTV (results or decks), SPACs (GTERA, KOYN, IPXG, CSTAF, FVN, VLOS)… ([triage](../watch/digests/2026-11-13-triage.md))
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) (5d before +0.2%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126043435/0001140361-26-043435-index.htm))
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126043435/0001140361-26-043435-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-30 PCRX +0.0 +0.1 -0.0 +0.0 +0.0 +0.0 +0.1 Viatris $36.50 tender offer due to have started (15…) ([note](../research/review/2026-11-10/EVENTS.md))
-- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, tender offer" (8k merger agreement) (5d before +0.0%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000162828026071129/pcrx-20261105.htm)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
+- **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, tender offer" (8k merger agreement) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000162828026071129/pcrx-20261105.htm)) · Filings: `10-Q` 5 Nov, `8-K` 5 Nov · Research: Research: Thu 5 Nov 2026 (- **Spreads:** SYNA 5.67% (onsemi $123; FTC early termination; closing "mid-2027"), PTC 5.34%, LCII 0.85% to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `4` 3 Nov, `SC 14D9/A` 3 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 30 Oct, `SC 14D9` 30 Oct, `SC TO-T` 30 Oct
-- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T`) (5d before +0.1%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126041224/0001140361-26-041224-index.htm)) · Calendar: PCRX: Viatris $36.50 tender offer due to have started (15 business days from 8 Oct) ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126041224/0001140361-26-041224-index.htm)) · Calendar: PCRX: Viatris $36.50 tender offer due to have started (15 business days from 8 Oct) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SCHEDULE 13D/A` 13 Oct; +25 older (Jun – Oct 2026) first picked up
 - **[2026-10-14](../scans/2026-10-14.md#triage-notes)**: Triage, dismissed: PCRX, CRGY 13D/As; MCFT and WEAV merger paperwork; MOD name change; TWST plan-free sale of 2,462 shares: no action. ([triage](../watch/digests/2026-10-14-triage.md))
 - **[2026-10-13](../scans/2026-10-13.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000110465926115589/0001104659-26-115589-index.htm))
 - **[2026-10-10](../scans/2026-10-10.md#triage-notes)**: Triage: **PCRX / VTRS** (market-wide, merger arb): signed deal, **$36.50 cash** tender. Spread 0.52% at $36.31. Tracked. ([triage](../watch/digests/2026-10-10-triage.md)) · Logged as `merger_arb` (direction 0): Viatris $36.50 cash tender; spread 0.52% at $36.31; tracked; source: daily research 10 Oct (research/daily/2026-10-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 10 Oct 2026 (2. PCRX: Viatris buys Pacira for $36.50 cash) ([note](../research/daily/2026-10-10.md))
-- **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, strategic review, spin-off, reverse stock split, tender offer" (8k merger agreement) (5d before +0.6%, found day +44.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm))
+- **[2026-10-08](../scans/2026-10-08.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger, strategic review, spin-off, reverse stock split, tender offer" (8k merger agreement) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm))
 
 ## Performance since found
 
@@ -38,8 +39,8 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 | +0.6% | +44.4% | $65.8M | $36.39 | $36.33 | $36.48 | +0.2% | +0.4% | -2.1% |  | 39 | live |
-| 2026-10-10 | `merger_arb` | 0 | +45.5% | -0.2% | $73.6M | $36.31 | $36.34 | $36.48 | +0.5% | +0.4% | -2.2% |  | 36 | live |
-| 2026-10-30 | `tender_third_party` | 0 | +0.1% | +0.0% | $96.4M | $36.39 | $36.41 | $36.48 | +0.2% | +0.2% | -3.3% |  | 15 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | +0.0% | +0.1% | $51.4M | $36.42 | $36.42 | $36.48 | +0.2% | +0.2% | +0.1% |  | 11 | live |
-| 2026-11-12 | `tender_third_party` | 0 | +0.2% | +0.0% | $35.8M | $36.46 | $36.47 | $36.48 | +0.1% | +0.0% | -2.4% |  | 4 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | +0.1% |  | 0 | live |
+| 2026-10-10 | `merger_arb` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | +0.1% |  | 0 | live |
+| 2026-10-30 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | +0.1% |  | 0 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | +0.1% |  | 0 | live |
+| 2026-11-12 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | +0.1% |  | 0 | live |

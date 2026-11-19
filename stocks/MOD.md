@@ -94,18 +94,19 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $135.80 (2026-11-18, ledger) · 1d +5.2%, 5d +28.0%, 20d -8.8% (market context, 2026-11-18)
-- **Since first found:** **-20.3%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -20.5% vs IWM -1.8% = **-18.7 pts** vs IWM; direction 0, tracked only (48 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $142.16 (2026-11-19, ledger) · 1d +2.5%, 5d +33.2%, 20d +4.6% (market context, 2026-11-19)
+- **Since first found:** **-16.7%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -16.9% vs IWM -3.2% = **-13.7 pts** vs IWM; direction 0, tracked only (49 days). Includes +0.44619 THRM (spin)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: MOD +28.0% 5d vs peer median -4.0%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-18)
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Wed 18 Nov 2026: MOD Investor Day (continuing business outlook)
+- **Peers / sympathy:** solo_move: MOD +33.2% 5d vs peer median -3.1%; peers didn't move with it. Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Modexus Solutions Outlines Next Phase of Growth and Introduces New Long-Term Financial Targets at 2026… (PR Newswire, published Wed 18 Nov) ([release](https://www.prnewswire.com/news-releases/modexus-solutions-outlines-next-phase-of-growth-and-introduces-new-long-term-financial-targets-at-2026-investor-day-302943173.html))
+- **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: Modexus Solutions Announces $500 Million Share Repurchase Program (PR Newswire) ([release](https://www.prnewswire.com/news-releases/modexus-solutions-announces-500-million-share-repurchase-program-302943169.html)) · Calendar: MOD Investor Day (continuing business outlook) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `8-K` 16 Nov
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off" (spin-off) (5d before +40.4%, found day -3.8%) ([filing](https://www.sec.gov/Archives/edgar/data/67347/000110465926128553/tm2629849d1_ex99-1.htm))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Production of Airedale® Chillers for Data Center Customers Begins at New Texas Facility (PR Newswire) ([release](https://www.prnewswire.com/news-releases/production-of-airedale-chillers-for-data-center-customers-begins-at-new-texas-facility-302935612.html))
@@ -133,10 +134,10 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $135.80 | -20.3% | -20.5% | -1.8% |  | 48 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $135.80 | -25.8% | -27.8% | -4.2% |  | 43 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $135.80 | -28.3% | -26.9% | -1.4% |  | 41 | live |
-| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $135.80 | +8.2% | +17.6% | -4.2% |  | 14 | live |
-| 2026-11-16 | `8k_spin_off` | 0 | +40.4% | -3.8% | $317.2M | $130.55 | $133.12 | $135.80 | +4.0% | +2.0% | +0.1% |  | 1 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $142.16 | -16.7% | -16.9% | -3.2% |  | 49 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $142.16 | -22.3% | -24.4% | -5.6% |  | 44 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $142.16 | -25.0% | -23.4% | -2.8% |  | 42 | live |
+| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $142.16 | +13.3% | +23.1% | -5.5% |  | 15 | live |
+| 2026-11-16 | `8k_spin_off` | 0 | +40.4% | -3.8% | $317.2M | $130.55 | $133.12 | $142.16 | +8.9% | +6.8% | -1.3% |  | 2 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._
