@@ -1408,10 +1408,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:9c04a5175b2c8599ba69d1fe93c1bb26@signal-lab
 DTSTAMP:20261113T200000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:AIRI: special meeting on the Tenax reverse merger (10am ET)\; Tenax says AIR breached merger covenants
-DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1009891/000121390026118187/ea0311763-8k_airindus.htm
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:AIRI: (moved) special meeting on the Tenax reverse merger postponed from 18 Nov to 3 Dec (10am ET)\; the reverse split and redemption-rights dividend are off
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1009891/000121390026122096/ea0312829-8k_airindustries.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:af4a357c8e2119626d1d78df40143090@signal-lab
@@ -1524,5 +1524,61 @@ DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:ONDS: 36\,971\,898 shares delivered to the Highlander/Dzyne sellers (supply)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1646188/000110465926127019/0001104659-26-127019-index.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:b0c026e12ea560cc800ff23893896747@signal-lab
+DTSTAMP:20261119T190000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:RWT: exchange offer (7.58 common for 1 new 12% Junior Series B preferred\, up to 14.9%) expires midnight New York
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/930236/000110465926128773/tm2629603d2_ex99-a1i.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:e6f830d6c33a6f0b3e2a0deef06673e7@signal-lab
+DTSTAMP:20261119T190000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:RWT: 1-for-5 reverse split at 5pm
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/930236/000110465926128773/tm2629603d2_ex99-a1i.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:b16e0407b4ede5d5e1515a9f3101b0dc@signal-lab
+DTSTAMP:20261119T190000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:INR: Up-C reorganization closes (TRA waived\; members locked up 180 days)\; new INR trades 2 Dec
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2029118/000202911826000134/pressreleasereorganization.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:16535b26a4f51f576d069cdf9f9b3a77@signal-lab
+DTSTAMP:20261119T190000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:NUTX: record date for the $2.00 special dividend (paid 14 Dec\; 15% US withholding for UK holders)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1479681/000162828026074363/press_releasexdeclaresxfir.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:82fb688f61ba7c2abf75e2801262fe4d@signal-lab
+DTSTAMP:20261119T190000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:RBCAA: record date for the $5.50 special dividend (paid 8 Jan 2027\; 15% US withholding for UK holders)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/921557/000110465926129688/rbcaa-ex99d1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:e42d69123a9f66771f688366cab15e7b@signal-lab
+DTSTAMP:20261119T200000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:TRMD: Hafnia decides whether to hand its 19.81% TORM stake to its own holders or pay cash and sell later (supply)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1815779/000114036126044586/ef20085731_ex99-3.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:0349777d3c49da1a7692caf4f9710303@signal-lab
+DTSTAMP:20261119T200000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:NIVF: another 1-for-100 reverse split (tentative\; public AVOID #9: add to ledger/corporate_actions.csv when confirmed)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1981662/000121390026122016/ea0312756-424b5_newgenivf.htm
 END:VEVENT
 END:VCALENDAR

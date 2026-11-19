@@ -262,3 +262,5 @@ date,a,b,type,detail,source
 2026-11-17,ARCT,fund:Meiji,counterparty,"Meiji bought 2,466,395 shares for $50.0M at an 80% premium; license by 31 May 2027",https://www.sec.gov/Archives/edgar/data/1768224/000119380526001485/e665891_8k-arct.htm
 2026-11-17,FUN,fund:H Partners,holder_13d,"7.2% (7.4M shares) bought 6-16 Nov; board seat, standstill to the 2027 AGM",https://www.sec.gov/Archives/edgar/data/1364412/000091957426008157/xslSCHEDULE_13D_X02/primary_doc.xml
 2026-11-17,TE,fund:Encompass,holder_13d,19.99% blocker; convertible preferred holder,https://www.sec.gov/Archives/edgar/data/1992243/000092189526003078/primary_doc.xml
+2026-11-19,TRIP,fund:Pale Fire Capital,holder_13d,"7.4% (8,760,345 shares, ~$65.7M) bought 28 Sep-18 Nov; no plans",https://www.sec.gov/Archives/edgar/data/1526520/000092189526003216/xslSCHEDULE_13D_X02/primary_doc.xml
+2026-11-19,DOLE,fund:Pale Fire Capital,holder_13d,Pale Fire 13D at Dole (T013; expired 16 Nov with no Item 4 change),research/daily/2026-10-23.md

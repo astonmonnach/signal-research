@@ -739,11 +739,18 @@ def insider_buys(form4, tickers, relevant, day):
         # A P row sold again the same day in the same form is an option exercise, not a buy
         # (BORR's chief operating officer, Form 4 of 16 Oct 2026: P and S of 300,000 shares on 14 Oct).
         # A gift given away and bought back the same day nets to nothing (LKFN, 9 Nov 2026), so gifts count like sales.
-        sold = defaultdict(float)
+        # Gifts only cancel a buy on the same day; on other days they are gifts, not sales, and never net
+        # off a buy or get called "sold" (rule 2026-11-19, LPG: a CEO's code-G gifts and a trust transfer
+        # were reported as "also sold 19,300").
+        sold, gifted = defaultdict(float), defaultdict(float)
         for t in doc.findall("nonDerivativeTable/nonDerivativeTransaction"):
             code = (t.findtext("transactionCoding/transactionCode") or "").strip()
-            if code == "S" or (code == "G" and (t.findtext("transactionAmounts/transactionAcquiredDisposedCode/value") or "").strip() == "D"):
-                sold[(t.findtext("transactionDate/value") or "").strip()[:10]] += num(t.findtext("transactionAmounts/transactionShares/value")) or 0
+            d = (t.findtext("transactionDate/value") or "").strip()[:10]
+            amt = num(t.findtext("transactionAmounts/transactionShares/value")) or 0
+            if code == "S":
+                sold[d] += amt
+            elif code == "G" and (t.findtext("transactionAmounts/transactionAcquiredDisposedCode/value") or "").strip() == "D":
+                gifted[d] += amt
         foot = {f.get("id"): " ".join("".join(f.itertext()).split()) for f in doc.iter("footnote")}
         for t in doc.findall("nonDerivativeTable/nonDerivativeTransaction"):
             n = num(t.findtext("transactionAmounts/transactionShares/value"))
@@ -752,6 +759,10 @@ def insider_buys(form4, tickers, relevant, day):
             tday = (t.findtext("transactionDate/value") or "").strip()[:10]
             if sold[tday] >= n:
                 sold[tday] -= n
+                continue
+            if sold[tday] + gifted[tday] >= n:   # a same-day gift and buy-back nets to nothing (LKFN)
+                gifted[tday] -= n - sold[tday]
+                sold[tday] = 0
                 continue
             if not_open_market(t.findtext("securityTitle/value") or "", " ".join(foot.get(x.get("id"), "") for x in t.iter("footnoteId"))):
                 not_market += 1
@@ -767,6 +778,7 @@ def insider_buys(form4, tickers, relevant, day):
         # Sales on other days in the same form are netted too (MX, Form 4 of 10 Nov 2026: sold 378,252 on 6 Nov, bought
         # 268,009 on 6 Nov and 300,000 on 9 Nov; the line said "bought 300,000", the net was +189,757).
         left = sum(v for v in sold.values() if v > 0)
+        gave = sum(v for v in gifted.values() if v > 0)
         if left >= shares:
             net_sellers += 1
             continue
@@ -798,6 +810,7 @@ def insider_buys(form4, tickers, relevant, day):
         buys.append((-value, f"- **{symbols([issuer], tickers)}** {' + '.join(who[:3])}{f' + {len(who) - 3} more' if len(who) > 3 else ''} "
                              f"bought {shares:,.0f} shares {cost}{f' on {last}' if last else ''} `4` [Form 4]({index_url(path)})"
                              + (f" _(the same form also sold {left:,.0f} more shares: net {shares - left:+,.0f})_" if left else "")
+                             + (f" _(and gave away {gave:,.0f} shares as gifts, not sales)_" if gave else "")
                              + (" _(same purchase as another Form 4 today: a joint holding, one buyer)_" if twin else "")))
     lines = [line for _, line in sorted(buys)]
     if lines:
