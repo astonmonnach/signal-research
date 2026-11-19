@@ -104,10 +104,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05)); `longterm_research` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $19.76 (2026-11-19, ledger) · 1d -4.2%, 5d -2.5%, 20d -6.8% (market context, 2026-11-19)
-- **Since first found:** **+0.6%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +2.8% vs IWM -4.8% = **+7.5 pts** vs IWM; direction +1 → excess +7.5% (52 days)
+- **Latest price:** $19.86 (2026-11-19, ledger) · 1d -2.3%, 5d -0.6%, 20d -5.0% (market context, 2026-11-19)
+- **Since first found:** **+1.1%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: +3.3% vs IWM -5.0% = **+8.3 pts** vs IWM; direction +1 → excess +8.3% (52 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -5.6% 5d vs ELMT -2.5%; peers moved, it didn't. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Peers / sympathy:** missed_peer_move: peer median -5.4% 5d vs ELMT -0.6%; peers moved, it didn't. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -140,6 +140,6 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.76 | +0.6% | +2.8% | -4.8% | +7.5% | 52 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.76 | -7.2% | -8.7% | -6.1% |  | 44 | live |
-| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $19.76 | +2.0% | -2.6% | -5.7% |  | 8 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $19.86 | +1.1% | +3.3% | -5.0% | +8.3% | 52 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $19.86 | -6.7% | -8.2% | -6.3% |  | 44 | live |
+| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $19.86 | +2.5% | -2.1% | -5.8% |  | 8 | live |

@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `holder_13d_not_activism` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
 - **Latest price:** $3.58 (2026-11-19, ledger)
-- **Since first found:** **-11.6%** (found 2026-10-26 via `activist_13d` at $4.05). From the next open $4.25: -15.8% vs IWM -4.0% = **-11.8 pts** vs IWM; direction +1 → excess -11.8% (23 days)
+- **Since first found:** **-11.6%** (found 2026-10-26 via `activist_13d` at $4.05). From the next open $4.25: -15.8% vs IWM -4.2% = **-11.6 pts** vs IWM; direction +1 → excess -11.6% (23 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +26,5 @@ Every [ledger](../ledger/LEDGER.md) row for AZUL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `activist_13d` | +1 | -8.2% | -32.6% | $1.1M | $4.05 | $4.25 | $3.58 | -11.6% | -15.8% | -4.0% | -11.8% | 23 | live |
-| 2026-10-27 | `holder_13d_not_activism` | 0 | -37.5% | -14.6% | $1.3M | $3.46 | $3.47 | $3.58 | +3.5% | +3.2% | -4.8% |  | 22 | live |
+| 2026-10-26 | `activist_13d` | +1 | -8.2% | -32.6% | $1.1M | $4.05 | $4.25 | $3.58 | -11.6% | -15.8% | -4.2% | -11.6% | 23 | live |
+| 2026-10-27 | `holder_13d_not_activism` | 0 | -37.5% | -14.6% | $1.3M | $3.46 | $3.47 | $3.58 | +3.5% | +3.2% | -5.0% |  | 22 | live |

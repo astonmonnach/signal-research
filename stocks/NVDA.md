@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `event_incident` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $150.17 (2026-11-19, ledger)
-- **Since first found:** **-7.8%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -5.6% vs IWM -3.3% = **-2.3 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $149.60 (2026-11-19, ledger)
+- **Since first found:** **-8.1%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -5.9% vs IWM -3.5% = **-2.4 pts** vs IWM; direction 0, tracked only (3 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for NVDA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $150.17 | -7.8% | -5.6% | -3.3% |  | 3 | live |
+| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $149.60 | -8.1% | -5.9% | -3.5% |  | 3 | live |

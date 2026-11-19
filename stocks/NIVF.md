@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.034 (2026-11-19, ledger)
-- **Since first found:** **-98.5%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.4% vs IWM -4.7% = **-94.7 pts** vs IWM; direction -1 → excess +94.7% (50 days)
+- **Latest price:** $0.034 (2026-11-19, ledger) · 1d -79.9%, 5d -87.6%, 20d -97.1% (market context, 2026-11-19)
+- **Since first found:** **-98.5%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.4% vs IWM -4.9% = **-94.5 pts** vs IWM; direction -1 → excess +94.5% (50 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: NIVF -87.6% 5d vs peer median -6.3%; peers didn't move with it. Peer groups: SIC 8090 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+  - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html))
 - **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: NewGen Provides Business Update (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/16/3403460/0/en/newgen-provides-business-update.html))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -43.1%, found day -16.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/999999999526003533/9999999995-26-003533-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-14 4 NIVF +50% no_news $0.29 2.6 no -14.3% -15.0% +10.7% / -10.7% / -0.8% -36.1% -3.1% -49.0% -88.0%) ([note](../research/movers/outcomes-2026-11-11.md))
@@ -35,6 +37,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.034 | -98.5% | -99.4% | -4.7% | +94.7% | 50 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.034 | -97.2% | -97.0% | -5.5% |  | 21 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.034 | -85.4% | -84.9% | -3.3% | +81.6% | 3 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.034 | -98.5% | -99.4% | -4.9% | +94.5% | 50 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.034 | -97.2% | -97.0% | -5.7% |  | 21 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.034 | -85.3% | -84.9% | -3.5% | +81.4% | 3 | live |

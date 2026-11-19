@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
 - **Latest price:** $1.45 (2026-11-19, ledger)
-- **Since first found:** **-10.2%** (found 2026-11-05 via `setup_supply_eloc` at $1.61). From the next open $1.61: -10.2% vs IWM -1.8% = **-8.4 pts** vs IWM; direction 0, tracked only (13 days)
+- **Since first found:** **-10.2%** (found 2026-11-05 via `setup_supply_eloc` at $1.61). From the next open $1.61: -10.2% vs IWM -2.0% = **-8.2 pts** vs IWM; direction 0, tracked only (13 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `setup_supply_eloc` | 0 | -6.1% | -4.2% | $489k | $1.61 | $1.61 | $1.45 | -10.2% | -10.2% | -1.8% |  | 13 | live |
+| 2026-11-05 | `setup_supply_eloc` | 0 | -6.1% | -4.2% | $489k | $1.61 | $1.61 | $1.45 | -10.2% | -10.2% | -2.0% |  | 13 | live |

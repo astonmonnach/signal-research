@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
 - **Latest price:** $1.01 (2026-11-19, ledger)
-- **Since first found:** **-65.0%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -64.2% vs IWM -2.3% = **-61.8 pts** vs IWM; direction -1 → excess +61.9% (36 days)
+- **Since first found:** **-65.0%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -64.2% vs IWM -2.5% = **-61.6 pts** vs IWM; direction -1 → excess +61.6% (36 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.01 | -65.0% | -64.2% | -2.3% | +61.9% | 36 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.01 | -54.1% | -54.1% | -3.3% |  | 24 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.01 | -43.6% | -42.3% | -4.3% | +38.0% | 6 | live |
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.01 | -65.0% | -64.2% | -2.5% | +61.6% | 36 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.01 | -54.1% | -54.1% | -3.5% |  | 24 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.01 | -43.6% | -42.3% | -4.5% | +37.8% | 6 | live |
