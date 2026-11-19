@@ -56,8 +56,8 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-10,02:22,False,CDT,CDT Equity Inc. Common Stock,S1,1.31,27133043,2460514,11.03,448249,2026-11-06,0.05,0.561,0.4833,2026-11-11,-0.138503,-0.158503,filled
 2026-11-17,02:35,False,MRLN,Merlin Inc. Common Stock,S2,1.13,42476092,4630040,9.17,1580877,,,0.908,0.9067,2026-11-18,-0.001432,-0.021432,filled
 2026-11-17,02:35,False,STIM,Neuronetics Inc. Common Stock,S2,1.39,16259542,3072720,5.29,2499993,,,1.28,1.27,2026-11-18,-0.007812,-0.027812,filled
-2026-11-18,01:51,False,MNTK,Montauk Renewables Inc. Common Stock,S2,1.17,6966082,1023515,6.81,1097857,,,,,,,,open
-2026-11-18,01:51,False,SPAI,Safe Pro Group Inc. Common Stock,S2,2.47,3348492,296390,11.3,327905,,,,,,,,open
+2026-11-18,01:51,False,MNTK,Montauk Renewables Inc. Common Stock,S2,1.17,6966082,1023515,6.81,1097857,,,1.15,1.13,2026-11-19,-0.017391,-0.037391,filled
+2026-11-18,01:51,False,SPAI,Safe Pro Group Inc. Common Stock,S2,2.47,3348492,296390,11.3,327905,,,2.91,2.92,2026-11-19,0.003436,-0.016564,filled
 2026-11-19,01:27,False,ADAG,Adagene Inc. American Depositary Shares,S2,1.48,2338434,319845,7.31,409637,,,,,,,,open
 2026-11-19,01:27,False,ALTI,AlTi Global Inc. Class A Common Stock,S2,1.68,1518432,283245,5.36,395956,,,,,,,,open
 2026-11-19,01:27,False,CUE,Cue Biopharma Inc. Common Stock,S2,2.83,4229479,350055,12.08,2658860,,,,,,,,open
