@@ -90,3 +90,13 @@ read back from IBKR and equal to the register's 74 active rows.
 - **Gov Filings pipeline findings (100):** +CCAP.
 - Still on AVOID and worth a clean-up later: NCI.OLD (884034770, a dead contract) and eight entries with a blank name.
 - Approved by the trader in chat ("yeah make the IBKR changes").
+
+## 2026-11-19
+
+- **AVOID (114):** 248 -> 334, so every active row in the register is now on IBKR.
+  - **Added 86:** the queued additions from 11, 13, 17 and 19 Nov, plus register names whose old contracts had gone blank after reverse splits or renames.
+  - **New contracts include:** NCT (944790131), SNTI (946033401), SCNI (946033395), ARAY, AXG, SMX, YMT, UFG, MOBX, NCI and GOVX.
+  - **ADIL** was renamed and resolves to AZR (939700796).
+  - Read back: 334.
+- **Not done:** the old dead and blank-name entries are still on the list. That includes NCI.OLD (884034770), SNTI.OLD (877300929) and about ten entries with a blank name. Removing them is a separate clean-up waiting for the trader's go-ahead.
+- Approved by the trader in chat ("yes add them all to the AVOID list").
