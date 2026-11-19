@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "published_utc": "2026-11-19T13:30:00Z",
+  "wire": "Business Wire",
+  "ticker": "IBRX",
+  "title": "ImmunityBio Named No. 2 Fastest-Growing Technology Company in North America on the 2026 Deloitte Technology Fast 500™",
+  "link": "http://www.businesswire.com/news/home/20261119011953/en/ImmunityBio-Named-No.-2-Fastest-Growing-Technology-Company-in-North-America-on-the-2026-Deloitte-Technology-Fast-500%E2%84%A2/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-19T13:30:00Z",
+  "wire": "PR Newswire",
+  "ticker": "BMM",
+  "title": "Blue Moon Metals Receives Approval of Plan of Operations for the Blue Moon Mine in Mariposa County, California",
+  "link": "https://www.prnewswire.com/news-releases/blue-moon-metals-receives-approval-of-plan-of-operations-for-the-blue-moon-mine-in-mariposa-county-california-302945527.html",
+  "matched_on": "watchlist"
+ },
+ {
+  "published_utc": "2026-11-19T13:29:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NIVF",
+  "title": "NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-19T14:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "AIFA",
+  "title": "AIFA Signs Definitive Agreement to Acquire Little Vault, Shanglong Li to Serve as Chairman and CEO, Accelerating AI Applications and Content IP Commercialization",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406641/0/en/aifa-signs-definitive-agreement-to-acquire-little-vault-shanglong-li-to-serve-as-chairman-and-ceo-accelerating-ai-applications-and-content-ip-commercialization.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-19T12:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BKR",
+  "title": "INPEX Awards McDermott-Baker Hughes Consortium Contract for Ichthys LNG Development",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406429/0/en/inpex-awards-mcdermott-baker-hughes-consortium-contract-for-ichthys-lng-development.html",
+  "matched_on": "keyword:awarded a contract"
+ },
+ {
+  "published_utc": "2026-11-19T12:00:00Z",
+  "wire": "Business Wire",
+  "ticker": "ALNY",
+  "title": "Alnylam Collaborator Regeneron Secures FDA Approval of Livsayis™ (cemdisiran), the Seventh FDA-Approved Therapeutic from Alnylam's RNAi Platform in Less Than Nine Years",
+  "link": "http://www.businesswire.com/news/home/20261119295782/en/Alnylam-Collaborator-Regeneron-Secures-FDA-Approval-of-Livsayis%E2%84%A2-cemdisiran-the-Seventh-FDA-Approved-Therapeutic-from-Alnylams-RNAi-Platform-in-Less-Than-Nine-Years/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "keyword:FDA approval"
+ },
+ {
+  "published_utc": "2026-11-19T11:38:00Z",
+  "wire": "Business Wire",
+  "ticker": "CRH",
+  "title": "CRH announces Early Results of Tender Offers, Exchange Offers and Consent Solicitations for Arcosa, Inc. Notes",
+  "link": "http://www.businesswire.com/news/home/20261119748684/en/CRH-announces-Early-Results-of-Tender-Offers-Exchange-Offers-and-Consent-Solicitations-for-Arcosa-Inc.-Notes/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "keyword:tender offer"
+ }
+]
