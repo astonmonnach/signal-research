@@ -6,7 +6,7 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.16 (2026-11-19, market context) · 1d +14.9%, 5d -5.3%, 20d +3.9% (market context, 2026-11-19)
+- **Latest price:** $2.17 (2026-11-19, market context) · 1d +15.7%, 5d -4.6%, 20d +4.6% (market context, 2026-11-19)
 - **Since first found:** not in the ledger
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)

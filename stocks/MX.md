@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $2.34 (2026-11-19, ledger)
-- **Since first found:** **-12.6%** (found 2026-10-14 via `registration_effective` at $2.67). From the next open $2.63: -11.2% vs IWM -1.1% = **-10.2 pts** vs IWM; direction -1 → excess +10.2% (35 days)
+- **Latest price:** $2.33 (2026-11-19, ledger)
+- **Since first found:** **-12.9%** (found 2026-10-14 via `registration_effective` at $2.67). From the next open $2.63: -11.6% vs IWM -1.4% = **-10.2 pts** vs IWM; direction -1 → excess +10.2% (35 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for MX ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `registration_effective` | -1 | -17.2% | -6.0% | $6.4M | $2.67 | $2.63 | $2.34 | -12.6% | -11.2% | -1.1% | +10.2% | 35 | live |
-| 2026-11-11 | `insider_buy` | 0 | +0.4% | +17.0% | $2.3M | $2.96 | $2.78 | $2.34 | -21.1% | -16.0% | -4.6% |  | 7 | live |
+| 2026-10-14 | `registration_effective` | -1 | -17.2% | -6.0% | $6.4M | $2.67 | $2.63 | $2.33 | -12.9% | -11.6% | -1.4% | +10.2% | 35 | live |
+| 2026-11-11 | `insider_buy` | 0 | +0.4% | +17.0% | $2.3M | $2.96 | $2.78 | $2.33 | -21.4% | -16.4% | -4.9% |  | 7 | live |

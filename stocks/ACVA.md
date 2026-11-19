@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $10.50 (2026-10-15, ledger)
-- **Since first found:** **** (found 2026-09-29 via `tender_third_party`). From the next open $10.50: +0.0% vs IWM -1.1% = **+1.1 pts** vs IWM; direction 0, tracked only (0 days)
+- **Since first found:** **** (found 2026-09-29 via `tender_third_party`). From the next open $10.50: +0.0% vs IWM -1.4% = **+1.4 pts** vs IWM; direction 0, tracked only (0 days)
   - 6 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -35,10 +35,10 @@ Every [ledger](../ledger/LEDGER.md) row for ACVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.1% |  | 0 | live |
-| 2026-10-08 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.1% |  | 0 | live |
-| 2026-10-10 | `merger_arb` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.1% |  | 0 | live |
-| 2026-10-14 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.1% |  | 0 | live |
+| 2026-09-29 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.4% |  | 0 | live |
+| 2026-10-08 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.4% |  | 0 | live |
+| 2026-10-10 | `merger_arb` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.4% |  | 0 | live |
+| 2026-10-14 | `tender_third_party` | 0 |  |  |  |  | $10.50 | $10.50 |  | +0.0% | -1.4% |  | 0 | live |
 | 2026-10-16 | `delisting` | 0 |  |  | $56.0M | $10.50 |  | $10.50 |  |  |  |  |  | pending |
 | 2026-10-16 | `tender_third_party` | 0 |  |  | $56.0M | $10.50 |  | $10.50 |  |  |  |  |  | pending |
 | 2026-10-19 | `8k_merger_agreement` | 0 |  |  | $56.0M | $10.50 |  | $10.50 |  |  |  |  |  | pending |

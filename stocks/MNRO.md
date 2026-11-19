@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $10.23 (2026-11-19, ledger)
-- **Since first found:** **-16.8%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -15.3% vs IWM -4.8% = **-10.6 pts** vs IWM; direction +1 → excess -10.6% (20 days)
+- **Latest price:** $10.18 (2026-11-19, ledger)
+- **Since first found:** **-17.2%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -15.8% vs IWM -5.1% = **-10.7 pts** vs IWM; direction +1 → excess -10.7% (20 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.23 | -16.8% | -15.3% | -4.8% | -10.6% | 20 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.23 | -15.5% | -16.3% | -5.4% | -10.9% | 14 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.23 | -9.5% | -9.4% | -1.3% |  | 13 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $10.18 | -17.2% | -15.8% | -5.1% | -10.7% | 20 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $10.18 | -15.9% | -16.8% | -5.7% | -11.1% | 14 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $10.18 | -10.0% | -9.9% | -1.6% |  | 13 | live |

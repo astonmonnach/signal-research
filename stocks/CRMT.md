@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $0.867 (2026-11-19, ledger) · 1d +4.5%, 5d -6.8%, 20d -8.7% (market context, 2026-11-19)
-- **Since first found:** **-30.6%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -31.2% vs IWM -3.5% = **-27.7 pts** vs IWM; direction +1 → excess -27.7% (41 days)
+- **Since first found:** **-30.6%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -31.2% vs IWM -3.8% = **-27.4 pts** vs IWM; direction +1 → excess -27.4% (41 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -41,6 +41,6 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.867 | -30.6% | -31.2% | -3.5% | -27.7% | 41 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.867 | -35.8% | -36.2% | -3.6% |  | 38 | live |
-| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.867 | -35.8% | -36.2% | -2.5% | -33.7% | 34 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.867 | -30.6% | -31.2% | -3.8% | -27.4% | 41 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.867 | -35.8% | -36.2% | -3.9% |  | 38 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.867 | -35.8% | -36.2% | -2.9% | -33.4% | 34 | live |
