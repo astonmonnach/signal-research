@@ -1,58 +1,58 @@
 [
  {
-  "published_utc": "2026-11-19T13:30:00Z",
+  "published_utc": "2026-11-19T22:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NVDA",
+  "title": "NVIDIA Announces Upcoming Event for Financial Community",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3407166/0/en/nvidia-announces-upcoming-event-for-financial-community.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-19T21:07:00Z",
   "wire": "Business Wire",
-  "ticker": "IBRX",
-  "title": "ImmunityBio Named No. 2 Fastest-Growing Technology Company in North America on the 2026 Deloitte Technology Fast 500™",
-  "link": "http://www.businesswire.com/news/home/20261119011953/en/ImmunityBio-Named-No.-2-Fastest-Growing-Technology-Company-in-North-America-on-the-2026-Deloitte-Technology-Fast-500%E2%84%A2/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "ticker": "GRNT",
+  "title": "Granite Ridge Resources, Inc. Announces Planned Grey Rock Share Distribution",
+  "link": "http://www.businesswire.com/news/home/20261119983550/en/Granite-Ridge-Resources-Inc.-Announces-Planned-Grey-Rock-Share-Distribution/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-19T13:30:00Z",
-  "wire": "PR Newswire",
-  "ticker": "BMM",
-  "title": "Blue Moon Metals Receives Approval of Plan of Operations for the Blue Moon Mine in Mariposa County, California",
-  "link": "https://www.prnewswire.com/news-releases/blue-moon-metals-receives-approval-of-plan-of-operations-for-the-blue-moon-mine-in-mariposa-county-california-302945527.html",
-  "matched_on": "watchlist"
+  "published_utc": "2026-11-19T22:56:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "KBR",
+  "title": "KBR Announces Pricing of Trinzic’s Senior Notes Offering",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3407187/0/en/kbr-announces-pricing-of-trinzic-s-senior-notes-offering.html",
+  "matched_on": "keyword:spin-off"
  },
  {
-  "published_utc": "2026-11-19T13:29:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NIVF",
-  "title": "NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering",
-  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-19T14:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "AIFA",
-  "title": "AIFA Signs Definitive Agreement to Acquire Little Vault, Shanglong Li to Serve as Chairman and CEO, Accelerating AI Applications and Content IP Commercialization",
-  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406641/0/en/aifa-signs-definitive-agreement-to-acquire-little-vault-shanglong-li-to-serve-as-chairman-and-ceo-accelerating-ai-applications-and-content-ip-commercialization.html",
+  "published_utc": "2026-11-19T22:51:00Z",
+  "wire": "Business Wire",
+  "ticker": "CPAY;BILL",
+  "title": "Corpay Invests Alongside TPG to Acquire BILL",
+  "link": "http://www.businesswire.com/news/home/20261119318120/en/Corpay-Invests-Alongside-TPG-to-Acquire-BILL/?feedref=JjAwJuNHiystnCoBq_hl-YChnX-dlxR7bnql9VXy9e6SJvrmQzMZ86NdS3fjVDXtrCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3muqBJGlnuvFlNgwmkH_hdAOoOnRBQBKcY2buBEMh6FZQ==",
   "matched_on": "keyword:definitive agreement"
  },
  {
-  "published_utc": "2026-11-19T12:00:00Z",
+  "published_utc": "2026-11-19T22:46:00Z",
+  "wire": "Business Wire",
+  "ticker": "BILL;CPAY",
+  "title": "BILL Agrees to be Acquired by TPG in Partnership with Corpay",
+  "link": "http://www.businesswire.com/news/home/20261119835477/en/BILL-Agrees-to-be-Acquired-by-TPG-in-Partnership-with-Corpay/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "matched_on": "keyword:definitive agreement;keyword:to be acquired"
+ },
+ {
+  "published_utc": "2026-11-19T21:34:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "BKR",
-  "title": "INPEX Awards McDermott-Baker Hughes Consortium Contract for Ichthys LNG Development",
-  "link": "https://www.globenewswire.com/news-release/2026/11/19/3406429/0/en/inpex-awards-mcdermott-baker-hughes-consortium-contract-for-ichthys-lng-development.html",
-  "matched_on": "keyword:awarded a contract"
+  "ticker": "DDS",
+  "title": "Dillard’s, Inc. Announces Special Dividend of $35.00 Per Share and Quarterly Cash Dividend of $0.30 Per Share",
+  "link": "https://www.globenewswire.com/news-release/2026/11/19/3407151/0/en/dillard-s-inc-announces-special-dividend-of-35-00-per-share-and-quarterly-cash-dividend-of-0-30-per-share.html",
+  "matched_on": "keyword:special dividend"
  },
  {
-  "published_utc": "2026-11-19T12:00:00Z",
+  "published_utc": "2026-11-19T21:30:00Z",
   "wire": "Business Wire",
-  "ticker": "ALNY",
-  "title": "Alnylam Collaborator Regeneron Secures FDA Approval of Livsayis™ (cemdisiran), the Seventh FDA-Approved Therapeutic from Alnylam's RNAi Platform in Less Than Nine Years",
-  "link": "http://www.businesswire.com/news/home/20261119295782/en/Alnylam-Collaborator-Regeneron-Secures-FDA-Approval-of-Livsayis%E2%84%A2-cemdisiran-the-Seventh-FDA-Approved-Therapeutic-from-Alnylams-RNAi-Platform-in-Less-Than-Nine-Years/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:FDA approval"
- },
- {
-  "published_utc": "2026-11-19T11:38:00Z",
-  "wire": "Business Wire",
-  "ticker": "CRH",
-  "title": "CRH announces Early Results of Tender Offers, Exchange Offers and Consent Solicitations for Arcosa, Inc. Notes",
-  "link": "http://www.businesswire.com/news/home/20261119748684/en/CRH-announces-Early-Results-of-Tender-Offers-Exchange-Offers-and-Consent-Solicitations-for-Arcosa-Inc.-Notes/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "keyword:tender offer"
+  "ticker": "BKU",
+  "title": "BankUnited, Inc. Increases Share Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261119655727/en/BankUnited-Inc.-Increases-Share-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:share repurchase"
  }
 ]
