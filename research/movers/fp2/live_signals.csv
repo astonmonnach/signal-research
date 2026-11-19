@@ -58,3 +58,10 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-17,02:35,False,STIM,Neuronetics Inc. Common Stock,S2,1.39,16259542,3072720,5.29,2499993,,,1.28,1.27,2026-11-18,-0.007812,-0.027812,filled
 2026-11-18,01:51,False,MNTK,Montauk Renewables Inc. Common Stock,S2,1.17,6966082,1023515,6.81,1097857,,,,,,,,open
 2026-11-18,01:51,False,SPAI,Safe Pro Group Inc. Common Stock,S2,2.47,3348492,296390,11.3,327905,,,,,,,,open
+2026-11-19,01:27,False,ADAG,Adagene Inc. American Depositary Shares,S2,1.48,2338434,319845,7.31,409637,,,,,,,,open
+2026-11-19,01:27,False,ALTI,AlTi Global Inc. Class A Common Stock,S2,1.68,1518432,283245,5.36,395956,,,,,,,,open
+2026-11-19,01:27,False,CUE,Cue Biopharma Inc. Common Stock,S2,2.83,4229479,350055,12.08,2658860,,,,,,,,open
+2026-11-19,01:27,False,GANX,Gain Therapeutics Inc. Common Stock,S2,1.18,4310888,732675,5.88,428373,,,,,,,,open
+2026-11-19,01:27,False,IMDX,Insight Molecular Diagnostics Inc. Common Stock,S2,1.78,1295113,203525,6.36,354150,,,,,,,,open
+2026-11-19,01:27,False,MAIA,MAIA Biotechnology Inc. Common Stock,S2,1.24,1928946,338020,5.71,269124,,,,,,,,open
+2026-11-19,01:27,False,MOB,Mobilicom Limited Ordinary Shares,S2,1.41,837389,151660,5.52,263706,,,,,,,,open
