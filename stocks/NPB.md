@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $14.68 (2026-11-19, ledger) · 1d -0.6%, 5d -4.8%, 20d -4.9% (market context, 2026-11-19)
-- **Since first found:** **-9.3%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -11.1% vs IWM -5.2% = **-5.9 pts** vs IWM; direction 0, tracked only (21 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $14.60 (2026-11-19, ledger) · 1d -1.3%, 5d -5.4%, 20d -5.5% (market context, 2026-11-19)
+- **Since first found:** **-9.8%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -11.6% vs IWM -5.5% = **-6.1 pts** vs IWM; direction 0, tracked only (21 days)
+- **Peers / sympathy:** no flag (self 5d -5.4% vs peer median -6.1%). Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-19)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: NPB: CMG purchase of the retail mortgage channels expected to complete (T017)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -33,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for NPB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $14.68 | -9.3% | -11.1% | -5.2% |  | 21 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $14.60 | -9.8% | -11.6% | -5.5% |  | 21 | live |
