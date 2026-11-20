@@ -1,66 +1,42 @@
 [
  {
-  "published_utc": "2026-11-20T13:00:00Z",
+  "published_utc": "2026-11-20T21:01:00Z",
   "wire": "Business Wire",
-  "ticker": "DIN",
-  "title": "Dine Brands Global, Inc. Announces Fourth Quarter 2026 Dividend",
-  "link": "http://www.businesswire.com/news/home/20261120729489/en/Dine-Brands-Global-Inc.-Announces-Fourth-Quarter-2026-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=",
+  "ticker": "BSY",
+  "title": "Bentley Systems, Incorporated Declares Fourth Quarter 2026 Dividend",
+  "link": "http://www.businesswire.com/news/home/20261120438159/en/Bentley-Systems-Incorporated-Declares-Fourth-Quarter-2026-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-20T13:00:00Z",
+  "published_utc": "2026-11-20T14:43:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "INVE",
-  "title": "INVE Technologies Announces Preliminary Results of Its Tender Offer",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407389/8259/en/inve-technologies-announces-preliminary-results-of-its-tender-offer.html",
-  "matched_on": "manual_call;keyword:tender offer"
+  "ticker": "NIVF",
+  "title": "NewGenIvf Group Limited Announces Closing of $2.5 Million Underwritten Offering",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407529/0/en/newgenivf-group-limited-announces-closing-of-2-5-million-underwritten-offering.html",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-20T13:30:00Z",
-  "wire": "Business Wire",
-  "ticker": "SVRA",
-  "title": "Savara Informed That FDA Will Not Take Action on the Molgramostim BLA for Autoimmune Pulmonary Alveolar Proteinosis (Autoimmune PAP) by the PDUFA Date",
-  "link": "http://www.businesswire.com/news/home/20261120300122/en/Savara-Informed-That-FDA-Will-Not-Take-Action-on-the-Molgramostim-BLA-for-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP-by-the-PDUFA-Date/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:PDUFA"
- },
- {
-  "published_utc": "2026-11-20T13:00:00Z",
+  "published_utc": "2026-11-20T21:30:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "ANVS",
-  "title": "Annovis Secures FDA Agreement on Integrated Summary of Safety Plan, Combining Alzheimer’s and Parkinson’s Data Ahead of Buntanetap NDA",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407385/0/en/annovis-secures-fda-agreement-on-integrated-summary-of-safety-plan-combining-alzheimer-s-and-parkinson-s-data-ahead-of-buntanetap-nda.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-20T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "BLTE",
-  "title": "Belite Bio Announces Extension of FDA Review Timeline for Tinlarebant NDA",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407395/0/en/belite-bio-announces-extension-of-fda-review-timeline-for-tinlarebant-nda.html",
-  "matched_on": "keyword:PDUFA"
- },
- {
-  "published_utc": "2026-11-20T12:45:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "IESC",
-  "title": "IES Holdings Reports Fiscal 2026 Fourth Quarter and Full Year Results; Board Authorizes Additional $350 Million for Share Repurchase Program",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407370/29106/en/ies-holdings-reports-fiscal-2026-fourth-quarter-and-full-year-results-board-authorizes-additional-350-million-for-share-repurchase-program.html",
-  "matched_on": "keyword:share repurchase"
- },
- {
-  "published_utc": "2026-11-20T11:58:00Z",
-  "wire": "Business Wire",
-  "ticker": "MTZ",
-  "title": "MasTec Enters into Definitive Agreement to Acquire Murphy Corporation, a Leading Mechanical Contractor Serving Mission-Critical End Markets",
-  "link": "http://www.businesswire.com/news/home/20261119952200/en/MasTec-Enters-into-Definitive-Agreement-to-Acquire-Murphy-Corporation-a-Leading-Mechanical-Contractor-Serving-Mission-Critical-End-Markets/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-11-20T11:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "GE",
-  "title": "GE Aerospace Recommends Shareholders Reject “Mini-Tender” Offer by Potemkin Limited",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407336/0/en/ge-aerospace-recommends-shareholders-reject-mini-tender-offer-by-potemkin-limited.html",
+  "ticker": "OTLY",
+  "title": "Oatly Confirms Commencement of Tender Offer by Verlinvest",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407837/0/en/oatly-confirms-commencement-of-tender-offer-by-verlinvest.html",
   "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-11-20T21:22:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BLNE",
+  "title": "Beeline and TYTL to Host Joint Stakeholder Update Call on Merger Agreement with TYTL Corp.",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407833/0/en/beeline-and-tytl-to-host-joint-stakeholder-update-call-on-merger-agreement-with-tytl-corp.html",
+  "matched_on": "keyword:merger agreement"
+ },
+ {
+  "published_utc": "2026-11-20T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "ZOOZ",
+  "title": "ZOOZ Strategy Announces Extension of its Existing Share Repurchase Program for an Additional 12-Month Period",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407825/0/en/zooz-strategy-announces-extension-of-its-existing-share-repurchase-program-for-an-additional-12-month-period.html",
+  "matched_on": "keyword:share repurchase"
  }
 ]
