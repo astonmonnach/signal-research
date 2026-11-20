@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md)); `setup_supply_eloc` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $6.99 (2026-11-20, ledger)
-- **Since first found:** **-59.1%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -58.1% vs IWM -6.5% = **-51.7 pts** vs IWM; direction 0, tracked only (39 days)
+- **Latest price:** $6.95 (2026-11-20, ledger)
+- **Since first found:** **-59.3%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -58.3% vs IWM -6.8% = **-51.5 pts** vs IWM; direction 0, tracked only (39 days)
   - 9 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -41,13 +41,13 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $6.99 | -59.1% | -58.1% | -6.5% |  | 39 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $6.99 | -53.0% | -53.1% | -5.9% | +47.1% | 30 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $6.99 | -55.6% | -54.3% | -5.2% |  | 29 | live |
-| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $6.99 | -53.6% | -52.0% | -5.7% | +46.3% | 25 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $6.99 | -53.4% | -53.4% | -6.3% |  | 24 | live |
-| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $6.99 | -50.8% | -50.2% | -7.5% | +42.7% | 18 | live |
-| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $6.99 | -40.3% | -41.8% | -6.9% | +34.9% | 17 | live |
-| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $6.99 | -34.0% | -33.5% | -8.2% |  | 15 | live |
-| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $6.99 | -12.2% | -15.5% | -7.9% | +7.6% | 9 | live |
-| 2026-11-17 | `8k_tender_offer` | 0 | -28.4% | -2.7% | $5.9M | $7.25 | $7.35 | $6.99 | -3.7% | -5.0% | -2.9% |  | 2 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $6.95 | -59.3% | -58.3% | -6.8% |  | 39 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $6.95 | -53.2% | -53.3% | -6.2% | +47.1% | 30 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $6.95 | -55.9% | -54.5% | -5.5% |  | 29 | live |
+| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $6.95 | -53.8% | -52.2% | -6.0% | +46.2% | 25 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $6.95 | -53.6% | -53.6% | -6.6% |  | 24 | live |
+| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $6.95 | -51.0% | -50.5% | -7.8% | +42.6% | 18 | live |
+| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $6.95 | -40.6% | -42.1% | -7.2% | +34.8% | 17 | live |
+| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $6.95 | -34.4% | -33.9% | -8.5% |  | 15 | live |
+| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $6.95 | -12.7% | -15.9% | -8.2% | +7.7% | 9 | live |
+| 2026-11-17 | `8k_tender_offer` | 0 | -28.4% | -2.7% | $5.9M | $7.25 | $7.35 | $6.95 | -4.1% | -5.4% | -3.2% |  | 2 | live |

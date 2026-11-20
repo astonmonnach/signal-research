@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
 - **Latest price:** $26.81 (2026-11-20, ledger)
-- **Since first found:** **+15.3%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +15.6% vs IWM -6.3% = **+21.8 pts** vs IWM; direction 0, tracked only (24 days)
+- **Since first found:** **+15.3%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +15.5% vs IWM -6.6% = **+22.1 pts** vs IWM; direction 0, tracked only (24 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,8 +33,8 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.81 | +15.3% | +15.6% | -6.3% |  | 24 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.81 | +14.8% | +15.3% | -7.1% |  | 23 | live |
-| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.81 | +1.4% | +0.4% | -6.9% |  | 10 | live |
-| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.81 | +0.1% | +0.5% | -4.2% |  | 3 | live |
-| 2026-11-18 | `8k_merger_agreement` | 0 | +0.4% | +0.4% | $182.0M | $26.96 | $26.97 | $26.81 | -0.6% | -0.6% | -3.9% |  | 1 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.81 | +15.3% | +15.5% | -6.6% |  | 24 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.81 | +14.8% | +15.2% | -7.4% |  | 23 | live |
+| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.81 | +1.3% | +0.4% | -7.2% |  | 10 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.81 | +0.1% | +0.5% | -4.6% |  | 3 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | +0.4% | +0.4% | $182.0M | $26.96 | $26.97 | $26.81 | -0.6% | -0.6% | -4.2% |  | 1 | live |

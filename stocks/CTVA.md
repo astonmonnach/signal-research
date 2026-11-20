@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-09-29 (watchlist thread (X 29 Sep)); `longterm_research` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $8.01 (2026-11-20, ledger) · 1d -1.4%, 5d -15.1%, 20d -35.7% (market context, 2026-11-20)
-- **Since first found:** **+563.5%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +563.1% vs IWM -7.0% = **+570.1 pts** vs IWM; direction 0, tracked only (51 days). Includes +1.0 VYLR (spin)
+- **Latest price:** $7.93 (2026-11-20, ledger) · 1d -2.2%, 5d -15.8%, 20d -36.2% (market context, 2026-11-20)
+- **Since first found:** **+560.7%** (found 2026-09-29 via `idea_spinoff` at $11.68). From the next open $11.69: +560.4% vs IWM -7.3% = **+567.7 pts** vs IWM; direction 0, tracked only (51 days). Includes +1.0 VYLR (spin)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CTVA -15.1% 5d vs peer median -7.4% (crop inputs -8.2%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** solo_move: CTVA -15.8% 5d vs peer median -7.4% (crop inputs -8.1%); peers didn't move with it. Peer groups: crop inputs (5), seeds / ag (1), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -129,10 +129,10 @@ Every [ledger](../ledger/LEDGER.md) row for CTVA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $8.01 | +563.5% | +563.1% | -7.0% |  | 51 | live |
-| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $8.01 | -35.4% | -38.8% | -8.4% |  | 45 | live |
-| 2026-11-12 | `8k_spin_off` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $8.01 | -12.9% | -12.1% | -6.6% |  | 7 | live |
-| 2026-11-12 | `longterm_research` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $8.01 | -12.9% | -12.1% | -6.6% |  | 7 | live |
-| 2026-11-17 | `insider_cluster` | 0 | -25.4% | -2.4% | $256.2M | $8.82 | $8.68 | $8.01 | -9.2% | -7.8% | -2.9% |  | 2 | live |
+| 2026-09-29 | `idea_spinoff` | 0 | -1.7% | +0.2% | $403.9M | $11.68 | $11.69 | $7.93 | +560.7% | +560.4% | -7.3% |  | 51 | live |
+| 2026-10-05 | `8k_spin_off` | 0 | +1.2% | +3.9% | $528.3M | $12.39 | $13.08 | $7.93 | -36.0% | -39.4% | -8.7% |  | 45 | live |
+| 2026-11-12 | `8k_spin_off` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $7.93 | -13.8% | -13.0% | -6.9% |  | 7 | live |
+| 2026-11-12 | `longterm_research` | 0 | -1.0% | -24.3% | $256.3M | $9.19 | $9.11 | $7.93 | -13.8% | -13.0% | -6.9% |  | 7 | live |
+| 2026-11-17 | `insider_cluster` | 0 | -25.4% | -2.4% | $256.2M | $8.82 | $8.68 | $7.93 | -10.2% | -8.7% | -3.2% |  | 2 | live |
 
 _Corporate-action adjustment: +1.0 VYLR (spin)._

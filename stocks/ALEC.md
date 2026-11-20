@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
 - **Latest price:** $2.36 (2026-11-20, ledger) · 1d +2.4%, 5d -7.3%, 20d +28.7% (market context, 2026-11-20)
-- **Since first found:** **+28.3%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +27.6% vs IWM -4.2% = **+31.7 pts** vs IWM; direction 0, tracked only (32 days)
+- **Since first found:** **+28.0%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +27.3% vs IWM -4.5% = **+31.8 pts** vs IWM; direction 0, tracked only (32 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -7.3% vs peer median -5.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -7.3% vs peer median -5.7%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.36 | +28.3% | +27.6% | -4.2% |  | 32 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.36 | +28.3% | +27.6% | -4.2% |  | 32 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.36 | +28.0% | +27.3% | -4.5% |  | 32 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.36 | +28.0% | +27.3% | -4.5% |  | 32 | live |

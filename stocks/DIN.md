@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `takeover_proposal` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $36.86 (2026-11-20, ledger) · 1d +1.0%, 5d +0.2%, 20d +18.8% (market context, 2026-11-20)
-- **Since first found:** **+4.8%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +5.7% vs IWM -7.6% = **+13.4 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $36.54 (2026-11-20, ledger) · 1d -0.1%, 5d -0.9%, 20d +17.5% (market context, 2026-11-20)
+- **Since first found:** **+3.9%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +4.8% vs IWM -7.9% = **+12.8 pts** vs IWM; direction 0, tracked only (21 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median +0.2%). Peer groups: SIC 5812 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -0.9% vs peer median +0.3%). Peer groups: SIC 5812 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for DIN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $36.86 | +4.8% | +5.7% | -7.6% |  | 21 | live |
-| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $36.86 | +1.0% | +1.0% | -6.9% | +7.9% | 17 | live |
-| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $36.86 | +1.0% | +0.6% | -8.2% |  | 15 | live |
+| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $36.54 | +3.9% | +4.8% | -7.9% |  | 21 | live |
+| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $36.54 | +0.1% | +0.1% | -7.2% | +7.3% | 17 | live |
+| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $36.54 | +0.1% | -0.3% | -8.5% |  | 15 | live |
