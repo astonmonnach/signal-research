@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `issuer_tender_intent` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `tender_issuer` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md)); `tender_issuer` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md)); `tender_issuer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md)); `tender_issuer` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $3.51 (2026-11-20, ledger) · 1d -13.5%, 5d +49.1%, 20d +19.7% (market context, 2026-11-20)
-- **Since first found:** **+35.0%** (found 2026-10-12 via `issuer_tender_intent` at $2.60). From the next open $2.51: +39.8% vs IWM -5.8% = **+45.6 pts** vs IWM; direction 0, tracked only (38 days)
+- **Latest price:** $3.61 (2026-11-20, ledger) · 1d -10.0%, 5d +55.2%, 20d +24.6% (market context, 2026-11-20)
+- **Since first found:** **+38.6%** (found 2026-10-12 via `issuer_tender_intent` at $2.60). From the next open $2.51: +43.6% vs IWM -5.9% = **+49.6 pts** vs IWM; direction 0, tracked only (38 days)
   - 16 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +49.1% 5d vs peer median -14.1%; peers didn't move with it | missed_peer_move: peer median -14.1% 5d vs SKYA +49.1%; peers moved, it didn't. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: SKYA +55.2% 5d vs peer median -14.2%; peers didn't move with it | missed_peer_move: peer median -14.2% 5d vs SKYA +55.2%; peers moved, it didn't. Peer groups: SIC 6199 (8) ([market context](../watch/context/latest.json), 2026-11-20)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -50,20 +50,20 @@ Every [ledger](../ledger/LEDGER.md) row for SKYA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +42.9% | $6.2M | $2.60 | $2.51 | $3.51 | +35.0% | +39.8% | -5.8% |  | 38 | live |
-| 2026-10-13 | `8k_tender_offer` | 0 | +39.0% | +0.4% | $6.5M | $2.61 | $2.57 | $3.51 | +34.5% | +36.6% | -4.2% |  | 37 | live |
-| 2026-10-15 | `8k_tender_offer` | 0 | +40.9% | +7.5% | $6.9M | $2.74 | $2.68 | $3.51 | +28.1% | +31.0% | -4.9% |  | 35 | live |
-| 2026-10-16 | `tender_issuer` | 0 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.51 | +32.5% | +27.6% | -3.6% |  | 32 | live |
-| 2026-10-16 | `tender_issuer_buyback` | +1 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.51 | +32.5% | +27.6% | -3.6% | +31.3% | 32 | live |
-| 2026-10-18 | `tender_issuer` | 0 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.51 | +32.5% | +27.6% | -3.6% |  | 32 | live |
-| 2026-10-19 | `8k_tender_offer` | 0 | +45.6% | +5.3% | $7.4M | $2.79 | $2.80 | $3.51 | +25.8% | +25.4% | -3.5% |  | 31 | live |
-| 2026-10-20 | `tender_issuer_buyback` | +1 | +7.3% | +1.4% | $7.8M | $2.83 | $2.83 | $3.51 | +24.0% | +24.0% | -5.4% | +29.4% | 30 | live |
-| 2026-10-28 | `8k_tender_offer` | 0 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.51 | +19.0% | +19.4% | -7.3% |  | 22 | live |
-| 2026-10-28 | `tender_issuer` | 0 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.51 | +19.0% | +19.4% | -7.3% |  | 22 | live |
-| 2026-10-28 | `tender_issuer_buyback` | +1 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.51 | +19.0% | +19.4% | -7.3% | +26.6% | 22 | live |
-| 2026-10-29 | `tender_issuer_buyback` | +1 | +2.4% | -0.7% | $9.1M | $2.93 | $2.91 | $3.51 | +19.8% | +20.6% | -7.1% | +27.7% | 21 | live |
-| 2026-11-02 | `tender_issuer_buyback` | +1 | +2.8% | -1.3% | $9.3M | $2.93 | $2.96 | $3.51 | +19.8% | +18.6% | -6.4% | +25.0% | 17 | live |
-| 2026-11-12 | `tender_issuer` | 0 | +0.7% | -17.5% | $3.9M | $2.45 | $2.39 | $3.51 | +43.3% | +46.9% | -6.1% |  | 7 | live |
-| 2026-11-12 | `tender_issuer_buyback` | +1 | +0.7% | -17.5% | $3.9M | $2.45 | $2.39 | $3.51 | +43.3% | +46.9% | -6.1% | +53.0% | 7 | live |
-| 2026-11-16 | `tender_issuer_buyback` | +1 | -21.4% | -9.1% | $3.4M | $2.11 | $2.07 | $3.51 | +66.3% | +69.6% | -3.7% | +73.3% | 3 | live |
-| 2026-11-18 | `tender_issuer_buyback` | +1 | -26.7% | +90.3% | $5.8M | $4.13 | $3.98 | $3.51 | -15.0% | -11.8% | -3.4% | -8.4% | 1 | live |
+| 2026-10-12 | `issuer_tender_intent` | 0 | -1.1% | +42.9% | $6.2M | $2.60 | $2.51 | $3.61 | +38.6% | +43.6% | -5.9% |  | 38 | live |
+| 2026-10-13 | `8k_tender_offer` | 0 | +39.0% | +0.4% | $6.5M | $2.61 | $2.57 | $3.61 | +38.1% | +40.3% | -4.3% |  | 37 | live |
+| 2026-10-15 | `8k_tender_offer` | 0 | +40.9% | +7.5% | $6.9M | $2.74 | $2.68 | $3.61 | +31.6% | +34.5% | -5.1% |  | 35 | live |
+| 2026-10-16 | `tender_issuer` | 0 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.61 | +36.0% | +31.1% | -3.8% |  | 32 | live |
+| 2026-10-16 | `tender_issuer_buyback` | +1 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.61 | +36.0% | +31.1% | -3.8% | +34.9% | 32 | live |
+| 2026-10-18 | `tender_issuer` | 0 | +62.1% | -3.3% | $7.1M | $2.65 | $2.75 | $3.61 | +36.0% | +31.1% | -3.8% |  | 32 | live |
+| 2026-10-19 | `8k_tender_offer` | 0 | +45.6% | +5.3% | $7.4M | $2.79 | $2.80 | $3.61 | +29.2% | +28.8% | -3.7% |  | 31 | live |
+| 2026-10-20 | `tender_issuer_buyback` | +1 | +7.3% | +1.4% | $7.8M | $2.83 | $2.83 | $3.61 | +27.4% | +27.4% | -5.5% | +32.9% | 30 | live |
+| 2026-10-28 | `8k_tender_offer` | 0 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.61 | +22.2% | +22.6% | -7.4% |  | 22 | live |
+| 2026-10-28 | `tender_issuer` | 0 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.61 | +22.2% | +22.6% | -7.4% |  | 22 | live |
+| 2026-10-28 | `tender_issuer_buyback` | +1 | +2.8% | +1.4% | $9.0M | $2.95 | $2.94 | $3.61 | +22.2% | +22.6% | -7.4% | +30.0% | 22 | live |
+| 2026-10-29 | `tender_issuer_buyback` | +1 | +2.4% | -0.7% | $9.1M | $2.93 | $2.91 | $3.61 | +23.0% | +23.9% | -7.2% | +31.1% | 21 | live |
+| 2026-11-02 | `tender_issuer_buyback` | +1 | +2.8% | -1.3% | $9.3M | $2.93 | $2.96 | $3.61 | +23.0% | +21.8% | -6.5% | +28.3% | 17 | live |
+| 2026-11-12 | `tender_issuer` | 0 | +0.7% | -17.5% | $3.9M | $2.45 | $2.39 | $3.61 | +47.1% | +50.8% | -6.2% |  | 7 | live |
+| 2026-11-12 | `tender_issuer_buyback` | +1 | +0.7% | -17.5% | $3.9M | $2.45 | $2.39 | $3.61 | +47.1% | +50.8% | -6.2% | +57.1% | 7 | live |
+| 2026-11-16 | `tender_issuer_buyback` | +1 | -21.4% | -9.1% | $3.4M | $2.11 | $2.07 | $3.61 | +70.8% | +74.2% | -3.9% | +78.0% | 3 | live |
+| 2026-11-18 | `tender_issuer_buyback` | +1 | -26.7% | +90.3% | $5.8M | $4.13 | $3.98 | $3.61 | -12.7% | -9.4% | -3.5% | -5.9% | 1 | live |

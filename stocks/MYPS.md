@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $4.93 (2026-11-20, ledger)
-- **Since first found:** **+27.5%** (found 2026-10-19 via `8k_reverse_split` at $3.87). From the next open $3.82: +29.2% vs IWM -3.5% = **+32.7 pts** vs IWM; direction -1 → excess -32.7% (31 days)
+- **Latest price:** $4.98 (2026-11-20, ledger)
+- **Since first found:** **+28.7%** (found 2026-10-19 via `8k_reverse_split` at $3.87). From the next open $3.82: +30.4% vs IWM -3.7% = **+34.1 pts** vs IWM; direction -1 → excess -34.0% (31 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for MYPS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `8k_reverse_split` | -1 | -3.6% | -2.3% | $248k ⚠ | $3.87 | $3.82 | $4.93 | +27.5% | +29.2% | -3.5% | -32.7% | 31 | live |
-| 2026-11-12 | `tender_issuer_buyback` | +1 | -4.0% | +12.1% | $451k | $4.81 | $4.87 | $4.93 | +2.6% | +1.3% | -6.1% | +7.4% | 7 | live |
-| 2026-11-13 | `tender_issuer` | 0 | +2.8% | +2.5% | $458k | $4.93 | $5.09 | $4.93 | +0.1% | -3.0% | -5.1% |  | 4 | live |
+| 2026-10-19 | `8k_reverse_split` | -1 | -3.6% | -2.3% | $248k ⚠ | $3.87 | $3.82 | $4.98 | +28.7% | +30.4% | -3.7% | -34.0% | 31 | live |
+| 2026-11-12 | `tender_issuer_buyback` | +1 | -4.0% | +12.1% | $451k | $4.81 | $4.87 | $4.98 | +3.5% | +2.3% | -6.2% | +8.5% | 7 | live |
+| 2026-11-13 | `tender_issuer` | 0 | +2.8% | +2.5% | $458k | $4.93 | $5.09 | $4.98 | +1.0% | -2.2% | -5.3% |  | 4 | live |

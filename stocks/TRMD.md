@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_selling` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $32.18 (2026-11-20, ledger)
-- **Since first found:** **-0.1%** (found 2026-11-19 via `holder_selling` at $32.21). From the next open $32.01: +0.5% vs IWM -0.5% = **+1.1 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $32.03 (2026-11-20, ledger)
+- **Since first found:** **-0.6%** (found 2026-11-19 via `holder_selling` at $32.21). From the next open $32.01: +0.0% vs IWM -0.7% = **+0.7 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 25 Nov 2026: TRMD: Hafnia decides whether to hand its 19.81% TORM stake to its own holders or pay cash and sell later (supply)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for TRMD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | `holder_selling` | 0 | -8.8% | -0.2% | $50.6M | $32.21 | $32.01 | $32.18 | -0.1% | +0.5% | -0.5% |  | 0 | live |
+| 2026-11-19 | `holder_selling` | 0 | -8.8% | -0.2% | $50.6M | $32.21 | $32.01 | $32.03 | -0.6% | +0.0% | -0.7% |  | 0 | live |

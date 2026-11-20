@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
 - **Latest price:** $32.84 (2026-11-20, ledger) · 1d +0.5%, 5d +1.5%, 20d +0.1% (market context, 2026-11-20)
-- **Since first found:** **-1.0%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -0.1% vs IWM -3.6% = **+3.5 pts** vs IWM; direction 0, tracked only (32 days)
+- **Since first found:** **-1.0%** (found 2026-10-16 via `8k_merger_agreement` at $33.16). From the next open $32.89: -0.1% vs IWM -3.8% = **+3.6 pts** vs IWM; direction 0, tracked only (32 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (self 5d +1.5% vs peer median -3.0%). Peer groups: SIC 3842 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -34,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for SMTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.84 | -1.0% | -0.1% | -3.6% |  | 32 | live |
-| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.84 | -1.0% | -0.1% | -3.6% |  | 32 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.84 | -1.0% | -0.1% | -3.8% |  | 32 | live |
+| 2026-10-18 | `merger_arb` | 0 | +0.1% | -5.5% | $7.0M | $33.16 | $32.89 | $32.84 | -1.0% | -0.1% | -3.8% |  | 32 | live |

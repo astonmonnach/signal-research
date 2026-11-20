@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
 - **Latest price:** $1.04 (2026-11-20, ledger)
-- **Since first found:** **-17.1%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -15.0% vs IWM -5.1% = **-9.9 pts** vs IWM; direction 0, tracked only (4 days)
+- **Since first found:** **-17.5%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -15.4% vs IWM -5.3% = **-10.2 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for GCTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.04 | -17.1% | -15.0% | -5.1% |  | 4 | live |
+| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.04 | -17.5% | -15.4% | -5.3% |  | 4 | live |
