@@ -65,3 +65,7 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-19,01:27,False,IMDX,Insight Molecular Diagnostics Inc. Common Stock,S2,1.78,1295113,203525,6.36,354150,,,,,,,,open
 2026-11-19,01:27,False,MAIA,MAIA Biotechnology Inc. Common Stock,S2,1.24,1928946,338020,5.71,269124,,,,,,,,open
 2026-11-19,01:27,False,MOB,Mobilicom Limited Ordinary Shares,S2,1.41,837389,151660,5.52,263706,,,,,,,,open
+2026-11-20,01:25,False,JMIA,Jumia Technologies AG American Depositary Shares each repres,S2,2.755,17753271,2468365,7.19,7736971,,,,,,,,open
+2026-11-20,01:25,False,MAIA,MAIA Biotechnology Inc. Common Stock,S2,1.28,2267601,446030,5.08,275214,,,,,,,,open
+2026-11-20,01:25,False,NSTR,NorthStar Earth & Space Enterprises Inc. Common Shares,S2,1.52,2284095,238990,9.56,430180,,,,,,,,open
+2026-11-20,01:25,False,QTRX,Quanterix Corporation Common Stock,S2,2.07,3539869,651460,5.43,1392018,,,,,,,,open
