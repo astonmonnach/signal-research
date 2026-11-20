@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $8.27 (2026-11-20, ledger)
-- **Since first found:** **-6.1%** (found 2026-10-27 via `holder_buying` at $8.81). From the next open $8.64: -4.3% vs IWM -6.7% = **+2.4 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $8.24 (2026-11-20, ledger)
+- **Since first found:** **-6.5%** (found 2026-10-27 via `holder_buying` at $8.81). From the next open $8.64: -4.6% vs IWM -7.1% = **+2.5 pts** vs IWM; direction 0, tracked only (23 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for PRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `holder_buying` | 0 | -0.9% | +4.9% | $4.8M | $8.81 | $8.64 | $8.27 | -6.1% | -4.3% | -6.7% |  | 23 | live |
-| 2026-10-29 | `8k_strategic_review` | +1 | +13.3% | -2.4% | $4.8M | $8.88 | $8.79 | $8.27 | -6.9% | -5.9% | -7.2% | +1.3% | 21 | live |
+| 2026-10-27 | `holder_buying` | 0 | -0.9% | +4.9% | $4.8M | $8.81 | $8.64 | $8.24 | -6.5% | -4.6% | -7.1% |  | 23 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +13.3% | -2.4% | $4.8M | $8.88 | $8.79 | $8.24 | -7.2% | -6.3% | -7.6% | +1.4% | 21 | live |

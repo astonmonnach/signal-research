@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $3.34 (2026-11-20, ledger)
-- **Since first found:** **-4.6%** (found 2026-10-26 via `activist_13d` at $3.50). From the next open $3.51: -4.8% vs IWM -5.9% = **+1.1 pts** vs IWM; direction +1 → excess +1.1% (24 days)
+- **Latest price:** $3.16 (2026-11-20, ledger)
+- **Since first found:** **-9.7%** (found 2026-10-26 via `activist_13d` at $3.50). From the next open $3.51: -10.0% vs IWM -6.3% = **-3.7 pts** vs IWM; direction +1 → excess -3.7% (24 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for CPSH ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `activist_13d` | +1 | +0.0% | -0.3% | $908k | $3.50 | $3.51 | $3.34 | -4.6% | -4.8% | -5.9% | +1.1% | 24 | live |
-| 2026-10-27 | `activist_13d` | 0 | +0.9% | +3.7% | $900k | $3.63 | $3.62 | $3.34 | -8.0% | -7.7% | -6.7% |  | 23 | live |
+| 2026-10-26 | `activist_13d` | +1 | +0.0% | -0.3% | $908k | $3.50 | $3.51 | $3.16 | -9.7% | -10.0% | -6.3% | -3.7% | 24 | live |
+| 2026-10-27 | `activist_13d` | 0 | +0.9% | +3.7% | $900k | $3.63 | $3.62 | $3.16 | -12.9% | -12.7% | -7.1% |  | 23 | live |
