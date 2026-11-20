@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $2.47 (2026-11-19, ledger)
-- **Since first found:** **-37.5%** (found 2026-10-05 via `longterm_research` at $3.95). From the next open $4.02: -38.6% vs IWM -6.3% = **-32.2 pts** vs IWM; direction 0, tracked only (44 days)
+- **Latest price:** $2.34 (2026-11-20, ledger)
+- **Since first found:** **-40.9%** (found 2026-10-05 via `longterm_research` at $3.95). From the next open $4.02: -41.9% vs IWM -7.9% = **-34.0 pts** vs IWM; direction 0, tracked only (45 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/101538/000110465926129060/0001104659-26-129060-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Two-month review: what we flagged, why, and what it did (- **The 5 Oct "long-term" names** (MTUS, MP, UAMY, VRT, AAON, CLF, PUSA, ELMT) were 13.6 points behind…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-10-28](../scans/2026-10-28.md)**: Research: Research: Wed 28 Oct 2026 (- **Industry in play: critical minerals (from CRML).** Peers NB +17.6%, USAR +16.7% and UAMY +16.1% moved the…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-19](../scans/2026-10-19.md)**: Research: Elmet Lock-up Supply (UAMY) ([note](../research/ELMT-2026-10-19.html))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for UAMY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -11.3% | -1.0% | $22.7M | $3.95 | $4.02 | $2.47 | -37.5% | -38.6% | -6.3% |  | 44 | live |
+| 2026-10-05 | `longterm_research` | 0 | -11.3% | -1.0% | $22.7M | $3.95 | $4.02 | $2.34 | -40.9% | -41.9% | -7.9% |  | 45 | live |

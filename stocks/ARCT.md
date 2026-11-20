@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `strategic_placement` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $7.73 (2026-11-19, ledger)
-- **Since first found:** **-3.0%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: -3.4% vs IWM -0.6% = **-2.7 pts** vs IWM; direction 0, tracked only (1 days)
+- **Latest price:** $7.61 (2026-11-20, ledger)
+- **Since first found:** **-4.5%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: -4.8% vs IWM -2.3% = **-2.5 pts** vs IWM; direction 0, tracked only (2 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 31 May 2027: ARCT: Meiji license deadline; otherwise ARCT refunds about $11.1M of Meiji premium
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1768224/000119312526467309/0001193125-26-467309-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **ARCT**: Meiji bought 2,466,395 shares for $50.0M, an 80% premium to the 30-day average; half the premium is refundable by 31 May 2027; 9.9%… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `strategic_placement` (direction 0): Meiji bought 2,466,395 shares for $50.0M (80% premium to the 30-day average, about $20.27); half the premium refundable by 31 May 2027; 9.9% standstill; stock faded to $7.91; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (3. ARCT: a partner paid 2.6 times the price, and the stock gave it back) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "license agreement: "enter into a definitive license agreement contemplated by the MOU (as defined below) by May 31, 2027, the Company is required to refund to Meiji 50% of"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1768224/000119380526001485/e665891_8k-arct.htm))
 
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for ARCT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $7.73 | -3.0% | -3.4% | -0.6% |  | 1 | live |
+| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $7.61 | -4.5% | -4.8% | -2.3% |  | 2 | live |

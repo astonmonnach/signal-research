@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `event_incident` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $149.60 (2026-11-19, ledger)
-- **Since first found:** **-8.1%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -5.9% vs IWM -3.5% = **-2.4 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $137.60 (2026-11-20, ledger)
+- **Since first found:** **-15.5%** (found 2026-11-13 via `event_incident` at $162.85). From the next open $159.02: -13.5% vs IWM -5.1% = **-8.3 pts** vs IWM; direction 0, tracked only (4 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,8 +17,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **NVDA**: Q3 revenue $115.8B (+103%), Data Center $107.6B; Q4 guide $130.0B ±3% with no China. Fell 2.9% on 18 Nov to $150.96; $148.38 today. ([triage](../watch/digests/2026-11-19-triage.md)) · Press: NVIDIA Announces Upcoming Event for Financial Community (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/19/3407166/0/en/nvidia-announces-upcoming-event-for-financial-community.html)) · Research: Research: Thu 19 Nov 2026 (- **NVDA:** Q3 $115.8B, Data Center $107.6B, Q4 guide $130.0B ±3% excluding China; -2.9% on 18 Nov.) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: Cantor Sets the Record Straight on Nvidia: Positions Are Hedges in Connection with Client Transactions, Not… (Business Wire) ([release](http://www.businesswire.com/news/home/20261118432563/en/Cantor-Sets-the-Record-Straight-on-Nvidia-Positions-Are-Hedges-in-Connection-with-Client-Transactions-Not-Material-Proprietary-Investments/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ)) · Press: NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout (GlobeNewswire, published Tue 17 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html))
-- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: NVDA: results after today's close (release 28 Oct; the 12 Nov CEO release says "as previously scheduled"). ([triage](../watch/digests/2026-11-17-triage.md)) · Press: NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html)) · Calendar: NVDA: Q3 FY27 results, call 5pm New York, first under interim CEO Colette Kress (Huang resigned 11 Nov) ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: NVDA: results after today's close (release 28 Oct; the 12 Nov CEO release says "as previously scheduled"). ([triage](../watch/digests/2026-11-17-triage.md)) · Press: NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html)) · Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -12.6%, found day -0.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm)) · Calendar: NVDA: Q3 FY27 results, call 5pm New York, first under interim CEO Colette Kress (Huang resigned 11 Nov) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#new-setups)**: Logged as `event_incident` (direction 0): Huang resigned as CEO and director on 11 Nov (8-K 12 Nov); -11.0% 6-12 Nov vs SMH +8.1%; nth-order page research/NVDA-2026-11-13.html; results 17 Nov; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 13 Nov 2026 (1. Nvidia: the CEO left, and the share-sale question is the small part (NVDA)) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (Nvidia (NVDA) · 13 Nov 2026 · prices to the 12 Nov close) ([note](../research/NVDA-2026-11-13.html))
 
 ## Performance since found
@@ -26,4 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for NVDA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $149.60 | -8.1% | -5.9% | -3.5% |  | 3 | live |
+| 2026-11-13 | `event_incident` | 0 | -8.5% | -2.0% | $38539.0M | $162.85 | $159.02 | $137.60 | -15.5% | -13.5% | -5.1% |  | 4 | live |
+| 2026-11-17 | `8k_lock_up` | 0 | -12.6% | -0.4% | $42375.8M | $155.46 | $159.19 | $137.60 | -11.5% | -13.6% | -2.3% |  | 2 | live |

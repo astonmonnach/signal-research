@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `takeover_proposal` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $37.61 (2026-11-19, ledger)
-- **Since first found:** **+7.0%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +7.9% vs IWM -5.5% = **+13.4 pts** vs IWM; direction 0, tracked only (20 days)
+- **Latest price:** $36.38 (2026-11-20, ledger) · 1d -1.0%, 5d -1.7%, 20d +16.5% (market context, 2026-11-20)
+- **Since first found:** **+3.5%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +4.4% vs IWM -7.1% = **+11.5 pts** vs IWM; direction 0, tracked only (21 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** no flag (self 5d -1.7% vs peer median +0.0%). Peer groups: SIC 5812 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: Dine Brands Global, Inc. Announces Fourth Quarter 2026 Dividend (Business Wire) ([release](http://www.businesswire.com/news/home/20261120729489/en/Dine-Brands-Global-Inc.-Announces-Fourth-Quarter-2026-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=))
 - **[2026-11-04](../scans/2026-11-04.md#new-setups)**: Logged as `takeover_proposal` (direction 0): Arkhouse/Cobblers Cove $39 cash proposal rejected; 9.7% gap; noticed; tracked; source: daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **DIN**: $39 cash proposal rejected; bidders want to talk after 4 Nov results. Tracked. ([triage](../watch/digests/2026-11-03-triage.md)) · Research: Research: Tue 3 Nov 2026 (- **DIN:** Arkhouse (4.3%) and Cobblers Cove (1.4%) filed 13Ds. They proposed "$39.00 per share, in cash"…) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +14.2%, found day +2.8%) ([filing](https://www.sec.gov/Archives/edgar/data/49754/000110465926121599/0001104659-26-121599-index.htm))
@@ -30,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for DIN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $37.61 | +7.0% | +7.9% | -5.5% |  | 20 | live |
-| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $37.61 | +3.1% | +3.0% | -4.8% | +7.8% | 16 | live |
-| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $37.61 | +3.1% | +2.6% | -6.1% |  | 14 | live |
+| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $36.38 | +3.5% | +4.4% | -7.1% |  | 21 | live |
+| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $36.38 | -0.3% | -0.3% | -6.4% | +6.1% | 17 | live |
+| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $36.38 | -0.3% | -0.8% | -7.7% |  | 15 | live |

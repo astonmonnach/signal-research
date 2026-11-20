@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $27.71 (2026-11-19, ledger) · 1d -0.9%, 5d -5.3%, 20d +3.1% (market context, 2026-11-19)
-- **Since first found:** **+0.5%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: +2.1% vs IWM -1.8% = **+4.0 pts** vs IWM; direction +1 → excess +4.0% (35 days)
+- **Latest price:** $26.04 (2026-11-20, ledger) · 1d -2.9%, 5d -10.1%, 20d -5.9% (market context, 2026-11-20)
+- **Since first found:** **-5.5%** (found 2026-10-14 via `activist_13d` at $27.57). From the next open $27.13: -4.0% vs IWM -3.5% = **-0.5 pts** vs IWM; direction +1 → excess -0.5% (36 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -17.9% 5d vs MDA -5.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Peers / sympathy:** missed_peer_move: peer median -22.7% 5d vs MDA -10.1%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 31 Aug 2027: MDA: latest end of the hedging period on CSG's cash-settled swap
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDA ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $27.71 | +0.5% | +2.1% | -1.8% | +4.0% | 35 | live |
-| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $27.71 | -3.4% | -3.4% | -3.3% |  | 34 | live |
+| 2026-10-14 | `activist_13d` | +1 | -5.5% | -3.5% | $58.0M | $27.57 | $27.13 | $26.04 | -5.5% | -4.0% | -3.5% | -0.5% | 36 | live |
+| 2026-10-15 | `holder_13d` | 0 | -4.9% | +4.0% | $58.1M | $28.67 | $28.68 | $26.04 | -9.2% | -9.2% | -4.9% |  | 35 | live |

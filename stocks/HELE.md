@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $35.42 (2026-11-19, ledger)
-- **Since first found:** **-4.4%** (found 2026-11-04 via `8k_tender_offer` at $37.04). From the next open $37.24: -4.9% vs IWM -6.1% = **+1.2 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $34.56 (2026-11-20, ledger)
+- **Since first found:** **-6.7%** (found 2026-11-04 via `8k_tender_offer` at $37.04). From the next open $37.24: -7.2% vs IWM -7.7% = **+0.5 pts** vs IWM; direction 0, tracked only (15 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for HELE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `8k_tender_offer` | 0 | +1.2% | +25.4% | $20.5M | $37.04 | $37.24 | $35.42 | -4.4% | -4.9% | -6.1% |  | 14 | live |
-| 2026-11-05 | `merger_arb` | 0 | +26.4% | +2.0% | $20.4M | $37.77 | $36.72 | $35.42 | -6.2% | -3.5% | -2.0% |  | 13 | live |
-| 2026-11-13 | `8k_tender_offer` | 0 | -1.5% | +0.3% | $20.2M | $37.32 | $37.32 | $35.42 | -5.1% | -5.1% | -3.5% |  | 3 | live |
+| 2026-11-04 | `8k_tender_offer` | 0 | +1.2% | +25.4% | $20.5M | $37.04 | $37.24 | $34.56 | -6.7% | -7.2% | -7.7% |  | 15 | live |
+| 2026-11-05 | `merger_arb` | 0 | +26.4% | +2.0% | $20.4M | $37.77 | $36.72 | $34.56 | -8.5% | -5.9% | -3.7% |  | 14 | live |
+| 2026-11-13 | `8k_tender_offer` | 0 | -1.5% | +0.3% | $20.2M | $37.32 | $37.32 | $34.56 | -7.4% | -7.4% | -5.1% |  | 4 | live |

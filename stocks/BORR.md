@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `event_incident` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $3.26 (2026-11-19, ledger) · 1d +0.8%, 5d -4.0%, 20d -20.0% (market context, 2026-11-19)
-- **Since first found:** **-34.0%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -34.6% vs IWM -4.2% = **-30.5 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $3.49 (2026-11-20, ledger) · 1d +7.0%, 5d +2.3%, 20d -20.4% (market context, 2026-11-20)
+- **Since first found:** **-29.2%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -29.9% vs IWM -5.8% = **-24.1 pts** vs IWM; direction 0, tracked only (38 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -9.5% 5d vs BORR -4.0%; peers moved, it didn't. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Peers / sympathy:** missed_peer_move: peer median -13.5% 5d vs BORR +2.3%; peers moved, it didn't. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Borr Drilling Limited Announces Third Quarter 2026 Results (PR Newswire, published Wed 18 Nov) ([release](https://www.prnewswire.com/news-releases/borr-drilling-limited-announces-third-quarter-2026-results-302944498.html))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **BORR** (watchlist): revenue $263.1M, net loss $38.7M, cash $202.6M (from $379.7M in December). ([triage](../watch/digests/2026-11-19-triage.md)) · Press: Borr Drilling Limited Announces Third Quarter 2026 Results (PR Newswire, published Wed 18 Nov) ([release](https://www.prnewswire.com/news-releases/borr-drilling-limited-announces-third-quarter-2026-results-302944498.html)) · Filings: `4` ×6 19 Nov, `6-K` 18 Nov · Research: Research: Thu 19 Nov 2026 (- **BORR** (watchlist): Q3 loss of $38.7M; the insurer's lead has recommended paying the $200M hull cover on…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md)**: Calendar: BORR: Q3 results after the close (call 19 Nov 9am New York) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `6-K` 16 Nov · Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (BORR (WATCH 12/10): peak +2.9% on 13 Oct (session 1), low -37.6% on 05 Nov, now -35.3%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (12/10 BORR $4.98 +2.9% 13 Oct (1) -3.6% -37.6% 5 Nov -35.3% -37.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (12/10 BORR director's $32M of buying $4.98 -35.3% -6.6% -28.8) ([note](../research/review/2026-11-10/REPORT.md))
@@ -41,6 +41,6 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.26 | -34.0% | -34.6% | -4.2% |  | 37 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.26 | -32.2% | -34.9% | -2.5% | -32.4% | 36 | live |
-| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.26 | -17.8% | -17.8% | -4.2% |  | 23 | live |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.49 | -29.2% | -29.9% | -5.8% |  | 38 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.49 | -27.3% | -30.2% | -4.2% | -26.0% | 37 | live |
+| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.49 | -11.9% | -11.9% | -5.8% |  | 24 | live |

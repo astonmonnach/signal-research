@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md)); `setup_supply_eloc` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $7.57 (2026-11-19, ledger)
-- **Since first found:** **-55.7%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -54.6% vs IWM -4.3% = **-50.3 pts** vs IWM; direction 0, tracked only (38 days)
-  - 8 more ledger rows: see Performance since found
+- **Latest price:** $7.33 (2026-11-20, ledger)
+- **Since first found:** **-57.1%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -56.1% vs IWM -6.0% = **-50.1 pts** vs IWM; direction 0, tracked only (39 days)
+  - 9 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 9 Apr 2027: XRPN: about six months after the 9 Oct close, lock-up on 7,044,386 Class A ends (arith; public AVOID #15)
@@ -18,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage, dismissed: Large caps and over-$10B 6-Ks, SPAC paperwork (ALCY, ADAC, SVCC, KCHV, TACO, XRPN), completed deals (ITGR, PCRX, SSTI, IBO 25-NSEs), results with… ([triage](../watch/digests/2026-11-19-triage.md))
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up, tender offer" (tender offer) (5d before -28.4%, found day -2.7%) ([filing](https://www.sec.gov/Archives/edgar/data/2092592/000162828026074319/armada_iix093026xformxxfsx.htm))
 - **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Public calls:** NCT (#3) went $0.409 on 10 Nov to $0.72 on 11 Nov and $0.74 today, far below its $1.75…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **XRPN** (public AVOID #15): 73.7M-share resale effective 9 Nov; -23.5% on 10 Nov. ([triage](../watch/digests/2026-11-11-triage.md)) · Research: Research: Wed 11 Nov 2026 (**Headline:** Western Union walked away from its $16 cash deal for Intermex (IMXI) on the deal's 10 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -11.0%, found day -23.5%) ([filing](https://www.sec.gov/Archives/edgar/data/2092592/999999999526003488/9999999995-26-003488-index.htm))
@@ -39,12 +41,13 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $7.57 | -55.7% | -54.6% | -4.3% |  | 38 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $7.57 | -49.1% | -49.2% | -3.8% | +45.4% | 29 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $7.57 | -52.0% | -50.5% | -3.0% |  | 28 | live |
-| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $7.57 | -49.8% | -48.0% | -3.5% | +44.5% | 24 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $7.57 | -49.6% | -49.5% | -4.2% |  | 23 | live |
-| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $7.57 | -46.7% | -46.1% | -5.4% | +40.7% | 17 | live |
-| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $7.57 | -35.3% | -37.0% | -4.8% | +32.2% | 16 | live |
-| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $7.57 | -28.6% | -28.0% | -6.1% |  | 14 | live |
-| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $7.57 | -5.0% | -8.5% | -5.8% | +2.7% | 8 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $7.33 | -57.1% | -56.1% | -6.0% |  | 39 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $7.33 | -50.6% | -50.7% | -5.4% | +45.3% | 30 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $7.33 | -53.5% | -52.0% | -4.7% |  | 29 | live |
+| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $7.33 | -51.3% | -49.6% | -5.2% | +44.5% | 25 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $7.33 | -51.1% | -51.1% | -5.8% |  | 24 | live |
+| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $7.33 | -48.4% | -47.8% | -7.0% | +40.8% | 18 | live |
+| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $7.33 | -37.4% | -38.9% | -6.4% | +32.5% | 17 | live |
+| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $7.33 | -30.8% | -30.3% | -7.7% |  | 15 | live |
+| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $7.33 | -7.9% | -11.4% | -7.5% | +3.9% | 9 | live |
+| 2026-11-17 | `8k_tender_offer` | 0 | -28.4% | -2.7% | $5.9M | $7.25 | $7.35 | $7.33 | +1.1% | -0.3% | -2.3% |  | 2 | live |

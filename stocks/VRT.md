@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $187.74 (2026-11-19, ledger)
-- **Since first found:** **-26.0%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -25.9% vs IWM -6.3% = **-19.5 pts** vs IWM; direction 0, tracked only (44 days)
+- **Latest price:** $169.37 (2026-11-20, ledger)
+- **Since first found:** **-33.2%** (found 2026-10-05 via `longterm_research` at $253.62). From the next open $253.20: -33.1% vs IWM -7.9% = **-25.2 pts** vs IWM; direction 0, tracked only (45 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for VRT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $187.74 | -26.0% | -25.9% | -6.3% |  | 44 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $187.74 | -10.0% | -22.7% | -5.0% |  | 22 | live |
+| 2026-10-05 | `longterm_research` | 0 | -0.4% | +0.6% | $1340.3M | $253.62 | $253.20 | $169.37 | -33.2% | -33.1% | -7.9% |  | 45 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 | -3.1% | +4.4% | $1296.7M | $208.56 | $243.00 | $169.37 | -18.8% | -30.3% | -6.6% |  | 23 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.65 (2026-11-19, ledger)
-- **Since first found:** **-17.9%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -18.7% vs IWM -4.2% = **-14.5 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $1.57 (2026-11-20, ledger)
+- **Since first found:** **-21.9%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -22.7% vs IWM -5.9% = **-16.8 pts** vs IWM; direction 0, tracked only (42 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **DTI**: three more buys on 12-13 Nov (CEO 10,000 at $1.773, director Neuman 37,267 at $1.78, director Furst 36,569 at $1.70): five insiders in a… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `insider_cluster` (direction 0): Fifth to seventh buys by insiders on 12-13 Nov (CEO 10,000 at $1.773; Neuman 37,267 at $1.78; Furst 36,569 at $1.70); $1.57, below every buy; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526467059/0001193125-26-467059-index.htm))
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **DTI**: three more buys on 12-13 Nov (CEO 10,000 at $1.773, director Neuman 37,267 at $1.78, director Furst 36,569 at $1.70): five insiders in a… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `insider_cluster` (direction 0): Fifth to seventh buys by insiders on 12-13 Nov (CEO 10,000 at $1.773; Neuman 37,267 at $1.78; Furst 36,569 at $1.70); $1.57, below every buy; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526465482/0001193125-26-465482-index.htm)) · Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526463405/0001193125-26-463405-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **DTI**: director Jack Furst bought 14,441 at $1.651 on 11 Nov, the fifth buy by four insiders. $1.72 (+6.8% on 12 Nov). Tracked. ([triage](../watch/digests/2026-11-13-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526460560/0001193125-26-460560-index.htm)) · Research: Research: Fri 13 Nov 2026 (- **Insider buys, tracked:** HOS (the CEO cancelled his 10b5-1 sale plan for 1,170,405 shares, none sold…) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **DTI** Form 4 (12 Nov): director Jack Furst bought 2,531 shares at $1.509 on 10 Nov (about $3,800), a fourth insider. ([triage](../watch/digests/2026-11-12-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526458256/0001193125-26-458256-index.htm)) · Research: Research: Thu 12 Nov 2026 (- **DTI (tracked 11 Nov):** a fourth insider, director Jack Furst, bought 2,531 shares at $1.509 on 10 Nov…) ([note](../research/daily/2026-11-12.md))
@@ -33,7 +34,7 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.65 | -17.9% | -18.7% | -4.2% |  | 41 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.65 | +17.0% | +18.7% | -2.0% |  | 13 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.65 | +2.5% | +1.9% | -5.3% |  | 7 | live |
-| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.65 | +7.1% | +6.5% | -0.6% |  | 1 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.57 | -21.9% | -22.7% | -5.9% |  | 42 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.57 | +11.3% | +12.9% | -3.7% |  | 14 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.57 | -2.5% | -3.1% | -6.9% |  | 8 | live |
+| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.57 | +1.9% | +1.3% | -2.3% |  | 2 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $5.61 (2026-11-19, ledger) · 1d -0.4%, 5d -15.9%, 20d -27.0% (market context, 2026-11-19)
-- **Since first found:** **-39.4%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -37.5% vs IWM -2.5% = **-35.0 pts** vs IWM; direction 0, tracked only (36 days)
+- **Latest price:** $5.19 (2026-11-20, ledger) · 1d -5.5%, 5d -21.4%, 20d -31.1% (market context, 2026-11-20)
+- **Since first found:** **-44.0%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -42.3% vs IWM -4.2% = **-38.1 pts** vs IWM; direction 0, tracked only (37 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -15.9% vs peer median -8.3%). Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Peers / sympathy:** solo_move: UUUU -21.4% 5d vs peer median -8.1%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#watchlist-filings)**: Filings: `4` 17 Nov
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `8-K` 16 Nov, `4` ×8 13 Nov
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **UUUU** 8-K: new director (already in the 4 Nov release). **XPOF** 10-Q: review ongoing, no Fund 1 mention; T020 not fired. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `8-K` 9 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `10-Q` 4 Nov
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.61 | -39.4% | -37.5% | -2.5% |  | 36 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.61 | -32.7% | -30.7% | -1.8% |  | 35 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.19 | -44.0% | -42.3% | -4.2% |  | 37 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.19 | -37.8% | -36.0% | -3.5% |  | 36 | live |

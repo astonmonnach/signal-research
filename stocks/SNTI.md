@@ -25,9 +25,9 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $2.67 (2026-11-19, ledger)
-- **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $2.85: -6.3% vs IWM -1.7% = **-4.6 pts** vs IWM; direction 0, tracked only (0 days)
-  - 3 more ledger rows: see Performance since found
+- **Latest price:** $2.59 (2026-11-20, ledger)
+- **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $2.58: +0.4% vs IWM -0.5% = **+0.9 pts** vs IWM; direction 0, tracked only (0 days)
+  - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -36,6 +36,7 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000162828026074812/snti-20261118.htm))
 - **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Senti Bio Announces Reverse Stock Split (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/17/3404559/0/en/senti-bio-announces-reverse-stock-split.html))
 - **[2026-10-28](../scans/2026-10-28.md#triage-notes)**: Triage: **Existing AVOIDs, still standing:** GOVX (holders approved 11.4M warrant shares and another split; Bowery took 3 of 5 seats), HCTI (1:20 split)… ([triage](../watch/digests/2026-10-28-triage.md))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) ([filing](https://www.sec.gov/Archives/edgar/data/1854270/000162828026067624/snti-20261026.htm)) · Research: Research: Tue 27 Oct 2026 (- **SNTI:** about 47M new shares on 28 Oct at $0.342. The AVOID stands.) ([note](../research/daily/2026-10-27.md))
@@ -51,7 +52,8 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $2.85 | $2.67 |  | -6.3% | -1.7% |  | 0 | live |
-| 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $2.85 | $2.67 |  | -6.3% | -1.7% |  | 0 | live |
-| 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $2.85 | $2.67 |  | -6.3% | -1.7% |  | 0 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $2.85 | $2.67 |  | -6.3% | -1.7% |  | 0 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $2.58 | $2.59 |  | +0.4% | -0.5% |  | 0 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $2.58 | $2.59 |  | +0.4% | -0.5% |  | 0 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $2.58 | $2.59 |  | +0.4% | -0.5% |  | 0 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $2.58 | $2.59 |  | +0.4% | -0.5% |  | 0 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 |  |  |  |  | $2.58 | $2.59 |  | +0.4% | -0.5% | -0.9% | 0 | live |

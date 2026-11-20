@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deal_dilution` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $0.780 (2026-11-19, ledger)
-- **Since first found:** **-71.7%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -71.1% vs IWM -3.8% = **-67.4 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $1.02 (2026-11-20, ledger)
+- **Since first found:** **-62.9%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -62.2% vs IWM -5.4% = **-56.8 pts** vs IWM; direction 0, tracked only (30 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2030763/000149315226052900/0001493152-26-052900-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2030763/000149315226051966/0001493152-26-051966-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2030763/000149315226051830/form10-q.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: MEDS, NDRA, UMAC, PSQL: passive or lender 13Gs. ([triage](../watch/digests/2026-11-11-triage.md))
@@ -32,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for MEDS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $0.780 | -71.7% | -71.1% | -3.8% |  | 29 | live |
-| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $0.780 | -64.4% | -62.2% | -4.2% |  | 23 | live |
-| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $0.780 | -62.2% | -61.4% | -5.0% |  | 22 | live |
+| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $1.02 | -62.9% | -62.2% | -5.4% |  | 30 | live |
+| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $1.02 | -53.4% | -50.5% | -5.8% |  | 24 | live |
+| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $1.02 | -50.5% | -49.5% | -6.6% |  | 23 | live |

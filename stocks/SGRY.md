@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $26.62 (2026-11-19, ledger)
-- **Since first found:** **+14.5%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +14.8% vs IWM -4.2% = **+18.9 pts** vs IWM; direction 0, tracked only (23 days)
-  - 3 more ledger rows: see Performance since found
+- **Latest price:** $26.83 (2026-11-20, ledger)
+- **Since first found:** **+15.4%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +15.7% vs IWM -5.8% = **+21.4 pts** vs IWM; direction 0, tracked only (24 days)
+  - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.4%, found day +0.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1638833/000110465926129346/tm2628254d8_8k.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +16.2%, found day -0.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1638833/000110465926127655/tm2629312d4_8k.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-26 4 SGRY +48% deal_signed $23.25 3043.8 yes -0.2% +0.5% +0.7% / -0.3% / +0.7% -0.6% +0.5% +13.8% +15.0%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **SGRY**: amended to $25.00 cash plus ticking fee after a $28.00 rival proposal; price $26.45 is above the deal. Tracked, no call. ([triage](../watch/digests/2026-11-10-triage.md)) · Research: Research: Tue 10 Nov 2026 (- **SGRY** (amended to $25 after a $28 rival; price $26.45), **DDI** (tender at $16.25, 3.5% gap after…) ([note](../research/daily/2026-11-10.md))
@@ -32,7 +33,8 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.62 | +14.5% | +14.8% | -4.2% |  | 23 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.62 | +14.0% | +14.4% | -5.0% |  | 22 | live |
-| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.62 | +0.7% | -0.3% | -4.8% |  | 9 | live |
-| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.62 | -0.6% | -0.2% | -2.1% |  | 2 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.83 | +15.4% | +15.7% | -5.8% |  | 24 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.83 | +14.8% | +15.3% | -6.6% |  | 23 | live |
+| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.83 | +1.4% | +0.5% | -6.4% |  | 10 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.83 | +0.1% | +0.6% | -3.7% |  | 3 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | +0.4% | +0.4% | $182.0M | $26.96 | $26.97 | $26.83 | -0.5% | -0.5% | -3.4% |  | 1 | live |

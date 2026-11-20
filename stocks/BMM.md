@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.88 (2026-11-19, ledger) · 1d -0.3%, 5d -8.2%, 20d -26.6% (market context, 2026-11-19)
-- **Since first found:** **-33.0%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -33.5% vs IWM -3.8% = **-29.7 pts** vs IWM; direction 0, tracked only (29 days)
-- **Peers / sympathy:** no flag (self 5d -8.2% vs peer median -12.9%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $2.67 (2026-11-20, ledger) · 1d -2.6%, 5d -13.4%, 20d -31.6% (market context, 2026-11-20)
+- **Since first found:** **-37.9%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -38.3% vs IWM -5.4% = **-32.9 pts** vs IWM; direction 0, tracked only (30 days)
+- **Peers / sympathy:** no flag (self 5d -13.4% vs peer median -13.4%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,7 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Blue Moon Metals Receives Approval of Plan of Operations for the Blue Moon Mine in Mariposa County, California (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-metals-receives-approval-of-plan-of-operations-for-the-blue-moon-mine-in-mariposa-county-california-302945527.html))
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: Blue Moon Completes its Acquisition of the Turner Copper-Gold VMS Deposit (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-completes-its-acquisition-of-the-turner-copper-gold-vms-deposit-302946244.html))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **BMM** (watchlist): the BLM approved the Blue Moon plan of operations, the main permit; no reaction ($2.88). ([triage](../watch/digests/2026-11-19-triage.md)) · Press: Blue Moon Metals Receives Approval of Plan of Operations for the Blue Moon Mine in Mariposa County, California (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-metals-receives-approval-of-plan-of-operations-for-the-blue-moon-mine-in-mariposa-county-california-302945527.html)) · Filings: `6-K` 19 Nov
 - **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `6-K` 12 Nov
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1732379/000155485526002351/ex992_2.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
@@ -40,4 +41,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.88 | -33.0% | -33.5% | -3.8% |  | 29 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.67 | -37.9% | -38.3% | -5.4% |  | 30 | live |

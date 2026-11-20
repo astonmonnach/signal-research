@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $33.98 (2026-11-19, ledger)
-- **Since first found:** **-14.7%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: -13.1% vs IWM -2.0% = **-11.1 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $34.10 (2026-11-20, ledger)
+- **Since first found:** **-14.4%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: -12.8% vs IWM -3.7% = **-9.1 pts** vs IWM; direction 0, tracked only (14 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: CVR Energy Announces Pricing of $1.25 Billion of 9.250% Senior Secured Notes Due 2032 (Business Wire) ([release](http://www.businesswire.com/news/home/20261119951180/en/CVR-Energy-Announces-Pricing-of-1.25-Billion-of-9.250-Senior-Secured-Notes-Due-2032/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: CVR Energy Announces Offering of Senior Secured Notes Due 2032 (Business Wire) ([release](http://www.businesswire.com/news/home/20261117245187/en/CVR-Energy-Announces-Offering-of-Senior-Secured-Notes-Due-2032/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **CVI:** IEP pulled its $250M secondary. The company's own $47.55 offering closed, and the stock is 20% below it. Controlled by IEP, so register only. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `setup_supply_resale` (direction 0): IEP secondary pulled, stock 20% below the $47.55 primary; controlled, so register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1376139/000119312526451979/0001193125-26-451979-index.htm)) · Research: Research: Fri 6 Nov 2026 (**Headline:** A correction first. Yesterday we called Saba's 13D on VVR "the first push"; it isn't. Saba ran…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -24.6%, found day -7.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1376139/000119312526450036/d169461dex11.htm))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for CVI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $33.98 | -14.7% | -13.1% | -2.0% |  | 13 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $33.98 | -10.9% | -11.5% | -4.0% |  | 10 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $34.10 | -14.4% | -12.8% | -3.7% |  | 14 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $34.10 | -10.6% | -11.2% | -5.6% |  | 11 | live |

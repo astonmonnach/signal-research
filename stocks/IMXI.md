@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md)); `deal_dispute` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `deal_dispute` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $5.34 (2026-11-19, ledger)
-- **Since first found:** **-36.8%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -37.9% vs IWM -6.2% = **-31.7 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $5.47 (2026-11-20, ledger)
+- **Since first found:** **-35.3%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -36.4% vs IWM -7.8% = **-28.6 pts** vs IWM; direction 0, tracked only (16 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1683695/000110465926129822/0001104659-26-129822-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **IMXI** / **WU**: the 8-Ks confirm the 11 Nov note's newswire quotes ("unacceptable final Conditions of Approval"; no payment either way). ([triage](../watch/digests/2026-11-12-triage.md)) · Logged as `deal_dispute` (direction 0): 8-Ks filed 12 Nov confirm the 11 Nov note; new: WU withdrew its DFPI application on 11 Nov, termination effective 12:00am 12 Nov, WU will defend any suit; $6.89 on 11 Nov, $6.45 on 12 Nov; tracked, no call; source: daily research 12 Nov (research/daily/2026-11-12.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -17.1%, found day -7.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1683695/000114036126043232/ef20085433_8k.htm)) · Research: Research: Thu 12 Nov 2026 (3. IMXI: the 8-Ks confirm the termination, and Western Union pulls its application) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **IMXI** (calendar: outside date 10 Nov): Western Union delivered a termination notice on the evening of 10 Nov after California's conditional… ([triage](../watch/digests/2026-11-11-triage.md)) · Press: Intermex Rejects Western Union’s Purported Termination of Merger Agreement (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400552/0/en/intermex-rejects-western-union-s-purported-termination-of-merger-agreement.html)) · Press: Western Union Announces Termination of Agreement to Acquire Intermex (Business Wire) ([release](http://www.businesswire.com/news/home/20261110492943/en/Western-Union-Announces-Termination-of-Agreement-to-Acquire-Intermex/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Logged as `deal_dispute` (direction 0): WU sent a termination notice 10 Nov night after California's DFPI conditional approval ('unacceptable' conditions); no fee either way; Intermex rejects it and reserves specific performance and damages; $6.495 on 10 Nov (-14.2%), ~$6.34 on 11 Nov vs $16 deal and $9.28 pre-deal; tracked, no call; source: daily research 11 Nov (research/daily/2026-11-11.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 11 Nov 2026 (1. IMXI: Western Union walks, Intermex says no) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Calendar: IMXI: Western Union merger outside date (either party may terminate; California approval suspended) ([calendar](../calendar/catalyst-dates.ics))
@@ -29,8 +30,8 @@ Every [ledger](../ledger/LEDGER.md) row for IMXI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $5.34 | -36.8% | -37.9% | -6.2% |  | 15 | live |
-| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $5.34 | -35.7% | -28.3% | -6.1% |  | 14 | live |
-| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $5.34 | -22.5% | -16.8% | -5.3% |  | 7 | live |
-| 2026-11-12 | `8k_merger_agreement` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.34 | -16.4% | -15.4% | -4.5% |  | 6 | live |
-| 2026-11-12 | `deal_dispute` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.34 | -16.4% | -15.4% | -4.5% |  | 6 | live |
+| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $5.47 | -35.3% | -36.4% | -7.8% |  | 16 | live |
+| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $5.47 | -34.2% | -26.6% | -7.7% |  | 15 | live |
+| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $5.47 | -20.6% | -14.8% | -6.9% |  | 8 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.47 | -14.4% | -13.3% | -6.1% |  | 7 | live |
+| 2026-11-12 | `deal_dispute` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.47 | -14.4% | -13.3% | -6.1% |  | 7 | live |

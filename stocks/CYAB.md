@@ -26,9 +26,9 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.069 (2026-11-19, ledger)
-- **Since first found:** **-65.2%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -65.2% vs IWM -5.5% = **-59.8 pts** vs IWM; direction 0, tracked only (45 days)
-  - 4 more ledger rows: see Performance since found
+- **Latest price:** $0.060 (2026-11-20, ledger)
+- **Since first found:** **-69.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -69.8% vs IWM -7.1% = **-62.7 pts** vs IWM; direction 0, tracked only (46 days)
+  - 5 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -37,6 +37,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +25.0%, found day -20.0%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026121855/ea031273401ex99-1.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off, reverse stock split" (reverse split) (5d before +0.0%, found day +55.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026120252/ea031237001ex3-1.htm))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -18.2%, found day -11.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026118128/ea0311735-8k_cyabra.htm))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: Cyabra Finds Coordinated Inauthentic Activity in Five of Six Competitive Midterm Races, Affecting Candidates… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/28/3390290/0/en/cyabra-finds-coordinated-inauthentic-activity-in-five-of-six-competitive-midterm-races-affecting-candidates-from-both-parties.html))
@@ -51,8 +52,9 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.069 | -65.2% | -65.2% | -5.5% |  | 45 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.069 | -59.1% | -59.1% | -4.2% | +54.9% | 41 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.069 | -53.7% | -53.7% | -1.9% | +51.8% | 30 | live |
-| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $0.080 | $0.080 | $0.069 | -13.1% | -13.1% | -5.8% | +7.3% | 8 | live |
-| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $0.140 | $0.100 | $0.069 | -50.4% | -30.5% | -2.1% | +28.4% | 2 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.060 | -69.8% | -69.8% | -7.1% |  | 46 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.060 | -64.5% | -64.5% | -5.9% | +58.7% | 42 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.060 | -59.8% | -59.8% | -3.5% | +56.3% | 31 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $0.080 | $0.080 | $0.060 | -24.6% | -24.6% | -7.5% | +17.2% | 9 | live |
+| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $0.140 | $0.100 | $0.060 | -56.9% | -39.7% | -3.7% | +36.0% | 3 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 | +25.0% | -20.0% | $6.4M | $0.080 | $0.070 | $0.060 | -24.6% | -13.9% | -3.4% | +10.5% | 1 | live |

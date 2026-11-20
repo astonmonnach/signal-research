@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $16.03 (2026-11-19, ledger) · 1d -2.2%, 5d -7.1%, 20d -4.3% (market context, 2026-11-19)
-- **Since first found:** **-1.6%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: -1.8% vs IWM -2.0% = **+0.2 pts** vs IWM; direction +1 → excess +0.2% (31 days)
+- **Latest price:** $15.87 (2026-11-20, ledger) · 1d -0.3%, 5d -7.6%, 20d -5.3% (market context, 2026-11-20)
+- **Since first found:** **-2.6%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: -2.8% vs IWM -3.6% = **+0.9 pts** vs IWM; direction +1 → excess +0.9% (32 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **BMEZ**: 13,178,845 shares tendered for 3,125,070, so about 23.7% will be bought (arith). ([triage](../watch/digests/2026-11-19-triage.md)) · Filings: `SC TO-I/A` 19 Nov
 - **[2026-11-18](../scans/2026-11-18.md)**: Calendar: BMEZ: fund buyback tender at 98% of NAV for up to 5% of shares expires (5 pm New York) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SC TO-I` 16 Oct; +12 older (Jan – Jun 2026) first picked up
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **BMEZ** (BlackRock Health Sciences Term Trust), issuer tender, takeable (median $2.27M). ([triage](../watch/digests/2026-10-18-triage.md)) · Triage: BMEZ, issuer tender: read, above. ([triage](../watch/digests/2026-10-18-triage.md)) · Logged as `tender_issuer_buyback` (direction 0): fund tender for up to 5% at 98% of NAV, expires 18 Nov; 10.3% discount on 9 Oct; heavy proration likely (inference); source: daily research 18 Oct (research/daily/2026-10-18.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sun 18 Oct 2026 (- **BMEZ:** a fund tender for up to 5% at 98% of NAV, expiring 18 Nov, at about a 10% discount. A 5% cap…) ([note](../research/daily/2026-10-18.md))
@@ -28,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMEZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $16.03 | -1.6% | -1.8% | -2.0% | +0.2% | 31 | live |
-| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $16.03 | -1.6% | -1.8% | -2.0% |  | 31 | live |
+| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $15.87 | -2.6% | -2.8% | -3.6% | +0.9% | 32 | live |
+| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $15.87 | -2.6% | -2.8% | -3.6% |  | 32 | live |

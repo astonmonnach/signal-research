@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $3.61 (2026-11-19, ledger) · 1d -4.0%, 5d -5.7%, 20d -25.0% (market context, 2026-11-19)
-- **Since first found:** **-25.4%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -28.4% vs IWM -2.0% = **-26.4 pts** vs IWM; direction 0, tracked only (31 days)
-- **Peers / sympathy:** no flag (self 5d -5.7% vs peer median -10.1%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $3.23 (2026-11-20, ledger) · 1d -8.0%, 5d -15.8%, 20d -32.8% (market context, 2026-11-20)
+- **Since first found:** **-33.3%** (found 2026-10-18 via `insider_buy` at $4.84). From the next open $5.04: -35.9% vs IWM -3.6% = **-32.3 pts** vs IWM; direction 0, tracked only (32 days)
+- **Peers / sympathy:** no flag (self 5d -15.8% vs peer median -10.0%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#watchlist-filings)**: Filings: `4` 17 Nov
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **BYRN** six Form 4s: all code A or M (RSU grants and settlements). No buys. Also FMR 13G 15.0% (6 Nov). ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `4` ×6 9 Nov
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `SCHEDULE 13G` 6 Nov
 - **[2026-11-05](../scans/2026-11-05.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 5 Nov
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for BYRN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $3.61 | -25.4% | -28.4% | -2.0% |  | 31 | live |
+| 2026-10-18 | `insider_buy` | 0 | +1.1% | +1.3% | $2.9M | $4.84 | $5.04 | $3.23 | -33.3% | -35.9% | -3.6% |  | 32 | live |

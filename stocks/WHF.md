@@ -88,9 +88,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $7.93 (2026-11-19, ledger) · 1d -1.0%, 5d -4.7%, 20d -0.4% (market context, 2026-11-19)
-- **Since first found:** **+13.8%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +14.1% vs IWM -4.9% = **+19.0 pts** vs IWM; direction +1 → excess +19.0% (51 days)
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $7.93 (2026-11-20, ledger) · 1d +0.2%, 5d -4.1%, 20d -0.4% (market context, 2026-11-20)
+- **Since first found:** **+13.7%** (found 2026-09-28 via `idea_catalyst` at $6.97). From the next open $6.95: +14.0% vs IWM -6.5% = **+20.6 pts** vs IWM; direction +1 → excess +20.6% (52 days)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: WHF: $85M notes mature in December, check refinancing
   - Fri 4 Dec 2026: WHF: $10M 5.375% notes due (T003; no refinancing announced yet)
@@ -102,6 +102,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T003 WHF: the 13 Nov 8-K redeems all $34.5M of the 7.875% 2028 notes on 15 Dec; no new financing filed yet. Not fired. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 13 Nov
 - **[2026-11-14](../scans/2026-11-14.md#press-releases)**: Press: WHITEHORSE FINANCE, INC. TO REDEEM 7.875% NOTES DUE 2028 (PR Newswire, published Fri 13 Nov) ([release](https://www.prnewswire.com/news-releases/whitehorse-finance-inc-to-redeem-7-875-notes-due-2028--302939373.html))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **WHF** /: NAV $11.82 (from $11.77), non-accruals down to $8.1M at fair value, $0.25 held. ([triage](../watch/digests/2026-11-10-triage.md)) · Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (WHF (WATCH 05/10): peak +23.5% on 06 Nov (session 24), low -3.4% on 07 Oct, now +17.2%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **Reaction so far:** none in regular hours. 5 Nov to 9 Nov: CCAP -2.2%, against IWM +4.3%, the BDC ETF BIZD…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 WHF $6.91 +23.5% 6 Nov (24) -3.4% -3.4% 7 Oct +17.2% -5.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/10 WHF BDC sale review, below NAV $7.06 +17.2% -2.9% +20.1) ([note](../research/review/2026-11-10/REPORT.md))
@@ -120,4 +121,4 @@ Every [ledger](../ledger/LEDGER.md) row for WHF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.93 | +13.8% | +14.1% | -4.9% | +19.0% | 51 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | -4.5% | -1.0% | $749k | $6.97 | $6.95 | $7.93 | +13.7% | +14.0% | -6.5% | +20.6% | 52 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $26.25 (2026-11-19, ledger)
-- **Since first found:** **-41.0%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -39.2% vs IWM -3.3% = **-36.0 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $24.34 (2026-11-20, ledger)
+- **Since first found:** **-45.2%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -43.7% vs IWM -4.9% = **-38.7 pts** vs IWM; direction 0, tracked only (35 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1780312/000149315226053004/0001493152-26-053004-index.htm))
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1780312/000149315226052716/0001493152-26-052716-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: AST SpaceMobile Provides Business Update and Third Quarter 2026 Results (Business Wire, published Mon 9 Nov) ([release](http://www.businesswire.com/news/home/20261109330752/en/AST-SpaceMobile-Provides-Business-Update-and-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-09](../scans/2026-11-09.md#press-releases)**: Press: Rakuten and AST SpaceMobile Establish "Rakuten AST" Joint Venture to Build D2D Satellite Communications… (Business Wire) ([release](http://www.businesswire.com/news/home/20261109243455/en/Rakuten-and-AST-SpaceMobile-Establish-Rakuten-AST-Joint-Venture-to-Build-D2D-Satellite-Communications-Network-in-Japan/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites in Low Earth Orbit Using Miranda… (Business Wire) ([release](http://www.businesswire.com/news/home/20261106165875/en/AST-SpaceMobile-to-Build-Own-20-Ton-Rocket-to-Deploy-BlueBird-Satellites-in-Low-Earth-Orbit-Using-Miranda-Engines-from-Firefly-Aerospace/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -32,4 +34,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $26.25 | -41.0% | -39.2% | -3.3% |  | 34 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $24.34 | -45.2% | -43.7% | -4.9% |  | 35 | live |

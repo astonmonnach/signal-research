@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $12.52 (2026-11-19, ledger) · 1d -3.4%, 5d -11.7%, 20d -7.3% (market context, 2026-11-19)
-- **Since first found:** **-6.9%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: -6.5% vs IWM -3.5% = **-2.9 pts** vs IWM; direction 0, tracked only (24 days)
-- **Peers / sympathy:** no flag (self 5d -11.7% vs peer median -8.4%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $12.64 (2026-11-20, ledger) · 1d +0.8%, 5d -11.8%, 20d -6.0% (market context, 2026-11-20)
+- **Since first found:** **-6.0%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: -5.6% vs IWM -5.2% = **-0.4 pts** vs IWM; direction 0, tracked only (25 days)
+- **Peers / sympathy:** solo_move: DOLE -11.8% 5d vs peer median -5.7%; peers didn't move with it. Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md)**: Research: Research: Thu 19 Nov 2026 (- **Linked names:** TRIP -- fund:Pale Fire Capital -- DOLE (links added today).) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **T010 SSTI, T012 TENX, T013 DOLE: expired at the 16 Nov deadline.** ([triage](../watch/digests/2026-11-17-triage.md)) · Research: Research: Tue 17 Nov 2026 (- **Triggers:** T010 SSTI, T012 TENX and T013 DOLE expired at their 16 Nov deadline. TENX's 13G/As show…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage: **DOLE** Form 4: the executive chairman's children sold 55 shares at $13.87 (T013 not fired). **TENX** Adage 13G/A: 2.26%, below 5% (T012). ([triage](../watch/digests/2026-11-12-triage.md)) · Filings: `4` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **Holders:** DOLE (the executive chairman's children sold 55 shares; T013 not fired), TENX (Adage below 5%…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-10](../scans/2026-11-10.md#watchlist-filings)**: Filings: `10-Q` 9 Nov, `8-K` 9 Nov · Research: Every event, at its actual time (DOLE (WATCH 23/10): peak +7.9% on 09 Nov (session 11), low -3.3% on 30 Oct, now +4.5%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (23/10 DOLE $13.38 +7.9% 9 Nov (11) -3.3% -3.3% 30 Oct +4.5% -3.2%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (23/10 DOLE Pale Fire buying a fifth $13.38 +4.5% +1.6% +2.9) ([note](../research/review/2026-11-10/REPORT.md))
@@ -32,4 +33,4 @@ Every [ledger](../ledger/LEDGER.md) row for DOLE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $12.52 | -6.9% | -6.5% | -3.5% |  | 24 | live |
+| 2026-10-23 | `activist_13d` | 0 | +0.8% | -0.6% | $11.6M | $13.44 | $13.38 | $12.64 | -6.0% | -5.6% | -5.2% |  | 25 | live |

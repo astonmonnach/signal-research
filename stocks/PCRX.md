@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
 - **Latest price:** $36.48 (2026-11-18, ledger)
-- **Since first found:** **** (found 2026-10-08 via `8k_merger_agreement`). From the next open $36.48: +0.0% vs IWM -0.6% = **+0.6 pts** vs IWM; direction 0, tracked only (0 days)
-  - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d n/a vs peer median -4.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Since first found:** **** (found 2026-10-08 via `8k_merger_agreement`). From the next open $36.48: +0.0% vs IWM -2.3% = **+2.3 pts** vs IWM; direction 0, tracked only (0 days)
+  - 7 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d n/a vs peer median -4.7%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
   - warning: only 1 daily bars (new listing?)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,7 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **PCRX**: Viatris completed the $36.50 tender and merger (8-K 17 Nov; 25-NSE). Done. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 17 Nov, `SC 14D9/A` 17 Nov, `SC TO-T/A` 17 Nov · Research: Research: Tue 17 Nov 2026 (- **Deals closed or decided:** PCRX (Viatris completed), SKYA (about 47.0M shares bought at $3.00), BOW…) ([note](../research/daily/2026-11-17.md)) · Triage, dismissed: PCRX (completed), HSBC SC TO-I/A (over $10B), ENS (acquirer), SPACs (CMCA, BACC, NUCL, MTAL, IPXG and others), DXLG (reverse merger, $0.39), MOBX… ([triage](../watch/digests/2026-11-17-triage.md))
+- **[2026-11-19](../scans/2026-11-19.md#watchlist-filings)**: Filings: `4` ×14 17 Nov · Triage, dismissed: Large caps and over-$10B 6-Ks, SPAC paperwork (ALCY, ADAC, SVCC, KCHV, TACO, XRPN), completed deals (ITGR, PCRX, SSTI, IBO 25-NSEs), results with… ([triage](../watch/digests/2026-11-19-triage.md))
+- **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **PCRX**: Viatris completed the $36.50 tender and merger (8-K 17 Nov; 25-NSE). Done. ([triage](../watch/digests/2026-11-17-triage.md)) · Market scan: 8-K trigger phrase "agreement and plan of merger, tender offer" (8k merger agreement) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126044354/ef20085678_8k.htm)) · Market scan: delisting (`25-NSE`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000135445726001084/0001354457-26-001084-index.htm)) · Market scan: tender offer (third party) (`SC TO-T/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126044347/0001140361-26-044347-index.htm)) · Filings: `8-K` 17 Nov, `SC 14D9/A` 17 Nov, `SC TO-T/A` 17 Nov · Research: Research: Tue 17 Nov 2026 (- **Deals closed or decided:** PCRX (Viatris completed), SKYA (about 47.0M shares bought at $3.00), BOW…) ([note](../research/daily/2026-11-17.md)) · Triage, dismissed: PCRX (completed), HSBC SC TO-I/A (over $10B), ENS (acquirer), SPACs (CMCA, BACC, NUCL, MTAL, IPXG and others), DXLG (reverse merger, $0.39), MOBX… ([triage](../watch/digests/2026-11-17-triage.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: PCRX: Viatris $36.50 cash tender expires ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **PCRX** (watchlist): the amendment only adds two New York disclosure lawsuits. $36.46 against the $36.50 tender, which expires 16 Nov. ([triage](../watch/digests/2026-11-13-triage.md)) · Filings: `8-K` 12 Nov, `SC TO-T/A` 12 Nov, `SC 14D9/A` 12 Nov · Triage, dismissed: PCRX lawsuits (disclosure suits), HELE (above the bid), KBR, IBP, LSTA, ADIG, OCTV (results or decks), SPACs (GTERA, KOYN, IPXG, CSTAF, FVN, VLOS)… ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1396814/000114036126043435/0001140361-26-043435-index.htm))
@@ -39,8 +40,11 @@ Every [ledger](../ledger/LEDGER.md) row for PCRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -0.6% |  | 0 | live |
-| 2026-10-10 | `merger_arb` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -0.6% |  | 0 | live |
-| 2026-10-30 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -0.6% |  | 0 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -0.6% |  | 0 | live |
-| 2026-11-12 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -0.6% |  | 0 | live |
+| 2026-10-08 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-10-10 | `merger_arb` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-10-30 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-11-12 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-11-17 | `8k_merger_agreement` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-11-17 | `delisting` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |
+| 2026-11-17 | `tender_third_party` | 0 |  |  |  |  | $36.48 | $36.48 |  | +0.0% | -2.3% |  | 0 | live |

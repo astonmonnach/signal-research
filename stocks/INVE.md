@@ -6,18 +6,20 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $2.67 (2026-11-19, ledger)
-- **Since first found:** **-4.0%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -4.4% vs IWM -3.0% = **-1.3 pts** vs IWM; direction 0, tracked only (28 days)
-  - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Thu 19 Nov 2026: INVE: Dutch-auction tender ($2.85-3.40, up to $20M) expires 5pm New York
+- **Latest price:** $2.19 (2026-11-20, ledger) · 1d -17.4%, 5d -17.7%, 20d -21.5% (market context, 2026-11-20)
+- **Since first found:** **-21.2%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -21.5% vs IWM -4.7% = **-16.8 pts** vs IWM; direction 0, tracked only (29 days)
+  - 5 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: INVE -17.7% 5d vs peer median -4.0%; peers didn't move with it. Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: INVE Technologies Announces Preliminary Results of Its Tender Offer (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407389/8259/en/inve-technologies-announces-preliminary-results-of-its-tender-offer.html))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **INVE**: the Dutch tender ($2.85-3.40) expires today; at $2.64 a UK holder nets $2.00-2.42 after withholding (arith), below market. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: INVE tender expires today (above). EFSI/JMSB votes: no new filing since 16 Nov. ([triage](../watch/digests/2026-11-19-triage.md)) · Calendar: INVE: Dutch-auction tender ($2.85-3.40, up to $20M) expires 5pm New York ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -0.8%, found day +3.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026121613/0001213900-26-121613-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before +0.8%, found day +0.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000119312526458392/inve-ex99_1.htm))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: INVE Technologies and Trackonomy Announce Strategic Partnership to Power Next-Generation Enterprise Software… (GlobeNewswire, published Mon 9 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/09/3399055/8259/en/inve-technologies-and-trackonomy-announce-strategic-partnership-to-power-next-generation-enterprise-software-with-physical-ai.html))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000092189526002942/0000921895-26-002942-index.htm))
@@ -34,8 +36,9 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.67 | -4.0% | -4.4% | -3.0% |  | 28 | live |
-| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.67 | -4.0% | -4.4% | -3.0% | -1.3% | 28 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.67 | -2.3% | -1.6% | -3.1% |  | 27 | live |
-| 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.67 | -1.6% | -1.9% | -5.4% | +3.5% | 17 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.67 | -0.1% | +1.4% | -4.5% | +5.9% | 6 | live |
+| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.19 | -21.2% | -21.5% | -4.7% |  | 29 | live |
+| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.19 | -21.2% | -21.5% | -4.7% | -16.8% | 29 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.19 | -19.8% | -19.2% | -4.7% |  | 28 | live |
+| 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.19 | -19.2% | -19.5% | -7.0% | -12.5% | 18 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.19 | -18.0% | -16.7% | -6.1% | -10.6% | 7 | live |
+| 2026-11-18 | `tender_issuer_buyback` | +1 | -0.8% | +3.0% | $1.2M | $2.72 | $2.73 | $2.19 | -19.5% | -19.8% | -3.4% | -16.4% | 1 | live |

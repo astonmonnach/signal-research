@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $118.54 (2026-11-19, ledger) · 1d +2.4%, 5d +4.3%, 20d -12.1% (market context, 2026-11-19)
-- **Since first found:** **-38.7%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -38.6% vs IWM -3.9% = **-34.7 pts** vs IWM; direction 0, tracked only (49 days)
-- **Peers / sympathy:** no flag (self 5d +4.3% vs peer median -4.0%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-19)
+- **Latest price:** $106.28 (2026-11-20, ledger) · 1d -4.6%, 5d -4.6%, 20d -23.9% (market context, 2026-11-20)
+- **Since first found:** **-45.0%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -45.0% vs IWM -5.6% = **-39.4 pts** vs IWM; direction 0, tracked only (50 days)
+- **Peers / sympathy:** missed_peer_move: peer median -11.1% 5d vs TWST -4.6%; peers moved, it didn't. Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-20)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#watchlist-filings)**: Filings: `144` 19 Nov, `4` ×6 18 Nov
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `10-K` 16 Nov, `144` ×6 16 Nov, `4` ×6 16 Nov, `SCHEDULE 13G/A` 16 Nov
 - **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Twist Bioscience Announces Fiscal 2026 Fourth Quarter and Full Year Financial Results (Business Wire) ([release](http://www.businesswire.com/news/home/20261112854825/en/Twist-Bioscience-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results/?feedref=JjAwJuNHiystnCoBq_hl-XekIWn8Q1Cvwu1oMnxPAAIpYSCJuk_X_CD1CVs9qvrSMGeyvlse8NLQQ_iNojSBozimV89m2UZhENQcJKaBuKLpeQta5BkP4eAZGeNC8LKDeIJ8QUholbv6i2n1XVdCIj0CDgDydwdVQlPdwVlIdLQ=)) · Filings: `8-K` 12 Nov, `SCHEDULE 13G/A` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **TWST:** FY26 revenue $459.4M (+22%) and an FY27 guide of $550-560M. -7.2% on 11 Nov and -8.2% intraday on…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **TWST, MDA, BMM** 13G/13G-A: passive holders, no change. **GPRO** 8-K: furnishes the 12b-25 numbers. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `SCHEDULE 13G` 10 Nov
@@ -123,4 +124,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $118.54 | -38.7% | -38.6% | -3.9% |  | 49 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $106.28 | -45.0% | -45.0% | -5.6% |  | 50 | live |
