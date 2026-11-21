@@ -264,3 +264,7 @@ date,a,b,type,detail,source
 2026-11-17,TE,fund:Encompass,holder_13d,19.99% blocker; convertible preferred holder,https://www.sec.gov/Archives/edgar/data/1992243/000092189526003078/primary_doc.xml
 2026-11-19,TRIP,fund:Pale Fire Capital,holder_13d,"7.4% (8,760,345 shares, ~$65.7M) bought 28 Sep-18 Nov; no plans",https://www.sec.gov/Archives/edgar/data/1526520/000092189526003216/xslSCHEDULE_13D_X02/primary_doc.xml
 2026-11-19,DOLE,fund:Pale Fire Capital,holder_13d,Pale Fire 13D at Dole (T013; expired 16 Nov with no Item 4 change),research/daily/2026-10-23.md
+2026-11-20,KNOP,fund:KNOT,holder_13d,"Sponsor KNOT (Knutsen NYK) 44.3%; bought Astaris's 2,789,070 units at $12.50 on 20 Nov",https://www.sec.gov/Archives/edgar/data/1564180/000110465926130660/primary_doc.xml
+2026-11-20,KNOP,fund:Astaris,counterparty,Activist Astaris sold its whole block to the sponsor at $12.50 with a 24-month standstill,https://www.sec.gov/Archives/edgar/data/1564180/000091957426008224/primary_doc.xml
+2026-11-20,DXYZ,fund:Saba Capital,holder_13d,"Saba 7.58% ($96.2M), first 13D at DXYZ; discount to NAV, open or closed end, liquidation timing",https://www.sec.gov/Archives/edgar/data/1843974/000106299326006212/primary_doc.xml
+2026-11-19,XYF,fund:Mangrove,holder_13d,"Mangrove (93.45% of votes, CEO-affiliated) proposed $6.03 per ADS; special committee formed 19 Nov",https://www.sec.gov/Archives/edgar/data/1725033/000110465926129959/tm2630265d1_6k.htm

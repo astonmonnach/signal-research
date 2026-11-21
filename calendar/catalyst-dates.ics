@@ -1581,4 +1581,84 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:NIVF: another 1-for-100 reverse split (tentative\; public AVOID #9: add to ledger/corporate_actions.csv when confirmed)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1981662/000121390026122016/ea0312756-424b5_newgenivf.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:6ddb2f7c4e2f550b97853532622b9aaa@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:BMBL: HSR waiting period on the $6.05 cash take-private expires 11:59pm ET (written consent already delivered\, no vote)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1830043/000119312526470223/d138441dprem14c.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:8c54043f0ac5dd7a9a0f6c05a680eda8@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:KNOP: record date for the 22 Dec annual meeting (sponsor KNOT at 44.3%\, WATCH T024)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1564180/000110465926128859/knop-ex99d1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:1d65bbb88764701579062fe4058e505d@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:RLYB: payment of the $13.90 cash distribution expected to begin (Avenzo merger\; no closing 8-K by 21 Nov)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1739410/000119312526458624/d176721d8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ec8249927e434fbf7a73b7a625a153@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:RNW: Court Meeting and General Meeting on the US$7.02 cash scheme (2.0% spread on 20 Nov)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1848763/000119312526468884/d166691d6k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:73b17035b95049f7740dd5692b404dc5@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:GPUS: exchange offer expires one minute after 11:59pm New York (1 Series I preferred + $2.00 per 100 shares\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/896493/000119380526001516/e665914_ex99-a1a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:12de1ef983e975c6e65efdf7e8662b07@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:KNOP: annual meeting\, 2pm UK (WATCH T024)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1564180/000110465926128859/knop-ex99d1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:f9a77823034dda04d9cc5e42771aa143@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:XYF: annual shareholders meeting (Mangrove $6.03 per ADS going-private proposal under a special committee)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1725033/000110465926128510/tm2629880d1_6k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:950e753bf06d9cbe4c35ccc5b765b8e1@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:KNOP: T024 deadline\, 90 days after KNOT paid $12.50 for Astaris's units
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1564180/000110465926130660/primary_doc.xml
+END:VEVENT
+BEGIN:VEVENT
+UID:75df0aed0d82221f3bfbb9c173174f0b@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:NANO: PIPE lock-up ends (or earlier on a $12 price trigger\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/2101833/000110465926130613/tmb-20260930xs1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:8415924d3cb15ef28943f087bc4cb78b@signal-lab
+DTSTAMP:20261121T220000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:DXYZ: 2027 director nomination window opens (WATCH T025\, Saba 7.58%)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1843974/000199937126023456/dxyz-def14a_112026.htm
+END:VEVENT
 END:VCALENDAR

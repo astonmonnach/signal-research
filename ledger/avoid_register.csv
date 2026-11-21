@@ -40,7 +40,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-10-21,XTIA,Late 10-Q and going concern; in default on seller notes; minimum-bid test on 3 Nov,distress,unknown,active,2026-10-21,No later note changes it (notes read through 26 Oct) (note: 'both are near or under $1'),,watch/digests/2026-10-21-triage.md:70
 2026-10-21,CELU,Late 10-Q and going concern,distress,unknown,active,2026-10-21,No later note changes it (notes read through 26 Oct) (note: 'both are near or under $1'),,watch/digests/2026-10-21-triage.md:70
 2026-10-22,GTBP,"Resale of 13,502,835 shares effective, 655% of the 2.06M outstanding; Series M preferred converts at 90% of the lowest prices with no floor; -26.0% on 21 Oct",ongoing_supply,no,active,2026-10-26,26 Oct: relabelled setup_supply_* as an AVOID; no stance change ('All are tiny and untradable'),,research/daily/2026-10-22.md:7 (detail L64)
-2026-10-22,IMCC,"170% of its shares registered, on notes converting at 90% of the lowest VWAP; -15.0%, then -13.4% on 22 Oct",ongoing_supply,no,active,2026-10-22,No later note changes it (notes read through 26 Oct) ('All are tiny and untradable'),,research/daily/2026-10-22.md:8 (detail L68)
+2026-10-22,IMCC,"170% of its shares registered, on notes converting at 90% of the lowest VWAP; -15.0%, then -13.4% on 22 Oct",ongoing_supply,no,active,2026-10-22,"No later note changes it (notes read through 26 Oct) ('All are tiny and untradable') | 21 Nov: F-3 effective, up to 25,348,613 shares against 1,844,162 outstanding",,research/daily/2026-10-22.md:8 (detail L68)
 2026-10-22,VBIO,"189% resale for 3i, a $75M preferred facility, a $100M shelf and a reverse-split vote on 12 Nov",ongoing_supply,no,active,2026-10-22,No later note changes it (notes read through 26 Oct) ('All are tiny and untradable'),,research/daily/2026-10-22.md:8 (detail L69)
 2026-10-22,ADIL,"Preferred converts into 4.9x the common; without holder approval a cash-settlement right opens 11 Dec costing $51.9M against $22.0M of cash, the stated going-concern trigger",distress,no,active,2026-10-22,No later note changes it (notes read through 26 Oct) ('All are tiny and untradable'),,research/daily/2026-10-22.md:9 (detail L70)
 2026-10-22,SWBI,"Issued 9.0M shares (19.99%) to buy Savage Arms; seller's lock-up ends in thirds at 90, 240 and 360 days; resale S-3 due within 60 days: 'an overhang, not a catalyst long'",deal_dilution,yes,active,2026-10-26,Listed in the 22 Oct AVOID section (not in the headline list); 26 Oct note and LESSONS call it one of the AVOIDs relabelled setup_supply_*. Not on the public record (calls start with the 24 Oct run),,research/daily/2026-10-22.md:73
@@ -84,7 +84,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-10-27,PBK,"$200M shelf with an ATM, about 17x a ~$11.4M market value",ongoing_supply,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
 2026-10-27,DCM,$10.6M notes converting at the greater of $1.00 and 80% of the lowest 5-day VWAP; 2.65M resale shares = 87.5%,ongoing_supply,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
 2026-10-27,XPON,"$50M shelf plus a $1.67M ATM, 46% of a ~$3.6M market value",ongoing_supply,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
-2026-10-27,WHLR,1-for-6 split 29 Oct; 1.2M shares issued for preferred (20.4%) and more conversions to come,ongoing_supply,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
+2026-10-27,WHLR,1-for-6 split 29 Oct; 1.2M shares issued for preferred (20.4%) and more conversions to come,ongoing_supply,no,active,,"21 Nov: 424B3 for up to 100,002,030 shares against 2,220,906 outstanding",,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
 2026-10-27,SHFS,23.9M shares from Series B conversions since 1 Jul; conversion price now $0.121,ongoing_supply,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
 2026-10-27,BBLG,Going-concern 10-Q; shares up 89% since 31 Dec,distress,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
 2026-10-27,DVLT,"Item 4.02 non-reliance on Q3-25 to Q2-26 accounts; about 1,309 BTC stuck at Biconomy; assets cut $92.2M",distress,no,active,,,,research/daily/2026-10-27.md (agent C triage of the 26 Oct scan)
@@ -146,7 +146,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-04,ABTS,"Shakawe equity-line resale effective, 15.7x shares",ongoing_supply,no,active,2026-11-04,,,research/daily/2026-11-03.md
 2026-11-04,GMEX,Preferred converted at 23% of market into 6.9x the shares; going concern,distress,no,active,2026-11-04,,,research/daily/2026-11-03.md
 2026-11-04,CJMB,Equity line effective; Nasdaq delisting determination; split and authorised-share vote,distress,no,active,2026-11-04,,,research/daily/2026-11-03.md
-2026-11-04,UZX,Up to $26.5M more floating notes at 90% of the lowest VWAP; 36:1 consolidation vote 19 Nov,ongoing_supply,no,active,2026-11-04,,,research/daily/2026-11-03.md
+2026-11-04,UZX,Up to $26.5M more floating notes at 90% of the lowest VWAP; 36:1 consolidation vote 19 Nov,ongoing_supply,no,active,2026-11-04,21 Nov: the board dropped the 36:1 consolidation,,research/daily/2026-11-03.md
 2026-11-04,GMM,Registered direct of 45M shares at $0.22 vs $1.04 (4.7x Class A),one_off_offering,no,active,2026-11-04,,,research/daily/2026-11-03.md
 2026-11-04,ABVC,"OID notes converting at 85% of VWAP, floor $0.20",ongoing_supply,no,active,2026-11-04,,,research/daily/2026-11-03.md
 2026-11-04,WBX,"PIPE and warrant resale effective, 59% of Class A",holder_selling,no,active,2026-11-04,,,research/daily/2026-11-03.md
@@ -172,7 +172,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-05,CLNN,Repeat going concern plus Canaccord ATM (size left not stated),ongoing_supply,yes,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,HMH,"Resale of up to 31,891,652 Class B shares (2.61x the Class A) live; Q3 product revenue -69%",holder_selling,yes,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,QNRX,New $150M shelf effective 4 Nov plus $11.0M Leerink ATM (~58% of ADSs),ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
-2026-11-05,CODX,S-3 resale of 39.6M J.J. Astor conversion shares vs 9.49M outstanding (417%) at 90% of lowest VWAP,ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,CODX,S-3 resale of 39.6M J.J. Astor conversion shares vs 9.49M outstanding (417%) at 90% of lowest VWAP,ongoing_supply,no,active,2026-11-05,21 Nov: a new J.J. Astor note converting at 90% of the lowest VWAP,,research/daily/2026-11-05.md
 2026-11-05,GMHS,~24.5M Class A shares at $0.80 for Techforge; resale due within 60 days of closing,deal_dilution,no,active,2026-11-13,"12 Nov: $11.6M ARC ATM (424B5, the one-third baby-shelf limit on $34.9M non-affiliate float) plus a $19.6M Form D",,research/daily/2026-11-05.md
 2026-11-05,MCRB,Repeat going concern plus new Aug 2026 sales agreement,ongoing_supply,no,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,PRPL,Repeat going concern,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
@@ -182,7 +182,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-05,GRML,Resale of 1.4M merger shares effective (10.2%) after serial registered directs Aug-Sep,holder_selling,yes,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,BIVI,"Offering of 2,962,500 shares plus pre-funded warrants at $1.60 on 5 Nov (34% of non-affiliate shares)",one_off_offering,yes,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,ANVS,Unit offering with warrants; NYSE 802.01B notice 29 Oct; -40.8% on 5 Nov,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
-2026-11-05,SMX,2.8:1 reverse split from 9 Nov,distress,yes,active,2026-11-05,,,research/daily/2026-11-05.md
+2026-11-05,SMX,2.8:1 reverse split from 9 Nov,distress,yes,active,2026-11-05,"21 Nov: $250M SEPA equity line at 94% of the lowest 3-day VWAP, going-concern doubt; about 0.9M shares (about $2.4M at $2.70, arith), so kept off public calls with STEM, SDOT and RETO until the tiny-cap rule is set",,research/daily/2026-11-05.md
 2026-11-05,DAIO,$13.25M convertible debentures plus shares for the V-Tek and A&J acquisitions (Form D),deal_dilution,no,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,ARAY,1-for-40 reverse split 9 Nov; TCW $40M term loan swapped for convertible preferred; goodwill impairment,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
 2026-11-05,JSPR,1-for-30 reverse split 6 Nov,distress,no,active,2026-11-05,,,research/daily/2026-11-05.md
@@ -251,7 +251,7 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-10,HAIN,Going concern,distress,no,active,2026-11-10,,,research/daily/2026-11-10.md
 2026-11-10,HIHO,"David Lazar paid $7.0M for preferred converting into 86,981,972 common against 4,626,676 outstanding after a holder vote (~95% dilution)",deal_dilution,no,active,2026-11-10,,,research/daily/2026-11-10.md
 2026-11-10,SLE,Evo Fund holds pre-funded warrants for up to 10M shares against 3.6M outstanding,warrant_supply,no,active,2026-11-17,"424B5 for 150k shares at $4.00; Metaplanet would hold about 95.7%, so no public call",,research/daily/2026-11-10.md
-2026-11-11,AGLT,"De-SPAC resale S-1s filed 10 Nov (not yet effective): 20,102,500 PIPE shares at $10.00, unlocked; 160,810,584 more (66% of 242.1M) locked to 3 May 2027 or earlier at a $12.00 VWAP",holder_selling,yes,active,2026-11-11,,,research/daily/2026-11-11.md
+2026-11-11,AGLT,"De-SPAC resale S-1s filed 10 Nov (not yet effective): 20,102,500 PIPE shares at $10.00, unlocked; 160,810,584 more (66% of 242.1M) locked to 3 May 2027 or earlier at a $12.00 VWAP",holder_selling,yes,active,2026-11-11,"21 Nov: both resale S-1s effective 19 Nov, so the 20,102,500 PIPE shares are live",,research/daily/2026-11-11.md
 2026-11-11,FLYE,"Unpriced best-efforts raise of ~$9.0M (about 2.2x its ~$4M value) with zero-exercise-price warrants; 13 Nov vote to allow up to 25,000,000 shares vs 1,632,386; lender suing on the credit line",warrant_supply,yes,active,2026-11-11,,,research/daily/2026-11-11.md
 2026-11-11,NSTR,"De-SPAC resale F-1 effective 9 Nov: 28,146,709 shares (68.1% of 41,322,854) plus 2,219,998 warrant shares; some legacy holders locked 180 days from 1 Oct; -12.4% to $2.76",holder_selling,yes,active,2026-11-11,,,research/daily/2026-11-11.md
 2026-11-11,GOSS,"Up to $125.0M of pre-funded warrants at the lesser of $11.192 or 5-day VWAP if the FDA accepts the NDA by 31 Dec (at least 11.2M shares vs 6,116,390), plus ~6.7M approval warrants at $14.96",deal_dilution,yes,active,2026-11-11,,,research/daily/2026-11-11.md
@@ -317,3 +317,8 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-19,ACCH,NYSE suspended it for abnormally low prices; OTCQB from 17 Nov; no appeal,distress,no,active,2026-11-19,,,research/daily/2026-11-19.md
 2026-11-19,BZAI,NT 10-Q: DOJ subpoenas; results cannot be estimated; under $1,distress,no,active,2026-11-19,,,research/daily/2026-11-19.md
 2026-11-19,DAIC,"NT 10-Q: LHT I note default, about $10M of charges",distress,no,active,2026-11-19,,,research/daily/2026-11-19.md
+2026-11-21,HSCS,"Baby-shelf ATM of up to $3,077,649 (about 29.5% of the company at $1.81), going-concern doubt; holders approved the Fortitude merger and up to 35M shares in placements on 19 Nov",ongoing_supply,yes,active,2026-11-21,,,research/daily/2026-11-21.md
+2026-11-21,BOXL,"Resale of 47,466,613 shares against 844,556 outstanding, Secure Net equity line at 95% of the lowest daily VWAP; effective 18 Nov, $1.905 to $0.84",ongoing_supply,no,active,2026-11-21,,,research/daily/2026-11-21.md
+2026-11-21,TRUG,"Resale of up to 54,043,497 Class A shares from preferred conversions; $0.28",ongoing_supply,no,active,2026-11-21,,,research/daily/2026-11-21.md
+2026-11-21,CNXU,"Resale S-1 (not yet effective) of up to 7,733,722 shares (24.9% of 31,089,865) from $3.00 units with $2.30 and $3.00 warrants; going-concern doubt",holder_selling,yes,active,2026-11-21,,,research/daily/2026-11-21.md
+2026-11-21,NANO,"Resale S-1 (not yet effective) of 43,553,075 shares plus 41,435,272 warrant shares (19.4% of 224,428,230, plus warrants); PIPE at about $7.69, stock $3.04",holder_selling,yes,active,2026-11-21,,,research/daily/2026-11-21.md

@@ -195,7 +195,9 @@ def weekly(marked):
 
     def to_line(m):
         """How far the price must move to hit the invalidation close (positive = room left)."""
-        inv, p = float(m["invalidation_close"]), m["end_price"]
+        # The exit line was set in pre-split share terms; prices are split-adjusted (rule 2026-11-21, NCT).
+        posted = dt.datetime.fromisoformat(m["posted_utc"].replace("Z", "+00:00")).date()
+        inv, p = float(m["invalidation_close"]) / split_factor_after(m["ticker"], posted), m["end_price"]
         return (inv / p - 1) * 100 if int(m["direction"]) < 0 else (1 - inv / p) * 100
 
     new = [m for m in live if dt.date.fromisoformat(m["entry_date"]) > wk]

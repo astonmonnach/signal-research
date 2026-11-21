@@ -236,6 +236,14 @@ def main():
     if not days:
         sys.exit("RSS returned no contract days (blocked or layout changed).")
     want = date.fromisoformat(args.date) if args.date else days[0][0]
+    if not args.date:
+        # Rule 2026-11-21 (FEIM): a catch-up run must not skip announcement days between the last
+        # report and the newest one. List them so each is run with --date D --backfill.
+        done = sorted(date.fromisoformat(f.stem) for f in (ROOT / "watch/dod").glob("20*.md"))
+        missed = sorted({d[0] for d in days if done and done[-1] < d[0] < want})
+        if missed:
+            print("MISSED DoD days since the last report: " + ", ".join(map(str, missed))
+                  + ". Run each with --date D --backfill (the next session has opened).")
     hits = [d for d in days if d[0] == want]
     if not hits:
         sys.exit(f"{want} not in the RSS feed (it only covers recent days). Available: {[str(d[0]) for d in days]}")
