@@ -1,42 +1,18 @@
 [
  {
-  "published_utc": "2026-11-20T21:01:00Z",
-  "wire": "Business Wire",
-  "ticker": "BSY",
-  "title": "Bentley Systems, Incorporated Declares Fourth Quarter 2026 Dividend",
-  "link": "http://www.businesswire.com/news/home/20261120438159/en/Bentley-Systems-Incorporated-Declares-Fourth-Quarter-2026-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "published_utc": "2026-11-20T22:49:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "SGRY",
+  "title": "Surgery Partners, Inc. Announces Expiration and Results of Consent Solicitation Relating to Surgery Center Holdings, Inc.’s 7.250% Senior Notes due 2032",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407866/36929/en/surgery-partners-inc-announces-expiration-and-results-of-consent-solicitation-relating-to-surgery-center-holdings-inc-s-7-250-senior-notes-due-2032.html",
   "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-20T14:43:00Z",
+  "published_utc": "2026-11-20T22:00:00Z",
   "wire": "GlobeNewswire",
-  "ticker": "NIVF",
-  "title": "NewGenIvf Group Limited Announces Closing of $2.5 Million Underwritten Offering",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407529/0/en/newgenivf-group-limited-announces-closing-of-2-5-million-underwritten-offering.html",
-  "matched_on": "manual_call"
- },
- {
-  "published_utc": "2026-11-20T21:30:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "OTLY",
-  "title": "Oatly Confirms Commencement of Tender Offer by Verlinvest",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407837/0/en/oatly-confirms-commencement-of-tender-offer-by-verlinvest.html",
+  "ticker": "B",
+  "title": "Barrick Recommends Shareholders Reject New York Stock and Bond LLC’s Below-Market “Mini-Tender” Offer for Common Shares",
+  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407849/0/en/barrick-recommends-shareholders-reject-new-york-stock-and-bond-llc-s-below-market-mini-tender-offer-for-common-shares.html",
   "matched_on": "keyword:tender offer"
- },
- {
-  "published_utc": "2026-11-20T21:22:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "BLNE",
-  "title": "Beeline and TYTL to Host Joint Stakeholder Update Call on Merger Agreement with TYTL Corp.",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407833/0/en/beeline-and-tytl-to-host-joint-stakeholder-update-call-on-merger-agreement-with-tytl-corp.html",
-  "matched_on": "keyword:merger agreement"
- },
- {
-  "published_utc": "2026-11-20T21:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "ZOOZ",
-  "title": "ZOOZ Strategy Announces Extension of its Existing Share Repurchase Program for an Additional 12-Month Period",
-  "link": "https://www.globenewswire.com/news-release/2026/11/20/3407825/0/en/zooz-strategy-announces-extension-of-its-existing-share-repurchase-program-for-an-additional-12-month-period.html",
-  "matched_on": "keyword:share repurchase"
  }
 ]
