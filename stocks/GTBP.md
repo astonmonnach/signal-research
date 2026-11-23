@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $3.11 (2026-11-23, ledger)
-- **Since first found:** **-53.4%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -54.2% vs IWM -4.6% = **-49.6 pts** vs IWM; direction -1 → excess +49.6% (42 days)
+- **Latest price:** $3.05 (2026-11-23, ledger)
+- **Since first found:** **-54.3%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -55.1% vs IWM -4.7% = **-50.4 pts** vs IWM; direction -1 → excess +50.4% (42 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for GTBP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $3.11 | -53.4% | -54.2% | -4.6% | +49.6% | 42 | live |
-| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $3.11 | -42.5% | -42.1% | -3.3% | +38.8% | 32 | live |
-| 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $3.11 | -43.7% | -44.3% | -3.3% |  | 31 | live |
+| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $3.05 | -54.3% | -55.1% | -4.7% | +50.4% | 42 | live |
+| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $3.05 | -43.6% | -43.2% | -3.4% | +39.8% | 32 | live |
+| 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $3.05 | -44.8% | -45.3% | -3.5% |  | 31 | live |

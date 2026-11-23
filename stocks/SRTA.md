@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md))
-- **Latest price:** $4.90 (2026-11-23, ledger) · 1d +7.6%, 5d -9.5%, 20d +3.0% (market context, 2026-11-23)
-- **Since first found:** **+12.9%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +7.7% vs IWM -3.6% = **+11.3 pts** vs IWM; direction +1 → excess +11.3% (38 days)
+- **Latest price:** $4.97 (2026-11-23, ledger) · 1d +8.9%, 5d -8.4%, 20d +4.3% (market context, 2026-11-23)
+- **Since first found:** **+14.4%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +9.1% vs IWM -3.7% = **+12.8 pts** vs IWM; direction +1 → excess +12.8% (38 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -9.5% vs peer median -4.8%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (self 5d -8.4% vs peer median -4.9%). Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -35,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.90 | +12.9% | +7.7% | -3.6% | +11.3% | 38 | live |
-| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.90 | +7.9% | +7.5% | -2.2% |  | 35 | live |
+| 2026-10-15 | `activist_13d` | +1 | -8.5% | +1.4% | $4.1M | $4.34 | $4.55 | $4.97 | +14.4% | +9.1% | -3.7% | +12.8% | 38 | live |
+| 2026-10-16 | `activist_13d` | 0 | -2.9% | +4.6% | $4.2M | $4.54 | $4.56 | $4.97 | +9.4% | +8.9% | -2.4% |  | 35 | live |
