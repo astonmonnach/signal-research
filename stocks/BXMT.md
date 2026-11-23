@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $10.28 (2026-11-23, ledger)
-- **Since first found:** **-7.8%** (found 2026-11-06 via `insider_cluster` at $11.16). From the next open $11.33: -9.2% vs IWM -4.3% = **-4.9 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $10.24 (2026-11-23, ledger)
+- **Since first found:** **-8.2%** (found 2026-11-06 via `insider_cluster` at $11.16). From the next open $11.33: -9.6% vs IWM -4.3% = **-5.3 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 31 Dec 2026: BXMT: record date for the cut $0.30 dividend (CEO and director bought 4 Nov; tracked)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for BXMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `insider_cluster` | 0 | +5.3% | -2.5% | $41.2M | $11.16 | $11.33 | $10.28 | -7.8% | -9.2% | -4.3% |  | 14 | live |
+| 2026-11-06 | `insider_cluster` | 0 | +5.3% | -2.5% | $41.2M | $11.16 | $11.33 | $10.24 | -8.2% | -9.6% | -4.3% |  | 14 | live |

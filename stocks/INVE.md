@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $2.03 (2026-11-23, ledger) · 1d -7.3%, 5d -21.3%, 20d -25.4% (market context, 2026-11-23)
+- **Latest price:** $2.03 (2026-11-23, ledger) · 1d -7.8%, 5d -21.7%, 20d -25.7% (market context, 2026-11-23)
 - **Since first found:** **-27.0%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -27.2% vs IWM -3.4% = **-23.8 pts** vs IWM; direction 0, tracked only (32 days)
   - 6 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: INVE -21.3% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** solo_move: INVE -21.7% 5d vs peer median +1.6%; peers didn't move with it. Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -40,8 +40,8 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.03 | -27.0% | -27.2% | -3.4% |  | 32 | live |
 | 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.03 | -27.0% | -27.2% | -3.4% | -23.8% | 32 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.03 | -25.6% | -25.1% | -3.5% |  | 31 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.03 | -25.6% | -25.1% | -3.4% |  | 31 | live |
 | 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.03 | -25.1% | -25.4% | -5.8% | -19.6% | 21 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.03 | -24.0% | -22.8% | -4.9% | -17.9% | 10 | live |
-| 2026-11-18 | `tender_issuer_buyback` | +1 | -0.8% | +3.0% | $1.2M | $2.72 | $2.73 | $2.03 | -25.4% | -25.6% | -2.1% | -23.5% | 4 | live |
-| 2026-11-20 | `tender_issuer_buyback` | +1 | -0.7% | -17.4% | $1.2M | $2.19 | $2.32 | $2.03 | -7.3% | -12.5% | -0.2% | -12.2% | 0 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.03 | -24.0% | -22.8% | -4.8% | -18.0% | 10 | live |
+| 2026-11-18 | `tender_issuer_buyback` | +1 | -0.8% | +3.0% | $1.2M | $2.72 | $2.73 | $2.03 | -25.4% | -25.6% | -2.1% | -23.6% | 4 | live |
+| 2026-11-20 | `tender_issuer_buyback` | +1 | -0.7% | -17.4% | $1.2M | $2.19 | $2.32 | $2.03 | -7.3% | -12.5% | -0.2% | -12.3% | 0 | live |

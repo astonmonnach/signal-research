@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `strategic_placement` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $8.22 (2026-11-23, ledger)
-- **Since first found:** **+3.1%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: +2.8% vs IWM -1.0% = **+3.8 pts** vs IWM; direction 0, tracked only (5 days)
+- **Latest price:** $8.26 (2026-11-23, ledger)
+- **Since first found:** **+3.6%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: +3.2% vs IWM -1.0% = **+4.3 pts** vs IWM; direction 0, tracked only (5 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 31 May 2027: ARCT: Meiji license deadline; otherwise ARCT refunds about $11.1M of Meiji premium
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for ARCT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $8.22 | +3.1% | +2.8% | -1.0% |  | 5 | live |
+| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $8.26 | +3.6% | +3.2% | -1.0% |  | 5 | live |

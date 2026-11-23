@@ -36,7 +36,7 @@ Every [ledger](../ledger/LEDGER.md) row for LFCR ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-09-28 | `8k_reverse_split` | -1 | -5.8% | +55.2% | $1.9M | $6.52 | $6.53 | $6.38 | -2.1% | -2.3% | -5.3% | -3.0% | 55 | live |
-| 2026-10-20 | `8k_merger_agreement` | 0 | -0.8% | -0.3% | $5.0M | $6.37 | $6.40 | $6.38 | +0.2% | -0.3% | -4.2% |  | 33 | live |
+| 2026-10-20 | `8k_merger_agreement` | 0 | -0.8% | -0.3% | $5.0M | $6.37 | $6.40 | $6.38 | +0.2% | -0.3% | -4.1% |  | 33 | live |
 | 2026-10-30 | `merger_vote` | 0 | +2.4% | -1.8% | $3.7M | $6.40 | $6.40 | $6.38 | -0.3% | -0.3% | -5.8% |  | 21 | live |
 | 2026-11-04 | `8k_merger_agreement` | 0 | -0.3% | +0.3% | $2.9M | $6.44 | $6.45 | $6.38 | -0.9% | -1.1% | -6.5% |  | 18 | live |
 | 2026-11-05 | `8k_merger_agreement` | 0 | -1.1% | -0.6% | $3.0M | $6.40 | $6.38 | $6.38 | -0.3% | +0.0% | -2.4% |  | 17 | live |

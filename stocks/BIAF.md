@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $1.57 (2026-11-23, ledger)
-- **Since first found:** **-66.8%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -67.0% vs IWM -4.7% = **-62.2 pts** vs IWM; direction -1 → excess +62.2% (42 days)
+- **Latest price:** $1.53 (2026-11-23, ledger)
+- **Since first found:** **-67.6%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -67.8% vs IWM -4.7% = **-63.1 pts** vs IWM; direction -1 → excess +63.1% (42 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +32,6 @@ Every [ledger](../ledger/LEDGER.md) row for BIAF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $1.57 | -66.8% | -67.0% | -4.7% | +62.2% | 42 | live |
-| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.57 | -46.4% | -47.0% | -6.5% |  | 18 | live |
-| 2026-11-20 | `share_registration` | -1 | -20.9% | -10.8% | $225k | $1.65 | $1.67 | $1.57 | -4.8% | -6.0% | -0.2% | +5.7% | 0 | live |
+| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $1.53 | -67.6% | -67.8% | -4.7% | +63.1% | 42 | live |
+| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.53 | -47.8% | -48.3% | -6.5% |  | 18 | live |
+| 2026-11-20 | `share_registration` | -1 | -20.9% | -10.8% | $225k | $1.65 | $1.67 | $1.53 | -7.3% | -8.4% | -0.2% | +8.2% | 0 | live |

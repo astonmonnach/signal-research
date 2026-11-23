@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.019 (2026-11-23, ledger)
-- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -5.3% = **-94.4 pts** vs IWM; direction -1 → excess +94.4% (54 days)
+- **Latest price:** $0.020 (2026-11-23, ledger)
+- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.6% vs IWM -5.3% = **-94.4 pts** vs IWM; direction -1 → excess +94.4% (54 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -39,6 +39,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.019 | -99.2% | -99.7% | -5.3% | +94.4% | 54 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.019 | -98.5% | -98.3% | -6.0% |  | 25 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.019 | -92.0% | -91.7% | -3.9% | +87.8% | 7 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.020 | -99.2% | -99.6% | -5.3% | +94.4% | 54 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.020 | -98.4% | -98.3% | -6.0% |  | 25 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.020 | -91.6% | -91.3% | -3.9% | +87.4% | 7 | live |

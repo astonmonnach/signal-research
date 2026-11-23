@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $5.99 (2026-11-23, ledger) · 1d +0.2%, 5d -0.2%, 20d +0.2% (market context, 2026-11-23)
 - **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM -2.9% = **+3.5 pts** vs IWM; direction 0, tracked only (40 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -9.4% 5d vs BMBL -0.2%; peers moved, it didn't. Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** missed_peer_move: peer median -8.9% 5d vs BMBL -0.2%; peers moved, it didn't. Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 25 Nov 2026: BMBL: HSR waiting period on the $6.05 cash take-private expires 11:59pm ET (written consent already delivered, no vote)
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close

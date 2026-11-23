@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
 - **Latest price:** $4.64 (2026-11-23, ledger)
-- **Since first found:** **-2.7%** (found 2026-11-13 via `merger_arb` at $4.77). From the next open $4.75: -2.3% vs IWM -3.9% = **+1.6 pts** vs IWM; direction 0, tracked only (7 days)
+- **Since first found:** **-2.7%** (found 2026-11-13 via `merger_arb` at $4.77). From the next open $4.75: -2.3% vs IWM -3.9% = **+1.5 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
