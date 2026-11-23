@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md)); `holder_13d` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $4.05 (2026-11-20, ledger) · 1d -0.6%, 5d -1.6%, 20d +0.6% (market context, 2026-11-20)
-- **Since first found:** **-0.9%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: -0.9% vs IWM -4.3% = **+3.5 pts** vs IWM; direction +1 → excess +3.5% (36 days)
+- **Latest price:** $4.19 (2026-11-23, ledger) · 1d +3.7%, 5d +2.4%, 20d +7.2% (market context, 2026-11-23)
+- **Since first found:** **+2.7%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +2.7% vs IWM -2.1% = **+4.8 pts** vs IWM; direction +1 → excess +4.8% (39 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 17 Dec 2026: TCPC: record date for the $0.17 dividend (UK holders withheld)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- **Saba elsewhere in our graph:** TCPC, LEO, VVR. VVR is flat since our 5 Nov note ($2.85 to $2.81), so…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **TCPC** (watchlist): Saba at 8.46%, bought 773,624 more at $4.06-4.12. **TRMD**: Hafnia (19.81%) will exit, preferably by handing the shares to its… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `holder_13d` (direction 0): Saba 13D/A: 8.46% (7,094,640 shares), bought 773,624 more 9-17 Nov at $4.06-4.12; Item 4 not applicable; tracked; source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `SCHEDULE 13D/A` 17 Nov
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1370755/000106299326006164/0001062993-26-006164-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#triage-notes)**: Triage: **TCPC** 13D/A: Saba 5.11% to 7.14%, Item 4 unchanged. Tracked (6 Nov deep dive). ([triage](../watch/digests/2026-11-10-triage.md)) · Research: Research: Tue 10 Nov 2026 (- **Reaction so far:** none in regular hours. 5 Nov to 9 Nov: CCAP -2.2%, against IWM +4.3%, the BDC ETF BIZD…) ([note](../research/daily/2026-11-10.md))
@@ -34,8 +35,8 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.05 | -0.9% | -0.9% | -4.3% | +3.5% | 36 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.05 | -4.2% | -4.4% | -5.8% |  | 35 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.05 | -5.3% | -4.8% | -4.5% | -0.3% | 14 | live |
-| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.05 | -5.9% | -5.7% | -6.4% |  | 11 | live |
-| 2026-11-19 | `holder_13d` | 0 | -1.7% | -0.2% | $3.6M | $4.07 | $4.04 | $4.05 | -0.6% | +0.1% | -1.4% |  | 0 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.19 | +2.7% | +2.7% | -2.1% | +4.8% | 39 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.19 | -0.7% | -0.9% | -3.5% |  | 38 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.19 | -1.9% | -1.4% | -2.3% | +0.9% | 17 | live |
+| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.19 | -2.6% | -2.3% | -4.2% |  | 14 | live |
+| 2026-11-19 | `holder_13d` | 0 | -1.7% | -0.2% | $3.6M | $4.07 | $4.04 | $4.19 | +3.0% | +3.7% | +0.9% |  | 3 | live |

@@ -6,11 +6,12 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.99 (2026-11-20, ledger) · 1d -0.1%, 5d -0.1%, 20d +0.4% (market context, 2026-11-20)
-- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM -5.0% = **+5.6 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $5.99 (2026-11-23, ledger) · 1d +0.2%, 5d -0.2%, 20d +0.2% (market context, 2026-11-23)
+- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM -2.8% = **+3.4 pts** vs IWM; direction 0, tracked only (40 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -14.0% 5d vs BMBL -0.1%; peers moved, it didn't. Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** missed_peer_move: peer median -9.6% 5d vs BMBL -0.2%; peers moved, it didn't. Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
+  - Wed 25 Nov 2026: BMBL: HSR waiting period on the $6.05 cash take-private expires 11:59pm ET (written consent already delivered, no vote)
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,6 +19,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **BMBL** (watchlist): $6.05 cash, written consent already given. HSR expires 25 Nov; close in H1 2027; 1.3% spread. ([triage](../watch/digests/2026-11-21-triage.md)) · Filings: `SC 13E3` 20 Nov · Research: Research: Sat 21 Nov 2026 (- BMBL (watchlist, $6.05): 1.3%; HSR expires 25 Nov.) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: going private (13E-3) (`SC 13E3`) ([filing](https://www.sec.gov/Archives/edgar/data/1830043/000119312526470530/0001193125-26-470530-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#watchlist-filings)**: Filings: `4` 12 Nov
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-13 7 BMBL +57% deal_signed $5.95 911.6 yes +0.0% +0.3% +0.5% / -0.3% / +0.3% +0.0% +0.5% +0.5% +0.7%) ([note](../research/movers/outcomes-2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-19 BMBL -0.2 +0.3 -0.2 +0.3 +0.2 +0.2 +0.3 Ithaca's $102M termination fee due in escrow (Bumble…) ([note](../research/review/2026-11-10/EVENTS.md))
@@ -39,5 +42,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -5.0% |  | 37 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -5.0% |  | 37 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -2.8% |  | 40 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -2.8% |  | 40 | live |

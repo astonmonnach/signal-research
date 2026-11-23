@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $136.58 (2026-11-20, ledger)
-- **Since first found:** **-2.9%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -3.0% vs IWM -8.7% = **+5.7 pts** vs IWM; direction 0, tracked only (45 days)
-  - 3 more ledger rows: see Performance since found
+- **Latest price:** $137.10 (2026-11-23, ledger)
+- **Since first found:** **-2.5%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: -2.6% vs IWM -6.6% = **+3.9 pts** vs IWM; direction 0, tracked only (48 days)
+  - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +2.6%, found day -2.9%) ([filing](https://www.sec.gov/Archives/edgar/data/1043277/000104327726000051/chrw-20261118.htm))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -7.0%, found day +0.2%) ([filing](https://www.sec.gov/Archives/edgar/data/1043277/000104327726000047/chrw-20261104.htm))
 - **[2026-10-28](../scans/2026-10-28.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +2.1%, found day -11.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1043277/000104327726000039/chrw-20261028.htm))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_acquirer` (direction 0): C.H. Robinson -13.1% since Fri on the RXO deal; pauses buybacks; source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (2. C.H. Robinson buys RXO: $17.25 cash + 0.0856 CHRW shares) ([note](../research/daily/2026-10-06.md))
@@ -28,7 +29,8 @@ Every [ledger](../ledger/LEDGER.md) row for CHRW ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $136.58 | -2.9% | -3.0% | -8.7% |  | 45 | live |
-| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $136.58 | +1.1% | +1.0% | -6.7% |  | 44 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $136.58 | +7.0% | +6.1% | -8.1% |  | 22 | live |
-| 2026-11-04 | `8k_merger_agreement` | 0 | -7.0% | +0.2% | $277.7M | $133.84 | $134.06 | $136.58 | +2.0% | +1.9% | -8.5% |  | 15 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $137.10 | -2.5% | -2.6% | -6.6% |  | 48 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $137.10 | +1.5% | +1.4% | -4.5% |  | 47 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $137.10 | +7.5% | +6.5% | -5.9% |  | 25 | live |
+| 2026-11-04 | `8k_merger_agreement` | 0 | -7.0% | +0.2% | $277.7M | $133.84 | $134.06 | $137.10 | +2.4% | +2.3% | -6.3% |  | 18 | live |
+| 2026-11-20 | `8k_merger_agreement` | 0 | +2.6% | -2.9% | $273.6M | $134.00 | $136.47 | $137.10 | +2.3% | +0.5% | -0.1% |  | 0 | live |

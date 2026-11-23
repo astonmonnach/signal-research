@@ -1,33 +1,33 @@
 logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost,leg_spread_pct,open_interest,nth_view,status,expiry_close,actual_move_pct,straddle_result_pct,outcome
 2026-10-06,MOD,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,191.01,9.6,190.0,18.2,18.5,4,,settled,148.86,22.1,126.0,bigger
 2026-10-06,THRM,2026-10-07,THRM pays $2.07 special dividend; MOD pro forma 8-K/A due,2026-10-16,32.3,8.9,32.93,2.6,47.5,1845,,settled,29.04,10.1,49.6,bigger
-2026-10-06,HZO,2026-10-30,HZO antitrust (HSR) waiting period ends,2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,open,,,,
-2026-10-06,MTUS,2026-11-03,MTUS Q3 earnings call: thesis check for trade #1,2026-11-20,21.04,12.7,20.0,2.65,13.7,1484,none,open,,,,
-2026-10-06,HZO,2026-11-11,HZO merger vote ($53 cash),2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,open,,,,
-2026-10-06,MOD,2026-11-18,MOD Investor Day (continuing business outlook),2026-11-20,191.01,22.4,190.0,42.5,11.8,7,smaller,open,,,,
+2026-10-06,HZO,2026-10-30,HZO antitrust (HSR) waiting period ends,2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,settled,52.82,0.9,-46.0,smaller
+2026-10-06,MTUS,2026-11-03,MTUS Q3 earnings call: thesis check for trade #1,2026-11-20,21.04,12.7,20.0,2.65,13.7,1484,none,settled,15.53,26.2,68.7,bigger
+2026-10-06,HZO,2026-11-11,HZO merger vote ($53 cash),2026-11-20,52.35,10.0,50.0,5.22,175.8,3,smaller,settled,52.82,0.9,-46.0,smaller
+2026-10-06,MOD,2026-11-18,MOD Investor Day (continuing business outlook),2026-11-20,191.01,22.4,190.0,42.5,11.8,7,smaller,settled,124.67,34.7,53.7,bigger
 2026-10-07,WHF,2026-12-01,"WHF: $85M notes mature in December, check refinancing",2027-01-15,7.0,18.2,7.5,1.27,146.0,351,none,open,,,,
 2026-10-12,SKYA,2026-10-15,SKYA: $3.00 issuer tender due to start; offer papers (SC TO-I) expected by today,2026-10-16,2.58,15.5,2.5,0.4,25.4,2,smaller,settled,2.65,2.7,-62.5,smaller
-2026-10-12,MSGS,2026-10-20,MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS),2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
-2026-10-12,MSGS,2026-10-26,MSGS: Rangers spin-off effective; MSGS becomes MSGK,2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,open,,,,
+2026-10-12,MSGS,2026-10-20,MSGS: record date for the Rangers spin-off (1 MSGR per 2 MSGS),2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,settled,303.59,24.5,227.4,bigger
+2026-10-12,MSGS,2026-10-26,MSGS: Rangers spin-off effective; MSGS becomes MSGK,2026-11-20,402.3,7.3,400.0,29.45,16.7,304,none,settled,303.59,24.5,227.4,bigger
 2026-10-13,HZO,2026-12-07,HZO earliest close,2027-01-15,52.33,6.1,50.0,3.18,82.9,57,smaller,open,,,,
-2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,none,open,,,,
+2026-10-14,MTUS,2026-11-03,MTUS Q3 earnings call 14:00 UK: thesis check for trade #1 (results Mon 2 Nov after the close),2026-11-20,20.56,10.3,20.0,1.93,55.2,1591,none,settled,15.53,24.5,131.6,bigger
 2026-10-16,RYAM,2026-12-15,RYAM: company promised a clear path forward in Q4 2026,2026-12-18,7.11,20.3,7.0,1.38,100.0,90,none,open,,,,
-2026-10-19,SKYA,2026-10-29,SKYA: $3.00 tender expires one minute after 11:59 pm New York (filed 16 Oct; may be extended to about 12-13 Nov; non-US ,2026-11-20,2.57,42.5,2.5,1.02,50.2,1267,none,open,,,,
-2026-10-20,MG,2026-10-27,MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York,2026-11-20,21.44,21.1,25.0,4.53,154.2,142,none,open,,,,
-2026-10-20,CSR,2026-11-10,CSR: merger vote (IRT 3.80 shares per CSR share),2026-11-20,54.87,7.7,55.0,4.22,119.1,4,none,open,,,,
-2026-10-20,LCII,2026-11-18,"LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open",2026-11-20,81.92,10.5,80.0,8.3,81.8,13,none,open,,,,
-2026-10-21,WHF,2026-10-30,WHF: record date for the $0.17 special distribution (paid 10 Dec),2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,open,,,,
-2026-10-21,WHF,2026-11-09,"WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)",2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,open,,,,
+2026-10-19,SKYA,2026-10-29,SKYA: $3.00 tender expires one minute after 11:59 pm New York (filed 16 Oct; may be extended to about 12-13 Nov; non-US ,2026-11-20,2.57,42.5,2.5,1.02,50.2,1267,none,settled,2.18,15.2,-68.6,smaller
+2026-10-20,MG,2026-10-27,MG: go-shop for a higher bid than H.I.G.'s $20.35 ends 11:59 pm New York,2026-11-20,21.44,21.1,25.0,4.53,154.2,142,none,settled,20.19,5.8,6.2,smaller
+2026-10-20,CSR,2026-11-10,CSR: merger vote (IRT 3.80 shares per CSR share),2026-11-20,54.87,7.7,55.0,4.22,119.1,4,none,settled,54.9,0.1,-97.6,smaller
+2026-10-20,LCII,2026-11-18,"LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open",2026-11-20,81.92,10.5,80.0,8.3,81.8,13,none,settled,98.7,20.5,125.3,bigger
+2026-10-21,WHF,2026-10-30,WHF: record date for the $0.17 special distribution (paid 10 Dec),2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,settled,7.95,4.5,-43.8,smaller
+2026-10-21,WHF,2026-11-09,"WHF: Q3 results and call, 1:00 pm New York = 18:00 UK (corrected by the company's 8-K/A of 14 Oct)",2026-11-20,7.61,10.5,7.5,0.8,174.9,8,none,settled,7.95,4.5,-43.8,smaller
 2026-10-21,ACB,2026-12-04,ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain),2026-12-18,3.95,19.0,4.0,0.75,130.0,1490,none,open,,,,
-2026-10-26,SYNA,2026-11-17,SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00 UK),2026-11-20,117.39,2.5,115.0,2.9,71.4,329,smaller,open,,,,
-2026-10-28,MTUS,2026-11-02,"MTUS: Q3 results after the close (open position, trade #1)",2026-11-20,21.13,11.5,20.0,2.4,16.2,1587,none,open,,,,
-2026-10-28,MTUS,2026-11-03,MTUS: Q3 call 9am New York = 14:00 UK,2026-11-20,21.13,11.5,20.0,2.4,16.2,1587,none,open,,,,
-2026-10-28,NKLR,2026-11-16,NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts),2026-11-20,2.13,32.9,2.5,0.7,42.4,317,none,open,,,,
-2026-10-29,SKYA,2026-10-29,SKYA: tender NOT expiring today; extended to Thu 12 Nov (release 27 Oct),2026-11-20,2.95,28.8,2.5,0.85,93.3,2153,none,open,,,,
-2026-10-29,SKYA,2026-11-12,SKYA: $3.00 tender expires one minute after 11:59 pm New York (extended from 29 Oct; company agreed to drop the 30% with,2026-11-20,2.95,28.8,2.5,0.85,93.3,2153,smaller,open,,,,
-2026-11-02,ACB,2026-11-12,"ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)",2026-11-20,4.1,14.0,4.0,0.57,93.9,1533,smaller,open,,,,
-2026-11-02,SKYA,2026-11-12,"SKYA: tender expiry confirmed in Amendment No. 4, which drops the 30% withholding for non-US holders (T015)",2026-11-20,2.98,31.1,2.5,0.93,41.0,2678,smaller,open,,,,
-2026-11-02,ARTV,2026-11-16,ARTV: Q3 10-Q due (first wind-down cost estimate? T018),2026-11-20,4.21,22.0,5.0,0.93,83.3,2631,none,open,,,,
+2026-10-26,SYNA,2026-11-17,SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00 UK),2026-11-20,117.39,2.5,115.0,2.9,71.4,329,smaller,settled,115.74,1.4,-74.5,smaller
+2026-10-28,MTUS,2026-11-02,"MTUS: Q3 results after the close (open position, trade #1)",2026-11-20,21.13,11.5,20.0,2.4,16.2,1587,none,settled,15.53,26.5,86.3,bigger
+2026-10-28,MTUS,2026-11-03,MTUS: Q3 call 9am New York = 14:00 UK,2026-11-20,21.13,11.5,20.0,2.4,16.2,1587,none,settled,15.53,26.5,86.3,bigger
+2026-10-28,NKLR,2026-11-16,NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts),2026-11-20,2.13,32.9,2.5,0.7,42.4,317,none,settled,2.01,5.6,-30.0,smaller
+2026-10-29,SKYA,2026-10-29,SKYA: tender NOT expiring today; extended to Thu 12 Nov (release 27 Oct),2026-11-20,2.95,28.8,2.5,0.85,93.3,2153,none,settled,2.18,26.1,-62.4,smaller
+2026-10-29,SKYA,2026-11-12,SKYA: $3.00 tender expires one minute after 11:59 pm New York (extended from 29 Oct; company agreed to drop the 30% with,2026-11-20,2.95,28.8,2.5,0.85,93.3,2153,smaller,settled,2.18,26.1,-62.4,smaller
+2026-11-02,ACB,2026-11-12,"ACB: Q2 FY27 results before the open, call 8:00am New York (Curaleaf hostile offer still open)",2026-11-20,4.1,14.0,4.0,0.57,93.9,1533,smaller,settled,4.16,1.5,-71.9,smaller
+2026-11-02,SKYA,2026-11-12,"SKYA: tender expiry confirmed in Amendment No. 4, which drops the 30% withholding for non-US holders (T015)",2026-11-20,2.98,31.1,2.5,0.93,41.0,2678,smaller,settled,2.18,26.8,-65.6,smaller
+2026-11-02,ARTV,2026-11-16,ARTV: Q3 10-Q due (first wind-down cost estimate? T018),2026-11-20,4.21,22.0,5.0,0.93,83.3,2631,none,settled,3.78,10.2,31.2,smaller
 2026-11-02,TENX,2026-12-28,TENX: lead-plaintiff deadline in the securities class action,2027-01-15,1.79,43.7,2.0,0.82,113.8,1722,none,open,,,,
 2026-11-02,PUSA,2026-12-30,PUSA: second third of merger lock-up shares released (90 days after the 1 Oct close; date is our arithmetic),2027-01-15,1.68,134.1,2.5,2.25,125.7,4968,none,open,,,,
 2026-11-02,GPRO,2026-12-31,GPRO: outside date for the $1.14 cash plus stock takeover (accounts being restated; lenders' waivers needed),2027-01-15,0.93,32.2,1.0,0.3,34.3,41316,none,open,,,,
@@ -36,7 +36,7 @@ logged,ticker,event_date,event,expiry,spot,implied_move_pct,strike,straddle_cost
 2026-11-09,MSGK,2026-12-08,"MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)",2026-12-18,311.22,7.8,310.0,24.1,17.9,53,smaller,open,,,,
 2026-11-09,ACB,2027-01-06,ACB: earliest closing of the Organigram arrangement,2027-01-15,5.16,16.8,5.0,0.7,75.0,5284,none,open,,,,
 2026-11-11,ACB,2026-12-23,ACB: special meeting on the Organigram arrangement confirmed (virtual; T021),2027-01-15,5.11,15.7,5.0,0.8,62.5,5285,none,open,,,,
-2026-11-12,CTVA,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,9.29,10.2,10.0,0.95,63.0,542,none,open,,,,
-2026-11-12,VYLR,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,72.1,7.8,70.0,5.65,29.7,191,none,open,,,,
-2026-11-16,ACB,2026-11-18,ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021),2026-11-20,4.9,6.1,5.0,0.3,131.4,1782,,open,,,,
+2026-11-12,CTVA,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,9.29,10.2,10.0,0.95,63.0,542,none,settled,7.89,15.1,122.1,bigger
+2026-11-12,VYLR,2026-11-12,"CTVA and VYLR: Q3 results before the earnings call (10-Qs late, due within 5 days)",2026-11-20,72.1,7.8,70.0,5.65,29.7,191,none,settled,68.09,5.6,-66.2,smaller
+2026-11-16,ACB,2026-11-18,ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021),2026-11-20,4.9,6.1,5.0,0.3,131.4,1782,,settled,4.16,15.1,180.0,bigger
 2026-11-18,PTC,2026-12-17,"PTC: vote on Schneider $205 cash (11am ET); HSR, CFIUS and foreign approvals; closing by Q3 2027",2026-12-18,195.84,2.7,200.0,4.38,100.9,2598,smaller,open,,,,

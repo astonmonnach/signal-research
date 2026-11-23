@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `distress` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $2.61 (2026-11-20, ledger)
-- **Since first found:** **-52.2%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -51.2% vs IWM -7.8% = **-43.4 pts** vs IWM; direction 0, tracked only (18 days)
+- **Latest price:** $2.12 (2026-11-23, ledger)
+- **Since first found:** **-61.2%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -60.4% vs IWM -5.7% = **-54.8 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **CABO**: former CRO on the strategic-alternatives committee (8-K after the close). AVOID, public call #13. ([triage](../watch/digests/2026-11-02-triage.md)) · Research: Research: Mon 2 Nov 2026 (3. CABO: a restructuring officer joins the strategic-alternatives committee) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `distress` (direction 0): Former CRO joins the strategic-alternatives committee (8-K after the 30 Oct close); $700M revolver draw; AVOID, public call #13; source: daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: 8-K trigger phrase "bio-mention (strategic alternatives)" (other phrase (go-shop, bio-mention)) ([filing](https://www.sec.gov/Archives/edgar/data/1632127/000095015726001140/form8-k.htm))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for CABO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $2.61 | -52.2% | -51.2% | -7.8% |  | 18 | live |
+| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $2.12 | -61.2% | -60.4% | -5.7% |  | 21 | live |

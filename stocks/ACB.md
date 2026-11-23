@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $4.25 (2026-11-20, ledger) · 1d -0.1%, 5d -13.9%, 20d +9.7% (market context, 2026-11-20)
-- **Since first found:** **+7.1%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +6.8% vs IWM -6.2% = **+13.0 pts** vs IWM; direction 0, tracked only (30 days)
+- **Latest price:** $4.21 (2026-11-23, ledger) · 1d +1.1%, 5d -8.8%, 20d +7.8% (market context, 2026-11-23)
+- **Since first found:** **+6.0%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +5.8% vs IWM -4.0% = **+9.8 pts** vs IWM; direction 0, tracked only (33 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -13.9% vs peer median -13.4%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -8.8% vs peer median -8.6%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
@@ -22,6 +22,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- T021 ACB: $4.16.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-18](../scans/2026-11-18.md)**: Calendar: ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md))
@@ -46,5 +47,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.25 | +7.1% | +6.8% | -6.2% |  | 30 | live |
-| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.25 | -18.9% | -18.3% | -8.5% |  | 15 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.21 | +6.0% | +5.8% | -4.0% |  | 33 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.21 | -19.7% | -19.0% | -6.3% |  | 18 | live |

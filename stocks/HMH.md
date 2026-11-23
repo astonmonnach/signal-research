@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `insider_buy` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $10.90 (2026-11-20, ledger) · 1d -2.3%, 5d -11.2%, 20d -39.8% (market context, 2026-11-20)
-- **Since first found:** **-43.5%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -42.2% vs IWM -7.4% = **-34.9 pts** vs IWM; direction -1 → excess +34.9% (52 days)
+- **Latest price:** $11.38 (2026-11-23, ledger) · 1d +3.7%, 5d -1.7%, 20d -38.1% (market context, 2026-11-23)
+- **Since first found:** **-41.0%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -39.7% vs IWM -5.2% = **-34.5 pts** vs IWM; direction -1 → excess +34.5% (55 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -11.2% vs peer median -10.3%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** missed_peer_move: peer median -5.9% 5d vs HMH -1.7%; peers moved, it didn't. Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -101,7 +101,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **HMH** (watchlist): the CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (about $1.65M), while Baker Hughes and Akastor still hold 15,945,826… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `insider_buy` (direction 0): CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (~$1.65M) while BKR and Akastor still hold 15.9M each; tracked (overhang rule unchanged); source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `4` 19 Nov · Research: Research: Thu 19 Nov 2026 (3. HMH: the CFO buys under the overhang) ([note](../research/daily/2026-11-19.md))
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `4` 19 Nov
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **HMH** (watchlist): the CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (about $1.65M), while Baker Hughes and Akastor still hold 15,945,826… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `insider_buy` (direction 0): CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (~$1.65M) while BKR and Akastor still hold 15.9M each; tracked (overhang rule unchanged); source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000162828026075005/0001628280-26-075005-index.htm)) · Filings: `4` 19 Nov · Research: Research: Thu 19 Nov 2026 (3. HMH: the CFO buys under the overhang) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `SCHEDULE 13G` ×3 16 Nov, `SCHEDULE 13G/A` ×3 16 Nov
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000114036126043207/0001140361-26-043207-index.htm)) · Filings: `SCHEDULE 13G` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **HMH:** +10.9% on 11 Nov and +5.4% intraday on 12 Nov with no filing or release found. A Schroders 13G…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** no listed links. Saltire and Foxley are private (sellers: the Loggie family). Same…) ([note](../research/daily/2026-11-11.md))
@@ -126,8 +127,8 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $10.90 | -43.5% | -42.2% | -7.4% | +34.9% | 52 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $10.90 | -38.7% | -38.7% | -7.3% | +31.3% | 51 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $10.90 | -39.2% | -39.4% | -5.5% | +33.9% | 29 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $10.90 | -39.2% | -39.4% | -5.5% |  | 29 | live |
-| 2026-11-19 | `insider_buy` | 0 | -5.8% | +1.4% | $4.2M | $11.20 | $11.15 | $10.90 | -2.7% | -2.2% | -1.4% |  | 0 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $11.38 | -41.0% | -39.7% | -5.2% | +34.5% | 55 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $11.38 | -36.0% | -36.0% | -5.2% | +30.8% | 54 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.38 | -36.6% | -36.7% | -3.3% | +33.4% | 32 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.38 | -36.6% | -36.7% | -3.3% |  | 32 | live |
+| 2026-11-19 | `insider_buy` | 0 | -5.8% | +1.4% | $4.2M | $11.20 | $10.96 | $11.38 | +1.6% | +3.8% | +0.9% |  | 3 | live |

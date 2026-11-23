@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $49.64 (2026-11-20, ledger)
-- **Since first found:** **-14.7%** (found 2026-10-06 via `deal_acquirer` at $58.20). From the next open $56.73: -12.5% vs IWM -6.7% = **-5.8 pts** vs IWM; direction 0, tracked only (44 days)
+- **Latest price:** $51.36 (2026-11-23, ledger)
+- **Since first found:** **-11.8%** (found 2026-10-06 via `deal_acquirer` at $58.20). From the next open $56.73: -9.5% vs IWM -4.5% = **-5.0 pts** vs IWM; direction 0, tracked only (47 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-22](../scans/2026-11-22.md#press-releases)**: Press: Schneider Electric turns Industrial Intelligence into action at SPS 2026 (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/22/3407944/0/en/schneider-electric-turns-industrial-intelligence-into-action-at-sps-2026.html))
 - **[2026-10-20](../scans/2026-10-20.md#press-releases)**: Press: Water shortages will threaten growth within five years, say over half of European industrial leaders (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/20/3384049/0/en/water-shortages-will-threaten-growth-within-five-years-say-over-half-of-european-industrial-leaders.html))
 - **[2026-10-06](../scans/2026-10-06.md#new-setups)**: Logged as `deal_acquirer` (direction 0): Schneider Electric ADR -14.9% since Fri on the PTC deal (acquirer sell-off); source: daily research 6 Oct (research/daily/2026-10-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 6 Oct 2026 (- **The reaction:** PTC went from $144.03 to $193.03 (+34.0%). **Schneider's ADR (SBGSY) fell 14.9%.**) ([note](../research/daily/2026-10-06.md))
 
@@ -25,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for SBGSY ([rules](../ledger/RULES.md)):
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-06 | `deal_acquirer` | 0 | -7.5% | -5.2% | $19.8M | $58.20 | $56.73 | $49.64 | -14.7% | -12.5% | -6.7% |  | 44 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -7.5% | -5.2% | $19.8M | $58.20 | $56.73 | $51.36 | -11.8% | -9.5% | -4.5% |  | 47 | live |

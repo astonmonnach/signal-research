@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.025 (2026-11-20, ledger)
-- **Since first found:** **-98.9%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.5% vs IWM -7.3% = **-92.2 pts** vs IWM; direction -1 → excess +92.2% (51 days)
+- **Latest price:** $0.018 (2026-11-23, ledger)
+- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -5.2% = **-94.5 pts** vs IWM; direction -1 → excess +94.5% (54 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **NIVF** (public #9): a discounted offering with pre-funded warrants on 19 Nov (Aegis; final terms not filed yet); it opened about 75% lower. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md)) · Press: NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html)) · Research: Research: Thu 19 Nov 2026 (- **Calendar:** RWT 15 Dec and 31 Dec, INR 1 Dec, NUTX 30 Nov, RBCAA 11 Dec, TRMD 25 Nov, NIVF 1 Dec…) ([note](../research/daily/2026-11-19.md))
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **NIVF (#9)**: 71,428,570 shares (most as pre-funded warrants) at $0.035, about $2.5M. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: NewGenIvf Group Limited Announces Closing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407529/0/en/newgenivf-group-limited-announces-closing-of-2-5-million-underwritten-offering.html)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122441/0001213900-26-122441-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122681/ea031307301ex1-1.htm))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **NIVF** (public #9): a discounted offering with pre-funded warrants on 19 Nov (Aegis; final terms not filed yet); it opened about 75% lower. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md)) · Press: NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122016/0001213900-26-122016-index.htm)) · Research: Research: Thu 19 Nov 2026 (- **Calendar:** RWT 15 Dec and 31 Dec, INR 1 Dec, NUTX 30 Nov, RBCAA 11 Dec, TRMD 25 Nov, NIVF 1 Dec…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: NewGen Provides Business Update (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/16/3403460/0/en/newgen-provides-business-update.html))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -43.1%, found day -16.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/999999999526003533/9999999995-26-003533-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-14 4 NIVF +50% no_news $0.29 2.6 no -14.3% -15.0% +10.7% / -10.7% / -0.8% -36.1% -3.1% -49.0% -88.0%) ([note](../research/movers/outcomes-2026-11-11.md))
@@ -37,6 +39,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.025 | -98.9% | -99.5% | -7.3% | +92.2% | 51 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.025 | -97.9% | -97.8% | -8.1% |  | 22 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.025 | -89.2% | -88.9% | -6.0% | +82.9% | 4 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.018 | -99.2% | -99.7% | -5.2% | +94.5% | 54 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.018 | -98.5% | -98.4% | -5.9% |  | 25 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.018 | -92.2% | -91.9% | -3.8% | +88.2% | 7 | live |

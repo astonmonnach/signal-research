@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $0.800 (2026-11-20, ledger)
-- **Since first found:** **-40.7%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -42.0% vs IWM -7.8% = **-34.2 pts** vs IWM; direction 0, tracked only (18 days)
+- **Latest price:** $0.927 (2026-11-23, ledger)
+- **Since first found:** **-31.4%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -32.8% vs IWM -5.7% = **-27.2 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **MVIS**: going concern, $41.1M ATM, converts. AVOID, public call #12. ([triage](../watch/digests/2026-11-02-triage.md)) · Press: MicroVision Expands Collaboration with FieldAI Across Government and Industrial Autonomous Systems Programs (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3392810/0/en/microvision-expands-collaboration-with-fieldai-across-government-and-industrial-autonomous-systems-programs.html)) · Research: Research: Mon 2 Nov 2026 (2. MVIS: going concern, an ATM worth most of the company, a converting lender) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Going concern, $41.1M unused ATM, converts near $1.13; AVOID, public call #12; source: daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md) ([manual_calls.csv](../ledger/manual_calls.csv))
 - **[2026-10-30](../scans/2026-10-30.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/65770/000149315226049319/form10-q.htm))
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for MVIS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.800 | -40.7% | -42.0% | -7.8% |  | 18 | live |
+| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.927 | -31.4% | -32.8% | -5.7% |  | 21 | live |

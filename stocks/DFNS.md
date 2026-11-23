@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.21 (2026-11-20, ledger)
-- **Since first found:** **-70.5%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -70.8% vs IWM -6.0% = **-64.9 pts** vs IWM; direction -1 → excess +64.8% (25 days)
+- **Latest price:** $1.33 (2026-11-23, ledger)
+- **Since first found:** **-67.6%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -68.0% vs IWM -3.8% = **-64.2 pts** vs IWM; direction -1 → excess +64.2% (28 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DFNS (#2), WORX (#8):** NT 10-Qs filed 16 Nov; no 10-Q on EDGAR through 20 Nov. The extension ran out on Sat 21 Nov, so check Monday. ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: DFNS/WORX 10-Qs: extension ended 21 Nov; the 23 Nov calendar estimate stands. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/000118518526005490/0001185185-26-005490-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/000121390026118896/0001213900-26-118896-index.htm))
@@ -34,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.21 | -70.5% | -70.8% | -6.0% | +64.8% | 25 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.21 | -68.7% | -69.0% | -6.6% |  | 24 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.33 | -67.6% | -68.0% | -3.8% | +64.2% | 28 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.33 | -65.6% | -66.0% | -4.4% |  | 27 | live |

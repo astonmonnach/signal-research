@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $15.36 (2026-11-20, ledger)
-- **Since first found:** **-14.8%** (found 2026-11-10 via `activist_13d` at $18.03). From the next open $17.76: -13.5% vs IWM -8.2% = **-5.2 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $15.15 (2026-11-23, ledger)
+- **Since first found:** **-16.0%** (found 2026-11-10 via `activist_13d` at $18.03). From the next open $17.76: -14.7% vs IWM -6.1% = **-8.6 pts** vs IWM; direction 0, tracked only (12 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for ETD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `activist_13d` | 0 | -3.6% | -11.4% | $11.1M | $18.03 | $17.76 | $15.36 | -14.8% | -13.5% | -8.2% |  | 9 | live |
+| 2026-11-10 | `activist_13d` | 0 | -3.6% | -11.4% | $11.1M | $18.03 | $17.76 | $15.15 | -16.0% | -14.7% | -6.1% |  | 12 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $9.48 (2026-11-20, ledger)
-- **Since first found:** **-22.9%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -21.6% vs IWM -7.9% = **-13.7 pts** vs IWM; direction +1 → excess -13.7% (21 days)
+- **Latest price:** $7.54 (2026-11-23, ledger)
+- **Since first found:** **-38.7%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -37.6% vs IWM -5.8% = **-31.9 pts** vs IWM; direction +1 → excess -31.9% (24 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $9.48 | -22.9% | -21.6% | -7.9% | -13.7% | 21 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $9.48 | -21.7% | -22.5% | -8.5% | -14.0% | 15 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $9.48 | -16.2% | -16.1% | -4.5% |  | 14 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $7.54 | -38.7% | -37.6% | -5.8% | -31.9% | 24 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $7.54 | -37.7% | -38.4% | -6.3% | -32.0% | 18 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $7.54 | -33.3% | -33.3% | -2.3% |  | 17 | live |

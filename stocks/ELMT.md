@@ -104,10 +104,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05)); `longterm_research` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $18.47 (2026-11-20, ledger) · 1d -5.1%, 5d -6.7%, 20d -14.9% (market context, 2026-11-20)
-- **Since first found:** **-6.0%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -4.0% vs IWM -7.4% = **+3.4 pts** vs IWM; direction +1 → excess +3.4% (53 days)
+- **Latest price:** $18.63 (2026-11-23, ledger) · 1d +3.7%, 5d -2.4%, 20d -14.9% (market context, 2026-11-23)
+- **Since first found:** **-5.1%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -3.1% vs IWM -5.2% = **+2.1 pts** vs IWM; direction +1 → excess +2.1% (56 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -6.7% vs peer median -8.4%). Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -2.4% vs peer median +1.5%). Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -115,6 +115,7 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `144` 20 Nov · Research: Research: Sat 21 Nov 2026 (- ELMT: Form 144 for 500,000 shares through Goldman, about 1.6% (arith).) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: Q3 13F deadline (who bought MTUS/VYLR/ELMT) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md)**: Research: Research: Fri 13 Nov 2026 (- **Rule 144:** the bigger of 1% of the shares (about 241M) or average weekly volume over four weeks (about…) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (The selling limit you remembered from ELMT is Rule 144. An insider can sell, in any 3 months, the bigger of…) ([note](../research/NVDA-2026-11-13.html))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **ELMT**: director Jake Homiller named President of a new division, Elmet Refining and Trading ($300,000 salary). -11.9% on 10 Nov, +13.0% on 11 Nov. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `8-K` 10 Nov
@@ -140,6 +141,6 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.47 | -6.0% | -4.0% | -7.4% | +3.4% | 53 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.47 | -13.3% | -14.6% | -8.7% |  | 45 | live |
-| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $18.47 | -4.7% | -9.0% | -8.2% |  | 9 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $18.63 | -5.1% | -3.1% | -5.2% | +2.1% | 56 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $18.63 | -12.5% | -13.9% | -6.6% |  | 48 | live |
+| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $18.63 | -3.9% | -8.2% | -6.1% |  | 12 | live |

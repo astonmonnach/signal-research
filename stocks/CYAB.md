@@ -26,8 +26,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.065 (2026-11-20, ledger)
-- **Since first found:** **-67.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: -67.5% vs IWM -7.9% = **-59.5 pts** vs IWM; direction 0, tracked only (46 days)
+- **Latest price:** $1.60 (2026-11-23, ledger)
+- **Since first found:** **+697.5%** (found 2026-10-04 via `setup_supply_deficiency` at $0.200). From the next open $0.200: +697.5% vs IWM -5.8% = **+703.2 pts** vs IWM; direction 0, tracked only (49 days)
   - 5 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -52,9 +52,9 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $0.065 | -67.5% | -67.5% | -7.9% |  | 46 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $0.065 | -61.7% | -61.7% | -6.7% | +55.0% | 42 | live |
-| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $0.065 | -56.6% | -56.6% | -4.4% | +52.2% | 31 | live |
-| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $0.080 | $0.080 | $0.065 | -18.6% | -18.6% | -8.2% | +10.4% | 9 | live |
-| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $0.140 | $0.100 | $0.065 | -53.5% | -34.9% | -4.6% | +30.3% | 3 | live |
-| 2026-11-18 | `8k_reverse_split` | -1 | +25.0% | -20.0% | $6.4M | $0.080 | $0.070 | $0.065 | -18.6% | -7.0% | -4.2% | +2.8% | 1 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $0.200 | $0.200 | $1.60 | +697.5% | +697.5% | -5.8% |  | 49 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $0.170 | $0.170 | $1.60 | +838.2% | +838.2% | -4.5% | -842.7% | 45 | live |
+| 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $0.150 | $0.150 | $1.60 | +963.3% | +963.3% | -2.1% | -965.5% | 34 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $0.080 | $0.080 | $1.60 | +1893.8% | +1893.8% | -6.1% | -1899.8% | 12 | live |
+| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $0.140 | $0.100 | $1.60 | +1039.3% | +1495.0% | -2.3% | -1497.3% | 6 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 | +25.0% | -20.0% | $6.4M | $0.080 | $0.070 | $1.60 | +1893.8% | +2178.6% | -2.0% | -2180.6% | 4 | live |

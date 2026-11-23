@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $14.37 (2026-11-20, ledger) · 1d -1.9%, 5d -6.8%, 20d -6.9% (market context, 2026-11-20)
-- **Since first found:** **-11.2%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -13.0% vs IWM -8.1% = **-4.9 pts** vs IWM; direction 0, tracked only (22 days)
-- **Peers / sympathy:** no flag (self 5d -6.8% vs peer median -8.1%). Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Latest price:** $14.80 (2026-11-23, ledger) · 1d +2.1%, 5d -2.6%, 20d -2.8% (market context, 2026-11-23)
+- **Since first found:** **-8.6%** (found 2026-10-28 via `insider_cluster` at $16.19). From the next open $16.52: -10.4% vs IWM -5.9% = **-4.5 pts** vs IWM; direction 0, tracked only (25 days)
+- **Peers / sympathy:** missed_peer_move: peer median -5.3% 5d vs NPB -2.6%; peers moved, it didn't. Peer groups: SIC 6022 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: NPB: CMG purchase of the retail mortgage channels expected to complete (T017)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- T017 NPB, T019 SEER and T020 XPOF: deadlines 30 Nov.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NPB: Q3 10-Q due (exit charges; T017) ([calendar](../calendar/catalyst-dates.ics))
@@ -34,4 +35,4 @@ Every [ledger](../ledger/LEDGER.md) row for NPB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $14.37 | -11.2% | -13.0% | -8.1% |  | 22 | live |
+| 2026-10-28 | `insider_cluster` | 0 | -0.1% | +2.7% | $4.9M | $16.19 | $16.52 | $14.80 | -8.6% | -10.4% | -5.9% |  | 25 | live |

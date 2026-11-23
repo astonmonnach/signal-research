@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $15.90 (2026-11-20, ledger) · 1d -0.1%, 5d -7.5%, 20d -5.1% (market context, 2026-11-20)
-- **Since first found:** **-2.4%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: -2.6% vs IWM -4.5% = **+1.9 pts** vs IWM; direction +1 → excess +1.9% (32 days)
-  - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Latest price:** $16.35 (2026-11-23, ledger) · 1d +3.4%, 5d -3.3%, 20d -3.4% (market context, 2026-11-23)
+- **Since first found:** **+0.4%** (found 2026-10-16 via `tender_issuer_buyback` at $16.29). From the next open $16.32: +0.2% vs IWM -2.2% = **+2.4 pts** vs IWM; direction +1 → excess +2.4% (35 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,7 +17,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **BMEZ**: 13,178,845 shares tendered for 3,125,070, so about 23.7% will be bought (arith). ([triage](../watch/digests/2026-11-19-triage.md)) · Filings: `SC TO-I/A` 19 Nov
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `SC TO-I/A` 20 Nov · Research: Research: Sat 21 Nov 2026 (- Done: SSTI's tender (69.5% tendered), BMEZ final (23.7% accepted at $17.8458), INVE (69.8% prorated at…) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -7.9%, found day -0.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1785971/000119312526468965/0001193125-26-468965-index.htm))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **BMEZ**: 13,178,845 shares tendered for 3,125,070, so about 23.7% will be bought (arith). ([triage](../watch/digests/2026-11-19-triage.md)) · Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -6.2%, found day -3.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1785971/000119312526467488/0001193125-26-467488-index.htm)) · Filings: `SC TO-I/A` 19 Nov
 - **[2026-11-18](../scans/2026-11-18.md)**: Calendar: BMEZ: fund buyback tender at 98% of NAV for up to 5% of shares expires (5 pm New York) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-19](../scans/2026-10-19.md#watchlist-filings)**: Filings: `SC TO-I` 16 Oct; +12 older (Jan – Jun 2026) first picked up
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **BMEZ** (BlackRock Health Sciences Term Trust), issuer tender, takeable (median $2.27M). ([triage](../watch/digests/2026-10-18-triage.md)) · Triage: BMEZ, issuer tender: read, above. ([triage](../watch/digests/2026-10-18-triage.md)) · Logged as `tender_issuer_buyback` (direction 0): fund tender for up to 5% at 98% of NAV, expires 18 Nov; 10.3% discount on 9 Oct; heavy proration likely (inference); source: daily research 18 Oct (research/daily/2026-10-18.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sun 18 Oct 2026 (- **BMEZ:** a fund tender for up to 5% at 98% of NAV, expiring 18 Nov, at about a 10% discount. A 5% cap…) ([note](../research/daily/2026-10-18.md))
@@ -29,5 +31,7 @@ Every [ledger](../ledger/LEDGER.md) row for BMEZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $15.90 | -2.4% | -2.6% | -4.5% | +1.9% | 32 | live |
-| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $15.90 | -2.4% | -2.6% | -4.5% |  | 32 | live |
+| 2026-10-16 | `tender_issuer_buyback` | +1 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $16.35 | +0.4% | +0.2% | -2.2% | +2.4% | 35 | live |
+| 2026-10-18 | `tender_issuer_buyback` | 0 | +1.3% | -1.1% | $2.4M | $16.29 | $16.32 | $16.35 | +0.4% | +0.2% | -2.2% |  | 35 | live |
+| 2026-11-19 | `tender_issuer_buyback` | +1 | -6.2% | -3.0% | $3.2M | $15.92 | $16.16 | $16.35 | +2.7% | +1.2% | +0.9% | +0.3% | 3 | live |
+| 2026-11-20 | `tender_issuer_buyback` | +1 | -7.9% | -0.7% | $3.3M | $15.81 | $16.00 | $16.35 | +3.4% | +2.2% | -0.1% | +2.3% | 0 | live |

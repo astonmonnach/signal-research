@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $5.25 (2026-11-20, ledger)
-- **Since first found:** **-30.4%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: -31.0% vs IWM -7.8% = **-23.2 pts** vs IWM; direction 0, tracked only (18 days)
+- **Latest price:** $6.41 (2026-11-23, ledger)
+- **Since first found:** **-14.9%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: -15.6% vs IWM -5.7% = **-9.9 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **GRRR (#11):** 19 Nov results show "Proceeds from issuance of convertible notes 232,000,000". ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **GRRR** (call #11): Lind Fund III 13G, 9.99%; it is the note holder. ([triage](../watch/digests/2026-11-03-triage.md)) · Research: Research: Tue 3 Nov 2026 (- **GRRR (call #11):** a 13G names Lind Fund III at 9.99% (1,000,000 shares, 850,612 warrants and a note…) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **GRRR**: floating-price notes, up to $111.1M. AVOID, public call #11. ([triage](../watch/digests/2026-11-02-triage.md)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1903145/000092963826004177/0000929638-26-004177-index.htm)) · Research: Research: Mon 2 Nov 2026 (1. GRRR: floating-price notes four months after $25 convertibles) ([note](../research/daily/2026-11-02.md))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `setup_supply_convert` (direction 0): Up to $111.1M floating-price notes at 90% of the three lowest VWAPs after converts at $25.48; AVOID, public call #11; source: daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRRR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $5.25 | -30.4% | -31.0% | -7.8% |  | 18 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $6.41 | -14.9% | -15.6% | -5.7% |  | 21 | live |

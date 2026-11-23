@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.12 (2026-11-20, ledger)
-- **Since first found:** **-79.7%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.3% vs IWM -8.7% = **-71.6 pts** vs IWM; direction -1 → excess +71.6% (45 days)
+- **Latest price:** $1.14 (2026-11-23, ledger)
+- **Since first found:** **-79.3%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.0% vs IWM -6.6% = **-73.4 pts** vs IWM; direction -1 → excess +73.4% (48 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DFNS (#2), WORX (#8):** NT 10-Qs filed 16 Nov; no 10-Q on EDGAR through 20 Nov. The extension ran out on Sat 21 Nov, so check Monday. ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: DFNS/WORX 10-Qs: extension ended 21 Nov; the 23 Nov calendar estimate stands. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1674227/000121390026120827/0001213900-26-120827-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-19 2 WORX +94% no_news $2.68 2.0 no +48.5% +36.6% +15.1% / -20.4% / -8.0% -23.5% +70.9% -48.5% -51.1%) ([note](../research/movers/outcomes-2026-11-11.md))
@@ -37,6 +38,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.12 | -79.7% | -80.3% | -8.7% | +71.6% | 45 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.12 | -41.4% | -43.4% | -7.4% | +36.0% | 23 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.12 | -41.4% | -38.8% | -8.1% |  | 22 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.14 | -79.3% | -80.0% | -6.6% | +73.4% | 48 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.14 | -40.3% | -42.4% | -5.2% | +37.2% | 26 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.14 | -40.3% | -37.7% | -5.9% |  | 25 | live |

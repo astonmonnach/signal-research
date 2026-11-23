@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-11-01 (daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md))
-- **Latest price:** $1.37 (2026-11-20, ledger) · 1d -1.4%, 5d -13.1%, 20d -30.7% (market context, 2026-11-20)
-- **Since first found:** **-29.6%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -27.8% vs IWM -7.9% = **-19.9 pts** vs IWM; direction +1 → excess -19.9% (21 days)
+- **Latest price:** $1.42 (2026-11-23, ledger) · 1d +4.5%, 5d -4.0%, 20d -26.4% (market context, 2026-11-23)
+- **Since first found:** **-26.7%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -24.8% vs IWM -5.8% = **-19.0 pts** vs IWM; direction +1 → excess -19.0% (24 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: SEER -13.1% 5d vs peer median -3.4%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -4.0% vs peer median +2.1%). Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `4` 19 Nov · Research: Research: Sat 21 Nov 2026 (- SEER: tax sale.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T019 SEER $1.59, T020 XPOF $4.63, T021 ACB $4.99: no new filing. ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Watchlist prices on 11 Nov:** IMSR $2.56 (tracked since yesterday), SEER $1.59 (T019 open), CCAP $10.25…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **SEER** /: no cash return; $25.0M left on the old buyback, 61,000 shares bought in Q3. T019 not fired. ([triage](../watch/digests/2026-11-11-triage.md)) · Filings: `10-Q` 10 Nov, `8-K` 10 Nov · Research: Research: Wed 11 Nov 2026 (- **SEER (T019):** the Q3 release and 10-Q (10 Nov, after the close) announce no tender, special dividend or…) ([note](../research/daily/2026-11-11.md))
@@ -36,6 +37,6 @@ Every [ledger](../ledger/LEDGER.md) row for SEER ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.37 | -29.6% | -27.8% | -7.9% | -19.9% | 21 | live |
-| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.37 | -18.8% | -18.8% | -7.8% |  | 18 | live |
-| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.37 | -21.1% | -22.0% | -7.2% | -14.8% | 17 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.42 | -26.7% | -24.8% | -5.8% | -19.0% | 24 | live |
+| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.42 | -15.4% | -15.4% | -5.7% |  | 21 | live |
+| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.42 | -17.9% | -18.8% | -5.0% | -13.8% | 20 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $307.09 (2026-11-20, ledger) · 1d -0.2%, 5d -2.1%, 20d +5.2% (market context, 2026-11-20)
-- **Since first found:** **-1.3%** (found 2026-11-06 via `8k_spin_off` at $311.22). From the next open $312.01: -1.6% vs IWM -6.4% = **+4.8 pts** vs IWM; direction 0, tracked only (11 days)
-- **Peers / sympathy:** no flag (self 5d -2.1% vs peer median -1.9%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Latest price:** $311.29 (2026-11-23, ledger) · 1d +2.7%, 5d -0.7%, 20d +7.7% (market context, 2026-11-23)
+- **Since first found:** **+0.0%** (found 2026-11-06 via `8k_spin_off` at $311.22). From the next open $312.01: -0.2% vs IWM -4.2% = **+4.0 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** no flag (self 5d -0.7% vs peer median -1.4%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for MSGK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `8k_spin_off` | 0 | +2.3% | -1.9% | $145.3M | $311.22 | $312.01 | $307.09 | -1.3% | -1.6% | -6.4% |  | 11 | live |
+| 2026-11-06 | `8k_spin_off` | 0 | +2.3% | -1.9% | $145.3M | $311.22 | $312.01 | $311.29 | +0.0% | -0.2% | -4.2% |  | 14 | live |

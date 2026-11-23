@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $3.07 (2026-11-20, ledger)
-- **Since first found:** **-23.0%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: -24.5% vs IWM -6.4% = **-18.1 pts** vs IWM; direction 0, tracked only (11 days)
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Latest price:** $3.20 (2026-11-23, ledger) · 1d +6.7%, 5d -14.2%, 20d -56.5% (market context, 2026-11-23)
+- **Since first found:** **-19.5%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: -21.1% vs IWM -4.2% = **-16.8 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** solo_move: CCOI -14.2% 5d vs peer median -5.8%; peers didn't move with it. Peer groups: SIC 4899 (7) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Jun 2027: CCOI: $700M of 2027 notes mature (new going concern; AVOID register)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: Cogent Communications Announces Definitive Agreement to Sell Three Data Center Facilities (PR Newswire) ([release](https://www.prnewswire.com/news-releases/cogent-communications-announces-definitive-agreement-to-sell-three-data-center-facilities-302947462.html))
 - **[2026-11-06](../scans/2026-11-06.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): New going concern on $700M 2027 notes; already -48.7%; register only; source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 6 Nov 2026 (- **CCOI** (new going concern, $700M of notes due 15 Jun 2027), **DDD** (new $42.5M ATM plus 13.5M exchange…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1158324/000110465926123158/ccoi-20260930x10q.htm))
 
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for CCOI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $3.07 | -23.0% | -24.5% | -6.4% |  | 11 | live |
+| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $3.20 | -19.5% | -21.1% | -4.2% |  | 14 | live |

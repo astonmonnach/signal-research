@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $1.03 (2026-11-20, ledger)
-- **Since first found:** **-18.3%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -16.3% vs IWM -6.0% = **-10.3 pts** vs IWM; direction 0, tracked only (4 days)
+- **Latest price:** $1.16 (2026-11-23, ledger)
+- **Since first found:** **-7.9%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -5.7% vs IWM -3.8% = **-1.9 pts** vs IWM; direction 0, tracked only (7 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md))
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **GCTS (#16):** a director bought 50,000 at $1.15 on 17 Nov. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (- GCTS (#16): director, 50,000 at $1.15.) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1851961/000092963826004380/0000929638-26-004380-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **GCTS (#16)**: entered at the 16 Nov open, $1.23; $1.14 now. ([triage](../watch/digests/2026-11-17-triage.md)) · Research: Research: Tue 17 Nov 2026 (- **Public calls:** 17 calls, 15 open, 2 closed (both wrong). NCT (#3) back to open after the split fix…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **GCTS** (GCT Semiconductor): going-concern doubt; Indigo notes convert at 90% of the lowest 3-day VWAP and Obsidian notes at 95%; the at-the-market… ([triage](../watch/digests/2026-11-13-triage.md)) · Triage: **New AVOID register rows (17):** GCTS (public #16), SDOT, PROK, FATE, KLXE, NUAI, AIRO, XNDU, DGNX (takeable); BLNK, ICU, KITT, REKR, EYPT, LASE… ([triage](../watch/digests/2026-11-13-triage.md)) · Logged as `setup_supply_atm` (direction 0): Public AVOID #16: going concern, floating-price notes, ATM raised to $120M after $55.8M sold in nine months; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Fri 13 Nov 2026 (2. GCTS: a chip designer funding itself by selling stock (public AVOID #16)) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1851961/000119312526458474/gcts-20260930.htm))
@@ -27,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for GCTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.03 | -18.3% | -16.3% | -6.0% |  | 4 | live |
+| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.16 | -7.9% | -5.7% | -3.8% |  | 7 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $2.12 (2026-11-20, market context) · 1d -5.2%, 5d -4.3%, 20d +4.7% (market context, 2026-11-20)
+- **Latest price:** $2.19 (2026-11-23, market context) · 1d +9.0%, 5d +6.8%, 20d +8.4% (market context, 2026-11-23)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** missed_peer_move: peer median -17.7% 5d vs NKLR -4.3%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** missed_peer_move: peer median -6.6% 5d vs NKLR +6.8%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: Terra Innovatum and ALSYMEX Sign Engineering Contract to Advance SOLO™ Medical Radioisotope Production… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/23/3408327/0/en/terra-innovatum-and-alsymex-sign-engineering-contract-to-advance-solo-medical-radioisotope-production-capabilities.html))
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `424B3` 20 Nov, `8-K` 20 Nov · Research: Research: Sat 21 Nov 2026 (- NKLR passes the tests too, but its resale shares are insiders' and dormant.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Terra Innovatum Reports Third Quarter 2026 Financial Results and Continued Progress Toward First Solo™… (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404211/0/en/terra-innovatum-reports-third-quarter-2026-financial-results-and-continued-progress-toward-first-solo-reactor-deployment.html)) · Filings: `10-Q` 16 Nov
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))

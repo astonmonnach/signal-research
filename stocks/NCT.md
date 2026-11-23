@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $5.63 (2026-11-20, ledger)
-- **Since first found:** **+280.4%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +263.2% vs IWM -6.6% = **+269.8 pts** vs IWM; direction 0, tracked only (24 days)
+- **Latest price:** $5.47 (2026-11-23, ledger)
+- **Since first found:** **+269.6%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +252.9% vs IWM -4.4% = **+257.3 pts** vs IWM; direction 0, tracked only (27 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **NCT (#3) bug fixed**: after its 8-for-1 consolidation on 16 Nov the record showed the call closed at -520.65%. ([triage](../watch/digests/2026-11-17-triage.md)) · Research: Research: Tue 17 Nov 2026 (**Headline:** A catch-up run covering Friday 13 and Monday 16 Nov. **T1 Energy (TE) is public AVOID #17**: it…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NCT: 8-for-1 consolidation effective (public AVOID #3: the $1.75 invalidation level becomes $14.00) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-12](../scans/2026-11-12.md)**: Research: Research: Thu 12 Nov 2026 (- **Public calls:** NCT (#3) went $0.409 on 10 Nov to $0.72 on 11 Nov and $0.74 today, far below its $1.75…) ([note](../research/daily/2026-11-12.md))
@@ -33,4 +34,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $5.63 | +280.4% | +263.2% | -6.6% |  | 24 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $5.47 | +269.6% | +252.9% | -4.4% |  | 27 | live |

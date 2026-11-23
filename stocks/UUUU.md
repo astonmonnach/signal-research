@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `deal_dispute` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $5.05 (2026-11-20, ledger) · 1d -7.4%, 5d -23.0%, 20d -32.5% (market context, 2026-11-20)
-- **Since first found:** **-45.5%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -43.8% vs IWM -5.0% = **-38.8 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $5.30 (2026-11-23, ledger) · 1d +6.8%, 5d -12.3%, 20d -30.0% (market context, 2026-11-23)
+- **Since first found:** **-42.8%** (found 2026-10-13 via `8k_merger_agreement` at $9.27). From the next open $8.99: -41.0% vs IWM -2.8% = **-38.2 pts** vs IWM; direction 0, tracked only (40 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: UUUU -23.0% 5d vs peer median -9.0%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** solo_move: UUUU -12.3% 5d vs peer median -4.2%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -34,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for UUUU ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.05 | -45.5% | -43.8% | -5.0% |  | 37 | live |
-| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.05 | -39.5% | -37.6% | -4.3% |  | 36 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -10.7% | -4.0% | $86.3M | $9.27 | $8.99 | $5.30 | -42.8% | -41.0% | -2.8% |  | 40 | live |
+| 2026-10-14 | `deal_dispute` | 0 | -17.7% | -10.0% | $88.6M | $8.34 | $8.10 | $5.30 | -36.4% | -34.5% | -2.1% |  | 39 | live |

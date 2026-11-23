@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $2.00 (2026-11-20, ledger)
-- **Since first found:** **-30.8%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: -33.3% vs IWM -7.4% = **-25.9 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $2.20 (2026-11-23, ledger)
+- **Since first found:** **-23.7%** (found 2026-10-27 via `setup_supply_atm` at $2.89). From the next open $3.00: -26.5% vs IWM -5.2% = **-21.3 pts** vs IWM; direction 0, tracked only (26 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 24 Nov 2026: CALLS: review date of AVOID calls #6-7 (NNBR, NAUT)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-04](../scans/2026-11-04.md#triage-notes)**: Triage: **NAUT** (call #7): Perceptive selling below 5%. Supports the call. ([triage](../watch/digests/2026-11-04-triage.md)) · Research: Research: Wed 4 Nov 2026 (- **NAUT (call #7):** Perceptive filed a 13D/A showing it is selling in the open market and has gone below…) ([note](../research/daily/2026-11-04.md))
 - **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1808805/000119312526445289/0001193125-26-445289-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md)**: Research: Research: Fri 30 Oct 2026 (- QSI and NAUT re-rated from about 1x cash on sector momentum, to 2.0x and 4.2x.) ([note](../research/daily/2026-10-30.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for NAUT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $2.00 | -30.8% | -33.3% | -7.4% |  | 23 | live |
+| 2026-10-27 | `setup_supply_atm` | 0 | -7.2% | +18.4% | $28.0M | $2.89 | $3.00 | $2.20 | -23.7% | -26.5% | -5.2% |  | 26 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.58 (2026-11-20, ledger)
-- **Since first found:** **-21.4%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -22.2% vs IWM -6.7% = **-15.5 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $1.59 (2026-11-23, ledger)
+- **Since first found:** **-21.1%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -21.9% vs IWM -4.5% = **-17.4 pts** vs IWM; direction 0, tracked only (45 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526470333/0001193125-26-470333-index.htm))
+- **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526468631/0001193125-26-468631-index.htm))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526467059/0001193125-26-467059-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **DTI**: three more buys on 12-13 Nov (CEO 10,000 at $1.773, director Neuman 37,267 at $1.78, director Furst 36,569 at $1.70): five insiders in a… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `insider_cluster` (direction 0): Fifth to seventh buys by insiders on 12-13 Nov (CEO 10,000 at $1.773; Neuman 37,267 at $1.78; Furst 36,569 at $1.70); $1.57, below every buy; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526465482/0001193125-26-465482-index.htm)) · Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526463405/0001193125-26-463405-index.htm))
@@ -34,7 +36,7 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.58 | -21.4% | -22.2% | -6.7% |  | 42 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.58 | +12.1% | +13.7% | -4.5% |  | 14 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.58 | -1.9% | -2.5% | -7.8% |  | 8 | live |
-| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.58 | +2.6% | +1.9% | -3.2% |  | 2 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.59 | -21.1% | -21.9% | -4.5% |  | 45 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.59 | +12.4% | +14.0% | -2.3% |  | 17 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.59 | -1.6% | -2.2% | -5.6% |  | 11 | live |
+| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.59 | +2.9% | +2.3% | -0.9% |  | 5 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_selling` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $15.06 (2026-11-20, ledger) · 1d -0.1%, 5d -7.4%, 20d -18.1% (market context, 2026-11-20)
-- **Since first found:** **-11.6%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: -12.2% vs IWM -4.3% = **-7.8 pts** vs IWM; direction 0, tracked only (36 days)
-- **Peers / sympathy:** no flag (self 5d -7.4% vs peer median -7.5%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Latest price:** $14.61 (2026-11-23, ledger) · 1d -2.0%, 5d -9.1%, 20d -21.2% (market context, 2026-11-23)
+- **Since first found:** **-14.2%** (found 2026-10-14 via `holder_selling` at $17.03). From the next open $17.15: -14.8% vs IWM -2.1% = **-12.7 pts** vs IWM; direction 0, tracked only (39 days)
+- **Peers / sympathy:** no flag (self 5d -9.1% vs peer median -7.4%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `8-K/A` 19 Nov · Triage, dismissed: Large caps and over-$10B names (above), SPACs (FGII, TDAC), reverse-merger paperwork (PASG, HSCS merger S-4 items, BLNE), completed-deal pro formas… ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 16 Nov
 - **[2026-11-04](../scans/2026-11-04.md#watchlist-filings)**: Filings: `10-Q` 4 Nov, `8-K` 3 Nov
 - **[2026-11-03](../scans/2026-11-03.md#press-releases)**: Press: Talos Energy Announces Third Quarter 2026 Operational and Financial Results (PR Newswire) ([release](https://www.prnewswire.com/news-releases/talos-energy-announces-third-quarter-2026-operational-and-financial-results-302928376.html))
@@ -38,4 +39,4 @@ Every [ledger](../ledger/LEDGER.md) row for TALO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $15.06 | -11.6% | -12.2% | -4.3% |  | 36 | live |
+| 2026-10-14 | `holder_selling` | 0 | +4.8% | -3.0% | $48.5M | $17.03 | $17.15 | $14.61 | -14.2% | -14.8% | -2.1% |  | 39 | live |

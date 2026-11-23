@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $58.43 (2026-11-20, ledger)
-- **Since first found:** **-29.6%** (found 2026-11-01 via `insider_cluster` at $82.94). From the next open $84.27: -30.7% vs IWM -7.8% = **-22.9 pts** vs IWM; direction 0, tracked only (18 days)
+- **Latest price:** $69.12 (2026-11-23, ledger)
+- **Since first found:** **-16.7%** (found 2026-11-01 via `insider_cluster` at $82.94). From the next open $84.27: -18.0% vs IWM -5.7% = **-12.3 pts** vs IWM; direction 0, tracked only (21 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1116942/000119312526470573/0001193125-26-470573-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: TTM Technologies Announces Organizational Re-Alignment (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404136/0/en/ttm-technologies-announces-organizational-re-alignment.html))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1116942/000119312526452897/0001193125-26-452897-index.htm))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1116942/000119312526449379/0001193125-26-449379-index.htm))
@@ -31,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for TTMI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `insider_cluster` | 0 | +18.6% | -5.4% | $454.1M | $82.94 | $84.27 | $58.43 | -29.6% | -30.7% | -7.8% |  | 18 | live |
+| 2026-11-01 | `insider_cluster` | 0 | +18.6% | -5.4% | $454.1M | $82.94 | $84.27 | $69.12 | -16.7% | -18.0% | -5.7% |  | 21 | live |

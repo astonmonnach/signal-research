@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $2.13 (2026-11-20, ledger) · 1d -19.4%, 5d -19.7%, 20d -23.5% (market context, 2026-11-20)
-- **Since first found:** **-23.2%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -23.5% vs IWM -5.5% = **-18.0 pts** vs IWM; direction 0, tracked only (29 days)
-  - 5 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: INVE -19.7% 5d vs peer median -5.1%; peers didn't move with it. Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Latest price:** $2.07 (2026-11-23, ledger) · 1d -5.5%, 5d -19.8%, 20d -23.9% (market context, 2026-11-23)
+- **Since first found:** **-25.7%** (found 2026-10-21 via `8k_tender_offer` at $2.78). From the next open $2.79: -26.0% vs IWM -3.3% = **-22.7 pts** vs IWM; direction 0, tracked only (32 days)
+  - 6 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: INVE -19.8% 5d vs peer median +1.2%; peers didn't move with it. Peer groups: SIC 3577 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,7 +17,9 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: INVE Technologies Announces Preliminary Results of Its Tender Offer (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407389/8259/en/inve-technologies-announces-preliminary-results-of-its-tender-offer.html))
+- **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: INVE Technologies Announces Final Results of Its Tender Offer (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/23/3408290/8259/en/inve-technologies-announces-final-results-of-its-tender-offer.html))
+- **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- Done: SSTI's tender (69.5% tendered), BMEZ final (23.7% accepted at $17.8458), INVE (69.8% prorated at…) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: INVE Technologies Announces Preliminary Results of Its Tender Offer (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407389/8259/en/inve-technologies-announces-preliminary-results-of-its-tender-offer.html)) · Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -0.7%, found day -17.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026122419/0001213900-26-122419-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **INVE**: the Dutch tender ($2.85-3.40) expires today; at $2.64 a UK holder nets $2.00-2.42 after withholding (arith), below market. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: INVE tender expires today (above). EFSI/JMSB votes: no new filing since 16 Nov. ([triage](../watch/digests/2026-11-19-triage.md)) · Calendar: INVE: Dutch-auction tender ($2.85-3.40, up to $20M) expires 5pm New York ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -0.8%, found day +3.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000121390026121613/0001213900-26-121613-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before +0.8%, found day +0.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1036044/000119312526458392/inve-ex99_1.htm))
@@ -36,9 +38,10 @@ Every [ledger](../ledger/LEDGER.md) row for INVE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.13 | -23.2% | -23.5% | -5.5% |  | 29 | live |
-| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.13 | -23.2% | -23.5% | -5.5% | -17.9% | 29 | live |
-| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.13 | -21.8% | -21.2% | -5.5% |  | 28 | live |
-| 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.13 | -21.2% | -21.5% | -7.8% | -13.7% | 18 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.13 | -20.0% | -18.8% | -6.9% | -11.9% | 7 | live |
-| 2026-11-18 | `tender_issuer_buyback` | +1 | -0.8% | +3.0% | $1.2M | $2.72 | $2.73 | $2.13 | -21.5% | -21.8% | -4.2% | -17.6% | 1 | live |
+| 2026-10-21 | `8k_tender_offer` | 0 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.07 | -25.7% | -26.0% | -3.3% |  | 32 | live |
+| 2026-10-21 | `tender_issuer_buyback` | +1 | -6.3% | +25.2% | $2.5M | $2.78 | $2.79 | $2.07 | -25.7% | -26.0% | -3.3% | -22.7% | 32 | live |
+| 2026-10-22 | `tender_issuer_buyback` | 0 | +20.9% | -1.8% | $2.6M | $2.73 | $2.71 | $2.07 | -24.4% | -23.8% | -3.3% |  | 31 | live |
+| 2026-10-30 | `tender_issuer_buyback` | +1 | -1.8% | +1.1% | $2.8M | $2.71 | $2.72 | $2.07 | -23.8% | -24.1% | -5.7% | -18.4% | 21 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | +0.8% | +0.4% | $3.1M | $2.67 | $2.63 | $2.07 | -22.7% | -21.5% | -4.7% | -16.7% | 10 | live |
+| 2026-11-18 | `tender_issuer_buyback` | +1 | -0.8% | +3.0% | $1.2M | $2.72 | $2.73 | $2.07 | -24.1% | -24.4% | -2.0% | -22.4% | 4 | live |
+| 2026-11-20 | `tender_issuer_buyback` | +1 | -0.7% | -17.4% | $1.2M | $2.19 | $2.32 | $2.07 | -5.7% | -11.0% | -0.1% | -10.9% | 0 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_buy` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $9.10 (2026-11-20, ledger) · 1d -1.2%, 5d -22.2%, 20d -39.0% (market context, 2026-11-20)
-- **Since first found:** **-28.9%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -30.2% vs IWM -4.3% = **-25.8 pts** vs IWM; direction 0, tracked only (36 days)
+- **Latest price:** $9.19 (2026-11-23, ledger) · 1d -3.9%, 5d -14.6%, 20d -40.8% (market context, 2026-11-23)
+- **Since first found:** **-28.3%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -29.5% vs IWM -2.1% = **-27.4 pts** vs IWM; direction 0, tracked only (39 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: PED -22.2% 5d vs peer median -7.5%; peers didn't move with it. Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-20)
+- **Peers / sympathy:** no flag (self 5d -14.6% vs peer median -7.4%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `4` 19 Nov · Research: Research: Sat 21 Nov 2026 (- PED: director, 5,000 at $9.79.) ([note](../research/daily/2026-11-21.md))
+- **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1141197/000165495426010008/0001654954-26-010008-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **PED** (watchlist): 10% owner Kukes 8,138 at $13.26 (13 Nov), director Howie 5,000 at $10.60 (16 Nov), after a 25% fall on Q3. $9.85. ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `insider_cluster` (direction 0): 10% owner Kukes 8,138 at $13.26 (13 Nov) and director Howie 5,000 at $10.60 (16 Nov) after a 25% fall on Q3; $9.85; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `4` ×9 16 Nov, `8-K` 13 Nov · Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1141197/000165495426009857/0001654954-26-009857-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -9.8%, found day -10.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1141197/000165495426009781/ped_ex991.htm)) · Filings: `10-Q` 12 Nov
@@ -36,6 +38,6 @@ Every [ledger](../ledger/LEDGER.md) row for PED ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $9.10 | -28.9% | -30.2% | -4.3% |  | 36 | live |
-| 2026-11-13 | `8k_reverse_split` | -1 | -9.8% | -10.3% | $238k | $11.71 | $11.58 | $9.10 | -22.2% | -21.4% | -6.0% | +15.4% | 4 | live |
-| 2026-11-17 | `insider_cluster` | 0 | -25.8% | -11.9% | $229k | $9.48 | $9.50 | $9.10 | -4.0% | -4.2% | -3.2% |  | 2 | live |
+| 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $9.19 | -28.3% | -29.5% | -2.1% |  | 39 | live |
+| 2026-11-13 | `8k_reverse_split` | -1 | -9.8% | -10.3% | $238k | $11.71 | $11.58 | $9.19 | -21.5% | -20.6% | -3.8% | +16.9% | 7 | live |
+| 2026-11-17 | `insider_cluster` | 0 | -25.8% | -11.9% | $229k | $9.48 | $9.50 | $9.19 | -3.1% | -3.3% | -0.9% |  | 5 | live |
