@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $15.59 (2026-11-23, ledger) · 1d +0.1%, 5d -0.6%, 20d +159.4% (market context, 2026-11-23)
 - **Since first found:** **-0.1%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: -0.1% vs IWM -5.9% = **+5.8 pts** vs IWM; direction 0, tracked only (25 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -3.9%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -4.0%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-23)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions) - EnerSys now expects closing in Q1 2027, so expect an extension

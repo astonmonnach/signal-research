@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $3.20 (2026-11-23, ledger) · 1d +6.7%, 5d -14.2%, 20d -56.5% (market context, 2026-11-23)
-- **Since first found:** **-19.5%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: -21.1% vs IWM -4.2% = **-16.8 pts** vs IWM; direction 0, tracked only (14 days)
-- **Peers / sympathy:** solo_move: CCOI -14.2% 5d vs peer median -5.8%; peers didn't move with it. Peer groups: SIC 4899 (7) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Latest price:** $3.22 (2026-11-23, ledger) · 1d +6.8%, 5d -14.1%, 20d -56.5% (market context, 2026-11-23)
+- **Since first found:** **-19.1%** (found 2026-11-06 via `setup_supply_deficiency` at $3.98). From the next open $4.06: -20.7% vs IWM -4.2% = **-16.5 pts** vs IWM; direction 0, tracked only (14 days)
+- **Peers / sympathy:** solo_move: CCOI -14.1% 5d vs peer median -5.7%; peers didn't move with it. Peer groups: SIC 4899 (7) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 15 Jun 2027: CCOI: $700M of 2027 notes mature (new going concern; AVOID register)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -27,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for CCOI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $3.20 | -19.5% | -21.1% | -4.2% |  | 14 | live |
+| 2026-11-06 | `setup_supply_deficiency` | 0 | -39.6% | -15.1% | $13.9M | $3.98 | $4.06 | $3.22 | -19.1% | -20.7% | -4.2% |  | 14 | live |

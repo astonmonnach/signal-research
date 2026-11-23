@@ -8,7 +8,7 @@ _Deep dive pending._
 - **Tracked because:** [watchlist](../watch/watchlist.json)
 - **Latest price:** $311.29 (2026-11-23, ledger) · 1d +2.7%, 5d -0.7%, 20d +7.7% (market context, 2026-11-23)
 - **Since first found:** **+0.0%** (found 2026-11-06 via `8k_spin_off` at $311.22). From the next open $312.01: -0.2% vs IWM -4.2% = **+4.0 pts** vs IWM; direction 0, tracked only (14 days)
-- **Peers / sympathy:** no flag (self 5d -0.7% vs peer median -1.4%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (self 5d -0.7% vs peer median -1.3%). Peer groups: SIC 7990 (8) ([market context](../watch/context/latest.json), 2026-11-23)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 8 Dec 2026: MSGK: annual meeting (MSG Knickerbockers, formerly MSGS)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

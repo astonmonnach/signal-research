@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $36.48 (2026-11-18, ledger)
 - **Since first found:** **** (found 2026-10-08 via `8k_merger_agreement`). From the next open $36.48: +0.0% vs IWM -0.9% = **+0.9 pts** vs IWM; direction 0, tracked only (0 days)
   - 7 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d n/a vs peer median -3.9%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Peers / sympathy:** no flag (self 5d n/a vs peer median -3.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-18)
   - warning: only 1 daily bars (new listing?)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

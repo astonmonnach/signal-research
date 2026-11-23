@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.59 (2026-11-23, ledger)
-- **Since first found:** **-21.1%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -21.9% vs IWM -4.5% = **-17.4 pts** vs IWM; direction 0, tracked only (45 days)
+- **Latest price:** $1.58 (2026-11-23, ledger)
+- **Since first found:** **-21.6%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -22.4% vs IWM -4.5% = **-17.9 pts** vs IWM; direction 0, tracked only (45 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -36,7 +36,7 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.59 | -21.1% | -21.9% | -4.5% |  | 45 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.59 | +12.4% | +14.0% | -2.3% |  | 17 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.59 | -1.6% | -2.2% | -5.6% |  | 11 | live |
-| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.59 | +2.9% | +2.3% | -0.9% |  | 5 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.58 | -21.6% | -22.4% | -4.5% |  | 45 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.58 | +11.7% | +13.3% | -2.3% |  | 17 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.58 | -2.2% | -2.8% | -5.6% |  | 11 | live |
+| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.58 | +2.3% | +1.6% | -0.9% |  | 5 | live |

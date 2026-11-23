@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $32.62 (2026-11-23, ledger)
-- **Since first found:** **-18.1%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: -16.6% vs IWM -2.3% = **-14.3 pts** vs IWM; direction 0, tracked only (17 days)
+- **Latest price:** $32.75 (2026-11-23, ledger)
+- **Since first found:** **-17.8%** (found 2026-11-05 via `8k_lock_up` at $39.84). From the next open $39.12: -16.3% vs IWM -2.3% = **-14.0 pts** vs IWM; direction 0, tracked only (17 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for CVI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $32.62 | -18.1% | -16.6% | -2.3% |  | 17 | live |
-| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $32.62 | -14.5% | -15.1% | -4.2% |  | 14 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -24.6% | -7.4% | $86.8M | $39.84 | $39.12 | $32.75 | -17.8% | -16.3% | -2.3% |  | 17 | live |
+| 2026-11-06 | `setup_supply_resale` | 0 | -29.9% | -4.3% | $91.0M | $38.13 | $38.40 | $32.75 | -14.1% | -14.7% | -4.2% |  | 14 | live |

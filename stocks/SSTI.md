@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $8.24 (2026-11-18, ledger) · 1d +0.0%, 5d +0.1%, 20d -1.9% (market context, 2026-11-18)
 - **Since first found:** **+0.4%** (found 2026-09-29 via `8k_reverse_split` at $8.21). From the next open $8.21: +0.4% vs IWM -5.2% = **+5.5 pts** vs IWM; direction -1 → excess -5.5% (49 days)
   - 9 more ledger rows: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -6.3% 5d vs SSTI +0.1%; peers moved, it didn't. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-18)
+- **Peers / sympathy:** missed_peer_move: peer median -6.0% 5d vs SSTI +0.1%; peers moved, it didn't. Peer groups: SIC 7372 (8) ([market context](../watch/context/latest.json), 2026-11-18)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -45,7 +45,7 @@ Every [ledger](../ledger/LEDGER.md) row for SSTI ([rules](../ledger/RULES.md)): 
 | 2026-10-20 | `tender_third_party` | 0 | -0.6% | +1.4% | $2.9M | $8.40 | $8.39 | $8.24 | -1.9% | -1.8% | -4.0% |  | 28 | live |
 | 2026-10-21 | `merger_cvr` | 0 | +1.7% | +0.0% | $3.1M | $8.40 | $8.38 | $8.24 | -1.9% | -1.7% | -3.3% |  | 27 | live |
 | 2026-11-09 | `tender_third_party` | 0 | +0.2% | -0.2% | $765k | $8.32 | $8.32 | $8.24 | -1.0% | -1.0% | -5.0% |  | 8 | live |
-| 2026-11-12 | `8k_tender_offer` | 0 | -1.2% | +0.2% | $1.0M | $8.25 | $8.23 | $8.24 | -0.1% | +0.1% | -4.7% |  | 5 | live |
+| 2026-11-12 | `8k_tender_offer` | 0 | -1.2% | +0.2% | $1.0M | $8.25 | $8.23 | $8.24 | -0.1% | +0.1% | -4.8% |  | 5 | live |
 | 2026-11-18 | `8k_merger_agreement` | 0 | -0.4% | +0.0% | $1.3M | $8.24 |  | $8.24 |  |  |  |  |  | pending |
 | 2026-11-18 | `delisting` | 0 | -0.4% | +0.0% | $1.3M | $8.24 |  | $8.24 |  |  |  |  |  | pending |
 | 2026-11-18 | `tender_third_party` | 0 | -0.4% | +0.0% | $1.3M | $8.24 |  | $8.24 |  |  |  |  |  | pending |

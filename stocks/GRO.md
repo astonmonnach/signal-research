@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
 - **Latest price:** $1.39 (2026-11-23, ledger)
-- **Since first found:** **-13.3%** (found 2026-11-05 via `setup_supply_eloc` at $1.61). From the next open $1.61: -13.3% vs IWM -2.3% = **-11.1 pts** vs IWM; direction 0, tracked only (17 days)
+- **Since first found:** **-13.3%** (found 2026-11-05 via `setup_supply_eloc` at $1.61). From the next open $1.61: -13.3% vs IWM -2.3% = **-11.0 pts** vs IWM; direction 0, tracked only (17 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
