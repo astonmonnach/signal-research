@@ -117,6 +117,19 @@ def register_problems(reg_rows, calls):
     return out
 
 
+def not_buyable_problems(rows):
+    """Rule 2026-11-23 (DXYZ): a WATCH is a long the trader may buy, so it must be something a UK retail client
+    can buy. IBKR blocks US-listed funds with no PRIIPs KID (ETFs, closed-end funds). Confirmed blocks live in
+    ledger/not_buyable_uk.csv."""
+    p = ROOT / "ledger" / "not_buyable_uk.csv"
+    if not p.exists():
+        return []
+    blocked = {r["ticker"]: r["reason"] for r in csv.DictReader(open(p, encoding="utf-8"))}
+    return [f"{r.get('id')} {r['ticker']}: WATCH on a product a UK retail client can't buy ({blocked[r['ticker']]}); "
+            f"make it tracked, no call (rule 2026-11-23)"
+            for r in rows if r.get("status") == "open" and r.get("verdict") == "WATCH" and r.get("ticker") in blocked]
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.path.insert(0, str(ROOT / "briefing"))
@@ -127,6 +140,7 @@ def main():
     watchlist = set(json.load(open(ROOT / "watch" / "watchlist.json", encoding="utf-8"))["tickers"])
     found = problems(rows, verdicts, strategies, dt.date.today(), watchlist)
     found += tf1_label_problems(list(csv.DictReader(open(ROOT / "ledger" / "manual_calls.csv", encoding="utf-8"))))
+    found += not_buyable_problems(rows)
     found += register_problems(list(csv.DictReader(open(ROOT / "ledger" / "avoid_register.csv", encoding="utf-8"))),
                                list(csv.DictReader(open(ROOT / "calls" / "CALLS.csv", encoding="utf-8"))))
     print("\n".join(found) if found else f"triggers: {len(rows)} rows, no problems")
