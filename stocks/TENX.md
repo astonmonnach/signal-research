@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.37 (2026-11-24, ledger) · 1d +6.2%, 5d -3.5%, 20d -20.4% (market context, 2026-11-24)
-- **Since first found:** **-22.4%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -22.4% vs IWM -2.6% = **-19.8 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $1.37 (2026-11-24, ledger) · 1d +5.8%, 5d -3.9%, 20d -20.6% (market context, 2026-11-24)
+- **Since first found:** **-22.4%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -22.4% vs IWM -2.6% = **-19.9 pts** vs IWM; direction 0, tracked only (32 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: TENX -3.5% 5d vs peer median +0.7%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: TENX -3.9% 5d vs peer median +1.0%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: TENX: lead-plaintiff deadline in the securities class action
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

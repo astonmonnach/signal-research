@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $9.00 (2026-11-24, ledger) · 1d -1.5%, 5d -5.1%, 20d -42.2% (market context, 2026-11-24)
 - **Since first found:** **-29.7%** (found 2026-10-14 via `insider_buy` at $12.81). From the next open $13.04: -31.0% vs IWM -1.4% = **-29.6 pts** vs IWM; direction 0, tracked only (40 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -5.1% vs peer median -4.9%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** no flag (self 5d -5.1% vs peer median -5.0%). Peer groups: SIC 1311 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -41,5 +41,5 @@ Every [ledger](../ledger/LEDGER.md) row for PED ([rules](../ledger/RULES.md)): f
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-14 | `insider_buy` | 0 | +0.1% | -3.3% | $417k | $12.81 | $13.04 | $9.00 | -29.7% | -31.0% | -1.4% |  | 40 | live |
-| 2026-11-13 | `8k_reverse_split` | -1 | -9.8% | -10.3% | $238k | $11.71 | $11.58 | $9.00 | -23.1% | -22.3% | -3.1% | +19.2% | 8 | live |
-| 2026-11-17 | `insider_cluster` | 0 | -25.8% | -11.9% | $229k | $9.48 | $9.50 | $9.00 | -5.1% | -5.3% | -0.2% |  | 6 | live |
+| 2026-11-13 | `8k_reverse_split` | -1 | -9.8% | -10.3% | $238k | $11.71 | $11.58 | $9.00 | -23.1% | -22.3% | -3.0% | +19.2% | 8 | live |
+| 2026-11-17 | `insider_cluster` | 0 | -25.8% | -11.9% | $229k | $9.48 | $9.50 | $9.00 | -5.1% | -5.3% | -0.1% |  | 6 | live |

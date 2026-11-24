@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $6.51 (2026-11-24, ledger)
-- **Since first found:** **+339.9%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +320.0% vs IWM -3.7% = **+323.7 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $6.45 (2026-11-24, ledger)
+- **Since first found:** **+335.8%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +316.1% vs IWM -3.7% = **+319.8 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,4 +35,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $6.51 | +339.9% | +320.0% | -3.7% |  | 28 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $6.45 | +335.8% | +316.1% | -3.7% |  | 28 | live |

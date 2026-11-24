@@ -32,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for TE ([rules](../ledger/RULES.md)): fo
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.05 | -29.2% | -29.2% | -1.6% |  | 7 | live |
-| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.05 | -20.7% | -18.9% | -0.2% |  | 6 | live |
+| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.05 | -20.7% | -18.9% | -0.1% |  | 6 | live |

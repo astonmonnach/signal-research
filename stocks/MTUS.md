@@ -122,11 +122,11 @@ Log control: **IIIN at $29.56** (2 Oct) against MTUS at $19.89. IIIN on 5 Oct: $
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $16.10 (2026-11-24, ledger) · 1d -0.4%, 5d -2.5%, 20d -23.8% (market context, 2026-11-24)
-- **Since first found:** **-14.5%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -17.4% vs IWM -4.5% = **-12.9 pts** vs IWM; direction +1 → excess -12.9% (57 days)
+- **Latest price:** $16.05 (2026-11-24, ledger) · 1d -0.7%, 5d -2.8%, 20d -24.0% (market context, 2026-11-24)
+- **Since first found:** **-14.8%** (found 2026-09-25 via `s1_dod_contract` at $18.84). From the next open $19.50: -17.7% vs IWM -4.5% = **-13.2 pts** vs IWM; direction +1 → excess -13.2% (57 days)
   - 1 more ledger row: see Performance since found
 - **Position:** trade #1 (S1_CONTRACT_MCAP) closed 2026-11-05: LONG 3 @ $19.368 → $16.970, P&L after fees **$-10.28** (Sold intraday below the $17.00 line the morning after the Q4-guide sell-off (limit 16.90 day, filled 16.97 on IBKRATS))
-- **Peers / sympathy:** missed_peer_move: steel median -5.2% 5d vs MTUS -2.5%; peers moved, it didn't. Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** no flag (self 5d -2.8% vs peer median -4.8%). Peer groups: steel (7), defence metals (3), SIC 3312 (7) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [thesis](../ideas/MTUS.md) · [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -167,8 +167,8 @@ Every [ledger](../ledger/LEDGER.md) row for MTUS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.10 | -14.5% | -17.4% | -4.5% | -12.9% | 57 | live |
-| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.10 | -23.5% | -23.8% | -5.9% |  | 49 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -2.3% | -0.5% | $6.5M | $18.84 | $19.50 | $16.05 | -14.8% | -17.7% | -4.5% | -13.2% | 57 | live |
+| 2026-10-05 | `longterm_research` | 0 | +5.6% | +5.8% | $6.7M | $21.04 | $21.13 | $16.05 | -23.7% | -24.0% | -5.9% |  | 49 | live |
 
 **Trades** ([journal](../journal/trades.csv))
 

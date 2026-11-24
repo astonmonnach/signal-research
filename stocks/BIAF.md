@@ -33,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for BIAF ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $1.55 | -67.1% | -67.3% | -3.9% | +63.4% | 43 | live |
-| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.55 | -46.9% | -47.5% | -5.7% |  | 19 | live |
+| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.55 | -46.9% | -47.5% | -5.6% |  | 19 | live |
 | 2026-11-20 | `share_registration` | -1 | -20.9% | -10.8% | $226k | $1.65 | $1.67 | $1.55 | -5.8% | -6.9% | +0.6% | +7.5% | 1 | live |

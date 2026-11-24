@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-13 (nth run 13 Oct (research/BMBL-2026-10-13.html))
-- **Latest price:** $5.98 (2026-11-24, ledger) · 1d +0.1%, 5d -0.1%, 20d +0.1% (market context, 2026-11-24)
-- **Since first found:** **+0.5%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.5% vs IWM -2.1% = **+2.6 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $5.99 (2026-11-24, ledger) · 1d +0.2%, 5d +0.0%, 20d +0.2% (market context, 2026-11-24)
+- **Since first found:** **+0.6%** (found 2026-10-13 via `8k_merger_agreement` at $5.95). From the next open $5.95: +0.6% vs IWM -2.1% = **+2.6 pts** vs IWM; direction 0, tracked only (41 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.1% vs peer median -4.4%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** no flag (self 5d +0.0% vs peer median -4.3%). Peer groups: SIC 7370 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 25 Nov 2026: BMBL: HSR waiting period on the $6.05 cash take-private expires 11:59pm ET (written consent already delivered, no vote)
   - Mon 12 Jul 2027: BMBL: last date for the $6.05 Ithaca deal to close
@@ -43,5 +43,5 @@ Every [ledger](../ledger/LEDGER.md) row for BMBL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.98 | +0.5% | +0.5% | -2.1% |  | 41 | live |
-| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.98 | +0.5% | +0.5% | -2.1% |  | 41 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -2.1% |  | 41 | live |
+| 2026-10-13 | `merger_arb` | 0 | +49.0% | +56.6% | $48.0M | $5.95 | $5.95 | $5.99 | +0.6% | +0.6% | -2.1% |  | 41 | live |

@@ -40,5 +40,5 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.17 | -78.7% | -79.4% | -5.9% | +73.5% | 49 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.17 | -38.5% | -40.7% | -4.5% | +36.1% | 27 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.17 | -38.5% | -40.7% | -4.5% | +36.2% | 27 | live |
 | 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.17 | -38.5% | -35.8% | -5.2% |  | 26 | live |

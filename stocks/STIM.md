@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for STIM ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.45 | -40.5% | -41.3% | -1.6% |  | 18 | live |
-| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.45 | +1.1% | +19.4% | -4.1% |  | 11 | live |
+| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.45 | +1.1% | +19.4% | -4.0% |  | 11 | live |

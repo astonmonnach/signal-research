@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.03 | -64.4% | -63.5% | -2.1% | +61.4% | 41 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.03 | -53.2% | -53.2% | -3.1% |  | 29 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.03 | -42.5% | -41.1% | -4.1% | +37.1% | 11 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.03 | -53.2% | -53.2% | -3.0% |  | 29 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.03 | -42.5% | -41.1% | -4.0% | +37.1% | 11 | live |

@@ -101,8 +101,8 @@ BlackRock has no current 13G (the last was Feb 2024).
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_spinoff` logged 2026-10-01 (first trading day); `linked_peer` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $69.25 (2026-11-24, ledger) · 1d +1.8%, 5d -1.4%, 20d -3.9% (market context, 2026-11-24)
-- **Since first found:** **+1.4%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +0.8% vs IWM -5.2% = **+6.0 pts** vs IWM; direction 0, tracked only (53 days)
+- **Latest price:** $69.05 (2026-11-24, ledger) · 1d +1.8%, 5d -1.4%, 20d -4.0% (market context, 2026-11-24)
+- **Since first found:** **+1.2%** (found 2026-10-01 via `idea_spinoff` at $68.26). From the next open $68.71: +0.5% vs IWM -5.2% = **+5.7 pts** vs IWM; direction 0, tracked only (53 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** missed_peer_move: peer median -7.1% 5d vs VYLR -1.4%; peers moved, it didn't. Peer groups: seeds / ag (5), SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -139,8 +139,8 @@ Every [ledger](../ledger/LEDGER.md) row for VYLR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $69.25 | +1.4% | +0.8% | -5.2% |  | 53 | live |
-| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $69.25 | -5.6% | -3.7% | -5.9% |  | 49 | live |
-| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $69.25 | -5.1% | -6.2% | -3.1% |  | 47 | live |
-| 2026-11-12 | `8k_spin_off` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $69.25 | -3.9% | -4.2% | -4.1% |  | 11 | live |
-| 2026-11-12 | `linked_peer` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $69.25 | -3.9% | -4.2% | -4.1% |  | 11 | live |
+| 2026-10-01 | `idea_spinoff` | 0 |  |  | $1025.0M | $68.26 | $68.71 | $69.05 | +1.2% | +0.5% | -5.2% |  | 53 | live |
+| 2026-10-05 | `8k_spin_off` | 0 |  | +9.0% | $1063.4M | $73.33 | $71.91 | $69.05 | -5.8% | -4.0% | -5.9% |  | 49 | live |
+| 2026-10-07 | `8k_spin_off` | 0 |  | +0.1% | $871.1M | $72.99 | $73.86 | $69.05 | -5.4% | -6.5% | -3.1% |  | 47 | live |
+| 2026-11-12 | `8k_spin_off` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $69.05 | -4.2% | -4.4% | -4.0% |  | 11 | live |
+| 2026-11-12 | `linked_peer` | 0 | +1.2% | -0.1% | $248.1M | $72.06 | $72.24 | $69.05 | -4.2% | -4.4% | -4.0% |  | 11 | live |

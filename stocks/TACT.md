@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for TACT ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.55 | -7.7% | -5.8% | -4.9% |  | 12 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.55 | -6.7% | -4.2% | -4.1% | -0.1% | 11 | live |
-| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.55 | -6.2% | -3.2% | -3.1% |  | 8 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.55 | -6.7% | -4.2% | -4.0% | -0.2% | 11 | live |
+| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.55 | -6.2% | -3.2% | -3.0% |  | 8 | live |
