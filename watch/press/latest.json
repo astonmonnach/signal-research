@@ -1,98 +1,66 @@
 [
  {
-  "published_utc": "2026-11-23T13:30:00Z",
-  "wire": "PR Newswire",
-  "ticker": "CCOI",
-  "title": "Cogent Communications Announces Definitive Agreement to Sell Three Data Center Facilities",
-  "link": "https://www.prnewswire.com/news-releases/cogent-communications-announces-definitive-agreement-to-sell-three-data-center-facilities-302947462.html",
-  "matched_on": "manual_call;keyword:definitive agreement"
- },
- {
-  "published_utc": "2026-11-23T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "NKLR",
-  "title": "Terra Innovatum and ALSYMEX Sign Engineering Contract to Advance SOLO™ Medical Radioisotope Production Capabilities",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408327/0/en/terra-innovatum-and-alsymex-sign-engineering-contract-to-advance-solo-medical-radioisotope-production-capabilities.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-23T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "INVE",
-  "title": "INVE Technologies Announces Final Results of Its Tender Offer",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408290/8259/en/inve-technologies-announces-final-results-of-its-tender-offer.html",
-  "matched_on": "manual_call;keyword:tender offer"
- },
- {
-  "published_utc": "2026-11-23T11:45:00Z",
-  "wire": "PR Newswire",
-  "ticker": "BMM",
-  "title": "Blue Moon Receives Positive Initial Ore Sorting Results from Springer Mine",
-  "link": "https://www.prnewswire.com/news-releases/blue-moon-receives-positive-initial-ore-sorting-results-from-springer-mine-302947880.html",
-  "matched_on": "watchlist"
- },
- {
-  "published_utc": "2026-11-23T13:30:00Z",
+  "published_utc": "2026-11-23T21:30:00Z",
   "wire": "Business Wire",
-  "ticker": "RCUS",
-  "title": "Arcus Provides Update on Phase 3 PRISM-1 Study of Quemliclustat in Metastatic Pancreatic Cancer",
-  "link": "http://www.businesswire.com/news/home/20261123683072/en/Arcus-Provides-Update-on-Phase-3-PRISM-1-Study-of-Quemliclustat-in-Metastatic-Pancreatic-Cancer/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
-  "matched_on": "keyword:Phase 3"
+  "ticker": "VREX",
+  "title": "Varex Announces Financial Results for Fourth Quarter and Fiscal Year 2026",
+  "link": "http://www.businesswire.com/news/home/20261123106803/en/Varex-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year-2026/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-23T13:00:00Z",
+  "published_utc": "2026-11-23T21:30:00Z",
   "wire": "PR Newswire",
-  "ticker": "RSSS",
-  "title": "Research Solutions to Join KnowledgeWorks Global Ltd., a CJK Group Company in All-Cash Acquisition",
-  "link": "https://www.prnewswire.com/news-releases/research-solutions-to-join-knowledgeworks-global-ltd-a-cjk-group-company-in-all-cash-acquisition-302947935.html",
-  "matched_on": "keyword:definitive agreement;keyword:to be acquired"
+  "ticker": "THO",
+  "title": "THOR INDUSTRIES ANNOUNCES DATE FOR ITS FISCAL 2027 FIRST QUARTER EARNINGS RELEASE",
+  "link": "https://www.prnewswire.com/news-releases/thor-industries-announces-date-for-its-fiscal-2027-first-quarter-earnings-release-302948614.html",
+  "matched_on": "manual_call"
  },
  {
-  "published_utc": "2026-11-23T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "BAER;BAERW",
-  "title": "Bridger Aerospace Engages Perella Weinberg Partners to Explore Strategic Alternatives to Position the Company for Future Growth",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408289/0/en/bridger-aerospace-engages-perella-weinberg-partners-to-explore-strategic-alternatives-to-position-the-company-for-future-growth.html",
-  "matched_on": "keyword:strategic alternatives"
- },
- {
-  "published_utc": "2026-11-23T13:00:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "HUMA",
-  "title": "Humacyte Showcases Acellular Tissue Engineered Vessel (ATEV) Across Five Presentations at VEITHsymposium 2026",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408303/0/en/humacyte-showcases-acellular-tissue-engineered-vessel-atev-across-five-presentations-at-veithsymposium-2026.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-23T12:05:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "LTGO",
-  "title": "Latigo Biotherapeutics Initiates Phase 3 Bunionectomy Trial of Onzotrigine for Treatment of Moderate-to-Severe Acute Pain",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408228/0/en/latigo-biotherapeutics-initiates-phase-3-bunionectomy-trial-of-onzotrigine-for-treatment-of-moderate-to-severe-acute-pain.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-23T12:01:00Z",
-  "wire": "GlobeNewswire",
-  "ticker": "IVVD",
-  "title": "Invivyd Announces Positive DECLARATION Trial Data for Monoclonal Antibody VYD2311, and Ushers in a New Era for Immunization",
-  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408225/0/en/invivyd-announces-positive-declaration-trial-data-for-monoclonal-antibody-vyd2311-and-ushers-in-a-new-era-for-immunization.html",
-  "matched_on": "keyword:Phase 3"
- },
- {
-  "published_utc": "2026-11-23T11:30:00Z",
+  "published_utc": "2026-11-23T21:30:00Z",
   "wire": "Business Wire",
-  "ticker": "Q",
-  "title": "Qnity to Acquire Meridian’s Electronics Business, Expands Advanced Packaging and Thermal Management Capabilities",
-  "link": "http://www.businesswire.com/news/home/20261123086552/en/Qnity-to-Acquire-Meridian%E2%80%99s-Electronics-Business-Expands-Advanced-Packaging-and-Thermal-Management-Capabilities/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
+  "ticker": "LCNB",
+  "title": "LCNB Corp. Announces New Stock Repurchase Program",
+  "link": "http://www.businesswire.com/news/home/20261123414006/en/LCNB-Corp.-Announces-New-Stock-Repurchase-Program/?feedref=JjAwJuNHiystnCoBq_hl-cPRduB1a9bFJ2GUF2oqMSl7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX-cQmQc1S7JVYqsASti4BlQ",
+  "matched_on": "keyword:stock repurchase"
  },
  {
-  "published_utc": "2026-11-23T10:32:00Z",
+  "published_utc": "2026-11-23T21:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "PTON",
+  "title": "Peloton Interactive, Inc. Authorizes $300 Million Share Repurchase Program Following Successful Debt Refinancing and Continued Strong Cash Flow",
+  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408884/0/en/peloton-interactive-inc-authorizes-300-million-share-repurchase-program-following-successful-debt-refinancing-and-continued-strong-cash-flow.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-23T21:05:00Z",
+  "wire": "PR Newswire",
+  "ticker": "HQI",
+  "title": "HireQuest Announces Extension of Existing $20 Million Share Repurchase Program",
+  "link": "https://www.prnewswire.com/news-releases/hirequest-announces-extension-of-existing-20-million-share-repurchase-program-302948648.html",
+  "matched_on": "keyword:share repurchase"
+ },
+ {
+  "published_utc": "2026-11-23T21:04:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "BP",
+  "title": "BP p.l.c. Announces Offer Yields and Total Consideration for Cash Tender Offers for USD Notes for Aggregate Purchase Consideration of Up to $6 Billion",
+  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408867/0/en/bp-p-l-c-announces-offer-yields-and-total-consideration-for-cash-tender-offers-for-usd-notes-for-aggregate-purchase-consideration-of-up-to-6-billion.html",
+  "matched_on": "keyword:tender offer"
+ },
+ {
+  "published_utc": "2026-11-23T21:01:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "HIFS",
+  "title": "Hingham Declares Regular and Special Dividend",
+  "link": "https://www.globenewswire.com/news-release/2026/11/23/3408864/33478/en/hingham-declares-regular-and-special-dividend.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-11-23T14:00:00Z",
   "wire": "Business Wire",
-  "ticker": "CRWD;ZS",
-  "title": "CrowdStrike to Acquire Zscaler, Bringing Network Security and Zero Trust to the Falcon Platform",
-  "link": "http://www.businesswire.com/news/home/20261123522174/en/CrowdStrike-to-Acquire-Zscaler-Bringing-Network-Security-and-Zero-Trust-to-the-Falcon-Platform/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
-  "matched_on": "keyword:definitive agreement"
+  "ticker": "XOM",
+  "title": "ExxonMobil: Announces Pricing Terms, Expiration and Results of Cash Tender Offers for Outstanding 2030 1.900% Senior Notes, 2031 2.150% Senior Notes, 2030 3.482% Notes and 2040 4.227% Notes",
+  "link": "http://www.businesswire.com/news/home/20261123715983/en/ExxonMobil-Announces-Pricing-Terms-Expiration-and-Results-of-Cash-Tender-Offers-for-Outstanding-2030-1.900-Senior-Notes-2031-2.150-Senior-Notes-2030-3.482-Notes-and-2040-4.227-Notes/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s",
+  "matched_on": "keyword:tender offer"
  }
 ]
