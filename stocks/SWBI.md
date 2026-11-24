@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_overhang` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $15.77 (2026-11-23, ledger)
-- **Since first found:** **+4.4%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: +4.5% vs IWM -3.4% = **+7.9 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $15.51 (2026-11-24, ledger)
+- **Since first found:** **+2.7%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: +2.8% vs IWM -2.6% = **+5.4 pts** vs IWM; direction 0, tracked only (33 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for SWBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $15.77 | +4.4% | +4.5% | -3.4% |  | 32 | live |
-| 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $15.77 | +9.9% | +10.3% | -3.4% |  | 31 | live |
-| 2026-10-28 | `activist_13d` | +1 | -6.1% | +0.1% | $7.0M | $13.89 | $14.02 | $15.77 | +13.5% | +12.5% | -6.0% | +18.5% | 25 | live |
+| 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $15.51 | +2.7% | +2.8% | -2.6% |  | 33 | live |
+| 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $15.51 | +8.1% | +8.4% | -2.6% |  | 32 | live |
+| 2026-10-28 | `activist_13d` | +1 | -6.1% | +0.1% | $7.0M | $13.89 | $14.02 | $15.51 | +11.6% | +10.6% | -5.2% | +15.8% | 26 | live |

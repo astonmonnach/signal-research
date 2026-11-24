@@ -48709,8 +48709,10 @@
    "sic": "0100"
   },
   "1781162": {
-   "fetched": "2026-10-20",
-   "sic": "3760"
+   "fetched": "2026-11-24",
+   "name": "Momentus Inc.",
+   "sic": "3760",
+   "sic_description": "Guided Missiles & Space Vehicles & Parts"
   },
   "1781174": {
    "fetched": "2026-10-07",

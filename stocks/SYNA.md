@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $117.05 (2026-11-23, ledger) · 1d +1.1%, 5d -0.4%, 20d -0.2% (market context, 2026-11-23)
-- **Since first found:** **-1.7%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.4% vs IWM -4.6% = **+2.2 pts** vs IWM; direction 0, tracked only (45 days)
+- **Latest price:** $117.25 (2026-11-24, ledger) · 1d +0.1%, 5d -0.2%, 20d -0.8% (market context, 2026-11-24)
+- **Since first found:** **-1.5%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.2% vs IWM -3.8% = **+1.6 pts** vs IWM; direction 0, tracked only (46 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.4% vs peer median -1.1%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** missed_peer_move: peer median -9.3% 5d vs SYNA -0.2%; peers moved, it didn't. Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#watchlist-filings)**: Filings: `144` 23 Nov
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **SYNA, VCTR**: votes held 17 Nov (8-Ks filed). **LCII**: holders approved the Patrick merger on 18 Nov (20,049,918 for, 480,909 against); the… ([triage](../watch/digests/2026-11-19-triage.md)) · Filings: `4` ×4 18 Nov, `144` 18 Nov, `8-K` 17 Nov
 - **[2026-11-18](../scans/2026-11-18.md#press-releases)**: Press: Synaptics Stockholders Approve Merger with onsemi (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/18/3405839/35894/en/synaptics-stockholders-approve-merger-with-onsemi.html))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.2%, found day -0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/817720/000081772026000111/syna-20261117.htm)) · Calendar: SYNA: vote on onsemi's $123 cash deal (9:00 Pacific = 17:00 UK) ([calendar](../calendar/catalyst-dates.ics))
@@ -38,8 +39,8 @@ Every [ledger](../ledger/LEDGER.md) row for SYNA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.05 | -1.7% | -2.4% | -4.6% |  | 45 | live |
-| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.05 | -2.3% | -2.3% | -4.7% |  | 42 | live |
-| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.05 | +0.0% | -0.1% | -2.2% |  | 34 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | -0.9% | -0.9% | $135.0M | $116.40 | $116.70 | $117.05 | +0.6% | +0.3% | -2.4% |  | 17 | live |
-| 2026-11-17 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $131.0M | $117.36 | $117.54 | $117.05 | -0.3% | -0.4% | -1.0% |  | 5 | live |
+| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.25 | -1.5% | -2.2% | -3.8% |  | 46 | live |
+| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.25 | -2.1% | -2.1% | -3.9% |  | 43 | live |
+| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.25 | +0.2% | +0.0% | -1.4% |  | 35 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | -0.9% | -0.9% | $135.0M | $116.40 | $116.70 | $117.25 | +0.7% | +0.5% | -1.6% |  | 18 | live |
+| 2026-11-17 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $131.0M | $117.36 | $117.54 | $117.25 | -0.1% | -0.2% | -0.2% |  | 6 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-11-01 (daily research 30 Oct, written 1 Nov (research/daily/2026-10-30.md))
-- **Latest price:** $1.39 (2026-11-23, ledger) · 1d +2.2%, 5d -6.1%, 20d -28.0% (market context, 2026-11-23)
-- **Since first found:** **-28.4%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -26.5% vs IWM -5.9% = **-20.6 pts** vs IWM; direction +1 → excess -20.6% (24 days)
+- **Latest price:** $1.47 (2026-11-24, ledger) · 1d +5.0%, 5d +0.7%, 20d -25.0% (market context, 2026-11-24)
+- **Since first found:** **-24.2%** (found 2026-10-29 via `8k_strategic_review` at $1.94). From the next open $1.89: -22.2% vs IWM -5.1% = **-17.1 pts** vs IWM; direction +1 → excess -17.1% (25 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: SEER -6.1% 5d vs peer median +2.0%; peers didn't move with it. Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (self 5d +0.7% vs peer median +2.5%). Peer groups: SIC 3826 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -37,6 +37,6 @@ Every [ledger](../ledger/LEDGER.md) row for SEER ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.39 | -28.4% | -26.5% | -5.9% | -20.6% | 24 | live |
-| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.39 | -17.3% | -17.3% | -5.8% |  | 21 | live |
-| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.39 | -19.6% | -20.6% | -5.1% | -15.4% | 20 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | -2.0% | -2.5% | $390k | $1.94 | $1.89 | $1.47 | -24.2% | -22.2% | -5.1% | -17.1% | 25 | live |
+| 2026-11-01 | `below_cash` | 0 | -1.5% | -13.4% | $411k | $1.68 | $1.68 | $1.47 | -12.5% | -12.5% | -5.0% |  | 22 | live |
+| 2026-11-02 | `activist_13d` | +1 | -14.7% | +3.0% | $378k | $1.73 | $1.75 | $1.47 | -15.0% | -16.0% | -4.4% | -11.6% | 21 | live |

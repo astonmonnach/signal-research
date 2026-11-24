@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md)); `going_private` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $5.27 (2026-11-23, ledger)
-- **Since first found:** **-8.3%** (found 2026-11-06 via `activist_13d` at $5.75). From the next open $5.77: -8.7% vs IWM -4.3% = **-4.3 pts** vs IWM; direction +1 → excess -4.3% (14 days)
+- **Latest price:** $5.30 (2026-11-24, ledger)
+- **Since first found:** **-7.7%** (found 2026-11-06 via `activist_13d` at $5.75). From the next open $5.77: -8.1% vs IWM -3.5% = **-4.5 pts** vs IWM; direction +1 → excess -4.5% (15 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for XYF ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `activist_13d` | +1 | -3.9% | +22.3% | $337k | $5.75 | $5.77 | $5.27 | -8.3% | -8.7% | -4.3% | -4.3% | 14 | live |
-| 2026-11-10 | `merger_arb` | 0 | +14.9% | -4.0% | $390k | $5.34 | $5.27 | $5.27 | -1.3% | +0.0% | -6.2% |  | 12 | live |
-| 2026-11-21 | `going_private` | 0 | -4.2% | -1.7% | $514k | $5.18 | $5.31 | $5.27 | +1.7% | -0.8% | -0.2% |  | 0 | live |
+| 2026-11-06 | `activist_13d` | +1 | -3.9% | +22.3% | $337k | $5.75 | $5.77 | $5.30 | -7.7% | -8.1% | -3.5% | -4.5% | 15 | live |
+| 2026-11-10 | `merger_arb` | 0 | +14.9% | -4.0% | $390k | $5.34 | $5.27 | $5.30 | -0.7% | +0.7% | -5.4% |  | 13 | live |
+| 2026-11-21 | `going_private` | 0 | -4.2% | -1.7% | $514k | $5.18 | $5.31 | $5.30 | +2.4% | -0.1% | +0.6% |  | 1 | live |

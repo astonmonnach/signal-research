@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $24.42 (2026-11-23, ledger) · 1d +3.5%, 5d -10.1%, 20d -13.1% (market context, 2026-11-23)
-- **Since first found:** **+3.5%** (found 2026-11-20 via `activist_13d` at $23.60). From the next open $24.56: -0.6% vs IWM -0.2% = **-0.4 pts** vs IWM; direction +1 → excess -0.4% (0 days)
+- **Latest price:** $24.26 (2026-11-24, ledger) · 1d -0.9%, 5d -8.4%, 20d -13.7% (market context, 2026-11-24)
+- **Since first found:** **+2.8%** (found 2026-11-20 via `activist_13d` at $23.60). From the next open $24.56: -1.2% vs IWM +0.6% = **-1.8 pts** vs IWM; direction +1 → excess -1.8% (1 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 26 May 2027: DXYZ: 2027 director nomination window opens (WATCH T025, Saba 7.58%)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: T025 DXYZ: tracked (not UK-buyable). ([triage](../watch/digests/2026-11-24-triage.md)) · Filings: `SCHEDULE 13D` 20 Nov; +17 older (Aug – Nov 2026) first picked up
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DXYZ**: Saba at 7.58% ($96.2M), its first 13D here. Item 4 names the NAV discount, open versus closed end, and liquidation timing. ([triage](../watch/digests/2026-11-21-triage.md)) · Logged as `holder_13d` (direction 0): Saba first 13D, 7.58% ($96.2M); 38.4% below the 30 Sep NAV (arith); WATCH T025; source: daily research 21 Nov (research/daily/2026-11-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 21 Nov 2026 (2. DXYZ: Saba's first 13D, at a 38% discount) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -2.0%, found day -4.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1843974/000106299326006212/0001062993-26-006212-index.htm))
 
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for DXYZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-20 | `activist_13d` | +1 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.42 | +3.5% | -0.6% | -0.2% | -0.4% | 0 | live |
-| 2026-11-21 | `holder_13d` | 0 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.42 | +3.5% | -0.6% | -0.2% |  | 0 | live |
+| 2026-11-20 | `activist_13d` | +1 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.26 | +2.8% | -1.2% | +0.6% | -1.8% | 1 | live |
+| 2026-11-21 | `holder_13d` | 0 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.26 | +2.8% | -1.2% | +0.6% |  | 1 | live |

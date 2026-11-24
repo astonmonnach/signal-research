@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $4.64 (2026-11-23, ledger)
-- **Since first found:** **-2.7%** (found 2026-11-13 via `merger_arb` at $4.77). From the next open $4.75: -2.3% vs IWM -3.9% = **+1.5 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $4.70 (2026-11-24, ledger)
+- **Since first found:** **-1.4%** (found 2026-11-13 via `merger_arb` at $4.77). From the next open $4.75: -1.0% vs IWM -3.1% = **+2.1 pts** vs IWM; direction 0, tracked only (8 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for SANG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `merger_arb` | 0 | +6.7% | +0.0% | $256k | $4.77 | $4.75 | $4.64 | -2.7% | -2.3% | -3.9% |  | 7 | live |
+| 2026-11-13 | `merger_arb` | 0 | +6.7% | +0.0% | $256k | $4.77 | $4.75 | $4.70 | -1.4% | -1.0% | -3.1% |  | 8 | live |

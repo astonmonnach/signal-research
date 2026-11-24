@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $8.29 (2026-11-23, ledger)
-- **Since first found:** **-32.6%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -31.4% vs IWM -5.9% = **-25.6 pts** vs IWM; direction +1 → excess -25.6% (24 days)
-  - 2 more ledger rows: see Performance since found
+- **Latest price:** $7.68 (2026-11-24, ledger)
+- **Since first found:** **-37.6%** (found 2026-10-29 via `8k_strategic_review` at $12.30). From the next open $12.09: -36.5% vs IWM -5.1% = **-31.4 pts** vs IWM; direction +1 → excess -31.4% (25 days)
+  - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -9.4%, found day -11.8%) ([filing](https://www.sec.gov/Archives/edgar/data/876427/000119312526471010/d125105dex991.htm))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **MNRO, LFCR, GPMT**: tracked, no call (research note, Also found). ([triage](../watch/digests/2026-11-05-triage.md)) · Logged as `activist_13d` (direction 0): Rights plan extended to Nov 2027 for the strategic review; Icahn ~16%, Gabelli 10.65%; no dated trigger; tracked; source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- **MNRO:** the rights plan was extended to 1 Nov 2027 "to support the Company's ongoing review of strategic…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -17.9%, found day +4.1%) ([filing](https://www.sec.gov/Archives/edgar/data/876427/000119312526447246/d459293d8k.htm))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before +0.5%, found day -14.0%) ([filing](https://www.sec.gov/Archives/edgar/data/876427/000119312526437009/d12848dex991.htm))
@@ -27,6 +28,7 @@ Every [ledger](../ledger/LEDGER.md) row for MNRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $8.29 | -32.6% | -31.4% | -5.9% | -25.6% | 24 | live |
-| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $8.29 | -31.5% | -32.2% | -6.5% | -25.8% | 18 | live |
-| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $8.29 | -26.7% | -26.6% | -2.4% |  | 17 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +0.5% | -14.0% | $10.6M | $12.30 | $12.09 | $7.68 | -37.6% | -36.5% | -5.1% | -31.4% | 25 | live |
+| 2026-11-04 | `8k_strategic_review` | +1 | -17.9% | +4.1% | $12.4M | $12.11 | $12.23 | $7.68 | -36.6% | -37.2% | -5.7% | -31.6% | 19 | live |
+| 2026-11-05 | `activist_13d` | 0 | -15.3% | -6.6% | $12.5M | $11.31 | $11.30 | $7.68 | -32.1% | -32.1% | -1.6% |  | 18 | live |
+| 2026-11-23 | `8k_strategic_review` | +1 | -9.4% | -11.8% | $14.5M | $8.38 | $8.38 | $7.68 | -8.4% | -8.4% | +1.4% | -9.8% | 0 | live |

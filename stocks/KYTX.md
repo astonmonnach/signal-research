@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $4.48 (2026-11-23, ledger)
-- **Since first found:** **-23.9%** (found 2026-10-28 via `linked_peer` at $5.89). From the next open $5.91: -24.2% vs IWM -6.0% = **-18.2 pts** vs IWM; direction 0, tracked only (25 days)
+- **Latest price:** $4.76 (2026-11-24, ledger)
+- **Since first found:** **-19.2%** (found 2026-10-28 via `linked_peer` at $5.89). From the next open $5.91: -19.5% vs IWM -5.2% = **-14.2 pts** vs IWM; direction 0, tracked only (26 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for KYTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -6.8% | +4.6% | $5.1M | $5.89 | $5.91 | $4.48 | -23.9% | -24.2% | -6.0% |  | 25 | live |
+| 2026-10-28 | `linked_peer` | 0 | -6.8% | +4.6% | $5.1M | $5.89 | $5.91 | $4.76 | -19.2% | -19.5% | -5.2% |  | 26 | live |

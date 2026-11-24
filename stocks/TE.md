@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.19 (2026-11-23, ledger)
-- **Since first found:** **-20.1%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -20.1% vs IWM -2.4% = **-17.7 pts** vs IWM; direction 0, tracked only (6 days)
+- **Latest price:** $1.05 (2026-11-24, ledger)
+- **Since first found:** **-29.2%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -29.2% vs IWM -1.6% = **-27.6 pts** vs IWM; direction 0, tracked only (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **TE (#17)** 13D/A: Trina distributed 3,000,000 employee shares and is outside Section 16. -13% on 24 Nov, no filing. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1992243/000091228226001537/0000912282-26-001537-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **TE (#17):** 424B7 resale of 18,858,524 Evervolt shares, 6.1% of 307,601,542 (arith). ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **TE** (public #17): a new resale prospectus for 18,858,524 shares held by Evervolt (18 Nov); the CFO was also made president. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **New AVOID register rows (11):** TE (public #17), CTGO, STEM, NFE, OPTX, TCRT, FEAM (takeable); SOS, FRTT, LINK, ENLV (not takeable). ([triage](../watch/digests/2026-11-17-triage.md)) · Triage: **TE** (T1 Energy) /: a new $100M Roth ATM on top of about 154.9M shares behind convertible preferred and three note series (about 51.5% of 300.6M… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `setup_supply_atm` (direction 0): Public AVOID #17: $100M ATM plus convert and preferred overhang of about 51.5%; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (1. TE: supply on top of supply (public AVOID #17)) ([note](../research/daily/2026-11-17.md))
@@ -29,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for TE ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.19 | -20.1% | -20.1% | -2.4% |  | 6 | live |
-| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.19 | -10.5% | -8.5% | -1.0% |  | 5 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.05 | -29.2% | -29.2% | -1.6% |  | 7 | live |
+| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.05 | -20.7% | -18.9% | -0.2% |  | 6 | live |

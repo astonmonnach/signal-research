@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $9.94 (2026-11-23, ledger) · 1d +1.4%, 5d -1.4%, 20d +14.2% (market context, 2026-11-23)
-- **Since first found:** **+7.6%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +0.4% vs IWM -5.1% = **+5.5 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $10.02 (2026-11-24, ledger) · 1d +0.9%, 5d +1.3%, 20d +12.4% (market context, 2026-11-24)
+- **Since first found:** **+8.4%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +1.2% vs IWM -4.3% = **+5.5 pts** vs IWM; direction 0, tracked only (14 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: CCAP: record date for the final $0.03 special dividend (WATCH T023)
   - Sun 31 Jan 2027: CCAP: T023 deadline, check the buyback and Sun Life buying in the filings
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#watchlist-filings)**: Filings: `4` ×2 23 Nov
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- Also open: T003 WHF and T023 CCAP ($9.80).) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **CCAP** (watchlist): the CEO bought 5,000 at $9.98 and the CFO 2,000 at $10.09; the 17 Nov 8-K amends the Remora joint venture. T023 not met. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md)) · Filings: `4` ×2 18 Nov, `8-K` 17 Nov · Research: Research: Thu 19 Nov 2026 (- **Insider picks overall:** still 0 for 2 on calls, and the review found insider clusters lag similar…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1633336/000119312526467132/0001193125-26-467132-index.htm))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for CCAP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $9.94 | +7.6% | +0.4% | -5.1% |  | 13 | live |
-| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $9.94 | -4.2% | -3.0% | -6.2% |  | 12 | live |
+| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $10.02 | +8.4% | +1.2% | -4.3% |  | 14 | live |
+| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $10.02 | -3.5% | -2.3% | -5.4% |  | 13 | live |

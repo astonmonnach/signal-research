@@ -6,17 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_warrants` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $0.887 (2026-11-23, ledger)
-- **Since first found:** **-26.7%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -27.3% vs IWM -4.5% = **-22.8 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $1.02 (2026-11-24, ledger)
+- **Since first found:** **-15.7%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -16.4% vs IWM -3.7% = **-12.7 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **#2-5 closed on 23 Nov, all right:** DFNS +67.0%, NCT +56.4%, TMCR +26.2%, OSTX +25.4%. Closed record: 4 right, 2 wrong. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md)**: Calendar: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-30 OSTX -2.3 -1.5 -6.9 -4.6 -11.5 -10.8 -24.6 $1.30 warrant inducement offer expires (public AVOID…) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-10-30](../scans/2026-10-30.md)**: Calendar: OSTX: $1.30 warrant inducement offer expires (public AVOID call #5) ([calendar](../calendar/catalyst-dates.ics))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for OSTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $0.887 | -26.7% | -27.3% | -4.5% |  | 27 | live |
+| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $1.02 | -15.7% | -16.4% | -3.7% |  | 28 | live |

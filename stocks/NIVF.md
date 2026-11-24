@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.020 (2026-11-23, ledger)
-- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.6% vs IWM -5.3% = **-94.4 pts** vs IWM; direction -1 → excess +94.4% (54 days)
+- **Latest price:** $0.017 (2026-11-24, ledger)
+- **Since first found:** **-99.3%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -4.5% = **-95.2 pts** vs IWM; direction -1 → excess +95.2% (55 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **NIVF:** split still tentative. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **NIVF (#9):** the 1-for-100 split is still only tentative (1 Dec); no confirming filing. **WORX (#8):**…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **NIVF (#9)**: 71,428,570 shares (most as pre-funded warrants) at $0.035, about $2.5M. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: NewGenIvf Group Limited Announces Closing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407529/0/en/newgenivf-group-limited-announces-closing-of-2-5-million-underwritten-offering.html)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122441/0001213900-26-122441-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122681/ea031307301ex1-1.htm))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **NIVF** (public #9): a discounted offering with pre-funded warrants on 19 Nov (Aegis; final terms not filed yet); it opened about 75% lower. ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: 18 calls, 16 open, 2 closed (both wrong). All 15 calls open before today are in our favour; GCTS (#16) +11%, TE (#17) +2%, NIVF (#9) +97%. ([triage](../watch/digests/2026-11-19-triage.md)) · Press: NewGenIvf Group Limited Announces Pricing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/19/3406560/0/en/newgenivf-group-limited-announces-pricing-of-2-5-million-underwritten-offering.html)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122016/0001213900-26-122016-index.htm)) · Research: Research: Thu 19 Nov 2026 (- **Calendar:** RWT 15 Dec and 31 Dec, INR 1 Dec, NUTX 30 Nov, RBCAA 11 Dec, TRMD 25 Nov, NIVF 1 Dec…) ([note](../research/daily/2026-11-19.md))
@@ -39,6 +40,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.020 | -99.2% | -99.6% | -5.3% | +94.4% | 54 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.020 | -98.4% | -98.3% | -6.0% |  | 25 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.020 | -91.6% | -91.3% | -3.9% | +87.4% | 7 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.017 | -99.3% | -99.7% | -4.5% | +95.2% | 55 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.017 | -98.6% | -98.5% | -5.2% |  | 26 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.017 | -92.6% | -92.4% | -3.1% | +89.3% | 8 | live |

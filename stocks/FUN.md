@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $10.85 (2026-11-23, ledger)
-- **Since first found:** **-6.5%** (found 2026-11-16 via `activist_13d` at $11.61). From the next open $11.55: -6.1% vs IWM -2.4% = **-3.6 pts** vs IWM; direction +1 → excess -3.6% (6 days)
+- **Latest price:** $11.71 (2026-11-24, ledger)
+- **Since first found:** **+0.9%** (found 2026-11-16 via `activist_13d` at $11.61). From the next open $11.55: +1.4% vs IWM -1.6% = **+3.0 pts** vs IWM; direction +1 → excess +3.0% (7 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md)**: Research: Research: Tue 24 Nov 2026 (- **WIX:** ValueAct 7% plus swaps; capital allocation, dividends and M&A; about $2.7B, +5.7% on the first…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1999001/000199900126000124/0001999001-26-000124-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **FUN**: director Jaffer (H Partners) bought another 550,000 at $11.13-11.91; H Partners now 7,725,000. ([triage](../watch/digests/2026-11-19-triage.md)) · Research: Research: Thu 19 Nov 2026 (- **Insider picks overall:** still 0 for 2 on calls, and the review found insider clusters lag similar…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1999001/000199900126000121/0001999001-26-000121-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **FUN** 13D: H Partners back to 7.2% (7.4M shares bought 6-16 Nov at $10.00-11.73); a board seat and a standstill to the 2027 AGM; not its first 13D. ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `activist_13d` (direction 0): H Partners back to 7.2% (7.4M shares, bought 6-16 Nov at $10.00-11.73); board seat and standstill to the 2027 AGM; not its first 13D; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (- **FUN:** H Partners back at 7.2% with a board seat; not its first 13D; a standstill runs to the 2027 AGM.) ([note](../research/daily/2026-11-17.md))
@@ -29,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for FUN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `activist_13d` | +1 | +15.5% | +0.5% | $56.6M | $11.61 | $11.55 | $10.85 | -6.5% | -6.1% | -2.4% | -3.6% | 6 | live |
-| 2026-11-17 | `activist_13d` | 0 | +7.9% | -5.6% | $56.4M | $10.96 | $10.79 | $10.85 | -1.0% | +0.6% | -1.0% |  | 5 | live |
+| 2026-11-16 | `activist_13d` | +1 | +15.5% | +0.5% | $56.6M | $11.61 | $11.55 | $11.71 | +0.9% | +1.4% | -1.6% | +3.0% | 7 | live |
+| 2026-11-17 | `activist_13d` | 0 | +7.9% | -5.6% | $56.4M | $10.96 | $10.79 | $11.71 | +6.8% | +8.5% | -0.2% |  | 6 | live |

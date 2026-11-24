@@ -6,19 +6,19 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.30 (2026-11-23, ledger)
-- **Since first found:** **-68.4%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -68.8% vs IWM -3.9% = **-64.9 pts** vs IWM; direction -1 → excess +64.9% (28 days)
+- **Latest price:** $1.24 (2026-11-24, ledger)
+- **Since first found:** **-69.8%** (found 2026-10-23 via `registration_effective` at $4.11). From the next open $4.16: -70.2% vs IWM -3.1% = **-67.1 pts** vs IWM; direction -1 → excess +67.1% (29 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
-  - Mon 23 Nov 2026: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **#2-5 closed on 23 Nov, all right:** DFNS +67.0%, NCT +56.4%, TMCR +26.2%, OSTX +25.4%. Closed record: 4 right, 2 wrong. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: **DFNS:** 10-Q on time; shares +74% through the equity line. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: DFNS/WORX 10-Qs (23 Nov): filed. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md)**: Calendar: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX) ([calendar](../calendar/catalyst-dates.ics)) · Calendar: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DFNS (#2), WORX (#8):** NT 10-Qs filed 16 Nov; no 10-Q on EDGAR through 20 Nov. The extension ran out on Sat 21 Nov, so check Monday. ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: DFNS/WORX 10-Qs: extension ended 21 Nov; the 23 Nov calendar estimate stands. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1787518/000118518526005490/0001185185-26-005490-index.htm))
@@ -35,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for DFNS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.30 | -68.4% | -68.8% | -3.9% | +64.9% | 28 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.30 | -66.4% | -66.8% | -4.5% |  | 27 | live |
+| 2026-10-23 | `registration_effective` | -1 | -17.8% | -18.6% | $3.2M | $4.11 | $4.16 | $1.24 | -69.8% | -70.2% | -3.1% | +67.1% | 29 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | -14.7% | -5.8% | $3.2M | $3.87 | $3.91 | $1.24 | -68.0% | -68.3% | -3.7% |  | 28 | live |

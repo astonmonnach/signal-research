@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $9.48 (2026-11-23, ledger)
-- **Since first found:** **-51.7%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -50.9% vs IWM -4.5% = **-46.4 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $8.94 (2026-11-24, ledger)
+- **Since first found:** **-54.5%** (found 2026-10-12 via `linked_peer` at $19.64). From the next open $19.31: -53.7% vs IWM -3.7% = **-50.0 pts** vs IWM; direction 0, tracked only (42 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -23.4%, found day +10.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1956955/999999999526003598/9999999995-26-003598-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008698/0001683168-26-008698-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage, dismissed: MEDS, NDRA, UMAC, PSQL: passive or lender 13Gs. ([triage](../watch/digests/2026-11-11-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`D`) ([filing](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008244/0001683168-26-008244-index.htm))
@@ -28,4 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for UMAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $9.48 | -51.7% | -50.9% | -4.5% |  | 41 | live |
+| 2026-10-12 | `linked_peer` | 0 | -6.9% | -5.7% | $58.5M | $19.64 | $19.31 | $8.94 | -54.5% | -53.7% | -3.7% |  | 42 | live |
+| 2026-11-23 | `registration_effective` | -1 | -23.4% | +10.1% | $40.7M | $9.51 | $9.48 | $8.94 | -6.0% | -5.8% | +1.4% | +7.1% | 0 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $5.88 (2026-11-23, ledger)
-- **Since first found:** **-33.3%** (found 2026-10-28 via `linked_peer` at $8.81). From the next open $8.75: -32.8% vs IWM -6.0% = **-26.8 pts** vs IWM; direction 0, tracked only (25 days)
+- **Latest price:** $6.03 (2026-11-24, ledger)
+- **Since first found:** **-31.6%** (found 2026-10-28 via `linked_peer` at $8.81). From the next open $8.75: -31.1% vs IWM -5.2% = **-25.9 pts** vs IWM; direction 0, tracked only (26 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **IBRX** (over $2B): Oberland can take up to $400M in shares (about 6.2%, no leak-out cap). Noted, not registered. ([triage](../watch/digests/2026-11-24-triage.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1326110/000119312526471020/0001193125-26-471020-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: ImmunityBio Named No. 2 Fastest-Growing Technology Company in North America on the 2026 Deloitte Technology… (Business Wire) ([release](http://www.businesswire.com/news/home/20261119011953/en/ImmunityBio-Named-No.-2-Fastest-Growing-Technology-Company-in-North-America-on-the-2026-Deloitte-Technology-Fast-500%E2%84%A2/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-12](../scans/2026-11-12.md#triage-notes)**: Triage, dismissed: RXO 425 (podcast excerpt), VWAV non-binding LOI, ESLT contract (over $10B), NNDM AGM notice, LEU board seat, RLYB reverse split for a known merger… ([triage](../watch/digests/2026-11-12-triage.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: ImmunityBio to Participate in UK Investor Conferences During London Life Sciences Week 2026 (Business Wire) ([release](http://www.businesswire.com/news/home/20261110032259/en/ImmunityBio-to-Participate-in-UK-Investor-Conferences-During-London-Life-Sciences-Week-2026/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==)) · Press: New U.S. Survey of Military Service Members and Veterans with Non-Muscle Invasive Bladder Cancer Reveals 53%… (Business Wire) ([release](http://www.businesswire.com/news/home/20261111272974/en/New-U.S.-Survey-of-Military-Service-Members-and-Veterans-with-Non-Muscle-Invasive-Bladder-Cancer-Reveals-53-Were-Diagnosed-at-Age-50-or-Younger-and-Barriers-to-Care/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
@@ -30,4 +32,4 @@ Every [ledger](../ledger/LEDGER.md) row for IBRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `linked_peer` | 0 | -1.6% | +2.1% | $144.7M | $8.81 | $8.75 | $5.88 | -33.3% | -32.8% | -6.0% |  | 25 | live |
+| 2026-10-28 | `linked_peer` | 0 | -1.6% | +2.1% | $144.7M | $8.81 | $8.75 | $6.03 | -31.6% | -31.1% | -5.2% |  | 26 | live |

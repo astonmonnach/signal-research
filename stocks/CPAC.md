@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.77 (2026-11-23, ledger) · 1d -0.9%, 5d +0.0%, 20d +1.2% (market context, 2026-11-23)
-- **Since first found:** **+0.8%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: +0.9% vs IWM -3.4% = **+4.3 pts** vs IWM; direction 0, tracked only (32 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.0% vs peer median +0.0%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Latest price:** $12.41 (2026-11-24, ledger) · 1d -2.2%, 5d -3.6%, 20d -2.9% (market context, 2026-11-24)
+- **Since first found:** **-2.0%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: -1.9% vs IWM -2.6% = **+0.7 pts** vs IWM; direction 0, tracked only (33 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -3.6% vs peer median +2.3%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **CPAC:** Holcim at 93.65%, paid 24 Nov; no squeeze-out wording. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: CPAC payment (24 Nov): confirmed in the filing. ([triage](../watch/digests/2026-11-24-triage.md)) · Filings: `SC 13E3/A` ×2 23 Nov, `SCHEDULE 13D/A` 23 Nov, `6-K` 23 Nov, `4` ×2 23 Nov · Research: Research: Tue 24 Nov 2026 (- **RSSS** ($3.25 cash, 3.5% gap) fails the $150k-a-day bar. **ALTG** (Peterbilt dealers plus a Viking PIPE…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: tender offer (third party) (`SC TO-T/A`) (5d before +1.1%, found day -2.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000114036126045129/0001140361-26-045129-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000110465926131111/0001104659-26-131111-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026123196/ea031331001ex99-1.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: CPAC tender (20 Nov): expired; no result filed yet. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (- CPAC: no Holcim result filed yet. RLYB: no closing 8-K yet; its $13.90 distribution is expected from 30 Nov.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md)**: Calendar: CPAC: Holcim US tender expires 4pm New York (T011) ([calendar](../calendar/catalyst-dates.ics)) · Calendar: CPAC: Holcim going-private tender (S/44.65 per ADS) expires 4pm New York ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **T011 CPAC expired** at the 18 Nov deadline (IBKR tender access never confirmed; the US offer expires 20 Nov). ([triage](../watch/digests/2026-11-19-triage.md)) · Research: Research: Thu 19 Nov 2026 (- **Triggers:** T011 CPAC expired at its 18 Nov deadline.) ([note](../research/daily/2026-11-19.md))
@@ -49,6 +51,7 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.77 | +0.8% | +0.9% | -3.4% |  | 32 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.77 | -0.0% | -0.1% | -3.4% |  | 31 | live |
-| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.77 | +0.6% | +0.5% | -6.6% |  | 19 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.41 | -2.0% | -1.9% | -2.6% |  | 33 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.41 | -2.8% | -2.9% | -2.6% |  | 32 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.41 | -2.2% | -2.3% | -5.8% |  | 20 | live |
+| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $12.41 | -2.1% | -1.7% | +1.4% |  | 0 | live |

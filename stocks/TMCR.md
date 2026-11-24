@@ -6,18 +6,19 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.58 (2026-11-23, ledger)
-- **Since first found:** **-25.5%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -26.5% vs IWM -3.9% = **-22.6 pts** vs IWM; direction -1 → excess +22.6% (28 days)
+- **Latest price:** $1.56 (2026-11-24, ledger)
+- **Since first found:** **-26.4%** (found 2026-10-23 via `registration_effective` at $2.12). From the next open $2.15: -27.4% vs IWM -3.1% = **-24.3 pts** vs IWM; direction -1 → excess +24.4% (29 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 23 Nov 2026: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **#2-5 closed on 23 Nov, all right:** DFNS +67.0%, NCT +56.4%, TMCR +26.2%, OSTX +25.4%. Closed record: 4 right, 2 wrong. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md)**: Calendar: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/2087398/000110465926124493/tm2629281d1_ex99-1.htm))
 - **[2026-10-26](../scans/2026-10-26.md#triage-notes)**: Triage: **TMCR** (takeable, $0.24M/day): $100M Yorkville equity line (35%) plus free consideration shares. **AVOID, public call #4.** ([triage](../watch/digests/2026-10-26-triage.md)) · Logged as `setup_supply_eloc` (direction 0): F-1s effective 22 Oct: $100M Yorkville SEPA (23.6M sh, 35% of 67.4M) at 96% plus 4.37M free consideration shares; AVOID, public call #4; source: daily research 26 Oct (research/daily/2026-10-26.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Mon 26 Oct 2026 (**Headline:** The first public AVOID calls. Four stocks you could actually buy (DFNS, NCT, TMCR, OSTX)…) ([note](../research/daily/2026-10-26.md))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for TMCR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.58 | -25.5% | -26.5% | -3.9% | +22.6% | 28 | live |
-| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.58 | -24.8% | -24.8% | -4.5% |  | 27 | live |
+| 2026-10-23 | `registration_effective` | -1 | -3.5% | -3.6% | $503k | $2.12 | $2.15 | $1.56 | -26.4% | -27.4% | -3.1% | +24.4% | 29 | live |
+| 2026-10-26 | `setup_supply_eloc` | 0 | +3.9% | -0.9% | $335k | $2.10 | $2.10 | $1.56 | -25.7% | -25.7% | -3.7% |  | 28 | live |

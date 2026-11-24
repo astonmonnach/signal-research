@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $35.50 (2026-11-23, ledger)
-- **Since first found:** **-24.2%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -25.1% vs IWM -6.7% = **-18.4 pts** vs IWM; direction 0, tracked only (48 days)
+- **Latest price:** $36.29 (2026-11-24, ledger)
+- **Since first found:** **-22.5%** (found 2026-10-05 via `longterm_research` at $46.84). From the next open $47.40: -23.4% vs IWM -5.9% = **-17.5 pts** vs IWM; direction 0, tracked only (49 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000110465926131054/0001104659-26-131054-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000183168626000014/0001831686-26-000014-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000183168626000012/0001831686-26-000012-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1801368/000103160926000009/0001031609-26-000009-index.htm))
@@ -33,4 +34,4 @@ Every [ledger](../ledger/LEDGER.md) row for MP ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $35.50 | -24.2% | -25.1% | -6.7% |  | 48 | live |
+| 2026-10-05 | `longterm_research` | 0 | -3.8% | -0.3% | $256.2M | $46.84 | $47.40 | $36.29 | -22.5% | -23.4% | -5.9% |  | 49 | live |

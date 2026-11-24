@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $9.01 (2026-11-23, ledger) · 1d +22.9%, 5d +4.7%, 20d -9.9% (market context, 2026-11-23)
-- **Since first found:** **+23.0%** (found 2026-11-21 via `holder_13d` at $7.32). From the next open $8.85: +1.8% vs IWM -0.2% = **+2.0 pts** vs IWM; direction 0, tracked only (0 days)
-- **Peers / sympathy:** no flag (self 5d +4.7% vs peer median -2.4%). Peer groups: SIC 4400 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Latest price:** $9.03 (2026-11-24, ledger) · 1d -0.4%, 5d +6.7%, 20d -9.5% (market context, 2026-11-24)
+- **Since first found:** **+23.4%** (found 2026-11-21 via `holder_13d` at $7.32). From the next open $8.85: +2.0% vs IWM +0.6% = **+1.4 pts** vs IWM; direction 0, tracked only (1 days)
+- **Peers / sympathy:** solo_move: KNOP +6.7% 5d vs peer median -0.7%; peers didn't move with it. Peer groups: SIC 4400 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 27 Nov 2026: KNOP: record date for the 22 Dec annual meeting (sponsor KNOT at 44.3%, WATCH T024)
   - Tue 22 Dec 2026: KNOP: annual meeting, 2pm UK (WATCH T024)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: T024 KNOP: opened $8.85, closed $9.07 on 23 Nov; UK-buyable confirmed. ([triage](../watch/digests/2026-11-24-triage.md)) · Filings: `4` 20 Nov, `SCHEDULE 13D/A` ×2 20 Nov, `6-K` 17 Nov; +28 older (Sep – Nov 2026) first picked up · Research: Research: Tue 24 Nov 2026 (- **Triggers:** T026 MNTS new. T014 MG expires today with the vote (no close below $20.00; $20.30). T024…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **KNOP**: sponsor KNOT bought Astaris's 2,789,070 units at $12.50, 70.8% over the $7.32 close (arith), filed after Friday's close. ([triage](../watch/digests/2026-11-21-triage.md)) · Logged as `holder_13d` (direction 0): Sponsor KNOT bought activist Astaris's 2,789,070 units at $12.50 (70.8% over the $7.32 close, arith), now 44.3%; WATCH T024; source: daily research 21 Nov (research/daily/2026-11-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 21 Nov 2026 (1. KNOP: the sponsor pays the activist $12.50 for a $7.32 unit) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1564180/000110465926130671/0001104659-26-130671-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1564180/000091957426008224/0000919574-26-008224-index.htm))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1564180/000110465926122691/0001104659-26-122691-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1564180/000110465926122690/0001104659-26-122690-index.htm))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for KNOP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | `holder_13d` | 0 | -13.4% | -8.4% | $1.3M | $7.32 | $8.85 | $9.01 | +23.0% | +1.8% | -0.2% |  | 0 | live |
+| 2026-11-21 | `holder_13d` | 0 | -13.4% | -8.4% | $1.3M | $7.32 | $8.85 | $9.03 | +23.4% | +2.0% | +0.6% |  | 1 | live |

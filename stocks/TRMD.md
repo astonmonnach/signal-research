@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_selling` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $32.86 (2026-11-23, ledger)
-- **Since first found:** **+2.0%** (found 2026-11-19 via `holder_selling` at $32.21). From the next open $32.01: +2.6% vs IWM +0.8% = **+1.8 pts** vs IWM; direction 0, tracked only (3 days)
+- **Latest price:** $33.46 (2026-11-24, ledger)
+- **Since first found:** **+3.9%** (found 2026-11-19 via `holder_selling` at $32.21). From the next open $32.01: +4.5% vs IWM +1.6% = **+2.9 pts** vs IWM; direction 0, tracked only (4 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 25 Nov 2026: TRMD: Hafnia decides whether to hand its 19.81% TORM stake to its own holders or pay cash and sell later (supply)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **Dated:** MG vote 24 Nov (no 8-K yet); BMBL HSR 25 Nov and TRMD/Hafnia 25 Nov (no filings yet). ([triage](../watch/digests/2026-11-24-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#new-setups)**: Logged as `holder_selling` (direction 0): Hafnia (19.81%) dropped its approach and will exit, preferably by handing the shares to its own holders; decision by 25 Nov; supply; tracked; source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 19 Nov 2026 (- **Calendar:** RWT 15 Dec and 31 Dec, INR 1 Dec, NUTX 30 Nov, RBCAA 11 Dec, TRMD 25 Nov, NIVF 1 Dec…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1655891/000114036126044735/0001140361-26-044735-index.htm))
 
@@ -26,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for TRMD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | `holder_selling` | 0 | -8.8% | -0.2% | $50.6M | $32.21 | $32.01 | $32.86 | +2.0% | +2.6% | +0.8% |  | 3 | live |
+| 2026-11-19 | `holder_selling` | 0 | -8.8% | -0.2% | $50.6M | $32.21 | $32.01 | $33.46 | +3.9% | +4.5% | +1.6% |  | 4 | live |

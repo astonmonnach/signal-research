@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $2.82 (2026-11-23, ledger) · 1d +0.2%, 5d -0.2%, 20d -0.5% (market context, 2026-11-23)
-- **Since first found:** **-1.6%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: -0.9% vs IWM -6.5% = **+5.6 pts** vs IWM; direction +1 → excess +5.6% (18 days)
+- **Latest price:** $2.83 (2026-11-24, ledger) · 1d +2.0%, 5d +0.2%, 20d -0.9% (market context, 2026-11-24)
+- **Since first found:** **-1.2%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: -0.5% vs IWM -5.7% = **+5.1 pts** vs IWM; direction +1 → excess +5.2% (19 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 2 Mar 2027: VVR: Rule 14a-8 proposal deadline for the 2027 meeting (Saba 13D, T022)
   - Thu 6 May 2027: VVR: advance-notice window for nominations closes (T022 deadline)
@@ -31,6 +31,6 @@ Every [ledger](../ledger/LEDGER.md) row for VVR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.82 | -1.6% | -0.9% | -6.5% | +5.6% | 18 | live |
-| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.82 | -1.2% | -1.6% | -2.4% |  | 17 | live |
-| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.82 | -2.9% | -2.6% | -4.3% |  | 14 | live |
+| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.83 | -1.2% | -0.5% | -5.7% | +5.2% | 19 | live |
+| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.83 | -0.9% | -1.2% | -1.6% |  | 18 | live |
+| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.83 | -2.6% | -2.2% | -3.5% |  | 15 | live |

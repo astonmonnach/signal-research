@@ -6,18 +6,19 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.13 (2026-11-23, ledger)
-- **Since first found:** **-79.5%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.2% vs IWM -6.7% = **-73.5 pts** vs IWM; direction -1 → excess +73.5% (48 days)
+- **Latest price:** $1.17 (2026-11-24, ledger)
+- **Since first found:** **-78.7%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -79.4% vs IWM -5.9% = **-73.5 pts** vs IWM; direction -1 → excess +73.5% (49 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Mon 23 Nov 2026: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **WORX:** 10-Q on time. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: DFNS/WORX 10-Qs (23 Nov): filed. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **NIVF (#9):** the 1-for-100 split is still only tentative (1 Dec); no confirming filing. **WORX (#8):**…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-23](../scans/2026-11-23.md)**: Calendar: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DFNS (#2), WORX (#8):** NT 10-Qs filed 16 Nov; no 10-Q on EDGAR through 20 Nov. The extension ran out on Sat 21 Nov, so check Monday. ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: DFNS/WORX 10-Qs: extension ended 21 Nov; the 23 Nov calendar estimate stands. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1674227/000121390026120827/0001213900-26-120827-index.htm))
@@ -38,6 +39,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.13 | -79.5% | -80.2% | -6.7% | +73.5% | 48 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.13 | -40.8% | -42.9% | -5.3% | +37.6% | 26 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.13 | -40.8% | -38.2% | -6.0% |  | 25 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.17 | -78.7% | -79.4% | -5.9% | +73.5% | 49 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.17 | -38.5% | -40.7% | -4.5% | +36.1% | 27 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.17 | -38.5% | -35.8% | -5.2% |  | 26 | live |

@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.282 (2026-11-23, ledger)
-- **Since first found:** **-77.6%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -78.0% vs IWM -5.3% = **-72.7 pts** vs IWM; direction -1 → excess +72.7% (55 days)
+- **Latest price:** $0.231 (2026-11-24, ledger)
+- **Since first found:** **-81.6%** (found 2026-09-28 via `registration_effective` at $1.26). From the next open $1.28: -81.9% vs IWM -4.5% = **-77.4 pts** vs IWM; direction -1 → excess +77.4% (56 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +32,8 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **Register updates:** CRMT (Chapter 11 on 24 Nov, $2.5M for common holders), DGNX, DAIC, POLA, EONR, BURU, EDVA. ([triage](../watch/digests/2026-11-24-triage.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226053820/form10-q.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226052571/0001493152-26-052571-index.htm))
 - **[2026-10-21](../scans/2026-10-21.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before -35.5%, found day +15.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1622345/000149315226047866/0001493152-26-047866-index.htm))
 - **[2026-10-20](../scans/2026-10-20.md)**: Research: Research: Tue 20 Oct 2026 (- POLA's after-hours jump does not count in close-to-close terms (+6.4% on the day).) ([note](../research/daily/2026-10-20.md))
@@ -49,7 +51,7 @@ Every [ledger](../ledger/LEDGER.md) row for POLA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.282 | -77.6% | -78.0% | -5.3% | +72.7% | 55 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.282 | -75.7% | -75.9% | -5.8% |  | 49 | live |
-| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.282 | -66.4% | -69.0% | -2.4% | +66.7% | 35 | live |
-| 2026-10-21 | `activist_13d` | +1 | -35.5% | +15.5% | $882k | $0.820 | $0.800 | $0.282 | -65.6% | -64.8% | -3.4% | -61.4% | 32 | live |
+| 2026-09-28 | `registration_effective` | -1 | +4.8% | -3.8% | $137k ⚠ | $1.26 | $1.28 | $0.231 | -81.6% | -81.9% | -4.5% | +77.4% | 56 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -13.8% | +3.6% | $195k ⚠ | $1.16 | $1.17 | $0.231 | -80.1% | -80.2% | -5.1% |  | 50 | live |
+| 2026-10-16 | `8k_reverse_split` | -1 | -11.1% | -12.5% | $208k ⚠ | $0.840 | $0.910 | $0.231 | -72.5% | -74.6% | -1.5% | +73.0% | 36 | live |
+| 2026-10-21 | `activist_13d` | +1 | -35.5% | +15.5% | $882k | $0.820 | $0.800 | $0.231 | -71.8% | -71.1% | -2.6% | -68.5% | 33 | live |

@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.71 (2026-11-23, ledger) · 1d +8.6%, 5d -12.0%, 20d -31.6% (market context, 2026-11-23)
-- **Since first found:** **-36.9%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -37.3% vs IWM -4.1% = **-33.2 pts** vs IWM; direction 0, tracked only (33 days)
-- **Peers / sympathy:** no flag (self 5d -12.0% vs peer median -6.4%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-23)
+- **Latest price:** $2.41 (2026-11-24, ledger) · 1d -11.7%, 5d -20.7%, 20d -44.7% (market context, 2026-11-24)
+- **Since first found:** **-44.0%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -44.3% vs IWM -3.3% = **-41.0 pts** vs IWM; direction 0, tracked only (34 days)
+- **Peers / sympathy:** solo_move: BMM -20.7% 5d vs peer median -8.6%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#watchlist-filings)**: Filings: `6-K` 23 Nov · Triage, dismissed: Over-$10B names; SOAR (risk factors); CLYD (reverse merger closing); IPXG (SPAC); CNXU (director change); DFH and SGRY (note exchanges); APMD… ([triage](../watch/digests/2026-11-24-triage.md))
 - **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: Blue Moon Receives Positive Initial Ore Sorting Results from Springer Mine (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-receives-positive-initial-ore-sorting-results-from-springer-mine-302947880.html))
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `6-K` 20 Nov
 - **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: Blue Moon Completes its Acquisition of the Turner Copper-Gold VMS Deposit (PR Newswire) ([release](https://www.prnewswire.com/news-releases/blue-moon-completes-its-acquisition-of-the-turner-copper-gold-vms-deposit-302946244.html))
@@ -43,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.71 | -36.9% | -37.3% | -4.1% |  | 33 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.41 | -44.0% | -44.3% | -3.3% |  | 34 | live |

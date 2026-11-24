@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $7.14 (2026-11-23, ledger)
-- **Since first found:** **-5.3%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: -6.0% vs IWM -5.8% = **-0.3 pts** vs IWM; direction 0, tracked only (21 days)
+- **Latest price:** $9.16 (2026-11-24, ledger)
+- **Since first found:** **+21.5%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: +20.5% vs IWM -5.0% = **+25.5 pts** vs IWM; direction 0, tracked only (22 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **GRRR (#11):** +44% on 23 Nov and about +19% on 24 Nov with no filing (the only release was a CEO award). ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **GRRR (#11):** 19 Nov results show "Proceeds from issuance of convertible notes 232,000,000". ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-03](../scans/2026-11-03.md#triage-notes)**: Triage: **GRRR** (call #11): Lind Fund III 13G, 9.99%; it is the note holder. ([triage](../watch/digests/2026-11-03-triage.md)) · Research: Research: Tue 3 Nov 2026 (- **GRRR (call #11):** a 13G names Lind Fund III at 9.99% (1,000,000 shares, 850,612 warrants and a note…) ([note](../research/daily/2026-11-03.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **GRRR**: floating-price notes, up to $111.1M. AVOID, public call #11. ([triage](../watch/digests/2026-11-02-triage.md)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1903145/000092963826004177/0000929638-26-004177-index.htm)) · Research: Research: Mon 2 Nov 2026 (1. GRRR: floating-price notes four months after $25 convertibles) ([note](../research/daily/2026-11-02.md))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRRR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $7.14 | -5.3% | -6.0% | -5.8% |  | 21 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $9.16 | +21.5% | +20.5% | -5.0% |  | 22 | live |
