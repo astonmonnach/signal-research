@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `takeover_proposal` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
+<<<<<<< Updated upstream
 - **Latest price:** $37.49 (2026-11-24, ledger)
 - **Since first found:** **+6.6%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +7.5% vs IWM -5.0% = **+12.5 pts** vs IWM; direction 0, tracked only (25 days)
+=======
+- **Latest price:** $37.35 (2026-11-24, ledger)
+- **Since first found:** **+6.2%** (found 2026-10-29 via `8k_tender_offer` at $35.16). From the next open $34.86: +7.1% vs IWM -5.1% = **+12.2 pts** vs IWM; direction 0, tracked only (25 days)
+>>>>>>> Stashed changes
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +37,12 @@ Every [ledger](../ledger/LEDGER.md) row for DIN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $37.49 | +6.6% | +7.5% | -5.0% |  | 25 | live |
 | 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $37.49 | +2.7% | +2.7% | -4.3% | +7.0% | 21 | live |
 | 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $37.49 | +2.7% | +2.3% | -5.6% |  | 19 | live |
+=======
+| 2026-10-29 | `8k_tender_offer` | 0 | +11.5% | +1.4% | $22.2M | $35.16 | $34.86 | $37.35 | +6.2% | +7.1% | -5.1% |  | 25 | live |
+| 2026-11-02 | `activist_13d` | +1 | +14.2% | +2.8% | $22.0M | $36.49 | $36.50 | $37.35 | +2.4% | +2.3% | -4.4% | +6.7% | 21 | live |
+| 2026-11-04 | `takeover_proposal` | 0 | +10.3% | +3.3% | $22.5M | $36.49 | $36.66 | $37.35 | +2.4% | +1.9% | -5.7% |  | 19 | live |
+>>>>>>> Stashed changes

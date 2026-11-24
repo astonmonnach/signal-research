@@ -6,10 +6,17 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
+<<<<<<< Updated upstream
 - **Latest price:** $4.14 (2026-11-24, ledger) · 1d -0.5%, 5d -8.4%, 20d -0.2% (market context, 2026-11-24)
 - **Since first found:** **+4.3%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +4.0% vs IWM -3.2% = **+7.3 pts** vs IWM; direction 0, tracked only (34 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (self 5d -8.4% vs peer median -8.5%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+=======
+- **Latest price:** $4.14 (2026-11-24, ledger) · 1d -0.6%, 5d -8.5%, 20d -0.4% (market context, 2026-11-24)
+- **Since first found:** **+4.2%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +3.9% vs IWM -3.4% = **+7.2 pts** vs IWM; direction 0, tracked only (34 days)
+  - 1 more ledger row: see Performance since found
+- **Peers / sympathy:** no flag (self 5d -8.5% vs peer median -8.8%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+>>>>>>> Stashed changes
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
@@ -47,5 +54,10 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.14 | +4.3% | +4.0% | -3.2% |  | 34 | live |
 | 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.14 | -21.0% | -20.4% | -5.6% |  | 19 | live |
+=======
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.14 | +4.2% | +3.9% | -3.4% |  | 34 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.14 | -21.1% | -20.5% | -5.7% |  | 19 | live |
+>>>>>>> Stashed changes

@@ -25,8 +25,13 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
+<<<<<<< Updated upstream
 - **Latest price:** $1.69 (2026-11-24, ledger)
 - **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $1.80: -6.1% vs IWM +1.4% = **-7.6 pts** vs IWM; direction 0, tracked only (0 days)
+=======
+- **Latest price:** $1.60 (2026-11-24, ledger)
+- **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $1.80: -11.1% vs IWM +1.3% = **-12.4 pts** vs IWM; direction 0, tracked only (0 days)
+>>>>>>> Stashed changes
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -52,8 +57,16 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $1.80 | $1.69 |  | -6.1% | +1.4% |  | 0 | live |
 | 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.69 |  | -6.1% | +1.4% |  | 0 | live |
 | 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.69 |  | -6.1% | +1.4% |  | 0 | live |
 | 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.69 |  | -6.1% | +1.4% |  | 0 | live |
 | 2026-11-18 | `8k_reverse_split` | -1 |  |  |  |  | $1.80 | $1.69 |  | -6.1% | +1.4% | +7.6% | 0 | live |
+=======
+| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $1.80 | $1.60 |  | -11.1% | +1.3% |  | 0 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.60 |  | -11.1% | +1.3% |  | 0 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.60 |  | -11.1% | +1.3% |  | 0 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $1.80 | $1.60 |  | -11.1% | +1.3% |  | 0 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 |  |  |  |  | $1.80 | $1.60 |  | -11.1% | +1.3% | +12.4% | 0 | live |
+>>>>>>> Stashed changes

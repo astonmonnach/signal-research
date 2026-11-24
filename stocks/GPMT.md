@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `below_cash` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
+<<<<<<< Updated upstream
 - **Latest price:** $1.96 (2026-11-24, ledger)
 - **Since first found:** **-57.5%** (found 2026-11-04 via `8k_reverse_split` at $4.61). From the next open $4.21: -53.4% vs IWM -5.6% = **-47.8 pts** vs IWM; direction -1 → excess +47.8% (19 days)
+=======
+- **Latest price:** $1.93 (2026-11-24, ledger)
+- **Since first found:** **-58.0%** (found 2026-11-04 via `8k_reverse_split` at $4.61). From the next open $4.21: -54.0% vs IWM -5.7% = **-48.3 pts** vs IWM; direction -1 → excess +48.3% (19 days)
+>>>>>>> Stashed changes
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -26,5 +31,10 @@ Every [ledger](../ledger/LEDGER.md) row for GPMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-11-04 | `8k_reverse_split` | -1 | -9.9% | +3.8% | $241k | $4.61 | $4.21 | $1.96 | -57.5% | -53.4% | -5.6% | +47.8% | 19 | live |
 | 2026-11-05 | `below_cash` | 0 | +2.7% | -19.1% | $243k | $3.73 | $3.75 | $1.96 | -47.5% | -47.7% | -1.5% |  | 18 | live |
+=======
+| 2026-11-04 | `8k_reverse_split` | -1 | -9.9% | +3.8% | $241k | $4.61 | $4.21 | $1.93 | -58.0% | -54.0% | -5.7% | +48.3% | 19 | live |
+| 2026-11-05 | `below_cash` | 0 | +2.7% | -19.1% | $243k | $3.73 | $3.75 | $1.93 | -48.1% | -48.4% | -1.6% |  | 18 | live |
+>>>>>>> Stashed changes

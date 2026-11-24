@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
+<<<<<<< Updated upstream
 - **Latest price:** $2.83 (2026-11-24, ledger)
 - **Since first found:** **-22.5%** (found 2026-10-14 via `linked_peer` at $3.65). From the next open $3.64: -22.2% vs IWM -1.3% = **-20.9 pts** vs IWM; direction 0, tracked only (40 days)
+=======
+- **Latest price:** $2.84 (2026-11-24, ledger)
+- **Since first found:** **-22.3%** (found 2026-10-14 via `linked_peer` at $3.65). From the next open $3.64: -22.1% vs IWM -1.4% = **-20.7 pts** vs IWM; direction 0, tracked only (40 days)
+>>>>>>> Stashed changes
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +31,8 @@ Every [ledger](../ledger/LEDGER.md) row for WTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-14 | `linked_peer` | 0 | +6.7% | -4.7% | $12.8M | $3.65 | $3.64 | $2.83 | -22.5% | -22.2% | -1.3% |  | 40 | live |
+=======
+| 2026-10-14 | `linked_peer` | 0 | +6.7% | -4.7% | $12.8M | $3.65 | $3.64 | $2.84 | -22.3% | -22.1% | -1.4% |  | 40 | live |
+>>>>>>> Stashed changes

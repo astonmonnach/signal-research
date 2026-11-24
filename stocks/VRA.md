@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
+<<<<<<< Updated upstream
 - **Latest price:** $5.56 (2026-11-24, ledger)
 - **Since first found:** **-9.2%** (found 2026-10-22 via `insider_buy` at $6.12). From the next open $6.10: -8.8% vs IWM -2.5% = **-6.3 pts** vs IWM; direction 0, tracked only (32 days)
+=======
+- **Latest price:** $5.55 (2026-11-24, ledger)
+- **Since first found:** **-9.4%** (found 2026-10-22 via `insider_buy` at $6.12). From the next open $6.10: -9.1% vs IWM -2.6% = **-6.4 pts** vs IWM; direction 0, tracked only (32 days)
+>>>>>>> Stashed changes
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

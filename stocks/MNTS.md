@@ -6,10 +6,15 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
+<<<<<<< Updated upstream
 - **Latest price:** $2.17 (2026-11-24, ledger) · 1d +6.1%, 5d +23.6%, 20d +2.6% (market context, 2026-11-24)
 - **Since first found:** **+5.9%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +10.8% vs IWM +1.4% = **+9.3 pts** vs IWM; direction +1 → excess +9.3% (0 days)
+=======
+- **Latest price:** $2.17 (2026-11-24, ledger) · 1d +5.8%, 5d +23.3%, 20d +2.4% (market context, 2026-11-24)
+- **Since first found:** **+6.1%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +11.0% vs IWM +1.3% = **+9.6 pts** vs IWM; direction +1 → excess +9.6% (0 days)
+>>>>>>> Stashed changes
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -12.1% 5d vs MNTS +23.6%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** missed_peer_move: peer median -12.4% 5d vs MNTS +23.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 23 Feb 2027: MNTS: T026 deadline (Burkle OA3 10.6%; wrong on a close below $1.86)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,5 +34,10 @@ Every [ledger](../ledger/LEDGER.md) row for MNTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.17 | +5.9% | +10.8% | +1.4% | +9.3% | 0 | live |
 | 2026-11-24 | `holder_13d` | 0 | +5.1% | +5.9% | $1.9M | $2.17 |  | $2.17 |  |  |  |  |  | pending |
+=======
+| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.17 | +6.1% | +11.0% | +1.3% | +9.6% | 0 | live |
+| 2026-11-24 | `holder_13d` | 0 | +5.1% | +6.1% | $1.9M | $2.17 |  | $2.17 |  |  |  |  |  | pending |
+>>>>>>> Stashed changes

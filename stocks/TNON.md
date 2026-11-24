@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
+<<<<<<< Updated upstream
 - **Latest price:** $0.995 (2026-11-24, ledger)
 - **Since first found:** **-65.6%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -64.7% vs IWM -2.0% = **-62.7 pts** vs IWM; direction -1 → excess +62.7% (41 days)
+=======
+- **Latest price:** $1.02 (2026-11-24, ledger)
+- **Since first found:** **-64.5%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -63.6% vs IWM -2.1% = **-61.5 pts** vs IWM; direction -1 → excess +61.5% (41 days)
+>>>>>>> Stashed changes
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +35,12 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $0.995 | -65.6% | -64.7% | -2.0% | +62.7% | 41 | live |
 | 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $0.995 | -54.8% | -54.8% | -3.0% |  | 29 | live |
 | 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $0.995 | -44.4% | -43.1% | -4.0% | +39.2% | 11 | live |
+=======
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.02 | -64.5% | -63.6% | -2.1% | +61.5% | 41 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.02 | -53.4% | -53.4% | -3.1% |  | 29 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.02 | -42.7% | -41.4% | -4.1% | +37.3% | 11 | live |
+>>>>>>> Stashed changes

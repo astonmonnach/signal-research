@@ -7,7 +7,11 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
 - **Latest price:** $6.40 (2026-11-24, ledger)
+<<<<<<< Updated upstream
 - **Since first found:** **-9.7%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -10.4% vs IWM -3.0% = **-7.3 pts** vs IWM; direction -1 → excess +7.4% (29 days)
+=======
+- **Since first found:** **-9.7%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -10.4% vs IWM -3.1% = **-7.2 pts** vs IWM; direction -1 → excess +7.2% (29 days)
+>>>>>>> Stashed changes
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +36,12 @@ Every [ledger](../ledger/LEDGER.md) row for PMI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $6.40 | -9.7% | -10.4% | -3.0% | +7.4% | 29 | live |
 | 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $6.40 | -0.5% | -4.3% | -3.6% |  | 28 | live |
 | 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $6.40 | -18.5% | -20.0% | -4.0% | +16.0% | 11 | live |
+=======
+| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $6.40 | -9.7% | -10.4% | -3.1% | +7.2% | 29 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $6.40 | -0.5% | -4.3% | -3.7% |  | 28 | live |
+| 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $6.40 | -18.5% | -20.0% | -4.1% | +15.9% | 11 | live |
+>>>>>>> Stashed changes

@@ -6,8 +6,13 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_overhang` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
+<<<<<<< Updated upstream
 - **Latest price:** $15.50 (2026-11-24, ledger)
 - **Since first found:** **+2.6%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: +2.7% vs IWM -2.5% = **+5.2 pts** vs IWM; direction 0, tracked only (33 days)
+=======
+- **Latest price:** $15.48 (2026-11-24, ledger)
+- **Since first found:** **+2.5%** (found 2026-10-21 via `8k_merger_agreement` at $15.10). From the next open $15.09: +2.6% vs IWM -2.6% = **+5.3 pts** vs IWM; direction 0, tracked only (33 days)
+>>>>>>> Stashed changes
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -30,6 +35,12 @@ Every [ledger](../ledger/LEDGER.md) row for SWBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $15.50 | +2.6% | +2.7% | -2.5% |  | 33 | live |
 | 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $15.50 | +8.0% | +8.4% | -2.5% |  | 32 | live |
 | 2026-10-28 | `activist_13d` | +1 | -6.1% | +0.1% | $7.0M | $13.89 | $14.02 | $15.50 | +11.6% | +10.6% | -5.2% | +15.7% | 26 | live |
+=======
+| 2026-10-21 | `8k_merger_agreement` | 0 | +3.9% | +2.2% | $6.6M | $15.10 | $15.09 | $15.48 | +2.5% | +2.6% | -2.6% |  | 33 | live |
+| 2026-10-22 | `setup_supply_overhang` | 0 | +6.5% | -5.0% | $6.7M | $14.35 | $14.30 | $15.48 | +7.9% | +8.3% | -2.6% |  | 32 | live |
+| 2026-10-28 | `activist_13d` | +1 | -6.1% | +0.1% | $7.0M | $13.89 | $14.02 | $15.48 | +11.5% | +10.4% | -5.3% | +15.7% | 26 | live |
+>>>>>>> Stashed changes

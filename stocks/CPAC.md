@@ -9,7 +9,11 @@ _Deep dive pending._
 - **Latest price:** $12.41 (2026-11-24, ledger) · 1d -2.1%, 5d -3.5%, 20d -2.8% (market context, 2026-11-24)
 - **Since first found:** **-2.0%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: -1.9% vs IWM -2.5% = **+0.6 pts** vs IWM; direction 0, tracked only (33 days)
   - 3 more ledger rows: see Performance since found
+<<<<<<< Updated upstream
 - **Peers / sympathy:** no flag (self 5d -3.5% vs peer median +2.5%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-24)
+=======
+- **Peers / sympathy:** no flag (self 5d -3.5% vs peer median +2.0%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-24)
+>>>>>>> Stashed changes
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -51,7 +55,14 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.41 | -2.0% | -1.9% | -2.5% |  | 33 | live |
 | 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.41 | -2.8% | -2.9% | -2.5% |  | 32 | live |
 | 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.41 | -2.2% | -2.3% | -5.7% |  | 20 | live |
 | 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $12.41 | -2.1% | -1.7% | +1.4% |  | 0 | live |
+=======
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.41 | -2.0% | -1.9% | -2.6% |  | 33 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.41 | -2.8% | -2.9% | -2.6% |  | 32 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.41 | -2.2% | -2.3% | -5.8% |  | 20 | live |
+| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $12.41 | -2.1% | -1.7% | +1.3% |  | 0 | live |
+>>>>>>> Stashed changes

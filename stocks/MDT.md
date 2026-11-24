@@ -6,10 +6,17 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `exchange_offer_missed` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
+<<<<<<< Updated upstream
 - **Latest price:** $95.96 (2026-11-24, ledger) · 1d -4.7%, 5d -6.2%, 20d +2.2% (market context, 2026-11-24)
 - **Since first found:** **+9.4%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +8.4% vs IWM -3.7% = **+12.2 pts** vs IWM; direction +1 → excess +12.2% (46 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** solo_move: MDT -6.2% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 3845 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+=======
+- **Latest price:** $96.21 (2026-11-24, ledger) · 1d -4.4%, 5d -5.9%, 20d +2.5% (market context, 2026-11-24)
+- **Since first found:** **+9.7%** (found 2026-10-08 via `tender_issuer_buyback` at $87.75). From the next open $88.49: +8.7% vs IWM -3.8% = **+12.6 pts** vs IWM; direction +1 → excess +12.6% (46 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: MDT -5.9% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 3845 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+>>>>>>> Stashed changes
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -34,7 +41,14 @@ Every [ledger](../ledger/LEDGER.md) row for MDT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $95.96 | +9.4% | +8.4% | -3.7% | +12.2% | 46 | live |
 | 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $95.96 | +8.4% | +5.7% | -3.8% |  | 43 | live |
 | 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $95.96 | +3.2% | +3.2% | -2.0% | +5.2% | 41 | live |
 | 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $95.96 | +1.8% | +1.0% | -1.3% | +2.3% | 40 | live |
+=======
+| 2026-10-08 | `tender_issuer_buyback` | +1 | -0.9% | +2.6% | $2224.0M | $87.75 | $88.49 | $96.21 | +9.7% | +8.7% | -3.8% | +12.6% | 46 | live |
+| 2026-10-10 | `exchange_offer_missed` | 0 | +1.5% | +0.8% | $2371.3M | $88.48 | $90.76 | $96.21 | +8.7% | +6.0% | -3.9% |  | 43 | live |
+| 2026-10-13 | `tender_issuer_buyback` | +1 | +4.5% | +1.2% | $2578.4M | $93.01 | $93.01 | $96.21 | +3.4% | +3.4% | -2.1% | +5.6% | 41 | live |
+| 2026-10-14 | `tender_issuer_buyback` | +1 | +6.8% | +1.3% | $2764.8M | $94.23 | $95.00 | $96.21 | +2.1% | +1.3% | -1.4% | +2.7% | 40 | live |
+>>>>>>> Stashed changes
