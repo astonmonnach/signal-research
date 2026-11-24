@@ -38,6 +38,12 @@ def bars(t):
              for ts, o, c in zip(r["timestamp"], q["open"], q["close"]) if o and c]
     except Exception:
         b = []
+    # Rule 2026-11-24 (NAUT): a run during the US session must not treat today's live price as a close,
+    # or a review date or exit line would be decided on an unfinished bar. Drop today's bar until 16:15 New York.
+    from zoneinfo import ZoneInfo
+    ny = dt.datetime.now(ZoneInfo("America/New_York"))
+    if b and b[-1][0] == ny.date() and (ny.hour, ny.minute) < (16, 15):
+        b = b[:-1]
     b = split_adjust(t, b)
     _cache[t] = b; time.sleep(0.2)
     return b
