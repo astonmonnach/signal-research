@@ -143,7 +143,7 @@ def side_label(c):
     return ("LONG" if int(c["direction"]) > 0 else "AVOID") + (" (long-term)" if c.get("horizon") == "long" else "")
 
 
-def post_text(c, link=True):
+def post_text(c, link=False):  # no repo link in X posts unless asked (rule 2026-11-24, privacy)
     side = side_label(c)
     inv = f"Exit if it closes {'below' if int(c['direction']) > 0 else 'above'} ${c['invalidation_close']} · " if c.get("invalidation_close") else ""
     return (f"CALL #{c['id']} · {side} ${c['ticker']}\nThesis: {c['thesis']}\n{inv}review {c['review_date']}\n"
@@ -234,7 +234,7 @@ def weekly(marked):
         cur = (cur + " " + s).strip()
     if cur: thread.append(cur)
     thread.append("AVOID names usually fall, so the real test is each call vs its control. "
-                  "Every call, losers included: github.com/astonmonnach/signal-research/tree/main/calls")
+                  "Every call stays up, losers included.")
     assert all(len(t) <= 280 for t in thread), [len(t) for t in thread]
 
     L = [f"# Weekly scoreboard: week ending {asof:%a %d %b %Y}", "",
