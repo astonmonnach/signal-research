@@ -1,7 +1,7 @@
 """C2 CONVERGENCE: forward-test Thomas's smart-wallet convergence signal.
 
 Usage:  python collectors/c2_convergence.py        (hourly; needs gmgn-cli + GMGN_API_KEY env)
-Signal (from Desktop/Solana Wallet Finder, never forward-tested): a token that >= 3 distinct
+Signal (from a local Solana Wallet Finder project, never forward-tested): a token that >= 3 distinct
 wallets from the frozen 30-wallet panel (data/crypto/c2_panel.json) bought within the lookback.
 His own out-of-sample test showed copying single wallets is noise (top-8: -48%, losers: +141%),
 so convergence is the one idea left standing. This logs each new hot token at first detection,

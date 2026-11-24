@@ -21,13 +21,13 @@ The full list is in `RESULTS.md` under Deviations (15 items). Items 1 to 9 were 
 
 ## To rebuild
 ```
-cd C:/Users/thoma/catalyst-research/research/movers/put1 && PYTHONIOENCODING=utf-8 python run.py
+cd research/movers/put1 && PYTHONIOENCODING=utf-8 python run.py
 ```
 It reads only `cache/` and local files. `python run.py plan 5 0` should print `missing 0`.
 
 ## How the cache was filled (for reference)
 Each step: make the 5 calls the last `plan` printed (Massive connector `call_api`, exactly as printed), then in the same message run:
 ```
-cd C:/Users/thoma/catalyst-research/research/movers/put1 && PYTHONIOENCODING=utf-8 python ingest.py <this session's transcript .jsonl> && PYTHONIOENCODING=utf-8 python run.py plan 5
+cd research/movers/put1 && PYTHONIOENCODING=utf-8 python ingest.py <this session's transcript .jsonl> && PYTHONIOENCODING=utf-8 python run.py plan 5
 ```
 Pass the transcript path when other agents are running. With no argument, `ingest.py` reads the four newest transcripts of the project.

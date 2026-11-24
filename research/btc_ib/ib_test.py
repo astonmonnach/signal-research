@@ -3,7 +3,9 @@ import sys
 import numpy as np
 import pandas as pd
 
-DATA = r"C:\Users\thoma\Desktop\crypto-flow\btcusdt_flow_1m.parquet"
+import os
+HERE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.environ.get("BTC_FLOW_PARQUET", "btcusdt_flow_1m.parquet")  # local data file, not in the repo
 SESSIONS = {"Asia": (0, 0), "London": (7, 0), "NY": (13, 30)}
 OR_MIN, MIN_W, WINDOW_H, TICK = 60, 0.0030, 4, 0.10
 FEE_IN, FEE_OUT, SLIP = 0.00015, 0.00045, 0.0002
@@ -79,7 +81,7 @@ for k, (t0, name) in enumerate(starts):
                    "gate": bool(gate.get(t0.normalize(), False))})
 
 T = pd.DataFrame(trades)
-T.to_csv(r"C:\Users\thoma\catalyst-research\research\btc_ib\trades.csv", index=False)
+T.to_csv(os.path.join(HERE, "trades.csv"), index=False)
 
 
 def summ(x, label):
@@ -108,6 +110,6 @@ for var, X in (("A all days", T), ("B gated", T[T.gate])):
     ok = (l and w / l >= 1.2) and len(OOS) >= 150 and o25.R.mean() > 0 and o26.R.mean() > 0 and IS.R.mean() > 0
     out.append(f"| **{var} verdict** | {'PASS' if ok else 'FAIL'} | | | | | | | |")
 out += ["", "Exit reasons (all): " + ", ".join(f"{k} {v}" for k, v in T.why.value_counts().items())]
-open(r"C:\Users\thoma\catalyst-research\research\btc_ib\RESULTS.md", "w", encoding="utf-8").write("\n".join(out) + "\n")
+open(os.path.join(HERE, "RESULTS.md"), "w", encoding="utf-8").write("\n".join(out) + "\n")
 sys.stdout.reconfigure(encoding="utf-8")
 print("\n".join(out))

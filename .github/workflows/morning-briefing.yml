@@ -8,7 +8,7 @@ on:
   schedule:
     # GitHub often starts scheduled runs late (5 Oct: 7 hours). Several slots; the
     # briefing sends only once per day (briefings/.sent-DATE marker).
-    # After the early-morning research run (06:30 UK, on his PC), so "Research of the day" is ready.
+    # After the early-morning research run (06:30 UK, run locally), so "Research of the day" is ready.
     - cron: "15 7 * * 1-5"
     - cron: "45 7 * * 1-5"
     - cron: "15 8 * * 1-5"

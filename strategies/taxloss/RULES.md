@@ -23,7 +23,7 @@ Early December: a scan for stocks down ≥40% year-to-date that still pass the t
 - Invalidation: a new dilution filing (S-1/S-3/424B5) or a going-concern warning → out.
 
 ## Sizing
-£40–50, max 3 positions.
+Small fixed size, max 3 positions.
 
 ## What would prove this wrong
 The backtest median net of fees is ≤ 0, or the result depends on a handful of huge winners.

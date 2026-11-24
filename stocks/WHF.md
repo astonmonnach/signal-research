@@ -54,7 +54,7 @@
 - **G2: n/a.** No counterparty yet.
 - **G3: pass.**
 - **G4: pass.**
-- **G5: pass.** ~$0.75M/day, enough for £50–200.
+- **G5: pass.** ~$0.75M/day, enough for small positions.
 
 | factor | score | why |
 |---|---|---|

@@ -68,7 +68,7 @@ If anything is a "hours, not days" move, it's these. Daily bars can't show wheth
 
 ## Costs
 
-Stage 3 averages +2.9% over 10 days before costs. After the ledger's 1% that is about +1.9%. **After this account's 3.5% it is about -0.5%.** Stage 4a: +4.0% before, about +0.5% after 3.5%, with a median below zero after costs. At £40-50 a trade the fees are bigger than the edge.
+Stage 3 averages +2.9% over 10 days before costs. After the ledger's 1% that is about +1.9%. **After this account's 3.5% it is about -0.5%.** Stage 4a: +4.0% before, about +0.5% after 3.5%, with a median below zero after costs. At small trade sizes the fees are bigger than the edge.
 
 ## Where this leaves it
 

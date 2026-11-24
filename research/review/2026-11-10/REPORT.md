@@ -170,7 +170,7 @@ No new filters. These are bookkeeping changes and one thing to stop.
 3. **Write the next results date on every WATCH**, with one line on whether the reason survives a bad quarter. Four of the six big losers were lost there.
 4. **Record who is acting on every new WATCH** (outside buyer or holder, the company itself, insiders). No rule yet. Read it alongside TF1 once 20 or more have 20 sessions behind them.
 5. **Stop treating a raw 13D or "strategic review" hit as a lead by itself.** The reading is what separates them.
-6. **Costs.** At £40 to £50 a trade the 3.5% round trip turned the all-verdict average from +0.3% to -3.2%. Only the outside-buyer group cleared it.
+6. **Costs.** At small trade sizes the 3.5% round trip turned the all-verdict average from +0.3% to -3.2%. Only the outside-buyer group cleared it.
 
 ## Method
 

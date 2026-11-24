@@ -14,7 +14,7 @@ If an idea can't answer all four, it isn't a trade.
 | `IDEA` | Written rules, plus a named reason someone is on the wrong side |
 | `BACKTEST` | Tested on past data, net of fees, and the **median** result is positive. The mean alone doesn't count. |
 | `PAPER` | 10 paper trades logged by the rules, in real time |
-| `LIVE` | Real money at £40–50 per trade. Judged after **20** trades, not before. |
+| `LIVE` | Real money at a small fixed size per trade. Judged after **20** trades, not before. |
 | `RETIRED` | Failed a stage, or stopped working. Keep the file: a dead strategy is a finding. |
 
 ## Kill rules, set before we start

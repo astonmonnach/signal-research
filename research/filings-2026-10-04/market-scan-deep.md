@@ -3,7 +3,7 @@
 *Written 2026-10-04 (Sunday). Source scan: `watch/market/2026-10-02.md`. Method: `nth-order-pipeline/METHOD.md` v2.*
 *Prices are Friday 2026-10-02 closes from the Yahoo chart API. Every claim below cites an EDGAR accession number. Quotes are copied verbatim from the filing.*
 
-**Account lens:** UK retail trader at IBKR with £50–200 per trade, regular US hours only, long-only in practice. Shorting sub-$5 microcaps (borrow, margin, buy-ins) is not realistic at this size. So the supply-overhang items are treated as "avoid" flags, not as short trades.
+**Account lens:** UK retail trader at IBKR with small positions per trade, regular US hours only, long-only in practice. Shorting sub-$5 microcaps (borrow, margin, buy-ins) is not realistic at this size. So the supply-overhang items are treated as "avoid" flags, not as short trades.
 
 ---
 
@@ -31,7 +31,7 @@ METHOD.md's gates were built for supply-chain nodes. For merger, 13D and registr
 | G2 Substitutability | customer can't switch in 12m | The counterparty **can't walk cheaply**: no financing out, no easily waived condition, and the reverse fee or damages are meaningful |
 | G3 Already run | moved >50% with link-1 | The price already captures the event: the target already re-rated to near the deal price, or the price already fell to the PIPE price |
 | G4 Verifiable | exposure in a filing | The link is in a filing (unchanged) |
-| G5 Tradeable | listing, spread, volume | Listed on a national exchange, enough regular-hours volume, **and** the edge beats round-trip IBKR costs on £50–200 |
+| G5 Tradeable | listing, spread, volume | Listed on a national exchange, enough regular-hours volume, **and** the edge beats round-trip IBKR costs on small positions |
 
 Score factors were mapped the same way: payoff size (0: <5%, 1: 5–15%, 2: >15%); deal or contract certainty; coverage; date visibility (0 none, 1 approximate, 2 hard date); and behavioural signal (someone put money in). Cut-offs are unchanged: ≥8 write up, 5–7 watchlist, ≤4 kill. Failing any gate means a kill whatever the score.
 
@@ -65,7 +65,7 @@ Score factors were mapped the same way: payoff size (0: <5%, 1: 5–15%, 2: >15%
 | Annualised | **7.2% (7 Dec) / 5.2% (31 Dec)**, simple | negative | n/a |
 | Break downside | to about $27 (unaffected close 30 Jan 2026) = −48%. Market implies **97.5%** completion | to about $7.45 (unaffected 20 Jul 2026) = −48% | n/a |
 | Break risk | **Low.** Full sponsor equity backstop, no financing out, a regulatory covenant that includes divestitures, an auction with a runner-up at **$50.10** ("Party Z … $50.10 per share in cash"). Main risk is a DOJ second request by 30 Oct | **Very low.** Regulatory approvals done, 42% locked, debt committed. Remaining risk is the disinterested-holder vote | Acquirer-side risks: client-consent shortfall, which lowers the price below 92.5% of run-rate, and financing |
-| £50–200 economics | 2–3 shares give $1.30–1.95 gross if it closes. IBKR minimum commission ×2 (about $0.70 tiered to $2.00 fixed) plus FX takes most or all of it | Negative before costs | No defined payoff |
+| Small-position economics | 2–3 shares give $1.30–1.95 gross if it closes. IBKR minimum commission ×2 (about $0.70 tiered to $2.00 fixed) plus FX takes most or all of it | Negative before costs | No defined payoff |
 
 ### 1c. Branches: who else is affected
 
@@ -149,7 +149,7 @@ None of the six is a classic activist campaign. Two are deal-support or control 
 | LGMK merger arb | P | **F** (waivable 1% dissent condition, small buyer) | **F** (+121% vs unaffected) | P | **F** (OTC, about $3k a day) | 2 | 0 | 2 | 2 | 1 | 7 | Kill (watch the 5 Oct result) |
 | SSTI tender + CVR | P | P | **F** (+50% on 29 Sep; above cash) | P | P | 1 | 1 | 1 | 2 | 2 | 7 | Kill |
 | UTZ merger arb | P | P | **F** (above deal) | P | **F** (negative edge) | 0 | 2 | 0 | 2 | 2 | 6 | Kill |
-| HZO merger arb | P | P | **F** (98.8% of deal captured) | P | **F** (costs ≈ spread at £50–200) | 0 | 2 | 0 | 1 | 2 | 5 | Kill (fine for bigger tickets) |
+| HZO merger arb | P | P | **F** (98.8% of deal captured) | P | **F** (costs ≈ spread at small size) | 0 | 2 | 0 | 1 | 2 | 5 | Kill (fine for bigger tickets) |
 | VCTR (acquirer) | P | n/a | P | P | P | 0 | 1 | 0 | 1 | 1 | 3 | Kill |
 | GOW (de-SPAC) | P | n/a | **F** | P | **F** (≤9m-share float, foreign private issuer) | 0 | 0 | 2 | 1 | 0 | 3 | Kill |
 | ADRX (passive 13D) | **F** | n/a | P | P | P | 0 | 0 | 0 | 1 | 1 | 2 | Kill |
@@ -171,7 +171,7 @@ None of the six is a classic activist campaign. Two are deal-support or control 
 | Amundi (VCTR) | **F** | n/a | n/a | P | P | 0 | 0 | 0 | 0 | 0 | 0 | Kill |
 | Index-deletion trade (HZO, UTZ) | n/a | n/a | **F** | **F** | n/a | 0 | 0 | 0 | 1 | 0 | 1 | Kill |
 
-*The overhang rows score the short-side thesis. They fail G5 only because shorting microcaps is not feasible at £50–200. The useful action is "don't buy". Several would be watchlist shorts for a larger, margin-enabled account (TPST 6, INM 6, SBFM 5).*
+*The overhang rows score the short-side thesis. They fail G5 only because shorting microcaps is not feasible at small size. The useful action is "don't buy". Several would be watchlist shorts for a larger, margin-enabled account (TPST 6, INM 6, SBFM 5).*
 
 ---
 
@@ -204,7 +204,7 @@ Logged 2026-10-04. Price at log is the 2 Oct close. Control is picked mechanical
 | Ticker | Chain | Gates | Score | Thesis (one line) | Evidence | What kills it | Price | Control |
 |---|---|---|---|---|---|---|---|---|
 | ZDGE | insider PIPE → DataSeeds pivot | all pass | 6 | Insider put $6.5m in at $2.93 and the stock sits at his cost | 13D 0001213900-26-106074 Item 3/4 | Closes below $2.93 for 2 weeks; another discounted raise; next 10-Q shows no DataSeeds revenue | 3.00 | IWM 281.52 |
-| HZO | Blackstone/Safe Harbor → MarineMax $53 cash | G3, G5 F | 5 | Low-risk arb, spread too thin for £50–200 | DEFM14A 0001193125-26-412241 | DOJ second request by 30 Oct | 52.35 | IWM 281.52 |
+| HZO | Blackstone/Safe Harbor → MarineMax $53 cash | G3, G5 F | 5 | Low-risk arb, spread too thin for small positions | DEFM14A 0001193125-26-412241 | DOJ second request by 30 Oct | 52.35 | IWM 281.52 |
 | UTZ | Intersnack → Utz $14.25 cash | G3, G5 F | 6 | Trades above the deal price; nothing left | DEFM14A 0001193125-26-411198 | n/a (kill) | 14.27 | IWM 281.52 |
 | VCTR | VCTR → First Eagle ($7.03bn) | pass, low score | 3 | Acquirer with no defined payoff | PREM14A 0001104659-26-112931 | n/a | 113.23 | SPY 769.64 |
 | LGMK | Langham → LogicMark $1.31 | G2, G3, G5 F | 7 | 16% spread but a 5.6% dissenter vs a 1% cap | 13D 0002157971-26-000001; DEFR14A | Parent refuses to waive → break toward about $0.51 | 1.13 | IWM 281.52 |

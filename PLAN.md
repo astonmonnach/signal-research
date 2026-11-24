@@ -11,4 +11,4 @@ The full plan was written 2 Oct 2026 in a separate chat. It lives in that chat a
 5. **The Stage 2 / 30-week MA filter is a variant, not a rule.** Log it as an S3 variant tag and compare it against unfiltered S3.
 6. **Expected signal counts before the Mar 2027 checkpoint:** S1 should easily pass 30. S2 probably won't (a handful a month); if it has under 30 by March, the result is "not enough data", not "fail".
 7. **Reuse what exists.** `watch/scan_market.py` already does S2's 8-K phrase search plus Form 10s, tender offers, S-1/EFFECT and 13Ds. `watch/check_filings.py` covers watchlist names. The evening scheduled task triages both. S1 (DoD) and S3 (Form 4) are new collectors.
-8. **Time budget.** Topstep Combine runs alongside this. Collectors run on their own, so cap hands-on lab time at about 30 min/day. Building is fine, but don't chase variants.
+8. **Time budget.** Other trading runs alongside this. Collectors run on their own, so cap hands-on lab time at about 30 min/day. Building is fine, but don't chase variants.

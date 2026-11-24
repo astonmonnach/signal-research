@@ -5,7 +5,7 @@ Frozen 2026-10-03, BEFORE any result. Any change = a new, logged trial.
 A mechanical version of his range skeleton, applied per session: the session's opening range = the box (0 / 0.5 / 1). A break of one edge, a retest of the broken edge, with 0.5 as invalidation, targeting 2R. At most one trade per session = **at most 3 trades a day**. "Decent moves" is enforced by a minimum range width.
 
 ## Data
-Desktop/crypto-flow/btcusdt_flow_1m.parquet: Binance BTCUSDT perp 1m, 2022-01-01 → 2026-07-05 (gaps exist; sessions with any missing minute in the opening range are skipped).
+A local crypto-flow/btcusdt_flow_1m.parquet: Binance BTCUSDT perp 1m, 2022-01-01 → 2026-07-05 (gaps exist; sessions with any missing minute in the opening range are skipped).
 **In-sample:** 2022-01-01 → 2024-12-31. **Out-of-sample:** 2025-01-01 → 2026-07-05.
 
 ## Rules (UTC)

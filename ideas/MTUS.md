@@ -25,7 +25,7 @@ On 25 Sep 2026 (after the close), the DLA awarded Metallus a **sole-source, firm
 - **Thesis check:** Q3 results **Mon 2 Nov 2026 after the close**, call **Tue 3 Nov 2026, 14:00 UK** ([company release, 13 Oct](https://www.prnewswire.com/news-releases/metallus-announces-third-quarter-2026-earnings-webcast-details-302907111.html); the earlier 6 Nov date was a third-party estimate) and the 10-Q. Look for HF-1 / defence volumes, backlog, and any guidance tied to the award.
 - **Time:** hold at least through Q3 results, and review at +60 trading days.
 - **Target:** none fixed. It's re-rated by the evidence at Q3, not by a chart level.
-- **Size:** the whole £50 test account (~$65). The maximum loss is the £50, and it's capital treated as real.
+- **Size:** one small test position. The maximum loss is the position, and it's capital treated as real.
 
 ## Renewal check (4 Oct 2026, after entry)
 **Verdict: a new buyer for an existing product. Not a renewal, but not new revenue either until orders are placed.**

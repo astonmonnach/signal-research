@@ -26,7 +26,7 @@ Stage: RETIRED (rule v1) · Created: 2026-09-30
 - Time stop: 6 months, then reassess.
 
 ## Sizing
-£40–50, max 2 open spin-off positions.
+Small fixed size, max 2 open spin-off positions.
 
 ## What would prove this wrong
 Our own backtest shows no post-spin rebound net of fees, or 20 live trades lose money after fees.

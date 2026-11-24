@@ -1,6 +1,6 @@
 """Re-grade the frozen C2 wallet panel on current 30-day GMGN data (read-only, no trading).
 Usage: python collectors/c2_grade_panel.py  -> data/crypto/c2_panel_grade_YYYY-MM-DD.csv
-Same classes as Desktop/Solana Wallet Finder/refresh.py. A changed panel = a new C2 version."""
+Same classes as the local Solana Wallet Finder refresh.py. A changed panel = a new C2 version."""
 import csv, sys
 from datetime import date
 from pathlib import Path

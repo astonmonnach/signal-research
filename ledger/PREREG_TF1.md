@@ -74,4 +74,4 @@ TF1 **passes** only if all three hold:
 
 - The four conditions overlap: cheap, beaten-down and volatile are often the same stocks.
 - Momentum in small stocks is a known effect. So a pass would show the pattern holds in our own pipeline. It would not be a new edge.
-- With 3.5% round-trip costs on £40 to £50 positions, a 1-2% median edge would not pay at that size. The cost section of any TRADE plan has to say so.
+- With 3.5% round-trip costs on small positions, a 1-2% median edge would not pay at that size. The cost section of any TRADE plan has to say so.

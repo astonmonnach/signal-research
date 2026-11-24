@@ -9,7 +9,7 @@ queries on other tables never enter. Later runs of the same event replace earlie
 import os, sys, csv, json, glob, random, statistics as st, datetime as dt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PROJ = os.path.expanduser('~/.claude/projects/C--Users-thoma-catalyst-research')
+PROJ = os.environ.get('TRANSCRIPTS_DIR', '')  # folder holding the session transcripts (.jsonl); set it locally
 COLS = ['k', 'n_all', 'n_rth', 'tt', 'entry', 'jumped', 'x30', 'x60', 'x120', 't120', 'xclose', 'hi', 'lo']
 SEED, DRAWS, CAP = 20261029, 2000, 4.0
 COSTS = (0.01, 0.02, 0.04)

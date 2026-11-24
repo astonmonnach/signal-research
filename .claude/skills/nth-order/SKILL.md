@@ -99,7 +99,7 @@ These rules exist because each one caught a mistake that a clean-looking analysi
     The scanner now tags `bio-mention`, `financing-mention` and EFFECTs that are `(not supply: ...)`
     (POS AM, F-6, N-2, S-4/F-4), and the ledger skips them (ledger/RULES.md, 2026-10-05).
 11. **Score and log it.** Apply the METHOD gates G1–G5 and the 0–10 card
-    (Desktop/nth-order-pipeline/METHOD.md). Log the call with a control ticker in
+    (a local nth-order-pipeline/METHOD.md). Log the call with a control ticker in
     `ledger/` so it gets marked against the market from the next session's open.
     Kills get logged too.
 

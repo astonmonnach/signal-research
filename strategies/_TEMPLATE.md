@@ -19,7 +19,7 @@ Which filing, scan or date surfaces a candidate.
 - Time stop:
 
 ## Sizing
-£40–50 per trade, max N open positions in this strategy.
+Small fixed size per trade, max N open positions in this strategy.
 
 ## What would prove this wrong
 The evidence that retires it.

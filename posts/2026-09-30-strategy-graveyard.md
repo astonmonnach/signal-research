@@ -41,7 +41,7 @@ The idea wasn't dumb. The timing and the stop were.
 
 ---
 5/
-The biggest lesson: at a £45 position, fees and spread are ~3.5% a round trip.
+The biggest lesson: at a small position size, fees and spread are ~3.5% a round trip.
 
 Any strategy whose typical move is under ~5% can't work at that size, however smart it sounds.
 

@@ -11,7 +11,7 @@ import os, sys, json, glob, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, 'cache')
-PROJ = os.path.expanduser('~/.claude/projects/C--Users-thoma-catalyst-research')
+PROJ = os.environ.get('TRANSCRIPTS_DIR', '')  # folder holding the session transcripts (.jsonl); set it locally
 
 
 def save_path(path, params):
