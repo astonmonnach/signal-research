@@ -117,7 +117,28 @@ def mark(call):
         if inv is not None:
             inv /= split_factor_after(call["ticker"], posted.date())
         rev = dt.date.fromisoformat(call["review_date"]) if call.get("review_date") else None
-        for d, o, c in after:
+        if call.get("horizon") == "up1":
+            # Rule UP1 (ledger/PREREG_UP1.md, 24 Nov 2026), on closing prices: out at -10% from entry; out at the
+            # research ceiling (column `target`) if one was stated; once a close is 20%+ up, out on a close 10% below
+            # the highest close; otherwise out at the review date (20 trading days).
+            tgt = float(call["target"]) if call.get("target") else None
+            if tgt is not None:
+                tgt /= split_factor_after(call["ticker"], posted.date())
+            top = eo
+            for d, o, c in after:
+                top = max(top, c)
+                if c <= eo * 0.90:
+                    exit_d, exit_p, reason = d, c, f"stop: close {c:.2f} is 10% or more below entry {eo:.2f}"; break
+                if tgt is not None and c >= tgt:
+                    exit_d, exit_p, reason = d, c, f"research ceiling: close {c:.2f} vs target {tgt:.2f}"; break
+                if top >= eo * 1.20 and c <= top * 0.90:
+                    exit_d, exit_p, reason = d, c, f"trailing exit: close {c:.2f}, 10% below the {top:.2f} high close"; break
+                if rev and d >= rev:
+                    exit_d, exit_p, reason = d, c, "review date reached"; break
+            after_rule = True
+        else:
+            after_rule = False
+        for d, o, c in ([] if after_rule else after):
             if inv is not None and ((d_dir > 0 and c < inv) or (d_dir < 0 and c > inv)):
                 exit_d, exit_p, reason = d, c, f"invalidation close {c:.2f} vs {inv:.2f}"; break
             if rev and d >= rev:
@@ -139,8 +160,9 @@ def mark(call):
 
 
 def side_label(c):
-    """LONG, or AVOID for a -1 call: a cash account can't short, so a down call means 'don't buy' (rule 2026-10-23)."""
-    return ("LONG" if int(c["direction"]) > 0 else "AVOID") + (" (long-term)" if c.get("horizon") == "long" else "")
+    """UP for a +1 call, DOWN for a -1 call (the trader's labels from 23 Nov 2026; a cash account can't short, so a
+    DOWN call means 'don't buy', rule 2026-10-23)."""
+    return ("UP" if int(c["direction"]) > 0 else "DOWN") + (" (long-term)" if c.get("horizon") == "long" else "")
 
 
 def post_text(c, link=False):  # no repo link in X posts unless asked (rule 2026-11-24, privacy)
@@ -195,7 +217,7 @@ def weekly(marked):
     stock = lambda m: m["ret_pct"] * int(m["direction"])  # the stock's own move since entry
 
     def line(m):
-        state = "open" if m["status"] == "open" else "closed"
+        state = ("right" if m["ret_pct"] > 0 else "wrong") + (" so far" if m["status"] == "open" else ", closed")
         return (f"#{m['id']} {side_label(m).split()[0]} {tag(m['ticker'])}: stock {fmt(stock(m))}, "
                 f"{fmt(m['excess_bench'], ' pts')} vs {tag(m['bench'])}, {state}")
 
@@ -233,7 +255,7 @@ def weekly(marked):
             thread.append(cur); cur = ""
         cur = (cur + " " + s).strip()
     if cur: thread.append(cur)
-    thread.append("AVOID names usually fall, so the real test is each call vs its control. "
+    thread.append("DOWN-call stocks usually fall, so the real test is each call vs its control. "
                   "Every call stays up, losers included.")
     assert all(len(t) <= 280 for t in thread), [len(t) for t in thread]
 
@@ -316,7 +338,10 @@ def main():
           "4. Nothing is ever deleted or edited. A mistake gets a new row that says so.",
           "5. Judge the record after 20+ closed calls, against the market and the controls, not by the best winner.",
           "6. Long-term calls (horizon `long`) are measured against SPY and can also close on a pre-stated thesis break "
-          "(for example the theme's segment revenue falling two quarters running), recorded in the exit columns with the reason.", ""]
+          "(for example the theme's segment revenue falling two quarters running), recorded in the exit columns with the reason.",
+          "7. UP calls under rule UP1 (horizon `up1`, from 24 Nov 2026, ledger/PREREG_UP1.md) close on the first of: a close 10% "
+          "below entry; a close at the research ceiling stated when the call was made (column `target`); after a close 20%+ "
+          "up, a close 10% below the highest close; or the review date, 20 trading days out.", ""]
     (ROOT / "calls/README.md").write_text("\n".join(L), encoding="utf-8")
     if "--announce" in sys.argv:
         announce(rows, marked)

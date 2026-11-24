@@ -89,9 +89,18 @@ def measure(f, iwm):
     im = {d: (o, c) for d, o, c, _ in iwm}
     iw = (im[now_d][1] / im[ed][0] - 1) * 100 if ed in im and now_d in im else None
     pct = (now / eo - 1) * 100
+    # The path, not just today (the trader's ask, 24 Nov 2026): best and worst close since entry, with dates, and
+    # which 10% move came first. On closes, the same basis as rule UP1.
+    best = max(after, key=lambda x: x[2]); worst = min(after, key=lambda x: x[2])
+    first10 = "none"
+    for d, o, c, *_ in after:
+        if c >= eo * 1.10: first10 = f"up {d.isoformat()}"; break
+        if c <= eo * 0.90: first10 = f"down {d.isoformat()}"; break
     return dict(entry_date=ed.isoformat(), entry=round(eo, 4), now_date=now_d.isoformat(), now=round(now, 4),
                 pct=round(pct, 1), iwm=None if iw is None else round(iw, 1),
-                vs_iwm=None if iw is None else round(pct - iw, 1))
+                vs_iwm=None if iw is None else round(pct - iw, 1),
+                best_pct=round((best[2] / eo - 1) * 100, 1), best_date=best[0].isoformat(),
+                worst_pct=round((worst[2] / eo - 1) * 100, 1), worst_date=worst[0].isoformat(), first10=first10)
 
 
 def right(r):
@@ -165,7 +174,8 @@ def main():
     rows.sort(key=lambda r: (r["view"], r["group"], r["found"], r["ticker"]))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "img").mkdir(exist_ok=True)
-    cols = ["ticker", "name", "view", "group", "found", "takeable", "entry_date", "entry", "now_date", "now", "pct", "iwm", "vs_iwm", "why"]
+    cols = ["ticker", "name", "view", "group", "found", "takeable", "entry_date", "entry", "now_date", "now", "pct", "iwm", "vs_iwm",
+            "best_pct", "best_date", "worst_pct", "worst_date", "first10", "why"]
     with open(OUT / "found.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
     asof = max(r["now_date"] for r in rows)

@@ -17,3 +17,4 @@ id,posted_utc,ticker,direction,horizon,entry_date,entry,end_date,end_price,ret_p
 16,2026-11-13T19:36Z,GCTS,-1,swing,2026-11-16,1.23,2026-11-23,1.13,8.13,81.3,IWM,-3.75,4.38,XSD,-3.08,5.05,7,open
 17,2026-11-17T20:42Z,TE,-1,swing,2026-11-18,1.3,2026-11-23,1.2,7.69,76.92,IWM,-0.9,6.79,TAN,-7.02,0.68,5,open
 18,2026-11-19T18:37Z,XGN,-1,swing,2026-11-20,3.73,2026-11-23,3.9,-4.56,-45.58,IWM,0.92,-3.64,XBI,3.0,-1.56,3,open
+19,2026-11-24T20:32Z,MNTS,1,up1,,,,,,,,,,RDW,,,,pending (enters next open)
