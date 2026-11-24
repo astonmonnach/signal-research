@@ -100,3 +100,14 @@ read back from IBKR and equal to the register's 74 active rows.
   - Read back: 334.
 - **Not done:** the old dead and blank-name entries are still on the list. That includes NCI.OLD (884034770), SNTI.OLD (877300929) and about ten entries with a blank name. Removing them is a separate clean-up waiting for the trader's go-ahead.
 - Approved by the trader in chat ("yes add them all to the AVOID list").
+
+## 2026-11-24
+
+- **AVOID (114):** 334 -> 317, read back with every entry named.
+  - **Removed 33 dead contracts:** 30 blank-name entries and 3 old pre-split contracts (JAGX.OLD, CODX.OLD, ISPC.OLD). Each returned an empty price snapshot (checked against live controls). They include NCI.OLD (884034770) and SNTI.OLD (877300929).
+  - **Added 13** new register names: HSCS, BOXL, TRUG, CNXU, NANO (Forge Nano), BNAI, MPLT, DCOY, TOVX, TLPH, PLUR, LHSW, NXAT.
+  - **Added 3** current contracts for register names: JAGX (947830725), CODX (947830720), ISPC (947830717).
+- **ALL (105):** +MNTS (839174082), +KNOP (125543001). Read back: 45.
+- **STRAT activist (112):** +MNTS, +KNOP. Read back: 7.
+- **Alerts:** not created yet. IBKR alerts made this way show only in IBKR Desktop, so the trader is asked whether to add an email first.
+- Approved by the trader in chat ("Yes do all of those").
