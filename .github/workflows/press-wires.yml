@@ -29,6 +29,7 @@ jobs:
         run: |
           git config user.name "signal-lab-bot"
           git config user.email "signal-lab-bot@users.noreply.github.com"
+          if git grep -lI -E '^(<{7}|>{7}) ' -- . ; then echo 'conflict markers in the working tree; not committing'; exit 1; fi
           git add data/press/ watch/press/
           git diff --cached --quiet && exit 0
           git commit -m "press wires $(date -u +%Y-%m-%dT%H:%MZ)"

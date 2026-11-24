@@ -6,17 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md)); `value_gap` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-<<<<<<< Updated upstream
-- **Latest price:** $3.97 (2026-11-24, ledger) · 1d +4.9%, 5d +2.7%, 20d -7.1% (market context, 2026-11-24)
-- **Since first found:** **-7.0%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -8.7% vs IWM -4.5% = **-4.3 pts** vs IWM; direction +1 → excess -4.3% (27 days)
-  - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +2.7% vs peer median +5.1%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-24)
-=======
 - **Latest price:** $3.96 (2026-11-24, ledger) · 1d +4.6%, 5d +2.5%, 20d -7.4% (market context, 2026-11-24)
 - **Since first found:** **-7.3%** (found 2026-10-27 via `8k_strategic_review` at $4.27). From the next open $4.35: -9.0% vs IWM -4.6% = **-4.4 pts** vs IWM; direction +1 → excess -4.4% (27 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** missed_peer_move: peer median +5.1% 5d vs ARTV +2.5%; peers moved, it didn't. Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-24)
->>>>>>> Stashed changes
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -40,14 +33,7 @@ Every [ledger](../ledger/LEDGER.md) row for ARTV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $3.97 | -7.0% | -8.7% | -4.5% | -4.3% | 27 | live |
-| 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $3.97 | -7.1% | -5.9% | -5.2% |  | 26 | live |
-| 2026-11-09 | `8k_strategic_review` | +1 | -1.0% | +1.7% | $5.8M | $4.22 | $4.19 | $3.97 | -5.9% | -5.2% | -4.3% | -1.0% | 14 | live |
-| 2026-11-10 | `value_gap` | 0 | +0.7% | -3.8% | $5.9M | $4.06 | $4.10 | $3.97 | -2.2% | -3.2% | -5.3% |  | 13 | live |
-=======
 | 2026-10-27 | `8k_strategic_review` | +1 | +4.6% | -30.7% | $4.6M | $4.27 | $4.35 | $3.96 | -7.3% | -9.0% | -4.6% | -4.4% | 27 | live |
 | 2026-10-28 | `below_cash` | 0 | -34.9% | +0.1% | $5.1M | $4.28 | $4.22 | $3.96 | -7.4% | -6.2% | -5.3% |  | 26 | live |
 | 2026-11-09 | `8k_strategic_review` | +1 | -1.0% | +1.7% | $5.8M | $4.22 | $4.19 | $3.96 | -6.2% | -5.5% | -4.4% | -1.1% | 14 | live |
 | 2026-11-10 | `value_gap` | 0 | +0.7% | -3.8% | $5.9M | $4.06 | $4.10 | $3.96 | -2.5% | -3.4% | -5.5% |  | 13 | live |
->>>>>>> Stashed changes

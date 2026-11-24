@@ -79,17 +79,10 @@ Sector de-rating (online and HRM competition), floating-rate debt, and no-sale r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-<<<<<<< Updated upstream
-- **Latest price:** $93.91 (2026-11-24, ledger) · 1d +0.4%, 5d -3.6%, 20d +15.1% (market context, 2026-11-24)
-- **Since first found:** **+24.0%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +23.6% vs IWM -4.4% = **+28.0 pts** vs IWM; direction +1 → excess +28.0% (56 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CHDN -3.6% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-24)
-=======
 - **Latest price:** $93.93 (2026-11-24, ledger) · 1d +0.6%, 5d -3.4%, 20d +15.3% (market context, 2026-11-24)
 - **Since first found:** **+24.1%** (found 2026-09-28 via `8k_strategic_review` at $75.72). From the next open $76.00: +23.6% vs IWM -4.5% = **+28.1 pts** vs IWM; direction +1 → excess +28.1% (56 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** solo_move: CHDN -3.4% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 7948 (1) ([market context](../watch/context/latest.json), 2026-11-24)
->>>>>>> Stashed changes
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: Re-check the first scan: WHF, CHDN, RYAM
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -113,12 +106,6 @@ Every [ledger](../ledger/LEDGER.md) row for CHDN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $93.91 | +24.0% | +23.6% | -4.4% | +28.0% | 56 | live |
-| 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $93.91 | +24.0% | +23.6% | -4.4% | +28.0% | 56 | live |
-| 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $93.91 | +14.6% | +8.4% | -5.2% | +13.6% | 26 | live |
-=======
 | 2026-09-28 | `8k_strategic_review` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $93.93 | +24.1% | +23.6% | -4.5% | +28.1% | 56 | live |
 | 2026-09-28 | `idea_catalyst` | +1 | -2.6% | -5.1% | $92.0M | $75.72 | $76.00 | $93.93 | +24.1% | +23.6% | -4.5% | +28.1% | 56 | live |
 | 2026-10-28 | `8k_strategic_review` | +1 | -1.8% | +0.5% | $88.8M | $81.95 | $86.63 | $93.93 | +14.6% | +8.4% | -5.3% | +13.7% | 26 | live |
->>>>>>> Stashed changes

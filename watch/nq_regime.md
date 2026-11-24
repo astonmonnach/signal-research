@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-# NQ regime: 2026-11-24 19:31 UTC
-=======
 # NQ regime: 2026-11-24 19:44 UTC
->>>>>>> Stashed changes
 
 Last session **2026-11-23**: range **6.81%** of prior close, 100th percentile of the past year. Big day: **YES**.
 

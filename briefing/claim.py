@@ -20,6 +20,20 @@ def git(*args):
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
+def sync():
+    """Pull the latest main without leaving conflict markers (rule 2026-11-24: a mid-run autostash pop conflicted and
+    the run committed 225 files with markers). This run's own uncommitted outputs win for the files it changed;
+    everything else comes from main."""
+    r = git("stash", "push", "-u", "-q")
+    had = "No local changes" not in (r.stdout + r.stderr) and r.returncode == 0
+    git("pull", "--rebase", "-X", "theirs", "-q")
+    if had and git("stash", "pop", "-q").returncode != 0:
+        for f in git("diff", "--name-only", "--diff-filter=U").stdout.split():
+            git("checkout", "--theirs", "--", f)       # in a stash pop, "theirs" is this run's own version
+        git("reset", "-q")
+        git("stash", "drop", "-q")
+
+
 def push_state(rel, write):
     """Commit and push a state file BEFORE acting on it (alerts' seen-list). `write(path)` writes the new content onto
     the latest main. Returns True once pushed; False means don't send (try again next run)."""
@@ -27,7 +41,7 @@ def push_state(rel, write):
     if git("remote").stdout.strip() == "":
         write(path); return True
     for attempt in range(5):
-        git("pull", "--rebase", "--autostash", "-X", "theirs", "-q")
+        sync()
         write(path)
         git("add", "-f", rel)
         if git("diff", "--cached", "--quiet", "--", rel).returncode == 0:
@@ -47,7 +61,7 @@ def claim(rel, note="claimed"):
         path.parent.mkdir(parents=True, exist_ok=True); path.write_text(note + "\n", encoding="utf-8")
         return True
     for attempt in range(5):
-        git("pull", "--rebase", "--autostash", "-X", "theirs", "-q")
+        sync()
         if path.exists():
             return False                                    # someone already sent it
         path.parent.mkdir(parents=True, exist_ok=True)

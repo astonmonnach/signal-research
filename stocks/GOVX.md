@@ -25,11 +25,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $1.67 (2026-11-24, ledger)
-<<<<<<< Updated upstream
-- **Since first found:** **-78.2%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -78.9% vs IWM -5.0% = **-73.9 pts** vs IWM; direction 0, tracked only (50 days)
-=======
 - **Since first found:** **-78.3%** (found 2026-10-04 via `setup_supply_deficiency` at $7.68). From the next open $7.92: -78.9% vs IWM -5.1% = **-73.8 pts** vs IWM; direction 0, tracked only (50 days)
->>>>>>> Stashed changes
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -51,14 +47,7 @@ Every [ledger](../ledger/LEDGER.md) row for GOVX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $1.67 | -78.2% | -78.9% | -5.0% |  | 50 | live |
-| 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $1.67 | -65.4% | -66.4% | -4.5% | +61.9% | 27 | live |
-| 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $1.67 | -58.6% | -58.6% | -5.6% | +53.0% | 19 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -46.4% | -5.6% | $127k ⚠ | $2.04 | $2.20 | $1.67 | -18.1% | -24.1% | -4.0% | +20.1% | 11 | live |
-=======
 | 2026-10-04 | `setup_supply_deficiency` | 0 | -10.6% | -0.6% | $111k ⚠ | $7.68 | $7.92 | $1.67 | -78.3% | -78.9% | -5.1% |  | 50 | live |
 | 2026-10-27 | `8k_reverse_split` | -1 | -14.9% | +3.6% | $273k | $4.82 | $4.97 | $1.67 | -65.4% | -66.4% | -4.6% | +61.8% | 27 | live |
 | 2026-11-04 | `share_registration` | -1 | -18.4% | +2.4% | $62k ⚠ | $4.03 | $4.03 | $1.67 | -58.6% | -58.6% | -5.7% | +52.9% | 19 | live |
 | 2026-11-12 | `8k_reverse_split` | -1 | -46.4% | -5.6% | $127k ⚠ | $2.04 | $2.20 | $1.67 | -18.1% | -24.1% | -4.1% | +20.0% | 11 | live |
->>>>>>> Stashed changes

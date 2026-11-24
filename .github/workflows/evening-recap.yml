@@ -53,6 +53,7 @@ jobs:
         run: |
           git config user.name "signal-lab-bot"
           git config user.email "signal-lab-bot@users.noreply.github.com"
+          if git grep -lI -E '^(<{7}|>{7}) ' -- . ; then echo 'conflict markers in the working tree; not committing'; exit 1; fi
           git add -A watch/positions.md watch/caps.json calls/ recaps/ reports/ 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "evening recap $(date -u +%Y-%m-%d)"

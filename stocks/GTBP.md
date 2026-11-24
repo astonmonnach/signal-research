@@ -6,13 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-<<<<<<< Updated upstream
-- **Latest price:** $3.20 (2026-11-24, ledger)
-- **Since first found:** **-52.0%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -52.8% vs IWM -3.8% = **-49.0 pts** vs IWM; direction -1 → excess +49.0% (43 days)
-=======
 - **Latest price:** $3.22 (2026-11-24, ledger)
 - **Since first found:** **-51.8%** (found 2026-10-09 via `share_registration` at $6.68). From the next open $6.79: -52.6% vs IWM -3.9% = **-48.7 pts** vs IWM; direction -1 → excess +48.7% (43 days)
->>>>>>> Stashed changes
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,12 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for GTBP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $3.20 | -52.0% | -52.8% | -3.8% | +49.0% | 43 | live |
-| 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $3.20 | -40.8% | -40.3% | -2.5% | +37.8% | 33 | live |
-| 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $3.20 | -42.0% | -42.6% | -2.5% |  | 32 | live |
-=======
 | 2026-10-09 | `share_registration` | -1 | -3.9% | +12.1% | $766k | $6.68 | $6.79 | $3.22 | -51.8% | -52.6% | -3.9% | +48.7% | 43 | live |
 | 2026-10-21 | `registration_effective` | -1 | +12.5% | -26.0% | $302k | $5.41 | $5.37 | $3.22 | -40.5% | -40.0% | -2.6% | +37.4% | 33 | live |
 | 2026-10-22 | `setup_supply_resale` | 0 | -12.9% | +2.0% | $311k | $5.52 | $5.58 | $3.22 | -41.7% | -42.3% | -2.6% |  | 32 | live |
->>>>>>> Stashed changes

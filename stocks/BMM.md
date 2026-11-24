@@ -6,15 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-<<<<<<< Updated upstream
-- **Latest price:** $2.39 (2026-11-24, ledger) · 1d -12.4%, 5d -21.4%, 20d -45.2% (market context, 2026-11-24)
-- **Since first found:** **-44.4%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -44.8% vs IWM -3.2% = **-41.5 pts** vs IWM; direction 0, tracked only (34 days)
-- **Peers / sympathy:** solo_move: BMM -21.4% 5d vs peer median -8.6%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-24)
-=======
 - **Latest price:** $2.38 (2026-11-24, ledger) · 1d -12.8%, 5d -21.7%, 20d -45.4% (market context, 2026-11-24)
 - **Since first found:** **-44.6%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -45.0% vs IWM -3.4% = **-41.7 pts** vs IWM; direction 0, tracked only (34 days)
 - **Peers / sympathy:** solo_move: BMM -21.7% 5d vs peer median -8.6%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-24)
->>>>>>> Stashed changes
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -50,8 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.39 | -44.4% | -44.8% | -3.2% |  | 34 | live |
-=======
 | 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.38 | -44.6% | -45.0% | -3.4% |  | 34 | live |
->>>>>>> Stashed changes

@@ -20,6 +20,7 @@ CHECKS = [
     ("personal email", re.compile(r"[\w.+-]+@(gmail|hotmail|outlook|icloud|yahoo)\.(com|co\.uk)", re.I)),
     ("account funding or balance", re.compile(r"Fund accounts|net_liquidation|buying_power|test account", re.I)),
     ("personal trade size in pounds", re.compile(r"£\s?\d{2,3}(?![\d,.])")),
+    ("git conflict marker", re.compile(r"^(<{7}|>{7}) ", re.M)),
 ]
 POUND_SKIP = ("research/evidence/", "research/rumours/", "data/")
 FILE_SKIP = ("ledger/privacy_check.py", "data/crypto/c2_panel.json")  # the frozen C2 panel is not edited

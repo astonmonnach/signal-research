@@ -104,17 +104,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05)); `longterm_research` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-<<<<<<< Updated upstream
-- **Latest price:** $16.79 (2026-11-24, ledger) · 1d -7.6%, 5d -13.1%, 20d -25.3% (market context, 2026-11-24)
-- **Since first found:** **-14.5%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -12.7% vs IWM -4.5% = **-8.2 pts** vs IWM; direction +1 → excess -8.2% (57 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -13.1% 5d vs peer median -2.3%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-24)
-=======
 - **Latest price:** $16.97 (2026-11-24, ledger) · 1d -7.2%, 5d -12.8%, 20d -25.1% (market context, 2026-11-24)
 - **Since first found:** **-13.6%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -11.8% vs IWM -4.6% = **-7.2 pts** vs IWM; direction +1 → excess -7.2% (57 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** solo_move: ELMT -12.8% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-24)
->>>>>>> Stashed changes
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -149,12 +142,6 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $16.79 | -14.5% | -12.7% | -4.5% | -8.2% | 57 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $16.79 | -21.1% | -22.4% | -5.8% |  | 49 | live |
-| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $16.79 | -13.4% | -17.2% | -5.3% |  | 13 | live |
-=======
 | 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $16.97 | -13.6% | -11.8% | -4.6% | -7.2% | 57 | live |
 | 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $16.97 | -20.3% | -21.5% | -5.9% |  | 49 | live |
 | 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $16.97 | -12.4% | -16.4% | -5.5% |  | 13 | live |
->>>>>>> Stashed changes

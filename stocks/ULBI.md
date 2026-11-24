@@ -6,17 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-<<<<<<< Updated upstream
-- **Latest price:** $15.56 (2026-11-24, ledger) · 1d -0.1%, 5d -0.6%, 20d +144.8% (market context, 2026-11-24)
-- **Since first found:** **-0.3%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: -0.3% vs IWM -5.2% = **+4.8 pts** vs IWM; direction 0, tracked only (26 days)
-  - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -3.5%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-24)
-=======
 - **Latest price:** $15.57 (2026-11-24, ledger) · 1d -0.1%, 5d -0.6%, 20d +144.8% (market context, 2026-11-24)
 - **Since first found:** **-0.3%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: -0.3% vs IWM -5.3% = **+5.0 pts** vs IWM; direction 0, tracked only (26 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -3.6%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-24)
->>>>>>> Stashed changes
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions) - EnerSys now expects closing in Q1 2027, so expect an extension
@@ -48,14 +41,7 @@ Every [ledger](../ledger/LEDGER.md) row for ULBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-<<<<<<< Updated upstream
-| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.56 | -0.3% | -0.3% | -5.2% |  | 26 | live |
-| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.56 | -0.3% | -0.3% | -5.2% |  | 26 | live |
-| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.56 | -0.3% | -0.3% | -5.2% |  | 26 | live |
-| 2026-11-13 | `tender_third_party` | 0 | +1.0% | -0.3% | $4.3M | $15.73 | $15.71 | $15.56 | -1.1% | -0.9% | -3.0% |  | 8 | live |
-=======
 | 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
 | 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
 | 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
 | 2026-11-13 | `tender_third_party` | 0 | +1.0% | -0.3% | $4.3M | $15.73 | $15.71 | $15.57 | -1.0% | -0.9% | -3.1% |  | 8 | live |
->>>>>>> Stashed changes
