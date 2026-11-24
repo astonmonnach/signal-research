@@ -268,3 +268,4 @@ date,a,b,type,detail,source
 2026-11-20,KNOP,fund:Astaris,counterparty,Activist Astaris sold its whole block to the sponsor at $12.50 with a 24-month standstill,https://www.sec.gov/Archives/edgar/data/1564180/000091957426008224/primary_doc.xml
 2026-11-20,DXYZ,fund:Saba Capital,holder_13d,"Saba 7.58% ($96.2M), first 13D at DXYZ; discount to NAV, open or closed end, liquidation timing",https://www.sec.gov/Archives/edgar/data/1843974/000106299326006212/primary_doc.xml
 2026-11-19,XYF,fund:Mangrove,holder_13d,"Mangrove (93.45% of votes, CEO-affiliated) proposed $6.03 per ADS; special committee formed 19 Nov",https://www.sec.gov/Archives/edgar/data/1725033/000110465926129959/tm2630265d1_6k.htm
+2026-11-23,MNTS,fund:OA3 (Burkle),holder_13d,"Burkle's OA3 10.6% (group 12.9%), first 13D, wants more shares; refused a $1.86 ATM block",https://www.sec.gov/Archives/edgar/data/1781162/000090514826005136/xslSCHEDULE_13D_X02/primary_doc.xml
