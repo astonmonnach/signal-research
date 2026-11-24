@@ -23,6 +23,10 @@ A name the research run made WATCH (or better), with a dated trigger row in ledg
 - **Time:** otherwise out at the close on the review date, 20 trading days after entry.
 - Whichever comes first. Marked by calls/build_calls.py (horizon `up1`), against IWM and a named control.
 
+## Recorded with each call (not part of the rule)
+- Whether a results date falls before the end date, and the date if so (added 24 Nov, before the first entry, after most -20% days in the path review came on results days). Checked after 20 calls; if those calls did worse, that becomes rule UP2.
+- Call #19 MNTS: no results expected before 23 Dec (inference: the Q3 10-Q was filed 18 Nov, so Q4 results come after year-end).
+
 ## How it is judged
 - After 20 closed UP1 calls: the average return, the share that made money, and the average against IWM, all before and after a 3.5% round-trip cost.
 - Real money is the trader's own decision at any time; the record counts the rule, not his trades.
