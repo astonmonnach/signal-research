@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_warrants` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $1.04 (2026-11-24, ledger)
-- **Since first found:** **-14.1%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -14.8% vs IWM -3.7% = **-11.1 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $1.05 (2026-11-24, ledger)
+- **Since first found:** **-13.2%** (found 2026-10-26 via `setup_supply_warrants` at $1.21). From the next open $1.22: -13.9% vs IWM -3.6% = **-10.3 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for OSTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $1.04 | -14.1% | -14.8% | -3.7% |  | 28 | live |
+| 2026-10-26 | `setup_supply_warrants` | 0 | -5.3% | -3.2% | $1.0M | $1.21 | $1.22 | $1.05 | -13.2% | -13.9% | -3.6% |  | 28 | live |

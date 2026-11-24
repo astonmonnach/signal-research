@@ -26,7 +26,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.005 (2026-11-23, ledger)
-- **Since first found:** **-96.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -96.2% vs IWM -5.0% = **-91.1 pts** vs IWM; direction 0, tracked only (49 days)
+- **Since first found:** **-96.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -96.2% vs IWM -5.0% = **-91.2 pts** vs IWM; direction 0, tracked only (49 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

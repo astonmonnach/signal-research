@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `below_cash` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md)); `insider_cluster` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $4.34 (2026-11-24, ledger)
-- **Since first found:** **+20.4%** (found 2026-11-05 via `8k_strategic_review` at $3.61). From the next open $3.72: +16.8% vs IWM -1.6% = **+18.4 pts** vs IWM; direction +1 → excess +18.4% (18 days)
+- **Latest price:** $4.23 (2026-11-24, ledger)
+- **Since first found:** **+17.2%** (found 2026-11-05 via `8k_strategic_review` at $3.61). From the next open $3.72: +13.7% vs IWM -1.5% = **+15.2 pts** vs IWM; direction +1 → excess +15.2% (18 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,6 +29,6 @@ Every [ledger](../ledger/LEDGER.md) row for CVV ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `8k_strategic_review` | +1 | -7.0% | -6.2% | $227k | $3.61 | $3.72 | $4.34 | +20.4% | +16.8% | -1.6% | +18.4% | 18 | live |
-| 2026-11-06 | `below_cash` | 0 | -10.6% | +10.0% | $228k | $3.97 | $4.00 | $4.34 | +9.4% | +8.6% | -3.5% |  | 15 | live |
-| 2026-11-19 | `insider_cluster` | 0 | +9.2% | -3.8% | $260k | $4.34 | $4.28 | $4.34 | +0.1% | +1.5% | +1.7% |  | 4 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | -7.0% | -6.2% | $227k | $3.61 | $3.72 | $4.23 | +17.2% | +13.7% | -1.5% | +15.2% | 18 | live |
+| 2026-11-06 | `below_cash` | 0 | -10.6% | +10.0% | $228k | $3.97 | $4.00 | $4.23 | +6.5% | +5.8% | -3.5% |  | 15 | live |
+| 2026-11-19 | `insider_cluster` | 0 | +9.2% | -3.8% | $260k | $4.34 | $4.28 | $4.23 | -2.5% | -1.2% | +1.7% |  | 4 | live |

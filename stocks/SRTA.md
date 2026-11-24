@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $4.84 (2026-11-24, ledger) · 1d -2.3%, 5d -7.5%, 20d +2.6% (market context, 2026-11-24)
 - **Since first found:** **+11.6%** (found 2026-10-15 via `activist_13d` at $4.34). From the next open $4.55: +6.5% vs IWM -2.8% = **+9.3 pts** vs IWM; direction +1 → excess +9.3% (39 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: SRTA -7.5% 5d vs peer median -2.0%; peers didn't move with it. Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: SRTA -7.5% 5d vs peer median -1.8%; peers didn't move with it. Peer groups: SIC 4700 (8) ([market context](../watch/context/latest.json), 2026-11-24)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
