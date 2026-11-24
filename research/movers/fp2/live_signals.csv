@@ -69,3 +69,6 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-20,01:25,False,MAIA,MAIA Biotechnology Inc. Common Stock,S2,1.28,2267601,446030,5.08,275214,,,,,,,,open
 2026-11-20,01:25,False,NSTR,NorthStar Earth & Space Enterprises Inc. Common Shares,S2,1.52,2284095,238990,9.56,430180,,,,,,,,open
 2026-11-20,01:25,False,QTRX,Quanterix Corporation Common Stock,S2,2.07,3539869,651460,5.43,1392018,,,,,,,,open
+2026-11-24,04:25,False,MEDS,DataMeds AI Inc. Common Stock,S2,1.34,94225046,9623885,9.79,666688,,,,,,,,open
+2026-11-24,04:25,False,MOB,Mobilicom Limited Ordinary Shares,S2,1.23,1521811,272695,5.58,289792,,,,,,,,open
+2026-11-24,04:25,False,WRN,Western Copper and Gold Corporation Common Stock,S2,1.215,9721633,1910415,5.09,1942572,,,,,,,,open
