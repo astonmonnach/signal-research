@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for VLN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-25 | `holder_13d` | 0 | -7.8% | -0.8% | $1.0M | $1.29 |  | $1.29 |  |  |  |  |  | pending |
+| 2026-11-25 | `holder_13d` | 0 | -7.8% | -0.4% | $1.0M | $1.29 |  | $1.29 |  |  |  |  |  | pending |

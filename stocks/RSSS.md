@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
 - **Latest price:** $3.13 (2026-11-25, ledger)
-- **Since first found:** **+0.2%** (found 2026-11-23 via `8k_merger_agreement` at $3.13). From the next open $3.15: -0.5% vs IWM +1.1% = **-1.5 pts** vs IWM; direction 0, tracked only (1 days)
+- **Since first found:** **+0.2%** (found 2026-11-23 via `8k_merger_agreement` at $3.13). From the next open $3.15: -0.5% vs IWM +1.2% = **-1.7 pts** vs IWM; direction 0, tracked only (1 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for RSSS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `8k_merger_agreement` | 0 | +7.0% | +45.6% | $1.7M | $3.13 | $3.15 | $3.13 | +0.2% | -0.5% | +1.1% |  | 1 | live |
-| 2026-11-24 | `8k_merger_agreement` | 0 | +65.6% | +0.3% | $1.9M | $3.14 | $3.14 | $3.13 | -0.2% | -0.2% | +1.4% |  | 0 | live |
+| 2026-11-23 | `8k_merger_agreement` | 0 | +7.0% | +45.6% | $1.7M | $3.13 | $3.15 | $3.13 | +0.2% | -0.5% | +1.2% |  | 1 | live |
+| 2026-11-24 | `8k_merger_agreement` | 0 | +65.6% | +0.3% | $1.9M | $3.14 | $3.14 | $3.13 | -0.2% | -0.2% | +1.5% |  | 0 | live |
 | 2026-11-25 | `merger_arb` | 0 | +48.1% | -0.2% | $2.1M | $3.13 |  | $3.13 |  |  |  |  |  | pending |

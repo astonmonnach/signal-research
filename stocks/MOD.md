@@ -94,10 +94,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_merger` logged 2026-09-30 (X post 30 Sep); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $133.43 (2026-11-25, ledger) · 1d +2.5%, 5d -2.5%, 20d -6.3% (market context, 2026-11-25)
-- **Since first found:** **-21.4%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -21.6% vs IWM -3.8% = **-17.8 pts** vs IWM; direction 0, tracked only (55 days). Includes +0.44619 THRM (spin)
+- **Latest price:** $133.21 (2026-11-25, ledger) · 1d +1.6%, 5d -3.3%, 20d -7.2% (market context, 2026-11-25)
+- **Since first found:** **-21.5%** (found 2026-09-30 via `idea_merger` at $187.20). From the next open $187.65: -21.7% vs IWM -3.6% = **-18.1 pts** vs IWM; direction 0, tracked only (55 days). Includes +0.44619 THRM (spin)
   - 5 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -2.5% vs peer median -3.0%). Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d -3.3% vs peer median -3.0%). Peer groups: thermal / data-center cooling (5), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -134,11 +134,11 @@ Every [ledger](../ledger/LEDGER.md) row for MOD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $133.43 | -21.4% | -21.6% | -3.8% |  | 55 | live |
-| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $133.43 | -27.1% | -29.0% | -6.2% |  | 50 | live |
-| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $133.43 | -29.6% | -28.1% | -3.4% |  | 48 | live |
-| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $133.43 | +6.4% | +15.5% | -6.1% |  | 21 | live |
-| 2026-11-16 | `8k_spin_off` | 0 | +40.4% | -3.8% | $317.2M | $130.55 | $133.12 | $133.43 | +2.2% | +0.2% | -1.9% |  | 8 | live |
-| 2026-11-18 | `8k_spin_off` | 0 | +25.9% | +6.3% | $337.0M | $137.88 | $139.94 | $133.43 | -3.2% | -4.7% | -1.6% |  | 6 | live |
+| 2026-09-30 | `idea_merger` | 0 | -6.2% | +1.9% | $249.7M | $187.20 | $187.65 | $133.21 | -21.5% | -21.7% | -3.6% |  | 55 | live |
+| 2026-10-05 | `longterm_research` | 0 | -10.0% | +2.6% | $251.6M | $182.91 | $188.00 | $133.21 | -27.2% | -29.1% | -6.0% |  | 50 | live |
+| 2026-10-07 | `8k_merger_agreement` | 0 | +3.4% | -0.2% | $257.5M | $189.44 | $185.66 | $133.21 | -29.7% | -28.2% | -3.3% |  | 48 | live |
+| 2026-11-03 | `8k_spin_off` | 0 | -5.3% | +1.7% | $227.1M | $125.45 | $115.50 | $133.21 | +6.2% | +15.3% | -5.9% |  | 21 | live |
+| 2026-11-16 | `8k_spin_off` | 0 | +40.4% | -3.8% | $317.2M | $130.55 | $133.12 | $133.21 | +2.0% | +0.1% | -1.7% |  | 8 | live |
+| 2026-11-18 | `8k_spin_off` | 0 | +25.9% | +6.3% | $337.0M | $137.88 | $139.94 | $133.21 | -3.4% | -4.8% | -1.4% |  | 6 | live |
 
 _Corporate-action adjustment: +0.44619 THRM (spin)._

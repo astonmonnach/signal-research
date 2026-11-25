@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
-- **Latest price:** $1.97 (2026-11-25, ledger) · 1d -3.4%, 5d +0.5%, 20d -7.1% (market context, 2026-11-25)
-- **Since first found:** **-3.9%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +0.5% vs IWM +1.1% = **-0.6 pts** vs IWM; direction +1 → excess -0.6% (1 days)
+- **Latest price:** $1.98 (2026-11-25, ledger) · 1d -2.7%, 5d +1.3%, 20d -6.4% (market context, 2026-11-25)
+- **Since first found:** **-3.4%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +1.0% vs IWM +1.2% = **-0.2 pts** vs IWM; direction +1 → excess -0.2% (1 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -8.9% 5d vs MNTS +0.5%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** missed_peer_move: peer median -8.3% 5d vs MNTS +1.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 23 Feb 2027: MNTS: T026 deadline (Burkle OA3 10.6%; wrong on a close below $1.86)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for MNTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $1.97 | -3.9% | +0.5% | +1.1% | -0.6% | 1 | live |
-| 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.00 | $1.97 | -3.4% | -1.5% | +1.4% |  | 0 | live |
+| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $1.98 | -3.4% | +1.0% | +1.2% | -0.2% | 1 | live |
+| 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.00 | $1.98 | -2.9% | -1.0% | +1.5% |  | 0 | live |

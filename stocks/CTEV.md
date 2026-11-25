@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $19.98 (2026-11-25, ledger)
-- **Since first found:** **-13.2%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: -14.5% vs IWM -5.5% = **-9.0 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $20.18 (2026-11-25, ledger)
+- **Since first found:** **-12.3%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: -13.6% vs IWM -5.3% = **-8.3 pts** vs IWM; direction 0, tracked only (27 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for CTEV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $19.98 | -13.2% | -14.5% | -5.5% |  | 27 | live |
+| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $20.18 | -12.3% | -13.6% | -5.3% |  | 27 | live |

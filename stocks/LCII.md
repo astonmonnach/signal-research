@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md)); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $103.96 (2026-11-25, ledger) · 1d +0.3%, 5d +4.5%, 20d +6.5% (market context, 2026-11-25)
-- **Since first found:** **+31.0%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +32.2% vs IWM -2.4% = **+34.6 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $103.82 (2026-11-25, ledger) · 1d +0.4%, 5d +4.7%, 20d +6.6% (market context, 2026-11-25)
+- **Since first found:** **+30.9%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +32.0% vs IWM -2.2% = **+34.2 pts** vs IWM; direction 0, tracked only (42 days)
   - 8 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: LCII +4.5% 5d vs peer median -2.0%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d +4.7% vs peer median -2.4%). Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -44,12 +44,12 @@ Every [ledger](../ledger/LEDGER.md) row for LCII ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $103.96 | +31.0% | +32.2% | -2.4% |  | 42 | live |
-| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $103.96 | +33.0% | +31.5% | -1.7% |  | 41 | live |
-| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $103.96 | +26.9% | +26.9% | -1.7% |  | 36 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.96 | +6.5% | +6.6% | -5.5% |  | 27 | live |
-| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.96 | +6.5% | +6.6% | -5.5% |  | 27 | live |
-| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $103.96 | +5.0% | +5.7% | -5.3% |  | 23 | live |
-| 2026-11-10 | `8k_merger_agreement` | 0 | -1.0% | -3.1% | $66.5M | $97.98 | $97.55 | $103.96 | +6.1% | +6.6% | -5.7% |  | 14 | live |
-| 2026-11-13 | `8k_merger_agreement` | 0 | -5.4% | +1.2% | $65.8M | $98.14 | $98.86 | $103.96 | +5.9% | +5.2% | -3.4% |  | 9 | live |
-| 2026-11-18 | `8k_merger_agreement` | 0 | -1.2% | +2.6% | $65.8M | $99.39 | $98.82 | $103.96 | +4.6% | +5.2% | -1.6% |  | 6 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $103.82 | +30.9% | +32.0% | -2.2% |  | 42 | live |
+| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $103.82 | +32.8% | +31.3% | -1.5% |  | 41 | live |
+| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $103.82 | +26.7% | +26.8% | -1.6% |  | 36 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.82 | +6.4% | +6.5% | -5.3% |  | 27 | live |
+| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.82 | +6.4% | +6.5% | -5.3% |  | 27 | live |
+| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $103.82 | +4.9% | +5.5% | -5.1% |  | 23 | live |
+| 2026-11-10 | `8k_merger_agreement` | 0 | -1.0% | -3.1% | $66.5M | $97.98 | $97.55 | $103.82 | +6.0% | +6.4% | -5.5% |  | 14 | live |
+| 2026-11-13 | `8k_merger_agreement` | 0 | -5.4% | +1.2% | $65.8M | $98.14 | $98.86 | $103.82 | +5.8% | +5.0% | -3.2% |  | 9 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | -1.2% | +2.6% | $65.8M | $99.39 | $98.82 | $103.82 | +4.5% | +5.1% | -1.4% |  | 6 | live |
