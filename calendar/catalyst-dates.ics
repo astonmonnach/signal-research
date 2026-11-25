@@ -1576,9 +1576,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:0349777d3c49da1a7692caf4f9710303@signal-lab
 DTSTAMP:20261119T200000Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:NIVF: another 1-for-100 reverse split (tentative\; public AVOID #9: add to ledger/corporate_actions.csv when confirmed)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:NIVF: (moved) 1-for-100 reverse split effective 12:01am ET (confirmed by 6-K 25 Nov\; public DOWN call #9\; in ledger/corporate_actions.csv)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1981662/000121390026122016/ea0312756-424b5_newgenivf.htm
 END:VEVENT
 BEGIN:VEVENT
