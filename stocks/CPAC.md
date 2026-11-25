@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $12.21 (2026-11-25, ledger) · 1d -2.2%, 5d -4.8%, 20d -4.5% (market context, 2026-11-25)
-- **Since first found:** **-3.5%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: -3.5% vs IWM -2.7% = **-0.7 pts** vs IWM; direction 0, tracked only (34 days)
+- **Latest price:** $12.01 (2026-11-25, ledger) · 1d -3.8%, 5d -6.4%, 20d -6.1% (market context, 2026-11-25)
+- **Since first found:** **-5.1%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: -5.1% vs IWM -2.2% = **-2.8 pts** vs IWM; direction 0, tracked only (34 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -4.8% vs peer median +4.0%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d -6.4% vs peer median +4.6%). Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -52,7 +52,7 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.21 | -3.5% | -3.5% | -2.7% |  | 34 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.21 | -4.4% | -4.5% | -2.8% |  | 33 | live |
-| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.21 | -3.8% | -3.9% | -5.9% |  | 21 | live |
-| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $12.21 | -3.7% | -3.3% | +1.2% |  | 1 | live |
+| 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $12.01 | -5.1% | -5.1% | -2.2% |  | 34 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $12.01 | -6.0% | -6.0% | -2.2% |  | 33 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $12.01 | -5.4% | -5.4% | -5.5% |  | 21 | live |
+| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $12.01 | -5.3% | -4.9% | +1.8% |  | 1 | live |

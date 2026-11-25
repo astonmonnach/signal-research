@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05))
-- **Latest price:** $75.85 (2026-11-25, ledger)
-- **Since first found:** **-10.1%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -11.1% vs IWM -6.0% = **-5.1 pts** vs IWM; direction 0, tracked only (50 days)
+- **Latest price:** $75.35 (2026-11-25, ledger)
+- **Since first found:** **-10.7%** (found 2026-10-05 via `longterm_research` at $84.35). From the next open $85.34: -11.7% vs IWM -5.5% = **-6.2 pts** vs IWM; direction 0, tracked only (50 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for AAON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $75.85 | -10.1% | -11.1% | -6.0% |  | 50 | live |
-| 2026-11-13 | `8k_tender_offer` | 0 | +44.8% | +1.8% | $107.7M | $80.25 | $78.88 | $75.85 | -5.5% | -3.8% | -3.2% |  | 9 | live |
+| 2026-10-05 | `longterm_research` | 0 | -6.5% | +1.3% | $95.0M | $84.35 | $85.34 | $75.35 | -10.7% | -11.7% | -5.5% |  | 50 | live |
+| 2026-11-13 | `8k_tender_offer` | 0 | +44.8% | +1.8% | $107.7M | $80.25 | $78.88 | $75.35 | -6.1% | -4.5% | -2.7% |  | 9 | live |

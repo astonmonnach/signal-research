@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $1.00 (2026-11-25, ledger)
-- **Since first found:** **-65.4%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -64.5% vs IWM -2.2% = **-62.3 pts** vs IWM; direction -1 → excess +62.3% (42 days)
+- **Latest price:** $1.04 (2026-11-25, ledger)
+- **Since first found:** **-64.0%** (found 2026-10-13 via `registration_effective` at $2.89). From the next open $2.82: -63.1% vs IWM -1.7% = **-61.4 pts** vs IWM; direction -1 → excess +61.4% (42 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,6 +30,6 @@ Every [ledger](../ledger/LEDGER.md) row for TNON ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.00 | -65.4% | -64.5% | -2.2% | +62.3% | 42 | live |
-| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.00 | -54.5% | -54.5% | -3.2% |  | 30 | live |
-| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.00 | -44.1% | -42.9% | -4.2% | +38.7% | 12 | live |
+| 2026-10-13 | `registration_effective` | -1 | -19.5% | -3.0% | $14.1M | $2.89 | $2.82 | $1.04 | -64.0% | -63.1% | -1.7% | +61.4% | 42 | live |
+| 2026-10-23 | `setup_supply_atm` | 0 | -23.0% | -1.8% | $12.9M | $2.20 | $2.20 | $1.04 | -52.7% | -52.7% | -2.7% |  | 30 | live |
+| 2026-11-12 | `8k_reverse_split` | -1 | -8.6% | +2.6% | $272k | $1.79 | $1.75 | $1.04 | -41.9% | -40.6% | -3.7% | +36.9% | 12 | live |
