@@ -1,10 +1,42 @@
 [
  {
-  "published_utc": "2026-11-25T01:01:00Z",
+  "published_utc": "2026-11-25T14:15:00Z",
   "wire": "Business Wire",
-  "ticker": "MNTS",
-  "title": "Momentus Adopts Limited Duration Shareholder Rights Agreement",
-  "link": "http://www.businesswire.com/news/home/20261124603192/en/Momentus-Adopts-Limited-Duration-Shareholder-Rights-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==",
-  "matched_on": "watchlist"
+  "ticker": "ARCT",
+  "title": "Arcturus Therapeutics to Present at Citi’s 2026 Global Healthcare Conference",
+  "link": "http://www.businesswire.com/news/home/20261125087160/en/Arcturus-Therapeutics-to-Present-at-Citi%E2%80%99s-2026-Global-Healthcare-Conference/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-25T13:30:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "NIVF",
+  "title": "NewGen Completes Cumulative 6% Stake in K25.ai with Implied Value of US$12 Million; Expected US$7.3 Million Unrealized Gain",
+  "link": "https://www.globenewswire.com/news-release/2026/11/25/3410186/0/en/newgen-completes-cumulative-6-stake-in-k25-ai-with-implied-value-of-us-12-million-expected-us-7-3-million-unrealized-gain.html",
+  "matched_on": "manual_call"
+ },
+ {
+  "published_utc": "2026-11-25T14:00:00Z",
+  "wire": "PR Newswire",
+  "ticker": "CCG",
+  "title": "Cheche Group Signs Definitive Agreement to Acquire 20% Interest in Residential Solar-Plus-Storage Company Long Way Fortune, With Option to Increase Stake to 51%",
+  "link": "https://www.prnewswire.com/news-releases/cheche-group-signs-definitive-agreement-to-acquire-20-interest-in-residential-solar-plus-storage-company-long-way-fortune-with-option-to-increase-stake-to-51-302950548.html",
+  "matched_on": "keyword:definitive agreement"
+ },
+ {
+  "published_utc": "2026-11-25T14:00:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "AIOK",
+  "title": "AI OKTO Announces Shareholder Election Results and Payment of Special Dividend",
+  "link": "https://www.globenewswire.com/news-release/2026/11/25/3410229/0/en/ai-okto-announces-shareholder-election-results-and-payment-of-special-dividend.html",
+  "matched_on": "keyword:special dividend"
+ },
+ {
+  "published_utc": "2026-11-25T13:05:00Z",
+  "wire": "GlobeNewswire",
+  "ticker": "LAB",
+  "title": "Standard BioTools Announces 1-for-35 Reverse Stock Split and Special Dividend of Contingent Value Rights in Connection with Proposed Merger with Treeline Biosciences",
+  "link": "https://www.globenewswire.com/news-release/2026/11/25/3410172/0/en/standard-biotools-announces-1-for-35-reverse-stock-split-and-special-dividend-of-contingent-value-rights-in-connection-with-proposed-merger-with-treeline-biosciences.html",
+  "matched_on": "keyword:special dividend"
  }
 ]
