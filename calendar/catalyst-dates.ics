@@ -1568,10 +1568,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:e42d69123a9f66771f688366cab15e7b@signal-lab
 DTSTAMP:20261119T200000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:TRMD: Hafnia decides whether to hand its 19.81% TORM stake to its own holders or pay cash and sell later (supply)
-DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1815779/000114036126044586/ef20085731_ex99-3.htm
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:TRMD: (moved) Hafnia now expects by 9 Dec to say whether it hands its TORM shares to its own holders or pays cash (supply)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1815779/000114036126045564/ef20086574_ex99-1.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:0349777d3c49da1a7692caf4f9710303@signal-lab
@@ -1692,5 +1692,29 @@ DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 SUMMARY:VREX: outside date for Teledyne's $18.90 cash deal (extendable to 10 Aug 2027\; DOJ Second Request 19 Nov)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1681622/000168162226000086/var-20261002.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f029351506861fa7c18aa56f2c0eff@signal-lab
+DTSTAMP:20261125T180000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:AREC: Nasdaq suspension date (stayed 15 days by its appeal\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1590715/000165495426010103/arec_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ac557881627352bfa966e668336580ef@signal-lab
+DTSTAMP:20261125T180000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:ZONE: T027 deadline (Jacob Field 9.48%\; UP call #20)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1956741/000121390026123820/xslSCHEDULE_13D_X02/primary_doc.xml
+END:VEVENT
+BEGIN:VEVENT
+UID:b291ac21ec7a3ef6f4204e12e593f60a@signal-lab
+DTSTAMP:20261125T180000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:ZONE: $100M Texas project contribution due (if unpaid\, only its project interest is diluted)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1956741/000121390026121558/ea0312107-10q_zone.htm
 END:VEVENT
 END:VCALENDAR
