@@ -7,9 +7,9 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
 - **Latest price:** $0.019 (2026-11-25, ledger) · 1d +11.8%, 5d -88.9%, 20d -98.4% (market context, 2026-11-25)
-- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -4.1% = **-95.6 pts** vs IWM; direction -1 → excess +95.5% (56 days)
+- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -4.0% = **-95.7 pts** vs IWM; direction -1 → excess +95.7% (56 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: NIVF -88.9% 5d vs peer median +0.2%; peers didn't move with it. Peer groups: SIC 8090 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: NIVF -88.9% 5d vs peer median +0.4%; peers didn't move with it. Peer groups: SIC 8090 (8) ([market context](../watch/context/latest.json), 2026-11-25)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: NIVF: (moved) 1-for-100 reverse split effective 12:01am ET (confirmed by 6-K 25 Nov; public DOWN call #9; in ledger/corporate_actions.csv)
@@ -42,6 +42,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.019 | -99.2% | -99.7% | -4.1% | +95.5% | 56 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.019 | -98.4% | -98.3% | -4.9% |  | 27 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.019 | -91.8% | -91.6% | -2.7% | +88.9% | 9 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.019 | -99.2% | -99.7% | -4.0% | +95.7% | 56 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.019 | -98.4% | -98.3% | -4.8% |  | 27 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.019 | -91.9% | -91.7% | -2.6% | +89.1% | 9 | live |

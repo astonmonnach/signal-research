@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `registration_effective` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.77 (2026-11-25, ledger)
-- **Since first found:** **-41.7%** (found 2026-10-19 via `registration_effective` at $4.75). From the next open $4.80: -42.3% vs IWM -1.1% = **-41.2 pts** vs IWM; direction -1 → excess +41.2% (36 days)
+- **Latest price:** $2.79 (2026-11-25, ledger)
+- **Since first found:** **-41.3%** (found 2026-10-19 via `registration_effective` at $4.75). From the next open $4.80: -41.9% vs IWM -0.9% = **-40.9 pts** vs IWM; direction -1 → excess +40.9% (36 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for NWCL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `registration_effective` | -1 | -21.3% | -19.2% | $2.1M | $4.75 | $4.80 | $2.77 | -41.7% | -42.3% | -1.1% | +41.2% | 36 | live |
-| 2026-10-20 | `registration_effective` | 0 | -35.5% | -9.9% | $2.0M | $4.28 | $4.50 | $2.77 | -35.3% | -38.4% | -3.0% |  | 35 | live |
+| 2026-10-19 | `registration_effective` | -1 | -21.3% | -19.2% | $2.1M | $4.75 | $4.80 | $2.79 | -41.3% | -41.9% | -0.9% | +40.9% | 36 | live |
+| 2026-10-20 | `registration_effective` | 0 | -35.5% | -9.9% | $2.0M | $4.28 | $4.50 | $2.79 | -34.8% | -38.0% | -2.8% |  | 35 | live |

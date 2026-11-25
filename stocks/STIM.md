@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $1.41 (2026-11-25, ledger)
-- **Since first found:** **-41.8%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -42.5% vs IWM -1.2% = **-41.3 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $1.45 (2026-11-25, ledger)
+- **Since first found:** **-40.3%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -41.1% vs IWM -1.1% = **-40.0 pts** vs IWM; direction 0, tracked only (19 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for STIM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.41 | -41.8% | -42.5% | -1.2% |  | 19 | live |
-| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.41 | -1.1% | +16.9% | -3.7% |  | 12 | live |
+| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.45 | -40.3% | -41.1% | -1.1% |  | 19 | live |
+| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.45 | +1.4% | +19.8% | -3.6% |  | 12 | live |

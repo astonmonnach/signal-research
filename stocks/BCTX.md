@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `distress` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
 - **Latest price:** $3.29 (2026-11-25, ledger)
-- **Since first found:** **+8.1%** (found 2026-11-01 via `distress` at $3.04). From the next open $3.07: +7.0% vs IWM -4.6% = **+11.6 pts** vs IWM; direction 0, tracked only (23 days)
+- **Since first found:** **+8.1%** (found 2026-11-01 via `distress` at $3.04). From the next open $3.07: +7.0% vs IWM -4.5% = **+11.5 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for BCTX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `distress` | 0 | -2.9% | -8.2% | $208k | $3.04 | $3.07 | $3.29 | +8.1% | +7.0% | -4.6% |  | 23 | live |
+| 2026-11-01 | `distress` | 0 | -2.9% | -8.2% | $208k | $3.04 | $3.07 | $3.29 | +8.1% | +7.0% | -4.5% |  | 23 | live |
