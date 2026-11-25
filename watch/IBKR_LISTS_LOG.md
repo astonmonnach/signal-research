@@ -111,3 +111,19 @@ read back from IBKR and equal to the register's 74 active rows.
 - **STRAT activist (112):** +MNTS, +KNOP. Read back: 7.
 - **Alerts:** not created yet. IBKR alerts made this way show only in IBKR Desktop, so the trader is asked whether to add an email first.
 - Approved by the trader in chat ("Yes do all of those").
+
+## 2026-11-25
+
+- **AVOID (114):** 317 -> 325, read back with every entry named.
+  - **Added 8** register names from the 25 Nov run:
+    - SDEV (854519087)
+    - AREC (277296974)
+    - BBGI (730637242)
+    - CRIS (897818830)
+    - LSTA (947360900)
+    - DKI (937216220, Darkiris)
+    - RTB (842556639)
+    - SSYS (118074725)
+- **ALL (105):** +ZONE (937480667, Zone Frontier). Read back: 46.
+- **STRAT activist (112):** +ZONE. Read back: 8.
+- Approved by the trader in chat ("Yeah add those").
