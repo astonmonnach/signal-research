@@ -4,7 +4,7 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 
 ## Scoreboard
 
-- Calls: **19** · marked: 18 · open: 11 · closed: 7
+- Calls: **20** · marked: 18 · open: 11 · closed: 7
 - Total P&L on $1,000 per call: **$+5,208.82**
 - Average vs the market: **+25.5%** · beat it: 13/18 · t-stat 3.63 (need about 2 and 20+ calls before it means anything)
 
@@ -31,6 +31,7 @@ Every stock we commit to publicly. **Append-only:** calls are never edited or de
 | 17 | 2026-11-17 | DOWN **TE** | [New $100M at-the-market programme (Roth, 16 Nov) on top of about 154.9M shares behind convertible preferred and three note series (about 51.5% of 300.6M outstanding); net tangible book about -$126.6M at 30 Sep](../research/daily/2026-11-17.md) | $1.30 (2026-11-18) | $1.09 | +16.1% | +15.8% (IWM) | +6.8% (TAN) | 6 | open |
 | 18 | 2026-11-19 | DOWN **XGN** | [New $50M TD Cowen at-the-market programme (424B5, 18 Nov; no sales yet), about half of a ~$99M company; Perceptive first-lien term loan; a 10% holder sold on 12-13 Nov; -22.5% in five days](../research/daily/2026-11-19.md) | $3.73 (2026-11-20) | $3.94 | -5.6% | -4.2% (IWM) | +4.1% (XBI) | 4 | open |
 | 19 | 2026-11-24 | UP MNTS | [Ron Burkle's OA3 owns 10.6% (group 12.9%), says it is in the market for more and was refused a $1.86 block via the ATM; cash after liabilities and Oct-Nov launch payments is about $68.8M against a ~$49M market value; up to $53.0M of ATM left is the risk](../research/daily/2026-11-24.md) | | | | | | | pending (enters next open) |
+| 20 | 2026-11-25 | UP ZONE | [Energy family-office owner Jacob Field took 9.48% (first 13D, about $4.00 a share) and says he may propose commercial deals, board seats or buying the whole company; cash was $72.9M at 30 Sep against a ~$32M market value; risks: going-concern doubt, $12.7M quarterly loss, a $100M Texas contribution due 2 Apr 2027, a 1-for-60 split in October](../research/daily/2026-11-25.md) | | | | | | | pending (enters next open) |
 
 ## Rules
 
