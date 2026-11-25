@@ -104,10 +104,10 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `longterm_research` logged 2026-10-05 (long-term nth research (research/longterm-2026-10-05)); `longterm_research` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $16.97 (2026-11-24, ledger) · 1d -7.2%, 5d -12.8%, 20d -25.1% (market context, 2026-11-24)
-- **Since first found:** **-13.6%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -11.8% vs IWM -4.6% = **-7.2 pts** vs IWM; direction +1 → excess -7.2% (57 days)
-  - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: ELMT -12.8% 5d vs peer median -2.5%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Latest price:** $16.89 (2026-11-25, ledger) · 1d -1.2%, 5d -17.0%, 20d -28.5% (market context, 2026-11-25)
+- **Since first found:** **-14.0%** (found 2026-09-25 via `s1_dod_contract` at $19.64). From the next open $19.23: -12.2% vs IWM -4.8% = **-7.3 pts** vs IWM; direction +1 → excess -7.3% (58 days)
+  - 3 more ledger rows: see Performance since found
+- **Peers / sympathy:** solo_move: ELMT -17.0% 5d vs peer median -5.1%; peers didn't move with it. Peer groups: defence metals (4), SIC 3490 (7) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -115,7 +115,8 @@ This is the textbook METHOD failure mode 1: the right node, found after the re-r
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-24](../scans/2026-11-24.md#watchlist-filings)**: Filings: `4` 24 Nov
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **Other:** ELMT resale S-1 (warrant shares not exercisable until Sep 2027); DMAC and KYMR priced offerings; PULM equity deficiency. ([triage](../watch/digests/2026-11-25-triage.md)) · Filings: `8-K` 24 Nov, `S-1` 24 Nov
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before -4.2%, found day -6.3%) ([filing](https://www.sec.gov/Archives/edgar/data/2101698/000121390026123658/0001213900-26-123658-index.htm)) · Filings: `4` 24 Nov
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `144` 20 Nov · Research: Research: Sat 21 Nov 2026 (- ELMT: Form 144 for 500,000 shares through Goldman, about 1.6% (arith).) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-16](../scans/2026-11-16.md)**: Calendar: Q3 13F deadline (who bought MTUS/VYLR/ELMT) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md)**: Research: Research: Fri 13 Nov 2026 (- **Rule 144:** the bigger of 1% of the shares (about 241M) or average weekly volume over four weeks (about…) ([note](../research/daily/2026-11-13.md)) · Research: The Huang Stake (The selling limit you remembered from ELMT is Rule 144. An insider can sell, in any 3 months, the bigger of…) ([note](../research/NVDA-2026-11-13.html))
@@ -142,6 +143,7 @@ Every [ledger](../ledger/LEDGER.md) row for ELMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $16.97 | -13.6% | -11.8% | -4.6% | -7.2% | 57 | live |
-| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $16.97 | -20.3% | -21.5% | -5.9% |  | 49 | live |
-| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $16.97 | -12.4% | -16.4% | -5.5% |  | 13 | live |
+| 2026-09-25 | `s1_dod_contract` | +1 | -10.2% | -0.5% | $26.4M | $19.64 | $19.23 | $16.89 | -14.0% | -12.2% | -4.8% | -7.3% | 58 | live |
+| 2026-10-05 | `longterm_research` | 0 | +12.7% | -3.8% | $29.1M | $21.29 | $21.63 | $16.89 | -20.7% | -21.9% | -6.2% |  | 50 | live |
+| 2026-11-10 | `longterm_research` | 0 | -0.6% | -11.9% | $10.6M | $19.38 | $20.29 | $16.89 | -12.8% | -16.8% | -5.7% |  | 14 | live |
+| 2026-11-24 | `share_registration` | -1 | -4.2% | -6.3% | $10.0M | $17.09 | $16.25 | $16.89 | -1.2% | +3.9% | +1.4% | -2.6% | 0 | live |

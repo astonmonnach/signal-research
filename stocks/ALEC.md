@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `below_cash` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $2.71 (2026-11-24, ledger) · 1d +11.3%, 5d +6.0%, 20d +29.3% (market context, 2026-11-24)
-- **Since first found:** **+47.5%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +46.8% vs IWM -1.6% = **+48.3 pts** vs IWM; direction 0, tracked only (36 days)
+- **Latest price:** $2.71 (2026-11-25, ledger) · 1d +0.6%, 5d +6.0%, 20d +21.1% (market context, 2026-11-25)
+- **Since first found:** **+47.3%** (found 2026-10-16 via `8k_tender_offer` at $1.84). From the next open $1.85: +46.5% vs IWM -1.8% = **+48.4 pts** vs IWM; direction 0, tracked only (37 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +6.0% vs peer median +5.1%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** no flag (self 5d +6.0% vs peer median +5.6%). Peer groups: SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -31,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for ALEC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.71 | +47.5% | +46.8% | -1.6% |  | 36 | live |
-| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.71 | +47.5% | +46.8% | -1.6% |  | 36 | live |
+| 2026-10-16 | `8k_tender_offer` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.71 | +47.3% | +46.5% | -1.8% |  | 37 | live |
+| 2026-10-18 | `below_cash` | 0 | -5.4% | -3.7% | $13.6M | $1.84 | $1.85 | $2.71 | +47.3% | +46.5% | -1.8% |  | 37 | live |

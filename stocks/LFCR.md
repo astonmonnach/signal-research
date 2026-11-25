@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md)); `merger_cvr` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $6.38 (2026-11-24, ledger)
-- **Since first found:** **-2.1%** (found 2026-09-28 via `8k_reverse_split` at $6.52). From the next open $6.53: -2.3% vs IWM -4.5% = **+2.2 pts** vs IWM; direction -1 → excess -2.2% (56 days)
+- **Latest price:** $6.39 (2026-11-25, ledger)
+- **Since first found:** **-2.0%** (found 2026-09-28 via `8k_reverse_split` at $6.52). From the next open $6.53: -2.1% vs IWM -4.8% = **+2.7 pts** vs IWM; direction -1 → excess -2.6% (57 days)
   - 7 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#press-releases)**: Press: Lifecore Biomedical Signs Two New Customer Agreements (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/24/3409136/23089/en/lifecore-biomedical-signs-two-new-customer-agreements.html))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **LFCR**: $6.28 cash plus a CVR worth up to $9.67 in total; HSR cleared early, the go-shop ended with no bid, vote 23 Dec. ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `merger_cvr` (direction 0): $6.28 cash plus CVR up to $9.67 in total; at $6.395 the CVR is priced at about $0.12; HSR cleared, go-shop ended with no bid; vote 23 Dec; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (2. LFCR: a cash deal where the CVR is nearly free) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: merger vote (`DEFM14A`) (5d before +0.0%, found day +0.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1005286/000114036126043742/0001140361-26-043742-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-27 LFCR -1.2 +0.0 -1.2 +0.0 +1.1 +1.2 -0.8 go-shop for a higher bid than Webster's ends (about 27…) ([note](../research/review/2026-11-10/EVENTS.md))
@@ -35,11 +36,11 @@ Every [ledger](../ledger/LEDGER.md) row for LFCR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `8k_reverse_split` | -1 | -5.8% | +55.2% | $1.9M | $6.52 | $6.53 | $6.38 | -2.1% | -2.3% | -4.5% | -2.2% | 56 | live |
-| 2026-10-20 | `8k_merger_agreement` | 0 | -0.8% | -0.3% | $5.0M | $6.37 | $6.40 | $6.38 | +0.2% | -0.3% | -3.4% |  | 34 | live |
-| 2026-10-30 | `merger_vote` | 0 | +2.4% | -1.8% | $3.7M | $6.40 | $6.40 | $6.38 | -0.3% | -0.3% | -5.0% |  | 22 | live |
-| 2026-11-04 | `8k_merger_agreement` | 0 | -0.3% | +0.3% | $2.9M | $6.44 | $6.45 | $6.38 | -0.9% | -1.1% | -5.7% |  | 19 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | -1.1% | -0.6% | $3.0M | $6.40 | $6.38 | $6.38 | -0.3% | +0.0% | -1.6% |  | 18 | live |
-| 2026-11-05 | `merger_arb` | 0 | -1.1% | -0.6% | $3.0M | $6.40 | $6.38 | $6.38 | -0.3% | +0.0% | -1.6% |  | 18 | live |
-| 2026-11-13 | `merger_vote` | 0 | +0.0% | +0.3% | $2.5M | $6.42 | $6.41 | $6.38 | -0.6% | -0.5% | -3.1% |  | 8 | live |
-| 2026-11-17 | `merger_cvr` | 0 | +0.8% | -0.5% | $2.3M | $6.39 | $6.40 | $6.38 | -0.2% | -0.3% | -0.2% |  | 6 | live |
+| 2026-09-28 | `8k_reverse_split` | -1 | -5.8% | +55.2% | $1.9M | $6.52 | $6.53 | $6.39 | -2.0% | -2.1% | -4.8% | -2.6% | 57 | live |
+| 2026-10-20 | `8k_merger_agreement` | 0 | -0.8% | -0.3% | $5.0M | $6.37 | $6.40 | $6.39 | +0.3% | -0.2% | -3.6% |  | 35 | live |
+| 2026-10-30 | `merger_vote` | 0 | +2.4% | -1.8% | $3.7M | $6.40 | $6.40 | $6.39 | -0.2% | -0.2% | -5.3% |  | 23 | live |
+| 2026-11-04 | `8k_merger_agreement` | 0 | -0.3% | +0.3% | $2.9M | $6.44 | $6.45 | $6.39 | -0.8% | -0.9% | -6.0% |  | 20 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | -1.1% | -0.6% | $3.0M | $6.40 | $6.38 | $6.39 | -0.2% | +0.2% | -1.9% |  | 19 | live |
+| 2026-11-05 | `merger_arb` | 0 | -1.1% | -0.6% | $3.0M | $6.40 | $6.38 | $6.39 | -0.2% | +0.2% | -1.9% |  | 19 | live |
+| 2026-11-13 | `merger_vote` | 0 | +0.0% | +0.3% | $2.5M | $6.42 | $6.41 | $6.39 | -0.5% | -0.3% | -3.4% |  | 9 | live |
+| 2026-11-17 | `merger_cvr` | 0 | +0.8% | -0.5% | $2.3M | $6.39 | $6.40 | $6.39 | +0.0% | -0.2% | -0.5% |  | 7 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md)); `merger_arb` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md)); `merger_arb` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $0.506 (2026-11-24, ledger) · 1d +5.5%, 5d -17.3%, 20d -50.5% (market context, 2026-11-24)
-- **Since first found:** **-51.9%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -55.1% vs IWM -1.6% = **-53.5 pts** vs IWM; direction 0, tracked only (36 days)
+- **Latest price:** $0.504 (2026-11-25, ledger) · 1d -0.8%, 5d -13.1%, 20d -51.0% (market context, 2026-11-25)
+- **Since first found:** **-52.0%** (found 2026-10-16 via `8k_merger_agreement` at $1.05). From the next open $1.12: -55.2% vs IWM -1.8% = **-53.4 pts** vs IWM; direction 0, tracked only (37 days)
   - 7 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: GPRO -17.3% 5d vs peer median -0.8%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: GPRO -13.1% 5d vs peer median -1.9%; peers didn't move with it. Peer groups: SIC 3861 (3) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 25 Nov 2026: GPRO: deadline to extend Midtown commitment letter to 31 Mar 2027, or minimum liquidity becomes $25M tested daily (cash $33.5M at 30 Sep)
   - Wed 31 Mar 2027: GPRO: outside date for the $1.14 cash plus stock takeover, moved from 31 Dec 2026 by Amendment No. 1 (6 Nov; buyer still needs its commitment letter extended)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GPRO deadline (no filing yet). TRMD moved to 9 Dec (same entry, corrected). BMBL HSR (no filing). WORX and NIVF calls end at the close. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- GPRO: no 8-K on the 25 Nov commitment deadline yet; $0.495 against the $1.14 deal.) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-19](../scans/2026-11-19.md#watchlist-filings)**: Filings: `4` 17 Nov
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **GPRO** (watchlist): going concern; cash $33.5M; if Midtown's commitment letter is not extended to 31 Mar 2027 by **25 Nov**, minimum liquidity… ([triage](../watch/digests/2026-11-17-triage.md)) · Press: GoPro Announces Third Quarter Results (PR Newswire, published Mon 16 Nov) ([release](https://www.prnewswire.com/news-releases/gopro-announces-third-quarter-results-302941004.html)) · Logged as `merger_arb` (direction 0): 10-Q: going concern; if the Midtown commitment letter is not extended to 31 Mar 2027 by 25 Nov, minimum liquidity becomes $25M tested daily (cash $33.5M); source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `10-Q` 16 Nov, `8-K` 16 Nov · Research: Research: Tue 17 Nov 2026 (- **GPRO** (watchlist): going concern; the deal's financing has a 25 Nov deadline (calendar). Under $1.) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1500435/000150043526000076/gpro-20260930.htm))
@@ -42,11 +43,11 @@ Every [ledger](../ledger/LEDGER.md) row for GPRO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.506 | -51.9% | -55.1% | -1.6% |  | 36 | live |
-| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.506 | -51.9% | -55.1% | -1.6% |  | 36 | live |
-| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.506 | -51.4% | -51.1% | -1.5% |  | 35 | live |
-| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.506 | -54.0% | -54.2% | -3.4% |  | 34 | live |
-| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.506 | -47.5% | -47.9% | -5.8% | +42.0% | 20 | live |
-| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.506 | -24.5% | -25.6% | -4.1% |  | 11 | live |
-| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.506 | -20.1% | -19.9% | -3.1% |  | 8 | live |
-| 2026-11-17 | `merger_arb` | 0 | -30.5% | -0.2% | $5.4M | $0.611 | $0.614 | $0.506 | -17.2% | -17.6% | -0.2% |  | 6 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.504 | -52.0% | -55.2% | -1.8% |  | 37 | live |
+| 2026-10-18 | `merger_arb` | 0 | -2.5% | -8.7% | $12.0M | $1.05 | $1.12 | $0.504 | -52.0% | -55.2% | -1.8% |  | 37 | live |
+| 2026-10-19 | `merger_vote` | 0 | -11.8% | -1.0% | $11.6M | $1.04 | $1.03 | $0.504 | -51.6% | -51.3% | -1.7% |  | 36 | live |
+| 2026-10-20 | `merger_arb` | 0 | -12.6% | +5.8% | $11.5M | $1.10 | $1.11 | $0.504 | -54.2% | -54.4% | -3.6% |  | 35 | live |
+| 2026-11-03 | `registration_effective` | -1 | -7.3% | +0.9% | $7.6M | $0.964 | $0.970 | $0.504 | -47.8% | -48.1% | -6.1% | +42.0% | 21 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -27.2% | -2.6% | $6.4M | $0.670 | $0.680 | $0.504 | -24.8% | -25.9% | -4.3% |  | 12 | live |
+| 2026-11-13 | `merger_arb` | 0 | -22.1% | -5.5% | $6.0M | $0.633 | $0.631 | $0.504 | -20.4% | -20.2% | -3.4% |  | 9 | live |
+| 2026-11-17 | `merger_arb` | 0 | -30.5% | -0.2% | $5.4M | $0.611 | $0.614 | $0.504 | -17.6% | -18.0% | -0.5% |  | 7 | live |

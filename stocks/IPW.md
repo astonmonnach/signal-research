@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $1.14 (2026-11-24, ledger)
-- **Since first found:** **-76.3%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -77.9% vs IWM -1.6% = **-76.3 pts** vs IWM; direction -1 → excess +76.3% (36 days)
+- **Latest price:** $1.15 (2026-11-25, ledger)
+- **Since first found:** **-76.1%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -77.7% vs IWM -1.8% = **-75.9 pts** vs IWM; direction -1 → excess +75.9% (37 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **IPW (call #10):** the resale of "up to an aggregate of 8,089,888 shares" against 644,010 outstanding is…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -35.7%, found day -7.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1830072/999999999526003441/9999999995-26-003441-index.htm))
@@ -31,7 +32,7 @@ Every [ledger](../ledger/LEDGER.md) row for IPW ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.14 | -76.3% | -77.9% | -1.6% | +76.3% | 36 | live |
-| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.14 | -50.4% | -49.1% | -5.3% | +43.9% | 26 | live |
-| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.14 | -35.6% | -34.5% | -5.0% |  | 22 | live |
-| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.14 | -16.8% | -16.2% | -1.6% | +14.6% | 18 | live |
+| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.15 | -76.1% | -77.7% | -1.8% | +75.9% | 37 | live |
+| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.15 | -50.0% | -48.7% | -5.5% | +43.1% | 27 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.15 | -35.0% | -33.9% | -5.3% |  | 23 | live |
+| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.15 | -16.1% | -15.4% | -1.9% | +13.5% | 19 | live |

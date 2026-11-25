@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md)); `holder_13d` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $4.14 (2026-11-24, ledger) · 1d -0.5%, 5d +1.7%, 20d -0.0% (market context, 2026-11-24)
-- **Since first found:** **+1.4%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +1.4% vs IWM -1.4% = **+2.8 pts** vs IWM; direction +1 → excess +2.8% (40 days)
+- **Latest price:** $4.19 (2026-11-25, ledger) · 1d +0.7%, 5d +2.7%, 20d +1.0% (market context, 2026-11-25)
+- **Since first found:** **+2.7%** (found 2026-10-14 via `activist_13d` at $4.08). From the next open $4.08: +2.7% vs IWM -1.7% = **+4.4 pts** vs IWM; direction +1 → excess +4.4% (41 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 17 Dec 2026: TCPC: record date for the $0.17 dividend (UK holders withheld)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -35,8 +35,8 @@ Every [ledger](../ledger/LEDGER.md) row for TCPC ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.14 | +1.4% | +1.4% | -1.4% | +2.8% | 40 | live |
-| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.14 | -2.0% | -2.2% | -2.9% |  | 39 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.14 | -3.2% | -2.7% | -1.6% | -1.1% | 18 | live |
-| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.14 | -3.8% | -3.6% | -3.6% |  | 15 | live |
-| 2026-11-19 | `holder_13d` | 0 | -1.7% | -0.2% | $3.6M | $4.07 | $4.04 | $4.14 | +1.6% | +2.4% | +1.6% |  | 4 | live |
+| 2026-10-14 | `activist_13d` | +1 | -0.3% | +2.5% | $2.9M | $4.08 | $4.08 | $4.19 | +2.7% | +2.7% | -1.7% | +4.4% | 41 | live |
+| 2026-10-15 | `activist_13d` | 0 | +3.6% | +3.4% | $2.9M | $4.22 | $4.23 | $4.19 | -0.7% | -0.9% | -3.2% |  | 40 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | +5.3% | -2.3% | $3.2M | $4.27 | $4.25 | $4.19 | -1.9% | -1.4% | -1.9% | +0.5% | 19 | live |
+| 2026-11-06 | `activist_13d` | 0 | +1.2% | +0.7% | $3.5M | $4.30 | $4.29 | $4.19 | -2.6% | -2.3% | -3.8% |  | 16 | live |
+| 2026-11-19 | `holder_13d` | 0 | -1.7% | -0.2% | $3.6M | $4.07 | $4.04 | $4.19 | +3.0% | +3.7% | +1.3% |  | 5 | live |

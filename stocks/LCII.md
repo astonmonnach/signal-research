@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md)); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $103.71 (2026-11-24, ledger) · 1d +2.0%, 5d +7.1%, 20d +15.4% (market context, 2026-11-24)
-- **Since first found:** **+30.7%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +31.9% vs IWM -2.1% = **+34.0 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $103.96 (2026-11-25, ledger) · 1d +0.3%, 5d +4.5%, 20d +6.5% (market context, 2026-11-25)
+- **Since first found:** **+31.0%** (found 2026-10-13 via `8k_merger_agreement` at $79.34). From the next open $78.65: +32.2% vs IWM -2.4% = **+34.6 pts** vs IWM; direction 0, tracked only (42 days)
   - 8 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: LCII +7.1% 5d vs peer median +0.6%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: LCII +4.5% 5d vs peer median -2.0%; peers didn't move with it. Peer groups: SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -44,12 +44,12 @@ Every [ledger](../ledger/LEDGER.md) row for LCII ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $103.71 | +30.7% | +31.9% | -2.1% |  | 41 | live |
-| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $103.71 | +32.7% | +31.2% | -1.4% |  | 40 | live |
-| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $103.71 | +26.6% | +26.6% | -1.5% |  | 35 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.71 | +6.3% | +6.4% | -5.3% |  | 26 | live |
-| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.71 | +6.3% | +6.4% | -5.3% |  | 26 | live |
-| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $103.71 | +4.8% | +5.4% | -5.0% |  | 22 | live |
-| 2026-11-10 | `8k_merger_agreement` | 0 | -1.0% | -3.1% | $66.5M | $97.98 | $97.55 | $103.71 | +5.8% | +6.3% | -5.5% |  | 13 | live |
-| 2026-11-13 | `8k_merger_agreement` | 0 | -5.4% | +1.2% | $65.8M | $98.14 | $98.86 | $103.71 | +5.7% | +4.9% | -3.1% |  | 8 | live |
-| 2026-11-18 | `8k_merger_agreement` | 0 | -1.2% | +2.6% | $65.8M | $99.39 | $98.82 | $103.71 | +4.3% | +5.0% | -1.3% |  | 5 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -4.2% | +0.3% | $30.8M | $79.34 | $78.65 | $103.96 | +31.0% | +32.2% | -2.4% |  | 42 | live |
+| 2026-10-14 | `merger_arb` | 0 | -3.5% | -1.5% | $31.1M | $78.16 | $79.07 | $103.96 | +33.0% | +31.5% | -1.7% |  | 41 | live |
+| 2026-10-19 | `merger_vote` | 0 | +7.1% | -2.3% | $30.0M | $81.92 | $81.90 | $103.96 | +26.9% | +26.9% | -1.7% |  | 36 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.96 | +6.5% | +6.6% | -5.5% |  | 27 | live |
+| 2026-10-28 | `merger_arb` | 0 | +9.0% | +8.6% | $48.1M | $97.59 | $97.50 | $103.96 | +6.5% | +6.6% | -5.5% |  | 27 | live |
+| 2026-10-30 | `8k_merger_agreement` | 0 | +14.3% | +0.0% | $53.3M | $98.98 | $98.40 | $103.96 | +5.0% | +5.7% | -5.3% |  | 23 | live |
+| 2026-11-10 | `8k_merger_agreement` | 0 | -1.0% | -3.1% | $66.5M | $97.98 | $97.55 | $103.96 | +6.1% | +6.6% | -5.7% |  | 14 | live |
+| 2026-11-13 | `8k_merger_agreement` | 0 | -5.4% | +1.2% | $65.8M | $98.14 | $98.86 | $103.96 | +5.9% | +5.2% | -3.4% |  | 9 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | -1.2% | +2.6% | $65.8M | $99.39 | $98.82 | $103.96 | +4.6% | +5.2% | -1.6% |  | 6 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $1.23 (2026-11-24, ledger)
-- **Since first found:** **-2.8%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -0.4% vs IWM -3.1% = **+2.7 pts** vs IWM; direction 0, tracked only (8 days)
+- **Latest price:** $1.17 (2026-11-25, ledger)
+- **Since first found:** **-6.8%** (found 2026-11-13 via `setup_supply_atm` at $1.26). From the next open $1.23: -4.5% vs IWM -3.4% = **-1.1 pts** vs IWM; direction 0, tracked only (9 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **GCTS (#16):** director bought 130,000 at $1.05-1.12. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **GCTS (#16):** a director bought "P 100,000 A $ 1.12" and "P 30,000 A $ 1.05" on 19-20 Nov.) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1851961/000092963826004392/0000929638-26-004392-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **GCTS (#16):** a director bought 50,000 at $1.15 on 17 Nov. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (- GCTS (#16): director, 50,000 at $1.15.) ([note](../research/daily/2026-11-21.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for GCTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.23 | -2.8% | -0.4% | -3.1% |  | 8 | live |
+| 2026-11-13 | `setup_supply_atm` | 0 | +48.1% | -18.2% | $2.6M | $1.26 | $1.23 | $1.17 | -6.8% | -4.5% | -3.4% |  | 9 | live |

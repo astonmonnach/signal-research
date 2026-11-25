@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $7.99 (2026-11-24, ledger)
-- **Since first found:** **-19.5%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -21.0% vs IWM -5.5% = **-15.5 pts** vs IWM; direction 0, tracked only (13 days)
+- **Latest price:** $7.81 (2026-11-25, ledger)
+- **Since first found:** **-21.3%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -22.8% vs IWM -5.7% = **-17.0 pts** vs IWM; direction 0, tracked only (14 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for TTRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $7.99 | -19.5% | -21.0% | -5.5% |  | 13 | live |
-| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $7.99 | -6.5% | -8.6% | -0.2% | +8.4% | 6 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $7.81 | -21.3% | -22.8% | -5.7% |  | 14 | live |
+| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $7.81 | -8.7% | -10.6% | -0.5% | +10.1% | 7 | live |

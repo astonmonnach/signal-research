@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_buying` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $1.36 (2026-11-24, ledger) · 1d +5.4%, 5d -4.2%, 20d -20.9% (market context, 2026-11-24)
-- **Since first found:** **-22.7%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -22.7% vs IWM -2.6% = **-20.1 pts** vs IWM; direction 0, tracked only (32 days)
+- **Latest price:** $1.33 (2026-11-25, ledger) · 1d -2.6%, 5d -7.3%, 20d -29.5% (market context, 2026-11-25)
+- **Since first found:** **-24.7%** (found 2026-10-22 via `holder_buying` at $1.76). From the next open $1.76: -24.7% vs IWM -2.9% = **-21.8 pts** vs IWM; direction 0, tracked only (33 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: TENX -4.2% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: TENX -7.3% 5d vs peer median +3.5%; peers didn't move with it. Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 28 Dec 2026: TENX: lead-plaintiff deadline in the securities class action
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#press-releases)**: Press: Tenax Therapeutics to Participate in the Piper Sandler 38th Annual Healthcare Conference (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/24/3409872/12401/en/tenax-therapeutics-to-participate-in-the-piper-sandler-38th-annual-healthcare-conference.html))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **T010 SSTI, T012 TENX, T013 DOLE: expired at the 16 Nov deadline.** ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `SCHEDULE 13G/A` ×5 16 Nov, `SCHEDULE 13G` 16 Nov · Research: Research: Tue 17 Nov 2026 (- **Triggers:** T010 SSTI, T012 TENX and T013 DOLE expired at their 16 Nov deadline. TENX's 13G/As show…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: T012 TENX: no 10-Q yet (a 13G/A only); $1.61. ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `SCHEDULE 13G/A` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **Holders:** DOLE (the executive chairman's children sold 55 shares; T013 not fired), TENX (Adage below 5%…) ([note](../research/daily/2026-11-12.md))
@@ -34,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for TENX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.36 | -22.7% | -22.7% | -2.6% |  | 32 | live |
-| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.36 | -16.6% | -17.1% | -1.6% | -15.4% | 18 | live |
+| 2026-10-22 | `holder_buying` | 0 | +6.2% | +8.0% | $4.1M | $1.76 | $1.76 | $1.33 | -24.7% | -24.7% | -2.9% |  | 33 | live |
+| 2026-11-05 | `8k_strategic_review` | +1 | -3.7% | -9.9% | $3.5M | $1.63 | $1.64 | $1.33 | -18.7% | -19.2% | -1.9% | -17.3% | 19 | live |

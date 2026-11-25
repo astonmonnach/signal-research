@@ -6,11 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $15.57 (2026-11-24, ledger) · 1d -0.1%, 5d -0.6%, 20d +144.8% (market context, 2026-11-24)
-- **Since first found:** **-0.3%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: -0.3% vs IWM -5.3% = **+5.0 pts** vs IWM; direction 0, tracked only (26 days)
+- **Latest price:** $15.58 (2026-11-25, ledger) · 1d +0.0%, 5d -0.6%, 20d -0.2% (market context, 2026-11-25)
+- **Since first found:** **-0.2%** (found 2026-10-28 via `8k_merger_agreement` at $15.61). From the next open $15.61: -0.2% vs IWM -5.5% = **+5.3 pts** vs IWM; direction 0, tracked only (27 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -3.6%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-24)
-  - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
+- **Peers / sympathy:** no flag (self 5d -0.6% vs peer median -4.9%). Peer groups: SIC 3690 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Thu 3 Dec 2026: ULBI: EnerSys $16.00 cash tender expires 5pm New York (HSR and UK NSIA conditions) - EnerSys now expects closing in Q1 2027, so expect an extension
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -19,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **ULBI:** 2.9%; expiry 3 Dec. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- VREX: gap now 7.8%, nothing new. ULBI: 2.9%, expiry 3 Dec. PSNL: vote 30 Nov, closing 1-3 Dec.) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- T016 ULBI: $15.58, against a $15.24 line.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **ULBI** (watchlist): EnerSys now expects to close in Q1 2027, so the 3 Dec expiry will likely be extended. $15.67, 2.1% spread. T016 not fired. ([triage](../watch/digests/2026-11-17-triage.md)) · Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md)) · Research: Research: Tue 17 Nov 2026 (- **Calendar:** GPRO 25 Nov, PTC 17 Dec, VRNS 22 Dec, LFCR 23 Dec, BWIN 6 Jan, ARCT 31 May 2027, BORR 18 Nov…) ([note](../research/daily/2026-11-17.md))
@@ -41,7 +41,7 @@ Every [ledger](../ledger/LEDGER.md) row for ULBI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
-| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
-| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.57 | -0.3% | -0.3% | -5.3% |  | 26 | live |
-| 2026-11-13 | `tender_third_party` | 0 | +1.0% | -0.3% | $4.3M | $15.73 | $15.71 | $15.57 | -1.0% | -0.9% | -3.1% |  | 8 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.58 | -0.2% | -0.2% | -5.5% |  | 27 | live |
+| 2026-10-28 | `merger_arb` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.58 | -0.2% | -0.2% | -5.5% |  | 27 | live |
+| 2026-10-28 | `tender_third_party` | 0 | +1.1% | +145.4% | $2.4M | $15.61 | $15.61 | $15.58 | -0.2% | -0.2% | -5.5% |  | 27 | live |
+| 2026-11-13 | `tender_third_party` | 0 | +1.0% | -0.3% | $4.3M | $15.73 | $15.71 | $15.58 | -0.9% | -0.8% | -3.4% |  | 9 | live |

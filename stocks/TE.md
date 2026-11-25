@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.04 (2026-11-24, ledger)
-- **Since first found:** **-29.9%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -29.9% vs IWM -1.6% = **-28.2 pts** vs IWM; direction 0, tracked only (7 days)
+- **Latest price:** $1.09 (2026-11-25, ledger)
+- **Since first found:** **-27.2%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -27.2% vs IWM -1.9% = **-25.3 pts** vs IWM; direction 0, tracked only (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **TE (#17)** 13D/A: Trina distributed 3,000,000 employee shares and is outside Section 16. -13% on 24 Nov, no filing. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1992243/000091228226001537/0000912282-26-001537-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **TE (#17):** 424B7 resale of 18,858,524 Evervolt shares, 6.1% of 307,601,542 (arith). ([triage](../watch/digests/2026-11-21-triage.md))
@@ -31,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for TE ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.04 | -29.9% | -29.9% | -1.6% |  | 7 | live |
-| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.04 | -21.4% | -19.6% | -0.2% |  | 6 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.09 | -27.2% | -27.2% | -1.9% |  | 8 | live |
+| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.09 | -18.4% | -16.5% | -0.5% |  | 7 | live |

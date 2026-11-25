@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $1.66 (2026-11-24, ledger)
-- **Since first found:** **-17.4%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -18.2% vs IWM -3.8% = **-14.4 pts** vs IWM; direction 0, tracked only (46 days)
+- **Latest price:** $1.62 (2026-11-25, ledger)
+- **Since first found:** **-19.4%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -20.2% vs IWM -4.1% = **-16.1 pts** vs IWM; direction 0, tracked only (47 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/999999999526003603/9999999995-26-003603-index.htm))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526472309/0001193125-26-472309-index.htm))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526470333/0001193125-26-470333-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1884516/000119312526468631/0001193125-26-468631-index.htm))
@@ -37,7 +38,7 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.66 | -17.4% | -18.2% | -3.8% |  | 46 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.66 | +17.7% | +19.4% | -1.6% |  | 18 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.66 | +3.1% | +2.5% | -4.9% |  | 12 | live |
-| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.66 | +7.8% | +7.1% | -0.2% |  | 6 | live |
+| 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.62 | -19.4% | -20.2% | -4.1% |  | 47 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.62 | +14.9% | +16.6% | -1.9% |  | 19 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.62 | +0.6% | +0.0% | -5.2% |  | 13 | live |
+| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.62 | +5.2% | +4.5% | -0.5% |  | 7 | live |

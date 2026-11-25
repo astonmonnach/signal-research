@@ -6,18 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md))
-- **Latest price:** $4.85 (2026-11-24, ledger)
-- **Since first found:** **-13.4%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: -14.0% vs IWM -3.8% = **-10.3 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $4.96 (2026-11-25, ledger)
+- **Since first found:** **-11.4%** (found 2026-10-12 via `linked_peer` at $5.60). From the next open $5.64: -12.1% vs IWM -4.0% = **-8.0 pts** vs IWM; direction 0, tracked only (43 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Tue 24 Nov 2026: RIG/VAL: shareholder meetings on the all-stock merger (15.235 RIG per VAL)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md)**: Calendar: RIG/VAL: shareholder meetings on the all-stock merger (15.235 RIG per VAL) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-26](../scans/2026-10-26.md)**: Research: Research: Mon 26 Oct 2026 (- -10.0% Mon to $3.96, while RIG +1.9%, VAL +1.9% and NE +0.2%.) ([note](../research/daily/2026-10-26.md))
 - **[2026-10-19](../scans/2026-10-19.md#press-releases)**: Press: Transocean Ltd. Announces Contract Awards Totaling $550 Million (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/19/3383180/0/en/transocean-ltd-announces-contract-awards-totaling-550-million.html)) · Research: Borr Founder Buying (It is handing back its own spike. From 2 to 9 October, when he bought 6.75M shares and was 16% to 20% of each…) ([note](../research/BORR-2026-10-19.html))
 - **[2026-10-15](../scans/2026-10-15.md#triage-notes)**: Triage: **RIG / VAL**, merger proxies: 15.235 RIG per VAL, meetings **24 Nov**, DOJ review closed 30 Sep. Gap 0.2% to 0.6%; needs a RIG short. ([triage](../watch/digests/2026-10-15-triage.md)) · Press: Transocean Ltd. Announces Amended and Restated Credit Agreement and Redemption of Deepwater Aquila Notes (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/15/3382182/0/en/transocean-ltd-announces-amended-and-restated-credit-agreement-and-redemption-of-deepwater-aquila-notes.html))
@@ -33,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for RIG ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $4.85 | -13.4% | -14.0% | -3.8% |  | 42 | live |
-| 2026-10-14 | `merger_vote` | 0 | +4.6% | -1.2% | $211.8M | $5.58 | $5.61 | $4.85 | -13.1% | -13.6% | -1.4% |  | 40 | live |
+| 2026-10-12 | `linked_peer` | 0 | +6.6% | +1.6% | $221.6M | $5.60 | $5.64 | $4.96 | -11.4% | -12.1% | -4.0% |  | 43 | live |
+| 2026-10-14 | `merger_vote` | 0 | +4.6% | -1.2% | $211.8M | $5.58 | $5.61 | $4.96 | -11.1% | -11.6% | -1.7% |  | 41 | live |

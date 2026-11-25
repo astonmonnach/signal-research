@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $1.55 (2026-11-24, ledger)
-- **Since first found:** **-67.1%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -67.3% vs IWM -3.9% = **-63.3 pts** vs IWM; direction -1 → excess +63.3% (43 days)
+- **Latest price:** $1.44 (2026-11-25, ledger)
+- **Since first found:** **-69.5%** (found 2026-10-09 via `8k_reverse_split` at $4.72). From the next open $4.75: -69.7% vs IWM -4.2% = **-65.5 pts** vs IWM; direction -1 → excess +65.5% (44 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: BIAF (#14): a new baby-shelf S-3, capped at under $0.92M a year. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **BIAF (#14):** a new S-3 replaces a shelf expiring 27 Nov. As a baby shelf it is capped at under $0.92M a…) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **BIAF (#14)** /: the warrant shares and Rule 5635(d) private offerings were approved; a resale of 999,673 shares (54.9%, arith) was filed, on… ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: BIAF vote (20 Nov): held and approved (8-K). ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: share registration (S-1) (`S-1`) (5d before -20.9%, found day -10.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1712762/000149315226053519/0001493152-26-053519-index.htm)) · Calendar: BIAF: vote on warrant shares and offering authority (public AVOID #14) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1712762/000149315226050540/form10-q.htm))
@@ -32,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for BIAF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $1.55 | -67.1% | -67.3% | -3.9% | +63.3% | 43 | live |
-| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.55 | -46.9% | -47.5% | -5.7% |  | 19 | live |
-| 2026-11-20 | `share_registration` | -1 | -20.9% | -10.8% | $226k | $1.65 | $1.67 | $1.55 | -5.8% | -6.9% | +0.6% | +7.5% | 1 | live |
+| 2026-10-09 | `8k_reverse_split` | -1 | -8.2% | -16.2% | $27.9M | $4.72 | $4.75 | $1.44 | -69.5% | -69.7% | -4.2% | +65.5% | 44 | live |
+| 2026-11-04 | `setup_supply_atm` | 0 | +7.8% | -8.2% | $10.6M | $2.93 | $2.96 | $1.44 | -50.9% | -51.4% | -6.0% |  | 20 | live |
+| 2026-11-20 | `share_registration` | -1 | -20.9% | -10.8% | $226k | $1.65 | $1.67 | $1.44 | -12.7% | -13.8% | +0.3% | +14.1% | 2 | live |

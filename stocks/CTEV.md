@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $19.85 (2026-11-24, ledger)
-- **Since first found:** **-13.7%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: -15.0% vs IWM -5.3% = **-9.8 pts** vs IWM; direction 0, tracked only (26 days)
+- **Latest price:** $19.98 (2026-11-25, ledger)
+- **Since first found:** **-13.2%** (found 2026-10-28 via `holder_buying` at $23.00). From the next open $23.36: -14.5% vs IWM -5.5% = **-9.0 pts** vs IWM; direction 0, tracked only (27 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000184140926000009/0001841409-26-000009-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000110465926128662/0001104659-26-128662-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **CTEV**: Ares bought 115,579 at $24.42-26.14 while a director sold 65,567; already +36% since 5 Nov. ([triage](../watch/digests/2026-11-13-triage.md)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000162828026073944/0001628280-26-073944-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1793229/000110465926126283/0001104659-26-126283-index.htm))
@@ -28,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for CTEV ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $19.85 | -13.7% | -15.0% | -5.3% |  | 26 | live |
+| 2026-10-28 | `holder_buying` | 0 | +1.2% | +1.5% | $5.2M | $23.00 | $23.36 | $19.98 | -13.2% | -14.5% | -5.5% |  | 27 | live |

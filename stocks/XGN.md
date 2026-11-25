@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $3.97 (2026-11-24, ledger)
-- **Since first found:** **+1.8%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: +1.3% vs IWM -1.3% = **+2.6 pts** vs IWM; direction -1 → excess -2.6% (5 days)
+- **Latest price:** $3.91 (2026-11-25, ledger)
+- **Since first found:** **+0.3%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: -0.3% vs IWM -1.6% = **+1.3 pts** vs IWM; direction -1 → excess -1.3% (6 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **XGN:** new passive 13G (Lytton 5.3%). ([triage](../watch/digests/2026-11-24-triage.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **New AVOID register rows (9):** XGN (public #18), PZG, OVID, FFTT (takeable); SBFM, INLF, ACCH, BZAI, DAIC (not takeable). ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: **XGN** (Exagen): a $50M TD Cowen ATM, effective 17-18 Nov with no sales yet, about half of a roughly $99M company (25,513,497 shares at $3.92… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `setup_supply_atm` (direction 0): Public AVOID #18: $50M ATM about half the company, Perceptive term loan, 10% holder selling; source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 19 Nov 2026 (1. XGN: a $50M share sale for a $99M company (public AVOID #18)) ([note](../research/daily/2026-11-19.md))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for XGN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $3.97 | +1.8% | +1.3% | -1.3% | -2.6% | 5 | live |
-| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $3.97 | +4.5% | +6.4% | +1.6% |  | 4 | live |
+| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $3.91 | +0.3% | -0.3% | -1.6% | -1.3% | 6 | live |
+| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $3.91 | +2.9% | +4.8% | +1.3% |  | 5 | live |

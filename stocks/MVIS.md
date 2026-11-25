@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $0.880 (2026-11-24, ledger)
-- **Since first found:** **-34.8%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -36.2% vs IWM -5.0% = **-31.2 pts** vs IWM; direction 0, tracked only (22 days)
+- **Latest price:** $0.829 (2026-11-25, ledger)
+- **Since first found:** **-38.6%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -39.9% vs IWM -5.3% = **-34.7 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,7 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MVIS (#12)**: registered direct of 3,614,457 at $0.83 (9.8%, arith); officers bought 180,721 alongside. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: MVIS (#12): the direct sale went to holder JG Global (17.1%); $12.5M of the convertible repaid in cash. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **MVIS (#12):** the 24 Nov direct sale went to an existing holder (JG Global, now 17.1%). The company also…) ([note](../research/daily/2026-11-25.md))
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MVIS (#12)**: registered direct of 3,614,457 at $0.83 (9.8%, arith); officers bought 180,721 alongside. ([triage](../watch/digests/2026-11-24-triage.md)) · Market scan: 8-K trigger phrase "at-the-market" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/65770/000149315226054051/ex99-1.htm)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/65770/000149315226053839/0001493152-26-053839-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **MVIS**: going concern, $41.1M ATM, converts. AVOID, public call #12. ([triage](../watch/digests/2026-11-02-triage.md)) · Press: MicroVision Expands Collaboration with FieldAI Across Government and Industrial Autonomous Systems Programs (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3392810/0/en/microvision-expands-collaboration-with-fieldai-across-government-and-industrial-autonomous-systems-programs.html)) · Research: Research: Mon 2 Nov 2026 (2. MVIS: going concern, an ATM worth most of the company, a converting lender) ([note](../research/daily/2026-11-02.md))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for MVIS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.880 | -34.8% | -36.2% | -5.0% |  | 22 | live |
+| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.829 | -38.6% | -39.9% | -5.3% |  | 23 | live |

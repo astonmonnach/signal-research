@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
-- **Latest price:** $2.17 (2026-11-24, ledger) · 1d +5.8%, 5d +23.3%, 20d +2.4% (market context, 2026-11-24)
-- **Since first found:** **+6.1%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +11.0% vs IWM +1.3% = **+9.6 pts** vs IWM; direction +1 → excess +9.6% (0 days)
+- **Latest price:** $1.97 (2026-11-25, ledger) · 1d -3.4%, 5d +0.5%, 20d -7.1% (market context, 2026-11-25)
+- **Since first found:** **-3.9%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +0.5% vs IWM +1.1% = **-0.6 pts** vs IWM; direction +1 → excess -0.6% (1 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** missed_peer_move: peer median -12.4% 5d vs MNTS +23.3%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** missed_peer_move: peer median -8.9% 5d vs MNTS +0.5%; peers moved, it didn't. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 23 Feb 2027: MNTS: T026 deadline (Burkle OA3 10.6%; wrong on a close below $1.86)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,7 +18,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MNTS**: Burkle's OA3 at 10.6% (group 12.9%), "in the market for Shares", was refused a $1.86 block via the ATM. ([triage](../watch/digests/2026-11-24-triage.md)) · Logged as `holder_13d` (direction 0): Burkle's OA3 first 13D 10.6% (group 12.9%), wants more shares, was refused a $1.86 block via the ATM; below net cash (arith); $53.0M ATM left; WATCH T026; source: daily research 24 Nov (research/daily/2026-11-24.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 24 Nov 2026 (1. MNTS: Burkle wants more of a company priced below its cash) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: MNTS (#19): entered at $2.00 and now $1.89; Burkle's Form 4s only repeat the 13D buys. ([triage](../watch/digests/2026-11-25-triage.md)) · Press: Momentus Adopts Limited Duration Shareholder Rights Agreement (Business Wire) ([release](http://www.businesswire.com/news/home/20261124603192/en/Momentus-Adopts-Limited-Duration-Shareholder-Rights-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `4` 24 Nov, `SCHEDULE 13D` 23 Nov, `10-Q` 20 Nov; +29 older (May – Nov 2026) first picked up · Research: Research: Wed 25 Nov 2026 (**Headline:** An outside buyer has turned up at a company trading at less than half its cash. Jacob Field…) ([note](../research/daily/2026-11-25.md))
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MNTS**: Burkle's OA3 at 10.6% (group 12.9%), "in the market for Shares", was refused a $1.86 block via the ATM. ([triage](../watch/digests/2026-11-24-triage.md)) · Logged as `holder_13d` (direction 0): Burkle's OA3 first 13D 10.6% (group 12.9%), wants more shares, was refused a $1.86 block via the ATM; below net cash (arith); $53.0M ATM left; WATCH T026; source: daily research 24 Nov (research/daily/2026-11-24.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1781162/000090514826005172/0000905148-26-005172-index.htm)) · Research: Research: Tue 24 Nov 2026 (1. MNTS: Burkle wants more of a company priced below its cash) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +8.3%, found day +5.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1781162/000090514826005136/0000905148-26-005136-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1781162/000114036126044415/0001140361-26-044415-index.htm)) · Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1781162/000091957426008177/0000919574-26-008177-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Momentus Reports Strong Progress of in-Space Robotic Assembly Under U.S. Department of War Contract (Business Wire) ([release](http://www.businesswire.com/news/home/20261112739586/en/Momentus-Reports-Strong-Progress-of-in-Space-Robotic-Assembly-Under-U.S.-Department-of-War-Contract/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for MNTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.17 | +6.1% | +11.0% | +1.3% | +9.6% | 0 | live |
-| 2026-11-24 | `holder_13d` | 0 | +5.1% | +6.1% | $1.9M | $2.17 |  | $2.17 |  |  |  |  |  | pending |
+| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $1.97 | -3.9% | +0.5% | +1.1% | -0.6% | 1 | live |
+| 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.00 | $1.97 | -3.4% | -1.5% | +1.4% |  | 0 | live |

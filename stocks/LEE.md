@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $6.19 (2026-11-24, ledger)
-- **Since first found:** **+1.1%** (found 2026-10-30 via `activist_13d` at $6.12). From the next open $6.12: +1.1% vs IWM -5.0% = **+6.1 pts** vs IWM; direction +1 → excess +6.1% (22 days)
+- **Latest price:** $6.29 (2026-11-25, ledger)
+- **Since first found:** **+2.8%** (found 2026-10-30 via `activist_13d` at $6.12). From the next open $6.12: +2.8% vs IWM -5.3% = **+8.0 pts** vs IWM; direction +1 → excess +8.0% (23 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000071/0001183010-26-000071-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000070/0001183010-26-000070-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000069/0001183010-26-000069-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/58361/000118301026000067/0001183010-26-000067-index.htm))
@@ -30,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for LEE ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-30 | `activist_13d` | +1 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.19 | +1.1% | +1.1% | -5.0% | +6.1% | 22 | live |
-| 2026-11-01 | `activist_13d` | 0 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.19 | +1.1% | +1.1% | -5.0% |  | 22 | live |
+| 2026-10-30 | `activist_13d` | +1 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.29 | +2.8% | +2.8% | -5.3% | +8.0% | 23 | live |
+| 2026-11-01 | `activist_13d` | 0 | -3.9% | -1.6% | $233k | $6.12 | $6.12 | $6.29 | +2.8% | +2.8% | -5.3% |  | 23 | live |

@@ -6,18 +6,18 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $2.67 (2026-11-24, ledger)
-- **Since first found:** **-20.4%** (found 2026-10-26 via `registration_effective` at $3.36). From the next open $3.41: -21.6% vs IWM -3.7% = **-17.8 pts** vs IWM; direction -1 → excess +17.8% (28 days)
+- **Latest price:** $2.53 (2026-11-25, ledger)
+- **Since first found:** **-24.9%** (found 2026-10-26 via `registration_effective` at $3.36). From the next open $3.41: -25.9% vs IWM -4.0% = **-21.9 pts** vs IWM; direction -1 → excess +21.9% (29 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
-- **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
-  - Tue 24 Nov 2026: CALLS: review date of AVOID calls #6-7 (NNBR, NAUT)
+- **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
 ## Timeline
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md)**: Calendar: CALLS: review date of AVOID calls #6-7 (NNBR, NAUT) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-28](../scans/2026-10-28.md#press-releases)**: Press: NN, Inc. Reports Third Quarter 2026 Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/28/3390774/0/en/nn-inc-reports-third-quarter-2026-results.html)) · Research: Research: Wed 28 Oct 2026 (- **A caveat the trader should see:** both companies are tiny (market value about $2.7M and $1.4M, arith) and…) ([note](../research/daily/2026-10-28.md))
 - **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `setup_supply_resale` (direction 0): PIPE resale 17.2% effective 23 Oct at holders' cost +1.8%; AVOID, public call #6; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 27 Oct 2026 (2. Two public AVOID calls: NNBR and NAUT) ([note](../research/daily/2026-10-27.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -3.2%, found day +1.8%) ([filing](https://www.sec.gov/Archives/edgar/data/918541/999999999526003338/9999999995-26-003338-index.htm))
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for NNBR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `registration_effective` | -1 | -3.2% | +1.8% | $11.8M | $3.36 | $3.41 | $2.67 | -20.4% | -21.6% | -3.7% | +17.8% | 28 | live |
-| 2026-10-27 | `setup_supply_resale` | 0 | -9.2% | +4.5% | $11.3M | $3.51 | $3.60 | $2.67 | -23.8% | -25.7% | -4.6% |  | 27 | live |
+| 2026-10-26 | `registration_effective` | -1 | -3.2% | +1.8% | $11.8M | $3.36 | $3.41 | $2.53 | -24.9% | -25.9% | -4.0% | +21.9% | 29 | live |
+| 2026-10-27 | `setup_supply_resale` | 0 | -9.2% | +4.5% | $11.3M | $3.51 | $3.60 | $2.53 | -28.1% | -29.9% | -4.8% |  | 28 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $23.91 (2026-11-24, ledger)
-- **Since first found:** **-46.2%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -44.7% vs IWM -2.9% = **-41.8 pts** vs IWM; direction 0, tracked only (39 days)
+- **Latest price:** $25.34 (2026-11-25, ledger)
+- **Since first found:** **-43.0%** (found 2026-10-15 via `linked_peer` at $44.46). From the next open $43.22: -41.4% vs IWM -3.2% = **-38.2 pts** vs IWM; direction 0, tracked only (40 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1780312/000110465926131559/0001104659-26-131559-index.htm))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1780312/000149315226053004/0001493152-26-053004-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1780312/000149315226052716/0001493152-26-052716-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#press-releases)**: Press: AST SpaceMobile Provides Business Update and Third Quarter 2026 Results (Business Wire, published Mon 9 Nov) ([release](http://www.businesswire.com/news/home/20261109330752/en/AST-SpaceMobile-Provides-Business-Update-and-Third-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
@@ -34,4 +35,4 @@ Every [ledger](../ledger/LEDGER.md) row for ASTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $23.91 | -46.2% | -44.7% | -2.9% |  | 39 | live |
+| 2026-10-15 | `linked_peer` | 0 | -30.5% | +5.5% | $913.4M | $44.46 | $43.22 | $25.34 | -43.0% | -41.4% | -3.2% |  | 40 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `insider_cluster` logged 2026-10-12 (daily research 12 Oct (research/daily/2026-10-12.md)); `event_incident` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md)); `insider_cluster` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
-- **Latest price:** $3.91 (2026-11-24, ledger) · 1d +2.2%, 5d +22.5%, 20d -4.8% (market context, 2026-11-24)
-- **Since first found:** **-20.6%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -21.4% vs IWM -3.8% = **-17.6 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $3.96 (2026-11-25, ledger) · 1d +0.2%, 5d +22.5%, 20d -9.6% (market context, 2026-11-25)
+- **Since first found:** **-19.6%** (found 2026-10-12 via `insider_cluster` at $4.93). From the next open $4.98: -20.4% vs IWM -4.0% = **-16.4 pts** vs IWM; direction 0, tracked only (43 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: BORR +22.5% 5d vs peer median -3.9%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-24)
+- **Peers / sympathy:** solo_move: BORR +22.5% 5d vs peer median -0.6%; peers didn't move with it. Peer groups: SIC 1381 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **BORR:** Troim 1,000,000 more at $3.9373. ([triage](../watch/digests/2026-11-25-triage.md)) · Filings: `4` 25 Nov · Research: Research: Wed 25 Nov 2026 (- BORR: Troim bought another 1,000,000 at $3.9373.) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **BORR** (watchlist): Drew Holdings (Troim, a director) bought 9,000,000 at $3.3835 on 20 Nov ($30.45M, arith); 15.9%; no plan box. Now about $3.95. ([triage](../watch/digests/2026-11-24-triage.md)) · Logged as `insider_cluster` (direction 0): Drew Holdings (Troim, a director) bought 9,000,000 at $3.3835 ($30.45M, arith) on 20 Nov; 15.9%; tracked; source: daily research 24 Nov (research/daily/2026-11-24.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `SCHEDULE 13D/A` 23 Nov, `4` 23 Nov · Research: Research: Tue 24 Nov 2026 (- **BORR** (watchlist): "Drew Holdings Ltd. purchased 9,000,000 shares. at an average price of USD $3.3835"…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1715497/000162828026075382/0001628280-26-075382-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1715497/000119312526472360/0001193125-26-472360-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `6-K` ×2 20 Nov
@@ -44,7 +45,7 @@ Every [ledger](../ledger/LEDGER.md) row for BORR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.91 | -20.6% | -21.4% | -3.8% |  | 42 | live |
-| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.91 | -18.4% | -21.7% | -2.1% | -19.6% | 41 | live |
-| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.91 | -1.1% | -1.1% | -3.7% |  | 28 | live |
-| 2026-11-24 | `insider_cluster` | 0 | +19.4% | +2.8% | $36.1M | $3.91 |  | $3.91 |  |  |  |  |  | pending |
+| 2026-10-12 | `insider_cluster` | 0 | +22.3% | +3.1% | $33.9M | $4.93 | $4.98 | $3.96 | -19.6% | -20.4% | -4.0% |  | 43 | live |
+| 2026-10-13 | `activist_13d` | +1 | +18.8% | -2.6% | $36.2M | $4.80 | $5.00 | $3.96 | -17.4% | -20.7% | -2.4% | -18.3% | 42 | live |
+| 2026-10-26 | `event_incident` | 0 | -3.1% | -10.0% | $44.2M | $3.96 | $3.96 | $3.96 | +0.1% | +0.1% | -4.0% |  | 29 | live |
+| 2026-11-24 | `insider_cluster` | 0 | +19.4% | +3.9% | $37.0M | $3.96 | $3.93 | $3.96 | +0.1% | +0.9% | +1.4% |  | 0 | live |

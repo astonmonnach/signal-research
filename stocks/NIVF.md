@@ -6,10 +6,11 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $0.017 (2026-11-24, ledger)
-- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -4.5% = **-95.2 pts** vs IWM; direction -1 → excess +95.2% (55 days)
+- **Latest price:** $0.019 (2026-11-25, ledger) · 1d +11.8%, 5d -88.9%, 20d -98.4% (market context, 2026-11-25)
+- **Since first found:** **-99.2%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -4.8% = **-94.9 pts** vs IWM; direction -1 → excess +94.9% (56 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: NIVF -88.9% 5d vs peer median +0.4%; peers didn't move with it. Peer groups: SIC 8090 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+  - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Tue 1 Dec 2026: NIVF: another 1-for-100 reverse split (tentative; public AVOID #9: add to ledger/corporate_actions.csv when confirmed)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -18,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GPRO deadline (no filing yet). TRMD moved to 9 Dec (same entry, corrected). BMBL HSR (no filing). WORX and NIVF calls end at the close. ([triage](../watch/digests/2026-11-25-triage.md)) · Triage: WORX (#8) and NIVF (#9) end at the 25 Nov close. NIVF's 1-for-100 split is confirmed for 30 Nov. ([triage](../watch/digests/2026-11-25-triage.md)) · Press: NewGen Completes Cumulative 6% Stake in K25.ai with Implied Value of US$12 Million; Expected US$7.3 Million… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/25/3410186/0/en/newgen-completes-cumulative-6-stake-in-k25-ai-with-implied-value-of-us-12-million-expected-us-7-3-million-unrealized-gain.html)) · Research: Research: Wed 25 Nov 2026 (**Headline:** An outside buyer has turned up at a company trading at less than half its cash. Jacob Field…) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **NIVF:** split still tentative. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **NIVF (#9):** the 1-for-100 split is still only tentative (1 Dec); no confirming filing. **WORX (#8):**…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **NIVF (#9)**: 71,428,570 shares (most as pre-funded warrants) at $0.035, about $2.5M. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#press-releases)**: Press: NewGenIvf Group Limited Announces Closing of $2.5 Million Underwritten Offering (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407529/0/en/newgenivf-group-limited-announces-closing-of-2-5-million-underwritten-offering.html)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122441/0001213900-26-122441-index.htm)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1981662/000121390026122681/ea031307301ex1-1.htm))
@@ -40,6 +42,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.017 | -99.2% | -99.7% | -4.5% | +95.2% | 55 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.017 | -98.5% | -98.5% | -5.3% |  | 26 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.017 | -92.5% | -92.2% | -3.1% | +89.1% | 8 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.019 | -99.2% | -99.7% | -4.8% | +94.9% | 56 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.019 | -98.4% | -98.3% | -5.5% |  | 27 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.019 | -91.9% | -91.7% | -3.4% | +88.3% | 9 | live |

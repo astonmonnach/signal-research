@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $5.93 (2026-11-24, ledger)
-- **Since first found:** **+0.2%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: +0.2% vs IWM -4.6% = **+4.7 pts** vs IWM; direction 0, tracked only (27 days)
+- **Latest price:** $5.99 (2026-11-25, ledger)
+- **Since first found:** **+1.2%** (found 2026-10-27 via `holder_buying` at $5.92). From the next open $5.92: +1.2% vs IWM -4.8% = **+6.0 pts** vs IWM; direction 0, tracked only (28 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000476/0001510281-26-000476-index.htm))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000466/0001510281-26-000466-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- **Saba elsewhere in our graph:** TCPC, LEO, VVR. VVR is flat since our 5 Nov note ($2.85 to $2.81), so…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/818972/000151028126000460/0001510281-26-000460-index.htm))
@@ -37,4 +38,4 @@ Every [ledger](../ledger/LEDGER.md) row for LEO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $5.93 | +0.2% | +0.2% | -4.6% |  | 27 | live |
+| 2026-10-27 | `holder_buying` | 0 | +3.0% | +1.4% | $1.8M | $5.92 | $5.92 | $5.99 | +1.2% | +1.2% | -4.8% |  | 28 | live |

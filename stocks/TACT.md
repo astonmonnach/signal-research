@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `activist_13d` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `strategic_review` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $4.62 (2026-11-24, ledger)
-- **Since first found:** **-6.2%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: -4.2% vs IWM -4.9% = **+0.7 pts** vs IWM; direction 0, tracked only (12 days)
+- **Latest price:** $4.65 (2026-11-25, ledger)
+- **Since first found:** **-5.7%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: -3.7% vs IWM -5.2% = **+1.5 pts** vs IWM; direction 0, tracked only (13 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for TACT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.62 | -6.2% | -4.2% | -4.9% |  | 12 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.62 | -5.2% | -2.6% | -4.1% | +1.4% | 11 | live |
-| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.62 | -4.6% | -1.6% | -3.1% |  | 8 | live |
+| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.65 | -5.7% | -3.7% | -5.2% |  | 13 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.65 | -4.7% | -2.1% | -4.3% | +2.2% | 12 | live |
+| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.65 | -4.1% | -1.1% | -3.4% |  | 9 | live |
