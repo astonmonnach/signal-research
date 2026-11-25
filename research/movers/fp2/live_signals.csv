@@ -72,3 +72,5 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-24,04:25,False,MEDS,DataMeds AI Inc. Common Stock,S2,1.34,94225046,9623885,9.79,666688,,,,,,,,open
 2026-11-24,04:25,False,MOB,Mobilicom Limited Ordinary Shares,S2,1.23,1521811,272695,5.58,289792,,,,,,,,open
 2026-11-24,04:25,False,WRN,Western Copper and Gold Corporation Common Stock,S2,1.215,9721633,1910415,5.09,1942572,,,,,,,,open
+2026-11-25,03:09,False,EMPD,Empery Digital Inc. Common stock,S2,1.9,2153214,430260,5.0,564758,,,,,,,,open
+2026-11-25,03:09,False,MEDS,DataMeds AI Inc. Common Stock,S2,1.66,60441331,10263540,5.89,682100,,,,,,,,open
