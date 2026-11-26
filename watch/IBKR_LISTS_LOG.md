@@ -127,3 +127,9 @@ read back from IBKR and equal to the register's 74 active rows.
 - **ALL (105):** +ZONE (937480667, Zone Frontier). Read back: 46.
 - **STRAT activist (112):** +ZONE. Read back: 8.
 - Approved by the trader in chat ("Yeah add those").
+
+## 2026-11-26
+
+- **AVOID (114):** 325 -> 345. Each contract was matched by name before adding.
+  - **Added 20** register names from the 26 Nov run: BTCY (640317452, Biotricity, OTC), DPLS (822071750, OTC), BGL (794922628, Blue Gold), SWRD (474517697), RZAI (929295843), PWCM (900205575), DARE (712857719), UPXI (732957092), VESI (947837170), LBGJ (907000939), ATTT (828939483), TGHL (809823389), JDZG (887665375), OGEN (786920001), BFRG (608754324), CISO (689013120), RYET (774860780), IMTE (659928898), CHAI (820579948), SOAR (761715312).
+- Approved by the trader in chat ("Yeah").
