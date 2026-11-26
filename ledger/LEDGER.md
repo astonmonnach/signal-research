@@ -103,7 +103,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | category | dir | n | mean excess | right | crashed >20% by found: n · excess | spiked >50% by found: n · excess |
 |---|---|---|---|---|---|---|
 | 8k_reverse_split | -1 | 233 | -2.4% | 169/233 | 82 · -30.2% | 10 · +25.7% |
-| 8k_strategic_review | +1 | 168 | -8.1% | 68/168 | 24 · -24.7% | 3 · -13.4% |
+| 8k_strategic_review | +1 | 169 | -8.1% | 68/169 | 24 · -24.7% | 4 · -14.0% |
 | activist_13d | +1 | 111 | -8.8% | 44/111 | 20 · -23.1% | 4 · -6.7% |
 | idea_catalyst | +1 | 3 | +6.7% | 2/3 | 0 | 0 |
 | idea_contract_press | +1 | 1 | -58.2% | 0/1 | 1 · -58.2% | 0 |
@@ -1798,7 +1798,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-10 | LCII | 8k_merger_agreement | +0 | -1.0% | -3.1% | $66.5M | 97.98 | 97.55 | 105.33 | +7.5% | +8.0% | -5.0% |  | 14 |
 | 2026-11-10 | LRN | activist_13d | +1 | +0.0% | +1.5% | $88.1M | 76.82 | 77.06 | 79.90 | +4.0% | +3.7% | -5.0% | +8.7% | 14 |
 | 2026-11-10 | LVO | 8k_special_dividend | +0 | -5.7% | +2.3% | $158k | 2.69 | 2.64 | 2.07 | -23.1% | -21.6% | -5.0% |  | 14 |
-| 2026-11-10 | MERCQ | 8k_strategic_review | +1 |  |  |  ⚠ |  | 0.24 | 0.19 |  | -20.8% | -5.0% | -15.8% | 14 |
+| 2026-11-10 | MERCQ | 8k_strategic_review | +1 | +84.6% | +0.0% | $7.5M | 0.24 | 0.24 | 0.19 | -20.8% | -20.8% | -5.0% | -15.8% | 14 |
 | 2026-11-10 | MTRI | 8k_merger_agreement | +0 | -1.8% | -23.8% | $220k | 12.20 | 12.50 | 14.75 | +20.9% | +18.0% | -5.0% |  | 14 |
 | 2026-11-10 | MXCT | 8k_tender_offer | +0 | -10.3% | -13.1% | $2.7M | 1.13 | 1.12 | 1.33 | +17.7% | +18.8% | -5.0% |  | 14 |
 | 2026-11-10 | NHP | 8k_spin_off | +0 | +5.7% | -1.3% | $23.1M | 15.75 | 15.65 | 15.38 | -2.4% | -1.7% | -5.0% |  | 14 |
