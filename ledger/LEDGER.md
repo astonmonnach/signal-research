@@ -1,6 +1,6 @@
 # Ledger: 2026-11-26
 
-2501 logged items · 2349 live · 119 pending · 33 no price data
+2501 logged items · 2350 live · 118 pending · 33 no price data
 
 Entry = next session's open after the item was found. Control = IWM over the same window. Excess = direction × (return − IWM).
 
@@ -22,7 +22,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 
 ### Paper only: not trades we could take
 
-- **Short bets (712):** fresh share supply, reverse splits and similar. 520/712 lagged IWM (median +16.4% in our favour).
+- **Short bets (712):** fresh share supply, reverse splits and similar. 518/712 lagged IWM (median +16.3% in our favour).
   We can't short, and borrowing these is usually impossible or very expensive, so they never count as wins. What they're good for is a **don't-buy list**: the stocks these signals flag mostly go down.
 - **Long bets we couldn't take (143):** too illiquid, under $1, or a false positive that reading the filing rules out.
 
@@ -31,8 +31,8 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | category | dir | n live | mean excess | median excess | hit rate (excess > 0) |
 |---|---|---|---|---|---|
 | 8k_lock_up | 0 (track) | 104 | raw +4.7% | raw -5.5% | n/a |
-| 8k_merger_agreement | 0 (track) | 347 | raw -4.2% | raw -0.5% | n/a |
-| 8k_reverse_split | -1 | 365 | -5.8% | +15.6% | 261/365 |
+| 8k_merger_agreement | 0 (track) | 347 | raw -3.6% | raw -0.5% | n/a |
+| 8k_reverse_split | -1 | 365 | -6.8% | +15.2% | 259/365 |
 | 8k_special_dividend | 0 (track) | 59 | raw -8.2% | raw -3.6% | n/a |
 | 8k_spin_off | 0 (track) | 125 | raw -4.0% | raw +0.0% | n/a |
 | 8k_strategic_review | +1 | 200 | -9.6% | -4.8% | 75/200 |
@@ -45,7 +45,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | deal_dispute | 0 (track) | 3 | raw -20.3% | raw -13.4% | n/a |
 | deal_peer | 0 (track) | 8 | raw +3.6% | raw -0.6% | n/a |
 | deal_reaction | 0 (track) | 1 | raw -8.0% | raw -8.0% | n/a |
-| delisting | 0 (track) | 73 | raw -12.4% | raw -7.1% | n/a |
+| delisting | 0 (track) | 74 | raw -12.3% | raw -6.9% | n/a |
 | distress | 0 (track) | 2 | raw -28.6% | raw -28.6% | n/a |
 | distress_avoid | 0 (track) | 1 | raw -74.3% | raw -74.3% | n/a |
 | event_incident | 0 (track) | 2 | raw -1.5% | raw -1.5% | n/a |
@@ -73,12 +73,12 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | merger_hostile | 0 (track) | 1 | raw +4.0% | raw +4.0% | n/a |
 | merger_vote | 0 (track) | 60 | raw -3.6% | raw +0.0% | n/a |
 | other | 0 (track) | 1 | raw -2.1% | raw -2.1% | n/a |
-| registration_effective | -1 | 278 | +8.6% | +16.3% | 208/278 |
+| registration_effective | -1 | 278 | +8.6% | +16.4% | 208/278 |
 | s1_dod_contract | +1 | 4 | -6.2% | -7.5% | 1/4 |
 | setup_supply_atm | 0 (track) | 13 | raw -28.3% | raw -29.0% | n/a |
 | setup_supply_convert | 0 (track) | 2 | raw -6.8% | raw -6.8% | n/a |
 | setup_supply_deal_dilution | 0 (track) | 1 | raw -18.8% | raw -18.8% | n/a |
-| setup_supply_deficiency | 0 (track) | 11 | raw -62.6% | raw -74.5% | n/a |
+| setup_supply_deficiency | 0 (track) | 11 | raw -55.9% | raw -56.8% | n/a |
 | setup_supply_eloc | 0 (track) | 5 | raw -41.6% | raw -31.6% | n/a |
 | setup_supply_overhang | 0 (track) | 1 | raw +2.7% | raw +2.7% | n/a |
 | setup_supply_registered_direct | 0 (track) | 1 | raw +348.4% | raw +348.4% | n/a |
@@ -102,13 +102,13 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 
 | category | dir | n | mean excess | right | crashed >20% by found: n · excess | spiked >50% by found: n · excess |
 |---|---|---|---|---|---|---|
-| 8k_reverse_split | -1 | 233 | -2.4% | 169/233 | 82 · -30.2% | 10 · +25.7% |
+| 8k_reverse_split | -1 | 232 | -2.6% | 168/232 | 81 · -31.2% | 10 · +25.7% |
 | 8k_strategic_review | +1 | 169 | -8.1% | 68/169 | 24 · -24.7% | 4 · -14.0% |
 | activist_13d | +1 | 111 | -8.8% | 44/111 | 20 · -23.1% | 4 · -6.7% |
 | idea_catalyst | +1 | 3 | +6.7% | 2/3 | 0 | 0 |
 | idea_contract_press | +1 | 1 | -58.2% | 0/1 | 1 · -58.2% | 0 |
 | idea_overhang | -1 | 1 | +32.7% | 1/1 | 0 | 0 |
-| registration_effective | -1 | 191 | +12.3% | 143/191 | 59 · +33.2% | 2 · -547.6% |
+| registration_effective | -1 | 191 | +12.4% | 143/191 | 59 · +33.2% | 2 · -547.6% |
 | s1_dod_contract | +1 | 4 | -6.2% | 1/4 | 0 | 0 |
 | share_registration | -1 | 43 | -14.4% | 29/43 | 15 · -31.3% | 1 · -7.9% |
 | tender_issuer_buyback | +1 | 43 | -12.8% | 14/43 | 5 · -23.2% | 2 · -47.4% |
@@ -235,7 +235,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-02 | HCTI | 8k_reverse_split | -1 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 0.46 | -96.8% | -96.2% | -4.6% | +91.5% | 51 |
 | 2026-10-02 | HCWB | share_registration | -1 | -15.1% | -0.6% | $1.9M | 1.68 | 1.64 | 0.58 | -65.4% | -64.6% | -4.6% | +59.9% | 51 |
 | 2026-10-02 | HZO | merger_vote | +0 | -0.2% | +0.0% | $41.4M | 52.35 | 52.27 | 52.94 | +1.1% | +1.3% | -4.6% |  | 51 |
-| 2026-10-02 | INM | registration_effective | -1 | -3.6% | -1.5% | $89k ⚠ | 13.30 | 13.60 | 14.75 | +10.9% | +8.5% | -4.6% | -13.1% | 51 |
+| 2026-10-02 | INM | registration_effective | -1 | -3.6% | -1.5% | $89k ⚠ | 13.30 | 13.60 | 17.50 | +31.6% | +28.7% | -4.6% | -33.3% | 30 |
 | 2026-10-02 | JOB | 8k_reverse_split | -1 | -4.3% | -4.5% | $43k ⚠ | 6.30 | 6.30 | 5.50 | -12.7% | -12.7% | -4.6% | +8.1% | 51 |
 | 2026-10-02 | KAVL | delisting | +0 | +25.0% | +0.0% | $0k ⚠ | 0.03 | 0.04 | 0.02 | -33.3% | -50.0% | -4.6% |  | 51 |
 | 2026-10-02 | LGMK | activist_13d | +1 |  |  |  ⚠ |  | 1.20 | 1.30 |  | +8.3% | -0.9% | +9.3% | 0 |
@@ -264,7 +264,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-04 | GXAI | setup_supply_deficiency | +0 | -11.1% | -2.8% | $143k ⚠ | 0.52 | 0.49 | 0.36 | -29.8% | -26.3% | -4.6% |  | 51 |
 | 2026-10-04 | HCTI | setup_supply_deficiency | +0 | -3.8% | +3.3% | $3.7M | 14.50 | 12.00 | 0.46 | -96.8% | -96.2% | -4.6% |  | 51 |
 | 2026-10-04 | POLA | setup_supply_deficiency | +0 | -13.8% | +3.6% | $195k ⚠ | 1.16 | 1.17 | 0.23 | -80.2% | -80.3% | -4.6% |  | 51 |
-| 2026-10-04 | SNTI | setup_supply_deficiency | +0 | -5.5% | -0.6% | $385k | 10.63 | 10.23 | 1.25 | -88.2% | -87.8% | -4.6% |  | 51 |
+| 2026-10-04 | SNTI | setup_supply_deficiency | +0 |  |  |  ⚠ |  | 1.44 | 1.25 |  | -13.2% | +2.1% |  | 0 |
 | 2026-10-04 | VHUB | setup_supply_deficiency | +0 | -9.6% | +2.1% | $243k ⚠ | 0.48 | 0.44 | 0.19 | -60.4% | -56.8% | -4.6% |  | 51 |
 | 2026-10-05 | AAON | longterm_research | +0 | -6.5% | +1.3% | $95.0M | 84.35 | 85.34 | 75.73 | -10.2% | -11.3% | -5.5% |  | 50 |
 | 2026-10-05 | ADRX | activist_13d | +1 | -5.7% | +4.4% | $28.8M | 19.05 | 19.05 | 13.77 | -27.7% | -27.7% | -5.5% | -22.3% | 50 |
@@ -413,7 +413,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-08 | SYNA | merger_vote | +0 | +17.8% | -0.3% | $117.3M | 119.08 | 119.95 | 116.63 | -2.1% | -2.8% | -3.4% |  | 47 |
 | 2026-10-08 | TELA | 8k_reverse_split | -1 | -7.0% | -1.9% | $303k | 1.05 | 1.04 | 0.76 | -27.6% | -26.9% | -3.4% | +23.6% | 47 |
 | 2026-10-08 | TLRY | 8k_reverse_split | -1 | -0.8% | -3.5% | $16.1M | 3.59 | 3.60 | 1.83 | -49.0% | -49.2% | -3.4% | +45.8% | 47 |
-| 2026-10-08 | TLSS | 8k_reverse_split | -1 |  |  |  ⚠ |  | 0.30 | 0.21 |  | -30.0% | +2.1% | +32.1% | 0 |
+| 2026-10-08 | TLSS | 8k_reverse_split | -1 | -40.0% | -83.3% | $0k ⚠ | 0.05 | 0.06 | 0.21 | +320.0% | +250.0% | -3.4% | -253.4% | 47 |
 | 2026-10-08 | VEEE | 8k_merger_agreement | +0 | -14.7% | -2.0% | $26.9M | 10.14 | 9.91 | 6.65 | -34.4% | -32.9% | -3.4% |  | 47 |
 | 2026-10-08 | VTRS | 8k_merger_agreement | +0 | -1.3% | -0.3% | $164.7M | 17.44 | 17.36 | 19.83 | +13.7% | +14.2% | -3.4% |  | 47 |
 | 2026-10-08 | WKEY | activist_13d | +1 |  |  |  ⚠ |  | 5.88 | 6.09 |  | +3.6% | -1.6% | +5.2% | 0 |
@@ -665,11 +665,11 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-15 | PL | linked_peer | +0 | -20.4% | +2.9% | $183.7M | 14.54 | 14.30 | 10.61 | -27.0% | -25.8% | -2.4% |  | 40 |
 | 2026-10-15 | RENX | registration_effective | -1 | -11.2% | +3.0% | $273k | 1.72 | 1.71 | 0.79 | -54.3% | -54.0% | -2.4% | +51.6% | 40 |
 | 2026-10-15 | RKLB | linked_peer | +0 | -17.7% | -6.6% | $1568.9M | 55.25 | 54.49 | 47.02 | -14.9% | -13.7% | -2.4% |  | 40 |
-| 2026-10-15 | ROKU | 8k_merger_agreement | +0 | -0.1% | +1.4% | $230.2M | 154.67 | 155.82 | 160.52 | +3.8% | +3.0% | -2.4% |  | 21 |
+| 2026-10-15 | ROKU | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 160.21 | 160.52 |  | +0.2% | -1.1% |  | 3 |
 | 2026-10-15 | RXRX | 8k_tender_offer | +0 | -12.4% | +11.2% | $135.5M | 4.16 | 4.11 | 2.63 | -36.7% | -35.9% | -2.4% |  | 40 |
 | 2026-10-15 | SKYA | 8k_tender_offer | +0 | +40.9% | +7.5% | $6.9M | 2.74 | 2.68 | 1.68 | -38.7% | -37.3% | -2.4% |  | 40 |
 | 2026-10-15 | SMR | linked_peer | +0 | -24.0% | +5.5% | $271.5M | 6.15 | 5.99 | 3.25 | -47.1% | -45.7% | -2.4% |  | 40 |
-| 2026-10-15 | SNTI | 8k_merger_agreement | +0 | -27.0% | +8.7% | $542k | 8.65 | 8.18 | 1.25 | -85.5% | -84.7% | -2.4% |  | 40 |
+| 2026-10-15 | SNTI | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.44 | 1.25 |  | -13.2% | +2.1% |  | 0 |
 | 2026-10-15 | SRTA | activist_13d | +1 | -8.5% | +1.4% | $4.1M | 4.34 | 4.55 | 4.82 | +11.1% | +5.9% | -2.4% | +8.3% | 40 |
 | 2026-10-15 | TCPC | activist_13d | +0 | +3.6% | +3.4% | $2.9M | 4.22 | 4.23 | 4.24 | +0.5% | +0.2% | -2.4% |  | 40 |
 | 2026-10-15 | TCRT | activist_13d | +1 | +146.4% | +5.3% | $50.1M | 2.18 | 2.81 | 1.86 | -14.7% | -33.8% | -2.4% | -31.4% | 40 |
@@ -1008,7 +1008,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-26 | SHFS | 8k_reverse_split | -1 | -8.3% | -28.8% | $24.8M | 0.09 | 0.09 | 0.00 | -95.7% | -95.3% | -3.3% | +92.1% | 29 |
 | 2026-10-26 | SKYE | merger_vote | +0 | -0.6% | +1.9% | $45k ⚠ | 1.57 | 1.58 | 0.98 | -37.3% | -37.7% | -3.3% |  | 29 |
 | 2026-10-26 | SNES | activist_13d | +1 | +29.8% | +1.0% | $2.2M | 0.85 | 0.85 | 0.65 | -23.4% | -23.4% | -3.3% | -20.1% | 29 |
-| 2026-10-26 | SNTI | 8k_merger_agreement | +0 | -16.4% | -6.9% | $970k | 5.78 | 5.54 | 1.25 | -78.3% | -77.5% | -3.3% |  | 29 |
+| 2026-10-26 | SNTI | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.44 | 1.25 |  | -13.2% | +2.1% |  | 0 |
 | 2026-10-26 | SUPN | 8k_merger_agreement | +0 | +6.2% | +0.3% | $87.4M | 34.56 | 34.68 | 30.59 | -11.5% | -11.8% | -3.3% |  | 29 |
 | 2026-10-26 | TANAF | registration_effective | -1 | -53.4% | +18.5% | $1k ⚠ | 0.16 | 0.10 | 0.06 | -62.5% | -40.3% | -3.3% | +37.0% | 29 |
 | 2026-10-26 | TMCR | setup_supply_eloc | +0 | +3.9% | -0.9% | $335k | 2.10 | 2.10 | 2.19 | +4.3% | +4.3% | -3.3% |  | 29 |
@@ -1072,7 +1072,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-10-27 | SCQC | ipo_priced | +0 |  |  |  ⚠ |  | 9.85 | 9.87 |  | +0.2% | -3.9% |  | 15 |
 | 2026-10-27 | SGRY | merger_arb | +0 | +58.1% | +0.5% | $105.4M | 23.36 | 23.26 | 26.55 | +13.7% | +14.1% | -4.1% |  | 28 |
 | 2026-10-27 | SLDE | 8k_special_dividend | +0 | +7.2% | -2.4% | $33.1M | 28.39 | 28.46 | 24.16 | -14.9% | -15.1% | -4.1% |  | 28 |
-| 2026-10-27 | SNTI | 8k_merger_agreement | +0 | -22.9% | +6.9% | $1.8M | 6.17 | 5.97 | 1.25 | -79.7% | -79.1% | -4.1% |  | 28 |
+| 2026-10-27 | SNTI | 8k_merger_agreement | +0 |  |  |  ⚠ |  | 1.44 | 1.25 |  | -13.2% | +2.1% |  | 0 |
 | 2026-10-27 | SPGI | 8k_strategic_review | +1 | +5.3% | -0.4% | $852.6M | 448.93 | 447.92 | 460.74 | +2.6% | +2.9% | -4.1% | +7.0% | 28 |
 | 2026-10-27 | ST | 8k_tender_offer | +0 | -0.4% | +4.0% | $54.7M | 42.32 | 41.14 | 37.18 | -12.2% | -9.6% | -4.1% |  | 28 |
 | 2026-10-27 | THFF | 8k_merger_agreement | +0 | +3.4% | +1.7% | $9.5M | 77.78 | 77.25 | 73.22 | -5.9% | -5.2% | -4.1% |  | 28 |
@@ -1548,7 +1548,6 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-05 | HSBC | tender_issuer_buyback | +1 | +3.5% | -1.5% | $182.1M | 88.06 | 86.40 | 81.81 | -7.1% | -5.3% | -1.1% | -4.2% | 19 |
 | 2026-11-05 | IEP | 8k_tender_offer | +0 | +0.6% | -3.9% | $9.7M | 5.13 | 5.16 | 2.57 | -49.9% | -50.2% | -1.1% |  | 19 |
 | 2026-11-05 | INJC | registration_effective | -1 |  |  | $76k ⚠ | 26.15 | 26.53 | 19.27 | -26.3% | -27.4% | -1.1% | +26.2% | 19 |
-| 2026-11-05 | INM | 8k_merger_agreement | +0 | +9.4% | -24.5% | $128k ⚠ | 13.21 | 13.71 | 14.75 | +11.7% | +7.6% | -1.1% |  | 19 |
 | 2026-11-05 | INTZ | 8k_reverse_split | -1 | -26.2% | +29.2% | $108k ⚠ | 0.62 | 0.61 | 0.25 | -59.7% | -59.0% | -1.1% | +57.9% | 19 |
 | 2026-11-05 | IONQ | 8k_merger_agreement | +0 | -8.9% | -10.5% | $739.3M | 26.43 | 28.01 | 23.54 | -10.9% | -16.0% | -1.1% |  | 19 |
 | 2026-11-05 | IPW | registration_effective | -1 | -35.7% | -7.4% | $2.9M | 1.37 | 1.36 | 1.23 | -10.2% | -9.6% | -1.1% | +8.4% | 19 |
@@ -1600,7 +1599,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-05 | TBBK | insider_cluster | +0 | -6.1% | +0.8% | $27.0M | 47.74 | 47.69 | 46.42 | -2.8% | -2.7% | -1.1% |  | 19 |
 | 2026-11-05 | TCPC | 8k_strategic_review | +1 | +5.3% | -2.3% | $3.2M | 4.27 | 4.25 | 4.24 | -0.7% | -0.2% | -1.1% | +0.9% | 19 |
 | 2026-11-05 | TENX | 8k_strategic_review | +1 | -3.7% | -9.9% | $3.5M | 1.63 | 1.64 | 1.35 | -17.2% | -17.7% | -1.1% | -16.5% | 19 |
-| 2026-11-05 | TLSS | 8k_reverse_split | -1 |  |  |  ⚠ |  | 0.30 | 0.21 |  | -30.0% | +2.1% | +32.1% | 0 |
+| 2026-11-05 | TLSS | 8k_reverse_split | -1 | -30.0% | +0.0% | $0k ⚠ | 0.14 | 0.18 | 0.21 | +50.0% | +16.7% | -1.1% | -17.8% | 19 |
 | 2026-11-05 | TMGI | 8k_tender_offer | +0 | +0.0% | +0.0% | $6k ⚠ | 0.00 | 0.00 | 0.00 | +0.0% | +0.0% | -1.1% |  | 19 |
 | 2026-11-05 | UP | 8k_lock_up | +0 | +0.0% | -6.8% | $254k | 2.86 | 2.94 | 1.51 | -47.2% | -48.6% | -1.1% |  | 19 |
 | 2026-11-05 | UPBD | insider_cluster | +0 | +42.8% | +3.1% | $26.1M | 24.88 | 24.50 | 27.39 | +10.1% | +11.8% | -1.1% |  | 19 |
@@ -1668,6 +1667,8 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-06 | PSQH | 8k_reverse_split | -1 | -46.6% | +18.2% | $200k | 1.95 | 1.95 | 0.55 | -71.8% | -71.8% | -3.1% | +68.7% | 16 |
 | 2026-11-06 | RGNX | setup_supply_atm | +0 | -0.4% | +3.3% | $9.4M | 7.62 | 7.77 | 8.16 | +7.1% | +5.0% | -3.1% |  | 16 |
 | 2026-11-06 | RLYB | 8k_merger_agreement | +0 | +1.8% | +0.4% | $512k | 15.75 | 15.53 | 5.19 | -67.0% | -66.6% | -3.1% |  | 16 |
+| 2026-11-06 | ROKU | delisting | +0 |  |  | $1849.5M | 160.52 | 160.52 | 160.52 | +0.0% | +0.0% | -3.1% |  | 0 |
+| 2026-11-06 | ROKU | 8k_merger_agreement | +0 |  |  | $1849.5M | 160.52 | 160.52 | 160.52 | +0.0% | +0.0% | -3.1% |  | 0 |
 | 2026-11-06 | SRTM | registration_effective | -1 | -11.7% | -5.8% | $2.4M | 1.47 | 1.46 | 0.36 | -75.3% | -75.1% | -3.1% | +72.0% | 16 |
 | 2026-11-06 | SSEA | 8k_merger_agreement | +0 | +0.0% | +0.0% | $6k ⚠ | 10.41 | 10.41 | 10.53 | +1.1% | +1.1% | -3.1% |  | 16 |
 | 2026-11-06 | SVIA | activist_13d | +1 | -11.4% | +2.7% | $3.2M | 3.01 | 2.94 | 2.32 | -22.8% | -21.1% | -3.1% | -18.0% | 16 |
@@ -1808,7 +1809,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-10 | PMAX | activist_13d | +1 | +42.3% | +0.0% | $934k | 0.80 | 0.80 | 0.59 | -26.5% | -26.4% | -5.0% | -21.4% | 14 |
 | 2026-11-10 | REFI | 8k_merger_agreement | +0 | +0.0% | +4.5% | $1.4M | 9.26 | 9.26 | 8.69 | -6.2% | -6.2% | -5.0% |  | 14 |
 | 2026-11-10 | REZI | 8k_spin_off | +0 | +4.2% | -3.0% | $26.5M | 19.45 | 20.66 | 22.44 | +15.4% | +8.6% | -5.0% |  | 14 |
-| 2026-11-10 | SCNI | registration_effective | -1 | -2.5% | +5.0% | $187k | 1.94 | 2.00 | 1.69 | -12.9% | -15.3% | -5.0% | +10.3% | 14 |
+| 2026-11-10 | SCNI | registration_effective | -1 | -2.5% | +4.9% | $188k | 1.94 | 1.99 | 1.40 | -27.8% | -29.7% | -5.0% | +24.8% | 7 |
 | 2026-11-10 | SLXN | registration_effective | -1 | -16.2% | -12.1% | $188k | 2.62 | 2.80 | 1.49 | -43.0% | -46.8% | -5.0% | +41.8% | 14 |
 | 2026-11-10 | SND | 8k_special_dividend | +0 | -14.5% | +3.0% | $1.2M | 4.07 | 4.25 | 4.51 | +10.8% | +6.1% | -5.0% |  | 14 |
 | 2026-11-10 | SPWR | registration_effective | -1 | +7.0% | -3.7% | $734k | 0.23 | 0.23 | 1.95 | +733.3% | +729.8% | -5.0% | -734.8% | 14 |
@@ -2232,7 +2233,7 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-18 | SBFM | share_registration | -1 | -10.9% | -5.1% | $348k | 2.41 | 2.40 | 2.39 | -0.8% | -0.4% | -0.8% | -0.4% | 6 |
 | 2026-11-18 | SGRY | 8k_merger_agreement | +0 | +0.4% | +0.4% | $182.0M | 26.96 | 26.97 | 26.55 | -1.5% | -1.6% | -0.8% |  | 6 |
 | 2026-11-18 | SKYA | tender_issuer_buyback | +1 | -26.7% | +90.3% | $5.8M | 4.13 | 3.98 | 1.68 | -59.3% | -57.8% | -0.8% | -57.0% | 6 |
-| 2026-11-18 | SNTI | 8k_reverse_split | -1 | -31.2% | -10.3% | $1.6M | 2.87 | 2.85 | 1.25 | -56.5% | -56.1% | -0.8% | +55.3% | 6 |
+| 2026-11-18 | SNTI | 8k_reverse_split | -1 |  |  |  ⚠ |  | 1.44 | 1.25 |  | -13.2% | +2.1% | +15.3% | 0 |
 | 2026-11-18 | SVCC | 8k_lock_up | +0 | -5.5% | -0.1% | $1.6M | 10.56 | 10.51 | 10.60 | +0.4% | +0.9% | -0.8% |  | 6 |
 | 2026-11-18 | TACO | 8k_reverse_split | -1 | +0.1% | -0.0% | $3.2M | 10.52 | 10.52 | 10.53 | +0.1% | +0.1% | -0.8% | -1.0% | 6 |
 | 2026-11-18 | TPL | delisting | +0 | +4.8% | -0.7% | $136.7M | 285.90 | 288.92 | 261.37 | -8.6% | -9.5% | -0.8% |  | 6 |
@@ -2467,9 +2468,9 @@ Entry = next session's open after the item was found. Control = IWM over the sam
 | 2026-11-24 | WIX | holder_13d | +0 | -5.4% | +4.5% | $70.9M | 65.74 | 64.77 | 67.82 | +3.2% | +4.7% | +2.1% |  | 0 |
 | 2026-11-24 | ZONE | activist_13d | +1 | +9.5% | +4.1% | $1.1M | 3.59 | 3.38 | 3.75 | +4.5% | +10.9% | +2.1% | +8.8% | 0 |
 
-## Pending (119): enter at the next session open
+## Pending (118): enter at the next session open
 
-AASP, ACA, ACVA, AFYA, AIXC, ALT, AMZE, ATKR, AVZO, AYTU, AZR, BFRG, BGL, BIPC, BKHA, BLNK, BTCY, BWOW, BZH, CBZ, CCO, CCXI, CISO, CLYD, COLA, CRBU, CRCW, CTW, DAIO, DARE, DEVSF, DPLS, DRMA, EMPD, FBDT, FE, FFR, GBCS, GBTG, GOSS, IAE, IBO, IHD, IPFX, IRT, ITGR, JACS, JL, KTF, KVUE, LAB, LGMK, LXFR, LXP, LYEL, NIMU, NWE, OGEN, OTLY, PERF, PERI, PLRX, PRE, PSNL, PWCM, QRVO, RAMP, RMIX, ROKU, RSSS, SGRY, SNUS-PI, SRZN, SSTI, SWRD, SYBX, TEM, TMS, TOPP, TROX, TWO-PC, UPXI, UTZ, VACI, VBIO, VEL, VLN, VMAR, VPG, VTGN, WALD, WEAV, WKSP, WSKEF, ZONE
+AASP, ACA, ACVA, AFYA, AIXC, ALT, AMZE, ATKR, AVZO, AYTU, AZR, BFRG, BGL, BIPC, BKHA, BLNK, BTCY, BWOW, BZH, CBZ, CCO, CCXI, CISO, CLYD, COLA, CRBU, CRCW, CTW, DAIO, DARE, DEVSF, DPLS, DRMA, EMPD, FBDT, FE, FFR, GBCS, GBTG, GOSS, IAE, IBO, IHD, INM, IPFX, IRT, ITGR, JACS, JL, KTF, KVUE, LAB, LGMK, LXFR, LXP, LYEL, NIMU, NWE, OGEN, OTLY, PERF, PERI, PLRX, PRE, PSNL, PWCM, QRVO, RAMP, RMIX, RSSS, SGRY, SNUS-PI, SRZN, SSTI, SWRD, SYBX, TEM, TMS, TOPP, TROX, TWO-PC, UPXI, UTZ, VACI, VBIO, VEL, VLN, VMAR, VPG, VTGN, WALD, WEAV, WKSP, WSKEF, ZONE
 
 ## No price data (33): delisted, units/warrants or bad symbol
 

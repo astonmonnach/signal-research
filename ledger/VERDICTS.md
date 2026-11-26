@@ -6,7 +6,7 @@ Every dossier verdict, measured from the close on the day it was given against t
 |---|---|---|---|---|
 | OWN | 1 | -17.6 pts | -17.6 pts | 0/1 |
 | WATCH | 2 | +0.7 pts | +0.7 pts | 1/2 |
-| AVOID | 14 | -45.6 pts | -47.6 pts | 2/14 |
+| AVOID | 13 | -42.7 pts | -44.5 pts | 2/13 |
 
 | ticker | verdict | since | move | vs benchmark |
 |---|---|---|---|---|
@@ -21,7 +21,6 @@ Every dossier verdict, measured from the close on the day it was given against t
 | CYAB | AVOID 5/10 | 2026-10-05 | -75.7% | -70.6 pts vs IWM |
 | GOVX | AVOID 6/10 | 2026-10-05 | -77.1% | -72.0 pts vs IWM |
 | POLA | AVOID 6/10 | 2026-10-05 | -80.0% | -74.9 pts vs IWM |
-| SNTI | AVOID 6/10 | 2026-10-05 | -89.0% | -83.9 pts vs IWM |
 | HCTI | AVOID 6/10 | 2026-10-05 | -96.2% | -91.1 pts vs IWM |
 | GWH | AVOID 6/10 | 2026-10-05 | -96.8% | -91.7 pts vs IWM |
 | MOD | dropped, no call 5/10 | 2026-11-05 | +49.2% | +49.2 pts vs MDY |

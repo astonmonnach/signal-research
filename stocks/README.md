@@ -255,7 +255,7 @@ One file per stock: every ticker on the watchlist (`watch/watchlist.json`), in `
 | [SEVN](SEVN.md) | Jordan Matthew P. (director) bought 10,000 shares at $6.56 = $65,600 on 2026-10-30 | $6.38 (25 Nov) | -7.8% since 04 Nov | -3.2 pts | [2026-11-04](../scans/2026-11-04.md) |
 | [SGRY](SGRY.md) | Surgery Partners, Inc. | $26.55 (25 Nov) | +14.2% since 26 Oct | +17.7 pts | [2026-11-26](../scans/2026-11-26.md) |
 | [SMR](SMR.md) | NUSCALE POWER Corp | $3.25 (25 Nov) | -47.1% since 15 Oct | -43.3 pts | [2026-11-11](../scans/2026-11-11.md) |
-| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $1.25 (25 Nov) | -88.2% since 04 Oct | -83.1 pts | [2026-11-25](../scans/2026-11-25.md) |
+| [SNTI](SNTI.md) | Senti Biosciences Holdings, Inc. | $1.25 (25 Nov) | live since 04 Oct | -15.3 pts | [2026-11-25](../scans/2026-11-25.md) |
 | [SRZN](SRZN.md) | Surrozen, Inc./DE | $31.71 (25 Nov) | -1.9% since 16 Nov | +0.7 pts | [2026-11-26](../scans/2026-11-26.md) |
 | [STC](STC.md) | EPPINGER FREDERICK H (director, Chief Executive Officer) bought 3,000 shares at $44.45 = $133,350 on 2026-10-26 | $48.32 (25 Nov) | +9.1% since 28 Oct | +12.5 pts | [2026-11-24](../scans/2026-11-24.md) |
 | [STIM](STIM.md) | going concern: "Therefore, substantial doubt exists about the Company’s ability to continue as a going concern" | $1.49 (25 Nov) | -38.7% since 05 Nov | -38.3 pts | [2026-11-19](../scans/2026-11-19.md) |
