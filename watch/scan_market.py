@@ -489,7 +489,7 @@ def small_caps(tickers, unread):
     and to leave out the big, heavily covered companies (19 Oct 2026)."""
     cache = HERE / "marketcap.json"
     today = date.today().isoformat()
-    caps = {}
+    caps, saved = {}, {}
     try:
         saved = json.loads(cache.read_text(encoding="utf-8"))
         if saved.get("date") == today:
@@ -509,8 +509,16 @@ def small_caps(tickers, unread):
                     pass
             cache.write_text(json.dumps({"date": today, "caps": caps}), encoding="utf-8")
         except Exception:
-            unread.append("Nasdaq screener (market values)")
-            return set()
+            # Rule 2026-11-26 (RMIX): the screener answered 403 from 10 Nov on and this returned an empty set, so the wide
+            # scan silently covered only the watchlist, graph and kept industries for 11 sessions (an 8-insider RMIX
+            # cluster on 17-20 Nov never showed). A stale cache is far better than nothing: use the last saved values and
+            # say so. Companies listed after the cache date are still missed until the screener answers again.
+            if saved.get("caps"):
+                caps = saved["caps"]
+                unread.append(f"Nasdaq screener (used market values cached on {saved.get('date')}; newer listings missed)")
+            else:
+                unread.append("Nasdaq screener (market values): NO under-$2B coverage today")
+                return set()
     return {c for c, ts in tickers.items() if any(0 < caps.get(t.upper().replace(".", "-"), 0) < SMALL_LIMIT for t in ts)}
 
 

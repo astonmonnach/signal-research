@@ -1717,4 +1717,68 @@ DTEND;VALUE=DATE:20270403
 SUMMARY:ZONE: $100M Texas project contribution due (if unpaid\, only its project interest is diluted)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1956741/000121390026121558/ea0312107-10q_zone.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:7c3053d6d70a59bf3b8af4d906783877@signal-lab
+DTSTAMP:20261126T170000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:MNTS: record date for the 10% rights plan (Burkle group grandfathered but blocked from buying more\; UP call #19)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1781162/000114036126045751/ef20086617_8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:50640872cdf9b906e217d750b6aa716e@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:PERI: go-shop ends (40 days from 1 Nov\; arith)\; Affle $11.70 cash\, tracked
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1338940/000117891326004939/zk2636299.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cf7d80461d270bca7f62b37ab45ea054@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:PERI: vote on Affle's $11.70 cash merger (4pm Israel time)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1338940/000117891326005370/exhibit_99-1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:6aace15ba708b56dc7fb2f8d27c68f73@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:OTLY: Verlinvest $4.13 per ADS tender expires one minute after 11:59pm New York (Platin 13D 22.3%\, tracked)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1843586/000110465926130588/tm2629659d2_ex99-a5a.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:30a1b8c137be4f368083881f5e82c552@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:OTLY: Platin's total return swap on 1\,651\,484 ADS expected to settle
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1843586/000110465926132204/xslSCHEDULE_13D_X02/primary_doc.xml
+END:VEVENT
+BEGIN:VEVENT
+UID:b36b2c8c69c251813f052c4578d3a3fa@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:ACB/OGI: shareholder meetings on the Organigram deal (proxy cut-offs 21 Dec\; T021)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1683541/000110465926132165/tm2629946d8_ex99-1.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:0cd0ec902eb64ef04185a4a13349b25e@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:AZR: first third of the PIPE locked shares released (about 4.31M\; estimate\, 180 days after 12 Jun\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1513525/000121390026118910/ea0311026-10q_azora.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:44d80509ba81b2263b50a46ec4b7c14a@signal-lab
+DTSTAMP:20261126T180000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:LAB: CVR special dividend record date (paid 11 Dec if the Treeline merger closes\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1162194/000114036126045589/ef20086510_ex99-1.htm
+END:VEVENT
 END:VCALENDAR
