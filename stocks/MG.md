@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-16 (daily research 16 Oct (research/daily/2026-10-16.md)); `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $20.23 (2026-11-25, ledger) · 1d -0.2%, 5d +0.2%, 20d -1.2% (market context, 2026-11-25)
-- **Since first found:** **-2.1%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.6% vs IWM -2.4% = **-1.3 pts** vs IWM; direction 0, tracked only (40 days)
+- **Latest price:** $20.20 (2026-11-25, ledger) · 1d -0.3%, 5d +0.1%, 20d -1.3% (market context, 2026-11-25)
+- **Since first found:** **-2.3%** (found 2026-10-15 via `merger_vote` at $20.67). From the next open $20.99: -3.8% vs IWM -2.4% = **-1.3 pts** vs IWM; direction 0, tracked only (40 days)
   - 6 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.2% vs peer median -0.1%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median +0.6%). Peer groups: SIC 8711 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -18,7 +18,7 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **MG:** approved, 26,547,220 for; 0.6% gap. ([triage](../watch/digests/2026-11-25-triage.md)) · Filings: `8-K` 24 Nov · Research: Research: Wed 25 Nov 2026 (**Headline:** An outside buyer has turned up at a company trading at less than half its cash. Jacob Field…) ([note](../research/daily/2026-11-25.md))
-- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **Dated:** MG vote 24 Nov (no 8-K yet); BMBL HSR 25 Nov and TRMD/Hafnia 25 Nov (no filings yet). ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: MG vote (24 Nov): no 8-K yet. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: T014 MG expired at the vote, unfired. ([triage](../watch/digests/2026-11-24-triage.md)) · Press: MISTRAS Group, Inc. Stockholders Approve Acquisition by H.I.G. Capital (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/24/3409895/12235/en/mistras-group-inc-stockholders-approve-acquisition-by-h-i-g-capital.html)) · Market scan: 8-K trigger phrase "agreement and plan of merger, strategic alternatives, go-shop" (8k merger agreement) (5d before +0.3%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1436126/000114036126045518/ef20086431_8k.htm)) · Calendar: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 24 Nov 2026 (- **Triggers:** T026 MNTS new. T014 MG expires today with the vote (no close below $20.00; $20.30). T024…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **Dated:** MG vote 24 Nov (no 8-K yet); BMBL HSR 25 Nov and TRMD/Hafnia 25 Nov (no filings yet). ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: MG vote (24 Nov): no 8-K yet. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: T014 MG expired at the vote, unfired. ([triage](../watch/digests/2026-11-24-triage.md)) · Press: MISTRAS Group, Inc. Stockholders Approve Acquisition by H.I.G. Capital (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/24/3409895/12235/en/mistras-group-inc-stockholders-approve-acquisition-by-h-i-g-capital.html)) · Market scan: 8-K trigger phrase "strategic alternatives, go-shop" (strategic review / alternatives) (5d before +0.3%, found day +0.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1436126/000114036126045518/ef20086431_ex99-1.htm)) · Calendar: MG: merger vote on H.I.G.'s $20.35 cash offer (9am New York) ([calendar](../calendar/catalyst-dates.ics)) · Research: Research: Tue 24 Nov 2026 (- **Triggers:** T026 MNTS new. T014 MG expires today with the vote (no close below $20.00; $20.30). T024…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- T014 MG: $20.19, against a $20.00 line.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **MG**, **LCII**, **RXO**: proxy supplement, CFO retention bonus, CFO social post. Nothing new. LCII votes 18 Nov. ([triage](../watch/digests/2026-11-17-triage.md)) · Triage: T011 CPAC, T014 MG ($20.18), T016 ULBI ($15.68), T017 NPB (CMG sale expected by 30 Nov), T021 ACB ($4.61): not fired. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 13 Nov
@@ -42,10 +42,10 @@ Every [ledger](../ledger/LEDGER.md) row for MG ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.23 | -2.1% | -3.6% | -2.4% |  | 40 | live |
-| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.23 | -5.8% | -6.0% | -1.0% |  | 37 | live |
-| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.23 | -1.1% | -1.1% | -4.0% |  | 28 | live |
-| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.23 | -1.1% | -1.1% | -4.0% |  | 28 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.23 | -1.2% | -0.9% | -4.8% |  | 27 | live |
-| 2026-11-13 | `8k_merger_agreement` | 0 | +0.2% | +0.0% | $7.6M | $20.20 | $20.23 | $20.23 | +0.1% | -0.0% | -2.6% |  | 9 | live |
-| 2026-11-24 | `8k_merger_agreement` | 0 | +0.3% | +0.1% | $8.0M | $20.26 | $20.28 | $20.23 | -0.2% | -0.3% | +2.2% |  | 0 | live |
+| 2026-10-15 | `merger_vote` | 0 | -0.9% | -0.1% | $10.8M | $20.67 | $20.99 | $20.20 | -2.3% | -3.8% | -2.4% |  | 40 | live |
+| 2026-10-16 | `merger_arb` | 0 | -0.1% | +3.8% | $8.6M | $21.46 | $21.52 | $20.20 | -5.9% | -6.1% | -1.1% |  | 37 | live |
+| 2026-10-27 | `merger_arb` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.20 | -1.2% | -1.2% | -4.1% |  | 28 | live |
+| 2026-10-27 | `merger_vote` | 0 | -0.9% | -3.7% | $6.6M | $20.45 | $20.45 | $20.20 | -1.2% | -1.2% | -4.1% |  | 28 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | -5.3% | +0.1% | $6.4M | $20.47 | $20.40 | $20.20 | -1.3% | -1.0% | -4.8% |  | 27 | live |
+| 2026-11-13 | `8k_merger_agreement` | 0 | +0.2% | +0.0% | $7.6M | $20.20 | $20.23 | $20.20 | +0.0% | -0.1% | -2.6% |  | 9 | live |
+| 2026-11-24 | `8k_strategic_review` | +1 | +0.3% | +0.1% | $8.0M | $20.26 | $20.28 | $20.20 | -0.3% | -0.4% | +2.1% | -2.5% | 0 | live |

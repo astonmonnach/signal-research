@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $78.42 (2026-11-25, ledger)
-- **Since first found:** **+19.8%** (found 2026-10-14 via `linked_peer` at $65.47). From the next open $66.93: +17.2% vs IWM -0.9% = **+18.1 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $79.32 (2026-11-25, ledger)
+- **Since first found:** **+21.1%** (found 2026-10-14 via `linked_peer` at $65.47). From the next open $66.93: +18.5% vs IWM -0.9% = **+19.5 pts** vs IWM; direction 0, tracked only (41 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,7 +17,6 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-24](../scans/2026-11-24.md#press-releases)**: Press: THOR INDUSTRIES ANNOUNCES DATE FOR ITS FISCAL 2027 FIRST QUARTER EARNINGS RELEASE (PR Newswire, published Mon 23 Nov) ([release](https://www.prnewswire.com/news-releases/thor-industries-announces-date-for-its-fiscal-2027-first-quarter-earnings-release-302948614.html))
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/730263/000207245926000018/0002072459-26-000018-index.htm))
 - **[2026-10-14](../scans/2026-10-14.md#press-releases)**: Press: THOR INDUSTRIES ANNOUNCES INCREASED REGULAR QUARTERLY DIVIDEND (PR Newswire, published Tue 13 Oct) ([release](https://www.prnewswire.com/news-releases/thor-industries-announces-increased-regular-quarterly-dividend-302907480.html)) · Logged as `linked_peer` (direction 0): LCII peer (RV maker): -13.2% from 30 Jun to 13 Oct vs LCII -25.1%; source: daily research 14 Oct (research/daily/2026-10-14.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 14 Oct 2026 (- **Both have fallen hard:** 30 Jun to 13 Oct: LCII -25.1%, PATK -28.3%, Thor (THO) -13.2%, Winnebago (WGO)…) ([note](../research/daily/2026-10-14.md))
 
 ## Performance since found
@@ -26,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for THO ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | +0.4% | $65.9M | $65.47 | $66.93 | $78.42 | +19.8% | +17.2% | -0.9% |  | 41 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | +0.4% | $65.9M | $65.47 | $66.93 | $79.32 | +21.1% | +18.5% | -0.9% |  | 41 | live |

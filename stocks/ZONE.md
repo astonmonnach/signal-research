@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
-- **Latest price:** $3.65 (2026-11-25, ledger) · 1d +1.7%, 5d +22.5%, 20d -36.0% (market context, 2026-11-25)
-- **Since first found:** **-36.0%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -25.7% vs IWM -4.6% = **-21.1 pts** vs IWM; direction -1 → excess +21.1% (26 days)
+- **Latest price:** $3.75 (2026-11-25, ledger) · 1d +4.5%, 5d +25.8%, 20d -34.2% (market context, 2026-11-25)
+- **Since first found:** **-34.2%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -23.6% vs IWM -4.7% = **-19.0 pts** vs IWM; direction -1 → excess +19.0% (26 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: ZONE +22.5% 5d vs peer median +2.1%; peers didn't move with it. Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** solo_move: ZONE +25.8% 5d vs peer median +2.4%; peers didn't move with it. Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 24 Feb 2027: ZONE: T027 deadline (Jacob Field 9.48%; UP call #20)
   - Fri 2 Apr 2027: ZONE: $100M Texas project contribution due (if unpaid, only its project interest is diluted)
@@ -19,8 +19,11 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 24 Nov; +37 older (May – Nov 2026) first picked up
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **ZONE** /: - Jacob Field holds 9.48% at about $4.00 a share, his first 13D. ([triage](../watch/digests/2026-11-25-triage.md)) · Logged as `holder_13d` (direction 0): Jacob Field first 13D 9.48%, may propose a takeover; cash about $6.91 a share vs $3.78; going concern; UP call #20 (UP1); source: daily research 25 Nov (research/daily/2026-11-25.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 25 Nov 2026 (1. ZONE: an outside buyer at less than half the cash (UP call #20)) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +9.5%, found day +4.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026123820/0001213900-26-123820-index.htm))
+- **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026121558/ea0312107-10q_zone.htm))
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`NT 10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026121023/0001213900-26-121023-index.htm))
 - **[2026-11-03](../scans/2026-11-03.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026115520/0001213900-26-115520-index.htm))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +0.0%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026113843/ea0310062-8k_zone.htm))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026110401/0001213900-26-110401-index.htm))
@@ -31,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for ZONE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.65 | -36.0% | -25.7% | -4.6% | +21.1% | 26 | live |
-| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.65 | +1.7% | +8.0% | +2.2% | +5.8% | 0 | live |
-| 2026-11-25 | `holder_13d` | 0 | +14.3% | +1.7% | $1.1M | $3.65 |  | $3.65 |  |  |  |  |  | pending |
+| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.75 | -34.2% | -23.6% | -4.7% | +19.0% | 26 | live |
+| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.75 | +4.5% | +10.9% | +2.1% | +8.8% | 0 | live |
+| 2026-11-25 | `holder_13d` | 0 | +14.3% | +4.5% | $1.1M | $3.75 |  | $3.75 |  |  |  |  |  | pending |

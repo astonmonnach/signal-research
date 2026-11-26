@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $3.95 (2026-11-25, ledger)
-- **Since first found:** **-6.7%** (found 2026-11-13 via `insider_buy` at $4.24). From the next open $4.14: -4.5% vs IWM -2.6% = **-1.9 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $3.90 (2026-11-25, ledger)
+- **Since first found:** **-8.0%** (found 2026-11-13 via `insider_buy` at $4.24). From the next open $4.14: -5.8% vs IWM -2.6% = **-3.2 pts** vs IWM; direction 0, tracked only (9 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 1 Feb 2027: VISN: CEO Chuck Treadway steps down
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **VISN:** a fourth insider (Bowen, 25,000 at $3.9378); about $1.25M in all. Tracked. ([triage](../watch/digests/2026-11-26-triage.md)) · Research: Research: Thu 26 Nov 2026 (- **Holders:** VISN (a fourth insider, about $1.25M in all; tracked), MX (CEO still buying; cash $86.9M vs an…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1517228/000119312526476906/0001193125-26-476906-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1517228/000119312526464908/0001193125-26-464908-index.htm))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **VISN**: a director bought 250,000 at $3.93-4.16 after the $1.50 special distribution went ex on 9 Nov; $100M buyback added; the CEO leaves 1 Feb… ([triage](../watch/digests/2026-11-13-triage.md)) · Logged as `insider_buy` (direction 0): Director bought 250,000 at $3.93-4.16 after the $1.50 special distribution went ex; $100M buyback added; CEO leaves 1 Feb 2027; tracked; source: daily research 13 Nov (research/daily/2026-11-13.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1517228/000119312526460596/0001193125-26-460596-index.htm)) · Research: Research: Fri 13 Nov 2026 (- **Insider buys, tracked:** HOS (the CEO cancelled his 10b5-1 sale plan for 1,170,405 shares, none sold…) ([note](../research/daily/2026-11-13.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1517228/000119312526458972/0001193125-26-458972-index.htm))
@@ -27,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for VISN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `insider_buy` | 0 | -26.0% | +6.0% | $41.8M | $4.24 | $4.14 | $3.95 | -6.7% | -4.5% | -2.6% |  | 9 | live |
+| 2026-11-13 | `insider_buy` | 0 | -26.0% | +6.0% | $41.8M | $4.24 | $4.14 | $3.90 | -8.0% | -5.8% | -2.6% |  | 9 | live |

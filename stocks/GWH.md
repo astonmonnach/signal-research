@@ -25,8 +25,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.003 (2026-11-24, ledger)
-- **Since first found:** **-98.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -97.7% vs IWM -4.6% = **-93.1 pts** vs IWM; direction 0, tracked only (50 days)
+- **Latest price:** $0.005 (2026-11-25, ledger)
+- **Since first found:** **-96.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.157). From the next open $0.130: -96.2% vs IWM -4.6% = **-91.5 pts** vs IWM; direction 0, tracked only (51 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -45,4 +45,4 @@ Every [ledger](../ledger/LEDGER.md) row for GWH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.003 | -98.1% | -97.7% | -4.6% |  | 50 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -53.8% | +0.0% | $323k | $0.157 | $0.130 | $0.005 | -96.8% | -96.2% | -4.6% |  | 51 | live |

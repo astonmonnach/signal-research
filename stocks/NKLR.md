@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json)
-- **Latest price:** $1.90 (2026-11-25, market context) · 1d -2.6%, 5d +1.1%, 20d -20.5% (market context, 2026-11-25)
+- **Latest price:** $1.89 (2026-11-25, market context) · 1d -3.1%, 5d +0.5%, 20d -20.9% (market context, 2026-11-25)
 - **Since first found:** not in the ledger
-- **Peers / sympathy:** missed_peer_move: peer median -16.5% 5d vs NKLR +1.1%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** missed_peer_move: peer median -16.9% 5d vs NKLR +0.5%; peers moved, it didn't. Peer groups: SIC 3443 (5) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -19,7 +19,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: Terra Innovatum and ALSYMEX Sign Engineering Contract to Advance SOLO™ Medical Radioisotope Production… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/23/3408327/0/en/terra-innovatum-and-alsymex-sign-engineering-contract-to-advance-solo-medical-radioisotope-production-capabilities.html))
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `424B3` 20 Nov, `8-K` 20 Nov · Research: Research: Sat 21 Nov 2026 (- NKLR passes the tests too, but its resale shares are insiders' and dormant.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-17](../scans/2026-11-17.md#press-releases)**: Press: Terra Innovatum Reports Third Quarter 2026 Financial Results and Continued Progress Toward First Solo™… (GlobeNewswire, published Mon 16 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/16/3404211/0/en/terra-innovatum-reports-third-quarter-2026-financial-results-and-continued-progress-toward-first-solo-reactor-deployment.html)) · Filings: `10-Q` 16 Nov
-- **[2026-11-16](../scans/2026-11-16.md)**: Calendar: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts) ([calendar](../calendar/catalyst-dates.ics))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2067627/000121390026120810/ea0312348-10q_terra.htm)) · Calendar: NKLR: annual meeting (includes extending the time to prepare the FY2025 accounts) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md#watchlist-filings)**: Filings: `DEFA14A` 6 Nov
 - **[2026-11-01](../scans/2026-11-01.md#watchlist-filings)**: Filings: `424B3` 28 Oct

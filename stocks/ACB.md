@@ -6,13 +6,14 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_hostile` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md)); `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md))
-- **Latest price:** $4.14 (2026-11-25, ledger) · 1d +1.1%, 5d -6.0%, 20d +1.4% (market context, 2026-11-25)
-- **Since first found:** **+4.2%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +3.9% vs IWM -2.8% = **+6.7 pts** vs IWM; direction 0, tracked only (35 days)
+- **Latest price:** $4.14 (2026-11-25, ledger) · 1d +1.2%, 5d -5.9%, 20d +1.5% (market context, 2026-11-25)
+- **Since first found:** **+4.3%** (found 2026-10-20 via `merger_hostile` at $3.97). From the next open $3.98: +4.0% vs IWM -2.9% = **+6.9 pts** vs IWM; direction 0, tracked only (35 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (self 5d -6.0% vs peer median -7.5%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d -5.9% vs peer median -4.4%). Peer groups: SIC 2833 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: ACB: Curaleaf's competing offer expires (Organigram deal pending, T021)
   - Fri 4 Dec 2026: ACB: Curaleaf's hostile exchange offer expires (11:59 pm Mountain)
+  - Wed 23 Dec 2026: ACB/OGI: shareholder meetings on the Organigram deal (proxy cut-offs 21 Dec; T021)
   - Wed 23 Dec 2026: ACB/OGI: target date for both shareholder meetings on the Organigram arrangement (T021)
   - Wed 23 Dec 2026: ACB: special meeting on the Organigram arrangement confirmed (virtual; T021)
   - Wed 6 Jan 2027: ACB: earliest closing of the Organigram arrangement
@@ -22,6 +23,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **ACB/OGI:** meetings 23 Dec; about 9% gross. T021. ([triage](../watch/digests/2026-11-26-triage.md)) · Triage: T021 ACB: meetings 23 Dec. ([triage](../watch/digests/2026-11-26-triage.md)) · Filings: `SC14D9F/A` 25 Nov, `6-K` ×2 25 Nov · Research: Research: Thu 26 Nov 2026 (- **Deals:** PERI (Affle $11.70 cash, 3.9% gross, about 0.4% after costs; vote 31 Dec, go-shop to about 11…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#press-releases)**: Press: Organigram and Aurora File Joint Management Information Circular in Support of Arrangement Agreement to… (Business Wire) ([release](http://www.businesswire.com/news/home/20261125239057/en/Organigram-and-Aurora-File-Joint-Management-Information-Circular-in-Support-of-Arrangement-Agreement-to-Establish-a-Global-Cannabis-Leader/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==)) · Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1683541/000110465926132165/tm2629946d8_ex99-1.htm))
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- T021 ACB: $4.16.) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: T003 WHF, T014 MG ($20.19; vote 24 Nov), T016 ULBI ($15.67), T017 NPB ($14.79), T021 ACB ($4.40), T023 CCAP (insider buys, not the buyback): not… ([triage](../watch/digests/2026-11-19-triage.md))
 - **[2026-11-18](../scans/2026-11-18.md)**: Calendar: ACB: record date for the 23 Dec special meeting on the Organigram arrangement (T021) ([calendar](../calendar/catalyst-dates.ics))
@@ -47,5 +50,5 @@ Every [ledger](../ledger/LEDGER.md) row for ACB ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.14 | +4.2% | +3.9% | -2.8% |  | 35 | live |
-| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.14 | -21.1% | -20.5% | -5.2% |  | 20 | live |
+| 2026-10-20 | `merger_hostile` | 0 | -9.0% | +0.3% | $4.8M | $3.97 | $3.98 | $4.14 | +4.3% | +4.0% | -2.9% |  | 35 | live |
+| 2026-11-04 | `merger_arb` | 0 | +24.3% | +1.6% | $6.4M | $5.24 | $5.20 | $4.14 | -21.0% | -20.4% | -5.2% |  | 20 | live |

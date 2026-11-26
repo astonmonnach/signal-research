@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $10.31 (2026-11-25, ledger)
-- **Since first found:** **-1.1%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: -0.6% vs IWM -3.2% = **+2.6 pts** vs IWM; direction 0, tracked only (29 days)
+- **Latest price:** $10.41 (2026-11-25, ledger)
+- **Since first found:** **-0.2%** (found 2026-10-26 via `holder_buying` at $10.43). From the next open $10.38: +0.3% vs IWM -3.3% = **+3.6 pts** vs IWM; direction 0, tracked only (29 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1549966/000101359426001226/0001013594-26-001226-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (2026-10-30 SAMG +8.4 +10.2 +0.0 +8.0 +4.8 +4.3 +6.1 Q3 results before the open (Equinox Partners holds ~10.7%)) ([note](../research/review/2026-11-10/EVENTS.md))
 - **[2026-10-30](../scans/2026-10-30.md)**: Calendar: SAMG: Q3 results before the open (Equinox Partners holds ~10.7%) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1549966/000101359426001116/0001013594-26-001116-index.htm))
@@ -29,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for SAMG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $10.31 | -1.1% | -0.6% | -3.2% |  | 29 | live |
+| 2026-10-26 | `holder_buying` | 0 | -4.7% | +3.1% | $908k | $10.43 | $10.38 | $10.41 | -0.2% | +0.3% | -3.3% |  | 29 | live |

@@ -23,8 +23,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.277 (2026-11-25, ledger)
-- **Since first found:** **-39.8%** (found 2026-10-04 via `setup_supply_deficiency` at $0.460). From the next open $0.460: -39.8% vs IWM -4.6% = **-35.2 pts** vs IWM; direction 0, tracked only (51 days)
+- **Latest price:** $0.280 (2026-11-25, ledger)
+- **Since first found:** **-39.1%** (found 2026-10-04 via `setup_supply_deficiency` at $0.460). From the next open $0.460: -39.1% vs IWM -4.6% = **-34.5 pts** vs IWM; direction 0, tracked only (51 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -33,6 +33,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1213809/000149315226051690/form10-q.htm))
 - **[2026-11-12](../scans/2026-11-12.md#press-releases)**: Press: Dyadic’s C1-Produced RSV and Malaria Antibodies Advance into Animal Studies Following Positive Independent… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/12/3401476/0/en/dyadic-s-c1-produced-rsv-and-malaria-antibodies-advance-into-animal-studies-following-positive-independent-evaluations.html))
 - **[2026-10-30](../scans/2026-10-30.md#press-releases)**: Press: Dyadic to Report Q3 2026 Financial Results and Host Conference Call on Thursday November 12, 2026 (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/10/30/3392629/0/en/dyadic-to-report-q3-2026-financial-results-and-host-conference-call-on-thursday-november-12-2026.html))
 - **[2026-10-15](../scans/2026-10-15.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1213809/000091957426006982/0000919574-26-006982-index.htm))
@@ -44,4 +45,4 @@ Every [ledger](../ledger/LEDGER.md) row for DYAI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -2.3% | +7.0% | $87k ⚠ | $0.460 | $0.460 | $0.277 | -39.8% | -39.8% | -4.6% |  | 51 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -2.3% | +7.0% | $87k ⚠ | $0.460 | $0.460 | $0.280 | -39.1% | -39.1% | -4.6% |  | 51 | live |

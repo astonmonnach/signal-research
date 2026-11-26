@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `merger_arb` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
 - **Latest price:** $3.14 (2026-11-25, ledger)
-- **Since first found:** **+0.3%** (found 2026-11-23 via `8k_merger_agreement` at $3.13). From the next open $3.15: -0.3% vs IWM +1.9% = **-2.2 pts** vs IWM; direction 0, tracked only (1 days)
+- **Since first found:** **+0.3%** (found 2026-11-23 via `8k_merger_agreement` at $3.13). From the next open $3.15: -0.3% vs IWM +1.8% = **-2.2 pts** vs IWM; direction 0, tracked only (1 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -18,7 +18,7 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **RSSS:** $3.25 cash, 3.7% gap, outside date 28 Feb 2027; 20-day median $63k a day, which fails the bar. Tracked. ([triage](../watch/digests/2026-11-25-triage.md)) · Logged as `merger_arb` (direction 0): KnowledgeWorks $3.25 cash, 3.7% gap, outside date 28 Feb 2027; fails the $150k a day bar on its 20-day median; tracked; source: daily research 25 Nov (research/daily/2026-11-25.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 25 Nov 2026 (- RSSS: $3.25 cash from KnowledgeWorks, a 3.7% gap with an outside date of 28 Feb 2027; it fails the…) ([note](../research/daily/2026-11-25.md))
-- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **RSSS:** $3.25 cash from CJK Group, 3.5% gap; fails the $150k-a-day bar. ([triage](../watch/digests/2026-11-24-triage.md)) · Market scan: 8-K trigger phrase "agreement and plan of merger, reverse stock split, tender offer" (8k merger agreement) (5d before +65.6%, found day +0.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1386301/000110465926131619/tm2630498d1_8k.htm)) · Research: Research: Tue 24 Nov 2026 (- **RSSS** ($3.25 cash, 3.5% gap) fails the $150k-a-day bar. **ALTG** (Peterbilt dealers plus a Viking PIPE…) ([note](../research/daily/2026-11-24.md))
+- **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **RSSS:** $3.25 cash from CJK Group, 3.5% gap; fails the $150k-a-day bar. ([triage](../watch/digests/2026-11-24-triage.md)) · Market scan: 8-K trigger phrase "reverse stock split, tender offer" (reverse split) (5d before +65.6%, found day +0.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1386301/000110465926131619/tm2630498d1_ex2-1.htm)) · Research: Research: Tue 24 Nov 2026 (- **RSSS** ($3.25 cash, 3.5% gap) fails the $150k-a-day bar. **ALTG** (Peterbilt dealers plus a Viking PIPE…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#press-releases)**: Press: Research Solutions to Join KnowledgeWorks Global Ltd., a CJK Group Company in All-Cash Acquisition (PR Newswire) ([release](https://www.prnewswire.com/news-releases/research-solutions-to-join-knowledgeworks-global-ltd-a-cjk-group-company-in-all-cash-acquisition-302947935.html)) · Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +7.0%, found day +45.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1386301/000110465926130870/tm2630413d1_8k.htm))
 
 ## Performance since found
@@ -27,6 +27,6 @@ Every [ledger](../ledger/LEDGER.md) row for RSSS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `8k_merger_agreement` | 0 | +7.0% | +45.6% | $1.7M | $3.13 | $3.15 | $3.14 | +0.3% | -0.3% | +1.9% |  | 1 | live |
-| 2026-11-24 | `8k_merger_agreement` | 0 | +65.6% | +0.3% | $1.9M | $3.14 | $3.14 | $3.14 | +0.0% | +0.0% | +2.2% |  | 0 | live |
-| 2026-11-25 | `merger_arb` | 0 | +48.1% | +0.0% | $2.1M | $3.14 |  | $3.14 |  |  |  |  |  | pending |
+| 2026-11-23 | `8k_merger_agreement` | 0 | +7.0% | +45.6% | $1.7M | $3.13 | $3.15 | $3.14 | +0.3% | -0.3% | +1.8% |  | 1 | live |
+| 2026-11-24 | `8k_reverse_split` | -1 | +65.6% | +0.3% | $1.9M | $3.14 | $3.14 | $3.14 | +0.0% | +0.0% | +2.1% | +2.1% | 0 | live |
+| 2026-11-25 | `merger_arb` | 0 | +48.1% | +0.0% | $2.2M | $3.14 |  | $3.14 |  |  |  |  |  | pending |

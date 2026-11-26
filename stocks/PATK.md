@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $84.70 (2026-11-25, ledger)
-- **Since first found:** **+31.6%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +34.2% vs IWM -1.6% = **+35.8 pts** vs IWM; direction 0, tracked only (42 days)
+- **Latest price:** $85.49 (2026-11-25, ledger)
+- **Since first found:** **+32.9%** (found 2026-10-13 via `8k_merger_agreement` at $64.34). From the next open $63.10: +35.5% vs IWM -1.6% = **+37.1 pts** vs IWM; direction 0, tracked only (42 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/76605/000118942226000034/0001189422-26-000034-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Patrick Industries Shareholders and LCI Industries Stockholders Overwhelmingly Approve All-Stock Merger (Business Wire, published Wed 18 Nov) ([release](http://www.businesswire.com/news/home/20261118941780/en/Patrick-Industries-Shareholders-and-LCI-Industries-Stockholders-Overwhelmingly-Approve-All-Stock-Merger/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +0.6%, found day +2.6%) ([filing](https://www.sec.gov/Archives/edgar/data/76605/000007660526000116/patk-20261118.htm)) · Calendar: LCII/PATK: merger votes (LCI 9:00, Patrick 10:00 New York); DOJ second request open ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-13](../scans/2026-11-13.md#press-releases)**: Press: Patrick Industries, Inc. Announces Increase to Regular Quarterly Cash Dividend and Replenished Share… (PR Newswire) ([release](https://www.prnewswire.com/news-releases/patrick-industries-inc-announces-increase-to-regular-quarterly-cash-dividend-and-replenished-share-repurchase-authorization-302938935.html))
@@ -35,6 +36,6 @@ Every [ledger](../ledger/LEDGER.md) row for PATK ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $84.70 | +31.6% | +34.2% | -1.6% |  | 42 | live |
-| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $84.70 | +33.8% | +31.8% | -0.9% |  | 41 | live |
-| 2026-11-18 | `8k_merger_agreement` | 0 | +0.6% | +2.6% | $62.6M | $82.31 | $81.12 | $84.70 | +2.9% | +4.4% | -0.8% |  | 6 | live |
+| 2026-10-13 | `8k_merger_agreement` | 0 | -3.6% | +0.2% | $40.4M | $64.34 | $63.10 | $85.49 | +32.9% | +35.5% | -1.6% |  | 42 | live |
+| 2026-10-14 | `linked_peer` | 0 | -3.5% | -1.6% | $42.5M | $63.31 | $64.28 | $85.49 | +35.0% | +33.0% | -0.9% |  | 41 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | +0.6% | +2.6% | $62.6M | $82.31 | $81.12 | $85.49 | +3.9% | +5.4% | -0.8% |  | 6 | live |

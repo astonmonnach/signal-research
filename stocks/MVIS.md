@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $0.834 (2026-11-25, ledger)
-- **Since first found:** **-38.2%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -39.6% vs IWM -4.5% = **-35.1 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $0.870 (2026-11-25, ledger)
+- **Since first found:** **-35.6%** (found 2026-11-01 via `setup_supply_atm` at $1.35). From the next open $1.38: -37.0% vs IWM -4.5% = **-32.4 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: MVIS (#12): the direct sale went to holder JG Global (17.1%); $12.5M of the convertible repaid in cash. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **MVIS (#12):** the 24 Nov direct sale went to an existing holder (JG Global, now 17.1%). The company also…) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MVIS (#12)**: registered direct of 3,614,457 at $0.83 (9.8%, arith); officers bought 180,721 alongside. ([triage](../watch/digests/2026-11-24-triage.md)) · Market scan: 8-K trigger phrase "at-the-market" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/65770/000149315226054051/ex99-1.htm)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/65770/000149315226053839/0001493152-26-053839-index.htm))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for MVIS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.834 | -38.2% | -39.6% | -4.5% |  | 23 | live |
+| 2026-11-01 | `setup_supply_atm` | 0 | +26.3% | -6.3% | $2.0M | $1.35 | $1.38 | $0.870 | -35.6% | -37.0% | -4.5% |  | 23 | live |

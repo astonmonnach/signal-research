@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `distress` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $1.88 (2026-11-25, ledger)
-- **Since first found:** **-65.5%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -64.8% vs IWM -4.5% = **-60.3 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $1.80 (2026-11-25, ledger)
+- **Since first found:** **-67.0%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -66.4% vs IWM -4.5% = **-61.8 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-02](../scans/2026-11-02.md#triage-notes)**: Triage: **CABO**: former CRO on the strategic-alternatives committee (8-K after the close). AVOID, public call #13. ([triage](../watch/digests/2026-11-02-triage.md)) · Research: Research: Mon 2 Nov 2026 (3. CABO: a restructuring officer joins the strategic-alternatives committee) ([note](../research/daily/2026-11-02.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for CABO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $1.88 | -65.5% | -64.8% | -4.5% |  | 23 | live |
+| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $1.80 | -67.0% | -66.4% | -4.5% |  | 23 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md))
-- **Latest price:** $1.45 (2026-11-25, ledger)
-- **Since first found:** **-40.3%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -41.1% vs IWM -1.1% = **-40.0 pts** vs IWM; direction 0, tracked only (19 days)
+- **Latest price:** $1.49 (2026-11-25, ledger)
+- **Since first found:** **-38.7%** (found 2026-11-05 via `setup_supply_atm` at $2.43). From the next open $2.46: -39.4% vs IWM -1.1% = **-38.3 pts** vs IWM; direction 0, tracked only (19 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -18,8 +18,10 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Neuronetics Reports Inducement Grant Under Nasdaq Listing Rule 5635(c)(4) (GlobeNewswire, published Wed 18 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/18/3406218/0/en/neuronetics-reports-inducement-grant-under-nasdaq-listing-rule-5635-c-4.html))
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -40.1%, found day -11.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000119312526457099/d428716dex11.htm)) · Research: Research: Thu 12 Nov 2026 (- **Press log, not read in depth:** GGG $600M accelerated buyback (over $10B), CAAS $5M buyback with results…) ([note](../research/daily/2026-11-12.md))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000119380526001478/0001193805-26-001478-index.htm))
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: 8-K trigger phrase "lock-up" (lock-up) (5d before -40.1%, found day -11.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000119312526457099/d428716dex11.htm)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000119312526457031/0001193125-26-457031-index.htm)) · Research: Research: Thu 12 Nov 2026 (- **Press log, not read in depth:** GGG $600M accelerated buyback (over $10B), CAAS $5M buyback with results…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Neuronetics Announces Pricing of $30 Million Underwritten Public Offering of Common Stock (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/11/3400430/0/en/neuronetics-announces-pricing-of-30-million-underwritten-public-offering-of-common-stock.html))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000119312526455694/0001193125-26-455694-index.htm))
 - **[2026-11-05](../scans/2026-11-05.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Repeat going concern, covenant projected to fail Mar 2027, $33.1M ATM; register only (ATM barely used in Q3); source: daily research 5 Nov (research/daily/2026-11-05.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 5 Nov 2026 (- STIM: the going-concern and covenant wording is word-for-word from Q2, and the ATM fell only from $33.7M to…) ([note](../research/daily/2026-11-05.md))
 - **[2026-11-04](../scans/2026-11-04.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000110465926122380/stim-20260930x10q.htm))
 - **[2026-11-02](../scans/2026-11-02.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1227636/000092189526002891/0000921895-26-002891-index.htm))
@@ -30,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for STIM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.45 | -40.3% | -41.1% | -1.1% |  | 19 | live |
-| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.45 | +1.4% | +19.8% | -3.6% |  | 12 | live |
+| 2026-11-05 | `setup_supply_atm` | 0 | +19.7% | -10.2% | $2.3M | $2.43 | $2.46 | $1.49 | -38.7% | -39.4% | -1.1% |  | 19 | live |
+| 2026-11-12 | `8k_lock_up` | 0 | -40.1% | -11.7% | $4.1M | $1.43 | $1.21 | $1.49 | +4.2% | +23.1% | -3.6% |  | 12 | live |

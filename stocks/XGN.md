@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $3.99 (2026-11-25, ledger)
-- **Since first found:** **+2.3%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: +1.8% vs IWM -0.8% = **+2.6 pts** vs IWM; direction -1 → excess -2.6% (6 days)
+- **Latest price:** $3.97 (2026-11-25, ledger)
+- **Since first found:** **+1.8%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: +1.3% vs IWM -0.8% = **+2.1 pts** vs IWM; direction -1 → excess -2.1% (6 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,11 +17,16 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **XGN:** new passive 13G (Lytton 5.3%). ([triage](../watch/digests/2026-11-24-triage.md))
+- **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000093583626000656/0000935836-26-000656-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **New AVOID register rows (9):** XGN (public #18), PZG, OVID, FFTT (takeable); SBFM, INLF, ACCH, BZAI, DAIC (not takeable). ([triage](../watch/digests/2026-11-19-triage.md)) · Triage: **XGN** (Exagen): a $50M TD Cowen ATM, effective 17-18 Nov with no sales yet, about half of a roughly $99M company (25,513,497 shares at $3.92… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `setup_supply_atm` (direction 0): Public AVOID #18: $50M ATM about half the company, Perceptive term loan, 10% holder selling; source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 19 Nov 2026 (1. XGN: a $50M share sale for a $99M company (public AVOID #18)) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -28.5%, found day +3.7%) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/999999999526003566/9999999995-26-003566-index.htm))
+- **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000119312526465530/0001193125-26-465530-index.htm))
+- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000119380526001456/0001193805-26-001456-index.htm))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000092189526003021/0000921895-26-003021-index.htm)) · Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000119312526454588/0001193125-26-454588-index.htm))
 - **[2026-10-21](../scans/2026-10-21.md#triage-notes)**: Triage: **XGN** (Exagen, $180M): Jorey Chernett, a 10% owner, bought 14,000 shares at $7.46 ($104k) on 19 Oct. ([triage](../watch/digests/2026-10-21-triage.md))
 - **[2026-10-20](../scans/2026-10-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1274737/000119380526001382/0001193805-26-001382-index.htm))
 
@@ -31,5 +36,5 @@ Every [ledger](../ledger/LEDGER.md) row for XGN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $3.99 | +2.3% | +1.8% | -0.8% | -2.6% | 6 | live |
-| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $3.99 | +5.0% | +7.0% | +2.1% |  | 5 | live |
+| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $3.97 | +1.8% | +1.3% | -0.8% | -2.1% | 6 | live |
+| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $3.97 | +4.5% | +6.4% | +2.1% |  | 5 | live |

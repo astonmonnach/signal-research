@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
-- **Latest price:** $1.18 (2026-11-25, ledger)
-- **Since first found:** **-78.6%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -79.3% vs IWM -5.4% = **-73.9 pts** vs IWM; direction -1 → excess +73.9% (50 days)
+- **Latest price:** $1.12 (2026-11-25, ledger)
+- **Since first found:** **-79.7%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -80.3% vs IWM -5.5% = **-74.9 pts** vs IWM; direction -1 → excess +74.9% (50 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,7 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GPRO deadline (no filing yet). TRMD moved to 9 Dec (same entry, corrected). BMBL HSR (no filing). WORX and NIVF calls end at the close. ([triage](../watch/digests/2026-11-25-triage.md)) · Triage: WORX (#8) and NIVF (#9) end at the 25 Nov close. NIVF's 1-for-100 split is confirmed for 30 Nov. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **WORX (#8) and NIVF (#9)** end at tonight's close, both deep in profit for the call.) ([note](../research/daily/2026-11-25.md))
+- **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GPRO deadline (no filing yet). TRMD moved to 9 Dec (same entry, corrected). BMBL HSR (no filing). WORX and NIVF calls end at the close. ([triage](../watch/digests/2026-11-25-triage.md)) · Triage: WORX (#8) and NIVF (#9) closed right at the 25 Nov close: -38.8% and -98.4%. NIVF's 1-for-100 split is confirmed for 30 Nov. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **WORX (#8) and NIVF (#9)** end at tonight's close, both deep in profit for the call.) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **WORX:** 10-Q on time. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: DFNS/WORX 10-Qs (23 Nov): filed. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **NIVF (#9):** the 1-for-100 split is still only tentative (1 Dec); no confirming filing. **WORX (#8):**…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md)**: Calendar: DFNS and WORX (public AVOIDs #2 and #8): late Q3 10-Qs due after the NT 10-Q extension (estimate) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **DFNS (#2), WORX (#8):** NT 10-Qs filed 16 Nov; no 10-Q on EDGAR through 20 Nov. The extension ran out on Sat 21 Nov, so check Monday. ([triage](../watch/digests/2026-11-21-triage.md)) · Triage: DFNS/WORX 10-Qs: extension ended 21 Nov; the 23 Nov calendar estimate stands. ([triage](../watch/digests/2026-11-21-triage.md))
@@ -40,6 +40,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.18 | -78.6% | -79.3% | -5.4% | +73.9% | 50 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.18 | -38.3% | -40.5% | -4.0% | +36.4% | 28 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.18 | -38.3% | -35.6% | -4.8% |  | 27 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.12 | -79.7% | -80.3% | -5.5% | +74.9% | 50 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.12 | -41.4% | -43.4% | -4.1% | +39.3% | 28 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.12 | -41.4% | -38.8% | -4.8% |  | 27 | live |

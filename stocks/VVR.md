@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-11-05 (daily research 5 Nov (research/daily/2026-11-05.md)); `activist_13d` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $2.82 (2026-11-25, ledger) · 1d -0.5%, 5d +0.9%, 20d -0.5% (market context, 2026-11-25)
-- **Since first found:** **-1.6%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: -0.9% vs IWM -5.2% = **+4.3 pts** vs IWM; direction +1 → excess +4.3% (20 days)
+- **Latest price:** $2.82 (2026-11-25, ledger) · 1d -0.3%, 5d +1.1%, 20d -0.3% (market context, 2026-11-25)
+- **Since first found:** **-1.4%** (found 2026-11-04 via `activist_13d` at $2.86). From the next open $2.84: -0.7% vs IWM -5.2% = **+4.5 pts** vs IWM; direction +1 → excess +4.5% (20 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -19,6 +19,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **VVR:** Saba 6.28%, still buying at $2.80-2.86 (not UK-buyable). ([triage](../watch/digests/2026-11-26-triage.md)) · Filings: `SCHEDULE 13D/A` 25 Nov · Research: Research: Thu 26 Nov 2026 (- **Holders:** VISN (a fourth insider, about $1.25M in all; tracked), MX (CEO still buying; cash $86.9M vs an…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1059386/000106299326006294/0001062993-26-006294-index.htm))
 - **[2026-11-21](../scans/2026-11-21.md)**: Research: Research: Sat 21 Nov 2026 (- **Saba elsewhere in our graph:** TCPC, LEO, VVR. VVR is flat since our 5 Nov note ($2.85 to $2.81), so…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (VVR (WATCH 05/11): peak +1.4% on 06 Nov (session 1), low -0.3% on 06 Nov, now +1.4%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Research: Tue 10 Nov 2026 (- **What we don't know:** the 10b5-1 plans' price limits and pace are not disclosed, and "up to" is not a…) ([note](../research/daily/2026-11-10.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/11 VVR $2.86 +1.4% 6 Nov (1) -0.3% -0.3% 6 Nov +1.4% 0.0%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (05/11 VVR Saba 13D at a 12.5% discount $2.86 +1.4% +3.4% -2.0) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-06](../scans/2026-11-06.md#triage-notes)**: Triage: **VVR, correction:** Saba ran a full campaign at VVR in 2019, which ended in a 15% tender at 98.5% of NAV. ([triage](../watch/digests/2026-11-06-triage.md)) · Logged as `activist_13d` (direction 0): CORRECTION: Saba 2019 campaign ended in a 15% tender at 98.5% NAV (25.7% proration); repeat adds ~2.8%, below costs; downgraded to TRACKED (T022); source: daily research 6 Nov (research/daily/2026-11-06.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Filings: `SCHEDULE 13D` 4 Nov; +6 older (Feb – Jul 2026) first picked up · Research: Research: Fri 6 Nov 2026 (1. VVR: Saba has done this before, and the precedent pays little) ([note](../research/daily/2026-11-06.md))
@@ -31,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for VVR ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.82 | -1.6% | -0.9% | -5.2% | +4.3% | 20 | live |
-| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.82 | -1.2% | -1.6% | -1.1% |  | 19 | live |
-| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.82 | -2.9% | -2.6% | -3.0% |  | 16 | live |
+| 2026-11-04 | `activist_13d` | +1 | -1.1% | +1.4% | $2.8M | $2.86 | $2.84 | $2.82 | -1.4% | -0.7% | -5.2% | +4.5% | 20 | live |
+| 2026-11-05 | `activist_13d` | 0 | +1.1% | -0.3% | $2.8M | $2.85 | $2.86 | $2.82 | -1.1% | -1.4% | -1.1% |  | 19 | live |
+| 2026-11-06 | `activist_13d` | 0 | -1.0% | +1.8% | $3.0M | $2.90 | $2.89 | $2.82 | -2.8% | -2.4% | -3.1% |  | 16 | live |

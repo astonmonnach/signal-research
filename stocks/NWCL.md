@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `registration_effective` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.79 (2026-11-25, ledger)
-- **Since first found:** **-41.3%** (found 2026-10-19 via `registration_effective` at $4.75). From the next open $4.80: -41.9% vs IWM -0.9% = **-40.9 pts** vs IWM; direction -1 → excess +40.9% (36 days)
+- **Latest price:** $2.82 (2026-11-25, ledger)
+- **Since first found:** **-40.6%** (found 2026-10-19 via `registration_effective` at $4.75). From the next open $4.80: -41.2% vs IWM -1.0% = **-40.3 pts** vs IWM; direction -1 → excess +40.3% (36 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,6 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/2131813/000095010326017302/0000950103-26-017302-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** AMRC (customer: the Aberdeen Proving Ground selection; AMRC +23.0% on 10 Nov on its own…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: newcleo Completes Acquisition of Bonifait Pesage, Bringing Nuclear-Grade Scales In-House (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393143/0/en/newcleo-completes-acquisition-of-bonifait-pesage-bringing-nuclear-grade-scales-in-house.html))
 - **[2026-10-20](../scans/2026-10-20.md#new-setups)**: Logged as `registration_effective` (direction 0): resale F-1 effective: 71% of shares registered, PIPE at $10 now 52% underwater; -19% on 19 Oct; AVOID; source: daily research 20 Oct (research/daily/2026-10-20.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 20 Oct 2026 (- **AVOID:** NWCL (71% of shares registered, PIPE 52% under water, -19%), AIAI (equity line as big as the…) ([note](../research/daily/2026-10-20.md))
@@ -31,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for NWCL ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | `registration_effective` | -1 | -21.3% | -19.2% | $2.1M | $4.75 | $4.80 | $2.79 | -41.3% | -41.9% | -0.9% | +40.9% | 36 | live |
-| 2026-10-20 | `registration_effective` | 0 | -35.5% | -9.9% | $2.0M | $4.28 | $4.50 | $2.79 | -34.8% | -38.0% | -2.8% |  | 35 | live |
+| 2026-10-19 | `registration_effective` | -1 | -21.3% | -19.2% | $2.1M | $4.75 | $4.80 | $2.82 | -40.6% | -41.2% | -1.0% | +40.3% | 36 | live |
+| 2026-10-20 | `registration_effective` | 0 | -35.5% | -9.9% | $2.0M | $4.28 | $4.50 | $2.82 | -34.1% | -37.3% | -2.9% |  | 35 | live |

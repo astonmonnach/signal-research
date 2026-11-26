@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `distress_avoid` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $0.342 (2026-11-25, ledger) · 1d +9.4%, 5d -56.5%, 20d -58.5% (market context, 2026-11-25)
-- **Since first found:** **-72.7%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -72.9% vs IWM -3.3% = **-69.6 pts** vs IWM; direction +1 → excess -69.6% (47 days)
+- **Latest price:** $0.350 (2026-11-25, ledger) · 1d +5.2%, 5d -58.2%, 20d -60.1% (market context, 2026-11-25)
+- **Since first found:** **-72.0%** (found 2026-10-08 via `8k_strategic_review` at $1.25). From the next open $1.26: -72.2% vs IWM -3.4% = **-68.9 pts** vs IWM; direction +1 → excess -68.9% (47 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT -56.5% 5d vs peer median +0.9%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** UNRELIABLE (possible corporate action in window): solo_move: CRMT -58.2% 5d vs peer median +0.4%; peers didn't move with it. Peer groups: SIC 5500 (8) ([market context](../watch/context/latest.json), 2026-11-25)
   - warning: a >40% one-day move in the last 20 sessions: possible spin-off/split/corporate action; Yahoo doesn't adjust spin-offs, so 5d/20d may be distorted
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Sun 21 Feb 2027: CRMT: sale deadline under the Chapter 11 plan ($2.5M for common holders; AVOID register)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#watchlist-filings)**: Filings: `8-K/A` 25 Nov
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **Register updates:** CRMT (Chapter 11 on 24 Nov, $2.5M for common holders), DGNX, DAIC, POLA, EONR, BURU, EDVA. ([triage](../watch/digests/2026-11-24-triage.md)) · Press: America’s Car-Mart Secures $60 million in New Capital and Committed Buyer to Strengthen Business and Continue… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/24/3409247/9718/en/america-s-car-mart-secures-60-million-in-new-capital-and-committed-buyer-to-strengthen-business-and-continue-serving-customers.html)) · Market scan: 8-K trigger phrase "strategic alternatives" (strategic review / alternatives) (5d before -23.7%, found day -53.5%) ([filing](https://www.sec.gov/Archives/edgar/data/799850/000117184326007671/exh_991.htm)) · Filings: `8-K` 24 Nov · Research: Research: Tue 24 Nov 2026 (- **AVOID register:** 8 new rows, 327 active: BNAI (going concern plus warrants; takeable, but no ongoing…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **CRMT** (register): the waiver now runs only to 22 Nov. ([triage](../watch/digests/2026-11-19-triage.md)) · Filings: `8-K` 19 Nov
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **CRMT** (register): the lenders' waiver now runs only to 18 Nov; $0.93. ([triage](../watch/digests/2026-11-17-triage.md)) · Filings: `8-K` 17 Nov
@@ -45,7 +46,7 @@ Every [ledger](../ledger/LEDGER.md) row for CRMT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.342 | -72.7% | -72.9% | -3.3% | -69.6% | 47 | live |
-| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.342 | -74.7% | -74.9% | -3.4% |  | 44 | live |
-| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.342 | -74.7% | -74.9% | -2.4% | -72.5% | 40 | live |
-| 2026-11-24 | `8k_strategic_review` | +1 | -23.7% | -53.5% | $480k | $0.330 | $0.319 | $0.342 | +3.5% | +7.0% | +2.2% | +4.9% | 0 | live |
+| 2026-10-08 | `8k_strategic_review` | +1 | +9.8% | +11.6% | $756k | $1.25 | $1.26 | $0.350 | -72.0% | -72.2% | -3.4% | -68.9% | 47 | live |
+| 2026-10-10 | `distress_avoid` | 0 | +27.6% | +8.0% | $495k | $1.35 | $1.36 | $0.350 | -74.1% | -74.3% | -3.5% |  | 44 | live |
+| 2026-10-15 | `8k_strategic_review` | +1 | +21.4% | -0.7% | $420k | $1.35 | $1.36 | $0.350 | -74.1% | -74.3% | -2.4% | -71.8% | 40 | live |
+| 2026-11-24 | `8k_strategic_review` | +1 | -23.7% | -53.5% | $486k | $0.330 | $0.320 | $0.350 | +6.1% | +9.4% | +2.1% | +7.2% | 0 | live |

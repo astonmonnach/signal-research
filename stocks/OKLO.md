@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-15 (daily research 15 Oct (research/daily/2026-10-15.md))
-- **Latest price:** $19.15 (2026-11-25, ledger)
-- **Since first found:** **-36.2%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -34.9% vs IWM -2.4% = **-32.5 pts** vs IWM; direction 0, tracked only (40 days)
+- **Latest price:** $19.47 (2026-11-25, ledger)
+- **Since first found:** **-35.1%** (found 2026-10-15 via `linked_peer` at $30.01). From the next open $29.40: -33.8% vs IWM -2.4% = **-31.4 pts** vs IWM; direction 0, tracked only (40 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,7 +17,6 @@ _Deep dive pending._
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: 8-K trigger phrase "(relevant) supply agreement: "entered into a HALEU Supply Agreement (the “Fuel Supply Agreement”) with Centrus Energy Corp. (“Centrus”) for uranium enrichment services and the s"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1849056/000184905626000055/oklo-20261111.htm))
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1849056/000159588826000165/0001595888-26-000165-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md#press-releases)**: Press: Oklo’s Groves-1 to Begin Research and Demonstration Phase after being Cleared by U.S. Department of Energy… (Business Wire) ([release](http://www.businesswire.com/news/home/20261111613764/en/Oklo%E2%80%99s-Groves-1-to-Begin-Research-and-Demonstration-Phase-after-being-Cleared-by-U.S.-Department-of-Energy-for-Unrestricted-Operations/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==)) · Research: Research: Wed 11 Nov 2026 (- **Reaction:** $2.725 on 10 Nov (-9.2%) against OKLO -6.5%, SMR -4.0%, NNE -7.2% and IWM -0.7%. On 11 Nov…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-06](../scans/2026-11-06.md#press-releases)**: Press: Oklo, U.S. Forged Rings Partner to Advance Domestic Manufacturing for Future Aurora Powerhouse Deployments (Business Wire) ([release](http://www.businesswire.com/news/home/20261106023707/en/Oklo-U.S.-Forged-Rings-Partner-to-Advance-Domestic-Manufacturing-for-Future-Aurora-Powerhouse-Deployments/?feedref=JjAwJuNHiystnCoBq_hl-eFZeJbLw_s7AdFS_OhXyUv5Oa9fTQHHD20biF0cwCi0rCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3l8PgGBd63fmA1Sc5N7Hjy77nKdfLXU1CD0fwzlM5l88g==))
 - **[2026-10-15](../scans/2026-10-15.md#new-setups)**: Logged as `linked_peer` (direction 0): IMSR peer (nuclear developer): -18.3% from 8 to 16 Oct vs IMSR -10.0%; source: daily research 15 Oct (research/daily/2026-10-15.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 15 Oct 2026 (Oklo (OKLO) $34.57 $28.24 -18.3%) ([note](../research/daily/2026-10-15.md))
@@ -28,4 +27,4 @@ Every [ledger](../ledger/LEDGER.md) row for OKLO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $19.15 | -36.2% | -34.9% | -2.4% |  | 40 | live |
+| 2026-10-15 | `linked_peer` | 0 | -21.1% | +3.3% | $355.7M | $30.01 | $29.40 | $19.47 | -35.1% | -33.8% | -2.4% |  | 40 | live |

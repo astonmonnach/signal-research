@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $26.43 (2026-11-25, ledger)
-- **Since first found:** **+13.7%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +13.9% vs IWM -3.2% = **+17.1 pts** vs IWM; direction 0, tracked only (29 days)
-  - 5 more ledger rows: see Performance since found
+- **Latest price:** $26.55 (2026-11-25, ledger)
+- **Since first found:** **+14.2%** (found 2026-10-26 via `8k_merger_agreement` at $23.25). From the next open $23.20: +14.4% vs IWM -3.3% = **+17.7 pts** vs IWM; direction 0, tracked only (29 days)
+  - 6 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **Dismissed:** NIMU, IRT, SYBX, SGRY, VTGN, JACS. ([triage](../watch/digests/2026-11-26-triage.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -0.1%, found day -1.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1638833/000110465926131732/tm2628254d11_8k.htm))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage, dismissed: Over-$10B names; SOAR (risk factors); CLYD (reverse merger closing); IPXG (SPAC); CNXU (director change); DFH and SGRY (note exchanges); APMD… ([triage](../watch/digests/2026-11-24-triage.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before -0.6%, found day -0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1638833/000110465926130710/tm2628254d9_ex99-1.htm))
 - **[2026-11-21](../scans/2026-11-21.md#press-releases)**: Press: Surgery Partners, Inc. Announces Expiration and Results of Consent Solicitation Relating to Surgery Center… (GlobeNewswire, published Fri 20 Nov) ([release](https://www.globenewswire.com/news-release/2026/11/20/3407866/36929/en/surgery-partners-inc-announces-expiration-and-results-of-consent-solicitation-relating-to-surgery-center-holdings-inc-s-7-250-senior-notes-due-2032.html))
@@ -36,9 +38,10 @@ Every [ledger](../ledger/LEDGER.md) row for SGRY ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.43 | +13.7% | +13.9% | -3.2% |  | 29 | live |
-| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.43 | +13.1% | +13.6% | -4.0% |  | 28 | live |
-| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.43 | -0.1% | -1.1% | -3.9% |  | 15 | live |
-| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.43 | -1.3% | -0.9% | -1.1% |  | 8 | live |
-| 2026-11-18 | `8k_merger_agreement` | 0 | +0.4% | +0.4% | $182.0M | $26.96 | $26.97 | $26.43 | -2.0% | -2.0% | -0.8% |  | 6 | live |
-| 2026-11-23 | `8k_merger_agreement` | 0 | -0.6% | -0.8% | $115.5M | $26.56 | $26.59 | $26.43 | -0.5% | -0.6% | +1.9% |  | 1 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 | +7.8% | +47.6% | $93.4M | $23.25 | $23.20 | $26.55 | +14.2% | +14.4% | -3.3% |  | 29 | live |
+| 2026-10-27 | `merger_arb` | 0 | +58.1% | +0.5% | $105.4M | $23.36 | $23.26 | $26.55 | +13.7% | +14.1% | -4.1% |  | 28 | live |
+| 2026-11-09 | `8k_merger_agreement` | 0 | -0.0% | +14.0% | $161.2M | $26.45 | $26.71 | $26.55 | +0.4% | -0.6% | -3.9% |  | 15 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | +16.2% | -0.6% | $180.1M | $26.79 | $26.68 | $26.55 | -0.9% | -0.5% | -1.2% |  | 8 | live |
+| 2026-11-18 | `8k_merger_agreement` | 0 | +0.4% | +0.4% | $182.0M | $26.96 | $26.97 | $26.55 | -1.5% | -1.6% | -0.8% |  | 6 | live |
+| 2026-11-23 | `8k_merger_agreement` | 0 | -0.6% | -0.8% | $115.5M | $26.56 | $26.59 | $26.55 | -0.0% | -0.1% | +1.8% |  | 1 | live |
+| 2026-11-25 | `8k_merger_agreement` | 0 | -0.1% | -1.0% | $103.4M | $26.55 |  | $26.55 |  |  |  |  |  | pending |

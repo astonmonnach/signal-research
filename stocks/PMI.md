@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $6.15 (2026-11-25, ledger)
-- **Since first found:** **-13.3%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -13.9% vs IWM -2.6% = **-11.3 pts** vs IWM; direction -1 → excess +11.3% (30 days)
+- **Latest price:** $5.95 (2026-11-25, ledger)
+- **Since first found:** **-16.1%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -16.7% vs IWM -2.6% = **-14.0 pts** vs IWM; direction -1 → excess +14.0% (30 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2030617/000143774926037258/pmi20260930_10q.htm))
 - **[2026-11-13](../scans/2026-11-13.md#triage-notes)**: Triage: **PMI** (register): the 500,000-share resale went effective 10 Nov; the notes convert at the higher of $4.00 and the close, so no discount; -19% on… ([triage](../watch/digests/2026-11-13-triage.md))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before +11.8%, found day -2.4%) ([filing](https://www.sec.gov/Archives/edgar/data/2030617/999999999526003504/9999999995-26-003504-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Daily gainers, first read at 20 sessions: what happened next (checked 11 Nov 2026) (10-16 7 PMI +28% no_news $12.75 29.8 yes +6.6% +21.2% +14.8% / -9.3% / +13.7% -44.4% +37.0% -34.5% -36.9%) ([note](../research/movers/outcomes-2026-11-11.md))
@@ -32,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for PMI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $6.15 | -13.3% | -13.9% | -2.6% | +11.3% | 30 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $6.15 | -4.3% | -8.1% | -3.2% |  | 29 | live |
-| 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $6.15 | -21.7% | -23.1% | -3.6% | +19.6% | 12 | live |
+| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $5.95 | -16.1% | -16.7% | -2.6% | +14.0% | 30 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $5.95 | -7.5% | -11.1% | -3.3% |  | 29 | live |
+| 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $5.95 | -24.2% | -25.6% | -3.6% | +22.0% | 12 | live |

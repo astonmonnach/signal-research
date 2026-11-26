@@ -25,8 +25,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.176 (2026-11-25, ledger)
-- **Since first found:** **-63.3%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -60.0% vs IWM -4.6% = **-55.4 pts** vs IWM; direction 0, tracked only (51 days)
+- **Latest price:** $0.190 (2026-11-25, ledger)
+- **Since first found:** **-60.4%** (found 2026-10-04 via `setup_supply_deficiency` at $0.480). From the next open $0.440: -56.8% vs IWM -4.6% = **-52.2 pts** vs IWM; direction 0, tracked only (51 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -36,6 +36,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1972234/000121390026120683/ea0309901-10q_venhub.htm))
 - **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -8.7%, found day +9.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1972234/999999999526003517/9999999995-26-003517-index.htm))
 - **[2026-10-04](../scans/2026-10-04.md#new-setups)**: Logged as `setup_supply_deficiency` (direction 0): EFFECT 15 Sep + deficiency 2 Sep; $0.48; source: KNRX-like screen ([manual_calls.csv](../ledger/manual_calls.csv))
 
@@ -45,5 +46,5 @@ Every [ledger](../ledger/LEDGER.md) row for VHUB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.176 | -63.3% | -60.0% | -4.6% |  | 51 | live |
-| 2026-11-13 | `registration_effective` | -1 | -8.7% | +9.5% | $33k ⚠ | $0.230 | $0.240 | $0.176 | -23.4% | -26.6% | -2.6% | +24.0% | 9 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -9.6% | +2.1% | $243k ⚠ | $0.480 | $0.440 | $0.190 | -60.4% | -56.8% | -4.6% |  | 51 | live |
+| 2026-11-13 | `registration_effective` | -1 | -8.7% | +9.5% | $33k ⚠ | $0.230 | $0.240 | $0.190 | -17.4% | -20.8% | -2.6% | +18.2% | 9 | live |

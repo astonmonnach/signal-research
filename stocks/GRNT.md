@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-14 (daily research 14 Oct (research/daily/2026-10-14.md))
-- **Latest price:** $5.74 (2026-11-25, ledger)
-- **Since first found:** **+16.3%** (found 2026-10-14 via `linked_peer` at $4.94). From the next open $5.00: +14.9% vs IWM -0.9% = **+15.8 pts** vs IWM; direction 0, tracked only (41 days)
+- **Latest price:** $5.70 (2026-11-25, ledger)
+- **Since first found:** **+15.4%** (found 2026-10-14 via `linked_peer` at $4.94). From the next open $5.00: +14.0% vs IWM -0.9% = **+14.9 pts** vs IWM; direction 0, tracked only (41 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **GRNT:** Grey Rock handed 14M shares (10.6%) to its partners (supply overhang). ([triage](../watch/digests/2026-11-26-triage.md)) · Research: Research: Thu 26 Nov 2026 (- **Holders:** VISN (a fourth insider, about $1.25M in all; tracked), MX (CEO still buying; cash $86.9M vs an…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1928446/000110465926131997/0001104659-26-131997-index.htm))
 - **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1928446/000162828026075637/0001628280-26-075637-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#press-releases)**: Press: Granite Ridge Resources, Inc. Announces Planned Grey Rock Share Distribution (Business Wire) ([release](http://www.businesswire.com/news/home/20261119983550/en/Granite-Ridge-Resources-Inc.-Announces-Planned-Grey-Rock-Share-Distribution/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
 - **[2026-11-05](../scans/2026-11-05.md#press-releases)**: Press: Granite Ridge Resources, Inc. Reports Third Quarter 2026 Results and Declares Quarterly Cash Dividend (Business Wire) ([release](http://www.businesswire.com/news/home/20261105856351/en/Granite-Ridge-Resources-Inc.-Reports-Third-Quarter-2026-Results-and-Declares-Quarterly-Cash-Dividend/?feedref=JjAwJuNHiystnCoBq_hl-UWmYgx6iPKhA_Rsj6bM1eN7cpar2z2OJ_5SQGMGwVHJgBtFNItNzWaC-E-WdoEDnkz6i6lCdteeEqxiTxGYcX9zxIiZbtSUJbeLYjZQct7s))
@@ -27,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRNT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `linked_peer` | 0 | +10.4% | -2.9% | $5.7M | $4.94 | $5.00 | $5.74 | +16.3% | +14.9% | -0.9% |  | 41 | live |
+| 2026-10-14 | `linked_peer` | 0 | +10.4% | -2.9% | $5.7M | $4.94 | $5.00 | $5.70 | +15.4% | +14.0% | -0.9% |  | 41 | live |

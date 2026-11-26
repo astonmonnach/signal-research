@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `strategic_placement` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
-- **Latest price:** $8.56 (2026-11-25, ledger) · 1d -2.6%, 5d +6.5%, 20d -29.1% (market context, 2026-11-25)
-- **Since first found:** **+7.4%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: +7.0% vs IWM +0.3% = **+6.7 pts** vs IWM; direction 0, tracked only (7 days)
-- **Peers / sympathy:** no flag (self 5d +6.5% vs peer median +3.8%). Peer groups: SIC 2834 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Latest price:** $8.61 (2026-11-25, ledger)
+- **Since first found:** **+8.0%** (found 2026-11-17 via `strategic_placement` at $7.97). From the next open $8.00: +7.6% vs IWM +0.3% = **+7.3 pts** vs IWM; direction 0, tracked only (7 days)
+- **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 31 May 2027: ARCT: Meiji license deadline; otherwise ARCT refunds about $11.1M of Meiji premium
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -20,7 +20,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-11-25](../scans/2026-11-25.md#press-releases)**: Press: Arcturus Therapeutics to Present at Citi’s 2026 Global Healthcare Conference (Business Wire) ([release](http://www.businesswire.com/news/home/20261125087160/en/Arcturus-Therapeutics-to-Present-at-Citi%E2%80%99s-2026-Global-Healthcare-Conference/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1768224/000119312526467309/0001193125-26-467309-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md#triage-notes)**: Triage: **ARCT**: Meiji bought 2,466,395 shares for $50.0M, an 80% premium to the 30-day average; half the premium is refundable by 31 May 2027; 9.9%… ([triage](../watch/digests/2026-11-17-triage.md)) · Logged as `strategic_placement` (direction 0): Meiji bought 2,466,395 shares for $50.0M (80% premium to the 30-day average, about $20.27); half the premium refundable by 31 May 2027; 9.9% standstill; stock faded to $7.91; tracked; source: daily research 17 Nov (research/daily/2026-11-17.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 17 Nov 2026 (3. ARCT: a partner paid 2.6 times the price, and the stock gave it back) ([note](../research/daily/2026-11-17.md))
-- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "license agreement: "enter into a definitive license agreement contemplated by the MOU (as defined below) by May 31, 2027, the Company is required to refund to Meiji 50% of"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1768224/000119380526001485/e665891_8k-arct.htm))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "(relevant) license agreement: "enter into a definitive license agreement contemplated by the MOU (as defined below) by May 31, 2027, the Company is required to refund to Meiji 50% of"" (uncategorised) ([filing](https://www.sec.gov/Archives/edgar/data/1768224/000119380526001485/e665891_8k-arct.htm))
 
 ## Performance since found
 
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for ARCT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $8.56 | +7.4% | +7.0% | +0.3% |  | 7 | live |
+| 2026-11-17 | `strategic_placement` | 0 | -12.4% | -4.1% | $6.8M | $7.97 | $8.00 | $8.61 | +8.0% | +7.6% | +0.3% |  | 7 | live |

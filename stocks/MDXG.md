@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `linked_peer` logged 2026-10-18 (daily research 18 Oct (research/daily/2026-10-18.md))
-- **Latest price:** $3.17 (2026-11-25, ledger)
-- **Since first found:** **-28.3%** (found 2026-10-16 via `8k_merger_agreement` at $4.43). From the next open $4.44: -28.5% vs IWM -1.0% = **-27.4 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $3.15 (2026-11-25, ledger)
+- **Since first found:** **-28.9%** (found 2026-10-16 via `8k_merger_agreement` at $4.43). From the next open $4.44: -29.1% vs IWM -1.1% = **-28.0 pts** vs IWM; direction 0, tracked only (37 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,7 +18,6 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/1376339/000110465926126232/0001104659-26-126232-index.htm))
 - **[2026-10-18](../scans/2026-10-18.md#triage-notes)**: Triage: **SMTI / MDXG**: the FTC issued a Second Request on MiMedx's takeover of Sanara ($33 cash plus 0.4735 MDXG). ([triage](../watch/digests/2026-10-18-triage.md)) · Logged as `linked_peer` (direction 0): SMTI deal counterparty (buyer, part stock): -5.3% to $4.43 on 16 Oct; source: daily research 18 Oct (research/daily/2026-10-18.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sun 18 Oct 2026 (- **The filings:** (09:20) and (09:01). Both came before Friday's open. The Second Request was received on 15…) ([note](../research/daily/2026-10-18.md))
 - **[2026-10-16](../scans/2026-10-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +1.3%, found day -5.3%) ([filing](https://www.sec.gov/Archives/edgar/data/1376339/000121390026110041/ea0308833-8k425_mimedx.htm))
 
@@ -28,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for MDXG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `8k_merger_agreement` | 0 | +1.3% | -5.3% | $5.2M | $4.43 | $4.44 | $3.17 | -28.3% | -28.5% | -1.0% |  | 37 | live |
-| 2026-10-18 | `linked_peer` | 0 | +1.3% | -5.3% | $5.2M | $4.43 | $4.44 | $3.17 | -28.3% | -28.5% | -1.0% |  | 37 | live |
+| 2026-10-16 | `8k_merger_agreement` | 0 | +1.3% | -5.3% | $5.2M | $4.43 | $4.44 | $3.15 | -28.9% | -29.1% | -1.1% |  | 37 | live |
+| 2026-10-18 | `linked_peer` | 0 | +1.3% | -5.3% | $5.2M | $4.43 | $4.44 | $3.15 | -28.9% | -29.1% | -1.1% |  | 37 | live |

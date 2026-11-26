@@ -6,8 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $58.16 (2026-11-25, ledger)
-- **Since first found:** **+6.4%** (found 2026-11-21 via `insider_cluster` at $54.67). From the next open $62.18: -6.5% vs IWM +1.1% = **-7.6 pts** vs IWM; direction 0, tracked only (2 days)
+- **Latest price:** $58.23 (2026-11-25, ledger)
+- **Since first found:** **-4.5%** (found 2026-11-16 via `8k_merger_agreement` at $60.96). From the next open $61.87: -5.9% vs IWM -1.2% = **-4.7 pts** vs IWM; direction 0, tracked only (8 days)
+  - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -19,7 +20,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **SEI**: Co-CEO 5,000 at $53.78, Chairman 4,000 at $53.11, President 3,000 at $53.25 on 20 Nov (no plan box), the day it fell 11%. Tracked. ([triage](../watch/digests/2026-11-21-triage.md)) · Logged as `insider_cluster` (direction 0): Co-CEO, Chairman and President bought 12,000 at $53.11-53.78 on 20 Nov (no plan box), the day it fell 11%; tracked; source: daily research 21 Nov (research/daily/2026-11-21.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Sat 21 Nov 2026 (- **Holders:** BKD's Carronade 13D (board, portfolio, REIT conversion; already on Reuters; about $2.1B).…) ([note](../research/daily/2026-11-21.md))
 - **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000162828026075233/0001628280-26-075233-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000162828026075068/0001628280-26-075068-index.htm))
-- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000162828026074185/0001628280-26-074185-index.htm))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "agreement and plan of merger" (8k merger agreement) (5d before +10.5%, found day -4.5%) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000119312526463453/d194978d8ka.htm)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000162828026074185/0001628280-26-074185-index.htm))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1697500/000162828026073438/0001628280-26-073438-index.htm))
 
 ## Performance since found
@@ -28,4 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for SEI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | `insider_cluster` | 0 | -4.8% | -11.0% | $178.2M | $54.67 | $62.18 | $58.16 | +6.4% | -6.5% | +1.1% |  | 2 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | +10.5% | -4.5% | $185.0M | $60.96 | $61.87 | $58.23 | -4.5% | -5.9% | -1.2% |  | 8 | live |
+| 2026-11-21 | `insider_cluster` | 0 | -4.8% | -11.0% | $178.2M | $54.67 | $62.18 | $58.23 | +6.5% | -6.3% | +1.1% |  | 2 | live |

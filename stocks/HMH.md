@@ -89,10 +89,10 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-29 (watchlist thread (X 29 Sep)); `supply_effective` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `insider_buy` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
-- **Latest price:** $11.11 (2026-11-25, ledger) · 1d +1.9%, 5d +0.6%, 20d -41.4% (market context, 2026-11-25)
-- **Since first found:** **-42.4%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -41.1% vs IWM -4.0% = **-37.1 pts** vs IWM; direction -1 → excess +37.1% (57 days)
+- **Latest price:** $11.25 (2026-11-25, ledger) · 1d +3.2%, 5d +1.9%, 20d -40.7% (market context, 2026-11-25)
+- **Since first found:** **-41.6%** (found 2026-09-28 via `share_registration` at $19.28). From the next open $18.87: -40.4% vs IWM -4.1% = **-36.3 pts** vs IWM; direction -1 → excess +36.3% (57 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.6% vs peer median -3.6%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d +1.9% vs peer median -3.6%). Peer groups: oilfield equipment (5), SIC 3533 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -104,7 +104,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `4` 19 Nov
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **HMH** (watchlist): the CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (about $1.65M), while Baker Hughes and Akastor still hold 15,945,826… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `insider_buy` (direction 0): CFO bought 140,000 Class A at $11.73-11.79 on 17 Nov (~$1.65M) while BKR and Akastor still hold 15.9M each; tracked (overhang rule unchanged); source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000162828026075005/0001628280-26-075005-index.htm)) · Filings: `4` 19 Nov · Research: Research: Thu 19 Nov 2026 (3. HMH: the CFO buys under the overhang) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-17](../scans/2026-11-17.md#watchlist-filings)**: Filings: `SCHEDULE 13G` ×3 16 Nov, `SCHEDULE 13G/A` ×3 16 Nov
-- **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13G`) ([filing](https://www.sec.gov/Archives/edgar/data/2021880/000114036126043207/0001140361-26-043207-index.htm)) · Filings: `SCHEDULE 13G` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **HMH:** +10.9% on 11 Nov and +5.4% intraday on 12 Nov with no filing or release found. A Schroders 13G…) ([note](../research/daily/2026-11-12.md))
+- **[2026-11-12](../scans/2026-11-12.md#watchlist-filings)**: Filings: `SCHEDULE 13G` 12 Nov · Research: Research: Thu 12 Nov 2026 (- **HMH:** +10.9% on 11 Nov and +5.4% intraday on 12 Nov with no filing or release found. A Schroders 13G…) ([note](../research/daily/2026-11-12.md))
 - **[2026-11-11](../scans/2026-11-11.md)**: Research: Research: Wed 11 Nov 2026 (- **Linked names:** no listed links. Saltire and Foxley are private (sellers: the Loggie family). Same…) ([note](../research/daily/2026-11-11.md))
 - **[2026-11-10](../scans/2026-11-10.md)**: Research: Every event, at its actual time (HMH (WATCH 05/10): peak +1.9% on 12 Oct (session 5), low -44.0% on 09 Nov, now -43.9%) ([note](../research/review/2026-11-10/EVENTS.md)) · Research: Two-month review, part 2: peaks and what happened at actual times (05/10 HMH $19.11 +1.9% 12 Oct (5) -7.1% -44.0% 9 Nov -43.9% -44.9%) ([note](../research/review/2026-11-10/TIMES.md)) · Research: Two-month review: what we flagged, why, and what it did (5. **Nearly every big move came on a scheduled news day.** MOD, HMH, RYAM and MTUS lost most of their fall in…) ([note](../research/review/2026-11-10/REPORT.md))
 - **[2026-11-05](../scans/2026-11-05.md#triage-notes)**: Triage: **HMH**: resale of up to 31.9M Class B shares (2.61x the Class A) is live. Q3 product revenue fell 69%. AVOID (register); already -37% since 27 Oct. ([triage](../watch/digests/2026-11-05-triage.md)) · Filings: `424B3` 4 Nov, `10-Q` 4 Nov, `8-K` 4 Nov · Research: Research: Thu 5 Nov 2026 (- **HMH (AVOID, register):** the resale of "up to 31,891,652 shares" (2.61x the Class A) is live after a 69%…) ([note](../research/daily/2026-11-05.md))
@@ -127,8 +127,8 @@ Every [ledger](../ledger/LEDGER.md) row for HMH ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $11.11 | -42.4% | -41.1% | -4.0% | +37.1% | 57 | live |
-| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $11.11 | -37.5% | -37.5% | -4.0% | +33.5% | 56 | live |
-| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.11 | -38.1% | -38.2% | -2.1% | +36.1% | 34 | live |
-| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.11 | -38.1% | -38.2% | -2.1% |  | 34 | live |
-| 2026-11-19 | `insider_buy` | 0 | -5.8% | +1.4% | $4.2M | $11.20 | $10.96 | $11.11 | -0.8% | +1.4% | +2.1% |  | 5 | live |
+| 2026-09-28 | `share_registration` | -1 | +1.6% | +0.6% | $3.7M | $19.28 | $18.87 | $11.25 | -41.6% | -40.4% | -4.1% | +36.3% | 57 | live |
+| 2026-09-29 | `idea_overhang` | -1 | +3.6% | -7.8% | $3.9M | $17.77 | $17.77 | $11.25 | -36.7% | -36.7% | -4.0% | +32.7% | 56 | live |
+| 2026-10-21 | `registration_effective` | -1 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.25 | -37.3% | -37.4% | -2.2% | +35.3% | 34 | live |
+| 2026-10-21 | `supply_effective` | 0 | -7.1% | +1.8% | $3.4M | $17.94 | $17.98 | $11.25 | -37.3% | -37.4% | -2.2% |  | 34 | live |
+| 2026-11-19 | `insider_buy` | 0 | -5.8% | +1.4% | $4.2M | $11.20 | $10.96 | $11.25 | +0.5% | +2.6% | +2.1% |  | 5 | live |

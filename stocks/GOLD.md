@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $38.19 (2026-11-25, ledger)
-- **Since first found:** **+0.4%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: -1.8% vs IWM -4.5% = **+2.7 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $38.85 (2026-11-25, ledger)
+- **Since first found:** **+2.2%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: -0.1% vs IWM -4.5% = **+4.4 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Holders:** PLBY (Docler buying, 18.8%, but $194.1M of ATM left), GOLD (Tether 13.8%), ALTG (CEO's voting…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1591588/000110465926131976/0001104659-26-131976-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1591588/000110465926131977/0001104659-26-131977-index.htm))
 - **[2026-11-04](../scans/2026-11-04.md#press-releases)**: Press: Gold.com Reports Fiscal First Quarter 2027 Results (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/04/3395811/31746/en/gold-com-reports-fiscal-first-quarter-2027-results.html))
 - **[2026-11-02](../scans/2026-11-02.md#press-releases)**: Press: Gold.com Appoints Nick Bowkett as Vice President of Trading and Business Development (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/02/3393090/31746/en/gold-com-appoints-nick-bowkett-as-vice-president-of-trading-and-business-development.html))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `holder_buying` (direction 0): Tether (10%+ holder) bought up to 500,000 shares direct by 28 Oct at ~$39; one holder group; tracked; source: daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -29,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for GOLD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $38.19 | +0.4% | -1.8% | -4.5% |  | 23 | live |
+| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $38.85 | +2.2% | -0.1% | -4.5% |  | 23 | live |

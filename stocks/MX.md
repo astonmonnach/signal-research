@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md))
-- **Latest price:** $2.17 (2026-11-25, ledger)
-- **Since first found:** **-18.5%** (found 2026-10-14 via `registration_effective` at $2.67). From the next open $2.63: -17.3% vs IWM -0.9% = **-16.4 pts** vs IWM; direction -1 → excess +16.4% (41 days)
+- **Latest price:** $2.18 (2026-11-25, ledger)
+- **Since first found:** **-18.4%** (found 2026-10-14 via `registration_effective` at $2.67). From the next open $2.63: -17.1% vs IWM -0.9% = **-16.2 pts** vs IWM; direction -1 → excess +16.2% (41 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **MX:** the CEO is still buying (40,000 at $2.16); cash $86.9M against $83M. Tracked. ([triage](../watch/digests/2026-11-26-triage.md)) · Research: Research: Thu 26 Nov 2026 (- **Holders:** VISN (a fourth insider, about $1.25M in all; tracked), MX (CEO still buying; cash $86.9M vs an…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1325702/000119312526476734/0001193125-26-476734-index.htm))
 - **[2026-11-17](../scans/2026-11-17.md)**: Research: Research: Tue 17 Nov 2026 (- **Insider buying, tracked only:** DTI (seven buys by five insiders in a month; the latest at $1.70-1.78…) ([note](../research/daily/2026-11-17.md))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1325702/000119312526464325/0001193125-26-464325-index.htm))
 - **[2026-11-11](../scans/2026-11-11.md#triage-notes)**: Triage: **MX**: director net +189,757 (the scan said +300,000: rule today); CEO +70,000. Tracked. ([triage](../watch/digests/2026-11-11-triage.md)) · Logged as `insider_buy` (direction 0): Director Amoruso (Byreforge 13D holder) sold 378,252 on 6 Nov and bought 568,009 on 6 and 9 Nov (net +189,757, ~$0.53M); CEO bought 70,000 on 6 Nov after the Q3 margin miss; $50M ATM; tracked, no call; source: daily research 11 Nov (research/daily/2026-11-11.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 11 Nov 2026 (- **MX:** a director bought 568,009 and sold 378,252 in one Form 4 (net +189,757); the CEO bought 70,000.) ([note](../research/daily/2026-11-11.md))
@@ -29,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for MX ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | `registration_effective` | -1 | -17.2% | -6.0% | $6.4M | $2.67 | $2.63 | $2.17 | -18.5% | -17.3% | -0.9% | +16.4% | 41 | live |
-| 2026-11-11 | `insider_buy` | 0 | +0.4% | +17.0% | $2.3M | $2.96 | $2.78 | $2.17 | -26.5% | -21.8% | -4.4% |  | 13 | live |
+| 2026-10-14 | `registration_effective` | -1 | -17.2% | -6.0% | $6.4M | $2.67 | $2.63 | $2.18 | -18.4% | -17.1% | -0.9% | +16.2% | 41 | live |
+| 2026-11-11 | `insider_buy` | 0 | +0.4% | +17.0% | $2.3M | $2.96 | $2.78 | $2.18 | -26.4% | -21.6% | -4.5% |  | 13 | live |

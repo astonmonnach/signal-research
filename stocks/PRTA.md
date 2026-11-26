@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $8.73 (2026-11-25, ledger)
-- **Since first found:** **-0.9%** (found 2026-10-27 via `holder_buying` at $8.81). From the next open $8.64: +1.0% vs IWM -4.0% = **+5.1 pts** vs IWM; direction 0, tracked only (28 days)
+- **Latest price:** $8.78 (2026-11-25, ledger)
+- **Since first found:** **-0.3%** (found 2026-10-27 via `holder_buying` at $8.81). From the next open $8.64: +1.6% vs IWM -4.1% = **+5.7 pts** vs IWM; direction 0, tracked only (28 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1559053/000104546326000027/0001045463-26-000027-index.htm))
+- **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1559053/000104546326000024/0001045463-26-000024-index.htm))
 - **[2026-10-30](../scans/2026-10-30.md)**: Research: Research: Fri 30 Oct 2026 (- **Bad news, small move:** PRTA (Bristol Myers dropped PRX019).) ([note](../research/daily/2026-10-30.md))
 - **[2026-10-29](../scans/2026-10-29.md#market-wide-scan)**: Market scan: 8-K trigger phrase "strategic review" (strategic review / alternatives) (5d before +13.3%, found day -2.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1559053/000155905326000026/prta-20261028.htm))
 - **[2026-10-27](../scans/2026-10-27.md#new-setups)**: Logged as `holder_buying` (direction 0): Scully bought 575k shares (~$4.8M) in October at $8.07-8.57; fails TF1 on the 50-day; tracked, no call; source: daily research 27 Oct (research/daily/2026-10-27.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -29,5 +31,5 @@ Every [ledger](../ledger/LEDGER.md) row for PRTA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-27 | `holder_buying` | 0 | -0.9% | +4.9% | $4.8M | $8.81 | $8.64 | $8.73 | -0.9% | +1.0% | -4.0% |  | 28 | live |
-| 2026-10-29 | `8k_strategic_review` | +1 | +13.3% | -2.4% | $4.8M | $8.88 | $8.79 | $8.73 | -1.7% | -0.7% | -4.6% | +3.9% | 26 | live |
+| 2026-10-27 | `holder_buying` | 0 | -0.9% | +4.9% | $4.8M | $8.81 | $8.64 | $8.78 | -0.3% | +1.6% | -4.1% |  | 28 | live |
+| 2026-10-29 | `8k_strategic_review` | +1 | +13.3% | -2.4% | $4.8M | $8.88 | $8.79 | $8.78 | -1.1% | -0.1% | -4.7% | +4.5% | 26 | live |

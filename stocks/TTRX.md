@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $7.94 (2026-11-25, ledger)
-- **Since first found:** **-20.0%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -21.5% vs IWM -5.0% = **-16.5 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $8.12 (2026-11-25, ledger)
+- **Since first found:** **-18.1%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -19.7% vs IWM -5.0% = **-14.7 pts** vs IWM; direction 0, tracked only (14 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -19,7 +19,7 @@ Every dated mention, newest first: S1 signals, the market-wide scan, watchlist f
 
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **TTRX** (register): the 10 Nov trigger fired; the $50M ATM is effective and the 25.36M-share resale (including GEM's equity line) is live. ([triage](../watch/digests/2026-11-19-triage.md)) · Research: Research: Thu 19 Nov 2026 (- **AVOID register:** 9 new rows, 314 active. TTRX's trigger fired (ATM live) but insiders hold 55.89%, so no…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -12.7%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/999999999526003556/9999999995-26-003556-index.htm))
-- **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: Turn Therapeutics to Present at Jefferies Global Healthcare Conference in London (Business Wire) ([release](http://www.businesswire.com/news/home/20261116536424/en/Turn-Therapeutics-to-Present-at-Jefferies-Global-Healthcare-Conference-in-London/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==))
+- **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: Turn Therapeutics to Present at Jefferies Global Healthcare Conference in London (Business Wire) ([release](http://www.businesswire.com/news/home/20261116536424/en/Turn-Therapeutics-to-Present-at-Jefferies-Global-Healthcare-Conference-in-London/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026120739/0001213900-26-120739-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Equity line + resale registered since 2025; new $50M ATM shelf pending; going concern; register only; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- TTRX: its resale and equity line have been registered since 2025; re-check when the new $50M ATM goes…) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-09](../scans/2026-11-09.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026117186/ea0308697-10q_turn.htm)) · Market scan: uncategorised (`S-3`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026117224/0001213900-26-117224-index.htm))
 
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for TTRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $7.94 | -20.0% | -21.5% | -5.0% |  | 14 | live |
-| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $7.94 | -7.1% | -9.2% | +0.3% | +9.5% | 7 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $8.12 | -18.1% | -19.7% | -5.0% |  | 14 | live |
+| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $8.12 | -5.0% | -7.1% | +0.3% | +7.4% | 7 | live |

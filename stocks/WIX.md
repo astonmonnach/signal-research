@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
-- **Latest price:** $69.43 (2026-11-25, ledger)
-- **Since first found:** **+10.4%** (found 2026-11-23 via `activist_13d` at $62.88). From the next open $63.62: +9.1% vs IWM +1.9% = **+7.3 pts** vs IWM; direction +1 → excess +7.3% (1 days)
+- **Latest price:** $67.82 (2026-11-25, ledger)
+- **Since first found:** **+7.9%** (found 2026-11-23 via `activist_13d` at $62.88). From the next open $63.62: +6.6% vs IWM +1.8% = **+4.8 pts** vs IWM; direction +1 → excess +4.8% (1 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for WIX ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `activist_13d` | +1 | -12.1% | +6.5% | $68.5M | $62.88 | $63.62 | $69.43 | +10.4% | +9.1% | +1.9% | +7.3% | 1 | live |
-| 2026-11-24 | `holder_13d` | 0 | -5.4% | +4.5% | $70.9M | $65.74 | $64.77 | $69.43 | +5.6% | +7.2% | +2.2% |  | 0 | live |
+| 2026-11-23 | `activist_13d` | +1 | -12.1% | +6.5% | $68.5M | $62.88 | $63.62 | $67.82 | +7.9% | +6.6% | +1.8% | +4.8% | 1 | live |
+| 2026-11-24 | `holder_13d` | 0 | -5.4% | +4.5% | $70.9M | $65.74 | $64.77 | $67.82 | +3.2% | +4.7% | +2.1% |  | 0 | live |

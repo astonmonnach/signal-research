@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $8.99 (2026-11-25, ledger)
-- **Since first found:** **+19.2%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: +18.3% vs IWM -4.5% = **+22.8 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $8.80 (2026-11-25, ledger)
+- **Since first found:** **+16.7%** (found 2026-11-01 via `setup_supply_convert` at $7.54). From the next open $7.60: +15.8% vs IWM -4.5% = **+20.3 pts** vs IWM; direction 0, tracked only (23 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GRRR (#11): high of $9.65, 4.3% from its exit line. ([triage](../watch/digests/2026-11-25-triage.md)) · Research: Research: Wed 25 Nov 2026 (- **GRRR (#11):** traded up to $9.65 today, 4.3% under its $10.08 exit line (arith). No filing since 19 Nov.) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **GRRR (#11):** +44% on 23 Nov and about +19% on 24 Nov with no filing (the only release was a CEO award). ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **GRRR (#11):** 19 Nov results show "Proceeds from issuance of convertible notes 232,000,000". ([triage](../watch/digests/2026-11-21-triage.md))
@@ -30,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for GRRR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $8.99 | +19.2% | +18.3% | -4.5% |  | 23 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | +12.3% | -17.5% | $12.4M | $7.54 | $7.60 | $8.80 | +16.7% | +15.8% | -4.5% |  | 23 | live |

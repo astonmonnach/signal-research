@@ -21,8 +21,8 @@
 ## Status
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
-- **Latest price:** $0.335 (2026-11-25, ledger)
-- **Since first found:** **-37.9%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -37.4% vs IWM -4.0% = **-33.4 pts** vs IWM; direction -1 → excess +33.4% (56 days)
+- **Latest price:** $0.389 (2026-11-25, ledger)
+- **Since first found:** **-28.0%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -27.3% vs IWM -4.0% = **-23.3 pts** vs IWM; direction -1 → excess +23.3% (56 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,6 +32,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-13](../scans/2026-11-13.md#market-wide-scan)**: Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000091957426007780/0000919574-26-007780-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -16.2%, found day -4.6%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000119312526455432/fld-ex99_1.htm))
 - **[2026-10-27](../scans/2026-10-27.md#triage-notes)**: Triage: **AVOID, not called:** MEDS (non-binding dilution LOI). SNTI and FLD AVOIDs stand. ([triage](../watch/digests/2026-10-27-triage.md))
 - **[2026-10-26](../scans/2026-10-26.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +0.8%, found day -0.8%) ([filing](https://www.sec.gov/Archives/edgar/data/1889123/000119312526432128/fld-20261022.htm))
@@ -46,7 +47,7 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.335 | -37.9% | -37.4% | -4.0% | +33.4% | 56 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.335 | -38.1% | -36.8% | -4.6% |  | 51 | live |
-| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.335 | -34.3% | -34.7% | -3.2% | +31.4% | 29 | live |
-| 2026-11-10 | `8k_reverse_split` | -1 | -16.2% | -4.6% | $41k ⚠ | $0.440 | $0.401 | $0.335 | -23.8% | -16.4% | -5.0% | +11.5% | 14 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.389 | -28.0% | -27.3% | -4.0% | +23.3% | 56 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.389 | -28.1% | -26.6% | -4.6% |  | 51 | live |
+| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.389 | -23.7% | -24.2% | -3.3% | +20.9% | 29 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -16.2% | -4.6% | $41k ⚠ | $0.440 | $0.401 | $0.389 | -11.6% | -3.0% | -5.0% | -2.0% | 14 | live |

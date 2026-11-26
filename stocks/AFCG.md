@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $3.55 (2026-11-25, ledger)
-- **Since first found:** **+1.6%** (found 2026-11-10 via `insider_cluster` at $3.49). From the next open $3.48: +1.7% vs IWM -5.0% = **+6.7 pts** vs IWM; direction 0, tracked only (14 days)
+- **Latest price:** $3.57 (2026-11-25, ledger)
+- **Since first found:** **+2.3%** (found 2026-11-10 via `insider_cluster` at $3.49). From the next open $3.48: +2.4% vs IWM -5.0% = **+7.4 pts** vs IWM; direction 0, tracked only (14 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,8 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **AFCG:** Tannenbaum to 33.7% (bought at $3.22-3.50). Tracked. ([triage](../watch/digests/2026-11-26-triage.md)) · Research: Research: Thu 26 Nov 2026 (- **Holders:** VISN (a fourth insider, about $1.25M in all; tracked), MX (CEO still buying; cash $86.9M vs an…) ([note](../research/daily/2026-11-26.md))
+- **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000162828026076003/0001628280-26-076003-index.htm)) · Market scan: uncategorised (`SCHEDULE 13D/A`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000182912626012890/0001829126-26-012890-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000162828026075135/0001628280-26-075135-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: AFC Announces Results of Article 9 Public Sale of Justice Grown’s Pennsylvania Dispensaries (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/16/3403486/0/en/afc-announces-results-of-article-9-public-sale-of-justice-grown-s-pennsylvania-dispensaries.html))
 - **[2026-11-12](../scans/2026-11-12.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1822523/000162828026073398/0001628280-26-073398-index.htm))
@@ -28,4 +30,4 @@ Every [ledger](../ledger/LEDGER.md) row for AFCG ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `insider_cluster` | 0 | +14.9% | +1.6% | $193k | $3.49 | $3.48 | $3.55 | +1.6% | +1.7% | -5.0% |  | 14 | live |
+| 2026-11-10 | `insider_cluster` | 0 | +14.9% | +1.6% | $193k | $3.49 | $3.48 | $3.57 | +2.3% | +2.4% | -5.0% |  | 14 | live |

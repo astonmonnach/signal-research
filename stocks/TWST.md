@@ -86,9 +86,9 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_overhang` logged 2026-09-30 (watchlist)
-- **Latest price:** $108.71 (2026-11-25, ledger) · 1d -0.3%, 5d -6.8%, 20d -37.5% (market context, 2026-11-25)
-- **Since first found:** **-43.7%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -43.7% vs IWM -3.0% = **-40.7 pts** vs IWM; direction 0, tracked only (55 days)
-- **Peers / sympathy:** no flag (self 5d -6.8% vs peer median -7.6%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Latest price:** $108.07 (2026-11-25, ledger) · 1d -0.7%, 5d -7.1%, 20d -37.7% (market context, 2026-11-25)
+- **Since first found:** **-44.1%** (found 2026-09-30 via `idea_overhang` at $193.24). From the next open $193.10: -44.0% vs IWM -3.1% = **-41.0 pts** vs IWM; direction 0, tracked only (55 days)
+- **Peers / sympathy:** no flag (self 5d -7.1% vs peer median -9.1%). Peer groups: genomics tools (4), SIC 2836 (8) ([market context](../watch/context/latest.json), 2026-11-25)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -96,6 +96,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md#watchlist-filings)**: Filings: `4` ×6 25 Nov
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **TWST:** the CAO sold 8,275 at $104.03. **PTC:** Form 144 from vested stock. ([triage](../watch/digests/2026-11-25-triage.md)) · Filings: `4` 24 Nov, `144` 24 Nov
 - **[2026-11-24](../scans/2026-11-24.md#watchlist-filings)**: Filings: `4` 23 Nov, `144` ×6 23 Nov
 - **[2026-11-21](../scans/2026-11-21.md#watchlist-filings)**: Filings: `144` 20 Nov · Research: Research: Sat 21 Nov 2026 (- TWST: Form 144 from vesting.) ([note](../research/daily/2026-11-21.md))
@@ -127,4 +128,4 @@ Every [ledger](../ledger/LEDGER.md) row for TWST ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $108.71 | -43.7% | -43.7% | -3.0% |  | 55 | live |
+| 2026-09-30 | `idea_overhang` | 0 | +13.1% | +3.8% | $350.5M | $193.24 | $193.10 | $108.07 | -44.1% | -44.0% | -3.1% |  | 55 | live |

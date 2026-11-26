@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $1.18 (2026-11-25, ledger)
-- **Since first found:** **-41.9%** (found 2026-10-21 via `registration_effective` at $2.03). From the next open $2.00: -41.0% vs IWM -2.1% = **-38.9 pts** vs IWM; direction -1 → excess +38.9% (34 days)
+- **Latest price:** $1.20 (2026-11-25, ledger)
+- **Since first found:** **-40.9%** (found 2026-10-21 via `registration_effective` at $2.03). From the next open $2.00: -40.0% vs IWM -2.2% = **-37.8 pts** vs IWM; direction -1 → excess +37.8% (34 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-20](../scans/2026-11-20.md#market-wide-scan)**: Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1591956/000121390026122416/0001213900-26-122416-index.htm))
 - **[2026-11-10](../scans/2026-11-10.md#new-setups)**: Logged as `setup_supply_atm` (direction 0): Going concern, ATM in use, PIPE resale effective; baby-shelf room likely used; register only; source: daily research 10 Nov (research/daily/2026-11-10.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Tue 10 Nov 2026 (- DRK: shelf room probably used, and the PIPE holders are under water.) ([note](../research/daily/2026-11-10.md))
 - **[2026-11-06](../scans/2026-11-06.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1591956/000159195626000030/drk-20260930.htm))
 - **[2026-10-21](../scans/2026-10-21.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -10.2%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/1591956/999999999526003303/9999999995-26-003303-index.htm))
@@ -27,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for DRK ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `registration_effective` | -1 | -10.2% | +0.0% | $469k | $2.03 | $2.00 | $1.18 | -41.9% | -41.0% | -2.1% | +38.9% | 34 | live |
-| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.18 | -27.8% | -30.2% | -5.0% |  | 14 | live |
+| 2026-10-21 | `registration_effective` | -1 | -10.2% | +0.0% | $469k | $2.03 | $2.00 | $1.20 | -40.9% | -40.0% | -2.2% | +37.8% | 34 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.20 | -26.6% | -29.0% | -5.0% |  | 14 | live |

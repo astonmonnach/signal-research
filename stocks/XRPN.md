@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `supply_warrants` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md)); `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md)); `setup_supply_eloc` logged 2026-11-04 (daily research 3 Nov, written 4 Nov (research/daily/2026-11-03.md))
-- **Latest price:** $7.15 (2026-11-25, ledger)
-- **Since first found:** **-58.2%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -57.1% vs IWM -3.4% = **-53.7 pts** vs IWM; direction 0, tracked only (44 days)
+- **Latest price:** $7.19 (2026-11-25, ledger)
+- **Since first found:** **-57.9%** (found 2026-10-09 via `delisting` at $17.09). From the next open $16.68: -56.9% vs IWM -3.5% = **-53.4 pts** vs IWM; direction 0, tracked only (44 days)
   - 9 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage, dismissed: Large caps and over-$10B 6-Ks, SPAC paperwork (ALCY, ADAC, SVCC, KCHV, TACO, XRPN), completed deals (ITGR, PCRX, SSTI, IBO 25-NSEs), results with… ([triage](../watch/digests/2026-11-19-triage.md))
@@ -43,13 +44,13 @@ Every [ledger](../ledger/LEDGER.md) row for XRPN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $7.15 | -58.2% | -57.1% | -3.4% |  | 44 | live |
-| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $7.15 | -51.9% | -52.0% | -2.8% | +49.1% | 35 | live |
-| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $7.15 | -54.6% | -53.2% | -2.1% |  | 34 | live |
-| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $7.15 | -52.5% | -50.9% | -2.6% | +48.3% | 30 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $7.15 | -52.3% | -52.3% | -3.2% |  | 29 | live |
-| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $7.15 | -49.6% | -49.0% | -4.5% | +44.5% | 23 | live |
-| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $7.15 | -38.9% | -40.4% | -3.9% | +36.5% | 22 | live |
-| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $7.15 | -32.5% | -32.0% | -5.2% |  | 20 | live |
-| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $7.15 | -10.2% | -13.5% | -5.0% | +8.6% | 14 | live |
-| 2026-11-17 | `8k_tender_offer` | 0 | -28.4% | -2.7% | $5.9M | $7.25 | $7.35 | $7.15 | -1.4% | -2.7% | +0.3% |  | 7 | live |
+| 2026-10-09 | `delisting` | 0 | +3.3% | -29.4% | $45.4M | $17.09 | $16.68 | $7.19 | -57.9% | -56.9% | -3.5% |  | 44 | live |
+| 2026-10-20 | `registration_effective` | -1 | -9.9% | -2.5% | $51.1M | $14.85 | $14.88 | $7.19 | -51.6% | -51.7% | -2.9% | +48.8% | 35 | live |
+| 2026-10-21 | `supply_warrants` | 0 | -9.9% | +6.1% | $51.7M | $15.75 | $15.28 | $7.19 | -54.4% | -53.0% | -2.2% |  | 34 | live |
+| 2026-10-23 | `share_registration` | -1 | -3.8% | -2.6% | $52.1M | $15.06 | $14.55 | $7.19 | -52.3% | -50.6% | -2.6% | +47.9% | 30 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -2.5% | -0.4% | $52.2M | $15.00 | $14.99 | $7.19 | -52.1% | -52.0% | -3.3% |  | 29 | live |
+| 2026-10-30 | `share_registration` | -1 | -4.9% | -3.5% | $27.5M | $14.20 | $14.03 | $7.19 | -49.4% | -48.8% | -4.5% | +44.2% | 23 | live |
+| 2026-11-02 | `registration_effective` | -1 | -5.7% | -17.6% | $22.3M | $11.70 | $12.00 | $7.19 | -38.5% | -40.1% | -3.9% | +36.2% | 22 | live |
+| 2026-11-04 | `setup_supply_eloc` | 0 | -21.5% | -11.6% | $15.9M | $10.59 | $10.51 | $7.19 | -32.1% | -31.6% | -5.2% |  | 20 | live |
+| 2026-11-10 | `registration_effective` | -1 | -11.0% | -23.5% | $10.0M | $7.96 | $8.27 | $7.19 | -9.7% | -13.1% | -5.0% | +8.1% | 14 | live |
+| 2026-11-17 | `8k_tender_offer` | 0 | -28.4% | -2.7% | $5.9M | $7.25 | $7.35 | $7.19 | -0.8% | -2.2% | +0.3% |  | 7 | live |

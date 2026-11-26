@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_convert` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
-- **Latest price:** $1.20 (2026-11-25, ledger)
-- **Since first found:** **-75.1%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -76.7% vs IWM -1.0% = **-75.7 pts** vs IWM; direction -1 → excess +75.7% (37 days)
+- **Latest price:** $1.23 (2026-11-25, ledger)
+- **Since first found:** **-74.4%** (found 2026-10-16 via `share_registration` at $4.81). From the next open $5.16: -76.2% vs IWM -1.1% = **-75.1 pts** vs IWM; direction -1 → excess +75.1% (37 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,8 +17,10 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md))
+- **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/1830072/000168316826008868/ipower_i10q-093026.htm))
 - **[2026-11-06](../scans/2026-11-06.md)**: Research: Research: Fri 6 Nov 2026 (- **IPW (call #10):** the resale of "up to an aggregate of 8,089,888 shares" against 644,010 outstanding is…) ([note](../research/daily/2026-11-06.md))
 - **[2026-11-05](../scans/2026-11-05.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -35.7%, found day -7.4%) ([filing](https://www.sec.gov/Archives/edgar/data/1830072/999999999526003441/9999999995-26-003441-index.htm))
 - **[2026-11-01](../scans/2026-11-01.md#new-setups)**: Logged as `setup_supply_convert` (direction 0): ATW floating-price notes converted into ~72% of 596,808 shares; resale S-1/A for up to 8.09M; three splits in 2026; AVOID, public call #10; source: daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md) ([manual_calls.csv](../ledger/manual_calls.csv))
@@ -32,7 +34,7 @@ Every [ledger](../ledger/LEDGER.md) row for IPW ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.20 | -75.1% | -76.7% | -1.0% | +75.7% | 37 | live |
-| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.20 | -47.8% | -46.4% | -4.8% | +41.7% | 27 | live |
-| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.20 | -32.2% | -31.0% | -4.5% |  | 23 | live |
-| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.20 | -12.4% | -11.8% | -1.1% | +10.7% | 19 | live |
+| 2026-10-16 | `share_registration` | -1 | -57.2% | +1.8% | $3.8M | $4.81 | $5.16 | $1.23 | -74.4% | -76.2% | -1.1% | +75.1% | 37 | live |
+| 2026-10-28 | `registration_effective` | -1 | -18.1% | -17.9% | $5.2M | $2.30 | $2.24 | $1.23 | -46.5% | -45.1% | -4.8% | +40.3% | 27 | live |
+| 2026-11-01 | `setup_supply_convert` | 0 | -20.1% | -20.4% | $5.0M | $1.77 | $1.74 | $1.23 | -30.5% | -29.3% | -4.5% |  | 23 | live |
+| 2026-11-05 | `registration_effective` | -1 | -35.7% | -7.4% | $2.9M | $1.37 | $1.36 | $1.23 | -10.2% | -9.6% | -1.1% | +8.4% | 19 | live |
