@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `insider_cluster` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
 - **Latest price:** $60.72 (2026-11-27, ledger)
-- **Since first found:** **-0.4%** (found 2026-11-16 via `8k_merger_agreement` at $60.96). From the next open $61.87: -1.9% vs IWM +0.6% = **-2.4 pts** vs IWM; direction 0, tracked only (10 days)
+- **Since first found:** **-0.4%** (found 2026-11-16 via `8k_merger_agreement` at $60.96). From the next open $61.87: -1.9% vs IWM +0.7% = **-2.5 pts** vs IWM; direction 0, tracked only (10 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,5 +29,5 @@ Every [ledger](../ledger/LEDGER.md) row for SEI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_merger_agreement` | 0 | +10.5% | -4.5% | $185.0M | $60.96 | $61.87 | $60.72 | -0.4% | -1.9% | +0.6% |  | 10 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | +10.5% | -4.5% | $185.0M | $60.96 | $61.87 | $60.72 | -0.4% | -1.9% | +0.7% |  | 10 | live |
 | 2026-11-21 | `insider_cluster` | 0 | -4.8% | -11.0% | $178.2M | $54.67 | $62.18 | $60.72 | +11.1% | -2.4% | +2.9% |  | 4 | live |

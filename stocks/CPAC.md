@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `going_private` logged 2026-10-22 (daily research 22 Oct (research/daily/2026-10-22.md))
-- **Latest price:** $9.72 (2026-11-27, ledger) · 1d -16.0%, 5d -25.8%, 20d -23.5% (market context, 2026-11-27)
+- **Latest price:** $9.72 (2026-11-27, ledger) · 1d -16.5%, 5d -26.2%, 20d -23.9% (market context, 2026-11-27)
 - **Since first found:** **-23.3%** (found 2026-10-21 via `tender_third_party` at $12.66). From the next open $12.65: -23.2% vs IWM -0.4% = **-22.8 pts** vs IWM; direction 0, tracked only (36 days)
   - 3 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: CPAC -25.8% 5d vs peer median +8.4%; peers didn't move with it | missed_peer_move: peer median +8.4% 5d vs CPAC -25.8%; peers moved, it didn't. Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** solo_move: CPAC -26.2% 5d vs peer median +8.3%; peers didn't move with it | missed_peer_move: peer median +8.3% 5d vs CPAC -26.2%; peers moved, it didn't. Peer groups: SIC 3241 (5) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#watchlist-filings)**: Filings: `6-K` 27 Nov
 - **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **CPAC:** Holcim at 93.65%. ([triage](../watch/digests/2026-11-26-triage.md))
 - **[2026-11-25](../scans/2026-11-25.md#market-wide-scan)**: Market scan: uncategorised (``) ([filing](https://www.sec.gov/Archives/edgar/data/1221029/000121390026123830/ea031353901ex99-1.htm)) · Filings: `6-K` 25 Nov
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **CPAC:** Holcim at 93.65%, paid 24 Nov; no squeeze-out wording. ([triage](../watch/digests/2026-11-24-triage.md)) · Triage: CPAC payment (24 Nov): confirmed in the filing. ([triage](../watch/digests/2026-11-24-triage.md)) · Filings: `SC 13E3/A` ×2 23 Nov, `SCHEDULE 13D/A` 23 Nov, `6-K` 23 Nov, `4` ×2 23 Nov · Research: Research: Tue 24 Nov 2026 (- **RSSS** ($3.25 cash, 3.5% gap) fails the $150k-a-day bar. **ALTG** (Peterbilt dealers plus a Viking PIPE…) ([note](../research/daily/2026-11-24.md))
@@ -54,6 +55,6 @@ Every [ledger](../ledger/LEDGER.md) row for CPAC ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-21 | `tender_third_party` | 0 | +3.0% | +0.2% | $297k | $12.66 | $12.65 | $9.72 | -23.3% | -23.2% | -0.4% |  | 36 | live |
-| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $9.72 | -23.9% | -24.0% | -0.5% |  | 35 | live |
-| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $9.72 | -23.4% | -23.5% | -3.7% |  | 23 | live |
-| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $9.72 | -23.4% | -23.1% | +3.6% |  | 3 | live |
+| 2026-10-22 | `going_private` | 0 | +2.9% | +0.9% | $264k | $12.77 | $12.78 | $9.72 | -23.9% | -24.0% | -0.4% |  | 35 | live |
+| 2026-11-03 | `tender_third_party` | 0 | -0.5% | -0.2% | $439k | $12.69 | $12.70 | $9.72 | -23.4% | -23.5% | -3.6% |  | 23 | live |
+| 2026-11-23 | `tender_third_party` | 0 | +1.1% | -2.8% | $929k | $12.68 | $12.63 | $9.72 | -23.4% | -23.1% | +3.7% |  | 3 | live |

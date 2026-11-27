@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
 - **Latest price:** $8.21 (2026-11-27, ledger)
-- **Since first found:** **-17.2%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -18.8% vs IWM -3.3% = **-15.5 pts** vs IWM; direction 0, tracked only (16 days)
+- **Since first found:** **-17.2%** (found 2026-11-10 via `setup_supply_atm` at $9.92). From the next open $10.11: -18.8% vs IWM -3.2% = **-15.5 pts** vs IWM; direction 0, tracked only (16 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#triage-notes)**: Triage: **Updated:** ARAI (now takeable), TTRX, MWYN, CYAB, COSM, STIM, ENVX. ([triage](../watch/digests/2026-11-27-triage.md))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **TTRX** (register): the 10 Nov trigger fired; the $50M ATM is effective and the 25.36M-share resale (including GEM's equity line) is live. ([triage](../watch/digests/2026-11-19-triage.md)) · Research: Research: Thu 19 Nov 2026 (- **AVOID register:** 9 new rows, 314 active. TTRX's trigger fired (ATM live) but insiders hold 55.89%, so no…) ([note](../research/daily/2026-11-19.md))
 - **[2026-11-17](../scans/2026-11-17.md#market-wide-scan)**: Market scan: registration declared effective (`EFFECT`) (5d before -12.7%, found day +0.0%) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/999999999526003556/9999999995-26-003556-index.htm))
 - **[2026-11-16](../scans/2026-11-16.md#press-releases)**: Press: Turn Therapeutics to Present at Jefferies Global Healthcare Conference in London (Business Wire) ([release](http://www.businesswire.com/news/home/20261116536424/en/Turn-Therapeutics-to-Present-at-Jefferies-Global-Healthcare-Conference-in-London/?feedref=JjAwJuNHiystnCoBq_hl-bQQCakZDujohEJegUyaJwquReQ0P23MrIoWkrUSV24ZevRMp3sIgu8q3wq1OF24lT93qbEzrwa15HGbLqMObxbNWfZlBntHS6jpH5ROLXsTFMkl05DM8ABqeyBleEmzJA==)) · Market scan: uncategorised (`424B5`) ([filing](https://www.sec.gov/Archives/edgar/data/2023016/000121390026120739/0001213900-26-120739-index.htm))
@@ -29,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for TTRX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $8.21 | -17.2% | -18.8% | -3.3% |  | 16 | live |
-| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $8.21 | -4.0% | -6.1% | +2.0% | +8.1% | 9 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | +1.5% | +1.3% | $969k | $9.92 | $10.11 | $8.21 | -17.2% | -18.8% | -3.2% |  | 16 | live |
+| 2026-11-17 | `registration_effective` | -1 | -12.7% | +0.0% | $1.0M | $8.55 | $8.74 | $8.21 | -4.0% | -6.1% | +2.1% | +8.2% | 9 | live |

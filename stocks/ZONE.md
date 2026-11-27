@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
-- **Latest price:** $3.50 (2026-11-27, ledger) · 1d -6.4%, 5d +11.8%, 20d -38.4% (market context, 2026-11-27)
-- **Since first found:** **-38.6%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -28.7% vs IWM -3.0% = **-25.8 pts** vs IWM; direction -1 → excess +25.8% (28 days)
+- **Latest price:** $3.50 (2026-11-27, ledger) · 1d -6.7%, 5d +11.5%, 20d -38.6% (market context, 2026-11-27)
+- **Since first found:** **-38.6%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -28.7% vs IWM -2.9% = **-25.8 pts** vs IWM; direction -1 → excess +25.8% (28 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +11.8% vs peer median +6.1%). Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** no flag (self 5d +11.5% vs peer median +5.9%). Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 24 Feb 2027: ZONE: T027 deadline (Jacob Field 9.48%; UP call #20)
   - Fri 2 Apr 2027: ZONE: $100M Texas project contribution due (if unpaid, only its project interest is diluted)
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#triage-notes)**: Triage: ZONE #20 closed wrong (stop on day one). ([triage](../watch/digests/2026-11-27-triage.md)) · Research: Research: Fri 27 Nov 2026 (**Headline:** There were no new filings, because the SEC was shut for Thanksgiving, so this run read the…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-26](../scans/2026-11-26.md#watchlist-filings)**: Filings: `SCHEDULE 13D` 24 Nov; +37 older (May – Nov 2026) first picked up
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: **ZONE** /: - Jacob Field holds 9.48% at about $4.00 a share, his first 13D. ([triage](../watch/digests/2026-11-25-triage.md)) · Logged as `holder_13d` (direction 0): Jacob Field first 13D 9.48%, may propose a takeover; cash about $6.91 a share vs $3.78; going concern; UP call #20 (UP1); source: daily research 25 Nov (research/daily/2026-11-25.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Wed 25 Nov 2026 (1. ZONE: an outside buyer at less than half the cash (UP call #20)) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#market-wide-scan)**: Market scan: activist / new 5% holder (13D) (`SCHEDULE 13D`) (5d before +9.5%, found day +4.1%) ([filing](https://www.sec.gov/Archives/edgar/data/1956741/000121390026123820/0001213900-26-123820-index.htm))
@@ -34,6 +35,6 @@ Every [ledger](../ledger/LEDGER.md) row for ZONE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.50 | -38.6% | -28.7% | -3.0% | +25.8% | 28 | live |
-| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.50 | -2.5% | +3.5% | +4.0% | -0.4% | 2 | live |
+| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.50 | -38.6% | -28.7% | -2.9% | +25.8% | 28 | live |
+| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.50 | -2.5% | +3.5% | +4.0% | -0.5% | 2 | live |
 | 2026-11-25 | `holder_13d` | 0 | +14.3% | +4.5% | $1.1M | $3.75 | $4.04 | $3.50 | -6.7% | -13.4% | +0.7% |  | 0 | live |

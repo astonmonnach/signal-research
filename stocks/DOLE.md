@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `activist_13d` logged 2026-10-23 (daily research 23 Oct (research/daily/2026-10-23.md))
-- **Latest price:** $12.99 (2026-11-27, ledger) · 1d +2.3%, 5d +4.1%, 20d -0.7% (market context, 2026-11-27)
+- **Latest price:** $12.99 (2026-11-27, ledger) · 1d +1.8%, 5d +3.6%, 20d -1.2% (market context, 2026-11-27)
 - **Since first found:** **-3.3%** (found 2026-10-23 via `activist_13d` at $13.44). From the next open $13.38: -2.9% vs IWM -0.9% = **-2.0 pts** vs IWM; direction 0, tracked only (32 days)
-- **Peers / sympathy:** no flag (self 5d +4.1% vs peer median +2.7%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** no flag (self 5d +3.6% vs peer median +2.7%). Peer groups: SIC 0100 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 

@@ -9,7 +9,7 @@ _Deep dive pending._
 - **Latest price:** $1.89 (2026-11-27, ledger) · 1d +1.6%, 5d +21.9%, 20d -26.2% (market context, 2026-11-27)
 - **Since first found:** **-42.9%** (found 2026-10-08 via `activist_13d` at $3.31). From the next open $3.26: -42.0% vs IWM -1.6% = **-40.4 pts** vs IWM; direction +1 → excess -40.4% (49 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: FEAM +21.9% 5d vs peer median +6.1%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** solo_move: FEAM +21.9% 5d vs peer median +5.3%; peers didn't move with it. Peer groups: SIC 1400 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 7 Dec 2026: FEAM: annual meeting (equity plan share increase)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -38,5 +38,5 @@ Every [ledger](../ledger/LEDGER.md) row for FEAM ([rules](../ledger/RULES.md)): 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-08 | `activist_13d` | +1 | -7.7% | +6.4% | $3.4M | $3.31 | $3.26 | $1.89 | -42.9% | -42.0% | -1.6% | -40.4% | 49 | live |
-| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $1.89 | -43.4% | -43.1% | -1.6% |  | 45 | live |
-| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $1.89 | -38.2% | -37.0% | +0.8% |  | 43 | live |
+| 2026-10-12 | `holder_13d_not_activism` | 0 | -6.2% | -8.2% | $3.9M | $3.34 | $3.32 | $1.89 | -43.4% | -43.1% | -1.5% |  | 45 | live |
+| 2026-10-14 | `insider_cluster` | 0 | -12.8% | -6.7% | $3.8M | $3.06 | $3.00 | $1.89 | -38.2% | -37.0% | +0.9% |  | 43 | live |

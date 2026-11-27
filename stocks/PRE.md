@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `insider_cluster` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
 - **Latest price:** $10.06 (2026-11-27, ledger)
-- **Since first found:** **+0.3%** (found 2026-11-26 via `insider_cluster` at $10.03). From the next open $10.54: -4.5% vs IWM +0.7% = **-5.2 pts** vs IWM; direction 0, tracked only (0 days)
+- **Since first found:** **+0.3%** (found 2026-11-26 via `insider_cluster` at $10.03). From the next open $10.54: -4.5% vs IWM +0.7% = **-5.3 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)

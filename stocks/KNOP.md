@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $9.05 (2026-11-27, ledger) · 1d +1.1%, 5d +13.4%, 20d -8.3% (market context, 2026-11-27)
-- **Since first found:** **+23.6%** (found 2026-11-21 via `holder_13d` at $7.32). From the next open $8.85: +2.3% vs IWM +2.9% = **-0.6 pts** vs IWM; direction 0, tracked only (4 days)
-- **Peers / sympathy:** solo_move: KNOP +13.4% 5d vs peer median +1.9%; peers didn't move with it. Peer groups: SIC 4400 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Latest price:** $9.05 (2026-11-27, ledger) · 1d +1.0%, 5d +13.3%, 20d -8.4% (market context, 2026-11-27)
+- **Since first found:** **+23.6%** (found 2026-11-21 via `holder_13d` at $7.32). From the next open $8.85: +2.3% vs IWM +2.9% = **-0.7 pts** vs IWM; direction 0, tracked only (4 days)
+- **Peers / sympathy:** solo_move: KNOP +13.3% 5d vs peer median +1.4%; peers didn't move with it. Peer groups: SIC 4400 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 27 Nov 2026: KNOP: record date for the 22 Dec annual meeting (sponsor KNOT at 44.3%, WATCH T024)
   - Tue 22 Dec 2026: KNOP: annual meeting, 2pm UK (WATCH T024)

@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `tender_issuer` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
 - **Latest price:** $2.81 (2026-11-27, ledger)
-- **Since first found:** **-9.8%** (found 2026-11-03 via `8k_reverse_split` at $3.11). From the next open $2.75: +2.0% vs IWM -3.7% = **+5.7 pts** vs IWM; direction -1 → excess -5.7% (23 days)
+- **Since first found:** **-9.8%** (found 2026-11-03 via `8k_reverse_split` at $3.11). From the next open $2.75: +2.0% vs IWM -3.6% = **+5.7 pts** vs IWM; direction -1 → excess -5.7% (23 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#triage-notes)**: Triage: **Deals:** RSSS 3.5% (illiquid), MG 0.74%, AYTU, RPID, TRMK/HWC (needs a short), RWT exchange to 15 Dec, CSTA 9 Dec. All tracked or dismissed. ([triage](../watch/digests/2026-11-27-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **RWT:** SC TO-I/A changes a definition only. ([triage](../watch/digests/2026-11-24-triage.md))
 - **[2026-11-23](../scans/2026-11-23.md#market-wide-scan)**: Market scan: issuer tender / buyback (`SC TO-I/A`) (5d before -8.2%, found day +2.6%) ([filing](https://www.sec.gov/Archives/edgar/data/930236/000110465926131080/0001104659-26-131080-index.htm))
 - **[2026-11-19](../scans/2026-11-19.md#triage-notes)**: Triage: **RWT** (SC TO-I, read today): 7.58 common shares for one new 12% Junior Series B Participating Preferred, up to 14.9% of the common, pro rata with… ([triage](../watch/digests/2026-11-19-triage.md)) · Logged as `tender_issuer` (direction 0): Exchange offer: 7.58 common for 1 new 12% Junior Series B preferred, up to 14.9%, expires 15 Dec; no spread by design; preferred dividends 30% US withholding for UK holders; tracked; source: daily research 19 Nov (research/daily/2026-11-19.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Research: Research: Thu 19 Nov 2026 (- **RWT:** a share-for-preferred exchange with no spread; the preferred's dividends are withheld at 30% (15%…) ([note](../research/daily/2026-11-19.md))
@@ -31,7 +32,7 @@ Every [ledger](../ledger/LEDGER.md) row for RWT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_reverse_split` | -1 | +0.3% | -4.0% | $8.8M | $3.11 | $2.75 | $2.81 | -9.8% | +2.0% | -3.7% | -5.7% | 23 | live |
-| 2026-11-17 | `tender_issuer_buyback` | +1 | -7.1% | -5.6% | $11.3M | $2.72 | $2.74 | $2.81 | +3.1% | +2.4% | +2.0% | +0.3% | 9 | live |
-| 2026-11-19 | `tender_issuer` | 0 | -6.8% | -2.9% | $12.0M | $2.68 | $2.69 | $2.81 | +4.7% | +4.3% | +3.9% |  | 7 | live |
-| 2026-11-23 | `tender_issuer_buyback` | +1 | -8.2% | +2.6% | $12.5M | $2.74 | $2.73 | $2.81 | +2.4% | +2.8% | +3.6% | -0.9% | 3 | live |
+| 2026-11-03 | `8k_reverse_split` | -1 | +0.3% | -4.0% | $8.8M | $3.11 | $2.75 | $2.81 | -9.8% | +2.0% | -3.6% | -5.7% | 23 | live |
+| 2026-11-17 | `tender_issuer_buyback` | +1 | -7.1% | -5.6% | $11.3M | $2.72 | $2.74 | $2.81 | +3.1% | +2.4% | +2.1% | +0.3% | 9 | live |
+| 2026-11-19 | `tender_issuer` | 0 | -6.8% | -2.9% | $12.0M | $2.68 | $2.69 | $2.81 | +4.7% | +4.3% | +4.0% |  | 7 | live |
+| 2026-11-23 | `tender_issuer_buyback` | +1 | -8.2% | +2.6% | $12.5M | $2.74 | $2.73 | $2.81 | +2.4% | +2.8% | +3.7% | -0.9% | 3 | live |

@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-19 (daily research 19 Nov (research/daily/2026-11-19.md))
 - **Latest price:** $4.33 (2026-11-27, ledger)
-- **Since first found:** **+11.0%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: +10.5% vs IWM +0.9% = **+9.5 pts** vs IWM; direction -1 → excess -9.5% (8 days)
+- **Since first found:** **+11.0%** (found 2026-11-18 via `registration_effective` at $3.90). From the next open $3.92: +10.5% vs IWM +1.0% = **+9.5 pts** vs IWM; direction -1 → excess -9.5% (8 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md)**: Research: Research: Fri 27 Nov 2026 (- **Wrong so far:** GCTS +19%, XGN +16% (13% from its exit line) and TE +2%. IWM is up 4% since those were…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **XGN:** new passive 13G (Lytton 5.3%). ([triage](../watch/digests/2026-11-24-triage.md))
@@ -36,5 +37,5 @@ Every [ledger](../ledger/LEDGER.md) row for XGN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $4.33 | +11.0% | +10.5% | +0.9% | -9.5% | 8 | live |
-| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $4.33 | +13.9% | +16.1% | +3.9% |  | 7 | live |
+| 2026-11-18 | `registration_effective` | -1 | -28.5% | +3.7% | $4.2M | $3.90 | $3.92 | $4.33 | +11.0% | +10.5% | +1.0% | -9.5% | 8 | live |
+| 2026-11-19 | `setup_supply_atm` | 0 | -22.5% | -2.6% | $4.2M | $3.80 | $3.73 | $4.33 | +13.9% | +16.1% | +4.0% |  | 7 | live |

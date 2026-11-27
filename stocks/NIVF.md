@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_eloc` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
 - **Latest price:** $0.014 (2026-11-27, ledger)
-- **Since first found:** **-99.4%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -2.3% = **-97.4 pts** vs IWM; direction -1 → excess +97.4% (58 days)
+- **Since first found:** **-99.4%** (found 2026-09-29 via `registration_effective` at $2.30). From the next open $5.34: -99.7% vs IWM -2.3% = **-97.5 pts** vs IWM; direction -1 → excess +97.5% (58 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -18,6 +18,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md)**: Research: Research: Fri 27 Nov 2026 (- **Closed this week, all DOWN calls and all right (X timing):** DFNS -66%, NCT -56%, TMCR -25%, OSTX -27%…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: GPRO deadline (no filing yet). TRMD moved to 9 Dec (same entry, corrected). BMBL HSR (no filing). WORX and NIVF calls end at the close. ([triage](../watch/digests/2026-11-25-triage.md)) · Triage: WORX (#8) and NIVF (#9) closed right at the 25 Nov close: -38.8% and -98.4%. NIVF's 1-for-100 split is confirmed for 30 Nov. ([triage](../watch/digests/2026-11-25-triage.md)) · Press: NewGen Completes Cumulative 6% Stake in K25.ai with Implied Value of US$12 Million; Expected US$7.3 Million… (GlobeNewswire) ([release](https://www.globenewswire.com/news-release/2026/11/25/3410186/0/en/newgen-completes-cumulative-6-stake-in-k25-ai-with-implied-value-of-us-12-million-expected-us-7-3-million-unrealized-gain.html)) · Research: Research: Wed 25 Nov 2026 (**Headline:** An outside buyer has turned up at a company trading at less than half its cash. Jacob Field…) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **NIVF:** split still tentative. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (- **NIVF (#9):** the 1-for-100 split is still only tentative (1 Dec); no confirming filing. **WORX (#8):**…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: **NIVF (#9)**: 71,428,570 shares (most as pre-funded warrants) at $0.035, about $2.5M. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
@@ -41,6 +42,6 @@ Every [ledger](../ledger/LEDGER.md) row for NIVF ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.014 | -99.4% | -99.7% | -2.3% | +97.4% | 58 | live |
-| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.014 | -98.8% | -98.8% | -3.1% |  | 29 | live |
-| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.014 | -94.0% | -93.8% | -0.9% | +92.9% | 11 | live |
+| 2026-09-29 | `registration_effective` | -1 | -52.1% | -79.1% | $850k | $2.30 | $5.34 | $0.014 | -99.4% | -99.7% | -2.3% | +97.5% | 58 | live |
+| 2026-10-28 | `setup_supply_eloc` | 0 | -42.5% | +4.3% | $7.5M | $1.20 | $1.13 | $0.014 | -98.8% | -98.8% | -3.0% |  | 29 | live |
+| 2026-11-13 | `registration_effective` | -1 | -43.1% | -16.6% | $814k | $0.231 | $0.224 | $0.014 | -94.0% | -93.8% | -0.8% | +93.0% | 11 | live |

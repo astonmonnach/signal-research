@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `insider_cluster` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `insider_cluster` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
 - **Latest price:** $1.75 (2026-11-27, ledger)
-- **Since first found:** **-12.9%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -13.8% vs IWM -1.6% = **-12.1 pts** vs IWM; direction 0, tracked only (49 days)
+- **Since first found:** **-12.9%** (found 2026-10-08 via `8k_lock_up` at $2.01). From the next open $2.03: -13.8% vs IWM -1.6% = **-12.2 pts** vs IWM; direction 0, tracked only (49 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -39,6 +39,6 @@ Every [ledger](../ledger/LEDGER.md) row for DTI ([rules](../ledger/RULES.md)): f
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-08 | `8k_lock_up` | 0 | +1.9% | -14.8% | $508k | $2.01 | $2.03 | $1.75 | -12.9% | -13.8% | -1.6% |  | 49 | live |
-| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.75 | +24.1% | +25.9% | +0.6% |  | 21 | live |
-| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.75 | +8.7% | +8.0% | -2.8% |  | 15 | live |
-| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.75 | +13.6% | +12.9% | +2.0% |  | 9 | live |
+| 2026-11-05 | `8k_lock_up` | 0 | -11.2% | -6.0% | $446k | $1.41 | $1.39 | $1.75 | +24.1% | +25.9% | +0.7% |  | 21 | live |
+| 2026-11-11 | `insider_cluster` | 0 | +0.0% | +8.8% | $374k | $1.61 | $1.62 | $1.75 | +8.7% | +8.0% | -2.7% |  | 15 | live |
+| 2026-11-17 | `insider_cluster` | 0 | +3.2% | -5.5% | $329k | $1.54 | $1.55 | $1.75 | +13.6% | +12.9% | +2.1% |  | 9 | live |

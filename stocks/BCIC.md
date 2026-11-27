@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `deal_acquirer` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
 - **Latest price:** $4.93 (2026-11-27, ledger)
-- **Since first found:** **-11.2%** (found 2026-11-12 via `8k_merger_agreement` at $5.55). From the next open $5.63: -12.4% vs IWM -1.9% = **-10.5 pts** vs IWM; direction 0, tracked only (14 days)
+- **Since first found:** **-11.2%** (found 2026-11-12 via `8k_merger_agreement` at $5.55). From the next open $5.63: -12.4% vs IWM -1.9% = **-10.6 pts** vs IWM; direction 0, tracked only (14 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,4 +28,4 @@ Every [ledger](../ledger/LEDGER.md) row for BCIC ([rules](../ledger/RULES.md)): 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-12 | `8k_merger_agreement` | 0 | +9.0% | -15.5% | $563k | $5.55 | $5.63 | $4.93 | -11.2% | -12.4% | -1.9% |  | 14 | live |
 | 2026-11-12 | `deal_acquirer` | 0 | +9.0% | -15.5% | $563k | $5.55 | $5.63 | $4.93 | -11.2% | -12.4% | -1.9% |  | 14 | live |
-| 2026-11-13 | `8k_merger_agreement` | 0 | -7.3% | -7.6% | $603k | $5.13 | $5.14 | $4.93 | -3.9% | -4.1% | -0.9% |  | 11 | live |
+| 2026-11-13 | `8k_merger_agreement` | 0 | -7.3% | -7.6% | $603k | $5.13 | $5.14 | $4.93 | -3.9% | -4.1% | -0.8% |  | 11 | live |

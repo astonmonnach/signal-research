@@ -27,7 +27,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $1.40 (2026-11-27, ledger)
-- **Since first found:** **-76.7%** (found 2026-10-04 via `setup_supply_deficiency` at $6.00). From the next open $6.00: -76.7% vs IWM -3.0% = **-73.7 pts** vs IWM; direction 0, tracked only (53 days)
+- **Since first found:** **-76.7%** (found 2026-10-04 via `setup_supply_deficiency` at $6.00). From the next open $6.00: -76.7% vs IWM -2.9% = **-73.8 pts** vs IWM; direction 0, tracked only (53 days)
   - 5 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -37,6 +37,7 @@
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#triage-notes)**: Triage: **Updated:** ARAI (now takeable), TTRX, MWYN, CYAB, COSM, STIM, ENVX. ([triage](../watch/digests/2026-11-27-triage.md))
 - **[2026-11-18](../scans/2026-11-18.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before +25.0%, found day -20.0%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026121855/ea031273401ex99-1.htm))
 - **[2026-11-16](../scans/2026-11-16.md#market-wide-scan)**: Market scan: 8-K trigger phrase "spin-off, reverse stock split" (reverse split) (5d before +0.0%, found day +55.6%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026120252/ea031237001ex3-1.htm)) · Market scan: uncategorised (`10-Q`) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026120875/ea0311421-10q_cyabra.htm))
 - **[2026-11-10](../scans/2026-11-10.md#market-wide-scan)**: Market scan: 8-K trigger phrase "reverse stock split" (reverse split) (5d before -18.2%, found day -11.1%) ([filing](https://www.sec.gov/Archives/edgar/data/2032341/000121390026118128/ea0311735-8k_cyabra.htm))
@@ -52,9 +53,9 @@ Every [ledger](../ledger/LEDGER.md) row for CYAB ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $6.00 | $6.00 | $1.40 | -76.7% | -76.7% | -3.0% |  | 53 | live |
-| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $5.10 | $5.10 | $1.40 | -72.5% | -72.5% | -1.6% | +70.9% | 49 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -12.5% | -4.8% | $2.5M | $6.00 | $6.00 | $1.40 | -76.7% | -76.7% | -2.9% |  | 53 | live |
+| 2026-10-08 | `share_registration` | -1 | -9.5% | -10.5% | $2.6M | $5.10 | $5.10 | $1.40 | -72.5% | -72.5% | -1.6% | +71.0% | 49 | live |
 | 2026-10-19 | `registration_effective` | -1 | -26.3% | +7.1% | $1.2M | $4.50 | $4.50 | $1.40 | -68.9% | -68.9% | +0.8% | +69.7% | 38 | live |
-| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $2.40 | $2.40 | $1.40 | -41.7% | -41.7% | -3.3% | +38.4% | 16 | live |
-| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $4.20 | $3.00 | $1.40 | -66.7% | -53.3% | +0.6% | +53.9% | 10 | live |
-| 2026-11-18 | `8k_reverse_split` | -1 | +25.0% | -20.0% | $6.4M | $2.40 | $2.10 | $1.40 | -41.7% | -33.3% | +0.9% | +34.3% | 8 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -18.2% | -11.1% | $259k | $2.40 | $2.40 | $1.40 | -41.7% | -41.7% | -3.2% | +38.4% | 16 | live |
+| 2026-11-16 | `8k_reverse_split` | -1 | +0.0% | +55.6% | $6.2M | $4.20 | $3.00 | $1.40 | -66.7% | -53.3% | +0.7% | +54.0% | 10 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 | +25.0% | -20.0% | $6.4M | $2.40 | $2.10 | $1.40 | -41.7% | -33.3% | +1.0% | +34.3% | 8 | live |

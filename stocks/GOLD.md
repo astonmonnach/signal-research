@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `holder_buying` logged 2026-11-01 (daily research 29 Oct, written 1 Nov (research/daily/2026-10-29.md))
 - **Latest price:** $40.12 (2026-11-27, ledger)
-- **Since first found:** **+5.5%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: +3.2% vs IWM -2.9% = **+6.0 pts** vs IWM; direction 0, tracked only (25 days)
+- **Since first found:** **+5.5%** (found 2026-11-01 via `holder_buying` at $38.03). From the next open $38.89: +3.2% vs IWM -2.8% = **+6.0 pts** vs IWM; direction 0, tracked only (25 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for GOLD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $40.12 | +5.5% | +3.2% | -2.9% |  | 25 | live |
+| 2026-11-01 | `holder_buying` | 0 | -0.3% | -1.3% | $16.2M | $38.03 | $38.89 | $40.12 | +5.5% | +3.2% | -2.8% |  | 25 | live |

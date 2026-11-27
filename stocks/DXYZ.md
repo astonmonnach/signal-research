@@ -6,7 +6,7 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $24.21 (2026-11-27, ledger) · 1d +2.5%, 5d -2.0%, 20d -9.3% (market context, 2026-11-27)
+- **Latest price:** $24.21 (2026-11-27, ledger) · 1d +2.1%, 5d -2.3%, 20d -9.6% (market context, 2026-11-27)
 - **Since first found:** **+2.6%** (found 2026-11-20 via `activist_13d` at $23.60). From the next open $24.56: -1.4% vs IWM +2.9% = **-4.3 pts** vs IWM; direction +1 → excess -4.3% (4 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-27)

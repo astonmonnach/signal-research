@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_registered_direct` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
 - **Latest price:** $5.59 (2026-11-27, ledger)
-- **Since first found:** **+277.7%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +260.6% vs IWM -1.6% = **+262.2 pts** vs IWM; direction 0, tracked only (31 days)
+- **Since first found:** **+277.7%** (found 2026-10-26 via `setup_supply_registered_direct` at $1.48). From the next open $1.55: +260.6% vs IWM -1.5% = **+262.1 pts** vs IWM; direction 0, tracked only (31 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -16,6 +16,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md)**: Research: Research: Fri 27 Nov 2026 (- **Closed this week, all DOWN calls and all right (X timing):** DFNS -66%, NCT -56%, TMCR -25%, OSTX -27%…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **#2-5 closed on 23 Nov, all right:** DFNS +67.0%, NCT +56.4%, TMCR +26.2%, OSTX +25.4%. Closed record: 4 right, 2 wrong. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
 - **[2026-11-23](../scans/2026-11-23.md)**: Calendar: CALLS: review date of AVOID calls #2-5 (DFNS, NCT, TMCR, OSTX) ([calendar](../calendar/catalyst-dates.ics))
 - **[2026-11-21](../scans/2026-11-21.md#triage-notes)**: Triage: No filings since 18 Nov on NCT, TMCR, OSTX, NAUT, IPW, MVIS, CABO, XRPN or XGN. ([triage](../watch/digests/2026-11-21-triage.md)) · Research: Research: Sat 21 Nov 2026 (**Headline:** A catch-up run covering Thursday 19 and Friday 20 Nov, a week that ended with the Nasdaq down…) ([note](../research/daily/2026-11-21.md))
@@ -35,4 +36,4 @@ Every [ledger](../ledger/LEDGER.md) row for NCT ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $5.59 | +277.7% | +260.6% | -1.6% |  | 31 | live |
+| 2026-10-26 | `setup_supply_registered_direct` | 0 | -6.7% | +17.5% | $1.3M | $1.48 | $1.55 | $5.59 | +277.7% | +260.6% | -1.5% |  | 31 | live |

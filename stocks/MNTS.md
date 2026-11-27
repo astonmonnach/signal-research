@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
 - **Latest price:** $2.32 (2026-11-27, ledger) · 1d +14.8%, 5d +19.0%, 20d +8.9% (market context, 2026-11-27)
-- **Since first found:** **+13.2%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +18.4% vs IWM +3.6% = **+14.7 pts** vs IWM; direction +1 → excess +14.7% (3 days)
+- **Since first found:** **+13.2%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +18.4% vs IWM +3.7% = **+14.7 pts** vs IWM; direction +1 → excess +14.7% (3 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** solo_move: MNTS +19.0% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -19,6 +19,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md#triage-notes)**: Triage: MNTS #19 +10% (X timing). ([triage](../watch/digests/2026-11-27-triage.md)) · Research: Research: Fri 27 Nov 2026 (**Headline:** There were no new filings, because the SEC was shut for Thanksgiving, so this run read the…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-26](../scans/2026-11-26.md#triage-notes)**: Triage: **MNTS (#19):**, a 10% rights plan adopted 24 Nov. - The Burkle group is grandfathered, but any further purchase triggers the plan. ([triage](../watch/digests/2026-11-26-triage.md)) · Triage: T026 MNTS: rights plan noted. More purchases are blocked; a proposal or an Item 4 change is the remaining trigger. ([triage](../watch/digests/2026-11-26-triage.md)) · Filings: `8-K` 25 Nov · Research: Research: Thu 26 Nov 2026 (1. MNTS: a poison pill against the buyer (UP call #19)) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: MNTS (#19): entered at $2.04 (open) and closed at $2.02; Burkle's Form 4s only repeat the 13D buys. ([triage](../watch/digests/2026-11-25-triage.md)) · Press: Momentus Adopts Limited Duration Shareholder Rights Agreement (Business Wire) ([release](http://www.businesswire.com/news/home/20261124603192/en/Momentus-Adopts-Limited-Duration-Shareholder-Rights-Agreement/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA==)) · Filings: `4` 24 Nov, `SCHEDULE 13D` 23 Nov, `10-Q` 20 Nov; +29 older (May – Nov 2026) first picked up · Research: Research: Wed 25 Nov 2026 (**Headline:** An outside buyer has turned up at a company trading at less than half its cash. Jacob Field…) ([note](../research/daily/2026-11-25.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **MNTS**: Burkle's OA3 at 10.6% (group 12.9%), "in the market for Shares", was refused a $1.86 block via the ATM. ([triage](../watch/digests/2026-11-24-triage.md)) · Logged as `holder_13d` (direction 0): Burkle's OA3 first 13D 10.6% (group 12.9%), wants more shares, was refused a $1.86 block via the ATM; below net cash (arith); $53.0M ATM left; WATCH T026; source: daily research 24 Nov (research/daily/2026-11-24.md) ([manual_calls.csv](../ledger/manual_calls.csv)) · Market scan: uncategorised (`4`) ([filing](https://www.sec.gov/Archives/edgar/data/1781162/000090514826005172/0000905148-26-005172-index.htm)) · Research: Research: Tue 24 Nov 2026 (1. MNTS: Burkle wants more of a company priced below its cash) ([note](../research/daily/2026-11-24.md))
@@ -32,5 +33,5 @@ Every [ledger](../ledger/LEDGER.md) row for MNTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.32 | +13.2% | +18.4% | +3.6% | +14.7% | 3 | live |
+| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.32 | +13.2% | +18.4% | +3.7% | +14.7% | 3 | live |
 | 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.04 | $2.32 | +13.7% | +13.7% | +4.0% |  | 2 | live |

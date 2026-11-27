@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_resale` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
 - **Latest price:** $31.80 (2026-11-27, ledger)
-- **Since first found:** **-1.6%** (found 2026-11-16 via `8k_lock_up` at $32.32). From the next open $31.86: -0.2% vs IWM +0.6% = **-0.8 pts** vs IWM; direction 0, tracked only (10 days)
+- **Since first found:** **-1.6%** (found 2026-11-16 via `8k_lock_up` at $32.32). From the next open $31.86: -0.2% vs IWM +0.7% = **-0.8 pts** vs IWM; direction 0, tracked only (10 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for SRZN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_lock_up` | 0 | +2.0% | +2.2% | $7.9M | $32.32 | $31.86 | $31.80 | -1.6% | -0.2% | +0.6% |  | 10 | live |
-| 2026-11-26 | `setup_supply_resale` | 0 | +7.8% | -1.9% | $6.4M | $31.71 | $32.06 | $31.80 | +0.3% | -0.8% | +0.7% |  | 0 | live |
+| 2026-11-16 | `8k_lock_up` | 0 | +2.0% | +2.2% | $7.9M | $32.32 | $31.86 | $31.80 | -1.6% | -0.2% | +0.7% |  | 10 | live |
+| 2026-11-26 | `setup_supply_resale` | 0 | +7.8% | -1.9% | $6.4M | $31.71 | $32.01 | $31.80 | +0.3% | -0.7% | +0.7% |  | 0 | live |

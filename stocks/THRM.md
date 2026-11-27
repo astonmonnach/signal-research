@@ -106,7 +106,7 @@
 - **Latest price:** $31.02 (2026-11-27, ledger) · 1d +0.4%, 5d +2.8%, 20d -3.7% (market context, 2026-11-27)
 - **Since first found:** **-2.5%** (found 2026-09-29 via `idea_merger` at $33.92). From the next open $34.08: -2.9% vs IWM -2.3% = **-0.6 pts** vs IWM; direction 0, tracked only (58 days). Includes +$2.07 cash (special_dividend)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +2.8% vs peer median +1.8%). Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** no flag (self 5d +2.8% vs peer median +1.1%). Peer groups: auto parts (6), SIC 3714 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: Re-check the 29 Sep catalyst scan (2 months)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -141,6 +141,6 @@ Every [ledger](../ledger/LEDGER.md) row for THRM ([rules](../ledger/RULES.md)): 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-09-29 | `idea_merger` | 0 | -7.4% | +0.9% | $15.0M | $33.92 | $34.08 | $31.02 | -2.5% | -2.9% | -2.3% |  | 58 | live |
 | 2026-10-09 | `8k_merger_agreement` | 0 | -11.0% | -0.8% | $59.9M | $29.68 | $29.62 | $31.02 | +4.5% | +4.7% | -1.7% |  | 46 | live |
-| 2026-10-27 | `insider_cluster` | 0 | -0.1% | +11.3% | $87.5M | $31.82 | $31.96 | $31.02 | -2.5% | -2.9% | -2.4% |  | 30 | live |
+| 2026-10-27 | `insider_cluster` | 0 | -0.1% | +11.3% | $87.5M | $31.82 | $31.96 | $31.02 | -2.5% | -2.9% | -2.3% |  | 30 | live |
 
 _Corporate-action adjustment: +$2.07 cash (special_dividend)._

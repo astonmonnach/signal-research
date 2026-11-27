@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-17 (daily research 17 Nov (research/daily/2026-11-17.md))
 - **Latest price:** $1.29 (2026-11-27, ledger)
-- **Since first found:** **-13.4%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -13.4% vs IWM +0.6% = **-14.0 pts** vs IWM; direction 0, tracked only (10 days)
+- **Since first found:** **-13.4%** (found 2026-11-16 via `8k_merger_agreement` at $1.49). From the next open $1.49: -13.4% vs IWM +0.7% = **-14.1 pts** vs IWM; direction 0, tracked only (10 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -17,6 +17,7 @@ _Deep dive pending._
 
 Every dated mention, newest first: S1 signals, the market-wide scan, watchlist filings, press releases, ideas and setups logged, triage notes, trades, past calendar events and research notes. One line per date; the date links to that day's scan.
 
+- **[2026-11-27](../scans/2026-11-27.md)**: Research: Research: Fri 27 Nov 2026 (- **Wrong so far:** GCTS +19%, XGN +16% (13% from its exit line) and TE +2%. IWM is up 4% since those were…) ([note](../research/daily/2026-11-27.md))
 - **[2026-11-26](../scans/2026-11-26.md)**: Research: Research: Thu 26 Nov 2026 (- **Open public calls (25 Nov close):** BIAF -44%, XRPN -30%, TE -13% right so far; GCTS +11% and XGN +6%…) ([note](../research/daily/2026-11-26.md))
 - **[2026-11-25](../scans/2026-11-25.md#triage-notes)**: Triage: No filings on IPW, CABO, XRPN, GCTS, TE or XGN. ([triage](../watch/digests/2026-11-25-triage.md))
 - **[2026-11-24](../scans/2026-11-24.md#triage-notes)**: Triage: **TE (#17)** 13D/A: Trina distributed 3,000,000 employee shares and is outside Section 16. -13% on 24 Nov, no filing. ([triage](../watch/digests/2026-11-24-triage.md)) · Research: Research: Tue 24 Nov 2026 (**Headline:** Monday 23 Nov was the rebound: Nvidia's board reinstated Jensen Huang as CEO and NQ had another…) ([note](../research/daily/2026-11-24.md))
@@ -33,5 +34,5 @@ Every [ledger](../ledger/LEDGER.md) row for TE ([rules](../ledger/RULES.md)): fo
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.29 | -13.4% | -13.4% | +0.6% |  | 10 | live |
-| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.29 | -3.0% | -0.8% | +2.0% |  | 9 | live |
+| 2026-11-16 | `8k_merger_agreement` | 0 | -19.1% | -22.0% | $57.2M | $1.49 | $1.49 | $1.29 | -13.4% | -13.4% | +0.7% |  | 10 | live |
+| 2026-11-17 | `setup_supply_atm` | 0 | -34.9% | -10.7% | $58.0M | $1.33 | $1.30 | $1.29 | -3.0% | -0.8% | +2.1% |  | 9 | live |

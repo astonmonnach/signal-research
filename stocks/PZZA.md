@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `holder_13g` logged 2026-10-21 (daily research 21 Oct (research/daily/2026-10-21.md))
 - **Latest price:** $20.89 (2026-11-27, ledger)
-- **Since first found:** **+14.5%** (found 2026-10-21 via `holder_13g` at $18.24). From the next open $18.43: +13.3% vs IWM -0.4% = **+13.8 pts** vs IWM; direction 0, tracked only (36 days)
+- **Since first found:** **+14.5%** (found 2026-10-21 via `holder_13g` at $18.24). From the next open $18.43: +13.3% vs IWM -0.4% = **+13.7 pts** vs IWM; direction 0, tracked only (36 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
