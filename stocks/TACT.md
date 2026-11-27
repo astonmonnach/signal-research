@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `activist_13d` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `strategic_review` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
 - **Latest price:** $4.73 (2026-11-27, ledger)
-- **Since first found:** **-4.0%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: -2.1% vs IWM -3.0% = **+0.9 pts** vs IWM; direction 0, tracked only (15 days)
+- **Since first found:** **-4.0%** (found 2026-11-11 via `activist_13d` at $4.93). From the next open $4.83: -2.1% vs IWM -3.2% = **+1.1 pts** vs IWM; direction 0, tracked only (15 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,6 +28,6 @@ Every [ledger](../ledger/LEDGER.md) row for TACT ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.73 | -4.0% | -2.1% | -3.0% |  | 15 | live |
-| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.73 | -3.1% | -0.4% | -2.1% | +1.7% | 14 | live |
-| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.73 | -2.5% | +0.6% | -1.1% |  | 11 | live |
+| 2026-11-11 | `activist_13d` | 0 | -8.9% | +2.7% | $133k ⚠ | $4.93 | $4.83 | $4.73 | -4.0% | -2.1% | -3.2% |  | 15 | live |
+| 2026-11-12 | `8k_strategic_review` | +1 | -6.5% | -1.0% | $126k ⚠ | $4.88 | $4.75 | $4.73 | -3.1% | -0.4% | -2.3% | +1.9% | 14 | live |
+| 2026-11-13 | `strategic_review` | 0 | -3.2% | -0.6% | $129k ⚠ | $4.85 | $4.70 | $4.73 | -2.5% | +0.6% | -1.3% |  | 11 | live |

@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_13d` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
-- **Latest price:** $1.38 (2026-11-27, ledger)
-- **Since first found:** **+4.1%** (found 2026-11-25 via `holder_13d` at $1.33). From the next open $1.38: +0.4% vs IWM +0.4% = **-0.1 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $1.37 (2026-11-27, ledger)
+- **Since first found:** **+3.0%** (found 2026-11-25 via `holder_13d` at $1.33). From the next open $1.38: -0.7% vs IWM +0.2% = **-1.0 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for VLN ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-25 | `holder_13d` | 0 | -7.8% | +2.3% | $1.0M | $1.33 | $1.38 | $1.38 | +4.1% | +0.4% | +0.4% |  | 0 | live |
+| 2026-11-25 | `holder_13d` | 0 | -7.8% | +2.3% | $1.0M | $1.33 | $1.38 | $1.37 | +3.0% | -0.7% | +0.2% |  | 0 | live |

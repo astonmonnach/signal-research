@@ -22,7 +22,7 @@
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $0.346 (2026-11-27, ledger)
-- **Since first found:** **-35.9%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -35.3% vs IWM -2.6% = **-32.7 pts** vs IWM; direction -1 → excess +32.7% (58 days)
+- **Since first found:** **-35.9%** (found 2026-09-29 via `registration_effective` at $0.540). From the next open $0.535: -35.3% vs IWM -2.7% = **-32.5 pts** vs IWM; direction -1 → excess +32.5% (58 days)
   - 3 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -47,7 +47,7 @@ Every [ledger](../ledger/LEDGER.md) row for FLD ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.346 | -35.9% | -35.3% | -2.6% | +32.7% | 58 | live |
-| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.346 | -36.0% | -34.7% | -3.2% |  | 53 | live |
-| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.346 | -32.1% | -32.5% | -1.8% | +30.7% | 31 | live |
-| 2026-11-10 | `8k_reverse_split` | -1 | -16.2% | -4.6% | $41k ⚠ | $0.440 | $0.401 | $0.346 | -21.3% | -13.6% | -3.5% | +10.1% | 16 | live |
+| 2026-09-29 | `registration_effective` | -1 | -13.6% | +5.9% | $200k ⚠ | $0.540 | $0.535 | $0.346 | -35.9% | -35.3% | -2.7% | +32.5% | 58 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 | -4.6% | +4.6% | $79k ⚠ | $0.541 | $0.530 | $0.346 | -36.0% | -34.7% | -3.4% |  | 53 | live |
+| 2026-10-26 | `8k_reverse_split` | -1 | +0.8% | -0.8% | $49k ⚠ | $0.510 | $0.513 | $0.346 | -32.1% | -32.5% | -2.0% | +30.5% | 31 | live |
+| 2026-11-10 | `8k_reverse_split` | -1 | -16.2% | -4.6% | $41k ⚠ | $0.440 | $0.401 | $0.346 | -21.3% | -13.6% | -3.7% | +9.9% | 16 | live |

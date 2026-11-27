@@ -7,7 +7,7 @@ _Deep dive pending._
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-28 (daily research 28 Oct (research/daily/2026-10-28.md))
 - **Latest price:** $1.17 (2026-11-27, ledger)
-- **Since first found:** **-78.7%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -79.4% vs IWM -4.0% = **-75.4 pts** vs IWM; direction -1 → excess +75.4% (52 days)
+- **Since first found:** **-78.7%** (found 2026-10-05 via `8k_reverse_split` at $5.52). From the next open $5.70: -79.4% vs IWM -4.2% = **-75.2 pts** vs IWM; direction -1 → excess +75.2% (52 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -40,6 +40,6 @@ Every [ledger](../ledger/LEDGER.md) row for WORX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.17 | -78.7% | -79.4% | -4.0% | +75.4% | 52 | live |
-| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.17 | -38.5% | -40.7% | -2.6% | +38.0% | 30 | live |
-| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.17 | -38.5% | -35.8% | -3.3% |  | 29 | live |
+| 2026-10-05 | `8k_reverse_split` | -1 | +18.6% | +33.0% | $17k ⚠ | $5.52 | $5.70 | $1.17 | -78.7% | -79.4% | -4.2% | +75.2% | 52 | live |
+| 2026-10-27 | `registration_effective` | -1 | -23.5% | -6.8% | $35.2M | $1.91 | $1.98 | $1.17 | -38.5% | -40.7% | -2.8% | +37.9% | 30 | live |
+| 2026-10-28 | `setup_supply_resale` | 0 | -47.8% | +0.0% | $35.2M | $1.91 | $1.83 | $1.17 | -38.5% | -35.8% | -3.5% |  | 29 | live |

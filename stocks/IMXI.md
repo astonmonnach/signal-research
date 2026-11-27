@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-04 (daily research 4 Nov (research/daily/2026-11-04.md)); `deal_dispute` logged 2026-11-11 (daily research 11 Nov (research/daily/2026-11-11.md)); `deal_dispute` logged 2026-11-12 (daily research 12 Nov (research/daily/2026-11-12.md))
-- **Latest price:** $5.62 (2026-11-27, ledger)
-- **Since first found:** **-33.4%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -34.6% vs IWM -3.9% = **-30.7 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $5.57 (2026-11-27, ledger)
+- **Since first found:** **-34.1%** (found 2026-11-03 via `8k_merger_agreement` at $8.45). From the next open $8.60: -35.2% vs IWM -4.1% = **-31.1 pts** vs IWM; direction 0, tracked only (23 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -30,8 +30,8 @@ Every [ledger](../ledger/LEDGER.md) row for IMXI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $5.62 | -33.4% | -34.6% | -3.9% |  | 23 | live |
-| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $5.62 | -32.3% | -24.5% | -3.8% |  | 22 | live |
-| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $5.62 | -18.4% | -12.4% | -3.0% |  | 15 | live |
-| 2026-11-12 | `8k_merger_agreement` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.62 | -12.0% | -10.9% | -2.1% |  | 14 | live |
-| 2026-11-12 | `deal_dispute` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.62 | -12.0% | -10.9% | -2.1% |  | 14 | live |
+| 2026-11-03 | `8k_merger_agreement` | 0 | +3.9% | -11.2% | $6.0M | $8.45 | $8.60 | $5.57 | -34.1% | -35.2% | -4.1% |  | 23 | live |
+| 2026-11-04 | `merger_arb` | 0 | -6.1% | -1.7% | $5.9M | $8.31 | $7.45 | $5.57 | -33.0% | -25.2% | -4.0% |  | 22 | live |
+| 2026-11-11 | `deal_dispute` | 0 | -23.1% | +6.1% | $8.1M | $6.89 | $6.42 | $5.57 | -19.2% | -13.2% | -3.2% |  | 15 | live |
+| 2026-11-12 | `8k_merger_agreement` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.57 | -12.8% | -11.7% | -2.3% |  | 14 | live |
+| 2026-11-12 | `deal_dispute` | 0 | -17.1% | -7.3% | $8.7M | $6.39 | $6.31 | $5.57 | -12.8% | -11.7% | -2.3% |  | 14 | live |

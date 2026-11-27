@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `merger_arb` logged 2026-10-10 (daily research 10 Oct (research/daily/2026-10-10.md))
-- **Latest price:** $117.27 (2026-11-27, ledger) · 1d +0.5%, 5d +0.3%, 20d -0.6% (market context, 2026-11-27)
-- **Since first found:** **-1.5%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.2% vs IWM -1.9% = **-0.4 pts** vs IWM; direction 0, tracked only (49 days)
+- **Latest price:** $116.94 (2026-11-27, ledger) · 1d +0.3%, 5d +0.1%, 20d -0.8% (market context, 2026-11-27)
+- **Since first found:** **-1.8%** (found 2026-10-08 via `merger_vote` at $119.08). From the next open $119.95: -2.5% vs IWM -2.0% = **-0.5 pts** vs IWM; direction 0, tracked only (49 days)
   - 4 more ledger rows: see Performance since found
-- **Peers / sympathy:** no flag (self 5d +0.3% vs peer median -4.3%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** no flag (self 5d +0.1% vs peer median -4.8%). Peer groups: SIC 3674 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -39,8 +39,8 @@ Every [ledger](../ledger/LEDGER.md) row for SYNA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $117.27 | -1.5% | -2.2% | -1.9% |  | 49 | live |
-| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $117.27 | -2.1% | -2.1% | -2.0% |  | 46 | live |
-| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $117.27 | +0.2% | +0.1% | +0.6% |  | 38 | live |
-| 2026-11-05 | `8k_merger_agreement` | 0 | -0.9% | -0.9% | $135.0M | $116.40 | $116.70 | $117.27 | +0.8% | +0.5% | +0.4% |  | 21 | live |
-| 2026-11-17 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $131.0M | $117.36 | $117.54 | $117.27 | -0.1% | -0.2% | +1.8% |  | 9 | live |
+| 2026-10-08 | `merger_vote` | 0 | +17.8% | -0.3% | $117.3M | $119.08 | $119.95 | $116.94 | -1.8% | -2.5% | -2.0% |  | 49 | live |
+| 2026-10-10 | `merger_arb` | 0 | +12.2% | +0.6% | $126.7M | $119.82 | $119.82 | $116.94 | -2.4% | -2.4% | -2.1% |  | 46 | live |
+| 2026-10-19 | `merger_vote` | 0 | -2.2% | -0.1% | $149.6M | $117.05 | $117.20 | $116.94 | -0.1% | -0.2% | +0.4% |  | 38 | live |
+| 2026-11-05 | `8k_merger_agreement` | 0 | -0.9% | -0.9% | $135.0M | $116.40 | $116.70 | $116.94 | +0.5% | +0.2% | +0.2% |  | 21 | live |
+| 2026-11-17 | `8k_merger_agreement` | 0 | +0.2% | -0.1% | $131.0M | $117.36 | $117.54 | $116.94 | -0.3% | -0.5% | +1.6% |  | 9 | live |
