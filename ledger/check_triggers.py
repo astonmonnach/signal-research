@@ -130,6 +130,24 @@ def not_buyable_problems(rows):
             for r in rows if r.get("status") == "open" and r.get("verdict") == "WATCH" and r.get("ticker") in blocked]
 
 
+SUPPLY = {"ongoing_supply", "warrant_supply", "distress"}
+
+
+def buy_vs_avoid_problems(rows, reg_rows, calls, marks):
+    """Rule 2026-11-27 (ZONE): a long must pass our own AVOID tests first. ZONE became WATCH T027 and UP call #20
+    with going-concern doubt AND a $750M at-the-market programme against a ~$32M company; the research never read
+    the ATM, and the call was stopped out on day one. So: no open WATCH and no open or pending UP call on a ticker
+    with an active AVOID-register row for ongoing supply, warrant supply or distress."""
+    bad = {r["ticker"] for r in reg_rows if r.get("status") == "active" and r.get("supply_type") in SUPPLY}
+    out = [f"{r.get('id')} {r['ticker']}: WATCH on a stock with an active AVOID-register row (supply or distress); "
+           f"a long must pass the AVOID tests (rule 2026-11-27)"
+           for r in rows if r.get("status") == "open" and r.get("verdict") == "WATCH" and r.get("ticker") in bad]
+    live = {m["id"] for m in marks if not (m.get("status") or "").startswith("closed")}
+    out += [f"calls/CALLS.csv #{c['id']} {c['ticker']}: open UP call on a stock with an active AVOID-register row (rule 2026-11-27)"
+            for c in calls if str(c.get("direction")) == "1" and c.get("id") in live and c.get("ticker") in bad]
+    return out
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.path.insert(0, str(ROOT / "briefing"))
@@ -141,8 +159,12 @@ def main():
     found = problems(rows, verdicts, strategies, dt.date.today(), watchlist)
     found += tf1_label_problems(list(csv.DictReader(open(ROOT / "ledger" / "manual_calls.csv", encoding="utf-8"))))
     found += not_buyable_problems(rows)
-    found += register_problems(list(csv.DictReader(open(ROOT / "ledger" / "avoid_register.csv", encoding="utf-8"))),
-                               list(csv.DictReader(open(ROOT / "calls" / "CALLS.csv", encoding="utf-8"))))
+    reg = list(csv.DictReader(open(ROOT / "ledger" / "avoid_register.csv", encoding="utf-8")))
+    calls = list(csv.DictReader(open(ROOT / "calls" / "CALLS.csv", encoding="utf-8")))
+    found += register_problems(reg, calls)
+    marks_p = ROOT / "calls" / "marks.csv"
+    marks = list(csv.DictReader(open(marks_p, encoding="utf-8"))) if marks_p.exists() else []
+    found += buy_vs_avoid_problems(rows, reg, calls, marks)
     print("\n".join(found) if found else f"triggers: {len(rows)} rows, no problems")
     sys.exit(1 if found else 0)
 

@@ -427,3 +427,4 @@ date,ticker,reason,supply_type,takeable_at_call,status,status_date,status_reason
 2026-11-27,RAIN,Reverse merger values Rain at $20M vs $180M for Tensor Networks,deal_dilution,no,active,2026-11-27,,,research/daily/2026-11-27.md (backfill 10-24 Nov)
 2026-11-27,AEMD,Reverse merger,deal_dilution,no,active,2026-11-27,,,research/daily/2026-11-27.md (backfill 10-24 Nov)
 2026-11-27,CZZL,"3,030,000-share offering plus a 454,500 option after a 1:25 consolidation",ongoing_supply,no,active,2026-11-27,,,research/daily/2026-11-27.md (backfill 10-24 Nov)
+2026-11-27,ZONE,Going-concern doubt plus a $750M Cantor/Curvature at-the-market programme (May 2026) against a ~$30M company; the 25 Nov research missed the ATM,ongoing_supply,yes,active,2026-11-27,"Not a public DOWN call: an outside holder (Field, 9.48%) says he may bid for the company; recorded after UP call #20 was stopped out (rule 2026-11-27)",,research/daily/2026-11-27.md

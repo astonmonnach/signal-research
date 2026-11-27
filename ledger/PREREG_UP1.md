@@ -31,3 +31,6 @@ A name the research run made WATCH (or better), with a dated trigger row in ledg
 - After 20 closed UP1 calls: the average return, the share that made money, and the average against IWM, all before and after a 3.5% round-trip cost.
 - Real money is the trader's own decision at any time; the record counts the rule, not his trades.
 - Every call stays on the record, wrong ones included.
+
+## Note added 27 Nov 2026 (after call #20)
+- Call #20 ZONE was stopped out on day one. The 25 Nov research had missed a $750M ATM next to going-concern doubt, so ZONE should never have been WATCH. From 27 Nov, research rule 2026-11-27 applies to WATCH verdicts: a long must pass our AVOID tests first. This changes how a name qualifies as WATCH, not the UP1 entry or exit numbers. Calls #19 and #20 are judged as they were made.
