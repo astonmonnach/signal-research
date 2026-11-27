@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `tender_issuer_buyback` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $10.07 (2026-11-25, ledger) · 1d +0.0%, 5d +1.5%, 20d +11.8% (market context, 2026-11-25)
-- **Since first found:** **+9.0%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +1.7% vs IWM -3.9% = **+5.6 pts** vs IWM; direction 0, tracked only (15 days)
+- **Latest price:** $10.21 (2026-11-27, ledger) · 1d +1.4%, 5d +2.4%, 20d +9.8% (market context, 2026-11-27)
+- **Since first found:** **+10.5%** (found 2026-11-09 via `8k_special_dividend` at $9.24). From the next open $9.90: +3.1% vs IWM -2.4% = **+5.5 pts** vs IWM; direction 0, tracked only (17 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 30 Nov 2026: CCAP: record date for the final $0.03 special dividend (WATCH T023)
   - Sun 31 Jan 2027: CCAP: T023 deadline, check the buyback and Sun Life buying in the filings
@@ -35,5 +35,5 @@ Every [ledger](../ledger/LEDGER.md) row for CCAP ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $10.07 | +9.0% | +1.7% | -3.9% |  | 15 | live |
-| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $10.07 | -3.0% | -1.8% | -5.0% |  | 14 | live |
+| 2026-11-09 | `8k_special_dividend` | 0 | +1.2% | -1.5% | $1.7M | $9.24 | $9.90 | $10.21 | +10.5% | +3.1% | -2.4% |  | 17 | live |
+| 2026-11-10 | `tender_issuer_buyback` | 0 | -1.9% | +12.3% | $1.9M | $10.38 | $10.25 | $10.21 | -1.6% | -0.4% | -3.5% |  | 16 | live |

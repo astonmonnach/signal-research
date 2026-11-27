@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-25 (daily research 25 Nov (research/daily/2026-11-25.md))
-- **Latest price:** $3.75 (2026-11-25, ledger) · 1d +4.5%, 5d +25.8%, 20d -34.2% (market context, 2026-11-25)
-- **Since first found:** **-34.2%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -23.6% vs IWM -4.7% = **-19.0 pts** vs IWM; direction -1 → excess +19.0% (26 days)
+- **Latest price:** $3.51 (2026-11-27, ledger) · 1d -6.3%, 5d +11.9%, 20d -38.3% (market context, 2026-11-27)
+- **Since first found:** **-38.4%** (found 2026-10-29 via `8k_reverse_split` at $5.70). From the next open $4.91: -28.5% vs IWM -3.2% = **-25.3 pts** vs IWM; direction -1 → excess +25.3% (28 days)
   - 2 more ledger rows: see Performance since found
-- **Peers / sympathy:** solo_move: ZONE +25.8% 5d vs peer median +2.4%; peers didn't move with it. Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (self 5d +11.9% vs peer median +6.1%). Peer groups: SIC 2842 (1) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 24 Feb 2027: ZONE: T027 deadline (Jacob Field 9.48%; UP call #20)
   - Fri 2 Apr 2027: ZONE: $100M Texas project contribution due (if unpaid, only its project interest is diluted)
@@ -34,6 +34,6 @@ Every [ledger](../ledger/LEDGER.md) row for ZONE ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.75 | -34.2% | -23.6% | -4.7% | +19.0% | 26 | live |
-| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.75 | +4.5% | +10.9% | +2.1% | +8.8% | 0 | live |
-| 2026-11-25 | `holder_13d` | 0 | +14.3% | +4.5% | $1.1M | $3.75 |  | $3.75 |  |  |  |  |  | pending |
+| 2026-10-29 | `8k_reverse_split` | -1 | +0.0% | +0.0% | $397k | $5.70 | $4.91 | $3.51 | -38.4% | -28.5% | -3.2% | +25.3% | 28 | live |
+| 2026-11-24 | `activist_13d` | +1 | +9.5% | +4.1% | $1.1M | $3.59 | $3.38 | $3.51 | -2.2% | +3.9% | +3.7% | +0.1% | 2 | live |
+| 2026-11-25 | `holder_13d` | 0 | +14.3% | +4.5% | $1.1M | $3.75 | $4.04 | $3.51 | -6.4% | -13.1% | +0.4% |  | 0 | live |

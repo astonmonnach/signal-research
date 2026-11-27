@@ -6,9 +6,9 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `strategic_placement` logged 2026-10-20 (daily research 20 Oct (research/daily/2026-10-20.md))
-- **Latest price:** $2.47 (2026-11-25, ledger) · 1d +5.1%, 5d -14.8%, 20d -43.9% (market context, 2026-11-25)
-- **Since first found:** **-42.6%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -43.0% vs IWM -2.9% = **-40.1 pts** vs IWM; direction 0, tracked only (35 days)
-- **Peers / sympathy:** solo_move: BMM -14.8% 5d vs peer median -2.9%; peers didn't move with it. Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Latest price:** $2.63 (2026-11-27, ledger) · 1d +6.5%, 5d -3.7%, 20d -35.4% (market context, 2026-11-27)
+- **Since first found:** **-38.8%** (found 2026-10-20 via `strategic_placement` at $4.30). From the next open $4.33: -39.3% vs IWM -1.4% = **-37.9 pts** vs IWM; direction 0, tracked only (37 days)
+- **Peers / sympathy:** no flag (self 5d -3.7% vs peer median +3.3%). Peer groups: SIC 1000 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
 
@@ -44,4 +44,4 @@ Every [ledger](../ledger/LEDGER.md) row for BMM ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.47 | -42.6% | -43.0% | -2.9% |  | 35 | live |
+| 2026-10-20 | `strategic_placement` | 0 | -10.8% | +0.2% | $1.2M | $4.30 | $4.33 | $2.63 | -38.8% | -39.3% | -1.4% |  | 37 | live |

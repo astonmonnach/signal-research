@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `holder_buying` logged 2026-11-06 (daily research 6 Nov (research/daily/2026-11-06.md))
-- **Latest price:** $3.69 (2026-11-25, ledger)
-- **Since first found:** **-1.3%** (found 2026-11-06 via `holder_buying` at $3.74). From the next open $3.90: -5.4% vs IWM -3.1% = **-2.3 pts** vs IWM; direction 0, tracked only (16 days)
+- **Latest price:** $3.82 (2026-11-27, ledger)
+- **Since first found:** **+2.2%** (found 2026-11-06 via `holder_buying` at $3.74). From the next open $3.90: -2.0% vs IWM -1.6% = **-0.4 pts** vs IWM; direction 0, tracked only (18 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -27,5 +27,5 @@ Every [ledger](../ledger/LEDGER.md) row for COUR ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-06 | `holder_buying` | 0 | -19.5% | -0.3% | $36.0M | $3.74 | $3.90 | $3.69 | -1.3% | -5.4% | -3.1% |  | 16 | live |
-| 2026-11-13 | `activist_13d` | +1 | -5.1% | -1.4% | $36.0M | $3.51 | $3.50 | $3.69 | +5.1% | +5.4% | -2.6% | +8.1% | 9 | live |
+| 2026-11-06 | `holder_buying` | 0 | -19.5% | -0.3% | $36.0M | $3.74 | $3.90 | $3.82 | +2.2% | -2.0% | -1.6% |  | 18 | live |
+| 2026-11-13 | `activist_13d` | +1 | -5.1% | -1.4% | $36.0M | $3.51 | $3.50 | $3.82 | +8.9% | +9.2% | -1.1% | +10.3% | 11 | live |

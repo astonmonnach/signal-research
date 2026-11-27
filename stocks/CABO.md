@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `distress` logged 2026-11-01 (daily research 2 Nov, written 1 Nov (research/daily/2026-11-02.md))
-- **Latest price:** $1.80 (2026-11-25, ledger)
-- **Since first found:** **-67.0%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -66.4% vs IWM -4.5% = **-61.8 pts** vs IWM; direction 0, tracked only (23 days)
+- **Latest price:** $2.03 (2026-11-27, ledger)
+- **Since first found:** **-62.8%** (found 2026-11-01 via `distress` at $5.46). From the next open $5.35: -62.1% vs IWM -3.1% = **-59.0 pts** vs IWM; direction 0, tracked only (25 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -31,4 +31,4 @@ Every [ledger](../ledger/LEDGER.md) row for CABO ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $1.80 | -67.0% | -66.4% | -4.5% |  | 23 | live |
+| 2026-11-01 | `distress` | 0 | -5.2% | +2.6% | $8.5M | $5.46 | $5.35 | $2.03 | -62.8% | -62.1% | -3.1% |  | 25 | live |

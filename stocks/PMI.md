@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_resale` logged 2026-10-26 (daily research 26 Oct (research/daily/2026-10-26.md))
-- **Latest price:** $5.95 (2026-11-25, ledger)
-- **Since first found:** **-16.1%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -16.7% vs IWM -2.6% = **-14.0 pts** vs IWM; direction -1 → excess +14.0% (30 days)
+- **Latest price:** $6.38 (2026-11-27, ledger)
+- **Since first found:** **-10.0%** (found 2026-10-23 via `8k_reverse_split` at $7.09). From the next open $7.14: -10.6% vs IWM -1.1% = **-9.5 pts** vs IWM; direction -1 → excess +9.5% (32 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for PMI ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $5.95 | -16.1% | -16.7% | -2.6% | +14.0% | 30 | live |
-| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $5.95 | -7.5% | -11.1% | -3.3% |  | 29 | live |
-| 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $5.95 | -24.2% | -25.6% | -3.6% | +22.0% | 12 | live |
+| 2026-10-23 | `8k_reverse_split` | -1 | -26.3% | -3.8% | $6.3M | $7.09 | $7.14 | $6.38 | -10.0% | -10.6% | -1.1% | +9.5% | 32 | live |
+| 2026-10-26 | `setup_supply_resale` | 0 | -44.4% | -9.3% | $6.3M | $6.43 | $6.69 | $6.38 | -0.8% | -4.6% | -1.8% |  | 31 | live |
+| 2026-11-12 | `registration_effective` | -1 | +11.8% | -2.4% | $2.7M | $7.85 | $8.00 | $6.38 | -18.7% | -20.2% | -2.1% | +18.1% | 14 | live |

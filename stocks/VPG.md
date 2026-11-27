@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
-- **Latest price:** $44.49 (2026-11-25, ledger)
-- **Since first found:** found 2026-11-26 via `setup_supply_atm` at $44.49; the ledger enters it at the next session's open (pending)
+- **Latest price:** $45.68 (2026-11-27, ledger)
+- **Since first found:** **+2.7%** (found 2026-11-26 via `setup_supply_atm` at $44.49). From the next open $46.64: -2.1% vs IWM +0.4% = **-2.5 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -25,4 +25,4 @@ Every [ledger](../ledger/LEDGER.md) row for VPG ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | `setup_supply_atm` | 0 | -12.7% | +5.0% | $17.7M | $44.49 |  | $44.49 |  |  |  |  |  | pending |
+| 2026-11-26 | `setup_supply_atm` | 0 | -12.7% | +5.0% | $17.7M | $44.49 | $46.64 | $45.68 | +2.7% | -2.1% | +0.4% |  | 0 | live |

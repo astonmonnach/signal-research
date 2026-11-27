@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `deal_acquirer` logged 2026-10-06 (daily research 6 Oct (research/daily/2026-10-06.md))
-- **Latest price:** $144.82 (2026-11-25, ledger)
-- **Since first found:** **+3.0%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: +2.8% vs IWM -5.5% = **+8.3 pts** vs IWM; direction 0, tracked only (50 days)
+- **Latest price:** $146.85 (2026-11-27, ledger)
+- **Since first found:** **+4.4%** (found 2026-10-05 via `8k_merger_agreement` at $140.61). From the next open $140.83: +4.3% vs IWM -4.0% = **+8.3 pts** vs IWM; direction 0, tracked only (52 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -29,8 +29,8 @@ Every [ledger](../ledger/LEDGER.md) row for CHRW ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $144.82 | +3.0% | +2.8% | -5.5% |  | 50 | live |
-| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $144.82 | +7.2% | +7.1% | -3.4% |  | 49 | live |
-| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $144.82 | +13.5% | +12.5% | -4.8% |  | 27 | live |
-| 2026-11-04 | `8k_merger_agreement` | 0 | -7.0% | +0.2% | $277.7M | $133.84 | $134.06 | $144.82 | +8.2% | +8.0% | -5.2% |  | 20 | live |
-| 2026-11-20 | `8k_merger_agreement` | 0 | +2.6% | -2.9% | $273.6M | $134.00 | $136.47 | $144.82 | +8.1% | +6.1% | +1.1% |  | 2 | live |
+| 2026-10-05 | `8k_merger_agreement` | 0 | +7.2% | -10.8% | $271.5M | $140.61 | $140.83 | $146.85 | +4.4% | +4.3% | -4.0% |  | 52 | live |
+| 2026-10-06 | `deal_acquirer` | 0 | -5.1% | -4.0% | $288.7M | $135.05 | $135.25 | $146.85 | +8.7% | +8.6% | -1.9% |  | 51 | live |
+| 2026-10-28 | `8k_merger_agreement` | 0 | +2.1% | -11.1% | $327.8M | $127.60 | $128.71 | $146.85 | +15.1% | +14.1% | -3.3% |  | 29 | live |
+| 2026-11-04 | `8k_merger_agreement` | 0 | -7.0% | +0.2% | $277.7M | $133.84 | $134.06 | $146.85 | +9.7% | +9.5% | -3.8% |  | 22 | live |
+| 2026-11-20 | `8k_merger_agreement` | 0 | +2.6% | -2.9% | $273.6M | $134.00 | $136.47 | $146.85 | +9.6% | +7.6% | +2.6% |  | 4 | live |

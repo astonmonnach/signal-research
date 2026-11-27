@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_buy` logged 2026-11-13 (daily research 13 Nov (research/daily/2026-11-13.md))
-- **Latest price:** $3.90 (2026-11-25, ledger)
-- **Since first found:** **-8.0%** (found 2026-11-13 via `insider_buy` at $4.24). From the next open $4.14: -5.8% vs IWM -2.6% = **-3.2 pts** vs IWM; direction 0, tracked only (9 days)
+- **Latest price:** $4.10 (2026-11-27, ledger)
+- **Since first found:** **-3.3%** (found 2026-11-13 via `insider_buy` at $4.24). From the next open $4.14: -1.0% vs IWM -1.1% = **+0.1 pts** vs IWM; direction 0, tracked only (11 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Mon 1 Feb 2027: VISN: CEO Chuck Treadway steps down
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for VISN ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-13 | `insider_buy` | 0 | -26.0% | +6.0% | $41.8M | $4.24 | $4.14 | $3.90 | -8.0% | -5.8% | -2.6% |  | 9 | live |
+| 2026-11-13 | `insider_buy` | 0 | -26.0% | +6.0% | $41.8M | $4.24 | $4.14 | $4.10 | -3.3% | -1.0% | -1.1% |  | 11 | live |

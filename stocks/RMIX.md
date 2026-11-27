@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `insider_cluster` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
-- **Latest price:** $6.97 (2026-11-25, ledger)
-- **Since first found:** found 2026-11-25 via `activist_13d` at $6.97; the ledger enters it at the next session's open (pending)
+- **Latest price:** $6.37 (2026-11-27, ledger)
+- **Since first found:** **-8.6%** (found 2026-11-25 via `activist_13d` at $6.97). From the next open $7.09: -10.2% vs IWM +0.4% = **-10.6 pts** vs IWM; direction +1 → excess -10.6% (0 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for RMIX ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-25 | `activist_13d` | +1 | +15.9% | -0.6% | $7.9M | $6.97 |  | $6.97 |  |  |  |  |  | pending |
-| 2026-11-26 | `insider_cluster` | 0 | +15.9% | -0.6% | $7.9M | $6.97 |  | $6.97 |  |  |  |  |  | pending |
+| 2026-11-25 | `activist_13d` | +1 | +15.9% | -0.6% | $7.9M | $6.97 | $7.09 | $6.37 | -8.6% | -10.2% | +0.4% | -10.6% | 0 | live |
+| 2026-11-26 | `insider_cluster` | 0 | +15.9% | -0.6% | $7.9M | $6.97 | $7.09 | $6.37 | -8.6% | -10.2% | +0.4% |  | 0 | live |

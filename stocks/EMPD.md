@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `tender_issuer_buyback` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
-- **Latest price:** $2.19 (2026-11-25, ledger)
-- **Since first found:** found 2026-11-26 via `tender_issuer_buyback` at $2.19; the ledger enters it at the next session's open (pending)
+- **Latest price:** $2.41 (2026-11-27, ledger)
+- **Since first found:** **+10.1%** (found 2026-11-26 via `tender_issuer_buyback` at $2.19). From the next open $2.33: +3.4% vs IWM +0.4% = **+3.0 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for EMPD ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | `tender_issuer_buyback` | 0 | +8.1% | +2.8% | $869k | $2.19 |  | $2.19 |  |  |  |  |  | pending |
+| 2026-11-26 | `tender_issuer_buyback` | 0 | +8.1% | +2.8% | $869k | $2.19 | $2.33 | $2.41 | +10.1% | +3.4% | +0.4% |  | 0 | live |

@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-21 (daily research 21 Nov (research/daily/2026-11-21.md))
-- **Latest price:** $23.70 (2026-11-25, ledger) · 1d -1.0%, 5d -6.3%, 20d -14.3% (market context, 2026-11-25)
-- **Since first found:** **+0.4%** (found 2026-11-20 via `activist_13d` at $23.60). From the next open $24.56: -3.5% vs IWM +1.1% = **-4.6 pts** vs IWM; direction +1 → excess -4.6% (2 days)
+- **Latest price:** $24.14 (2026-11-27, ledger) · 1d +1.9%, 5d -2.6%, 20d -9.8% (market context, 2026-11-27)
+- **Since first found:** **+2.3%** (found 2026-11-20 via `activist_13d` at $23.60). From the next open $24.56: -1.7% vs IWM +2.6% = **-4.3 pts** vs IWM; direction +1 → excess -4.3% (4 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-25)
+- **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Wed 26 May 2027: DXYZ: 2027 director nomination window opens (WATCH T025, Saba 7.58%)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -30,5 +30,5 @@ Every [ledger](../ledger/LEDGER.md) row for DXYZ ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-20 | `activist_13d` | +1 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $23.70 | +0.4% | -3.5% | +1.1% | -4.6% | 2 | live |
-| 2026-11-21 | `holder_13d` | 0 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $23.70 | +0.4% | -3.5% | +1.1% |  | 2 | live |
+| 2026-11-20 | `activist_13d` | +1 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.14 | +2.3% | -1.7% | +2.6% | -4.3% | 4 | live |
+| 2026-11-21 | `holder_13d` | 0 | -2.0% | -4.8% | $37.0M | $23.60 | $24.56 | $24.14 | +2.3% | -1.7% | +2.6% |  | 4 | live |
