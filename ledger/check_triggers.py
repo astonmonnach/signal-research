@@ -100,6 +100,9 @@ REG_STATUS = {"active", "reversed", "expired", "reclassified"}
 REG_TYPES = {"ongoing_supply", "one_off_offering", "warrant_supply", "distress", "holder_selling", "deal_dilution", "kill", "other"}
 
 
+PUBLIC_TYPES = {"ongoing_supply", "warrant_supply", "distress"}
+
+
 def register_problems(reg_rows, calls):
     out = []
     for r in reg_rows:
@@ -110,6 +113,13 @@ def register_problems(reg_rows, calls):
             out.append(f"{where}: supply_type {r.get('supply_type')!r} is not one of {sorted(REG_TYPES)}")
         elif r.get("supply_type") == "kill" and r.get("status") == "active":
             out.append(f"{where}: a killed long thesis is 'dropped, no call', not an active AVOID (rule 2026-10-27)")
+        # Rule 2026-11-27b (ENVX): a takeable AVOID of a public-call type with no public call must say why, or the
+        # call/no-call choice can't be audited. ENVX (warrant supply, takeable) said only "Register only" and fell 60%.
+        reason = (r.get("status_reason") or "").strip().lower()
+        if (r.get("status") == "active" and r.get("takeable_at_call") == "yes" and r.get("supply_type") in PUBLIC_TYPES
+                and not r.get("public_call_id") and (not reason or reason == "register only"
+                                                     or reason.startswith("no later note"))):
+            out.append(f"{where}: takeable {r.get('supply_type')} AVOID with no public call and no reason why (rule 2026-11-27b)")
     called = {r.get("public_call_id") for r in reg_rows if r.get("public_call_id")}
     for c in calls:
         if str(c.get("direction")) == "-1" and c.get("id") not in called:
