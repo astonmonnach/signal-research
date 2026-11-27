@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_atm` logged 2026-11-10 (daily research 10 Nov (research/daily/2026-11-10.md))
-- **Latest price:** $1.19 (2026-11-27, ledger)
-- **Since first found:** **-41.4%** (found 2026-10-21 via `registration_effective` at $2.03). From the next open $2.00: -40.5% vs IWM -0.8% = **-39.7 pts** vs IWM; direction -1 → excess +39.7% (36 days)
+- **Latest price:** $1.22 (2026-11-27, ledger)
+- **Since first found:** **-39.9%** (found 2026-10-21 via `registration_effective` at $2.03). From the next open $2.00: -39.0% vs IWM -0.4% = **-38.6 pts** vs IWM; direction -1 → excess +38.6% (36 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -28,5 +28,5 @@ Every [ledger](../ledger/LEDGER.md) row for DRK ([rules](../ledger/RULES.md)): f
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-21 | `registration_effective` | -1 | -10.2% | +0.0% | $469k | $2.03 | $2.00 | $1.19 | -41.4% | -40.5% | -0.8% | +39.7% | 36 | live |
-| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.19 | -27.2% | -29.6% | -3.7% |  | 16 | live |
+| 2026-10-21 | `registration_effective` | -1 | -10.2% | +0.0% | $469k | $2.03 | $2.00 | $1.22 | -39.9% | -39.0% | -0.4% | +38.6% | 36 | live |
+| 2026-11-10 | `setup_supply_atm` | 0 | -1.7% | -3.8% | $195k | $1.63 | $1.69 | $1.22 | -25.4% | -27.8% | -3.3% |  | 16 | live |

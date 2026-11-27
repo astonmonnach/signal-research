@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
-- **Latest price:** $11.31 (2026-11-27, ledger)
-- **Since first found:** **+0.4%** (found 2026-11-26 via `merger_arb` at $11.26). From the next open $11.29: +0.2% vs IWM +0.2% = **-0.1 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $11.30 (2026-11-27, ledger)
+- **Since first found:** **+0.4%** (found 2026-11-26 via `merger_arb` at $11.26). From the next open $11.21: +0.8% vs IWM +0.7% = **+0.1 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 11 Dec 2026: PERI: go-shop ends (40 days from 1 Nov; arith); Affle $11.70 cash, tracked
@@ -29,4 +29,4 @@ Every [ledger](../ledger/LEDGER.md) row for PERI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | `merger_arb` | 0 | +2.8% | +0.5% | $15.4M | $11.26 | $11.29 | $11.31 | +0.4% | +0.2% | +0.2% |  | 0 | live |
+| 2026-11-26 | `merger_arb` | 0 | +2.8% | +0.5% | $15.4M | $11.26 | $11.21 | $11.30 | +0.4% | +0.8% | +0.7% |  | 0 | live |

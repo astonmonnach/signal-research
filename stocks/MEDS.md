@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `setup_supply_deal_dilution` logged 2026-10-27 (daily research 27 Oct (research/daily/2026-10-27.md))
-- **Latest price:** $1.59 (2026-11-27, ledger)
-- **Since first found:** **-42.4%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -41.3% vs IWM -1.6% = **-39.7 pts** vs IWM; direction 0, tracked only (37 days)
+- **Latest price:** $1.60 (2026-11-27, ledger)
+- **Since first found:** **-41.8%** (found 2026-10-20 via `8k_lock_up` at $2.75). From the next open $2.70: -40.7% vs IWM -1.2% = **-39.6 pts** vs IWM; direction 0, tracked only (37 days)
   - 2 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -33,6 +33,6 @@ Every [ledger](../ledger/LEDGER.md) row for MEDS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $1.59 | -42.4% | -41.3% | -1.6% |  | 37 | live |
-| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $1.59 | -27.6% | -23.1% | -2.0% |  | 31 | live |
-| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $1.59 | -23.1% | -21.5% | -2.8% |  | 30 | live |
+| 2026-10-20 | `8k_lock_up` | 0 | -13.0% | +3.0% | $21.2M | $2.75 | $2.70 | $1.60 | -41.8% | -40.7% | -1.2% |  | 37 | live |
+| 2026-10-26 | `8k_tender_offer` | 0 | -15.2% | -1.8% | $14.8M | $2.19 | $2.06 | $1.60 | -26.9% | -22.3% | -1.6% |  | 31 | live |
+| 2026-10-27 | `setup_supply_deal_dilution` | 0 | -18.0% | -5.9% | $14.6M | $2.06 | $2.02 | $1.60 | -22.3% | -20.8% | -2.4% |  | 30 | live |

@@ -101,8 +101,8 @@
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `idea_catalyst` logged 2026-09-28 (first catalyst scan (X post 28 Sep))
-- **Latest price:** $5.41 (2026-11-27, ledger) · 1d +3.5%, 5d +10.7%, 20d -19.1% (market context, 2026-11-27)
-- **Since first found:** **-33.6%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -33.6% vs IWM -2.8% = **-30.8 pts** vs IWM; direction +1 → excess -30.8% (59 days)
+- **Latest price:** $5.48 (2026-11-27, ledger) · 1d +4.7%, 5d +12.0%, 20d -18.1% (market context, 2026-11-27)
+- **Since first found:** **-32.8%** (found 2026-09-28 via `idea_catalyst` at $8.15). From the next open $8.15: -32.8% vs IWM -2.4% = **-30.4 pts** vs IWM; direction +1 → excess -30.4% (59 days)
   - 1 more ledger row: see Performance since found
 - **Peers / sympathy:** no flag (no peer median) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
@@ -129,5 +129,5 @@ Every [ledger](../ledger/LEDGER.md) row for RYAM ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $5.41 | -33.6% | -33.6% | -2.8% | -30.8% | 59 | live |
-| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $5.41 | -21.6% | -13.5% | -4.1% | -9.4% | 23 | live |
+| 2026-09-28 | `idea_catalyst` | +1 | +2.8% | -4.9% | $6.4M | $8.15 | $8.15 | $5.48 | -32.8% | -32.8% | -2.4% | -30.4% | 59 | live |
+| 2026-11-03 | `8k_strategic_review` | +1 | +2.9% | +3.6% | $8.0M | $6.91 | $6.26 | $5.48 | -20.7% | -12.5% | -3.7% | -8.8% | 23 | live |

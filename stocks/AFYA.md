@@ -6,8 +6,8 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** `merger_arb` logged 2026-11-26 (daily research 26 Nov (research/daily/2026-11-26.md))
-- **Latest price:** $11.76 (2026-11-27, ledger)
-- **Since first found:** **+15.7%** (found 2026-11-26 via `merger_arb` at $10.16). From the next open $11.68: +0.6% vs IWM +0.2% = **+0.4 pts** vs IWM; direction 0, tracked only (0 days)
+- **Latest price:** $11.88 (2026-11-27, ledger)
+- **Since first found:** **+16.9%** (found 2026-11-26 via `merger_arb` at $10.16). From the next open $11.71: +1.4% vs IWM +0.7% = **+0.8 pts** vs IWM; direction 0, tracked only (0 days)
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
 - **Files:** [ledger](../ledger/LEDGER.md) · [all dossiers](README.md)
@@ -26,4 +26,4 @@ Every [ledger](../ledger/LEDGER.md) row for AFYA ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | `merger_arb` | 0 | -5.4% | +4.3% | $3.4M | $10.16 | $11.68 | $11.76 | +15.7% | +0.6% | +0.2% |  | 0 | live |
+| 2026-11-26 | `merger_arb` | 0 | -5.4% | +4.3% | $3.4M | $10.16 | $11.71 | $11.88 | +16.9% | +1.4% | +0.7% |  | 0 | live |

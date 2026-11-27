@@ -6,10 +6,10 @@ _Deep dive pending._
 ## Status
 
 - **Tracked because:** [watchlist](../watch/watchlist.json); `holder_13d` logged 2026-11-24 (daily research 24 Nov (research/daily/2026-11-24.md))
-- **Latest price:** $2.28 (2026-11-27, ledger) · 1d +13.1%, 5d +17.2%, 20d +7.3% (market context, 2026-11-27)
-- **Since first found:** **+11.3%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +16.4% vs IWM +3.2% = **+13.2 pts** vs IWM; direction +1 → excess +13.2% (3 days)
+- **Latest price:** $2.32 (2026-11-27, ledger) · 1d +14.8%, 5d +19.0%, 20d +8.9% (market context, 2026-11-27)
+- **Since first found:** **+13.2%** (found 2026-11-23 via `activist_13d` at $2.05). From the next open $1.96: +18.4% vs IWM +3.6% = **+14.7 pts** vs IWM; direction +1 → excess +14.7% (3 days)
   - 1 more ledger row: see Performance since found
-- **Peers / sympathy:** solo_move: MNTS +17.2% 5d vs peer median -0.1%; peers didn't move with it. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-27)
+- **Peers / sympathy:** solo_move: MNTS +19.0% 5d vs peer median +1.1%; peers didn't move with it. Peer groups: SIC 3760 (8) ([market context](../watch/context/latest.json), 2026-11-27)
 - **Next dated events** ([calendar](../calendar/catalyst-dates.ics)):
   - Fri 4 Dec 2026: MNTS: record date for the 10% rights plan (Burkle group grandfathered but blocked from buying more; UP call #19)
   - Tue 23 Feb 2027: MNTS: T026 deadline (Burkle OA3 10.6%; wrong on a close below $1.86)
@@ -32,5 +32,5 @@ Every [ledger](../ledger/LEDGER.md) row for MNTS ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.28 | +11.3% | +16.4% | +3.2% | +13.2% | 3 | live |
-| 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.04 | $2.28 | +11.8% | +11.8% | +3.5% |  | 2 | live |
+| 2026-11-23 | `activist_13d` | +1 | +8.3% | +5.1% | $1.9M | $2.05 | $1.96 | $2.32 | +13.2% | +18.4% | +3.6% | +14.7% | 3 | live |
+| 2026-11-24 | `holder_13d` | 0 | +5.1% | -0.5% | $1.9M | $2.04 | $2.04 | $2.32 | +13.7% | +13.7% | +4.0% |  | 2 | live |

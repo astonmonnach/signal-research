@@ -26,7 +26,7 @@ Cash was $6.5M at 30 Jun against $21.7M of burn in the first half, and the compa
 
 - **Tracked because:** `setup_supply_deficiency` logged 2026-10-04 (KNRX-like screen)
 - **Latest price:** $1.27 (2026-11-27, ledger)
-- **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $1.25: +2.0% vs IWM +0.2% = **+1.8 pts** vs IWM; direction 0, tracked only (0 days)
+- **Since first found:** **** (found 2026-10-04 via `setup_supply_deficiency`). From the next open $1.25: +1.6% vs IWM +0.7% = **+0.9 pts** vs IWM; direction 0, tracked only (0 days)
   - 4 more ledger rows: see Performance since found
 - **Peers / sympathy:** not in the market-context universe ([watch/context/latest.json](../watch/context/latest.json))
 - **Next dated events:** none in the [calendar](../calendar/catalyst-dates.ics)
@@ -55,8 +55,8 @@ Every [ledger](../ledger/LEDGER.md) row for SNTI ([rules](../ledger/RULES.md)): 
 
 | found | category | dir | 5d before | found day | $vol/day | found @ | entry @ | now | since found | since entry | IWM | excess | days | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $1.25 | $1.27 |  | +2.0% | +0.2% |  | 0 | live |
-| 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +2.0% | +0.2% |  | 0 | live |
-| 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +2.0% | +0.2% |  | 0 | live |
-| 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +2.0% | +0.2% |  | 0 | live |
-| 2026-11-18 | `8k_reverse_split` | -1 |  |  |  |  | $1.25 | $1.27 |  | +2.0% | +0.2% | -1.8% | 0 | live |
+| 2026-10-04 | `setup_supply_deficiency` | 0 |  |  |  |  | $1.25 | $1.27 |  | +1.6% | +0.7% |  | 0 | live |
+| 2026-10-15 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +1.6% | +0.7% |  | 0 | live |
+| 2026-10-26 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +1.6% | +0.7% |  | 0 | live |
+| 2026-10-27 | `8k_merger_agreement` | 0 |  |  |  |  | $1.25 | $1.27 |  | +1.6% | +0.7% |  | 0 | live |
+| 2026-11-18 | `8k_reverse_split` | -1 |  |  |  |  | $1.25 | $1.27 |  | +1.6% | +0.7% | -0.9% | 0 | live |
