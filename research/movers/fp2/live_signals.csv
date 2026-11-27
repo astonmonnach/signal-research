@@ -75,3 +75,4 @@ signal_date,run_utc,late,ticker,name,signal,price_at_run,volume_so_far,avg20_vol
 2026-11-25,03:09,False,EMPD,Empery Digital Inc. Common stock,S2,1.9,2153214,430260,5.0,564758,,,,,,,,open
 2026-11-25,03:09,False,MEDS,DataMeds AI Inc. Common Stock,S2,1.66,60441331,10263540,5.89,682100,,,,,,,,open
 2026-11-26,02:25,False,TRON,Tron Inc. Common Stock,S2,1.41,3969253,781625,5.08,823252,,,,,,,,open
+2026-11-27,02:23,False,FINV,FinVolution Group American Depositary Shares,S2,2.445,5751018,1075480,5.35,2229019,,,,,,,,open
