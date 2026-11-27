@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CALLS = ROOT / "calls/CALLS.csv"
 NOTIONAL = 1000.0
 _cache = {}
+HALF_DAYS = {"2026-11-27", "2026-12-24", "2027-07-02", "2027-11-26", "2027-12-24"}   # NYSE early closes (13:00 New York)
 
 
 def bars(t):
@@ -42,7 +43,9 @@ def bars(t):
     # or a review date or exit line would be decided on an unfinished bar. Drop today's bar until 16:15 New York.
     from zoneinfo import ZoneInfo
     ny = dt.datetime.now(ZoneInfo("America/New_York"))
-    if b and b[-1][0] == ny.date() and (ny.hour, ny.minute) < (16, 15):
+    # Half days (NYSE closes 13:00 New York) are final from 13:15, so Friday's weekly can run after the early close.
+    final_at = (13, 15) if ny.date().isoformat() in HALF_DAYS else (16, 15)
+    if b and b[-1][0] == ny.date() and (ny.hour, ny.minute) < final_at:
         b = b[:-1]
     b = split_adjust(t, b)
     _cache[t] = b; time.sleep(0.2)
@@ -239,22 +242,26 @@ def weekly(marked):
             f"({sum(m['ret_pct'] > 0 for m in closed)} right, {sum(m['ret_pct'] <= 0 for m in closed)} wrong). "
             f"Average vs {tag('IWM')} {fmt(mean(xs), ' pts')}, beat it {sum(x > 0 for x in xs)}/{len(xs)}. "
             f"Vs each call's control {fmt(mean(cs), ' pts')}. {young} of {len(live)} are under 4 weeks old. Losers stay up.")
-    thread, cur = [head], ""
-    for s in [line(m) for m in live]:
-        if len(cur) + len(s) + 1 > 270:
-            thread.append(cur); cur = ""
-        cur = (cur + "\n" + s).strip()
-    thread.append(cur)
+    def pack(items, sep, limit=280):
+        """Join items into posts of at most `limit` characters, never emitting an empty post (27 Nov 2026: the old
+        loop emitted an empty post and a 380-character 'Closed this week' line once four calls closed in a week)."""
+        out, cur = [], ""
+        for s in items:
+            if cur and len(cur) + len(sep) + len(s) > limit:
+                out.append(cur); cur = ""
+            cur = cur + sep + s if cur else s
+        if cur:
+            out.append(cur)
+        return out
+
+    thread = [head] + pack([line(m) for m in live], "\n", 270)
     week = []
-    if shut: week.append("Closed this week: " + "; ".join(f"{tag(m['ticker'])}, call {fmt(m['ret_pct'])} ({m['status'][8:]})" for m in shut) + ".")
+    if shut:
+        items = [f"{tag(m['ticker'])}, call {fmt(m['ret_pct'])} ({m['status'][8:]})" for m in shut]
+        week += pack(["Closed this week: " + items[0]] + items[1:], "; ")
     if new: week.append("New this week: " + ", ".join(f"#{m['id']} {tag(m['ticker'])}" for m in new) + ".")
     if near: week.append("Closest to the exit line: " + ", ".join(f"{tag(m['ticker'])} {to_line(m):.0f}% away" for m in near) + ".")
-    cur = ""
-    for s in week:
-        if len(cur) + len(s) + 1 > 280:
-            thread.append(cur); cur = ""
-        cur = (cur + " " + s).strip()
-    if cur: thread.append(cur)
+    thread += pack(week, " ")
     thread.append("DOWN-call stocks usually fall, so the real test is each call vs its control. "
                   "Every call stays up, losers included.")
     assert all(len(t) <= 280 for t in thread), [len(t) for t in thread]

@@ -1781,4 +1781,28 @@ DTEND;VALUE=DATE:20261208
 SUMMARY:LAB: CVR special dividend record date (paid 11 Dec if the Treeline merger closes\; AVOID register)
 DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1162194/000114036126045589/ef20086510_ex99-1.htm
 END:VEVENT
+BEGIN:VEVENT
+UID:be1b93761cff668b9808d53947d4ab65@signal-lab
+DTSTAMP:20261127T190000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:CALLS: end date of DOWN calls #21 SPCE (exit above $1.47) and #22 CV (exit above $7.70)
+DESCRIPTION:calls/CALLS.csv
+END:VEVENT
+BEGIN:VEVENT
+UID:80aee2a59bff4a256b5fa50a5e0698af@signal-lab
+DTSTAMP:20261127T190000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:VENU: debenture installment\; a miss makes conversion variable (AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1770501/000149315226053843/form8-k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:49c7dfcf42268a8c0faf39d51d5307f0@signal-lab
+DTSTAMP:20261127T190000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:SEV: ATM and equity line may resume (60 days after the 12 Nov close\; AVOID register)
+DESCRIPTION:https://www.sec.gov/Archives/edgar/data/1786471/000149315226051042/form8-k.htm
+END:VEVENT
 END:VCALENDAR
